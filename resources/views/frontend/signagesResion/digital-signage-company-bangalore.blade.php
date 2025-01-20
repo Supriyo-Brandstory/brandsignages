@@ -4,7 +4,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore1.svg')}}" alt="Digital Signage Manufacturer in Bangalore">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore1.webp')}}" alt="Digital Signage Manufacturer in Bangalore">
                 <div class="carousel-caption-custom">
                     <h1>Digital Signage Manufacturer in Bangalore</h1>
                     <button class="custom-btn">Know More</button>
@@ -22,7 +22,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/digitalsign-bangalore2.svg')}}" alt="Digital Signage Manufacturer in Bangalore" class="img-fluid">
+                    <img src="{{asset('frontend/Images/digitalsign-bangalore2.webp')}}" alt="Digital Signage Manufacturer in Bangalore" class="img-fluid">
                 </div>
             </div>
 
@@ -48,7 +48,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/digitalsign-bangalore3.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/digitalsign-bangalore3.webp')}}" class="why-card-img-top"
                         alt="Easy to Install">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Easy to Install</h3>
@@ -58,7 +58,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/digitalsign-bangalore4.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/digitalsign-bangalore4.webp')}}" class="why-card-img-top"
                         alt="Original Packing Screen with Versatile Compatibility">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Original Packing Screen with Versatile Compatibility</h3>
@@ -69,7 +69,7 @@
             <div class="col">
                 <div class="col-md-4">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/digitalsign-bangalore5.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/digitalsign-bangalore5.webp')}}" class="why-card-img-top"
                             alt="liable Design and Standardized Display">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">liable Design and Standardized Display</h3>
@@ -87,7 +87,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/digitalsign-bangalore3.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/digitalsign-bangalore3.webp')}}" class="why-card-img-top"
                                     alt="Easy to Install">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Easy to Install</h3>
@@ -97,7 +97,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/digitalsign-bangalore4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/digitalsign-bangalore4.webp')}}" class="why-card-img-top"
                                     alt="Original Packing Screen with Versatile Compatibility">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Original Packing Screen with Versatile Compatibility</h3>
@@ -107,7 +107,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/digitalsign-bangalore5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/digitalsign-bangalore5.webp')}}" class="why-card-img-top"
                                     alt="liable Design and Standardized Display">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">liable Design and Standardized Display</h3>
@@ -133,7 +133,7 @@
 
         <div class="col-lg-4">
             <div class="image-container position-relative">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore6.svg')}}" alt="Retail & BPO" class="w-100 h-100">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore6.webp')}}" alt="Retail & BPO" class="w-100 h-100">
                 <div class="overlay">
                     <h5 class="text-title">Retail & BPO</h5>
                     <p class="text-content">In the retail and BPO areas, digital signage displays assist in producing vibrant advertisements and immediate information notifications. From communicative digital standees Bangalore to lively LED digital signage, organizations can fascinate clients and line up interaction.</p>
@@ -145,7 +145,7 @@
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digitalsign-bangalore7.svg')}}" alt="Transport Industries" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/digitalsign-bangalore7.webp')}}" alt="Transport Industries" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Transport Industries</h5>
                             <p class="text-content">Transport centers such as airports, bus terminals, and railway stations utilize digital displays for timetables, declarations, and pathfinding. Rectangle digital signage and video walls are extraordinary for rendering transparent and engrossing messages to travelers.</p>
@@ -155,7 +155,7 @@
 
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digitalsign-bangalore8.svg')}}" alt="Video Walls" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/digitalsign-bangalore8.webp')}}" alt="Video Walls" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Video Walls</h5>
                             <p class="text-content">For influential branding and advertising, LED video walls are commonly utilized in malls, stadiums, and commercial occurrences. These wide-ranging signage displays provide unique contrast ratios and realistic illustrations, making them perfect for forming mesmerizing experiences.</p>
@@ -165,7 +165,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digitalsign-bangalore9.svg')}}" alt="Banking" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/digitalsign-bangalore9.webp')}}" alt="Banking" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Banking</h5>
                             <p class="text-content">Banks utilize digital signage solutions for depicting informational offers, strategy updates, and queue management. Sign boards, LCD digital signage, and touch screen kiosks smoothen information distribution, improving customer contentment.</p>
@@ -175,7 +175,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digitalsign-bangalore10.svg')}}" alt="White Boards for Education" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/digitalsign-bangalore10.webp')}}" alt="White Boards for Education" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">White Boards for Education</h5>
                             <p class="text-content">In educational establishments, digital signage boards are enlarged as communicative whiteboards. Furnished with signage software, they prop up content creation and prompt merger, making learning more engrossing.</p>
@@ -198,13 +198,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Brand Signages modified our retail store with their digital signage solutions. The LED digital signage has enhanced customer engagement considerably, making our outlet vibrant and user-friendly. <br> <br> </p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/digitalsign-bangalore11.svg')}}" alt="Amit Sharma" class="client-img">
+                            <img src="{{asset('frontend/Images/digitalsign-bangalore11.webp')}}" alt="Amit Sharma" class="client-img">
                             <div>
                                 <div class="client-name">Amit Sharma</div>
                             </div>
@@ -215,13 +215,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The digital standee Bangalore we bought is glossy, resistant, and easy to operate. It’s ideal for showcasing promotions in our outlet, fascinating more focus from consumers.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/digitalsign-bangalore12.svg')}}" alt="Priya" class="client-img">
+                            <img src="{{asset('frontend/Images/digitalsign-bangalore12.webp')}}" alt="Priya" class="client-img">
                             <div>
                                 <div class="client-name">Priya</div>
                             </div>
@@ -232,13 +232,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Their digital signage display in Bangalore is first-class. The rectangle digital signage and video walls are lively, competent, and have enhanced all-rounded brand presentation substantially.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/digitalsign-bangalore13.svg')}}" alt="Rahul Gupta" class="client-img">
+                            <img src="{{asset('frontend/Images/digitalsign-bangalore13.webp')}}" alt="Rahul Gupta" class="client-img">
                             <div>
                                 <div class="client-name">Rahul Gupta</div>
                             </div>
@@ -249,13 +249,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">From sign boards to touch screen kiosks, we got extraordinary signage displays for our transit company, which has considerably impacted the consumer experience and steerage.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/digitalsign-bangalore14.svg')}}" alt="Deepa Iyer" class="client-img">
+                            <img src="{{asset('frontend/Images/digitalsign-bangalore14.webp')}}" alt="Deepa Iyer" class="client-img">
                             <div>
                                 <div class="client-name">Deepa Iyer</div>
                             </div>
@@ -266,13 +266,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We’re intrigued with the digital signage software that permits us to handle our advertising displays seamlessly. Genuinely the finest digital signage company in Bangalore, providing dependable and effective solutions.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/digitalsign-bangalore15.svg')}}" alt="Karan Malhotra" class="client-img">
+                            <img src="{{asset('frontend/Images/digitalsign-bangalore15.webp')}}" alt="Karan Malhotra" class="client-img">
                             <div>
                                 <div class="client-name">Karan Malhotra</div>
                             </div>
@@ -289,13 +289,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Brand Signages modified our retail store with their digital signage solutions. The LED digital signage has enhanced customer engagement considerably, making our outlet vibrant and user-friendly. <br> <br> </p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/digitalsign-bangalore11.svg')}}" alt="Amit Sharma" class="client-img">
+                                        <img src="{{asset('frontend/Images/digitalsign-bangalore11.webp')}}" alt="Amit Sharma" class="client-img">
                                         <div>
                                             <div class="client-name">Amit Sharma</div>
                                         </div>
@@ -306,13 +306,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The digital standee Bangalore we bought is glossy, resistant, and easy to operate. It’s ideal for showcasing promotions in our outlet, fascinating more focus from consumers.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/digitalsign-bangalore12.svg')}}" alt="Priya" class="client-img">
+                                        <img src="{{asset('frontend/Images/digitalsign-bangalore12.webp')}}" alt="Priya" class="client-img">
                                         <div>
                                             <div class="client-name">Priya</div>
                                         </div>
@@ -323,13 +323,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Their digital signage display in Bangalore is first-class. The rectangle digital signage and video walls are lively, competent, and have enhanced all-rounded brand presentation substantially.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/digitalsign-bangalore13.svg')}}" alt="Rahul Gupta" class="client-img">
+                                        <img src="{{asset('frontend/Images/digitalsign-bangalore13.webp')}}" alt="Rahul Gupta" class="client-img">
                                         <div>
                                             <div class="client-name">Rahul Gupta</div>
                                         </div>
@@ -344,13 +344,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Their digital signage display in Bangalore is first-class. The rectangle digital signage and video walls are lively, competent, and have enhanced all-rounded brand presentation substantially.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/digitalsign-bangalore13.svg')}}" alt="Rahul Gupta" class="client-img">
+                                        <img src="{{asset('frontend/Images/digitalsign-bangalore13.webp')}}" alt="Rahul Gupta" class="client-img">
                                         <div>
                                             <div class="client-name">Rahul Gupta</div>
                                         </div>
@@ -361,13 +361,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">From sign boards to touch screen kiosks, we got extraordinary signage displays for our transit company, which has considerably impacted the consumer experience and steerage.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/digitalsign-bangalore14.svg')}}" alt="Deepa Iyer" class="client-img">
+                                        <img src="{{asset('frontend/Images/digitalsign-bangalore14.webp')}}" alt="Deepa Iyer" class="client-img">
                                         <div>
                                             <div class="client-name">Deepa Iyer</div>
                                         </div>
@@ -378,13 +378,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We’re intrigued with the digital signage software that permits us to handle our advertising displays seamlessly. Genuinely the finest digital signage company in Bangalore, providing dependable and effective solutions.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/digitalsign-bangalore15.svg')}}" alt="Karan Malhotra" class="client-img">
+                                        <img src="{{asset('frontend/Images/digitalsign-bangalore15.webp')}}" alt="Karan Malhotra" class="client-img">
                                         <div>
                                             <div class="client-name">Karan Malhotra</div>
                                         </div>
@@ -424,32 +424,32 @@
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore16.svg')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore16.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore17.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore18.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore19.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
         
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/steelsign-bangalore20.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/steelsign-bangalore20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore21.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore22.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore23.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
 

@@ -6,7 +6,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/indoor-signage.png')}}" alt="Indoor Signs">
+                <img src="{{asset('frontend/Images/indoor-signage.webp')}}" alt="Indoor Signs">
                 <div class="carousel-caption-custom">
                     <h1>Custom Indoor Signs Online </h1>
                     <button class="custom-btn">Know More</button>
@@ -24,7 +24,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/indoor-signage2.png')}}" alt="Indoor Signs" class="img-fluid">
+                    <img src="{{asset('frontend/Images/indoor-signage2.webp')}}" alt="Indoor Signs" class="img-fluid">
                 </div>
             </div>
             
@@ -51,7 +51,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/indoor-signage3.png')}}" alt="Indoor Signs" class="img-fluid">
+                    <img src="{{asset('frontend/Images/indoor-signage3.webp')}}" alt="Indoor Signs" class="img-fluid">
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
            
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/indoor-signage4.png')}}" class="why-card-img-top" alt="Durable Material">
+                    <img src="{{asset('frontend/Images/indoor-signage4.webp')}}" class="why-card-img-top" alt="Durable Material">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Durable Material</h3>
                         <p class="card-text">Our office indoor signage is made with durable material that will last a long time. Whether you choose metal, acrylic, or wooden material, our office signage is your permanent solution. Share your preference, and get the best interior signage solutions for your business. Our interior office signs are not only a communication medium but also significant in building identity. </p>
@@ -80,7 +80,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/indoor-signage5.png')}}" class="why-card-img-top" alt="Best Resolution Printing">
+                    <img src="{{asset('frontend/Images/indoor-signage5.webp')}}" class="why-card-img-top" alt="Best Resolution Printing">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Best Resolution Printing</h3>
                         <p class="card-text">We use the best-resolution printing technology to deliver unmatched quality outdoor and indoor signage for your company. Whether it is an office lobby or a retail shop, every detail is maintained to provide long-standing indoor signage. It ensures interior signage will be close to your brand value, motivate your employees, and make a professional connection.</p>
@@ -89,7 +89,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/indoor-signage6.png')}}" class="why-card-img-top" alt="Customized Designs">
+                    <img src="{{asset('frontend/Images/indoor-signage6.webp')}}" class="why-card-img-top" alt="Customized Designs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Customized Designs</h3>
                         <p class="card-text">Understanding your business needs which help us to meet your requirements for interior office signs. So, connect with us for your personalized office signage that can express your brand identity to the world. You will get guidance from our experienced team and the best option for your business indoor signage.</p>
@@ -106,7 +106,7 @@
                        
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/indoor-signage4.png')}}" class="why-card-img-top" alt="Durable Material">
+                                <img src="{{asset('frontend/Images/indoor-signage4.webp')}}" class="why-card-img-top" alt="Durable Material">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Durable Material</h3>
                                     <p class="card-text">Our office indoor signage is made with durable material that will last a long time. Whether you choose metal, acrylic, or wooden material, our office signage is your permanent solution. Share your preference, and get the best interior signage solutions for your business. Our interior office signs are not only a communication medium but also significant in building industry identity. Let us collaborate with you and enhance your brand presence!</p>
@@ -115,7 +115,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/indoor-signage5.png')}}" class="why-card-img-top" alt="Best Resolution Printing">
+                                <img src="{{asset('frontend/Images/indoor-signage5.webp')}}" class="why-card-img-top" alt="Best Resolution Printing">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Best Resolution Printing</h3>
                                     <p class="card-text">We use the best-resolution printing technology to deliver unmatched quality outdoor and indoor signage for your company. Whether it is an office lobby or a retail shop, every detail is maintained to provide long-standing indoor signage. It ensures interior signage will be close to your brand value, motivate your employees, and make a professional connection.</p>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/indoor-signage6.png')}}" class="why-card-img-top" alt="Customized Designs">
+                                <img src="{{asset('frontend/Images/indoor-signage6.webp')}}" class="why-card-img-top" alt="Customized Designs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Customized Designs</h3>
                                     <p class="card-text">Understanding your business needs which help us to meet your requirements for interior office signs. So, connect with us for your personalized office signage that can express your brand identity to the world. You will get guidance from our experienced team and the best option for your business indoor signage.</p>
@@ -150,7 +150,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/indoor-signage7.png')}}" alt="Indoor Signs" class="img-fluid">
+                    <img src="{{asset('frontend/Images/indoor-signage7.webp')}}" alt="Indoor Signs" class="img-fluid">
                 </div>
             </div>
             
@@ -181,7 +181,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/indoor-signage8.png')}}" alt="Indoor Signs" class="img-fluid">
+                    <img src="{{asset('frontend/Images/indoor-signage8.webp')}}" alt="Indoor Signs" class="img-fluid">
                 </div>
             </div>
 
@@ -203,13 +203,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I got the best quality branding interior signage which turned out amazing! I love the sleek design that perfectly blends the company's values and has received countless compliments from visitors. It truly enhances our office space!</p> 
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/anil-kumar.svg')}}" alt="Anil Kumar" class="client-img">
+                            <img src="{{asset('frontend/Images/anil-kumar.webp')}}" alt="Anil Kumar" class="client-img">
                             <div>
                                 <div class="client-name">Anil Kumar</div>
                                 <div class="client-role">Home Decor Brand Founder</div>
@@ -221,13 +221,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I purchased interior office signs from Brand Signage. It helped us highlight promotions effectively. Sales have noticeably increased, and customers find it easier to navigate our store. I am happy with the final results after putting it up!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/nitesh-r.svg')}}" alt="Nitish R" class="client-img">
+                            <img src="{{asset('frontend/Images/nitesh-r.webp')}}" alt="Nitish R" class="client-img">
                             <div>
                                 <div class="client-name">Nitish R</div>
                                 <div class="client-role">Businessman</div>
@@ -239,13 +239,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">From consultation to installation, the team of Brand Signage was professional and efficient. Their suggestions gave us the best custom indoor signs which are durable and beautifully crafted. We’ll return for future projects!</p> 
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/sudip-gupta.svg')}}" alt="Sudip Gupta" class="client-img">
+                            <img src="{{asset('frontend/Images/sudip-gupta.webp')}}" alt="Sudip Gupta" class="client-img">
                             <div>
                                 <div class="client-name">Sudip Gupta</div>
                                 <div class="client-role">Businessman</div>
@@ -257,13 +257,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Our new sign board and wall graphics have transformed our workspace. They’re eye-catching and trendy, making a strong impression on everyone who walks in.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/baibhab-s.svg')}}" alt="Baibhab S" class="client-img">
+                            <img src="{{asset('frontend/Images/baibhab-s.webp')}}" alt="Baibhab S" class="client-img">
                             <div>
                                 <div class="client-name">Baibhab S</div>
                                 <div class="client-role">Agency Founder</div>
@@ -275,13 +275,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The indoor signage was worth the money. It attracts a lot of customers and has increased our sales significantly. It also adds a premium look to our brand. I highly recommend it!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/dhruva.svg')}}" alt="Dhruva" class="client-img">
+                            <img src="{{asset('frontend/Images/dhruva.webp')}}" alt="Dhruva" class="client-img">
                             <div>
                                 <div class="client-name">Dhruva</div>
                                 <div class="client-role">Store Owner</div>
@@ -300,13 +300,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I got the best quality branding interior signage which turned out amazing! I love the sleek design that perfectly blends the company's values and has received countless compliments from visitors. It truly enhances our office space!</p> 
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/anil-kumar.svg')}}" alt="Anil Kumar" class="client-img">
+                                        <img src="{{asset('frontend/Images/anil-kumar.webp')}}" alt="Anil Kumar" class="client-img">
                                         <div>
                                             <div class="client-name">Anil Kumar</div>
                                             <div class="client-role">Home Decor Brand Founder</div>
@@ -318,13 +318,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I purchased interior office signs from Brand Signage. It helped us highlight promotions effectively. Sales have noticeably increased, and customers find it easier to navigate our store. I am happy with the final results after putting it up!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/nitish-r.svg')}}" alt="Nitish R" class="client-img">
+                                        <img src="{{asset('frontend/Images/nitish-r.webp')}}" alt="Nitish R" class="client-img">
                                         <div>
                                             <div class="client-name">Nitish R</div>
                                             <div class="client-role">Businessman</div>
@@ -336,13 +336,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">From consultation to installation, the team of Brand Signage was professional and efficient. Their suggestions gave us the best custom indoor signs which are durable and beautifully crafted. We’ll return for future projects!</p> 
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/sudip-gupta.svg')}}" alt="Sudip Gupta" class="client-img">
+                                        <img src="{{asset('frontend/Images/sudip-gupta.webp')}}" alt="Sudip Gupta" class="client-img">
                                         <div>
                                             <div class="client-name">Sudip Gupta</div>
                                             <div class="client-role">Businessman</div>
@@ -358,13 +358,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">From consultation to installation, the team of Brand Signage was professional and efficient. Their suggestions gave us the best custom indoor signs which are durable and beautifully crafted. We’ll return for future projects!</p> 
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/sudip-gupta.svg')}}" alt="Sudip Gupta" class="client-img">
+                                        <img src="{{asset('frontend/Images/sudip-gupta.webp')}}" alt="Sudip Gupta" class="client-img">
                                         <div>
                                             <div class="client-name">Sudip Gupta</div>
                                             <div class="client-role">Businessman</div>
@@ -376,13 +376,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Our new sign board and wall graphics have transformed our workspace. They’re eye-catching and trendy, making a strong impression on everyone who walks in.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/baibhab-s.svg')}}" alt="Baibhab S" class="client-img">
+                                        <img src="{{asset('frontend/Images/baibhab-s.webp')}}" alt="Baibhab S" class="client-img">
                                         <div>
                                             <div class="client-name">Baibhab S</div>
                                             <div class="client-role">Agency Founder</div>
@@ -394,13 +394,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The indoor signage was worth the money. It attracts a lot of customers and has increased our sales significantly. It also adds a premium look to our brand. I highly recommend it!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/dhruva.svg')}}" alt="Dhruva" class="client-img">
+                                        <img src="{{asset('frontend/Images/dhruva.webp')}}" alt="Dhruva" class="client-img">
                                         <div>
                                             <div class="client-name">Dhruva</div>
                                             <div class="client-role">Store Owner</div>

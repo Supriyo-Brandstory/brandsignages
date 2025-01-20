@@ -5,7 +5,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/neonsign-bangalore1.svg')}}" alt="Restroom Signs & Labels">
+                <img src="{{asset('frontend/Images/new/restroom-1.webp')}}" alt="Restroom Signs & Labels">
                 <div class="carousel-caption-custom">
                     <h1>Restroom Signs & Labels</h1>
                     <button class="custom-btn">Know More</button>
@@ -22,7 +22,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/outdoor-signage2.png')}}" alt="Restroom Signs & Labels" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/restroom-2.webp')}}" alt="Restroom Signs & Labels" class="img-fluid" style="height: 528px;">
                 </div>
             </div>
 
@@ -47,7 +47,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage3.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/restroom-3.webp')}}" class="why-card-img-top"
                         alt="Funny Bathroom Signages">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Funny Bathroom Signages</h3>
@@ -57,7 +57,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/restroom-4.webp')}}" class="why-card-img-top"
                         alt="Informative Restrooms Signs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Informative Restrooms Signs</h3>
@@ -67,7 +67,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/restroom-5.webp')}}" class="why-card-img-top"
                         alt="Office Restroom Signs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Office Restroom Signs</h3>
@@ -77,7 +77,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/restroom-6.webp')}}" class="why-card-img-top"
                         alt="Handwashing Signs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Handwashing Signs</h3>
@@ -87,7 +87,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/restroom-7.webp')}}" class="why-card-img-top"
                         alt="Gender Restrooms Signs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Gender Restrooms Signs</h3>
@@ -103,7 +103,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage3.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/restroom-3.webp')}}" class="why-card-img-top"
                                     alt="Funny Bathroom Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Funny Bathroom Signages</h3>
@@ -113,7 +113,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/restroom-4.webp')}}" class="why-card-img-top"
                                     alt="Informative Restrooms Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Informative Restrooms Signs</h3>
@@ -123,7 +123,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/restroom-5.webp')}}" class="why-card-img-top"
                                     alt="Office Restroom Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Office Restroom Signs</h3>
@@ -137,7 +137,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/restroom-5.webp')}}" class="why-card-img-top"
                                     alt="Office Restroom Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Office Restroom Signs</h3>
@@ -147,7 +147,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/restroom-6.webp')}}" class="why-card-img-top"
                                     alt="Handwashing Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Handwashing Signs</h3>
@@ -157,7 +157,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/restroom-7.webp')}}" class="why-card-img-top"
                                     alt="Gender Restrooms Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Gender Restrooms Signs</h3>
@@ -197,7 +197,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/outdoor-signage2.png')}}" alt="Restroom Signs & Labels" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/restroom-8.webp')}}" alt="Restroom Signs & Labels" class="img-fluid" style="    height: 559px;">
                 </div>
             </div>
 
@@ -235,7 +235,7 @@
             <div class="row g-4">
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/nameplate-signage8.svg')}}" alt="All Gender Restroom Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/restroom-9.webp')}}" alt="All Gender Restroom Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">All Gender Restroom Signs</h5>
                             <p class="text-content">For considerate places, our all-gender restroom signs and unisex restroom alternatives foster obtainability and justness. Whether you want a gender restroom sign for a family restroom or a woman’s restroom, our patterns confirm that all feel embraced.</p>
@@ -245,7 +245,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/nameplate-signage9.svg')}}" alt="Accessible Restroom Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/restroom-10.webp')}}" alt="Accessible Restroom Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Accessible Restroom Signs</h5>
                             <p class="text-content">Our accessible restroom signs meet ADA standards, making them perfect for public restrooms. In case it’s a men’s restroom sign, a women's restroom sign, or a toilet sign for a bathroom door, we focus on the apparentness and simplicity of apprehension.</p>
@@ -255,7 +255,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/nameplate-signage10.svg')}}" alt="Directional Restroom Signs"
+                        <img src="{{asset('frontend/Images/new/restroom-11.webp')}}" alt="Directional Restroom Signs"
                             class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Directional Restroom Signs</h5>
@@ -266,7 +266,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/nameplate-signage11.svg')}}" alt="Resistant and Standardized Substances" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/restroom-12.webp')}}" alt="Resistant and Standardized Substances" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Resistant and Standardized Substances</h5>
                             <p class="text-content">Designed with long-lasting, water-proof substances, our bathroom signs maintain their standards in congested places. From wash hands signs to restroom clean door signs, each product maintains tidiness and comfort. Select our sign boards for washrooms for high-quality design and dependability, customized for each restroom signage need.</p>
@@ -275,6 +275,45 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="mt-lg-5">
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+        <h2 class="hero-title">Catalogue</h2>
+        
+        <!-- First Row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <img src="{{asset('frontend/Images/new/restroom-18.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <img src="{{asset('frontend/Images/new/restroom-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <img src="{{asset('frontend/Images/new/restroom-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <img src="{{asset('frontend/Images/new/restroom-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+            </div>
+        </div>
+        
+        <!-- Second Row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <img src="{{asset('frontend/Images/new/restroom-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <img src="{{asset('frontend/Images/new/restroom-23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <img src="{{asset('frontend/Images/new/restroom-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <img src="{{asset('frontend/Images/new/restroom-25.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -288,13 +327,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The restroom signage that we got was ideal! Lucid, long-lasting, and water-proof—our public restroom now seems arranged and competent</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore11.svg')}}" alt="Sarah M" class="client-img">
+                            <img src="{{asset('frontend/Images/new/restroom-13.webp')}}" alt="Sarah M" class="client-img">
                             <div>
                                 <div class="client-name">Sarah M</div>
                             </div>
@@ -305,13 +344,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We like the unisex restroom and family restroom signs. They’re simple to read and assist us in balance and bias-free surroundings</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore12.svg')}}" alt="Daniel P" class="client-img">
+                            <img src="{{asset('frontend/Images/new/restroom-14.webp')}}" alt="Daniel P" class="client-img">
                             <div>
                                 <div class="client-name">Daniel P</div>
                             </div>
@@ -322,13 +361,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Our women's restroom signs and men’s restroom signs suit appropriately on every bathroom door. The standard is excellent!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore13.svg')}}" alt="Priya R" class="client-img">
+                            <img src="{{asset('frontend/Images/new/restroom-15.webp')}}" alt="Priya R" class="client-img">
                             <div>
                                 <div class="client-name">Priya R</div>
                             </div>
@@ -339,13 +378,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The wash hands signs and ADA restroom signs go down well with our employees’ and visitors’. Exclusive pattern and are very pragmatic</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore14.svg')}}" alt="Jason K" class="client-img">
+                            <img src="{{asset('frontend/Images/new/restroom-16.webp')}}" alt="Jason K" class="client-img">
                             <div>
                                 <div class="client-name">Jason K</div>
                             </div>
@@ -356,13 +395,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We updated your toilet sign boards, and they’ve made a huge contrast in administering visitors. Highly suggest these bathroom signs!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore15.svg')}}" alt="Emily T" class="client-img">
+                            <img src="{{asset('frontend/Images/new/restroom-17.webp')}}" alt="Emily T" class="client-img">
                             <div>
                                 <div class="client-name">Emily T</div>
                             </div>
@@ -379,13 +418,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The restroom signage that we got was ideal! Lucid, long-lasting, and water-proof—our public restroom now seems arranged and competent</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore11.svg')}}" alt="Sarah M" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/restroom-13.webp')}}" alt="Sarah M" class="client-img">
                                         <div>
                                             <div class="client-name">Sarah M</div>
                                         </div>
@@ -396,13 +435,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We like the unisex restroom and family restroom signs. They’re simple to read and assist us in balance and bias-free surroundings</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore12.svg')}}" alt="Daniel P" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/restroom-14.webp')}}" alt="Daniel P" class="client-img">
                                         <div>
                                             <div class="client-name">Daniel P</div>
                                         </div>
@@ -413,13 +452,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Our women's restroom signs and men’s restroom signs suit appropriately on every bathroom door. The standard is excellent!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore13.svg')}}" alt="Priya R" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/restroom-15.webp')}}" alt="Priya R" class="client-img">
                                         <div>
                                             <div class="client-name">Priya R</div>
                                         </div>
@@ -434,13 +473,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Our women's restroom signs and men’s restroom signs suit appropriately on every bathroom door. The standard is excellent!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore13.svg')}}" alt="Priya R" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/restroom-15.webp')}}" alt="Priya R" class="client-img">
                                         <div>
                                             <div class="client-name">Priya R</div>
                                         </div>
@@ -451,13 +490,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The wash hands signs and ADA restroom signs go down well with our employees’ and visitors’. Exclusive pattern and are very pragmatic</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore14.svg')}}" alt="Jason K" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/restroom-16.webp')}}" alt="Jason K" class="client-img">
                                         <div>
                                             <div class="client-name">Jason K</div>
                                         </div>
@@ -468,13 +507,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We updated your toilet sign boards, and they’ve made a huge contrast in administering visitors. Highly suggest these bathroom signs!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore15.svg')}}" alt="Emily T" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/restroom-17.webp')}}" alt="Emily T" class="client-img">
                                         <div>
                                             <div class="client-name">Emily T</div>
                                         </div>
@@ -507,44 +546,7 @@
     </div>
 </section>
 
-<section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Catalogue</h2>
-        
-        <!-- First Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore16.svg')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore17.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore18.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore19.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-            </div>
-        </div>
-        
-        <!-- Second Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore20.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore21.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore22.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore23.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-            </div>
-        </div>
 
-    </div>
-</section>
 
 <section class="faq-section">
     <div class="faq-container">

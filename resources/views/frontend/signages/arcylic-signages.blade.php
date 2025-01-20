@@ -5,7 +5,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/coffee-shop-menu.svg')}}" alt="Acrylic Signages">
+                <img src="{{asset('frontend/Images/coffee-shop-menu.webp')}}" alt="Acrylic Signages">
                 <div class="carousel-caption-custom">
                     <h1>Elevate Your Brand with Premium Acrylic Signages</h1>
                     <button class="custom-btn">Know More</button>
@@ -22,7 +22,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/office2.svg')}}" alt="Acrylic Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/office2.webp')}}" alt="Acrylic Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -69,7 +69,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/on-site-consulting.svg')}}" class="why-card-img-top" alt="Brand Identity & Promotion">
+                    <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Brand Identity & Promotion">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Brand Identity & Promotion</h3>
                         <p class="card-text">Acrylic signages are great for branding and marketing because they
@@ -81,7 +81,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/top-tier-designs.svg')}}" class="why-card-img-top" alt="Corporate & Professional Signage">
+                    <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Corporate & Professional Signage">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Corporate & Professional Signage</h3>
                         <p class="card-text">Acrylic nameplates and plaques are installed for an employee to put on
@@ -93,7 +93,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/skilled-workforce.svg')}}" class="why-card-img-top" alt="Commercial & Retail Displays">
+                    <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Commercial & Retail Displays">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Commercial & Retail Displays</h3>
                         <p class="card-text">However, the best use of acrylic signage is in retail or commerce. If
@@ -112,7 +112,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/on-site-consulting.svg')}}" class="why-card-img-top" alt="Brand Identity & Promotion">
+                                <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Brand Identity & Promotion">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Brand Identity & Promotion</h3>
                                     <p class="card-text">Acrylic signages are great for branding and marketing
@@ -125,7 +125,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/top-tier-designs.svg')}}" class="why-card-img-top" alt="Corporate & Professional Signage">
+                                <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Corporate & Professional Signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Corporate & Professional Signage</h3>
                                     <p class="card-text">Acrylic nameplates and plaques are installed for an
@@ -139,7 +139,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/skilled-workforce.svg')}}" class="why-card-img-top" alt="Commercial & Retail Displays">
+                                <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Commercial & Retail Displays">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Commercial & Retail Displays</h3>
                                     <p class="card-text">However, the best use of acrylic signage is in retail or
@@ -173,7 +173,7 @@
             <div class="row g-4">
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board1.svg')}}" alt="Clear Acrylic Signage" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/acrylic-sign-board1.webp')}}" alt="Clear Acrylic Signage" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Clear Acrylic Signage</h5>
                             <p class="text-content">These acrylic signboards are best for companies looking for a
@@ -187,7 +187,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board2.svg')}}" alt="Lucite Signage Boards" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/acrylic-sign-board2.webp')}}" alt="Lucite Signage Boards" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Lucite Signage Boards</h5>
                             <p class="text-content">Are you looking for high-end acrylic signage for your corporate
@@ -200,7 +200,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board3.svg')}}" alt="Transparent Acrylic Plaques" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/acrylic-sign-board3.webp')}}" alt="Transparent Acrylic Plaques" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Transparent Acrylic Plaques</h5>
                             <p class="text-content">This custom acrylic plaque emphasizes the text or message you
@@ -213,7 +213,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board4.svg')}}" alt="Acrylic Display Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/acrylic-sign-board4.webp')}}" alt="Acrylic Display Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Acrylic Display Signs</h5>
                             <p class="text-content">These acrylic sign boards have vibrant graphics and are suitable
@@ -225,7 +225,7 @@
 
                 <div class="col-lg-5">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board5.svg')}}" alt="Plexiglass Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/acrylic-sign-board5.webp')}}" alt="Plexiglass Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Plexiglass Signs</h5>
                             <p class="text-content">Have you seen restaurant menus with laminated backgrounds and
@@ -237,7 +237,7 @@
 
                 <div class="col-lg-3">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board6.svg')}}" alt="Acrylic signage with LED" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/acrylic-sign-board6.webp')}}" alt="Acrylic signage with LED" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Acrylic signage with LED</h5>
                             <p class="text-content">You can choose acrylic signage with LED to add sophistication
@@ -263,7 +263,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The acrylic sign we installed has
@@ -272,7 +272,7 @@
                             increased significantly since we put it up</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/jeesun.svg')}}" alt="Jeesun" class="client-img">
+                            <img src="{{asset('frontend/Images/jeesun.webp')}}" alt="Jeesun" class="client-img">
                             <div>
                                 <div class="client-name">Jeesun</div>
                                 <div class="client-role">Grocery Store Owner</div>
@@ -284,7 +284,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We chose transparent plaques for our
@@ -292,7 +292,7 @@
                             expectations, everyone commented on how beautiful they were</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/seema.svg')}}" alt="Seema" class="client-img">
+                            <img src="{{asset('frontend/Images/seema.webp')}}" alt="Seema" class="client-img">
                             <div>
                                 <div class="client-name">Seema</div>
                                 <div class="client-role">Fashion Entrepreneur</div>
@@ -304,7 +304,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Our office looks more professional
@@ -312,7 +312,7 @@
                             more cohesive <br> <br> <br></p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/angelica.svg')}}" alt="Angelica" class="client-img">
+                            <img src="{{asset('frontend/Images/angelica.webp')}}" alt="Angelica" class="client-img">
                             <div>
                                 <div class="client-name">Angelica</div>
                                 <div class="client-role">CEO</div>
@@ -324,7 +324,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The LED acrylic signage has drawn so
@@ -332,7 +332,7 @@
                             apart from competitors</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/abdul.svg')}}" alt="Abdul" class="client-img">
+                            <img src="{{asset('frontend/Images/abdul.webp')}}" alt="Abdul" class="client-img">
                             <div>
                                 <div class="client-name">Abdul</div>
                                 <div class="client-role">Corporate employee</div>
@@ -344,7 +344,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We love the customization options
@@ -352,7 +352,7 @@
                             throughout the process</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/anirudh.svg')}}" alt="Anirudh" class="client-img">
+                            <img src="{{asset('frontend/Images/anirudh.webp')}}" alt="Anirudh" class="client-img">
                             <div>
                                 <div class="client-name">Anirudh</div>
                                 <div class="client-role">Restaurant Owner</div>
@@ -370,7 +370,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The acrylic sign we installed has
@@ -379,7 +379,7 @@
                                         increased significantly since we put it up</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/jeesun.svg')}}" alt="Jeesun" class="client-img">
+                                        <img src="{{asset('frontend/Images/jeesun.webp')}}" alt="Jeesun" class="client-img">
                                         <div>
                                             <div class="client-name">Jeesun</div>
                                             <div class="client-role">Grocery Store Owner</div>
@@ -391,7 +391,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We chose transparent plaques for our
@@ -399,7 +399,7 @@
                                         expectations, everyone commented on how beautiful they were</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/seema.svg')}}" alt="Seema" class="client-img">
+                                        <img src="{{asset('frontend/Images/seema.webp')}}" alt="Seema" class="client-img">
                                         <div>
                                             <div class="client-name">Seema</div>
                                             <div class="client-role">Fashion Entrepreneur</div>
@@ -411,7 +411,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Our office looks more professional
@@ -419,7 +419,7 @@
                                         more cohesive</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/angelica.svg')}}" alt="Angelica" class="client-img">
+                                        <img src="{{asset('frontend/Images/angelica.webp')}}" alt="Angelica" class="client-img">
                                         <div>
                                             <div class="client-name">Angelica</div>
                                             <div class="client-role">CEO</div>
@@ -435,7 +435,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Our office looks more professional
@@ -443,7 +443,7 @@
                                         more cohesive <br> <br> <br></p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/angelica.svg')}}" alt="Angelica" class="client-img">
+                                        <img src="{{asset('frontend/Images/angelica.webp')}}" alt="Angelica" class="client-img">
                                         <div>
                                             <div class="client-name">Angelica</div>
                                             <div class="client-role">CEO</div>
@@ -455,7 +455,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The LED acrylic signage has drawn so
@@ -463,7 +463,7 @@
                                         apart from competitors</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/abdul.svg')}}" alt="Abdul" class="client-img">
+                                        <img src="{{asset('frontend/Images/abdul.webp')}}" alt="Abdul" class="client-img">
                                         <div>
                                             <div class="client-name">Abdul</div>
                                             <div class="client-role">Corporate employee</div>
@@ -475,7 +475,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We love the customization options
@@ -483,7 +483,7 @@
                                         throughout the process</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/anirudh.svg')}}" alt="Anirudh" class="client-img">
+                                        <img src="{{asset('frontend/Images/anirudh.webp')}}" alt="Anirudh" class="client-img">
                                         <div>
                                             <div class="client-name">Anirudh</div>
                                             <div class="client-role">Restaurant Owner</div>
@@ -527,7 +527,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/acrylic-led-signages1.svg')}}" alt="Acrylic Led Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/acrylic-led-signages1.webp')}}" alt="Acrylic Led Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -589,7 +589,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/acrylic-led-signages2.svg')}}" alt="Acrylic Led Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/acrylic-led-signages2.webp')}}" alt="Acrylic Led Signages" class="img-fluid">
                 </div>
             </div>
 

@@ -5,7 +5,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/metal-signage.png')}}" alt="Metal Signage Boards">
+                <img src="{{asset('frontend/Images/metal-signage.webp')}}" alt="Metal Signage Boards">
                 <div class="carousel-caption-custom">
                     <h1>Enhance Your Brand Presence with Metal Signage Boards</h1>
                     <button class="custom-btn">Know More</button>
@@ -25,7 +25,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/metal-signage2.png')}}" alt="Metal Signage Boards" class="img-fluid">
+                    <img src="{{asset('frontend/Images/metal-signage2.webp')}}" alt="Metal Signage Boards" class="img-fluid">
                 </div>
             </div>
 
@@ -58,7 +58,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/metal-signage3.png')}}" class="why-card-img-top" alt="Real Estate">
+                    <img src="{{asset('frontend/Images/metal-signage3.webp')}}" class="why-card-img-top" alt="Real Estate">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Real Estate</h3>
                         <p class="card-text">Metal signage boards extend professionalism to a brand’s visual
@@ -70,7 +70,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/metal-signage4.png')}}" class="why-card-img-top" alt="Corporate Office">
+                    <img src="{{asset('frontend/Images/metal-signage4.webp')}}" class="why-card-img-top" alt="Corporate Office">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Corporate Office</h3>
                         <p class="card-text">Corporate offices use polished stainless for branding or giving
@@ -81,7 +81,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/metal-signage5.png')}}" class="why-card-img-top" alt="Retail Outlets">
+                    <img src="{{asset('frontend/Images/metal-signage5.webp')}}" class="why-card-img-top" alt="Retail Outlets">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Retail Outlets</h3>
                         <p class="card-text">Retailers prefer metal signage to display attractive designs and
@@ -93,7 +93,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/metal-signage6.png')}}" class="why-card-img-top" alt="Industrial Settings">
+                    <img src="{{asset('frontend/Images/metal-signage6.webp')}}" class="why-card-img-top" alt="Industrial Settings">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Industrial Settings</h3>
                         <p class="card-text">In industrial settings, metal signage boards serve critical safety and
@@ -105,7 +105,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/metal-signage7.png')}}" class="why-card-img-top" alt="Hospitality Industry">
+                    <img src="{{asset('frontend/Images/metal-signage7.webp')}}" class="why-card-img-top" alt="Hospitality Industry">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Hospitality Industry</h3>
                         <p class="card-text">The hospitality sector employs metal signage for branding and guest
@@ -124,7 +124,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/metal-signage3.png')}}" class="why-card-img-top" alt="Real Estate">
+                                <img src="{{asset('frontend/Images/metal-signage3.webp')}}" class="why-card-img-top" alt="Real Estate">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Real Estate</h3>
                                     <p class="card-text">Metal signage boards extend professionalism to a brand’s
@@ -137,7 +137,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/metal-signage4.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/metal-signage4.webp')}}" class="why-card-img-top"
                                     alt="Corporate Office">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Corporate Office</h3>
@@ -150,7 +150,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/metal-signage5.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/metal-signage5.webp')}}" class="why-card-img-top"
                                     alt="Retail Outlets">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Retail Outlets</h3>
@@ -167,7 +167,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/metal-signage5.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/metal-signage5.webp')}}" class="why-card-img-top"
                                     alt="Retail Outlets">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Retail Outlets</h3>
@@ -180,7 +180,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/metal-signage6.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/metal-signage6.webp')}}" class="why-card-img-top"
                                     alt="Industrial Settings">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Industrial Settings</h3>
@@ -193,7 +193,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/metal-signage7.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/metal-signage7.webp')}}" class="why-card-img-top"
                                     alt="Hospitality Industry">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Hospitality Industry</h3>
@@ -244,7 +244,7 @@
             <div class="row g-4">
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/metal-signage8.png')}}" alt="Reverse Glow Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/metal-signage8.webp')}}" alt="Reverse Glow Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Reverse Glow Signs</h5>
                             <p class="text-content">Reverse glow signs enhance the sign's visibility in low-light
@@ -257,7 +257,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/metal-signage9.png')}}" alt="Metal Backlit" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/metal-signage9.webp')}}" alt="Metal Backlit" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Metal Backlit</h5>
                             <p class="text-content">Metal backlit signs feature a light source behind the face,
@@ -271,7 +271,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/metal-signage10.png')}}" alt="Reflective Metal Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/metal-signage10.webp')}}" alt="Reflective Metal Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Reflective Metal Signs</h5>
                             <p class="text-content">Reflective metal signage ensures high visibility even in dim
@@ -285,7 +285,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/metal-signage11.png')}}" alt="Premium Metal Letters and Signage"
+                        <img src="{{asset('frontend/Images/metal-signage11.webp')}}" alt="Premium Metal Letters and Signage"
                             class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Premium Metal Letters and Signage</h5>
@@ -299,7 +299,7 @@
 
                 <div class="col-lg-5">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/metal-signage12.png')}}" alt="Stainless Steel Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/metal-signage12.webp')}}" alt="Stainless Steel Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Stainless Steel Signs</h5>
                             <p class="text-content">Stainless steel sign boards are best for internal and external
@@ -313,7 +313,7 @@
 
                 <div class="col-lg-3">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/metal-signage13.png')}}" alt="Aluminium Sign Boards" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/metal-signage13.webp')}}" alt="Aluminium Sign Boards" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Aluminium Sign Boards</h5>
                             <p class="text-content">Aluminum sign boards are resistant to rust and corrosion and can
@@ -338,7 +338,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The metal backlit signs we purchased transformed
@@ -347,7 +347,7 @@
                             expectations. We’ve seen a noticeable increase in foot traffic since installation</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/m-client1.svg')}}" alt="Vincent" class="client-img">
+                            <img src="{{asset('frontend/Images/m-client1.webp')}}" alt="Vincent" class="client-img">
                             <div>
                                 <div class="client-name">Vincent</div>
                                 <div class="client-role">Goa</div>
@@ -359,7 +359,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I ordered reverse glow signs for my listings, and
@@ -368,7 +368,7 @@
                             received numerous compliments from clients about how professional they look</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/m-client2.svg')}}" alt="Aman" class="client-img">
+                            <img src="{{asset('frontend/Images/m-client2.webp')}}" alt="Aman" class="client-img">
                             <div>
                                 <div class="client-name">Aman</div>
                                 <div class="client-role">Grocery shop owner</div>
@@ -380,7 +380,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The premium metal letters we ordered for our
@@ -389,7 +389,7 @@
                             quick and professional. Truly a worthwhile investment</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/m-client3.svg')}}" alt="Deepak" class="client-img">
+                            <img src="{{asset('frontend/Images/m-client3.webp')}}" alt="Deepak" class="client-img">
                             <div>
                                 <div class="client-name">Deepak</div>
                                 <div class="client-role">Restaurant operator</div>
@@ -401,7 +401,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Our aluminum sign boards have been a game changer
@@ -410,7 +410,7 @@
                             navigate with ease. Excellent service throughout the process!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/m-client4.svg')}}" alt="Seema" class="client-img">
+                            <img src="{{asset('frontend/Images/m-client4.webp')}}" alt="Seema" class="client-img">
                             <div>
                                 <div class="client-name">Seema</div>
                                 <div class="client-role">CEO of a retail company</div>
@@ -422,7 +422,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We needed reflective metal signs for our outdoor
@@ -431,7 +431,7 @@
                             the weather. Fantastic service and quality!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/m-client5.svg')}}" alt="Razia" class="client-img">
+                            <img src="{{asset('frontend/Images/m-client5.webp')}}" alt="Razia" class="client-img">
                             <div>
                                 <div class="client-name">Razia</div>
                                 <div class="client-role">Fashion entrepreneur</div>
@@ -449,7 +449,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The metal backlit signs we purchased
@@ -459,7 +459,7 @@
                                         increase in foot traffic since installation</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/m-client1.svg')}}" alt="Vincent" class="client-img">
+                                        <img src="{{asset('frontend/Images/m-client1.webp')}}" alt="Vincent" class="client-img">
                                         <div>
                                             <div class="client-name">Vincent</div>
                                             <div class="client-role">Goa</div>
@@ -471,7 +471,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I ordered reverse glow signs for my
@@ -481,7 +481,7 @@
                                         about how professional they look</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/m-client2.svg')}}" alt="Aman" class="client-img">
+                                        <img src="{{asset('frontend/Images/m-client2.webp')}}" alt="Aman" class="client-img">
                                         <div>
                                             <div class="client-name">Aman</div>
                                             <div class="client-role">Grocery shop owner</div>
@@ -493,7 +493,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The premium metal letters we ordered
@@ -503,7 +503,7 @@
                                         worthwhile investment</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/m-client3.svg')}}" alt="Deepak" class="client-img">
+                                        <img src="{{asset('frontend/Images/m-client3.webp')}}" alt="Deepak" class="client-img">
                                         <div>
                                             <div class="client-name">Deepak</div>
                                             <div class="client-role">Restaurant operator</div>
@@ -519,7 +519,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The premium metal letters we ordered
@@ -529,7 +529,7 @@
                                         worthwhile investment</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/m-client3.svg')}}" alt="Deepak" class="client-img">
+                                        <img src="{{asset('frontend/Images/m-client3.webp')}}" alt="Deepak" class="client-img">
                                         <div>
                                             <div class="client-name">Deepak</div>
                                             <div class="client-role">Restaurant operator</div>
@@ -541,7 +541,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Our aluminum sign boards have been a
@@ -551,7 +551,7 @@
                                         throughout the process!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/m-client4.svg')}}" alt="Seema" class="client-img">
+                                        <img src="{{asset('frontend/Images/m-client4.webp')}}" alt="Seema" class="client-img">
                                         <div>
                                             <div class="client-name">Seema</div>
                                             <div class="client-role">CEO of a retail company</div>
@@ -563,7 +563,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We needed reflective metal signs for
@@ -573,7 +573,7 @@
                                         quality!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/m-client5.svg')}}" alt="Razia" class="client-img">
+                                        <img src="{{asset('frontend/Images/m-client5.webp')}}" alt="Razia" class="client-img">
                                         <div>
                                             <div class="client-name">Razia</div>
                                             <div class="client-role">Fashion entrepreneur</div>

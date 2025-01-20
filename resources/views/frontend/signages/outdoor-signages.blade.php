@@ -4,7 +4,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/outdoor-signage.png')}}" alt="Outdoor Signages">
+                <img src="{{asset('frontend/Images/outdoor-signage.webp')}}" alt="Outdoor Signages">
                 <div class="carousel-caption-custom">
                     <h1>Outdoor Signage Boards That Capture Attention</h1>
                     <button class="custom-btn">Know More</button>
@@ -29,7 +29,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/outdoor-signage2.png')}}" alt="Outdoor Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/outdoor-signage2.webp')}}" alt="Outdoor Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -74,7 +74,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/outdoor-signage3.png')}}" alt="Outdoor Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/outdoor-signage3.webp')}}" alt="Outdoor Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/outdoor-signage4.png')}}" class="why-card-img-top" alt="Freestanding Outdoor Signs">
+                    <img src="{{asset('frontend/Images/outdoor-signage4.webp')}}" class="why-card-img-top" alt="Freestanding Outdoor Signs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Freestanding Outdoor Signs</h3>
                         <p class="card-text">A freestanding sign, anchored directly to the ground without being
@@ -109,7 +109,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/outdoor-signage5.png')}}" class="why-card-img-top" alt="Outdoor Banners">
+                    <img src="{{asset('frontend/Images/outdoor-signage5.webp')}}" class="why-card-img-top" alt="Outdoor Banners">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Outdoor Banners</h3>
                         <p class="card-text">Simple banners placed outside your store are a cost-effective yet
@@ -120,7 +120,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/outdoor-signage6.png')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/outdoor-signage6.webp')}}" class="why-card-img-top"
                         alt="Illuminated Outdoor Signage">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Illuminated Outdoor Signage</h3>
@@ -132,7 +132,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/outdoor-signage7.png')}}" class="why-card-img-top" alt="PVC Outdoor Signage">
+                    <img src="{{asset('frontend/Images/outdoor-signage7.webp')}}" class="why-card-img-top" alt="PVC Outdoor Signage">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">PVC Outdoor Signage</h3>
                         <p class="card-text">Made of polyvinyl chloride, PVC outdoor signage works as a durable,
@@ -144,7 +144,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/outdoor-signage8.png')}}" class="why-card-img-top" alt="Vinel Shop Front Signs">
+                    <img src="{{asset('frontend/Images/outdoor-signage8.webp')}}" class="why-card-img-top" alt="Vinel Shop Front Signs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Vinel Shop Front Signs</h3>
                         <p class="card-text">Also known as fascia, a shopfront sign is a type of highly visible
@@ -155,7 +155,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/outdoor-signage9.png')}}" class="why-card-img-top" alt="Aluminium Outdoor Signage">
+                    <img src="{{asset('frontend/Images/outdoor-signage9.webp')}}" class="why-card-img-top" alt="Aluminium Outdoor Signage">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Aluminium Outdoor Signage</h3>
                         <p class="card-text">Made of composite aluminium sheets strengthened with polyethylene
@@ -173,7 +173,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/outdoor-signage4.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/outdoor-signage4.webp')}}" class="why-card-img-top"
                                     alt="Freestanding Outdoor Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Freestanding Outdoor Signs</h3>
@@ -188,7 +188,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/outdoor-signage5.png')}}" class="why-card-img-top" alt="Outdoor Banners">
+                                <img src="{{asset('frontend/Images/outdoor-signage5.webp')}}" class="why-card-img-top" alt="Outdoor Banners">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Outdoor Banners</h3>
                                     <p class="card-text">Simple banners placed outside your store are a
@@ -199,7 +199,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/outdoor-signage6.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/outdoor-signage6.webp')}}" class="why-card-img-top"
                                     alt="Illuminated Outdoor Signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Illuminated Outdoor Signage</h3>
@@ -216,7 +216,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/outdoor-signage7.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/outdoor-signage7.webp')}}" class="why-card-img-top"
                                     alt="PVC Outdoor Signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">PVC Outdoor Signage</h3>
@@ -230,7 +230,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/outdoor-signage8.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/outdoor-signage8.webp')}}" class="why-card-img-top"
                                     alt="Vinel Shop Front Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Vinel Shop Front Signs</h3>
@@ -243,7 +243,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/outdoor-signage9.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/outdoor-signage9.webp')}}" class="why-card-img-top"
                                     alt="Aluminium Outdoor Signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Aluminium Outdoor Signage</h3>
@@ -297,7 +297,7 @@
             <div class="row g-4">
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/outdoor-signage10.png')}}" alt="Reverse Glow Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/outdoor-signage10.webp')}}" alt="Reverse Glow Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Get Sample Packs</h5>
                             <p class="text-content">Before you decide which signage company you should rely upon,
@@ -310,7 +310,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/outdoor-signage11.png')}}" alt="Metal Backlit" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/outdoor-signage11.webp')}}" alt="Metal Backlit" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Bespoke Services</h5>
                             <p class="text-content">Not all signage brands that provide good-quality products are
@@ -323,7 +323,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/outdoor-signage12.png')}}" alt="Premium Metal Letters and Signage"
+                        <img src="{{asset('frontend/Images/outdoor-signage12.webp')}}" alt="Premium Metal Letters and Signage"
                             class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Paper Size Guide</h5>
@@ -336,7 +336,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/outdoor-signage13.png')}}" alt="Stainless Steel Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/outdoor-signage13.webp')}}" alt="Stainless Steel Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Sustainable Printing</h5>
                             <p class="text-content">As we are moving toward a future where sustainability becomes a
@@ -363,7 +363,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Excellent products with exclusive
@@ -372,7 +372,7 @@
                             business brand <br> <br></p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/rohit-verma.svg')}}" alt="Rohit Verma" class="client-img">
+                            <img src="{{asset('frontend/Images/rohit-verma.webp')}}" alt="Rohit Verma" class="client-img">
                             <div>
                                 <div class="client-name">Rohit Verma</div>
                                 <div class="client-role">Event Management Company Owner</div>
@@ -384,7 +384,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Brand Signage has a wide collection
@@ -392,7 +392,7 @@
                             I must say they provide the best quality signage options</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/priya-menon.svg')}}" alt="Priya Menon" class="client-img">
+                            <img src="{{asset('frontend/Images/priya-menon.webp')}}" alt="Priya Menon" class="client-img">
                             <div>
                                 <div class="client-name">Priya Menon</div>
                                 <div class="client-role">Boutique Owner</div>
@@ -404,7 +404,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I appreciate the products as well as
@@ -412,7 +412,7 @@
                             boards, Brand Signage should be your first choice.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/karan-mehta.svg')}}" alt="Karan Mehta" class="client-img">
+                            <img src="{{asset('frontend/Images/karan-mehta.webp')}}" alt="Karan Mehta" class="client-img">
                             <div>
                                 <div class="client-name">Karan Mehta</div>
                                 <div class="client-role">Gym and Fitness Studio Owner</div>
@@ -424,7 +424,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">“Highly impressive! Good products,
@@ -432,7 +432,7 @@
                             experience with Brand Signage.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/ananya-reddy.svg')}}" alt="Ananya Reddy" class="client-img">
+                            <img src="{{asset('frontend/Images/ananya-reddy.webp')}}" alt="Ananya Reddy" class="client-img">
                             <div>
                                 <div class="client-name">Ananya Reddy</div>
                                 <div class="client-role">Cafe Chain Owner</div>
@@ -444,7 +444,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">One of the most trusted destinations
@@ -453,7 +453,7 @@
                             Brand Signage again.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/sandeep-gupta.svg')}}" alt="Sandeep Gupta" class="client-img">
+                            <img src="{{asset('frontend/Images/sandeep-gupta.webp')}}" alt="Sandeep Gupta" class="client-img">
                             <div>
                                 <div class="client-name">Sandeep Gupta</div>
                                 <div class="client-role">Automobile Workshop Owner</div>
@@ -471,7 +471,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Excellent products with exclusive
@@ -480,7 +480,7 @@
                                         business brand <br> <br></p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/rohit-verma.svg')}}" alt="Rohit Verma" class="client-img">
+                                        <img src="{{asset('frontend/Images/rohit-verma.webp')}}" alt="Rohit Verma" class="client-img">
                                         <div>
                                             <div class="client-name">Rohit Verma</div>
                                             <div class="client-role">Event Management Company Owner</div>
@@ -492,7 +492,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Brand Signage has a wide collection
@@ -500,7 +500,7 @@
                                         I must say they provide the best quality signage options</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/priya-menon.svg')}}" alt="Priya Menon" class="client-img">
+                                        <img src="{{asset('frontend/Images/priya-menon.webp')}}" alt="Priya Menon" class="client-img">
                                         <div>
                                             <div class="client-name">Priya Menon</div>
                                             <div class="client-role">Boutique Owner</div>
@@ -512,7 +512,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I appreciate the products as well as
@@ -520,7 +520,7 @@
                                         boards, Brand Signage should be your first choice.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/karan-mehta.svg')}}" alt="Karan Mehta" class="client-img">
+                                        <img src="{{asset('frontend/Images/karan-mehta.webp')}}" alt="Karan Mehta" class="client-img">
                                         <div>
                                             <div class="client-name">Karan Mehta</div>
                                             <div class="client-role">Gym and Fitness Studio Owner</div>
@@ -536,7 +536,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I appreciate the products as well as
@@ -544,7 +544,7 @@
                                         boards, Brand Signage should be your first choice.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/karan-mehta.svg')}}" alt="Karan Mehta" class="client-img">
+                                        <img src="{{asset('frontend/Images/karan-mehta.webp')}}" alt="Karan Mehta" class="client-img">
                                         <div>
                                             <div class="client-name">Karan Mehta</div>
                                             <div class="client-role">Gym and Fitness Studio Owner</div>
@@ -556,7 +556,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">“Highly impressive! Good products,
@@ -564,7 +564,7 @@
                                         experience with Brand Signage.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/ananya-reddy.svg')}}" alt="Ananya Reddy" class="client-img">
+                                        <img src="{{asset('frontend/Images/ananya-reddy.webp')}}" alt="Ananya Reddy" class="client-img">
                                         <div>
                                             <div class="client-name">Ananya Reddy</div>
                                             <div class="client-role">Cafe Chain Owner</div>
@@ -576,7 +576,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">One of the most trusted destinations
@@ -585,7 +585,7 @@
                                         Brand Signage again.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/sandeep-gupta.svg')}}" alt="Sandeep Gupta" class="client-img">
+                                        <img src="{{asset('frontend/Images/sandeep-gupta.webp')}}" alt="Sandeep Gupta" class="client-img">
                                         <div>
                                             <div class="client-name">Sandeep Gupta</div>
                                             <div class="client-role">Automobile Workshop Owner</div>

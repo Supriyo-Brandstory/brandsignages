@@ -5,7 +5,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/neonsign-bangalore1.svg')}}" alt="Prohibition Signs for Workplace Safety">
+                <img src="{{asset('frontend/Images/new/prohibitory-1.webp')}}" alt="Prohibition Signs for Workplace Safety">
                 <div class="carousel-caption-custom">
                     <h1>Prohibition Signs for Workplace Safety</h1>
                     <button class="custom-btn">Know More</button>
@@ -23,7 +23,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/outdoor-signage2.png')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/prohibitory-2.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -51,7 +51,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage3.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/prohibitory-3.webp')}}" class="why-card-img-top"
                         alt="No Smoking Signs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">No Smoking Signs</h3>
@@ -61,7 +61,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage4.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/prohibitory-4.webp')}}" class="why-card-img-top"
                         alt="No Mobile Phones Sign">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">No Mobile Phones Sign</h3>
@@ -71,7 +71,7 @@
             </div>
             <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/new/prohibitory-5.webp')}}" class="why-card-img-top"
                             alt="No Machinery Sign">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">No Machinery Sign</h3>
@@ -81,7 +81,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/prohibitory-6.webp')}}" class="why-card-img-top"
                         alt="No Dogs Sign">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">No Dogs Sign</h3>
@@ -91,7 +91,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/prohibitory-7.webp')}}" class="why-card-img-top"
                         alt="No Food & Drink Sign">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">No Food & Drink Sign</h3>
@@ -101,7 +101,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/prohibitory-8.webp')}}" class="why-card-img-top"
                         alt="Access Awareness Sign">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Access Awareness Sign</h3>
@@ -117,7 +117,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage3.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-3.webp')}}" class="why-card-img-top"
                                     alt="No Smoking Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">No Smoking Signs</h3>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-4.webp')}}" class="why-card-img-top"
                                     alt="No Mobile Phones Sign">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">No Mobile Phones Sign</h3>
@@ -137,7 +137,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-5.webp')}}" class="why-card-img-top"
                                     alt="No Machinery Sign">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">No Machinery Sign</h3>
@@ -151,7 +151,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-6.webp')}}" class="why-card-img-top"
                                     alt="No Dogs Sign">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">No Dogs Sign</h3>
@@ -161,7 +161,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-7.webp')}}" class="why-card-img-top"
                                     alt="No Food & Drink Sign">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">No Food & Drink Sign</h3>
@@ -171,7 +171,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-8.webp')}}" class="why-card-img-top"
                                     alt="Access Awareness Sign">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Access Awareness Sign</h3>
@@ -212,7 +212,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/outdoor-signage2.png')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/prohibitory-9.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -267,7 +267,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/outdoor-signage3.png')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/prohibitory-10.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -280,7 +280,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/outdoor-signage2.png')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/prohibitory-11.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -306,7 +306,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage3.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/prohibitory-12.webp')}}" class="why-card-img-top"
                         alt="Reasons for Conventional Prohibition Safety Signs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Reasons for Conventional Prohibition Safety Signs</h3>
@@ -321,7 +321,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage4.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/prohibitory-13.webp')}}" class="why-card-img-top"
                         alt="Customized Solutions by Brand Signages">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Customized Solutions by Brand Signages</h3>
@@ -338,7 +338,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/prohibitory-14.webp')}}" class="why-card-img-top"
                         alt="Flexibility throughout Industries">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Flexibility throughout Industries</h3>
@@ -353,7 +353,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/prohibitory-15.webp')}}" class="why-card-img-top"
                         alt="Effective and Resistant Solution">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Effective and Resistant Solution</h3>
@@ -368,7 +368,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/prohibitory-16.webp')}}" class="why-card-img-top"
                         alt="Dedication to Security">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Dedication to Security</h3>
@@ -389,7 +389,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage3.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-12.webp')}}" class="why-card-img-top"
                                     alt="Reasons for Conventional Prohibition Safety Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Reasons for Conventional Prohibition Safety Signs</h3>
@@ -404,7 +404,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-13.webp')}}" class="why-card-img-top"
                                     alt="Customized Solutions by Brand Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Customized Solutions by Brand Signages</h3>
@@ -421,7 +421,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-14.webp')}}" class="why-card-img-top"
                                     alt="Flexibility throughout Industries">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Flexibility throughout Industries</h3>
@@ -440,7 +440,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-14.webp')}}" class="why-card-img-top"
                                     alt="Flexibility throughout Industries">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Flexibility throughout Industries</h3>
@@ -455,7 +455,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-15.webp')}}" class="why-card-img-top"
                                     alt="Effective and Resistant Solution">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Effective and Resistant Solution</h3>
@@ -470,7 +470,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/prohibitory-16.webp')}}" class="why-card-img-top"
                                     alt="Dedication to Security">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Dedication to Security</h3>
@@ -518,13 +518,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The prohibition signage we bought was beyond our expectations. The team generated personalized no-smoking signage for our factory that ideally aligned with our needs. Superb quality and longevity!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore11.svg')}}" alt="Rahul Sharma" class="client-img">
+                            <img src="{{asset('frontend/Images/new/prohibitory-17.webp')}}" alt="Rahul Sharma" class="client-img">
                             <div>
                                 <div class="client-name">Rahul Sharma</div>
                                 <div class="client-role">Construction Manager</div>
@@ -536,13 +536,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We wanted prohibition safety signs for our warehouse, and the service was extraordinary. The no-entry signage was precise and efficiently constrained unsanctioned approach</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore12.svg')}}" alt="Emily Carter" class="client-img">
+                            <img src="{{asset('frontend/Images/new/prohibitory-18.webp')}}" alt="Emily Carter" class="client-img">
                             <div>
                                 <div class="client-name">Emily Carter</div>
                                 <div class="client-role">Warehouse Supervisor</div>
@@ -554,13 +554,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The conventional prohibition signs, consisting of smoking signs and area signs, have considerably enhanced protection in our workspace. Workers find them simple to comprehend</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore13.svg')}}" alt="John Peterson" class="client-img">
+                            <img src="{{asset('frontend/Images/new/prohibitory-19.webp')}}" alt="John Peterson" class="client-img">
                             <div>
                                 <div class="client-name">John Peterson</div>
                                 <div class="client-role">Safety Officer</div>
@@ -572,13 +572,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The safety signs we bought, such as the mandatory signs and warning signs, are resistant and highly observable. They have improved submissiveness in our accommodation</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore14.svg')}}" alt="Anita Desai" class="client-img">
+                            <img src="{{asset('frontend/Images/new/prohibitory-20.webp')}}" alt="Anita Desai" class="client-img">
                             <div>
                                 <div class="client-name">Anita Desai</div>
                                 <div class="client-role">Compliance Manager</div>
@@ -590,13 +590,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The prohibition signage we purchased, comprising no entry and no smoking signage, reached promptly and was completely what we required. Highly suggested!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore15.svg')}}" alt="Mark Johnson" class="client-img">
+                            <img src="{{asset('frontend/Images/new/prohibitory-21.webp')}}" alt="Mark Johnson" class="client-img">
                             <div>
                                 <div class="client-name">Mark Johnson</div>
                                 <div class="client-role">Operations Head</div>
@@ -614,13 +614,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The prohibition signage we bought was beyond our expectations. The team generated personalized no-smoking signage for our factory that ideally aligned with our needs. Superb quality and longevity!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore11.svg')}}" alt="Rahul Sharma" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/prohibitory-17.webp')}}" alt="Rahul Sharma" class="client-img">
                                         <div>
                                             <div class="client-name">Rahul Sharma</div>
                                             <div class="client-role">Construction Manager</div>
@@ -632,13 +632,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We wanted prohibition safety signs for our warehouse, and the service was extraordinary. The no-entry signage was precise and efficiently constrained unsanctioned approach</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore12.svg')}}" alt="Emily Carter" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/prohibitory-18.webp')}}" alt="Emily Carter" class="client-img">
                                         <div>
                                             <div class="client-name">Emily Carter</div>
                                             <div class="client-role">Warehouse Supervisor</div>
@@ -650,13 +650,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The conventional prohibition signs, consisting of smoking signs and area signs, have considerably enhanced protection in our workspace. Workers find them simple to comprehend</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore13.svg')}}" alt="John Peterson" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/prohibitory-19.webp')}}" alt="John Peterson" class="client-img">
                                         <div>
                                             <div class="client-name">John Peterson</div>
                                             <div class="client-role">Safety Officer</div>
@@ -672,13 +672,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The conventional prohibition signs, consisting of smoking signs and area signs, have considerably enhanced protection in our workspace. Workers find them simple to comprehend</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore13.svg')}}" alt="John Peterson" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/prohibitory-19.webp')}}" alt="John Peterson" class="client-img">
                                         <div>
                                             <div class="client-name">John Peterson</div>
                                             <div class="client-role">Safety Officer</div>
@@ -690,13 +690,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The safety signs we bought, such as the mandatory signs and warning signs, are resistant and highly observable. They have improved submissiveness in our accommodation</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore14.svg')}}" alt="Anita Desai" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/prohibitory-20.webp')}}" alt="Anita Desai" class="client-img">
                                         <div>
                                             <div class="client-name">Anita Desai</div>
                                             <div class="client-role">Compliance Manager</div>
@@ -708,13 +708,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The prohibition signage we purchased, comprising no entry and no smoking signage, reached promptly and was completely what we required. Highly suggested!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore15.svg')}}" alt="Mark Johnson" class="client-img">
+                                        <img src="{{asset('frontend/Images/new/prohibitory-21.webp')}}" alt="Mark Johnson" class="client-img">
                                         <div>
                                             <div class="client-name">Mark Johnson</div>
                                             <div class="client-role">Operations Head</div>
@@ -755,32 +755,32 @@
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore16.svg')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/prohibitory-22.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore17.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/prohibitory-23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore18.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/prohibitory-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore19.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/prohibitory-25.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
         
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore20.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/prohibitory-26.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore21.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/prohibitory-27.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore22.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/prohibitory-28.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore23.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/prohibitory-29.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
 

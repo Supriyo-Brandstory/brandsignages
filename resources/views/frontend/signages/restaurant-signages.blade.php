@@ -4,7 +4,7 @@
         <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{asset('frontend/Images/restaurant-signage1.svg')}}" alt="Slide 1">
+                    <img src="{{asset('frontend/Images/restaurant-signage1.webp')}}" alt="Slide 1">
                     <div class="carousel-caption-custom">
                         <h1>Digital Signage for Restaurants</h1>
                         <button class="custom-btn">Know More</button>
@@ -22,7 +22,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/restaurant-signage2.svg')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                        <img src="{{asset('frontend/Images/restaurant-signage2.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@
             <div class="row g-4 cards-row">
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
-                        <img src="{{asset('frontend/Images/restaurant-signage3.svg')}}" class="card-img-top" alt="Retail Signages & Retail Branding">
+                        <img src="{{asset('frontend/Images/restaurant-signage3.webp')}}" class="card-img-top" alt="Retail Signages & Retail Branding">
                         <div class="card-body">
                             <h5 class="card-title">Digital Menu Displays</h5>
                             <p class="card-text">Digital menu boards for restaurants are the best way to display foods and boost sales. Moreover, you can post text and attractive visuals to help people choose and order their favorite products. You can also make them interactive, and mobile-friendly, or curate them for the current holiday or seasonal themes.</p>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
-                        <img src="{{asset('frontend/Images/restaurant-signage4.svg')}}" class="card-img-top" alt="Rectangular and Die-cut Signs">
+                        <img src="{{asset('frontend/Images/restaurant-signage4.webp')}}" class="card-img-top" alt="Rectangular and Die-cut Signs">
                         <div class="card-body">
                             <h5 class="card-title">Customer Feedback Boards</h5>
                             <p class="card-text">A menu board for restaurants helps owners display customer feedback and allows diners to share their thoughts through QR codes or touchscreens. Positive reviews can be showcased to boost confidence, while constructive feedback helps improve service in real time. This enhances customer experience and fosters trust in the restaurant's commitment to quality.</p>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
-                        <img src="{{asset('frontend/Images/restaurant-signage5.svg')}}" class="card-img-top" alt="Storefront Signage">
+                        <img src="{{asset('frontend/Images/restaurant-signage5.webp')}}" class="card-img-top" alt="Storefront Signage">
                         <div class="card-body">
                             <h5 class="card-title">Eye-Catching Visual Content Boards</h5>
                             <p class="card-text">These digital menu boards grab attention with vibrant animations, high-resolution food images, or chef-preparation videos. Such dynamic displays entice diners to explore new menu items and create a more immersive dining environment.</p>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
-                        <img src="{{asset('frontend/Images/restaurant-signage6.svg')}}" class="card-img-top" alt="Window Graphics">
+                        <img src="{{asset('frontend/Images/restaurant-signage6.webp')}}" class="card-img-top" alt="Window Graphics">
                         <div class="card-body">
                             <h5 class="card-title">Promotion/ Offers Digital Boards</h5>
                             <p class="card-text">The restaurant industry can use these menu boards to feature limited-time deals, loyalty programs, or discounts with visually compelling graphics. Real-time updates on happy hours or seasonal offers ensure that customers never miss an opportunity to save or try something new.</p>
@@ -93,7 +93,7 @@
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
                 <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/restaurant-signage7.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/restaurant-signage7.webp')}}" class="why-card-img-top"
                             alt="Directional and Wayfinding Signages">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Enhanced Customer Engagement</h3>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/restaurant-signage8.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/restaurant-signage8.webp')}}" class="why-card-img-top"
                             alt="Informational and Educational Signage">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Increased Sales Opportunities</h3>
@@ -114,7 +114,7 @@
                 <div class="col">
                     <div class="col-md-4">
                         <div class="why-card card">
-                            <img src="{{asset('frontend/Images/restaurant-signage9.svg')}}" class="why-card-img-top"
+                            <img src="{{asset('frontend/Images/restaurant-signage9.webp')}}" class="why-card-img-top"
                                 alt="Illuminated Outdoor Signage">
                             <div class="card-body why-card-body px-0">
                                 <h3 class="why-text-red mb-3">Improved Brand Visibility</h3>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/restaurant-signage10.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/restaurant-signage10.webp')}}" class="why-card-img-top"
                             alt="Branding Signages">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Streamlined Communication and Operations</h3>
@@ -142,7 +142,7 @@
 
                             <div class="col-md-4">
                                 <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/restaurant-signage7.svg')}}" class="why-card-img-top"
+                                    <img src="{{asset('frontend/Images/restaurant-signage7.webp')}}" class="why-card-img-top"
                                         alt="Directional and Wayfinding Signages">
                                     <div class="card-body why-card-body px-0">
                                         <h3 class="why-text-red mb-3">Enhanced Customer Engagement</h3>
@@ -152,7 +152,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/restaurant-signage8.svg')}}" class="why-card-img-top"
+                                    <img src="{{asset('frontend/Images/restaurant-signage8.webp')}}" class="why-card-img-top"
                                         alt="Informational and Educational Signage">
                                     <div class="card-body why-card-body px-0">
                                         <h3 class="why-text-red mb-3">Increased Sales Opportunities</h3>
@@ -162,7 +162,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/restaurant-signage9.svg')}}" class="why-card-img-top"
+                                    <img src="{{asset('frontend/Images/restaurant-signage9.webp')}}" class="why-card-img-top"
                                         alt="Illuminated Outdoor Signage">
                                     <div class="card-body why-card-body px-0">
                                         <h3 class="why-text-red mb-3">Improved Brand Visibility</h3>
@@ -176,7 +176,7 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/restaurant-signage8.svg')}}" class="why-card-img-top"
+                                    <img src="{{asset('frontend/Images/restaurant-signage8.webp')}}" class="why-card-img-top"
                                         alt="Illuminated Outdoor Signage">
                                     <div class="card-body why-card-body px-0">
                                         <h3 class="why-text-red mb-3">Increased Sales Opportunities</h3>
@@ -186,7 +186,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/restaurant-signage9.svg')}}" class="why-card-img-top"
+                                    <img src="{{asset('frontend/Images/restaurant-signage9.webp')}}" class="why-card-img-top"
                                         alt="Digital Signages">
                                     <div class="card-body why-card-body px-0">
                                         <h3 class="why-text-red mb-3">Improved Brand Visibility</h3>
@@ -196,7 +196,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/restaurant-signage10.svg')}}" class="why-card-img-top"
+                                    <img src="{{asset('frontend/Images/restaurant-signage10.webp')}}" class="why-card-img-top"
                                         alt="Branding Signages">
                                     <div class="card-body why-card-body px-0">
                                         <h3 class="why-text-red mb-3">Streamlined Communication and Operations</h3>
@@ -236,7 +236,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/restaurant-signage11.svg')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                        <img src="{{asset('frontend/Images/restaurant-signage11.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
                     </div>
                 </div>
 
@@ -263,13 +263,13 @@
                 <div class="col testimonial-small-div">
                     <div class="testimonial-card card">
                         <div class="yellow-circle">
-                            <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                            <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                         </div>
                         <div class="card-body px-0">
                             <p class="card-text testimonial-card-text">The digital menu boards transformed the way we present our dishes! Customers love the vibrant visuals, and updating menus has never been easier.</p>
                             <hr class="yellow-line">
                             <div class="client-info">
-                                <img src="{{asset('frontend/Images/restaurant-signage12.svg')}}" alt="Client 1" class="client-img">
+                                <img src="{{asset('frontend/Images/restaurant-signage12.webp')}}" alt="Client 1" class="client-img">
                                 <div>
                                     <div class="client-name">Sarah</div>
                                     <div class="client-role">Café Owner</div>
@@ -281,13 +281,13 @@
                 <div class="col testimonial-small-div">
                     <div class="testimonial-card card">
                         <div class="yellow-circle">
-                            <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                            <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                         </div>
                         <div class="card-body px-0">
                             <p class="card-text testimonial-card-text">"We’ve seen a noticeable increase in sales since installing digital signages. When we started highlighting our products, we have seen a visible increase in sales.</p>
                             <hr class="yellow-line">
                             <div class="client-info">
-                                <img src="{{asset('frontend/Images/restaurant-signage13.svg')}}" alt="Client 1" class="client-img">
+                                <img src="{{asset('frontend/Images/restaurant-signage13.webp')}}" alt="Client 1" class="client-img">
                                 <div>
                                     <div class="client-name">Pooja Singh</div>
                                     <div class="client-role">Fusion Cuisine Restaurant Owner</div>
@@ -299,13 +299,13 @@
                 <div class="col testimonial-small-div">
                     <div class="testimonial-card card">
                         <div class="yellow-circle">
-                            <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                            <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                         </div>
                         <div class="card-body px-0">
                             <p class="card-text testimonial-card-text">We thought the process would be complex, but the team has simplified it for us – Navin, Franchise owner</p>
                             <hr class="yellow-line">
                             <div class="client-info">
-                                <img src="{{asset('frontend/Images/restaurant-signage14.svg')}}" alt="Client 1" class="client-img">
+                                <img src="{{asset('frontend/Images/restaurant-signage14.webp')}}" alt="Client 1" class="client-img">
                                 <div>
                                     <div class="client-name">Amarjeet Chawla</div>
                                     <div class="client-role">Punjabi Dhaba Owner</div>
@@ -317,13 +317,13 @@
                 <div class="col testimonial-small-div">
                     <div class="testimonial-card card">
                         <div class="yellow-circle">
-                            <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                            <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                         </div>
                         <div class="card-body px-0">
                             <p class="card-text testimonial-card-text">Our branding really comes alive with the digital displays. It’s helped us stand out in a crowded market.</p>
                             <hr class="yellow-line">
                             <div class="client-info">
-                                <img src="{{asset('frontend/Images/restaurant-signage15.svg')}}" alt="Client 1" class="client-img">
+                                <img src="{{asset('frontend/Images/restaurant-signage15.webp')}}" alt="Client 1" class="client-img">
                                 <div>
                                     <div class="client-name">Ishika</div>
                                     <div class="client-role">Bistro Owner</div>
@@ -335,13 +335,13 @@
                 <div class="col testimonial-small-div">
                     <div class="testimonial-card card">
                         <div class="yellow-circle">
-                            <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                            <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                         </div>
                         <div class="card-body px-0">
                             <p class="card-text testimonial-card-text">The ability to make real-time updates has saved us so much time and money. Highly recommend their services!</p>
                             <hr class="yellow-line">
                             <div class="client-info">
-                                <img src="{{asset('frontend/Images/restaurant-signage16.svg')}}" alt="Client 1" class="client-img">
+                                <img src="{{asset('frontend/Images/restaurant-signage16.webp')}}" alt="Client 1" class="client-img">
                                 <div>
                                     <div class="client-name">Namrata</div>
                                     <div class="client-role">Fast-Food Chain Manager</div>
@@ -359,13 +359,13 @@
                             <div class="col-md-4">
                                 <div class="testimonial-card card">
                                     <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                     </div>
                                     <div class="card-body px-0">
                                         <p class="card-text testimonial-card-text">The digital menu boards transformed the way we present our dishes! Customers love the vibrant visuals, and updating menus has never been easier.</p>
                                         <hr class="yellow-line">
                                         <div class="client-info">
-                                            <img src="{{asset('frontend/Images/restaurant-signage12.svg')}}" alt="Client 1" class="client-img">
+                                            <img src="{{asset('frontend/Images/restaurant-signage12.webp')}}" alt="Client 1" class="client-img">
                                             <div>
                                                 <div class="client-name">Sarah</div>
                                                 <div class="client-role">Café Owner</div>
@@ -377,13 +377,13 @@
                             <div class="col-md-4">
                                 <div class="testimonial-card card">
                                     <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                     </div>
                                     <div class="card-body px-0">
                                         <p class="card-text testimonial-card-text">"We’ve seen a noticeable increase in sales since installing digital signages. When we started highlighting our products, we have seen a visible increase in sales.</p>
                                         <hr class="yellow-line">
                                         <div class="client-info">
-                                            <img src="{{asset('frontend/Images/restaurant-signage13.svg')}}" alt="Client 1" class="client-img">
+                                            <img src="{{asset('frontend/Images/restaurant-signage13.webp')}}" alt="Client 1" class="client-img">
                                             <div>
                                                 <div class="client-name">Pooja Singh</div>
                                                 <div class="client-role">Fusion Cuisine Restaurant Owner</div>
@@ -395,13 +395,13 @@
                             <div class="col-md-4">
                                 <div class="testimonial-card card">
                                     <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                     </div>
                                     <div class="card-body px-0">
                                         <p class="card-text testimonial-card-text">We thought the process would be complex, but the team has simplified it for us – Navin, Franchise owner</p>
                                         <hr class="yellow-line">
                                         <div class="client-info">
-                                            <img src="{{asset('frontend/Images/restaurant-signage14.svg')}}" alt="Client 1" class="client-img">
+                                            <img src="{{asset('frontend/Images/restaurant-signage14.webp')}}" alt="Client 1" class="client-img">
                                             <div>
                                                 <div class="client-name">Amarjeet Chawla</div>
                                                 <div class="client-role">Punjabi Dhaba Owner</div>
@@ -417,13 +417,13 @@
                             <div class="col-md-4">
                                 <div class="testimonial-card card">
                                     <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                     </div>
                                     <div class="card-body px-0">
                                         <p class="card-text testimonial-card-text">We thought the process would be complex, but the team has simplified it for us – Navin, Franchise owner <br> <br> </p>
                                         <hr class="yellow-line">
                                         <div class="client-info">
-                                            <img src="{{asset('frontend/Images/restaurant-signage14.svg')}}" alt="Client 1" class="client-img">
+                                            <img src="{{asset('frontend/Images/restaurant-signage14.webp')}}" alt="Client 1" class="client-img">
                                             <div>
                                                 <div class="client-name">Amarjeet Chawla</div>
                                                 <div class="client-role">Punjabi Dhaba Owner</div>
@@ -435,13 +435,13 @@
                             <div class="col-md-4">
                                 <div class="testimonial-card card">
                                     <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                     </div>
                                     <div class="card-body px-0">
                                         <p class="card-text testimonial-card-text">Our branding really comes alive with the digital displays. It’s helped us stand out in a crowded market.</p>
                                         <hr class="yellow-line">
                                         <div class="client-info">
-                                            <img src="{{asset('frontend/Images/restaurant-signage15.svg')}}" alt="Client 1" class="client-img">
+                                            <img src="{{asset('frontend/Images/restaurant-signage15.webp')}}" alt="Client 1" class="client-img">
                                             <div>
                                                 <div class="client-name">Ishika</div>
                                                 <div class="client-role">Bistro Owner</div>
@@ -453,13 +453,13 @@
                             <div class="col-md-4">
                                 <div class="testimonial-card card">
                                     <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                     </div>
                                     <div class="card-body px-0">
                                         <p class="card-text testimonial-card-text">The ability to make real-time updates has saved us so much time and money. Highly recommend their services!</p>
                                         <hr class="yellow-line">
                                         <div class="client-info">
-                                            <img src="{{asset('frontend/Images/restaurant-signage16.svg')}}" alt="Client 1" class="client-img">
+                                            <img src="{{asset('frontend/Images/restaurant-signage16.webp')}}" alt="Client 1" class="client-img">
                                             <div>
                                                 <div class="client-name">Namrata</div>
                                                 <div class="client-role">Fast-Food Chain Manager</div>

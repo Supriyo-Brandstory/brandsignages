@@ -4,7 +4,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/door-signage1.svg')}}" alt="Door Signage">
+                <img src="{{asset('frontend/Images/door-signage1.webp')}}" alt="Door Signage">
                 <div class="carousel-caption-custom">
                     <h1>Door Signs: Making a Lasting Impression</h1>
                     <button class="custom-btn">Know More</button>
@@ -22,7 +22,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/door-signage2.svg')}}" alt="Door Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/door-signage2.webp')}}" alt="Door Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -52,7 +52,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/door-signage3.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/door-signage3.webp')}}" class="why-card-img-top"
                         alt="Holds a Welcoming or Warning Message">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Holds a Welcoming or Warning Message</h3>
@@ -62,7 +62,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/door-signage4.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/door-signage4.webp')}}" class="why-card-img-top"
                         alt="Makes Your Space Look More Aesthetic">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Makes Your Space Look More Aesthetic</h3>
@@ -73,7 +73,7 @@
             <div class="col">
                 <div class="col-md-4">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/door-signage5.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/door-signage5.webp')}}" class="why-card-img-top"
                             alt="Guides people about what is behind the door">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Guides people about what is behind the door</h3>
@@ -84,7 +84,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/door-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/door-signage6.webp')}}" class="why-card-img-top"
                         alt="Door signage">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Door signage</h3>
@@ -101,7 +101,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage3.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/door-signage3.webp')}}" class="why-card-img-top"
                                     alt="Holds a Welcoming or Warning Message">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Holds a Welcoming or Warning Message</h3>
@@ -111,7 +111,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/door-signage4.webp')}}" class="why-card-img-top"
                                     alt="Makes Your Space Look More Aesthetic">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Makes Your Space Look More Aesthetic</h3>
@@ -121,7 +121,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/door-signage5.webp')}}" class="why-card-img-top"
                                     alt="Guides people about what is behind the door">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Guides people about what is behind the door</h3>
@@ -135,7 +135,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/door-signage4.webp')}}" class="why-card-img-top"
                                     alt="Makes Your Space Look More Aesthetic">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Makes Your Space Look More Aesthetic</h3>
@@ -145,7 +145,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/door-signage5.webp')}}" class="why-card-img-top"
                                     alt="Guides people about what is behind the door">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Guides people about what is behind the door</h3>
@@ -155,7 +155,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/door-signage6.webp')}}" class="why-card-img-top"
                                     alt="Door signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Door signage</h3>
@@ -199,7 +199,7 @@
 
         <div class="col-lg-4">
             <div class="image-container position-relative">
-                <img src="{{asset('frontend/Images/door-signage7.svg')}}" alt="Name Plates" class="w-100 h-100">
+                <img src="{{asset('frontend/Images/door-signage7.webp')}}" alt="Name Plates" class="w-100 h-100">
                 <div class="overlay">
                     <h5 class="text-title">Name Plates</h5>
                     <p class="text-content">It is mostly seen in front of a house door gate, on the office desk of notable dignitaries, etc. With them, identifying houses or treating official professionals properly becomes easy.</p>
@@ -211,7 +211,7 @@
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/door-signage8.svg')}}" alt="Warning Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/door-signage8.webp')}}" alt="Warning Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Warning Signs</h5>
                             <p class="text-content">When there is danger inside, warning sign boards are hung to make people alert about the possible consequences of going inside. In the mining industry and many other fields, such signboards are quite common.</p>
@@ -221,7 +221,7 @@
 
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/door-signage9.svg')}}" alt="Instructions" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/door-signage9.webp')}}" alt="Instructions" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Instructions</h5>
                             <p class="text-content">A significant place like a reputed personality’s cabin, etc. is found with signboards mentioning instructions, hung in front of the main door of the space. Also, instruction boards are used to guide visitors in tourist spots.</p>
@@ -231,7 +231,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/door-signage10.svg')}}" alt="Personalized Message" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/door-signage10.webp')}}" alt="Personalized Message" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Personalized Message</h5>
                             <p class="text-content">Sometimes, personalised messages are written on signboards and sent to specific people, as a part of various brands’ digital marketing campaigns.Whether it is a welcome sign for the front door or open closed sign for the door, Brand Signage is your ultimate destination for all types of door signs.</p>
@@ -241,7 +241,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/door-signage11.svg')}}" alt="Do Not Disturb" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/door-signage11.webp')}}" alt="Do Not Disturb" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Do Not Disturb</h5>
                             <p class="text-content">To maintain privacy or confidentiality in professional spaces, “Do Not Disturb boards” are often hung, mostly as temporary. It is typically hung on a door’s handle denoting that the people inside don’t want to be disturbed in any way.</p>
@@ -265,7 +265,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/door-signage17.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/door-signage17.webp')}}" class="why-card-img-top"
                         alt="Acrylic">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Acrylic</h3>
@@ -275,7 +275,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/door-signage18.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/door-signage18.webp')}}" class="why-card-img-top"
                         alt="Wood">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Wood</h3>
@@ -286,7 +286,7 @@
             <div class="col">
                 <div class="col-md-4">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/door-signage12.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/door-signage12.webp')}}" class="why-card-img-top"
                             alt="Metal">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Metal</h3>
@@ -304,7 +304,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage17.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/door-signage17.webp')}}" class="why-card-img-top"
                                     alt="Acrylic">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Acrylic</h3>
@@ -314,7 +314,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage18.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/door-signage18.webp')}}" class="why-card-img-top"
                                     alt="Wood">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Wood</h3>
@@ -324,7 +324,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage12.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/door-signage12.webp')}}" class="why-card-img-top"
                                     alt="Metal">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Metal</h3>
@@ -347,7 +347,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/door-signage13.svg')}}" alt="Door Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/door-signage13.webp')}}" alt="Door Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -378,13 +378,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">A trusted brand for door signage. I would love to recommend Brand Signage for high-end door signages</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/door-signage14.svg')}}" alt="Divya Reddy" class="client-img">
+                            <img src="{{asset('frontend/Images/door-signage14.webp')}}" alt="Divya Reddy" class="client-img">
                             <div>
                                 <div class="client-name">Divya Reddy</div>
                                 <div class="client-role">Marketing Manager</div>
@@ -396,13 +396,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">If you’re looking for stylish yet durable door signboards, look no further than Brand Signage. I recently bought nameplates for my office and they are wonderful.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/door-signage15.svg')}}" alt="Karan Singh" class="client-img">
+                            <img src="{{asset('frontend/Images/door-signage15.webp')}}" alt="Karan Singh" class="client-img">
                             <div>
                                 <div class="client-name">Karan Singh</div>
                                 <div class="client-role">Business Owner</div>
@@ -414,13 +414,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Appreciate the dedication and determination of Brand Signage to offer best-quality door signages</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/door-signage16.svg')}}" alt="Meera Iyer" class="client-img">
+                            <img src="{{asset('frontend/Images/door-signage16.webp')}}" alt="Meera Iyer" class="client-img">
                             <div>
                                 <div class="client-name">Meera Iyer</div>
                                 <div class="client-role">Chartered Accountant</div>
@@ -438,13 +438,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">A trusted brand for door signage. I would love to recommend Brand Signage for high-end door signages</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/door-signage14.svg')}}" alt="Divya Reddy" class="client-img">
+                                        <img src="{{asset('frontend/Images/door-signage14.webp')}}" alt="Divya Reddy" class="client-img">
                                         <div>
                                             <div class="client-name">Divya Reddy</div>
                                             <div class="client-role">Marketing Manager</div>
@@ -456,13 +456,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">If you’re looking for stylish yet durable door signboards, look no further than Brand Signage. I recently bought nameplates for my office and they are wonderful.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/door-signage15.svg')}}" alt="Karan Singh" class="client-img">
+                                        <img src="{{asset('frontend/Images/door-signage15.webp')}}" alt="Karan Singh" class="client-img">
                                         <div>
                                             <div class="client-name">Karan Singh</div>
                                             <div class="client-role">Business Owner</div>
@@ -474,13 +474,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Appreciate the dedication and determination of Brand Signage to offer best-quality door signages</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/door-signage16.svg')}}" alt="Meera Iyer" class="client-img">
+                                        <img src="{{asset('frontend/Images/door-signage16.webp')}}" alt="Meera Iyer" class="client-img">
                                         <div>
                                             <div class="client-name">Meera Iyer</div>
                                             <div class="client-role">Chartered Accountant</div>
@@ -496,13 +496,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">A trusted brand for door signage. I would love to recommend Brand Signage for high-end door signages</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/door-signage14.svg')}}" alt="Divya Reddy" class="client-img">
+                                        <img src="{{asset('frontend/Images/door-signage14.webp')}}" alt="Divya Reddy" class="client-img">
                                         <div>
                                             <div class="client-name">Divya Reddy</div>
                                             <div class="client-role">Marketing Manager</div>
@@ -514,13 +514,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">If you’re looking for stylish yet durable door signboards, look no further than Brand Signage. I recently bought nameplates for my office and they are wonderful.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/door-signage15.svg')}}" alt="Karan Singh" class="client-img">
+                                        <img src="{{asset('frontend/Images/door-signage15.webp')}}" alt="Karan Singh" class="client-img">
                                         <div>
                                             <div class="client-name">Karan Singh</div>
                                             <div class="client-role">Business Owner</div>
@@ -532,13 +532,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Appreciate the dedication and determination of Brand Signage to offer best-quality door signages</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/door-signage16.svg')}}" alt="Meera Iyer" class="client-img">
+                                        <img src="{{asset('frontend/Images/door-signage16.webp')}}" alt="Meera Iyer" class="client-img">
                                         <div>
                                             <div class="client-name">Meera Iyer</div>
                                             <div class="client-role">Chartered Accountant</div>

@@ -4,7 +4,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/neon-image.png')}}" alt="Slide 1">
+                <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Slide 1">
                 <div class="carousel-caption-custom">
                     <h1>Custom Led Neon Signs Online</h1>
                     <button class="custom-btn">Know More</button>
@@ -21,7 +21,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/neon-image2.png')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/neon-image2.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
                 </div>
             </div>
             
@@ -50,7 +50,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/neon-image7.png')}}" class="why-card-img-top" alt="Consulting">
+                    <img src="{{asset('frontend/Images/neon-image7.webp')}}" class="why-card-img-top" alt="Consulting">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Purchasing process</h3>
                         <p class="card-text">We, with an efficient team, maintain a smooth and transparent process whenever customers approach us to purchase neon signs for rooms, shops and other places in their homes and workplaces.</p>
@@ -59,7 +59,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/neon-image6.png')}}" class="why-card-img-top" alt="Designs">
+                    <img src="{{asset('frontend/Images/neon-image6.webp')}}" class="why-card-img-top" alt="Designs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Best Quality Products</h3>
                         <p class="card-text">Regardless of what happens, Brand Signage does not prefer to compromise product quality. Instead of focusing only on maximising our revenue, we tend to pay keen attention to maximising the value we provide to our buyers.</p>
@@ -68,7 +68,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/neon-image2.png')}}" class="why-card-img-top" alt="Workforce">
+                    <img src="{{asset('frontend/Images/neon-image2.webp')}}" class="why-card-img-top" alt="Workforce">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Custom Options</h3>
                         <p class="card-text">We first understand what your specific choices and requirements are. Then, depending on your individual preferences, we offer you top-rated neon signs that serve your purposes well.</p>
@@ -77,7 +77,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/neon-image5.png')}}" class="why-card-img-top" alt="Workforce">
+                    <img src="{{asset('frontend/Images/neon-image5.webp')}}" class="why-card-img-top" alt="Workforce">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Top-class Craftmanship</h3>
                         <p class="card-text">Picking up the right talents and empowering them with the right resources is what we do at Brand Signage. This way, we are able to ensure that each of our products showcases top-class craftsmanship.</p>
@@ -86,7 +86,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/neon-image4.png')}}" class="why-card-img-top" alt="Quality">
+                    <img src="{{asset('frontend/Images/neon-image4.webp')}}" class="why-card-img-top" alt="Quality">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Power Efficient</h3>
                         <p class="card-text">Our neon signs are known for their bright shine while being extremely energy efficient. Gorgeous bright ambience without high electricity bills is ensured with the neon signs we offer to you!</p>
@@ -95,7 +95,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/neon-image3.png')}}" class="why-card-img-top" alt="Customer Service">
+                    <img src="{{asset('frontend/Images/neon-image3.webp')}}" class="why-card-img-top" alt="Customer Service">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Guaranteed Customer Satisfaction</h3>
                         <p class="card-text">As one of the leading neon sign manufacturers, our aim is the complete satisfaction of our buyers. From selecting customisation options to getting the delivery in a hassle-free way- every step of our product delivery is supervised under expert discretion.</p>
@@ -110,7 +110,7 @@
                     <div class="row g-3 align-items-start">
                         <div class="col-md-4 d-flex">
                             <div class="why-card card flex-grow-1">
-                                <img src="{{asset('frontend/Images/neon-image7.png')}}" class="why-card-img-top" alt="Consulting">
+                                <img src="{{asset('frontend/Images/neon-image7.webp')}}" class="why-card-img-top" alt="Consulting">
                                 <div class="card-body why-card-body">
                                     <h3 class="why-text-red mb-3">Purchasing Process</h3>
                                     <p class="card-text">We, with an efficient team, maintain a smooth and transparent process whenever customers approach us to purchase neon signs for rooms, shops and other places in their homes and workplaces.</p>
@@ -119,7 +119,7 @@
                         </div>
                         <div class="col-md-4 d-flex">
                             <div class="why-card card flex-grow-1">
-                                <img src="{{asset('frontend/Images/neon-image6.png')}}" class="why-card-img-top" alt="Designs">
+                                <img src="{{asset('frontend/Images/neon-image6.webp')}}" class="why-card-img-top" alt="Designs">
                                 <div class="card-body why-card-body">
                                     <h3 class="why-text-red mb-3">Best Quality Products</h3>
                                     <p class="card-text">Regardless of what happens, Brand Signage does not prefer to compromise product quality. Instead of focusing only on maximising our revenue, we tend to pay keen attention to maximising the value we provide to our buyers. <br> <br></p>
@@ -128,7 +128,7 @@
                         </div>
                         <div class="col-md-4 d-flex">
                             <div class="why-card card flex-grow-1">
-                                <img src="{{asset('frontend/Images/neon-image5.png')}}" class="why-card-img-top" alt="Workforce">
+                                <img src="{{asset('frontend/Images/neon-image5.webp')}}" class="why-card-img-top" alt="Workforce">
                                 <div class="card-body why-card-body">
                                     <h3 class="why-text-red mb-3">Custom Options</h3>
                                     <p class="card-text">We first understand what your specific choices and requirements are. Then, depending on your individual preferences, we offer you top-rated neon signs that serve your purposes well.</p>
@@ -141,7 +141,7 @@
                     <div class="row g-3 align-items-start">
                         <div class="col-md-4 d-flex">
                             <div class="why-card card flex-grow-1">
-                                <img src="{{asset('frontend/Images/neon-image5.png')}}" class="why-card-img-top" alt="Workforce">
+                                <img src="{{asset('frontend/Images/neon-image5.webp')}}" class="why-card-img-top" alt="Workforce">
                                 <div class="card-body why-card-body">
                                     <h3 class="why-text-red mb-3">Top-class Craftsmanship</h3>
                                     <p class="card-text">Picking up the right talents and empowering them with the right resources is what we do at Brand Signage. This way, we are able to ensure that each of our products showcases top-class craftsmanship.</p>
@@ -150,7 +150,7 @@
                         </div>
                         <div class="col-md-4 d-flex">
                             <div class="why-card card flex-grow-1">
-                                <img src="{{asset('frontend/Images/neon-image4.png')}}" class="why-card-img-top" alt="Quality">
+                                <img src="{{asset('frontend/Images/neon-image4.webp')}}" class="why-card-img-top" alt="Quality">
                                 <div class="card-body why-card-body">
                                     <h3 class="why-text-red mb-3">Power Efficient</h3>
                                     <p class="card-text">Our neon signs are known for their bright shine while being extremely energy efficient. Gorgeous bright ambience without high electricity bills is ensured with the neon signs we offer to you!</p>
@@ -159,7 +159,7 @@
                         </div>
                         <div class="col-md-4 d-flex">
                             <div class="why-card card flex-grow-1">
-                                <img src="{{asset('frontend/Images/neon-image3.png')}}" class="why-card-img-top" alt="Customer Service">
+                                <img src="{{asset('frontend/Images/neon-image3.webp')}}" class="why-card-img-top" alt="Customer Service">
                                 <div class="card-body why-card-body">
                                     <h3 class="why-text-red mb-3">Guaranteed Customer Satisfaction</h3>
                                     <p class="card-text">As one of the leading neon sign manufacturers, our aim is the complete satisfaction of our buyers. From selecting customisation options to getting the delivery in a hassle-free way- every step of our product delivery is supervised under expert discretion.</p>
@@ -197,7 +197,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/neon-image8.png')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/neon-image8.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
                 </div>
             </div>
             
@@ -234,7 +234,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/neon-image9.png')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/neon-image9.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -253,13 +253,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Recently, I bought a set of customized neon light signs from Brand Signage. And I must say the products are mind-blowing. Highly recommend it!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/arun-prakash.svg')}}" alt="Arun Prakash" class="client-img">
+                            <img src="{{asset('frontend/Images/arun-prakash.webp')}}" alt="Arun Prakash" class="client-img">
                             <div>
                                 <div class="client-name">Arun Prakash</div>
                                 <div class="client-role">Hotel Chain Owner</div>
@@ -272,13 +272,13 @@
                 <div class="col-md-4">
                     <div class="testimonial-card card">
                         <div class="yellow-circle">
-                            <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                            <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                         </div>
                         <div class="card-body px-0">
                             <p class="card-text testimonial-card-text">If you’re looking for the best quality neon signs, Brand Signage should be your first choice. Excellent products they offer with various customization options</p>
                             <hr class="yellow-line">
                             <div class="client-info">
-                                <img src="{{asset('frontend/Images/neha-kapoor.svg')}}" alt="Neha Kapoor" class="client-img">
+                                <img src="{{asset('frontend/Images/neha-kapoor.webp')}}" alt="Neha Kapoor" class="client-img">
                                 <div>
                                     <div class="client-name">Neha Kapoor</div>
                                     <div class="client-role">Salon and Spa Owner</div>
@@ -291,13 +291,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Amazing neon light signs I received from Brand Signages a few days ago. The neon light signs are stunning —absolutely love them!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/vikram-sharma.svg')}}" alt="Vikram Sharma" class="client-img">
+                            <img src="{{asset('frontend/Images/vikram-sharma.webp')}}" alt="Vikram Sharma" class="client-img">
                             <div>
                                 <div class="client-name">Vikram Sharma</div>
                                 <div class="client-role">Restaurant Chain Owner</div>
@@ -315,13 +315,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Recently, I bought a set of customized neon light signs from Brand Signage. And I must say the products are mind-blowing. Highly recommend it!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/arun-prakash.svg')}}" alt="Arun Prakash" class="client-img">
+                                        <img src="{{asset('frontend/Images/arun-prakash.webp')}}" alt="Arun Prakash" class="client-img">
                                         <div>
                                             <div class="client-name">Arun Prakash</div>
                                             <div class="client-role">Hotel Chain Owner</div>
@@ -333,13 +333,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">If you’re looking for the best quality neon signs, Brand Signage should be your first choice. Excellent products they offer with various customization options</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neha-kapoor.svg')}}" alt="Neha Kapoor" class="client-img">
+                                        <img src="{{asset('frontend/Images/neha-kapoor.webp')}}" alt="Neha Kapoor" class="client-img">
                                         <div>
                                             <div class="client-name">Neha Kapoor</div>
                                             <div class="client-role">Salon and Spa Owner</div>
@@ -351,13 +351,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Amazing neon light signs I received from Brand Signages a few days ago. The neon light signs are stunning —absolutely love them!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/vikram-sharma.svg')}}" alt="Vikram Sharma" class="client-img">
+                                        <img src="{{asset('frontend/Images/vikram-sharma.webp')}}" alt="Vikram Sharma" class="client-img">
                                         <div>
                                             <div class="client-name">Vikram Sharma</div>
                                             <div class="client-role">Restaurant Chain Owner</div>

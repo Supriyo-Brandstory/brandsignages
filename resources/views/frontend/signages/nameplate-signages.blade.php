@@ -5,7 +5,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/nameplate-signage1.svg')}}" alt="Name Plate Signage">
+                <img src="{{asset('frontend/Images/nameplate-signage1.webp')}}" alt="Name Plate Signage">
                 <div class="carousel-caption-custom">
                     <h1>Custom Nameplate Designs for Home & Office Space</h1>
                     <button class="custom-btn">Know More</button>
@@ -23,7 +23,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/nameplate-signage2.svg')}}" alt="Name Plate Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/nameplate-signage2.webp')}}" alt="Name Plate Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -53,7 +53,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/nameplate-signage3.svg')}}" alt="Name Plate Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/nameplate-signage3.webp')}}" alt="Name Plate Signage" class="img-fluid">
                 </div>
             </div>
           
@@ -72,7 +72,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/nameplate-signage4.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/nameplate-signage4.webp')}}" class="why-card-img-top"
                         alt="Wooden">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Wooden</h3>
@@ -82,7 +82,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/nameplate-signage5.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/nameplate-signage5.webp')}}" class="why-card-img-top"
                         alt="Acrylic">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Acrylic</h3>
@@ -92,7 +92,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/nameplate-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/nameplate-signage6.webp')}}" class="why-card-img-top"
                         alt="Steel">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Steel</h3>
@@ -102,7 +102,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/nameplate-signage7.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/nameplate-signage7.webp')}}" class="why-card-img-top"
                         alt="Marble">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Marble</h3>
@@ -119,7 +119,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/nameplate-signage4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/nameplate-signage4.webp')}}" class="why-card-img-top"
                                     alt="Wooden">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Wooden</h3>
@@ -129,7 +129,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/nameplate-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/nameplate-signage5.webp')}}" class="why-card-img-top"
                                     alt="Acrylic">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Acrylic</h3>
@@ -139,7 +139,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/nameplate-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/nameplate-signage6.webp')}}" class="why-card-img-top"
                                     alt="Steel">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Steel</h3>
@@ -153,7 +153,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/nameplate-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/nameplate-signage5.webp')}}" class="why-card-img-top"
                                     alt="Acrylic">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Acrylic</h3>
@@ -163,7 +163,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/nameplate-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/nameplate-signage6.webp')}}" class="why-card-img-top"
                                     alt="Steel">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Steel</h3>
@@ -173,7 +173,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/nameplate-signage7.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/nameplate-signage7.webp')}}" class="why-card-img-top"
                                     alt="Marble">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Marble</h3>
@@ -220,7 +220,7 @@
             <div class="row g-4">
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/nameplate-signage8.svg')}}" alt="Office Desk nameplates" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/nameplate-signage8.webp')}}" alt="Office Desk nameplates" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Office Desk nameplates</h5>
                             <p class="text-content">These types of nameplates can feature names, job titles, and even inspirational quotes are perfect for identifying employees and personalizing workspaces. They improve workstation aesthetics and convey professionalism.</p>
@@ -230,7 +230,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/nameplate-signage9.svg')}}" alt="Mailbox nameplates" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/nameplate-signage9.webp')}}" alt="Mailbox nameplates" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Mailbox nameplates</h5>
                             <p class="text-content">These nameplates can include apartment numbers, business names, or family member’s names and are ideal for personalizing your home or workplace mailbox. They can last in outdoor conditions for their sturdy materials like wood, steel, or acrylic.</p>
@@ -240,7 +240,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/nameplate-signage10.svg')}}" alt="Door Nameplates"
+                        <img src="{{asset('frontend/Images/nameplate-signage10.webp')}}" alt="Door Nameplates"
                             class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Door Nameplates</h5>
@@ -251,7 +251,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/nameplate-signage11.svg')}}" alt="Gifting Ideas" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/nameplate-signage11.webp')}}" alt="Gifting Ideas" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Gifting Ideas</h5>
                             <p class="text-content">Personalized nameplates can be the best gift ideas and useful presents. There are many options in terms of design, material and more. You can choose one of the design plates that have been engraved with the recipient's name, house number, or name.In office space, nameplates are used to present staff names, corporate logos, and titles which are useful tools for improving organization and projecting professionalism. These are used for branding or employee appreciation. For the ideal fit, choose according to your purpose and available space!</p>
@@ -275,13 +275,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I ordered an acrylic door nameplate for my new home. I love to have it! It is really beautiful and matches my expectations. The color combinations and font style are nice. The material of the door nameplate is durable also. Thank You!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/nameplate-signage12.svg')}}" alt="Priya Agarwal" class="client-img">
+                            <img src="{{asset('frontend/Images/nameplate-signage12.webp')}}" alt="Priya Agarwal" class="client-img">
                             <div>
                                 <div class="client-name">Priya Agarwal</div>
                                 <div class="client-role">Bank Manager</div>
@@ -293,13 +293,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I ordered Steel nameplates for my office space. Their service and brand understanding, help me to get the best office steel nameplate. They gave the entrance a touch of elegance. The material quality was excellent, and the engraved corporate logo looked great.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/nameplate-signage13.svg')}}" alt="Rajiv Gupta" class="client-img">
+                            <img src="{{asset('frontend/Images/nameplate-signage13.webp')}}" alt="Rajiv Gupta" class="client-img">
                             <div>
                                 <div class="client-name">Rajiv Gupta</div>
                                 <div class="client-role">Freelance Writer</div>
@@ -311,13 +311,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I purchased wooden nameplates for a DIY store. It was better than I could have imagined! The engraving gave my front door a rustic appeal, and the execution was superb. Visitors have been complimenting me a lot!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/nameplate-signage14.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/nameplate-signage14.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Mohit Saraf</div>
                                 <div class="client-role">Graphic Designer</div>
@@ -329,13 +329,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I got a beautiful personalized nameplate to give my friend! The design was unique, and the recipient loved the thoughtful personalization. Highly recommended for gifting!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/nameplate-signage15.svg')}}" alt="Neha Mahor" class="client-img">
+                            <img src="{{asset('frontend/Images/nameplate-signage15.webp')}}" alt="Neha Mahor" class="client-img">
                             <div>
                                 <div class="client-name">Neha Mahor</div>
                                 <div class="client-role">Teacher</div>
@@ -347,13 +347,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We bought marble nameplates for our business building, and they gave the entrance a refined touch. The marble quality was excellent, and the engraved corporate logo, and building address looked great.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/nameplate-signage16.svg')}}" alt="Amitav Kapoor" class="client-img">
+                            <img src="{{asset('frontend/Images/nameplate-signage16.webp')}}" alt="Amitav Kapoor" class="client-img">
                             <div>
                                 <div class="client-name">Amitav Kapoor</div>
                                 <div class="client-role">Fashion Designer</div>
@@ -371,13 +371,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I ordered an acrylic door nameplate for my new home. I love to have it! It is really beautiful and matches my expectations. The color combinations and font style are nice. The material of the door nameplate is durable also. Thank You!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/nameplate-signage12.svg')}}" alt="Priya Agarwal" class="client-img">
+                                        <img src="{{asset('frontend/Images/nameplate-signage12.webp')}}" alt="Priya Agarwal" class="client-img">
                                         <div>
                                             <div class="client-name">Priya Agarwal</div>
                                             <div class="client-role">Bank Manager</div>
@@ -389,13 +389,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I ordered Steel nameplates for my office space. Their service and brand understanding, help me to get the best office steel nameplate. They gave the entrance a touch of elegance. The material quality was excellent, and the engraved corporate logo looked great.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/nameplate-signage13.svg')}}" alt="Rajiv Gupta" class="client-img">
+                                        <img src="{{asset('frontend/Images/nameplate-signage13.webp')}}" alt="Rajiv Gupta" class="client-img">
                                         <div>
                                             <div class="client-name">Rajiv Gupta</div>
                                             <div class="client-role">Freelance Writer</div>
@@ -407,13 +407,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I purchased wooden nameplates for a DIY store. It was better than I could have imagined! The engraving gave my front door a rustic appeal, and the execution was superb. Visitors have been complimenting me a lot!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/nameplate-signage14.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/nameplate-signage14.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Mohit Saraf</div>
                                             <div class="client-role">Graphic Designer</div>
@@ -429,13 +429,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I purchased wooden nameplates for a DIY store. It was better than I could have imagined! The engraving gave my front door a rustic appeal, and the execution was superb. Visitors have been complimenting me a lot! <br> <br></p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/nameplate-signage14.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/nameplate-signage14.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Mohit Saraf</div>
                                             <div class="client-role">Graphic Designer</div>
@@ -447,13 +447,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I got a beautiful personalized nameplate to give my friend! The design was unique, and the recipient loved the thoughtful personalization. Highly recommended for gifting!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/nameplate-signage15.svg')}}" alt="Neha Mahor" class="client-img">
+                                        <img src="{{asset('frontend/Images/nameplate-signage15.webp')}}" alt="Neha Mahor" class="client-img">
                                         <div>
                                             <div class="client-name">Neha Mahor</div>
                                             <div class="client-role">Teacher</div>
@@ -465,13 +465,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We bought marble nameplates for our business building, and they gave the entrance a refined touch. The marble quality was excellent, and the engraved corporate logo, and building address looked great.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/nameplate-signage16.svg')}}" alt="Amitav Kapoor" class="client-img">
+                                        <img src="{{asset('frontend/Images/nameplate-signage16.webp')}}" alt="Amitav Kapoor" class="client-img">
                                         <div>
                                             <div class="client-name">Amitav Kapoor</div>
                                             <div class="client-role">Fashion Designer</div>

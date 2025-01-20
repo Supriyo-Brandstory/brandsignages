@@ -5,7 +5,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/home-number-signage1.svg')}}" alt="House Number Signage">
+                <img src="{{asset('frontend/Images/home-number-signage1.webp')}}" alt="House Number Signage">
                 <div class="carousel-caption-custom">
                     <h1>House Number Signs for Every Home</h1>
                     <button class="custom-btn">Know More</button>
@@ -23,7 +23,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/home-number-signage2.svg')}}" alt="House Number Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/home-number-signage2.webp')}}" alt="House Number Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -50,7 +50,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/home-number-signage3.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/home-number-signage3.webp')}}" class="why-card-img-top"
                         alt="Long-lasting material">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Long-lasting material</h3>
@@ -60,7 +60,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/home-number-signage4.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/home-number-signage4.webp')}}" class="why-card-img-top"
                         alt="Improve aesthetics">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Improve aesthetics</h3>
@@ -70,7 +70,7 @@
             </div>
             <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/home-number-signage5.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/home-number-signage5.webp')}}" class="why-card-img-top"
                             alt="Modern design">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Modern design</h3>
@@ -80,7 +80,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/home-number-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/home-number-signage6.webp')}}" class="why-card-img-top"
                         alt="Worry-free installation">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Worry-free installation</h3>
@@ -97,7 +97,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/home-number-signage3.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/home-number-signage3.webp')}}" class="why-card-img-top"
                                     alt="Long-lasting material">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Long-lasting material</h3>
@@ -107,7 +107,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/home-number-signage4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/home-number-signage4.webp')}}" class="why-card-img-top"
                                     alt="Improve aesthetics">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Improve aesthetics</h3>
@@ -117,7 +117,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/home-number-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/home-number-signage5.webp')}}" class="why-card-img-top"
                                     alt="Modern design">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Modern design</h3>
@@ -131,7 +131,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/home-number-signage4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/home-number-signage4.webp')}}" class="why-card-img-top"
                                     alt="Improve aesthetics">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Improve aesthetics</h3>
@@ -141,7 +141,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/home-number-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/home-number-signage5.webp')}}" class="why-card-img-top"
                                     alt="Modern design">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Modern design</h3>
@@ -151,7 +151,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/home-number-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/home-number-signage6.webp')}}" class="why-card-img-top"
                                     alt="Worry-free installation">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Worry-free installation</h3>
@@ -195,7 +195,7 @@
 
         <div class="col-lg-4">
             <div class="image-container position-relative">
-                <img src="{{asset('frontend/Images/home-number-signage7.svg')}}" alt="Improved exterior design" class="w-100 h-100">
+                <img src="{{asset('frontend/Images/home-number-signage7.webp')}}" alt="Improved exterior design" class="w-100 h-100">
                 <div class="overlay">
                     <h5 class="text-title">Improved exterior design</h5>
                     <p class="text-content">Whether a stylish and modern house number sign or a traditional, rustic address board, it can add a touch of elegance to the home.</p>
@@ -207,7 +207,7 @@
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/home-number-signage8.svg')}}" alt="Convenient and solid identification" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/home-number-signage8.webp')}}" alt="Convenient and solid identification" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Convenient and solid identification</h5>
                             <p class="text-content">With clearly visible house address number signs, you can help people identify your home conveniently, even if it is loathed in an unfamiliar area.</p>
@@ -217,7 +217,7 @@
 
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/home-number-signage9.svg')}}" alt="Property value" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/home-number-signage9.webp')}}" alt="Property value" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Property value</h5>
                             <p class="text-content">A home showcasing house number prominently enhances the perceived value of the property, as it creates a positive impact on potential investors’ minds.</p>
@@ -227,7 +227,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/home-number-signage10.svg')}}" alt="Fast safety measures in emergencies" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/home-number-signage10.webp')}}" alt="Fast safety measures in emergencies" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Fast safety measures in emergencies</h5>
                             <p class="text-content">During emergencies, homes with easy-to-read house number signs help to get fast responses from rescuers or saviors. <br> All these benefits can be leveraged effectively when the signs are purchased from a reliable signage company like Brand Signage.</p>
@@ -237,7 +237,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/home-number-signage11.svg')}}" alt="Do Not Disturb" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/home-number-signage11.webp')}}" alt="Do Not Disturb" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Efficient delivery</h5>
                             <p class="text-content">Whether it is a newcomer delivery personnel or an experienced one, a house number board makes their task of locating a house easier. Postal workers can also deliver mail quickly without any hassle.</p>
@@ -260,13 +260,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">“ Excellent signage company! I bought my house number sign from Brand Signage. It is durable and stylish. Highly recommend this.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/home-number-signage12.svg')}}" alt="Aarav Sharma" class="client-img">
+                            <img src="{{asset('frontend/Images/home-number-signage12.webp')}}" alt="Aarav Sharma" class="client-img">
                             <div>
                                 <div class="client-name">Aarav Sharma</div>
                             </div>
@@ -277,13 +277,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">“If you’re planning to add finesse to your home entrance, don’t forget to get a house number board from Brand Signage. They are known for their expertise in crafting excellent house number boards, office signage, neon signages, and so on</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/home-number-signage13.svg')}}" alt="Karan Singh" class="client-img">
+                            <img src="{{asset('frontend/Images/home-number-signage13.webp')}}" alt="Karan Singh" class="client-img">
                             <div>
                                 <div class="client-name">Karan Singh</div>
                             </div>
@@ -294,13 +294,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I would love to come back to Brand Signage again and again for all types of signboard needs.” <br> “Very good product and excellent customer service. I love the wide range of house number boards of different types at Brand Signage</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/home-number-signage23.svg')}}" alt="Rohan Gupta" class="client-img">
+                            <img src="{{asset('frontend/Images/home-number-signage23.webp')}}" alt="Rohan Gupta" class="client-img">
                             <div>
                                 <div class="client-name">Rohan Gupta</div>
                             </div>
@@ -311,13 +311,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Wonderful signboards. Brand Signage is a trusted signage manufacturing brand for all types of signboards including house number boards.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/door-signage14.svg')}}" alt="Ishita Mehta" class="client-img">
+                            <img src="{{asset('frontend/Images/door-signage14.webp')}}" alt="Ishita Mehta" class="client-img">
                             <div>
                                 <div class="client-name">Ishita Mehta</div>
                             </div>
@@ -334,13 +334,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">“ Excellent signage company! I bought my house number sign from Brand Signage. It is durable and stylish. Highly recommend this.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/home-number-signage12.svg')}}" alt="Aarav Sharma" class="client-img">
+                                        <img src="{{asset('frontend/Images/home-number-signage12.webp')}}" alt="Aarav Sharma" class="client-img">
                                         <div>
                                             <div class="client-name">Aarav Sharma</div>
                                         </div>
@@ -351,13 +351,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">“If you’re planning to add finesse to your home entrance, don’t forget to get a house number board from Brand Signage. They are known for their expertise in crafting excellent house number boards, office signage, neon signages, and so on</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/home-number-signage13.svg')}}" alt="Karan Singh" class="client-img">
+                                        <img src="{{asset('frontend/Images/home-number-signage13.webp')}}" alt="Karan Singh" class="client-img">
                                         <div>
                                             <div class="client-name">Karan Singh</div>
                                         </div>
@@ -368,13 +368,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I would love to come back to Brand Signage again and again for all types of signboard needs.” <br> “Very good product and excellent customer service. I love the wide range of house number boards of different types at Brand Signage</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/home-number-signage23.svg')}}" alt="Rohan Gupta" class="client-img">
+                                        <img src="{{asset('frontend/Images/home-number-signage23.webp')}}" alt="Rohan Gupta" class="client-img">
                                         <div>
                                             <div class="client-name">Rohan Gupta</div>
                                         </div>
@@ -389,13 +389,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">“If you’re planning to add finesse to your home entrance, don’t forget to get a house number board from Brand Signage. They are known for their expertise in crafting excellent house number boards, office signage, neon signages, and so on</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/home-number-signage13.svg')}}" alt="Karan Singh" class="client-img">
+                                        <img src="{{asset('frontend/Images/home-number-signage13.webp')}}" alt="Karan Singh" class="client-img">
                                         <div>
                                             <div class="client-name">Karan Singh</div>
                                         </div>
@@ -406,13 +406,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I would love to come back to Brand Signage again and again for all types of signboard needs.” <br> “Very good product and excellent customer service. I love the wide range of house number boards of different types at Brand Signage</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/home-number-signage24.svg')}}" alt="Rohan Gupta" class="client-img">
+                                        <img src="{{asset('frontend/Images/home-number-signage24.webp')}}" alt="Rohan Gupta" class="client-img">
                                         <div>
                                             <div class="client-name">Rohan Gupta</div>
                                         </div>
@@ -423,13 +423,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Wonderful signboards. Brand Signage is a trusted signage manufacturing brand for all types of signboards including house number boards.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/home-number-signage14.svg')}}" alt="Ishita Mehta" class="client-img">
+                                        <img src="{{asset('frontend/Images/home-number-signage14.webp')}}" alt="Ishita Mehta" class="client-img">
                                         <div>
                                             <div class="client-name">Ishita Mehta</div>
                                         </div>
@@ -471,32 +471,32 @@
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/home-number-signage15.svg')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/home-number-signage15.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/home-number-signage16.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/home-number-signage16.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/home-number-signage17.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/home-number-signage17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/home-number-signage18.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/home-number-signage18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
         
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/home-number-signage19.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/home-number-signage19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/home-number-signage20.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/home-number-signage20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/home-number-signage21.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/home-number-signage21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/home-number-signage22.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/home-number-signage22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
 

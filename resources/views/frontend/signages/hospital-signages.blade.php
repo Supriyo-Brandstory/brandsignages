@@ -4,7 +4,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/hospital-signage1.svg')}}" alt="Slide 1">
+                <img src="{{asset('frontend/Images/hospital-signage1.webp')}}" alt="Slide 1">
                 <div class="carousel-caption-custom">
                     <h1>Medical Signage Solutions for Hospitals & Clinics</h1>
                     <button class="custom-btn">Know More</button>
@@ -22,7 +22,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/hospital-signage2.svg')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/hospital-signage2.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -54,7 +54,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/hospital-signage3.svg')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/hospital-signage3.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -74,7 +74,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/hospital-signage4.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/hospital-signage4.webp')}}" class="why-card-img-top"
                         alt="Directional and Wayfinding Signages">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Directional and Wayfinding Signages</h3>
@@ -84,7 +84,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/hospital-signage5.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/hospital-signage5.webp')}}" class="why-card-img-top"
                         alt="Informational and Educational Signage">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Informational and Educational Signage</h3>
@@ -95,7 +95,7 @@
             <div class="col">
                 <div class="col-md-4">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/hospital-signage6.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/hospital-signage6.webp')}}" class="why-card-img-top"
                             alt="Illuminated Outdoor Signage">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Safety and Compliance Signages</h3>
@@ -106,7 +106,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/hospital-signage18.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/hospital-signage18.webp')}}" class="why-card-img-top"
                         alt="Digital Signages">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Digital Signages</h3>
@@ -116,7 +116,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/hospital-signage7.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/hospital-signage7.webp')}}" class="why-card-img-top"
                         alt="Branding Signages">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Branding Signages</h3>
@@ -134,7 +134,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/hospital-signage4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/hospital-signage4.webp')}}" class="why-card-img-top"
                                     alt="Directional and Wayfinding Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Directional and Wayfinding Signages</h3>
@@ -144,7 +144,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/hospital-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/hospital-signage5.webp')}}" class="why-card-img-top"
                                     alt="Informational and Educational Signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Informational and Educational Signage</h3>
@@ -154,7 +154,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/hospital-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/hospital-signage6.webp')}}" class="why-card-img-top"
                                     alt="Illuminated Outdoor Signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Safety and Compliance Signages</h3>
@@ -168,7 +168,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/hospital-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/hospital-signage6.webp')}}" class="why-card-img-top"
                                     alt="Illuminated Outdoor Signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Safety and Compliance Signages</h3>
@@ -178,7 +178,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/hospital-signage18.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/hospital-signage18.webp')}}" class="why-card-img-top"
                                     alt="Digital Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Digital Signages</h3>
@@ -188,7 +188,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/hospital-signage7.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/hospital-signage7.webp')}}" class="why-card-img-top"
                                     alt="Branding Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Branding Signages</h3>
@@ -235,7 +235,7 @@
             <div class="row g-4">
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/hospital-signage8.svg')}}" alt="Hospital Digital LED screens" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/hospital-signage8.webp')}}" alt="Hospital Digital LED screens" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Hospital Digital LED screens</h5>
                             <p class="text-content">Digital signage of the hospital instantly captures attention and is selected for advertisements and informative presentations. These screens are eye-catching and versatile, unlike traditional hospital signs.  These can be used to display wait times, health tips, and entertainment, reducing their anxiety.</p>
@@ -245,7 +245,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/hospital-signage9.svg')}}" alt="Dental clinic signboard" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/hospital-signage9.webp')}}" alt="Dental clinic signboard" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Dental clinic signboard</h5>
                             <p class="text-content">A well-designed dental clinic signboard will tell people what to expect, the specialties, and the services. These should be placed outside the clinic where it is easily visible, of course,  the text should be presented in big, bold letters. You can use them to share infographics on dental health to encourage patients to seek treatment, especially through rotating messages and special promotions.</p>
@@ -255,7 +255,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/hospital-signage10.svg')}}" alt="Touchscreens"
+                        <img src="{{asset('frontend/Images/hospital-signage10.webp')}}" alt="Touchscreens"
                             class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Touchscreens</h5>
@@ -266,7 +266,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/hospital-signage11.svg')}}" alt="Video Walls" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/hospital-signage11.webp')}}" alt="Video Walls" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Video Walls</h5>
                             <p class="text-content">Video walls are an innovative medical signage solution for displaying large-scale visual content in hospitals. They are particularly useful in high-traffic areas such as lobbies or waiting rooms where they can showcase important information or promotional content related to hospital services. The versatility of video walls allows hospitals to display a variety of content simultaneously.</p>
@@ -287,7 +287,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/hospital-signage12.svg')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/hospital-signage12.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -314,13 +314,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">As a physician, I often recommend our hospital to patients and their families. The new informational signages throughout the facility are fantastic! They not only highlight our services but also provide valuable health tips and educational content. <br></p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/hospital-signage13.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/hospital-signage13.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Dr. Sanjay Tak</div>
                                 <div class="client-role">CMO</div>
@@ -332,13 +332,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Implementing a new signage system in our hospital has been transformative. We received numerous comments from patients who found the new wayfinding signs incredibly helpful. One patient said</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/hospital-signage14.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/hospital-signage14.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Dr. Samira</div>
                                 <div class="client-role">vavasvsfvas</div>
@@ -350,13 +350,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Hearing from parents about their experiences in our clinic is invaluable. One mother wrote, 'The colorful signs and friendly staff made my child feel at ease during what could have been a scary visit.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/hospital-signage15.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/hospital-signage15.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Richard Lee</div>
                                 <div class="client-role">Hospital Director</div>
@@ -368,13 +368,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">A recent comment from a patient stated, 'I felt cared for every step of the way during my treatment.' Such heartfelt feedback not only boosts staff morale but also helps us identify areas for improvement and innovation in our care delivery.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/hospital-signage16.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/hospital-signage16.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Dr. Lisa Nguyen</div>
                                 <div class="client-role">Surgeon</div>
@@ -386,13 +386,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The digital displays in the hospital lobby are a game-changer! Not only do they provide important announcements and updates, but they also showcase patient success stories that inspire hope.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/hospital-signage17.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/hospital-signage17.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Dr. Arvind Nair</div>
                                 <div class="client-role">Dermatologist</div>
@@ -410,13 +410,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">As a physician, I often recommend our hospital to patients and their families. The new informational signages throughout the facility are fantastic! They not only highlight our services but also provide valuable health tips and educational content. <br></p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/hospital-signage13.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/hospital-signage13.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Dr. Sanjay Tak</div>
                                             <div class="client-role">CMO</div>
@@ -428,13 +428,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Implementing a new signage system in our hospital has been transformative. We received numerous comments from patients who found the new wayfinding signs incredibly helpful. One patient said</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/hospital-signage14.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/hospital-signage14.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Dr. Samira</div>
                                             <div class="client-role">vavasvsfvas</div>
@@ -446,13 +446,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Hearing from parents about their experiences in our clinic is invaluable. One mother wrote, 'The colorful signs and friendly staff made my child feel at ease during what could have been a scary visit.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/hospital-signage15.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/hospital-signage15.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Richard Lee</div>
                                             <div class="client-role">Hospital Director</div>
@@ -468,13 +468,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Hearing from parents about their experiences in our clinic is invaluable. One mother wrote, 'The colorful signs and friendly staff made my child feel at ease during what could have been a scary visit.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/hospital-signage15.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/hospital-signage15.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Richard Lee</div>
                                             <div class="client-role">Hospital Director</div>
@@ -486,13 +486,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">A recent comment from a patient stated, 'I felt cared for every step of the way during my treatment.' Such heartfelt feedback not only boosts staff morale but also helps us identify areas for improvement and innovation in our care delivery.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/hospital-signage16.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/hospital-signage16.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Dr. Lisa Nguyen</div>
                                             <div class="client-role">Surgeon</div>
@@ -504,13 +504,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The digital displays in the hospital lobby are a game-changer! Not only do they provide important announcements and updates, but they also showcase patient success stories that inspire hope.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/hospital-signage17.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/hospital-signage17.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Dr. Arvind Nair</div>
                                             <div class="client-role">Dermatologist</div>

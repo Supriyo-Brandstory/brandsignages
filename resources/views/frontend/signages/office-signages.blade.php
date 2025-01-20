@@ -4,7 +4,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/office-signage1.svg')}}" alt="Office Signage">
+                <img src="{{asset('frontend/Images/office-signage1.webp')}}" alt="Office Signage">
                 <div class="carousel-caption-custom">
                     <h1>Office Signage Boards That Make a Statement</h1>
                     <button class="custom-btn">Know More</button>
@@ -22,7 +22,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/office-signage2.svg')}}" alt="Office Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/office-signage2.webp')}}" alt="Office Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -52,7 +52,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage3.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/office-signage3.webp')}}" class="why-card-img-top"
                         alt="Elevate Your Office Aesthetics">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Elevate Your Office Aesthetics</h3>
@@ -62,7 +62,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage4.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/office-signage4.webp')}}" class="why-card-img-top"
                         alt="Make a Lasting First Impression">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Make a Lasting First Impression</h3>
@@ -73,7 +73,7 @@
             <div class="col">
                 <div class="col-md-4">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/office-signage5.webp')}}" class="why-card-img-top"
                             alt="Ensure Effortless Office Navigation">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Ensure Effortless Office Navigation</h3>
@@ -84,7 +84,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/office-signage6.webp')}}" class="why-card-img-top"
                         alt="Customize as your needs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Customize as your needs</h3>
@@ -101,7 +101,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage3.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/office-signage3.webp')}}" class="why-card-img-top"
                                     alt="Elevate Your Office Aesthetics">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Elevate Your Office Aesthetics</h3>
@@ -111,7 +111,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/office-signage4.webp')}}" class="why-card-img-top"
                                     alt="Make a Lasting First Impression">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Make a Lasting First Impression</h3>
@@ -121,7 +121,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/office-signage5.webp')}}" class="why-card-img-top"
                                     alt="Ensure Effortless Office Navigation">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Ensure Effortless Office Navigation</h3>
@@ -135,7 +135,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/office-signage4.webp')}}" class="why-card-img-top"
                                     alt="Make a Lasting First Impression">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Make a Lasting First Impression</h3>
@@ -145,7 +145,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/office-signage5.webp')}}" class="why-card-img-top"
                                     alt="Ensure Effortless Office Navigation">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Ensure Effortless Office Navigation</h3>
@@ -155,7 +155,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/office-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/office-signage6.webp')}}" class="why-card-img-top"
                                     alt="Customize as your needs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Customize as your needs</h3>
@@ -201,7 +201,7 @@
             <div class="row g-4">
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/office-signage7.svg')}}" alt="Directional signage" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/office-signage7.webp')}}" alt="Directional signage" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Directional signage</h5>
                             <p class="text-content">For a first-time visitor or a newcomer employee, directional signboards help everyone navigate the office smoothly. It makes the overall office activities less time-consuming and more productive.</p>
@@ -211,7 +211,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/office-signage8.svg')}}" alt="Reception signage" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/office-signage8.webp')}}" alt="Reception signage" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Reception signage</h5>
                             <p class="text-content">Your office reception is where people who are arrived at your office, encounter the brand for the first time. So, keeping impressive signage out there helps your business brand stand out from the crowd.</p>
@@ -221,7 +221,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/office-signage9.svg')}}" alt="Conference room signage"
+                        <img src="{{asset('frontend/Images/office-signage9.webp')}}" alt="Conference room signage"
                             class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Conference room signage</h5>
@@ -232,7 +232,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/office-signage10.svg')}}" alt="Wall signboards" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/office-signage10.webp')}}" alt="Wall signboards" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Wall signboards</h5>
                             <p class="text-content">Showcasing your company history, founders’ names, awards, achievements, employee success, etc. through wall signs is a wise idea to enhance company reliability. Office signage can be digital or traditional, vertical or horizontal, simple or artistic. Whatever type it is, we, at Brand Signage, make it unique and impressive.</p>
@@ -256,13 +256,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">As a physician, I often recommend our hospital to patients and their families. The new informational signages throughout the facility are fantastic! They not only highlight our services but also provide valuable health tips and educational content. <br></p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/hospital-signage13.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/hospital-signage13.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Dr. Sanjay Tak</div>
                                 <div class="client-role">CMO</div>
@@ -274,13 +274,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Implementing a new signage system in our hospital has been transformative. We received numerous comments from patients who found the new wayfinding signs incredibly helpful. One patient said</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/hospital-signage14.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/hospital-signage14.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Dr. Samira</div>
                                 <div class="client-role">vavasvsfvas</div>
@@ -292,13 +292,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Hearing from parents about their experiences in our clinic is invaluable. One mother wrote, 'The colorful signs and friendly staff made my child feel at ease during what could have been a scary visit.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/hospital-signage15.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/hospital-signage15.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Richard Lee</div>
                                 <div class="client-role">Hospital Director</div>
@@ -310,13 +310,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">A recent comment from a patient stated, 'I felt cared for every step of the way during my treatment.' Such heartfelt feedback not only boosts staff morale but also helps us identify areas for improvement and innovation in our care delivery.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/hospital-signage16.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/hospital-signage16.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Dr. Lisa Nguyen</div>
                                 <div class="client-role">Surgeon</div>
@@ -328,13 +328,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The digital displays in the hospital lobby are a game-changer! Not only do they provide important announcements and updates, but they also showcase patient success stories that inspire hope.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/hospital-signage17.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/hospital-signage17.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Dr. Arvind Nair</div>
                                 <div class="client-role">Dermatologist</div>
@@ -352,13 +352,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The best signage company ever. Brand Signage not only provides excellent products but also takes good care of customers’ queries and preferences</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/office-signage11.svg')}}" alt="Rajesh Verma" class="client-img">
+                                        <img src="{{asset('frontend/Images/office-signage11.webp')}}" alt="Rajesh Verma" class="client-img">
                                         <div>
                                             <div class="client-name">Rajesh Verma</div>
                                             <div class="client-role">Software Engineer</div>
@@ -370,13 +370,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Recently purchased some signboards for my office space from Brand Signage. All of them are exactly how I wanted them to be crafted. Thanks a lot!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/office-signage12.svg')}}" alt="Pooja Sharma" class="client-img">
+                                        <img src="{{asset('frontend/Images/office-signage12.webp')}}" alt="Pooja Sharma" class="client-img">
                                         <div>
                                             <div class="client-name">Pooja Sharma</div>
                                             <div class="client-role">Interior Designer</div>
@@ -388,13 +388,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">If someone orders office signages from Brand Signage once, they can barely go to any other site for it.” The products are extremely durable, well-crafted and also customizable. Loved them!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/office-signage13.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/office-signage13.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Amit Patel</div>
                                             <div class="client-role">Civil Engineer</div>
@@ -410,13 +410,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">If someone orders office signages from Brand Signage once, they can barely go to any other site for it.” The products are extremely durable, well-crafted and also customizable. Loved them!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/office-signage13.svg')}}" alt="Amit Patel" class="client-img">
+                                        <img src="{{asset('frontend/Images/office-signage13.webp')}}" alt="Amit Patel" class="client-img">
                                         <div>
                                             <div class="client-name">Amit Patel</div>
                                             <div class="client-role">Civil Engineer</div>
@@ -428,13 +428,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Highly recommend Brand Signage for office signage and other diverse types of signage. The company offers best-in-class signboards that meet your purpose effectively.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/office-signage14.svg')}}" alt="Neha Gupta" class="client-img">
+                                        <img src="{{asset('frontend/Images/office-signage14.webp')}}" alt="Neha Gupta" class="client-img">
                                         <div>
                                             <div class="client-name">Neha Gupta</div>
                                             <div class="client-role">Teacher</div>
@@ -446,13 +446,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Brand Signage creates a benchmark in the signage manufacturing industry by offering a vast range of amazing signboards for various personal and professional purposes.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/office-signage15.svg')}}" alt="Arjun Menon" class="client-img">
+                                        <img src="{{asset('frontend/Images/office-signage15.webp')}}" alt="Arjun Menon" class="client-img">
                                         <div>
                                             <div class="client-name">Arjun Menon</div>
                                             <div class="client-role">Architect</div>

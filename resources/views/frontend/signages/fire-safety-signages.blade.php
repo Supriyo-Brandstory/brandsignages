@@ -5,7 +5,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/safety-signages-1.jpg')}}" alt="Bestseller Fire Safety Signages">
+                <img src="{{asset('frontend/Images/safety-signages-1.webp')}}" alt="Bestseller Fire Safety Signages">
                 <div class="carousel-caption-custom">
                     <h1>Bestseller Fire Safety Signages</h1>
                     <button class="custom-btn">Know More</button>
@@ -22,7 +22,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/safety-signages-2.jpg')}}" alt="Fire Safety Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/safety-signages-2.webp')}}" alt="Fire Safety Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -47,7 +47,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/safety-signages-3.jpg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/safety-signages-3.webp')}}" class="why-card-img-top"
                         alt="Collection of Sizes">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Collection of Sizes</h3>
@@ -57,7 +57,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/safety-signages-4.jpg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/safety-signages-4.webp')}}" class="why-card-img-top"
                         alt="Multilingual Availability">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Multilingual Availability</h3>
@@ -67,7 +67,7 @@
             </div>
             <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/safety-signages-5.jpg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/safety-signages-5.webp')}}" class="why-card-img-top"
                             alt="Extensive Sign Selection">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Extensive Sign Selection</h3>
@@ -77,7 +77,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/safety-signages-6.jpg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/safety-signages-6.webp')}}" class="why-card-img-top"
                         alt="Easy to Install">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Easy to Install</h3>
@@ -93,7 +93,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/safety-signages-3.jpg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/safety-signages-3.webp')}}" class="why-card-img-top"
                                     alt="Collection of Sizes">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Collection of Sizes</h3>
@@ -103,7 +103,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/safety-signages-4.jpg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/safety-signages-4.webp')}}" class="why-card-img-top"
                                     alt="Multilingual Availability">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Multilingual Availability</h3>
@@ -113,7 +113,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/safety-signages-5.jpg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/safety-signages-5.webp')}}" class="why-card-img-top"
                                     alt="Extensive Sign Selection">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Extensive Sign Selection</h3>
@@ -127,7 +127,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/safety-signages-4.jpg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/safety-signages-4.webp')}}" class="why-card-img-top"
                                     alt="Multilingual Availability">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Multilingual Availability</h3>
@@ -137,7 +137,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/safety-signages-5.jpg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/safety-signages-5.webp')}}" class="why-card-img-top"
                                     alt="Extensive Sign Selection">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Extensive Sign Selection</h3>
@@ -147,7 +147,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/safety-signages-6.jpg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/safety-signages-6.webp')}}" class="why-card-img-top"
                                     alt="Easy to Install">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Easy to Install</h3>
@@ -189,7 +189,7 @@
 
         <div class="col-lg-4">
             <div class="image-container position-relative">
-                <img src="{{asset('frontend/Images/safety-signages-7.jpg')}}" alt="Wide Range of Collection" class="w-100 h-100">
+                <img src="{{asset('frontend/Images/safety-signages-7.webp')}}" alt="Wide Range of Collection" class="w-100 h-100">
                 <div class="overlay">
                     <h5 class="text-title">Wide Range of Collection</h5>
                     <p class="text-content">When it's a matter of fire safety signage, opting for the perfect supplier is essential for your workspace's security. Our huge collection of fire extinguisher signage, emergency exit door signs, fire point signage, etc makes sure that you remain pliable with safety rules while rendering transparent, noticeable support during uncertainties.</p>
@@ -201,7 +201,7 @@
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/safety-signages-13.jpg')}}" alt="Dual-sided Observability" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/safety-signages-13.webp')}}" alt="Dual-sided Observability" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Dual-sided Observability</h5>
                             <p class="text-content">We provide a diversity of safety signs consisting of exit signs, point signs, action notices, and route signs shaped to boost emergency clearance. Our double-sided signage boards and assembly point signs assist in enhancing observability, making them ideal for indoor as well as outdoor utilization.</p>
@@ -211,7 +211,7 @@
 
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/safety-signages-8.jpg')}}" alt="Multilingual Alternatives" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/safety-signages-8.webp')}}" alt="Multilingual Alternatives" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Multilingual Alternatives</h5>
                             <p class="text-content">Our devotion to standards stretches to provide multiple choices of safety signages in several languages, including Telugu, Bengali, Hindi, and English. This permits us to fulfill the requirements of workstations with plurilingual staff.</p>
@@ -221,7 +221,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/safety-signages-9.jpg')}}" alt="Extensive Product Range" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/safety-signages-9.webp')}}" alt="Extensive Product Range" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Extensive Product Range</h5>
                             <p class="text-content">You can rely on us to buy fire-fighting equipment signage like hose reels, dry risers, and ABC powder extinguishers to ensure the appropriate device is easily attainable. Moreover, we offer all mandatory signs, warning signs, and prohibition signs that are critical for retaining a healthy landscape.</p>
@@ -231,7 +231,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/safety-signages-17.jpg')}}" alt="Prompt Obtainability" class="w-100" style="height: 273px;">
+                        <img src="{{asset('frontend/Images/safety-signages-17.webp')}}" alt="Prompt Obtainability" class="w-100" style="height: 273px;">
                         <div class="overlay">
                             <h5 class="text-title">Prompt Obtainability</h5>
                             <p class="text-content">With the help of our products, you can execute an effective evacuation plan, guaranteeing safe conditions and being ready for emergencies with credibility. Shop with us immediately—stay safe, shop smart.</p>
@@ -250,7 +250,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/safety-signages-11.jpg')}}" alt="Fire Safety Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/safety-signages-11.webp')}}" alt="Fire Safety Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -275,32 +275,32 @@
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/safety-signages-12.png')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-12.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/safety-signages-13.jpg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-13.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/safety-signages-14.jpg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-14.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/safety-signages-15.jpg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-15.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
         
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/safety-signages-16.jpg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-16.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/safety-signages-17.jpg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/safety-signages-18.jpg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/safety-signages-19.jpg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
 
@@ -316,13 +316,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We bought fire safety signage for our workplace, and the quality is extraordinary. The exit and extinguisher signs are lucid and simple to comprehend</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/john-d.jpg')}}" alt="John D" class="client-img">
+                            <img src="{{asset('frontend/Images/john-d.webp')}}" alt="John D" class="client-img">
                             <div>
                                 <div class="client-name">John D</div>
                             </div>
@@ -333,13 +333,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The emergency exit door sign and safety sign boards reached us promptly. Great brightness, ideal for our office building's security needs</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/priya.jpg')}}" alt="Priya K" class="client-img">
+                            <img src="{{asset('frontend/Images/priya.webp')}}" alt="Priya K" class="client-img">
                             <div>
                                 <div class="client-name">Priya K</div>
                             </div>
@@ -350,13 +350,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We like the diversity of fire point signage and route signs obtainable. They have assisted us in smoothening our evacuation plan and following the safety norms</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/rajesh.jpg')}}" alt="Rajesh M" class="client-img">
+                            <img src="{{asset('frontend/Images/rajesh.webp')}}" alt="Rajesh M" class="client-img">
                             <div>
                                 <div class="client-name">Rajesh M</div>
                             </div>
@@ -367,13 +367,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The assembly point signs and action notices are very well-shaped. It's promising to be aware that we’re completely ready for an immediate clearance</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/anita.jpg')}}" alt="Anita R" class="client-img">
+                            <img src="{{asset('frontend/Images/anita.webp')}}" alt="Anita R" class="client-img">
                             <div>
                                 <div class="client-name">Anita R</div>
                             </div>
@@ -384,13 +384,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The fire-fighting equipment signals, comprising a hose reel and dry riser, are strong and simple to install. These signs assist in maintaining a secure state in our workspace</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/kuntal.jpg')}}" alt="Sushant M" class="client-img">
+                            <img src="{{asset('frontend/Images/kuntal.webp')}}" alt="Sushant M" class="client-img">
                             <div>
                                 <div class="client-name">Kunal S</div>
                             </div>
@@ -407,13 +407,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We bought fire safety signage for our workplace, and the quality is extraordinary. The exit and extinguisher signs are lucid and simple to comprehend</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/john-d.jpg')}}" alt="John D" class="client-img">
+                                        <img src="{{asset('frontend/Images/john-d.webp')}}" alt="John D" class="client-img">
                                         <div>
                                             <div class="client-name">John D</div>
                                         </div>
@@ -424,13 +424,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The emergency exit door sign and safety sign boards reached us promptly. Great brightness, ideal for our office building's security needs</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/priya.jpg')}}" alt="Priya K" class="client-img">
+                                        <img src="{{asset('frontend/Images/priya.webp')}}" alt="Priya K" class="client-img">
                                         <div>
                                             <div class="client-name">Priya K</div>
                                         </div>
@@ -441,13 +441,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We like the diversity of fire point signage and route signs obtainable. They have assisted us in smoothening our evacuation plan and following the safety norms</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/rajesh.jpg')}}" alt="Rajesh M" class="client-img">
+                                        <img src="{{asset('frontend/Images/rajesh.webp')}}" alt="Rajesh M" class="client-img">
                                         <div>
                                             <div class="client-name">Rajesh M</div>
                                         </div>
@@ -462,13 +462,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We like the diversity of fire point signage and route signs obtainable. They have assisted us in smoothening our evacuation plan and following the safety norms</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/rajesh.jpg')}}" alt="Rajesh M" class="client-img">
+                                        <img src="{{asset('frontend/Images/rajesh.webp')}}" alt="Rajesh M" class="client-img">
                                         <div>
                                             <div class="client-name">Rajesh M</div>
                                         </div>
@@ -479,13 +479,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The assembly point signs and action notices are very well-shaped. It's promising to be aware that we’re completely ready for an immediate clearance</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/anita.jpg')}}" alt="Anita R" class="client-img">
+                                        <img src="{{asset('frontend/Images/anita.webp')}}" alt="Anita R" class="client-img">
                                         <div>
                                             <div class="client-name">Anita R</div>
                                         </div>
@@ -496,13 +496,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The fire-fighting equipment signals, comprising a hose reel and dry riser, are strong and simple to install. These signs assist in maintaining a secure state in our workspace</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/kuntal.jpg')}}" alt="Sushant M" class="client-img">
+                                        <img src="{{asset('frontend/Images/kuntal.webp')}}" alt="Sushant M" class="client-img">
                                         <div>
                                             <div class="client-name">Kunal S</div>
                                         </div>

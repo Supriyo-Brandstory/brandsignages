@@ -4,7 +4,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/led-signage1.svg')}}" alt="LED Signage">
+                <img src="{{asset('frontend/Images/led-signage1.webp')}}" alt="LED Signage">
                 <div class="carousel-caption-custom">
                     <h1>LED Light Signage Boards Online</h1>
                     <button class="custom-btn">Know More</button>
@@ -22,7 +22,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/led-signage2.svg')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/led-signage2.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -45,7 +45,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage3.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/led-signage3.webp')}}" class="why-card-img-top"
                         alt="Acrylic LED Sign Board">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Acrylic LED Sign Board</h3>
@@ -55,7 +55,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage4.svg')}}" class="why-card-img-top" alt="Digital LED Display Boards">
+                    <img src="{{asset('frontend/Images/led-signage4.webp')}}" class="why-card-img-top" alt="Digital LED Display Boards">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Digital LED Display Boards</h3>
                         <p class="card-text">Turn your display board to Digital LED display boards. It is an ideal choice for advertising. Any type of retail store or outlet can use it to promote their offer or newly launched product. It can create an impressive customer experience that helps to get potential customers. We provide high-resolution Digital LED sign boards that attract your new customers.</p>
@@ -64,7 +64,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage5.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/led-signage5.webp')}}" class="why-card-img-top"
                         alt="Digital Backlit Boards">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Digital Backlit Boards</h3>
@@ -74,7 +74,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage6.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/led-signage6.webp')}}" class="why-card-img-top"
                         alt="LED Reverse Light Sign">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
@@ -84,7 +84,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage7.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/led-signage7.webp')}}" class="why-card-img-top"
                         alt="LED Message Boards">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">LED Message Boards</h3>
@@ -94,7 +94,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage8.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/led-signage8.webp')}}" class="why-card-img-top"
                         alt="Glowing Light Sign Boards">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Glowing Light Sign Boards</h3>
@@ -111,7 +111,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage3.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/led-signage3.webp')}}" class="why-card-img-top"
                                     alt="Acrylic LED Sign Board">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Acrylic LED Sign Board</h3>
@@ -121,7 +121,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage4.svg')}}" class="why-card-img-top" alt="Digital LED Display Boards">
+                                <img src="{{asset('frontend/Images/led-signage4.webp')}}" class="why-card-img-top" alt="Digital LED Display Boards">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Digital LED Display Boards</h3>
                                     <p class="card-text">Turn your display board to Digital LED display boards. It is an ideal choice for advertising. Any type of retail store or outlet can use it to promote their offer or newly launched product. It can create an impressive customer experience that helps to get potential customers. We provide high-resolution Digital LED sign boards that attract your new customers.</p>
@@ -130,7 +130,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/led-signage5.webp')}}" class="why-card-img-top"
                                     alt="Digital Backlit Boards">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Digital Backlit Boards</h3>
@@ -144,7 +144,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage6.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/led-signage6.webp')}}" class="why-card-img-top"
                                     alt="LED Reverse Light Sign">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
@@ -154,7 +154,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage7.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/led-signage7.webp')}}" class="why-card-img-top"
                                     alt="LED Message Boards">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">LED Message Boards</h3>
@@ -164,7 +164,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage8.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/led-signage8.webp')}}" class="why-card-img-top"
                                     alt="Glowing Light Sign Boards">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Glowing Light Sign Boards</h3>
@@ -212,7 +212,7 @@
             <div class="row g-4">
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/led-signage9.svg')}}" alt="Quality Assurance" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/led-signage9.webp')}}" alt="Quality Assurance" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Quality Assurance</h5>
                             <p class="text-content">Quality assurance is the base of Brand Signage. Our signage board goes through various technical tests to ensure high standard quality and durability. It will go on for a long time as you invest in a permanent product. We are committed to giving excellent LED signage boards that elevate your brand image.</p>
@@ -222,7 +222,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/led-signage10.svg')}}" alt="Customization Options" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/led-signage10.webp')}}" alt="Customization Options" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Customization Options</h5>
                             <p class="text-content">By understanding your brand, you will get customization options that will meet your brand identity. From font choice to acrylic led sign board design, and lighting effects, our team will discuss with you and give multiple options that will suit your brand identity.</p>
@@ -232,7 +232,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/led-signage11.svg')}}" alt="Customer Satisfaction"
+                        <img src="{{asset('frontend/Images/led-signage11.webp')}}" alt="Customer Satisfaction"
                             class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Customer Satisfaction</h5>
@@ -243,7 +243,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/led-signage12.svg')}}" alt="Future Innovations" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/led-signage12.webp')}}" alt="Future Innovations" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Future Innovations</h5>
                             <p class="text-content">We are ready to push ourselves to bring innovations that match your preferences. In the constantly evolving market, it is important to embrace new LED signage technology and provide top-notch solutions that gear up your brand presence.</p>
@@ -264,7 +264,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/led-signage13.svg')}}" alt="LED Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/led-signage13.webp')}}" alt="LED Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -291,13 +291,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The LED light signage board meets my expectations. Their customer service suggestions help us to get the best light signage board. I ordered steel letters and neon sign boards that are perfect for my store. Highly recommend it.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/led-signage14.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/led-signage14.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Meenal Jain</div>
                                 <div class="client-role">Beauty Product Store Owner</div>
@@ -309,13 +309,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I loved how they understood my brand and crafted the acrylic signage to match my brand perfectly. Great service too!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/led-signage15.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/led-signage15.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Rajesh Iyer</div>
                                 <div class="client-role">Bookstore and Stationery Shop Owner</div>
@@ -327,13 +327,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">After installing their digital led sign board, our store's foot traffic has increased. It's a real head-turner, especially at night. Fantastic product!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/led-signage16.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/led-signage16.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Shivani Desai</div>
                                 <div class="client-role">Home Decor Store Owner</div>
@@ -345,13 +345,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The signage board is energy-efficient and built to last. Its bright, and clear edge made a significant difference in our brand visibility.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/led-signage17.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/led-signage17.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Amitabh Patel</div>
                                 <div class="client-role">Organic Grocery Store Owner</div>
@@ -363,13 +363,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I ordered a glowing sign board for my retail store, the team was attentive, and the results were outstanding! From design to delivery, the process was smooth and hassle-free. Loved it!</p> <br>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/led-signage18.svg')}}" alt="Client 1" class="client-img">
+                            <img src="{{asset('frontend/Images/led-signage18.webp')}}" alt="Client 1" class="client-img">
                             <div>
                                 <div class="client-name">Farhan Qureshi</div>
                                 <div class="client-role">Car Rental Service Owner</div>
@@ -387,13 +387,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The LED light signage board meets my expectations. Their customer service suggestions help us to get the best light signage board. I ordered steel letters and neon sign boards that are perfect for my store. Highly recommend it.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/led-signage14.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/led-signage14.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Meenal Jain</div>
                                             <div class="client-role">Beauty Product Store Owner</div>
@@ -405,13 +405,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I loved how they understood my brand and crafted the acrylic signage to match my brand perfectly. Great service too!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/led-signage15.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/led-signage15.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Rajesh Iyer</div>
                                             <div class="client-role">Bookstore and Stationery Shop Owner</div>
@@ -423,13 +423,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">After installing their digital led sign board, our store's foot traffic has increased. It's a real head-turner, especially at night. Fantastic product!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/led-signage16.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/led-signage16.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Shivani Desai</div>
                                             <div class="client-role">Home Decor Store Owner</div>
@@ -445,13 +445,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">After installing their digital led sign board, our store's foot traffic has increased. It's a real head-turner, especially at night. Fantastic product!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/led-signage16.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/led-signage16.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Shivani Desai</div>
                                             <div class="client-role">Home Decor Store Owner</div>
@@ -463,13 +463,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The signage board is energy-efficient and built to last. Its bright, and clear edge made a significant difference in our brand visibility.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/led-signage17.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/led-signage17.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Amitabh Patel</div>
                                             <div class="client-role">Organic Grocery Store Owner</div>
@@ -481,13 +481,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I ordered a glowing sign board for my retail store, the team was attentive, and the results were outstanding! From design to delivery, the process was smooth and hassle-free. Loved it!</p> <br>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/led-signage18.svg')}}" alt="Client 1" class="client-img">
+                                        <img src="{{asset('frontend/Images/led-signage18.webp')}}" alt="Client 1" class="client-img">
                                         <div>
                                             <div class="client-name">Farhan Qureshi</div>
                                             <div class="client-role">Car Rental Service Owner</div>

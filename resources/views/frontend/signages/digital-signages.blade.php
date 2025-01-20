@@ -6,7 +6,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/digital-sign1.png')}}" alt="Digital Signages">
+                <img src="{{asset('frontend/Images/digital-sign1.webp')}}" alt="Digital Signages">
                 <div class="carousel-caption-custom">
                     <h1>We are a Leading Digital Sign Company</h1>
                     <button class="custom-btn">Know More</button>
@@ -26,7 +26,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/digital-sign2.png')}}" alt="Digital Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/digital-sign2.webp')}}" alt="Digital Signage" class="img-fluid">
                 </div>
             </div>
 
@@ -70,7 +70,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/digital-sign3.png')}}" class="why-card-img-top" alt="Commercial Displays">
+                    <img src="{{asset('frontend/Images/digital-sign3.webp')}}" class="why-card-img-top" alt="Commercial Displays">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Commercial Displays</h3>
                         <p class="card-text">We design versatile digital displays to be used in retail environments,
@@ -81,7 +81,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/digital-sign4.png')}}" class="why-card-img-top" alt="Digital Standee">
+                    <img src="{{asset('frontend/Images/digital-sign4.webp')}}" class="why-card-img-top" alt="Digital Standee">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Digital Standee</h3>
                         <p class="card-text">Digital standees assist businesses in capturing attention at events,
@@ -92,7 +92,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/digital-sign5.png')}}" class="why-card-img-top" alt="Flat Panel Displays">
+                    <img src="{{asset('frontend/Images/digital-sign5.webp')}}" class="why-card-img-top" alt="Flat Panel Displays">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Flat Panel Displays</h3>
                         <p class="card-text">Flat panel displays offer an innovative way to display high-resolution
@@ -103,7 +103,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/digital-sign6.png')}}" class="why-card-img-top" alt="Outdoor Display Signage">
+                    <img src="{{asset('frontend/Images/digital-sign6.webp')}}" class="why-card-img-top" alt="Outdoor Display Signage">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Outdoor Display Signage</h3>
                         <p class="card-text">Outdoor display signage is prepared to withstand environmental
@@ -114,7 +114,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/digital-sign7.png')}}" class="why-card-img-top" alt="Display Video Wall">
+                    <img src="{{asset('frontend/Images/digital-sign7.webp')}}" class="why-card-img-top" alt="Display Video Wall">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Display Video Wall</h3>
                         <p class="card-text">Display Video Walls create immersive experiences by combining multiple
@@ -132,7 +132,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/digital-sign3.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/digital-sign3.webp')}}" class="why-card-img-top"
                                     alt="Commercial Displays">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Commercial Displays</h3>
@@ -144,7 +144,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/digital-sign4.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/digital-sign4.webp')}}" class="why-card-img-top"
                                     alt="Digital Standee">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Digital Standee</h3>
@@ -156,7 +156,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/digital-sign5.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/digital-sign5.webp')}}" class="why-card-img-top"
                                     alt="Flat Panel Displays">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Flat Panel Displays</h3>
@@ -172,7 +172,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/digital-sign5.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/digital-sign5.webp')}}" class="why-card-img-top"
                                     alt="Flat Panel Displays">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Flat Panel Displays</h3>
@@ -184,7 +184,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/digital-sign6.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/digital-sign6.webp')}}" class="why-card-img-top"
                                     alt="Outdoor Display Signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Outdoor Display Signage</h3>
@@ -197,7 +197,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/digital-sign7.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/digital-sign7.webp')}}" class="why-card-img-top"
                                     alt="Display Video Wall">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Display Video Wall</h3>
@@ -245,7 +245,7 @@
             <div class="row g-4">
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digital-sign8.png')}}" alt="On-time installation" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/digital-sign8.webp')}}" alt="On-time installation" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">On-time installation</h5>
                             <p class="text-content">Our team ensures on-time installation of all digital signage displays, minimizing downtime and allowing you to start reaping the benefits. We coordinate every aspect of the installation process, thus ensuring a seamless transition from planning to execution.</p>
@@ -255,7 +255,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digital-sign9.png')}}" alt="Industry Grade Products" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/digital-sign9.webp')}}" alt="Industry Grade Products" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Industry Grade Products</h5>
                             <p class="text-content">Our industry-grade digital signs are built to last and perform
@@ -267,7 +267,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digital-sign10.png')}}" alt="Experienced professionals"
+                        <img src="{{asset('frontend/Images/digital-sign10.webp')}}" alt="Experienced professionals"
                             class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Experienced professionals</h5>
@@ -280,7 +280,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digital-sign11.png')}}" alt="Happy Customer Base" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/digital-sign11.webp')}}" alt="Happy Customer Base" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Happy Customer Base</h5>
                             <p class="text-content">Our happy customer base is a testament to our focus on providing tailored customer experience and meeting their digital signage needs. We prioritize understanding your specific requirements and delivering signage solutions that exceed expectations. We have received praise for our responsiveness, professionalism, and the impact they have on their communication strategies.</p>
@@ -302,7 +302,7 @@
             <div class="col-md-4">
                 <div class="process-card">
                     <div class="icon-design">
-                        <img src="{{asset('frontend/Images/graphic-designer.png')}}" alt="Quality LED Sign Boards">
+                        <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="Quality LED Sign Boards">
                     </div>
                     <h3>Quality LED Sign Boards</h3>
                     <p>Our LED sign board displays utilize advanced LED technology, ensuring they are bright enough
@@ -316,7 +316,7 @@
             <div class="col-md-4">
                 <div class="process-card">
                     <div class="icon-deliver">
-                        <img src="{{asset('frontend/Images/on-time.png')}}" alt="Comprehensive CMS">
+                        <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Comprehensive CMS">
                     </div>
                     <h3>Comprehensive CMS</h3>
                     <p>Our comprehensive digital Content Management System (CMS) is a powerful tool that empowers
@@ -331,7 +331,7 @@
             <div class="col-md-4">
                 <div class="process-card">
                     <div class="icon-purchase">
-                        <img src="{{asset('frontend/Images/transaction.png')}}" alt="Support service">
+                        <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Support service">
                     </div>
                     <h3>Support service</h3>
                     <p>We understand that timely support is crucial for uninterrupted operations, therefore, we
@@ -355,7 +355,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/industry-corporate-office.svg')}}" class="why-card-img-top" alt="Corporate Office">
+                    <img src="{{asset('frontend/Images/industry-corporate-office.webp')}}" class="why-card-img-top" alt="Corporate Office">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Corporate Office</h3>
                         <p class="card-text">We are considered among digital signage manufacturers because our
@@ -366,7 +366,7 @@
             </div>
             <div class="col-md-4">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/industry-retail.svg')}}" class="why-card-img-top" alt="Retail">
+                    <img src="{{asset('frontend/Images/industry-retail.webp')}}" class="why-card-img-top" alt="Retail">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Retail</h3>
                         <p class="card-text">We provide vibrant digital display boards that attract customers and
@@ -377,7 +377,7 @@
             </div>
             <div class="col-md-4">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/industry-hospitality.svg')}}" class="why-card-img-top" alt="Hospitality">
+                    <img src="{{asset('frontend/Images/industry-hospitality.webp')}}" class="why-card-img-top" alt="Hospitality">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Hospitality</h3>
                         <p class="card-text">Our interactive digital signs enhance guest experiences for visitors
@@ -397,7 +397,7 @@
 
             <div class="col-md-4">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/industry-food.svg')}}" class="why-card-img-top" alt="Food">
+                    <img src="{{asset('frontend/Images/industry-food.webp')}}" class="why-card-img-top" alt="Food">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Food</h3>
                         <p class="card-text">We design digital menu boards to be placed in restaurants and cades to
@@ -408,7 +408,7 @@
             </div>
             <div class="col-md-4">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/industry-banking.svg')}}" class="why-card-img-top" alt="Banking">
+                    <img src="{{asset('frontend/Images/industry-banking.webp')}}" class="why-card-img-top" alt="Banking">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Banking</h3>
                         <p class="card-text">In banking, digital signage can streamline customer interactions by
@@ -419,7 +419,7 @@
             </div>
             <div class="col-md-4">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/industry-education.svg')}}" class="why-card-img-top" alt="Education">
+                    <img src="{{asset('frontend/Images/industry-education.webp')}}" class="why-card-img-top" alt="Education">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Education</h3>
                         <p class="card-text">As a digital sign company, our products enhance communication among
@@ -445,7 +445,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Introducing digital signage into our office was a
@@ -453,7 +453,7 @@
                             messages in real time is so convenient. It’s like adding life to the workspace!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/anita-sharma.svg')}}" alt="Anita Sharma" class="client-img">
+                            <img src="{{asset('frontend/Images/anita-sharma.webp')}}" alt="Anita Sharma" class="client-img">
                             <div>
                                 <div class="client-name">Anita Sharma</div>
                                 <div class="client-role">Operations Manager</div>
@@ -465,7 +465,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Our manufacturing units are spread across India,
@@ -473,7 +473,7 @@
                             by providing updates, safety guidelines, and performance metrics at a glance</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/rajiv-menon.svg')}}" alt="Rajiv Menon" class="client-img">
+                            <img src="{{asset('frontend/Images/rajiv-menon.webp')}}" alt="Rajiv Menon" class="client-img">
                             <div>
                                 <div class="client-name">Rajiv Menon</div>
                                 <div class="client-role">CEO, Bharat Logistics</div>
@@ -485,7 +485,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We added digital signage at our jewelry
@@ -494,7 +494,7 @@
                             significantly</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/priya-desai.svg')}}" alt="Priya Desai" class="client-img">
+                            <img src="{{asset('frontend/Images/priya-desai.webp')}}" alt="Priya Desai" class="client-img">
                             <div>
                                 <div class="client-name">Priya Desai</div>
                                 <div class="client-role">Marketing Head, Shree Gold & Diamonds</div>
@@ -506,7 +506,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Running a chain of cafés, and updating menus and
@@ -514,7 +514,7 @@
                             increase sales by 30%. It’s stylish, practical, and great for business!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/arjun-khanna.svg')}}" alt="Arjun Khanna" class="client-img">
+                            <img src="{{asset('frontend/Images/arjun-khanna.webp')}}" alt="Arjun Khanna" class="client-img">
                             <div>
                                 <div class="client-name">Arjun Khanna</div>
                                 <div class="client-role">Owner, Brew Bliss Café</div>
@@ -526,7 +526,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The digital signage system at our co-working
@@ -534,7 +534,7 @@
                             it incredibly easy to manage. It's been an amazing addition to our brand</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/sneha-reddy.svg')}}" alt="Sneha Reddy" class="client-img">
+                            <img src="{{asset('frontend/Images/sneha-reddy.webp')}}" alt="Sneha Reddy" class="client-img">
                             <div>
                                 <div class="client-name">Sneha Reddy</div>
                                 <div class="client-role">HR Director, Nexus Workspaces</div>
@@ -552,7 +552,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Introducing digital signage into our
@@ -561,7 +561,7 @@
                                         adding life to the workspace!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/anita-sharma.svg')}}" alt="Anita Sharma" class="client-img">
+                                        <img src="{{asset('frontend/Images/anita-sharma.webp')}}" alt="Anita Sharma" class="client-img">
                                         <div>
                                             <div class="client-name">Anita Sharma</div>
                                             <div class="client-role">Operations Manager</div>
@@ -573,7 +573,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Our manufacturing units are spread
@@ -582,7 +582,7 @@
                                         performance metrics at a glance</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/rajiv-menon.svg')}}" alt="Rajiv Menon" class="client-img">
+                                        <img src="{{asset('frontend/Images/rajiv-menon.webp')}}" alt="Rajiv Menon" class="client-img">
                                         <div>
                                             <div class="client-name">Rajiv Menon</div>
                                             <div class="client-role">CEO, Bharat Logistics</div>
@@ -594,7 +594,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We added digital signage at our
@@ -603,7 +603,7 @@
                                         their shopping experience significantly</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/priya-desai.svg')}}" alt="Priya Desai" class="client-img">
+                                        <img src="{{asset('frontend/Images/priya-desai.webp')}}" alt="Priya Desai" class="client-img">
                                         <div>
                                             <div class="client-name">Priya Desai</div>
                                             <div class="client-role">Marketing Head, Shree Gold & Diamonds</div>
@@ -619,7 +619,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We added digital signage at our
@@ -628,7 +628,7 @@
                                         their shopping experience significantly</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/priya-desai.svg')}}" alt="Priya Desai" class="client-img">
+                                        <img src="{{asset('frontend/Images/priya-desai.webp')}}" alt="Priya Desai" class="client-img">
                                         <div>
                                             <div class="client-name">Priya Desai</div>
                                             <div class="client-role">Marketing Head, Shree Gold & Diamonds</div>
@@ -640,7 +640,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Running a chain of cafés, and
@@ -649,7 +649,7 @@
                                         and great for business!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/arjun-khanna.svg')}}" alt="Arjun Khanna" class="client-img">
+                                        <img src="{{asset('frontend/Images/arjun-khanna.webp')}}" alt="Arjun Khanna" class="client-img">
                                         <div>
                                             <div class="client-name">Arjun Khanna</div>
                                             <div class="client-role">Owner, Brew Bliss Café</div>
@@ -661,7 +661,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The digital signage system at our
@@ -670,7 +670,7 @@
                                         addition to our brand</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/sneha-reddy.svg')}}" alt="Sneha Reddy" class="client-img">
+                                        <img src="{{asset('frontend/Images/sneha-reddy.webp')}}" alt="Sneha Reddy" class="client-img">
                                         <div>
                                             <div class="client-name">Sneha Reddy</div>
                                             <div class="client-role">HR Director, Nexus Workspaces</div>

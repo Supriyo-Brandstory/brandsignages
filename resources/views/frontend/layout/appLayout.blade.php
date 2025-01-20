@@ -101,11 +101,11 @@
                                         <a class="dropdown-item" href="{{route('door_signages')}}">Door Signs</a>
                                         <a class="dropdown-item" href="{{route('house_number_signages')}}">House Number Signs</a>
                                         <a class="dropdown-item" href="{{route('nameplate_signages')}}">Custom Nameplates</a>
-                                        <a class="dropdown-item" href="#">Restroom Signs</a>
-                                        <a class="dropdown-item" href="#">Prohibitory Sign</a>
+                                        <a class="dropdown-item" href="{{route('restroom_signages')}}">Restroom Signs</a>
+                                        <a class="dropdown-item" href="{{route('prohibitory_signages')}}">Prohibitory Signs</a>
                                         <a class="dropdown-item" href="#">Office Desk Sign</a>
                                         <a class="dropdown-item" href="#">Floor Sign</a>
-                                        <a class="dropdown-item" href="#">Room Name Plates</a>
+                                        <a class="dropdown-item" href="{{route('room_name_plates')}}">Room Number Signs</a>
                                     </div>
                                 </div>
                             </div>

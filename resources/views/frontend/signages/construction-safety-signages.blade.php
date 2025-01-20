@@ -37,7 +37,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/cons-banner.png')}}" alt="Construction Safety Signs">
+                <img src="{{asset('frontend/Images/cons-banner.webp')}}" alt="Construction Safety Signs">
                 <div class="carousel-caption-custom">
                     <h1>Construction Safety Signs</h1>
                     <button class="custom-btn">Know More</button>
@@ -54,7 +54,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/construction-safety-2.png')}}" alt="Construction Safety Signs"
+                    <img src="{{asset('frontend/Images/construction-safety-2.webp')}}" alt="Construction Safety Signs"
                         class="img-fluid sefimg-2">
                 </div>
             </div>
@@ -105,7 +105,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/construction-safety-3.png')}}" alt="Construction Safety Signs"
+                    <img src="{{asset('frontend/Images/construction-safety-3.webp')}}" alt="Construction Safety Signs"
                         class="img-fluid sefimg-3">
                 </div>
             </div>
@@ -124,7 +124,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/construction-safety-slide-1.png')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/construction-safety-slide-1.webp')}}" class="why-card-img-top"
                         alt="Entry and Exit Points">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Entry and Exit Points</h3>
@@ -140,7 +140,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/construction-safety-slide-2.png')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/construction-safety-slide-2.webp')}}" class="why-card-img-top"
                         alt="Hazardous Zones">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Hazardous Zones</h3>
@@ -153,7 +153,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/construction-safety-slide-3.png')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/construction-safety-slide-3.webp')}}" class="why-card-img-top"
                         alt="Equipment and Machinery Areas">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Equipment and Machinery Areas</h3>
@@ -168,7 +168,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/construction-safety-slide-4.png')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/construction-safety-slide-4.webp')}}" class="why-card-img-top"
                         alt="Emergency Exits">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Emergency Exits</h3>
@@ -188,7 +188,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/construction-safety-slide-1.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/construction-safety-slide-1.webp')}}" class="why-card-img-top"
                                     alt="Entry and Exit Points">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Entry and Exit Points</h3>
@@ -205,7 +205,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/construction-safety-slide-2.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/construction-safety-slide-2.webp')}}" class="why-card-img-top"
                                     alt="Hazardous Zones">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Hazardous Zones</h3>
@@ -219,7 +219,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/construction-safety-slide-3.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/construction-safety-slide-3.webp')}}" class="why-card-img-top"
                                     alt="Equipment and Machinery Areas">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Equipment and Machinery Areas</h3>
@@ -239,7 +239,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/construction-safety-slide-2.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/construction-safety-slide-2.webp')}}" class="why-card-img-top"
                                     alt="Hazardous Zones">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Hazardous Zones</h3>
@@ -253,7 +253,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/construction-safety-slide-3.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/construction-safety-slide-3.webp')}}" class="why-card-img-top"
                                     alt="Equipment and Machinery Areas">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Equipment and Machinery Areas</h3>
@@ -269,7 +269,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/construction-safety-slide-4.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/construction-safety-slide-4.webp')}}" class="why-card-img-top"
                                     alt="Emergency Exits">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Emergency Exits</h3>
@@ -314,7 +314,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/construction-safety-4.png')}}" alt="Construction Safety Signs" class="img-fluid">
+                    <img src="{{asset('frontend/Images/construction-safety-4.webp')}}" alt="Construction Safety Signs" class="img-fluid">
                 </div>
             </div>
 
@@ -361,7 +361,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/construction-safety-5.png')}}" alt="Construction Safety Signs"
+                    <img src="{{asset('frontend/Images/construction-safety-5.webp')}}" alt="Construction Safety Signs"
                         class="img-fluid sefimg-3">
                 </div>
             </div>
@@ -382,7 +382,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/construction-safety-6.png')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/construction-safety-6.webp')}}" class="why-card-img-top"
                         alt="Site-Specific Hazards">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Site-Specific Hazards</h3>
@@ -397,7 +397,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/construction-safety-7.png')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/construction-safety-7.webp')}}" class="why-card-img-top"
                         alt="Company Information">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Company Information</h3>
@@ -411,7 +411,7 @@
             <div class="col">
                 <div class="col-md-4">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/construction-safety-8.png')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/construction-safety-8.webp')}}" class="why-card-img-top"
                             alt="Multilingual Signs">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Multilingual Signs</h3>
@@ -432,7 +432,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/construction-safety-6.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/construction-safety-6.webp')}}" class="why-card-img-top"
                                     alt="Site-Specific Hazards">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Site-Specific Hazards</h3>
@@ -448,7 +448,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/construction-safety-7.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/construction-safety-7.webp')}}" class="why-card-img-top"
                                     alt="Company Information">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Company Information</h3>
@@ -462,7 +462,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/construction-safety-8.png')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/construction-safety-8.webp')}}" class="why-card-img-top"
                                     alt="Multilingual Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Multilingual Signs</h3>
@@ -493,7 +493,7 @@
 
                 <div class="col-lg-5">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/construction-safety-9.png')}}" alt="Reducing Liability Risks"
+                        <img src="{{asset('frontend/Images/construction-safety-9.webp')}}" alt="Reducing Liability Risks"
                             class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Reducing Liability Risks</h5>
@@ -509,7 +509,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/construction-safety-10.png')}}" alt="Promoting a Culture of Safety"
+                        <img src="{{asset('frontend/Images/construction-safety-10.webp')}}" alt="Promoting a Culture of Safety"
                             class="w-100 h-100 cndimag">
                         <div class="overlay">
                             <h5 class="text-title">Promoting a Culture of Safety</h5>
@@ -522,7 +522,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/construction-safety-11.png')}}" alt="Increasing Efficiency and Productivity"
+                        <img src="{{asset('frontend/Images/construction-safety-11.webp')}}" alt="Increasing Efficiency and Productivity"
                             class="w-100 cndimag">
                         <div class="overlay">
                             <h5 class="text-title">Increasing Efficiency and Productivity</h5>
@@ -544,32 +544,32 @@
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/construction-safety-12.png')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/construction-safety-12.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/construction-safety-13.png')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/construction-safety-13.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/construction-safety-14.png')}}" class="img-fluid" alt="Catalogue" style="width: 100%; ">
+                <img src="{{asset('frontend/Images/construction-safety-14.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%; ">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/construction-safety-15.png')}}" class="img-fluid" alt="Catalogue" style="width: 100%; height: 195px;">
+                <img src="{{asset('frontend/Images/construction-safety-15.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%; height: 195px;">
             </div>
         </div>
 
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/construction-safety-16.png')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/construction-safety-16.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/construction-safety-17.png')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/construction-safety-17.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/construction-safety-18.png')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/construction-safety-18.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/construction-safety-19.png')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/construction-safety-19.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
         </div>
 
@@ -587,7 +587,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We’ve been using these safety signs on our
@@ -595,7 +595,7 @@
                             harsh weather, and the visibility ensures everyone stays informed and safe!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/rajesh-k.png')}}" alt="Rajesh K" class="client-img">
+                            <img src="{{asset('frontend/Images/rajesh-k.webp')}}" alt="Rajesh K" class="client-img">
                             <div>
                                 <div class="client-name">Rajesh K</div>
                                 <div class="client-role">Project Manager</div>
@@ -607,7 +607,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Since we installed these signs, our team has been
@@ -615,7 +615,7 @@
                             compliant with all regulations</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/anish-s.png')}}" alt="Ashish S" class="client-img">
+                            <img src="{{asset('frontend/Images/anish-s.webp')}}" alt="Ashish S" class="client-img">
                             <div>
                                 <div class="client-name">Ashish S</div>
                                 <div class="client-role">Project Manager</div>
@@ -627,7 +627,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text"> We love the customization options for our
@@ -635,7 +635,7 @@
                             workplace significantly safer</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/Michael.png')}}" alt="Michael" class="client-img">
+                            <img src="{{asset('frontend/Images/Michael.webp')}}" alt="Michael" class="client-img">
                             <div>
                                 <div class="client-name">Michael</div>
                                 <div class="client-role">Construction Manager</div>
@@ -647,7 +647,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The pricing is competitive without compromising
@@ -655,7 +655,7 @@
                             and still look brand new!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/Amit.png')}}" alt="Amit Pandit" class="client-img">
+                            <img src="{{asset('frontend/Images/Amit.webp')}}" alt="Amit Pandit" class="client-img">
                             <div>
                                 <div class="client-name">Amit Pandit</div>
                                 <div class="client-role">Operations Head</div>
@@ -667,7 +667,7 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The safety signage has reduced the number of
@@ -675,7 +675,7 @@
                             work without it!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/Sushant.png')}}" alt="Sushant M" class="client-img">
+                            <img src="{{asset('frontend/Images/Sushant.webp')}}" alt="Sushant M" class="client-img">
                             <div>
                                 <div class="client-name">Sushant M</div>
                                 <div class="client-role">Safety Officer</div>
@@ -693,7 +693,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We’ve been using these safety signs
@@ -702,7 +702,7 @@
                                         stays informed and safe!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/rajesh-k.png')}}" alt="Rajesh K"
+                                        <img src="{{asset('frontend/Images/rajesh-k.webp')}}" alt="Rajesh K"
                                             class="client-img">
                                         <div>
                                             <div class="client-name">Rajesh K</div>
@@ -715,7 +715,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Since we installed these signs, our
@@ -723,7 +723,7 @@
                                         professional, and help us stay compliant with all regulations</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/anish-s.png')}}" alt="Ashish S"
+                                        <img src="{{asset('frontend/Images/anish-s.webp')}}" alt="Ashish S"
                                             class="client-img">
                                         <div>
                                             <div class="client-name">Ashish S</div>
@@ -736,7 +736,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We love the customization options for
@@ -744,7 +744,7 @@
                                         attention, making our workplace significantly safer</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/Michael.png')}}" alt="Michael"
+                                        <img src="{{asset('frontend/Images/Michael.webp')}}" alt="Michael"
                                             class="client-img">
                                         <div>
                                             <div class="client-name">Michael</div>
@@ -761,7 +761,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We love the customization options for
@@ -769,7 +769,7 @@
                                         attention, making our workplace significantly safer <br> <br></p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/Michael.png')}}" alt="Michael"
+                                        <img src="{{asset('frontend/Images/Michael.webp')}}" alt="Michael"
                                             class="client-img">
                                         <div>
                                             <div class="client-name">Michael</div>
@@ -782,7 +782,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The pricing is competitive without
@@ -790,7 +790,7 @@
                                         heavy construction activity and still look brand new!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/Amit.png')}}" alt="Amit Pandit"
+                                        <img src="{{asset('frontend/Images/Amit.webp')}}" alt="Amit Pandit"
                                             class="client-img">
                                         <div>
                                             <div class="client-name">Amit Pandit</div>
@@ -803,7 +803,7 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The safety signage has reduced the
@@ -811,7 +811,7 @@
                                         measures, and we wouldn’t work without it!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/Sushant.png')}}" alt="Sushant M"
+                                        <img src="{{asset('frontend/Images/Sushant.webp')}}" alt="Sushant M"
                                             class="client-img">
                                         <div>
                                             <div class="client-name">Sushant M</div>

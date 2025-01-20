@@ -4,7 +4,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/acrylic-bangalore1.svg')}}" alt="Acrylic Sign Board In Bangalore">
+                <img src="{{asset('frontend/Images/acrylic-bangalore1.webp')}}" alt="Acrylic Sign Board In Bangalore">
                 <div class="carousel-caption-custom">
                     <h1>Acrylic Sign Board In Bangalore</h1>
                     <button class="custom-btn">Know More</button>
@@ -22,7 +22,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/acrylic-bangalore2.svg')}}" alt="Acrylic Sign Boards" class="img-fluid">
+                    <img src="{{asset('frontend/Images/acrylic-bangalore2.webp')}}" alt="Acrylic Sign Boards" class="img-fluid">
                 </div>
             </div>
 
@@ -48,7 +48,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/acrylic-bangalore3.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/acrylic-bangalore3.webp')}}" class="why-card-img-top"
                         alt="Advanced and Competent Appeal">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Advanced and Competent Appeal</h3>
@@ -58,7 +58,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/acrylic-bangalore4.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/acrylic-bangalore4.webp')}}" class="why-card-img-top"
                         alt="Flexible and Customizable Solutions">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Flexible and Customizable Solutions</h3>
@@ -69,7 +69,7 @@
             <div class="col">
                 <div class="col-md-4">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/acrylic-bangalore5.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/acrylic-bangalore5.webp')}}" class="why-card-img-top"
                             alt="Longevity and Durable Quality">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Longevity and Durable Quality</h3>
@@ -87,7 +87,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/acrylic-bangalore3.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/acrylic-bangalore3.webp')}}" class="why-card-img-top"
                                     alt="Advanced and Competent Appeal">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Advanced and Competent Appeal</h3>
@@ -97,7 +97,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/acrylic-bangalore4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/acrylic-bangalore4.webp')}}" class="why-card-img-top"
                                     alt="Flexible and Customizable Solutions">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Flexible and Customizable Solutions</h3>
@@ -107,7 +107,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/acrylic-bangalore5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/acrylic-bangalore5.webp')}}" class="why-card-img-top"
                                     alt="Longevity and Durable Quality">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Longevity and Durable Quality</h3>
@@ -134,7 +134,7 @@
 
         <div class="col-lg-4">
             <div class="image-container position-relative">
-                <img src="{{asset('frontend/Images/acrylic-bangalore6.svg')}}" alt="Acrylic LED Signage" class="w-100 h-100">
+                <img src="{{asset('frontend/Images/acrylic-bangalore6.webp')}}" alt="Acrylic LED Signage" class="w-100 h-100">
                 <div class="overlay">
                     <h5 class="text-title">Acrylic LED Signage</h5>
                     <p class="text-content">Acrylic LED signages are ideal for generating spectacular displays. These glowing signboards improve observability and are perfect for corporate offices and retail places. Merging acrylic letters with LED acrylic lighting makes sure of a competent appearance that works well indoors and outdoors.</p>
@@ -146,7 +146,7 @@
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-bangalore7.svg')}}" alt="Non-Backlit Acrylic Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/acrylic-bangalore7.webp')}}" alt="Non-Backlit Acrylic Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Non-Backlit Acrylic Signs</h5>
                             <p class="text-content">For a tidy and luxurious look, non-backlit acrylic sign boards in Bangalore are an extraordinary preference. These high-quality signage boards are easy yet efficient, making them perfect for branding in corporate offices or as acrylic nameplates.</p>
@@ -156,7 +156,7 @@
 
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-bangalore8.svg')}}" alt="Mounted Sign Boards" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/acrylic-bangalore8.webp')}}" alt="Mounted Sign Boards" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Mounted Sign Boards</h5>
                             <p class="text-content">Mounted signage boards are long-lasting and flexible, generally utilized as acrylic wall signs or outdoor displays. These display boards can be tailored to fit any business's requirements, guaranteeing a durable and fashionable signage solution.</p>
@@ -166,7 +166,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-bangalore9.svg')}}" alt="Acrylic 3D Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/acrylic-bangalore9.webp')}}" alt="Acrylic 3D Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Acrylic 3D Signs</h5>
                             <p class="text-content">Acrylic 3D signs provide extensiveness and dimension, forming an evident visual influence. These premium quality acrylic signages in Bangalore are ideal for logos or emphasizing particular branding aspects.</p>
@@ -176,7 +176,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-bangalore10.svg')}}" alt="Acrylic Logo Signs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/acrylic-bangalore10.webp')}}" alt="Acrylic Logo Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Acrylic Logo Signs</h5>
                             <p class="text-content">Exhibit your brand with traditional acrylic logo signs. Outlined by the best board manufacturers, these glow sign boards improve your organization with sophistication and longevity.</p>
@@ -196,7 +196,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/acrylic-bangalore11.svg')}}" alt="Acrylic Sign Boards" class="img-fluid">
+                    <img src="{{asset('frontend/Images/acrylic-bangalore11.webp')}}" alt="Acrylic Sign Boards" class="img-fluid">
                 </div>
             </div>
 
@@ -222,13 +222,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We placed an order for an acrylic sign board in Bangalore, and the standard goes beyond our expectations. The pattern was glossy, and the service was wonderful!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/acrylic-bangalore12.svg')}}" alt="Ramesh K" class="client-img">
+                            <img src="{{asset('frontend/Images/acrylic-bangalore12.webp')}}" alt="Ramesh K" class="client-img">
                             <div>
                                 <div class="client-name">Ramesh K</div>
                                 <div class="client-role">Corporate office owner</div>
@@ -240,13 +240,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The acrylic LED signages modified our shopfront. The dazzling and lively lighting genuinely makes us distinct at night!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/acrylic-bangalore13.svg')}}" alt="Meera S" class="client-img">
+                            <img src="{{asset('frontend/Images/acrylic-bangalore13.webp')}}" alt="Meera S" class="client-img">
                             <div>
                                 <div class="client-name">Meera S</div>
                                 <div class="client-role">Retail Business Owner</div>
@@ -258,13 +258,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The acrylic LED signages modified our shopfront. The dazzling and lively lighting genuinely makes us distinct at night!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/acrylic-bangalore14.svg')}}" alt="Priya T" class="client-img">
+                            <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Priya T" class="client-img">
                             <div>
                                 <div class="client-name">Priya T</div>
                                 <div class="client-role">HR Manager</div>
@@ -276,13 +276,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The team delivered beautiful acrylic wall signs that aligned our branding flawlessly. Their board manufacturer skillfulness is noticeable in the details</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/acrylic-bangalore15.svg')}}" alt="Rohan Gupta" class="client-img">
+                            <img src="{{asset('frontend/Images/acrylic-bangalore15.webp')}}" alt="Rohan Gupta" class="client-img">
                             <div>
                                 <div class="client-name">Rajeev P</div>
                                 <div class="client-role">Marketing Manager</div>
@@ -294,13 +294,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">From shaping to installation, their service was effortless. The acrylic signages Bangalore we bought have genuinely uplifted our business existence.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/acrylic-bangalore16.svg')}}" alt="Ishita Mehta" class="client-img">
+                            <img src="{{asset('frontend/Images/acrylic-bangalore16.webp')}}" alt="Ishita Mehta" class="client-img">
                             <div>
                                 <div class="client-name">Suman G</div>
                                 <div class="client-role">Entrepreneur</div>
@@ -318,13 +318,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We placed an order for an acrylic sign board in Bangalore, and the standard goes beyond our expectations. The pattern was glossy, and the service was wonderful!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore12.svg')}}" alt="Ramesh K" class="client-img">
+                                        <img src="{{asset('frontend/Images/acrylic-bangalore12.webp')}}" alt="Ramesh K" class="client-img">
                                         <div>
                                             <div class="client-name">Ramesh K</div>
                                             <div class="client-role">Corporate office owner</div>
@@ -336,13 +336,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The acrylic LED signages modified our shopfront. The dazzling and lively lighting genuinely makes us distinct at night!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore13.svg')}}" alt="Meera S" class="client-img">
+                                        <img src="{{asset('frontend/Images/acrylic-bangalore13.webp')}}" alt="Meera S" class="client-img">
                                         <div>
                                             <div class="client-name">Meera S</div>
                                             <div class="client-role">Retail Business Owner</div>
@@ -354,13 +354,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The acrylic LED signages modified our shopfront. The dazzling and lively lighting genuinely makes us distinct at night!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore14.svg')}}" alt="Priya T" class="client-img">
+                                        <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Priya T" class="client-img">
                                         <div>
                                             <div class="client-name">Priya T</div>
                                             <div class="client-role">HR Manager</div>
@@ -376,13 +376,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The acrylic LED signages modified our shopfront. The dazzling and lively lighting genuinely makes us distinct at night! <br> <br> </p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore14.svg')}}" alt="Priya T" class="client-img">
+                                        <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Priya T" class="client-img">
                                         <div>
                                             <div class="client-name">Priya T</div>
                                             <div class="client-role">HR Manager</div>
@@ -394,13 +394,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The team delivered beautiful acrylic wall signs that aligned our branding flawlessly. Their board manufacturer skillfulness is noticeable in the details</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore15.svg')}}" alt="Rohan Gupta" class="client-img">
+                                        <img src="{{asset('frontend/Images/acrylic-bangalore15.webp')}}" alt="Rohan Gupta" class="client-img">
                                         <div>
                                             <div class="client-name">Rajeev P</div>
                                             <div class="client-role">Marketing Manager</div>
@@ -412,13 +412,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">From shaping to installation, their service was effortless. The acrylic signages Bangalore we bought have genuinely uplifted our business existence.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore16.svg')}}" alt="Ishita Mehta" class="client-img">
+                                        <img src="{{asset('frontend/Images/acrylic-bangalore16.webp')}}" alt="Ishita Mehta" class="client-img">
                                         <div>
                                             <div class="client-name">Suman G</div>
                                             <div class="client-role">Entrepreneur</div>
@@ -461,32 +461,32 @@
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/acrylic-bangalore17.svg')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/acrylic-bangalore17.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/acrylic-bangalore18.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/acrylic-bangalore18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/acrylic-bangalore19.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/acrylic-bangalore19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/acrylic-bangalore20.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/acrylic-bangalore20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
         
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/acrylic-bangalore21.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/acrylic-bangalore21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/acrylic-bangalore22.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/acrylic-bangalore22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/acrylic-bangalore23.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/acrylic-bangalore23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/acrylic-bangalore24.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/acrylic-bangalore24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
 

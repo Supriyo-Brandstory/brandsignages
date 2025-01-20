@@ -5,7 +5,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/steelsign-bangalore1.svg')}}" alt="Stainless steel sign board manufacturer Bangalore">
+                <img src="{{asset('frontend/Images/steelsign-bangalore1.webp')}}" alt="Stainless steel sign board manufacturer Bangalore">
                 <div class="carousel-caption-custom">
                     <h1>Stainless steel sign board manufacturer Bangalore</h1>
                     <button class="custom-btn">Know More</button>
@@ -23,7 +23,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/steelsign-bangalore2.svg')}}" alt="Stainless steel sign board manufacturer Bangalore" class="img-fluid">
+                    <img src="{{asset('frontend/Images/steelsign-bangalore2.webp')}}" alt="Stainless steel sign board manufacturer Bangalore" class="img-fluid">
                 </div>
             </div>
 
@@ -49,7 +49,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/steelsign-bangalore3.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/steelsign-bangalore3.webp')}}" class="why-card-img-top"
                         alt="Office Name Boards and Private Utility">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Office Name Boards and Private Utility</h3>
@@ -59,7 +59,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/steelsign-bangalore4.svg')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/steelsign-bangalore4.webp')}}" class="why-card-img-top"
                         alt="Business and Commercial Usage">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Business and Commercial Usage</h3>
@@ -70,7 +70,7 @@
             <div class="col">
                 <div class="col-md-4">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/steelsign-bangalore5.svg')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/steelsign-bangalore5.webp')}}" class="why-card-img-top"
                             alt="Security and Directional Signage">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Security and Directional Signage</h3>
@@ -88,7 +88,7 @@
 
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/steelsign-bangalore3.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/steelsign-bangalore3.webp')}}" class="why-card-img-top"
                                     alt="Office Name Boards and Private Utility">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Office Name Boards and Private Utility</h3>
@@ -98,7 +98,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/steelsign-bangalore4.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/steelsign-bangalore4.webp')}}" class="why-card-img-top"
                                     alt="Business and Commercial Usage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Business and Commercial Usage</h3>
@@ -108,7 +108,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/steelsign-bangalore5.svg')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/steelsign-bangalore5.webp')}}" class="why-card-img-top"
                                     alt="Security and Directional Signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Security and Directional Signage</h3>
@@ -136,7 +136,7 @@
 
         <div class="col-lg-4">
             <div class="image-container position-relative">
-                <img src="{{asset('frontend/Images/steelsign-bangalore6.svg')}}" alt="3D SS Letter Boards " class="w-100 h-100">
+                <img src="{{asset('frontend/Images/steelsign-bangalore6.webp')}}" alt="3D SS Letter Boards " class="w-100 h-100">
                 <div class="overlay">
                     <h5 class="text-title">3D SS Letter Boards </h5>
                     <p class="text-content">3D stainless steel letter boards provide a contemporary and competent appearance for organizations and houses. These steel letter signs are ideal for branding, with a glossy pattern that is captivating. Their long-lasting substance ensures durable standards, making them perfect for indoor and outdoor utility.</p>
@@ -148,7 +148,7 @@
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/steelsign-bangalore7.svg')}}" alt="Backlit SS Sign Boards" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/steelsign-bangalore7.webp')}}" alt="Backlit SS Sign Boards" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Backlit SS Sign Boards</h5>
                             <p class="text-content">Backlit SS sign boards are common for their amazing visual attraction. The merger of led signage and stainless steel ss substance produces an illuminating result, ensuring observability at night. Ideal for corporate places, these glow sign boards boost your brand’s existence with luxury and usefulness.</p>
@@ -158,7 +158,7 @@
 
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/steelsign-bangalore8.svg')}}" alt="Stainless Steel Name Plates" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/steelsign-bangalore8.webp')}}" alt="Stainless Steel Name Plates" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Stainless Steel Name Plates</h5>
                             <p class="text-content">For an elegant feel, steel name boards for homes are an ideal preference. These stainless steel nameplates are made-to-order and indestructible, making them appropriate for private and professional usage.</p>
@@ -168,7 +168,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/steelsign-bangalore9.svg')}}" alt="Framed SS Sign Boards" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/steelsign-bangalore9.webp')}}" alt="Framed SS Sign Boards" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Framed SS Sign Boards</h5>
                             <p class="text-content">Enclosed metal sign boards attach a fashionable frame to your signage. These stainless steel signage solutions are flexible and appropriate for directional sign boards, safety signage, or ornamental reasons.</p>
@@ -178,7 +178,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/steelsign-bangalore10.svg')}}" alt="Mirror-Finish SS Boards" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/steelsign-bangalore10.webp')}}" alt="Mirror-Finish SS Boards" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Mirror-Finish SS Boards</h5>
                             <p class="text-content">Mirror-varnish stainless steel boards are coated to excellence for a high-gloss appearance. Perfect for stainless steel reception signs or wall-mounted displays, they radiate sophistication and expertness.</p>
@@ -201,13 +201,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">I am extremely glad to have the stainless steel name board for my home. The coating and resistance are excellent! Highly suggest this stainless steel sign board manufacturer in Bangalore!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/steelsign-bangalore11.svg')}}" alt="Ramesh K" class="client-img">
+                            <img src="{{asset('frontend/Images/steelsign-bangalore11.webp')}}" alt="Ramesh K" class="client-img">
                             <div>
                                 <div class="client-name">Anita Sharma</div>
                             </div>
@@ -218,13 +218,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The 3D steel letter sign for our office appears amazing. The team rendered exactly what we needed. Surely one of the finest steel sign board makers in Bangalore.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/steelsign-bangalore12.svg')}}" alt="Meera S" class="client-img">
+                            <img src="{{asset('frontend/Images/steelsign-bangalore12.webp')}}" alt="Meera S" class="client-img">
                             <div>
                                 <div class="client-name">Ravi Kumar</div>
                             </div>
@@ -235,13 +235,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">Our new backlit SS sign board has modified our storefront. The glow sign board is bright and ideal for nighttime observability. Superb work on the LED letter signage!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/steelsign-bangalore13.svg')}}" alt="Priya T" class="client-img">
+                            <img src="{{asset('frontend/Images/steelsign-bangalore13.webp')}}" alt="Priya T" class="client-img">
                             <div>
                                 <div class="client-name">Neha Gupta</div>
                             </div>
@@ -252,13 +252,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">We placed the order for a metal sign board for our reception, and it is unique. The polished pattern and class make it an ideal stainless steel reception sign. Wonderful service!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/steelsign-bangalore14.svg')}}" alt="Rohan Gupta" class="client-img">
+                            <img src="{{asset('frontend/Images/steelsign-bangalore14.webp')}}" alt="Rohan Gupta" class="client-img">
                             <div>
                                 <div class="client-name">Vikram Singh</div>
                             </div>
@@ -269,13 +269,13 @@
             <div class="col testimonial-small-div">
                 <div class="testimonial-card card">
                     <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
                         <p class="card-text testimonial-card-text">The direction sign boards in our building are both classy and long-lasting. This team is a trustworthy sign board manufacturer with innovative solutions!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/steelsign-bangalore15.svg')}}" alt="Ishita Mehta" class="client-img">
+                            <img src="{{asset('frontend/Images/steelsign-bangalore15.webp')}}" alt="Ishita Mehta" class="client-img">
                             <div>
                                 <div class="client-name">Priya Menon</div>
                             </div>
@@ -292,13 +292,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">I am extremely glad to have the stainless steel name board for my home. The coating and resistance are excellent! Highly suggest this stainless steel sign board manufacturer in Bangalore!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/steelsign-bangalore11.svg')}}" alt="Ramesh K" class="client-img">
+                                        <img src="{{asset('frontend/Images/steelsign-bangalore11.webp')}}" alt="Ramesh K" class="client-img">
                                         <div>
                                             <div class="client-name">Anita Sharma</div>
                                         </div>
@@ -309,13 +309,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The 3D steel letter sign for our office appears amazing. The team rendered exactly what we needed. Surely one of the finest steel sign board makers in Bangalore.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/steelsign-bangalore12.svg')}}" alt="Meera S" class="client-img">
+                                        <img src="{{asset('frontend/Images/steelsign-bangalore12.webp')}}" alt="Meera S" class="client-img">
                                         <div>
                                             <div class="client-name">Ravi Kumar</div>
                                         </div>
@@ -326,13 +326,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Our new backlit SS sign board has modified our storefront. The glow sign board is bright and ideal for nighttime observability. Superb work on the LED letter signage!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/steelsign-bangalore13.svg')}}" alt="Priya T" class="client-img">
+                                        <img src="{{asset('frontend/Images/steelsign-bangalore13.webp')}}" alt="Priya T" class="client-img">
                                         <div>
                                             <div class="client-name">Neha Gupta</div>
                                         </div>
@@ -347,13 +347,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">Our new backlit SS sign board has modified our storefront. The glow sign board is bright and ideal for nighttime observability. Superb work on the LED letter signage!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/steelsign-bangalore13.svg')}}" alt="Priya T" class="client-img">
+                                        <img src="{{asset('frontend/Images/steelsign-bangalore13.webp')}}" alt="Priya T" class="client-img">
                                         <div>
                                             <div class="client-name">Neha Gupta</div>
                                         </div>
@@ -364,13 +364,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">We placed the order for a metal sign board for our reception, and it is unique. The polished pattern and class make it an ideal stainless steel reception sign. Wonderful service!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/steelsign-bangalore14.svg')}}" alt="Rohan Gupta" class="client-img">
+                                        <img src="{{asset('frontend/Images/steelsign-bangalore14.webp')}}" alt="Rohan Gupta" class="client-img">
                                         <div>
                                             <div class="client-name">Vikram Singh</div>
                                         </div>
@@ -381,13 +381,13 @@
                         <div class="col-md-4">
                             <div class="testimonial-card card">
                                 <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.svg')}}" alt="Comment" class="comment-img">
+                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
                                     <p class="card-text testimonial-card-text">The direction sign boards in our building are both classy and long-lasting. This team is a trustworthy sign board manufacturer with innovative solutions!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/steelsign-bangalore15.svg')}}" alt="Ishita Mehta" class="client-img">
+                                        <img src="{{asset('frontend/Images/steelsign-bangalore15.webp')}}" alt="Ishita Mehta" class="client-img">
                                         <div>
                                             <div class="client-name">Priya Menon</div>
                                         </div>
@@ -429,32 +429,32 @@
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/steelsign-bangalore16.svg')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/steelsign-bangalore16.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/steelsign-bangalore17.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/steelsign-bangalore17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/steelsign-bangalore18.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/steelsign-bangalore18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/steelsign-bangalore19.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/steelsign-bangalore19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
         
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/steelsign-bangalore20.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/steelsign-bangalore20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/steelsign-bangalore21.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/steelsign-bangalore21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/steelsign-bangalore22.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/steelsign-bangalore22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <img src="{{asset('frontend/Images/steelsign-bangalore23.svg')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/steelsign-bangalore23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
             </div>
         </div>
 
