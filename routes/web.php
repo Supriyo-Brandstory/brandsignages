@@ -1,0 +1,37 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\frontend\frontendController;
+// Route::get('/', function () {
+//     return view('frontend.index');
+// });
+Route::get('/', [frontendController::class, 'index'])->name('index');
+Route::get('/arcylic-signages', [frontendController::class, 'arcylic_signages'])->name('arcylic_signages');
+Route::get('/metal-signages', [frontendController::class, 'metal_signages'])->name('metal_signages');
+Route::get('/digital-signages', [frontendController::class, 'digital_signages'])->name('digital_signages');
+Route::get('/outdoor-signages', [frontendController::class, 'outdoor_signages'])->name('outdoor_signages');
+Route::get('/indoor-signages', [frontendController::class, 'indoor_signages'])->name('indoor_signages');
+Route::get('/neon-signages', [frontendController::class, 'neon_signages'])->name('neon_signages');
+Route::get('/led-light-signages', [frontendController::class, 'led_signages'])->name('led_signages');
+Route::get('/hospital-signages', [frontendController::class, 'hospital_signages'])->name('hospital_signages');
+Route::get('/restaurant-signages', [frontendController::class, 'restaurant_signages'])->name('restaurant_signages');
+Route::get('/construction-safety-signages', [frontendController::class, 'construction_safety_signages'])->name('construction_safety_signages');
+Route::get('/office-signages', [frontendController::class, 'office_signages'])->name('office_signages');
+Route::get('/fire-safety-signages', [frontendController::class, 'fire_safety_signages'])->name('fire_safety_signages');
+Route::get('/door-signages', [frontendController::class, 'door_signages'])->name('door_signages');
+Route::get('/house-number-signages', [frontendController::class, 'house_number_signages'])->name('house_number_signages');
+Route::get('/nameplate-signages', [frontendController::class, 'nameplate_signages'])->name('nameplate_signages');
+Route::get('/restroom-signages', [frontendController::class, 'restroom_signages'])->name('restroom_signages');
+Route::get('/prohibitory-signages', [frontendController::class, 'prohibitory_signages'])->name('prohibitory_signages');
+Route::get('/office-desk-signages', [frontendController::class, 'office_desk_signages'])->name('office_desk_signages');
+Route::get('/floor-signages', [frontendController::class, 'floor_signages'])->name('floor_signages');
+Route::get('/room-name-plates', [frontendController::class, 'room_name_plates'])->name('room_name_plates');
+Route::get('/acrylic-signage-manufacturer-bangalore', [frontendController::class, 'acrylic_signage_manufacturer_bangalore'])->name('acrylic_signage_manufacturer_bangalore');
+Route::get('/steel-signage-manufacturer-bangalore', [frontendController::class, 'steel_signage_manufacturer_bangalore'])->name('steel_signage_manufacturer_bangalore');
+Route::get('/digital-signage-company-bangalore', [frontendController::class, 'digital_signage_company_bangalore'])->name('digital_signage_company_bangalore');
+Route::get('/neon-sign-board-bangalore', [frontendController::class, 'neon_sign_board_bangalore'])->name('neon_sign_board_bangalore');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+require __DIR__ . '/admin.php';
