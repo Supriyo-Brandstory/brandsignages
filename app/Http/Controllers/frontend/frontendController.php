@@ -140,5 +140,10 @@ class frontendController extends Controller
         return view('frontend.signagesResion.neon-sign-board-bangalore',compact('seo'));
     }
    
-
+    public function signage_in_bangalore(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO ::where('page_url',$currentRoute )->first();
+        return view('frontend.signagesResion.signage-in-bangalore',compact('seo'));
+    }
+   
 }

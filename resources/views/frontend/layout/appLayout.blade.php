@@ -121,7 +121,7 @@
                                 <div class="row">
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Bangalore</h6>
-                                        <a class="dropdown-item" href="#">Signages in Bangalore</a>
+                                        <a class="dropdown-item" href="{{route('signage_in_bangalore')}}">Signages in Bangalore</a>
                                         <a class="dropdown-item" href="{{route('acrylic_signage_manufacturer_bangalore')}}">Acrylic Signages in Bangalore</a>
                                         <a class="dropdown-item" href="{{route('steel_signage_manufacturer_bangalore')}}">Steel Signs in Bangalore</a>
                                         <a class="dropdown-item" href="{{route('digital_signage_company_bangalore')}}">Digital Signage in Bangalore</a>
