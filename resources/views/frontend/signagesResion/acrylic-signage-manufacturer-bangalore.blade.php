@@ -525,7 +525,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What diversities of acrylic signage alternatives does ARC India provide?
+                What diversities of acrylic signage alternatives does Brand Signages provide?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
@@ -555,7 +555,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                How fast can ARC India provide a traditional acrylic signage order?
+                How fast can Brand Signages provide a traditional acrylic signage order?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">

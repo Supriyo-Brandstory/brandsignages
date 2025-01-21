@@ -185,8 +185,10 @@
 
                 <div class="col-12 col-lg-4 col-md-6 mb-3 mb-lg-0">
                     <h6 class="fw-bold">Address</h6>
-                    <p class="text-black">BrandSignages, 5th Floor, BrandStory<br> Ventures, Surya Chambers, 34, Domlur I
+                    <a href="https://g.co/kgs/6RzVfm1" target="_blank" style="text-decoration:unset"> 
+                    <p class="text-black">Brand Signages, 5th Floor, BrandStory<br> Ventures, Surya Chambers, 34, Domlur I
                         <br>Stage, Amarjyoti Layout, Domlur,<br> Bengaluru, Karnataka 560071</p>
+                    </a>
                 </div>
 
                 <div class="col-12 col-lg-4 col-md-6  mb-3 mb-lg-0">

@@ -448,8 +448,8 @@
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/steelsign-bangalore20.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/steelsign-bangalore20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/digitalsign-bangalore2.webp')}}" data-lightbox="catalogue" data-title="Image 5">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore2.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
