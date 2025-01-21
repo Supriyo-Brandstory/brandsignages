@@ -6,9 +6,22 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\SEO;
-
+use App\Models\Sitemap;
+use Illuminate\Support\Facades\Response;
 class frontendController extends Controller
+
 {
+
+    public function sitemap()
+    {
+        // Fetch sitemap data from the database
+        $sitemap = Sitemap::first(); 
+    
+        // Return the view with the XML content and set the correct content type
+        return Response::make(view('frontend.sitemap', compact('sitemap')), 200, [
+            'Content-Type' => 'application/xml',
+        ]);
+    }
    public function index()
    {
     $currentRoute = Route::current()->uri();

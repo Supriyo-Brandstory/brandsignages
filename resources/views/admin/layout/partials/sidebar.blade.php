@@ -15,6 +15,12 @@
                 <span>Seo</span>
             </a>
         </li>
+        <li class="nav-item {{ Route::is('sitemap*') ? 'active' : ''}}">
+            <a class="nav-link " href="{{route('sitemap.index')}}">
+                <i class="bi bi-grid"></i>
+                <span>Sitemap</span>
+            </a>
+        </li>
         
 
        

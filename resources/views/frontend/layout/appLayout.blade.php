@@ -63,7 +63,7 @@
 
     <header class="custom-header sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light px-4">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="{{route('index')}}">
                 <img src="{{asset('frontend/Images/Brand-Signages-logo.png')}}" class="company-logo" alt="BrandSignages" width="175">
             </a>
 
