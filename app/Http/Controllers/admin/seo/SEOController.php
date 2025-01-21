@@ -13,7 +13,7 @@ class SEOController extends Controller
      */
     public function index()
     {
-        $seos = SEO::paginate(1); // Get SEO entries with pagination
+        $seos = SEO::paginate(10); // Get SEO entries with pagination
         return view('admin.seo.index', compact('seos'));
     }
 
