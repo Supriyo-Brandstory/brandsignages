@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/new/restroom-1.webp')}}" alt="Restroom Signs & Labels">
                 <div class="carousel-caption-custom">
-                    <h1>Restroom Signs & Labels</h1>
+                    <h1> Buy Restroom Signages in India</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -279,38 +279,54 @@
 </section>
 
 <section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
         <h2 class="hero-title">Catalogue</h2>
         
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/restroom-18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/restroom-18.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/restroom-19.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/restroom-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/restroom-20.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/restroom-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/restroom-21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/restroom-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
         </div>
         
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/restroom-22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/restroom-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/restroom-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/restroom-23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/restroom-24.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/restroom-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/restroom-25.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/restroom-25.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
         </div>
 

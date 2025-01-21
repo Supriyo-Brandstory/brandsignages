@@ -465,38 +465,54 @@
 </section>
 
 <section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
         <h2 class="hero-title">Catalogue</h2>
         
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/home-number-signage15.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/home-number-signage15.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/home-number-signage16.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/home-number-signage16.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/home-number-signage17.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/home-number-signage17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/home-number-signage18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/home-number-signage18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
         </div>
         
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/home-number-signage19.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/home-number-signage19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/home-number-signage20.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/home-number-signage20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/home-number-signage21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/home-number-signage21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/home-number-signage22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/home-number-signage22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
         </div>
 

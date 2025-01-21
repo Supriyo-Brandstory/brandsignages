@@ -537,7 +537,7 @@
         </div>
     </div>
 </section>
-<section class="mt-lg-5">
+{{-- <section class="mt-lg-5">
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">Catalogue</h2>
 
@@ -574,8 +574,65 @@
         </div>
 
     </div>
+</section> --}}
+ <!-- LightGallery CSS -->
+
+<section class="mt-lg-5">
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
+        <h2 class="hero-title">Catalogue</h2>
+
+        <!-- First Row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/construction-safety-12.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                    <img src="{{asset('frontend/Images/construction-safety-12.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/construction-safety-13.webp')}}" data-lightbox="catalogue" data-title="Image 2">
+                    <img src="{{asset('frontend/Images/construction-safety-13.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/construction-safety-14.webp')}}" data-lightbox="catalogue" data-title="Image 3">
+                    <img src="{{asset('frontend/Images/construction-safety-14.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/construction-safety-15.webp')}}" data-lightbox="catalogue" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/construction-safety-15.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%; height: 195px;">
+                </a>
+            </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/construction-safety-16.webp')}}" data-lightbox="catalogue" data-title="Image 5">
+                    <img src="{{asset('frontend/Images/construction-safety-16.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/construction-safety-17.webp')}}" data-lightbox="catalogue" data-title="Image 6">
+                    <img src="{{asset('frontend/Images/construction-safety-17.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/construction-safety-18.webp')}}" data-lightbox="catalogue" data-title="Image 7">
+                    <img src="{{asset('frontend/Images/construction-safety-18.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/construction-safety-19.webp')}}" data-lightbox="catalogue" data-title="Image 8">
+                    <img src="{{asset('frontend/Images/construction-safety-19.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
+            </div>
+        </div>
+    </div>
 </section>
 
+
+   
 
 <section class="testimonial section ">
     <div class="container">
@@ -916,4 +973,5 @@
 
     </div>
 </section>
+
 @endsection

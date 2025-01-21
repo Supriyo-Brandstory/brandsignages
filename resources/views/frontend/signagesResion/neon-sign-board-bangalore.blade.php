@@ -421,38 +421,54 @@
 </section>
 
 <section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
         <h2 class="hero-title">Catalogue</h2>
         
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/neonsign-bangalore16.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/neonsign-bangalore16.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/neonsign-bangalore17.webp')}}" data-lightbox="catalogue" data-title="Image 2">
                 <img src="{{asset('frontend/Images/neonsign-bangalore17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/neonsign-bangalore18.webp')}}" data-lightbox="catalogue" data-title="Image 3">
                 <img src="{{asset('frontend/Images/neonsign-bangalore18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/neonsign-bangalore19.webp')}}" data-lightbox="catalogue" data-title="Image 4">
                 <img src="{{asset('frontend/Images/neonsign-bangalore19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
         </div>
         
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/neonsign-bangalore20.webp')}}" data-lightbox="catalogue" data-title="Image 5">
                 <img src="{{asset('frontend/Images/neonsign-bangalore20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/neonsign-bangalore21.webp')}}" data-lightbox="catalogue" data-title="Image 6">
                 <img src="{{asset('frontend/Images/neonsign-bangalore21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/neonsign-bangalore22.webp')}}" data-lightbox="catalogue" data-title="Image 7">
                 <img src="{{asset('frontend/Images/neonsign-bangalore22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/neonsign-bangalore23.webp')}}" data-lightbox="catalogue" data-title="Image 8">
                 <img src="{{asset('frontend/Images/neonsign-bangalore23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
         </div>
 

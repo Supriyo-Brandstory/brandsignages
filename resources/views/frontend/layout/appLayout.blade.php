@@ -42,7 +42,14 @@
 
     <link rel="stylesheet" href="{{asset('frontend/styles.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/services.css')}}">
-    
+    <!-- Lightbox2 CSS -->
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/css/lightgallery.min.css"
+   />
+   
+
 
  
 </head>
@@ -103,8 +110,8 @@
                                         <a class="dropdown-item" href="{{route('nameplate_signages')}}">Custom Nameplates</a>
                                         <a class="dropdown-item" href="{{route('restroom_signages')}}">Restroom Signs</a>
                                         <a class="dropdown-item" href="{{route('prohibitory_signages')}}">Prohibitory Signs</a>
-                                        <a class="dropdown-item" href="#">Office Desk Sign</a>
-                                        <a class="dropdown-item" href="#">Floor Sign</a>
+                                        {{-- <a class="dropdown-item" href="#">Office Desk Sign</a>
+                                        <a class="dropdown-item" href="#">Floor Sign</a> --}}
                                         <a class="dropdown-item" href="{{route('room_name_plates')}}">Room Number Signs</a>
                                     </div>
                                 </div>
@@ -217,8 +224,20 @@
     </section>
 
     <script src="{{asset('frontend/script.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script>
+
+    <script>
+        // Initialize LightGallery
+        lightGallery(document.getElementById("gallery-container"), {
+            speed: 500,
+            selector: "a",
+            download: false
+        });
+    </script>
+     <!-- Bootstrap JS -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 
 </html>

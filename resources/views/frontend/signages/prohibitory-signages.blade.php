@@ -749,38 +749,54 @@
 </section>
 
 <section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
         <h2 class="hero-title">Catalogue</h2>
         
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/prohibitory-22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/prohibitory-22.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/prohibitory-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/prohibitory-23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/prohibitory-24.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/prohibitory-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/prohibitory-25.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/prohibitory-25.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
         </div>
         
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/prohibitory-26.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/prohibitory-26.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/prohibitory-27.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/prohibitory-27.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/prohibitory-28.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/prohibitory-28.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/prohibitory-29.webp')}}" data-lightbox="catalogue" data-title="Image 1">
                 <img src="{{asset('frontend/Images/new/prohibitory-29.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
             </div>
         </div>
 
