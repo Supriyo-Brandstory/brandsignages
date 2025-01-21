@@ -1,2 +1,16 @@
+# robots.txt for BrandSignages.com
+
+# Allow all bots to access the site
 User-agent: *
 Disallow:
+
+# Block specific directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Allow all images (important for favicon visibility)
+Allow: /Images/
+
+# Sitemap location
+Sitemap: https://www.brandsignages.com/sitemap.xml
