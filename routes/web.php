@@ -32,6 +32,7 @@ Route::get('/digital-signage-company-bangalore', [frontendController::class, 'di
 Route::get('/neon-sign-board-bangalore', [frontendController::class, 'neon_sign_board_bangalore'])->name('neon_sign_board_bangalore');
 Route::get('/signage-in-bangalore', [frontendController::class, 'signage_in_bangalore'])->name('signage_in_bangalore');
 Route::get('/led-sign-board-in-bangalore', [frontendController::class, 'led_sign_board_in_bangalore'])->name('led_sign_board_in_bangalore');
+Route::get('/hospital-signages-in-bangalore', [frontendController::class, 'hospital_signages_in_bangalore'])->name('hospital_signages_in_bangalore');
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');
 
 Auth::routes();

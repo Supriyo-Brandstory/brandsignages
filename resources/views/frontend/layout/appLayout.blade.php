@@ -134,7 +134,7 @@
                                         <a class="dropdown-item" href="{{route('digital_signage_company_bangalore')}}">Digital Signage in Bangalore</a>
                                         <a class="dropdown-item" href="{{route('neon_sign_board_bangalore')}}">Neon Sign Board in Bangalore</a>
                                         <a class="dropdown-item" href="{{route('led_sign_board_in_bangalore')}}">LED Sign Board in Bangalore</a>
-                                        <a class="dropdown-item" href="#">Hospital Signages in Bangalore</a>
+                                        <a class="dropdown-item" href="{{route('hospital_signages_in_bangalore')}}">Hospital Signages in Bangalore</a>
                                         <a class="dropdown-item" href="#">Safety Signages in Bangalore</a>
                                         <a class="dropdown-item" href="#">Name Plate Signages in Bangalore</a>
                                         <a class="dropdown-item" href="#">Restroom Signs in Bangalore</a>

@@ -164,4 +164,10 @@ class frontendController extends Controller
         return view('frontend.signagesResion.led-sign-board-in-bangalore',compact('seo'));
     }
    
+    public function hospital_signages_in_bangalore(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO ::where('page_url',$currentRoute )->first();
+        return view('frontend.signagesResion.hospital-signages-in-bangalore',compact('seo'));
+    }
+   
 }
