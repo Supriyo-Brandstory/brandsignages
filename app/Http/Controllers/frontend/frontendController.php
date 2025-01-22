@@ -169,5 +169,16 @@ class frontendController extends Controller
         $seo = SEO ::where('page_url',$currentRoute )->first();
         return view('frontend.signagesResion.hospital-signages-in-bangalore',compact('seo'));
     }
+    public function safety_signages_in_bangalore(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO ::where('page_url',$currentRoute )->first();
+        return view('frontend.signagesResion.safety-signages-in-bangalore',compact('seo'));
+    }
+   
+    public function name_plate_signages_in_bangalore(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO ::where('page_url',$currentRoute )->first();
+        return view('frontend.signagesResion.name-plate-signages-in-bangalore',compact('seo'));
+    }
    
 }
