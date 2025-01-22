@@ -158,5 +158,10 @@ class frontendController extends Controller
         $seo = SEO ::where('page_url',$currentRoute )->first();
         return view('frontend.signagesResion.signage-in-bangalore',compact('seo'));
     }
+    public function led_sign_board_in_bangalore(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO ::where('page_url',$currentRoute )->first();
+        return view('frontend.signagesResion.led-sign-board-in-bangalore',compact('seo'));
+    }
    
 }
