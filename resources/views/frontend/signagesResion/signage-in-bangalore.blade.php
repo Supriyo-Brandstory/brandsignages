@@ -23,7 +23,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset('frontend/Images/new/sign-banner-1.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
+                <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                 <div class="carousel-caption-custom">
                     <h2>High-Quality Sign Boards in Bangalore for Better Brand Visibility</h2>
                     <button class="custom-btn">Know More</button>
