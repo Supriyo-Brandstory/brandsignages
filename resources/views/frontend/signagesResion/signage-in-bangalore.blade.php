@@ -1,15 +1,18 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-<style>
 
-.carousel-indicators {
 
-    bottom: -40px;
-}
-</style>
 
 <section class="carousel-section">
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            
+        </div>
+
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/new/signage-1.webp')}}" alt="Prohibition Signs for Workplace Safety">
@@ -18,10 +21,19 @@
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
+
+            <div class="carousel-item">
+                <img src="{{asset('frontend/Images/new/sign-banner-1.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
+                <div class="carousel-caption-custom">
+                    <h2>High-Quality Sign Boards in Bangalore for Better Brand Visibility</h2>
+                    <button class="custom-btn">Know More</button>
+                </div>
+            </div>
+
+            
         </div>
     </div>
 </section>
-
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">Leading Signage Manufacturer - Brand Signages Bangalore</h2>
@@ -236,9 +248,9 @@ Opt for Brand Signages Bangalore for superior signages in Bangalore that are use
                 <p class="brand-description">
                     Our proficient board manufacturers produce:
                     <ul>
-                        <li>LED sign boards.</li>
-                        <li>Glow sign board.</li>
-                        <li>Acrylic sign boards.</li>
+                        <li><a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12">LED sign boards</a></li>
+                        <li><a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12">Glow sign board</a></li>
+                        <li><a href="{{route('acrylic_signage_manufacturer_bangalore')}}" style="text-decoration: unset;color:#E43D12">Acrylic sign boards</a></li>
                     </ul>
                 </p>
             </div>
@@ -481,6 +493,60 @@ Opt for Brand Signages Bangalore for superior signages in Bangalore that are use
         </div>
     </div>
 </section>
+<section class="mt-lg-5">
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
+        <h2 class="hero-title">Catalogue</h2>
+        
+        <!-- First Row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/signage-21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/signage-21.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/hospital-20.webp')}}" data-lightbox="catalogue" data-title="Image 2">
+                <img src="{{asset('frontend/Images/new/hospital-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/signage-23.webp')}}" data-lightbox="catalogue" data-title="Image 3">
+                <img src="{{asset('frontend/Images/new/signage-23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/construction-safety-slide-3.webp')}}" data-lightbox="catalogue" data-title="Image 4">
+                <img src="{{asset('frontend/Images/construction-safety-slide-3.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+        </div>
+        
+        <!-- Second Row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/led-sign-24.webp')}}" data-lightbox="catalogue" data-title="Image 5">
+                <img src="{{asset('frontend/Images/new/led-sign-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/signage-26.webp')}}" data-lightbox="catalogue" data-title="Image 6">
+                <img src="{{asset('frontend/Images/new/signage-26.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/signage-27.webp')}}" data-lightbox="catalogue" data-title="Image 7">
+                <img src="{{asset('frontend/Images/new/signage-27.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/signage-28.webp')}}" data-lightbox="catalogue" data-title="Image 8">
+                <img src="{{asset('frontend/Images/new/signage-28.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <section class="testimonial section ">
     <div class="container">
@@ -719,60 +785,7 @@ Opt for Brand Signages Bangalore for superior signages in Bangalore that are use
     </div>
 </section>
 
-<section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
-        <h2 class="hero-title">Catalogue</h2>
-        
-        <!-- First Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/signage-21.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-22.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/new/signage-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-23.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/new/signage-23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-24.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/new/signage-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
-        
-        <!-- Second Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-25.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/new/signage-25.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-26.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/new/signage-26.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-27.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/new/signage-27.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-28.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/new/signage-28.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
 
-    </div>
-</section>
 
 <section class="faq-section">
     <div class="faq-container">
