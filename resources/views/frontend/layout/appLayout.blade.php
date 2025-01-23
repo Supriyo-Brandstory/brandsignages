@@ -137,8 +137,8 @@
                                         <a class="dropdown-item" href="{{route('hospital_signages_in_bangalore')}}">Hospital Signages in Bangalore</a>
                                         <a class="dropdown-item" href="{{route('safety_signages_in_bangalore')}}">Safety Signages in Bangalore</a>
                                         <a class="dropdown-item" href="{{route('name_plate_signages_in_bangalore')}}">Name Plate Signages in Bangalore</a>
-                                        <a class="dropdown-item" href="#">Restroom Signs in Bangalore</a>
-                                        <a class="dropdown-item" href="#">Office Desk Signs in Bangalore</a>
+                                        <a class="dropdown-item" href="{{route('restroom_signs_in_bangalore')}}">Restroom Signs in Bangalore</a>
+                                        <a class="dropdown-item" href="{{route('office_desk_signs_in_bangalore')}}">Office Desk Signs in Bangalore</a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Mumbai</h6>

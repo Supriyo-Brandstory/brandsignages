@@ -180,5 +180,15 @@ class frontendController extends Controller
         $seo = SEO ::where('page_url',$currentRoute )->first();
         return view('frontend.signagesResion.name-plate-signages-in-bangalore',compact('seo'));
     }
-   
+   public function restroom_signs_in_bangalore(){
+    $currentRoute = Route::current()->uri();
+    $seo = SEO ::where('page_url',$currentRoute )->first();
+    return view('frontend.signagesResion.restroom-signs-in-bangalore',compact('seo'));
+    }
+    public function office_desk_signs_in_bangalore(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO ::where('page_url',$currentRoute )->first();
+        return view('frontend.signagesResion.office-desk-signs-in-bangalore',compact('seo'));
+    }
+
 }

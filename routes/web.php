@@ -35,6 +35,8 @@ Route::get('/led-sign-board-in-bangalore', [frontendController::class, 'led_sign
 Route::get('/hospital-signages-in-bangalore', [frontendController::class, 'hospital_signages_in_bangalore'])->name('hospital_signages_in_bangalore');
 Route::get('/safety-signages-in-bangalore', [frontendController::class, 'safety_signages_in_bangalore'])->name('safety_signages_in_bangalore');
 Route::get('/name-plate-signages-in-bangalore', [frontendController::class, 'name_plate_signages_in_bangalore'])->name('name_plate_signages_in_bangalore');
+Route::get('/restroom-signs-in-bangalore', [frontendController::class, 'restroom_signs_in_bangalore'])->name('restroom_signs_in_bangalore');
+Route::get('/office-desk-signs-in-bangalore', [frontendController::class, 'office_desk_signs_in_bangalore'])->name('office_desk_signs_in_bangalore');
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');
 
 Auth::routes();
