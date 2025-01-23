@@ -62,7 +62,8 @@
             <h2 class="display-4 mb-3 why-text-heading">How Acrylic Signage Can Enhance <br> Your Business Spaces
             </h2>
             <p class="card-text text-center">Acrylic signboards have a significant role in defining modern marketing
-                and creating a visual <br> space. Here is how companies are using them to build relationships with
+                and creating a visual <br> space. Brand Signages is a leading acrylic sign board manufacturer to help 
+                you make a lasting impression. <br> Here is how companies are using them to build relationships with
                 customers:</p>
         </div>
 
@@ -73,9 +74,10 @@
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Brand Identity & Promotion</h3>
                         <p class="card-text">Acrylic signages are great for branding and marketing because they
-                            offer simplicity and versatility. You can clarify your brand’s vision, standards, and
-                            accreditations, and exhibit your products and services. These white acrylic signboards
-                            are visible from a distance and can lure in more footfalls.</p>
+                            offer simplicity and versatility. <a href="https://brandsignages.com/" target="_blank">Brand Signages</a>
+                            can help you clarify your brand’s vision, 
+                            standards, and accreditations with premium acrylic sign boards. Our acrylic signages are highly 
+                            visible from a distance, attracting more foot traffic to your business.</p>
                     </div>
                 </div>
             </div>
@@ -116,10 +118,10 @@
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Brand Identity & Promotion</h3>
                                     <p class="card-text">Acrylic signages are great for branding and marketing
-                                        because they offer simplicity and versatility. You can clarify your brand’s
-                                        vision, standards, and accreditations, and exhibit your products and
-                                        services. These white acrylic signboards are visible from a distance and can
-                                        lure in more footfalls.</p>
+                                        because they offer simplicity and versatility. Brand Signages can help 
+                                        you clarify your brand’s vision, standards, and accreditations with premium 
+                                        acrylic sign boards. Our acrylic signages are highly visible from a distance, 
+                                        attracting more foot traffic to your business.</p>
                                 </div>
                             </div>
                         </div>

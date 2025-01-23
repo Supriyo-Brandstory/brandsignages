@@ -39,7 +39,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/cons-banner.webp')}}" alt="Construction Safety Signs">
                 <div class="carousel-caption-custom">
-                    <h1>Construction Safety Signs</h1>
+                    <h1>Best Construction Safety Signs Manufacturer</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -70,13 +70,14 @@
                     information do they offer? Usually, potential hazards, guidelines on using safety gear, what to
                     do during emergencies, etc., are some of the information portrayed through these boards.</p>
                 <p class="brand-description">
-                    While creating these boards, we always try to ensure one thing, the information is clear for
-                    everyone. We will also place these construction site signs at visibly unsafe/ dangerous
-                    locations throughout the place. This will reduce workplace-related risks and confusion, ensuring
-                    a safe and uniform passage. According to workplace regulations, these are necessary to show that
-                    you are compliant with regulatory authorities. If you are a construction site manager, you can
-                    show that you care about your people and visitors. Do you want to get one for your business? You
-                    can work with a construction signage manufacturing company and place an order.</p>
+                    At <a href="https://brandsignages.com/" target="_blank">Brand Signages</a>
+                    , we are a leading construction safety signs manufacturer, committed to delivering 
+                    clear and effective signage solutions for safety in every workplace. We will also place 
+                    these construction site signs at visibly unsafe/ dangerous locations throughout the place. 
+                    This will reduce workplace-related risks and confusion, ensuring a safe and uniform passage. 
+                    According to workplace regulations, these are necessary to show that you are compliant with 
+                    regulatory authorities. Partner with Brand Signages, a trusted construction signage manufacturing company, 
+                    and get your construction safety signs today.</p>
 
             </div>
         </div>
@@ -131,10 +132,9 @@
                         <p class="card-text">Construction safety signs should be placed strategically, especially at
                             the entry and exit points of these sites. You need to write the safety precautions,
                             protocols, and hazards on these boards. This will ensure that everyone entering the area
-                            is aware of the safety concerns. As a manager, you can invest in boards indicating “No
-                            Entry” or “Authorized Personnel Only” to control sensitive areas. You can also place
-                            these boards on roads to mark areas for vehicles and pedestrian traffic. This will lower
-                            the chances of accidents, and other issues.</p>
+                            is aware of the safety concerns. You can use boards like 'No Entry' or 'Authorized Personnel Only' 
+                            to effectively control access to sensitive areas. You can also use safety sign boards on roads to mark areas 
+                            for vehicles and pedestrian traffic. This will lower the chances of accidents, and other issues.</p>
                     </div>
                 </div>
             </div>

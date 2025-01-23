@@ -8,7 +8,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/digital-sign1.webp')}}" alt="Digital Signages">
                 <div class="carousel-caption-custom">
-                    <h1>We are a Leading Digital Sign Company</h1>
+                    <h1>Leading Digital Signage Manufacturer in India</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -62,8 +62,8 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Commercial Grade Digital Signage <br> Manufacturer</h2>
-            <p class="card-text text-center">As a leading digital signage manufacturer, we specialize in providing
-                high-quality tailored digital display solutions. These will <br> enhance visibility and engagement
+            <p class="card-text text-center">As a leading digital signage manufacturer, <a href="https://brandsignages.com/" target="_blank">Brand Signages</a>
+            specialize in providing high-quality tailored digital display solutions. These will <br> enhance visibility and engagement
                 and are best for advertising, sharing information, and customer interaction.</p>
         </div>
 

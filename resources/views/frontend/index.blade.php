@@ -16,7 +16,7 @@
                 <div class="carousel-item active">
                     <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
                     <div class="carousel-caption-custom">
-                        <h1>Quality Signage Solutions by #1 Signage Board Makers</h1>
+                        <h1>Expert Signage Manufacturers for Quality Sign Boards</h1>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h1>Quality Signage Solutions by #1 Signage Board Makers</h1>
+                        <h2>High-Quality Signage by the #1 Sign Board Makers in India</h2>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
                     <div class="carousel-caption-custom">
-                        <h1>Quality Signage Solutions by #1 Signage Board Makers</h1>
+                        <h2>India's Leading Sign Board Makers for Branded Signage Solutions</h2>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
 
                     <ul class="process-list">
                         <li>
-                            The manufacturing process for brand signages begins with conceptualisation. Our designers
+                            The manufacturing process for branded signages begins with conceptualisation. Our designers
                             will collaborate closely with you to understand the company's essence, target audience, and
                             communication objectives.
                         </li>
@@ -207,7 +207,7 @@
                         <img src="{{asset('frontend/Images/reflective-signs.webp')}}" class="card-img-top" alt="Reflective Signs">
                         <div class="card-body">
                             <h5 class="card-title">Reflective Signs</h5>
-                            <p class="card-text">As innovative signage board makers, we engineer reflective signs that
+                            <p class="card-text">As innovative signage board makers in India, we engineer reflective signs that
                                 combine safety with visual communication. We ensure maximum visibility, delivering
                                 critical information with clarity for high-impact, recognizable brand messaging.</p>
                         </div>
@@ -251,7 +251,7 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12 contact-section">
-                    <h2>Your brand is the identity of your business. We are Brand Signages manufacturer  to help you build & strengthen your identity with custom-made signage boards.</h2>
+                    <h2>Your brand is the identity of your business. We are Branded Signages manufacturer to help you build & strengthen your identity with custom-made signage boards.</h2>
                     <a href="tel:8006606080">
                         <button class="contact-btn">Contact Us</button>
                     </a>
