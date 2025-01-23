@@ -174,7 +174,7 @@ Opt for Brand Signages for superior signages in Bangalore that are useful as wel
                                     alt="Corporate Signage for Businesses">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Corporate Signage for Businesses</h3>
-                                    <p class="card-text">We generate spectacular letter signage, digital signage, and formal signage boards for corporate offices, guaranteeing a competent and embracing look.</p>
+                                    <p class="card-text">We generate spectacular <a href="https://brandsignages.com/office-desk-signs-in-bangalore" target="_blank">office design signage</a>, digital signage, and nameplate signage boards for corporate offices, guaranteeing a competent and embracing look.</p>
                                 </div>
                             </div>
                         </div>
@@ -184,7 +184,7 @@ Opt for Brand Signages for superior signages in Bangalore that are useful as wel
                                     alt="Restaurant and Hotel Signage Designs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Restaurant and Hotel Signage Designs</h3>
-                                    <p class="card-text">Restaurant and Hotel Signage Designs.From outdoor signs to fashionable indoor signage, we shape led signage and glow sign boards that appeal to clients and improve the atmosphere.</p>
+                                    <p class="card-text">From outdoor signs to fashionable indoor signage, we shape premium restaurant signage boards that appeal to clients and improve the atmosphere.</p>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +194,7 @@ Opt for Brand Signages for superior signages in Bangalore that are useful as wel
                                     alt="Medical and Hospital Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Medical and Hospital Signages</h3>
-                                    <p class="card-text">Our expert sign board manufacturers create transparent and operational signage designs, comprising acrylic signs and display boards, perfect for hospitals and clinics.</p>
+                                    <p class="card-text">Our expert sign board manufacturers create transparent and professional signage designs, comprising acrylic signs and display boards, perfect for hospitals and clinics.</p>
                                 </div>
                             </div>
                         </div>
@@ -278,7 +278,7 @@ Opt for Brand Signages for superior signages in Bangalore that are useful as wel
                   
                     <ul>
                         <li>We also provide stainless steel and acrylic signs, letter signage, and LED displays to fulfill your branding targets.</li>
-                        <li>Our pylon signs and lit signs are ideal for organizations looking for high observability.</li>
+                        <li>Our digital display signs are ideal for organizations looking for high observability.</li>
                         <li>Our glow signs give gracefulness and attraction to any place. </li>
                     </ul>
                 </p>
@@ -307,7 +307,7 @@ Opt for Brand Signages for superior signages in Bangalore that are useful as wel
                 <h2 class="brand-title">Dependable signage manufacturers in Bangalore</h2>
                 <p class="brand-description">
                     <ul>
-                        <li>We convert your wish to reality with traditional signage designs that are operational and visibly attractive. </li>
+                        <li>We convert your wish to reality with creative signage designs that are operational and visibly attractive. </li>
                         <li>Contact Brand Signages soon to discover our superior range of sign boards in Bangalore and uplift your brand with distinction.</li>
                     </ul>
                 </p>
@@ -484,7 +484,7 @@ Opt for Brand Signages for superior signages in Bangalore that are useful as wel
                 </button>
             </div>
 
-            <div class="carousel-indicators why-carousel-indicators">
+            <div class="carousel-indicators why-carousel-indicators" style="margin-bottom: -0.8rem;">
                 <button type="button" data-bs-target="#signageCarouselNew" data-bs-slide-to="0" class="active"
                     aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#signageCarouselNew" data-bs-slide-to="1"
