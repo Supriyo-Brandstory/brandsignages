@@ -1,13 +1,11 @@
 <?php
 
 use App\Http\Controllers\admin\auth\AuthController;
-use App\Http\Controllers\Admin\Blog\BlogController;
-use App\Http\Controllers\admin\ClientController;
+use App\Http\Controllers\admin\Blog\BlogController;
 use App\Http\Controllers\admin\dashboard\DashboardController;
 use App\Http\Controllers\admin\seo\SEOController;
 use App\Http\Controllers\admin\sitemap\SitemapController;
-use App\Http\Controllers\admin\blog\CategoryController;
-use App\Http\Controllers\admin\DisputeLetterController;
+use App\Http\Controllers\admin\Blog\CategoryController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('admin/login', [AuthController::class, 'showLogin'])->name('admin.showlogin');
