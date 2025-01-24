@@ -226,7 +226,7 @@ Opt for Brand Signages Bangalore for superior signages in Bangalore that are use
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">We Craft Excellence: Buy Custom <br>Signages in Bangalore </h2>
-        <p class="card-text text-center">Acrylic LED signages are the talk of the town because they combine aesthetics and practical functionality. <br> These offer great value for money and provide a long-standing performance in any condition:</p>
+        <p class="card-text text-center">Signages are gaining popularity for their perfect blend of aesthetics and practical functionality. We are among the leading sign board makers in Bangalore, crafting innovative & high-quality signage solutions to elevate your brand's presence.</p>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -793,54 +793,98 @@ Opt for Brand Signages Bangalore for superior signages in Bangalore that are use
 
         <div class="faq-item">
             <button class="faq-question">
+                How much does signages cost?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Signage cost depends on the material, size, and complexity of design. Generally vinyl signages cost less while acrylic, digital, stainless steel, and <a href="https://brandsignages.com/neon-sign-board-bangalore" target="_blank" style="color: #E43D12"> neon signs</a> are more expensive. Additional features like digital components, illumination may have an influence on final product costing. The cost of signage can be a few hundred to several thousand rupees depending on the requirements. </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is a signage company?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Signage companies design, manufacture, and install different types of signages for organizations and businesses. Signage company in Bangalore expertise in creating informational, branding, safety, and promotional signages. Signages are made with different types of materials like acrylic, stainless steel, neon, LED, digital displays, etc. They offer branding, signages design, and installation services to help businesses enhance visibility. 
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Why should I choose Brand Signages for my sign requirements?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Because <a href="https://brandsignages.com/" target="_blank" style="color: #E43D12">Brand Signages</a> is one of the leading sign board manufacturing companies in Bangalore. We offer custom signage solutions designed to meet specific business requirements. Our product range includes safety signs, directional signs, <a href="https://brandsignages.com/digital-signage-company-bangalore" target="_blank" style="color: #E43D12">digital displays</a>, <a href="https://brandsignages.com/safety-signages-in-bangalore" target="_blank" style="color: #E43D12">safety signs</a>, and more. We ensure each design conveys a better brand message and stands out from the rest, and communicates effectively. 
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
                 Does Brand Signages provide routine signage solutions for organizations in Bangalore?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Yes, we are experts in providing routine signage solutions for organizations of all sizes. As credible signage makers in Bangalore, we shape sign boards, lead sign boards, and more to fulfill your branding requirements.</p>
+                <p>
+                    Yes, we provide routine signage solutions for organizations in Bangalore & all over India. As credible signage makers in Bangalore, we make branding signages, safety signages, directional signages, informational signages, and more to fulfill your branding requirements. Our signage solutions ensure compliances and branding across industries like retail, healthcare, education institution, office, etc. Contact us for high-quality custom sign board requirements.
+
+                </p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                Can you render signage installation services throughout Bangalore?
+                Do you provide signage installation services throughout Bangalore?
+
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Definitely! We not only produce high-class signage in Bangalore, but we also deliver competent installation services for all kinds of signage boards, comprising outdoor signs, indoor signage, and glow sign boards.</p>
+                <p>Definitely! We not only produce high-class signage boards in Bangalore, but we also provide competent installation services for all kinds of signage boards, comprising outdoor signs, indoor signage, glow sign boards, and more.
+                </p>
             </div>
         </div>
-
         <div class="faq-item">
             <button class="faq-question">
                 What kinds of substances are utilized for producing resistant and high-class signages?
+
+
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>We utilize the best quality substances such as stainless steel, acrylic signs, and advanced LED displays to ensure longevity and top-class standards in our sign boards.</p>
+                <p>
+                    Premium quality and resistant signages are made with durable materials like stainless steel that provide a sleek and professional. Acrylic signages have a glossy finish and yet are ideal for using indoor and outdoor. Aluminum signage is another option that is rust proof and suitable for outdoor signages.
+                </p>
             </div>
         </div>
-
         <div class="faq-item">
             <button class="faq-question">
                 How can I request a custom design or quote for my signage requirements?
+
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>You can simply contact us to talk about your needs. Whether you require a pylon sign, acrylic sign board, or letter signage, our team will assist you through the method and offer a custom quote.</p>
+                <p>
+                    You can simply contact us to talk about your needs. Whether you require a digital display sign, acrylic sign board, LED signage, or neon sign, our team will assist you through the method and offer a custom quote.
+
+                </p>
             </div>
         </div>
-
         <div class="faq-item">
             <button class="faq-question">
                 What industries do you cater to in your signage solutions?
+
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>We serve several industries, consisting of apartments, banks, restaurants, hospitals, and corporate offices, rendering customized signage designs for each requirement.</p>
+                <p>We serve several industries, consisting of real estate, banks, restaurants, hospitals, and corporate offices, designing customized signage designs based on specific requirements.
+                </p>
             </div>
         </div>
-
     </div>
 </section>
 
