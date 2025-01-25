@@ -8,7 +8,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/digital-sign1.webp')}}" alt="Digital Signages">
                 <div class="carousel-caption-custom">
-                    <h1>Leading Digital Signage Manufacturer in India</h1>
+                    <h1>Leading Digital Signage Display Manufacturer in India</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -35,8 +35,9 @@
                     Digital display boards have emerged as essential tools for enhancing visual communication across
                     various industries. These advanced solutions serve sectors such as corporate offices, retail,
                     hospitality, food services, banking, and education, providing dynamic and engaging ways to
-                    convey information. As digital signage manufacturers, we create boards to display announcements
-                    and performance metrics, fostering a collaborative atmosphere.
+                    convey information. As leading digital signage manufacturers, we design digital boards for 
+                    renowned brands to display announcements and performance metrics, helping foster a collaborative 
+                    and engaging environment.
                 </p>
                 <p class="brand-description">
                     For the food industry, digital menu boards allow for quick updates that can drive impulse
@@ -114,7 +115,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/digital-sign7.webp')}}" class="why-card-img-top" alt="Display Video Wall">
+                    <img src="{{asset('frontend/Images/digital-sign7.jpg')}}" class="why-card-img-top" alt="Display Video Wall">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Display Video Wall</h3>
                         <p class="card-text">Display Video Walls create immersive experiences by combining multiple
