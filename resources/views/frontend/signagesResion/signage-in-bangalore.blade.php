@@ -64,7 +64,7 @@ Opt for Brand Signages for superior signages in Bangalore that are useful as wel
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Industries We Serve with Custom Signages</h2>
-            <p class="card-text text-center">At Brand Signages, we take pride in being among the best signage makers in Bangalore. Our traditional signage solutions serve a huge number of industries, rendering standardized sign boards and patterns that improve brand observability.Collaborate with Brand Signages to enhance your brand visibility with creative and resistant signages solutions.</p>
+            <p class="card-text text-center">At Brand Signages, we take pride in being among the best signage makers in Bangalore. Our traditional signage solutions serve a huge number of industries, rendering standardized sign boards and patterns that improve brand observability. Collaborate with Brand Signages to enhance your brand visibility with creative and resistant signages solutions.</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">

@@ -6,6 +6,7 @@ use App\Http\Controllers\admin\dashboard\DashboardController;
 use App\Http\Controllers\admin\seo\SEOController;
 use App\Http\Controllers\admin\sitemap\SitemapController;
 use App\Http\Controllers\admin\Blog\CategoryController;
+use App\Http\Controllers\admin\DatabaseController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('admin/login', [AuthController::class, 'showLogin'])->name('admin.showlogin');
@@ -22,8 +23,14 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::delete('subcategories/{id}', [CategoryController::class, 'subcategorydestroy'])->name('subcategories.destroy');
     route::resource('blogs', BlogController::class);
 
+// Route to show the export page
+Route::get('/export-database', [DatabaseController::class, 'showExportPage'])->name('show.export.page');
 
-
+// Route to trigger the export process
+Route::get('/export-database/start', [DatabaseController::class, 'exportAll'])->name('export.database');
+Route::get('/export-database/csv', [DatabaseController::class, 'exportCsvAll'])->name('export.csv');
+Route::get('/export-database/csv-all', [DatabaseController::class, 'exportAllInOneCSV'])->name('export.csv.all');
+Route::get('/export-database/mysql-all',[DatabaseController::class, 'exportAllInOneMySQL'])->name('export.mysql.all');
 
 
     Route::get('log-out', [AuthController::class, 'adminLogout'])->name('admin.logout');
