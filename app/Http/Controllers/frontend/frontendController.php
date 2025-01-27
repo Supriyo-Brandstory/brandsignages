@@ -265,8 +265,10 @@ class frontendController extends Controller
     public function blogsVariation(Request $request, $slug)
     {
         // Check if the slug matches a blog category
-        $currentRoute = Route::current()->uri();
+        $currentRoute = request()->path();;
         $seo = SEO::where('page_url', $currentRoute)->first();
+
+
         $category = BlogCategory::where('slug', $slug)->first();
     
         // Check if it's a blog post slug
@@ -277,6 +279,7 @@ class frontendController extends Controller
             ->first();
     
         if ($blog) {
+           
             return view('frontend.blogs.details', compact('blog', 'seo'));
         }
     
@@ -296,14 +299,15 @@ class frontendController extends Controller
             $allBlogs = Blog::where('blog_sub_category_id', $subcategory->id)->orderBy('id', 'desc')->paginate(15);
             $categories = BlogCategory::with('subCategories')->get();
             $category = $subcategory;
+            
             return view('frontend.blogs.index', compact('allBlogs', 'categories', 'category', 'seo'));
         } else {
             $subCategoryIds = BlogSubCategory::where('blog_category_id', $category->id)->pluck('id');
             $allBlogs = Blog::whereIn('blog_sub_category_id', $subCategoryIds)->orderBy('id', 'desc')->paginate(15);
         }
-    
+      
         $categories = BlogCategory::with('subCategories')->get();
-    
+       
         return view('frontend.blogs.index', compact('allBlogs', 'categories', 'category', 'seo'));
     }
     
@@ -318,5 +322,12 @@ class frontendController extends Controller
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.terms-and-conditions', compact('seo'));
+    }
+
+    public function bala_kumaranan()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.author-bala-kumaran', compact('seo'));
     }
 }

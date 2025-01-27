@@ -18,7 +18,7 @@ img.blogimg {
     margin-top: 15px;
 }
     section.blog-section {
-    padding: 20px 49px;
+    padding: 35px 49px;
     
 }
 .bredcum {
@@ -95,7 +95,7 @@ span.divider {
     }
 }
 section.blog-section {
-    padding: 15px 41px;
+    padding: 35px 41px;
 }
 h1.hero-title.mb-1 {
     margin-top: 15px;
@@ -113,7 +113,7 @@ h1.hero-title.mb-1 {
         </div>
     </div>
     <h1 class="hero-title mb-1" style="text-align: left;">{{$blog->title}}</h1>
-    <p class="card-text" style="text-align: left;">By Bala Kumaran Sir UPDATED: {{ \Carbon\Carbon::parse($blog->created_at)->format('d F Y') }} | {{$blog->reding_time}} min read</p>
+    <p class="card-text" style="text-align: left;">By <a href="{{route('bala_kumaranan')}}" style="color: #e43d12;">Bala Kumaran</a> | {{ \Carbon\Carbon::parse($blog->created_at)->format('d F Y') }} | {{$blog->reding_time}} min read</p>
     <img src="{{asset('storage/'.$blog->image)}}" alt="{{$blog->title}}" class="blogimg  d-block d-lg-none">
 
     <div class="row main blog">

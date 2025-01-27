@@ -41,6 +41,7 @@ Route::get('/blogs', [frontendController::class, 'blogs'])->name('blogs');
 Route::get('/blogs/{slug?}', [frontendController::class, 'blogsVariation'])->name('blogsVaritaion');
 Route::get('/privacy-policy', [frontendController::class, 'privacyPolicy'])->name('privacyPolicy');
 Route::get('/terms-and-conditions', [frontendController::class, 'termsAndConditions'])->name('termsAndConditions');
+Route::get('/author-bala-kumaran', [frontendController::class, 'bala_kumaranan'])->name('bala_kumaranan');
 
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');
 
