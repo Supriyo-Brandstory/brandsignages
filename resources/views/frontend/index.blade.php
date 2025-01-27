@@ -16,7 +16,7 @@
                 <div class="carousel-item active">
                     <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
                     <div class="carousel-caption-custom">
-                        <h1>Expert Signage Manufacturers for Quality Sign Boards</h1>
+                        <h1>Expert Signage Manufacturers for High-Quality Sign Boards</h1>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h2>High-Quality Signage by the #1 Sign Board Makers in Bangalore & India</h2>
+                        <h2>Enhance Your Brand Presence with Premium-Quality Signage</h2>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
 
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">Level Up Your Brand Image with<br>Custom Brand Signages</h2>
+            <h2 class="hero-title">Level Up Your Brand Image with<br>Brand Signages</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -52,7 +52,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="brand-title">Create Your Brand Identity with Brand Signages</h2>
+                    <h2 class="brand-title">Best Signage Board Makers in Bangalore & India</h2>
                     <p class="brand-description">
                         The way in which you express your company's message visually and emotionally forms brand
                         identity. It is not just the logo, it includes other design elements, communication strategies,
@@ -87,7 +87,7 @@
 
     <section class="process-section">
         <div class="container">
-            <h2 class="process-title">Our Process</h2>
+            <h2 class="process-title">Signage Solutions with Fast Delivery and Easy Purchase</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="process-card">
@@ -129,6 +129,8 @@
     <section>
         <div class="container my-5">
             <h2 class="text-center mb-5 card-heading">We are a Leading Brand Signage <br>Board Manufacturer in Bangalore, India</h2>
+            <p>With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. 
+                Our innovative designs and attention to detail ensure your brand message stands out in any setting.</p>
 
             <div class="row g-4 cards-row">
                 <div class="col-lg-3 col-md-6">
@@ -265,9 +267,10 @@
     <section class="why-bg-light-pink py-5">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-4 mb-3 why-text-heading">Looking for Signage Manufacturer:<br>Why Choose Us?</h2>
-                <p class="card-text">Your brand’s vision deserves an attractive sign, we understand that as signage
-                    board makers.</p>
+                <h2 class="display-4 mb-3 why-text-heading">Why Choose Us as<br>Your Signage Company</h2>
+                <p class="card-text">Discover why we are the preferred choice for businesses seeking top-tier 
+                    signage boards. Our commitment to quality, creativity, and timely delivery sets us apart 
+                    in the industry.</p>
             </div>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">

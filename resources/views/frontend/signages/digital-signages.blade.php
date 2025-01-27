@@ -366,7 +366,7 @@
                         <h3 class="why-text-red mb-3">Corporate Office</h3>
                         <p class="card-text">We are considered among digital signage manufacturers because our
                             products enhance internal communication and streamline information sharing. Companies
-                            can use them for displaying company announcements showcasing performance metrics.</p>
+                            can use them to display announcements showcasing performance metrics.</p>
                     </div>
                 </div>
             </div>
