@@ -161,14 +161,13 @@
             <div class="row g-4">
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board1.webp')}}" alt="Clear Acrylic Signage" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/accrylic-c1.jpeg')}}" alt="Clear Acrylic Signage" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Clear Acrylic Signage</h5>
                             <p class="text-content">These acrylic signboards are best for companies looking for a
                                 minimal yet stylish look. They have a transparent background and can mounted on the
                                 wall or used as free-standing signboards. This makes them perfect for small spaces,
-                                like cabins, desks, or nameplates. These can be enhanced with LEDs to illuminate the
-                                simple fonts and create an aesthetic effect.</p>
+                                like cabins, desks, or nameplates. </p>
                         </div>
                     </div>
                 </div>
@@ -225,13 +224,12 @@
 
                 <div class="col-lg-3">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board6.webp')}}" alt="Acrylic signage with LED" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/acrylic-c2.jpeg')}}" alt="Acrylic signage with LED" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Acrylic signage with LED</h5>
                             <p class="text-content">You can choose acrylic signage with LED to add sophistication
                                 and night-time visibility. You can choose colored or other LED styles that fit your
-                                vision. The thickness of these LED acrylic signboards can vary between 1 mm to 18
-                                mm.</p>
+                                vision. </p>
                         </div>
                     </div>
                 </div>
