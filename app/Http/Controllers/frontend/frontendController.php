@@ -226,8 +226,24 @@ class frontendController extends Controller
         return view('frontend.signagesResion.office-desk-signs-in-bangalore', compact('seo'));
     }
 
-    public function blogs()
+    public function blogs(Request $request)
     {
+        // Fetch the search query
+        $searchQuery = $request->query('search');
+    
+        if ($searchQuery) {
+            // Search blogs by title or content
+            $allBlogs = Blog::where('title', 'like', '%' . $searchQuery . '%')
+                ->orWhere('content', 'like', '%' . $searchQuery . '%')
+                ->orderBy('id', 'desc')
+                ->paginate(15);
+    
+            $categories = BlogCategory::with('subCategories')->get();
+    
+            // Pass search query to the view for display in the search bar
+            return view('frontend.blogs.index', compact('categories', 'allBlogs', 'searchQuery'));
+        }
+    
         // Fetch the latest 3 blogs for the banner/featured section
         $latestBlogs = Blog::orderBy('id', 'desc')->take(3)->get();
     
@@ -244,43 +260,49 @@ class frontendController extends Controller
         return view('frontend.blogs.index', compact('categories', 'allBlogs', 'latestBlogs', 'banner'));
     }
     
-    public function blogsVariation($slug)
+    
+    public function blogsVariation(Request $request, $slug)
     {
         // Check if the slug matches a blog category
         $category = BlogCategory::where('slug', $slug)->first();
     
         // Check if it's a blog post slug
         $blog = Blog::join('blog_sub_categories', 'blog_sub_categories.id', '=', 'blogs.blog_sub_category_id')
-            ->join('blog_categories', 'blog_categories.id', '=', 'blog_sub_categories.blog_category_id')->
-            select('blogs.*', 'blog_categories.name as category_name', 'blog_sub_categories.name as sub_category_name')->
-            where('blogs.slug', $slug)
+            ->join('blog_categories', 'blog_categories.id', '=', 'blog_sub_categories.blog_category_id')
+            ->select('blogs.*', 'blog_categories.name as category_name', 'blog_sub_categories.name as sub_category_name')
+            ->where('blogs.slug', $slug)
             ->first();
-        // with('subCategory', 'subCategory.category')
-        // If it's a blog post slug, return the blog post directly
+    
         if ($blog) {
             return view('frontend.blogs.details', compact('blog'));
         }
     
-        // If no category was found, check if it's a subcategory slug
-        if (!$category) {
+        // If a search query exists
+        if ($request->has('search') && !empty($request->input('search'))) {
+            $searchTerm = $request->input('search');
+            $allBlogs = Blog::where('title', 'LIKE', '%' . $searchTerm . '%')
+                ->orWhere('content', 'LIKE', '%' . $searchTerm . '%')
+                ->orderBy('id', 'desc')
+                ->paginate(15);
+        } elseif (!$category) {
             $subcategory = BlogSubCategory::where('slug', $slug)->first();
             if (!$subcategory) {
                 abort(404, 'Category or Subcategory not found');
             }
     
-            // Get all blogs for the found subcategory
             $allBlogs = Blog::where('blog_sub_category_id', $subcategory->id)->orderBy('id', 'desc')->paginate(15);
             $categories = BlogCategory::with('subCategories')->get();
             $category = $subcategory;
-            return view('frontend.blogs.index', compact('allBlogs', 'categories','category'));
+            return view('frontend.blogs.index', compact('allBlogs', 'categories', 'category'));
+        } else {
+            $subCategoryIds = BlogSubCategory::where('blog_category_id', $category->id)->pluck('id');
+            $allBlogs = Blog::whereIn('blog_sub_category_id', $subCategoryIds)->orderBy('id', 'desc')->paginate(15);
         }
     
-        // If category exists, fetch blogs for its subcategories
-        $subCategoryIds = BlogSubCategory::where('blog_category_id', $category->id)->pluck('id');
-        $allBlogs = Blog::whereIn('blog_sub_category_id', $subCategoryIds)->orderBy('id', 'desc')->paginate(15);
         $categories = BlogCategory::with('subCategories')->get();
     
-        return view('frontend.blogs.index', compact('allBlogs', 'categories','category'));
+        return view('frontend.blogs.index', compact('allBlogs', 'categories', 'category'));
     }
+    
     
 }

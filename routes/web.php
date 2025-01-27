@@ -38,7 +38,7 @@ Route::get('/name-plate-signages-in-bangalore', [frontendController::class, 'nam
 Route::get('/restroom-signs-in-bangalore', [frontendController::class, 'restroom_signs_in_bangalore'])->name('restroom_signs_in_bangalore');
 Route::get('/office-desk-signs-in-bangalore', [frontendController::class, 'office_desk_signs_in_bangalore'])->name('office_desk_signs_in_bangalore');
 Route::get('/blogs', [frontendController::class, 'blogs'])->name('blogs');
-Route::get('/blogs/{slug}', [frontendController::class, 'blogsVariation'])->name('blogsVaritaion');
+Route::get('/blogs/{slug?}', [frontendController::class, 'blogsVariation'])->name('blogsVaritaion');
 
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');
 

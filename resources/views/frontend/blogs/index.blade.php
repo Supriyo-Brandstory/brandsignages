@@ -90,7 +90,7 @@
     text-transform: capitalize;
 }
 .con-fix{
-    padding: 30px 37px 0px !important;
+    padding: 30px 37px 30px !important;
 }
 
 @media (min-width: 992px) {
@@ -155,10 +155,19 @@ background-size: cover;
 background-position: center;
 height: 400px;">
     <div class="carousel-caption-custom">
+        @if(request('search'))
+        <h2 style="text-transform: uppercase;">Search Results for : {{ request('search') }}</h2>
+   
+        @elseif(isset($category))
+        <h2 style="text-transform: uppercase;">{{$category->name}}</h2>
+        <p style="text-transform: capitalize;">
+            {{$category->description}}
+        </p>
+        @else
         <h2 style="text-transform: uppercase;">Coming Soon</h2>
         <p style="text-transform: capitalize;">
             We are working on this section, please check back later.
-        </p>
+        @endif
     </div>
 </section>
 @endif
@@ -193,10 +202,13 @@ height: 400px;">
                 @endforeach
             </ul>
 
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn contact-btn" type="submit">Search</button>
+            <form method="GET" action="{{ route('blogs') }}" class="mb-4">
+                <div class="input-group">
+                    <input type="text" name="search" class="form-control" placeholder="Search blogs..." value="{{ request()->input('search') }}">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </div>
             </form>
+            
         </div>
     </nav>
 </section>
@@ -225,9 +237,9 @@ height: 400px;">
         </div>
         @endforeach
     </div>
-    <div class="row py-5 px-3">
+    
         {{ $allBlogs->links() }}
-    </div>
+    
 </section>
 @endif
 
