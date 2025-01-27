@@ -214,8 +214,8 @@
 
                 <div class="col-12 col-md-auto">
                     <nav class="footer-nav">
-                        <a href="#">Terms</a>
-                        <a href="#">Privacy</a>
+                        <a href="{{route('termsAndConditions')}}">Terms</a>
+                        <a href="{{route('privacyPolicy')}}">Privacy</a>
                         <a href="#">Support</a>
                         <a href="#">About</a>
                         <a href="#">Resources</a>

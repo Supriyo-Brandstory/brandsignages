@@ -246,7 +246,8 @@ class frontendController extends Controller
     
         // Fetch the latest 3 blogs for the banner/featured section
         $latestBlogs = Blog::orderBy('id', 'desc')->take(3)->get();
-    
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
         // Exclude the latest 3 blogs from the main list of all blogs
         $allBlogs = Blog::whereNotIn('id', $latestBlogs->pluck('id'))->orderBy('id', 'desc')->paginate(15);
     
@@ -257,13 +258,15 @@ class frontendController extends Controller
         $banner = "Your Banner Content";
     
         // Pass variables to the view
-        return view('frontend.blogs.index', compact('categories', 'allBlogs', 'latestBlogs', 'banner'));
+        return view('frontend.blogs.index', compact('categories', 'allBlogs', 'latestBlogs', 'banner', 'seo'));
     }
     
     
     public function blogsVariation(Request $request, $slug)
     {
         // Check if the slug matches a blog category
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
         $category = BlogCategory::where('slug', $slug)->first();
     
         // Check if it's a blog post slug
@@ -274,7 +277,7 @@ class frontendController extends Controller
             ->first();
     
         if ($blog) {
-            return view('frontend.blogs.details', compact('blog'));
+            return view('frontend.blogs.details', compact('blog', 'seo'));
         }
     
         // If a search query exists
@@ -293,7 +296,7 @@ class frontendController extends Controller
             $allBlogs = Blog::where('blog_sub_category_id', $subcategory->id)->orderBy('id', 'desc')->paginate(15);
             $categories = BlogCategory::with('subCategories')->get();
             $category = $subcategory;
-            return view('frontend.blogs.index', compact('allBlogs', 'categories', 'category'));
+            return view('frontend.blogs.index', compact('allBlogs', 'categories', 'category', 'seo'));
         } else {
             $subCategoryIds = BlogSubCategory::where('blog_category_id', $category->id)->pluck('id');
             $allBlogs = Blog::whereIn('blog_sub_category_id', $subCategoryIds)->orderBy('id', 'desc')->paginate(15);
@@ -301,8 +304,19 @@ class frontendController extends Controller
     
         $categories = BlogCategory::with('subCategories')->get();
     
-        return view('frontend.blogs.index', compact('allBlogs', 'categories', 'category'));
+        return view('frontend.blogs.index', compact('allBlogs', 'categories', 'category', 'seo'));
     }
     
-    
+    public function privacyPolicy()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.privacy-policy', compact('seo'));
+    }
+    public function termsAndConditions()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.terms-and-conditions', compact('seo'));
+    }
 }

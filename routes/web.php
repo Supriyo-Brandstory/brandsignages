@@ -39,6 +39,8 @@ Route::get('/restroom-signs-in-bangalore', [frontendController::class, 'restroom
 Route::get('/office-desk-signs-in-bangalore', [frontendController::class, 'office_desk_signs_in_bangalore'])->name('office_desk_signs_in_bangalore');
 Route::get('/blogs', [frontendController::class, 'blogs'])->name('blogs');
 Route::get('/blogs/{slug?}', [frontendController::class, 'blogsVariation'])->name('blogsVaritaion');
+Route::get('/privacy-policy', [frontendController::class, 'privacyPolicy'])->name('privacyPolicy');
+Route::get('/terms-and-conditions', [frontendController::class, 'termsAndConditions'])->name('termsAndConditions');
 
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');
 
