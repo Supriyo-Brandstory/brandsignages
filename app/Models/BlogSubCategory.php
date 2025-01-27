@@ -23,7 +23,8 @@ class BlogSubCategory extends Model
 
     public function category()
     {
-        return $this->belongsTo(BlogCategory::class);
+        // return $this->belongsTo(BlogCategory::class);
+        return $this->belongsTo(BlogCategory::class, 'blog_category_id', 'id');
     }
     protected static function boot()
     {
@@ -35,5 +36,5 @@ class BlogSubCategory extends Model
             }
         });
     }
-    
+  
 }

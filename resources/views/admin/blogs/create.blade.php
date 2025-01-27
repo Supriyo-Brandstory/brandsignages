@@ -1,6 +1,7 @@
 @extends('admin.layout.main')
 @section('title', 'Create Blog | ')
 @section('content')
+<link href="https://cdn.quilljs.com/1.3.7/quill.snow.css" rel="stylesheet">
     <section class="section dashboard">
         <div class="row">
             <div class="col-lg-12">
@@ -43,7 +44,8 @@
                             <div class="row mb-3">
                                 <label for="content" class="col-sm-2 col-form-label">Content</label>
                                 <div class="col-sm-10">
-                                    <textarea name="content" class="form-control" rows="5" required></textarea>
+                                    <div id="editor" class="form-control" style="height: 200px;"></div>
+                                    <input type="hidden" name="content" id="content">
                                     @error('content')
                                         <span class="text-danger" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -100,4 +102,26 @@
             </div>
         </div>
     </section>
+    <script src="https://cdn.quilljs.com/1.3.7/quill.min.js"></script>
+
+<script>
+    // Initialize Quill editor
+    var quill = new Quill('#editor', {
+        theme: 'snow',
+        placeholder: 'Enter content here...',
+        modules: {
+            toolbar: [
+                [{ header: [1, 2, false] }],
+                ['bold', 'italic', 'underline'],
+                [{ list: 'ordered' }, { list: 'bullet' }],
+                ['link', 'image']
+            ]
+        }
+    });
+
+    // Sync Quill content to hidden input on form submit
+    document.querySelector('form').onsubmit = function () {
+        document.querySelector('#content').value = quill.root.innerHTML;
+    };
+</script>
 @endsection

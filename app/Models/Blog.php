@@ -21,7 +21,8 @@ class Blog extends Model
 
     public function subCategory()
     {
-        return $this->belongsTo(BlogSubCategory::class);
+        // return $this->belongsTo(BlogSubCategory::class);
+        return $this->belongsTo(BlogSubCategory::class, 'blog_sub_category_id', 'id');
     }
     protected static function boot()
     {
