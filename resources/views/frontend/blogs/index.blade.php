@@ -156,7 +156,7 @@
         <div class="carousel-inner">
             @foreach ($latestBlogs as $key => $blog)
             <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
-                <img src="{{ asset($blog->image ?? 'default-image.jpg') }}" alt="{{ $blog->title }}">
+                <img src="{{ asset('storage/' .$blog->image ?? 'default-image.jpg') }}" alt="{{ $blog->title }}">
                 <div class="carousel-caption-custom">
                     <h2 class="mb-4">{{ $blog->title }}</h2>
                     <a href="{{ route('blogsVaritaion', $blog->slug) }}" class="custom-btn">Know More</a>
