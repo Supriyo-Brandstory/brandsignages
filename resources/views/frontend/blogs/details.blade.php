@@ -79,10 +79,23 @@ span.divider {
     scroll-margin-top: 80px; /* Adjust the scroll position */
 }
 @media (max-width: 767px) {
+    .bredcum {
+        display: block;
+        width: 93%;
+    color: #e43d12;
+    text-decoration: none;
+    word-wrap: break-word; /* Allows text to wrap onto the next line */
+    word-break: break-word; /* Breaks long words */
+    overflow-wrap: break-word; /* Ensures long words wrap properly */
+}
+
     .hero-title {
         margin-bottom: 0px !important;
         margin-top: 18px;
     }
+}
+section.blog-section {
+    padding: 15px 41px;
 }
 h1.hero-title.mb-1 {
     margin-top: 15px;

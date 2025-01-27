@@ -92,6 +92,12 @@
 .con-fix{
     padding: 30px 37px 30px !important;
 }
+.con-fix2{
+    padding: 0px 37px 30px !important;
+}
+.row {
+    margin: 0;
+}
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {
@@ -123,6 +129,17 @@
             margin-bottom: 15px;
         }
     }
+    @media (max-width: 576px) {
+    .carousel-caption-custom.xx {
+        padding: 15px;
+        bottom: 60%;
+   
+    }
+    .con-fix2{
+    padding: 0px 10px 30px !important;
+}
+    
+}
 </style>
 
 {{-- Carousel Section --}}
@@ -154,9 +171,9 @@
 background-size: cover;
 background-position: center;
 height: 400px;">
-    <div class="carousel-caption-custom">
+    <div class="carousel-caption-custom xx">
         @if(request('search'))
-        <h2 style="text-transform: uppercase;">Search Results for : {{ request('search') }}</h2>
+        <h2 style="text-transform: uppercase;">Search Results</h2>
    
         @elseif(isset($category))
         <h2 style="text-transform: uppercase;">{{$category->name}}</h2>
@@ -174,7 +191,7 @@ height: 400px;">
 
 {{-- Navigation Section --}}
 @if(isset($categories) && count($categories) > 0)
-<section class="px-1">
+<section class="px-1 d-none d-lg-block">
     <nav class="navbar navbar-expand-lg navbar-light con-fix">
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -212,14 +229,22 @@ height: 400px;">
         </div>
     </nav>
 </section>
+
+
 @endif
 
 {{-- Blogs Section --}}
 @if(isset($allBlogs) && count($allBlogs) > 0)
 <section class="px-1">
-    <div class="row con-fix">
+    <form method="GET" action="{{ route('blogs') }}" class="mb-4 d-block d-lg-none px-2 mt-4">
+        <div class="input-group">
+            <input type="text" name="search" class="form-control" placeholder="Search blogs..." value="{{ request()->input('search') }}">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+    </form>
+    <div class="row con-fix2">
         @foreach ($allBlogs as $blog)
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
             <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
                 <div class="card">
                     <div class="card-img">
