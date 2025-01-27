@@ -8,7 +8,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/digital-sign1.webp')}}" alt="Digital Signages">
                 <div class="carousel-caption-custom">
-                    <h1>Leading Digital Signage Display Manufacturer in India</h1>
+                    <h1>Leading Digital Signage Manufacturer in India</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -32,7 +32,7 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Digital display boards have emerged as essential tools for enhancing visual communication across
+                    Digital signages have emerged as essential tools for enhancing visual communication across
                     various industries. These advanced solutions serve sectors such as corporate offices, retail,
                     hospitality, food services, banking, and education, providing dynamic and engaging ways to
                     convey information. As leading digital signage manufacturers, we design digital boards for 
@@ -48,7 +48,7 @@
                 </p>
                 <p class="brand-description">
                     Brand Signages is one of the top 10 digital signage manufacturers in India. We offer state-of-the-art tech integration, better  
-                    visibility, dynamic content, and real-time updates, making digital displays more effective 
+                    visibility, dynamic content, and real-time updates, making digital signages more effective 
                     than static signs. As a reliable digital signage company, Brand Signages helps businesses 
                     enhance brand presence, boost customer engagement, and adapt quickly to market changes.
                 </p>
@@ -64,7 +64,7 @@
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Commercial Grade Digital Signage <br> Manufacturer</h2>
             <p class="card-text text-center">As a leading digital signage company, Brand Signages
-            specialize in providing high-quality tailored digital display solutions. These will <br> enhance visibility and engagement
+            specialize in providing high-quality tailored digital signage solutions. These will <br> enhance visibility and engagement
                 and are best for advertising, sharing information, and customer interaction.</p>
         </div>
 
@@ -74,7 +74,7 @@
                     <img src="{{asset('frontend/Images/digital-sign3.webp')}}" class="why-card-img-top" alt="Commercial Displays">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Commercial Displays</h3>
-                        <p class="card-text">We design versatile digital displays to be used in retail environments,
+                        <p class="card-text">We design versatile digital signages to be used in retail environments,
                             corporate settings, and educational institutions. They deliver stunning visuals and can
                             be customized to fit any branding requirement.</p>
                     </div>
@@ -107,7 +107,7 @@
                     <img src="{{asset('frontend/Images/digital-sign6.webp')}}" class="why-card-img-top" alt="Outdoor Display Signage">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Outdoor Display Signage</h3>
-                        <p class="card-text">Outdoor display signage is prepared to withstand environmental
+                        <p class="card-text">Outdoor digital signage is prepared to withstand environmental
                             challenges while delivering vibrant content that remains visible even in direct
                             sunlight. This makes them essential for outdoor advertising campaigns.</p>
                     </div>
@@ -311,7 +311,7 @@
                         <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="Quality LED Sign Boards">
                     </div>
                     <h3>Quality LED Sign Boards</h3>
-                    <p>Our LED sign board displays utilize advanced LED technology, ensuring they are bright enough
+                    <p>Our LED sign boards utilize advanced LED technology, ensuring they are bright enough
                         for outdoor and indoor applications. Their durability makes them ideal for any environment,
                         from retail spaces to corporate offices. Additionally, our LED displays are energy-efficient
                         and environmentally friendly, reducing operational costs while providing long-lasting
