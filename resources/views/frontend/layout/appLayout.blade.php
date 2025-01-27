@@ -216,9 +216,10 @@
                     <nav class="footer-nav">
                         <a href="{{route('termsAndConditions')}}">Terms</a>
                         <a href="{{route('privacyPolicy')}}">Privacy</a>
-                        <a href="#">Support</a>
+                        {{-- <a href="#">Support</a> --}}
                         <a href="#">About</a>
-                        <a href="#">Resources</a>
+                        {{-- <a href="#">Resources</a> --}}
+
                         <a href="#">Contact</a>
                     </nav>
                 </div>
