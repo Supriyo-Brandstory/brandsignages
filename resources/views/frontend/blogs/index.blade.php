@@ -125,33 +125,46 @@
     }
 </style>
 
+{{-- Carousel Section --}}
+@if(isset($latestBlogs) && count($latestBlogs) > 0)
 <section class="carousel-section">
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            @foreach ([0, 1, 2] as $index)
-                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="{{ $index }}" 
-                    class="{{ $index === 0 ? 'active' : '' }}" aria-label="Slide {{ $index + 1 }}"></button>
+            @foreach ($latestBlogs as $index => $blog)
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="{{ $index }}" 
+                class="{{ $index === 0 ? 'active' : '' }}" aria-label="Slide {{ $index + 1 }}"></button>
             @endforeach
         </div>
 
         <div class="carousel-inner">
-            @foreach ([
-                ['image' => 'frontend/Images/banner1.webp', 'text' => 'Expert Signage Manufacturers for Quality Sign Boards'],
-                ['image' => 'frontend/Images/Banner.webp', 'text' => 'High-Quality Signage by the #1 Sign Board Makers in India'],
-                ['image' => 'frontend/Images/banner3.webp', 'text' => 'India\'s Leading Sign Board Makers for Branded Signage Solutions']
-            ] as $key => $slide)
-                <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
-                    <img src="{{ asset($slide['image']) }}" alt="{{ $slide['text'] }}">
-                    <div class="carousel-caption-custom">
-                        <h2>{{ $slide['text'] }}</h2>
-                        <button class="custom-btn">Know More</button>
-                    </div>
+            @foreach ($latestBlogs as $key => $blog)
+            <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
+                <img src="{{ asset($blog->image ?? 'default-image.jpg') }}" alt="{{ $blog->title }}">
+                <div class="carousel-caption-custom">
+                    <h2 class="mb-4">{{ $blog->title }}</h2>
+                    <a href="{{ route('blogsVaritaion', $blog->slug) }}" class="custom-btn">Know More</a>
                 </div>
+            </div>
             @endforeach
         </div>
     </div>
 </section>
+@else
+<section class="carousel-section" style="background-image: url('{{ asset('frontend/Images/categorybanner.jpg') }}');
+background-size: cover;
+background-position: center;
+height: 400px;">
+    <div class="carousel-caption-custom">
+        <h2 style="text-transform: uppercase;">Coming Soon</h2>
+        <p style="text-transform: capitalize;">
+            We are working on this section, please check back later.
+        </p>
+    </div>
+</section>
+@endif
 
+{{-- Navigation Section --}}
+@if(isset($categories) && count($categories) > 0)
 <section class="px-1">
     <nav class="navbar navbar-expand-lg navbar-light con-fix">
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
@@ -161,22 +174,22 @@
                 </li>
 
                 @foreach ($categories as $category)
-                    @if ($category->subCategories->count())
-                        <li class="nav-item dropdown nav-l">
-                            <a class="nav-link dropdown-toggle" href="{{ route('blogsVaritaion', $category->slug) }}">
-                                {{ $category->name }} +
-                            </a>
-                            <ul class="dropdown-menu">
-                                @foreach ($category->subCategories as $subCategory)
-                                    <li><a class="dropdown-item" href="{{ route('blogsVaritaion', $subCategory->slug) }}">{{ $subCategory->name }}</a></li>
-                                @endforeach
-                            </ul>
-                        </li>
-                    @else
-                        <li class="nav-item nav-l">
-                            <a class="nav-link" href="{{ route('blogsVaritaion', $category->slug) }}">{{ $category->name }}</a>
-                        </li>
-                    @endif
+                @if ($category->subCategories->count())
+                <li class="nav-item dropdown nav-l">
+                    <a class="nav-link dropdown-toggle" href="{{ route('blogsVaritaion', $category->slug) }}">
+                        {{ $category->name }} +
+                    </a>
+                    <ul class="dropdown-menu">
+                        @foreach ($category->subCategories as $subCategory)
+                        <li><a class="dropdown-item" href="{{ route('blogsVaritaion', $subCategory->slug) }}">{{ $subCategory->name }}</a></li>
+                        @endforeach
+                    </ul>
+                </li>
+                @else
+                <li class="nav-item nav-l">
+                    <a class="nav-link" href="{{ route('blogsVaritaion', $category->slug) }}">{{ $category->name }}</a>
+                </li>
+                @endif
                 @endforeach
             </ul>
 
@@ -187,32 +200,39 @@
         </div>
     </nav>
 </section>
+@endif
 
+{{-- Blogs Section --}}
+@if(isset($allBlogs) && count($allBlogs) > 0)
 <section class="px-1">
-    <div class="row con-fix ">
+    <div class="row con-fix">
         @foreach ($allBlogs as $blog)
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
-                    <div class="card">
-                        <div class="card-img">
-                            <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
-                        </div>
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center mb-2">
-                                <span class="badge">{{ strtoupper($blog->topic) }}</span>
-                                <span class="time">{{ $blog->reding_time }} mins 🕘</span>
-                            </div>
-                            <h5 class="card-title">{{ $blog->title }}</h5>
-                        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
                     </div>
-                </a>
-            </div>
-        @endforeach
-        <div class="row py-5 px-3">
-            {{ $allBlogs->links() }}
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">{{ strtoupper($blog->topic) }}</span>
+                            <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+                        </div>
+                        <h5 class="card-title">{{ $blog->title }}</h5>
+                    </div>
+                </div>
+            </a>
         </div>
+        @endforeach
+    </div>
+    <div class="row py-5 px-3">
+        {{ $allBlogs->links() }}
     </div>
 </section>
+@endif
+
+{{-- If No Data, Show "Coming Soon" Section --}}
+
 
 <script>
     document.querySelectorAll('.nav-item.dropdown').forEach(item => {

@@ -228,10 +228,22 @@ class frontendController extends Controller
 
     public function blogs()
     {
+        // Fetch the latest 3 blogs for the banner/featured section
+        $latestBlogs = Blog::orderBy('id', 'desc')->take(3)->get();
+    
+        // Exclude the latest 3 blogs from the main list of all blogs
+        $allBlogs = Blog::whereNotIn('id', $latestBlogs->pluck('id'))->orderBy('id', 'desc')->paginate(15);
+    
+        // Fetch categories with their subcategories
         $categories = BlogCategory::with('subCategories')->get();
-        $allBlogs = Blog::orderBy('id', 'desc')->paginate(15);
-        return view('frontend.blogs.index', compact('categories', 'allBlogs'));
+    
+        // You can set the banner here (e.g., static content or dynamic query)
+        $banner = "Your Banner Content";
+    
+        // Pass variables to the view
+        return view('frontend.blogs.index', compact('categories', 'allBlogs', 'latestBlogs', 'banner'));
     }
+    
     public function blogsVariation($slug)
     {
         // Check if the slug matches a blog category
@@ -259,8 +271,8 @@ class frontendController extends Controller
             // Get all blogs for the found subcategory
             $allBlogs = Blog::where('blog_sub_category_id', $subcategory->id)->orderBy('id', 'desc')->paginate(15);
             $categories = BlogCategory::with('subCategories')->get();
-    
-            return view('frontend.blogs.index', compact('allBlogs', 'categories'));
+            $category = $subcategory;
+            return view('frontend.blogs.index', compact('allBlogs', 'categories','category'));
         }
     
         // If category exists, fetch blogs for its subcategories
@@ -268,7 +280,7 @@ class frontendController extends Controller
         $allBlogs = Blog::whereIn('blog_sub_category_id', $subCategoryIds)->orderBy('id', 'desc')->paginate(15);
         $categories = BlogCategory::with('subCategories')->get();
     
-        return view('frontend.blogs.index', compact('allBlogs', 'categories'));
+        return view('frontend.blogs.index', compact('allBlogs', 'categories','category'));
     }
     
 }
