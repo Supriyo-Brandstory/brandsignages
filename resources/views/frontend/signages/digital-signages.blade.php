@@ -47,10 +47,10 @@
                     announcements.
                 </p>
                 <p class="brand-description">
-                    They offer high visibility, dynamic content capabilities, and real-time updates, making them far
-                    more effective than traditional static signs. By leveraging these innovative solutions,
-                    businesses can enhance their brand presence, improve customer engagement, and adapt quickly to
-                    changing market demands.
+                    Brand Signages is one of the top 10 digital signage manufacturers in India. We offer state-of-the-art tech integration, better  
+                    visibility, dynamic content, and real-time updates, making digital displays more effective 
+                    than static signs. As a reliable digital signage company, Brand Signages helps businesses 
+                    enhance brand presence, boost customer engagement, and adapt quickly to market changes.
                 </p>
 
             </div>
@@ -63,7 +63,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Commercial Grade Digital Signage <br> Manufacturer</h2>
-            <p class="card-text text-center">As a leading digital signage manufacturer, <a href="https://brandsignages.com/" target="_blank">Brand Signages</a>
+            <p class="card-text text-center">As a leading digital signage company, Brand Signages
             specialize in providing high-quality tailored digital display solutions. These will <br> enhance visibility and engagement
                 and are best for advertising, sharing information, and customer interaction.</p>
         </div>
@@ -198,7 +198,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/digital-sign7.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/digital-sign7.jpg')}}" class="why-card-img-top"
                                     alt="Display Video Wall">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Display Video Wall</h3>
@@ -239,7 +239,7 @@
     <div class="row g-4 d-flex flex-wrap justify-content-center">
 
         <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">We are Expert Digital Signage Professionals</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for Digital Signages</h2>
         </div>
 
         <div class="col-lg-12">
@@ -249,7 +249,9 @@
                         <img src="{{asset('frontend/Images/digital-sign8.webp')}}" alt="On-time installation" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">On-time installation</h5>
-                            <p class="text-content">Our team ensures on-time installation of all digital signage displays, minimizing downtime and allowing you to start reaping the benefits. We coordinate every aspect of the installation process, thus ensuring a seamless transition from planning to execution.</p>
+                            <p class="text-content">Our team ensures on-time installation of all digital signage displays, 
+                                minimizing downtime and allowing you to start reaping the benefits. We coordinate every aspect 
+                                of the installation process, thus ensuring a seamless transition from planning to execution.</p>
                         </div>
                     </div>
                 </div>
@@ -272,9 +274,9 @@
                             class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Experienced professionals</h5>
-                            <p class="text-content">Our team has experienced professionals who are experts in
-                                digital signage technology. They are not only skilled in installation but also in
-                                providing ongoing support and maintenance.</p>
+                            <p class="text-content">We are among the best digital signage companies with expertise in
+                                digital signage technology. Our innovative solutions are designed to deliver high-impact, 
+                                dynamic content that drives customer engagement and enhances brand visibility.</p>
                         </div>
                     </div>
                 </div>
@@ -284,7 +286,10 @@
                         <img src="{{asset('frontend/Images/digital-sign11.webp')}}" alt="Happy Customer Base" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Happy Customer Base</h5>
-                            <p class="text-content">Our happy customer base is a testament to our focus on providing tailored customer experience and meeting their digital signage needs. We prioritize understanding your specific requirements and delivering signage solutions that exceed expectations. We have received praise for our responsiveness, professionalism, and the impact they have on their communication strategies.</p>
+                            <p class="text-content">Our happy customer base is a testament to our focus on providing tailored customer 
+                                experience and meeting their digital signage needs. Being among the best digital signage companies in india, 
+                                we prioritize understanding your specific requirements and delivering signage solutions that exceed expectations. 
+                                We have received praise for our responsiveness, professionalism, and the impact they have on their communication strategies.</p>
                         </div>
                     </div>
                 </div>
@@ -297,7 +302,7 @@
 
 <section class="process-section">
     <div class="container">
-        <h2 class="process-title">Our Digital Signage Boards - Comprehensive Guide</h2>
+        <h2 class="process-title">We are The Best Digital Signage Manufacturers</h2>
         <div class="row">
 
             <div class="col-md-4">

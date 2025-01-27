@@ -24,7 +24,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h2>High-Quality Signage by the #1 Sign Board Makers in India</h2>
+                        <h2>High-Quality Signage by the #1 Sign Board Makers in Bangalore & India</h2>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
 
     <section>
         <div class="container my-5">
-            <h2 class="text-center mb-5 card-heading">We are a Leading Brand Signage <br>Board Manufacturer in India</h2>
+            <h2 class="text-center mb-5 card-heading">We are a Leading Brand Signage <br>Board Manufacturer in Bangalore, India</h2>
 
             <div class="row g-4 cards-row">
                 <div class="col-lg-3 col-md-6">
@@ -147,7 +147,7 @@
                         <img src="{{asset('frontend/Images/rectangular-signages.webp')}}" class="card-img-top" alt="Rectangular and Die-cut Signs">
                         <div class="card-body">
                             <h5 class="card-title">Rectangular and Die-cut Signs</h5>
-                            <p class="card-text">As leading signage board makers, we craft rectangular signs that
+                            <p class="card-text">As leading signage board makers in Bangalore & India, we craft rectangular signs that
                                 deliver clean, professional messaging. Our expertise ensures versatile, sleek designs
                                 that provide maximum visual impact with crisp brand communication across various
                                 applications.</p>

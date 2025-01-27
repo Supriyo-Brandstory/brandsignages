@@ -17,7 +17,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Elevate Your Brand with Digital Display Ads</h2>
+        <h2 class="hero-title">Elevate Your Brand with Digital Signage Displays</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -28,10 +28,10 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Make your brand reach new peaks with digital signage displays that allure and engross your viewers. At Brand Signages, a prominent digital signage company in Bangalore, we offer creative digital signage solutions to fulfill your business requirements.  Whether you require a digital standee in Bangalore, a polished touchscreen kiosk, or a lively LED video wall, we have the ideal digital signage solution for you. Our contributions comprise floor-standing signage displays, rectangle digital displays, and LCD digital signage with extraordinary contrast ratios to guarantee that your message is exceptional.
+                    Make your brand reach new peaks with digital signage displays that allure and engross your viewers. As prominent digital signage company in Bangalore we offer creative digital signage solutions to fulfill your business requirements. Whether you require a digital standee in Bangalore, a polished touchscreen kiosk, or a lively LED video wall, we have the ideal digital signage solution for you. Our contributions comprise floor-standing signage displays, rectangle digital displays, and LCD digital signage with extraordinary contrast ratios to guarantee that your message is exceptional.
                 </p>  
                 <p class="brand-description">
-                    From acrylic digital signage boards to glow sign boards, we emphasize traditional signage displays that match your branding. We also render modern signage software for effortless content creation and handling. Whether it’s a spectacular video wall or a long-lasting floor stand display board, our products render unparalleled standards and output.  Select Brand Signage for standardized digital signage displays in Bangalore, outlined to promote your advertising policy. With our inventive LED and digital signage kiosks, your brand will glow blazing throughout any channel. Let us modify your dream into reality with our innovative signage solutions today!
+                    From digital signage boards, video walls to digital standee, we emphasize best signage displays that match your branding. We also render modern signage software for effortless content creation and handling. Whether it’s a spectacular video wall or a long-lasting floor stand display board, our products render unparalleled standards and output. Select Brand Signage for standardized digital signage displays in Bangalore, outlined to promote your advertising policy. With our inventive LED and digital signage kiosks, your brand will glow blazing throughout any channel. Let us modify your dream into reality with our innovative signage solutions today!
                 </p>
             </div>
         </div>
@@ -41,7 +41,7 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Key Features of Digital Signage</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for Digital Signages</h2>
             <p class="card-text text-center">With Brand Signages, a pioneer in digital signage solutions, you get flexible, dependable, and creative signage displays that uplift your marketing scheme seamlessly.</p>
         </div>
 
@@ -51,8 +51,8 @@
                     <img src="{{asset('frontend/Images/digitalsign-bangalore3.webp')}}" class="why-card-img-top"
                         alt="Easy to Install">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Easy to Install</h3>
-                        <p class="card-text">Our digital signage solutions are designed for prompt and trouble-free installation. Whether it’s a digital standee Bangalore or a touch screen kiosk, the installation procedure is easy and effective. As a reliable digital signage company in Bangalore, we make sure that all digital displays are easily operated and ready to go.</p>
+                        <h3 class="why-text-red mb-3">Easy Installation</h3>
+                        <p class="card-text">Our digital signage solutions are designed for prompt and trouble-free installation. Whether it’s a digital standee or a touch screen kiosk, the installation procedure is easy and effective. As a reliable digital signage company in Bangalore, we make sure that all digital displays are easily operated and ready to go.</p>
                     </div>
                 </div>
             </div>
@@ -61,8 +61,8 @@
                     <img src="{{asset('frontend/Images/digitalsign-bangalore4.webp')}}" class="why-card-img-top"
                         alt="Original Packing Screen with Versatile Compatibility">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Original Packing Screen with Versatile Compatibility</h3>
-                        <p class="card-text">Each digital signage display in Bangalore is available with its initial packing to guarantee security during transportation. Our signage displays support an array of equipment, comprising CF cards, SD cards, and USB ports, making content movement effortless. This aspect is perfect for generating vibrant advertising displays and engrossing sign boards.</p>
+                        <h3 class="why-text-red mb-3">Original Packing Screen & Compatibility</h3>
+                        <p class="card-text">Each digital signage display is available with its standard packaging to guarantee security during transportation. Our signage displays support an array of equipment, comprising CF cards, SD cards, and USB ports, making content movement effortless. This aspect is perfect for generating vibrant advertising displays and engrossing sign boards.</p>
                     </div>
                 </div>
             </div>
@@ -72,8 +72,8 @@
                         <img src="{{asset('frontend/Images/digitalsign-bangalore5.webp')}}" class="why-card-img-top"
                             alt="liable Design and Standardized Display">
                         <div class="card-body why-card-body px-0">
-                            <h3 class="why-text-red mb-3">liable Design and Standardized Display</h3>
-                            <p class="card-text">Our rectangle digital signage, LED digital signage, and LCD digital signage are formulated for resistance and rendition. Matched with progressive signage software, these displays render high-class contrast ratios and spirited visuals. From video walls to floor-standing display boards, we offer personalized solutions for influential branding.</p>
+                            <h3 class="why-text-red mb-3">Standardized Display</h3>
+                            <p class="card-text">Our digital signage, LED digital signage, and LCD digital signage are formulated for resistance and rendition. Matched with progressive signage software, these displays render high-class contrast ratios and spirited visuals. From video walls to floor-standing display boards, we offer personalized solutions for influential branding.</p>
                         </div>
                     </div>
                 </div>
@@ -90,8 +90,8 @@
                                 <img src="{{asset('frontend/Images/digitalsign-bangalore3.webp')}}" class="why-card-img-top"
                                     alt="Easy to Install">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Easy to Install</h3>
-                                    <p class="card-text">Our digital signage solutions are designed for prompt and trouble-free installation. Whether it’s a digital standee Bangalore or a touch screen kiosk, the installation procedure is easy and effective. As a reliable digital signage company in Bangalore, we make sure that all digital displays are easily operated and ready to go.</p>
+                                    <h3 class="why-text-red mb-3">Easy Installation</h3>
+                                    <p class="card-text">Our digital signage solutions are designed for prompt and trouble-free installation. Whether it’s a digital standee or a touch screen kiosk, the installation procedure is easy and effective. As a reliable digital signage company in Bangalore, we make sure that all digital displays are easily operated and ready to go.</p>
                                 </div>
                             </div>
                         </div>
@@ -100,8 +100,8 @@
                                 <img src="{{asset('frontend/Images/digitalsign-bangalore4.webp')}}" class="why-card-img-top"
                                     alt="Original Packing Screen with Versatile Compatibility">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Original Packing Screen with Versatile Compatibility</h3>
-                                    <p class="card-text">Each digital signage display in Bangalore is available with its initial packing to guarantee security during transportation. Our signage displays support an array of equipment, comprising CF cards, SD cards, and USB ports, making content movement effortless. This aspect is perfect for generating vibrant advertising displays and engrossing sign boards.</p>
+                                    <h3 class="why-text-red mb-3">Original Packing Screen & Compatibility</h3>
+                                    <p class="card-text">Each digital signage display is available with its standard packaging to guarantee security during transportation. Our signage displays support an array of equipment, comprising CF cards, SD cards, and USB ports, making content movement effortless. This aspect is perfect for generating vibrant advertising displays and engrossing sign boards.</p>
                                 </div>
                             </div>
                         </div>
@@ -110,8 +110,8 @@
                                 <img src="{{asset('frontend/Images/digitalsign-bangalore5.webp')}}" class="why-card-img-top"
                                     alt="liable Design and Standardized Display">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">liable Design and Standardized Display</h3>
-                                    <p class="card-text">Our rectangle digital signage, LED digital signage, and LCD digital signage are formulated for resistance and rendition. Matched with progressive signage software, these displays render high-class contrast ratios and spirited visuals. From video walls to floor-standing display boards, we offer personalized solutions for influential branding.</p>
+                                    <h3 class="why-text-red mb-3">Standardized Display</h3>
+                                    <p class="card-text">Our digital signage, LED digital signage, and LCD digital signage are formulated for resistance and rendition. Matched with progressive signage software, these displays render high-class contrast ratios and spirited visuals. From video walls to floor-standing display boards, we offer personalized solutions for influential branding.</p>
                                 </div>
                             </div>
                         </div>
@@ -127,8 +127,8 @@
     <div class="row g-4 d-flex flex-wrap justify-content-center">
 
         <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">Applications of Digital Signage Displays</h2>
-            <p class="card-text text-center">Choose Brand Signages, a predominant digital signage company in Bangalore, for pliable digital <br> signage solutions customized to your requirements.</p>
+            <h2 class="display-4 mb-3 why-text-heading">Industries We Serve</h2>
+            <p class="card-text text-center">Brand Signages is a leading digital signage company in Bangalore providing flexible signage <br>solutions tailored to your needs. .</p>
         </div>
 
         <div class="col-lg-4">
@@ -157,7 +157,7 @@
                     <div class="image-container position-relative">
                         <img src="{{asset('frontend/Images/digitalsign-bangalore8.webp')}}" alt="Video Walls" class="w-100 h-100">
                         <div class="overlay">
-                            <h5 class="text-title">Video Walls</h5>
+                            <h5 class="text-title">Outdoor Ads</h5>
                             <p class="text-content">For influential branding and advertising, LED video walls are commonly utilized in malls, stadiums, and commercial occurrences. These wide-ranging signage displays provide unique contrast ratios and realistic illustrations, making them perfect for forming mesmerizing experiences.</p>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                         <img src="{{asset('frontend/Images/digitalsign-bangalore10.webp')}}" alt="White Boards for Education" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">White Boards for Education</h5>
-                            <p class="text-content">In educational establishments, digital signage boards are enlarged as communicative whiteboards. Furnished with signage software, they prop up content creation and prompt merger, making learning more engrossing.</p>
+                            <p class="text-content">In educational establishments, digital signage boards are enlarged as communicative whiteboards.</p>
                         </div>
                     </div>
                 </div>
