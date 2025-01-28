@@ -42,7 +42,7 @@
 
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">Level Up Your Brand Image with<br>Brand Signages</h2>
+            <h2 class="hero-title">Level Up Your Brand Image with<br> Brand Signages</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -87,7 +87,7 @@
 
     <section class="process-section">
         <div class="container">
-            <h2 class="process-title">Signage Solutions with Fast Delivery and Easy Purchase</h2>
+            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="process-card">
@@ -129,7 +129,7 @@
     <section>
         <div class="container my-5">
             <h2 class="text-center mb-5 card-heading">We are a Leading Brand Signage <br>Board Manufacturer in Bangalore, India</h2>
-            <p>With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. 
+            <p class="card-text">With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. 
                 Our innovative designs and attention to detail ensure your brand message stands out in any setting.</p>
 
             <div class="row g-4 cards-row">
@@ -267,7 +267,7 @@
     <section class="why-bg-light-pink py-5">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-4 mb-3 why-text-heading">Why Choose Us as<br>Your Signage Company</h2>
+                <h2 class="display-4 mb-3 why-text-heading">Why Choose Us as<br> Your Signage Company</h2>
                 <p class="card-text">Discover why we are the preferred choice for businesses seeking top-tier 
                     signage boards. Our commitment to quality, creativity, and timely delivery sets us apart 
                     in the industry.</p>
