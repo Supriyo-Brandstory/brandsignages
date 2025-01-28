@@ -291,8 +291,8 @@
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/safety-signages-15.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/safety-signages-15.webp')}}" class="img-fluid" alt="Fire safety signs"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/safety-signages-14f.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/safety-signages-14f.webp')}}" class="img-fluid" alt="Fire Extinguisher Signage"  style="width: 100%;">
                 </a>
             </div>
         </div>

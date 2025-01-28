@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     
-    <link rel="icon" href="https://brandsignages.com/frontend/Images/brandsignages-favicon.png" type="image/png">
+    <link rel="icon" href="https://brandsignages.com/frontend/Images/brandsignages-favicon.png" type="image/png" sizes="32x32">
 <link rel="shortcut icon" href="https://brandsignages.com/frontend/Images/brandsignages-favicon.png" type="image/x-icon">
 <link rel="apple-touch-icon" sizes="180x180" href="https://brandsignages.com/frontend/Images/brandsignages-favicon.png">
 
 
     {{-- <link rel="icon" href="{{asset('frontend/Images/brandsignages-favicon.png')}}" type="image/x-icon"> --}}
 {!!$seo->script ?? '<title>#1 Sign Board Manufacturer in Bangalore | Brand Signages</title>'!!}
-    
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
 
     <meta name="google-site-verification" content="k2zT6vzjGmv5Qj_C5YPVg4YbcQNoHooAF5smISxk2qA" />
 
@@ -165,9 +166,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('blogs')}}">Blog</a>
                     </li>
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item ms-3">
                         <a href="tel:8006606080">
                             <button class="contact-btn">Contact Us</button>
@@ -199,6 +200,10 @@
                     <h6 class="fw-bold">Contact Number</h6>
                     <p class="text-black"><a href="tel:8006606080" class="text-decoration-none text-black">+91
                             8006606080</a></p>
+                            <div class='d-flex justify-content-left' style="gap: 10px;">
+                                <a href="https://www.youtube.com/@BrandSignages" target="_blank"><i class="fab fa-youtube fa-2x" style="color: red;"></i></a>
+                                <a href="https://www.facebook.com/BrandSignagesIndia/" target="_blank"><i class="fab fa-facebook fa-2x" style="color: #1877F2;"></i></a>                              
+                            </div>
                 </div>
 
                 <div class="col-12 col-lg-4 col-md-6  mb-3 mb-lg-0">
