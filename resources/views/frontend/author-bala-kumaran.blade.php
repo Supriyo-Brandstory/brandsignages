@@ -115,7 +115,7 @@
     <div class="banner"></div>
     <div class="profile-info">
         <div class="profile-img">
-            <img src="{{asset('frontend/Images/1716045772217.jpg')}}" alt="Bala Kumaran">
+            <img src="{{asset('frontend/Images/1737357404181.jpg')}}" alt="Bala Kumaran">
         </div>
         <div class="profile-name">Manoj Kaliyannan</div>
         <div class="profile-location">Manoj Kaliyan is an experienced professional at Brand Signages, bringing his expertise in design, innovation, and customer-focused solutions to the company. With a deep understanding of the signage industry, Manoj plays a key role in helping businesses achieve their branding goals through high-quality, customized signage solutions.</div>
