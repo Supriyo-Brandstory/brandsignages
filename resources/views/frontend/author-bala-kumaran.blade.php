@@ -117,11 +117,11 @@
         <div class="profile-img">
             <img src="{{asset('frontend/Images/1716045772217.jpg')}}" alt="Bala Kumaran">
         </div>
-        <div class="profile-name">Bala Kumaran</div>
-        <div class="profile-location">Bala Kumaran is the visionary CEO of Brand Signages, leading the company in creating innovative and effective signage solutions for businesses. With years of experience in the industry, Bala has a deep understanding of how impactful signages can strengthen brand identity and improve customer engagement. Under his leadership, Brand Signages has become a trusted partner for businesses seeking to enhance their visibility and communication strategies.</div>
+        <div class="profile-name">Manoj Kaliyannan</div>
+        <div class="profile-location">Manoj Kaliyan is an experienced professional at Brand Signages, bringing his expertise in design, innovation, and customer-focused solutions to the company. With a deep understanding of the signage industry, Manoj plays a key role in helping businesses achieve their branding goals through high-quality, customized signage solutions.</div>
         
         <div class="profile-actions">
-            <a href="https://in.linkedin.com/in/balakumaran23" style="text-decoration: unset" class="btn btn-primary">view profile</a>
+            <a href="https://in.linkedin.com/in/manojkaliyannan" style="text-decoration: unset" class="btn btn-primary">view profile</a>
             <a href="mailto:sales@brandsignages.com" class="btn btn-secondary"  style="text-decoration: unset">Message</a>
         </div>
     </div>

@@ -10,7 +10,8 @@ Disallow: /private/
 Disallow: /tmp/
 
 # Allow all images (important for favicon visibility)
-Allow: /Images/
+Allow: /frontend/Images/
+Allow: /frontend/Images/brandsignages-favicon.png
 
 # Sitemap location
 Sitemap: https://www.brandsignages.com/sitemap.xml
