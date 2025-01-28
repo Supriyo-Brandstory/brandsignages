@@ -48,7 +48,7 @@
             <div class="col">
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/safety-signages-3.webp')}}" class="why-card-img-top"
-                        alt="Collection of Sizes">
+                        alt="Fire Safety Signage Boards">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Collection of Sizes</h3>
                         <p class="card-text">Make sure of the workspace security with standardized fire safety signage available in different sizes like A4, A3, A1, and many more. In case you require fire extinguisher signage, emergency exit door signs, or fire point signage, we offer all-inclusive solutions customized to fulfill your requirements. Our safety signs are outlined to improve presence and guarantee to abide by safety rules.</p>
@@ -58,7 +58,7 @@
             <div class="col">
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/safety-signages-4.webp')}}" class="why-card-img-top"
-                        alt="Multilingual Availability">
+                        alt="Fire Safety Signage Designs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Multilingual Availability</h3>
                         <p class="card-text">Serving multiple workplaces, we provide signs in several languages, comprising Telugu, Bengali, Hindi, and English. Be it the assembly point signs or the equipment signs, our collection of fire safety sign boards includes alternatives for all industries and environments. Deliberately laid exit signs, route signs, and action notices enhance clearance productivity and reduce risks during uncertainties.</p>
@@ -68,7 +68,7 @@
             <div class="col">
                     <div class="why-card card">
                         <img src="{{asset('frontend/Images/safety-signages-5.webp')}}" class="why-card-img-top"
-                            alt="Extensive Sign Selection">
+                            alt="Fire Extinguisher Signages">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Extensive Sign Selection</h3>
                             <p class="card-text">Our products also consist of prohibition signs, mandatory signs, and warning signs for particular dangers, together with double-sided signage boards for ultimate visibility. Centralize the situation of fire-fighting equipment like hose reels, dry risers, and ABC powder extinguishers with lucid and long-lasting extinguisher signs.</p>
@@ -78,7 +78,7 @@
             <div class="col">
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/safety-signages-6.webp')}}" class="why-card-img-top"
-                        alt="Easy to Install">
+                        alt="Fire Safety and Fire Extinguisher Signages">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Easy to Install</h3>
                         <p class="card-text">Outlined for simple installation, our safety signages foster safe circumstances, smoothen risk assessments, and improve your work environment’s evacuation plan. Fund in dependable, plurilingual fire safety signs to make sure of a shielded landscape for all.</p>
@@ -94,7 +94,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/safety-signages-3.webp')}}" class="why-card-img-top"
-                                    alt="Collection of Sizes">
+                                    alt="Fire Safety Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Collection of Sizes</h3>
                                     <p class="card-text">Make sure of the workspace security with standardized fire safety signage available in different sizes like A4, A3, A1, and many more. In case you require fire extinguisher signage, emergency exit door signs, or fire point signage, we offer all-inclusive solutions customized to fulfill your requirements. Our safety signs are outlined to improve presence and guarantee to abide by safety rules.</p>
@@ -104,7 +104,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/safety-signages-4.webp')}}" class="why-card-img-top"
-                                    alt="Multilingual Availability">
+                                    alt="Fire Safety Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Multilingual Availability</h3>
                                     <p class="card-text">Serving multiple workplaces, we provide signs in several languages, comprising Telugu, Bengali, Hindi, and English. Be it the assembly point signs or the equipment signs, our collection of fire safety sign boards includes alternatives for all industries and environments. Deliberately laid exit signs, route signs, and action notices enhance clearance productivity and reduce risks during uncertainties.</p>
@@ -114,7 +114,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/safety-signages-5.webp')}}" class="why-card-img-top"
-                                    alt="Extensive Sign Selection">
+                                    alt="Fire Extinguisher Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Extensive Sign Selection</h3>
                                     <p class="card-text">Our products also consist of prohibition signs, mandatory signs, and warning signs for particular dangers, together with double-sided signage boards for ultimate visibility. Centralize the situation of fire-fighting equipment like hose reels, dry risers, and ABC powder extinguishers with lucid and long-lasting extinguisher signs.</p>
@@ -128,7 +128,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/safety-signages-4.webp')}}" class="why-card-img-top"
-                                    alt="Multilingual Availability">
+                                    alt="Fire Safety and Fire Extinguisher Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Multilingual Availability</h3>
                                     <p class="card-text">Serving multiple workplaces, we provide signs in several languages, comprising Telugu, Bengali, Hindi, and English. Be it the assembly point signs or the equipment signs, our collection of fire safety sign boards includes alternatives for all industries and environments. Deliberately laid exit signs, route signs, and action notices enhance clearance productivity and reduce risks during uncertainties.</p>
@@ -138,7 +138,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/safety-signages-5.webp')}}" class="why-card-img-top"
-                                    alt="Extensive Sign Selection">
+                                    alt="Fire Safety Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Extensive Sign Selection</h3>
                                     <p class="card-text">Our products also consist of prohibition signs, mandatory signs, and warning signs for particular dangers, together with double-sided signage boards for ultimate visibility. Centralize the situation of fire-fighting equipment like hose reels, dry risers, and ABC powder extinguishers with lucid and long-lasting extinguisher signs.</p>
@@ -148,7 +148,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/safety-signages-6.webp')}}" class="why-card-img-top"
-                                    alt="Easy to Install">
+                                    alt="Fire Safety Signages">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Easy to Install</h3>
                                     <p class="card-text">Outlined for simple installation, our safety signages foster safe circumstances, smoothen risk assessments, and improve your work environment’s evacuation plan. Fund in dependable, plurilingual fire safety signs to make sure of a shielded landscape for all.</p>
@@ -189,7 +189,7 @@
 
         <div class="col-lg-4">
             <div class="image-container position-relative">
-                <img src="{{asset('frontend/Images/safety-signages-7.webp')}}" alt="Wide Range of Collection" class="w-100 h-100">
+                <img src="{{asset('frontend/Images/safety-signages-7.webp')}}" alt="Fire Safety Signs" class="w-100 h-100">
                 <div class="overlay">
                     <h5 class="text-title">Wide Range of Collection</h5>
                     <p class="text-content">When it's a matter of fire safety signage, opting for the perfect supplier is essential for your workspace's security. Our huge collection of fire extinguisher signage, emergency exit door signs, fire point signage, etc makes sure that you remain pliable with safety rules while rendering transparent, noticeable support during uncertainties.</p>
@@ -201,7 +201,7 @@
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/safety-signages-13.webp')}}" alt="Dual-sided Observability" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/safety-signages-13.webp')}}" alt="Fire Extinguisher Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Dual-sided Observability</h5>
                             <p class="text-content">We provide a diversity of safety signs consisting of exit signs, point signs, action notices, and route signs shaped to boost emergency clearance. Our double-sided signage boards and assembly point signs assist in enhancing observability, making them ideal for indoor as well as outdoor utilization.</p>
@@ -211,7 +211,7 @@
 
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/safety-signages-8.webp')}}" alt="Multilingual Alternatives" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/safety-signages-8.webp')}}" alt="Fire Safety Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Multilingual Alternatives</h5>
                             <p class="text-content">Our devotion to standards stretches to provide multiple choices of safety signages in several languages, including Telugu, Bengali, Hindi, and English. This permits us to fulfill the requirements of workstations with plurilingual staff.</p>
@@ -221,7 +221,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/safety-signages-9.webp')}}" alt="Extensive Product Range" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/safety-signages-9.webp')}}" alt="Fire Extinguisher Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Extensive Product Range</h5>
                             <p class="text-content">You can rely on us to buy fire-fighting equipment signage like hose reels, dry risers, and ABC powder extinguishers to ensure the appropriate device is easily attainable. Moreover, we offer all mandatory signs, warning signs, and prohibition signs that are critical for retaining a healthy landscape.</p>
@@ -231,7 +231,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/safety-signages-17.webp')}}" alt="Prompt Obtainability" class="w-100" style="height: 273px;">
+                        <img src="{{asset('frontend/Images/safety-signages-17.webp')}}" alt="Fire Safety Signs" class="w-100" style="height: 273px;">
                         <div class="overlay">
                             <h5 class="text-title">Prompt Obtainability</h5>
                             <p class="text-content">With the help of our products, you can execute an effective evacuation plan, guaranteeing safe conditions and being ready for emergencies with credibility. Shop with us immediately—stay safe, shop smart.</p>
@@ -250,7 +250,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/safety-signages-11.webp')}}" alt="Fire Safety Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/safety-signages-11.webp')}}" alt="Big Fire Safety Signage Board" class="img-fluid">
                 </div>
             </div>
 
@@ -276,22 +276,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/safety-signages-12.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/safety-signages-12.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-12.webp')}}" class="img-fluid" alt="Big Fire Safety Signage Board" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/safety-signages-13.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/safety-signages-13.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-13.webp')}}" class="img-fluid" alt="Fire Extinguisher Signage Board"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/safety-signages-14.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/safety-signages-14.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-14.webp')}}" class="img-fluid" alt="Fire Safety Signs"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/safety-signages-15.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/safety-signages-15.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-15.webp')}}" class="img-fluid" alt="Fire safety signs"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -300,22 +300,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/safety-signages-16.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/safety-signages-16.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-16.webp')}}" class="img-fluid" alt="Fire safety signs"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/safety-signages-17.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/safety-signages-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-17.webp')}}" class="img-fluid" alt="Fire safety signs"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/safety-signages-18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/safety-signages-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-18.webp')}}" class="img-fluid" alt="Fire safety signs"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/safety-signages-19.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/safety-signages-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/safety-signages-19.webp')}}" class="img-fluid" alt="Multilangual Fire safety signs"  style="width: 100%;">
                 </a>
             </div>
         </div>

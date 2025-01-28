@@ -5,7 +5,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/coffee-shop-menu.webp')}}" alt="Acrylic Signages">
+                <img src="{{asset('frontend/Images/coffee-shop-menu.webp')}}" alt="Acrylic Signage -Coffee Shop Menu">
                 <div class="carousel-caption-custom">
                     <h1>Premium Acrylic Sign Board Manufacturers in India</h1>
                     <button class="custom-btn">Know More</button>
@@ -23,7 +23,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/office2.webp')}}" alt="Acrylic Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/office2.webp')}}" alt="Acrylic Signage Design for Office" class="img-fluid">
                 </div>
             </div>
 
@@ -514,7 +514,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/acrylic-led-signages1.webp')}}" alt="Acrylic Led Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/acrylic-led-signages1.webp')}}" alt="Acrylic Led Signages Design" class="img-fluid">
                 </div>
             </div>
 
