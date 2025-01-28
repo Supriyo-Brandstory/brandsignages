@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/safety-signages-1.webp')}}" alt="Bestseller Fire Safety Signages">
                 <div class="carousel-caption-custom">
-                    <h1>Bestseller Fire Safety Signages</h1>
+                    <h1>Fire Safety & Fire Extinguisher Signs Manufacturer</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -17,7 +17,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Significance of Fire Safety Signage</h2>
+        <h2 class="hero-title">Bestseller Fire Safety & Fire Extinguisher Signs</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -28,11 +28,12 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Fire safety signage is critical in guaranteeing workspace security and alleviating risks during urgent situations. Easy-to-understand safety signs help workers and visitors, boosting efficient clearance and minimizing disorder. Well-positioned emergency exit door signs, fire safety sign boards, and fire extinguisher signage lead people toward escape routes, assembly points, and safe conditions, retaining precious time during problematic circumstances.</p>
+                Fire safety signage is critical in guaranteeing workspace security and alleviating risks during urgent situations. Well-positioned emergency exit door signs, fire safety sign boards, and fire extinguisher signage lead people toward escape routes, assembly points, and safe conditions, retaining precious time during problematic circumstances. As a leading manufacturer 
+                of fire safety and fire extinguisher signs, we understand the importance of ensuring safety in every workspace.</p>
                 <p class="brand-description">
-                    In abiding with legal norms, safety signs like action signs, warning signs, and equipment signs improve readiness by spotlighting the situation of fire-fighting equipment such as hose reels, dry risers, and ABC powder extinguishers. Moreover, fire point signage and prohibition signs assist in averting exploitation and guarantee security protocols are adhered to.
-                    An efficient evacuation strategy depends on judicially positioned exit signs, double-sided assembly point signs, and route signs that make sure of its presence from all sides. Composing mandatory signs and emergency sign boards in your workspace promotes a culture of security while clinging to risk assessment and safety training needs.
-                    By amalgamating extensive safety equipment and signage boards businesses not only save lives but also illustrate dedication to workstation security and legal abidance.</p>
+                In compliance with legal requirements, our safety signs, including action signs, warning signs, fire extinguisher signs, and equipment signs, enhance preparedness by highlighting the location of vital fire-fighting equipment. Additionally, fire point signage and prohibition signs help prevent misuse and ensure security protocols are followed. Properly designed fire exit
+                 signs play a crucial role in facilitating efficient evacuations, ensuring visibility from all directions. As one of the leading fire safety and fire extinguisher signs manufacturers, we help businesses foster a culture of safety while strictly adhering to risk assessment and safety standards. 
+                </p>
             </div>
         </div>
     </div>
@@ -245,7 +246,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Best Fire Extinguisher Signage</h2>
+        <h2 class="hero-title">Easy-to-Install Fire Safety Signs</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -256,11 +257,11 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    When it's a matter of fire safety, fire extinguisher signage is indispensable in each building. These signs are essential for helping individuals to the exact location of fire-fighting devices during an uncertainty. Well-outlined fire safety signage, comprising extinguisher signs and fire point signage, guarantees that fire safety equipment is effortlessly recognizable and obtainable.</p>
+                At Brand Signages, we understand that when it comes to fire safety, fire extinguisher signage is indispensable in every building. Our high-quality signage solutions are designed to guide individuals directly to fire-fighting devices during times of uncertainty. Well-crafted fire safety signage, including extinguisher signs and fire point signage, ensures that fire safety equipment is easily recognizable and accessible.</p>
                 <p class="brand-description">
-                    The ideal fire extinguisher sign boards are lucid, long-lasting, and extremely presented near fire extinguishers. They cater as action signs, assisting people immediately detect fire-fighting equipment such as ABC powder extinguishers and hose reels. These signs must be positioned on the same side as other safety signs, like emergency exit door signs and clearance path signs, to help people effectively at the time of an emergency evacuation.</p>
+                We manufacture fire extinguisher sign boards that are clear, durable, and strategically placed near fire extinguishers. These signs serve as action signs, helping individuals quickly identify fire-fighting equipment such as ABC powder extinguishers and hose reels. To ensure effective emergency evacuation, these signs are positioned alongside other essential safety signs like emergency exit door signs and clearance path signs.</p>
                 <p class="brand-description">
-                    Whether single-sided or double-sided, fire extinguisher signage must be seamlessly seen from divergent angles, subsequently,  make sure that the signage abides by legal necessities and safety norms, comprising transparent directives for emergency exits, assembly points, and escape paths. Periodic risk evaluations must be done to make sure that fire safety signages are the latest, comprising evacuation schemes, extinguisher signs, and assembly point signs. Security equipment signs must always be in the best state, making the building a secure landscape for all inside.</p>
+                Whether single-sided or double-sided, our fire extinguisher signage is designed for maximum visibility from various angles. We ensure that all signage meets legal requirements and safety standards, providing clear instructions for emergency exits, assembly points, and escape routes. Regular risk evaluations are crucial to maintaining up-to-date signage, including evacuation plans, extinguisher signs, and assembly point markers. At Brand Signages, we are committed to keeping safety equipment signage in top condition, ensuring that your building remains a secure environment for everyone inside.</p>
             </div>
         </div>
     </div>
