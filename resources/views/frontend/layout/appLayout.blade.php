@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     
-    <link rel="icon" href="https://brandsignages.com/frontend/Images/brandsignages-favicon.png" type="image/png" sizes="32x32">
-<link rel="shortcut icon" href="https://brandsignages.com/frontend/Images/brandsignages-favicon.png" type="image/x-icon">
-<link rel="apple-touch-icon" sizes="180x180" href="https://brandsignages.com/frontend/Images/brandsignages-favicon.png">
+    <link rel="icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
+<link rel="shortcut icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="{{asset('favicon.ico')}}">
 
 
     {{-- <link rel="icon" href="{{asset('frontend/Images/brandsignages-favicon.png')}}" type="image/x-icon"> --}}
