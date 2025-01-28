@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Slide 1">
                 <div class="carousel-caption-custom">
-                    <h1>Custom Led Neon Signs Online</h1>
+                    <h1>Best Neon Sign Manufacturers for Custom Signages</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -27,13 +27,13 @@
             
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Planning to decorate your personal or professional space with trendy and stylish neon signs?  Amidst multiple neon sign manufacturers around us, it might be difficult for you to select the best option. However, considering the wide range of exquisite and durable neon lights it offers, homeowners and businesses often consider Brand Signage as the most reliable destination for custom-made neon lights.</p>
+                Planning to decorate your personal or professional space with trendy and stylish neon signs?  With so many options available, choosing the right neon sign manufacturer can be challenging. That’s where Brand Signages stands out as a trusted name, offering a wide range of exquisite and durable neon lights. Top businesses rely on us for custom-made neon signs that perfectly combine quality and style.</p>
                 <p class="brand-description">
-                    We, being a leading neon sign manufacturing company, offer exquisite neon signs for your shop, office, bedroom, or other spaces. While making the signs, our experts pay close attention to your needs and preferences. Thus, keeping our customers’ satisfaction a priority, we ensure to provide top-notch neon signs that can create your dream ambience with their dramatic and glowing appearance.</p>
+                As a leading neon sign manufacturing company, Brand Signages offers exquisite neon signs for retail, office, and other spaces. Our experts pay close attention to your needs and preferences when making the signs. Thus, keeping our customers’ satisfaction a priority, we ensure that we provide top-notch neon signs that can create your dream ambiance with their dramatic and glowing appearance.</p>
                 <p class="brand-description">
                     Whether it is neon signs for shops, and offices or neon lights for bedrooms, our every product undergoes detailed quality checks and thus we provide best-in-class neon signs for you. Being made of the highest-quality material, our neon signs can be used for diverse purposes including advertising, decoration, gifting, warning signs, etc. The artistic design curved on them and their illuminated aura make them a go-to signage option for you.</p>
                 <p class="brand-description">
-                    Get quality neon signs crafted according to your individual preferences from Brand Signage and enliven your space effortlessly.</p>
+                Whether it is neon signs for shops and offices, our every product undergoes detailed quality checks and thus we provide best-in-class neon signs for you. Being made of the highest-quality material, our neon signs can be used for diverse purposes including advertising, decoration, gifting, etc. Get quality neon signs crafted according to your individual preferences from Brand Signage and enliven your space effortlessly.</p>
             </div>
         </div>
     </div>
@@ -228,7 +228,7 @@
             <div class="col-lg-6 order-2 order-lg-1">
 
                 <p class="brand-description">
-                    Using neon signs at indoor places does not cause stress like doing that for outdoor events. The reason is that the lights and signs that are used in outdoor events need to be weather-resistant. They must be durable and waterproof so that they are not affected by rain, storms, dust and heat. Additionally, they must be resistant to the temperature fluctuations in the atmosphere. We, at Brand Signage, besides crafting neon signs for rooms, produce suitable neon lights and signs for outdoor events, parties and festive occasions. So, do not compromise with the ambience anymore due to the lack of outdoor-friendly neon lights and signs.</p>
+                Using neon signs at indoor places does not cause stress like using them for outdoor events. The reason is that the lights and signs used in outdoor events need to be weather-resistant. They must be durable and waterproof to withstand rain, storms, dust, and heat. At Brand Signages, we specialize in crafting high-quality, weather-resistant neon signs that are perfect for outdoor use. Our durable and waterproof designs ensure long-lasting performance, making them a reliable choice for all your outdoor events and installations.</p>
              
             </div>
 
