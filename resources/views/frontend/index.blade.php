@@ -129,7 +129,7 @@
     <section>
         <div class="container my-5">
             <h2 class="text-center mb-5 card-heading">We are a Leading Brand Signage <br>Board Manufacturer in Bangalore, India</h2>
-            <p class="card-text">With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. 
+            <p class="card-text text-center">With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. 
                 Our innovative designs and attention to detail ensure your brand message stands out in any setting.</p>
 
             <div class="row g-4 cards-row">
