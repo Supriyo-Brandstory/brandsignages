@@ -61,7 +61,7 @@
 
                     <ul class="process-list">
                         <li>
-                            The manufacturing process for branded signages begins with conceptualisation. Our designers
+                            The manufacturing process for branded signages begins with conceptualisation. Our signage board makers
                             will collaborate closely with you to understand the company's essence, target audience, and
                             communication objectives.
                         </li>
@@ -95,7 +95,7 @@
                             <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
                         </div>
                         <h3>On-demand Design</h3>
-                        <p>Our creative sign board manufacturer team provides flexible, personalized brand signage
+                        <p>Our creative sign board manufacturer in Bangalore team provides flexible, personalized brand signage
                             manufacturing services, transforming your conceptual ideas into compelling visual narratives
                             for market positioning.</p>
                     </div>
@@ -904,6 +904,67 @@
                         and complimentary consultation. It is our goal to not compromise on quality and extend a
                         competitive pricing guarantee.</p>
                 </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can you install signage boards at my location in Bangalore?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, we provide signage board installation services in Bangalore and all over India. When you 
+                        order from us, you can expect:</p>
+                        <ul>
+                        <li>High-Quality Signage: We use durable, premium materials</li>
+                        <li>Customized Designs: We understand your brand's unique needs</li>
+                        <li>Timely Installation: We guarantee prompt and efficient installation</li>
+                        <li>Expert Team: We handle the entire process, from design to manufacturing</li>
+                        <li>Nationwide Reach: We provide coverage for signage installation services</li>
+                        <li>Affordable Pricing: Competitive rates without compromising on quality</li>
+                    </ul>
+                </div>
+            </div>   
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can I request a sample before placing a bulk order for signage boards?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, you can definitely order a single piece as a sample before placing a bulk order. 
+                        This allows you to evaluate the quality, design, and material of the signage boards 
+                        firsthand. We want you to be completely satisfied with your choice, so feel free to 
+                        request a sample to ensure it meets your expectations before making a larger 
+                        commitment.</p>
+                </div>
+            </div>   
+            
+            <div class="faq-item">
+                <button class="faq-question">
+                    How long does it take to manufacture and deliver a signage board?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>It takes almost 7-10 business days to deliver signage. After you 
+                        finalize the design and material, we’ll proceed with manufacturing 
+                        and delivery of the signages. We ensure a hassle-free experience during the 
+                        entire process. </p>
+                </div>
+            </div>
+                
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can you create signage for events and exhibitions in Bangalore?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, we also create signage for events and exhibitions in Bangalore. Whether it’s 
+                        directional signage, banners, stands, or branded displays, we offer a range of options. 
+                        We are a leading signage manufacturer in Bangalore & India to help you with any type of 
+                        custom signage solutions. </p>
+                </div>
+            </div>
+
             </div>
         </div>
     </section>
