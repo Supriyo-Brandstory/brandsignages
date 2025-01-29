@@ -30,15 +30,14 @@
                 <p class="brand-description">
                     Regardless of the industry, an office is more than just a workspace—it serves as a second home for employees and a key touchpoint for clients and 
                     business associates. A well-maintained, clean, and professionally designed office environment enhances productivity and leaves a lasting impression. 
-                    One crucial element that contributes to this experience is office signboards. Thoughtfully designed signages not only improve navigation but also 
-                    strengthen brand identity of a workpalce.
+                    One crucial element that contributes to this experience is office signboards.
                     <br>
                     At Brand Signages, we specialize in designing sophisticated, durable, and brand-aligned office signages that reflect your business identity. Whether 
                     it’s a office reception sign board, directional board, office nameplates, or meeting room plaque, we ensure that every sign seamlessly reflect aesthetics 
                     of your office. Our expert team focuses on high-quality materials and precision design to create signboards that enhance your office’s ambiance.
                 </p>
                 <p class="brand-description">
-                    \We know that every business has its unique branding needs. That’s why our corporate signage solutions are fully customizable to match your company’s identity. 
+                    We know that every business has its unique branding needs. That’s why our corporate signage solutions are fully customizable to match your company’s identity. 
                     From logo signs that reinforce brand recognition to informational boards that improve workflow, our tailored approach ensures that your office signages serve both 
                     aesthetic and practical purposes.
                 </p>

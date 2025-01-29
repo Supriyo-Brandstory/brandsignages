@@ -433,12 +433,12 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/neon-sign111.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/neon-sign111.webp')}}" class="img-fluid" alt="Neon sign board Bangalore" style="width: 100%;">
+                <img src="{{asset('frontend/Images/neon-sign111(2).webp')}}" class="img-fluid" alt="Neon sign board Bangalore" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/neon-sign112.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/neon-sign112.webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/neon-sign112(1).webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
@@ -447,8 +447,8 @@
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/neon-sign113.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/neon-sign113.webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/neon-signs113.webp')}}" data-lightbox="catalogue" data-title="Image 4">
+                <img src="{{asset('frontend/Images/neon-signs113(1).webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -457,12 +457,12 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/neon-signs114.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/neon-signs114.webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/neon-signs114(1).webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/neon-signs115.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/neon-signs115.webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/neon-signs115(1).webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
