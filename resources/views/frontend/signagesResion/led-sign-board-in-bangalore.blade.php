@@ -5,7 +5,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/led-sign-1.webp')}}" alt="LED Sign Board Manufacturer in Bangalore">
+                <img src="{{asset('frontend/Images/new/led-sign-1.webp')}}" alt="LED Sign Board">
                 <div class="carousel-caption-custom">
                     <h1>LED Sign Board Manufacturer in Bangalore</h1>
                     <button class="custom-btn">Know More</button>
@@ -17,22 +17,22 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Elevate Your Brand with Custom <br>LED Sign Board Bangalore</h2>
+        <h2 class="hero-title">Elevate Your Brand with Custom <br>LED Sign Boards</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/led-sign-2.webp')}}" alt="Fire Safety Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/led-sign-2.webp')}}" alt="LED Sign Board" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Stand aloof in the combative market with standardized-quality LED sign boards in Bangalore.  We emphasize designing extraordinary LED signage solutions personalized to your organization’s requirements. From acrylic LED sign boards to brass letters and stainless steel signage, we make sure your brand gets the observability it is qualified for. </p>
+                    Make your branding stand out with premium-quality LED sign boards in Bangalore.  We emphasize designing extraordinary LED signage solutions personalized to your organization’s requirements. From acrylic LED sign boards to brass letters and stainless steel signage, we make sure your brand gets the observability it is qualified for. </p>
                 <p class="brand-description">
-                    Our LED display boards in Bangalore integrate modern technology and striking designs to formulate influential signage. Whether you require a glow sign board for outdoor branding or a luxurious acrylic sign board for your place, we offer solutions that line up with your dreams. Our skillfulness also comprises SS letters, steel letters, and spectra sign systems, ensuring lifelong resistance and unparalleled beauty.  </p>
-                    <p class="brand-description">As reliable sign board manufacturers, we concentrate on standards and creativity. Every LED light sign board is tailored to exhibit your brand's recognition while guaranteeing energy saving and reasonability. With our display boards and signage boards, your enterprise can attain a matchless presence, day or night.  <br>
-                        Opt for Brand Signages for your signage requirements and experience the ideal mix of operationality, sophistication, and longevity. Let us help you generate a permanent impact with top-quality LED signs in Bangalore. Brighten up your brand soon!
+                    Our LED display boards in Bangalore integrate modern technology and striking designs to formulate influential signage. Whether you require a glow sign board for outdoor branding or a luxurious acrylic sign board for your place, we offer solutions that line up with your dreams. Our skillfulness on LED technology comprises neon backlit signs, digital LED signs, LED glow signs, ensuring lifelong resistance and unparalleled beauty.  </p>
+                    <p class="brand-description">As a premier LED sign board manufacturer in Bangalore, Domlur, we concentrate on designing and producing high-quality, visually striking, and durable signage solutions. Every LED light sign board is tailored to exhibit your brand's recognition while guaranteeing energy saving and reasonability. With our display boards and signage boards, your enterprise can attain a matchless presence, day or night.  <br>
+                        Opt for Brand Signages for your signage requirements and experience the ideal mix of operationality, sophistication, and longevity. Let us help you generate a permanent impact with top-quality LED signs. Brighten up your brand soon!
                     </p>
             </div>
         </div>
@@ -43,7 +43,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for LED Sign Boards</h2>
-            <p class="card-text text-center">When it's a matter of LED sign boards in Bangalore, we are your dependable associate for superior-quality, endurable, and inventive signage solutions. Here’s why organizations opt for us:As a prominent signboard manufacturer, we provide everything from brass letters to spectra sign systems, rendering an extensive array of alternatives. Select us for LED signage boards that merge usefulness, luxury, and persistence, making your brand illuminate beamingly.  </p>
+            <p class="card-text text-center">When it's a matter of LED sign boards in Bangalore, we are your dependable associate for superior-quality, endurable, and inventive signage solutions. Here’s why organizations opt for us:As a prominent signboard manufacturer, we provide everything from acrylic letter signs to digital LED signs, rendering an extensive array of alternatives. Select us for LED signage boards that merge usefulness, luxury, and persistence, making your brand illuminate beamingly.  </p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -53,7 +53,7 @@
                     <img src="{{asset('frontend/Images/new/led-sign-3.webp')}}" class="why-card-img-top" alt="Premium Quality LEDs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Premium Quality LEDs</h3>
-                        <p class="card-text">Our LED signs in Bangalore are shaped by progressive technology and the best substances, comprising acrylic LED signs, stainless steel, and SS letters. Whether you require a polished display board or a noticeable glow sign board, we supply unique quality that improves your brand’s observability.</p>
+                        <p class="card-text">Our LED signs are shaped by progressive technology and the best substances, comprising LED glow signs, digital LED signs, and acrylic LED signs. Whether you require a polished display board or a noticeable glow sign board, we supply unique quality that improves your brand’s observability.</p>
                     </div>
                 </div>
             </div>
@@ -85,10 +85,10 @@
                        
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-sign-3.webp')}}" class="why-card-img-top" alt="Premium Quality LEDs">
+                                <img src="{{asset('frontend/Images/new/led-sign-3.webp')}}" class="why-card-img-top" alt="Premium Quality LED Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Premium Quality LEDs</h3>
-                                    <p class="card-text">Our LED signs in Bangalore are shaped by progressive technology and the best substances, comprising acrylic LED signs, stainless steel, and SS letters. Whether you require a polished display board or a noticeable glow sign board, we supply unique quality that improves your brand’s observability.</p>
+                                    <p class="card-text">Our LED signs in Bangalore are shaped by progressive technology and the best substances, comprising acrylic LED signs, LED glow signs, and digital LED signs. Whether you require a polished display board or a noticeable glow sign board, we supply unique quality that improves your brand’s observability.</p>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@
                                 <img src="{{asset('frontend/Images/new/led-sign-4.webp')}}" class="why-card-img-top" alt="2-Year Warranty">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">2-Year Warranty</h3>
-                                    <p class="card-text">2-Year WarrantyWe back up our products with a 2-year warranty, providing you with mental peace. From LED display boards to acrylic sign boards, our signage boards are made to persist, warranting long-run worth for your capital.</p>
+                                    <p class="card-text">2-Year WarrantyWe back up our products with a 2-year warranty, providing you with mental peace. From LED display boards to acrylic LED sign boards, our signage boards are made to persist, warranting long-run worth for your capital.</p>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                         <img src="{{asset('frontend/Images/new/led-sign-9.webp')}}" alt="Acrylic LED Backlit Boards" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Acrylic LED Backlit Boards</h5>
-                            <p class="text-content">Our acrylic LED backlit boards offer a polished, fashionable alternative for indoor as well as outdoor usage. These acrylic LED sign boards are adaptable with alternatives such as brass letters or steel letters, guaranteeing your sign suits your brand’s approach.</p>
+                            <p class="text-content">Our acrylic LED backlit boards offer a polished, fashionable alternative for indoor as well as outdoor usage. These acrylic LED sign boards are adaptable with alternatives such as digital LED or neon backlit boards, guaranteeing your sign suits your brand’s approach.</p>
                         </div>
                     </div>
                 </div>
@@ -194,22 +194,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-sign-25.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-25.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-sign-25.webp')}}" class="img-fluid" alt="LED sign board manufacturers in Bangalore" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-sign-18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-sign-18.webp')}}" class="img-fluid" alt="LED sign board manufacturers in Domlur"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-sign-19.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-sign-19.webp')}}" class="img-fluid" alt="LED sign board manufacturers in Bangalore"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-sign-20.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-sign-20.webp')}}" class="img-fluid" alt="Electronic name board in Bangalore"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -218,22 +218,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-sign-21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-sign-21.webp')}}" class="img-fluid" alt="LED sign board manufacturers in Domlur"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-sign-22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-sign-22.webp')}}" class="img-fluid" alt="LED sign board manufacturers in Bangalore"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-sign-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-sign-23.webp')}}" class="img-fluid" alt="LED sign board manufacturers in Bangalore"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-sign-24.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-sign-24.webp')}}" class="img-fluid" alt="Electronic name board in Bangalore"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -322,7 +322,7 @@
                         <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">The LED sign boards which we bought for our enterprise are high-standard. The stainless steel coating and spectra sign systems are endurable and fashionable. Ideal selection for any organization!</p>
+                        <p class="card-text testimonial-card-text">The LED sign boards which we bought for our enterprise are high-standard. The stainless steel coating is endurable and fashionable. Ideal selection for any organization!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
                             <img src="{{asset('frontend/Images/new/led-sign-16.webp')}}" alt="Sushant M" class="client-img">

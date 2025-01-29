@@ -18,7 +18,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Custom Neon Signs Bangalore - Neon Light Signs</h2>
+        <h2 class="hero-title">Custom Neon Signs Bangalore - Neon Signs Boards</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -29,12 +29,17 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Modify your place with high-spirited and spectacular custom neon signs in Bangalore. Whether for a corporate office, café, or home decor, our neon signs in Bangalore add a unique charm to any setting.  At Brand Signages, we emphasize outlining and rendering standardized neon sign boards customized to your requirements. From bold outdoor neon signs to glossy led acrylic boards, we offer solutions that improve your branding and decor. Our glow sign boards and LED neon signs are ideal for enterprises looking for observability and fashion.
+                    
+                    Modify your space with high-spirited and spectacular custom neon signs in Bangalore. Whether it’s for a corporate office, cafe, or retail store, our neon signs bring a 
+                    unique charm to any setting. Designed to captivate and enhance visibility, our vibrant signage solutions ensure that your brand or personal space stands out. At Brand Signages, 
+                    we specialize in designing and manufacturing high-quality, customized neon light signboards designed to your exact needs. From outdoor neon signs to sleek acrylic neon boards, 
+                    our solutions enhance both branding and decor. Our neon glow signboards are perfect for businesses looking to make a statement with eye-catching, fashionable, and durable signage.
                 </p>  
                 <p class="brand-description">
-                    Our neon lights are energy-saving, and resistant, and come in several colors and patterns. Opt from acrylic LED boards, glow signage boards, or custom neon designs for a tailored feel. Whether you require single pieces or bulk orders, we fulfill all needs.  Perfect for indoor as well as outdoor usage, our neon LED signs and LED sign boards are formed to bear the components while upkeep their excellence. Let our neon light signs produce a perpetual impact on your brand or private place.
+                    Our neon lights are not just visually appealing but also energy-efficient, long-lasting, and available in a variety of colors and design patterns. Choose from acrylic neon boards, 
+                    neon glow signage boards, or custom neon designs to achieve the perfect look for your brand. Whether you need a single sign or bulk orders, we cater to all requirements with precision and excellence.
                     <br>
-                    Enhance your signage with the ideal unity of fashion and operationality. Rely on Brand Signages for the best neon signs in Bangalore and signage boards that glow brilliantly!
+                    Enhance your signage with the perfect blend of style and functionality. Trust Brand Signages for the best neon sign boards in Bangalore and signage boards that shine brilliantly!
                 </p>
             </div>
         </div>
@@ -45,7 +50,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for Neon Light Signs</h2>
-            <p class="card-text text-center">Select us for inventive neon sign boards that unite energy saving, longevity, and assured class. Our solutions comprise everything from <br> glow sign boards to LED sign boards, personalized to fulfill your particular requirements. Whether it’s a corporate office, retail store, or <br> private place, our neon light signs are the ideal preference for generating permanent influences.</p>
+            <p class="card-text text-center">We are among the best neon sign board makers in Bangalore. Our solutions comprise everything from <br> glow sign boards to acrylic neon sign boards, personalized to fulfill your particular requirements. Whether it’s a corporate office, retail store, or <br> private place, our neon light signs are the ideal preference for generating permanent influences.</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -427,23 +432,23 @@
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/neonsign-bangalore16.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/neonsign-bangalore16.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <a href="{{asset('frontend/Images/neon-sign111.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/neon-sign111.webp')}}" class="img-fluid" alt="Neon sign board Bangalore" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/neonsign-bangalore17.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/neonsign-bangalore17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/neon-sign112.webp')}}" data-lightbox="catalogue" data-title="Image 2">
+                <img src="{{asset('frontend/Images/neon-sign112.webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/neonsign-bangalore18.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/neonsign-bangalore18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/neonsign-bangalore18.webp')}}" class="img-fluid" alt="neon sign board Nangalore"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/neonsign-bangalore19.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/neonsign-bangalore19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/neon-sign113.webp')}}" data-lightbox="catalogue" data-title="Image 4">
+                <img src="{{asset('frontend/Images/neon-sign113.webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -451,23 +456,23 @@
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/neonsign-bangalore20.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/neonsign-bangalore20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/neon-signs114.webp')}}" data-lightbox="catalogue" data-title="Image 5">
+                <img src="{{asset('frontend/Images/neon-signs114.webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/neonsign-bangalore21.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/neonsign-bangalore21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/neon-signs115.webp')}}" data-lightbox="catalogue" data-title="Image 6">
+                <img src="{{asset('frontend/Images/neon-signs115.webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/neonsign-bangalore22.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/neonsign-bangalore22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/neonsign-bangalore22.webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/neonsign-bangalore23.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/neonsign-bangalore23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/neonsign-bangalore23.webp')}}" class="img-fluid" alt="neon sign board Bangalore"  style="width: 100%;">
                 </a>
             </div>
         </div>

@@ -28,13 +28,20 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Regardless of the industry, the office plays a crucial role in everyone’s life. In other words, our offices are our second homes. Therefore, keeping the office clean, well-maintained and easy to navigate for employees, clients, and other business associates becomes a primary concern. Nonetheless, along with many other essential elements, placing office signage boards wherever required can help in this matter.
+                    Regardless of the industry, an office is more than just a workspace—it serves as a second home for employees and a key touchpoint for clients and 
+                    business associates. A well-maintained, clean, and professionally designed office environment enhances productivity and leaves a lasting impression. 
+                    One crucial element that contributes to this experience is office signboards. Thoughtfully designed signages not only improve navigation but also 
+                    strengthen brand identity of a workpalce.
                     <br>
-                    Now, the question is, whom should you rely upon to craft office signboards that are sophisticated and durable and aligned with your business vision?
-                    Trust someone who knows how to create signages for the office maintaining the specific brand’s identity in the sign boards. In this context, businesses can surely trust the name Brand Signage. We, at Brand Signage, craft excellent office signages that create a coveted, welcoming atmosphere within the workplace. The materials we use, the processes our experts apply, and the team we work with are always made suitable to your specific needs.
+                    At Brand Signages, we specialize in designing sophisticated, durable, and brand-aligned office signages that reflect your business identity. Whether 
+                    it’s a office reception sign board, directional board, office nameplates, or meeting room plaque, we ensure that every sign seamlessly reflect aesthetics 
+                    of your office. Our expert team focuses on high-quality materials and precision design to create signboards that enhance your office’s ambiance.
                 </p>
                 <p class="brand-description">
-                    With customizable and durable business signs offered by Brand Signage, create a best-in-class professional image of your office in your delegates’ minds!</p>
+                    \We know that every business has its unique branding needs. That’s why our corporate signage solutions are fully customizable to match your company’s identity. 
+                    From logo signs that reinforce brand recognition to informational boards that improve workflow, our tailored approach ensures that your office signages serve both 
+                    aesthetic and practical purposes.
+                </p>
                
             </div>
         </div>
@@ -193,7 +200,7 @@
     <div class="row g-4 d-flex flex-wrap justify-content-center">
 
         <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">Your Guide to Perfect Outdoor Signage Boards</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Types of Office Sign Boards We Make</h2>
            
         </div>
 
@@ -214,7 +221,7 @@
                         <img src="{{asset('frontend/Images/office-signage8.webp')}}" alt="Reception signage" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Reception signage</h5>
-                            <p class="text-content">Your office reception is where people who are arrived at your office, encounter the brand for the first time. So, keeping impressive signage out there helps your business brand stand out from the crowd.</p>
+                            <p class="text-content">Your office reception is where people who are arrived at your office, recognizes the brand for the first time. So, keeping impressive office reception sign board out there helps your business brand stand out.</p>
                         </div>
                     </div>
                 </div>
