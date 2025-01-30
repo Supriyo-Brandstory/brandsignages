@@ -188,6 +188,10 @@ h1.hero-title.mb-1 {
         });
     });
 </script>
+<style>
+     img{
+    max-width: 100%;
+}</style>
 
 
 @endsection
