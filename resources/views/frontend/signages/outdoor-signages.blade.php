@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/outdoor-signage.webp')}}" alt="Outdoor Signages">
                 <div class="carousel-caption-custom">
-                    <h1>Outdoor Signage Boards That Capture Attention</h1>
+                    <h1>Outdoor Signage Manufacturer Company in India</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -87,11 +87,11 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Explore Outdoor Board Signs by <br> Use Type</h2>
-            <p class="card-text text-center">With key elements like bright colours, strong LED lights, easy-to-read
-                and dynamic texts, 3D designs, motion graphics and so on, outdoor <br> signage boards can impress
-                audiences on the road instantly. Here are some of the different types of outdoor signs that
-                businesses can <br> use according to their business nature and goals.</p>
+            <h2 class="display-4 mb-3 why-text-heading">Our Outdoor Signage <br> Collection</h2>
+            <p class="card-text text-center">With key elements like bright colours, strong LED lights, easy-to-read and dynamic texts, 
+                3D designs, motion graphics and so on, outdoor <br>signage boards are designed to grab attention instantly. At Brand Signages, 
+                we are among the top outdoor signage companines in India. We offer <br>a wide range of outdoor signage solutions that help elevate 
+                your brand visibility. Explore our diverse collection of outdoor signs:</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -100,10 +100,9 @@
                     <img src="{{asset('frontend/Images/outdoor-signage4.webp')}}" class="why-card-img-top" alt="Freestanding Outdoor Signs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Freestanding Outdoor Signs</h3>
-                        <p class="card-text">A freestanding sign, anchored directly to the ground without being
+                        <p class="card-text">Freestanding signs anchored directly to the ground without being
                             attached to any building or establishment, comes in different forms like pylon or pole
-                            signs, monoliths, and monuments. Pylons can be seen at a great height, whereas monoliths
-                            are closed box structures and monuments.</p>
+                            signs, monoliths, and monuments. We make creative freestanding outdoor signs designed to suit your branding needs.</p>
                     </div>
                 </div>
             </div>
@@ -125,7 +124,7 @@
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Illuminated Outdoor Signage</h3>
                         <p class="card-text">With attractive LED lights attached to the signages, the visibility of
-                            the signages can be doubled. The illuminated boards comprise neon, LED or other
+                            the signages can be doubled. Our custom illuminated boards comprise neon, LED or other
                             fluorescent lights and deliver maximum impact even in a busy area.</p>
                     </div>
                 </div>
@@ -148,8 +147,8 @@
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Vinel Shop Front Signs</h3>
                         <p class="card-text">Also known as fascia, a shopfront sign is a type of highly visible
-                            outdoor business signage. By appearing at the front side of a business premise, this
-                            signboard at outdoor promotes services, events and special offers.</p>
+                            outdoor business signage. Outdoor sign boards from Brand Signages, help promote your 
+                            services, events, and special offers, effectively attracting attention and boosting visibility.</p>
                     </div>
                 </div>
             </div>
@@ -179,10 +178,9 @@
                                     <h3 class="why-text-red mb-3">Freestanding Outdoor Signs</h3>
                                     <p class="card-text">A freestanding sign, anchored directly to the ground
                                         without being attached to any building or establishment, comes in different
-                                        forms like pylon or pole signs, monoliths, and monuments. Pylons can be seen
-                                        at a great height, whereas monoliths are closed box structures and monuments
-                                        are often known for little or no open space between the signage and the
-                                        ground.</p>
+                                        forms like pylon or pole signs, monoliths, and monuments. We make creative freestanding 
+                                        outdoor signs designed to suit your branding needs.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -235,9 +233,8 @@
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Vinel Shop Front Signs</h3>
                                     <p class="card-text">Also known as fascia, a shopfront sign is a type of highly
-                                        visible outdoor business signage. By appearing at the front side of a
-                                        business premise, this signboard at outdoor promotes services, events and
-                                        special offers.</p>
+                                        visible outdoor business signage. Outdoor sign boards from Brand Signages, help promote your 
+                                        services, events, and special offers, effectively attracting attention and boosting visibility.</p>
                                 </div>
                             </div>
                         </div>
@@ -658,6 +655,33 @@
                     lighting attached to the board.</p>
             </div>
         </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What are the benefits of using outdoor signage boards for my business?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Outdoor signage boards are designed to enhance your brand visibility, attract attention, 
+                    and communicate your message effectively. They are durable, weather-resistant, and customizable to match your 
+                    branding needs. These signs help promote services, events, and special offers, drawing more foot traffic and 
+                    increasing customer engagement.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                How long do outdoor signage boards last? 
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>The lifespan of outdoor signage boards depends on the materials used and environmental factors. At Brand Signages, 
+                    we use high-quality materials like acrylic, metal, and durable LED options that are built to withstand harsh weather 
+                    conditions. With proper maintenance, our outdoor signage boards can last for many years, providing long-term value for 
+                    your business.</p>
+            </div>
+        </div>
+
 
     </div>
 </section>

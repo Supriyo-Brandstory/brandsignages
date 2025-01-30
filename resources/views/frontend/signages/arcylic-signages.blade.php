@@ -17,8 +17,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">Acrylic Sign Boards: Enhance Your Brand Visibility
-</h2>
+        <h2 class="hero-title">Acrylic Sign Boards: Elevate Your Brand Visibility</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -28,16 +27,24 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">#1 Acrylic Sign Board Manufacturer </h2>
+                <h2 class="brand-title">#1 Acrylic Sign Board Manufacturer</h2>
                 <p class="brand-description">
-                    Add a modern touch to your branding with premium acrylic signage. Acrylic sign boards are highly versatile, making them ideal for a variety of settings, from corporate offices to retail spaces and outdoor environments. As a reliable acrylic signage board manufacturer, we provide premium, durable, and customizable acrylic signage solutions that enhance your brand visibility. You can choose from various styles, like clear signboards, transparent boards, and acrylic LED boards to create a lasting impression.
+                Add a modern touch to your branding with premium acrylic signage from Brand Signages. Acrylic signboards are highly versatile, 
+                making them ideal for a variety of settings, from corporate offices to retail spaces and outdoor environments. As a reliable 
+                acrylic signage board manufacturer, Brand Signages provides premium, durable, and customizable acrylic signage solutions that 
+                enhance your brand visibility. You can choose from various styles, such as clear signboards, transparent boards, and acrylic LED boards, 
+                to create a lasting impression.
                 </p>
                 <p class="brand-description">
-                    We offer a wide variety of solutions, including reception signs, office signs, wall signs, and more, ensuring you find the best option. Our premium edge-illuminated acrylic signs are perfect for enhancing your business’s appeal, made from transparent acrylic for a striking look. With years of expertise in sign printing, we are your ideal partner for all your signage needs.
+                We offer a wide variety of solutions, including reception signs, office signs, wall signs, and more, ensuring you find the perfect option. 
+                Our premium edge-illuminated acrylic signs are ideal for enhancing your business’s appeal, made from transparent acrylic for a striking look. 
+                With years of expertise in sign printing, Brand Signages is your ideal partner for all your signage needs.
                 </p>
                 <p class="brand-description">
-                    We offer budget-friendly, high-quality acrylic signboards that are durable and elegant. Unlike glass or metal options, our acrylic signs are stylish, weather-resistant, and best for outdoor use. With years of expertise in signage designing, we ensure each sign is crafted to suit your brand’s unique presence while offering easy installation, maintenance, and longevity. Whether you’re looking to install signs in busy city centers or elevate your business's presence, we provide sustainable, customizable acrylic solutions that enhance your brand image.
-
+                At Brand Signages, we offer budget-friendly, high-quality acrylic signboards that are durable and elegant. Unlike glass or metal options, our 
+                acrylic signs are stylish, weather-resistant, and perfect for outdoor use. With years of expertise in signage design, we ensure each sign is 
+                crafted to suit your brand’s unique presence while offering easy installation, maintenance, and longevity. Whether you’re looking to install 
+                signs in busy city centers or elevate your business's presence, we provide sustainable, customizable acrylic solutions that enhance your brand image.
                 </p>
 
             </div>
@@ -164,10 +171,10 @@
                         <img src="{{asset('frontend/Images/new/accrylic-c1.jpeg')}}" alt="Clear Acrylic Signage" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Clear Acrylic Signage</h5>
-                            <p class="text-content">These acrylic signboards are best for companies looking for a
+                            <p class="text-content">Our acrylic signboards are best for companies looking for a
                                 minimal yet stylish look. They have a transparent background and can mounted on the
                                 wall or used as free-standing signboards. This makes them perfect for small spaces,
-                                like cabins, desks, or nameplates. </p>
+                                like cabins, desks, or nameplates.</p>
                         </div>
                     </div>
                 </div>
@@ -178,7 +185,7 @@
                         <div class="overlay">
                             <h5 class="text-title">Lucite Signage Boards</h5>
                             <p class="text-content">Are you looking for high-end acrylic signage for your corporate
-                                office? Lucite signboards are upgraded versions because they provide a luxurious
+                                office? Lucite acrylic signboards are upgraded versions because they provide a luxurious
                                 glass-like finish. They reflect light to create a holographic effect. These are
                                 quite durable and can be customized with acrylic letters and beads.</p>
                         </div>
@@ -190,7 +197,7 @@
                         <img src="{{asset('frontend/Images/acrylic-sign-board3.webp')}}" alt="Transparent Acrylic Plaques" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Transparent Acrylic Plaques</h5>
-                            <p class="text-content">This custom acrylic plaque emphasizes the text or message you
+                            <p class="text-content">This custom acrylic signboard emphasizes the text or message you
                                 want to give your audience. You can use these nameplates for award ceremonies or
                                 recognition events, like corporate “Hall of Fame”. This rectangle acrylic style
                                 displays your achievements and accreditations even with small fonts.</p>
@@ -505,7 +512,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">We are The Best Acrylic LED <br>Signage Makers</h2>
+        <h2 class="hero-title">We are The Best Acrylic LED <br>Signage Manufacturers</h2>
         <p class="card-text testimonial-card-text text-center pb-2">Acrylic LED signages are the talk of the town
             because they combine aesthetics and practical functionality. <br> 
             At Brand Signages, we offer acrylic LED signages that provide excellent value for money, delivering <br> 
@@ -558,19 +565,19 @@
                 </p>
                 <h2 class="brand-title">Modern Aesthetic and Ease of Installation</h2>
                 <p class="brand-description">
-                    The sleek look of illuminated acrylic signs adds a contemporary touch to any business
+                    The sleek look of illuminated acrylic signages adds a contemporary touch to any business
                     environment, enhancing overall brand perception. You can choose any color to illuminate the
                     board and even the nature of the finish. You can engrave and emboss acrylic logos to boost the
                     visual appeal and stand out from the competition.
                 </p>
                 <p class="brand-description">
-                    But it’s not the only factor to consider. These acrylic signboards are easy to install, and our
-                    manual will make it even easier. If you want to choose an option, you can set your budget after
-                    researching “acrylic led sign board price” and then make a decision.
+                At Brand Signages, we take pride in designing exceptional acrylic signages that not only boosts your brand 
+                visibility but also transforms your space with a sleek, contemporary flair. Crafted with precision, our acrylic 
+                LED boards are built to withstand the test of time, offering effortless installation and a lasting visual impact.
                 </p>
                 <p class="brand-description">
-                    Do you know one of the shortcuts to making waves in marketing and branding? Invest in acrylic
-                    LED signage that speaks your language.
+                 Whether you're aiming to captivate attention in a corporate setting or create an unforgettable presence in retail, our innovative 
+                 signage solutions make sure your brand shines bright in any environment.
                 </p>
             </div>
 

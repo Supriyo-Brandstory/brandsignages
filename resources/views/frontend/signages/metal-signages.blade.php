@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/metal-signage.webp')}}" alt="Metal Signage Boards">
                 <div class="carousel-caption-custom">
-                    <h1>Custom Metal Signage Boards Manufacturer</h1>
+                    <h1>Leading Metal Signage Board Manufacturer in India</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -20,7 +20,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">Importance and Benefits of Metal <br> Signages</h2>
+        <h2 class="hero-title">Uplift Your Brand with Custom <br>Metal Signage Boards</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -233,8 +233,9 @@
 
         <div class="text-center ">
             <h2 class="display-4 mb-3 why-text-heading">Types of Metal Signages We Make</h2>
-            <p class="card-text testimonial-card-text">At Brand Signages, we offer a variety of metal signage solutions 
-                to cater to different business <br>needs. Our metal signboards include options such as: 
+            <p class="card-text testimonial-card-text">At Brand Signages, we are the best metal and steel signage boards manufacturer in India.
+                 <br> Our premium quality and durable signage solutions create a professional, impactful statement for your brand. Our metal signboards 
+                 <br>include options such as: 
             </p>
         </div>
 

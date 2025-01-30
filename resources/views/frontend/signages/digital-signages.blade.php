@@ -8,7 +8,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/digital-sign1.webp')}}" alt="Digital Signages">
                 <div class="carousel-caption-custom">
-                    <h1>Leading Digital Signage Manufacturer in India</h1>
+                    <h1>Leading Digital Signage Manufacturer Company in India</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -21,7 +21,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">Digital Display Boards for Better <br> Appearance</h2>
+        <h2 class="hero-title">Uplift Your Brand Image with <br> Digital Signage Boards</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -35,7 +35,7 @@
                     Digital signages have emerged as essential tools for enhancing visual communication across
                     various industries. These advanced solutions serve sectors such as corporate offices, retail,
                     hospitality, food services, banking, and education, providing dynamic and engaging ways to
-                    convey information. As leading digital signage manufacturers, we design digital boards for 
+                    convey information. As leading digital signage manufacturers, we design digital display boards for 
                     renowned brands to display announcements and performance metrics, helping foster a collaborative 
                     and engaging environment.
                 </p>
@@ -49,8 +49,8 @@
                 <p class="brand-description">
                     Brand Signages is one of the top 10 digital signage manufacturers in India. We offer state-of-the-art tech integration, better  
                     visibility, dynamic content, and real-time updates, making digital signages more effective 
-                    than static signs. As a reliable digital signage company, Brand Signages helps businesses 
-                    enhance brand presence, boost customer engagement, and adapt quickly to market changes.
+                    than static signs. As a reputable digital signage company, we help businesses 
+                    enhance brand presence, boost customer engagement, and drive foot traffic.
                 </p>
 
             </div>
@@ -62,10 +62,10 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Commercial Grade Digital Signage <br> Manufacturer</h2>
-            <p class="card-text text-center">As a leading digital signage company, Brand Signages
-            specialize in providing high-quality tailored digital signage solutions. These will <br> enhance visibility and engagement
-                and are best for advertising, sharing information, and customer interaction.</p>
+            <h2 class="display-4 mb-3 why-text-heading">Commercial Grade Digital Signage Display <br> Manufacturer in Bangalore</h2>
+            <p class="card-text text-center">Brand Signages stands as a leader in digital signage manufacturing, offering high-quality, 
+                commercial grade digital signage solutions. Our <br>custom solutions enhance visibility and engagement, making them perfect for 
+                advertising, sharing information, and boosting customer interaction.</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -74,7 +74,7 @@
                     <img src="{{asset('frontend/Images/digital-sign3.webp')}}" class="why-card-img-top" alt="Commercial Displays">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Commercial Displays</h3>
-                        <p class="card-text">We design versatile digital signages to be used in retail environments,
+                        <p class="card-text">We design versatile digital signage dispalys to be used in retail environments,
                             corporate settings, and educational institutions. They deliver stunning visuals and can
                             be customized to fit any branding requirement.</p>
                     </div>
@@ -137,7 +137,7 @@
                                     alt="Commercial Displays">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Commercial Displays</h3>
-                                    <p class="card-text">We design versatile digital displays to be used in retail
+                                    <p class="card-text">We design versatile digital signage displays to be used in retail
                                         environments, corporate settings, and educational institutions. They deliver
                                         stunning visuals and can be customized to fit any branding requirement. <br> <br></p>
                                 </div>
@@ -310,8 +310,8 @@
                     <div class="icon-design">
                         <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="Quality LED Sign Boards">
                     </div>
-                    <h3>Quality LED Sign Boards</h3>
-                    <p>Our LED sign boards utilize advanced LED technology, ensuring they are bright enough
+                    <h3>Quality Digital Displays</h3>
+                    <p>Our digital display boards utilize advanced LED technology, ensuring they are bright enough
                         for outdoor and indoor applications. Their durability makes them ideal for any environment,
                         from retail spaces to corporate offices. Additionally, our LED displays are energy-efficient
                         and environmentally friendly, reducing operational costs while providing long-lasting
@@ -364,7 +364,7 @@
                     <img src="{{asset('frontend/Images/industry-corporate-office.webp')}}" class="why-card-img-top" alt="Corporate Office">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Corporate Office</h3>
-                        <p class="card-text">We are considered among digital signage manufacturers because our
+                        <p class="card-text">We are considered among digital signage comapnies in India because our
                             products enhance internal communication and streamline information sharing. Companies
                             can use them to display announcements showcasing performance metrics.</p>
                     </div>
@@ -428,7 +428,7 @@
                     <img src="{{asset('frontend/Images/industry-education.webp')}}" class="why-card-img-top" alt="Education">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Education</h3>
-                        <p class="card-text">As a digital sign company, our products enhance communication among
+                        <p class="card-text">As a digital signage company, our products enhance communication among
                             students, staff, and visitors. You can use them to display schedules and promote events
                             to create an informed campus environment.</p>
                     </div>
@@ -720,7 +720,7 @@
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Digital signage companies offer comprehensive solutions including hardware (displays, screens),
+                <p>Digital signage companies in India offer comprehensive solutions including hardware (displays, screens),
                     software (content management), custom content creation, installation, technical support,
                     strategy consulting, and industry-specific digital communication solutions tailored to enhance
                     brand visibility and audience engagement across multiple platforms and environments</p>
