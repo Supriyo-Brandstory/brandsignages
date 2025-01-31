@@ -1,6 +1,15 @@
 @extends('frontend.layout.appLayout')
 @section('content')
 
+<style>
+    .why-carousel-controls, .testimonial-carousel-controls {
+    position: absolute;
+    top: -34px;
+    right: 15px;
+    transform: translateY(0);
+}
+</style>
+
 <section class="carousel-section">
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
 
