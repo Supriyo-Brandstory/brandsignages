@@ -7,11 +7,11 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/metal-signage.webp')}}" alt="Metal Signage Boards">
                 <div class="carousel-caption-custom">
-                    <h1>Leading Metal Signage Board Manufacturer in India</h1>
+                    <h1>Metal & Steel Signage Boards for Your Space</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
-
+       
         </div>
     </div>
 </section>
@@ -20,7 +20,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">Uplift Your Brand with Custom <br>Metal Signage Boards</h2>
+        <h2 class="hero-title">Uplift Your Brand Image with Custom <br>Metal Signage Boards</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -31,14 +31,14 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                At <a href="https://brandsignages.com/" style="text-decoration: unset;color:#E43D12">Brand Signages</a>, we specialize in custom metal signage boards that offer stability, premium quality, and a professional 
-                appearance, making them ideal for creating powerful statements for brands. Not only are these signboards durable and weather-resistant, 
-                but they also provide long-term performance, ensuring your investment lasts for years. Additionally, metal signage boards are recyclable, 
-                allowing you to use the same piece for various occasions, making them a cost-effective choice for businesses.
+                At <a href="https://brandsignages.com/" style="text-decoration: unset;color:#E43D12">Brand Signages</a>specializes in custom 
+                metal signage boards made from aluminum and steel, ensuring durability and a premium look. Our high-quality signs create powerful 
+                brand statements with a professional finish. Additionally, metal signage boards are recyclable, allowing reuse for various occasions, 
+                making them a cost-effective choice for businesses.
                 </p>
                 <p class="brand-description">
-                Our custom metal boards can be designed to suit your brand's unique identity, with finishes available in shiny, matte, or other polishes to 
-                create the perfect look. Whether you're need a nameplate, outdoor signage, or interior signs, our metal signages are versatile and adaptable 
+                Our stainless steel and aluminum signage boards are designed to match your brand's unique identity, offering shiny, matte, and other finish options for a flawless look. 
+                Whether you're need a nameplate, outdoor signage, or interior signs, our metal signages are versatile and adaptable 
                 to meet your needs. Investing in premium-quality metal signage from Brand Signages is the perfect solution to elevate your brand’s visibility and impact.
                 </p>
             </div>

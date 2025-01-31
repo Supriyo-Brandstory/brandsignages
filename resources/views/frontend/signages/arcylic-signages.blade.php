@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/coffee-shop-menu.webp')}}" alt="Acrylic Signage -Coffee Shop Menu">
                 <div class="carousel-caption-custom">
-                    <h1>Premium Acrylic Sign Board Manufacturers in India</h1>
+                    <h1>Premium Acrylic & Plexiglass Signages for Your Space</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -17,7 +17,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">Acrylic Sign Boards: Elevate Your Brand Visibility</h2>
+        <h2 class="hero-title">Boost Your Brand Recognition with Stylish Acrylic Signages</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -27,16 +27,15 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">#1 Acrylic Sign Board Manufacturer</h2>
+                <h2 class="brand-title">Acrylic & Plexiglass Signs</h2>
                 <p class="brand-description">
                 Add a modern touch to your branding with premium acrylic signage from Brand Signages. Acrylic signboards are highly versatile, 
-                making them ideal for a variety of settings, from corporate offices to retail spaces and outdoor environments. As a reliable 
-                acrylic signage board manufacturer, Brand Signages provides premium, durable, and customizable acrylic signage solutions that 
-                enhance your brand visibility. You can choose from various styles, such as clear signboards, transparent boards, and acrylic LED boards, 
-                to create a lasting impression.
+                making them ideal for a variety of settings, from corporate offices to retail spaces and outdoor environments. As a reliable provider of 
+                acrylic signage boards, Brand Signages craft solutions that enhance your brand visibility. You can choose from various styles, such as clear 
+                plexiglass signs, transparent boards, and acrylic LED boards, ensuring a professional look that leaves a lasting impact.
                 </p>
                 <p class="brand-description">
-                We offer a wide variety of solutions, including reception signs, office signs, wall signs, and more, ensuring you find the perfect option. 
+                We offer a wide variety of acrylic signage solutions, including reception signs, office signs, wall signs, and more, ensuring you find the perfect option. 
                 Our premium edge-illuminated acrylic signs are ideal for enhancing your business’s appeal, made from transparent acrylic for a striking look. 
                 With years of expertise in sign printing, Brand Signages is your ideal partner for all your signage needs.
                 </p>
@@ -58,8 +57,8 @@
             <h2 class="display-4 mb-3 why-text-heading">Premium Acrylic Signages to Enhance <br> Your Business Spaces
             </h2>
             <p class="card-text text-center">Acrylic signboards have a significant role in defining modern marketing
-                and creating a visual <br> space. Brand Signages is a leading acrylic sign board manufacturer to help 
-                you make a lasting impression.</p>
+                and creating a visual <br> space. Brand Signages is a leading acrylic signage maker, delivering visually 
+                striking solutions that enhance your brand presence.</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -70,7 +69,7 @@
                         <h3 class="why-text-red mb-3">Brand Identity & Promotion</h3>
                         <p class="card-text">Acrylic signages are great for branding and marketing because they
                             offer simplicity and versatility. <a href="https://brandsignages.com/" style="text-decoration: unset;color:#E43D12">Brand Signages</a>
-                            can help you clarify your brand’s vision, standards, and accreditations with premium acrylic sign boards. Our acrylic signages are highly 
+                            can help you clarify your brand’s vision, standards, and accreditations with premium acrylic signs. Our acrylic signages are highly 
                             visible from a distance, attracting more foot traffic to your business.</p>
                     </div>
                 </div>
@@ -158,9 +157,9 @@
 
         <div class="text-center ">
             <h2 class="display-4 mb-3 why-text-heading">Types of Acrylic Sign Boards We Deliver</h2>
-            <p class="card-text testimonial-card-text">Acrylic signboards have a significant role in defining modern
-                marketing and creating a visual space. We are a top acrylic signage manufacturer, offering a <br>
-                wide range of signage design solutions to meet every need.</p>
+            <p class="card-text testimonial-card-text">Acrylic signanges have a significant role in defining modern
+                marketing and creating a visual space. Whether you are looking to revamp your retail space or <br>promote 
+                your brand, we offer a wide range of signage design solutions to meet every need.</p>
         </div>
 
         <div class="col-lg-12">
@@ -221,9 +220,10 @@
                         <img src="{{asset('frontend/Images/acrylic-sign-board5.webp')}}" alt="Plexiglass Signs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Plexiglass Signs</h5>
-                            <p class="text-content">Have you seen restaurant menus with laminated backgrounds and
-                                exchangeable panels? Or the acrylic sign board with directions? These are all
-                                examples of plexiglass signs with acrylic letters engraved on them.</p>
+                            <p class="text-content">At Brand Signages, we offer durable, sleek, and versatile plexiglass signs that 
+                                are perfect for businesses, restaurants, and offices. From modern menu boards with interchangeable panels 
+                                to elegant directional signs with engraved acrylic lettering, we create signage solutions that provide a polished 
+                                and professional look.</p>
                         </div>
                     </div>
                 </div>
@@ -511,7 +511,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">We are The Best Acrylic LED <br>Signage Manufacturers</h2>
+        <h2 class="hero-title">Why Choose Us for Acrylic Signage Boards</h2>
         <p class="card-text testimonial-card-text text-center pb-2">Acrylic LED signages are the talk of the town
             because they combine aesthetics and practical functionality. <br> 
             At Brand Signages, we offer acrylic LED signages that provide excellent value for money, delivering <br> 
