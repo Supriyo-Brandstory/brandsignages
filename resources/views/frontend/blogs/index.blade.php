@@ -6,47 +6,7 @@
         transition: all 0.3s ease-in-out;
     }
 
-    .card {
-        border: none;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        transition: transform 0.3s ease;
-    }
-
-    .card:hover {
-        transform: scale(1.02);
-    }
-
-    .card-img img {
-        width: 100%;
-        height: 235px;
-        object-fit: cover;
-    }
-
-    .card-body {
-        padding: 15px;
-    }
-
-    .badge {
-        background-color: #E43D12;
-        color: white;
-        font-size: 12px;
-        border-radius: 4px;
-        padding: 6px 12px;
-    }
-
-    .time {
-        font-size: 12px;
-        color: #6c757d;
-    }
-
-    .card-title {
-        font-size: 18px;
-        font-weight: bold;
-        margin: 10px 0;
-        color: #212121;
-    }
+   
 
     .carousel-item img {
         width: 100%;
@@ -106,18 +66,6 @@
     }
 }
     @media (max-width: 767px) {
-        .card-title {
-            font-size: 16px;
-        }
-
-        .badge {
-            font-size: 10px;
-        }
-
-        .time {
-            font-size: 10px;
-        }
-
         .custom-btn {
             padding: 8px 16px;
             font-size: 14px;
@@ -246,16 +194,16 @@ height: 400px;">
         @foreach ($allBlogs as $blog)
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
             <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
-                <div class="card">
-                    <div class="card-img">
+                <div class="blog-card">
+                    <div class="blog-card-img">
                         <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
                     </div>
-                    <div class="card-body">
+                    <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">{{ strtoupper($blog->topic) }}</span>
                             <span class="time">{{ $blog->reding_time }} mins 🕘</span>
                         </div>
-                        <h5 class="card-title">{{ $blog->title }}</h5>
+                        <h5 class="blog-card-title">{{ $blog->title }}</h5>
                     </div>
                 </div>
             </a>

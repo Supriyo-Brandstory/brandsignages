@@ -30,7 +30,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.index', compact('seo'));
+        $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
+        return view('frontend.index', compact('seo','blogs'));
     }
 
     //Signages

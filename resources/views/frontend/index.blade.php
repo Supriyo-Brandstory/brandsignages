@@ -435,6 +435,86 @@
 
 
 
+ 
+
+
+    <section class="container py-5">
+        <div class="row g-4 d-flex flex-wrap justify-content-center">
+
+            <div class="text-center ">
+                <h2 class="display-4 mb-3 why-text-heading">Brand Signage That Leaves a Lasting Impression</h2>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="image-container position-relative">
+                    <img src="{{asset('frontend/Images/brand-signage.webp')}}" alt="Brand Signage" class="w-100 h-100">
+                    <div class="overlay">
+                        <h5 class="text-title">What is Brand Signage?</h5>
+                        <p class="text-content">Brand signage is your company's visual ambassador- a strategic plot that
+                            adds a compelling narrative touch to your corporate identity. It combines perception and
+                            experience, creating memorable touchpoints that speak volumes without saying a word.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="image-container position-relative">
+                            <img src="{{asset('frontend/Images/pop-displays.webp')}}" alt="Pop Displays" class="w-100 h-100">
+                            <div class="overlay">
+                                <h5 class="text-title">Pop Displays</h5>
+                                <p class="text-content">As a signboard manufacturer, we know that dynamic pop displays
+                                    can change retail spaces into interactive brand stories. These eye-catching
+                                    installations capture attention, especially with LED letters to drive impulse
+                                    purchases and create immersive experiences. These will engage customers, and turn
+                                    them into enthusiastic brand ambassadors.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="image-container position-relative">
+                            <img src="{{asset('frontend/Images/event-signage.webp')}}" alt="Event Signage" class="w-100 h-100">
+                            <div class="overlay">
+                                <h5 class="text-title">Event Signage</h5>
+                                <p class="text-content">Event signage is a go-to choice for your brand's live
+                                    performance - a strategic communication tool that guides, inspires, and connects. We
+                                    can create large-scale brand signages to create cohesive experiences, amplify your
+                                    message, and leave a memorable impression.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="image-container position-relative">
+                            <img src="{{asset('frontend/Images/corporate-offices.webp')}}" alt="Corporate Offices" class="w-100 h-100">
+                            <div class="overlay">
+                                <h5 class="text-title">Corporate Offices</h5>
+                                <p class="text-content">Corporate office signage reflects your company's theme-
+                                    professionalism, innovation, and purpose-driven. As the best, sign board
+                                    manufacturer, we will produce thoughtfully designed signs to communicate your
+                                    organization's values, culture, and commitment to excellence.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="image-container position-relative">
+                            <img src="{{asset('frontend/Images/storefronts.webp')}}" alt="Storefronts" class="w-100 h-100">
+                            <div class="overlay">
+                                <h5 class="text-title">Storefronts</h5>
+                                <p class="text-content">Your storefront deserves glow sign boards for visual appeal,
+                                    storytelling, professionalism, and promise. It transforms street-level visibility
+                                    into an invitation that draws people into your unique business world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="testimonial section ">
         <div class="container">
             <div class="text-center mb-5">
@@ -710,85 +790,38 @@
             </div>
         </div>
     </section>
+<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Explore Expert Insights on Signages & Branding</h2>
+            <p class="card-text text-center">Discover the latest trends, tips, and expert insights in the signage industry through Brand Signages' informative blogs.</p>
 
-
-
-    <section class="container py-5">
-        <div class="row g-4 d-flex flex-wrap justify-content-center">
-
-            <div class="text-center ">
-                <h2 class="display-4 mb-3 why-text-heading">Brand Signage That Leaves a Lasting Impression</h2>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="image-container position-relative">
-                    <img src="{{asset('frontend/Images/brand-signage.webp')}}" alt="Brand Signage" class="w-100 h-100">
-                    <div class="overlay">
-                        <h5 class="text-title">What is Brand Signage?</h5>
-                        <p class="text-content">Brand signage is your company's visual ambassador- a strategic plot that
-                            adds a compelling narrative touch to your corporate identity. It combines perception and
-                            experience, creating memorable touchpoints that speak volumes without saying a word.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-8">
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <div class="image-container position-relative">
-                            <img src="{{asset('frontend/Images/pop-displays.webp')}}" alt="Pop Displays" class="w-100 h-100">
-                            <div class="overlay">
-                                <h5 class="text-title">Pop Displays</h5>
-                                <p class="text-content">As a signboard manufacturer, we know that dynamic pop displays
-                                    can change retail spaces into interactive brand stories. These eye-catching
-                                    installations capture attention, especially with LED letters to drive impulse
-                                    purchases and create immersive experiences. These will engage customers, and turn
-                                    them into enthusiastic brand ambassadors.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="image-container position-relative">
-                            <img src="{{asset('frontend/Images/event-signage.webp')}}" alt="Event Signage" class="w-100 h-100">
-                            <div class="overlay">
-                                <h5 class="text-title">Event Signage</h5>
-                                <p class="text-content">Event signage is a go-to choice for your brand's live
-                                    performance - a strategic communication tool that guides, inspires, and connects. We
-                                    can create large-scale brand signages to create cohesive experiences, amplify your
-                                    message, and leave a memorable impression.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-8">
-                        <div class="image-container position-relative">
-                            <img src="{{asset('frontend/Images/corporate-offices.webp')}}" alt="Corporate Offices" class="w-100 h-100">
-                            <div class="overlay">
-                                <h5 class="text-title">Corporate Offices</h5>
-                                <p class="text-content">Corporate office signage reflects your company's theme-
-                                    professionalism, innovation, and purpose-driven. As the best, sign board
-                                    manufacturer, we will produce thoughtfully designed signs to communicate your
-                                    organization's values, culture, and commitment to excellence.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="image-container position-relative">
-                            <img src="{{asset('frontend/Images/storefronts.webp')}}" alt="Storefronts" class="w-100 h-100">
-                            <div class="overlay">
-                                <h5 class="text-title">Storefronts</h5>
-                                <p class="text-content">Your storefront deserves glow sign boards for visual appeal,
-                                    storytelling, professionalism, and promise. It transforms street-level visibility
-                                    into an invitation that draws people into your unique business world.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-    </section>
+
+        <div class="row">
+            @foreach ($blogs as $blog)
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
+                    <div class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge">{{ strtoupper($blog->topic) }}</span>
+                                <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+                            </div>
+                            <h5 class="blog-card-title">{{ $blog->title }}</h5>
+                            <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            @endforeach
+        </div>
+    </div>
+</section>
 
     <section class="faq-section">
         <div class="faq-container">
