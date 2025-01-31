@@ -302,7 +302,7 @@
 
 <section class="process-section">
     <div class="container">
-        <h2 class="process-title">We are The Best Digital Signage Manufacturers</h2>
+        <h2 class="process-title">About Our Digital Signage Boards</h2>
         <div class="row">
 
             <div class="col-md-4">
@@ -310,12 +310,10 @@
                     <div class="icon-design">
                         <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="Quality LED Sign Boards">
                     </div>
-                    <h3>Quality Digital Displays</h3>
-                    <p>Our digital display boards utilize advanced LED technology, ensuring they are bright enough
-                        for outdoor and indoor applications. Their durability makes them ideal for any environment,
-                        from retail spaces to corporate offices. Additionally, our LED displays are energy-efficient
-                        and environmentally friendly, reducing operational costs while providing long-lasting
-                        performance.</p>
+                    <h3>Smart Digital Displays</h3>
+                    <p>No External Media Player: Our displays work seamlessly without additional hardware
+                       Universal Compatibility: Supports Android, LG webOS, Samsung Tizen, Windows 
+                       Content Scheduling: Quickly add playlists, media files, or promotional campaigns</p>
                 </div>
             </div>
 
@@ -324,13 +322,14 @@
                     <div class="icon-deliver">
                         <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Comprehensive CMS">
                     </div>
-                    <h3>Comprehensive CMS</h3>
-                    <p>Our comprehensive digital Content Management System (CMS) is a powerful tool that empowers
-                        users to manage and update content. Users can easily upload images, videos, and text,
-                        creating dynamic content that resonates with their audience. The ability to schedule content
-                        ensures that your displays can be programmed for specific events or promotions, maximizing
-                        engagement at critical times. Furthermore, our CMS supports multiple users and permissions,
-                        making it easy for teams to collaborate on content creation and management.</p>
+                    <h3>Specifications</h3>
+                    <p>Minimum Order Quantity: 1 Unit
+                    Display Type: LED / OLED / E-Ink (Customizable)
+                    Body Material: Aluminum, acrylic, Polycarbonate, Glass
+                    Lighting Type: LED / Backlit LCD for superior brightness
+                    Available Sizes: 15-inch, 18-inch, 24-inch, 32-inch, 55-inch
+                    Shape Options: Rectangle, Square, Curved, Ultra-Wide
+                    Viewing Angle: 178° - 270° for maximum visibility</p>
                 </div>
             </div>
 
@@ -340,8 +339,8 @@
                         <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Support service">
                     </div>
                     <h3>Support service</h3>
-                    <p>We understand that timely support is crucial for uninterrupted operations, therefore, we
-                        offer effective solutions to any issues. Our commitment to customer satisfaction has helped
+                    <p>We deliver end-to-end signage solutions from design to installation ensuring seamless deployment, 
+                        minimal downtime, and long-term reliability. Our commitment to customer satisfaction has helped
                         us build a loyal customer base that trusts our expertise and relies on us for their digital
                         signage needs.</p>
                 </div>
