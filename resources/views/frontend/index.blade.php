@@ -56,7 +56,7 @@
                     <p class="brand-description">
                         The way in which you express your company's message visually and emotionally forms brand
                         identity. It is not just the logo, it includes other design elements, communication strategies,
-                        and visual expressions that distinguish a brand from its competitors.
+                        and visual expressions that distinguish a <a href="https://brandsignages.com/blogs/signages-branding" style="text-decoration: unset;color:#E43D12">brand's identity</a> from its competitors.
                     </p>
 
                     <ul class="process-list">
@@ -162,7 +162,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Storefront Signage</h5>
                             <p class="card-text">We have been named among top-tier sign board manufacturers for creating
-                                storefront signage. These transform exterior spaces into powerful visual statements,
+                            <a href="https://brandsignages.com/outdoor-signages" style="text-decoration: unset;color:#E43D12">storefront outdoor signage</a>. These transform exterior spaces into powerful visual statements,
                                 attracting potential customers with strategic designs that blend aesthetic appeal and
                                 compelling brand communication.</p>
                         </div>
@@ -187,7 +187,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Interior Decals</h5>
                             <p class="card-text">Our sign board manufacturing expertise creates more than mere
-                                decorations, these decals communicate brand personality, guide customer journeys, and
+                                decorations, these <a href="https://brandsignages.com/indoor-signages" style="text-decoration: unset;color:#E43D12">interior signages</a> communicate brand personality, guide customer journeys, and
                                 transform interior environments into compelling storytelling platforms.</p>
                         </div>
                     </div>
@@ -197,7 +197,7 @@
                         <img src="{{asset('frontend/Images/pop-display.webp')}}" class="card-img-top" alt="Pop Displays">
                         <div class="card-body">
                             <h5 class="card-title">Pop Displays</h5>
-                            <p class="card-text">Signage manufacturers know the power of pop displays - dynamic,
+                            <p class="card-text">Signage manufacturers know the power of <a href="https://brandsignages.com/digital-signages" style="text-decoration: unset;color:#E43D12">digital display</a> - dynamic,
                                 attention-grabbing installations that transform retail spaces. Our brand signage
                                 solutions create interactive experiences that turn browsing into buying, delivering
                                 marketing magic through creative and strategic visual storytelling.</p>
@@ -209,7 +209,7 @@
                         <img src="{{asset('frontend/Images/reflective-signs.webp')}}" class="card-img-top" alt="Reflective Signs">
                         <div class="card-body">
                             <h5 class="card-title">Reflective Signs</h5>
-                            <p class="card-text">As innovative signage board makers in India, we engineer reflective signs that
+                            <p class="card-text">As innovative signage board makers in India, we engineer <a href="https://brandsignages.com/construction-safety-signages" style="text-decoration: unset;color:#E43D12">reflective construction safety signs</a> that
                                 combine safety with visual communication. We ensure maximum visibility, delivering
                                 critical information with clarity for high-impact, recognizable brand messaging.</p>
                         </div>
@@ -246,7 +246,7 @@
                             <h5 class="card-title">Indoor & Outdoor Banner</h5>
                             <p class="card-text">These banners are versatile brand communicators for both indoor and
                                 outdoor spaces. They can withstand diverse environments, and deliver consistent,
-                                high-impact messaging. These banners can change any space into a brand communication
+                                high-impact messaging. <a href="https://brandsignages.com/indoor-signages" style="text-decoration: unset;color:#E43D12">Indoor signages</a> can change any space into a brand communication
                                 platform and offer weather-resistant functionalities.</p>
                         </div>
                     </div>
@@ -802,18 +802,16 @@
                 <div class="faq-answer">
                     <p>As signage board makers, we provide a diverse range of solutions to businesses such as:</p>
                     <ul>
-                        <li>Glow signboard</li>
+                        <li><a href="https://brandsignages.com/neon-signages" style="text-decoration: unset;color:#E43D12">Glow signboard</a></li>
                         <li>Acp signboard</li>
-                        <li>Acrylic led signboards</li>
+                        <li><a href="https://brandsignages.com/arcylic-signages" style="text-decoration: unset;color:#E43D12">Acrylic LED signboards</a></li>
                         <li>Channel Letter signs</li>
-                        <li>Flex signs</li>
-                        <li>Steel letter</li>
-                        <li>Pylon sign</li>
-                        <li>LED letter sign</li>
-                        <li>Neon sign board</li>
-                        <li>Acrylic letters</li>
-                        <li>Digital signage</li>
-                        <li>Outdoor signs</li>
+                        <li><a href="https://brandsignages.com/digital-signages" style="text-decoration: unset;color:#E43D12">Digital signages</a></li>
+                        <li><a href="https://brandsignages.com/metal-signages" style="text-decoration: unset;color:#E43D12">Steel letter</a></li>
+                        <li><a href="https://brandsignages.com/fire-safety-signages" style="text-decoration: unset;color:#E43D12">Fire safety signs</a></li>
+                        <li><a href="https://brandsignages.com/led-light-signages" style="text-decoration: unset;color:#E43D12">LED letter sign</a></li>
+                        <li><a href="https://brandsignages.com/neon-signages" style="text-decoration: unset;color:#E43D12">Neon sign board</a></li>
+                        <li><a href="https://brandsignages.com/outdoor-signages" style="text-decoration: unset;color:#E43D12">Outdoor signs</a></li>
                     </ul>
                 </div>
             </div>

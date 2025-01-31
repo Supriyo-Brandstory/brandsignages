@@ -31,7 +31,7 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                At Brand Signages, we specialize in custom metal signage boards that offer stability, premium quality, and a professional 
+                At <a href="https://brandsignages.com/" style="text-decoration: unset;color:#E43D12">Brand Signages</a>, we specialize in custom metal signage boards that offer stability, premium quality, and a professional 
                 appearance, making them ideal for creating powerful statements for brands. Not only are these signboards durable and weather-resistant, 
                 but they also provide long-term performance, ensuring your investment lasts for years. Additionally, metal signage boards are recyclable, 
                 allowing you to use the same piece for various occasions, making them a cost-effective choice for businesses.
@@ -71,9 +71,9 @@
                     <img src="{{asset('frontend/Images/metal-signage4.webp')}}" class="why-card-img-top" alt="Corporate Office">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Corporate Office</h3>
-                        <p class="card-text">Corporate offices use polished stainless for branding or giving
-                            information to help employees and guests navigate the office floor. The stainless steel
-                            boards are modern, and aesthetic, and offer resistance to wear.</p>
+                        <p class="card-text">Corporate offices use polished stainless steel signages for branding or delivering
+                            information to help employees and guests navigate the office floor. The stainless steel <a href="https://brandsignages.com/office-signages" style="text-decoration: unset;color:#E43D12">office signage boards</a> 
+                            are modern, and aesthetic, and offer excellent resistance to wear.</p>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                     <img src="{{asset('frontend/Images/metal-signage6.webp')}}" class="why-card-img-top" alt="Industrial Settings">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Industrial Settings</h3>
-                        <p class="card-text">In industrial settings, metal signage boards serve critical safety and
+                        <p class="card-text">In industrial settings, metal signage boards serve critical<a href="https://brandsignages.com/construction-safety-signages" style="text-decoration: unset;color:#E43D12">construction safety signs</a> and
                             operational purposes. They are often used for hazard warnings, equipment labels, and
                             directional signage. Their robustness is crucial in environments where they may be
                             exposed to harsh conditions.</p>
@@ -107,7 +107,7 @@
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Hospitality Industry</h3>
                         <p class="card-text">The hospitality sector employs metal signage for branding and guest
-                            navigation. From hotel entrance signs to room numbers and directional indicators, metal
+                            navigation. From <a href="https://brandsignages.com/indoor-signages" style="text-decoration: unset;color:#E43D12">hotel entrance signs</a> to room numbers and directional indicators, metal
                             signage enhances the guest experience while projecting a high-quality image of the
                             establishment</p>
                     </div>
@@ -183,7 +183,7 @@
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Industrial Settings</h3>
                                     <p class="card-text">In industrial settings, metal signage boards serve critical
-                                        safety and operational purposes. They are often used for hazard warnings,
+                                    <a href="https://brandsignages.com/construction-safety-signages" style="text-decoration: unset;color:#E43D12">construction safety signs</a> and operational purposes. They are often used for hazard warnings,
                                         equipment labels, and directional signage. Their robustness is crucial in
                                         environments where they may be exposed to harsh conditions.</p>
                                 </div>
@@ -196,7 +196,7 @@
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Hospitality Industry</h3>
                                     <p class="card-text">The hospitality sector employs metal signage for branding
-                                        and guest navigation. From hotel entrance signs to room numbers and
+                                        and guest navigation. From <a href="https://brandsignages.com/indoor-signages" style="text-decoration: unset;color:#E43D12">hotel entrance signs</a> to room numbers and
                                         directional indicators, metal signage enhances the guest experience while
                                         projecting a high-quality image of the establishment</p>
                                 </div>

@@ -222,13 +222,22 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-2">
-        <h2 class="hero-title">Durable and Waterproof Neon <br> Light Signs</h2>
+        <h2 class="hero-title">Transform Your Brand with Brand<br> Signages Custom Neon Sign Boards</h2>
         <div class="row align-items-center">
             
             <div class="col-lg-6 order-2 order-lg-1">
 
                 <p class="brand-description">
-                Using neon signs at indoor places does not cause stress like using them for outdoor events. The reason is that the lights and signs used in outdoor events need to be weather-resistant. They must be durable and waterproof to withstand rain, storms, dust, and heat. At Brand Signages, we specialize in crafting high-quality, weather-resistant neon signs that are perfect for outdoor use. Our durable and waterproof designs ensure long-lasting performance, making them a reliable choice for all your outdoor events and installations.</p>
+                Stand out and illuminate your business space with Brand Signages custom-made neon signage boards—designed to captivate attention. 
+                Whether you're looking to elevate your brand presence or add a modern touch to your space, our neon signages are the perfect blend 
+                of style and functionality.
+                Modern neon signage is a dynamic tool for businesses across industries, from co-working spaces that ignite creativity to cafes, bars, 
+                and restaurants that elevate ambiance with vibrant neon art. Beauty salons, retail stores, yoga studios, and nightclubs all turn to neon 
+                signs for a sleek, modern edge. Neon & LED neon sign brings your branding to life, whether through inspiring word lights, bold logos, or 
+                unique, themed decor pieces.
+                Brand Signages is India's most affordable supplier of neon light signs for home, office, and retail spaces. With less power consumption and 
+                minimal heat emission, our neon signs offer a safe, long-lasting solution that’s perfect for any setting. Plus, they're lightweight and simple 
+                to install, whether you're mounting them on walls or setting them up on display stands.</p>
              
             </div>
 
@@ -387,7 +396,10 @@
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>Neon light signs radiate self-emmitted lights which come from the ingredients they are made of. The lights are mostly made of neon, argon, or other inert gases. Also, in many case,s mercury vapour or combinations of various gases at a low temperature are used to make neon light signs.</p>
+          <p>Neon light signs are manufactured from glass tubes filled with inert gases like neon, mercury vapor, and argon. 
+            When an electric current goes through the gases, they ionize and emit light. Different gases create different colors, 
+            with neon gas producing the classic red-orange glow. We also provide modern alternatives like LED technology for better 
+            energy efficiency and durability.</p>
         </div>
       </div>
   
@@ -397,7 +409,10 @@
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>Neon light signs can be expected to last about eight to fifteen years. However, to ensure this durability, taking appropriate care as per the product manual is important. Purchasing neon signs from trusted brands like Brand Signage can increase the chances of better durability.</p>
+          <p>Neon light signs generally have a lifespan of approximately 15,000 to 30,000 hours, depending on several factors such as usage, 
+            environment, and the materials used. Proper maintenance & care can extend the lifespan, ensuring the sign remains vibrant and 
+            functional for years. It's worth noting that LED neon signs, which are energy-efficient alternatives, can last significantly longer, 
+            often reaching up to 50,000 hours or more.</p>
         </div>
       </div>
   
@@ -407,7 +422,7 @@
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>If neon light signs are made of durable materials and are weather-resistant specifically with waterproof features, they can be used outdoors. Whether it is a garden party or an open-air rooftop dinner, neon lights can illuminate the space with their bright charm.</p>
+          <p>Yes, neon light signs can be used outdoors if they are specifically designed with durable, weather-resistant materials and waterproof features. Whether it is a garden party or an open-air rooftop dinner, neon lights can illuminate the space with their bright charm.</p>
            </div>
       </div>
   
@@ -417,17 +432,28 @@
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>Yes. Most of the neon light signs offered by leading companies are energy efficient. While radiating bright lights they save your electricity bills.</p>
+          <p>Neon light signs are energy-efficient compared to incandescent lighting. They consume less power due to the use of inert gases and low voltage. However, modern alternatives like LED neon signs are even more energy-efficient, offering lower power consumption and longer lifespans while maintaining vibrant illumination.</p>
         </div>
       </div>
   
       <div class="faq-item">
         <button class="faq-question">
-            How do I maintain and clean my neon light sign?
+            How much do custom neon signs cost?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-            <p>Cleaning neon light signs may be a crucial concern as they have properties different from regular lights. To clean the neon signs, first, switch them off and unplug them. Take a damp cloth and wipe the tubing gently. Further, dry the tubing well so that it does not show any sign of water when it is plugged back into the power outlet. Repeat the process at least once or twice a month to ensure effective maintenance of the lights.</p>
+            <p>The cost of custom neon signs is influenced by several key factors:</p>
+            <ul>
+                <li>Larger signs require more materials and time to manufacture, resulting in higher costs.</li>
+                <li>Detailed, intricate designs with multiple colors or graphics typically increase the price.</li>
+                <li>The choice of materials, such as premium LEDs or high-quality silicone tubing, can impact the cost.</li>
+                <li>Fully custom signs tailored to specific branding or design preferences often come at a higher price</li>
+                <li>Optional features, such as adjustable brightness or motion effects, can also lead to a higher cost</li>
+                <li>Transparent pricing breakdown</li>
+                <li>Delivery and installation</li>
+            </ul>
+            <p>On average, custom neon signs can range from ₹4,000 to ₹50,000 or more, depending on these factors. For a precise quote, 
+                it's advisable to contact the manufacturer directly to discuss your specific design requirements.</p>
         </div>
       </div>
     </div>

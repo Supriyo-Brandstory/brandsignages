@@ -41,7 +41,7 @@
                 With years of expertise in sign printing, Brand Signages is your ideal partner for all your signage needs.
                 </p>
                 <p class="brand-description">
-                At Brand Signages, we offer budget-friendly, high-quality acrylic signboards that are durable and elegant. Unlike glass or metal options, our 
+                At <a href="https://brandsignages.com/" style="text-decoration: unset;color:#E43D12">Brand Signages</a>, we offer budget-friendly, high-quality acrylic signboards that are durable and elegant. Unlike glass or metal options, our 
                 acrylic signs are stylish, weather-resistant, and perfect for outdoor use. With years of expertise in signage design, we ensure each sign is 
                 crafted to suit your brand’s unique presence while offering easy installation, maintenance, and longevity. Whether you’re looking to install 
                 signs in busy city centers or elevate your business's presence, we provide sustainable, customizable acrylic solutions that enhance your brand image.
@@ -69,7 +69,7 @@
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Brand Identity & Promotion</h3>
                         <p class="card-text">Acrylic signages are great for branding and marketing because they
-                            offer simplicity and versatility. <a href="https://brandsignages.com/" target="_blank">Brand Signages</a>
+                            offer simplicity and versatility. <a href="https://brandsignages.com/" style="text-decoration: unset;color:#E43D12">Brand Signages</a>
                             can help you clarify your brand’s vision, standards, and accreditations with premium acrylic sign boards. Our acrylic signages are highly 
                             visible from a distance, attracting more foot traffic to your business.</p>
                     </div>
@@ -113,8 +113,7 @@
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Brand Identity & Promotion</h3>
                                     <p class="card-text">Acrylic signages are great for branding and marketing because they
-                            offer simplicity and versatility. <a href="https://brandsignages.com/" target="_blank">Brand Signages</a>
-                            can help you clarify your brand’s vision, standards, and accreditations with premium acrylic sign boards. Our acrylic signages are highly 
+                            offer simplicity and versatility. Brand Signages can help you clarify your brand’s vision, standards, and accreditations with premium acrylic sign boards. Our acrylic signages are highly 
                             visible from a distance, attracting more foot traffic to your business.
                         </p>
                                 </div>
@@ -234,7 +233,7 @@
                         <img src="{{asset('frontend/Images/new/acrylic-c2.jpeg')}}" alt="Acrylic signage with LED" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Acrylic signage with LED</h5>
-                            <p class="text-content">You can choose acrylic signage with LED to add sophistication
+                            <p class="text-content">You can choose <a href="https://brandsignages.com/led-light-signages" style="text-decoration: unset;color:#E43D12">acrylic signage with LED</a> to add sophistication
                                 and night-time visibility. You can choose colored or other LED styles that fit your
                                 vision. </p>
                         </div>

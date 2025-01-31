@@ -320,9 +320,10 @@
                         <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="Quality LED Sign Boards">
                     </div>
                     <h3>Smart Digital Displays</h3>
-                    <p>No External Media Player: Our displays work seamlessly without additional hardware
-                       Universal Compatibility: Supports Android, LG webOS, Samsung Tizen, Windows 
-                       Content Scheduling: Quickly add playlists, media files, or promotional campaigns</p>
+                    <p><strong>No External Media Player:</strong> Our displays work seamlessly without additional hardware<br>
+                    <strong>Remote Display Control:</strong> Reboot and manage single or multiple displays<br>
+                    <strong>Universal Compatibility:</strong> Supports Android, LG webOS, Samsung Tizen, Windows<br> 
+                    <strong>Content Scheduling:</strong> Quickly add playlists, media files, or promotional campaigns<br></p>
                 </div>
             </div>
 
@@ -332,13 +333,13 @@
                         <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Comprehensive CMS">
                     </div>
                     <h3>Specifications</h3>
-                    <p>Minimum Order Quantity: 1 Unit
-                    Display Type: LED / OLED / E-Ink (Customizable)
-                    Body Material: Aluminum, acrylic, Polycarbonate, Glass
-                    Lighting Type: LED / Backlit LCD for superior brightness
-                    Available Sizes: 15-inch, 18-inch, 24-inch, 32-inch, 55-inch
-                    Shape Options: Rectangle, Square, Curved, Ultra-Wide
-                    Viewing Angle: 178° - 270° for maximum visibility</p>
+                    <p><strong>Minimum Order Quantity:</strong> 1 Unit<br>
+                    <strong>Display Type:</strong> LED / OLED / E-Ink (Customizable)<br>
+                    <strong>Body Material:</strong> Aluminum, acrylic, Polycarbonate, Glass<br>
+                    <strong>Lighting Type:</strong> LED / Backlit LCD for superior brightness<br>
+                    <strong>Available Sizes:</strong> 15-inch, 18-inch, 24-inch, 32-inch, 55-inch<br>
+                    <strong>Shape Options:</strong> Rectangle, Square, Curved, Ultra-Wide<br>
+                    <strong>Viewing Angle:</strong> 178° - 270° for maximum visibility</p>
                 </div>
             </div>
 
@@ -374,7 +375,7 @@
                         <h3 class="why-text-red mb-3">Corporate Office</h3>
                         <p class="card-text">We are considered among digital signage comapnies in India because our
                             products enhance internal communication and streamline information sharing. Companies
-                            can use them to display announcements showcasing performance metrics.</p>
+                            can use digital <a href="https://brandsignages.com/office-signages" style="text-decoration: unset;color:#E43D12">office signages</a> to display announcements showcasing performance metrics.</p>
                     </div>
                 </div>
             </div>
@@ -394,9 +395,8 @@
                     <img src="{{asset('frontend/Images/industry-hospitality.webp')}}" class="why-card-img-top" alt="Hospitality">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Hospitality</h3>
-                        <p class="card-text">Our interactive digital signs enhance guest experiences for visitors
-                            staying in hotels and motels. These boards can help people check in and promote
-                            facilities and events, thus helping brands effectively communicate with guests.</p>
+                        <p class="card-text">Our interactive <a href="https://brandsignages.com/restaurant-signages" style="text-decoration: unset;color:#E43D12">digital menu boards</a> enhance the guest experience for visitors dining at restaurants. 
+                            These boards can help people check in and promote facilities and events, thus helping brands effectively communicate with guests.</p>
                     </div>
                 </div>
             </div>
@@ -414,7 +414,7 @@
                     <img src="{{asset('frontend/Images/industry-food.webp')}}" class="why-card-img-top" alt="Food">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Food</h3>
-                        <p class="card-text">We design digital menu boards to be placed in restaurants and cades to
+                        <p class="card-text">We design <a href="https://brandsignages.com/restaurant-signages" style="text-decoration: unset;color:#E43D12">digital menu boards</a> to be placed in restaurants and cades to
                             boost customer engagement. These boards can show updated prices dynamically, thus giving
                             the latest information to customers.</p>
                     </div>
