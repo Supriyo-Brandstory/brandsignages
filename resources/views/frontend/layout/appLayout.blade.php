@@ -12,7 +12,58 @@
 
 
     {{-- <link rel="icon" href="{{asset('frontend/Images/brandsignages-favicon.png')}}" type="image/x-icon"> --}}
-{!!$seo->script ?? '<title>#1 Sign Board Manufacturer in Bangalore | Brand Signages</title>'!!}
+
+
+@if($blogSeoData)
+    <title>{{ $blogSeoData['title'] ?? 'Brand Signages' }}</title>
+    <meta name="description" content="{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}">
+    <link rel="canonical" href="{{ $blogSeoData['canonical_url'] ?? url()->current() }}">
+    <meta name="author" content="Manoj Kaliyannan" />
+    <meta property="og:title" content="{{ $blogSeoData['title'] ?? 'Brand Signages' }}" />
+    <meta property="og:description" content="{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ $blogSeoData['canonical_url'] ?? url()->current() }}" />
+    @php
+        $seoImage = !empty($blogSeoData['image']) ? asset('storage/' . $blogSeoData['image']) : asset('storage/blogs/default-image.webp');
+    @endphp
+    <meta property="og:image" content="{{ $seoImage }}" />
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "{{ $blogSeoData['title'] ?? 'Brand Signages' }}",
+          "description": "{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}",
+          "image": "{{ $seoImage }}",
+          "author": {
+            "@type": "Person",
+            "name": "Manoj Kaliyannan",
+            "url": "https://in.linkedin.com/in/manojkaliyannan"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Brand Signages",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "{{ asset('frontend/Images/Brand-Signages-logo.png') }}"
+            }
+          },
+          "datePublished": "{{ $blogSeoData['published_at'] ?? '2025-01-28' }}",
+          "dateModified": "{{ $blogSeoData['updated_at'] ?? '2025-01-28' }}",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ $blogSeoData['canonical_url'] ?? url()->current() }}"
+          }
+        }
+    </script>
+    @else
+    {!!$seo->script ?? '<title>#1 Sign Board Manufacturer in Bangalore | Brand Signages</title>'!!}
+@endif
+
+
+
+
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
 

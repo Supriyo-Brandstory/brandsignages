@@ -279,10 +279,24 @@ class frontendController extends Controller
             ->where('blogs.slug', $slug)
             ->first();
     
-        if ($blog) {
-           
-            return view('frontend.blogs.details', compact('blog', 'seo'));
-        }
+            if ($blog) {
+                $blogSeoData = [];
+            
+                if ($seo && !empty($seo->script)) {
+                    preg_match('/<title>(.*?)<\/title>/', $seo->script, $titleMatch);
+                    preg_match('/<meta name="description" content="(.*?)"/', $seo->script, $descriptionMatch);
+            
+                    $blogSeoData = [
+                        'title' => $titleMatch[1] ?? null,
+                        'meta_description' => $descriptionMatch[1] ?? null,
+                        'canonical_url' => isset($seo->page_url) ? url($seo->page_url) : null,
+                        'image' => $blog->image ?? null,
+                    ];
+                }
+            
+                return view('frontend.blogs.details', compact('blog', 'blogSeoData'));
+            }
+            
     
         // If a search query exists
         if ($request->has('search') && !empty($request->input('search'))) {
