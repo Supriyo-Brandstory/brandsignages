@@ -16,7 +16,7 @@
                 <div class="carousel-item active">
                     <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
                     <div class="carousel-caption-custom">
-                        <h1>Expert Signage Manufacturers for High-Quality Sign Boards</h1>
+                        <h1>Leading Signage Manufacturers in Bangalore for Supirior Branding</h1>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h2>Enhance Your Brand Presence with Premium-Quality Signage</h2>
+                        <h2>Enhance Your Brand Presence with High-Quality Signages</h2>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
                     <div class="carousel-caption-custom">
-                        <h2>India's Leading Sign Board Makers for Branded Signage Solutions</h2>
+                        <h2>India’s Leading Signage Company for Custom Branding Solutions</h2>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="brand-title">Best Signage Board Makers in Bangalore & India</h2>
+                    <h2 class="brand-title">Top Signage Company in Bangalore & India</h2>
                     <p class="brand-description">
                         The way in which you express your company's message visually and emotionally forms brand
                         identity. It is not just the logo, it includes other design elements, communication strategies,
@@ -253,7 +253,7 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12 contact-section">
-                    <h2>Your brand is the identity of your business. We are Branded Signages manufacturer to help you build & strengthen your identity with custom-made signage boards.</h2>
+                    <h2>Your brand identity speaks for your business. As reliable signage makers in Bangalore, we craft and manufacture custom signages to elevate your brand. Choose signage manufacturers in Bangalore for innovative and high-quality branding solutions.</h2>
                     <a href="tel:8006606080">
                         <button class="contact-btn">Contact Us</button>
                     </a>
@@ -794,7 +794,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Explore Expert Insights on Signages & Branding</h2>
-            <p class="card-text text-center">Discover the latest trends, tips, and expert insights in the signage industry through Brand Signages' informative blogs.</p>
+            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our informative blog. Stay ahead with <br>valuable updates and guidance from Brand Signages.</p>
 
         </div>
 
