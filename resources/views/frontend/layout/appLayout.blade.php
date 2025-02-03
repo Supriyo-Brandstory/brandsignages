@@ -14,7 +14,7 @@
     {{-- <link rel="icon" href="{{asset('frontend/Images/brandsignages-favicon.png')}}" type="image/x-icon"> --}}
 
 
-@if($blogSeoData)
+@if(!empty($blogSeoData))
     <title>{{ $blogSeoData['title'] ?? 'Brand Signages' }}</title>
     <meta name="description" content="{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}">
     <link rel="canonical" href="{{ $blogSeoData['canonical_url'] ?? url()->current() }}">
