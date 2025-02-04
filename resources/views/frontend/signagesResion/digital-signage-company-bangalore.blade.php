@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/digitalsign-bangalore1.webp')}}" alt="Digital Signage Manufacturer in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Digital Signage Manufacturer in Bangalore</h1>
+                    <h1>Digital Signage Manufacturers in Bangalore</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -22,16 +22,16 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/digitalsign-bangalore2.webp')}}" alt="Digital Signage Manufacturer in Bangalore" class="img-fluid">
+                    <img src="{{asset('frontend/Images/digitalsign-bangalore2.webp')}}" alt="Digital Signage Manufacturers in Bangalore" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Make your brand reach new peaks with digital signage displays that allure and engross your viewers. As prominent digital signage company in Bangalore we offer creative digital signage solutions to fulfill your business requirements. Whether you require a digital standee in Bangalore, a polished touchscreen kiosk, or a lively LED video wall, we have the ideal digital signage solution for you. Our contributions comprise floor-standing signage displays, rectangle digital displays, and LCD digital signage with extraordinary contrast ratios to guarantee that your message is exceptional.
+                    Make your brand reach new peaks with digital signage displays that allure and engross your viewers. As prominent blr digital signage vendors we offer creative digital signage solutions to fulfill your business requirements. Whether you require a digital standee, a polished touchscreen kiosk, or a lively LED video wall, we have the ideal digital signage solution for you. Our contributions comprise floor-standing signage displays, rectangle digital displays, and LCD digital signage with extraordinary contrast ratios to guarantee that your message is exceptional.
                 </p>  
                 <p class="brand-description">
-                    From digital signage boards, video walls to digital standee, we emphasize best signage displays that match your branding. We also render modern signage software for effortless content creation and handling. Whether it’s a spectacular video wall or a long-lasting floor stand display board, our products render unparalleled standards and output. Select Brand Signage for standardized digital signage displays in Bangalore, outlined to promote your advertising policy. With our inventive LED and digital signage kiosks, your brand will glow blazing throughout any channel. Let us modify your dream into reality with our innovative signage solutions today!
+                    From digital signages, video walls to digital standee, we emphasize best signage displays that match your branding. We also render modern signage software for effortless content creation and handling. Whether it’s a spectacular video wall or a floor stand display board, our products render unparalleled standards and output. Choose Brand Signages for standardized Bangalore digital signage services, designed to enhance and support your advertising strategy. With our inventive LED and digital signage kiosks, your brand will glow blazing throughout any channel. Let us modify your dream into reality with our innovative signage solutions today!
                 </p>
             </div>
         </div>
@@ -42,7 +42,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for Digital Signages</h2>
-            <p class="card-text text-center">With Brand Signages, a pioneer in digital signage solutions, you get flexible, dependable, and creative signage displays that uplift your marketing scheme seamlessly.</p>
+            <p class="card-text text-center">With Brand Signages, a pioneer among digital signage companies in Bangalore, you get flexible, dependable, and creative signage displays that seamlessly elevate your marketing strategy</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -425,22 +425,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/digitalsign-bangalore16.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore16.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore16.webp')}}" class="img-fluid" alt="digital signage companies in bangalore catalouge" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/digitalsign-bangalore17.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore17.webp')}}" class="img-fluid" alt="blr digital signage services catalogue"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/digitalsign-bangalore18.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore18.webp')}}" class="img-fluid" alt="digital signage advertising bangalore catalogue"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/digitalsign-bangalore19.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore19.webp')}}" class="img-fluid" alt="digital signage companies in chennai catalogue"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -449,22 +449,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/digitalsign-bangalore2.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore2.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore2.webp')}}" class="img-fluid" alt="digital signage companies in bangalore catalouge"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/digitalsign-bangalore21.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore21.webp')}}" class="img-fluid" alt="blr digital signage services catalogue"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/digitalsign-bangalore22.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore22.webp')}}" class="img-fluid" alt="digital signage company Bangalore catalogue"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/digitalsign-bangalore23.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/digitalsign-bangalore23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/digitalsign-bangalore23.webp')}}" class="img-fluid" alt="digital signage bangalore catalogue"  style="width: 100%;">
                 </a>
             </div>
         </div>

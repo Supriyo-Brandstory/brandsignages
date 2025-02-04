@@ -71,7 +71,7 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Commercial Grade Digital Signage Display <br> Manufacturer in Bangalore</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Commercial Grade Digital Signage <br> Manufacturers in India</h2>
             <p class="card-text text-center">Brand Signages stands as a leader in digital signage manufacturing, offering high-quality, 
                 commercial grade digital signage solutions. Our <br>custom solutions enhance visibility and engagement, making them perfect for 
                 advertising, sharing information, and boosting customer interaction.</p>
@@ -258,7 +258,7 @@
                         <img src="{{asset('frontend/Images/digital-sign8.webp')}}" alt="On-time installation" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">On-time installation</h5>
-                            <p class="text-content">Our team ensures on-time installation of all digital signage displays, 
+                            <p class="text-content">Our team ensures on-time installation of all digital signages, 
                                 minimizing downtime and allowing you to start reaping the benefits. We coordinate every aspect 
                                 of the installation process, thus ensuring a seamless transition from planning to execution.</p>
                         </div>
