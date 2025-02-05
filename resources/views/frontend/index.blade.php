@@ -16,7 +16,7 @@
                 <div class="carousel-item active">
                     <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
                     <div class="carousel-caption-custom">
-                        <h1>Leading Signage Manufacturers in Bangalore for Supirior Branding</h1>
+                        <h1>Leading Signage and Sign Board Manufacturers in Bangalore- Brand Signages</h1>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h2>Transform Your Business with Exceptional Signage Designs</h2>
+                        <h2>Transforming Brands with Modern Signage Solutions</h2>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
                     <div class="carousel-caption-custom">
-                        <h2>Trusted Signage Company in Bangalore for Quality and Innovation</h2>
+                        <h2>Trusted Signage Partner for 100+ Businesses</h2>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
 
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">Level Up Your Brand Image with<br> Brand Signages</h2>
+            <h2 class="hero-title">Level Up Your Brand Image with <br> Expert Signage Solution</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -54,24 +54,21 @@
                 <div class="col-lg-6">
                     <h2 class="brand-title">Top Signage Company in Bangalore & India</h2>
                     <p class="brand-description">
-                    At Brand Signages, we are the premier signage manufacturers in Bangalore with over 10 years of expertise in the signage
-                     industry. We design and manufacture premium-quality signages for businesses across Bangalore and all over India. 
+                        Brand Signages is the premier sign board manufacturers in Bangalore with over 10 years of rich  industry experience. We design and manufacture premium-quality signages for top companies across Bangalore and all over India. 
                     </p>
                     <p class="brand-description">
-                    Our commitment to quality, creativity, and customer satisfaction has earned us a strong reputation in the industry. 
-                    With a passion for excellence, we craft modern signage solutions that leave a lasting impression. 
-                    </p>
+                        Signage plays an important role in brand recognition, customer engagement, and business visibility. A well-designed sign not only enhances visual aesthetics but also serves as a powerful marketing tool. With a passion for excellence, we design modern signage solutions that leave a lasting impact. Here is how we do it:                    </p>
 
                     <ul class="process-list">
                         <li>
-                            We start by collaborating with you to understand your brand's essence, target audience, and communication goals.
+                            We start by collaborating with you to understand your industry type, brand's essence, target audience, and communication goals.
                         </li>
                         <li>
-                            Our designers then create detailed specifications, selecting colors, typography, and materials, using advanced technology
-                         for accurate brand replication.
+                            Our designers then create detailed specifications, selecting colors, typography, and materials, while leveraging advanced technology for accurate brand representation.
                         </li>
                         <li>
-                            Finally, we manufacture and conduct thorough quality control to ensure each signage meets visual and structural standards.
+                            Finally, we conduct thorough quality control to ensure each signage meets visual and structural standards.
+
                         </li>
                     </ul>
                 </div>
@@ -89,9 +86,7 @@
                             <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
                         </div>
                         <h3>On-demand Design</h3>
-                        <p>Our creative sign board manufacturer in Bangalore team provides flexible, personalized brand signage
-                            manufacturing services, transforming your conceptual ideas into compelling visual narratives
-                            for market positioning.</p>
+                        <p>Our creative team of sign board makers in Bangalore offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
                     </div>
                 </div>
 
@@ -122,9 +117,8 @@
 
     <section>
         <div class="container my-5">
-            <h2 class="text-center mb-5 card-heading">We are a Leading Brand Signage <br>Board Manufacturer in Bangalore, India</h2>
-            <p class="card-text text-center">With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. 
-                Our innovative designs and attention to detail ensure your brand message stands out in any setting.</p>
+            <h2 class="text-center mb-5 card-heading">We are a Leading Brand Sign Board <br>Manufacturer in Bangalore, India</h2>
+            <p class="card-text text-center">With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. Our innovative designs and attention to detail ensure your brand message stands out in any setting, whether it's for retail, corporate, or outdoor use. We specialize in:</p>
 
             <div class="row g-4 cards-row">
                 <div class="col-lg-3 col-md-6">

@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/coffee-shop-menu.webp')}}" alt="Acrylic Signage -Coffee Shop Menu">
                 <div class="carousel-caption-custom">
-                    <h1>Premium Acrylic & Plexiglass Signages for Your Space</h1>
+                    <h1>Premium Acrylic Signages to Showcase Your Brand </h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
@@ -17,7 +17,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">Boost Your Brand Recognition with Stylish Acrylic Signages</h2>
+        <h2 class="hero-title">Acrylic Sign Board – Modern & Versatile Signage Solution</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -27,24 +27,14 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">Acrylic & Plexiglass Signs</h2>
+                <h2 class="brand-title">Acrylic Signages Boards </h2>
                 <p class="brand-description">
-                Add a modern touch to your branding with premium acrylic signage from Brand Signages. Acrylic signboards are highly versatile, 
-                making them ideal for a variety of settings, from corporate offices to retail spaces and outdoor environments. As a reliable provider of 
-                acrylic signage boards, Brand Signages craft solutions that enhance your brand visibility. You can choose from various styles, such as clear 
-                plexiglass signs, transparent boards, and acrylic LED boards, ensuring a professional look that leaves a lasting impact.
+                    A well-designed office space speaks volumes about your brand’s professionalism, culture, and attention to detail. The moment a visitor steps into your office, they begin forming perceptions about your company. An aesthetically appealing reception or lobby creates an immediate sense of credibility and trust. One of the most effective ways to enhance this first impression is through premium Acrylic Signages that prominently showcase your brand identity. These visually striking acrylic signs not only add sophistication to your workspace but also reinforce brand recognition, making your office environment more inviting and engaging.
                 </p>
                 <p class="brand-description">
-                We offer a wide variety of acrylic signage solutions, including reception signs, office signs, wall signs, and more, ensuring you find the perfect option. 
-                Our premium edge-illuminated acrylic signs are ideal for enhancing your business’s appeal, made from transparent acrylic for a striking look. 
-                With years of expertise in sign printing, Brand Signages is your ideal partner for all your signage needs.
-                </p>
+                    At Brand Signages, we offer premium acrylic signage solutions designed for durability, versatility, and lasting impact. Whether you need indoor signage for corporate offices, retail stores, or event promotions, or outdoor signage for storefronts and public spaces, our acrylic sign boards deliver a sleek and modern look. Made from high-quality, weather-resistant acrylic, they ensure long-term performance while maintaining exceptional clarity and elegance. With custom design options, vibrant finishes, and precision-cut lettering, our Acrylic signage boards help businesses stand out with a polished, professional appearance.                 </p>
                 <p class="brand-description">
-                At <a href="https://brandsignages.com/" style="text-decoration: unset;color:#E43D12">Brand Signages</a>, we offer budget-friendly, high-quality acrylic signboards that are durable and elegant. Unlike glass or metal options, our 
-                acrylic signs are stylish, weather-resistant, and perfect for outdoor use. With years of expertise in signage design, we ensure each sign is 
-                crafted to suit your brand’s unique presence while offering easy installation, maintenance, and longevity. Whether you’re looking to install 
-                signs in busy city centers or elevate your business's presence, we provide sustainable, customizable acrylic solutions that enhance your brand image.
-                </p>
+                    With LED illumination options, 3D lettering, and custom engraving, you can create a dynamic visual impact that captures attention. Whether enhancing office interiors, reinforcing brand identity, or making your storefront more noticeable, our expertly crafted acrylic signage boards ensure maximum visibility and engagement.                </p>
 
             </div>
         </div>
@@ -245,6 +235,88 @@
     </div>
 </section>
 
+
+
+<section>
+    <div class="container py-5">
+        <h2 class="hero-title">Why Choose Us for Acrylic Signage Boards</h2>
+        <p class="card-text testimonial-card-text text-center pb-2">Acrylic LED signages are the talk of the town
+            because they combine aesthetics and practical functionality. <br> 
+            At Brand Signages, we offer acrylic LED signages that provide excellent value for money, delivering <br> 
+            long-lasting performance in any condition.</p>
+
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="showcase-image">
+                    <img src="{{asset('frontend/Images/acrylic-led-signages1.webp')}}" alt="Acrylic Led Signages Design" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <h2 class="brand-title">Enhanced Visibility</h2>
+                <p class="brand-description">
+                    Our modern acrylic LED signages ensures your brand stands out even in
+                    low-light conditions, attracting more attention. These signages can elevate 
+                    the appearance of your office or store, giving it a sleek, modern, and professional look.
+                </p>
+                <h2 class="brand-title">Dynamic Promotions</h2>
+                <p class="brand-description">
+                    With customizable colors and effects, businesses can change their messaging easily to reflect
+                    promotions or seasonal offers. Our acrylic sign boards are best for showing brand deals, limited-time
+                    offers, or attracting audience attention from people walking in the location.
+                </p>
+                <h2 class="brand-title">Energy Efficiency</h2>
+                <p class="brand-description">
+                    LED lights consume less power than traditional lighting options, reducing operational costs
+                    while providing consistent brightness. Our glow sign board will brilliantly present your brand
+                    to people, and turn them into potential customers.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container py-5">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6 order-2 order-lg-1">
+                <h2 class="brand-title">Durability</h2>
+                <p class="brand-description">
+                    Acrylic with LED technology creates a robust signage solution that withstands weather conditions
+                    without fading or deteriorating. We use premium and malleable materials to create versatile and
+                    durable products for brands. This is a practical solution compared to other display marketing
+                    products available in the market.
+                </p>
+                <h2 class="brand-title">Modern Aesthetic and Ease of Installation</h2>
+                <p class="brand-description">
+                    The sleek look of illuminated acrylic signages adds a contemporary touch to any business
+                    environment, enhancing overall brand perception. You can choose any color to illuminate the
+                    board and even the nature of the finish. You can engrave and emboss acrylic logos to boost the
+                    visual appeal and stand out from the competition.
+                </p>
+                <p class="brand-description">
+                At Brand Signages, we take pride in designing exceptional acrylic signages that not only boosts your brand 
+                visibility but also transforms your space with a sleek, contemporary flair. Crafted with precision, our acrylic 
+                LED boards are built to withstand the test of time, offering effortless installation and a lasting visual impact.
+                </p>
+                <p class="brand-description">
+                 Whether you're aiming to captivate attention in a corporate setting or create an unforgettable presence in retail, our innovative 
+                 signage solutions make sure your brand shines bright in any environment.
+                </p>
+            </div>
+
+            <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
+                <div class="showcase-image">
+                    <img src="{{asset('frontend/Images/acrylic-led-signages2.webp')}}" alt="Acrylic Led Signages" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 <section class="testimonial section ">
     <div class="container">
         <div class="text-center mb-5">
@@ -505,87 +577,6 @@
                 <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
             </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container py-5">
-        <h2 class="hero-title">Why Choose Us for Acrylic Signage Boards</h2>
-        <p class="card-text testimonial-card-text text-center pb-2">Acrylic LED signages are the talk of the town
-            because they combine aesthetics and practical functionality. <br> 
-            At Brand Signages, we offer acrylic LED signages that provide excellent value for money, delivering <br> 
-            long-lasting performance in any condition.</p>
-
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/acrylic-led-signages1.webp')}}" alt="Acrylic Led Signages Design" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <h2 class="brand-title">Enhanced Visibility</h2>
-                <p class="brand-description">
-                    Our modern acrylic LED signages ensures your brand stands out even in
-                    low-light conditions, attracting more attention. These signages can elevate 
-                    the appearance of your office or store, giving it a sleek, modern, and professional look.
-                </p>
-                <h2 class="brand-title">Dynamic Promotions</h2>
-                <p class="brand-description">
-                    With customizable colors and effects, businesses can change their messaging easily to reflect
-                    promotions or seasonal offers. Our acrylic sign boards are best for showing brand deals, limited-time
-                    offers, or attracting audience attention from people walking in the location.
-                </p>
-                <h2 class="brand-title">Energy Efficiency</h2>
-                <p class="brand-description">
-                    LED lights consume less power than traditional lighting options, reducing operational costs
-                    while providing consistent brightness. Our glow sign board will brilliantly present your brand
-                    to people, and turn them into potential customers.
-                </p>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container py-5">
-
-        <div class="row align-items-center">
-
-            <div class="col-lg-6 order-2 order-lg-1">
-                <h2 class="brand-title">Durability</h2>
-                <p class="brand-description">
-                    Acrylic with LED technology creates a robust signage solution that withstands weather conditions
-                    without fading or deteriorating. We use premium and malleable materials to create versatile and
-                    durable products for brands. This is a practical solution compared to other display marketing
-                    products available in the market.
-                </p>
-                <h2 class="brand-title">Modern Aesthetic and Ease of Installation</h2>
-                <p class="brand-description">
-                    The sleek look of illuminated acrylic signages adds a contemporary touch to any business
-                    environment, enhancing overall brand perception. You can choose any color to illuminate the
-                    board and even the nature of the finish. You can engrave and emboss acrylic logos to boost the
-                    visual appeal and stand out from the competition.
-                </p>
-                <p class="brand-description">
-                At Brand Signages, we take pride in designing exceptional acrylic signages that not only boosts your brand 
-                visibility but also transforms your space with a sleek, contemporary flair. Crafted with precision, our acrylic 
-                LED boards are built to withstand the test of time, offering effortless installation and a lasting visual impact.
-                </p>
-                <p class="brand-description">
-                 Whether you're aiming to captivate attention in a corporate setting or create an unforgettable presence in retail, our innovative 
-                 signage solutions make sure your brand shines bright in any environment.
-                </p>
-            </div>
-
-            <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/acrylic-led-signages2.webp')}}" alt="Acrylic Led Signages" class="img-fluid">
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
