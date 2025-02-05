@@ -16,7 +16,7 @@
                 <div class="carousel-item active">
                     <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
                     <div class="carousel-caption-custom">
-                        <h1>Leading Signage and Sign Board Manufacturers in Bangalore- Brand Signages</h1>
+                        <h1>Expert Signage & Sign Board Manufacturers in Bangalore- Brand Signages</h1>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
 
     <section>
         <div class="container my-5">
-            <h2 class="text-center mb-5 card-heading">We are a Leading Brand Sign Board <br>Manufacturer in Bangalore, India</h2>
+            <h2 class="text-center mb-5 card-heading">We are a Leading Sign Board <br>Manufacturer in Bangalore, India</h2>
             <p class="card-text text-center">With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. Our innovative designs and attention to detail ensure your brand message stands out in any setting, whether it's for retail, corporate, or outdoor use. We specialize in:</p>
 
             <div class="row g-4 cards-row">
