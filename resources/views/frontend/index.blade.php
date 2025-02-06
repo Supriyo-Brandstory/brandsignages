@@ -779,7 +779,7 @@
 
     <section class="faq-section">
         <div class="faq-container">
-            <h1 class="faq-title">FAQS</h1>
+            <h1 class="faq-title">FAQs</h1>
 
             <div class="faq-item">
                 <button class="faq-question">
