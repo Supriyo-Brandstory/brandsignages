@@ -16,7 +16,7 @@
                 <div class="carousel-item active">
                     <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
                     <div class="carousel-caption-custom">
-                        <h1>Expert Signage & Sign Board Manufacturers in Bangalore- Brand Signages</h1>
+                        <h1>Expert Sign Board Manufacturers in Bangalore- Brand Signages</h1>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h2>Transforming Brands with Modern Signage Solutions</h2>
+                        <h2>Revolutionizing Brands with Modern Signage Solutions</h2>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
                     <div class="carousel-caption-custom">
-                        <h2>Trusted Signage Partner for 100+ Businesses</h2>
+                        <h2>Reliable Signage Partner for 100+ Businesses</h2>
                         <button class="custom-btn">Know More</button>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
 
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">Level Up Your Brand Image with <br> Expert Signage Solution</h2>
+            <h2 class="hero-title">Enhance Your Brand Recognition <br>with Brand Signages</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -52,12 +52,12 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="brand-title">Top Signage Company in Bangalore & India</h2>
+                    <h2 class="brand-title">#1 Sign Board Makers in Bangalore </h2>
                     <p class="brand-description">
                         Brand Signages is the premier sign board manufacturers in Bangalore with over 10 years of rich  industry experience. We design and manufacture premium-quality signages for top companies across Bangalore and all over India. 
                     </p>
                     <p class="brand-description">
-                        Signage plays an important role in brand recognition, customer engagement, and business visibility. A well-designed sign not only enhances visual aesthetics but also serves as a powerful marketing tool. With a passion for excellence, we design modern signage solutions that leave a lasting impact. Here is how we do it:                    </p>
+                        Signage plays an important role in brand recognition, customer engagement, and business visibility. A well-designed sign not only enhances visual aesthetics but also serves as a powerful marketing tool. With a passion for excellence, we design modern LED signage and digital signage solutions that leave a lasting impact. Here is how we do it:                    </p>
 
                     <ul class="process-list">
                         <li>
@@ -117,7 +117,7 @@
 
     <section>
         <div class="container my-5">
-            <h2 class="text-center mb-5 card-heading">We are a Leading Sign Board <br>Manufacturer in Bangalore, India</h2>
+            <h2 class="text-center mb-5 card-heading">Services We Offer as a Leading <br>Signage Company in Bangalore</h2>
             <p class="card-text text-center">With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. Our innovative designs and attention to detail ensure your brand message stands out in any setting, whether it's for retail, corporate, or outdoor use. We specialize in:</p>
 
             <div class="row g-4 cards-row">
@@ -136,23 +136,22 @@
                     <div class="card">
                         <img src="{{asset('frontend/Images/rectangular-signages.webp')}}" class="card-img-top" alt="Rectangular and Die-cut Signs">
                         <div class="card-body">
-                            <h5 class="card-title">Rectangular and Die-cut Signs</h5>
-                            <p class="card-text">As leading signage board makers in Bangalore & India, we craft rectangular signs that
-                                deliver clean, professional messaging. Our expertise ensures versatile, sleek designs
-                                that provide maximum visual impact with crisp brand communication across various
-                                applications.</p>
+                            <h5 class="card-title">Metal & Steel Signages</h5>
+                            <p class="card-text">As leading signage board makers, we craft stainless steel signs that deliver clean, professional messaging. 
+                                Our expertise ensures versatile, sleek designs that provide maximum visual impact with crisp brand communication across 
+                                various applications.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
-                        <img src="{{asset('frontend/Images/storefront-signages.webp')}}" class="card-img-top" alt="Storefront Signage">
+                        <img src="{{asset('frontend/Images/led-sign-new.webp')}}" class="card-img-top" alt="Storefront Signage">
                         <div class="card-body">
-                            <h5 class="card-title">Storefront Signage</h5>
-                            <p class="card-text">We have been named among top-tier sign board manufacturers for creating
-                            <a href="https://brandsignages.com/outdoor-signages" style="text-decoration: unset;color:#E43D12">storefront outdoor signage</a>. These transform exterior spaces into powerful visual statements,
-                                attracting potential customers with strategic designs that blend aesthetic appeal and
-                                compelling brand communication.</p>
+                            <h5 class="card-title">LED Signages</h5>
+                            <p class="card-text">We have been named among top-tier LED sign board manufacturers for crafting stunning 
+                                <a href="https://brandsignages.com/led-sign-board-in-bangalore" style="text-decoration: unset;color:#E43D12">LED Signages</a>. 
+                                These transform your spaces into powerful visual statements, attracting potential customers with strategic designs that blend 
+                                aesthetic appeal and compelling brand communication.</p>
                         </div>
                     </div>
                 </div>
@@ -160,9 +159,9 @@
                     <div class="card">
                         <img src="{{asset('frontend/Images/window-graphics.webp')}}" class="card-img-top" alt="Window Graphics">
                         <div class="card-body">
-                            <h5 class="card-title">Window Graphics</h5>
+                            <h5 class="card-title">Outdoor Signages</h5>
                             <p class="card-text">As expert signage board makers, we turn ordinary glass into
-                                extraordinary brand canvases. Our window graphics create immersive visual experiences,
+                                extraordinary brand canvases. Our outdoor signages create immersive visual experiences,
                                 balancing privacy with powerful messaging. These signage manufacturer innovations
                                 transform windows into strategic marketing tools that truly engage audiences.</p>
                         </div>
@@ -182,11 +181,11 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
-                        <img src="{{asset('frontend/Images/pop-display.webp')}}" class="card-img-top" alt="Pop Displays">
+                        <img src="{{asset('frontend/Images/digital-sign.webp')}}" class="card-img-top" alt="Pop Displays">
                         <div class="card-body">
-                            <h5 class="card-title">Pop Displays</h5>
+                            <h5 class="card-title">Digital Signages</h5>
                             <p class="card-text">Signage manufacturers know the power of <a href="https://brandsignages.com/digital-signages" style="text-decoration: unset;color:#E43D12">digital display</a> - dynamic,
-                                attention-grabbing installations that transform retail spaces. Our brand signage
+                                attention-grabbing installations that transform retail spaces. Our digital signage
                                 solutions create interactive experiences that turn browsing into buying, delivering
                                 marketing magic through creative and strategic visual storytelling.</p>
                         </div>
@@ -208,7 +207,7 @@
                         <img src="{{asset('frontend/Images/tradeshow-signage.webp')}}" class="card-img-top" alt="Event and Tradeshow Sign">
                         <div class="card-body">
                             <h5 class="card-title">Event and Tradeshow Sign</h5>
-                            <p class="card-text">Our brand signage creates immersive experiences in crowded spaces.
+                            <p class="card-text">Our signage creates immersive experiences in crowded spaces.
                                 Designed by expert signboard manufacturers, these displays transform temporary
                                 environments into powerful platforms for compelling brand storytelling.</p>
                         </div>
@@ -231,11 +230,10 @@
                         <img src="{{asset('frontend/Images/indoor-outdoor-banner.webp')}}" class="card-img-top"
                             alt="Indoor & Outdoor Banner">
                         <div class="card-body">
-                            <h5 class="card-title">Indoor & Outdoor Banner</h5>
-                            <p class="card-text">These banners are versatile brand communicators for both indoor and
-                                outdoor spaces. They can withstand diverse environments, and deliver consistent,
-                                high-impact messaging. <a href="https://brandsignages.com/indoor-signages" style="text-decoration: unset;color:#E43D12">Indoor signages</a> can change any space into a brand communication
-                                platform and offer weather-resistant functionalities.</p>
+                            <h5 class="card-title">Indoor Signages</h5>
+                            <p class="card-text">TIndoor signages are versatile brand communicators for commercial and retail spaces. 
+                                They can improve internal communication, and deliver consistent,
+                                high-impact messaging. <a href="https://brandsignages.com/indoor-signages" style="text-decoration: unset;color:#E43D12">Indoor signages</a> can transform any space into a brand communication platform and offer lasting durability.</p>
                         </div>
                     </div>
                 </div>
@@ -255,10 +253,9 @@
     <section class="why-bg-light-pink py-5">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-4 mb-3 why-text-heading">Why Choose Us as<br> Your Signage Company</h2>
-                <p class="card-text">Discover why we are the preferred choice for businesses seeking top-tier 
-                    signage boards. Our commitment to quality, creativity, and timely delivery sets us apart 
-                    in the industry.</p>
+                <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>Your Signage Needs?</h2>
+                <p class="card-text">With a team of expert designers and skilled craftsmen, we deliver high-quality signage solutions. 
+                    Our expertise ensures your brand captures customer attention effectively.</p>
             </div>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -430,7 +427,7 @@
         <div class="row g-4 d-flex flex-wrap justify-content-center">
 
             <div class="text-center ">
-                <h2 class="display-4 mb-3 why-text-heading">Brand Signage That Leaves a Lasting Impression</h2>
+                <h2 class="display-4 mb-3 why-text-heading">Signage That Leaves a Lasting Impression</h2>
             </div>
 
             <div class="col-lg-4">
@@ -451,8 +448,8 @@
                         <div class="image-container position-relative">
                             <img src="{{asset('frontend/Images/pop-displays.webp')}}" alt="Pop Displays" class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Pop Displays</h5>
-                                <p class="text-content">As a signboard manufacturer, we know that dynamic pop displays
+                                <h5 class="text-title">LED Sign Boards</h5>
+                                <p class="text-content">As a LED signboard manufacturer, we know that dynamic LED displays
                                     can change retail spaces into interactive brand stories. These eye-catching
                                     installations capture attention, especially with LED letters to drive impulse
                                     purchases and create immersive experiences. These will engage customers, and turn
@@ -506,7 +503,7 @@
     <section class="testimonial section ">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-4 mb-3 why-text-heading">Customer Testimonial</h2>
+                <h2 class="display-4 mb-3 why-text-heading">Feedback from Our Valuable Clients</h2>
             </div>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none ">
@@ -778,38 +775,7 @@
             </div>
         </div>
     </section>
-<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Explore Expert Insights on Signages & Branding</h2>
-            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our informative blog. Stay ahead with <br>valuable updates and guidance from Brand Signages.</p>
 
-        </div>
-
-        <div class="row">
-            @foreach ($blogs as $blog)
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
-                    <div class="blog-card">
-                        <div class="blog-card-img">
-                            <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
-                        </div>
-                        <div class="blog-card-body">
-                            <div class="d-flex justify-content-between align-items-center mb-2">
-                                <span class="badge">{{ strtoupper($blog->topic) }}</span>
-                                <span class="time">{{ $blog->reding_time }} mins 🕘</span>
-                            </div>
-                            <h5 class="blog-card-title">{{ $blog->title }}</h5>
-                            <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            @endforeach
-        </div>
-    </div>
-</section>
 
     <section class="faq-section">
         <div class="faq-container">
@@ -987,6 +953,40 @@
             </div>
         </div>
     </section>
+
+<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
+            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our articles.</p>
+
+        </div>
+
+        <div class="row">
+            @foreach ($blogs as $blog)
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
+                    <div class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge">{{ strtoupper($blog->topic) }}</span>
+                                <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+                            </div>
+                            <h5 class="blog-card-title">{{ $blog->title }}</h5>
+                            <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            @endforeach
+        </div>
+    </div>
+</section>
+
     @endsection
 
     
