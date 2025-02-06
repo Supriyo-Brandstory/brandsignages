@@ -203,7 +203,7 @@
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Chennai</h6>
-                                        <a class="dropdown-item" href="#">Signages in Chennai</a>
+                                        <a class="dropdown-item" href="{{route('signage_company_in_chennai')}}">Signages in Chennai</a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Delhi</h6>

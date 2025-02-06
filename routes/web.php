@@ -42,7 +42,7 @@ Route::get('/blogs/{slug?}', [frontendController::class, 'blogsVariation'])->nam
 Route::get('/privacy-policy', [frontendController::class, 'privacyPolicy'])->name('privacyPolicy');
 Route::get('/terms-and-conditions', [frontendController::class, 'termsAndConditions'])->name('termsAndConditions');
 Route::get('/author-manoj-kaliyannan', [frontendController::class, 'bala_kumaranan'])->name('bala_kumaranan');
-
+Route::get('/signage-in-chennai', [frontendController::class, 'signage_company_in_chennai'])->name('signage_company_in_chennai');
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');
 
 Auth::routes();

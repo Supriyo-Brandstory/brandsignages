@@ -345,4 +345,10 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.author-bala-kumaran', compact('seo'));
     }
+    public function signage_company_in_chennai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.signages-in-chennai', compact('seo'));
+    }
 }
