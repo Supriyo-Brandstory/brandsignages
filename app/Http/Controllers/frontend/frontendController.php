@@ -351,4 +351,10 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.signages-in-chennai', compact('seo'));
     }
+    public function acrylic_signages_in_chennai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.acrylic-signages-in-chennai', compact('seo'));
+    }
 }

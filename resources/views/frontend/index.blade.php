@@ -983,6 +983,11 @@
                 </a>
             </div>
             @endforeach
+            <div class="text-center">
+            <a href="{{ route('blogs') }}">
+                <button class="contact-btn">See All Blogs</button>
+            </a>
+            </div>
         </div>
     </div>
 </section>

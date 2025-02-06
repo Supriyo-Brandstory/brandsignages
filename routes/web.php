@@ -43,6 +43,7 @@ Route::get('/privacy-policy', [frontendController::class, 'privacyPolicy'])->nam
 Route::get('/terms-and-conditions', [frontendController::class, 'termsAndConditions'])->name('termsAndConditions');
 Route::get('/author-manoj-kaliyannan', [frontendController::class, 'bala_kumaranan'])->name('bala_kumaranan');
 Route::get('/signage-in-chennai', [frontendController::class, 'signage_company_in_chennai'])->name('signage_company_in_chennai');
+Route::get('/acrylic-signages-in-chennai', [frontendController::class, 'acrylic_signages_in_chennai'])->name('acrylic_signages_in_chennai');
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');
 
 Auth::routes();

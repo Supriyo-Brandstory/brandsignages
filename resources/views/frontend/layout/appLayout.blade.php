@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     
-    <link rel="icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
+    {{-- <link rel="icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
 <link rel="shortcut icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
-<link rel="apple-touch-icon" sizes="180x180" href="{{asset('favicon.ico')}}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{asset('favicon.ico')}}"> --}}
 
+<link rel="icon" href="https://brandsignages.com/favicon-32x32.ico" sizes="32x32" type="image/x-icon" />
+
+<link rel="icon" href="https://brandsignages.com/favicon.ico" sizes="48x48" type="image/x-icon">
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://brandsignages.com/favicon-180x180.ico">
 
     {{-- <link rel="icon" href="{{asset('frontend/Images/brandsignages-favicon.png')}}" type="image/x-icon"> --}}
 
@@ -204,6 +209,7 @@
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Chennai</h6>
                                         <a class="dropdown-item" href="{{route('signage_company_in_chennai')}}">Signages in Chennai</a>
+                                        <a class="dropdown-item" href="{{route('acrylic_signages_in_chennai')}}">Acrylic Signages in Chennai</a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Delhi</h6>
