@@ -44,7 +44,12 @@ Route::get('/terms-and-conditions', [frontendController::class, 'termsAndConditi
 Route::get('/author-manoj-kaliyannan', [frontendController::class, 'bala_kumaranan'])->name('bala_kumaranan');
 Route::get('/signage-in-chennai', [frontendController::class, 'signage_company_in_chennai'])->name('signage_company_in_chennai');
 Route::get('/acrylic-signages-in-chennai', [frontendController::class, 'acrylic_signages_in_chennai'])->name('acrylic_signages_in_chennai');
+Route::get('/metal-and-stainless-steel-sign-boards-in-chennai', [frontendController::class, 'metal_sign_in_chennai'])->name('metal_sign_in_chennai');
+Route::get('/leading-digital-signage-in-chennai', [frontendController::class, 'leading_digital_signages_manufacturer_in_chennai'])->name('leading_digital_signages_manufacturer_in_chennai');
+Route::get('/contact-us', [frontendController::class, 'contact_us'])->name('contact_us');
+Route::post('/contact-us', [frontendController::class, 'store'])->name('contact.store');
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');
+
 
 Auth::routes();
 

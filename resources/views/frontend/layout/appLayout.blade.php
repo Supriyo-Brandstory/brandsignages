@@ -210,6 +210,8 @@
                                         <h6 class="dropdown-header">Chennai</h6>
                                         <a class="dropdown-item" href="{{route('signage_company_in_chennai')}}">Signages in Chennai</a>
                                         <a class="dropdown-item" href="{{route('acrylic_signages_in_chennai')}}">Acrylic Signages in Chennai</a>
+                                        <a class="dropdown-item" href="{{route('metal_sign_in_chennai')}}">Metal Signages in Chennai</a>
+                                        <a class="dropdown-item" href="{{route('leading_digital_signages_manufacturer_in_chennai')}}"> Digital Signage in Chennai</a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Delhi</h6>
@@ -228,7 +230,7 @@
                     </li> --}}
                     <li class="nav-item ms-3">
                         <a href="tel:8006606080">
-                            <button class="contact-btn">Contact Us</button>
+                            <button class="contact-btn">Call Now</button>
                         </a>
                     </li>
                 </ul>
@@ -285,7 +287,7 @@
                         <a href="#">About</a>
                         {{-- <a href="#">Resources</a> --}}
 
-                        <a href="#">Contact</a>
+                        <a href="{{route('contact_us')}}">Contact</a>
                     </nav>
                 </div>
             </div>

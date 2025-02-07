@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Blog;
 use App\Models\BlogCategory;
 use App\Models\BlogSubCategory;
+use App\Models\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\SEO;
@@ -357,4 +358,37 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.acrylic-signages-in-chennai', compact('seo'));
     }
+    public function metal_sign_in_chennai (){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.metal-stainless-steel-chennai', compact('seo'));
+        
+    }
+    public function leading_digital_signages_manufacturer_in_chennai(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.leading-digital-signages-manufacturer-in-chennai', compact('seo'));
+    }
+    public function contact_us()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.contact-us', compact('seo'));
+    }
+
+    public function store(Request $request)
+    {
+        $request->validate([
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phone_number' => 'required|string|max:20',
+            'message' => 'nullable|string|max:5000',
+        ]);
+
+        Contact::create($request->all());
+
+        return redirect()->back()->with('success', 'Your message has been sent successfully!');
+    }
+   
 }

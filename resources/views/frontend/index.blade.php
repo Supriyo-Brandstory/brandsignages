@@ -17,7 +17,9 @@
                     <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
                     <div class="carousel-caption-custom">
                         <h1>Expert Sign Board Manufacturers in Bangalore- Brand Signages</h1>
-                        <button class="custom-btn">Know More</button>
+                        <div class="mt-4">
+                        <a  href="tel:+91 8006606080" class="custom-btn">Call Now</a>
+                        </div>
                     </div>
                 </div>
 
@@ -33,7 +35,9 @@
                     <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
                     <div class="carousel-caption-custom">
                         <h2>Reliable Signage Partner for 100+ Businesses</h2>
-                        <button class="custom-btn">Know More</button>
+                        <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Contact Us</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,7 +138,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
-                        <img src="{{asset('frontend/Images/rectangular-signages.webp')}}" class="card-img-top" alt="Rectangular and Die-cut Signs">
+                        <img src="{{asset('frontend/Images/rectangular-signages.webp')}}" class="card-img-top" alt="Metal Signage Manufacturer in Bangalore">
                         <div class="card-body">
                             <h5 class="card-title">Metal & Steel Signages</h5>
                             <p class="card-text">As leading signage board makers, we craft stainless steel signs that deliver clean, professional messaging. 
@@ -157,7 +161,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
-                        <img src="{{asset('frontend/Images/window-graphics.webp')}}" class="card-img-top" alt="Window Graphics">
+                        <img src="{{asset('frontend/Images/window-graphics.webp')}}" class="card-img-top" alt="outdoor Signage Manufacturer in Bangalore">
                         <div class="card-body">
                             <h5 class="card-title">Outdoor Signages</h5>
                             <p class="card-text">As expert signage board makers, we turn ordinary glass into
@@ -181,7 +185,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
-                        <img src="{{asset('frontend/Images/digital-sign.webp')}}" class="card-img-top" alt="Pop Displays">
+                        <img src="{{asset('frontend/Images/digital-sign.webp')}}" class="card-img-top" alt="digital signage">
                         <div class="card-body">
                             <h5 class="card-title">Digital Signages</h5>
                             <p class="card-text">Signage manufacturers know the power of <a href="https://brandsignages.com/digital-signages" style="text-decoration: unset;color:#E43D12">digital display</a> - dynamic,
@@ -193,7 +197,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
-                        <img src="{{asset('frontend/Images/reflective-signs.webp')}}" class="card-img-top" alt="Reflective Signs">
+                        <img src="{{asset('frontend/Images/reflective-signs.webp')}}" class="card-img-top" alt="Construction Safety Signage Manufacturer in Bangalore">
                         <div class="card-body">
                             <h5 class="card-title">Reflective Signs</h5>
                             <p class="card-text">As innovative signage board makers in India, we engineer <a href="https://brandsignages.com/construction-safety-signages" style="text-decoration: unset;color:#E43D12">reflective construction safety signs</a> that
@@ -228,7 +232,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <img src="{{asset('frontend/Images/indoor-outdoor-banner.webp')}}" class="card-img-top"
-                            alt="Indoor & Outdoor Banner">
+                            alt=" Indoor Signage Manufacturer in Bangalore">
                         <div class="card-body">
                             <h5 class="card-title">Indoor Signages</h5>
                             <p class="card-text">TIndoor signages are versatile brand communicators for commercial and retail spaces. 
@@ -240,7 +244,7 @@
 
                 <div class="col-lg-6 col-md-12 contact-section">
                     <h2>Your brand identity speaks for your business. As trusted signage makers in Bangalore, we design custom signages that engage your customers. Choose us for innovative, high-quality signage solutions.</h2>
-                    <a href="tel:8006606080">
+                    <a href="{{route('contact_us')}}">
                         <button class="contact-btn">Contact Us</button>
                     </a>
                 </div>
@@ -446,7 +450,7 @@
                 <div class="row g-4">
                     <div class="col-lg-6">
                         <div class="image-container position-relative">
-                            <img src="{{asset('frontend/Images/pop-displays.webp')}}" alt="Pop Displays" class="w-100 h-100">
+                            <img src="{{asset('frontend/Images/pop-displays.webp')}}" alt="LED Signage Manufacturing Company in Bangalore" class="w-100 h-100">
                             <div class="overlay">
                                 <h5 class="text-title">LED Sign Boards</h5>
                                 <p class="text-content">As a LED signboard manufacturer, we know that dynamic LED displays
@@ -473,7 +477,7 @@
 
                     <div class="col-lg-8">
                         <div class="image-container position-relative">
-                            <img src="{{asset('frontend/Images/corporate-offices.webp')}}" alt="Corporate Offices" class="w-100 h-100">
+                            <img src="{{asset('frontend/Images/corporate-offices.webp')}}" alt="Office Signage manufacturing Company in Bangalore" class="w-100 h-100">
                             <div class="overlay">
                                 <h5 class="text-title">Corporate Offices</h5>
                                 <p class="text-content">Corporate office signage reflects your company's theme-
@@ -486,7 +490,7 @@
 
                     <div class="col-lg-4">
                         <div class="image-container position-relative">
-                            <img src="{{asset('frontend/Images/storefronts.webp')}}" alt="Storefronts" class="w-100 h-100">
+                            <img src="{{asset('frontend/Images/storefronts.webp')}}" alt="LED Signage manufacturing Company in Bangalore" class="w-100 h-100">
                             <div class="overlay">
                                 <h5 class="text-title">Storefronts</h5>
                                 <p class="text-content">Your storefront deserves glow sign boards for visual appeal,

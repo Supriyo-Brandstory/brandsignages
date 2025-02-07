@@ -34,10 +34,16 @@
                 <span>Sitemap</span>
             </a>
         </li>
-        <li class="nav-item {{ Route::is('show.export.page') ? 'active' : ''}}">
+        {{-- <li class="nav-item {{ Route::is('show.export.page') ? 'active' : ''}}">
             <a class="nav-link " href="{{route('show.export.page')}}">
                 <i class="bi bi-grid"></i>
                 <span>Export Database</span>
+            </a>
+        </li> --}}
+        <li class="nav-item {{ Route::is('contacts*') ? 'active' : ''}}">
+            <a class="nav-link " href="{{route('contacts.index')}}">
+                <i class="bi bi-grid"></i>
+                <span>Contacts</span>
             </a>
         </li>
 

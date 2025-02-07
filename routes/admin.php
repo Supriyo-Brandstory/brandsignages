@@ -7,6 +7,8 @@ use App\Http\Controllers\admin\seo\SEOController;
 use App\Http\Controllers\admin\sitemap\SitemapController;
 use App\Http\Controllers\admin\Blog\CategoryController;
 use App\Http\Controllers\admin\DatabaseController;
+use App\Http\Controllers\admin\query\contactController;
+use App\Models\Contact;
 use Illuminate\Support\Facades\Route;
 
 Route::get('admin/login', [AuthController::class, 'showLogin'])->name('admin.showlogin');
@@ -22,6 +24,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::get('categories/{id}/edit/{type}', [CategoryController::class, 'edit'])->name('categories.edit');
     Route::delete('subcategories/{id}', [CategoryController::class, 'subcategorydestroy'])->name('subcategories.destroy');
     route::resource('blogs', BlogController::class);
+    route::resource('contacts', contactController::class);
 
 // Route to show the export page
 Route::get('/export-database', [DatabaseController::class, 'showExportPage'])->name('show.export.page');

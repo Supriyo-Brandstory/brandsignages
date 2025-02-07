@@ -1117,3 +1117,15 @@ section.footer {
 .carousel-caption-custom h2 {
     font-family: 'Lora', serif;
 }
+a.custom-btn{
+    background-color: #E43D12;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
