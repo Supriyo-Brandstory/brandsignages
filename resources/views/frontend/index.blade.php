@@ -46,7 +46,7 @@
 
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">Enhance Your Brand Recognition <br>with Brand Signages</h2>
+            <h2 class="hero-title">Enhance Visibility & Brand <br>Recognition with Brand Signages</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -56,7 +56,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="brand-title">#1 Sign Board Makers in Bangalore </h2>
+                    <h2 class="brand-title">Best Sign Board Makers in Bangalore </h2>
                     <p class="brand-description">
                         Brand Signages is the premier sign board manufacturers in Bangalore with over 10 years of rich  industry experience. We design and manufacture premium-quality signages for top companies across Bangalore and all over India. 
                     </p>
@@ -121,7 +121,7 @@
 
     <section>
         <div class="container my-5">
-            <h2 class="text-center mb-5 card-heading">Services We Offer as a Leading <br>Signage Company in Bangalore</h2>
+            <h2 class="text-center mb-5 card-heading">Services We Offer as Leading <br>Sign Board Manufacturers in Bangalore</h2>
             <p class="card-text text-center">With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. Our innovative designs and attention to detail ensure your brand message stands out in any setting, whether it's for retail, corporate, or outdoor use. We specialize in:</p>
 
             <div class="row g-4 cards-row">
@@ -787,11 +787,64 @@
 
             <div class="faq-item">
                 <button class="faq-question">
+                    What is Signage Used for?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Signage is used for various purposes across different industries to communicate messages, enhance branding, and enhance navigation. Here are the key uses of signage:</p>
+                    <ul>
+                        <li>Branding & Marketing – Businesses use signage to display their logo, promote offers, and enhance brand visibility.</li>
+                        <li>Wayfinding & Navigation – Helps people find directions in malls, hospitals, offices, and public spaces.</li>
+                        <li>Safety & Compliance – Includes fire safety signs, construction signs, and hazard warnings to ensure safety.</li>
+                        <li>Retail & Advertising – Digital and traditional signage in stores to promote products and boost sales.</li>
+                        <li>Corporate & Office Use – Nameplates, department signs, and meeting room displays for organization and professionalism.</li>
+                        <li>Event & Exhibition Signage – Used for banners, standees, and digital screens to guide attendees.</li>
+                        <li>Informational Signage – Displays important messages, notices, or public announcements.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How Do I Choose a Signage?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Choosing a signage depends on many factors, including your business type, location, and branding goals. Here’s how to make the right choice:</p>
+                    <ul>
+                        <li>Purpose – Determine whether the signage is for branding, wayfinding, promotions, or safety.</li>
+                        <li>Location & Visibility – Choose signage that stands out in your environment, whether indoor or outdoor.</li>
+                        <li>Right Material – Opt for durable materials based on weather conditions and usage.</li>
+                        <li>Design & Readability – Ensure the signage has clear fonts, high-contrast colors, and an eye-catching design.</li>
+                        <li>The Right Lighting – Consider LED or illuminated signs for better visibility, especially at night.</li>
+                        <li>Hire Professionals – Collaborate with expert sign board manufacturers to get a high-quality, customized solution.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    Is Digital Signage Expensive?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>The cost of digital signage depends on various factors like screen size, technology, content management software, and installation. 
+                        While the investment can be much higher than traditional signage, digital signage offers long-term benefits such as dynamic content 
+                        updates, scalability, and better engagement.</p>
+                    <ul>
+                        <li>Basic Digital Signage (Small Screens): Starts from ₹15,000 to ₹50,000.</li>
+                        <li>Large LED Walls & Interactive Displays: Can cost ₹1,00,000 to ₹10,00,000+ </li>
+                        <li>Ongoing Costs: Ranging from ₹5,000 to ₹50,000 per month based on requirements</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
                     What are the types of signage products do you offer?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>As signage board makers, we provide a diverse range of solutions to businesses such as:</p>
+                    <p>As sign board makers, we provide a diverse range of solutions to businesses such as:</p>
                     <ul>
                         <li><a href="https://brandsignages.com/neon-signages" style="text-decoration: unset;color:#E43D12">Glow signboard</a></li>
                         <li>Acp signboard</li>
