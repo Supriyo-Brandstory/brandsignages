@@ -1129,3 +1129,8 @@ a.custom-btn{
     transition: all 0.3s ease;
     text-decoration: none;
 }
+.number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e43d12;
+}

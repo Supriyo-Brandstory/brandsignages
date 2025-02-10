@@ -46,6 +46,8 @@ Route::get('/signage-in-chennai', [frontendController::class, 'signage_company_i
 Route::get('/acrylic-signages-in-chennai', [frontendController::class, 'acrylic_signages_in_chennai'])->name('acrylic_signages_in_chennai');
 Route::get('/metal-and-stainless-steel-sign-boards-in-chennai', [frontendController::class, 'metal_sign_in_chennai'])->name('metal_sign_in_chennai');
 Route::get('/leading-digital-signage-in-chennai', [frontendController::class, 'leading_digital_signages_manufacturer_in_chennai'])->name('leading_digital_signages_manufacturer_in_chennai');
+Route::get('/custom-neon-sign-boards-in-chennai', [frontendController::class, 'custom_neon_sign_board_in_chennai'])->name('custom_neon_sign_board_in_chennai');
+Route::get('/about-us', [frontendController::class, 'about_us'])->name('about_us');
 Route::get('/contact-us', [frontendController::class, 'contact_us'])->name('contact_us');
 Route::post('/contact-us', [frontendController::class, 'store'])->name('contact.store');
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');

@@ -375,7 +375,19 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.contact-us', compact('seo'));
     }
+    public function custom_neon_sign_board_in_chennai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.custom-neon-sign-boards-in-chennai', compact('seo'));
+    }
 
+    public function about_us()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.about-us', compact('seo'));
+    }
     public function store(Request $request)
     {
         $request->validate([

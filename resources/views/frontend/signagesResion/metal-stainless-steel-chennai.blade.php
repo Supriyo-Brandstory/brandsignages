@@ -920,28 +920,6 @@
             </div>
         </div>
 
-        <div class="faq-item">
-            <button class="faq-question">
-                Can I attain general designs for my sign board?
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>Yes! We focus on custom stainless steel signage. Whether you require stainless steel letters or an exceptional letter sign, we can formulate designs personalized to your requirements.
-                </p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question">
-                Do you offer LED signs?
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>
-                    Definitely! We offer LED signage alternatives for organizations seeking glowing steel signage. Our LED signs improve observability and attach a contemporary feel to your branding.
-                </p>
-            </div>
-        </div>
 
         <div class="faq-item">
             <button class="faq-question">

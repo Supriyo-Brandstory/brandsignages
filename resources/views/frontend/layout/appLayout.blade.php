@@ -212,6 +212,7 @@
                                         <a class="dropdown-item" href="{{route('acrylic_signages_in_chennai')}}">Acrylic Signages in Chennai</a>
                                         <a class="dropdown-item" href="{{route('metal_sign_in_chennai')}}">Metal Signages in Chennai</a>
                                         <a class="dropdown-item" href="{{route('leading_digital_signages_manufacturer_in_chennai')}}"> Digital Signage in Chennai</a>
+                                        <a class="dropdown-item" href="{{route('custom_neon_sign_board_in_chennai')}}">Custom Neon Signage in Chennai</a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Delhi</h6>
@@ -284,7 +285,7 @@
                         <a href="{{route('termsAndConditions')}}">Terms</a>
                         <a href="{{route('privacyPolicy')}}">Privacy</a>
                         {{-- <a href="#">Support</a> --}}
-                        <a href="#">About</a>
+                        <a href="{{route('about_us')}}">About</a>
                         {{-- <a href="#">Resources</a> --}}
 
                         <a href="{{route('contact_us')}}">Contact</a>

@@ -27,7 +27,9 @@
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
                         <h2>Revolutionizing Brands with Modern Signage Solutions</h2>
-                        <button class="custom-btn">Know More</button>
+                        <div class="mt-4">
+                        <a href="{{route('about_us')}}" class="custom-btn">About Us</a>
+                        </div>
                     </div>
                 </div>
 
@@ -243,7 +245,7 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12 contact-section">
-                    <h2>Your brand identity speaks for your business. As trusted signage makers in Bangalore, we design custom signages that engage your customers. Choose us for innovative, high-quality signage solutions.</h2>
+                    <p class="card-text"><strong>Your brand identity is the silent ambassador of your business. At Brand Signages, we don’t just design sign boards—we craft experiences that leave a lasting impression. As premier signage makers in Bangalore, we bring innovation, precision, and artistry to every design. Let’s illuminate your brand—connect with us today!</strong></p>
                     <a href="{{route('contact_us')}}">
                         <button class="contact-btn">Contact Us</button>
                     </a>
