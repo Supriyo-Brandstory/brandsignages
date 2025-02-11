@@ -292,7 +292,7 @@
                     </nav>
                 </div>
             </div>
-            <a href="tel:918006606080" class="call-button">
+            <a href="tel:+918006606080" class="call-button">
                 <i class="fa fa-phone"></i>
             </a>
         </div>
