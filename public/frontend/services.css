@@ -1134,3 +1134,34 @@ a.custom-btn{
     font-weight: bold;
     color: #e43d12;
 }
+
+
+/* Floating Button Styles */
+.call-button {
+    position: fixed;
+    right: 2%;
+    top: 92%;
+    background-color: #e43d12;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.call-button:hover {
+    background-color: #218838;
+}
+
+/* Hide button on screens larger than 768px (Tablets & Desktops) */
+@media screen and (min-width: 768px) {
+    .call-button {
+        display: none;
+    }
+}

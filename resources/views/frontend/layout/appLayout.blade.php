@@ -292,9 +292,15 @@
                     </nav>
                 </div>
             </div>
+            <a href="tel:918006606080" class="call-button">
+                <i class="fa fa-phone"></i>
+            </a>
         </div>
+
     </section>
 
+    <!-- Floating Call Button (Only visible on mobile) -->
+    
     <script src="{{asset('frontend/script.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script>
 
