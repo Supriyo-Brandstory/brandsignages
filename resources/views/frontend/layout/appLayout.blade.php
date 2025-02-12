@@ -213,6 +213,7 @@
                                         <a class="dropdown-item" href="{{route('metal_sign_in_chennai')}}">Metal Signages in Chennai</a>
                                         <a class="dropdown-item" href="{{route('leading_digital_signages_manufacturer_in_chennai')}}"> Digital Signage in Chennai</a>
                                         <a class="dropdown-item" href="{{route('custom_neon_sign_board_in_chennai')}}">Custom Neon Signage in Chennai</a>
+                                        <a class="dropdown-item" href="{{route('led_display_board_in_chennai')}}">LED Display Board in Chennai</a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Delhi</h6>

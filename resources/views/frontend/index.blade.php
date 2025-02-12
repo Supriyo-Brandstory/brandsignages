@@ -26,7 +26,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h2>Revolutionizing Brands with Modern Signage Solutions</h2>
+                        <h2>Transforming Brands with Modern Signage Designs</h2>
                         <div class="mt-4">
                         <a href="{{route('about_us')}}" class="custom-btn">About Us</a>
                         </div>
@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="brand-title">Best Sign Board Makers in Bangalore </h2>
+                    <h2 class="brand-title">#1 Signage Makers in Bangalore, India </h2>
                     <p class="brand-description">
                         Brand Signages is the premier sign board manufacturers in Bangalore with over 10 years of rich  industry experience. We design and manufacture premium-quality signages for top companies across Bangalore and all over India. 
                     </p>
@@ -123,7 +123,7 @@
 
     <section>
         <div class="container my-5">
-            <h2 class="text-center mb-5 card-heading">Services We Offer as Leading <br>Sign Board Manufacturers in Bangalore</h2>
+            <h2 class="text-center mb-5 card-heading">We are The Leading Sign Board <br>Manufacturers in Bangalore, India</h2>
             <p class="card-text text-center">With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. Our innovative designs and attention to detail ensure your brand message stands out in any setting, whether it's for retail, corporate, or outdoor use. We specialize in:</p>
 
             <div class="row g-4 cards-row">

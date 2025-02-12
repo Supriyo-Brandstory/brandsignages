@@ -8,7 +8,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/signage-in-chennai-1.webp')}}" alt="Prohibition Signs for Workplace Safety">
+                <img src="{{asset('frontend/Images/new/signage-in-chennai-1.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai">
                 <div class="carousel-caption-custom">
                     <h1>Top-rated Sign Board Manufacturers in Chennai</h1>
                     <button class="custom-btn">Know More</button>
@@ -28,7 +28,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-in-chennai-2.jpg')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/signage-in-chennai-2.jpg')}}" alt="Top-rated Sign Board Manufacturers in Chennai" class="img-fluid">
                 </div>
             </div>
 
@@ -224,7 +224,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-in-chennai-10.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/signage-in-chennai-10.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai" class="img-fluid">
                 </div>
             </div>
 
@@ -268,7 +268,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-in-chennai-11.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/signage-in-chennai-11.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai" class="img-fluid">
                 </div>
             </div>
 
@@ -281,7 +281,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-in-chennai-12.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/signage-in-chennai-12.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai" class="img-fluid">
                 </div>
             </div>
 
@@ -298,28 +298,28 @@
 
 <section class="mt-lg-5">
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
-        <h2 class="hero-title">Catalogue</h2>
+        <h2 class="hero-title">Sign Board Manufacturers in Chennai</h2>
         
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-in-chennai-13.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/signage-in-chennai-13.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/signage-in-chennai-13.webp')}}" data-lightbox="Sign Board Manufacturers in Chennai" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/signage-in-chennai-13.webp')}}" class="img-fluid" alt="Sign Board Manufacturers in Chennai" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-in-chennai-14.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/new/signage-in-chennai-14.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/signage-in-chennai-14.webp')}}" data-lightbox="Sign Board Manufacturers in Chennai" data-title="Image 2">
+                <img src="{{asset('frontend/Images/new/signage-in-chennai-14.webp')}}" class="img-fluid" alt="Sign Board Manufacturers in Chennai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-in-chennai-15.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/new/signage-in-chennai-15.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/signage-in-chennai-15.webp')}}" data-lightbox="Sign Board Manufacturers in Chennai" data-title="Image 3">
+                <img src="{{asset('frontend/Images/new/signage-in-chennai-15.webp')}}" class="img-fluid" alt="Sign Board Manufacturers in Chennai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-in-chennai-16.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/new/signage-in-chennai-16.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/signage-in-chennai-16.webp')}}" data-lightbox="Sign Board Manufacturers in Chennai" data-title="Image 4">
+                <img src="{{asset('frontend/Images/new/signage-in-chennai-16.webp')}}" class="img-fluid" alt="Sign Board Manufacturers in Chennai"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -327,23 +327,23 @@
         <!-- Second Row -->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-in-chennai-17.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/new/signage-in-chennai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/signage-in-chennai-17.webp')}}" data-lightbox="Sign Board Manufacturers in Chennai" data-title="Image 5">
+                <img src="{{asset('frontend/Images/new/signage-in-chennai-17.webp')}}" class="img-fluid" alt="Sign Board Manufacturers in Chennai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-in-chennai-18.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/new/signage-in-chennai-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/signage-in-chennai-18.webp')}}" data-lightbox="Sign Board Manufacturers in Chennai" data-title="Image 6">
+                <img src="{{asset('frontend/Images/new/signage-in-chennai-18.webp')}}" class="img-fluid" alt="Sign Board Manufacturers in Chennai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-in-chennai-19.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/new/signage-in-chennai-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/signage-in-chennai-19.webp')}}" data-lightbox="Sign Board Manufacturers in Chennai" data-title="Image 7">
+                <img src="{{asset('frontend/Images/new/signage-in-chennai-19.webp')}}" class="img-fluid" alt="Sign Board Manufacturers in Chennai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-in-chennai-20.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/new/signage-in-chennai-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/signage-in-chennai-20.webp')}}" data-lightbox="Sign Board Manufacturers in Chennai" data-title="Image 8">
+                <img src="{{asset('frontend/Images/new/signage-in-chennai-20.webp')}}" class="img-fluid" alt="Sign Board Manufacturers in Chennai"  style="width: 100%;">
                 </a>
             </div>
         </div>
