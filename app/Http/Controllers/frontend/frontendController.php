@@ -387,6 +387,21 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.led-display-board-in-chennai', compact('seo'));
     }
+    public function hospital_medical_signages_chennai(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.hospital-medical-signages-chennai', compact('seo'));
+    }
+    public function high_quality_safety_signages_in_chennai(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.high-quality-safety-signages-in-chennai', compact('seo'));
+    }
+    public function high_quality_restroom_signs_in_chennai(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.high-quality-restroom-signs-in-chennai', compact('seo'));
+    }
 
     public function about_us()
     {

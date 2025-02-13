@@ -214,6 +214,11 @@
                                         <a class="dropdown-item" href="{{route('leading_digital_signages_manufacturer_in_chennai')}}"> Digital Signage in Chennai</a>
                                         <a class="dropdown-item" href="{{route('custom_neon_sign_board_in_chennai')}}">Custom Neon Signage in Chennai</a>
                                         <a class="dropdown-item" href="{{route('led_display_board_in_chennai')}}">LED Display Board in Chennai</a>
+                                        <a class="dropdown-item" href="{{route('hospital_medical_signages_chennai')}}">Hospital & Medical Signages Chennai</a>
+                                        <a class="dropdown-item" href="{{route('high_quality_safety_signages_in_chennai')}}">High Quality Safety Signages in Chennai</a>
+                                        <a class="dropdown-item" href="{{route('high_quality_restroom_signs_in_chennai')}}">High-Quality Restroom Signs in Chennai</a>
+                                        
+
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Delhi</h6>

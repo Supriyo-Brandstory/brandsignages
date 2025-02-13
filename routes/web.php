@@ -48,6 +48,9 @@ Route::get('/metal-and-stainless-steel-sign-boards-in-chennai', [frontendControl
 Route::get('/leading-digital-signage-in-chennai', [frontendController::class, 'leading_digital_signages_manufacturer_in_chennai'])->name('leading_digital_signages_manufacturer_in_chennai');
 Route::get('/custom-neon-sign-boards-in-chennai', [frontendController::class, 'custom_neon_sign_board_in_chennai'])->name('custom_neon_sign_board_in_chennai');
 Route::get('/led-display-board-in-chennai', [frontendController::class, 'led_display_board_in_chennai'])->name('led_display_board_in_chennai');
+Route::get('/hospital-medical-signages-chennai',[frontendController::class,'hospital_medical_signages_chennai'])->name('hospital_medical_signages_chennai');
+Route::get('/high-quality-safety-signages-in-chennai',[frontendController::class,'high_quality_safety_signages_in_chennai'])->name('high_quality_safety_signages_in_chennai');
+Route::get('/high-quality-restroom-signs-in-chennai',[frontendController::class,'high_quality_restroom_signs_in_chennai'])->name('high_quality_restroom_signs_in_chennai');
 Route::get('/about-us', [frontendController::class, 'about_us'])->name('about_us');
 Route::get('/contact-us', [frontendController::class, 'contact_us'])->name('contact_us');
 Route::post('/contact-us', [frontendController::class, 'store'])->name('contact.store');
