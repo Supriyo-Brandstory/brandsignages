@@ -204,7 +204,8 @@
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Mumbai</h6>
                                         <a class="dropdown-item" href="{{route('leading_signage_company_in_mumbai')}}">Signages in Mumbai</a>
-                                        <a class="dropdown-item" href="#">Acrylic Signages in Mumbai</a>
+                                        <a class="dropdown-item" href="{{route('premium_acrylic_sign_boards_in_mumbai')}}">Acrylic Signages in Mumbai</a>
+                                        <a class="dropdown-item" href="{{route('digital_signages_manufacturer_in_mumbai')}}">Digital Signages Manufacturer in Mumbai</a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Chennai</h6>

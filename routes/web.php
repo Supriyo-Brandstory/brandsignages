@@ -50,7 +50,8 @@ Route::get('/high-quality-safety-signages-in-chennai',[frontendController::class
 Route::get('/high-quality-restroom-signs-in-chennai',[frontendController::class,'high_quality_restroom_signs_in_chennai'])->name('high_quality_restroom_signs_in_chennai');
 //mumbai
 Route::get('/leading-signage-company-in-mumbai', [frontendController::class, 'leading_signage_company_in_mumbai'])->name('leading_signage_company_in_mumbai');
-
+Route::get('/premium-acrylic-sign-boards-in-mumbai', [frontendController::class, 'premium_acrylic_sign_boards_in_mumbai'])->name('premium_acrylic_sign_boards_in_mumbai');
+Route::get('digital-signages-manufacturer-in-mumbai',[frontendController::class,'digital_signages_manufacturer_in_mumbai'])->name('digital_signages_manufacturer_in_mumbai');
 //others
 Route::get('/blogs', [frontendController::class, 'blogs'])->name('blogs');
 Route::get('/blogs/{slug?}', [frontendController::class, 'blogsVariation'])->name('blogsVaritaion');
