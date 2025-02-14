@@ -228,6 +228,98 @@ class frontendController extends Controller
         return view('frontend.signagesResion.office-desk-signs-in-bangalore', compact('seo'));
     }
 
+
+    //chennai
+    public function signage_company_in_chennai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.signages-in-chennai', compact('seo'));
+    }
+    public function acrylic_signages_in_chennai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.acrylic-signages-in-chennai', compact('seo'));
+    }
+    public function metal_sign_in_chennai (){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.metal-stainless-steel-chennai', compact('seo'));
+        
+    }
+    public function leading_digital_signages_manufacturer_in_chennai(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.leading-digital-signages-manufacturer-in-chennai', compact('seo'));
+    }
+
+
+    public function custom_neon_sign_board_in_chennai()
+    {
+        
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.custom-neon-sign-boards-in-chennai', compact('seo'));
+    }
+    public function led_display_board_in_chennai(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.led-display-board-in-chennai', compact('seo'));
+    }
+    public function hospital_medical_signages_chennai(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.hospital-medical-signages-chennai', compact('seo'));
+    }
+    public function high_quality_safety_signages_in_chennai(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.high-quality-safety-signages-in-chennai', compact('seo'));
+    }
+    public function high_quality_restroom_signs_in_chennai(){
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.high-quality-restroom-signs-in-chennai', compact('seo'));
+    }
+//mumbai
+
+public function leading_signage_company_in_mumbai(){
+    $currentRoute = Route::current()->uri();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.signagesResion.leading-signage-company-in-mumbai', compact('seo'));
+    
+}
+
+    public function contact_us()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.contact-us', compact('seo'));
+    }
+
+
+    public function about_us()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.about-us', compact('seo'));
+    }
+    public function store(Request $request)
+    {
+        $request->validate([
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phone_number' => 'required|string|max:20',
+            'message' => 'nullable|string|max:5000',
+        ]);
+
+        Contact::create($request->all());
+
+        return redirect()->back()->with('success', 'Your message has been sent successfully!');
+    }
+   
     public function blogs(Request $request)
     {
         // Fetch the search query
@@ -346,82 +438,4 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.author-bala-kumaran', compact('seo'));
     }
-    public function signage_company_in_chennai()
-    {
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.signages-in-chennai', compact('seo'));
-    }
-    public function acrylic_signages_in_chennai()
-    {
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.acrylic-signages-in-chennai', compact('seo'));
-    }
-    public function metal_sign_in_chennai (){
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.metal-stainless-steel-chennai', compact('seo'));
-        
-    }
-    public function leading_digital_signages_manufacturer_in_chennai(){
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.leading-digital-signages-manufacturer-in-chennai', compact('seo'));
-    }
-    public function contact_us()
-    {
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.contact-us', compact('seo'));
-    }
-    public function custom_neon_sign_board_in_chennai()
-    {
-        
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.custom-neon-sign-boards-in-chennai', compact('seo'));
-    }
-    public function led_display_board_in_chennai(){
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.led-display-board-in-chennai', compact('seo'));
-    }
-    public function hospital_medical_signages_chennai(){
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.hospital-medical-signages-chennai', compact('seo'));
-    }
-    public function high_quality_safety_signages_in_chennai(){
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.high-quality-safety-signages-in-chennai', compact('seo'));
-    }
-    public function high_quality_restroom_signs_in_chennai(){
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.high-quality-restroom-signs-in-chennai', compact('seo'));
-    }
-
-    public function about_us()
-    {
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.about-us', compact('seo'));
-    }
-    public function store(Request $request)
-    {
-        $request->validate([
-            'first_name' => 'required|string|max:255',
-            'last_name' => 'required|string|max:255',
-            'email' => 'required|email',
-            'phone_number' => 'required|string|max:20',
-            'message' => 'nullable|string|max:5000',
-        ]);
-
-        Contact::create($request->all());
-
-        return redirect()->back()->with('success', 'Your message has been sent successfully!');
-    }
-   
 }

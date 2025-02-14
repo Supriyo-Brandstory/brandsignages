@@ -26,6 +26,7 @@ Route::get('/prohibitory-signages', [frontendController::class, 'prohibitory_sig
 Route::get('/office-desk-signages', [frontendController::class, 'office_desk_signages'])->name('office_desk_signages');
 Route::get('/floor-signages', [frontendController::class, 'floor_signages'])->name('floor_signages');
 Route::get('/modern-room-number-signs', [frontendController::class, 'room_name_plates'])->name('room_name_plates');
+//bengalore
 Route::get('/acrylic-signage-manufacturer-bangalore', [frontendController::class, 'acrylic_signage_manufacturer_bangalore'])->name('acrylic_signage_manufacturer_bangalore');
 Route::get('/steel-signage-manufacturer-bangalore', [frontendController::class, 'steel_signage_manufacturer_bangalore'])->name('steel_signage_manufacturer_bangalore');
 Route::get('/digital-signage-company-bangalore', [frontendController::class, 'digital_signage_company_bangalore'])->name('digital_signage_company_bangalore');
@@ -37,11 +38,7 @@ Route::get('/safety-signages-in-bangalore', [frontendController::class, 'safety_
 Route::get('/name-plate-signages-in-bangalore', [frontendController::class, 'name_plate_signages_in_bangalore'])->name('name_plate_signages_in_bangalore');
 Route::get('/restroom-signs-in-bangalore', [frontendController::class, 'restroom_signs_in_bangalore'])->name('restroom_signs_in_bangalore');
 Route::get('/office-desk-signs-in-bangalore', [frontendController::class, 'office_desk_signs_in_bangalore'])->name('office_desk_signs_in_bangalore');
-Route::get('/blogs', [frontendController::class, 'blogs'])->name('blogs');
-Route::get('/blogs/{slug?}', [frontendController::class, 'blogsVariation'])->name('blogsVaritaion');
-Route::get('/privacy-policy', [frontendController::class, 'privacyPolicy'])->name('privacyPolicy');
-Route::get('/terms-and-conditions', [frontendController::class, 'termsAndConditions'])->name('termsAndConditions');
-Route::get('/author-manoj-kaliyannan', [frontendController::class, 'bala_kumaranan'])->name('bala_kumaranan');
+//chennai
 Route::get('/signage-in-chennai', [frontendController::class, 'signage_company_in_chennai'])->name('signage_company_in_chennai');
 Route::get('/acrylic-signages-in-chennai', [frontendController::class, 'acrylic_signages_in_chennai'])->name('acrylic_signages_in_chennai');
 Route::get('/metal-and-stainless-steel-sign-boards-in-chennai', [frontendController::class, 'metal_sign_in_chennai'])->name('metal_sign_in_chennai');
@@ -51,6 +48,15 @@ Route::get('/led-display-board-in-chennai', [frontendController::class, 'led_dis
 Route::get('/hospital-medical-signages-chennai',[frontendController::class,'hospital_medical_signages_chennai'])->name('hospital_medical_signages_chennai');
 Route::get('/high-quality-safety-signages-in-chennai',[frontendController::class,'high_quality_safety_signages_in_chennai'])->name('high_quality_safety_signages_in_chennai');
 Route::get('/high-quality-restroom-signs-in-chennai',[frontendController::class,'high_quality_restroom_signs_in_chennai'])->name('high_quality_restroom_signs_in_chennai');
+//mumbai
+Route::get('/leading-signage-company-in-mumbai', [frontendController::class, 'leading_signage_company_in_mumbai'])->name('leading_signage_company_in_mumbai');
+
+//others
+Route::get('/blogs', [frontendController::class, 'blogs'])->name('blogs');
+Route::get('/blogs/{slug?}', [frontendController::class, 'blogsVariation'])->name('blogsVaritaion');
+Route::get('/privacy-policy', [frontendController::class, 'privacyPolicy'])->name('privacyPolicy');
+Route::get('/terms-and-conditions', [frontendController::class, 'termsAndConditions'])->name('termsAndConditions');
+Route::get('/author-manoj-kaliyannan', [frontendController::class, 'bala_kumaranan'])->name('bala_kumaranan');
 Route::get('/about-us', [frontendController::class, 'about_us'])->name('about_us');
 Route::get('/contact-us', [frontendController::class, 'contact_us'])->name('contact_us');
 Route::post('/contact-us', [frontendController::class, 'store'])->name('contact.store');

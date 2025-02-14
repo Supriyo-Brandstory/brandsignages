@@ -203,7 +203,7 @@
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Mumbai</h6>
-                                        <a class="dropdown-item" href="#">Signages in Mumbai</a>
+                                        <a class="dropdown-item" href="{{route('leading_signage_company_in_mumbai')}}">Signages in Mumbai</a>
                                         <a class="dropdown-item" href="#">Acrylic Signages in Mumbai</a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
