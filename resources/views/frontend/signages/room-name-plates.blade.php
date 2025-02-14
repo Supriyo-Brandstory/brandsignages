@@ -8,7 +8,9 @@
                 <img src="{{asset('frontend/Images/new/room-number-1.webp')}}" alt="Prohibition Signs for Workplace Safety">
                 <div class="carousel-caption-custom">
                     <h1>Modern Room Number Signs</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

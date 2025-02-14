@@ -7,7 +7,9 @@
                 <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Slide 1">
                 <div class="carousel-caption-custom">
                     <h1>Best Neon Sign Manufacturers for Custom Signages</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

@@ -11,7 +11,9 @@
                 <img src="{{asset('frontend/Images/new/high-quality-restroom-signs-in-chennai-1.webp')}}" alt="High-Quality Safety Signages in Chennai">
                 <div class="carousel-caption-custom">
                     <h1>High-Quality Safety Signages in Chennai</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
 

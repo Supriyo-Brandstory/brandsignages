@@ -7,7 +7,9 @@
                 <img src="{{asset('frontend/Images/office-signage1.webp')}}" alt="Office Signage">
                 <div class="carousel-caption-custom">
                     <h1>Office Signage Boards That Make a Statement</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

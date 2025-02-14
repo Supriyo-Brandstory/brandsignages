@@ -40,7 +40,9 @@
                 <img src="{{asset('frontend/Images/restroom-1.webp')}}" alt="Toilet/Restroom Signage In Bangalore">
                 <div class="carousel-caption-custom">
                     <h1>Toilet/Restroom Signage In Bangalore</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

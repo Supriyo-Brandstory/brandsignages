@@ -8,7 +8,9 @@
                 <img src="{{asset('frontend/Images/steelsign-bangalore1.webp')}}" alt="Stainless steel sign board manufacturer Bangalore">
                 <div class="carousel-caption-custom">
                     <h1>Stainless steel sign board manufacturer Bangalore</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

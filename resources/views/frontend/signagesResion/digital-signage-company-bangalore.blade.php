@@ -7,7 +7,9 @@
                 <img src="{{asset('frontend/Images/digitalsign-bangalore1.webp')}}" alt="Digital Signage Manufacturer in Bangalore">
                 <div class="carousel-caption-custom">
                     <h1>Digital Signage Manufacturers in Bangalore</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

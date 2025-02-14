@@ -12,19 +12,23 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/signage-1.webp')}}" alt="Prohibition Signs for Workplace Safety">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai.webp')}}" alt="Prohibition Signs for Workplace Safety">
                 <div class="carousel-caption-custom">
                     <h1>Leading Signage Company in Mumbai</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
-                {{-- <div class="carousel-caption-custom">
-                    <h2>High-Quality Sign Boards in Bangalore for Better Brand Visibility</h2>
-                    <button class="custom-btn">Know More</button>
-                </div> --}}
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-1.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
+                <div class="carousel-caption-custom">
+                    <h1>Leading Signage Company in Mumbai</h1>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
+                </div>
             </div>
 
             
@@ -40,7 +44,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/acrylic-sign-bangalore.webp')}}" alt="Acrylic Sign Boards" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-3.webp')}}" alt="Acrylic Sign Boards" class="img-fluid">
                 </div>
             </div>
 
@@ -65,7 +69,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-3.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-4.webp')}}" class="why-card-img-top"
                         alt="Healthcare Industry  ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Healthcare Industry  </h3>
@@ -75,7 +79,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-4.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-5.webp')}}" class="why-card-img-top"
                         alt="Restaurant & Hospitality">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Restaurant & Hospitality</h3>
@@ -85,7 +89,7 @@
             </div>
             <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/new/signage-5.webp')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-55.webp')}}" class="why-card-img-top"
                             alt=" Retail Businesses">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3"> Retail Businesses</h3>
@@ -96,7 +100,7 @@
             
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-6.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-6.webp')}}" class="why-card-img-top"
                         alt="Corporate Offices">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Corporate Offices</h3>
@@ -106,7 +110,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-7.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-77.webp')}}" class="why-card-img-top"
                         alt="Custom Signage  ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Custom Signage  </h3>
@@ -122,7 +126,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-3.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-4.webp')}}" class="why-card-img-top"
                                     alt="Healthcare Industry  ">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Healthcare Industry  </h3>
@@ -133,7 +137,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-4.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-5.webp')}}" class="why-card-img-top"
                                     alt="Restaurant & Hospitality">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Restaurant & Hospitality</h3>
@@ -143,7 +147,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-5.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-55.webp')}}" class="why-card-img-top"
                                     alt=" Retail Businesses">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3"> Retail Businesses</h3>
@@ -157,7 +161,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-5.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-55.webp')}}" class="why-card-img-top"
                                     alt=" Retail Businesses">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3"> Retail Businesses</h3>
@@ -167,7 +171,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-6.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-6.webp')}}" class="why-card-img-top"
                                     alt="Corporate Offices">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Corporate Offices</h3>
@@ -177,7 +181,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-7.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-77.webp')}}" class="why-card-img-top"
                                     alt="Custom Signage  ">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Custom Signage  </h3>
@@ -222,7 +226,7 @@
             <div class="row g-4">
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/new/accrylic-c1.jpeg')}}" alt="Modern Designs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-7.webp')}}" alt="Modern Designs" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Modern Designs</h5>
                             <p class="text-content">Our team produces creative and contemporary signage designs that suit your brand recognition. From glossy acrylic signage to remarkable LED sign boards, we provide a variety of patterns to fit each requirement.</p>
@@ -232,7 +236,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board2.webp')}}" alt="Durability" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-8.webp')}}" alt="Durability" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Durability</h5>
                             <p class="text-content">We utilize standardized substances such as stainless steel, ACP, and acrylic to make sure that your signage is durable. Our sign boards are made to bear the components, whether they are utilized indoors or as outdoor signs.</p>
@@ -242,7 +246,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board3.webp')}}" alt="Warranty " class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-12.webp')}}" alt="Warranty " class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Warranty </h5>
                             <p class="text-content">We stand by the class of our work. All our signage products are available with a warranty, giving you a state of peace and quiet being aware that your investment is safeguarded.</p>
@@ -252,7 +256,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board4.webp')}}" alt="Easy Installation" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-9.webp')}}" alt="Easy Installation" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Easy Installation</h5>
                             <p class="text-content">Our professional team manages the installation method from beginning to ending. We ensure the signage board, whether it's a digital signage solution or an LED display, is installed promptly and safely.</p>
@@ -262,7 +266,7 @@
 
                 <div class="col-lg-5">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-sign-board5.webp')}}" alt="Excellent Customer Service" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-10.webp')}}" alt="Excellent Customer Service" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Excellent Customer Service</h5>
                             <p class="text-content">As a reliable sign board maker in Mumbai, we concentrate on customer contentment. We work intimately with you through the  whole procedure, from signage design to installation, guaranteeing that your requirements are fulfilled.</p>
@@ -272,7 +276,7 @@
 
                 <div class="col-lg-3">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/new/acrylic-c2.jpeg')}}" alt="Variety of Options" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-11.webp')}}" alt="Variety of Options" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Variety of Options</h5>
                             <p class="text-content">Whether you require building signage, wayfinding signage, LED signage boards, or acrylic LED letters, we have it for you. We also provide solutions such as LED signs, acrylic signage, and corrugated box arrays to make your business be distinct.</p>
@@ -293,7 +297,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-8.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-13.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -338,7 +342,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-9.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-14.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -351,7 +355,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-10.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-15.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -367,7 +371,60 @@
     </div>
 </section>
 
+<section class="mt-lg-5">
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
+        <h2 class="hero-title">Catalogue</h2>
+        
+        <!-- First Row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-16.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-16.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-17.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-19.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+        </div>
+        
+        <!-- Second Row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-20.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+        </div>
 
+    </div>
+</section>
 
 <section class="testimonial section ">
     <div class="container">
@@ -420,7 +477,7 @@
                         <p class="card-text testimonial-card-text">“I’ve worked with various signage companies, but these sign board manufacturers in Mumbai truly intrigued me with their inventive signage design and punctual delivery.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Amit Verma" class="client-img">
+                           
                             <div>
                                 <div class="client-name">Amit Verma</div>
                                 <div class="client-role">Retailer</div>
@@ -438,7 +495,7 @@
                         <p class="card-text testimonial-card-text">Our new LED signage board has given so much observability to our outlet. The team was competent, and the acrylic LED letters are high-spirited and resistant.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/acrylic-bangalore15.webp')}}" alt="Rohan Gupta" class="client-img">
+                           
                             <div>
                                 <div class="client-name">Natasha Mehra</div>
                                 <div class="client-role">Business Owner</div>
@@ -456,7 +513,7 @@
                         <p class="card-text testimonial-card-text">The ACP sign board they supplied for our building signage was far ahead of our expectations. The standard of the substances and the all-rounded coating was extraordinary.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/acrylic-bangalore16.webp')}}" alt="Ishita Mehta" class="client-img">
+                           
                             <div>
                                 <div class="client-name">Sanjay Desai</div>
                                 <div class="client-role">Property Developer</div>
@@ -516,7 +573,7 @@
                                     <p class="card-text testimonial-card-text">“I’ve worked with various signage companies, but these sign board manufacturers in Mumbai truly intrigued me with their inventive signage design and punctual delivery.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Amit Verma" class="client-img">
+                                       
                                         <div>
                                             <div class="client-name">Amit Verma</div>
                                             <div class="client-role">Retailer</div>
@@ -538,7 +595,7 @@
                                     <p class="card-text testimonial-card-text">“I’ve worked with various signage companies, but these sign board manufacturers in Mumbai truly intrigued me with their inventive signage design and punctual delivery. <br> <br> </p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Amit Verma" class="client-img">
+                                       
                                         <div>
                                             <div class="client-name">Amit Verma</div>
                                             <div class="client-role">Retailer</div>
@@ -556,7 +613,7 @@
                                     <p class="card-text testimonial-card-text">Our new LED signage board has given so much observability to our outlet. The team was competent, and the acrylic LED letters are high-spirited and resistant.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore15.webp')}}" alt="Rohan Gupta" class="client-img">
+                                       
                                         <div>
                                             <div class="client-name">Natasha Mehra</div>
                                             <div class="client-role">Business Owner</div>
@@ -574,7 +631,7 @@
                                     <p class="card-text testimonial-card-text">The ACP sign board they supplied for our building signage was far ahead of our expectations. The standard of the substances and the all-rounded coating was extraordinary.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore16.webp')}}" alt="Ishita Mehta" class="client-img">
+                                       
                                         <div>
                                             <div class="client-name">Sanjay Desai</div>
                                             <div class="client-role">Property Developer</div>
@@ -610,60 +667,7 @@
     </div>
 </section>
 
-<section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
-        <h2 class="hero-title">Catalogue</h2>
-        
-        <!-- First Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore17.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore17.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore19.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore20.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
-        
-        <!-- Second Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore24.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
 
-    </div>
-</section>
 
 <section class="faq-section">
     <div class="faq-container">

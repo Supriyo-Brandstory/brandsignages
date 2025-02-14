@@ -11,7 +11,9 @@
                 <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-1.webp')}}" alt="Custom Neon Sign Boards in Chennai">
                 <div class="carousel-caption-custom">
                     <h1>LED display board in Chennai</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
 

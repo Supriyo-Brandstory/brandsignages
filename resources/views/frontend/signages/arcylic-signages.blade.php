@@ -8,7 +8,10 @@
                 <img src="{{asset('frontend/Images/coffee-shop-menu.webp')}}" alt="Acrylic Signage -Coffee Shop Menu">
                 <div class="carousel-caption-custom">
                     <h1>Premium Acrylic Signages to Showcase Your Brand </h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
+                   
                 </div>
             </div>
         </div>

@@ -8,7 +8,9 @@
                 <img src="{{asset('frontend/Images/metal-signage.webp')}}" alt="Metal Signage Boards">
                 <div class="carousel-caption-custom">
                     <h1>Metal & Steel Signage Boards for Your Space</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
        

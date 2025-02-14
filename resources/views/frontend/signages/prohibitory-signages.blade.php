@@ -8,7 +8,9 @@
                 <img src="{{asset('frontend/Images/new/prohibitory-1.webp')}}" alt="Prohibition Signs for Workplace Safety">
                 <div class="carousel-caption-custom">
                     <h1>Prohibition Signs for Workplace Safety</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

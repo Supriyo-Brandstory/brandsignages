@@ -18,7 +18,9 @@
                 <img src="{{asset('frontend/Images/new/signage-1.webp')}}" alt="Prohibition Signs for Workplace Safety">
                 <div class="carousel-caption-custom">
                     <h1>Expert Signage Makers in Bangalore</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
 
@@ -26,7 +28,9 @@
                 <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                 <div class="carousel-caption-custom">
                     <h2>High-Quality Sign Boards in Bangalore for Better Brand Visibility</h2>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
 

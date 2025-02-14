@@ -8,7 +8,9 @@
                 <img src="{{asset('frontend/Images/new/restroom-1.webp')}}" alt="Restroom Signs & Labels">
                 <div class="carousel-caption-custom">
                     <h1> Buy Restroom Signages in India</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

@@ -11,7 +11,9 @@
                 <img src="{{asset('frontend/Images/new/signage-in-chennai-1.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai">
                 <div class="carousel-caption-custom">
                     <h1>Top-rated Sign Board Manufacturers in Chennai</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
 

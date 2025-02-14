@@ -8,7 +8,9 @@
                 <img src="{{asset('frontend/Images/home-number-signage1.webp')}}" alt="House Number Signage">
                 <div class="carousel-caption-custom">
                     <h1>House Number Signs for Every Home</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

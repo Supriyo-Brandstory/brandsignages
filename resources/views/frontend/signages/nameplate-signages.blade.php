@@ -8,7 +8,9 @@
                 <img src="{{asset('frontend/Images/nameplate-signage1.webp')}}" alt="Name Plate Signage">
                 <div class="carousel-caption-custom">
                     <h1>Custom Nameplate Designs for Home & Office Space</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

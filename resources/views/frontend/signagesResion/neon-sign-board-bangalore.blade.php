@@ -8,7 +8,9 @@
                 <img src="{{asset('frontend/Images/neonsign-bangalore1.webp')}}" alt="Neon Light Sign Boards in Bangalore">
                 <div class="carousel-caption-custom">
                     <h1>Neon Light Sign Boards in Bangalore</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

@@ -40,7 +40,9 @@
                 <img src="{{asset('frontend/Images/new/name-palets-1.webp')}}" alt="Custom Name Plates in Bangalore">
                 <div class="carousel-caption-custom">
                     <h1>Custom Name Plates in Bangalore</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

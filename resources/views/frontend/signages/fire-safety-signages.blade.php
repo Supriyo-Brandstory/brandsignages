@@ -8,7 +8,9 @@
                 <img src="{{asset('frontend/Images/safety-signages-1.webp')}}" alt="Bestseller Fire Safety Signages">
                 <div class="carousel-caption-custom">
                     <h1>Fire Safety & Fire Extinguisher Signs Manufacturer</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>

@@ -9,7 +9,9 @@
                 <img src="{{asset('frontend/Images/indoor-signage.webp')}}" alt="Indoor Signs">
                 <div class="carousel-caption-custom">
                     <h1>Custom Indoor Signs Online </h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
 

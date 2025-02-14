@@ -40,7 +40,9 @@
                 <img src="{{asset('frontend/Images/new/safety-1.webp')}}" alt="Safety signages in Bangalore">
                 <div class="carousel-caption-custom">
                     <h1>Safety signages in Bangalore</h1>
-                    <button class="custom-btn">Know More</button>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>
