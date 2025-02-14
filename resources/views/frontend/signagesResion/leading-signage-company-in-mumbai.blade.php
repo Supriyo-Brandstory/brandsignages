@@ -14,17 +14,17 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/new/signage-1.webp')}}" alt="Prohibition Signs for Workplace Safety">
                 <div class="carousel-caption-custom">
-                    <h1>Expert Signage Makers in Bangalore</h1>
+                    <h1>Leading Signage Company in Mumbai</h1>
                     <button class="custom-btn">Know More</button>
                 </div>
             </div>
 
             <div class="carousel-item">
                 <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
-                <div class="carousel-caption-custom">
+                {{-- <div class="carousel-caption-custom">
                     <h2>High-Quality Sign Boards in Bangalore for Better Brand Visibility</h2>
                     <button class="custom-btn">Know More</button>
-                </div>
+                </div> --}}
             </div>
 
             
@@ -35,7 +35,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Modern Acrylic Sign Boards in Bangalore - Perfect <br>Blend of Style and Strength</h2>
+        <h2 class="hero-title">High-Quality Sign Boards in Mumbai</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -46,16 +46,10 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Using an acrylic sign board adds a contemporary and polished touch to any space. Whether for a commercial office in Bangalore, retail outlet, or residential property, these high-quality signboards exude professionalism. Products like acrylic nameplates and acrylic wall signs offer a sleek appearance that enhances your branding. Their clean design makes them a popular choice for creating a lasting impression.
-
-                </p>  
-                <p class="brand-description">
-                    Brand Signages is a top-tier acrylic sign board manufacturer in Bangalore. We provide acrylic LED signs, transparent boards, acrylic wall signs, and custom acrylic sign board designs to fulfill your extraordinary requirements. Our experts design premium quality signage solutions that uplift your brand’s existence. Showcase your brand's identity with expertly designed acrylic sign boards from Brand Signages.
-
+                    When it's a matter of searching for superior sign boards in Mumbai, we are the reliable preference. As prominent sign board manufacturers in Mumbai, we emphasize generating creative and persistent signage solutions customized to your business requirements. Our services comprise LED sign boards, ACP sign boards, and acrylic LED letter signs that boost your brand observability. As a renowned signage company in Mumbai, we provide a huge collection of alternatives, from outdoor signs to building signage, guaranteeing that your business is distinct in the combative market.  
                 </p>
                 <p class="brand-description">
-                    At Brand Signages, we understand the essence of creating a lasting impact through effective branding. Our acrylic sign boards are crafted with innovation & precision, ensuring they not only enhance the aesthetic of your space but also communicate your brand’s values.
-                </p>
+                    We are proud of our proficiency in signage design, providing innovative solutions such as digital signage, wayfinding signage, and LED signage boards. Our sign work utilizes top-class substances, like stainless steel and acrylic signage, for durable outcomes.  Whether you require an LED display for your storefront or general ACP signs for your office, our team makes certain of impeccable implementation. Our acknowledgment as a dependable sign board maker in Mumbai is formed on punctual delivery, reasonable pricing, and unparalleled artistry.  Select us for your signage in Mumbai and enhance your brand with spectacular designs that make a permanent impact. Let’s produce signage that genuinely depicts your business!                 </p>
             </div>
         </div>
     </div>
@@ -64,68 +58,59 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Industries We Serve with Custom Signages</h2>
-            <p class="card-text text-center">At Brand Signages, we take pride in being among the best signage makers in Bangalore. Our traditional signage solutions serve a huge number of industries, rendering standardized sign boards and patterns that improve brand observability. Collaborate with Brand Signages to enhance your brand visibility with creative and resistant signages solutions.</p>
+            <h2 class="display-4 mb-3 why-text-heading">Custom Signage Solutions for Businesses</h2>
+            <p class="card-text text-center">AWe centralize in rendering customized signage solutions to suit several industries, making certain that your brand is highlighted. As expert sign board manufacturers in Mumbai, we provide a huge array of signage alternatives to fulfill your requirements.As a prominent signage company in Mumbai, we guarantee that all our sign boards and digital signage solutions are long-lasting, efficient, and noticeable. Let us assist your business in making a perpetual influence!</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/new/signage-3.webp')}}" class="why-card-img-top"
-                        alt="Apartment Signage Solutions">
+                        alt="Healthcare Industry  ">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Apartment Signage Solutions</h3>
-                        <p class="card-text">We shape LED sign boards, acrylic sign boards, and pylon signs to assist citizens and guests in seamlessly finding buildings. Our glow signs and lit signs give sophistication and operationality to apartment buildings.</p>
+                        <h3 class="why-text-red mb-3">Healthcare Industry  </h3>
+                        <p class="card-text">We outline signage boards that assist in supporting patients and guests, along with wayfinding signage, building signage, and digital signage for hospitals, clinics, and healthcare centers.</p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/new/signage-4.webp')}}" class="why-card-img-top"
-                        alt="Banking Sector Signage Services">
+                        alt="Restaurant & Hospitality">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Banking Sector Signage Services</h3>
-                        <p class="card-text">Banks rely on us for long-lasting stainless steel signage, LED displays, and competent signage boards that match their commercial branding.</p>
+                        <h3 class="why-text-red mb-3">Restaurant & Hospitality</h3>
+                        <p class="card-text">Our sign work comprises LED signage boards, outdoor signs, and acrylic signage that improves the ambiance and assists customers in seamlessly steering your restaurant, cafe, or hotel.</p>
                     </div>
                 </div>
             </div>
             <div class="col">
                     <div class="why-card card">
                         <img src="{{asset('frontend/Images/new/signage-5.webp')}}" class="why-card-img-top"
-                            alt="Corporate Signage for Businesses">
+                            alt=" Retail Businesses">
                         <div class="card-body why-card-body px-0">
-                            <h3 class="why-text-red mb-3">Corporate Signage for Businesses</h3>
-                            <p class="card-text">We generate spectacular letter signage, digital signage, and formal signage boards for corporate offices, guaranteeing a competent and embracing look.</p>
+                            <h3 class="why-text-red mb-3"> Retail Businesses</h3>
+                            <p class="card-text">We generate custom signage solutions such as acrylic LED letters, LED displays, and corrugated box signage that pull attention to your outlet, boosting your products and services efficiently.</p>
                         </div>
                     </div>
             </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-5.webp')}}" class="why-card-img-top"
-                        alt="Corporate Signage for Businesses">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Corporate Signage for Businesses</h3>
-                        <p class="card-text">We generate spectacular letter signage, digital signage, and formal signage boards for corporate offices, guaranteeing a competent and embracing look.</p>
-                    </div>
-                </div>
-            </div>
+            
             <div class="col">
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/new/signage-6.webp')}}" class="why-card-img-top"
-                        alt="Restaurant and Hotel Signage Designs">
+                        alt="Corporate Offices">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Restaurant and Hotel Signage Designs</h3>
-                        <p class="card-text">From outdoor signs to fashionable indoor signage, we shape led signage and glow sign boards that appeal to clients and improve the atmosphere.</p>
+                        <h3 class="why-text-red mb-3">Corporate Offices</h3>
+                        <p class="card-text"> We offer polished and competent signage alternatives like stainless steel and ACP sign boards for your office or building. These consist of directional signage, office branding, and informative signage.</p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/new/signage-7.webp')}}" class="why-card-img-top"
-                        alt="Medical and Hospital Signages">
+                        alt="Custom Signage  ">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Medical and Hospital Signages</h3>
-                        <p class="card-text">Our expertized sign board manufacturers create transparent and operational signage designs, comprising acrylic signs and display boards, perfect for hospitals and clinics.</p>
+                        <h3 class="why-text-red mb-3">Custom Signage  </h3>
+                        <p class="card-text">Whether you require an LED sign, ACP sign, or acrylic signage, our team of proficient designers will produce a solution that suits your brand flawlessly. From sign boards to ignited displays, we provide back-to-back signage pattern and installation services.</p>
                     </div>
                 </div>
             </div>
@@ -138,30 +123,31 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/signage-3.webp')}}" class="why-card-img-top"
-                                    alt="Apartment Signage Solutions">
+                                    alt="Healthcare Industry  ">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Apartment Signage Solutions</h3>
-                                    <p class="card-text">We shape LED sign boards, acrylic sign boards, and pylon signs to assist citizens and guests in seamlessly finding buildings. Our glow signs and lit signs give sophistication and operationality to apartment buildings.</p>
+                                    <h3 class="why-text-red mb-3">Healthcare Industry  </h3>
+                                    <p class="card-text">We outline signage boards that assist in supporting patients and guests, along with wayfinding signage, building signage, and digital signage for hospitals, clinics, and healthcare centers.</p>
+
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/signage-4.webp')}}" class="why-card-img-top"
-                                    alt="Banking Sector Signage Services">
+                                    alt="Restaurant & Hospitality">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Banking Sector Signage Services</h3>
-                                    <p class="card-text">Banks rely on us for long-lasting stainless steel signage, LED displays, and competent signage boards that match their commercial branding.</p>
+                                    <h3 class="why-text-red mb-3">Restaurant & Hospitality</h3>
+                                    <p class="card-text">Our sign work comprises LED signage boards, outdoor signs, and acrylic signage that improves the ambiance and assists customers in seamlessly steering your restaurant, cafe, or hotel.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/signage-5.webp')}}" class="why-card-img-top"
-                                    alt="Corporate Signage for Businesses">
+                                    alt=" Retail Businesses">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Corporate Signage for Businesses</h3>
-                                    <p class="card-text">We generate spectacular letter signage, digital signage, and formal signage boards for corporate offices, guaranteeing a competent and embracing look.</p>
+                                    <h3 class="why-text-red mb-3"> Retail Businesses</h3>
+                                    <p class="card-text">We generate custom signage solutions such as acrylic LED letters, LED displays, and corrugated box signage that pull attention to your outlet, boosting your products and services efficiently.</p>
                                 </div>
                             </div>
                         </div>
@@ -172,30 +158,30 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/signage-5.webp')}}" class="why-card-img-top"
-                                    alt="Corporate Signage for Businesses">
+                                    alt=" Retail Businesses">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Corporate Signage for Businesses</h3>
-                                    <p class="card-text">We generate spectacular <a href="https://brandsignages.com/office-desk-signs-in-bangalore" target="_blank">office design signage</a>, digital signage, and nameplate signage boards for corporate offices, guaranteeing a competent and embracing look.</p>
+                                    <h3 class="why-text-red mb-3"> Retail Businesses</h3>
+                                    <p class="card-text">We generate custom signage solutions such as acrylic LED letters, LED displays, and corrugated box signage that pull attention to your outlet, boosting your products and services efficiently.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/signage-6.webp')}}" class="why-card-img-top"
-                                    alt="Restaurant and Hotel Signage Designs">
+                                    alt="Corporate Offices">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Restaurant and Hotel Signage Designs</h3>
-                                    <p class="card-text">From outdoor signs to fashionable indoor signage, we shape premium restaurant signage boards that appeal to clients and improve the atmosphere.</p>
+                                    <h3 class="why-text-red mb-3">Corporate Offices</h3>
+                                    <p class="card-text"> We offer polished and competent signage alternatives like stainless steel and ACP sign boards for your office or building. These consist of directional signage, office branding, and informative signage.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/signage-7.webp')}}" class="why-card-img-top"
-                                    alt="Medical and Hospital Signages">
+                                    alt="Custom Signage  ">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Medical and Hospital Signages</h3>
-                                    <p class="card-text">Our expert sign board manufacturers create transparent and professional signage designs, comprising acrylic signs and display boards, perfect for hospitals and clinics.</p>
+                                    <h3 class="why-text-red mb-3">Custom Signage  </h3>
+                                    <p class="card-text">Whether you require an LED sign, ACP sign, or acrylic signage, our team of proficient designers will produce a solution that suits your brand flawlessly. From sign boards to ignited displays, we provide back-to-back signage pattern and installation services.</p>
                                 </div>
                             </div>
                         </div>
@@ -224,11 +210,85 @@
     </div>
 </section>
 
+<section class="container py-5">
+    <div class="row g-4 d-flex flex-wrap justify-content-center">
+
+        <div class="text-center ">
+            <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for Signage in Mumbai?</h2>
+            <p class="card-text testimonial-card-text">We are distinct as one of the best sign board manufacturers in Mumbai, offering businesses high-class signage solutions. Here’s why we are the favored signage company in Mumbai.As a pioneering signage company in Mumbai, we’re dedicated to rendering unique sign work that promotes your brand’s observability and influence. Opt for us for signage in Mumbai and feel the difference.</p>
+        </div>
+
+        <div class="col-lg-12">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/new/accrylic-c1.jpeg')}}" alt="Modern Designs" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Modern Designs</h5>
+                            <p class="text-content">Our team produces creative and contemporary signage designs that suit your brand recognition. From glossy acrylic signage to remarkable LED sign boards, we provide a variety of patterns to fit each requirement.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/acrylic-sign-board2.webp')}}" alt="Durability" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Durability</h5>
+                            <p class="text-content">We utilize standardized substances such as stainless steel, ACP, and acrylic to make sure that your signage is durable. Our sign boards are made to bear the components, whether they are utilized indoors or as outdoor signs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/acrylic-sign-board3.webp')}}" alt="Warranty " class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Warranty </h5>
+                            <p class="text-content">We stand by the class of our work. All our signage products are available with a warranty, giving you a state of peace and quiet being aware that your investment is safeguarded.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/acrylic-sign-board4.webp')}}" alt="Easy Installation" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Easy Installation</h5>
+                            <p class="text-content">Our professional team manages the installation method from beginning to ending. We ensure the signage board, whether it's a digital signage solution or an LED display, is installed promptly and safely.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/acrylic-sign-board5.webp')}}" alt="Excellent Customer Service" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Excellent Customer Service</h5>
+                            <p class="text-content">As a reliable sign board maker in Mumbai, we concentrate on customer contentment. We work intimately with you through the  whole procedure, from signage design to installation, guaranteeing that your requirements are fulfilled.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/new/acrylic-c2.jpeg')}}" alt="Variety of Options" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Variety of Options</h5>
+                            <p class="text-content">Whether you require building signage, wayfinding signage, LED signage boards, or acrylic LED letters, we have it for you. We also provide solutions such as LED signs, acrylic signage, and corrugated box arrays to make your business be distinct.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">We Craft Excellence: Buy Custom <br>Signages in Bangalore </h2>
-        <p class="card-text text-center">Signages are gaining popularity for their perfect blend of aesthetics and practical functionality. We are among the leading sign board makers in Bangalore, crafting innovative & high-quality signage solutions to elevate your brand's presence.</p>
+        <h2 class="hero-title">Types of Sign Boards We Manufacture</h2>
+        <p class="card-text text-center">As one of the best sign board manufacturers in Mumbai, we supply a variety of sign boards to fit in your organizational requirements. Here are the various kinds of sign boards we produce:</p>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -238,23 +298,18 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">Unique Traditional Signages</h2>
+                <h2 class="brand-title">Acrylic Sign Boards</h2>
                 <p class="brand-description">
-                    <ul>
-                        <li>At Brand Signages, we feel honored to design traditional signages in Bangalore that are exceptional for their class and pattern. </li>
-                        <li>Pioneer signage makers in Bangalore, we are experts in supplying signage solutions personalized to your desires. </li>
-                        <li>From signboards to cutting-edge digital signage, we make sure that your brand illuminates each detail. </li>
-                    </ul>
+                    Our acrylic signage is ideal for indoor as well as outdoor usage. Lightweight and persistent, these sign boards can be tailored with your brand's logo and message. Acrylic led letters can also be attached for an illuminating outcome.
                 </p>
-                <h2 class="brand-title">Huge Collection of Products</h2>
+                <h2 class="brand-title">Metal Sign Boards  </h2>
                 <p class="brand-description">
-                    Our proficient board manufacturers produce:
-                    <ul>
-                        <li><a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12">LED sign boards</a></li>
-                        <li><a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12">Glow sign board</a></li>
-                        <li><a href="{{route('acrylic_signage_manufacturer_bangalore')}}" style="text-decoration: unset;color:#E43D12">Acrylic sign boards</a></li>
-                    </ul>
+                    For an executive and polished appearance, our stainless steel and ACP sign boards are perfect. These are ideal for building signage and generating a permanent impact for your business.
                 </p>
+                <h2 class="brand-title">Digital Signage  </h2>
+                <p class="brand-description">
+                    If you require vibrant and communicative signage, our digital signage solutions are the ideal preference. These compose of LED displays, LED signage boards, and other high-tech solutions to retain your audience engrossed.
+                               </p>
             </div>
         </div>
     </div>
@@ -266,24 +321,19 @@
         <div class="row align-items-center">
 
             <div class="col-lg-6 order-2 order-lg-1">
-                <h2 class="brand-title">Solutions for</h2>
+                <h2 class="brand-title">Outdoor Sign Boards</h2>
                 <p class="brand-description">
                     
-                    <ul>
-                        <li>Remarkable outdoor signs.</li>
-                        <li>Polished indoor signage.</li>
-                        <li>Executive appearances for your corporate office.</li>
-                    </ul>
+                    Our outdoor signs are shaped to combat rough weather situations. Whether it’s an LED sign or a corrugated box array, we guarantee that your outdoor sign stays dynamic and observable for an elongated span.
                 </p>
-                <h2 class="brand-title">Designs that have Creativity and longevity</h2>
+                <h2 class="brand-title">Interior Sign Boards  </h2>
                 <p class="brand-description">
-                  
-                    <ul>
-                        <li>We also provide stainless steel and acrylic signs, letter signage, and LED displays to fulfill your branding targets.</li>
-                        <li>Our digital display signs are ideal for organizations looking for high observability.</li>
-                        <li>Our glow signs give gracefulness and attraction to any place. </li>
-                    </ul>
+                    For your internal business, we produce fashionable and operational interior signs. This comprises wayfinding signage, office signage, and signage design personalized to your place and brand recognition.
                 </p>
+                <h2 class="brand-title">Neon Glowing Signage </h2>
+                <p class="brand-description">
+                     Neon glowing signs provide a retro and lively appearance that captures attention. We design custom neon-style LED sign boards and neon lighting for organizations that wish to be distinct and create a fearless statement.
+                                </p>
             </div>
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
@@ -306,12 +356,11 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">Dependable signage manufacturers in Bangalore</h2>
+                <h2 class="brand-title">LED Signs </h2>
                 <p class="brand-description">
-                    <ul>
-                        <li>We convert your wish to reality with creative signage designs that are operational and visibly attractive. </li>
-                        <li>Contact Brand Signages soon to discover our superior range of sign boards in Bangalore and uplift your brand with distinction.</li>
-                    </ul>
+                    Our LED sign boards offer glowy, energy-saving solutions for your enterprise. Whether for exterior utility or as a factor of building signage, our LED signage alternatives are visually remarkable and simple to maintain.
+                </p>
+                <p class="brand-description">As a trustworthy sign board maker in Mumbai, we focus on supplying high-class signage that fulfills your exceptional needs. Select us for general sign work that uplifts your brand's presence!
                 </p>
             </div>
         </div>
@@ -333,13 +382,13 @@
                         <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">We placed an order for an acrylic sign board in Bangalore, and the standard goes beyond our expectations. The pattern was glossy, and the service was wonderful!</p>
+                        <p class="card-text testimonial-card-text">The acrylic signage board we bought from this signage company in Mumbai entirely modified our office! The design and installation were ideal. Highly suggested!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/acrylic-bangalore12.webp')}}" alt="Ramesh K" class="client-img">
+                           
                             <div>
-                                <div class="client-name">Ramesh K</div>
-                                <div class="client-role">Corporate office owner</div>
+                                <div class="client-name">Rajesh Kapoor</div>
+                                <div class="client-role">Corporate Manager</div>
                             </div>
                         </div>
                     </div>
@@ -351,13 +400,12 @@
                         <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">The acrylic LED signages modified our shopfront. The dazzling and lively lighting genuinely makes us distinct at night!</p>
+                        <p class="card-text testimonial-card-text">We required an outdoor sign for our restaurant, and this team supplied an excellent LED sign board that genuinely is outstanding. Superb service and standard!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/acrylic-bangalore13.webp')}}" alt="Meera S" class="client-img">
                             <div>
-                                <div class="client-name">Meera S</div>
-                                <div class="client-role">Retail Business Owner</div>
+                                <div class="client-name">Priya Sharma</div>
+                                <div class="client-role">Restaurant Owner</div>
                             </div>
                         </div>
                     </div>
@@ -369,13 +417,13 @@
                         <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">The acrylic LED signages modified our shopfront. The dazzling and lively lighting genuinely makes us distinct at night!</p>
+                        <p class="card-text testimonial-card-text">“I’ve worked with various signage companies, but these sign board manufacturers in Mumbai truly intrigued me with their inventive signage design and punctual delivery.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Priya T" class="client-img">
+                            <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Amit Verma" class="client-img">
                             <div>
-                                <div class="client-name">Priya T</div>
-                                <div class="client-role">HR Manager</div>
+                                <div class="client-name">Amit Verma</div>
+                                <div class="client-role">Retailer</div>
                             </div>
                         </div>
                     </div>
@@ -387,13 +435,13 @@
                         <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">The team delivered beautiful acrylic wall signs that aligned our branding flawlessly. Their board manufacturer skillfulness is noticeable in the details</p>
+                        <p class="card-text testimonial-card-text">Our new LED signage board has given so much observability to our outlet. The team was competent, and the acrylic LED letters are high-spirited and resistant.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
                             <img src="{{asset('frontend/Images/acrylic-bangalore15.webp')}}" alt="Rohan Gupta" class="client-img">
                             <div>
-                                <div class="client-name">Rajeev P</div>
-                                <div class="client-role">Marketing Manager</div>
+                                <div class="client-name">Natasha Mehra</div>
+                                <div class="client-role">Business Owner</div>
                             </div>
                         </div>
                     </div>
@@ -405,13 +453,13 @@
                         <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">From shaping to installation, their service was effortless. The acrylic signages Bangalore we bought have genuinely uplifted our business existence.</p>
+                        <p class="card-text testimonial-card-text">The ACP sign board they supplied for our building signage was far ahead of our expectations. The standard of the substances and the all-rounded coating was extraordinary.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
                             <img src="{{asset('frontend/Images/acrylic-bangalore16.webp')}}" alt="Ishita Mehta" class="client-img">
                             <div>
-                                <div class="client-name">Suman G</div>
-                                <div class="client-role">Entrepreneur</div>
+                                <div class="client-name">Sanjay Desai</div>
+                                <div class="client-role">Property Developer</div>
                             </div>
                         </div>
                     </div>
@@ -429,13 +477,13 @@
                                     <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">We placed an order for an acrylic sign board in Bangalore, and the standard goes beyond our expectations. The pattern was glossy, and the service was wonderful!</p>
+                                    <p class="card-text testimonial-card-text">The acrylic signage board we bought from this signage company in Mumbai entirely modified our office! The design and installation were ideal. Highly suggested!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore12.webp')}}" alt="Ramesh K" class="client-img">
+                                      
                                         <div>
-                                            <div class="client-name">Ramesh K</div>
-                                            <div class="client-role">Corporate office owner</div>
+                                            <div class="client-name">Rajesh Kapoor</div>
+                                            <div class="client-role">Corporate Manager</div>
                                         </div>
                                     </div>
                                 </div>
@@ -447,13 +495,13 @@
                                     <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The acrylic LED signages modified our shopfront. The dazzling and lively lighting genuinely makes us distinct at night!</p>
+                                    <p class="card-text testimonial-card-text">We required an outdoor sign for our restaurant, and this team supplied an excellent LED sign board that genuinely is outstanding. Superb service and standard!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore13.webp')}}" alt="Meera S" class="client-img">
+                                        
                                         <div>
-                                            <div class="client-name">Meera S</div>
-                                            <div class="client-role">Retail Business Owner</div>
+                                            <div class="client-name">Priya Sharma</div>
+                                            <div class="client-role">Restaurant Owner</div>
                                         </div>
                                     </div>
                                 </div>
@@ -465,13 +513,13 @@
                                     <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The acrylic LED signages modified our shopfront. The dazzling and lively lighting genuinely makes us distinct at night!</p>
+                                    <p class="card-text testimonial-card-text">“I’ve worked with various signage companies, but these sign board manufacturers in Mumbai truly intrigued me with their inventive signage design and punctual delivery.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Priya T" class="client-img">
+                                        <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Amit Verma" class="client-img">
                                         <div>
-                                            <div class="client-name">Priya T</div>
-                                            <div class="client-role">HR Manager</div>
+                                            <div class="client-name">Amit Verma</div>
+                                            <div class="client-role">Retailer</div>
                                         </div>
                                     </div>
                                 </div>
@@ -487,13 +535,13 @@
                                     <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The acrylic LED signages modified our shopfront. The dazzling and lively lighting genuinely makes us distinct at night! <br> <br> </p>
+                                    <p class="card-text testimonial-card-text">“I’ve worked with various signage companies, but these sign board manufacturers in Mumbai truly intrigued me with their inventive signage design and punctual delivery. <br> <br> </p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
-                                        <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Priya T" class="client-img">
+                                        <img src="{{asset('frontend/Images/acrylic-bangalore14.webp')}}" alt="Amit Verma" class="client-img">
                                         <div>
-                                            <div class="client-name">Priya T</div>
-                                            <div class="client-role">HR Manager</div>
+                                            <div class="client-name">Amit Verma</div>
+                                            <div class="client-role">Retailer</div>
                                         </div>
                                     </div>
                                 </div>
@@ -505,13 +553,13 @@
                                     <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The team delivered beautiful acrylic wall signs that aligned our branding flawlessly. Their board manufacturer skillfulness is noticeable in the details</p>
+                                    <p class="card-text testimonial-card-text">Our new LED signage board has given so much observability to our outlet. The team was competent, and the acrylic LED letters are high-spirited and resistant.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
                                         <img src="{{asset('frontend/Images/acrylic-bangalore15.webp')}}" alt="Rohan Gupta" class="client-img">
                                         <div>
-                                            <div class="client-name">Rajeev P</div>
-                                            <div class="client-role">Marketing Manager</div>
+                                            <div class="client-name">Natasha Mehra</div>
+                                            <div class="client-role">Business Owner</div>
                                         </div>
                                     </div>
                                 </div>
@@ -523,13 +571,13 @@
                                     <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">From shaping to installation, their service was effortless. The acrylic signages Bangalore we bought have genuinely uplifted our business existence.</p>
+                                    <p class="card-text testimonial-card-text">The ACP sign board they supplied for our building signage was far ahead of our expectations. The standard of the substances and the all-rounded coating was extraordinary.</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
                                         <img src="{{asset('frontend/Images/acrylic-bangalore16.webp')}}" alt="Ishita Mehta" class="client-img">
                                         <div>
-                                            <div class="client-name">Suman G</div>
-                                            <div class="client-role">Entrepreneur</div>
+                                            <div class="client-name">Sanjay Desai</div>
+                                            <div class="client-role">Property Developer</div>
                                         </div>
                                     </div>
                                 </div>
@@ -623,51 +671,51 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                Are acrylic signages appropriate for outdoor landscapes?
+                Why should I opt for a sign board manufacturer in Mumbai?  
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Yes, acrylic signage in Bangalore is perfect for outdoor usage. Our outdoor acrylic products, comprising acrylic LED signages and ACP sign boards, are weather-proof and long-lasting, making them ideal for all sorts of environmental circumstances.</p>
+                <p>Opting for a sign board manufacturer in Mumbai guarantees you get an approach to high-class, general signage built to your accurate specifications. Mumbai has a huge range of expert sign makers who provide creative and persistent signage solutions, comprising LED signage, outdoor signs, and building signage.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                What diversities of acrylic signage alternatives does Brand Signages provide?
+                What types of signage services are obtainable in Mumbai?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Brand Signages provides a huge collection of acrylic signage alternatives, comprising acrylic sign boards, acrylic wall signs, acrylic name plates, glow sign boards, LED sign boards, and acrylic LED signs. We offer order-made designs to suit your business requirements.</p>
+                <p>Mumbai provides a variety of signage services, like the design and producing of LED sign boards, digital signage, acrylic signage, and stainless steel signage. Signage companies in Mumbai also offer installation and maintenance services, comprising wayfinding signage and outdoor signs.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                How long can acrylic signage bear environmental circumstances?
+                What substances are typically utilized for sign boards?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Acrylic sign boards are highly persistent and can last for a number of years, even in difficult outdoor situations. Our premium quality acrylic signage is made to bear rough weather, UV rays, and other environmental aspects.</p>
+                <p>Typical substances utilized for sign boards consist of acrylic, ACP (Aluminum Composite Panel), stainless steel, and corrugated box substances. Acrylic LED letters, LED signage boards, and ACP sign boards are common preferences for indoor and outdoor signage because of their longevity and visual attraction.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                Is any exceptional maintenance needed to maintain acrylic signage?
+                How much time does it take to produce a custom sign board?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Upkeeping acrylic signage boards is simple. Just clean them with a soft cloth and light detergent to keep their appearance like new. No exceptional maintenance is needed.</p>
+                <p>The production time for a general sign board is based on the intricacy of the design and substances utilized. On average, it can take approximately from 7 to 15 days for a sign board maker in Mumbai to finish a custom sign, along with installation.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                How fast can Brand Signages provide a traditional acrylic signage order?
+                How can signage be profitable for my business?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>We provide instant delivery for traditional acrylic signage orders. According to the design and intricacy, we usually deliver in a few days or a week.</p>
+                <p>Signage in Mumbai plays a major part in augmenting brand presence and appealing to customers. A well-structured sign board or LED display can grasp awareness, promote customer experience, and make steerage simpler with wayfinding signage, fostering all-rounded business victory.</p>
             </div>
         </div>
 
