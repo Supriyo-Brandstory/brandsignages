@@ -21,7 +21,7 @@
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
        
-        <h2 class="hero-title mb-3">Transforming Spaces with Premium Sign Board Solutions.</h2>
+        <h2 class="hero-title mb-3">Transforming Spaces with Premium Sign Board Solutions</h2>
         <div class="row text-center">
             <div class="col-md-4">
                 <p class="number"><span class="counter">1000</span> +</p>
