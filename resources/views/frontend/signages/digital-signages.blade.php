@@ -40,26 +40,17 @@
             </div>
 
             <div class="col-lg-6">
+                <h2 class="brand-title">#1 Digital Signage Display Manufacturer </h2>
                 <p class="brand-description">
-                    Digital signages have emerged as essential tools for enhancing visual communication across
-                    various industries. These advanced solutions serve sectors such as corporate offices, retail,
-                    hospitality, food services, banking, and education, providing dynamic and engaging ways to
-                    convey information. As leading digital signage manufacturers, we design digital display boards for 
-                    renowned brands to display announcements and performance metrics, helping foster a collaborative 
-                    and engaging environment.
+                    Digital signage has emerged as an essential tool for enhancing visual communication across various industries. Digital display boards for corporate offices, retail, hospitality, food services, banking, and education, provide dynamic and engaging ways to convey information. Brand Signages is a leading digital signage manufacturer with 10+ years of experience in crafting display boards. We design digital display boards for renowned brands to display announcements and performance metrics, helping foster a collaborative and engaging environment.
                 </p>
                 <p class="brand-description">
-                    For the food industry, digital menu boards allow for quick updates that can drive impulse
-                    purchases. In banking, we will streamline customer interactions by providing essential
-                    information like wait times and service options. Educational institutions utilize digital
-                    signage to keep students and staff informed about schedules, events, and important
-                    announcements.
+                    We design digital display boards for various industries starting from restaurants, hospitals, retails, and more. For hotels and restaurants, digital menu boards allow for quick updates that can drive impulse purchases. In banking, digital display boards streamline customer interactions by providing essential information like wait times and service options. Educational institutions utilize digital signage to keep students and staff informed about schedules, events, and important announcements.
+
                 </p>
                 <p class="brand-description">
-                    Brand Signages is one of the top 10 digital signage manufacturers in India. We offer state-of-the-art tech integration, better  
-                    visibility, dynamic content, and real-time updates, making digital signages more effective 
-                    than static signs. As a reputable digital signage company, we help businesses 
-                    enhance brand presence, boost customer engagement, and drive foot traffic.
+                    Brand Signages is among the top digital signage companies in Bangalore & India. We offer digital signages with state-of-the-art tech integration, dynamic content, and real-time updates, making them more effective than static signs. As a reputable digital signage company, we help businesses enhance brand presence, boost customer engagement, and drive foot traffic. 
+
                 </p>
 
             </div>

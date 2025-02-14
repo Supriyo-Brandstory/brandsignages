@@ -17,7 +17,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Our LED Sign Board Product Range</h2>
+        <h2 class="hero-title">Custom LED Sign Boards for a Lasting Impact</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -28,9 +28,11 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Brand Signage, is your one-stop solution for the best LED light Sign Board. As a leading custom acrylic led sign board manufacturer, we offer a range of LED sign boards designed to align your business and elevate your brand identity. From amazing digital LED Display boards to glowing Light sign boards, we combine quality, innovation, and affordability to meet your signage requirements.</p>
-                <p class="brand-description">
-                    Our experienced team is extremely enthusiastic about collaborating with different types of businesses or brands to deliver dynamic LED Light Sign boards. Our passion and dedication are to create various styles of Acrylic LED sign boards, LED Message Boards, Digital Backlit Boards, and more. We are ready to push our boundaries to introduce your brand through a span-new LED sign board.</p>
+                    LED sign boards are a modern signage solution that enhances brand visibility with eye-catching and energy-efficient lighting. Best for both indoor and outdoor usage, LED sign boards offer durability and customization making them a preferred choice for businesses.</p>
+                    <p class="brand-description">
+                        Brand Signages is a leading LED sign board manufacturer in Bangalore & India, combining quality and innovation to meet your signage needs. From amazing LED reverse light signs, and digital LED to acrylic LED signages we offer a range of solutions. 
+                    </p>
+                    <p class="brand-description">Our expert LED signage makers have worked with different types of businesses or brands. Our product range includes acrylic LED sign boards, LED message boards, digital backlit boards, and more. Our passion and dedication drive us to create diverse signage styles. We are ready to push boundaries to showcase your brand with a brand-new LED sign board. </p>
             </div>
         </div>
     </div>

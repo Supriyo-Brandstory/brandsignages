@@ -17,7 +17,8 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Elevate Your Brand with Custom <br>LED Sign Boards</h2>
+        <h2 class="hero-title">Custom LED Sign Boards in Bangalore <br>to Keep Your Brand Visible 24/7
+        </h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -27,19 +28,18 @@
             </div>
 
             <div class="col-lg-6">
+                <h2 class="brand-title">#1 LED Sign Board Makers in Bangalore </h2>
                 <p class="brand-description">
-                    Make your branding stand out with premium-quality LED sign boards in Bangalore.  We emphasize designing extraordinary LED signage 
-                    solutions personalized to your organization’s requirements. From acrylic LED sign boards to brass letters and stainless steel signage, 
-                    we make sure your brand gets the observability it is qualified for. </p>
-                <p class="brand-description">
-                    Our LED display boards in Bangalore integrate modern technology and striking designs to formulate influential signage. Whether you require 
-                    a glow sign board for outdoor branding or a luxurious acrylic sign board for your place, we offer solutions that line up with your dreams. 
-                    Our skillfulness on LED technology comprises neon backlit signs, digital LED signs, LED glow signs, ensuring lifelong resistance and unparalleled beauty. 
+                    LED sign boards are designed to provide better visibility around the clock, making them an ideal solution for businesses. Vibrant colors and customizable designs of LED sign boards ensure your brand stands out. 
+
                 </p>
-                    <p class="brand-description">As a premier LED sign board manufacturer in Bangalore, Domlur, we concentrate on designing and producing high-quality, visually 
-                        striking, and durable signage solutions. Every LED light sign board is tailored to exhibit your brand's recognition while guaranteeing energy saving and 
-                        reasonability. With our display boards and signage boards, your enterprise can attain a matchless presence, day or night.  <br>
-                        Opt for Brand Signages for your signage requirements and experience the ideal mix of operationality, sophistication, and longevity.
+                <p class="brand-description">
+                    As a premier LED sign board manufacturer in Bangalore, Domlur, we design high-quality, visually striking, and durable signages. Every LED light sign board is tailored to exhibit your brand's recognition while guaranteeing energy saving and durability. With our custom LED display boards, your business can make an impact, day or night.  
+    
+                </p>
+                    <p class="brand-description">
+                        Our LED display board makers in Bangalore integrate modern technology and striking designs to create influential signages. Whether you require a glow sign board for outdoor branding or a luxurious acrylic LED sign board for your retail store, we offer solutions that line up with your dreams. Opt for Brand Signages for your LED signage requirements and experience the ideal mix of technology, sophistication, and longevity.
+    
                     </p>
             </div>
         </div>

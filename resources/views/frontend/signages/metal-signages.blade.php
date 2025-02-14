@@ -30,16 +30,18 @@
             </div>
 
             <div class="col-lg-6">
+                <h2 class="brand-title">#1 Metal Signage Makers</h2>
                 <p class="brand-description">
-                As a leading metal signage manufacturer, <a href="https://brandsignages.com/" style="text-decoration: unset;color:#E43D12">Brand Signages</a> specializes in in creating
-                 custom metal signage boards made from aluminum and steel, ensuring both durability and a premium finish. Our signages ensure meets the highest standards of quality and 
-                 design, perfectly representing your brand.
+                    Elevate your business with eye-catching signage that reflects professionalism and durability. Opting for premium-quality metal signage is an effective way to enhance your brand's visibility and make a lasting impression. 
+
                 </p>
                 <p class="brand-description">
-                Our stainless steel and aluminum signage boards are designed to match your brand's unique identity, offering shiny, matte, and other finish options for a flawless look. 
-                Whether you're need a nameplate, outdoor signage, or interior signs, our metal signages are versatile and adaptable 
-                to meet your needs. Opting for premium-quality metal signage is an effective way to enhance your brand's visibility and 
-                make a lasting impression.
+                    Brand Signages is the top metal signage manufacturer, specializing in creating custom metal signage boards. We design premium aluminum and stainless steel metal signages, ensuring both durability and a premium finish. We design metal signage boards for indoor and outdoor usage, crafted with the highest quality standards.
+
+                </p>
+                <p class="brand-description">
+                    Our stainless steel signage can withstand weather conditions, perfect for outdoor usage. Aluminum signages are designed to match your brand's unique identity, offering shiny, matte, and other finish options for a flawless look. Whether you need a nameplate, outdoor signage, or interior signs, our metal signage is versatile and adaptable to meet your needs. 
+
                 </p>
             </div>
         </div>

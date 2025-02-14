@@ -27,12 +27,15 @@
             </div>
 
             <div class="col-lg-6">
+                <h2 class="brand-title">#1 digital signage company in Bangalore</h2>
                 <p class="brand-description">
-                    Make your brand reach new peaks with digital signage displays that allure and engross your viewers. As prominent blr digital signage vendors we offer creative digital signage solutions to fulfill your business requirements. Whether you require a digital standee, a polished touchscreen kiosk, or a lively LED video wall, we have the ideal digital signage solution for you. Our contributions comprise floor-standing signage displays, rectangle digital displays, and LCD digital signage with extraordinary contrast ratios to guarantee that your message is exceptional.
+                    Digital signage offers an engaging way to showcase your brand, grabbing attention with vibrant visuals and real-time updates. From digital display boards and video walls to digital standees, businesses are utilizing digital signage to enhance customer engagement. 
+
                 </p>  
                 <p class="brand-description">
-                    From digital signages, video walls to digital standee, we emphasize best signage displays that match your branding. We also render modern signage software for effortless content creation and handling. Whether it’s a spectacular video wall or a floor stand display board, our products render unparalleled standards and output. Choose Brand Signages for standardized Bangalore digital signage services, designed to enhance and support your advertising strategy. With our inventive LED and digital signage kiosks, your brand will glow blazing throughout any channel. Let us modify your dream into reality with our innovative signage solutions today!
+                    Brand Signages is a prominent digital signage manufacturer offering top-tier digital signage solutions. Whether you require a digital standee, a polished touchscreen kiosk, or a lively LED video wall, we have the ideal digital signage solution for you. Our product range comprises floor-standing signage displays, rectangle digital displays, and LCD digital signage.
                 </p>
+                <p class="brand-description">As the best BLR digital signage vendors, we emphasize designing the best signage displays that match your branding. We provide modern signage software for effortless content creation and handling. Whether it’s a spectacular video wall or a floor stand display board, our products render unparalleled standards and output. Choose Brand Signages for standardized digital signage displays, designed to enhance and support your advertising strategy. Let us modify your dream into reality with our innovative signage solutions today!</p>
             </div>
         </div>
     </div>

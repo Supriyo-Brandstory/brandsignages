@@ -27,14 +27,18 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">Acrylic Signages Boards </h2>
+                <h2 class="brand-title">Premium Acrylic Signage Boards </h2>
                 <p class="brand-description">
-                    A well-designed office space speaks volumes about your brand’s professionalism, culture, and attention to detail. The moment a visitor steps into your office, they begin forming perceptions about your company. An aesthetically appealing reception or lobby creates an immediate sense of credibility and trust. One of the most effective ways to enhance this first impression is through premium Acrylic Signages that prominently showcase your brand identity. These visually striking acrylic signs not only add sophistication to your workspace but also reinforce brand recognition, making your office environment more inviting and engaging.
+                    A well-designed space speaks a lot about your brand’s professionalism, culture, and attention to detail. An aesthetically appealing retail store, reception, or lobby creates an immediate sense of credibility and trust. Acrylic signage is one of the most prominent options for businesses and individuals looking for a sleek, durable, and visually appealing branding solution. Acrylic sign boards are visually striking and can make your space more inviting and engaging.
+
                 </p>
                 <p class="brand-description">
-                    At Brand Signages, we offer premium acrylic signage solutions designed for durability, versatility, and lasting impact. Whether you need indoor signage for corporate offices, retail stores, or event promotions, or outdoor signage for storefronts and public spaces, our acrylic sign boards deliver a sleek and modern look. Made from high-quality, weather-resistant acrylic, they ensure long-term performance while maintaining exceptional clarity and elegance. With custom design options, vibrant finishes, and precision-cut lettering, our Acrylic signage boards help businesses stand out with a polished, professional appearance.                 </p>
+                    Brand Signages is the premier acrylic signage manufacturer in Bangalore & India offering durable and versatile acrylic signs. Whether you need indoor signage for corporate offices, retail stores, events, or outdoor signs for storefronts and public spaces, our acrylic sign boards will meet your needs. We make weather-resistant and high-quality acrylic signage to ensure long-term performance. With custom-made designs and precision-cut letters, our acrylic signage boards will make your business stand out from the rest. 
+
                 <p class="brand-description">
-                    With LED illumination options, 3D lettering, and custom engraving, you can create a dynamic visual impact that captures attention. Whether enhancing office interiors, reinforcing brand identity, or making your storefront more noticeable, our expertly crafted acrylic signage boards ensure maximum visibility and engagement.                </p>
+                    With LED illumination options, 3D lettering, and custom engraving, we create a dynamic visual impact that captures attention. Whether enhancing office interiors, reinforcing brand identity, or making your storefront more noticeable, our expertly crafted acrylic signage boards ensure maximum visibility and engagement.
+   
+                </p>
 
             </div>
         </div>
