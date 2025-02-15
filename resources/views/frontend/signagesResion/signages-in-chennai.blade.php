@@ -298,7 +298,7 @@
                 <h2 class="brand-title">LED Signs </h2>
                 <p class="brand-description">
                     These multifaceted LED signs are available in several shapes and sizes and are commonly used for security, steerage, or decorative reasons. They are also utilized as backlit boards for a contemporary and luxurious feel, merging practicality with beauty.
-                  <br>  <a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
+                  <br>  <a href="{{route('led_display_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
                 </p>
             </div>
         </div>
