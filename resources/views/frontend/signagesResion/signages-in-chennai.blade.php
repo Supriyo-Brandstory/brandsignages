@@ -10,7 +10,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/new/signage-in-chennai-1.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai">
                 <div class="carousel-caption-custom">
-                    <h1>Top-rated Sign Board Manufacturers in Chennai</h1>
+                    <h1>Top Sign Board Manufacturers in Chennai: Custom & Durable Solutions</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -24,7 +24,7 @@
 </section>
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Elevate Your Brand Visibility with Brand Signages</h2>
+        <h2 class="hero-title">Uplift Your Brand with Trusted <br>Sign Board Manufacturers in Chennai </h2>
        
 
         <div class="row align-items-center">
@@ -35,20 +35,20 @@
             </div>
 
             <div class="col-lg-6">
+            <h2 class="brand-title">#1 Sign Board Manufacturers in Chennai</h2>
                 <p class="brand-description">
-                    Brand Signages is a Chennai-based sign-board manufacturer serving PAN India clients. Working with 10+ years of experience, we design and manufacture signages that make a bold statement. 
-
+                    Sign boards play a crucial role in building strong brand recognition. A well-designed sign board enhances branding by attracting customer attention day and night. They not only emphasize an organization's name but also convey essential information such as contact details and key products and services.  
                     </p>
                 <p class="brand-description">
-                    Sign boards play a crucial role in building strong brand recognition. A well-designed sign board can help promote products and showcase branding by attracting attention day and night. They not only emphasize an organization's name but also transmit vital information like contact details and services. This ensures that your message is seen and remembered. 
+                    Brand Signages is a Chennai-based sign board manufacturer serving top companies in South India. Working with 10+ years of experience in signage manufacturing, we design signages that make a bold statement.  
                 </p>
                 <p>
-                    Whether you require traditional neon signs, acrylic signs, or LED displays, our expert sign board makers in Chennai supply a wide range of solutions customized to satisfy your unique needs. Investing in high-quality sign boards in Chennai ensures effective communication, builds trust, and creates a memorable impression on your clients.
+                    Whether you require traditional neon signs, acrylic signs, or LED displays, our expert sign board makers in Chennai supply a wide range of solutions. With a passion for excellence, Brand Signages crafts modern LED signage and digital signage solutions that leave a lasting impact. Here’s how we are the best sign board manufacturers in Chennai:
                 </p>    
                 <ul>
-                    <li> We utilize cutting-edge technology to ensure top-quality signage products.</li>
-                    <li>We provide signage solutions tailored to align with your brand vision.</li>
-                    <li>We design high-resolution and visually striking graphics.</li>
+                    <li>We utilize advanced technology to design superior-quality sign boards in Chennai.</li>
+                    <li>Customized sign board solutions by Brand Signages are crafted to align with your brand’s vision.</li>
+                    <li>We create high-resolution, visually captivating graphics that leave a lasting impact.</li>
                 </ul>
             </div>
         </div>
@@ -220,7 +220,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Our Range of Sign Board Services in Chennai </h2>
+        <h2 class="hero-title">Services Provided by Our Sign <br>Board Makers in Chennai</h2>
         <p class="card-text text-center">Choosing the right signboard is crucial for making your organization exceptional and interacting efficiently with your audience. As one of the top signboard manufacturers in Chennai, we offer signage solutions creatively crafted to meet the diverse needs of all businesses. From advanced LED sign boards to elegant acrylic signage, each type serves a unique purpose and adds value to your brand. Here are the kinds of sign boards in Chennai you can opt from:</p>
 
         <div class="row align-items-center">
@@ -300,7 +300,7 @@
 
 <section class="mt-lg-5">
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
-        <h2 class="hero-title">Sign Board Manufacturers in Chennai</h2>
+        <h2 class="hero-title">Our Latest Design Catalogue</h2>
         
         <!-- First Row -->
         <div class="row">
@@ -611,28 +611,28 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What kinds of sign boards do you create?
+                What types of signages do you offer in Chennai?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>We provide a huge collection of sign boards in Chennai, consisting of LED sign boards, digital signage, neon signage, ACP sign boards, acrylic signage, safety signage, and more. Our range encircles all kinds of entrepreneurial and commercial requirements, be it storefronts or corporate signage and outdoor displays.</p>
+                <p>We provide various types of sign boards in Chennai. These are LED sign boards, digital signage, neon signage, acrylic signage, safety signage, and more. Our range encircles all kinds of business and commercial requirements, be it storefronts or corporate signage and outdoor displays.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                How much time does it take to manufacture a signboard?
+                How long does it take to design and install custom signage?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>The time needed for manufacturing a signboard is based on the type and intricacy of the design. Usually, it takes approximately a few days to a couple of weeks. For LED sign boards or traditional designs, it may take more time due to the technical aspects included. We make certain of punctual delivery while retaining quality.
+                <p>The time needed for manufacturing and installation of a signboard is based on the type and intricacy of the design. Usually, it takes approximately a few days to complete manufacturing process. For custom LED sign boards, may take more time due to the technical aspects included. After that, we install the signage at your locations. We make certain of punctual delivery and installation while retaining quality.
                 </p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                Do you offer installation services in Chennai?
+                Do you offer signage installation services in Chennai?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
@@ -644,12 +644,12 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What substances are utilized for creating the signboards?
+                Are your signages weather-resistant and durable for outdoor use?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
                 <p>
-                    We use high-quality materials such as stainless steel, ACP, acrylic, and other persistent substances to produce our sign boards. For LED signage, we utilize superior LED lights and electronic elements to ensure long-lasting, brightness, and observability in all atmospheres.
+                    Yes, we design outdoor signages to be weather-resistant and durable for outdoor usage. We use best-quality materials like acrylic, metal, and LED that can withstand extreme weather conditions, ensuring lasting performance & visibility in both summer and rainy days.
                 </p>
             </div>
         </div>
@@ -661,7 +661,27 @@
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Definitely! As signboard makers in Chennai, we emphasize offering tailored signage solutions. Whether you require a hospital sign, a neon sign, or an exceptional digital sign, we can produce a sign board customized to your organization. Our design team labors nearly with you to attain your visualization.
+                <p>Definitely! As reliable signboard makers in Chennai, we emphasize offering tailored signage solutions. Whether you require a hospital sign, a neon sign, or an exceptional digital sign, we can produce a sign board customized to your organization. Our design team collaborates with you to know your specific requirements.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What factors influence the cost of signages in Chennai?
+
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>The cost of signages in Chennai may vary based on several factors, including:
+                    <ul>
+                        <li>Material: The type of material (e.g., acrylic, neon, steel, or LED) influences the overall price.</li>
+                        <li>Size and Design: Larger or more intricate custom designs generally cost more due to increased labor and material use.</li>
+                        <li>Customization: Unique features such as custom logos, colors, or lighting options may increase the cost.</li>
+                        <li>Location: Installation charges can vary based on the site’s location and accessibility.</li>
+                        <li>Quantity: Bulk orders may come with discounts, while single pieces or special orders can be a little costly.</li>
+                    </ul>
+                    We offer competitive pricing for all our sign boards, ensuring that you get the best value for your investment.
                 </p>
             </div>
         </div>

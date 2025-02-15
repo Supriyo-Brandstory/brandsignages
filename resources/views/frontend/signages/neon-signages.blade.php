@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Slide 1">
                 <div class="carousel-caption-custom">
-                    <h1>Best Neon Sign Manufacturers for Custom Signages</h1>
+                    <h1>Best Neon Sign Company in India: Creative & Bright Neons</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -18,7 +18,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">We are #1 Neon Sign Manufacturers</h2>
+        <h2 class="hero-title">Best Neon Sign Company for Eye-Catching Signages</h2>
         
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -28,14 +28,26 @@
             </div>
             
             <div class="col-lg-6">
+            <h2 class="brand-title">#1 Neon Sign Board Makers</h2>
                 <p class="brand-description">
-                Planning to decorate your personal or professional space with trendy and stylish neon signs?  With so many options available, choosing the right neon sign manufacturer can be challenging. That’s where Brand Signages stands out as a trusted name, offering a wide range of exquisite and durable neon lights. Top businesses rely on us for custom-made neon signs that perfectly combine quality and style.</p>
+                Neon signage has become a trending element of modern branding, enhancing both personal & professional spaces. Neon sign boards are designed to add a vibrant touch and make your space visually appealing. These are used in restaurants, retail stores, offices, homes, and events to create a vibrant & eye-catching ambiance. It can be a perfect go-to option to create your unique brand identity and attract customers.</p>
                 <p class="brand-description">
-                As a leading neon sign manufacturing company, Brand Signages offers exquisite neon signs for retail, office, and other spaces. Our experts pay close attention to your needs and preferences when making the signs. Thus, keeping our customers’ satisfaction a priority, we ensure that we provide top-notch neon signs that can create your dream ambiance with their dramatic and glowing appearance.</p>
+                Brand Signages stands out as the best neon sign company, offering custom neon signage design options. Top businesses rely on us for custom-made neon signs that perfectly combine quality and style. Our expert custom neon sign manufacturers pay close attention to your needs and preferences when making the signs. Thus, we ensure that you get top-notch neon signs that can bring your dream ambiance to life with stunning illumination.</p>
                 <p class="brand-description">
-                    Whether it is neon signs for shops, and offices or neon lights for bedrooms, our every product undergoes detailed quality checks and thus we provide best-in-class neon signs for you. Being made of the highest-quality material, our neon signs can be used for diverse purposes including advertising, decoration, gifting, warning signs, etc. The artistic design curved on them and their illuminated aura make them a go-to signage option for you.</p>
+                Whether it is neon signs for shops or multicolor neon signs, every product undergoes detailed quality checks. Being made of the highest-quality material, our neon signs can be used for diverse purposes including advertising, decoration, gifting, etc. Get quality neon signs crafted according to your individual preferences from Brand Signage and enliven your space effortlessly. Here’s how we are the best neon sign company:</p>
                 <p class="brand-description">
                 Whether it is neon signs for shops and offices, our every product undergoes detailed quality checks and thus we provide best-in-class neon signs for you. Being made of the highest-quality material, our neon signs can be used for diverse purposes including advertising, decoration, gifting, etc. Get quality neon signs crafted according to your individual preferences from Brand Signage and enliven your space effortlessly.</p>
+                <ul class="process-list">
+                        <li>
+                            We craft the best-quality, custom neon signages to meet your needs.
+                        </li>
+                        <li>
+                            Our neon signages are energy-efficient, durable, and visually appealing.
+                        </li>
+                        <li>
+                            We offer expert design and installation services for a seamless experience.
+                        </li>
+                    </ul>
             </div>
         </div>
     </div>
@@ -224,22 +236,22 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-2">
-        <h2 class="hero-title">Transform Your Brand with Brand<br> Signages Custom Neon Sign Boards</h2>
+        <h2 class="hero-title">Illuminate Your Space with <br>Custom-Made Neon Signages</h2>
         <div class="row align-items-center">
             
             <div class="col-lg-6 order-2 order-lg-1">
 
                 <p class="brand-description">
-                Stand out and illuminate your business space with Brand Signages custom-made neon signage boards—designed to captivate attention. 
-                Whether you're looking to elevate your brand presence or add a modern touch to your space, our neon signages are the perfect blend 
-                of style and functionality.
-                Modern neon signage is a dynamic tool for businesses across industries, from co-working spaces that ignite creativity to cafes, bars, 
-                and restaurants that elevate ambiance with vibrant neon art. Beauty salons, retail stores, yoga studios, and nightclubs all turn to neon 
-                signs for a sleek, modern edge. Neon & LED neon sign brings your branding to life, whether through inspiring word lights, bold logos, or 
-                unique, themed decor pieces.
-                Brand Signages is India's most affordable supplier of neon light signs for home, office, and retail spaces. With less power consumption and 
-                minimal heat emission, our neon signs offer a safe, long-lasting solution that’s perfect for any setting. Plus, they're lightweight and simple 
-                to install, whether you're mounting them on walls or setting them up on display stands.</p>
+                Illuminate your space with custom-made neon signage boards by Brand Signages. 
+                If you're looking to elevate your brand or add a modern touch to your space, 
+                our neon signages are the perfect blend of style and aesthetics. Neon signage is 
+                mostly used in cafes, bars, and restaurants to elevate ambiance with vibrant neon art. 
+                We also make neon signages for beauty salons, retail stores, and yoga studios. Brand Signages 
+                is India's most affordable supplier of neon light signs for home, office, and retail spaces. 
+                With less power consumption our neon signages offer a long-lasting solution that’s perfect for 
+                your space. Whether you're looking to mount them on walls or set them up on display stands, we 
+                provide a full-scale solution from design to installation. 
+            </p>
              
             </div>
 

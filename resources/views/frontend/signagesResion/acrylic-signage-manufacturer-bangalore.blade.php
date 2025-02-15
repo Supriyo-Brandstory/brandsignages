@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/acrylic-bangalore1.webp')}}" alt="Acrylic Sign Board In Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Best Acrylic Sign Boards in Bangalore</h1>
+                    <h1>Acrylic Sign Board Manufacturers in Bangalore: High-Quality Acrylic Signs</h1>
                     <div class="mt-3">
                         
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
@@ -35,7 +35,7 @@
 
                 </p>  
                 <p class="brand-description">
-                    Brand Signages is a top-tier acrylic sign board manufacturer in Bangalore. We provide acrylic LED signs, transparent boards, acrylic wall signs, and custom acrylic sign board designs to fulfill your extraordinary requirements. Our experts design premium quality signage solutions that uplift your brand’s existence. Showcase your brand's identity with expertly designed acrylic sign boards from Brand Signages.
+                    Brand Signages is a top-tier acrylic sign board manufacturer in Bangalore. We provide acrylic LED signs, transparent boards, acrylic wall signs, and custom acrylic sign board designs to fulfill your extraordinary requirements. Our experts design premium quality acrylic sign boards that uplift your brand’s existence. Showcase your brand's identity with expertly designed acrylic sign boards from Brand Signages.
 
                 </p>
                 <p class="brand-description">

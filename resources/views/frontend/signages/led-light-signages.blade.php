@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/led-signage1.webp')}}" alt="LED Signage">
                 <div class="carousel-caption-custom">
-                    <h1>LED Light Signage Boards Online</h1>
+                    <h1>Custom LED Signage Boards: Bright, Energy-Efficient, and Durable</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
