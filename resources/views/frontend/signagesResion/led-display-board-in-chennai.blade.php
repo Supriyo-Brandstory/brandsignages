@@ -10,7 +10,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-1.webp')}}" alt="Custom Neon Sign Boards in Chennai">
                 <div class="carousel-caption-custom">
-                    <h1>LED display board in Chennai</h1>
+                    <h1>Leading LED Signage Manufacturers in Chennai                    </h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -36,12 +36,17 @@
             </div>
 
             <div class="col-lg-6">
+                <h2 class="brand-title">#1 LED Signage Manufacturers in Chennai               </h2>
                 <p class="brand-description">
-                    Promote your brand’s observability with superior LED display boards in Chennai. Whether you require an LED sign board for your storefront or custom LED signs to illustrate your exceptional recognition, these inventive solutions render unparalleled influence. Organizations in Chennai are welcoming LED signage for its universality and high-tech charm, making it mandatory for promotions.  From display boards for publicity to outdoor LED displays that seize bystanders, LED technology modifies the method you interact with. Our LED video walls and digital boards are perfect for generating mesmerizing experiences, while industrial LED displays make certain longevity and effectiveness for demanding surroundings. If you’re seeking a display sign board or a message display solution for your enterprise, LED digital displays provide lively visuals and energy-saving performance.  
-                    </p>
+                    LED signage is the prominent option to enhance your brand’s observability and recognition. Whether you require an LED sign board for your storefront or custom LED signs to improve recognition, these signages provide unparalleled influence. Organizations in Chennai are welcoming LED signage for its universality and high-tech charm, making it mandatory for promotions. If you’re seeking signage or a message display solution for your enterprise, LED digital displays provide lively visuals and energy-saving performance.  
+
+                </p>
                 <p class="brand-description">
-                    Be it a video wall for occurences, outdoor displays for publicity, or industrial LED signs for factories, we offer high-class LED display signs customized to your requirements. With alternatives like custom LED signs and digital signage, your brand can be distinct in the combative Chennai market. Rely on LED display boards to uplift your branding with creative solutions that catch each eye.  Choose Brand Signage for innovative LED display boards in Chennai to illuminate your organization and leave a permanent impact!                </p>
-            </div>
+                    Brand Signages is a premier LED signage manufacturers and makers in Chennai serving for more than 10 years. Be it wall-mounted LED signage, outdoor displays for publicity, or industrial LED signs for factories, we offer high-class LED signs customized to your requirements. With alternatives like custom LED signs and digital LED signage, your brand can be distinct in the combative Chennai market with Brand Signages.
+
+                </p>
+                <p class="brand-description">We are ready to push boundaries to showcase your brand with brand-new LED sign boards. Choose Brand Signage for innovative LED display boards in Chennai to illuminate your organization and leave a permanent impact!</p>
+                </div>
         </div>
     </div>
 </section>
@@ -49,8 +54,9 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Why Choose Our LED Signage Solutions?</h2>
-            <p class="card-text text-center">Our LED signage solutions are crafted to satisfy your exceptional business requirements while guaranteeing top-class standards, innovative technology, and dependable services. Here’s why we are unique:</p>
+            <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for LED Light Signboards?            </h2>
+            <p class="card-text text-center">Our LED signages are crafted to satisfy your exceptional business requirements while guaranteeing top-class standards, innovative technology, and dependable services. Here’s why we are unique:
+            </p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -207,8 +213,9 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Industries We Serve   </h2>
-        <p class="card-text text-center">Our creative LED display boards serve a wide selection of industries, providing unique solutions personalized to satisfy their exceptional requirements. From promoting customer experiences to fostering brand observability, our LED sign boards and custom LED signs are outlined to make an influence with unparalleled standards and advanced technology.</p>
+        <h2 class="hero-title">Industries We Serve as an LED Signage Manufacturer           </h2>
+        <p class="card-text text-center">Our creative LED display boards serve a range of industries, providing unique solutions personalized to satisfy their exceptional requirements. From promoting customer experiences to fostering brand observability, our LED sign boards and custom LED signs are outlined to make an influence with unparalleled standards and visual appeal:
+        </p>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
