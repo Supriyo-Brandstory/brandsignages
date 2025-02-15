@@ -303,6 +303,18 @@ public function digital_signages_manufacturer_in_mumbai(){
     return view('frontend.signagesResion.digital-signages-manufacturer-in-mumbai', compact('seo'));
  
 }
+public function led_display_board_in_mumbai(){
+    $currentRoute = Route::current()->uri();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.signagesResion.led-display-board-in-mumbai', compact('seo'));
+ 
+}
+public function hospital_and_medical_signages_in_mumbai(){
+    $currentRoute = Route::current()->uri();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.signagesResion.hospital-and-medical-signages-in-mumbai', compact('seo'));
+ 
+}
 
     public function contact_us()
     {

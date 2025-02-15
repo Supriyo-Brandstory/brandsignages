@@ -206,6 +206,8 @@
                                         <a class="dropdown-item" href="{{route('leading_signage_company_in_mumbai')}}">Signages in Mumbai</a>
                                         <a class="dropdown-item" href="{{route('premium_acrylic_sign_boards_in_mumbai')}}">Acrylic Signages in Mumbai</a>
                                         <a class="dropdown-item" href="{{route('digital_signages_manufacturer_in_mumbai')}}">Digital Signages in Mumbai</a>
+                                        <a class="dropdown-item" href="{{route('led_display_board_in_mumbai')}}">LED Display Boards in Mumbai</a>
+                                        <a class="dropdown-item" href="{{route('hospital_and_medical_signages_in_mumbai')}}">Hospital and Medical in Mumbai</a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Chennai</h6>
