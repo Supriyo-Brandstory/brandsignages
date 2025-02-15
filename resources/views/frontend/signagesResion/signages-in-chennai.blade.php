@@ -234,14 +234,18 @@
                 <h2 class="brand-title">LED Sign Boards</h2>
                 <p class="brand-description">
                     These are common for its observability and energy-saving. LED sign boards offer lively lighting, confirming your message exists day and night. They are perfect for storefronts, restaurants, and commercial places. Attainable in made-to-order designs, they serve organizations of all sizes.
+                <a href="{{route('led_display_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
+
                 </p>
                 <h2 class="brand-title">Acrylic Sign Boards </h2>
                 <p class="brand-description">
                     Acknowledged for their lustrous and sleek look, acrylic signage is suitable for indoor as well as outdoor branding. It provides longevity and a competent look, making it a treasured one for offices and retail outlets. Its weather-proof attributes make it a wonderful preference for outdoor usage. 
+                    <a href="{{route('acrylic_signages_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
                 </p>
                 <h2 class="brand-title">Metal Sign Boards</h2>
                 <p class="brand-description">
                     Strong and durable, metal sign boards built from stainless steel or aluminum are ideal for generating a superior influence. They are perfect for corporate places, monuments, and architectural landmarks. They radiate luxury while rendering brilliant longevity.  
+                   <br> <a href="{{route('metal_sign_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
                 </p>
             </div>
         </div>
@@ -257,14 +261,17 @@
                 <h2 class="brand-title">Digital Sign Boards</h2>
                 <p class="brand-description">
                     These digital signs and LED displays permit extensive content presentation. They are universal, making them appropriate for promotions, advertisements, and prompt updates in malls or events. They provide high noticeability and adjustability for several implementations.
+                    <a href="{{route('leading_digital_signages_manufacturer_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
                 </p>
                 <h2 class="brand-title">Custom Sign Boards </h2>
                 <p class="brand-description">
                     Customized to your branding requirements, general signage solutions are obtainable in substances like ACP sign boards wood, or metal. These boards can be outlined to mirror your brand’s exceptional recognition, guaranteeing a permanent impact. 
+                    <a href="{{route('custom_neon_sign_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
                 </p>
                 <h2 class="brand-title">Neon Glow Signs </h2>
                 <p class="brand-description">
                     Ideal for organizations seeking to make a striking remark, neon signage, and neon signs are vibrant, colorful, and spectacular. They are usually utilized in cafes, bars, and entertainment zones, generating a lively ambiance. 
+                    <a href="{{route('custom_neon_sign_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
                 </p>
             </div>
 
@@ -291,6 +298,7 @@
                 <h2 class="brand-title">LED Signs </h2>
                 <p class="brand-description">
                     These multifaceted LED signs are available in several shapes and sizes and are commonly used for security, steerage, or decorative reasons. They are also utilized as backlit boards for a contemporary and luxurious feel, merging practicality with beauty.
+                  <br>  <a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
                 </p>
             </div>
         </div>
@@ -686,6 +694,44 @@
             </div>
         </div>
       
+    </div>
+</section>
+
+<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
+            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our articles.</p>
+
+        </div>
+
+        <div class="row">
+            @foreach ($blogs as $blog)
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
+                    <div class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge">{{ strtoupper($blog->topic) }}</span>
+                                <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+                            </div>
+                            <h5 class="blog-card-title">{{ $blog->title }}</h5>
+                            <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            @endforeach
+            <div class="text-center">
+            <a href="{{ route('blogs') }}">
+                <button class="contact-btn">See All Blogs</button>
+            </a>
+            </div>
+        </div>
     </div>
 </section>
 
