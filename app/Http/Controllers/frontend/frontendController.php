@@ -315,6 +315,24 @@ public function hospital_and_medical_signages_in_mumbai(){
     return view('frontend.signagesResion.hospital-and-medical-signages-in-mumbai', compact('seo'));
  
 }
+public function construction_fire_safety_signages_in_mumbai(){
+    $currentRoute = Route::current()->uri();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.signagesResion.construction-fire-safety-signages-in-mumbai', compact('seo'));
+ 
+}
+public function name_plate_signs_manufacturer_mumbai(){
+    $currentRoute = Route::current()->uri();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.signagesResion.name-plate-signs-manufacturer-mumbai', compact('seo'));
+ 
+}
+public function office_signages_in_mumbai(){
+    $currentRoute = Route::current()->uri();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.signagesResion.office-signages-in-mumbai', compact('seo'));
+ 
+}
 
     public function contact_us()
     {

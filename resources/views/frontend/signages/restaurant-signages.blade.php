@@ -6,7 +6,7 @@
                 <div class="carousel-item active">
                     <img src="{{asset('frontend/Images/restaurant-signage1.webp')}}" alt="Slide 1">
                     <div class="carousel-caption-custom">
-                        <h1>Digital Signage for Restaurants</h1>
+                        <h1>Best Digital Sign Boards for Restaurants- Menu Displays Boards</h1>
                          <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -19,7 +19,7 @@
 
     <section>
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">Get Custom Digital Menu Boards</h2>
+            <h2 class="hero-title">Sign Boards for Restaurants- Digital Signage and Digital Menu Boards </h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -30,10 +30,12 @@
 
                 <div class="col-lg-6">
                     <p class="brand-description">
-                        Digital signage for restaurants can change how you advertise your products and stay competitive. Using content management systems, you can show the changes in prices, or introduce daily specials. Maybe you have introduced pumpkin-spice-flavored drinks or some special dishes for the winter season. Also, you want to boost sales for these specific deals. So what should you do? You can share those details through the digital menu boards, without spending money on printing materials. If you use print, you can never show cool animations and transitions, and grab your audience’s attention. We have seen that these visuals can encourage people to enhance their dining experience.</p>
-                    <p class="brand-description">
-                        These digital menu boards can be used to share the calorific count, allergy, or nutritional facts of each food. So, yes, one reason to ask for a “menu board for restaurant” is aesthetics. You have plenty of options on how to present the information. These boards play a vital role in attracting customers who love transparency and clear communication. You can partner with digital menu board companies and customize them to fit your brand’s directive. We can adjust these menus across different locations and streamline the overall aesthetics and customer experience. We are not living in the world of print media, we are living digitally, making digital menus an indispensable asset for your business.</p>
-                  
+                        Maybe you have introduced pumpkin-spice-flavored drinks or some special dishes for the summer season at your restaurant. Digital signage has a significant impact on restaurant businesses to showcase offers, menus, happy hours, and more. With digital sign boards for restaurants, you can show the changes in prices, or introduce daily specials with ease. If you use print, you can never show cool animations and transitions, and grab your audience’s attention. We have seen that these visuals can encourage people to enhance their dining experience.
+                    </p>
+                        <p class="brand-description">
+                            So, yes, one reason to ask for a “menu display for restaurant” is aesthetics. You have plenty of options on how to present the information. These boards play a vital role in attracting customers who are looking for some best deals, happy hours, or menu boards. Brand Signages is a premier partner for top businesses in Bangalore & India providing digital sign boards for restaurants. Among the best digital menu board companies, we provide customized sign boards for restaurants. Along with print media advertising, we are also living digitally, making digital menus & sign boards an indispensable asset for your restaurant.
+
+                        </p>                  
                 </div>
             </div>
         </div>

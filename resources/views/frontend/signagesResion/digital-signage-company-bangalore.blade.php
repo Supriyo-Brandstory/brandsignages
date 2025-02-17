@@ -35,7 +35,7 @@
 
                 </p>  
                 <p class="brand-description">
-                    Brand Signages is a prominent digital signage manufacturer offering top-tier digital signage solutions. Whether you require a digital standee, a polished touchscreen kiosk, or a lively LED video wall, we have the ideal digital signage solution for you. Our product range comprises floor-standing signage displays, rectangle digital displays, and LCD digital signage.
+                    Brand Signages is a premier digital signage company in Bangalore offering top-of-the-line services. Whether you’re looking for a reliable digital signage display manufacturer, a polished touchscreen kiosk, or LED video walls for advertising, we have the best solution for you. Among the best BLR digital signage vendors our product range comprises floor-standing signage displays, rectangle digital displays, and LCD digital signage. 
                 </p>
                 <p class="brand-description">As the best BLR digital signage vendors, we emphasize designing the best signage displays that match your branding. We provide modern signage software for effortless content creation and handling. Whether it’s a spectacular video wall or a floor stand display board, our products render unparalleled standards and output. Choose Brand Signages for standardized digital signage displays, designed to enhance and support your advertising strategy. Let us modify your dream into reality with our innovative signage solutions today!</p>
             </div>

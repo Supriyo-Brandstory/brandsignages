@@ -37,14 +37,14 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/digital-sign2.webp')}}" alt="Digital Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/digi-1.webp')}}" alt="Digital Signage" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <h2 class="brand-title">#1 Digital Signage Companies in Banganore, India</h2>
                 <p class="brand-description">
-                    Digital signage has emerged as an essential tool for enhancing visual communication across various industries. Digital display boards for corporate offices, retail, hospitality, food services, banking, and education, provide dynamic and engaging ways to convey information. Brand Signages is the premier digital signage manufacturers in Bangalore with 10+ years of experience in designing digital signages in India. We are the No. 1 digital signage company, working with renowned brands to design premium-quality digital signage.
+                    Digital signage has emerged as an essential tool for enhancing visual communication across various industries. Digital display boards offer dynamic and engaging ways to convey information, useful for corporate offices, retail, hospitality, restaurants, and banking. Brand Signages is the premier digital signage manufacturers, backed by 10+ years of expertise. We are the No. 1 digital signage company, working with renowned brands to design premium-quality digital signages.
                 </p>
                 <p class="brand-description">
                     We design digital display boards for various industries starting from restaurants, hospitals, retails, and more. For hotels and restaurants, digital menu boards allow for quick updates that can drive impulse purchases. In banking, digital display boards streamline customer interactions by providing essential information like wait times and service options. Educational institutions utilize digital signage to keep students and staff informed about schedules, events, and important announcements.

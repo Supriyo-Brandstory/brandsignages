@@ -28,13 +28,11 @@
             </div>
             
             <div class="col-lg-6">
-            <h2 class="brand-title">#1 Neon Sign Board Makers</h2>
+            <h2 class="brand-title">#1 Neon Signs Manufacturer</h2>
                 <p class="brand-description">
                 Neon signage has become a trending element of modern branding, enhancing both personal & professional spaces. Neon sign boards are designed to add a vibrant touch and make your space visually appealing. These are used in restaurants, retail stores, offices, homes, and events to create a vibrant & eye-catching ambiance. It can be a perfect go-to option to create your unique brand identity and attract customers.</p>
                 <p class="brand-description">
                 Brand Signages stands out as the best neon sign company, offering custom neon signage design options. Top businesses rely on us for custom-made neon signs that perfectly combine quality and style. Our expert custom neon sign manufacturers pay close attention to your needs and preferences when making the signs. Thus, we ensure that you get top-notch neon signs that can bring your dream ambiance to life with stunning illumination.</p>
-                <p class="brand-description">
-                Whether it is neon signs for shops or multicolor neon signs, every product undergoes detailed quality checks. Being made of the highest-quality material, our neon signs can be used for diverse purposes including advertising, decoration, gifting, etc. Get quality neon signs crafted according to your individual preferences from Brand Signage and enliven your space effortlessly. Here’s how we are the best neon sign company:</p>
                 <p class="brand-description">
                 Whether it is neon signs for shops and offices, our every product undergoes detailed quality checks and thus we provide best-in-class neon signs for you. Being made of the highest-quality material, our neon signs can be used for diverse purposes including advertising, decoration, gifting, etc. Get quality neon signs crafted according to your individual preferences from Brand Signage and enliven your space effortlessly.</p>
                 <ul class="process-list">

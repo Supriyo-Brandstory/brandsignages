@@ -51,9 +51,12 @@ Route::get('/high-quality-restroom-signs-in-chennai',[frontendController::class,
 //mumbai
 Route::get('/leading-signage-company-in-mumbai', [frontendController::class, 'leading_signage_company_in_mumbai'])->name('leading_signage_company_in_mumbai');
 Route::get('/premium-acrylic-sign-boards-in-mumbai', [frontendController::class, 'premium_acrylic_sign_boards_in_mumbai'])->name('premium_acrylic_sign_boards_in_mumbai');
-Route::get('digital-signages-manufacturer-in-mumbai',[frontendController::class,'digital_signages_manufacturer_in_mumbai'])->name('digital_signages_manufacturer_in_mumbai');
-Route::get('led-display-board-in-mumbai',[frontendController::class,'led_display_board_in_mumbai'])->name('led_display_board_in_mumbai');
-Route::get('hospital-and-medical-signages-in-mumbai',[frontendController::class,'hospital_and_medical_signages_in_mumbai'])->name('hospital_and_medical_signages_in_mumbai');
+Route::get('/digital-signages-manufacturer-in-mumbai',[frontendController::class,'digital_signages_manufacturer_in_mumbai'])->name('digital_signages_manufacturer_in_mumbai');
+Route::get('/led-display-board-in-mumbai',[frontendController::class,'led_display_board_in_mumbai'])->name('led_display_board_in_mumbai');
+Route::get('/hospital-and-medical-signages-in-mumbai',[frontendController::class,'hospital_and_medical_signages_in_mumbai'])->name('hospital_and_medical_signages_in_mumbai');
+Route::get('/construction-fire-safety-signages-in-mumbai',[frontendController::class,'construction_fire_safety_signages_in_mumbai'])->name('construction_fire_safety_signages_in_mumbai');
+Route::get('/name-plate-signs-manufacturer-mumbai',[frontendController::class,'name_plate_signs_manufacturer_mumbai'])->name('name_plate_signs_manufacturer_mumbai');
+Route::get('/office-signages-in-mumbai',[frontendController::class,'office_signages_in_mumbai'])->name('office_signages_in_mumbai');
 //others
 Route::get('/blogs', [frontendController::class, 'blogs'])->name('blogs');
 Route::get('/blogs/{slug?}', [frontendController::class, 'blogsVariation'])->name('blogsVaritaion');
