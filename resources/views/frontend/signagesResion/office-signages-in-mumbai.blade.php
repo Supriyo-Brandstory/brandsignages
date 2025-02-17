@@ -15,7 +15,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/hospital-and-medical-signages-in-mumbai-1.webp')}}" alt="Office Signages in Mumbai">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-1.webp')}}" alt="Office Signages in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Office Signages in Mumbai </h1>
                      <div class="mt-4">
@@ -25,7 +25,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset('frontend/Images/new/hospital-and-medical-signages-in-mumbai-2.webp')}}" alt="Office Signages in Mumbai">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-2.webp')}}" alt="Office Signages in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Office Signages in Mumbai </h1>
                      <div class="mt-4">
@@ -46,7 +46,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-2.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-3.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -73,7 +73,7 @@
            
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-4.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-4.webp')}}" class="why-card-img-top"
                         alt="Expertise">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Expertise</h3>
@@ -83,7 +83,7 @@
             </div>
             <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-5.webp')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-5.webp')}}" class="why-card-img-top"
                             alt="Stylish Signage">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Stylish Signage</h3>
@@ -93,7 +93,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-6.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-6.webp')}}" class="why-card-img-top"
                         alt="Premium Quality">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Premium Quality</h3>
@@ -104,7 +104,7 @@
           
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-7.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-7.webp')}}" class="why-card-img-top"
                         alt="Timely Delivery  ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Timely Delivery  </h3>
@@ -114,7 +114,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-8.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
                         alt="Installation & Support">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Installation & Support</h3>
@@ -132,7 +132,7 @@
                         
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-4.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-4.webp')}}" class="why-card-img-top"
                                     alt="Expertise">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Expertise</h3>
@@ -142,7 +142,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-5.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-5.webp')}}" class="why-card-img-top"
                                     alt="Aesthetic Appeal">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Stylish Signage</h3>
@@ -155,7 +155,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-6.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-6.webp')}}" class="why-card-img-top"
                                 alt="Premium Quality">
                             <div class="card-body why-card-body px-0">
                                 <h3 class="why-text-red mb-3">Premium Quality</h3>
@@ -169,7 +169,7 @@
                     <div class="row">
                     <div class="col-md-4">
                         <div class="why-card card">
-                            <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-6.webp')}}" class="why-card-img-top"
+                            <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-6.webp')}}" class="why-card-img-top"
                             alt="Premium Quality">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Premium Quality</h3>
@@ -180,7 +180,7 @@
                        
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-7.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-7.webp')}}" class="why-card-img-top"
                                     alt="Timely Delivery  ">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Timely Delivery  </h3>
@@ -190,7 +190,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-8.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
                                     alt="Installation & Support">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Installation & Support</h3>
@@ -232,7 +232,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-9.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-9.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -280,7 +280,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-10.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-10.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -300,7 +300,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-11.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-11.webp')}}" class="why-card-img-top"
                         alt="Office Desk Signs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Office Desk Signs</h3>
@@ -312,7 +312,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-12.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-12.webp')}}" class="why-card-img-top"
                         alt="Construction ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Room Identification Signs   </h3>
@@ -324,7 +324,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-13.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-13.webp')}}" class="why-card-img-top"
                         alt="Directional Signs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Directional Signs</h3>
@@ -336,7 +336,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-23.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-14.webp')}}" class="why-card-img-top"
                         alt="Office Signage Boards">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Office Signage Boards</h3>
@@ -348,7 +348,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-23.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-15.webp')}}" class="why-card-img-top"
                         alt="Building Signage ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Building Signage  </h3>
@@ -360,7 +360,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-23.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-16.webp')}}" class="why-card-img-top"
                         alt="Wall-Mounted Signage">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Wall-Mounted Signage</h3>
@@ -382,7 +382,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-11.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-11.webp')}}" class="why-card-img-top"
                                     alt="Office Desk Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Office Desk Signs</h3>
@@ -394,7 +394,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-12.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-12.webp')}}" class="why-card-img-top"
                                     alt="Construction ">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Room Identification Signs   </h3>
@@ -406,7 +406,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-13.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-13.webp')}}" class="why-card-img-top"
                                     alt="Directional Signs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Directional Signs</h3>
@@ -424,7 +424,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-23.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-14.webp')}}" class="why-card-img-top"
                                     alt="Office Signage Boards">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Office Signage Boards</h3>
@@ -436,7 +436,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-23.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-15.webp')}}" class="why-card-img-top"
                                     alt="Building Signage ">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Building Signage  </h3>
@@ -448,7 +448,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-23.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-16.webp')}}" class="why-card-img-top"
                                     alt="Wall-Mounted Signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Wall-Mounted Signage</h3>
@@ -492,48 +492,50 @@
         
         <!-- First Row -->
         <div class="row">
+            
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-15.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-15.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-17.webp')}}" data-lightbox="catalogue" data-title="Image 3">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-16.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-16.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-18.webp')}}" data-lightbox="catalogue" data-title="Image 4">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-17.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-19.webp')}}" data-lightbox="catalogue" data-title="Image 5">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-18.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-20.webp')}}" data-lightbox="catalogue" data-title="Image 6">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
         </div>
         
         <!-- Second Row -->
         <div class="row">
+           
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-19.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-21.webp')}}" data-lightbox="catalogue" data-title="Image 7">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-20.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-22.webp')}}" data-lightbox="catalogue" data-title="Image 8">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-21.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-23.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-22.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-24.webp')}}" data-lightbox="catalogue" data-title="Image 2">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -628,7 +630,7 @@
                         <p class="card-text testimonial-card-text">We placed an order for safety signs and office signage boards in Mumbai from this company, and we couldn't be more happy. The quality of their digital signages and outdoor sign board has improved our workstation.</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/high-quality-safety-signages-in-chennai-33.webp')}}" alt="Sandeep Yadav" class="client-img">
+                            <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-33.webp')}}" alt="Sandeep Yadav" class="client-img">
                             <div>
                                 <div class="client-name">Sandeep Yadav</div>
                                 <div class="client-role">Operations Manager</div>
