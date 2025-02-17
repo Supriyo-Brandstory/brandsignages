@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/metal-signage.webp')}}" alt="Metal Signage Boards">
                 <div class="carousel-caption-custom">
-                    <h1>Metal & Steel Signage Boards for Your Space</h1>
+                    <h1>Premium Metal & Steel Signage Boards</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -22,7 +22,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">Uplift Your Brand Image with Custom <br>Metal Signage Boards</h2>
+        <h2 class="hero-title">Upgrade Your Branding with Custom <br>Metal Sign Boards</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -32,17 +32,17 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">#1 Metal Signage Makers</h2>
+                <h2 class="brand-title">Durable Metal & Steel Signages</h2>
                 <p class="brand-description">
-                    Elevate your business with eye-catching signage that reflects professionalism and durability. Opting for premium-quality metal signage is an effective way to enhance your brand's visibility and make a lasting impression. 
+                    Elevate your business with eye-catching metal sign boards that reflects professionalism and durability. Opting for premium-quality metal signage and steel signage board is an effective way to enhance your brand's visibility. 
 
                 </p>
                 <p class="brand-description">
-                    Brand Signages is the top metal signage manufacturer, specializing in creating custom metal signage boards. We design premium aluminum and stainless steel metal signages, ensuring both durability and a premium finish. We design metal signage boards for indoor and outdoor usage, crafted with the highest quality standards.
+                Brand Signages provides rust-resistant and durable metal and steel signage boards for top companies. We design premium aluminum and stainless steel metal signages, ensuring both durability and a premium finish. Our metal and steel sign boards are ideal for indoor and outdoor use and designed to meet the highest quality standards.
 
                 </p>
                 <p class="brand-description">
-                    Our stainless steel signage can withstand weather conditions, perfect for outdoor usage. Aluminum signages are designed to match your brand's unique identity, offering shiny, matte, and other finish options for a flawless look. Whether you need a nameplate, outdoor signage, or interior signs, our metal signage is versatile and adaptable to meet your needs. 
+                Our metal and steel signage boards can withstand harsh weather conditions and provide lasting durability and a professional appearance. Our steel signages are designed to match your brand's unique identity, offering shiny and matte options for a flawless look. Whether you need a nameplate, outdoor signage, or interior signs, our metal signage is versatile to meet your needs. 
 
                 </p>
             </div>

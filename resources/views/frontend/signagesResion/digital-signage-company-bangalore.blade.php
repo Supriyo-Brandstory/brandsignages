@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/digitalsign-bangalore1.webp')}}" alt="Digital Signage Manufacturer in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>BLR Digital Signage Services: Innovative & Interactive Solutions</h1>
+                    <h1>Best Digital Signage Companies in Bangalore</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -19,7 +19,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Elevate Your Brand with Digital Signage Displays</h2>
+        <h2 class="hero-title">Elevate Your Brand with BLR <br>Digital Signage Services</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">

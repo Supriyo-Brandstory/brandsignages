@@ -17,7 +17,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/digital-sign1.webp')}}" alt="Digital Signages">
                 <div class="carousel-caption-custom">
-                    <h1>Top Digital Signage Company in India: Enhancing Brand Visibility</h1>
+                    <h1>Best Digital Signage Manufacturers Bangalore & India</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -32,7 +32,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">Uplift Your Brand Image with <br> Digital Signage Boards</h2>
+        <h2 class="hero-title">Uplift Your Brand Image with <br> Digital Signages</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -42,9 +42,9 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">#1 Digital Signage Display Manufacturer </h2>
+                <h2 class="brand-title">#1 Digital Signage Companies in Banganore, India</h2>
                 <p class="brand-description">
-                    Digital signage has emerged as an essential tool for enhancing visual communication across various industries. Digital display boards for corporate offices, retail, hospitality, food services, banking, and education, provide dynamic and engaging ways to convey information. Brand Signages is a leading digital signage manufacturer with 10+ years of experience in crafting display boards. We design digital display boards for renowned brands to display announcements and performance metrics, helping foster a collaborative and engaging environment.
+                    Digital signage has emerged as an essential tool for enhancing visual communication across various industries. Digital display boards for corporate offices, retail, hospitality, food services, banking, and education, provide dynamic and engaging ways to convey information. Brand Signages is the premier digital signage manufacturers in Bangalore with 10+ years of experience in designing digital signages in India. We are the No. 1 digital signage company, working with renowned brands to design premium-quality digital signage.
                 </p>
                 <p class="brand-description">
                     We design digital display boards for various industries starting from restaurants, hospitals, retails, and more. For hotels and restaurants, digital menu boards allow for quick updates that can drive impulse purchases. In banking, digital display boards streamline customer interactions by providing essential information like wait times and service options. Educational institutions utilize digital signage to keep students and staff informed about schedules, events, and important announcements.
