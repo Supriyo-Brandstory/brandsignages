@@ -208,9 +208,9 @@
                                         <a class="dropdown-item" href="{{route('digital_signages_manufacturer_in_mumbai')}}">Digital Signages in Mumbai</a>
                                         <a class="dropdown-item" href="{{route('led_display_board_in_mumbai')}}">LED Display Boards in Mumbai</a>
                                         <a class="dropdown-item" href="{{route('hospital_and_medical_signages_in_mumbai')}}">Hospital and Medical in Mumbai</a>
-                                        <a class="dropdown-item" href="{{route('construction_fire_safety_signages_in_mumbai')}}">Fire safety signage in Mumbai</a>
-                                        <a class="dropdown-item" href="{{route('name_plate_signs_manufacturer_mumbai')}}">Name Plate Signs Manufacturer in Mumbai</a>
-                                        <a class="dropdown-item" href="{{route('office_signages_in_mumbai')}}">Office signages in Mumbai</a>
+                                        <a class="dropdown-item" href="{{route('construction_fire_safety_signages_in_mumbai')}}">Fire Safety Signage in Mumbai</a>
+                                        <a class="dropdown-item" href="{{route('name_plate_signs_manufacturer_mumbai')}}">Name Plate Signages in Mumbai</a>
+                                        <a class="dropdown-item" href="{{route('office_signages_in_mumbai')}}">Office Signages in Mumbai</a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Chennai</h6>
