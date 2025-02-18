@@ -21,7 +21,6 @@
 
             <div class="carousel-item">
                 <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-1.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
-                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-.webp')}}" alt="Premium Acrylic Sign Boards in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Premium Acrylic Sign Boards in Mumbai</h1>
                     <button class="custom-btn">Know More</button>
