@@ -15,7 +15,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-1.webp')}}" alt="Neon Sign Board in Mumbai">
+                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-1.webp')}}" alt="Neon Sign Board in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Neon Sign Board in Mumbai </h1>
                      <div class="mt-4">
@@ -25,7 +25,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-2.webp')}}" alt="Neon Sign Board in Mumbai">
+                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-2.webp')}}" alt="Neon Sign Board in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Neon Sign Board in Mumbai </h1>
                      <div class="mt-4">
@@ -46,7 +46,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-3.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-3.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
@@ -73,7 +73,7 @@
            
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-4.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-4.webp')}}" class="why-card-img-top"
                         alt="Extensive Experience in Neon Signage">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Extensive Experience in Neon Signage</h3>
@@ -83,7 +83,7 @@
             </div>
             <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-5.webp')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-5.webp')}}" class="why-card-img-top"
                             alt="Affordable Solutions for Every Budget  ">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Affordable Solutions for Every Budget  </h3>
@@ -93,7 +93,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-6.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-6.webp')}}" class="why-card-img-top"
                         alt="Quick Turnaround Times ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Quick Turnaround Times </h3>
@@ -101,10 +101,19 @@
                     </div>
                 </div>
             </div>
-          
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-7.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-7.webp')}}" class="why-card-img-top"
+                        alt="Comprehensive Services from Design to Installation ">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Comprehensive Services from Design to Installation </h3>
+                        <p class="card-text">From visualizing your custom neon sign to designing and installing your light neon sign, we offer back-to-back services. Our skillfulness lasts several styles, comprising led acrylic signs, light boards, and neon led signs for houses, organizations, and events.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-8.webp')}}" class="why-card-img-top"
                         alt="Product Warranty for Peace of Mind    ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Product Warranty for Peace of Mind    </h3>
@@ -114,7 +123,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-9.webp')}}" class="why-card-img-top"
                         alt="Custom Solutions to Match Your Vision">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Custom Solutions to Match Your Vision</h3>
@@ -124,45 +133,17 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-10.webp')}}" class="why-card-img-top"
                         alt="Focus on Quality and Durability ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Focus on Quality and Durability </h3>
-                        <p class="card-text">Whether you require a remarkable LED neon light for branding or a trendy neon light board for decor, our team focuses on shaping tailored neon signs. We create realities out of your imagination with bright colors and inventive designs.  </p>
+                        <p class="card-text">Every neon glow sign, acrylic sign, and light neon board we build is formed using superior substances. This guarantees that your neon signs in Mumbai stays vibrant, effective, and long-lasting for years. </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
-                        alt="Energy-Efficient LED Options   ">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Energy-Efficient LED Options   </h3>
-                        <p class="card-text">Our LED neon signs and acrylic LED signs merge energy saving with vibrant glow. These resistant solutions are ideal for organizations and personal places.   </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
-                        alt="Premium Glow Sign Boards  ">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Premium Glow Sign Boards   </h3>
-                        <p class="card-text">As the best neon sign manufacturers in Mumbai, we make top-class glow sign boards that are visually noticeable and made to endure. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
-                        alt="Versatile Applications ">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Versatile Applications</h3>
-                        <p class="card-text">From remarkable light boards to sophisticated neon signage, we provide solutions for shops, events, and houses. Brighten up your brand with our remarkable sign boards soon!</p>
-                    </div>
-                </div>
-            </div>
+            
+       
             
         
         </div>
@@ -174,7 +155,7 @@
                         
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-4.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-4.webp')}}" class="why-card-img-top"
                                     alt="Extensive Experience in Neon Signage">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Extensive Experience in Neon Signage</h3>
@@ -183,94 +164,91 @@
                             </div>
                         </div>
                         <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-5.webp')}}" class="why-card-img-top"
+                                        alt="Affordable Solutions for Every Budget  ">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Affordable Solutions for Every Budget  </h3>
+                                        <p class="card-text">We consider that high-quality neon glow sign boards shouldn’t cost a fortune. Our reasonable pricing guarantees that you get top-class neon light signs, acrylic LED signs, and LED neon signs personalized to your pocket. Whether it’s a small venture neon sign board or a fancy acrylic neon sign, we supply affordable solutions.</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-5.webp')}}" class="why-card-img-top"
-                                    alt="Aesthetic Appeal">
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-6.webp')}}" class="why-card-img-top"
+                                    alt="Quick Turnaround Times ">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Affordable Solutions for Every Budget  </h3>
-                                    <p class="card-text">
-                                        We consider that high-quality neon glow sign boards shouldn’t cost a fortune. Our reasonable pricing guarantees that you get top-class neon light signs, acrylic LED signs, and LED neon signs personalized to your pocket. Whether it’s a small venture neon sign board or a fancy acrylic neon sign, we supply affordable solutions.
+                                    <h3 class="why-text-red mb-3">Quick Turnaround Times </h3>
+                                    <p class="card-text">Time is precious, and we guarantee immediate delivery of your neon light board, LED signage, or glow sign board in Mumbai. Our effective procedures and proficient team ensure the least waiting times without making concessions on value, so you can brighten up your place sooner.  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-7.webp')}}" class="why-card-img-top"
+                                    alt="Comprehensive Services from Design to Installation ">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Comprehensive Services from Design to Installation </h3>
+                                    <p class="card-text">From visualizing your custom neon sign to designing and installing your light neon sign, we offer back-to-back services. Our skillfulness lasts several styles, comprising led acrylic signs, light boards, and neon led signs for houses, organizations, and events.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-8.webp')}}" class="why-card-img-top"
+                                    alt="Product Warranty for Peace of Mind    ">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Product Warranty for Peace of Mind    </h3>
+                                    <p class="card-text">We take charge of the caliber of our neon signage and LED light boards. Each product, along with neon glow signs and acrylic neon lights, is available with a warranty to make certain that your investment is safe. You can rely on long-lasting, dependable light sign boards that persist. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-9.webp')}}" class="why-card-img-top"
+                                    alt="Custom Solutions to Match Your Vision">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Custom Solutions to Match Your Vision</h3>
+                                    <p class="card-text">Whether you require a remarkable LED neon light for branding or a trendy neon light board for decor, our team focuses on shaping tailored neon signs. We create realities out of your imagination with bright colors and inventive designs.  </p>
+                                </div>
+                            </div>
+                        </div>
 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-6.webp')}}" class="why-card-img-top"
-                                alt="Quick Turnaround Times ">
-                            <div class="card-body why-card-body px-0">
-                                <h3 class="why-text-red mb-3">Quick Turnaround Times </h3>
-                                <p class="card-text">Time is precious, and we guarantee immediate delivery of your neon light board, LED signage, or glow sign board in Mumbai. Our effective procedures and proficient team ensure the least waiting times without making concessions on value, so you can brighten up your place sooner.  </p>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                     <div class="col-md-4">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-7.webp')}}" class="why-card-img-top"
-                        alt="Product Warranty for Peace of Mind    ">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Product Warranty for Peace of Mind    </h3>
-                        <p class="card-text">We take charge of the caliber of our neon signage and LED light boards. Each product, along with neon glow signs and acrylic neon lights, is available with a warranty to make certain that your investment is safe. You can rely on long-lasting, dependable light sign boards that persist. </p>
-                    </div>
-                </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="why-card card">
-                            <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
-                                alt="Custom Solutions to Match Your Vision">
-                            <div class="card-body why-card-body px-0">
-                                <h3 class="why-text-red mb-3">Custom Solutions to Match Your Vision</h3>
-                                <p class="card-text">Whether you require a remarkable LED neon light for branding or a trendy neon light board for decor, our team focuses on shaping tailored neon signs. We create realities out of your imagination with bright colors and inventive designs.  </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="why-card card">
-                            <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
-                                alt="Focus on Quality and Durability ">
-                            <div class="card-body why-card-body px-0">
-                                <h3 class="why-text-red mb-3">Focus on Quality and Durability </h3>
-                                <p class="card-text">Whether you require a remarkable LED neon light for branding or a trendy neon light board for decor, our team focuses on shaping tailored neon signs. We create realities out of your imagination with bright colors and inventive designs.  </p>
-                            </div>
-                        </div>
-                    </div>
-                        
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
-                                    alt="Energy-Efficient LED Options   ">
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-8.webp')}}" class="why-card-img-top"
+                                    alt="Product Warranty for Peace of Mind    ">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Energy-Efficient LED Options   </h3>
-                                    <p class="card-text">Our LED neon signs and acrylic LED signs merge energy saving with vibrant glow. These resistant solutions are ideal for organizations and personal places.   </p>
+                                    <h3 class="why-text-red mb-3">Product Warranty for Peace of Mind    </h3>
+                                    <p class="card-text">We take charge of the caliber of our neon signage and LED light boards. Each product, along with neon glow signs and acrylic neon lights, is available with a warranty to make certain that your investment is safe. You can rely on long-lasting, dependable light sign boards that persist. </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
-                                    alt="Premium Glow Sign Boards  ">
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-9.webp')}}" class="why-card-img-top"
+                                    alt="Custom Solutions to Match Your Vision">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Premium Glow Sign Boards   </h3>
-                                    <p class="card-text">As the best neon sign manufacturers in Mumbai, we make top-class glow sign boards that are visually noticeable and made to endure. </p>
+                                    <h3 class="why-text-red mb-3">Custom Solutions to Match Your Vision</h3>
+                                    <p class="card-text">Whether you require a remarkable LED neon light for branding or a trendy neon light board for decor, our team focuses on shaping tailored neon signs. We create realities out of your imagination with bright colors and inventive designs.  </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-8.webp')}}" class="why-card-img-top"
-                                    alt="Versatile Applications ">
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-10.webp')}}" class="why-card-img-top"
+                                    alt="Focus on Quality and Durability ">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Versatile Applications</h3>
-                                    <p class="card-text">From remarkable light boards to sophisticated neon signage, we provide solutions for shops, events, and houses. Brighten up your brand with our remarkable sign boards soon!</p>
+                                    <h3 class="why-text-red mb-3">Focus on Quality and Durability </h3>
+                                    <p class="card-text">Every neon glow sign, acrylic sign, and light neon board we build is formed using superior substances. This guarantees that your neon signs in Mumbai stays vibrant, effective, and long-lasting for years. </p>
                                 </div>
                             </div>
                         </div>
@@ -318,7 +296,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-11.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-11.webp')}}" class="why-card-img-top"
                         alt="Eye-Catching Neon Designs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Eye-Catching Neon Designs</h3>
@@ -330,7 +308,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-12.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-12.webp')}}" class="why-card-img-top"
                         alt="Construction ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Custom Neon Solutions   </h3>
@@ -342,7 +320,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-13.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-13.webp')}}" class="why-card-img-top"
                         alt="Energy-Efficient LED Options  ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Energy-Efficient LED Options  </h3>
@@ -354,7 +332,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-14.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-14.webp')}}" class="why-card-img-top"
                         alt="Premium Glow Sign Boards  ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Premium Glow Sign Boards  </h3>
@@ -366,7 +344,7 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-15.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-15.webp')}}" class="why-card-img-top"
                         alt="Versatile Applications ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Versatile Applications  </h3>
@@ -389,7 +367,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-11.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-11.webp')}}" class="why-card-img-top"
                                     alt="Eye-Catching Neon Designs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Eye-Catching Neon Designs</h3>
@@ -401,7 +379,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-12.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-12.webp')}}" class="why-card-img-top"
                                     alt="Construction ">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Custom Neon Solutions   </h3>
@@ -413,7 +391,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-13.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-13.webp')}}" class="why-card-img-top"
                                     alt="Energy-Efficient LED Options  ">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Energy-Efficient LED Options  </h3>
@@ -431,7 +409,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-13.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-13.webp')}}" class="why-card-img-top"
                                     alt="Energy-Efficient LED Options  ">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Energy-Efficient LED Options  </h3>
@@ -443,7 +421,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-14.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-14.webp')}}" class="why-card-img-top"
                                     alt="Premium Glow Sign Boards  ">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Premium Glow Sign Boards  </h3>
@@ -455,7 +433,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-15.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-15.webp')}}" class="why-card-img-top"
                                     alt="Versatile Applications ">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Versatile Applications  </h3>
@@ -501,51 +479,54 @@
         <!-- First Row -->
         <div class="row">
             
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-17.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+            <div class="col-lg-3 col-md-6 col-sm-11 mb-4">
+                <a href="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-16.webp')}}" data-lightbox="catalogue" data-title="Image 3">
+                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-16.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-18.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+            <div class="col-lg-3 col-md-6 col-sm-11 mb-4">
+                <a href="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-17.webp')}}" data-lightbox="catalogue" data-title="Image 3">
+                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-19.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+            <div class="col-lg-3 col-md-6 col-sm-11 mb-4">
+                <a href="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-18.webp')}}" data-lightbox="catalogue" data-title="Image 4">
+                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-20.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+            <div class="col-lg-3 col-md-6 col-sm-11 mb-4">
+                <a href="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-19.webp')}}" data-lightbox="catalogue" data-title="Image 5">
+                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
                 </a>
             </div>
+           
+             
         </div>
         
         <!-- Second Row -->
         <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-11 mb-4">
+                <a href="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-20.webp')}}" data-lightbox="catalogue" data-title="Image 6">
+                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-11 mb-4">
+                <a href="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-21.webp')}}" data-lightbox="catalogue" data-title="Image 7">
+                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-11 mb-4">
+                <a href="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-22.webp')}}" data-lightbox="catalogue" data-title="Image 8">
+                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-11 mb-4">
+                <a href="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-23.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
+            </div>
            
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-21.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-22.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-23.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-24.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
+          
         </div>
 
     </div>
@@ -638,7 +619,7 @@
                         <p class="card-text testimonial-card-text">These neon sign manufacturers in Mumbai generated a wonderful neon glow sign for our event. The outline was spectacular, and the signage board received many praises</p>
                         <hr class="yellow-line">
                         <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-33.webp')}}" alt="Rahul Verma" class="client-img">
+                            <img src="{{asset('frontend/Images/new/neon-sign-board-in-mumbai-33.webp')}}" alt="Rahul Verma" class="client-img">
                             <div>
                                 <div class="client-name">Rahul Verma</div>
                                 
