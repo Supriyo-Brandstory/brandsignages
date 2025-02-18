@@ -47,10 +47,12 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    At our company, we focus on outlining and rendering superior-quality acrylic sign boards in Mumbai. Whether you're seeking acrylic letters for a polished and contemporary appearance or a dynamic neon sign board to make your business distinct, we have the skillfulness to fulfill your requirements. Our acrylic signage solutions are ideal for businesses aspiring to generate a perpetual influence. From black acrylic signs to glowing acrylic LED sign boards, our team merges innovation with updated technology to design signs that improve observability and elegance. We also outshine you by producing custom acrylic signs personalized to your branding needs.  
+                  Acrylic signages are the symbol of sophistication and elegance, making them a popular choice for businesses looking to uplift their branding. Known for their sleek, glass-like transparent appearance, acrylic signboards offer a professional look while being lightweight and weather-resistant. 
                                 </p>
                 <p class="brand-description">
-                    Our services encircle a huge collection of sign work, comprising glow signs, letter signs, and LED signage. Whether you require an outdoor sign, a black acrylic sign board, or a stainless steel-acrylic letter sign, we make certain of the resistance, accuracy, and minute attention. With so many years of experience in designing acrylic signs for multiple industries, we comprehend the significance of standards. Our LED sign boards and neon sign boards are crafted to allure your viewers, day and night. Collaborate with us on all your acrylic signboard requirements in Mumbai. Let us bring your brand to existence with beautiful sign boards that shed light.
+                    At Brand Signages, we focus on designing premium-quality acrylic sign boards. Whether you're seeking acrylic letter signs or a transparent acrylic sign board we are the first choice for top businesses. From acrylic signs to glowing acrylic LED sign boards, our team merges innovation with updated technology to design signs that improve observability. We produce custom acrylic signs personalized to your branding needs. 
+                </p>
+                <p class="brand-description">Our services encircle a huge collection of sign work, comprising acrylic glow signs, letter signs, and acrylic LED signage. With 10+ years of experience in designing acrylic signs for multiple industries, we maintain standards. Our brand new collection of acrylic LED signages is crafted to allure your viewers, day and night. Collaborate with us on all your acrylic signboard requirements in Mumbai. Let us bring your brand to existence with beautiful sign boards that shed light.
                 </p>
             </div>
         </div>

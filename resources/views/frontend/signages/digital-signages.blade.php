@@ -17,7 +17,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/digital-sign1.webp')}}" alt="Digital Signages">
                 <div class="carousel-caption-custom">
-                    <h1>Best Digital Signage Manufacturers Bangalore & India</h1>
+                    <h1>Best Digital Signage & Display Manufacturer Company                    </h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>

@@ -14,7 +14,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-1.webp')}}" alt="Custom Neon Sign Boards in Chennai">
                 <div class="carousel-caption-custom">
-                    <h1>LED Display Board in Mumbai </h1>
+                    <h1>Best LED Light Signboards in Mumbai  </h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -24,7 +24,7 @@
             <div class="carousel-item">
                 <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-2.webp')}}" alt="Custom Neon Sign Boards in Chennai">
                 <div class="carousel-caption-custom">
-                    <h1>LED Display Board in Mumbai </h1>
+                    <h1>Best LED Light Signboards in Mumbai  </h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -40,7 +40,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Custom LED Signs: Tailored to Your Business Needs </h2>
+        <h2 class="hero-title">Custom LED Signages to Enhance Your Branding</h2>
        
 
         <div class="row align-items-center">
@@ -53,12 +53,14 @@
             <div class="col-lg-6">
                 {{-- <h2 class="brand-title">#1 LED Signage Manufacturers in Chennai               </h2> --}}
                 <p class="brand-description">
-                    Custom LED signs are a robust method to boost your venture, allure customers, and produce a permanent impact. Whether you require an LED display board in Mumbai or a dynamic LED sign board for your storefront, these solutions are crafted to fulfill your particular needs.With LED display panels and digital displays, organizations can exhibit compelling content with lucidity and accuracy. From outdoor LED displays to indoor LED alternatives, these advertising displays are perfect for indoor as well as outdoor implementations. Whether you choose a color LED display or a pixel LED private solution, the alternatives are countless. LED boards can be personalized to showcase anything, from organization names to promotional news.
+                    LED signs are the prominent option to allure customers, and produce a permanent impact with interactive visuals. Whether you require an LED display board in Mumbai for your storefront, these solutions are crafted to fulfill your particular needs. With LED display panels, organizations can exhibit compelling content with lucidity and accuracy. From outdoor LED displays to indoor LED alternatives, these advertising displays are perfect for branding. LED boards can be personalized to showcase anything, from organization names to promotional news.
 
                 </p>
                 <p class="brand-description">
-                    An LED digital display provides superb observability, even in immense daylight, making it ideal for outdoor LED advertising displays. These wall-mounted LED signs are long-lasting, energy-saving, and highly efficient in grasping attention. For organizations in congested sectors, moving displays and LED scrolling signs can make certain that your message is always noticeable.Whether you require a glossy LED display screen or an LED advertising display with lively colors, these solutions improve your brand presence. Pixel LED boards and color LED displays provide pliability to exhibit text, images, or animations in huge resolutions. From LED moving displays to LED light sign boards, enterprises can make an exceptional existence that makes them different from the rest.If you are seeking an LED display board in Mumbai, think of customized custom LED signs to enhance your advertising policy. With modern LED displays, you can guarantee your business dazzles brighter than at any time.
-
+                    An LED digital display provides superb observability, even in immense daylight, making it ideal for outdoor LED light boards. These wall-mounted LED signs are long-lasting, energy-saving, and highly efficient. We are a leading provider of LED signboards in Mumbai serving thousands of happy clients across India. We design LED signages and LED scrolling signs for organizations to make certain that your message is always noticeable. 
+   
+                </p>
+                <p class="brand-description">From LED moving displays to LED light sign boards, enterprises can make an exceptional existence that makes them different from the rest. With top-of-the-line LED displays, we guarantee your business dazzles brighter 24/7.  
                 </p>
                 </div>
         </div>
@@ -365,7 +367,7 @@
                         <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">The LED display board in Mumbai we bought has modified our store’s observability. The outdoor LED display is bright and highly long-lasting. Wonderful job!</p>
+                        <p class="card-text testimonial-card-text">The Best LED Light Signboards in Mumbai  we bought has modified our store’s observability. The outdoor LED display is bright and highly long-lasting. Wonderful job!</p>
                         <hr class="yellow-line">
                         <div class="client-info">
                            
@@ -460,7 +462,7 @@
                                     <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The LED display board in Mumbai we bought has modified our store’s observability. The outdoor LED display is bright and highly long-lasting. Wonderful job!</p>
+                                    <p class="card-text testimonial-card-text">The Best LED Light Signboards in Mumbai  we bought has modified our store’s observability. The outdoor LED display is bright and highly long-lasting. Wonderful job!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
                                        

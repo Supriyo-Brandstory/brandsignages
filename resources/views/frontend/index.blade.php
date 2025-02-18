@@ -58,12 +58,23 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="brand-title">#1 Signage Makers in Bangalore, India </h2>
+                    <h2 class="brand-title">#1 Signage Company in Bangalore, India  </h2>
                     <p class="brand-description">
-                        Brand Signages is the premier sign board manufacturers in Bangalore with over 10 years of rich  industry experience. We design and manufacture premium-quality signages for top companies across Bangalore and all over India. 
+                        Brand Signages is the premier sign board manufacturers in Bangalore with 10+ years of rich industry experience. As leading sign makers, we design premium-quality sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Bangalore, 
+                       <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Chennai</a> ,
+                       <a href="{{route('leading_signage_company_in_mumbai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Mumbai</a>,
+                        and all over India.
                     </p>
+
                     <p class="brand-description">
-                        Signage plays an important role in brand recognition, customer engagement, and business visibility. A well-designed sign not only enhances visual aesthetics but also serves as a powerful marketing tool. With a passion for excellence, we design modern LED signage and digital signage solutions that leave a lasting impact. Here is how we do it:                    </p>
+                        Signages and sign boards play an important role in fostering brand recognition, improving engagement and visibility. An expertly crafted sign board not only enhances visual aesthetics but also serves as a powerful branding asset. With a passion for excellence, we design modern 
+                       <a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
+                       <a href="{{route('digital_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
+                       <a href="{{route('arcylic_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic signage </a>,
+                       <a href="{{route('neon_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon signage </a>, and
+                       <a href="{{route('metal_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">metal signage </a>
+                        boards for almost every industry. Here is how we do it:
+                    </p>
 
                     <ul class="process-list">
                         <li>

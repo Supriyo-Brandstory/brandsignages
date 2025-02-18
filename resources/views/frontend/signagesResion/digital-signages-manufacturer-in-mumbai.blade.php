@@ -39,7 +39,8 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Innovative & Customized Digital Signage Solutions Mumbai </h2>
+        <h2 class="hero-title">Your Trusted Partner for Digital Signages in Mumbai
+        </h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -50,10 +51,16 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    We are a pioneering Digital signage manufacturer in Mumbai, providing inventive and personalized Digital Signage Solutions for organizations. Our innovative digital signage displays are outlined to improve your brand observability and customer engrossment. From glossy Digital Standee Displays to communicative digital display boards, we offer flexible signage solutions for each requirement. Whether you need a high-class outdoor LED display or an easy-to-operate touch screen kiosk, we supply dependable and competent display solutions.  
+                    Digital signages are designed to grab attention with visually appealing displays. Compared to other signages it showcases advertising and promotional information more effectively. High-resolution screens and real-time information display make it the most prominent option for top businesses. Retail spaces, restaurants, and public spaces can leverage the benefits by highlighting offers, new arrivals, and more. 
+
                                 </p>
                 <p class="brand-description">
-                    Our collection comprises vibrant video walls, communicative flat panels, and modern advertising displays that allure your viewers. With made-to-order alternatives, our digital signage suits effortlessly into any atmosphere, from retail outlets and offices to public places.  Using first-class signage software, we make certain leveled operations and simple updates for your digital signage displays. Whether you require an interactive flat panel for presentations or a powerful LED display screen for outdoor promotions, we have the skill to render.  Select our Digital signages manufacturer in Mumbai for creative and influential signage solutions. Uplift your advertising policy with our fashionable and resistant digital signage displays that leave a perpetual impact. Let us assist you make your dream a reality with the ideal digital signage solution.
+                    We are a pioneering Digital signage manufacturer, providing inventive and personalized digital signage solutions for organizations in Mumbai. Our innovative digital signage displays are outlined to improve your brand observability and customer engrossment. From glossy digital standee displays to communicative digital display boards, we offer flexible signage solutions as a premier digital signage vendor. Whether you need a high-class outdoor LED display or an easy-to-operate touchscreen kiosk, we supply dependable and competent display solutions.  
+
+                </p>
+                <p class="brand-description">
+                    Our collection comprises vibrant video walls, flat panels, and modern advertising displays that allure your viewers. With made-to-order alternatives, our digital signage suits effortlessly into any atmosphere, from retail outlets and offices to public places.  We are the top digital signage manufacturers in Mumbai for creative and influential signage solutions. 
+    
                 </p>
             </div>
         </div>
