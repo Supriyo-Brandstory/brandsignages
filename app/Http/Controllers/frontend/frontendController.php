@@ -333,6 +333,24 @@ public function office_signages_in_mumbai(){
     return view('frontend.signagesResion.office-signages-in-mumbai', compact('seo'));
  
 }
+public function stainless_steel_sign_board_manufacturer_mumbai(){
+    $currentRoute = Route::current()->uri();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.signagesResion.stainless-steel-sign-board-manufacturer-mumbai', compact('seo'));
+ 
+}
+public function neon_sign_board_in_mumbai(){
+    $currentRoute = Route::current()->uri();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.signagesResion.neon-sign-board-in-mumbai', compact('seo'));
+ 
+}
+public function restroom_signs_in_mumbai(){
+    $currentRoute = Route::current()->uri();
+    $seo = SEO::where('page_url', $currentRoute)->first();
+    return view('frontend.signagesResion.restroom-signs-in-mumbai', compact('seo'));
+ 
+}
 
     public function contact_us()
     {

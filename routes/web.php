@@ -57,6 +57,9 @@ Route::get('/hospital-and-medical-signages-in-mumbai',[frontendController::class
 Route::get('/construction-fire-safety-signages-in-mumbai',[frontendController::class,'construction_fire_safety_signages_in_mumbai'])->name('construction_fire_safety_signages_in_mumbai');
 Route::get('/name-plate-signs-manufacturer-mumbai',[frontendController::class,'name_plate_signs_manufacturer_mumbai'])->name('name_plate_signs_manufacturer_mumbai');
 Route::get('/office-signages-in-mumbai',[frontendController::class,'office_signages_in_mumbai'])->name('office_signages_in_mumbai');
+Route::get('/stainless-steel-sign-board-manufacturer-mumbai',[frontendController::class,'stainless_steel_sign_board_manufacturer_mumbai'])->name('stainless_steel_sign_board_manufacturer_mumbai');
+Route::get('/neon-sign-board-in-mumbai',[frontendController::class,'neon_sign_board_in_mumbai'])->name('neon_sign_board_in_mumbai');
+Route::get('/restroom-signs-in-mumbai',[frontendController::class,'restroom_signs_in_mumbai'])->name('restroom_signs_in_mumbai');
 //others
 Route::get('/blogs', [frontendController::class, 'blogs'])->name('blogs');
 Route::get('/blogs/{slug?}', [frontendController::class, 'blogsVariation'])->name('blogsVaritaion');

@@ -211,6 +211,9 @@
                                         <a class="dropdown-item" href="{{route('construction_fire_safety_signages_in_mumbai')}}">Fire Safety Signage in Mumbai</a>
                                         <a class="dropdown-item" href="{{route('name_plate_signs_manufacturer_mumbai')}}">Name Plate Signages in Mumbai</a>
                                         <a class="dropdown-item" href="{{route('office_signages_in_mumbai')}}">Office Signages in Mumbai</a>
+                                        <a class="dropdown-item" href="{{route('stainless_steel_sign_board_manufacturer_mumbai')}}">Stainless Steel Sign Board in Mumbai</a>
+                                        <a class="dropdown-item" href="{{route('neon_sign_board_in_mumbai')}}">Neon Sign Board in Mumbai</a>
+                                        <a class="dropdown-item" href="{{route('restroom_signs_in_mumbai')}}">Restroom Signs in Mumbai</a>
                                     </div>
                                     <div class="col-lg-3 col-md-6">
                                         <h6 class="dropdown-header">Chennai</h6>
