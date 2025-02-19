@@ -20,7 +20,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-1.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
+                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-1.webp')}}" alt="Acrylic Sign Boards in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Premium Acrylic Sign Boards in Mumbai</h1>
                     <button class="custom-btn">Know More</button>
@@ -268,7 +268,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-9.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-9.webp')}}" alt="Acrylic Sign Boards in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -281,7 +281,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-10.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-10.webp')}}" alt="Acrylic Sign Boards in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -305,22 +305,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-18.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-18.webp')}}" class="img-fluid" alt="Acrylic Sign Boards in Mumbai" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-11.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-11.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-11.webp')}}" class="img-fluid" alt="Acrylic Sign Boards in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-12.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-12.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-12.webp')}}" class="img-fluid" alt="Acrylic Sign Boards in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-13.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-13.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-13.webp')}}" class="img-fluid" alt="Acrylic Sign Boards in Mumbai"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -329,22 +329,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-14.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-14.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-14.webp')}}" class="img-fluid" alt="Acrylic Sign Boards in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-15.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-15.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-15.webp')}}" class="img-fluid" alt="Acrylic Sign Boards in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-16.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-16.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-16.webp')}}" class="img-fluid" alt="Acrylic Sign Boards in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-17.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/premium-acryliv-sign-boards-in-mumbai-17.webp')}}" class="img-fluid" alt="Acrylic Sign Boards in Mumbai"  style="width: 100%;">
                 </a>
             </div>
         </div>

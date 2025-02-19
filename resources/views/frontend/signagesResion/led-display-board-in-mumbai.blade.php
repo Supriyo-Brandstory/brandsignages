@@ -12,7 +12,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-1.webp')}}" alt="Custom Neon Sign Boards in Chennai">
+                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-1.webp')}}" alt="LED Sign Board Manufacturers Chennai">
                 <div class="carousel-caption-custom">
                     <h1>Best LED Light Signboards in Mumbai  </h1>
                      <div class="mt-4">
@@ -22,7 +22,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-2.webp')}}" alt="Custom Neon Sign Boards in Chennai">
+                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-2.webp')}}" alt="LED Sign Board Manufacturers Chennai">
                 <div class="carousel-caption-custom">
                     <h1>Best LED Light Signboards in Mumbai  </h1>
                      <div class="mt-4">
@@ -46,7 +46,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-3.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-3.webp')}}" alt="LED Sign Board Manufacturers Chennai" class="img-fluid">
                 </div>
             </div>
 
@@ -245,7 +245,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-10.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-10.webp')}}" alt="LED Sign Board Manufacturers Chennai" class="img-fluid">
                 </div>
             </div>
 
@@ -287,7 +287,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-11.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-11.webp')}}" alt="LED Sign Board Manufacturers Chennai" class="img-fluid">
                 </div>
             </div>
 
@@ -306,22 +306,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-display-board-in-mumbai-12.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-12.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-12.webp')}}" class="img-fluid" alt="LED Sign Board Manufacturers Chennai" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-display-board-in-mumbai-13.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-13.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-13.webp')}}" class="img-fluid" alt="LED Sign Board Manufacturers Chennai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-display-board-in-mumbai-14.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-14.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-14.webp')}}" class="img-fluid" alt="LED Sign Board Manufacturers Chennai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-display-board-in-mumbai-15.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-15.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-15.webp')}}" class="img-fluid" alt="LED Sign Board Manufacturers Chennai"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -330,22 +330,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-display-board-in-mumbai-16.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-16.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-16.webp')}}" class="img-fluid" alt="LED Sign Board Manufacturers Chennai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-display-board-in-mumbai-17.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-17.webp')}}" class="img-fluid" alt="LED Sign Board Manufacturers Chennai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-display-board-in-mumbai-18.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-18.webp')}}" class="img-fluid" alt="LED Sign Board Manufacturers Chennai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-display-board-in-mumbai-19.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/led-display-board-in-mumbai-19.webp')}}" class="img-fluid" alt="LED Sign Board Manufacturers Chennai"  style="width: 100%;">
                 </a>
             </div>
         </div>

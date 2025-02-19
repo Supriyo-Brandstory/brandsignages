@@ -35,9 +35,9 @@
                 Indoor signages are exceptional branding tool to elevate interior branding. This can be wayfinding signage, 
                 reception signage, or nameplates that maintain a sleek and professional workspace. Whether it is an office space 
                 or a retail store, indoor signage is a must-have for brands & businesses.<br>
-                At Brand Signages, we transform indoor spaces with custom interior office signs for a law-dropping visual experience. 
-                As a industry-leader in signage & sign manufacturing, we know how indoor signages can act as a strategic brand touchpoint. 
-                We are here to reinforce your company and retail space’s identity with modern indoor signage solutions and leave lasting first 
+                At Brand Signages, we transform indoor spaces with custom interior office signs for a jaw-dropping visual experience. 
+                As industry leader in signage & sign manufacturing, we know how indoor signages can act as a strategic brand touchpoint. 
+                We are here to reinforce your company and retail space’s identity with modern indoor signage solutions and leave a lasting first 
                 impact. Crafted with premium materials and tailored to match your brand aesthetics, our signage solutions blend innovation with precision, making every indoor space an extension of your brand’s story. 
             </p>
             </div>
@@ -63,7 +63,7 @@
                     <li><a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED Sign Boards</a></li>
                     <li><a href="{{route('neon_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Neon Signage</a></li>
                 </ul>
-                As a reliable manufacturer of custom indoor business signs we blend creativity and professional appeal to every design.
+                As a reliable manufacturer of custom indoor business signs, we blend creativity and professional appeal to every design.
                 </p>
             </div>
 
@@ -163,7 +163,7 @@
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">Types of Indoor Signages We Offer</h2>
-        <p class="card-text testimonial-card-text text-center pb-2">Brand Signages offers various types of indoor signage solutions tailored to meet various needs.<br> Here’re the types in detail:</p>
+        <p class="card-text testimonial-card-text text-center pb-2">Brand Signages offers various types of indoor signage solutions tailored to meet various needs.<br> Here are the types in detail:</p>
         
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -177,7 +177,7 @@
                 <p class="brand-description">
                     We design custom directional and navigational indoor signages for offices, retail stores, buildings, and hospitals. </p>
                 <p class="brand-description">
-                    Whether it’s room number, floor directories, or path arrows, our indoor signages are designed to be visually appealing. They are made with durable materials, sleek design to be visible in high-traffic areas.</p>
+                    Whether it’s room number, floor directories, or path arrows, our indoor signages are designed to be visually appealing. They are made with durable materials with a sleek design to be visible in high-traffic areas.</p>
                 <h2 class="brand-title">Branding Interior Signages</h2>
                 <p class="brand-description">
                     Indoor signages like acrylic boards, neon lights, and digital displays are also used as a branding tool in various industries. Whether it is a company logo, reception, or conference room, we design custom signages to match your brand’s vision.     

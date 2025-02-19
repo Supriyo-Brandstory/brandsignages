@@ -46,7 +46,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-2.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-2.webp')}}" alt="Stainless Steel Sign Board Manufacturer Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -303,22 +303,22 @@
             
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-10.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-10.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-10.webp')}}" class="img-fluid" alt="Stainless Steel Sign Board Manufacturer Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-11.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-11.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-11.webp')}}" class="img-fluid" alt="Stainless Steel Sign Board Manufacturer Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-12.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-12.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-12.webp')}}" class="img-fluid" alt="Stainless Steel Sign Board Manufacturer Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-13.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-13.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-13.webp')}}" class="img-fluid" alt="Stainless Steel Sign Board Manufacturer Mumbai"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -328,22 +328,22 @@
            
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-14.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-14.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-14.webp')}}" class="img-fluid" alt="Stainless Steel Sign Board Manufacturer Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-15.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-15.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-15.webp')}}" class="img-fluid" alt="Stainless Steel Sign Board Manufacturer Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-16.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-16.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-16.webp')}}" class="img-fluid" alt="Stainless Steel Sign Board Manufacturer Mumbai" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-17.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/stainless-steel-sign-board-manufacturer-mumbai-17.webp')}}" class="img-fluid" alt="Stainless Steel Sign Board Manufacturer Mumbai"  style="width: 100%;">
                 </a>
             </div>
         </div>

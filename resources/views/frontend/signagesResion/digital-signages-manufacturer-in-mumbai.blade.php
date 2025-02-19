@@ -12,9 +12,9 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-1.webp')}}" alt="Premium Acrylic Sign Boards in Mumbai">
+                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-1.webp')}}" alt="Digital Signage Manufacturers in Mumbai">
                 <div class="carousel-caption-custom">
-                    <h1>Digital Signages Manufacturer in Mumbai</h1>
+                    <h1>Best Digital Signages Manufacturer in Mumbai</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -22,9 +22,9 @@
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-2.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
+                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-2.webp')}}" alt="Digital Signage Manufacturers in Mumbai">
                 <div class="carousel-caption-custom">
-                    <h1>Digital Signages Manufacturer in Mumbai</h1>
+                    <h2>Digital Signages Display Manufacturers Mumbai</h2>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -45,7 +45,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-3.webp')}}" alt="Acrylic Sign Boards" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-3.webp')}}" alt="Digital Signage Manufacturers in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -412,7 +412,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-17.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-17.webp')}}" alt="Digital Signage Manufacturers in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -425,7 +425,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-18.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-18.webp')}}" alt="Digital Signage Manufacturers in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -451,22 +451,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-20.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-20.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-20.webp')}}" class="img-fluid" alt="Digital Signage Manufacturers in Mumbai" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-21.webp')}}" class="img-fluid" alt="Digital Signage Manufacturers in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-22.webp')}}" class="img-fluid" alt="Digital Signage Manufacturers in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-23.webp')}}" class="img-fluid" alt="Digital Signage Manufacturers in Mumbai"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -475,22 +475,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-24.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-24.webp')}}" class="img-fluid" alt="Digital Signage Manufacturers in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-25.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-25.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-25.webp')}}" class="img-fluid" alt="Digital Signage Manufacturers in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-26.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-26.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-26.webp')}}" class="img-fluid" alt="Digital Signage Manufacturers in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-27.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-27.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/digital-signages-manufacturer-in-mumbai-27.webp')}}" class="img-fluid" alt="Digital Signage Manufacturers in Mumbai"  style="width: 100%;">
                 </a>
             </div>
         </div>

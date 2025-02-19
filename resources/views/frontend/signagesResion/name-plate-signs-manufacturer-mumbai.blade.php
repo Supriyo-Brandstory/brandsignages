@@ -15,7 +15,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-1.webp')}}" alt="Construction & Fire Safety signages in Mumbai">
+                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-1.webp')}}" alt="Name Plate Signages in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Name Plate Signs Manufacturer Mumbai </h1>
                      <div class="mt-4">
@@ -25,7 +25,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-2.webp')}}" alt="Construction & Fire Safety signages in Mumbai">
+                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-2.webp')}}" alt="Name Plate Signages in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Name Plate Signs Manufacturer Mumbai </h1>
                      <div class="mt-4">
@@ -46,7 +46,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-3.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-3.webp')}}" alt="Name Plate Signages in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -234,7 +234,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-9.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-9.webp')}}" alt="Name Plate Signages in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -273,7 +273,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-10.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-10.webp')}}" alt="Name Plate Signages in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -285,7 +285,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-9.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-9.webp')}}" alt="Name Plate Signages in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -484,22 +484,22 @@
            
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-16.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-16.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-16.webp')}}" class="img-fluid" alt="Name Plate Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-17.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-17.webp')}}" class="img-fluid" alt="Name Plate Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-18.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-18.webp')}}" class="img-fluid" alt="Name Plate Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-19.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-19.webp')}}" class="img-fluid" alt="Name Plate Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -509,22 +509,22 @@
         
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-20.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-20.webp')}}" class="img-fluid" alt="Name Plate Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-21.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-21.webp')}}" class="img-fluid" alt="Name Plate Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-22.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-22.webp')}}" class="img-fluid" alt="Name Plate Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-23.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/name-plate-signs-manufacturer-mumbai-23.webp')}}" class="img-fluid" alt="Name Plate Signages in Mumbai" style="width: 100%;">
                 </a>
             </div>
         </div>

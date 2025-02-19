@@ -46,7 +46,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-3.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-3.webp')}}" alt="Office Signages in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -495,22 +495,22 @@
             
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-17.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-17.webp')}}" class="img-fluid" alt="Office Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-18.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-18.webp')}}" class="img-fluid" alt="Office Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-19.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-19.webp')}}" class="img-fluid" alt="Office Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-20.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-20.webp')}}" class="img-fluid" alt="Office Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -520,22 +520,22 @@
            
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-21.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-21.webp')}}" class="img-fluid" alt="Office Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-22.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-22.webp')}}" class="img-fluid" alt="Office Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-23.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-23.webp')}}" class="img-fluid" alt="Office Signages in Mumbai" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/office-signages-in-mumbai-24.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/office-signages-in-mumbai-24.webp')}}" class="img-fluid" alt="Office Signages in Mumbai"  style="width: 100%;">
                 </a>
             </div>
         </div>

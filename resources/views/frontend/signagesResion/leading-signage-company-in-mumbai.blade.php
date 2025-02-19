@@ -12,7 +12,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai.webp')}}" alt="Prohibition Signs for Workplace Safety">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai.webp')}}" alt="Signage Manufacturing Company in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Leading Signage Company in Mumbai</h1>
                      <div class="mt-4">
@@ -22,9 +22,9 @@
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-1.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-1.webp')}}" alt="Signage Manufacturing Company in Mumbai">
                 <div class="carousel-caption-custom">
-                    <h1>Leading Signage Company in Mumbai</h1>
+                    <h2>Best Sign Board Manufacturers in Mumbai</h2>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -44,19 +44,19 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-3.webp')}}" alt="Acrylic Sign Boards" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-3.webp')}}" alt="Leading Signage Manufacturing Company in Mumbai" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Signages & sign boards are the most powerful branding tool to introduce, inform, and guide potential audiences to a business. So, whether you need sign boards for storefronts, restaurants, or real estate, choose the right option to reinforce your brand identity. The best design will convey your brand message, engage audience, and attract foot traffic to your business. 
+                Signages & sign boards are the most powerful branding tool to introduce, inform, and guide potential audiences to a business. So, whether you need sign boards for storefronts, restaurants, or real estate, choose the right option to reinforce your brand identity. The best design will convey your brand message, engage the audience, and attract foot traffic to your business.
 
                 </p>
                 <p class="brand-description">
-                    Brand Signages is the top sign board manufacturers in Mumbai, trusted by top companies. As industry-leading sign board makers Mumbai, we have over 10 years of expertise in designing creative sign boards. Our services comprise LED sign boards, digital signages, acrylic letter signs, etc. designed to boost your brand observability. As a renowned signage company in Mumbai, Bangalore, and Chennai we provide top-tier signage solutions. With a huge collection of alternatives, from outdoor signs to indoor signage, we guarantee to make your business distinct in the combative market.  
+                Brand Signages is the top sign board manufacturers in Mumbai, trusted by top businesses. As industry-leading sign board makers Mumbai, we have over 10 years of expertise in designing creative sign boards. With a huge collection of alternatives, from outdoor signs to indoor signage, we ensure your branding stands out in the combative market. Being a renowned signage company in Mumbai, Bangalore, Chennai, and all over India we provide top-tier signage solutions.  
                 </p>
-                   <p class="brand-description">We are proud of our proficiency in signage design, providing innovative solutions. Our sign work utilizes top-class materials, like stainless steel, neon glow, and acrylic signage. Our acknowledgment as a dependable sign board maker in Mumbai is formed on punctual delivery, reasonable pricing, and unparalleled artistry.  Choose us for your signage requirements in Mumbai and enhance your brand with spectacular designs. Let’s produce signages that genuinely depict your business! </p>
+                <p class="brand-description">We are proud of our proficiency in signage design and providing services for a decade. Our product range includes stainless steel, neon glow, LED sign boards, digital signage, and acrylic signage. As the most dependable sign board maker in Mumbai, we provide punctual delivery, reasonable pricing, and unparalleled artistry. Choose us for your signage requirements in Mumbai and enhance your brand with spectacular designs.</p>
         </div>
     </div>
 </section>
@@ -74,7 +74,7 @@
             <div class="col">
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-4.webp')}}" class="why-card-img-top"
-                        alt="Healthcare Industry  ">
+                        alt="Signage Manufacturing Company in Mumbai  ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Healthcare Industry  </h3>
                         <p class="card-text">We outline signage boards that assist in supporting patients and guests, along with wayfinding signage, building signage, and digital signage for hospitals, clinics, and healthcare centers.</p>
@@ -84,7 +84,7 @@
             <div class="col">
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-5.webp')}}" class="why-card-img-top"
-                        alt="Restaurant & Hospitality">
+                        alt="Signage Manufacturing Company in Mumbai">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Restaurant & Hospitality</h3>
                         <p class="card-text">Our sign work comprises LED signage boards, outdoor signs, and acrylic signage that improves the ambiance and assists customers in seamlessly steering your restaurant, cafe, or hotel.</p>
@@ -94,7 +94,7 @@
             <div class="col">
                     <div class="why-card card">
                         <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-55.webp')}}" class="why-card-img-top"
-                            alt=" Retail Businesses">
+                            alt="Signage Manufacturing Company in Mumbai">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3"> Retail Businesses</h3>
                             <p class="card-text">We generate custom signage solutions such as acrylic LED letters, LED displays, and corrugated box signage that pull attention to your outlet, boosting your products and services efficiently.</p>
@@ -105,7 +105,7 @@
             <div class="col">
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-6.webp')}}" class="why-card-img-top"
-                        alt="Corporate Offices">
+                        alt="Signage Manufacturing Company in Mumbai">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Corporate Offices</h3>
                         <p class="card-text"> We offer polished and competent signage alternatives like stainless steel and ACP sign boards for your office or building. These consist of directional signage, office branding, and informative signage.</p>
@@ -115,7 +115,7 @@
             <div class="col">
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-77.webp')}}" class="why-card-img-top"
-                        alt="Custom Signage  ">
+                        alt="Signage Manufacturing Company in Mumbai">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Custom Signage  </h3>
                         <p class="card-text">Whether you require an LED sign, ACP sign, or acrylic signage, our team of proficient designers will produce a solution that suits your brand flawlessly. From sign boards to ignited displays, we provide back-to-back signage pattern and installation services.</p>
@@ -131,7 +131,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-4.webp')}}" class="why-card-img-top"
-                                    alt="Healthcare Industry  ">
+                                    alt="Signage Manufacturing Company in Mumbai">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Healthcare Industry  </h3>
                                     <p class="card-text">We outline signage boards that assist in supporting patients and guests, along with wayfinding signage, building signage, and digital signage for hospitals, clinics, and healthcare centers.</p>
@@ -142,7 +142,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-5.webp')}}" class="why-card-img-top"
-                                    alt="Restaurant & Hospitality">
+                                    alt="Signage Manufacturing Company in Mumbai">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Restaurant & Hospitality</h3>
                                     <p class="card-text">Our sign work comprises LED signage boards, outdoor signs, and acrylic signage that improves the ambiance and assists customers in seamlessly steering your restaurant, cafe, or hotel.</p>
@@ -152,7 +152,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-55.webp')}}" class="why-card-img-top"
-                                    alt=" Retail Businesses">
+                                    alt="Signage Manufacturing Company in Mumbai">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3"> Retail Businesses</h3>
                                     <p class="card-text">We generate custom signage solutions such as acrylic LED letters, LED displays, and corrugated box signage that pull attention to your outlet, boosting your products and services efficiently.</p>
@@ -166,7 +166,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-55.webp')}}" class="why-card-img-top"
-                                    alt=" Retail Businesses">
+                                    alt="Signage Manufacturing Company in Mumbai">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3"> Retail Businesses</h3>
                                     <p class="card-text">We generate custom signage solutions such as acrylic LED letters, LED displays, and corrugated box signage that pull attention to your outlet, boosting your products and services efficiently.</p>
@@ -176,7 +176,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-6.webp')}}" class="why-card-img-top"
-                                    alt="Corporate Offices">
+                                    alt="Signage Manufacturing Company in Mumbai">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Corporate Offices</h3>
                                     <p class="card-text"> We offer polished and competent signage alternatives like stainless steel and ACP sign boards for your office or building. These consist of directional signage, office branding, and informative signage.</p>
@@ -186,7 +186,7 @@
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-77.webp')}}" class="why-card-img-top"
-                                    alt="Custom Signage  ">
+                                    alt="Signage Manufacturing Company in Mumbai">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Custom Signage  </h3>
                                     <p class="card-text">Whether you require an LED sign, ACP sign, or acrylic signage, our team of proficient designers will produce a solution that suits your brand flawlessly. From sign boards to ignited displays, we provide back-to-back signage pattern and installation services.</p>
@@ -231,7 +231,7 @@
             <div class="row g-4">
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-7.webp')}}" alt="Modern Designs" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-7.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Modern Designs</h5>
                             <p class="text-content">Our team produces creative and contemporary signage designs that suit your brand recognition. From glossy acrylic signage to remarkable LED sign boards, we provide a variety of patterns to fit each requirement.</p>
@@ -241,7 +241,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-8.webp')}}" alt="Durability" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-8.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Durability</h5>
                             <p class="text-content">We utilize standardized substances such as stainless steel, ACP, and acrylic to make sure that your signage is durable. Our sign boards are made to bear the components, whether they are utilized indoors or as outdoor signs.</p>
@@ -251,7 +251,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-12.webp')}}" alt="Warranty " class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-12.webp')}}" alt="Signage Manufacturing Company in Mumbai " class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Warranty </h5>
                             <p class="text-content">We stand by the class of our work. All our signage products are available with a warranty, giving you a state of peace and quiet being aware that your investment is safeguarded.</p>
@@ -261,7 +261,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-9.webp')}}" alt="Easy Installation" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-9.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Easy Installation</h5>
                             <p class="text-content">Our professional team manages the installation method from beginning to ending. We ensure the signage board, whether it's a digital signage solution or an LED display, is installed promptly and safely.</p>
@@ -271,7 +271,7 @@
 
                 <div class="col-lg-5">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-10.webp')}}" alt="Excellent Customer Service" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-10.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Excellent Customer Service</h5>
                             <p class="text-content">As a reliable sign board maker in Mumbai, we concentrate on customer contentment. We work intimately with you through the  whole procedure, from signage design to installation, guaranteeing that your requirements are fulfilled.</p>
@@ -281,7 +281,7 @@
 
                 <div class="col-lg-3">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-11.webp')}}" alt="Variety of Options" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-11.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Variety of Options</h5>
                             <p class="text-content">Whether you require building signage, wayfinding signage, LED signage boards, or acrylic LED letters, we have it for you. We also provide solutions such as LED signs, acrylic signage, and corrugated box arrays to make your business be distinct.</p>
@@ -302,7 +302,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-13.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-13.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -347,7 +347,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-14.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-14.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -360,7 +360,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-15.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-15.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="img-fluid">
                 </div>
             </div>
 
@@ -384,22 +384,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-16.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-16.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-16.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai" style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-17.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-17.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-18.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-19.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-19.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -408,22 +408,22 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-20.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-20.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-21.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-22.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
                 </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-23.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
                 </a>
             </div>
         </div>

@@ -32,11 +32,11 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">We are Creative Outdoor Sign Dersigners</h2>
+                <h2 class="brand-title">We are Creative Outdoor Sign Designers</h2>
                 <p class="brand-description">
                 Brand Signages is the best in the zone when it comes to choosing an outdoor signage company in India. As
                  a creative team of experts we know what elements can attract your audience. With 10+ years of vast industry 
-                 expertise we blend the right color code, fonts, and materials to design jaw-drpooing outdoor sign boards.
+                 expertise, we blend the right color code, fonts, and materials to design jaw-dropping outdoor sign boards.
                 </p>
                 <p class="brand-description">
                 Outdoor sign boards are a powerful tool to showcase what unique your business offer to the customers. This 
@@ -645,7 +645,7 @@
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>A regular signboard for the outdoors includes static text and/or images to showcase a brand
+                <p>A regular signboard for the outdoors includes static text and/or images to showcasing a brand
                     message whereas a digital signboard includes dynamic videos, pictures and texts sometimes with
                     lighting attached to the board.</p>
             </div>
