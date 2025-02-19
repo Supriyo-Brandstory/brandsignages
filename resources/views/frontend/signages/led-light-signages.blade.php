@@ -19,7 +19,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Custom LED Sign Boards for a Lasting Impact</h2>
+        <h2 class="hero-title">Best LED Light Signboard Manufacturer</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -29,12 +29,15 @@
             </div>
 
             <div class="col-lg-6">
-                <p class="brand-description">
-                    LED sign boards are a modern signage solution that enhances brand visibility with eye-catching and energy-efficient lighting. Best for both indoor and outdoor usage, LED sign boards offer durability and customization making them a preferred choice for businesses.</p>
                     <p class="brand-description">
-                        Brand Signages is a leading LED sign board manufacturer in Bangalore & India, combining quality and innovation to meet your signage needs. From amazing LED reverse light signs, and digital LED to acrylic LED signages we offer a range of solutions. 
+                    LED sign boards are a modern branding solution with compact digital screens used in storefronts. Best for both indoor and outdoor usage, LED sign boards are designed to attract customers to your store. Different from traditional signage, LED sign boards show dynamic content on digital displays providing better visibility.
                     </p>
-                    <p class="brand-description">Our expert LED signage makers have worked with different types of businesses or brands. Our product range includes acrylic LED sign boards, LED message boards, digital backlit boards, and more. Our passion and dedication drive us to create diverse signage styles. We are ready to push boundaries to showcase your brand with a brand-new LED sign board. </p>
+                    <p class="brand-description">
+                    LED signages are modern signages used for advertising with interactive display screens. Being an industry leader in signage manufacturing, Brand Signages is the most trusted for affordable and energy-efficient LED sign boards. We combine quality and innovation to meet your signage needs. From amazing LED reverse light signs, and digital LED to acrylic LED signages we offer a range of solutions. 
+                    </p>
+                    <p class="brand-description">
+                    At Brand Signages, we are the premier LED signage manufacturers trusted by top brands. Brand Signages has worked with 100+ businesses across India related to various industries.  
+                    </p>
             </div>
         </div>
     </div>
@@ -43,7 +46,7 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Types of LED Signage boards that we offer</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Types of LED Signage Boards That We Offer</h2>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -263,7 +266,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Led Light Name Boards for Shop</h2>
+        <h2 class="hero-title">Benefits of LED Sign Boards</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -274,12 +277,23 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    LED light name boards ensure your brand stands out. These are a significant branding tool for any type of shop. These boards ensure your shop stands out, gaining attention with their glow sign and attractive designs. LED boards enhance your store’s aesthetic appeal and professional image.</p>
+                    Eye-Catching Designs - LED signage boards use dynamic digital screens and make your brand stand out.</p>
                 <p class="brand-description">
-                    LED signage boards are made with energy-efficient materials which you can alter as per your preference.  It can go for a long time and  save your electricity bills. Customize your LED signage boards in different  typefaces, logos and colors that will reflect the style of your store. LED boards efficiently convey your brand's message, whether it's through a bright, unique design or a clean, contemporary appearance.</p>
+                    Powerful Tool for Advertising - LED signboards offer customized content and illuminated options for attracting customers and boosting visibility.</p>
                 <p class="brand-description">
-                    These weather-resistant, low-maintenance boards are perfect for malls, storefronts, or independent stores. To increase foot traffic, improve your shop's visibility, and make a lasting impression on potential consumers, get an LED light name board. Shine brightly and get attention with ease!
-                </p>   
+                    Better Audience Engagement - Interactive visuals and real-time updates using digital displays foster a better engagement rate and keep the audience engaged.
+                </p>
+                <p class="brand-description">
+                    Long-Lasting Durability - These signages are designed with energy-efficient technology to ensure low electricity consumption and extended lifespan. 
+                </p>
+                <p class="brand-description">
+                    Installation & Maintenance - Other than traditional sign boards, it does not require upkeep. LED signage boards are lightweight and easy-to-install solutions. 
+                </p>    
+                <p class="brand-description">
+                As a premier LED signage manufacturer company, we stay updated with industry standards. We have a team of experienced designers and a management unit to maintain 
+                operations. Being trusted by 100+ businesses, we provide the best signage design and manufacturing services all over India. We are also a leading manufacturer of 
+                digital signage working with top companies. 
+                </p>
             </div>
         </div>
     </div>
