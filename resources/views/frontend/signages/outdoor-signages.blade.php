@@ -19,14 +19,10 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Why Use Outdoor Signage for <br> Your Business</h2>
-        <p class="card-text testimonial-card-text text-center pb-3">Among multiple marketing and advertising tools
-            for reinforcing businesses, outdoor signage is one of the most effective <br> options. A well-designed,
-            clearly visible, and thoughtful outdoor sign board can communicate your brand and engage your <br>
-            audience in a way that they cannot resist stopping by the signage board and sometimes checking out the
-            brand more. <br>
-            However, to be more specific, the reasons why businesses should pay attention to using outdoor signage
-            boards are as follows:</p>
+        <h2 class="hero-title">Best Outdoor Signage Company for <br> Custom Sign Boards </h2>
+        <p class="card-text testimonial-card-text text-center pb-3">Outdoor branding is the most important marketing 
+            tool for brand awareness. Creative designs and striking visuals plays <br>a significant role in driving 
+            customers to your shop, showcase offers, and drive foot traffic. </p>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -36,17 +32,16 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">Aware people about the brand’s latest offers</h2>
+                <h2 class="brand-title">We are Creative Outdoor Sign Dersigners</h2>
                 <p class="brand-description">
-                    A digital outdoor signboard works as a messenger to your target audiences and existing customers
-                    informing them of seasonal offers, sales events and special discounts. If the signage were not
-                    there, they would probably pass by the road without checking out your brand store.</p>
-                <h2 class="brand-title">Notify that the store is open</h2>
+                Brand Signages is the best in the zone when it comes to choosing an outdoor signage company in India. As
+                 a creative team of experts we know what elements can attract your audience. With 10+ years of vast industry 
+                 expertise we blend the right color code, fonts, and materials to design jaw-drpooing outdoor sign boards.
+                </p>
                 <p class="brand-description">
-                    Outdoor sign boards are a powerful method to indicate that the store is open even when it is
-                    late. Motorists, car drivers and even pedestrians are nowadays extremely busy in their daily
-                    schedule. Hence, to let your potential customers know that the store is open and they can shop
-                    late if they want, outdoor signage is a must!</p>
+                Outdoor sign boards are a powerful tool to showcase what unique your business offer to the customers. This 
+                significantly helps foot traffic to engage with your business and drive sales. With modern DQ-embedded outdoor 
+                signages people can directly scan QR and know your business digitally and make a purchase.  </p>
 
             </div>
         </div>
@@ -59,19 +54,17 @@
         <div class="row align-items-center">
 
             <div class="col-lg-6 order-2 order-lg-1">
-                <h2 class="brand-title">Creates a long-lasting brand impression</h2>
+                <h2 class="brand-title">Creates a Lasting Brand Impression</h2>
                 <p class="brand-description">
-                    Outdoor signage can instantly attract customers and eventually create a long-lasting brand
-                    impression. It establishes a brand’s presence in an area with permanent fixtures. A signboard
-                    outdoors becomes an easy-to-identify landmark for local residents and occasional visitors in
-                    that area.</p>
-                <h2 class="brand-title">Ensures durability and versatility as a marketing tool</h2>
+                Outdoor signage can instantly attract customers and eventually create a long-lasting brand impression. 
+                It establishes a brand’s presence in an area with permanent fixtures. A signboard outdoors becomes an 
+                easy-to-identify landmark for local residents and occasional visitors in that area.
+                </p>
                 <p class="brand-description">
-                    Unlike many other marketing methods like posters or pamphlets, outdoor board signs are durable
-                    and showcase versatility. With its different types, you can use the outdoor signages the way you
-                    want. <br>
-                    Outdoor signage boards are an ideal way to improve customer service, promote your brand and
-                    ensure sustainable business growth.</p>
+                Unlike many other marketing methods like posters or pamphlets, outdoor board signs are durable and showcase 
+                versatility. With its different types, you can use the outdoor signages the way you want.<br>
+                Outdoor signage boards are an ideal way to improve customer service, and we are the No 1 
+                indoor outdoor signage manufacturers company in India.</p>
             </div>
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">

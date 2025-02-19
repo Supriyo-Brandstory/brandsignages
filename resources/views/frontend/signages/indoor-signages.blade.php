@@ -8,7 +8,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/indoor-signage.webp')}}" alt="Indoor Signs">
                 <div class="carousel-caption-custom">
-                    <h1>Custom Indoor Signs Online </h1>
+                    <h1>Premium-Quality Custom Indoor Signages</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -22,7 +22,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Indoor Office Signs for a Sleek <br> Workspace</h2>   
+        <h2 class="hero-title">Indoor Signages for Office and Retail Spaces</h2>   
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
@@ -32,8 +32,14 @@
             
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Looking for indoor signage to change your indoor workspace design? Custom indoor signs can build your brand image, so make sure you choose an indoor signs board from the right company. We provide the best custom and quality indoor signs for businesses. Interior signage can grab the attention of employees and visitors and successfully build brand identity. From custom brand logo signage to wall graphics, the right indoor office sign can add an aesthetic appeal to the workplace. <br>
-                    Choose from different styles and materials of indoor signage as per your needs, such as wooden signs for a classy look or metal/acrylic for a sleek interior design. Whether you need a brand name or office logo, or a reception or conference area logo, our interior office sign can meet your preference. These signs can easily match your office culture and deliver clear communication.   </p>
+                Indoor signages are exceptional branding tool to elevate interior branding. This can be wayfinding signage, 
+                reception signage, or nameplates that maintain a sleek and professional workspace. Whether it is an office space 
+                or a retail store, indoor signage is a must-have for brands & businesses.<br>
+                At Brand Signages, we transform indoor spaces with custom interior office signs for a law-dropping visual experience. 
+                As a industry-leader in signage & sign manufacturing, we know how indoor signages can act as a strategic brand touchpoint. 
+                We are here to reinforce your company and retail space’s identity with modern indoor signage solutions and leave lasting first 
+                impact. Crafted with premium materials and tailored to match your brand aesthetics, our signage solutions blend innovation with precision, making every indoor space an extension of your brand’s story. 
+            </p>
             </div>
         </div>
     </div>
@@ -46,14 +52,24 @@
             
             <div class="col-lg-6 order-2 order-lg-1">
                 <p class="brand-description">
-                    Interior signage can be the best medium for office interior elements. With a range of indoor signage options available, you will also get custom interior signage that can align with your brand identity. Our engaging interior office signs are ideal solutions for permanent signages like brand logos/ brand names or one-time use like POP displays. Use our custom indoor signs to highlight offers or promote new deals.</p>
+                We offer indoor signages in a variety of materials designed to offer durability, 
+                aesthetics, and premium look. Here are the options available at Brand Signages:
+                </p>
                 <p class="brand-description">
-                    At Brand Signages, we will give the best office signage solution by understanding the available space and your requirements. For any type of business or industry, you can contact us to customize your interior signs that will stand out to get attention.</p>
+                <ul>
+                    <li><a href="{{route('arcylic_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Acrylic Sign Boards</a></li>
+                    <li><a href="{{route('metal_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Metal Sign Boards</a></li>
+                    <li><a href="{{route('digital_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Digital Signage</a></li>
+                    <li><a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED Sign Boards</a></li>
+                    <li><a href="{{route('neon_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Neon Signage</a></li>
+                </ul>
+                As a reliable manufacturer of custom indoor business signs we blend creativity and professional appeal to every design.
+                </p>
             </div>
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/indoor-signage3.webp')}}" alt="Indoor Signs" class="img-fluid">
+                    <img src="{{asset('frontend/Images/reception-indoor-sign.webp')}}" alt="Reception Indoor Signs" class="img-fluid">
                 </div>
             </div>
 
@@ -147,7 +163,7 @@
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">Types of Indoor Signages We Offer</h2>
-        <p class="card-text testimonial-card-text text-center pb-2">What types of indoor signage do we offer? Indoor office signage not only boosts up office interior design, but it also has the <br> power to communicate with others by giving messages or navigating the way. Brand Signages offers different types of indoor <br> signage solutions tailored to meet various needs.</p>
+        <p class="card-text testimonial-card-text text-center pb-2">Brand Signages offers various types of indoor signage solutions tailored to meet various needs.<br> Here’re the types in detail:</p>
         
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -159,12 +175,16 @@
             <div class="col-lg-6">
                 <h2 class="brand-title">Directional Indoor Signages</h2>
                 <p class="brand-description">
-                    This type of indoor signage is designed for navigating large spaces like office complexes, shopping malls, or hospitals. It helps customers to find what they are looking for easily. In that case, directional indoor signages ensure easy accessibility and smooth movement.</p>
+                    We design custom directional and navigational indoor signages for offices, retail stores, buildings, and hospitals. </p>
                 <p class="brand-description">
-                    Whether it’s room identifiers, floor directories, or path arrows, these indoor office signages are designed to be visually appealing. They are made with durable materials that will ensure readability in high-traffic areas.</p>
+                    Whether it’s room number, floor directories, or path arrows, our indoor signages are designed to be visually appealing. They are made with durable materials, sleek design to be visible in high-traffic areas.</p>
                 <h2 class="brand-title">Branding Interior Signages</h2>
                 <p class="brand-description">
-                    The second type of indoor signage is branding interior signage. This type of signage is used for branding purposes. For instance, your brand logo, or your company name. It is placed strategically and uses brand colors, typography, or font style to reinforce company ethos and brand image. Whether it is metal base signage or wood-finishing office signage, they will resonate with brand value and identity.</p>
+                    Indoor signages like acrylic boards, neon lights, and digital displays are also used as a branding tool in various industries. Whether it is a company logo, reception, or conference room, we design custom signages to match your brand’s vision.     
+                </p>
+                <p class="brand-description">
+                    We strategically choose color, fonts, and typography to reinforce company ethos and brand image. Whether it is metal base signage or acrylic signage, our custom indoor office signages will resonate with brand value and identity.     
+                </p>
             </div>
         </div>
     </div>
@@ -178,12 +198,19 @@
             <div class="col-lg-6 order-2 order-lg-1">
                 <h2 class="brand-title">Point of Purchase Signages</h2>
                 <p class="brand-description">
-                    Point of Purchase Signages or POP displays are a must-have part of your marketing strategy to influence buyers. These signs generally present promotional offers, price displays, or product information. This type of signage is placed near outlets, product displays, shopping malls, or checkout counters. Our purchase signages will meet your business needs by successfully engaging with your customers or clients. Let’s connect Brand Signage and make your office signage an effective way of communication.</p>
+                    Point of Purchase Signages or POP displays are a must-have part of your marketing strategy to influence buyers. These signs generally present promotional offers, price displays, or product information. 
+                </p>
+                <p class="brand-description">
+                    This type of signage is placed near outlets, product displays, shopping malls, or checkout counters. Our purchase signages will meet your business needs by successfully engaging with your customers or clients.  
+                </p>
+                <p class="brand-description">
+                    Connect with Brand Signage and make your interior signage an effective way of communication.  
+                </p>
             </div>
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/indoor-signage8.webp')}}" alt="Indoor Signs" class="img-fluid">
+                    <img src="{{asset('frontend/Images/digital-signage23.webp')}}" alt="Indoor Signs" class="img-fluid">
                 </div>
             </div>
 
