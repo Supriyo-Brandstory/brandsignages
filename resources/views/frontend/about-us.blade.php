@@ -49,10 +49,12 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">Who We Are – Sign Board Makers in Bangalore & India </h2>
+                <h2 class="brand-title">Who We Are – No. 1 Sign Board Makers in India </h2>
                 <p class="brand-description">
-                    At Brand Signage, we are a reliable signboard manufacturer in Bangalore, emphasizing LED and digital signboards. With a concentration on standards, longevity, and creativity, we offer businesses personalized signboard solutions that improve their brand existence. We serve several industries, including retail, corporate, hospitality, healthcare, education, and more. Whether it’s a striking LED sign board for storefronts, a high-observability digital display, or a corporate name board, we guarantee premium branding solutions customized to satisfy exceptional business requirements. Our team toils closely with clients to craft and produce sign boards that match their imagination, providing durable, weather-proof, and elegantly attractive products.  
-
+                    At Brand Signage, we are the most trusted sign board manufacturers in Bangalore, 
+                    <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Chennai</a> ,
+                    <a href="{{route('leading_signage_company_in_mumbai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Mumbai</a>,
+                    and all over India. With a focus on standards, longevity, and creativity, we offer businesses personalized signboard solutions that improve their brand existence. We serve several industries, including retail, corporate, hospitality, healthcare, education, and more. Whether it’s a striking LED sign board for storefronts, a high-observability digital display, or a corporate name board, we guarantee premium branding solutions customized to satisfy exceptional business requirements. Our team collaborates closely with you to craft sign boards that match your imagination. We provide durable, weather-proof, and elegantly attractive products.  
                 </p>
                 
                
