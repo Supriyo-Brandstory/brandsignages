@@ -288,7 +288,8 @@ class frontendController extends Controller
 public function leading_signage_company_in_mumbai(){
     $currentRoute = Route::current()->uri();
     $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.signagesResion.leading-signage-company-in-mumbai', compact('seo'));
+    $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
+    return view('frontend.signagesResion.leading-signage-company-in-mumbai', compact('seo','blogs'));
     
 }
 public function premium_acrylic_sign_boards_in_mumbai(){
