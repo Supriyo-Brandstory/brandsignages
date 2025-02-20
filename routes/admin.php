@@ -3,6 +3,7 @@
 use App\Http\Controllers\admin\auth\AuthController;
 use App\Http\Controllers\admin\Blog\BlogController;
 use App\Http\Controllers\admin\dashboard\DashboardController;
+use App\Http\Controllers\admin\query\coustomQuery;
 use App\Http\Controllers\admin\seo\SEOController;
 use App\Http\Controllers\admin\sitemap\SitemapController;
 use App\Http\Controllers\admin\Blog\CategoryController;
@@ -25,6 +26,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::delete('subcategories/{id}', [CategoryController::class, 'subcategorydestroy'])->name('subcategories.destroy');
     route::resource('blogs', BlogController::class);
     route::resource('contacts', contactController::class);
+    route::resource('custom-inquiries', coustomQuery::class);
 
 // Route to show the export page
 Route::get('/export-database', [DatabaseController::class, 'showExportPage'])->name('show.export.page');

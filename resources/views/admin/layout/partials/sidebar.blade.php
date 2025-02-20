@@ -46,6 +46,12 @@
                 <span>Contacts</span>
             </a>
         </li>
+        <li class="nav-item {{ Route::is('custom-inquiries*') ? 'active' : ''}}">
+            <a class="nav-link " href="{{route('custom-inquiries.index')}}">
+                <i class="bi bi-grid"></i>
+                <span>Custom Inquiries</span>
+            </a>
+        </li>
 
         
 

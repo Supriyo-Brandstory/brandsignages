@@ -7,6 +7,7 @@ use App\Models\Blog;
 use App\Models\BlogCategory;
 use App\Models\BlogSubCategory;
 use App\Models\Contact;
+use App\Models\CustomInquiry;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\SEO;
@@ -500,4 +501,29 @@ public function restroom_signs_in_mumbai(){
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.author-bala-kumaran', compact('seo'));
     }
+
+
+    public function coustomInquiryStore(Request $request)
+    {
+        $validatedData = $request->validate([
+            'type'   => 'required|string',
+            'title'  => 'required|string',
+            'height' => 'required|integer',
+            'width'  => 'required|integer',
+            'name'   => 'required|string',
+            'email'  => 'required|email',
+            'phone'  => 'required|string',
+            'image'  => $request->type === 'upload' ? 'required|image' : 'nullable',
+        ]);
+
+        if ($request->hasFile('image')) {
+            $imagePath = $request->file('image')->store('inquiries', 'public');
+            $validatedData['image'] = $imagePath;
+        }
+
+        CustomInquiry::create($validatedData);
+
+        return response()->json(['message' => 'Inquiry saved successfully!']);
+    }
+
 }

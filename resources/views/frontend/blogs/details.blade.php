@@ -104,7 +104,7 @@ h1.hero-title.mb-1 {
     </style>
 <section class="blog-section">
     <div class="row">
-        <div class="bredcum">
+        <div class="bredcum d-none d-md-block">
             <a href="{{route('blogsVaritaion', $blog->subCategory->category->slug)}}" style="color: #e43d12;">{{$blog->category_name}}</a>
             <span class="divider">/</span>
             <a href="{{route('blogsVaritaion', $blog->subCategory->slug)}}" style="color: #e43d12;">{{$blog->sub_category_name}}</a>
@@ -146,7 +146,7 @@ h1.hero-title.mb-1 {
 </div>
 
         <!-- Table of Contents Column -->
-        <div class="col-lg-4 order-first order-lg-last">
+        <div class="col-lg-4 order-first order-lg-last d-none d-md-block">
             <div class="table-of-contents">
                 <h2>Table of Contents</h2>
                 <ul id="toc">

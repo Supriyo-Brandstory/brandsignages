@@ -92,7 +92,7 @@
             </div>
         </div>
     </section>
-
+    <x-coustom-inquiry-form />
     <section class="process-section">
         <div class="container">
             <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>

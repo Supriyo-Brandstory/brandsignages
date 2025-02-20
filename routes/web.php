@@ -70,7 +70,7 @@ Route::get('/about-us', [frontendController::class, 'about_us'])->name('about_us
 Route::get('/contact-us', [frontendController::class, 'contact_us'])->name('contact_us');
 Route::post('/contact-us', [frontendController::class, 'store'])->name('contact.store');
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');
-
+Route::post('/custom-inquiry', [frontendController::class, 'coustomInquiryStore'])->name('custom-inquiry.store');
 
 Auth::routes();
 

@@ -10,35 +10,7 @@
     padding: 0 30px;
     border-radius: 8px;
 }
-    .form-control {
-        margin-bottom: 25px;
-    }
-    .btn-custom {
-        background-color: #e63946;
-        color: white;
-        padding: 10px;
-        border: none;
-        width: 100%;
-        border-radius: 5px;
-    }
-    .form-contact {
-    border: solid 1px #3a232336;
-    background: white;
-    padding: 50px 40px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-
-}
-input.form-control ,textarea.form-control{
-    background: #f8f9fa;
-}
-.form-control:focus {
-    color: var(--bs-body-color);
-    background-color: var(--bs-body-bg);
-    border-color: #e43d12;
-    outline: 0;
-    box-shadow: none;
-}
+    
 h2.card-heading {
     text-align: left;
     margin-bottom: 20px;

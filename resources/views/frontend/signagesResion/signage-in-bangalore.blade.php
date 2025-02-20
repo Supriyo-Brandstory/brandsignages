@@ -63,7 +63,7 @@ Opt for Brand Signages for superior signages in Bangalore that are useful as wel
         </div>
     </div>
 </section>
-
+<x-coustom-inquiry-form />
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
