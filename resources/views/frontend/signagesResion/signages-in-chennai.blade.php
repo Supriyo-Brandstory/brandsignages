@@ -40,10 +40,10 @@
                     Sign boards play a crucial role in building strong brand recognition. A well-designed sign board enhances branding by attracting customer attention day and night. They not only emphasize an organization's name but also convey essential information such as contact details and key products and services.  
                     </p>
                 <p class="brand-description">
-                    Brand Signages is a Chennai-based sign board manufacturer serving top companies in South India. Working with 10+ years of experience in signage manufacturing, we design signages that make a bold statement.  
+                Brand Signages is premier sign board manufacturers in Chennai serving top companies in Chennai & South India. With 10+ years of industry expertise in signage manufacturing, we design signages that make a bold statement.  
                 </p>
                 <p>
-                    Whether you require traditional neon signs, acrylic signs, or LED displays, our expert sign board makers in Chennai supply a wide range of solutions. With a passion for excellence, Brand Signages crafts modern LED signage and digital signage solutions that leave a lasting impact. Here’s how we are the best sign board manufacturers in Chennai:
+                Whether you need neon signs, acrylic signs, or LED displays, our expert sign board makers in Chennai cater all industries. With a passion for excellence, Brand Signages crafts modern signage solutions that leave a lasting impact. Here’s how we are the best sign board manufacturers in Chennai:
                 </p>    
                 <ul>
                     <li>We utilize advanced technology to design superior-quality sign boards in Chennai.</li>
