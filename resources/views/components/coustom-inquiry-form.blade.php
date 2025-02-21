@@ -4,7 +4,9 @@
 
 <div class="container mt-4 mb-5  ">
     <h2 class="process-title mb-0">Order Custom Signages</h2>
-    <p class="card-text text-center mb-4 mt-3">Order custom signages tailored to your needs at Brand Signages. You can upload your design or hire our experts for a professional touch.</p>
+    <p class="card-text text-center mb-4 mt-3">At Brand Signages we provide high-quality custom sign board design services 
+        customized to your specific needs. <br>You can upload your preferred design or talk to our experts for an eye-catching 
+        and professional touch.</p>
     <form id="mainForm">
         <div id="successMessage" class="alert alert-success mt-3 text-center" style="display: none;">
            Your requirement submitted successfully! We will contact you soon!
