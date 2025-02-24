@@ -37,13 +37,13 @@
             <div class="col-lg-6">
             <h2 class="brand-title">#1 Sign Board Manufacturers in Chennai</h2>
                 <p class="brand-description">
-                    Sign boards play a crucial role in building strong brand recognition in Mumbai. A well-designed sign board enhances branding by attracting customer attention day and night. They not only emphasize an organization's name but also convey essential information such as specific locations in Mumbai, contact details, and key products and services.  
+                    Sign boards play a crucial role in building strong brand recognition in Chennai. A well-designed sign board enhances branding by attracting customer attention day and night. They not only emphasize an organization's name but also convey essential information such as specific locations in Chennai, contact details, and key products and services.  
                     </p>
                 <p class="brand-description">
                     Brand Signages is market-leading sign board manufacturers in Chennai. With 10+ years of industry expertise in signage manufacturing, we design signages for SMEs, startups, and large-scale enterprises.  
                 </p>
                 <p>
-                    Whether you need neon signs, acrylic signs, or LED displays in Mumbai, our expert sign board makers cater all requirements. With a passion for excellence, Brand Signages crafts modern signage solutions that leave a lasting impact. Here’s how we are the best sign board manufacturers in Chennai:
+                    Whether you need neon signs, acrylic signs, or LED displays in Chennai, our expert sign board makers cater all requirements. With a passion for excellence, Brand Signages crafts modern signage solutions that leave a lasting impact. Here’s how we are the best sign board manufacturers in Chennai:
                 </p>    
                 <ul>
                     <li>We utilize advanced technology to design superior-quality sign boards in Chennai.</li>
