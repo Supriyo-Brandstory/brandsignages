@@ -582,7 +582,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What are the common applications of acrylic signage boards?
+                What are The Common Applications of Acrylic Signage Boards?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
@@ -600,7 +600,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                How long do acrylic signage boards typically last?
+                How Long Do Acrylic Signage Boards Typically Last?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
@@ -612,7 +612,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                How does acrylic signage compare to other signage materials?
+                How Does Acrylic Signage Compare to Other Signage Materials?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
@@ -630,7 +630,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What’s the best way to clean and maintain acrylic signage boards?
+                What’s The Best Way to Clean and Maintain Acrylic Signage Boards?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
@@ -647,7 +647,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                Can acrylic signage boards be used for outdoor advertising?
+                Can Acrylic Signage Boards be Used for Outdoor Advertising?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
@@ -665,6 +665,61 @@
                 </ul>
             </div>
         </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                How Do Acrylic Signage Boards Contribute to Brand Visibility?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Acrylic signaling boards improve brand visibility by offering an elegant and professional appearance. 
+                    They can be customized with bright colors, 3D letters, and unique designs to attract attention. Acrylic 
+                    boards also come with illuminated options for better visibility at night. High-quality printing and soft 
+                    finishes make logos and text stand out. By maintaining a strong and attractive presence, acrylic signage 
+                    helps companies create a memorable brand image, which makes it easier for customers to recognize and trust 
+                    the brand.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+             Can LED Lighting be Integrated into Acrylic Signage Boards?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, LED lighting can be added to acrylic signage boards to make them look more visually striking. 
+                    Businesses often use backlit or illuminated acrylic signs to improve visibility, especially in areas with 
+                    low light. The LED-illuminated acrylic signage is commonly used in retail shops, restaurants, hotels, and corporate 
+                    offices. It gives an elegant look, better brand recognition, and engagement. </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+             Can Acrylic Signage Boards Withstand Extreme Weather Conditions?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, acrylic signs are durable and can overcome various climate conditions. They bear rain, wind, 
+                    and sunshine, so they can be used for both internal and external purposes. High-quality acrylic does 
+                    not fade easily, even in excessive cold or heat. However, for hard exterior environments, companies 
+                    can use additional coatings to increase durability. Acrylic signs are also water resistant, which 
+                    prevents moisture damage. Adequate maintenance can make them a reliable option for long-term usage.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Can Acrylic Signage Boards be Customized in Terms of Shape and Size?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, acrylic signaling boards can be tailored in several shapes and sizes to adjust your specific requirements. 
+                    They can be cut into exceptional designs, from simple rectangles to complicated logos and letters. You can select 
+                    thickness, color, and finish (bright or matte) to suit your branding. Acrylic signs can also include 3D letters or 
+                    LED lighting for additional effect. We provide custom acrylic signage design services to clients across India. </p>
+            </div>
+        </div>
+
     </div>
 </section>
 @endsection

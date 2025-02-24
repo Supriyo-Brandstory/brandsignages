@@ -404,7 +404,7 @@
       
       <div class="faq-item">
         <button class="faq-question">
-            What are neon light signs made of?
+            What are Neon Light Signs Made of?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
@@ -417,7 +417,7 @@
   
       <div class="faq-item">
         <button class="faq-question">
-            How long do neon light signs typically last?
+            How Long Do Neon Light Signs Typically Last?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
@@ -430,7 +430,7 @@
   
       <div class="faq-item">
         <button class="faq-question">
-            Can neon light signs be used outdoors?
+            Can Neon Light Signs be Used Outdoors?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
@@ -440,7 +440,7 @@
   
       <div class="faq-item">
         <button class="faq-question">
-            Are neon light signs energy-efficient?
+            Are Neon Light Signs Energy-efficient?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
@@ -450,7 +450,7 @@
   
       <div class="faq-item">
         <button class="faq-question">
-            How much do custom neon signs cost?
+            How Much Do Custom Neon Signs Cost?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
@@ -468,6 +468,51 @@
                 it's advisable to contact the manufacturer directly to discuss your specific design requirements.</p>
         </div>
       </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+            What is The Installation Process for Neon Light Signs?
+          <i class="faq-icon fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Neon signs are usually mounted on a wall, hung from ceilings, or placed on supports. The installation process involves securing 
+            the sign, connecting the power supply, and ensuring proper wiring. Traditional neon signs require an expert installation due to the 
+            glass tube and high voltage requirements. LED neon signs are easier to install, frequently using easy wall supports or adhesive backing. 
+            For outdoor usage, proactive coating is necessary. It is essential to follow safety guidelines and work with experts for safe installation 
+            and lasting durability.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+            What Maintenance is Required for Neon Light Signs?
+          <i class="faq-icon fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>Neon light signs require cleaning to remove dust, keeping them bright and visible. Use a smooth fabric or a dry brush to clean the tubes gently. 
+            Avoid using strong water jets or harsh chemicals, mainly in conventional neon signs. Periodically, check the power supply and connections to ensure 
+            proper functioning. LED neon signs require minimal preservation as compared to conventional neon, which may require gas refills over time. With 
+            proper care, neon signs can last for years at the same time as retaining their brightness and effectiveness.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+            What are The Benefits of Using Neon Light Signs for Branding?
+          <i class="faq-icon fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+            <ul>
+                <li>Neon light signs attract attention with their vivid and colorful brightness, helping businesses stand out.</li>
+                <li>They add an exceptional and elegant element, improving the brand's identity.</li>
+                <li>Neon signs work well for both interior and external use, attracting customers day and night.</li>
+                <li>They can be personalized to match the colors of the brand or logos.</li>
+                <li>Neon LED signs are efficient in energy and durable, offering an affordable branding solution.</li>
+            </ul>
+            <p>Whether for a restaurant, retail store, bar, or event, neon signage companies create unforgettable impressions and boost visibility.</p>
+        </div>
+      </div>
+
     </div>
   </section>
 @endsection
