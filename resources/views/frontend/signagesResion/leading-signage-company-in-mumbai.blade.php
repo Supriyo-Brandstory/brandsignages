@@ -54,7 +54,7 @@
 
                 </p>
                 <p class="brand-description">
-                    Brand Signages is the top sign board manufacturers in Mumbai, trusted by top companies. As industry-leading sign board makers in Mumbai, we have over 10 years of expertise in designing spectacular and eye-catching sign boards. With a huge collection of alternatives, from outdoor signs to indoor signage, we ensure your branding stands out in the combative market.  
+                Brand Signages is the widely recognized sign board manufacturer in Mumbai. As industry-leading sign board makers in Mumbai, we have over 10 years of expertise in designing spectacular and eye-catching sign boards. With a huge collection of alternatives, from outdoor signs to indoor signage, we ensure your branding stands out in the combative market.  
                 </p>
                 <p class="brand-description">We are proud of our proficiency in signage design and providing services for a decade. Our product range includes stainless steel signs, neon glow signs, LED sign boards, digital signage, acrylic signage, and custom signage. We are determined to provide punctual delivery, reasonable pricing, and unparalleled artistry in every design.</p>
         </div>
