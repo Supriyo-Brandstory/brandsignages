@@ -50,13 +50,13 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                Signages & sign boards are the most powerful branding tool to introduce, inform, and guide potential audiences to a business. So, whether you need sign boards for storefronts, restaurants, or real estate, choose the right option to reinforce your brand identity. The best design will convey your brand message, engage the audience, and attract foot traffic to your business.
-
+                Signages & sign boards in Mumbai are the most powerful branding tools to introduce, inform, and guide potential audiences. So, whether you need custom sign boards for storefronts in Mumbai, restaurants, or real estate, 
+                choosing the right design option will reinforce your brand identity. The best design will convey your brand message, engage the local consumers in Mumbai, and attract foot traffic to your business.
                 </p>
                 <p class="brand-description">
                 Brand Signages is the widely recognized sign board manufacturer in Mumbai. As industry-leading sign board makers in Mumbai, we have over 10 years of expertise in designing spectacular and eye-catching sign boards. With a huge collection of alternatives, from outdoor signs to indoor signage, we ensure your branding stands out in the combative market.  
                 </p>
-                <p class="brand-description">We are proud of our proficiency in signage design and providing services for a decade. Our product range includes stainless steel signs, neon glow signs, LED sign boards, digital signage, acrylic signage, and custom signage. We are determined to provide punctual delivery, reasonable pricing, and unparalleled artistry in every design.</p>
+                <p class="brand-description">We are proud of our proficiency in signage design and providing services in Mumbai for a decade. Our product range includes stainless steel signs, neon glow signs, LED sign boards, digital signage, acrylic signage, and custom signage. We are determined to provide punctual delivery, reasonable pricing, and unparalleled artistry in every design.</p>
         </div>
     </div>
 </section>
@@ -64,7 +64,7 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Best Signage Solutions for Businesses</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Best Signage Solutions for Businesses in Mumbai</h2>
             <p class="card-text text-center">
                 We offer customized signage solutions for several industries, making certain that your brand is highlighted. As expert sign board manufacturers in Mumbai, we provide a huge array of signage alternatives to fulfill your needs. As a prominent signage company in Mumbai, we guarantee that our sign boards are long-lasting, efficient, and noticeable. Let us assist your business in making a lasting influence!
                 </p>
@@ -729,11 +729,11 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What is The Process for Bulk Signage Orders?
+                What is The Process for Bulk Signage Orders in Mumbai?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>You can also place bulk signage orders at Brand Signages. We provide volume-based pricing model and custom pricing packages for signages. Whether you need a single piece or place bulk orders, we provide top-notch customer support services. We guarantee the most affordable signage solutions without compromising quality standards.</p>
+                <p>You can also place bulk signage orders in Mumbai. We provide volume-based pricing model and custom pricing packages for signages. Whether you need a single piece or place bulk orders, we provide top-notch customer support services. We guarantee the most affordable signage solutions without compromising quality standards.</p>
             </div>
         </div>
 
@@ -748,7 +748,7 @@
         </div>
         <div class="faq-item">
             <button class="faq-question">
-                How Can Signage be Profitable for My Business?
+                How Can Signage be Profitable for My Business in Mumbai?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
