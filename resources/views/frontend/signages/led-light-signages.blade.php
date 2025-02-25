@@ -279,9 +279,6 @@
                 <p class="brand-description">
                     Powerful Tool for Advertising - LED signboards offer customized content and illuminated options for attracting customers and boosting visibility.</p>
                 <p class="brand-description">
-                    Better Audience Engagement - Interactive visuals and real-time updates using digital displays foster a better engagement rate and keep the audience engaged.
-                </p>
-                <p class="brand-description">
                     Long-Lasting Durability - These signages are designed with energy-efficient technology to ensure low electricity consumption and extended lifespan. 
                 </p>
                 <p class="brand-description">
