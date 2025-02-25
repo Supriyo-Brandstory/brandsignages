@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/led-signage1.webp')}}" alt="LED Signage">
                 <div class="carousel-caption-custom">
-                    <h1>Custom LED Signage Boards: Bright, Energy-Efficient, and Durable</h1>
+                    <h1>Top LED Sign Board Manufacturers and Suppliers</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -19,24 +19,24 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Best LED Light Signboard Manufacturer</h2>
+        <h2 class="hero-title">Best LED Signage Board Manufacturers for Custom LED Signs</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/led-signage2.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/led-signage2.webp')}}" alt="Best LED Signage Manufacturers" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg-6">
                     <p class="brand-description">
-                    LED sign boards are a modern branding solution with compact digital screens used in storefronts. Best for both indoor and outdoor usage, LED sign boards are designed to attract customers to your store. Different from traditional signage, LED sign boards show dynamic content on digital displays providing better visibility.
+                    LED sign boards are a modern branding solution with compact digital screens used in storefronts, banks, hospitals, and almost everywhere. Different from traditional signage, LED sign boards show dynamic content on digital displays providing better visibility and impact. 
                     </p>
                     <p class="brand-description">
-                    LED signages are modern signages used for advertising with interactive display screens. Being an industry leader in signage manufacturing, Brand Signages is the most trusted for affordable and energy-efficient LED sign boards. We combine quality and innovation to meet your signage needs. From amazing LED reverse light signs, and digital LED to acrylic LED signages we offer a range of solutions. 
+                    Being an industry-leading LED signage manufacturer, Brand Signages offers energy-efficient LED sign boards. We combine quality and innovation to design energy-efficient LED sign boards. From amazing LED reverse light signs, and digital LED to acrylic LED signages we offer a range of solutions. 
                     </p>
                     <p class="brand-description">
-                    At Brand Signages, we are the premier LED signage manufacturers trusted by top brands. Brand Signages has worked with 100+ businesses across India related to various industries.  
+                    Brand Signages is the best LED sign board manufacturers, trusted by top businesses. With over a decade of expertise, we have worked with 100+ businesses across India.  
                     </p>
             </div>
         </div>
@@ -46,7 +46,7 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Types of LED Signage Boards That We Offer</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Types of LED Signage Boards We Offer</h2>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -209,10 +209,8 @@
     <div class="row g-4 d-flex flex-wrap justify-content-center">
 
         <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">Why Choose Our LED Light Sign Board</h2>
-            <p class="card-text testimonial-card-text">Why did you choose our LED light sign board? You are investing in the dedication that gives you the best quality advertising display and <br>
-                 exceptional customer service. Whether it is a glowing sign board or letter board, each light sign board will offer exceptional performance <br>
-                  and the best solution for your brand.</p>
+            <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for LED Sign Boards</h2>
+            <p class="card-text testimonial-card-text">Because we are the top-tier LED signage manufacturers backed with 10+ years of expertise. Whether it is a<br> glowing LED sign board or acrylic LED signs, each sign board offers exceptional performance and designed <br>to reflect your brand identity.</p>
         </div>
 
         <div class="col-lg-12">
@@ -243,7 +241,7 @@
                             class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Customer Satisfaction</h5>
-                            <p class="text-content">We always prioritize our customer satisfaction.  From primary consultation to light board installation, you will get end-to-end support. Our passionate team ensures a flawless experience. We are always available for assistance, maintenance, and guidance.</p>
+                            <p class="text-content">We always prioritize our customer satisfaction.  From primary consultation to LED signage installation, you will get end-to-end support. Our passionate team ensures a flawless experience. We are always available for assistance, maintenance, and guidance.</p>
                         </div>
                     </div>
                 </div>
@@ -253,7 +251,7 @@
                         <img src="{{asset('frontend/Images/led-signage12.webp')}}" alt="Future Innovations" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Future Innovations</h5>
-                            <p class="text-content">We are ready to push ourselves to bring innovations that match your preferences. In the constantly evolving market, it is important to embrace new LED signage technology and provide top-notch solutions that gear up your brand presence.</p>
+                            <p class="text-content">We are ready to push ourselves to bring innovations that match your preferences. In the constantly evolving market, we leverage LED signage technology and provide top-notch solutions that gear up your brand presence.</p>
                         </div>
                     </div>
                 </div>
