@@ -32,16 +32,14 @@
             <div class="col-lg-6">
                 <h2 class="brand-title">Order LED sign boards in Bangalore</h2>
                 <p class="brand-description">
-                    LED sign boards are designed to provide better visibility around the clock, making them an ideal solution for businesses. Vibrant colors and customizable designs of LED sign boards ensure your brand stands out. 
-
+                    LED sign boards are designed to provide better visibility around the clock, making them an ideal solution for businesses. Vibrant colors and customizable designs of LED sign boards ensure your brand stands out.  
                 </p>
                 <p class="brand-description">
-                    We provide a variety of LED sign boards in Bangalore, comprising LED display boards, glow sign boards, acrylic LED signs, and digital signage boards. Every sign board is tailored to exhibit your brand's recognition while guaranteeing energy saving and durability.   
-    
+                    Brand Signages offers premium LED sign boards in Bangalore for SMEs and top businesses. Our product range includes acrylic LED letter signs, digital LED displays, LED backlit sign boards, and glow sign boards. Every sign board is tailored to exhibit your brand's recognition while guaranteeing energy efficiency and durability.   
                 </p>
                     <p class="brand-description">
-                    Our LED display board makers in Bangalore integrate modern technology and striking designs to create influential signages. Whether you require a glow sign board for outdoor branding or a luxurious acrylic LED sign board for your retail store, we offer solutions that line up with your dreams. Opt for Brand Signages for your LED signage requirements and experience the ideal mix of technology, sophistication, and longevity.
-    
+                    As expert LED display board makers in Bangalore, we integrate modern technology and striking designs to create signages. Whether you require a glow LED sign board for outdoor branding or an acrylic LED sign board for your retail store, we offer solutions that line up with your needs. Opt for Brand Signages for your LED signage 
+                    requirements and experience the ideal mix of technology, sophistication, and longevity.
                     </p>
             </div>
         </div>
