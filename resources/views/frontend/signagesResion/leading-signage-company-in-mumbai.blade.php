@@ -50,7 +50,7 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                Signages & sign boards in Mumbai are the most powerful branding tools to introduce, inform, and guide potential audiences. So, whether you need custom sign boards for storefronts in Mumbai, restaurants, or real estate, 
+                Signages & sign boards are the most powerful branding tools to introduce, inform, and guide potential audiences. So, whether you need custom sign boards for storefronts in Mumbai, restaurants, or real estate, 
                 choosing the right design option will reinforce your brand identity. The best design will convey your brand message, engage the local consumers in Mumbai, and attract foot traffic to your business.
                 </p>
                 <p class="brand-description">
@@ -234,7 +234,7 @@
                         <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-7.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Modern Designs</h5>
-                            <p class="text-content">Our team produces creative and contemporary signage designs that suit your brand recognition. From glossy acrylic signage to remarkable LED sign boards, we provide a variety of patterns to fit each requirement.</p>
+                            <p class="text-content">Our team produces creative signage designs aligning with the latest industry trends. From glossy acrylic signage to remarkable LED sign boards, we provide a range of signage solutions to fit each requirement.</p>
                         </div>
                     </div>
                 </div>
@@ -244,7 +244,8 @@
                         <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-8.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Durability</h5>
-                            <p class="text-content">We utilize standardized substances such as stainless steel, ACP, and acrylic to make sure that your signage is durable. Our sign boards are made to bear the components, whether they are utilized indoors or as outdoor signs.</p>
+                            <p class="text-content">We utilize standardized substances such as stainless steel, LED, and acrylic to make sure that your signage is durable. Our sign boards are made to be weather-resistant, perfect for indoor and outdoor use.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -263,8 +264,8 @@
                     <div class="image-container position-relative">
                         <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-9.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="w-100 h-100">
                         <div class="overlay">
-                            <h5 class="text-title">Easy Installation</h5>
-                            <p class="text-content">Our professional team manages the installation method from beginning to ending. We ensure the signage board, whether it's a digital signage solution or an LED display, is installed promptly and safely.</p>
+                            <h5 class="text-title">Installation Service</h5>
+                            <p class="text-content">As professional signage makers, we provide free installation services at any location near Mumbai. We ensure the sign board, whether it's a digital signage solution or an LED display, is installed promptly and safely.</p>
                         </div>
                     </div>
                 </div>
@@ -274,7 +275,7 @@
                         <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-10.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Excellent Customer Service</h5>
-                            <p class="text-content">As a reliable sign board maker in Mumbai, we concentrate on customer contentment. We work intimately with you through the  whole procedure, from signage design to installation, guaranteeing that your requirements are fulfilled.</p>
+                            <p class="text-content">As a reliable sign board maker in Mumbai, we have a dedicated customer support service. We work intimately with you through the  whole procedure, from signage design to installation, guaranteeing that your requirements are fulfilled.</p>
                         </div>
                     </div>
                 </div>
@@ -284,7 +285,7 @@
                         <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-11.webp')}}" alt="Signage Manufacturing Company in Mumbai" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Variety of Options</h5>
-                            <p class="text-content">Whether you require building signage, wayfinding signage, LED signage boards, or acrylic LED letters, we have it for you. We also provide solutions such as LED signs, acrylic signage, and corrugated box arrays to make your business be distinct.</p>
+                            <p class="text-content">Whether you need office signage, wayfinding signs, restroom signs, or anything, we have it for you. Our product range includes LED signs, acrylic signage, digital signage, etc. to make your business distinct.</p>
                         </div>
                     </div>
                 </div>
@@ -753,6 +754,26 @@
             </button>
             <div class="faq-answer">
                 <p>Signage in Mumbai plays a major part in enhancing your brand presence and attracting customers. A well-designed sign board can grasp awareness and promote customer experience, fostering all-rounded business victory.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Can I Get a Sample before Placing a Bulk Order?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, you can definately place order for a single piece. This will help you know about the quality, durability, and design of our signage products before placing bulk ordwers. We want you to be completely satisfied with your choice, so feel free to request a sample to ensure it meets your expectations before making a commitment.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Can You Create Signage for Events and Exhibitions in Mumbai?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, we also provide signage for events and exhibitions in Mumbai. Whether you need banners, standees, directional signages, we have the right resources to meet your specific needs. As a industry leading signage manufacturer in Mumbai and india we provide custom signage solutions. </p>
             </div>
         </div>
 
