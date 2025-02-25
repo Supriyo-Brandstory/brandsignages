@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/neonsign-bangalore1.webp')}}" alt="Neon Light Sign Boards in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Neon Light Sign Boards in Bangalore</h1>
+                    <h1>Custom Neon Sign Boards in Bangalore</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -31,17 +31,15 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    
-                    Modify your space with high-spirited and spectacular custom neon signs in Bangalore. Whether it’s for a corporate office, cafe, or retail store, our neon signs bring a 
-                    unique charm to any setting. Designed to captivate and enhance visibility, our vibrant signage solutions ensure that your brand or personal space stands out. At Brand Signages, 
-                    we specialize in designing and manufacturing high-quality, customized neon light signboards designed to your exact needs. From outdoor neon signs to sleek acrylic neon boards, 
-                    our solutions enhance both branding and decor. Our neon glow signboards are perfect for businesses looking to make a statement with eye-catching, fashionable, and durable signage.
+                Unique and spectacular neon signs are the best branding element to enhance your space. Whether it’s for a corporate office, cafe, or retail store, 
+                neon signs are designed to bring a unique charm to any setting. 
                 </p>  
                 <p class="brand-description">
-                    Our neon lights are not just visually appealing but also energy-efficient, long-lasting, and available in a variety of colors and design patterns. Choose from acrylic neon boards, 
-                    neon glow signage boards, or custom neon designs to achieve the perfect look for your brand. Whether you need a single sign or bulk orders, we cater to all requirements with precision and excellence.
+                Brand Signages is the leading supplier of neon sign board in Bangalore. With over 10 years of experience, we design high-quality and customized 
+                neon lights for top businesses. From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. Our neon glow signboards are perfect for businesses looking to make a statement with eye-catching, fashionable, and durable signage.
                     <br>
-                    Enhance your signage with the perfect blend of style and functionality. Trust Brand Signages for the best neon sign boards in Bangalore and signage boards that shine brilliantly!
+                Our neon lights are energy-efficient, long-lasting, and available in a variety of colors and design patterns. Choose from acrylic neon boards, neon glow signage boards, or custom neon designs to achieve the perfect look for your brand. Whether you need a single 
+                sign or bulk orders, we cater to all requirements.
                 </p>
             </div>
         </div>
@@ -52,7 +50,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for Neon Light Signs</h2>
-            <p class="card-text text-center">We are among the best neon sign board makers in Bangalore. Our solutions comprise everything from <br> glow sign boards to acrylic neon sign boards, personalized to fulfill your particular requirements. Whether it’s a corporate office, retail store, or <br> private place, our neon light signs are the ideal preference for generating permanent influences.</p>
+            <p class="card-text text-center">Brand Signages is among the best neon sign board manufacturers in Bangalore backed with 10+ years of expertise. <br>Our solutions comprise everything from flex neon signs and acrylic neon LED signs to glass neon signs personalized <br>to fulfill your requirements. Whether it’s a corporate office, retail store, or private place, our neon light <br>signs are the ideal preference for creating permanent influences.</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
