@@ -35,7 +35,7 @@
             </div>
 
             <div class="col-lg-6">
-            <h2 class="brand-title">#1 Sign Board Manufacturers in Chennai</h2>
+            <h2 class="brand-title">Expert Signage Manufacturers in Chennai</h2>
                 <p class="brand-description">
                     Sign boards play a crucial role in building strong brand recognition in Chennai. A well-designed sign board enhances branding by attracting customer attention day and night. Signages not only emphasize branding, they convey information such as specific locations in Chennai, contact details, and key products and services to the audience.  
                     </p>
