@@ -37,7 +37,8 @@
                 <p class="brand-description">
                 Brand Signages is the leading supplier of neon sign board in Bangalore. With over 10 years of experience, we design high-quality and customized 
                 neon lights for top businesses. From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. Our neon glow signboards are perfect for businesses looking to make a statement with eye-catching, fashionable, and durable signage.
-                    <br>
+                </p>
+                <p class="brand-description">
                 Our neon lights are energy-efficient, long-lasting, and available in a variety of colors and design patterns. Choose from acrylic neon boards, neon glow signage boards, or custom neon designs to achieve the perfect look for your brand. Whether you need a single 
                 sign or bulk orders, we cater to all requirements.
                 </p>
