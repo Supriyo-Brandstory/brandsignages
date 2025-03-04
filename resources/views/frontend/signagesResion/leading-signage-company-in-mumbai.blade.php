@@ -12,7 +12,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai.webp')}}" alt="Signage Manufacturing Company in Mumbai">
+                <img src="{{asset('frontend/Images/leading-signage-company-mumbai.webp')}}" alt="Signage Manufacturing Company in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Leading Signage Company in Mumbai</h1>
                      <div class="mt-4">
