@@ -12,7 +12,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/leading-signage-company-mumbai.webp')}}" alt="Signage Manufacturing Company in Mumbai">
+                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai.webp')}}" alt="Signage Manufacturing Company in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Leading Signage Company in Mumbai</h1>
                      <div class="mt-4">
@@ -44,7 +44,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signages-mumbai.webp')}}" alt="Leading Signage Manufacturing Company in Mumbai" class="img-fluid">
+                    <img src="{{asset('frontend/Images/signages-mumbai.webp')}}" alt="Leading Signage Manufacturing Company in Mumbai" class="img-fluid">
                 </div>
             </div>
 
