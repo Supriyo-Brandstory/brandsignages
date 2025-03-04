@@ -24,7 +24,7 @@
             <div class="carousel-item">
                 <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-1.webp')}}" alt="Signage Manufacturing Company in Mumbai">
                 <div class="carousel-caption-custom">
-                    <h2>Best Sign Board Manufacturers in Mumbai</h2>
+                    <h2>Custom Signage & Sign Board Manufacturers in Mumbai</h2>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -44,7 +44,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-3.webp')}}" alt="Leading Signage Manufacturing Company in Mumbai" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/signages-mumbai.webp')}}" alt="Leading Signage Manufacturing Company in Mumbai" class="img-fluid">
                 </div>
             </div>
 
