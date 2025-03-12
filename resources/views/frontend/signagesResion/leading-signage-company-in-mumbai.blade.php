@@ -14,7 +14,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai.webp')}}" alt="Signage Manufacturing Company in Mumbai">
                 <div class="carousel-caption-custom">
-                    <h1>Leading Signage Company in Mumbai</h1>
+                    <h1>Best Sign Board Makers in Mumbai, Navi Mumbai, & Thane</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -24,7 +24,7 @@
             <div class="carousel-item">
                 <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-1.webp')}}" alt="Signage Manufacturing Company in Mumbai">
                 <div class="carousel-caption-custom">
-                    <h2>Custom Signage & Sign Board Manufacturers in Mumbai</h2>
+                    <h2>Best Sign Board Manufacturers in Mumbai</h2>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -39,7 +39,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Best Sign Board Manufacturers in Mumbai for Custom Signages </h2>
+        <h2 class="hero-title">Enhance Brand Recognition with Sign Board Manufacturers in Mumbai</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -49,14 +49,29 @@
             </div>
 
             <div class="col-lg-6">
+                <h2 class="brand-title">#1 Signage Company in Mumbai, Thane, & Navi Mumbai</h2>
                 <p class="brand-description">
-                Signages & sign boards are the most powerful branding tools to introduce, inform, and guide potential audiences. So, whether you need custom sign boards for storefronts in Mumbai, restaurants, or real estate, 
-                choosing the right design option will reinforce your brand identity. The best design will convey your brand message, engage the local consumers in Mumbai, and attract foot traffic to your business.
+                Brand Signages is the top-tier sign board manufacturer in Mumbai. We’re leading sign board makers with 10+ years of experience in designing 
+                eye-catching sign boards for local businesses. With a huge collection of alternatives, from outdoor signs to indoor signage, we ensure your 
+                branding stands out in the competitive market.
                 </p>
                 <p class="brand-description">
-                Brand Signages is the top-rated sign board manufacturer in Mumbai. As Mumbai's leading sign board makers, we design professional and eye-catching sign boards for local businesses. With a huge collection of alternatives, from outdoor signs to indoor signage, we ensure your branding stands out in the combative market.  
+                Signages & sign boards are the most powerful branding tools to introduce, inform, and guide potential audiences. We are proud of our proficiency 
+                in signage design services in Mumbai for a decade. Our product range includes stainless steel signs, neon glow signs, LED sign boards, digital signage, 
+                acrylic signage, and custom signage. We are determined to provide punctual delivery, reasonable pricing, and unparalleled artistry in every design.  
                 </p>
-                <p class="brand-description">We are proud of our proficiency in signage design and providing services in Mumbai for a decade. Our product range includes stainless steel signs, neon glow signs, LED sign boards, digital signage, acrylic signage, and custom signage. We are determined to provide punctual delivery, reasonable pricing, and unparalleled artistry in every design.</p>
+                <p class="brand-description">We do it progressively:</p>
+                <ul class="process-list">
+                        <li>
+                            Our experts recognize your industry type, targeted audience and branding goals. 
+                        </li>
+                        <li>
+                            Our expert designers consider the best materials, colors, and typography for signage. 
+                        </li>
+                        <li>
+                            After manufacturing, we do a quality control check to ensure everything is up to the mark. 
+                        </li>
+                    </ul>
         </div>
     </div>
 </section>
