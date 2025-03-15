@@ -49,16 +49,19 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">#1 Signage Company in Mumbai, Thane, & Navi Mumbai</h2>
+                <h2 class="brand-title">#1 Signage Company in Mumbai</h2>
                 <p class="brand-description">
-                Brand Signages is the top-tier sign board manufacturer in Mumbai. We’re leading sign board makers with 10+ years of experience in designing 
-                eye-catching sign boards for local businesses. With a huge collection of alternatives, from outdoor signs to indoor signage, we ensure your 
-                branding stands out in the competitive market.
+                Brand Signages is the premier sign board manufacturers in Mumbai with 10+ years of rich industry experience. As leading sign makers, we design premium-quality
+                 sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Mumbai, <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Chennai</a> , 
+                 <a href="{{route('signage_in_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore</a>, and all over India.
                 </p>
                 <p class="brand-description">
                 Signages & sign boards are the most powerful branding tools to introduce, inform, and guide potential audiences. We are proud of our proficiency 
-                in signage design services in Mumbai for a decade. Our product range includes stainless steel signs, neon glow signs, LED sign boards, digital signage, 
-                acrylic signage, and custom signage. We are determined to provide punctual delivery, reasonable pricing, and unparalleled artistry in every design.  
+                in signage design services in Mumbai for a decade. Our product range includes <a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
+                       <a href="{{route('digital_signages_manufacturer_in_mumbai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
+                       <a href="{{route('premium_acrylic_sign_boards_in_mumbai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic signage </a>,
+                       <a href="{{route('neon_sign_board_in_mumbai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon signage </a>, and
+                       <a href="{{route('stainless_steel_sign_board_manufacturer_mumbai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">metal signage </a>.  
                 </p>
                 <p class="brand-description">We do it progressively:</p>
                 <ul class="process-list">
@@ -81,7 +84,7 @@
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Best Signage Solutions for Businesses in Mumbai</h2>
             <p class="card-text text-center">
-                We offer customized signage solutions for several industries, making certain that your brand is highlighted. As expert sign board manufacturers in Mumbai, we provide a huge array of signage alternatives to fulfill your needs. As a prominent signage company in Mumbai, we guarantee that our sign boards are long-lasting, efficient, and noticeable. Let us assist your business in making a lasting influence!
+                We offer customized signage solutions for several industries, making certain that your brand is highlighted. As expert sign board manufacturers, we provide a huge array of signage alternatives to fulfill your needs. We guarantee that our sign boards are long-lasting, efficient, and noticeable. Let us assist your business in making a lasting influence!
                 </p>
         </div>
 
@@ -238,7 +241,7 @@
 
         <div class="text-center ">
             <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for Signage in Mumbai?</h2>
-            <p class="card-text testimonial-card-text">We are distinct as one of the best sign board manufacturers in Mumbai, offering businesses high-class signage solutions. As a pioneering signage company in Mumbai, we’re dedicated to designing unique sign work that promotes your brand’s observability and influence. Opt for us for signage in Mumbai and feel the difference.
+            <p class="card-text testimonial-card-text">We are distinct as one of the best sign board manufacturers, offering businesses high-class signage solutions. We’re dedicated to designing unique sign work that promotes your brand’s observability and influence. Choose Brand Signages and feel the difference.
             </p>
         </div>
 
@@ -313,7 +316,7 @@
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">Types of Sign Boards We Manufacture</h2>
-        <p class="card-text text-center">As one of the best sign board manufacturers in Mumbai, we supply a variety of sign boards to fit in your organizational requirements. Here are the various kinds of sign boards we produce:</p>
+        <p class="card-text text-center">As one of the best sign board manufacturers, we supply a variety of sign boards to fit in your organizational requirements. Here are the various kinds of sign boards we produce:</p>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
