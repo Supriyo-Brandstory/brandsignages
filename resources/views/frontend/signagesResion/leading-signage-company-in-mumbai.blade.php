@@ -63,7 +63,6 @@
                        <a href="{{route('neon_sign_board_in_mumbai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon signage </a>, and
                        <a href="{{route('stainless_steel_sign_board_manufacturer_mumbai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">metal signage </a>.  
                 </p>
-                <p class="brand-description">We do it progressively:</p>
                 <ul class="process-list">
                         <li>
                             Our experts recognize your industry type, targeted audience and branding goals. 
