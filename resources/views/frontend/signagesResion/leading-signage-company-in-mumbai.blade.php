@@ -51,7 +51,7 @@
             <div class="col-lg-6">
                 <h2 class="brand-title">#1 Signage Company in Mumbai</h2>
                 <p class="brand-description">
-                Brand Signages is the premier sign board manufacturers in Mumbai with 10+ years of rich industry experience. As leading sign makers, we design premium-quality
+                Brand Signages is the premier sign board manufacturers in Mumbai with 10+ years of rich industry experience. As leading sign makers located in Worli, Mumbai, we design premium-quality
                  sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Mumbai, <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Chennai</a> , 
                  <a href="{{route('signage_in_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore</a>, and all over India.
                 </p>
@@ -65,13 +65,13 @@
                 </p>
                 <ul class="process-list">
                         <li>
-                            Our experts recognize your industry type, targeted audience and branding goals. 
+                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Location:</span> 2nd Floor, Vasvani Chambers, HD-649, WeWork, 264-265, Dr Annie Besant Rd, Municipal Colony, Worli Shivaji Nagar, Worli, Mumbai, Maharashtra- 400025 
                         </li>
                         <li>
-                            Our expert designers consider the best materials, colors, and typography for signage. 
+                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Phone:</span> tel:8006606080
                         </li>
                         <li>
-                            After manufacturing, we do a quality control check to ensure everything is up to the mark. 
+                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Email:</span> mailto:sales@brandsignages.com 
                         </li>
                     </ul>
         </div>
