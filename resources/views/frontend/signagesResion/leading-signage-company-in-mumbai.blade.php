@@ -1,5 +1,13 @@
 @extends('frontend.layout.appLayout')
 @section('content')
+<style>
+    .process-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    color: #474747;
+}
+    </style>
 <section class="carousel-section">
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -65,15 +73,16 @@
                 </p>
                 <ul class="process-list">
                         <li>
-                        <i class="icon-map-marker" style="color: orange;"></i><span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Location:</span> 2nd Floor, Vasvani Chambers, WeWork, 264-265, Dr Annie Besant Rd, Worli Shivaji Nagar, Worli, Mumbai, Maharashtra- 400025 
+                        </i><span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-map-marker-alt "></i> Location:</span> 2nd Floor, Vasvani Chambers, WeWork, 264-265, Dr Annie Besant Rd, Worli Shivaji Nagar, Worli, Mumbai, Maharashtra- 400025 
                         </li>
                         <li>
-                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Phone:</span><p class="text-black"><a href="tel:8006606080" class="text-decoration-none text-black">+91
-                        8006606080</a></p>
+                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-phone"></i> Phone: </span><a href="tel:8006606080" class="text-decoration-none text-black">+91
+                        8006606080</a>
                         </li>
                         <li>
-                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Email:</span> <p class="text-black"><a href="mailto:info@brandsinage.com"
-                        class="text-decoration-none text-black">sales@brandsignages.com</a></p>
+                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-envelope"></i>
+                             Email: </span> <a href="mailto:info@brandsinage.com"
+                        class="text-decoration-none text-black">sales@brandsignages.com</a>
                         </li>
                     </ul>
         </div>
