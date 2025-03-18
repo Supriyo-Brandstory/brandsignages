@@ -12,7 +12,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai.webp')}}" alt="Signage Manufacturing Company in Mumbai">
+                <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Manufacturing Company in Mumbai">
                 <div class="carousel-caption-custom">
                     <h1>Best Sign Board Makers in Mumbai, Navi Mumbai, & Thane</h1>
                      <div class="mt-4">
