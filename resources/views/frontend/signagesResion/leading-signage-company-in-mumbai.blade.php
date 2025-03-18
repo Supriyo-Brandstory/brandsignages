@@ -65,13 +65,15 @@
                 </p>
                 <ul class="process-list">
                         <li>
-                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Location:</span> 2nd Floor, Vasvani Chambers, HD-649, WeWork, 264-265, Dr Annie Besant Rd, Municipal Colony, Worli Shivaji Nagar, Worli, Mumbai, Maharashtra- 400025 
+                        <i class="icon-map-marker" style="color: orange;"></i><span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Location:</span> 2nd Floor, Vasvani Chambers, HD-649, WeWork, 264-265, Dr Annie Besant Rd, Municipal Colony, Worli Shivaji Nagar, Worli, Mumbai, Maharashtra- 400025 
                         </li>
                         <li>
-                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Phone:</span> tel:8006606080
+                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Phone:</span><p class="text-black"><a href="tel:8006606080" class="text-decoration-none text-black">+91
+                        8006606080</a></p>
                         </li>
                         <li>
-                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Email:</span> mailto:sales@brandsignages.com 
+                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Email:</span> <p class="text-black"><a href="mailto:info@brandsinage.com"
+                        class="text-decoration-none text-black">sales@brandsignages.com</a></p>
                         </li>
                     </ul>
         </div>
