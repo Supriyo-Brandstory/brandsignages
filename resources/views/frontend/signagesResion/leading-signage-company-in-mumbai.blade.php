@@ -65,7 +65,7 @@
                 </p>
                 <ul class="process-list">
                         <li>
-                        <i class="icon-map-marker" style="color: orange;"></i><span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Location:</span> 2nd Floor, Vasvani Chambers, HD-649, WeWork, 264-265, Dr Annie Besant Rd, Municipal Colony, Worli Shivaji Nagar, Worli, Mumbai, Maharashtra- 400025 
+                        <i class="icon-map-marker" style="color: orange;"></i><span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Location:</span> 2nd Floor, Vasvani Chambers, WeWork, 264-265, Dr Annie Besant Rd, Worli Shivaji Nagar, Worli, Mumbai, Maharashtra- 400025 
                         </li>
                         <li>
                         <span style="text-decoration: unset; color: #E43D12; font-weight: bold;">Phone:</span><p class="text-black"><a href="tel:8006606080" class="text-decoration-none text-black">+91
