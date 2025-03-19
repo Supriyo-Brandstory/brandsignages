@@ -32,7 +32,7 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',2)->take(3)->get();
         return view('frontend.index', compact('seo','blogs'));
     }
 
@@ -289,7 +289,7 @@ class frontendController extends Controller
 public function leading_signage_company_in_mumbai(){
     $currentRoute = Route::current()->uri();
     $seo = SEO::where('page_url', $currentRoute)->first();
-    $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
+    $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',7)->take(3)->get();
     return view('frontend.signagesResion.leading-signage-company-in-mumbai', compact('seo','blogs'));
     
 }
