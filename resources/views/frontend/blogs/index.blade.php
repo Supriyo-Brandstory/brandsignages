@@ -59,6 +59,12 @@
     margin: 0;
 }
 
+button.btn.btn-primary {
+    height: 38px;
+    background: #e43d12;
+    border: none;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {
         flex-direction: row;
