@@ -26,6 +26,7 @@ Route::get('/prohibitory-signages', [frontendController::class, 'prohibitory_sig
 Route::get('/office-desk-signages', [frontendController::class, 'office_desk_signages'])->name('office_desk_signages');
 Route::get('/floor-signages', [frontendController::class, 'floor_signages'])->name('floor_signages');
 Route::get('/modern-room-number-signs', [frontendController::class, 'room_name_plates'])->name('room_name_plates');
+Route::get('/digital-signage-for-retail', [frontendController::class, 'digital_signage_for_retail'])->name('digital_signage_for_retail');
 //bengalore
 Route::get('/acrylic-signage-manufacturer-bangalore', [frontendController::class, 'acrylic_signage_manufacturer_bangalore'])->name('acrylic_signage_manufacturer_bangalore');
 Route::get('/steel-signage-manufacturer-bangalore', [frontendController::class, 'steel_signage_manufacturer_bangalore'])->name('steel_signage_manufacturer_bangalore');
