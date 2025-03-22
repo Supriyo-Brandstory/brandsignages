@@ -18,7 +18,7 @@
                     <div class="carousel-caption-custom">
                         <h1>Expert Sign Board Manufacturers in Bangalore- Brand Signages</h1>
                         <div class="mt-4">
-                        <a  href="tel:+91 8006606080" class="custom-btn">Call Now</a>
+                        <a  href="tel:+91 8006606080" class="custom-btn">Let's Talk</a>
                         </div>
                     </div>
                 </div>
