@@ -132,7 +132,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Types of Sign Boards We Manufacture</h2>
+        <h2 class="hero-title">We are The Leading Sign Board <br> Manufacturers in Mumbai, India</h2>
         <p class="card-text text-center">As one of the best sign board manufacturers, we supply a variety of sign boards to fit in your organizational requirements. Here are the various kinds of sign boards we produce:</p>
 
         <div class="row align-items-center">
@@ -317,7 +317,18 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-55.webp')}}" class="why-card-img-top"
+                                    alt="Signage Manufacturing Company in Mumbai">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3"> Retail Businesses</h3>
+                                    <p class="card-text">We generate custom signage solutions such as acrylic LED letters, LED displays, and corrugated box signage that pull attention to your outlet, boosting your products and services efficiently.</p>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-md-4">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-6.webp')}}" class="why-card-img-top"
