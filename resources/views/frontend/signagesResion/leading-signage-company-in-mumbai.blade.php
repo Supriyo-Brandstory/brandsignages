@@ -321,7 +321,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/event-signage.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/events-mumbai.webp')}}" class="why-card-img-top"
                                     alt="Signage Manufacturing Company in Mumbai">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Event Signage</h3>
