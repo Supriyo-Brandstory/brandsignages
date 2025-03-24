@@ -22,7 +22,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Manufacturing Company in Mumbai">
                 <div class="carousel-caption-custom">
-                    <h1>Best Sign Board Makers in Mumbai, Navi Mumbai, & Thane</h1>
+                    <h1>Best Signage companies in Mumbai and Navi Mumbai</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -32,9 +32,9 @@
             <div class="carousel-item">
                 <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-1.webp')}}" alt="Signage Manufacturing Company in Mumbai">
                 <div class="carousel-caption-custom">
-                    <h2>Best Sign Board Manufacturers in Mumbai</h2>
+                    <h2>Most Trusted Sign Board Manufacturers- Brand Signages Mumbai</h2>
                      <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get Started</a>
                         </div>
                 </div>
             </div>
@@ -47,19 +47,19 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Enhance Brand Recognition with Sign Board Manufacturers in Mumbai</h2>
+        <h2 class="hero-title">Enhance Your Brand Recognition with Expert Signage Manufacturers</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/signages-mumbai.webp')}}" alt="Leading Signage Manufacturing Company in Mumbai" class="img-fluid">
+                    <img src="{{asset('frontend/Images/skyline-of-mumbai-across-back-bay.webp')}}" alt="Skyline View of Mumbai from Back Bay" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <h2 class="brand-title">#1 Signage Company in Mumbai</h2>
                 <p class="brand-description">
-                Brand Signages is the premier sign board manufacturers in Mumbai with 10+ years of rich industry experience. As leading sign makers located in Worli, Mumbai, we design premium-quality
+                 Looking for a reliable signage company in Mumbai? Brand Signages is the premier signage manufacturers in Mumbai with 10+ years of rich industry experience. As a leading signage company located in Worli, Mumbai, we design premium-quality
                  sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Mumbai, <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Chennai</a> , 
                  <a href="{{route('signage_in_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore</a>, and all over India.
                 </p>
@@ -207,7 +207,7 @@
                                     alt="Signage Manufacturing Company in Mumbai">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Corporate Offices</h3>
-                                    <p class="card-text"> We offer polished and competent signage alternatives like stainless steel and ACP sign boards for your office or building. These consist of directional signage, office branding, and informative signage.</p>
+                                    <p class="card-text">Corporate office signage reflects your company's theme- professionalism, innovation, and purpose-driven. As the best, sign board manufacturer, we will produce thoughtfully designed signs to communicate your organization's values, culture, and commitment to excellence.</p>
                                 </div>
                             </div>
                         </div>
@@ -710,7 +710,27 @@
 
 <section class="faq-section">
     <div class="faq-container">
-        <h1 class="faq-title">FAQS</h1>
+        <h1 class="faq-title">Signages in Mumbai FAQs</h1>
+
+        <div class="faq-item">
+            <button class="faq-question">
+            What is Signage Used For in Different Industries?
+            <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Signages are used in various industries for different purposes. The primary goal is to enhance branding, communicate messages, 
+                    and improve navigation. Here are the key uses mentioned:</p>
+                <ul>
+                    <li>Branding & Marketing – Businesses use signage to display their logo, promote offers, and enhance brand visibility.</li>
+                    <li>Wayfinding & Navigation – Helps people find directions in malls, hospitals, offices, and public spaces.</li>
+                    <li>Safety & Compliance – Includes fire safety signs, construction signs, and hazard warnings to ensure safety.</li>
+                    <li>Retail & Advertising – Digital and traditional signage in stores to promote products and boost sales.</li>
+                    <li>Corporate & Office Use – Nameplates, department signs, and meeting room displays for organization and professionalism.</li>
+                    <li>Event & Exhibition Signage – Used for banners, standees, and digital screens to guide attendees.</li>
+                    <li>Informational Signage – Displays important messages, notices, or public announcements.</li>
+                </ul>
+            </div>
+        </div>
 
         <div class="faq-item">
             <button class="faq-question">
@@ -730,7 +750,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What Type of Signage Services do You Provide in Mumbai?
+                What Type of Signage Products do You Provide in Mumbai?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
