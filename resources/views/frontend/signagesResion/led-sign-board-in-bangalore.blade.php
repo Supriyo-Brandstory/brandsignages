@@ -85,7 +85,7 @@
     <div class="row g-4 d-flex flex-wrap justify-content-center">
 
         <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">We are The Leading Sign Board <br>Manufacturers in Bangalore, India</h2>
+            <h2 class="display-4 mb-3 why-text-heading">We are The Leading LED Sign Board <br>Manufacturers in Bangalore, India</h2>
             <p class="card-text text-center">Brand Signages offers premium-quality LED sign boards in Bangalore for SMEs and renowned brands. Whether you need indoor or outdoor signage, our LED solutions are designed for maximum visibility, lasting performance, and aesthetic. Here are the types of LED signboards we offer:</p>
         </div>
 
