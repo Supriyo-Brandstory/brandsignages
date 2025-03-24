@@ -7,9 +7,9 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/new/led-sign-1.webp')}}" alt="LED Sign Board manufacturers in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Best LED Sign Board Manufacturers in Bangalore</h1>
+                    <h1>Illuminate Your Brand with LED Sign Boards in Bangalore</h1>
                      <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get Started</a>
                         </div>
                 </div>
             </div>
@@ -19,7 +19,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Custom LED Sign Boards in Bangalore <br>for 24/7 Brand Visibility</h2>
+        <h2 class="hero-title">Best LED Sign Boards in Bangalore <br>for 24/7 Brand Visibility</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -29,101 +29,57 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">Premium Electronic Name Boards in Bangalore</h2>
+                <h2 class="brand-title">Electronic Name Boards in Bangalore</h2>
                 <p class="brand-description">
-                    LED sign boards are an ideal branding solution with better visibility around the clock. With customizable options and vibrant colors, we design modern LED sign boards for retail stores, healthcare facilities, and other businesses.  
+                LED sign boards are modern digital signage solutions for better visibility around the clock. With customizable options and vibrant colors, LED sign boards are widely used in different industry settings like retail stores, healthcare facilities, and other businesses.  
                 </p>
                 <p class="brand-description">
-                    Brand Signages is a premier signage company and a leading name in LED sign board manufacturing across Bangalore. Our product range includes 3D and 2D LED, acrylic LED letter signs, digital LED displays, and LED backlit sign boards. Every signboard is tailored to exhibit your brand's recognition while guaranteeing energy efficiency and durability.   
+                As a premier signage company and a leading name in LED sign board manufacturing in Bangalore, we work for top companies. Our product range includes digital LED signage, glow LED Sign Boards, LED display boards, outdoor LED sign boards, and more. Every signboard is tailored to exhibit your brand's recognition while guaranteeing energy efficiency and durability.   
                 </p>
                     <p class="brand-description">
-                    As expert LED display board makers in Bangalore, we integrate modern technology and striking designs to create signages. Whether you require a glow LED sign board for outdoor branding or an acrylic LED sign board for your retail store, we offer solutions that line up with your needs. Opt for Brand Signages for your LED signage 
-                    requirements and experience the ideal mix of technology, sophistication, and longevity.
+                Expert LED display board makers in Bangalore integrate modern technology and striking designs to create signages. Whether you require a glow LED sign board for outdoor branding or an acrylic LED sign board for your retail store, we offer solutions that line up with your needs. Opt for Brand Signages for your LED signage requirements and experience the ideal mix of technology, sophistication, and longevity.
                     </p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="why-bg-light-pink py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for LED Sign Boards in Bangalore</h2>
-            <p class="card-text text-center">When it's a matter of LED sign boards, we are your dependable associate for superior-quality, endurable, and inventive signage solutions. Here’s why organizations opt for us: </p>
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
-           
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/led-sign-3.webp')}}" class="why-card-img-top" alt="Premium Quality LEDs">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Premium Quality LEDs</h3>
-                        <p class="card-text">Our LED signs are shaped by progressive technology and the best substances, comprising LED glow signs, digital LED signs, and acrylic LED signs. Whether you require a polished display board or a noticeable glow sign board, we supply unique quality that improves your brand’s observability.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/led-sign-4.webp')}}" class="why-card-img-top" alt="2-Year Warranty">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">2-Year Warranty</h3>
-                        <p class="card-text">We back up our products with a 2-year warranty, providing you with mental peace. From LED display boards to acrylic sign boards, our signage boards are made to persist, warranting long-run worth for your capital.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/led-sign-5.webp')}}" class="why-card-img-top" alt="Expert Support">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Expert Support</h3>
-                        <p class="card-text">Our proficient team provides tailored solutions, from unique designs to installation services. Whether it’s a light signboard or an entire signage system, we support you at every phase, guaranteeing an effortless occurrence.  </p>
-                    </div>
-                </div>
-            </div>
-          
-        </div>
-
-        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                       
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-sign-3.webp')}}" class="why-card-img-top" alt="Premium Quality LED Signs">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Premium Quality LEDs</h3>
-                                    <p class="card-text">Our LED signs in Bangalore are shaped by progressive technology and the best substances, comprising acrylic LED signs, LED glow signs, and digital LED signs. Whether you require a polished display board or a noticeable glow sign board, we supply unique quality that improves your brand’s observability.</p>
-                                </div>
-                            </div>
+<section class="process-section">
+        <div class="container">
+            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-design">
+                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
                         </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-sign-4.webp')}}" class="why-card-img-top" alt="2-Year Warranty">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">2-Year Warranty</h3>
-                                    <p class="card-text">2-Year WarrantyWe back up our products with a 2-year warranty, providing you with mental peace. From LED display boards to acrylic LED sign boards, our signage boards are made to persist, warranting long-run worth for your capital.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-sign-5.webp')}}" class="why-card-img-top" alt="Expert Support">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Expert Support</h3>
-                                    <p class="card-text">Our proficient team provides tailored solutions, from unique designs to installation services. Whether it’s a light signboard or an entire signage system, we support you at every phase, guaranteeing an effortless occurrence.  </p>
-                                </div>
-                            </div>
-                        </div>
+                        <h3>Attract Customers Instantly</h3>
+                        <p>Dynamic and eye-catching digital LED displays grab attention instantly, making your business stand out in Bangalore’s competitive market. LED sign boards make your brand message fresh, relevant, and shine bright. </p>
                     </div>
                 </div>
-               
-            </div>
 
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-deliver">
+                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
+                        </div>
+                        <h3>24/7 Brand Exposure</h3>
+                        <p>Brand visibility is a top priority for businesses in Bangalore's competitive landscape. LED boards are new-age signage trends that shine bright day and night, ensuring your business never goes unnoticed. </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-purchase">
+                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
+                        </div>
+                        <h3>Long-Term Benefits</h3>
+                        <p>LED sign boards are energy-efficient, durable, and low maintenance, offering a high return on investment. Being among the most eco-friendly solutions, LED sign boards have less carbon impact.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <section class="container py-5">
     <div class="row g-4 d-flex flex-wrap justify-content-center">
@@ -190,7 +146,85 @@
 </section>
 
 
+<section class="why-bg-light-pink py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Brand Signages is The Top Choice <br>for LED Sign Boards</h2>
+            <p class="card-text text-center">When it's a matter of LED sign boards, we are your dependable choice for superior-quality, endurable, and inventive signage solutions. Here’s why organizations opt for us: </p>
+        </div>
 
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
+           
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/new/led-sign-3.webp')}}" class="why-card-img-top" alt="Premium Quality LEDs">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Premium Quality LEDs</h3>
+                        <p class="card-text">Our LED signs are shaped by progressive technology and the best substances. Whether you require a polished display board or a noticeable glow sign board, we supply premium quality LED sign boards.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/new/led-sign-4.webp')}}" class="why-card-img-top" alt="2-Year Warranty">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">2-Year Warranty</h3>
+                        <p class="card-text">We provide a 2-year warranty for all LED sign boards. From LED display boards to acrylic LED sign boards, our signage boards are made for the long run and worth your investment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/new/led-sign-5.webp')}}" class="why-card-img-top" alt="Expert Support">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Expert Support</h3>
+                        <p class="card-text">Our team provides tailored solutions, from unique designs to installation services. We support you at every phase, guaranteeing an effortless purchase and installation. </p>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+
+        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                       
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/led-sign-3.webp')}}" class="why-card-img-top" alt="Premium Quality LED Signs">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Premium Quality LEDs</h3>
+                                    <p class="card-text">Our LED signs are shaped by progressive technology and the best substances. Whether you require a polished display board or a noticeable glow sign board, we supply premium quality LED sign boards.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/led-sign-4.webp')}}" class="why-card-img-top" alt="2-Year Warranty">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">2-Year Warranty</h3>
+                                    <p class="card-text">We provide a 2-year warranty for all LED sign boards. From LED display boards to acrylic LED sign boards, our signage boards are made for the long run and worth your investment.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/led-sign-5.webp')}}" class="why-card-img-top" alt="Expert Support">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Expert Support</h3>
+                                    <p class="card-text">Our team provides tailored solutions, from unique designs to installation services. We support you at every phase, guaranteeing an effortless purchase and installation. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+        </div>
+    </div>
+</section>
 
 <section class="mt-lg-5">
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id='gallery-container'>
