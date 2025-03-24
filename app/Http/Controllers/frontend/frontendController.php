@@ -163,6 +163,12 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.digital-signage-for-retail', compact('seo'));
     }
+    public function restaurant_menu_boards()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.restaurant-menu-boards', compact('seo'));
+    }
 
     //    signagesResion
     public function acrylic_signage_manufacturer_bangalore()

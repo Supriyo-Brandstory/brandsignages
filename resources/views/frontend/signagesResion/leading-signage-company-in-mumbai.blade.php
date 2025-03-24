@@ -353,7 +353,7 @@
                 </div>
             </div>
 
-            <div class="why-carousel-controls">
+            <div class="why-carousel-controls" style="top: -45px;">
                 <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
                     data-bs-slide="prev">
                     <i class="fas fa-chevron-left"></i>
@@ -374,7 +374,7 @@
     </div>
 </section>
 
-<section class="why-bg-light-pink py-5">
+<section class="why-bg-light-pink py-5" style="background-color: #fff;">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>Your Signage Needs in Mumbai?</h2>
@@ -440,7 +440,7 @@
                 </div>
             </div>
 
-            <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+            <div id="signageCarouselNew" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
@@ -520,22 +520,24 @@
                     </div>
                 </div>
 
-                <div class="why-carousel-controls">
-                    <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                <div class="why-carousel-controls" style="top: -45px;">
+                    <button id="prevButtonNew" class="why-carousel-control" type="button" data-bs-target="#signageCarouselNew"
                         data-bs-slide="prev">
                         <i class="fas fa-chevron-left"></i>
                     </button>
-                    <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                    <button id="nextButtonNew" class="why-carousel-control" type="button" data-bs-target="#signageCarouselNew"
                         data-bs-slide="next">
                         <i class="fas fa-chevron-right"></i>
                     </button>
+                    
                 </div>
-
-                <div class="carousel-indicators why-carousel-indicators">
-                    <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
+    
+                <div class="carousel-indicators why-carousel-indicators" style="margin-bottom: -0.8rem;">
+                    <button type="button" data-bs-target="#signageCarouselNew" data-bs-slide-to="0" class="active"
                         aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#signageCarouselNew" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
+                   
                 </div>
             </div>
         </div>
