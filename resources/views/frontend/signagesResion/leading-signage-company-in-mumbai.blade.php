@@ -321,11 +321,11 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-55.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/event-signage.webp')}}" class="why-card-img-top"
                                     alt="Signage Manufacturing Company in Mumbai">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3"> Retail Businesses</h3>
-                                    <p class="card-text">We generate custom signage solutions such as acrylic LED letters, LED displays, and corrugated box signage that pull attention to your outlet, boosting your products and services efficiently.</p>
+                                    <h3 class="why-text-red mb-3">Event Signage</h3>
+                                    <p class="card-text">Event signage is a go-to choice for your brand's live performance - a strategic communication tool that guides, inspires, and connects. We can create large-scale brand signages to create cohesive experiences, amplify your message, and leave a memorable impression.</p>
                                 </div>
                             </div>
                         </div>
