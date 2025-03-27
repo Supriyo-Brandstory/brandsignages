@@ -19,7 +19,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Best LED Sign Boards in Bangalore <br>for 24/7 Brand Visibility</h2>
+        <h2 class="hero-title">Best LED Sign Boards <br>for 24/7 Brand Visibility</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -36,9 +36,9 @@
                 <p class="brand-description">
                 As a premier signage company and a leading name in LED sign board manufacturing in Bangalore, we work for top companies. Our product range includes digital LED signage, glow LED Sign Boards, LED display boards, outdoor LED sign boards, and more. Every signboard is tailored to exhibit your brand's recognition while guaranteeing energy efficiency and durability.   
                 </p>
-                    <p class="brand-description">
-                Expert LED display board makers in Bangalore integrate modern technology and striking designs to create signages. Whether you require a glow LED sign board for outdoor branding or an acrylic LED sign board for your retail store, we offer solutions that line up with your needs. Opt for Brand Signages for your LED signage requirements and experience the ideal mix of technology, sophistication, and longevity.
-                    </p>
+                <p class="brand-description">
+                We integrate modern technology and striking designs to create signages. Whether you require a glow LED sign board for outdoor branding or an acrylic LED sign board for your retail store, we offer solutions that line up with your needs. Opt for Brand Signages for your LED signage requirements and experience the ideal mix of technology, sophistication, and longevity.
+                </p>
             </div>
         </div>
     </div>
@@ -145,86 +145,173 @@
     </div>
 </section>
 
-
 <section class="why-bg-light-pink py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Brand Signages is The Top Choice <br>for LED Sign Boards</h2>
-            <p class="card-text text-center">When it's a matter of LED sign boards, we are your dependable choice for superior-quality, endurable, and inventive signage solutions. Here’s why organizations opt for us: </p>
-        </div>
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>Your Signage Needs?</h2>
+                <p class="card-text">With a team of expert designers and skilled craftsmen, we deliver high-quality signage solutions. 
+                    Our expertise ensures your brand captures customer attention effectively.</p>
+            </div>
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
-           
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/led-sign-3.webp')}}" class="why-card-img-top" alt="Premium Quality LEDs">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Premium Quality LEDs</h3>
-                        <p class="card-text">Our LED signs are shaped by progressive technology and the best substances. Whether you require a polished display board or a noticeable glow sign board, we supply premium quality LED sign boards.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/led-sign-4.webp')}}" class="why-card-img-top" alt="2-Year Warranty">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">2-Year Warranty</h3>
-                        <p class="card-text">We provide a 2-year warranty for all LED sign boards. From LED display boards to acrylic LED sign boards, our signage boards are made for the long run and worth your investment.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/led-sign-5.webp')}}" class="why-card-img-top" alt="Expert Support">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Expert Support</h3>
-                        <p class="card-text">Our team provides tailored solutions, from unique designs to installation services. We support you at every phase, guaranteeing an effortless purchase and installation. </p>
-                    </div>
-                </div>
-            </div>
-          
-        </div>
-
-        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                       
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-sign-3.webp')}}" class="why-card-img-top" alt="Premium Quality LED Signs">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Premium Quality LEDs</h3>
-                                    <p class="card-text">Our LED signs are shaped by progressive technology and the best substances. Whether you require a polished display board or a noticeable glow sign board, we supply premium quality LED sign boards.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-sign-4.webp')}}" class="why-card-img-top" alt="2-Year Warranty">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">2-Year Warranty</h3>
-                                    <p class="card-text">We provide a 2-year warranty for all LED sign boards. From LED display boards to acrylic LED sign boards, our signage boards are made for the long run and worth your investment.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-sign-5.webp')}}" class="why-card-img-top" alt="Expert Support">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Expert Support</h3>
-                                    <p class="card-text">Our team provides tailored solutions, from unique designs to installation services. We support you at every phase, guaranteeing an effortless purchase and installation. </p>
-                                </div>
-                            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Consulting">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">On-site consulting & planning</h3>
+                            <p class="card-text">Our team will work closely with you and listen to your POV and brand
+                                message. We will provide exactly what you need, no guesswork, no hassle, just
+                                personalized and strategic planning for your business.</p>
                         </div>
                     </div>
                 </div>
-               
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
+                            <p class="card-text">As creators of brand signage, we think that signs should not be
+                                visually boring. We will create visuals that will become the talk of the town. Our team
+                                members will marry creativity and smart thinking to make your brand pop.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Support">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
+                            <p class="card-text">We treat signboards as art pieces, which means our work is not done
+                                with just the installations. Moreover, we take special care while doing so, checking the
+                                placement is perfect from every angle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/time-delivery.webp')}}" class="why-card-img-top" alt="Quality">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
+                            <p class="card-text">Delays and excuses are the bane of our existence. We know that a lot is
+                                riding on our signage solutions, and that’s why we deliver digital signage solutions
+                                within the deadline set ahead by the clients.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Quality material</h3>
+                            <p class="card-text">We prioritize the material quality to ensure they can withstand harsh
+                                weather and normal wear and tear. Our flexes and outdoor signs will tell the story for
+                                years and keep the brand’s visual identity sharp.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Consulting">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">On-site consulting & planning</h3>
+                                        <p class="card-text">Our team will work closely with you and listen to your POV
+                                            and brand message. We will provide exactly what you need, no guesswork, no
+                                            hassle, just personalized and strategic planning for your business.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
+                                        <p class="card-text">As creators of brand signage, we think that signs should
+                                            not be visually boring. We will create visuals that will become the talk of
+                                            the town. Our team members will marry creativity and smart thinking to make
+                                            your brand pop.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Workforce">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
+                                        <p class="card-text">We treat signboards as art pieces, which means our work is
+                                            not done with just the installations. Moreover, we take special care while
+                                            doing so, checking the placement is perfect from every angle.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Support">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
+                                        <p class="card-text">We treat signboards as art pieces, which means our work is
+                                            not done with just the installations. Moreover, we take special care while
+                                            doing so, checking the placement is perfect from every angle. <br> <br> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/time-delivery.webp')}}" class="why-card-img-top" alt="Quality">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
+                                        <p class="card-text">Delays and excuses are the bane of our existence. We know
+                                            that a lot is riding on our signage solutions, and that’s why we deliver
+                                            digital signage solutions within the deadline set ahead by the clients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Quality material</h3>
+                                        <p class="card-text">We prioritize the material quality to ensure they can
+                                            withstand harsh weather and normal wear and tear. Our flexes and outdoor
+                                            signs will tell the story for years and keep the brand’s visual identity
+                                            sharp.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-carousel-controls">
+                    <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                        data-bs-slide="prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                        data-bs-slide="next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <div class="carousel-indicators why-carousel-indicators">
+                    <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+
 
 <section class="mt-lg-5">
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id='gallery-container'>
