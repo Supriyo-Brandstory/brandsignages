@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/acrylic-bangalore1.webp')}}" alt="Acrylic Sign Board In Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Acrylic Sign Board Manufacturers in Bangalore: High-Quality Acrylic Signs</h1>
+                    <h1>Acrylic Sign Board Manufacturers in Bangalore- Brand Signages</h1>
                     <div class="mt-3">
                         
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
@@ -45,6 +45,277 @@
         </div>
     </div>
 </section>
+
+<section class="process-section">
+        <div class="container">
+            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-design">
+                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
+                        </div>
+                        <h3>On-demand Design</h3>
+                        <p>Our creative team of sign board makers in Bangalore offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-deliver">
+                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
+                        </div>
+                        <h3>Timely Deliver</h3>
+                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
+                            project completion without compromising quality or design integrity.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-purchase">
+                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
+                        </div>
+                        <h3>Direct Purchase</h3>
+                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative
+                            brilliance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="container py-5">
+    <div class="row g-4 d-flex flex-wrap justify-content-center">
+
+        <div class="text-center ">
+            <h2 class="display-4 mb-3 why-text-heading">Types of Acrylic Signage Boards We Deliver</h2>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="image-container position-relative">
+                <img src="{{asset('frontend/Images/acrylic-bangalore6.webp')}}" alt="Acrylic LED Signage" class="w-100 h-100">
+                <div class="overlay">
+                    <h5 class="text-title">Acrylic LED Signage</h5>
+                    <p class="text-content">Acrylic LED signages are perfect for creating stunning displays, enhancing visibility for corporate offices and retail spaces. These illuminated signboards offer a sleek, professional look and are suitable for both indoor and outdoor use. Combining acrylic letters with LED lighting ensures a vibrant and eye-catching appearance.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/acrylic-bangalore7.webp')}}" alt="Non-Backlit Acrylic Signs" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Non-Backlit Acrylic Signs</h5>
+                            <p class="text-content">Acrylic signboards are an excellent choice for businesses. These high-quality signage solutions are sleek and durable, making them ideal for corporate branding, office signage, and acrylic nameplates.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/acrylic-bangalore8.webp')}}" alt="Mounted Sign Boards" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Mounted Sign Boards</h5>
+                            <p class="text-content">Mounted signage boards are long-lasting and flexible, generally utilized as acrylic wall signs or outdoor displays. These display boards can be tailored to fit any business's requirements, guaranteeing a durable signage solution.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/acrylic-bangalore9.webp')}}" alt="Acrylic 3D Signs" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Acrylic 3D Signs</h5>
+                            <p class="text-content">Acrylic 3D signs provide extensiveness and dimension, forming an evident visual influence. These premium quality acrylic signages are ideal for logos or emphasizing any branding needs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/acrylic-bangalore10.webp')}}" alt="Acrylic Logo Signs" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Acrylic Logo Signs</h5>
+                            <p class="text-content">Showcase your brand with classic acrylic logo signs. These illuminated signboards enhance your business with a blend of elegance, durability, and lasting impact.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="why-bg-light-pink py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>Your Signage Needs?</h2>
+                <p class="card-text">With a team of expert designers and skilled craftsmen, we deliver high-quality signage solutions. 
+                    Our expertise ensures your brand captures customer attention effectively.</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Consulting">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">On-site consulting & planning</h3>
+                            <p class="card-text">Our team will work closely with you and listen to your POV and brand
+                                message. We will provide exactly what you need, no guesswork, no hassle, just
+                                personalized and strategic planning for your business.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
+                            <p class="card-text">As creators of brand signage, we think that signs should not be
+                                visually boring. We will create visuals that will become the talk of the town. Our team
+                                members will marry creativity and smart thinking to make your brand pop.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Support">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
+                            <p class="card-text">We treat signboards as art pieces, which means our work is not done
+                                with just the installations. Moreover, we take special care while doing so, checking the
+                                placement is perfect from every angle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/time-delivery.webp')}}" class="why-card-img-top" alt="Quality">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
+                            <p class="card-text">Delays and excuses are the bane of our existence. We know that a lot is
+                                riding on our signage solutions, and that’s why we deliver digital signage solutions
+                                within the deadline set ahead by the clients.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Quality material</h3>
+                            <p class="card-text">We prioritize the material quality to ensure they can withstand harsh
+                                weather and normal wear and tear. Our flexes and outdoor signs will tell the story for
+                                years and keep the brand’s visual identity sharp.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Consulting">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">On-site consulting & planning</h3>
+                                        <p class="card-text">Our team will work closely with you and listen to your POV
+                                            and brand message. We will provide exactly what you need, no guesswork, no
+                                            hassle, just personalized and strategic planning for your business.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
+                                        <p class="card-text">As creators of brand signage, we think that signs should
+                                            not be visually boring. We will create visuals that will become the talk of
+                                            the town. Our team members will marry creativity and smart thinking to make
+                                            your brand pop.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Workforce">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
+                                        <p class="card-text">We treat signboards as art pieces, which means our work is
+                                            not done with just the installations. Moreover, we take special care while
+                                            doing so, checking the placement is perfect from every angle.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Support">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
+                                        <p class="card-text">We treat signboards as art pieces, which means our work is
+                                            not done with just the installations. Moreover, we take special care while
+                                            doing so, checking the placement is perfect from every angle. <br> <br> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/time-delivery.webp')}}" class="why-card-img-top" alt="Quality">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
+                                        <p class="card-text">Delays and excuses are the bane of our existence. We know
+                                            that a lot is riding on our signage solutions, and that’s why we deliver
+                                            digital signage solutions within the deadline set ahead by the clients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Quality material</h3>
+                                        <p class="card-text">We prioritize the material quality to ensure they can
+                                            withstand harsh weather and normal wear and tear. Our flexes and outdoor
+                                            signs will tell the story for years and keep the brand’s visual identity
+                                            sharp.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-carousel-controls">
+                    <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                        data-bs-slide="prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                        data-bs-slide="next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <div class="carousel-indicators why-carousel-indicators">
+                    <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 <section class="why-bg-light-pink py-5">
     <div class="container">
@@ -132,70 +403,6 @@
     </div>
 </section>
 
-
-<section class="container py-5">
-    <div class="row g-4 d-flex flex-wrap justify-content-center">
-
-        <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">Types of Acrylic Signage Boards We Deliver</h2>
-        </div>
-
-        <div class="col-lg-4">
-            <div class="image-container position-relative">
-                <img src="{{asset('frontend/Images/acrylic-bangalore6.webp')}}" alt="Acrylic LED Signage" class="w-100 h-100">
-                <div class="overlay">
-                    <h5 class="text-title">Acrylic LED Signage</h5>
-                    <p class="text-content">Acrylic LED signages are ideal for generating spectacular displays. These glowing signboards improve observability and are perfect for corporate offices and retail places. Merging acrylic letters with LED acrylic lighting makes sure of a competent appearance that works well indoors and outdoors.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-8">
-            <div class="row g-4">
-                <div class="col-lg-6">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-bangalore7.webp')}}" alt="Non-Backlit Acrylic Signs" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Non-Backlit Acrylic Signs</h5>
-                            <p class="text-content">For a tidy and luxurious look, non-backlit acrylic sign boards in Bangalore are an extraordinary preference. These high-quality signage boards are easy yet efficient, making them perfect for branding in corporate offices or as acrylic nameplates.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-bangalore8.webp')}}" alt="Mounted Sign Boards" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Mounted Sign Boards</h5>
-                            <p class="text-content">Mounted signage boards are long-lasting and flexible, generally utilized as acrylic wall signs or outdoor displays. These display boards can be tailored to fit any business's requirements, guaranteeing a durable and fashionable signage solution.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-8">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-bangalore9.webp')}}" alt="Acrylic 3D Signs" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Acrylic 3D Signs</h5>
-                            <p class="text-content">Acrylic 3D signs provide extensiveness and dimension, forming an evident visual influence. These premium quality acrylic signages in Bangalore are ideal for logos or emphasizing particular branding aspects.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/acrylic-bangalore10.webp')}}" alt="Acrylic Logo Signs" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Acrylic Logo Signs</h5>
-                            <p class="text-content">Exhibit your brand with traditional acrylic logo signs. Outlined by the best board manufacturers, these glow sign boards improve your organization with sophistication and longevity.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
@@ -523,7 +730,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                Are acrylic signages appropriate for outdoor landscapes?
+                Are acrylic signages appropriate for outdoor usage?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
@@ -553,7 +760,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                Is any exceptional maintenance needed to maintain acrylic signage?
+                Is any maintenance needed to use acrylic signage?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
@@ -563,11 +770,11 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                How fast can Brand Signages provide a traditional acrylic signage order?
+                Can I request a sample before placing a bulk order for signage boards?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>We provide instant delivery for traditional acrylic signage orders. According to the design and intricacy, we usually deliver in a few days or a week.</p>
+                <p>Yes, you can definitely order a single piece as a sample before placing a bulk order. This allows you to evaluate the quality, design, and material of the signage boards firsthand. We want you to be completely satisfied with your choice, so feel free to request a sample to ensure it meets your expectations before making a larger commitment.</p>
             </div>
         </div>
 
