@@ -5,7 +5,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/led-sign-boards-bangalore.webp')}}" alt="LED Sign Board manufacturers in Bangalore">
+                <img src="{{asset('frontend/Images/led-sign-boards-bangalore.webp')}}" alt="LED Sign Board manufacturers in Bangalore">
                 <div class="carousel-caption-custom">
                     <h1>Best LED Sign Board Manufacturers in Bangalore- Brand Signages</h1>
                      <div class="mt-4">
@@ -24,7 +24,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/led-signboard1.webp')}}" alt="LED Sign Board Manufacturers in Bangalore" class="img-fluid">
+                    <img src="{{asset('frontend/Images/led-signboard1.webp')}}" alt="LED Sign Board Manufacturers in Bangalore" class="img-fluid">
                 </div>
             </div>
 
