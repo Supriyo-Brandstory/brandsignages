@@ -403,30 +403,6 @@
     </div>
 </section>
 
-
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Why Choose Brand Signages <br>for Acrylic Sign Boards in Bangalore?</h2>
-
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/acrylic-bangalore11.webp')}}" alt="Acrylic Sign Boards" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <p class="brand-description">
-                Brand Signages stands out as the best acrylic sign board manufacturer in Bangalore for its premium quality, creative designs, and commitment to customer satisfaction. We emphasize offering high-quality acrylic sign boards that are ideal for organizations seeking to make a lasting impression. Whether you're seeking acrylic LED signage or acrylic wall signs, we provide custom signage designs to meet your requirements.  Our acrylic signage solutions comprise everything from acrylic nameplates to glow sign boards, outlined to improve your brand identity. We utilize modern technology to design acrylic letters and LED acrylic patterns that are long-lasting as well as visually fascinating.
-                </p>  
-                <p class="brand-description">
-                    At Brand Signages, we comprehend that each enterprise requires an exceptional signage solution. Our team toils closely with customers to ensure that their vision converts to reality with premium quality substances like acrylic ACP and neon signs.  With products such as acrylic sign boards, acrylic LED, and outdoor acrylic, we provide flexible alternatives appropriate for indoor and outdoor implementations. Select us for your upcoming project, and discover how our premium acrylic signages can uplift your brand identity.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section class="testimonial section ">
     <div class="container">
         <div class="text-center mb-5">
