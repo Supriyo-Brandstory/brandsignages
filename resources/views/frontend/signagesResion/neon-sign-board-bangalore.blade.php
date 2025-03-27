@@ -48,89 +48,44 @@
     </div>
 </section>
 
-<section class="why-bg-light-pink py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for Neon Light Signs</h2>
-            <p class="card-text text-center">Brand Signages is among the best neon sign board manufacturers in Bangalore backed with 10+ years of expertise. <br>Our solutions comprise everything from flex neon signs and acrylic neon LED signs to glass neon signs personalized <br>to fulfill your requirements. Whether it’s a corporate office, retail store, or private place, our neon light <br>signs are the ideal preference for creating permanent influences.</p>
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/neonsign-bangalore3.webp')}}" class="why-card-img-top"
-                        alt="Energy Efficiency">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Energy Efficiency</h3>
-                        <p class="card-text">Our neon signs are designed to utilize modern LED neon technology, providing unique radiance while absorbing the least energy. These neon lights not only minimize electricity expenses but are also sustainable, making them ideal for organizations and houses in the same way.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/neonsign-bangalore4.webp')}}" class="why-card-img-top"
-                        alt="Durability">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Durability</h3>
-                        <p class="card-text">Made with high-class substances such as acrylic LED and powerful styles, our neon sign boards in Bangalore are created to persist. Whether for indoor utility or as an outdoor neon sign, they confront altering weather circumstances without losing their shine or attraction. You can have faith in our glow signage boards for long-run output.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
+<section class="process-section">
+        <div class="container">
+            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
+            <div class="row">
                 <div class="col-md-4">
-                    <div class="why-card card">
-                        <img src="{{asset('frontend/Images/neonsign-bangalore5.webp')}}" class="why-card-img-top"
-                            alt="2-Year Warranty">
-                        <div class="card-body why-card-body px-0">
-                            <h3 class="why-text-red mb-3">2-Year Warranty</h3>
-                            <p class="card-text">We stick to the standards of our custom neon signs by providing a 2-year warranty. This secures mental peace for our clients, being aware that their neon LED signs and sign boards are approved by dependable support.</p>
+                    <div class="process-card">
+                        <div class="icon-design">
+                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
                         </div>
+                        <h3>On-demand Design</h3>
+                        <p>Our creative team of sign board makers in Bangalore offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-deliver">
+                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
+                        </div>
+                        <h3>Timely Deliver</h3>
+                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
+                            project completion without compromising quality or design integrity.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-purchase">
+                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
+                        </div>
+                        <h3>Direct Purchase</h3>
+                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative
+                            brilliance.</p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/neonsign-bangalore3.webp')}}" class="why-card-img-top"
-                                    alt="Energy Efficiency">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Energy Efficiency</h3>
-                                    <p class="card-text">Our neon signs are designed to utilize modern LED neon technology, providing unique radiance while absorbing the least energy. These neon lights not only minimize electricity expenses but are also sustainable, making them ideal for organizations and houses in the same way.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/neonsign-bangalore4.webp')}}" class="why-card-img-top"
-                                    alt="Durability">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Durability</h3>
-                                    <p class="card-text">Made with high-class substances such as acrylic LED and powerful styles, our neon sign boards in Bangalore are created to persist. Whether for indoor utility or as an outdoor neon sign, they confront altering weather circumstances without losing their shine or attraction. You can have faith in our glow signage boards for long-run output.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/neonsign-bangalore5.webp')}}" class="why-card-img-top"
-                                    alt="2-Year Warranty">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">2-Year Warranty</h3>
-                                    <p class="card-text">We stick to the standards of our custom neon signs by providing a 2-year warranty. This secures mental peace for our clients, being aware that their neon LED signs and sign boards are approved by dependable support.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 
 <section class="container py-5">
@@ -197,6 +152,173 @@
 
     </div>
 </section>
+
+<section class="why-bg-light-pink py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>Neon Sign Boards?</h2>
+                <p class="card-text">Brand Signages is among the best neon sign board manufacturers in Bangalore backed with 10+ years of expertise. Our solutions comprise everything from flex neon signs to glass neon signs personalized to fulfill your requirements.</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Consulting">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">On-site consulting & planning</h3>
+                            <p class="card-text">Our team will work closely with you and listen to your POV and brand
+                                message. We will provide exactly what you need, no guesswork, no hassle, just
+                                personalized and strategic planning for your business.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
+                            <p class="card-text">As creators of brand signage, we think that signs should not be
+                                visually boring. We will create visuals that will become the talk of the town. Our team
+                                members will marry creativity and smart thinking to make your brand pop.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Support">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
+                            <p class="card-text">We treat signboards as art pieces, which means our work is not done
+                                with just the installations. Moreover, we take special care while doing so, checking the
+                                placement is perfect from every angle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/time-delivery.webp')}}" class="why-card-img-top" alt="Quality">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
+                            <p class="card-text">Delays and excuses are the bane of our existence. We know that a lot is
+                                riding on our signage solutions, and that’s why we deliver digital signage solutions
+                                within the deadline set ahead by the clients.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Quality material</h3>
+                            <p class="card-text">We prioritize the material quality to ensure they can withstand harsh
+                                weather and normal wear and tear. Our flexes and outdoor signs will tell the story for
+                                years and keep the brand’s visual identity sharp.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Consulting">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">On-site consulting & planning</h3>
+                                        <p class="card-text">Our team will work closely with you and listen to your POV
+                                            and brand message. We will provide exactly what you need, no guesswork, no
+                                            hassle, just personalized and strategic planning for your business.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
+                                        <p class="card-text">As creators of brand signage, we think that signs should
+                                            not be visually boring. We will create visuals that will become the talk of
+                                            the town. Our team members will marry creativity and smart thinking to make
+                                            your brand pop.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/neonsign-bangalore4.webp')}}" class="why-card-img-top" alt="Energy Efficient">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Energy Efficiency</h3>
+                                        <p class="card-text">Our neon signs are designed to utilize modern LED neon technology, 
+                                            providing unique radiance while absorbing the least energy. These neon lights not only 
+                                            minimize electricity expenses but are also sustainable.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Support">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
+                                        <p class="card-text">We treat signboards as art pieces, which means our work is
+                                            not done with just the installations. Moreover, we take special care while
+                                            doing so, checking the placement is perfect from every angle. <br> <br> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/time-delivery.webp')}}" class="why-card-img-top" alt="Quality">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
+                                        <p class="card-text">Delays and excuses are the bane of our existence. We know
+                                            that a lot is riding on our signage solutions, and that’s why we deliver
+                                            digital signage solutions within the deadline set ahead by the clients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Quality material</h3>
+                                        <p class="card-text">We prioritize the material quality to ensure they can
+                                            withstand harsh weather and normal wear and tear. Our flexes and outdoor
+                                            signs will tell the story for years and keep the brand’s visual identity
+                                            sharp.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-carousel-controls">
+                    <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                        data-bs-slide="prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                        data-bs-slide="next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <div class="carousel-indicators why-carousel-indicators">
+                    <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 <section class="testimonial section ">
     <div class="container">
