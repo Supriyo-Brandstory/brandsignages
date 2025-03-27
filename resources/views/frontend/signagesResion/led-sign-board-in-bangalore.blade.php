@@ -5,9 +5,9 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/led-sign-1.webp')}}" alt="LED Sign Board manufacturers in Bangalore">
+                <img src="{{asset('frontend/Images/new/led-sign-boards-bangalore.webp')}}" alt="LED Sign Board manufacturers in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Illuminate Your Brand with LED Sign Boards in Bangalore</h1>
+                    <h1>Best LED Sign Board Manufacturers in Bangalore- Brand Signages</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get Started</a>
                         </div>
@@ -19,12 +19,12 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Best LED Sign Boards <br>for 24/7 Brand Visibility</h2>
+        <h2 class="hero-title">Illuminate Your Brand <br>with LED Sign Boards</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/led-sign-2.webp')}}" alt="LED Sign Board Manufacturers in Bangalore" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/led-signboard1.webp')}}" alt="LED Sign Board Manufacturers in Bangalore" class="img-fluid">
                 </div>
             </div>
 
@@ -46,7 +46,7 @@
 
 <section class="process-section">
         <div class="container">
-            <h2 class="process-title">Why Businesses in Bangalore Must <br>Opt for LED Sign Boards</h2>
+            <h2 class="process-title">Commercial Grade <br>LED Sign Boards in Bangalore</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="process-card">
