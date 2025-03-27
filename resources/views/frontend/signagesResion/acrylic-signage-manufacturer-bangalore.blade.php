@@ -331,7 +331,7 @@
                         alt="Advanced and Competent Appeal">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Advanced and Competent Appeal</h3>
-                        <p class="card-text">Using an acrylic sign board adds a contemporary and polished touch to any space. Whether for a commercial office in Bangalore, retail outlet, or residential property, these high-quality signboards exude professionalism. Products like acrylic nameplates and acrylic wall signs offer a sleek appearance that enhances your branding. Their clean design makes them a popular choice for creating a lasting impression.</p>
+                        <p class="card-text">Using an acrylic sign board adds a contemporary and polished touch to any space. Whether for a commercial office in Bangalore, retail outlet, or residential property, these high-quality signboards exude professionalism. Products like acrylic nameplates and acrylic wall signs offer a sleek appearance that enhances your branding.</p>
                     </div>
                 </div>
             </div>
@@ -341,7 +341,7 @@
                         alt="Flexible and Customizable Solutions">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Flexible and Customizable Solutions</h3>
-                        <p class="card-text">Acrylic is known for its durability and effectiveness, making it an ideal material for display boards and acrylic glow signs. With Brand Signages, you can rely on premium-quality signage solutions. These boards are weather-resistant and low-maintenance, ensuring your signage remains visually appealing and functional for years to come.</p>
+                        <p class="card-text">Acrylic signages in Bangalore are flexible and can be tailored to suit your extraordinary needs. From acrylic LED signages to acrylic ACP boards, these solutions serve several executions, consisting of indoor and outdoor usage. Glow sign boards and LED acrylic signs are especially efficient for enterprises seeking to be distinct with modern signages.</p>
                     </div>
                 </div>
             </div>
@@ -352,7 +352,7 @@
                             alt="Longevity and Durable Quality">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Longevity and Durable Quality</h3>
-                            <p class="card-text">Acrylic is known for its durability and effectiveness, making it an ideal material for display boards and acrylic glow signs. With Brand Signages, you can rely on premium-quality signage solutions. These boards are weather-resistant and low-maintenance, ensuring your signage remains visually appealing and functional for years to come.</p>
+                            <p class="card-text">Acrylic is known for its durability and effectiveness, making it an ideal material for display boards and acrylic glow signs. These boards are weather-resistant and low-maintenance, ensuring your signage remains visually appealing and functional for years to come.</p>
                         </div>
                     </div>
                 </div>
@@ -370,7 +370,7 @@
                                     alt="Advanced and Competent Appeal">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Advanced and Competent Appeal</h3>
-                                    <p class="card-text">Using an acrylic sign board adds a contemporary and polished touch to any space. Whether for a commercial office in Bangalore, retail outlet, or residential property, these high-quality signboards exude professionalism. Products like acrylic nameplates and acrylic wall signs offer a sleek appearance that enhances your branding. Their clean design makes them a popular choice for creating a lasting impression.</p>
+                                    <p class="card-text">Using an acrylic sign board adds a contemporary and polished touch to any space. Whether for a commercial office in Bangalore, retail outlet, or residential property, these high-quality signboards exude professionalism. Products like acrylic nameplates and acrylic wall signs offer a sleek appearance that enhances your branding.</p>
                                 </div>
                             </div>
                         </div>
@@ -380,7 +380,7 @@
                                     alt="Flexible and Customizable Solutions">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Flexible and Customizable Solutions</h3>
-                                    <p class="card-text">Acrylic signages in Bangalore are flexible and can be tailored to suit your extraordinary needs. From acrylic LED signages to acrylic ACP boards, these solutions serve several executions, consisting of indoor and outdoor usage. Glow sign boards and LED acrylic signs are especially efficient for enterprises seeking to be distinct with glowing displays. General acrylic letters and neon signs can also attach an innovative and bright aspect to your signage.</p>
+                                    <p class="card-text">Acrylic signages in Bangalore are flexible and can be tailored to suit your extraordinary needs. From acrylic LED signages to acrylic ACP boards, these solutions serve several executions, consisting of indoor and outdoor usage. Glow sign boards and LED acrylic signs are especially efficient for enterprises seeking to be distinct with modern signages.</p>
                                 </div>
                             </div>
                         </div>
@@ -390,7 +390,7 @@
                                     alt="Longevity and Durable Quality">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Longevity and Durable Quality</h3>
-                                    <p class="card-text">Acrylic is known for its durability and effectiveness, making it an ideal material for display boards and acrylic glow signs. With Brand Signages, you can rely on premium-quality signage solutions. These boards are weather-resistant and low-maintenance, ensuring your signage remains visually appealing and functional for years to come.</p>
+                                    <p class="card-text">Acrylic is known for its durability and effectiveness, making it an ideal material for display boards and acrylic glow signs. These boards are weather-resistant and low-maintenance, ensuring your signage remains visually appealing and functional for years to come.</p>
                                 </div>
                             </div>
                         </div>
@@ -402,6 +402,62 @@
         </div>
     </div>
 </section>
+
+<section class="mt-lg-5">
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
+        <h2 class="hero-title">Catalogue</h2>
+        
+        <!-- First Row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/acrylic-bangalore17.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/acrylic-bangalore17.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/acrylic-bangalore18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/acrylic-bangalore18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/acrylic-bangalore19.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/acrylic-bangalore19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/acrylic-bangalore20.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/acrylic-bangalore20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+        </div>
+        
+        <!-- Second Row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/acrylic-bangalore21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/acrylic-bangalore21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/acrylic-bangalore22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/acrylic-bangalore22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/acrylic-bangalore23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/acrylic-bangalore23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <a href="{{asset('frontend/Images/acrylic-bangalore24.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                <img src="{{asset('frontend/Images/acrylic-bangalore24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 
 <section class="testimonial section ">
     <div class="container">
@@ -645,64 +701,10 @@
     </div>
 </section>
 
-<section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
-        <h2 class="hero-title">Catalogue</h2>
-        
-        <!-- First Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore17.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore17.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore19.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore20.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
-        
-        <!-- Second Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore21.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore22.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/acrylic-bangalore24.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/acrylic-bangalore24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
-
-    </div>
-</section>
 
 <section class="faq-section">
     <div class="faq-container">
-        <h1 class="faq-title">FAQS</h1>
+        <h1 class="faq-title"> Acrylic Sign FAQS</h1>
 
         <div class="faq-item">
             <button class="faq-question">
