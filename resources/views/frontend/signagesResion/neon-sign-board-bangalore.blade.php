@@ -606,55 +606,55 @@
 
 <section class="faq-section">
     <div class="faq-container">
-        <h1 class="faq-title">FAQS</h1>
+        <h1 class="faq-title">Neon Sign FAQS</h1>
 
         <div class="faq-item">
             <button class="faq-question">
-                What is the normal delivery span for a neon sign order?
+                What is the delivery timing for a neon sign order?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>The delivery span for neon sign boards in Bangalore generally is between 7-10 business days, based on the personalization and order size.</p>
+                <p>The delivery timing for neon sign boards in Bangalore generally is between 7-10 business days, based on the personalization and order size.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                Is it possible to customize my neon LED signage to fulfill my business requirements?
+                Is it possible to customize neon LED signage?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Yes, we provide complete personalization of neon lights to align with your individual business needs, consisting of exceptional shapes, designs, and colors.</p>
+                <p>Yes, we provide complete customization of neon lights to align with your business needs, consisting of exceptional shapes, designs, and colors.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                What extraordinary acrylic aspects are available when merged with neon signage?
+                What unique acrylic features can be combined with neon signage?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Our acrylic LED neon signs offer a polished finish and resistance. You can opt for lucid or colored acrylic bases for a competent or lively appearance.</p>
+                <p>Acrylic adds durability, elegance, and versatility to neon signage. You can choose from clear, frosted, or colored acrylic backings, 3D layering for depth, and custom-cut shapes to create a striking and professional appearance for your signage.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                Can I get my company logo and name modified into a general neon sign?
+                Can I get a custom neon sign with my company logo and name?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Definitely! We are experts in creating custom neon signs in Bangalore, comprising company logos and names that promote your branding and presence.</p>
+                <p>Yes! We specialize in designing custom neon signs in Bangalore, including company logos and brand names. Our team ensures high-quality craftsmanship to enhance your brand visibility with a unique and eye-catching neon display.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                Do you deliver neon sign boards to Kerala for orders given?
+                 Do you deliver neon sign boards in Bangalore?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Yes, we supply neon signs to Kerala and other places. Our team guarantees your glow sign board reaches you safely and securely punctually.At Brand Signages, we aim to offer top-class LED signage solutions customized to your requirements. Reach out to us soon!</p>
+                <p>Yes, we deliver neon sign boards across Bangalore and surrounding areas. Our team ensures safe and timely delivery, providing high-quality LED signage solutions tailored to your needs. Contact Brand Signages today for customized neon signage!</p>
             </div>
         </div>
 

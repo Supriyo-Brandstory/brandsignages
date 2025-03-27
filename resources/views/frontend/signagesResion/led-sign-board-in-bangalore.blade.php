@@ -599,7 +599,7 @@
 
 <section class="faq-section">
     <div class="faq-container">
-        <h1 class="faq-title">FAQS</h1>
+        <h1 class="faq-title">LED Signboard FAQS</h1>
 
         <div class="faq-item">
             <button class="faq-question">
@@ -607,17 +607,17 @@
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>The delivery span for a signboard to any place in Bangalore generally lies between 5 to 7 working days, based on the intricacy of the pattern and order volume.</p>
+                <p>The delivery time for a signboards generally between 5 to 7 working days, based on the design complexity and order volume.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                What kinds of LED signboards are appropriate for use in Bangalore?
+                What types of LED signboards are ideal for businesses in Bangalore?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Various types of LED signboards are suitable for businesses in Bangalore, including 2D and 3D LED signboards for retail stores, glow sign boards for restaurants and cafes, acrylic LED signs for corporate offices, and digital signage boards for malls and commercial complexes. Brand Signages has a dedicated manufacturing facility to meet any specific needs and demands.</p>
+                <p>Businesses in Bangalore can benefit from various LED signboards, including 2D and 3D LED signs for retail stores, glow signboards for restaurants and cafes, acrylic LED signs for corporate offices, and digital signage for malls and commercial spaces. Brand Signages offers customized solutions with a dedicated manufacturing facility to meet your specific needs.</p>
             </div>
         </div>
 
@@ -643,7 +643,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                Do you provide installation services for the LED sign boards you supply?
+                Do you provide installation services for the LED sign boards?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
