@@ -60,14 +60,14 @@
                 <div class="col-lg-6">
                     <h2 class="brand-title">#1 Signage Company in Bangalore, India  </h2>
                     <p class="brand-description">
-                        Brand Signages is the premier sign board manufacturers in Bangalore with 10+ years of rich industry experience. As leading sign makers, we design premium-quality sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Bangalore, 
+                        Brand Signages is the premier sign board manufacturers in Bangalore with 10+ years of rich industry experience. As leading branding sign makers, we design premium-quality sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Bangalore, 
                        <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Chennai</a> ,
                        <a href="{{route('leading_signage_company_in_mumbai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Mumbai</a>,
                         and all over India.
                     </p>
 
                     <p class="brand-description">
-                        Signages and sign boards play an important role in fostering brand recognition, improving engagement and visibility. An expertly crafted sign board not only enhances visual aesthetics but also serves as a powerful branding asset. With a passion for excellence, we design modern 
+                        Signages and branding sign boards play an important role in fostering brand recognition, improving engagement and visibility. An expertly crafted sign board not only enhances visual aesthetics but also serves as a powerful branding asset. With a passion for excellence, we design modern 
                        <a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
                        <a href="{{route('digital_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
                        <a href="{{route('arcylic_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic signage </a>,
@@ -135,7 +135,7 @@
     <section>
         <div class="container my-5">
             <h2 class="text-center mb-5 card-heading">We are The Leading Sign Board <br>Manufacturers in Bangalore, India</h2>
-            <p class="card-text text-center">With years of expertise, we craft premium-quality, custom signage boards that elevate your brand's visibility. Our innovative designs and attention to detail ensure your brand message stands out in any setting, whether it's for retail, corporate, or outdoor use. We specialize in:</p>
+            <p class="card-text text-center">With years of expertise, we craft premium-quality, custom signage boards, branding signs and branding banners that elevate your brand's visibility. Our innovative designs and attention to detail ensure your brand message stands out in any setting, whether it's for retail, corporate, or outdoor use. We specialize in:</p>
 
             <div class="row g-4 cards-row">
                 <div class="col-lg-3 col-md-6">
@@ -248,7 +248,7 @@
                             alt=" Indoor Signage Manufacturer in Bangalore">
                         <div class="card-body">
                             <h5 class="card-title">Indoor Signages</h5>
-                            <p class="card-text">TIndoor signages are versatile brand communicators for commercial and retail spaces. 
+                            <p class="card-text">Indoor signages are versatile brand communicators for commercial and retail spaces. 
                                 They can improve internal communication, and deliver consistent,
                                 high-impact messaging. <a href="https://brandsignages.com/indoor-signages" style="text-decoration: unset;color:#E43D12">Indoor signages</a> can transform any space into a brand communication platform and offer lasting durability.</p>
                         </div>
@@ -270,7 +270,7 @@
     <section class="why-bg-light-pink py-5">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>Your Signage Needs?</h2>
+                <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>Your Signage and Branding Needs?</h2>
                 <p class="card-text">With a team of expert designers and skilled craftsmen, we deliver high-quality signage solutions. 
                     Our expertise ensures your brand captures customer attention effectively.</p>
             </div>
@@ -315,7 +315,7 @@
                         <div class="card-body px-0">
                             <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
                             <p class="card-text">Delays and excuses are the bane of our existence. We know that a lot is
-                                riding on our signage solutions, and that’s why we deliver digital signage solutions
+                                riding on our signage solutions, and that’s why we deliver branding signage solutions
                                 within the deadline set ahead by the clients.</p>
                         </div>
                     </div>
@@ -393,7 +393,7 @@
                                         <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
                                         <p class="card-text">Delays and excuses are the bane of our existence. We know
                                             that a lot is riding on our signage solutions, and that’s why we deliver
-                                            digital signage solutions within the deadline set ahead by the clients.</p>
+                                            branding signage solutions within the deadline set ahead by the clients.</p>
                                     </div>
                                 </div>
                             </div>
@@ -453,7 +453,7 @@
                     <div class="overlay">
                         <h5 class="text-title">What is Brand Signage?</h5>
                         <p class="text-content">Brand signage is your company's visual ambassador- a strategic plot that
-                            adds a compelling narrative touch to your corporate identity. It combines perception and
+                            adds a compelling narrative touch to your corporate identity. Branding signs and branding banners combine perception and
                             experience, creating memorable touchpoints that speak volumes without saying a word.</p>
                     </div>
                 </div>
@@ -804,7 +804,7 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Signage is used for various purposes across different industries to communicate messages, enhance branding, and enhance navigation. Here are the key uses of signage:</p>
+                    <p>Signage or branding signs are used for various purposes across different industries to communicate messages, enhance branding, and enhance navigation. Here are the key uses of signage:</p>
                     <ul>
                         <li>Branding & Marketing – Businesses use signage to display their logo, promote offers, and enhance brand visibility.</li>
                         <li>Wayfinding & Navigation – Helps people find directions in malls, hospitals, offices, and public spaces.</li>
