@@ -5,9 +5,9 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/neonsign-bangalore1.webp')}}" alt="Neon Light Sign Boards in Bangalore">
+                <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Neon Light Sign Boards in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Custom Neon Sign Boards in Bangalore</h1>
+                    <h1>Premium-quality Neon Sign Boards in Bangalore</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -20,24 +20,24 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Custom Neon Signs Bangalore - Neon Signs Boards</h2>
+        <h2 class="hero-title">Custom Neon Signs Bangalore by Brand Signages</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/neonsign-bangalore2.webp')}}" alt="Neon Light Sign Boards in Bangalore" class="img-fluid">
+                    <img src="{{asset('frontend/Images/neon-image2.webp')}}" alt="Neon Light Sign Boards in Bangalore" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                Unique and spectacular neon signs are the best branding element to enhance your space. Whether it’s for a corporate office, cafe, or retail store, 
-                neon signs are designed to bring a unique charm to any setting. 
+                Looking for neon signs? Unique and spectacular neon signs are the best branding element to enhance your space. Whether it’s for a corporate office, cafe, 
+                or retail store, neon signs are designed to bring a unique charm to any setting. 
                 </p>  
                 <p class="brand-description">
-                Brand Signages is the leading supplier of neon sign board in Bangalore. With over 10 years of experience, we design high-quality and customized neon 
-                signs for top businesses. From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. Neon glow signboards 
-                by Brand Signages are perfect for businesses looking for eye-catching, stylish, and durable signage.
+                Brand Signages is the leading supplier of neon sign board in Bangalore. With over 10 years of experience, we design high-quality and customized neon signs for top businesses. 
+                From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. We design spectacular neon signs perfect for businesses looking for eye-catching, 
+                stylish, and durable signage.
                 </p>
                 <p class="brand-description">
                 Neon signs are energy-efficient, long-lasting, and available in a variety of colors and design patterns. Choose from acrylic neon boards, neon glow 
@@ -174,7 +174,7 @@
                 </div>
                 <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
+                        <img src="{{asset('frontend/Images/neon-image5.webp')}}" class="why-card-img-top" alt="Neon Sign Design">
                         <div class="card-body px-0">
                             <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
                             <p class="card-text">As creators of brand signage, we think that signs should not be
@@ -207,7 +207,7 @@
                 </div>
                 <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
+                        <img src="{{asset('frontend/Images/neon-image6.webp')}}" class="why-card-img-top" alt="Quality Materials">
                         <div class="card-body px-0">
                             <h3 class="why-text-red mb-3">Quality material</h3>
                             <p class="card-text">We prioritize the material quality to ensure they can withstand harsh
@@ -235,7 +235,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
+                                    <img src="{{asset('frontend/Images/neon-image5.webp')}}" class="why-card-img-top" alt="Designs">
                                     <div class="card-body why-card-body px-0">
                                         <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
                                         <p class="card-text">As creators of brand signage, we think that signs should
@@ -284,7 +284,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
+                                    <img src="{{asset('frontend/Images/neon-image6.webp')}}" class="why-card-img-top" alt="Quality Materials">
                                     <div class="card-body why-card-body px-0">
                                         <h3 class="why-text-red mb-3">Quality material</h3>
                                         <p class="card-text">We prioritize the material quality to ensure they can
@@ -318,6 +318,35 @@
             </div>
         </div>
     </section>
+
+    <section>
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+        <h2 class="hero-title">Multicolor Neon Lights and Signs for <br> Every Space</h2>
+  
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="showcase-image">
+                    <img src="{{asset('frontend/Images/neon-image8.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <p class="brand-description">
+                    If you’re looking for an illuminated sign with different colours combined in one design, check out premium quality multicolour neon lights and signs from us. With an added touch of personalisation, these neon signs and lights are ideal for your indoor and outdoor spaces.</p>
+             
+                <p class="brand-description">
+                    The comprehensive range of diverse colours makes the multicoloured neon lights and signs more special than others. Whether it’s a get-together at your drawing room, a house party in the broad hallway, or an event on your rooftop, multicolour neon lights from Brand Signage can create the ambience you look for.</p>
+             
+                <p class="brand-description">
+                    To illuminate your space in your desired way, you must rely upon trusted neon light manufacturers as they offer long-lasting yet stylish products. However, if you have made up your mind to purchase multi-colour neon signs for personal or professional spaces, we are here with the best collections of them.</p>
+                
+                <p class="brand-description">
+                    Brighten your space and rejuvenate your mind with our exclusive neon signs suitable for all purposes</p>
+                
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <section class="testimonial section ">
