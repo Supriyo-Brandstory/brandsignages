@@ -40,7 +40,7 @@
                 stylish, and durable signage.
                 </p>
                 <p class="brand-description">
-                Neon signs are energy-efficient, long-lasting, and available in a variety of colors and design patterns. Choose from acrylic neon boards, neon glow 
+                <a href="{{route('neon_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon signs</a> are energy-efficient, long-lasting, and available in a variety of colors and design patterns. Choose from acrylic neon boards, neon glow 
                 signage boards, or custom neon designs to achieve the perfect look for your brand. Whether you need a single sign or bulk orders, we cater to all requirements.
                 </p>
             </div>
