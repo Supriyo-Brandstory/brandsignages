@@ -10,7 +10,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/new/signage-in-chennai-1.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai">
                 <div class="carousel-caption-custom">
-                    <h1>Top Sign Board Manufacturers in Chennai: Custom & Durable Solutions</h1>
+                    <h1>Top Sign Board Manufacturers in Chennai- Brand Signages</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -24,7 +24,7 @@
 </section>
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Uplift Your Brand with Trusted <br>Sign Board Manufacturers in Chennai </h2>
+        <h2 class="hero-title">Uplift Your Brand with Premier<br>Sign Board Manufacturers in Chennai </h2>
        
 
         <div class="row align-items-center">
@@ -37,25 +37,470 @@
             <div class="col-lg-6">
             <h2 class="brand-title">Expert Signage Manufacturers in Chennai</h2>
                 <p class="brand-description">
-                    Sign boards play a crucial role in building strong brand recognition in Chennai. A well-designed sign board enhances branding by attracting customer attention day and night. Signages not only emphasize branding, they convey information such as specific locations in Chennai, contact details, and key products and services to the audience.  
-                    </p>
-                <p class="brand-description">
-                    Brand Signages is the industry-leading sign board manufacturer in Chennai. With over 10 years of rich expertise, we design best-quality signages for SMEs, startups, and large-scale enterprises.   
+                Looking for a reliable signage maker in Chennai? Brand Signages is the premier signage manufacturers in Chennai with 10+ years of rich industry experience. As a leading signage company located in Chennai, we design premium-quality sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Chennai, Mumbai, <a href="{{route('signage_in_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore</a>, and all over India.         
                 </p>
-                <p>
-                    Whether you need neon signs, metal signage, acrylic signs, or LED displays in Chennai, our expert sign board makers cater to all requirements. With a passion for excellence, Brand Signages crafts modern signage solutions that leave a lasting impact. Here’s how we are the best sign board manufacturers in Chennai:
-                </p>    
-                <ul>
-                    <li>We utilize advanced technology to design superior-quality sign boards in Chennai.</li>
-                    <li>Customized sign board solutions by Brand Signages are crafted to align with your brand’s vision.</li>
-                    <li>We create high-resolution, visually captivating graphics that leave a lasting impact.</li>
-                </ul>
+                <p class="brand-description">
+                Signages & sign boards are the most powerful branding tools to introduce, inform, and guide potential audiences. We are proud of our proficiency 
+                in signage design services in Chennai for a decade. Our product range includes <a href="{{route('led_display_board_in_chennai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
+                       <a href="{{route('leading_digital_signages_manufacturer_in_chennai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
+                       <a href="{{route('acrylic_signages_in_chennai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic signage </a>,
+                       <a href="{{route('custom_neon_sign_board_in_chennai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon signage </a>, and
+                       <a href="{{route('metal_sign_in_chennai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">metal signage </a>.   
+                </p>
+                <ul class="process-list">
+                        <li>
+                        </i><span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-map-marker-alt "></i> Location:</span>Senate Space, W-126, 3rd Floor, 3rd Avenue, Anna Nagar, Chennai -600040 
+                        </li>
+                        <li>
+                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-phone"></i> Phone: </span><a href="tel:8006606080" class="text-decoration-none text-black">+91
+                        8006606080</a>
+                        </li>
+                        <li>
+                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-envelope"></i>
+                             Email: </span> <a href="mailto:info@brandsinage.com"
+                        class="text-decoration-none text-black">sales@brandsignages.com</a>
+                        </li>
+                    </ul>
             </div>
         </div>
     </div>
 </section>
 <x-coustom-inquiry-form />
+
+<section class="process-section">
+        <div class="container">
+            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-design">
+                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
+                        </div>
+                        <h3>On-demand Design</h3>
+                        <p>Our creative team of sign board makers in Chennai offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-deliver">
+                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
+                        </div>
+                        <h3>Timely Deliver</h3>
+                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
+                            project completion without compromising quality or design integrity.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-purchase">
+                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
+                        </div>
+                        <h3>Direct Purchase</h3>
+                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative
+                            brilliance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+        <h2 class="hero-title">We are The Leading <br>Signage Manufacturers in Chennai</h2>
+        <p class="card-text text-center">As one of the leading signboard manufacturers in Chennai, we offer signage solutions creatively crafted to meet the diverse needs of all businesses. From advanced LED sign boards to elegant acrylic signage, each type serves a unique purpose and adds value to your brand. Here are the kinds of sign boards in Chennai you can opt from:</p>
+
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="showcase-image">
+                    <img src="{{asset('frontend/Images/new/signage-in-chennai-10.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <h2 class="brand-title">LED Sign Boards</h2>
+                <p class="brand-description">
+                    LED Sign boards are widely recognized for its observability and energy-efficiency. LED signs are perfect for storefronts, restaurants, and commercial places. Our LED signage boards are visually remarkable and simple to maintain.
+                <a href="{{route('led_display_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
+                </p>
+                <h2 class="brand-title">Acrylic Sign Boards </h2>
+                <p class="brand-description">
+                    Our acrylic signage is ideal for indoor as well as outdoor usage. Lightweight and persistent, these sign boards can be tailored with your brand's logo and message. Acrylic led letters can also be attached for an illuminating outcome. 
+                    <a href="{{route('acrylic_signages_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
+                </p>
+                <h2 class="brand-title">Metal Sign Boards</h2>
+                <p class="brand-description">
+                    Strong and durable, metal sign boards built from stainless steel or aluminum. They are perfect for Corporate office signs, building signs, wayfinder signage, and architectural landmarks. 
+                   <br> <a href="{{route('metal_sign_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6 order-2 order-lg-1">
+                <h2 class="brand-title">Digital Sign Boards</h2>
+                <p class="brand-description">
+                If you require vibrant and communicative signage, our digital signage solutions are the ideal preference. These compose of LED displays, LED signage boards, and other high-tech solutions to retain your audience engrossed. 
+                    <a href="{{route('leading_digital_signages_manufacturer_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
+                </p>
+                <h2 class="brand-title">Custom Sign Boards </h2>
+                <p class="brand-description">
+                    Customized to your branding requirements, custom signage solutions can be made using ACP sign boards wood, or metal. These boards can be outlined to mirror your brand’s exceptional recognition, guaranteeing a permanent impact. 
+                    <a href="{{route('custom_neon_sign_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
+                </p>
+                <h2 class="brand-title">Neon Glow Signs </h2>
+                <p class="brand-description">
+                    Ideal for organizations seeking to make a striking remark, neon signage, and neon signs are vibrant, colorful, and spectacular. They are mostly used in cafes, bars, and entertainment zones, creating a lively ambiance. 
+                    <a href="{{route('custom_neon_sign_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
+                </p>
+            </div>
+
+            <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
+                <div class="showcase-image">
+                    <img src="{{asset('frontend/Images/new/signage-in-chennai-11.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 <section class="why-bg-light-pink py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Best Signage Solutions for Businesses in Chennai</h2>
+            <p class="card-text text-center">
+                We offer customized signage solutions for several industries, making certain that your brand is highlighted. As expert sign board manufacturers, we provide a huge array of signage alternatives to fulfill your needs. We guarantee that our sign boards are long-lasting, efficient, and noticeable. Let us assist your business in making a lasting influence!
+                </p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-4.webp')}}" class="why-card-img-top"
+                        alt="Signage Manufacturing Company in Chennai ">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Healthcare Industry  </h3>
+                        <p class="card-text">We outline signage boards that assist in supporting patients and guests, along with wayfinding signage, building signage, and digital signage for hospitals, clinics, and healthcare centers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-5.webp')}}" class="why-card-img-top"
+                        alt="Signage Manufacturing Company in Chennai">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Restaurant & Hospitality</h3>
+                        <p class="card-text">Our sign work comprises LED signage boards, outdoor signs, and acrylic signage that improves the ambiance and assists customers in seamlessly steering your restaurant, cafe, or hotel.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-55.webp')}}" class="why-card-img-top"
+                            alt="Signage Manufacturing Company in Chennai">
+                        <div class="card-body why-card-body px-0">
+                            <h3 class="why-text-red mb-3"> Retail Businesses</h3>
+                            <p class="card-text">We generate custom signage solutions such as acrylic LED letters, LED displays, and corrugated box signage that pull attention to your outlet, boosting your products and services efficiently.</p>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-6.webp')}}" class="why-card-img-top"
+                        alt="Signage Manufacturing Company in Chennai">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Corporate Offices</h3>
+                        <p class="card-text"> We offer polished and competent signage alternatives like stainless steel and ACP sign boards for your office or building. These consist of directional signage, office branding, and informative signage.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-77.webp')}}" class="why-card-img-top"
+                        alt="Signage Manufacturing Company in Chennai">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Custom Signage  </h3>
+                        <p class="card-text">Whether you require an LED sign, ACP sign, or acrylic signage, our team of proficient designers will produce a solution that suits your brand flawlessly. From sign boards to ignited displays, we provide back-to-back signage pattern and installation services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-4.webp')}}" class="why-card-img-top"
+                                    alt="Signage Manufacturing Company in Chennai">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Healthcare Industry  </h3>
+                                    <p class="card-text">We outline signage boards that assist in supporting patients and guests, along with wayfinding signage, building signage, and digital signage for hospitals, clinics, and healthcare centers.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-5.webp')}}" class="why-card-img-top"
+                                    alt="Signage Manufacturing Company in Chennai">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Restaurant & Hospitality</h3>
+                                    <p class="card-text">Our sign work comprises LED signage boards, outdoor signs, and acrylic signage that improves the ambiance and assists customers in seamlessly steering your restaurant, cafe, or hotel.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-55.webp')}}" class="why-card-img-top"
+                                    alt="Signage Manufacturing Company in Chennai">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3"> Retail Businesses</h3>
+                                    <p class="card-text">We generate custom signage solutions such as acrylic LED letters, LED displays, and corrugated box signage that pull attention to your outlet, boosting your products and services efficiently.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/events-mumbai.webp')}}" class="why-card-img-top"
+                                    alt="Signage Manufacturing Company in Chennai">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Event Signage</h3>
+                                    <p class="card-text">Event signage is a go-to choice for your brand's live performance - a strategic communication tool that guides, inspires, and connects. We can create large-scale brand signages to create cohesive experiences, amplify your message, and leave a memorable impression.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-6.webp')}}" class="why-card-img-top"
+                                    alt="Signage Manufacturing Company in Chennai">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Corporate Offices</h3>
+                                    <p class="card-text">Corporate office signage reflects your company's theme- professionalism, innovation, and purpose-driven. As the best, sign board manufacturer, we will produce thoughtfully designed signs to communicate your organization's values, culture, and commitment to excellence.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-77.webp')}}" class="why-card-img-top"
+                                    alt="Signage Manufacturing Company in Chennai">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Custom Signage  </h3>
+                                    <p class="card-text">Whether you require an LED sign, ACP sign, or acrylic signage, our team of proficient designers will produce a solution that suits your brand flawlessly. From sign boards to ignited displays, we provide back-to-back signage pattern and installation services.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="why-carousel-controls" style="top: -45px;">
+                <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                    data-bs-slide="prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                    data-bs-slide="next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="carousel-indicators why-carousel-indicators">
+                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="why-bg-light-pink py-5" style="background-color: #fff;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>Your Signage Needs in Chennai?</h2>
+                <p class="card-text">With a team of expert designers and skilled craftsmen, we deliver high-quality signage solutions. 
+                    Our expertise ensures your brand captures customer attention effectively.</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Consulting">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">On-site consulting & planning</h3>
+                            <p class="card-text">Our team will work closely with you and listen to your POV and brand
+                                message. We will provide exactly what you need, no guesswork, no hassle, just
+                                personalized and strategic planning for your business.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
+                            <p class="card-text">As creators of brand signage, we think that signs should not be
+                                visually boring. We will create visuals that will become the talk of the town. Our team
+                                members will marry creativity and smart thinking to make your brand pop.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Support">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
+                            <p class="card-text">We treat signboards as art pieces, which means our work is not done
+                                with just the installations. Moreover, we take special care while doing so, checking the
+                                placement is perfect from every angle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/time-delivery.webp')}}" class="why-card-img-top" alt="Quality">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
+                            <p class="card-text">Delays and excuses are the bane of our existence. We know that a lot is
+                                riding on our signage solutions, and that’s why we deliver digital signage solutions
+                                within the deadline set ahead by the clients.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
+                        <div class="card-body px-0">
+                            <h3 class="why-text-red mb-3">Quality material</h3>
+                            <p class="card-text">We prioritize the material quality to ensure they can withstand harsh
+                                weather and normal wear and tear. Our flexes and outdoor signs will tell the story for
+                                years and keep the brand’s visual identity sharp.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="signageCarouselNew" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Consulting">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">On-site consulting & planning</h3>
+                                        <p class="card-text">Our team will work closely with you and listen to your POV
+                                            and brand message. We will provide exactly what you need, no guesswork, no
+                                            hassle, just personalized and strategic planning for your business.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
+                                        <p class="card-text">As creators of brand signage, we think that signs should
+                                            not be visually boring. We will create visuals that will become the talk of
+                                            the town. Our team members will marry creativity and smart thinking to make
+                                            your brand pop.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Workforce">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
+                                        <p class="card-text">We treat signboards as art pieces, which means our work is
+                                            not done with just the installations. Moreover, we take special care while
+                                            doing so, checking the placement is perfect from every angle.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Support">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
+                                        <p class="card-text">We treat signboards as art pieces, which means our work is
+                                            not done with just the installations. Moreover, we take special care while
+                                            doing so, checking the placement is perfect from every angle. <br> <br> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/time-delivery.webp')}}" class="why-card-img-top" alt="Quality">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
+                                        <p class="card-text">Delays and excuses are the bane of our existence. We know
+                                            that a lot is riding on our signage solutions, and that’s why we deliver
+                                            digital signage solutions within the deadline set ahead by the clients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="why-card card">
+                                    <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
+                                    <div class="card-body why-card-body px-0">
+                                        <h3 class="why-text-red mb-3">Quality material</h3>
+                                        <p class="card-text">We prioritize the material quality to ensure they can
+                                            withstand harsh weather and normal wear and tear. Our flexes and outdoor
+                                            signs will tell the story for years and keep the brand’s visual identity
+                                            sharp.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-carousel-controls" style="top: -45px;">
+                    <button id="prevButtonNew" class="why-carousel-control" type="button" data-bs-target="#signageCarouselNew"
+                        data-bs-slide="prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button id="nextButtonNew" class="why-carousel-control" type="button" data-bs-target="#signageCarouselNew"
+                        data-bs-slide="next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    
+                </div>
+    
+                <div class="carousel-indicators why-carousel-indicators" style="margin-bottom: -0.8rem;">
+                    <button type="button" data-bs-target="#signageCarouselNew" data-bs-slide-to="0" class="active"
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#signageCarouselNew" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--<section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for Sign Boards in Chennai?  </h2>
@@ -216,93 +661,8 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Services Provided by Our Sign <br>Board Makers in Chennai</h2>
-        <p class="card-text text-center">As one of the leading signboard manufacturers in Chennai, we offer signage solutions creatively crafted to meet the diverse needs of all businesses. From advanced LED sign boards to elegant acrylic signage, each type serves a unique purpose and adds value to your brand. Here are the kinds of sign boards in Chennai you can opt from:</p>
-
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-in-chennai-10.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <h2 class="brand-title">LED Sign Boards</h2>
-                <p class="brand-description">
-                    These are widely recognized for its observability and energy-efficiency. LED sign boards offer lively lighting, confirming your message exists day and night. They are perfect for storefronts, restaurants, and commercial places. Attainable in made-to-order designs, they serve organizations of all sizes.
-                <a href="{{route('led_display_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-                <h2 class="brand-title">Acrylic Sign Boards </h2>
-                <p class="brand-description">
-                    Acknowledged for their lustrous and sleek look, acrylic signage is suitable for indoor as well as outdoor branding. It provides longevity and a competent look, making it a treasured one for offices and retail outlets. Its weather-proof attributes make it a wonderful preference for outdoor usage. 
-                    <a href="{{route('acrylic_signages_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-                <h2 class="brand-title">Metal Sign Boards</h2>
-                <p class="brand-description">
-                    Strong and durable, metal sign boards built from stainless steel or aluminum are ideal for generating a superior influence. They are perfect for corporate places, monuments, and architectural landmarks. They radiate luxury while rendering brilliant longevity.  
-                   <br> <a href="{{route('metal_sign_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-
-        <div class="row align-items-center">
-
-            <div class="col-lg-6 order-2 order-lg-1">
-                <h2 class="brand-title">Digital Sign Boards</h2>
-                <p class="brand-description">
-                    These digital signs and LED displays permit extensive content presentation. They are universal, making them appropriate for promotions, advertisements, and prompt updates in malls or events. They provide high noticeability and adjustability for several implementations.
-                    <a href="{{route('leading_digital_signages_manufacturer_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-                <h2 class="brand-title">Custom Sign Boards </h2>
-                <p class="brand-description">
-                    Customized to your branding requirements, general signage solutions are obtainable in substances like ACP sign boards wood, or metal. These boards can be outlined to mirror your brand’s exceptional recognition, guaranteeing a permanent impact. 
-                    <a href="{{route('custom_neon_sign_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-                <h2 class="brand-title">Neon Glow Signs </h2>
-                <p class="brand-description">
-                    Ideal for organizations seeking to make a striking remark, neon signage, and neon signs are vibrant, colorful, and spectacular. They are usually utilized in cafes, bars, and entertainment zones, generating a lively ambiance. 
-                    <a href="{{route('custom_neon_sign_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-            </div>
-
-            <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-in-chennai-11.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai" class="img-fluid">
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-in-chennai-12.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <h2 class="brand-title">LED Signs </h2>
-                <p class="brand-description">
-                    These multifaceted LED signs are available in several shapes and sizes and are commonly used for security, steerage, or decorative reasons. They are also utilized as backlit boards for a contemporary and luxurious feel, merging practicality with beauty.
-                  <br>  <a href="{{route('led_display_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <section class="mt-lg-5">
