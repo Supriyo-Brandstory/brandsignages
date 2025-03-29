@@ -416,7 +416,7 @@
 
     <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Benefits of LED Sign Boards for Businesses</h2>
+        <h2 class="hero-title">Choose LED Sign Boards for Maximum Impact</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -427,7 +427,7 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    <b>Eye-Catching Designs -</b> LED signage boards use dynamic digital screens and make your brand stand out.</p>
+                    <b>Eye-Catching Designs -</b>LED signage boards captivate attention with vibrant, high-resolution displays. Their dynamic visuals enhance brand visibility and leave a lasting impression.</p>
                 <p class="brand-description">
                     <b>Powerful Tool for Advertising -</b> LED signboards offer customized content and illuminated options for attracting customers and boosting visibility.</p>
                 <p class="brand-description">
@@ -437,8 +437,8 @@
                     <b>Installation & Maintenance -</b> Other than traditional sign boards, it does not require upkeep. LED signage boards are lightweight and easy-to-install solutions. 
                 </p>    
                 <p class="brand-description">
-                As a premier LED signage manufacturer company, we stay updated with industry standards. We have a team of experienced designers and a management unit to maintain 
-                operations.
+                As a leading LED signage manufacturer, we ensure our signboards meet industry standards with innovative designs, energy efficiency, and durability, making them an ideal choice for businesses 
+                looking for high-impact and long-lasting branding solutions.
                 </p>
             </div>
         </div>

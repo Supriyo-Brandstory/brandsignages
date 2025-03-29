@@ -43,6 +43,47 @@
     </div>
 </section>
 
+<x-coustom-inquiry-form />
+
+<section class="process-section">
+        <div class="container">
+            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-design">
+                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
+                        </div>
+                        <h3>On-demand Design</h3>
+                        <p>Our creative team of sign board makers in Bangalore offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-deliver">
+                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
+                        </div>
+                        <h3>Timely Deliver</h3>
+                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
+                            project completion without compromising quality or design integrity.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-purchase">
+                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
+                        </div>
+                        <h3>Direct Purchase</h3>
+                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative
+                            brilliance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
@@ -265,7 +306,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Benefits of LED Sign Boards</h2>
+        <h2 class="hero-title">Choose LED Sign Boards for Maximum Impact</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -276,7 +317,7 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    <b>Eye-Catching Designs -</b> LED signage boards use dynamic digital screens and make your brand stand out.</p>
+                    <b>Eye-Catching Designs -</b>LED signage boards captivate attention with vibrant, high-resolution displays. Their dynamic visuals enhance brand visibility and leave a lasting impression.</p>
                 <p class="brand-description">
                     <b>Powerful Tool for Advertising -</b> LED signboards offer customized content and illuminated options for attracting customers and boosting visibility.</p>
                 <p class="brand-description">
@@ -286,9 +327,8 @@
                     <b>Installation & Maintenance -</b> Other than traditional sign boards, it does not require upkeep. LED signage boards are lightweight and easy-to-install solutions. 
                 </p>    
                 <p class="brand-description">
-                As a premier LED signage manufacturer company, we stay updated with industry standards. We have a team of experienced designers and a management unit to maintain 
-                operations. Being trusted by 100+ businesses, we provide the best signage design and manufacturing services all over India. We are also a leading manufacturer of 
-                digital signage working with top companies. 
+                As a leading LED signage manufacturer, we ensure our signboards meet industry standards with innovative designs, energy efficiency, and durability, making them an ideal choice for businesses 
+                looking for high-impact and long-lasting branding solutions.
                 </p>
             </div>
         </div>
