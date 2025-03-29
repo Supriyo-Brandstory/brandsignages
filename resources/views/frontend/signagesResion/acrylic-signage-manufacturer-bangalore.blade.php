@@ -35,11 +35,11 @@
 
                 </p>  
                 <p class="brand-description">
-                    Brand Signages is a top-tier acrylic sign board manufacturer in Bangalore. We provide acrylic LED signs, transparent boards, acrylic wall signs, and custom acrylic sign board designs to fulfill your extraordinary requirements. Our experts design premium quality acrylic sign boards that uplift your brand’s existence. Showcase your brand's identity with expertly designed acrylic sign boards from Brand Signages.
+                <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages </a>is a top-tier acrylic sign board manufacturer in Bangalore. We provide acrylic LED signs, transparent boards, acrylic wall signs, and custom acrylic sign board designs to fulfill your extraordinary requirements. Our experts design premium quality acrylic sign boards that uplift your brand’s existence. Showcase your brand's identity with expertly designed acrylic sign boards from Brand Signages.
 
                 </p>
                 <p class="brand-description">
-                    At Brand Signages, we understand the essence of creating a lasting impact through effective branding. Our acrylic sign boards are crafted with innovation & precision, ensuring they not only enhance the aesthetic of your space but also communicate your brand’s values.
+                    At Brand Signages, we understand the essence of creating a lasting impact through effective branding. Our <a href="{{route('arcylic_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic sign boards </a>are crafted with innovation & precision, ensuring they not only enhance the aesthetic of your space but also communicate your brand’s values.
                 </p>
             </div>
         </div>
@@ -712,7 +712,7 @@
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Yes, acrylic signage in Bangalore is perfect for outdoor usage. Our outdoor acrylic products, comprising acrylic LED signages and ACP sign boards, are weather-proof and long-lasting, making them ideal for all sorts of environmental circumstances.</p>
+                <p>Yes, acrylic signages are perfect for outdoor usage. Our outdoor acrylic products, comprising acrylic LED signages and ACP sign boards, are weather-proof and long-lasting, making them ideal for all sorts of environmental circumstances.</p>
             </div>
         </div>
 

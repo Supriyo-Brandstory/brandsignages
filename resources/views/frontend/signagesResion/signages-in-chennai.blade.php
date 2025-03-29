@@ -49,7 +49,7 @@
                 </p>
                 <ul class="process-list">
                         <li>
-                        </i><span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-map-marker-alt "></i> Location:</span>Senate Space, W-126, 3rd Floor, 3rd Avenue, Anna Nagar, Chennai -600040 
+                        </i><span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-map-marker-alt "></i> Location: </span>Senate Space, W-126, 3rd Floor, 3rd Avenue, Anna Nagar, Chennai -600040 
                         </li>
                         <li>
                         <span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-phone"></i> Phone: </span><a href="tel:8006606080" class="text-decoration-none text-black">+91
