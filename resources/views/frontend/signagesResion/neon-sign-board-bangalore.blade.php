@@ -101,7 +101,7 @@
                 <img src="{{asset('frontend/Images/neonsign-bangalore6.webp')}}" alt="Neon Signs for Bar" class="w-100 h-100">
                 <div class="overlay">
                     <h5 class="text-title">Neon Signs for Bar</h5>
-                    <p class="text-content">Attach lively energy to your bar with fashionable neon signs in Bangalore. Formulate an embracing environment with regular neon sign boards depicting bold colors and stunning designs.</p>
+                    <p class="text-content">Add vibrant energy to your bar with stylish neon signs. Create an inviting atmosphere with custom neon sign boards featuring bold colors and eye-catching designs.</p>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@
                         <img src="{{asset('frontend/Images/neonsign-bangalore7.webp')}}" alt="Neon Lights for Restaurants" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Neon Lights for Restaurants</h5>
-                            <p class="text-content">Promote your restaurant’s atmosphere with extraordinary neon lights in Bangalore. Best suited for signage or decor, these custom neon signs in Bangalore give a feel of contemporary elegance to your dining area.</p>
+                            <p class="text-content">Elevate your restaurant’s atmosphere with bold, custom neon lights that seamlessly blend style and function. With their sleek, modern appeal, neon lights bring a fresh energy to any restaurant setting.</p>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                         <img src="{{asset('frontend/Images/neonsign-bangalore8.webp')}}" alt="Neon Sign Logo" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Neon Sign Logo</h5>
-                            <p class="text-content">Stand aloof with a customized neon sign logo for your brand. Whether for a corporate office or a retail shop, our glow sign boards implant life in your logo in a shining, unforgettable manner.</p>
+                            <p class="text-content">Stand aloof with a customized neon sign logo for your brand. Whether for a corporate office or a retail shop, sign boards implant life in your logo in a shining, unforgettable manner.</p>
                         </div>
                     </div>
                 </div>

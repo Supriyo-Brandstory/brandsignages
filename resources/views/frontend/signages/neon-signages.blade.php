@@ -51,6 +51,71 @@
     </div>
 </section>
 
+<section class="container py-5">
+    <div class="row g-4 d-flex flex-wrap justify-content-center">
+
+        <div class="text-center ">
+            <h2 class="display-4 mb-3 why-text-heading">Custom-Made Neon Light Signs for Your Space</h2>
+            <p class="card-text text-center">We produce high-class neon lights in Bangalore for all setups. Redesign your place with glow <br> signage shaped just for you!</p>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="image-container position-relative">
+                <img src="{{asset('frontend/Images/neonsign-bangalore6.webp')}}" alt="Neon Signs for Bar" class="w-100 h-100">
+                <div class="overlay">
+                    <h5 class="text-title">Neon Signs for Bar</h5>
+                    <p class="text-content">Add vibrant energy to your bar with stylish neon signs. Create an inviting atmosphere with custom neon sign boards featuring bold colors and eye-catching designs.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/neonsign-bangalore7.webp')}}" alt="Neon Lights for Restaurants" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Neon Lights for Restaurants</h5>
+                            <p class="text-content">Elevate your restaurant’s atmosphere with bold, custom neon lights that seamlessly blend style and function. With their sleek, modern appeal, neon lights bring a fresh energy to any restaurant setting.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/neonsign-bangalore8.webp')}}" alt="Neon Sign Logo" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Neon Sign Logo</h5>
+                            <p class="text-content">Stand aloof with a customized neon sign logo for your brand. Whether for a corporate office or a retail shop, sign boards implant life in your logo in a shining, unforgettable manner.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/neonsign-bangalore9.webp')}}" alt="Neon Sign Party Decor" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Neon Sign Party Decor</h5>
+                            <p class="text-content">Spice up your parties with innovative neon LED signs. From birthdays to weddings, our custom neon signs make for memorable party decor that brightens up your festivities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/neonsign-bangalore10.webp')}}" alt="Neon Signs for Home" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Neon Signs for Home</h5>
+                            <p class="text-content">Give individuality to your living area with tailored neon sign boards. Whether for a comfort zone or your entertainment zone, these LED signage pieces are ideal for home decor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 
 <section class="why-bg-light-pink py-lg-5 py-md-3 py-sm-2 py-3">
     <div class="container">
