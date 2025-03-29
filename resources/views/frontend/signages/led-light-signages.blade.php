@@ -56,7 +56,8 @@
                         alt="Acrylic LED Sign Board">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Acrylic LED Sign Board</h3>
-                        <p class="card-text">Acrylic LED Sign Boards have versatile uses to enhance brand impact and visibility. They are one of the most used LED signage boards for restaurants and cafes, retail stores, event exhibitions, corporate offices, hotel resorts, and shopping malls' outdoor advertising. Our Acrylic LED sign board can create a lasting impression and a strong identity for your business.</p>
+                        <p class="card-text">Acrylic LED Sign Board is a visually appealing signage solution made from durable acrylic material, illuminated with LED lights. These are one of the most used signage boards for restaurants and cafes, retail stores, event exhibitions, corporate offices, hotel resorts, shopping malls, and outdoor advertising. 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -65,7 +66,7 @@
                     <img src="{{asset('frontend/Images/led-signage4.webp')}}" class="why-card-img-top" alt="Digital LED Display Boards">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Digital LED Display Boards</h3>
-                        <p class="card-text">Turn your display board to Digital LED display boards. It is an ideal choice for advertising. Any type of retail store or outlet can use it to promote their offer or newly launched product. It can create an impressive customer experience that helps to get potential customers. We provide high-resolution Digital LED sign boards that attract your new customers.</p>
+                        <p class="card-text">Digital LED Display Boards use LED technology to display dynamic content, including text, images, and videos. Any type of retail store or outlet can use it to promote their offer or newly launched product with interactive digital LED screens. It can create an impressive customer experience and attract foot traffic. </p>
                     </div>
                 </div>
             </div>
@@ -74,8 +75,8 @@
                     <img src="{{asset('frontend/Images/led-signage5.webp')}}" class="why-card-img-top"
                         alt="Digital Backlit Boards">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Digital Backlit Boards</h3>
-                        <p class="card-text">It is another famous light box used in the educational, health, and retail sectors. Digital backlit boards are the perfect choice for making brand names unforgettable. They ensure high engagement in the crowd. By placing in strategic spots and using striking design, backlit signs can establish a strong brand presence.</p>
+                        <h3 class="why-text-red mb-3">LED Backlit Boards</h3>
+                        <p class="card-text">LED Backlit Boards are illuminated signboards where LED lights are placed behind the display surface, creating a glowing effect. Digital backlit boards are the perfect choice for making brand names unforgettable. By placing them in strategic spots and striking design, backlit signs can establish a strong brand presence.</p>
                     </div>
                 </div>
             </div>
@@ -85,7 +86,7 @@
                         alt="LED Reverse Light Sign">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
-                        <p class="card-text">Our quality LED Reverse Light Sign is perfect for storefronts, exhibitions, and vehicles. It can capture your visitors or customer’s attention instantly. Strategically placed in high-traffic areas or mobile platforms, LED reverse light signs ensure your message stands out, day or night.</p>
+                        <p class="card-text">LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, creating a halo or glow effect around the letters. LED Reverse Light Sign is perfect for storefronts, exhibitions, and vehicles. Strategically placed in high-traffic areas or mobile platforms, LED reverse light signs ensure your message stands out, day or night.</p>
                     </div>
                 </div>
             </div>
@@ -95,7 +96,7 @@
                         alt="LED Message Boards">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">LED Message Boards</h3>
-                        <p class="card-text">Boost your brand communication with our LED message boards. If you're looking for captivating message boards that can easily communicate with your customers or visitors, LED message boards are the best option. You can use it for promotions or to convey crucial information. Choose from our dynamic range of LED message boards to light up your brand message.</p>
+                        <p class="card-text">LED Message Boards are digital display boards that use LED technology to showcase customizable text and messages, ideal for real-time updates, advertisements, and information display. If you're looking for captivating message boards that can easily communicate with your customers or visitors, LED message boards are the best option. </p>
                     </div>
                 </div>
             </div>
@@ -105,7 +106,7 @@
                         alt="Glowing Light Sign Boards">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Glowing Light Sign Boards</h3>
-                        <p class="card-text">The glowing sign board is mostly used as a sign to enhance brand visibility. Our glowing light sign board is ideal for cafes, storefronts, exhibitions, malls, or event spaces. Choose our customizable designs that match your demand, maintain your brand aesthetics, and elevate your business presence effectively.</p>
+                        <p class="card-text">Glowing Light Sign Boards are illuminated signage solutions that use LED or neon lights to create a vibrant, eye-catching glow. Glowing light sign board is ideal for cafes, storefronts, exhibitions, malls, or event spaces.</p>
                     </div>
                 </div>
             </div>
@@ -122,7 +123,8 @@
                                     alt="Acrylic LED Sign Board">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Acrylic LED Sign Board</h3>
-                                    <p class="card-text">Acrylic LED Sign Boards have versatile uses to enhance brand impact and visibility. They are one of the most used LED signage boards for restaurants and cafes, retail stores, event exhibitions, corporate offices, hotel resorts, and shopping malls' outdoor advertising. Our Acrylic LED sign board can create a lasting impression and a strong identity for your business.</p>
+                                    <p class="card-text">Acrylic LED Sign Board is a visually appealing signage solution made from durable acrylic material, illuminated with LED lights. These are one of the most used signage boards for restaurants and cafes, retail stores, event exhibitions, corporate offices, hotel resorts, shopping malls, and outdoor advertising. 
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +133,7 @@
                                 <img src="{{asset('frontend/Images/led-signage4.webp')}}" class="why-card-img-top" alt="Digital LED Display Boards">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Digital LED Display Boards</h3>
-                                    <p class="card-text">Turn your display board to Digital LED display boards. It is an ideal choice for advertising. Any type of retail store or outlet can use it to promote their offer or newly launched product. It can create an impressive customer experience that helps to get potential customers. We provide high-resolution Digital LED sign boards that attract your new customers.</p>
+                                    <p class="card-text">Digital LED Display Boards use LED technology to display dynamic content, including text, images, and videos. Any type of retail store or outlet can use it to promote their offer or newly launched product with interactive digital LED screens. It can create an impressive customer experience and attract foot traffic.</p>
                                 </div>
                             </div>
                         </div>
@@ -140,8 +142,8 @@
                                 <img src="{{asset('frontend/Images/led-signage5.webp')}}" class="why-card-img-top"
                                     alt="Digital Backlit Boards">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Digital Backlit Boards</h3>
-                                    <p class="card-text">It is another famous light box used in the educational, health, and retail sectors. Digital backlit boards are the perfect choice for making brand names unforgettable. They ensure high engagement in the crowd. By placing in strategic spots and using striking design, backlit signs can establish a strong brand presence.</p>
+                                    <h3 class="why-text-red mb-3">LED Backlit Boards</h3>
+                                    <p class="card-text">LED Backlit Boards are illuminated signboards where LED lights are placed behind the display surface, creating a glowing effect. Digital backlit boards are the perfect choice for making brand names unforgettable. By placing them in strategic spots and striking design, backlit signs can establish a strong brand presence.</p>
                                 </div>
                             </div>
                         </div>
@@ -155,7 +157,7 @@
                                     alt="LED Reverse Light Sign">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
-                                    <p class="card-text">Our quality LED Reverse Light Sign is perfect for storefronts, exhibitions, and vehicles. It can capture your visitors or customer’s attention instantly. Strategically placed in high-traffic areas or mobile platforms, LED reverse light signs ensure your message stands out, day or night.</p>
+                                    <p class="card-text">LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, creating a halo or glow effect around the letters. LED Reverse Light Sign is perfect for storefronts, exhibitions, and vehicles. Strategically placed in high-traffic areas or mobile platforms, LED reverse light signs ensure your message stands out, day or night.</p>
                                 </div>
                             </div>
                         </div>
@@ -165,7 +167,7 @@
                                     alt="LED Message Boards">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">LED Message Boards</h3>
-                                    <p class="card-text">Boost your brand communication with our LED message boards. If you're looking for captivating message boards that can easily communicate with your customers or visitors, LED message boards are the best option. You can use it for promotions or to convey crucial information. Choose from our dynamic range of LED message boards to light up your brand message.</p>
+                                    <p class="card-text">LED Message Boards are digital display boards that use LED technology to showcase customizable text and messages, ideal for real-time updates, advertisements, and information display. If you're looking for captivating message boards that can easily communicate with your customers or visitors, LED message boards are the best option. </p>
                                 </div>
                             </div>
                         </div>
@@ -175,7 +177,7 @@
                                     alt="Glowing Light Sign Boards">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Glowing Light Sign Boards</h3>
-                                    <p class="card-text">The glowing sign board is mostly used as a sign to enhance brand visibility. Our glowing light sign board is ideal for cafes, storefronts, exhibitions, malls, or event spaces. Choose our customizable designs that match your demand, maintain your brand aesthetics, and elevate your business presence effectively.</p>
+                                    <p class="card-text">Glowing Light Sign Boards are illuminated signage solutions that use LED or neon lights to create a vibrant, eye-catching glow. Glowing light sign board is ideal for cafes, storefronts, exhibitions, malls, or event spaces.</p>
                                 </div>
                             </div>
                         </div>
@@ -203,7 +205,6 @@
         </div>
     </div>
 </section>
-
 
 <section class="container py-lg-5 py-md-3 py-sm-2 py-3">
     <div class="row g-4 d-flex flex-wrap justify-content-center">
@@ -275,14 +276,14 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Eye-Catching Designs - LED signage boards use dynamic digital screens and make your brand stand out.</p>
+                    <b>Eye-Catching Designs -</b> LED signage boards use dynamic digital screens and make your brand stand out.</p>
                 <p class="brand-description">
-                    Powerful Tool for Advertising - LED signboards offer customized content and illuminated options for attracting customers and boosting visibility.</p>
+                    <b>Powerful Tool for Advertising -</b> LED signboards offer customized content and illuminated options for attracting customers and boosting visibility.</p>
                 <p class="brand-description">
-                    Long-Lasting Durability - These signages are designed with energy-efficient technology to ensure low electricity consumption and extended lifespan. 
+                    <b>Long-Lasting Durability -</b> These signages are designed with energy-efficient technology to ensure low electricity consumption and extended lifespan. 
                 </p>
                 <p class="brand-description">
-                    Installation & Maintenance - Other than traditional sign boards, it does not require upkeep. LED signage boards are lightweight and easy-to-install solutions. 
+                    <b>Installation & Maintenance -</b> Other than traditional sign boards, it does not require upkeep. LED signage boards are lightweight and easy-to-install solutions. 
                 </p>    
                 <p class="brand-description">
                 As a premier LED signage manufacturer company, we stay updated with industry standards. We have a team of experienced designers and a management unit to maintain 
