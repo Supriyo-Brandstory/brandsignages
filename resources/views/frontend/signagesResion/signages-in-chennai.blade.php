@@ -30,7 +30,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/anna-salai-chennai.webp')}}" alt="Anna Salai Chennai Image" class="img-fluid">
+                    <img src="{{asset('frontend/Images/anna-salai-chennai.webp')}}" alt="Anna Salai Chennai Image" class="img-fluid">
                 </div>
             </div>
 
