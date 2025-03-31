@@ -42,7 +42,7 @@
 
                     </p>
                 <p class="brand-description">
-                    Brand Signages, a leading digital signage manufacturer in Chennai, offers innovative solutions, including LED sign boards, digital kiosks, and interactive displays. We design interactive digital display boards to elevate communication and improve customer experiences. Whether it’s a wall-mounted digital display or a free-standing signage kiosk, Brand Signages Chennai-based digital signage vendor to meet your specific needs, creating a visually stunning way to interact with customers.
+                    Brand Signages, a leading digital <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">signage manufacturers in Chennai</a>, offers innovative solutions, including LED sign boards, digital kiosks, and interactive displays. We design interactive digital display boards to elevate communication and improve customer experiences. Whether it’s a wall-mounted digital display or a free-standing signage kiosk, Brand Signages Chennai-based digital signage vendor to meet your specific needs, creating a visually stunning way to interact with customers.
 
                 </p>
                 <p class="brand-description">

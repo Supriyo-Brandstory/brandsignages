@@ -54,7 +54,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for Neon Sign Board in Chennai?</h2>
-            <p class="card-text text-center">When it comes to adding a remarkable visual aspect to your space, custom neon sign boards in Chennai by Brand Signages is the best. As specialists in offering standardized neon sign boards, we provide products that merge beauty, longevity, and operationality. Here’s why Brand Signage is the finest choice for your neon glow boars:
+            <p class="card-text text-center">When it comes to adding a remarkable visual aspect to your space, <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages Chennai</a>is the best. As specialists in offering standardized neon sign boards, we provide products that merge beauty, longevity, and operationality. Here’s why Brand Signage is the finest choice for your neon glow boars:
             </p>
         </div>
 

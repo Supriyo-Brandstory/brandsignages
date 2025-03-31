@@ -68,7 +68,7 @@
   
                 </p>
                 <p class="brand-description">
-                    Brand Signages is the premier acrylic sign board manufacturers in Chennai, offering premium signage solutions for top companies. From shining acrylic signage to spectacular acrylic LED signage boards, we offer top-quality solutions for every need. We design best-quality and weather-resistant acrylic signs to ensure a lasting performance. 
+                    Brand Signages is the premier acrylic <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">sign board manufacturers in Chennai</a>, offering premium signage solutions for top companies. From shining acrylic signage to spectacular acrylic LED signage boards, we offer top-quality solutions for every need. We design best-quality and weather-resistant acrylic signs to ensure a lasting performance. 
                 </p>
                 <p class="brand-description">Our acrylic display alternatives comprise wall-mounted acrylic sign boards, acrylic LED sign boards, and transparent sign boards, which are ideal for using indoor and outdoor spaces. Enhance your branding with high-class acrylic signages in Chennai from Brand Signages. </p>
 
