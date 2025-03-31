@@ -49,16 +49,14 @@
                 </p>
                 <ul class="process-list">
                         <li>
-                        </i><span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-map-marker-alt "></i> Location: </span>Senate Space, W-126, 3rd Floor, 3rd Avenue, Anna Nagar, Chennai -600040 
+                            We start by collaborating with you to understand your industry type, brand's essence, target audience, and communication goals.
                         </li>
                         <li>
-                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-phone"></i> Phone: </span><a href="tel:8006606080" class="text-decoration-none text-black">+91
-                        8006606080</a>
+                            Our designers then create detailed specifications, selecting colors, typography, and materials, while leveraging advanced technology for accurate brand representation.
                         </li>
                         <li>
-                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-envelope"></i>
-                             Email: </span> <a href="mailto:info@brandsinage.com"
-                        class="text-decoration-none text-black">sales@brandsignages.com</a>
+                            Finally, we conduct thorough quality control to ensure each signage meets visual and structural standards.
+
                         </li>
                     </ul>
             </div>
