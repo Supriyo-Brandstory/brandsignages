@@ -209,7 +209,9 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.led-sign-board-in-bangalore', compact('seo'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',9)->take(3)->get();
+
+        return view('frontend.signagesResion.led-sign-board-in-bangalore', compact('seo','blogs'));
     }
 
     public function hospital_signages_in_bangalore()
@@ -250,7 +252,7 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->take(2)->get();
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',2)->take(3)->get();
         return view('frontend.signagesResion.signages-in-chennai', compact('seo','blogs'));
     }
     public function acrylic_signages_in_chennai()
