@@ -1,16 +1,34 @@
 @extends('frontend.layout.appLayout')
 @section('content')
 
-
+<style>
+    .process-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    color: #474747;
+}
+    </style>
 
 <section class="carousel-section">
 
 
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Manufacturing Company in Chennai">
+                <div class="carousel-caption-custom">
+                    <h1>Best Sign Board Manufacturers in Chennai- Brand Signages</h1>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
+                </div>
+            </div>    
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/new/signage-in-chennai-1.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai">
                 <div class="carousel-caption-custom">
-                    <h1>Top Sign Board Manufacturers in Chennai- Brand Signages</h1>
+                    <h1>Trusted Signage Manufacturers in Chennai- Brand Signages Chennai</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -37,7 +55,7 @@
             <div class="col-lg-6">
             <h2 class="brand-title">Expert Signage Manufacturers in Chennai</h2>
                 <p class="brand-description">
-                Looking for a reliable signage maker in Chennai? Brand Signages is the premier signage manufacturers in Chennai with 10+ years of rich industry experience. As a leading signage company located in Chennai, we design premium-quality sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Chennai, Mumbai, <a href="{{route('signage_in_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore</a>, and all over India.         
+                Are you looking for a reliable signage maker in Chennai? Brand Signages is the premier sign board manufacturers in Chennai with 10+ years of industry expertise. As a leading signage company located in Chennai, we design premium-quality sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Chennai, Mumbai, <a href="{{route('signage_in_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore</a>, and all over India.         
                 </p>
                 <p class="brand-description">
                 Signages & sign boards are the most powerful branding tools to introduce, inform, and guide potential audiences. We are proud of our proficiency 
@@ -49,14 +67,16 @@
                 </p>
                 <ul class="process-list">
                         <li>
-                            We start by collaborating with you to understand your industry type, brand's essence, target audience, and communication goals.
+                        </i><span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-map-marker-alt "></i> Location:</span> Senate Space, W-126, 3rd Floor, 3rd Avenue, Anna Nagar, Chennai -600040 
                         </li>
                         <li>
-                            Our designers then create detailed specifications, selecting colors, typography, and materials, while leveraging advanced technology for accurate brand representation.
+                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-phone"></i> Phone: </span><a href="tel:8006606080" class="text-decoration-none text-black">+91
+                        8006606080</a>
                         </li>
                         <li>
-                            Finally, we conduct thorough quality control to ensure each signage meets visual and structural standards.
-
+                        <span style="text-decoration: unset; color: #E43D12; font-weight: bold;"><i class="fas fa-envelope"></i>
+                             Email: </span> <a href="mailto:info@brandsinage.com"
+                        class="text-decoration-none text-black">sales@brandsignages.com</a>
                         </li>
                     </ul>
             </div>
@@ -750,7 +770,7 @@
                         <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                     </div>
                     <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">We purchased an acrylic signboard for our restaurant, and it looks wonderful. Honestly one of the finest sign board manufacturers in Bangalore</p>
+                        <p class="card-text testimonial-card-text">We purchased an acrylic signboard for our restaurant, and it looks wonderful. Honestly one of the finest sign board manufacturers in Chennai</p>
                         <hr class="yellow-line">
                         <div class="client-info">
                             <img src="{{asset('frontend/Images/new/signage-in-chennai-22.webp')}}" alt="Priya Sharma" class="client-img">
@@ -893,7 +913,7 @@
                                     <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                                 </div>
                                 <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The outdoor sign they formed for our store is noticeable and resistant. The glow sign is attractive at night. Brand Signages Bangalore is our one-stop signage company!</p>
+                                    <p class="card-text testimonial-card-text">The outdoor sign they formed for our store is noticeable and resistant. The glow sign is attractive at night. Brand Signages Chennai is our one-stop signage company!</p>
                                     <hr class="yellow-line">
                                     <div class="client-info">
                                         <img src="{{asset('frontend/Images/new/signage-in-chennai-23.webp')}}" alt="Ankit Patel" class="client-img">
@@ -972,7 +992,64 @@
 
 <section class="faq-section">
     <div class="faq-container">
-        <h1 class="faq-title">FAQS</h1>
+        <h1 class="faq-title">Signages Chennai FAQs</h1>
+
+        <div class="faq-item">
+                <button class="faq-question">
+                    What is Signage Used for?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Signage or branding signs are used for various purposes across different industries to communicate messages, enhance branding, and enhance navigation. Here are the key uses of signage:</p>
+                    <ul>
+                        <li>Branding & Marketing – Businesses use signage to display their logo, promote offers, and enhance brand visibility.</li>
+                        <li>Wayfinding & Navigation – Helps people find directions in malls, hospitals, offices, and public spaces.</li>
+                        <li>Safety & Compliance – Includes fire safety signs, construction signs, and hazard warnings to ensure safety.</li>
+                        <li>Retail & Advertising – Digital and traditional signage in stores to promote products and boost sales.</li>
+                        <li>Corporate & Office Use – Nameplates, department signs, and meeting room displays for organization and professionalism.</li>
+                        <li>Event & Exhibition Signage – Used for banners, standees, and digital screens to guide attendees.</li>
+                        <li>Informational Signage – Displays important messages, notices, or public announcements.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How Do I Choose a Signage?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Choosing a signage depends on many factors, including your business type, location, and branding goals. Here’s how to make the right choice:</p>
+                    <ul>
+                        <li>Purpose – Determine whether the signage is for branding, wayfinding, promotions, or safety.</li>
+                        <li>Location & Visibility – Choose signage that stands out in your environment, whether indoor or outdoor.</li>
+                        <li>Right Material – Opt for durable materials based on weather conditions and usage.</li>
+                        <li>Design & Readability – Ensure the signage has clear fonts, high-contrast colors, and an eye-catching design.</li>
+                        <li>The Right Lighting – Consider LED or illuminated signs for better visibility, especially at night.</li>
+                        <li>Hire Professionals – Collaborate with expert sign board manufacturers to get a high-quality, customized solution.</li>
+                    </ul>
+                </div>
+            </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                 Can I Get a Sample before Placing a Bulk Order?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, you can definately place order for a single piece. This will help you know about the quality, durability, and design of our signage products before placing bulk ordwers. We want you to be completely satisfied with your choice, so feel free to request a sample to ensure it meets your expectations before making a commitment.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                 Can I Get a Sample before Placing a Bulk Order?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, you can definately place order for a single piece. This will help you know about the quality, durability, and design of our signage products before placing bulk ordwers. We want you to be completely satisfied with your choice, so feel free to request a sample to ensure it meets your expectations before making a commitment.</p>
+            </div>
+        </div>
 
         <div class="faq-item">
             <button class="faq-question">
