@@ -11,6 +11,14 @@
     </style>
 
 <section class="carousel-section">
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            
+        </div>
 
 
         <div class="carousel-inner">
@@ -40,6 +48,7 @@
         </div>
     </div>
 </section>
+
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">Uplift Your Brand with Premier<br>Sign Board Manufacturers in Chennai </h2>
