@@ -888,68 +888,41 @@
 </section>
 
  
-    {{-- <section>
-        <div class="container my-5">
-            <h2 class="text-center mb-5 card-heading">Core Components of Our Digital Signage Systems</h2>
+<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Digital Signage</h2>
+            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the digital signage through our articles.</p>
 
-            <div class="row g-4 cards-row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="card">
-                        <img src="https://placehold.co/600x300.png" class="card-img-top" alt="Retail Signages & Retail Branding">
-                        <div class="card-body">
-                            <h5 class="card-title">Cloud-based Digital Signage</h5>
-                            <p class="card-text">Cloud-based digital signage offers unmatched flexibility and scalability. Content and configurations are stored on remote servers, accessible online, enabling centralized management of multiple displays across locations. Updates deploy instantly, eliminating on-site adjustments. Real-time monitoring ensures flawless operation, while encrypted data and backups enhance security. Integration with tools like social media or analytics boosts engagement. Ideal for businesses of all sizes, it scales effortlessly without major infrastructure costs, providing a cost-effective, efficient solution for dynamic communication. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="card">
-                        <img src="https://placehold.co/600x300.png" class="card-img-top" alt="Metal Signage Manufacturer in Bangalore">
-                        <div class="card-body">
-                            <h5 class="card-title">Digital Signage CMS</h5>
-                            <p class="card-text">The Digital Signage CMS is the heart of content management, offering an intuitive platform to create, schedule, and distribute displays. Users can design layouts, upload media, and schedule content for specific times or events. Templates and drag-and-drop tools simplify use, while integrations with weather or news feeds add dynamism. Multi-user access with permissions supports teamwork, and centralized control ensures updates reach all screens instantly. Analytics offer performance insights, making it a powerful tool for effective, adaptable communication.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="card">
-                        <img src="https://placehold.co/600x300.png" class="card-img-top" alt="Storefront Signage">
-                        <div class="card-body">
-                            <h5 class="card-title">Signage Widgets</h5>
-                            <p class="card-text">Signage widgets are modular tools that enhance displays with dynamic content. From weather updates to social media feeds, these customizable apps keep audiences engaged. Managed via the CMS, widgets like QR codes or timers integrate seamlessly, requiring no coding skills. They deliver real-time info, such as traffic or stock updates, or promote interaction with promotions. Their flexibility ensures content stays fresh and relevant, making widgets a vital component for boosting the utility and appeal of digital signage systems.</p>
-                        </div>
-                    </div>
-                </div>
-              
+        </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="card">
-                        <img src="https://placehold.co/600x300.png" class="card-img-top" alt="Retractable Banners">
-                        <div class="card-body">
-                            <h5 class="card-title">Signage Players</h5>
-                            <p class="card-text">Signage players are the hardware or software engines that power digital displays, ensuring content is rendered smoothly and reliably. These devices connect screens to the CMS, pulling content from the cloud or local storage. Available as standalone units or apps on smart TVs, they support high-definition playback and diverse formats like video or animations. Advanced players offer offline caching, ensuring uninterrupted display during connectivity issues. With remote management, businesses can troubleshoot and update players easily, making them essential for delivering consistent, high-quality signage experiences.</p>
+        <div class="row">
+            @foreach ($blogs as $blog)
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
+                    <div class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge">{{ strtoupper($blog->topic) }}</span>
+                                <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+                            </div>
+                            <h5 class="blog-card-title">{{ $blog->title }}</h5>
+                            <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
+                            </p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="card">
-                        <img src="https://placehold.co/600x300.png" class="card-img-top"
-                            alt=" Indoor Signage Manufacturer in Bangalore">
-                        <div class="card-body">
-                            <h5 class="card-title">Interactive Kiosks</h5>
-                            <p class="card-text">Interactive kiosks transform signage into engaging, user-driven experiences (ref: NoviSign). Equipped with touchscreens, these systems allow customers to browse products, access information, or complete transactions. Integrated with digital signage software, kiosks display dynamic content like maps or menus, customizable via the CMS. They support multi-touch gestures and can integrate with payment systems or QR codes, enhancing functionality. Ideal for retail, hospitality, or public spaces, interactive kiosks boost engagement, streamline services, and provide valuable data on user interactions, making them a powerful tool for modern businesses.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-12 contact-section">
-                    <p class="card-text"><strong>Your brand identity is the silent ambassador of your business. At Brand Signages, we don’t just design sign boards—we craft experiences that leave a lasting impression. As premier signage makers in Bangalore, we bring innovation, precision, and artistry to every design. Let’s illuminate your brand—connect with us today!</strong></p>
-                    <a href="{{route('contact_us')}}">
-                        <button class="contact-btn">Contact Us</button>
-                    </a>
-                </div>
+                </a>
+            </div>
+            @endforeach
+            <div class="text-center">
+            <a href="{{ route('blogs') }}">
+                <button class="contact-btn">See All Blogs</button>
+            </a>
             </div>
         </div>
-    </section> --}}
-   
+    </div>
+</section>
 @endsection

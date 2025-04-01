@@ -533,4 +533,41 @@
 
     </div>
 </section>
+<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Digital Signage</h2>
+            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the digital signage through our articles.</p>
+
+        </div>
+
+        <div class="row">
+            @foreach ($blogs as $blog)
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
+                    <div class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge">{{ strtoupper($blog->topic) }}</span>
+                                <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+                            </div>
+                            <h5 class="blog-card-title">{{ $blog->title }}</h5>
+                            <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            @endforeach
+            <div class="text-center">
+            <a href="{{ route('blogs') }}">
+                <button class="contact-btn">See All Blogs</button>
+            </a>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection

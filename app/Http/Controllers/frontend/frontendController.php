@@ -53,7 +53,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signages.digital-signages', compact('seo'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',3)->take(3)->get();
+        return view('frontend.signages.digital-signages', compact('seo','blogs'));
     }
     public function outdoor_signages()
     {
@@ -77,7 +78,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signages.led-light-signages', compact('seo'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',9)->take(3)->get();
+        return view('frontend.signages.led-light-signages', compact('seo','blogs'));
     }
     public function hospital_signages()
     {
@@ -187,7 +189,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.digital-signage-company-bangalore', compact('seo'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',3)->take(3)->get();
+        return view('frontend.signagesResion.digital-signage-company-bangalore', compact('seo','blogs'));
     }
     public function neon_sign_board_bangalore()
     {
@@ -247,7 +250,7 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
+        $blogs = Blog::orderBy('id', 'desc')->take(2)->get();
         return view('frontend.signagesResion.signages-in-chennai', compact('seo','blogs'));
     }
     public function acrylic_signages_in_chennai()

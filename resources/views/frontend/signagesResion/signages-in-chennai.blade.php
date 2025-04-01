@@ -1050,15 +1050,6 @@
             </div>
         </div>
 
-        <div class="faq-item">
-            <button class="faq-question">
-                 Can I Get a Sample before Placing a Bulk Order?
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>Yes, you can definately place order for a single piece. This will help you know about the quality, durability, and design of our signage products before placing bulk ordwers. We want you to be completely satisfied with your choice, so feel free to request a sample to ensure it meets your expectations before making a commitment.</p>
-            </div>
-        </div>
 
         <div class="faq-item">
             <button class="faq-question">
