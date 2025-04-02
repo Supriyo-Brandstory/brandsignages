@@ -793,8 +793,8 @@
 <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Digital Signage</h2>
-            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the digital signage through our articles.</p>
+            <h2 class="display-4 mb-3 why-text-heading">Latest Articles on LED Signboards</h2>
+            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the LED signboards through our articles.</p>
 
         </div>
 
