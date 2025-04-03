@@ -306,7 +306,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Choose LED Sign Boards for Maximum Impact</h2>
+        <h2 class="hero-title">Why Choose LED Sign Boards for Maximum Impact</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
