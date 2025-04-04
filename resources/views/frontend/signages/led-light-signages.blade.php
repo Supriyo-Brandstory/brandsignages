@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/led-signage1.webp')}}" alt="LED Signage">
                 <div class="carousel-caption-custom">
-                    <h1>Top LED Sign Board Manufacturers and Suppliers</h1>
+                    <h1>Top LED Sign Board Manufacturers and Suppliers in Bangalore</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -19,7 +19,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Best LED Signage Board Manufacturers for Custom LED Signs</h2>
+        <h2 class="hero-title">Best LED Signage Board Manufacturers <br>in Bangalore for Custom LED Signs</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -33,7 +33,7 @@
                     LED sign boards are a modern branding solution with compact digital screens used in storefronts, banks, hospitals, and almost everywhere. Different from traditional signage, LED sign boards show dynamic content on digital displays providing better visibility and impact. 
                     </p>
                     <p class="brand-description">
-                    Being an industry-leading LED signage manufacturer, Brand Signages offers energy-efficient LED sign boards. We combine quality and innovation to design energy-efficient LED sign boards. From amazing LED reverse light signs, and digital LED to acrylic LED signages we offer a range of solutions. 
+                    Being an industry-leading LED signage manufacturer in Bangalore, Brand Signages offers energy-efficient LED sign boards. We combine quality and innovation to design energy-efficient LED sign boards. From amazing LED reverse light signs, and digital LED to acrylic LED signages we offer a range of solutions. 
                     </p>
                     <p class="brand-description">
                     Brand Signages is the best LED sign board manufacturers, trusted by top businesses. With over a decade of expertise, we have worked with 100+ businesses across India.  
@@ -251,7 +251,7 @@
     <div class="row g-4 d-flex flex-wrap justify-content-center">
 
         <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for LED Sign Boards</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for LED Sign <br>Boards in Bangalore</h2>
             <p class="card-text testimonial-card-text">Because we are the top-tier LED signage manufacturers backed with 10+ years of expertise. Whether it is a<br> glowing LED sign board or acrylic LED signs, each sign board offers exceptional performance and designed <br>to reflect your brand identity.</p>
         </div>
 
@@ -596,6 +596,26 @@
                             <li>Customizable: You can easily personalize your light sign board according to your brand image.</li>
                         </ul>
                     </ul>     
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What types of LED signboards are ideal for businesses in Bangalore?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Businesses in Bangalore can benefit from various LED signboards, including 2D and 3D LED signs for retail stores, glow signboards for restaurants and cafes, acrylic LED signs for corporate offices, and digital signage for malls and commercial spaces. Brand Signages offers customized solutions with a dedicated manufacturing facility to meet your specific needs.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Are LED sign boards suitable for promoting my retail store?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Definitely! LED signboards are highly efficient for retail store promotion, as they are transparent day and night, long-lasting, and energy-saving. They seize awareness and offer lucid information, making them perfect for any enterprise.</p>
             </div>
         </div>
 
