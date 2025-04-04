@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/coffee-shop-menu.webp')}}" alt="Acrylic Signage -Coffee Shop Menu">
                 <div class="carousel-caption-custom">
-                    <h1>Best Acrylic Signage Boards: Eye-catching Signages</h1>
+                    <h1>Best Acrylic Sign Board Manufacturers in Bangalore- Brand Signages</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -20,7 +20,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">Modern & Versatile Acrylic Signboards at Brand Signages</h2>
+        <h2 class="hero-title">Modern & Versatile Acrylic Signboards <br>in Bangalore at Brand Signages</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -30,12 +30,12 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">#1 Acrylic Signages for Your Branding</h2>
+                <h2 class="brand-title">#1 Acrylic Signages in Bangalore for Your Branding</h2>
                 <p class="brand-description">
                 Branding is more important than ever to establish your brand identity and engage customers. Signage is the most important branding asset and a way to represent your brand. Among all other options, acrylic sign boards are the premier choice for companies, available in different designs and colors. Also, acrylic sign board is the sleekest and most visually striking signage suited for indoor and outdoor use. 
                 </p>
                 <p class="brand-description">
-                Brand Signages is the top provider of custom acrylic sign boards with eye-catching 3D designs. We design multicolor, stylish, and 3D acrylic boards (laser cut) to make your brand stand apart. Whether you need acrylic signs for corporate offices, retail stores, events, or outdoor acrylic signs for storefronts and public spaces, we are a trusted name in the industry. Our experts design weather-resistant and high-quality acrylic signages to ensure long-lasting durability. 
+                Brand Signages is the top provider of custom acrylic sign boards in Bangalore with eye-catching 3D designs. We design multicolor, stylish, and 3D acrylic boards (laser cut) to make your brand stand apart. Whether you need acrylic signs for corporate offices, retail stores, events, or outdoor acrylic signs for storefronts and public spaces, we are a trusted name in the industry. Our experts design weather-resistant and high-quality acrylic signages to ensure long-lasting durability. 
                 </p>
                 <p class="brand-description">
                 You can choose from transparent acrylic signs, 3D letters, and LED-illuminated acrylic signboards that are designed to grab attention. Whether you want to enhance your storefront or transform your office interior, our expertly designed acrylic signages will ensure the maximum impact and engagement.

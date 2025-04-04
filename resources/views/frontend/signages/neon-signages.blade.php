@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Slide 1">
                 <div class="carousel-caption-custom">
-                    <h1>Best Neon Sign Company in India: Creative & Bright Neons</h1>
+                    <h1>Best Neon Sign Boards Bangalore: Creative & Bright Neons</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -18,21 +18,21 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Best Neon Sign Company for Eye-Catching Signages</h2>
+        <h2 class="hero-title">Best Neon Sign Board Manufacturers <br>for Eye-Catching Signages</h2>
         
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/neon-image2.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                    <img src="{{asset('frontend/Images/neon-image2.webp')}}" alt="Neon sign boards Bangalore" class="img-fluid">
                 </div>
             </div>
             
             <div class="col-lg-6">
-            <h2 class="brand-title">#1 Neon Signs Manufacturer</h2>
+            <h2 class="brand-title">#1 Neon Sign Boards</h2>
                 <p class="brand-description">
                 Neon signage has become a trending element of modern branding, enhancing both personal & professional spaces. Neon sign boards are designed to add a vibrant touch and make your space visually appealing. These are used in restaurants, retail stores, offices, homes, and events to create a vibrant & eye-catching ambiance. It can be a perfect go-to option to create your unique brand identity and attract customers.</p>
                 <p class="brand-description">
-                Brand Signages stands out as the best neon sign company, offering custom neon signage design options. Top businesses rely on us for custom-made neon signs that perfectly combine quality and style. Our expert custom neon sign manufacturers pay close attention to your needs and preferences when making the signs. Thus, we ensure that you get top-notch neon signs that can bring your dream ambiance to life with stunning illumination.</p>
+                Brand Signages is a leading name in neon sign board Bangalore, offering custom neon signage design options. Top businesses rely on us for custom-made neon signs that perfectly combine quality and style. Our expert custom neon sign manufacturers pay close attention to your needs and preferences when making the signs. Thus, we ensure that you get top-notch neon signs that can bring your dream ambiance to life with stunning illumination.</p>
                 <p class="brand-description">
                 Whether it is neon signs for shops and offices, our every product undergoes detailed quality checks and thus we provide best-in-class neon signs for you. Being made of the highest-quality material, our neon signs can be used for diverse purposes including advertising, decoration, gifting, etc. Get quality neon signs crafted according to your individual preferences from Brand Signage and enliven your space effortlessly.</p>
                 <ul class="process-list">
@@ -480,6 +480,16 @@
         </div>
       </div>
   
+      <div class="faq-item">
+        <button class="faq-question">
+            What is The Delivery Timing for a Neon Sign Order?
+          <i class="faq-icon fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p>The delivery timing for neon sign boards in Bangalore generally is between 7-10 business days, based on the personalization and order size.</p>
+        </div>
+      </div>
+
       <div class="faq-item">
         <button class="faq-question">
             How Long Do Neon Light Signs Typically Last?
