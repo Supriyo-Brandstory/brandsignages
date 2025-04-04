@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Slide 1">
                 <div class="carousel-caption-custom">
-                    <h1>Best Neon Sign Boards Bangalore: Creative & Bright Neons</h1>
+                    <h1>Best Neon Sign Boards : Creative & Bright Neons</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -23,7 +23,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/neon-image2.webp')}}" alt="Neon sign boards Bangalore" class="img-fluid">
+                    <img src="{{asset('frontend/Images/neon-image2.webp')}}" alt="Neon sign boards " class="img-fluid">
                 </div>
             </div>
             
@@ -32,7 +32,12 @@
                 <p class="brand-description">
                 Neon signage has become a trending element of modern branding, enhancing both personal & professional spaces. Neon sign boards are designed to add a vibrant touch and make your space visually appealing. These are used in restaurants, retail stores, offices, homes, and events to create a vibrant & eye-catching ambiance. It can be a perfect go-to option to create your unique brand identity and attract customers.</p>
                 <p class="brand-description">
-                Brand Signages is a leading name in neon sign board Bangalore, offering custom neon signage design options. Top businesses rely on us for custom-made neon signs that perfectly combine quality and style. Our expert custom neon sign manufacturers pay close attention to your needs and preferences when making the signs. Thus, we ensure that you get top-notch neon signs that can bring your dream ambiance to life with stunning illumination.</p>
+                Brand Signages is a leading name in neon sign board  
+                
+                <a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore </a>, 
+                <a href="{{route('neon_sign_board_in_mumbai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;"> Mumbai </a>, and
+                 <a href="{{route('custom_neon_sign_board_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;"> Chennai </a>,
+             offering custom neon signage design options. Top businesses rely on us for custom-made neon signs that perfectly combine quality and style. Our expert custom neon sign manufacturers pay close attention to your needs and preferences when making the signs. Thus, we ensure that you get top-notch neon signs that can bring your dream ambiance to life with stunning illumination.</p>
                 <p class="brand-description">
                 Whether it is neon signs for shops and offices, our every product undergoes detailed quality checks and thus we provide best-in-class neon signs for you. Being made of the highest-quality material, our neon signs can be used for diverse purposes including advertising, decoration, gifting, etc. Get quality neon signs crafted according to your individual preferences from Brand Signage and enliven your space effortlessly.</p>
                 <ul class="process-list">
@@ -56,12 +61,12 @@
 
         <div class="text-center ">
             <h2 class="display-4 mb-3 why-text-heading">Custom-Made Neon Light Signs for Your Space</h2>
-            <p class="card-text text-center">We produce high-class neon lights in Bangalore for all setups. Redesign your place with glow <br> signage shaped just for you!</p>
+            <p class="card-text text-center">We produce high-class neon lights  for all setups. Redesign your place with glow <br> signage shaped just for you!</p>
         </div>
 
         <div class="col-lg-4">
             <div class="image-container position-relative">
-                <img src="{{asset('frontend/Images/neonsign-bangalore6.webp')}}" alt="Neon Signs for Bar" class="w-100 h-100">
+                <img src="{{asset('frontend/Images/neonsign-6.webp')}}" alt="Neon Signs for Bar" class="w-100 h-100">
                 <div class="overlay">
                     <h5 class="text-title">Neon Signs for Bar</h5>
                     <p class="text-content">Add vibrant energy to your bar with stylish neon signs. Create an inviting atmosphere with custom neon sign boards featuring bold colors and eye-catching designs.</p>
@@ -73,7 +78,7 @@
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/neonsign-bangalore7.webp')}}" alt="Neon Lights for Restaurants" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/neonsign-7.webp')}}" alt="Neon Lights for Restaurants" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Neon Lights for Restaurants</h5>
                             <p class="text-content">Elevate your restaurant’s atmosphere with bold, custom neon lights that seamlessly blend style and function. With their sleek, modern appeal, neon lights bring a fresh energy to any restaurant setting.</p>
@@ -83,7 +88,7 @@
 
                 <div class="col-lg-6">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/neonsign-bangalore8.webp')}}" alt="Neon Sign Logo" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/neonsign-8.webp')}}" alt="Neon Sign Logo" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Neon Sign Logo</h5>
                             <p class="text-content">Stand aloof with a customized neon sign logo for your brand. Whether for a corporate office or a retail shop, sign boards implant life in your logo in a shining, unforgettable manner.</p>
@@ -93,7 +98,7 @@
 
                 <div class="col-lg-8">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/neonsign-bangalore9.webp')}}" alt="Neon Sign Party Decor" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/neonsign-9.webp')}}" alt="Neon Sign Party Decor" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Neon Sign Party Decor</h5>
                             <p class="text-content">Spice up your parties with innovative neon LED signs. From birthdays to weddings, our custom neon signs make for memorable party decor that brightens up your festivities.</p>
@@ -103,7 +108,7 @@
 
                 <div class="col-lg-4">
                     <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/neonsign-bangalore10.webp')}}" alt="Neon Signs for Home" class="w-100 h-100">
+                        <img src="{{asset('frontend/Images/neonsign-10.webp')}}" alt="Neon Signs for Home" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Neon Signs for Home</h5>
                             <p class="text-content">Give individuality to your living area with tailored neon sign boards. Whether for a comfort zone or your entertainment zone, these LED signage pieces are ideal for home decor.</p>
@@ -486,7 +491,7 @@
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>The delivery timing for neon sign boards in Bangalore generally is between 7-10 business days, based on the personalization and order size.</p>
+          <p>The delivery timing for neon sign boards  generally is between 7-10 business days, based on the personalization and order size.</p>
         </div>
       </div>
 

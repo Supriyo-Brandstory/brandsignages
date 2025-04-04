@@ -6,7 +6,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/led-signage1.webp')}}" alt="LED Signage">
                 <div class="carousel-caption-custom">
-                    <h1>Top LED Sign Board Manufacturers and Suppliers in Bangalore</h1>
+                    <h1>Top LED Sign Board Manufacturers and Suppliers</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -19,7 +19,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Best LED Signage Board Manufacturers <br>in Bangalore for Custom LED Signs</h2>
+        <h2 class="hero-title">Best LED Signage Board Manufacturers <br> for Custom LED Signs</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -33,7 +33,11 @@
                     LED sign boards are a modern branding solution with compact digital screens used in storefronts, banks, hospitals, and almost everywhere. Different from traditional signage, LED sign boards show dynamic content on digital displays providing better visibility and impact. 
                     </p>
                     <p class="brand-description">
-                    Being an industry-leading LED signage manufacturer in Bangalore, Brand Signages offers energy-efficient LED sign boards. We combine quality and innovation to design energy-efficient LED sign boards. From amazing LED reverse light signs, and digital LED to acrylic LED signages we offer a range of solutions. 
+                    Being an industry-leading LED signage manufacturer in 
+                    <a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore </a>, 
+                   <a href="{{route('led_display_board_in_mumbai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;"> Mumbai </a>, and
+                    <a href="{{route('led_display_board_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;"> Chennai </a>,
+                    Brand Signages offers energy-efficient LED sign boards. We combine quality and innovation to design energy-efficient LED sign boards. From amazing LED reverse light signs, and digital LED to acrylic LED signages we offer a range of solutions. 
                     </p>
                     <p class="brand-description">
                     Brand Signages is the best LED sign board manufacturers, trusted by top businesses. With over a decade of expertise, we have worked with 100+ businesses across India.  
