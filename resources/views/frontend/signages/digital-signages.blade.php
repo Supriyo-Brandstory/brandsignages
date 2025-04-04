@@ -42,7 +42,7 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">#1 Digital Signage Vendor in Banganore, India</h2>
+                <h2 class="brand-title">#1 Digital Signage Supplier Company</h2>
                 <p class="brand-description">
                 Digital signage has emerged as an essential tool for enhancing visual communication using multimedia content like text, images, and videos. LCD and LED digital display boards offer dynamic and engaging ways to convey brand messages in corporate offices, retail, hospitality, restaurants, and banking industries. Brand Signages is the premier digital signage manufacturer, backed by 10+ years of expertise. We utilize software, hardware, and CMS technology to create digital signage that delivers real-time updates for effective communication.
                 </p>
@@ -67,7 +67,7 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Commercial Grade Digital Signage <br> Manufacturers in India</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Commercial Grade Digital Signage <br> Manufacturers</h2>
             <p class="card-text text-center">Brand Signages stands as a leader in digital signage manufacturing, offering high-quality, 
                 commercial grade digital signage solutions. Our <br>custom solutions enhance visibility and engagement, making them perfect for 
                 advertising, sharing information, and boosting customer interaction.</p>
@@ -369,7 +369,7 @@
                     <img src="{{asset('frontend/Images/industry-corporate-office.webp')}}" class="why-card-img-top" alt="Corporate Office">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Corporate Office</h3>
-                        <p class="card-text">We are considered among digital signage comapnies in India because our
+                        <p class="card-text">We are considered among digital signage comapnies because our
                             products enhance internal communication and streamline information sharing. Companies
                             can use digital <a href="https://brandsignages.com/office-signages" style="text-decoration: unset;color:#E43D12">office signages</a> to display announcements showcasing performance metrics.</p>
                     </div>
@@ -746,11 +746,11 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What Industries Can Benefit from Digital Signage?
+            What Digital Signage Solutions Do You Offer for Businesses?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Digital signage companies in India offer comprehensive solutions including hardware (displays, screens),
+                <p>We offer comprehensive solutions including hardware (displays, screens),
                     software (content management), custom content creation, installation, technical support,
                     strategy consulting, and industry-specific digital communication solutions tailored to enhance
                     brand visibility and audience engagement across multiple platforms and environments</p>
