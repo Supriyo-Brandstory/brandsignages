@@ -741,7 +741,7 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What is the delivery time for signboard in Bangalore?
+                What is the lifespan of your LED signboards?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
