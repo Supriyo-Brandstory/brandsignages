@@ -649,6 +649,36 @@
 
         <div class="faq-item">
             <button class="faq-question">
+                How long does a neon signboard last?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Neon signboard typically lasts between 3 to 7 years, depending on usage, weather conditions, and proper maintenance. While the high-quality glass tubes and gases used in neon signs are durable, periodic servicing is necessary to ensure optimal brightness and performance over time.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Do neon signs come with a warranty?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, our neon signs come with a standard warranty of 2 years. The warranty covers manufacturing defects, electrical components, and workmanship issues. For more details, we recommend discussing your specific signage requirements with our team. </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Can neon signs be used outdoors? Are they weatherproof?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, neon signboards can also be used outdoors, but they must be designed for exterior use. Our outdoor neon signs are weatherproof and built with protective materials to withstand rain, dust, and extreme temperatures. If you're looking for neon signage for outdoor use in Bangalore, we ensure the materials and installation are suited for local climate conditions.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
                 Is it possible to customize neon LED signage?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
@@ -659,11 +689,21 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What unique acrylic features can be combined with neon signage?
+                Can I see samples of neon signage designs before ordering?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Acrylic adds durability, elegance, and versatility to neon signage. You can choose from clear, frosted, or colored acrylic backings, 3D layering for depth, and custom-cut shapes to create a striking and professional appearance for your signage.</p>
+                <p>Yes, we provide design mockups on demand before placing an order. You can review our portfolio to see different styles, colors, and layouts we’ve created for various clients.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is the average cost of custom neon sign boards in Bangalore?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>The cost of custom neon sign boards in Bangalore is between ₹5,000 to ₹50,000, depending on the size, design complexity, and color options. Smaller indoor signs are more affordable, while large, detailed outdoor neon signs may cost more due to material and weatherproofing requirements.</p>
             </div>
         </div>
 

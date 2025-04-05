@@ -704,7 +704,7 @@
 
 <section class="faq-section">
     <div class="faq-container">
-        <h1 class="faq-title"> Acrylic Sign FAQS</h1>
+        <h1 class="faq-title"> Acrylic Signage FAQS</h1>
 
         <div class="faq-item">
             <button class="faq-question">
@@ -718,27 +718,65 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What diversities of acrylic signage alternatives does Brand Signages provide?
+                Do you provide acrylic signage installation services in Bangalore?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Brand Signages provides a huge collection of acrylic signage alternatives, comprising acrylic sign boards, acrylic wall signs, acrylic name plates, glow sign boards, LED sign boards, and acrylic LED signs. We offer order-made designs to suit your business requirements.</p>
+                <p>Yes, we offer acrylic signage installation services in Bangalore and PAN India. Our experienced team ensures safe installation, whether it's for office branding, retail stores, reception areas, or outdoor displays. Our experts handle everything from delivery to setup, so you get a hassle-free experience.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                How long can acrylic signage bear environmental circumstances?
+                What is the delivery time for acrylic sign boards in Bangalore?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Acrylic sign boards are highly persistent and can last for a number of years, even in difficult outdoor situations. Our premium quality acrylic signage is made to bear rough weather, UV rays, and other environmental aspects.</p>
+                <p>We deliver acrylic sign boards across Bangalore within 3 to 10 days. The delivery time depends on factors such as design complexity, order volume, and customization. You can talk to our team about your requirements, and we will confirm to deliver your signage at the earliest. </p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                Is any maintenance needed to use acrylic signage?
+                  Do you offer bulk order discounts for acrylic signage in Bangalore?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, we provide discounted pricing on bulk orders for acrylic signage in Bangalore. The exact discount varies based on factors such as the quantity, design complexity, and customization requirements of the order. To learn more about our bulk pricing options, please contact our team with your specific requirements.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                 How does acrylic signage compare to other materials like ACP or metal boards?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Acrylic signage offers a sleek and aesthetic appearance with gloss and clarity, ideal for indoor branding, name plates, and reception signage. Compared to Aluminium Composite Panel or metal boards:
+                </p>
+                <ul>
+                    <li><strong>Acrylic:</strong> Lightweight, versatile, and great for detailed laser cutting and vibrant printing. Ideal for indoor branding and decorative signage.</li>
+                    <li><strong>ACP Boards:</strong> More durable for large outdoor displays and offer better weather resistance. Suitable for shopfronts, hoardings, and external branding.</li>
+                    <li><strong>Metal Boards:</strong> Strong, long-lasting, and best suited for industrial or heavy-duty signage needs. Commonly used in factories and outdoor infrastructure.</li>
+                </ul>
+                <p>You must choose the right option depending on your requirements, use cases, and branding needs. Contact our experts for a detailed consultation.</p> 
+
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is the cost of acrylic sign boards in Bangalore per sq. ft.?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Acrylic sign boards in Bangalore cost around ₹200 to ₹800 per sq. ft., depending on thickness, design complexity, color, printing method, and lighting. Customizations such as 3D lettering, backlighting, or premium finishes could also increase the price. For an exact price estimate, share your requirements with our team.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Is maintenance required for acrylic signage?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">

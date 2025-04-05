@@ -738,6 +738,37 @@
     <div class="faq-container">
         <h1 class="faq-title">LED Signboard FAQS</h1>
 
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is the delivery time for signboard in Bangalore?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>The average lifespan of our LED signboards ranges from 30,000 to 80,000 hours, depending on usage. With adequate care and maintenance, LED signboards can last for 3 to 7 years, making them a long-lasting and cost-effective signage solution for businesses in Bangalore.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is the cost of LED signboards in Bangalore?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>The cost of LED signboards in Bangalore generally ranges from ₹5,000 to ₹1,00,000, depending on factors such as size, complexity, lighting type, and customization needs. Basic LED boards for shops may start around ₹5,000, while larger, high-resolution or digital LED signage for commercial use can go up to ₹1 lakh or more.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Can LED signboards be customized with my brand logo and colors?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, LED signboards can be fully customized to reflect your brand identity. We incorporate your logo, brand colors, fonts, and unique design elements into the signboard to ensure it aligns perfectly with your business and enhances brand visibility.</p>
+            </div>
+        </div>
+
         <div class="faq-item">
             <button class="faq-question">
                 What is the delivery time for signboard in Bangalore?
@@ -745,6 +776,16 @@
             </button>
             <div class="faq-answer">
                 <p>The delivery time for a signboards generally between 5 to 7 working days, based on the design complexity and order volume.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                How energy-efficient are your LED signboards?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Our LED signboards are highly energy-efficient, consuming up to 80% less power than traditional lighting solutions. They are designed with low-energy LED modules that provide bright, consistent illumination while minimizing electricity costs. We create eco-friendly and cost-effective LED signboard solutions for businesses. </p>
             </div>
         </div>
 
