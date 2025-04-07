@@ -751,16 +751,6 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What is the cost of LED signboards in Bangalore?
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>The cost of LED signboards in Bangalore generally ranges from ₹5,000 to ₹1,00,000, depending on factors such as size, complexity, lighting type, and customization needs. Basic LED boards for shops may start around ₹5,000, while larger, high-resolution or digital LED signage for commercial use can go up to ₹1 lakh or more.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question">
                 Can LED signboards be customized with my brand logo and colors?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>

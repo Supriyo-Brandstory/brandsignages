@@ -699,16 +699,6 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What is the average cost of custom neon sign boards in Bangalore?
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>The cost of custom neon sign boards in Bangalore is between ₹5,000 to ₹50,000, depending on the size, design complexity, and color options. Smaller indoor signs are more affordable, while large, detailed outdoor neon signs may cost more due to material and weatherproofing requirements.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question">
                 Can I get a custom neon sign with my company logo and name?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>

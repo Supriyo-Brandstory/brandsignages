@@ -766,16 +766,6 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                What is the cost of acrylic sign boards in Bangalore per sq. ft.?
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>Acrylic sign boards in Bangalore cost around ₹200 to ₹800 per sq. ft., depending on thickness, design complexity, color, printing method, and lighting. Customizations such as 3D lettering, backlighting, or premium finishes could also increase the price. For an exact price estimate, share your requirements with our team.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question">
                 Is maintenance required for acrylic signage?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
