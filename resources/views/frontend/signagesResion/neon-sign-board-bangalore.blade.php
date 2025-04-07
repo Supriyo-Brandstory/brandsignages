@@ -30,15 +30,16 @@
             </div>
 
             <div class="col-lg-6">
-                <p class="brand-description">
-                Looking for neon signs? Unique and spectacular neon signs are the best branding element to enhance your space. Whether it’s for a corporate office, cafe, 
-                or retail store, neon signs are designed to bring a unique charm to any setting. 
-                </p>  
+                
                 <p class="brand-description">
                 Brand Signages is the leading supplier of neon sign board in Bangalore. With over 10 years of experience, we design high-quality and customized neon signs for top businesses. 
                 From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. We design spectacular neon signs perfect for businesses looking for eye-catching, 
                 stylish, and durable signage.
                 </p>
+                <p class="brand-description">
+                    Looking for neon signs? Unique and spectacular neon signs are the best branding element to enhance your space. Whether it’s for a corporate office, cafe, 
+                    or retail store, neon signs are designed to bring a unique charm to any setting. 
+                    </p> 
                 <p class="brand-description">
                 <a href="{{route('neon_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon signs</a> are energy-efficient, long-lasting, and available in a variety of colors and design patterns. Choose from acrylic neon boards, neon glow 
                 signage boards, or custom neon designs to achieve the perfect look for your brand. Whether you need a single sign or bulk orders, we cater to all requirements.
@@ -717,6 +718,43 @@
             </div>
         </div>
 
+    </div>
+</section>
+<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
+            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our articles.</p>
+
+        </div>
+
+        <div class="row">
+            @foreach ($blogs as $blog)
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
+                    <div class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge">{{ strtoupper($blog->topic) }}</span>
+                                <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+                            </div>
+                            <h5 class="blog-card-title">{{ $blog->title }}</h5>
+                            <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            @endforeach
+            <div class="text-center">
+            <a href="{{ route('blogs') }}">
+                <button class="contact-btn">See All Blogs</button>
+            </a>
+            </div>
+        </div>
     </div>
 </section>
 @endsection

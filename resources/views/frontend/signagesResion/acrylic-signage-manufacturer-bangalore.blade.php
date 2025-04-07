@@ -31,13 +31,14 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
+                    <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages </a>is a top-tier acrylic sign board manufacturer in Bangalore. We provide acrylic LED signs, transparent boards, acrylic wall signs, and custom acrylic sign board designs to fulfill your extraordinary requirements. Our experts design premium quality acrylic sign boards that uplift your brand’s existence. Showcase your brand's identity with expertly designed acrylic sign boards from Brand Signages.
+    
+                    </p>
+                <p class="brand-description">
                     Using an acrylic sign board adds a contemporary and polished touch to any space. Whether for a commercial office in Bangalore, retail outlet, or residential property, these high-quality signboards exude professionalism. Products like acrylic nameplates and acrylic wall signs offer a sleek appearance that enhances your branding. Their clean design makes them a popular choice for creating a lasting impression.
 
                 </p>  
-                <p class="brand-description">
-                <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages </a>is a top-tier acrylic sign board manufacturer in Bangalore. We provide acrylic LED signs, transparent boards, acrylic wall signs, and custom acrylic sign board designs to fulfill your extraordinary requirements. Our experts design premium quality acrylic sign boards that uplift your brand’s existence. Showcase your brand's identity with expertly designed acrylic sign boards from Brand Signages.
-
-                </p>
+                
                 <p class="brand-description">
                     At Brand Signages, we understand the essence of creating a lasting impact through effective branding. Our <a href="{{route('arcylic_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic sign boards </a>are crafted with innovation & precision, ensuring they not only enhance the aesthetic of your space but also communicate your brand’s values.
                 </p>
@@ -786,5 +787,41 @@
 
     </div>
 </section>
+<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
+            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our articles.</p>
 
+        </div>
+
+        <div class="row">
+            @foreach ($blogs as $blog)
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
+                    <div class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
+                        </div>
+                        <div class="blog-card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge">{{ strtoupper($blog->topic) }}</span>
+                                <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+                            </div>
+                            <h5 class="blog-card-title">{{ $blog->title }}</h5>
+                            <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            @endforeach
+            <div class="text-center">
+            <a href="{{ route('blogs') }}">
+                <button class="contact-btn">See All Blogs</button>
+            </a>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection

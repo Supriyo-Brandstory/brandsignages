@@ -41,7 +41,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signages.arcylic-signages', compact('seo'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',5)->take(3)->get();
+        return view('frontend.signages.arcylic-signages', compact('seo','blogs'));
     }
     public function metal_signages()
     {
@@ -72,7 +73,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signages.neon-signages', compact('seo'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',8)->take(3)->get();
+        return view('frontend.signages.neon-signages', compact('seo','blogs'));
     }
     public function led_signages()
     {
@@ -177,7 +179,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.acrylic-signage-manufacturer-bangalore', compact('seo'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',5)->take(3)->get();
+        return view('frontend.signagesResion.acrylic-signage-manufacturer-bangalore', compact('seo','blogs'));
     }
     public function steel_signage_manufacturer_bangalore()
     {
@@ -196,7 +199,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signagesResion.neon-sign-board-bangalore', compact('seo'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',8)->take(3)->get();
+        return view('frontend.signagesResion.neon-sign-board-bangalore', compact('seo','blogs'));
     }
 
     public function signage_in_bangalore()
