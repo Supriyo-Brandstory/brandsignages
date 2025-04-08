@@ -449,11 +449,11 @@
         </div>
     </section>
 
-<section class="mt-lg-5">
+<!--<section class="mt-lg-5">
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id='gallery-container'>
         <h2 class="hero-title">Catalogue</h2>
         
-        <!-- First Row -->
+        
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-sign-25.webp')}}" data-lightbox="catalogue" data-title="Image 1">
@@ -477,7 +477,7 @@
             </div>
         </div>
         
-        <!-- Second Row -->
+        
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                 <a href="{{asset('frontend/Images/new/led-sign-21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
@@ -502,7 +502,7 @@
         </div>
 
     </div>
-</section>
+</section>-->
 
 
 
