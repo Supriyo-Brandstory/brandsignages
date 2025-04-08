@@ -42,19 +42,19 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">#1 Digital Signage Supplier Company</h2>
+                <h2 class="brand-title">#1 Digital Signage Company</h2>
                 <p class="brand-description">
-                Digital signage has emerged as an essential tool for enhancing visual communication using multimedia content like text, images, and videos. LCD and LED digital display boards offer dynamic and engaging ways to convey brand messages in corporate offices, retail, hospitality, restaurants, and banking industries. Brand Signages is the premier digital signage manufacturer, backed by 10+ years of expertise. We utilize software, hardware, and CMS technology to create digital signage that delivers real-time updates for effective communication.
+                Brand Signages is the premier digital signage manufacturer, backed by 10+ years of expertise. We have in-house facility for digital signage hardware manufacturing, software, and CMS technology experts. We are an ISO certified digital signage manufacturer and supplier situated in Bangalore, serving clients across PAN India.
                 </p>
                 <ul class="process-list">
                         <li>
-                        <b>Effortless Content Control:</b> Our intelligent digital signage CMS empowers you to schedule, update, and manage content in real-time, ensuring your message is always fresh and relevant.
+                        <b>Effortless Content Control:</b> Our in-house built digital signage CMS empowers you to schedule, update, and manage content in real-time.
                         </li>
                         <li>
-                        <b>Advanced Display Technology:</b> We provide cutting-edge digital display solutions, including ultra-HD screens and interactive kiosks, designed to enhance brand visibility and audience engagement.
+                        <b>Advanced Display Technology:</b> We provide cutting-edge digital displays, including ultra-HD screens and interactive kiosks to enhance brand visibility & engagement.
                         </li>
                         <li>
-                        <b>Smart Network Integration:</b> Our signage systems are seamlessly connected, allowing for instant updates, remote accessibility, and synchronized content delivery across multiple locations.
+                        <b>Smart Network Integration:</b> Our signage CMS systems are seamlessly connected, allowing for instant updates, remote accessibility, and content delivery across multiple locations.
                         </li>
                 </ul>
 
@@ -67,10 +67,9 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Commercial Grade Digital Signage <br> Manufacturers</h2>
-            <p class="card-text text-center">Brand Signages stands as a leader in digital signage manufacturing, offering high-quality, 
-                commercial grade digital signage solutions. Our <br>custom solutions enhance visibility and engagement, making them perfect for 
-                advertising, sharing information, and boosting customer interaction.</p>
+            <h2 class="display-4 mb-3 why-text-heading">Explore Our Products- Digital <br> Signage Manufacturers</h2>
+            <p class="card-text text-center">Brand Signages stands as a leader in digital signage manufacturing, offering high-quality, commercial-grade digital signage and in-house CMS.
+            </p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -253,10 +252,9 @@
                     <div class="image-container position-relative">
                         <img src="{{asset('frontend/Images/digital-sign8.webp')}}" alt="On-time installation" class="w-100 h-100">
                         <div class="overlay">
-                            <h5 class="text-title">On-time installation</h5>
-                            <p class="text-content">Our team ensures on-time installation of all digital signages, 
-                                minimizing downtime and allowing you to start reaping the benefits. We coordinate every aspect 
-                                of the installation process, thus ensuring a seamless transition from planning to execution.</p>
+                            <h5 class="text-title">In-House Experts</h5>
+                            <p class="text-content">From CMS software to digital displays production, we have a dedicated manufacturing unit and in-house team of experts. 
+                                We provide digital signage installation and support services across PAN India. </p>
                         </div>
                     </div>
                 </div>
@@ -266,9 +264,8 @@
                         <img src="{{asset('frontend/Images/digital-sign9.webp')}}" alt="Industry Grade Products" class="w-100 h-100">
                         <div class="overlay">
                             <h5 class="text-title">Industry Grade Products</h5>
-                            <p class="text-content">Our industry-grade digital signs are built to last and perform
-                                under various conditions. We source high-quality materials and leverage the latest
-                                technology to ensure our solutions are reliable and effective.</p>
+                            <p class="text-content">Our digital signages combine robust hardware with advanced display technology and a Content 
+                                Management System. We have a PAN India support network.</p>
                         </div>
                     </div>
                 </div>
@@ -278,10 +275,9 @@
                         <img src="{{asset('frontend/Images/digital-sign10.webp')}}" alt="Experienced professionals"
                             class="w-100 h-100">
                         <div class="overlay">
-                            <h5 class="text-title">Experienced professionals</h5>
-                            <p class="text-content">We are among the best digital signage companies with expertise in
-                                digital signage technology. Our innovative solutions are designed to deliver high-impact, 
-                                dynamic content that drives customer engagement and enhances brand visibility.</p>
+                            <h5 class="text-title">10 Years of Expertise</h5>
+                            <p class="text-content">We are among the best digital signage companies with expertise in digital signage technology. 
+                                We have a modern manufacturing facility for digital signage production.</p>
                         </div>
                     </div>
                 </div>
@@ -290,11 +286,11 @@
                     <div class="image-container position-relative">
                         <img src="{{asset('frontend/Images/digital-sign11.webp')}}" alt="Happy Customer Base" class="w-100 h-100">
                         <div class="overlay">
-                            <h5 class="text-title">Happy Customer Base</h5>
-                            <p class="text-content">Our happy customer base is a testament to our focus on providing tailored customer 
-                                experience and meeting their digital signage needs. Being among the best digital signage companies in india, 
-                                we prioritize understanding your specific requirements and delivering signage solutions that exceed expectations. 
-                                We have received praise for our responsiveness, professionalism, and the impact they have on their communication strategies.</p>
+                            <h5 class="text-title">Network and Customer Support</h5>
+                            <p class="text-content">Being among the best digital signage companies in India, we prioritize understanding your specific 
+                                requirements and delivering digital signage solutions that exceed expectations. We utilize a wide partner network for 
+                                better support and services. 
+                            </p>
                         </div>
                     </div>
                 </div>
