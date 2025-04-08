@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Neon Light Sign Boards in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Premium Neon Sign Light & Sign Boards in Bangalore- Brand Signages</h1>
+                    <h1>Best Neon Sign Board Bangalore- Brand Signages</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
