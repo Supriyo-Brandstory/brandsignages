@@ -36,7 +36,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/new/signage-in-chennai-1.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai">
                 <div class="carousel-caption-custom">
-                    <h1>Trusted Signage Manufacturers in Chennai- Brand Signages Chennai</h1>
+                    <h1>Trusted Signage Company in Chennai- Brand Signages</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -51,7 +51,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Uplift Your Brand with Premier<br>Sign Board Manufacturers in Chennai </h2>
+        <h2 class="hero-title">Uplift Your Brand with Expert<br>Sign Board Manufacturers</h2>
        
 
         <div class="row align-items-center">
@@ -62,9 +62,9 @@
             </div>
 
             <div class="col-lg-6">
-            <h2 class="brand-title">Expert Signage Manufacturers in Chennai</h2>
+            <h2 class="brand-title">Top Signage Makers in Chennai</h2>
                 <p class="brand-description">
-                Are you looking for a reliable signage maker in Chennai? Brand Signages is the premier sign board manufacturers in Chennai with 10+ years of industry expertise. As a leading signage company located in Chennai, we design premium-quality sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Chennai, Mumbai, <a href="{{route('signage_in_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore</a>, and all over India.         
+                Brand Signages is the premier sign board manufacturers in Chennai with 10+ years of industry expertise. As a leading signage company located in Anna Nagar, Chennai, we design premium-quality sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Chennai, Mumbai, <a href="{{route('signage_in_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore</a>, and all over India.         
                 </p>
                 <p class="brand-description">
                 Signages & sign boards are the most powerful branding tools to introduce, inform, and guide potential audiences. We are proud of our proficiency 
