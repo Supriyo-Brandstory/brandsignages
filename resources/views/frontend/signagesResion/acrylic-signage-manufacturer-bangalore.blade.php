@@ -47,50 +47,12 @@
     </div>
 </section>
 
-<section class="process-section">
-        <div class="container">
-            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-design">
-                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
-                        </div>
-                        <h3>On-demand Design</h3>
-                        <p>Our creative team of sign board makers in Bangalore offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-deliver">
-                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
-                        </div>
-                        <h3>Timely Deliver</h3>
-                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
-                            project completion without compromising quality or design integrity.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-purchase">
-                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
-                        </div>
-                        <h3>Direct Purchase</h3>
-                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative
-                            brilliance.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 <section class="container py-5">
     <div class="row g-4 d-flex flex-wrap justify-content-center">
 
         <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">Types of Acrylic Signage Boards We Deliver</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Custom Acrylic Signage Boards for <br>Every Business Need</h2>
         </div>
 
         <div class="col-lg-4">
@@ -149,6 +111,132 @@
 
     </div>
 </section>
+
+<section class="why-bg-light-pink py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Enhance Your Interior & Exterior <br>with Sleek Acrylic Signs</h2>
+
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/acrylic-bangalore3.webp')}}" class="why-card-img-top"
+                        alt="Advanced and Competent Appeal">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Advanced and Competent Appeal</h3>
+                        <p class="card-text">Using an acrylic sign board adds a contemporary and polished touch to any space. Whether for a commercial office in Bangalore, retail outlet, or residential property, these high-quality signboards exude professionalism. Products like acrylic nameplates and acrylic wall signs offer a sleek appearance that enhances your branding.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/acrylic-bangalore4.webp')}}" class="why-card-img-top"
+                        alt="Flexible and Customizable Solutions">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Flexible and Customizable Solutions</h3>
+                        <p class="card-text">Acrylic signages in Bangalore are flexible and can be tailored to suit your extraordinary needs. From acrylic LED signages to acrylic ACP boards, these solutions serve several executions, consisting of indoor and outdoor usage. Glow sign boards and LED acrylic signs are especially efficient for enterprises seeking to be distinct with modern signages.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col-md-4">
+                    <div class="why-card card">
+                        <img src="{{asset('frontend/Images/acrylic-bangalore5.webp')}}" class="why-card-img-top"
+                            alt="Longevity and Durable Quality">
+                        <div class="card-body why-card-body px-0">
+                            <h3 class="why-text-red mb-3">Longevity and Durable Quality</h3>
+                            <p class="card-text">Acrylic is known for its durability and effectiveness, making it an ideal material for display boards and acrylic glow signs. These boards are weather-resistant and low-maintenance, ensuring your signage remains visually appealing and functional for years to come.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/acrylic-bangalore3.webp')}}" class="why-card-img-top"
+                                    alt="Advanced and Competent Appeal">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Advanced and Competent Appeal</h3>
+                                    <p class="card-text">Using an acrylic sign board adds a contemporary and polished touch to any space. Whether for a commercial office in Bangalore, retail outlet, or residential property, these high-quality signboards exude professionalism. Products like acrylic nameplates and acrylic wall signs offer a sleek appearance that enhances your branding.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/acrylic-bangalore4.webp')}}" class="why-card-img-top"
+                                    alt="Flexible and Customizable Solutions">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Flexible and Customizable Solutions</h3>
+                                    <p class="card-text">Acrylic signages in Bangalore are flexible and can be tailored to suit your extraordinary needs. From acrylic LED signages to acrylic ACP boards, these solutions serve several executions, consisting of indoor and outdoor usage. Glow sign boards and LED acrylic signs are especially efficient for enterprises seeking to be distinct with modern signages.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/acrylic-bangalore5.webp')}}" class="why-card-img-top"
+                                    alt="Longevity and Durable Quality">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Longevity and Durable Quality</h3>
+                                    <p class="card-text">Acrylic is known for its durability and effectiveness, making it an ideal material for display boards and acrylic glow signs. These boards are weather-resistant and low-maintenance, ensuring your signage remains visually appealing and functional for years to come.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+         
+        </div>
+    </div>
+</section>
+
+
+<section class="process-section">
+        <div class="container">
+            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-design">
+                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
+                        </div>
+                        <h3>On-demand Design</h3>
+                        <p>Our creative team of sign board makers in Bangalore offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-deliver">
+                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
+                        </div>
+                        <h3>Timely Deliver</h3>
+                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
+                            project completion without compromising quality or design integrity.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-purchase">
+                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
+                        </div>
+                        <h3>Direct Purchase</h3>
+                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative
+                            brilliance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <section class="why-bg-light-pink py-5">
         <div class="container">
@@ -318,91 +406,6 @@
     </section>
 
 
-<section class="why-bg-light-pink py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">How Acrylic Signage Can <br> Enhance Your Space?</h2>
-
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/acrylic-bangalore3.webp')}}" class="why-card-img-top"
-                        alt="Advanced and Competent Appeal">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Advanced and Competent Appeal</h3>
-                        <p class="card-text">Using an acrylic sign board adds a contemporary and polished touch to any space. Whether for a commercial office in Bangalore, retail outlet, or residential property, these high-quality signboards exude professionalism. Products like acrylic nameplates and acrylic wall signs offer a sleek appearance that enhances your branding.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/acrylic-bangalore4.webp')}}" class="why-card-img-top"
-                        alt="Flexible and Customizable Solutions">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Flexible and Customizable Solutions</h3>
-                        <p class="card-text">Acrylic signages in Bangalore are flexible and can be tailored to suit your extraordinary needs. From acrylic LED signages to acrylic ACP boards, these solutions serve several executions, consisting of indoor and outdoor usage. Glow sign boards and LED acrylic signs are especially efficient for enterprises seeking to be distinct with modern signages.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="col-md-4">
-                    <div class="why-card card">
-                        <img src="{{asset('frontend/Images/acrylic-bangalore5.webp')}}" class="why-card-img-top"
-                            alt="Longevity and Durable Quality">
-                        <div class="card-body why-card-body px-0">
-                            <h3 class="why-text-red mb-3">Longevity and Durable Quality</h3>
-                            <p class="card-text">Acrylic is known for its durability and effectiveness, making it an ideal material for display boards and acrylic glow signs. These boards are weather-resistant and low-maintenance, ensuring your signage remains visually appealing and functional for years to come.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/acrylic-bangalore3.webp')}}" class="why-card-img-top"
-                                    alt="Advanced and Competent Appeal">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Advanced and Competent Appeal</h3>
-                                    <p class="card-text">Using an acrylic sign board adds a contemporary and polished touch to any space. Whether for a commercial office in Bangalore, retail outlet, or residential property, these high-quality signboards exude professionalism. Products like acrylic nameplates and acrylic wall signs offer a sleek appearance that enhances your branding.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/acrylic-bangalore4.webp')}}" class="why-card-img-top"
-                                    alt="Flexible and Customizable Solutions">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Flexible and Customizable Solutions</h3>
-                                    <p class="card-text">Acrylic signages in Bangalore are flexible and can be tailored to suit your extraordinary needs. From acrylic LED signages to acrylic ACP boards, these solutions serve several executions, consisting of indoor and outdoor usage. Glow sign boards and LED acrylic signs are especially efficient for enterprises seeking to be distinct with modern signages.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/acrylic-bangalore5.webp')}}" class="why-card-img-top"
-                                    alt="Longevity and Durable Quality">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Longevity and Durable Quality</h3>
-                                    <p class="card-text">Acrylic is known for its durability and effectiveness, making it an ideal material for display boards and acrylic glow signs. These boards are weather-resistant and low-maintenance, ensuring your signage remains visually appealing and functional for years to come.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-         
-        </div>
-    </div>
-</section>
 
 <!--<section class="mt-lg-5">
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">

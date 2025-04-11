@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/led-sign-boards-bangalore.webp')}}" alt="LED Sign Board manufacturers in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Premium LED Sign Boards in Bangalore for Better Visibility</h1>
+                    <h1>Shine Bright with Custom LED Sign Boards in Bangalore</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get Started</a>
                         </div>
@@ -19,7 +19,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Illuminate Your Brand <br>with LED Sign Boardsin Bangalore</h2>
+        <h2 class="hero-title">Illuminate Your Brand <br>with LED Sign Boards in Bangalore</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -45,49 +45,10 @@
     </div>
 </section>
  
-<section class="process-section">
-        <div class="container">
-            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-design">
-                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
-                        </div>
-                        <h3>On-demand Design</h3>
-                        <p>Our creative team of expert sign board makers in Bangalore offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-deliver">
-                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
-                        </div>
-                        <h3>Timely Deliver</h3>
-                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
-                            project completion without compromising quality or design integrity.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-purchase">
-                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
-                        </div>
-                        <h3>Direct Purchase</h3>
-                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative
-                            brilliance.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Types of LED Signage Boards We Make</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Our Range of Custom LED Signage Boards</h2>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -249,7 +210,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Benefits of Choosing LED Sign Boards</h2>
+        <h2 class="hero-title">Glow Smarter: What Makes LED Sign <br>Boards a Top Choice for Businesses</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -278,12 +239,50 @@
     </div>
 </section>
 
+<section class="process-section">
+        <div class="container">
+            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-design">
+                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
+                        </div>
+                        <h3>On-demand Design</h3>
+                        <p>Our creative team of expert sign board makers in Bangalore offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-deliver">
+                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
+                        </div>
+                        <h3>Timely Deliver</h3>
+                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
+                            project completion without compromising quality or design integrity.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-purchase">
+                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
+                        </div>
+                        <h3>Direct Purchase</h3>
+                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative
+                            brilliance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 <section class="why-bg-light-pink py-5" style="background: #fff;">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>LED Sign Boards in Bangalore?</h2>
+                <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>LED Sign Boards?</h2>
                 <p class="card-text">With a team of expert designers and skilled craftsmen, we deliver high-quality LED signage solutions. 
                     Our expertise ensures your brand captures customer attention from a mile away.</p>
             </div>

@@ -20,7 +20,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Custom Neon Signs Bangalore by Brand Signages</h2>
+        <h2 class="hero-title">Bring Your Vision to Light with <br>Neon Signs in Bangalore</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -49,51 +49,11 @@
     </div>
 </section>
 
-<section class="process-section">
-        <div class="container">
-            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-design">
-                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
-                        </div>
-                        <h3>On-demand Design</h3>
-                        <p>Our creative team of sign board makers in Bangalore offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-deliver">
-                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
-                        </div>
-                        <h3>Timely Deliver</h3>
-                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
-                            project completion without compromising quality or design integrity.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-purchase">
-                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
-                        </div>
-                        <h3>Direct Purchase</h3>
-                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative
-                            brilliance.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
 <section class="container py-5">
     <div class="row g-4 d-flex flex-wrap justify-content-center">
 
         <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">Custom-Made Neon Light Signs for Your Space</h2>
+            <h2 class="display-4 mb-3 why-text-heading">From Bold to Beautiful – Neon <br>Signs for Every Space</h2>
             <p class="card-text text-center">We produce high-class neon lights in Bangalore for all setups. Redesign your place with glow <br> signage shaped just for you!</p>
         </div>
 
@@ -153,6 +113,46 @@
 
     </div>
 </section>
+
+<section class="process-section">
+        <div class="container">
+            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-design">
+                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
+                        </div>
+                        <h3>On-demand Design</h3>
+                        <p>Our creative team of sign board makers in Bangalore offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-deliver">
+                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
+                        </div>
+                        <h3>Timely Deliver</h3>
+                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
+                            project completion without compromising quality or design integrity.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="process-card">
+                        <div class="icon-purchase">
+                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
+                        </div>
+                        <h3>Direct Purchase</h3>
+                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative
+                            brilliance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 <section class="why-bg-light-pink py-5">
         <div class="container">
@@ -320,7 +320,7 @@
         </div>
     </section>
 
-    <section>
+    <!--<section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">Multicolor Neon Lights and Signs for <br> Every Space</h2>
   
@@ -347,7 +347,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 
 <section class="testimonial section ">
