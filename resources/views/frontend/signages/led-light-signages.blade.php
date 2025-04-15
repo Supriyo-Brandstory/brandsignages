@@ -1,5 +1,14 @@
 @extends('frontend.layout.appLayout')
 @section('content')
+<style>
+    .why-card.card {
+    border: solid 1px;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    border-color: #e43d1269;
+}
+    </style>
 <section class="carousel-section">
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -15,8 +24,336 @@
         </div>
     </div>
 </section>
+<section class="why-bg-light-pink py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Types of LED Signage Boards We Offer</h2>
+        </div>
 
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/led-signage3.webp')}}" class="why-card-img-top"
+                        alt="Acrylic LED Sign Board">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Acrylic LED Sign Board</h3>
+                        <ul class="mb-3" style="list-style: none; padding: 0;">
+                            <li><strong style="color: #E43D12;">Usage/Application:</strong> Advertisement, Branding</li>
+                            <li><strong style="color: #E43D12;">Lighting Type:</strong> Front Lit (LED)</li>
+                            <li><strong style="color: #E43D12;">Material:</strong> Acrylic</li>
+                            <li><strong style="color: #E43D12;">Shape:</strong> Rectangle/ Square</li>
+                            <li><strong style="color: #E43D12;">Size:</strong> Customizable (Minimum 10 Sq. Ft.)</li>
+                            <li><strong style="color: #E43D12;">Pixel Pitch:</strong> 16mm</li>
+                            <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
+                        </ul>
+                    
+                        <p>
+                            Crafted from high-grade cast acrylic, our Acrylic LED Sign Boards are designed to add depth and dimension 
+                            to your brand identity. Raised to a 2 to 3-inch depth, these signboards offer a clean, premium finish 
+                            with built-in LED illumination that enhances visibility day and night.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/led-signage5.webp')}}" class="why-card-img-top"
+                        alt="Digital Backlit Boards">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">LED Backlit Boards</h3>
+                        <ul class="mb-3" style="list-style: none; padding: 0;">
+                            <li><strong style="color: #E43D12;">Usage/Application:</strong> Branding, Indoor Display, Promotional Signage</li>
+                            <li><strong style="color: #E43D12;">Lighting Type:</strong> LED Backlit (Edge-lit / Full Panel Options)</li>
+                            <li><strong style="color: #E43D12;">Material:</strong> Acrylic, Aluminum, Fabric Frame</li>
+                            <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted / Hanging / Freestanding</li>
+                            <li><strong style="color: #E43D12;">Size:</strong> Customizable (Minimum Order: 10 Sq. Ft.)</li>
+                            <li><strong style="color: #E43D12;">Color Options:</strong> Single Color / Multi-color / RGB</li>
+                            <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V (as per size)</li>
+                            <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
+                        </ul>
+                    
+                        <p>
+                            Illuminate your brand with unmatched elegance using Brand Signages’ LED Backlit Boards. Designed to deliver maximum visual impact, these boards feature a sleek front face and even LED illumination from behind, creating a glow that captures attention and enhances readability, day or night.
 
+                        </p>   
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/led-signage6.webp')}}" class="why-card-img-top"
+                        alt="LED Reverse Light Sign">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
+                        <ul class="mb-3" style="list-style: none; padding: 0;">
+                            <li><strong style="color: #E43D12;">Usage/Application:</strong> Corporate Branding, Hotels, Showrooms, Office Walls</li>
+                            <li><strong style="color: #E43D12;">Lighting Type:</strong> Reverse LED / Halo-Lit</li>
+                            <li><strong style="color: #E43D12;">Material:</strong> Acrylic / Stainless Steel / Aluminum</li>
+                            <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted with Spacer Kit</li>
+                            <li><strong style="color: #E43D12;">Illumination Style:</strong> Back Glow (Halo Effect)</li>
+                            <li><strong style="color: #E43D12;">Size:</strong> Customizable (Letter height from 6” onwards)</li>
+                            <li><strong style="color: #E43D12;">Color Options:</strong> Warm White, Cool White, RGB</li>
+                            <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V (as per sign size)</li>
+                            <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
+                        </ul>
+                    
+                        <p>
+                            LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, 
+                            creating a halo or glow effect around the letters. Also known as halo-lit or backlit signs, these boards 
+                            feature precision-cut acrylic or metal letters that are illuminated from behind, casting a soft, 
+                            glowing halo effect on the wall surface.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/led-signage7.webp')}}" class="why-card-img-top"
+                        alt="LED Message Boards">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">LED Message Boards</h3>
+                        <ul class="mb-3" style="list-style: none; padding: 0;">
+                            <li><strong style="color: #E43D12;">Usage/Application:</strong> Advertisements, Announcements, Public Info</li>
+                            <li><strong style="color: #E43D12;">Lighting Type:</strong> LED – Monochrome / RGB</li>
+                            <li><strong style="color: #E43D12;">Display Format:</strong> Scrolling Text, Flashing Alerts</li>
+                            <li><strong style="color: #E43D12;">Material:</strong> Powder-Coated Metal / Aluminum Casing</li>
+                            <li><strong style="color: #E43D12;">Pixel Pitch:</strong> P6 / P8 / P10 (Custom on request)</li>
+                            <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mount / Pole Mount / Hanging</li>
+                            <li><strong style="color: #E43D12;">Input Options:</strong> USB / Wi-Fi / LAN</li>
+                            <li><strong style="color: #E43D12;">Control Software:</strong> PC / Mobile Compatible</li>
+                            <li><strong style="color: #E43D12;">Brightness:</strong> Adjustable (Day/Night Modes)</li>
+                            <li><strong style="color: #E43D12;">Size:</strong> Custom Sizes Available</li>
+                        </ul>
+                    
+                        <p>
+                            Brand Signages’ LED Message Boards are the perfect solution for businesses looking to broadcast dynamic, 
+                            real-time messages with high visibility and low maintenance. Powered by energy-efficient LEDs and controlled 
+                            via USB, Wi-Fi, or remote software, you can update messages in seconds, anytime, from anywhere.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/led-signage8.webp')}}" class="why-card-img-top"
+                        alt="Glowing Light Sign Boards">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Glowing Light Sign Boards</h3>
+                        <ul class="mb-3" style="list-style: none; padding: 0;">
+                            <li><strong style="color: #E43D12;">Usage/Application:</strong> Retail Stores, Restaurants, Showrooms, Office Displays</li>
+                            <li><strong style="color: #E43D12;">Lighting Type:</strong> LED Backlit / Edge-Lit</li>
+                            <li><strong style="color: #E43D12;">Material:</strong> Acrylic / Aluminum / PVC</li>
+                            <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted, Ceiling Mounted, Freestanding</li>
+                            <li><strong style="color: #E43D12;">Illumination Style:</strong> Glowing (Front-Lit or Edge-Lit)</li>
+                            <li><strong style="color: #E43D12;">Size:</strong> Customizable (From Small to Large Formats)</li>
+                            <li><strong style="color: #E43D12;">Color Options:</strong> Single Color, RGB Multi-Color</li>
+                            <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V</li>
+                            <li><strong style="color: #E43D12;">Brightness:</strong> Adjustable Brightness</li>
+                            <li><strong style="color: #E43D12;">Durability:</strong> UV Resistant, Waterproof (Outdoor Models)</li>
+                        </ul>
+                    
+                        <p>
+                            Glowing Light Sign Boards are illuminated signage solutions that use LED or neon lights to create a vibrant, 
+                            eye-catching glow. At Brand Signages, our Glowing Light Sign Boards are designed to add a touch of elegance 
+                            and attention-grabbing flair to any space. These sign boards are crafted using high-quality materials and 
+                            illuminated with energy-efficient LED lights.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/led-signage3.webp')}}" class="why-card-img-top"
+                                    alt="Acrylic LED Sign Board">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Acrylic LED Sign Board</h3>
+                                    <ul class="mb-3" style="list-style: none; padding: 0;">
+                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Advertisement, Branding</li>
+                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> Front Lit (LED)</li>
+                                        <li><strong style="color: #E43D12;">Material:</strong> Acrylic</li>
+                                        <li><strong style="color: #E43D12;">Shape:</strong> Rectangle/ Square</li>
+                                        <li><strong style="color: #E43D12;">Size:</strong> Customizable (Minimum 10 Sq. Ft.)</li>
+                                        <li><strong style="color: #E43D12;">Pixel Pitch:</strong> 16mm</li>
+                                        <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
+                                    </ul>
+                                
+                                    <p>
+                                        Crafted from high-grade cast acrylic, our Acrylic LED Sign Boards are designed to add depth and dimension 
+                                        to your brand identity. Raised to a 2 to 3-inch depth, these signboards offer a clean, premium finish 
+                                        with built-in LED illumination that enhances visibility day and night.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/led-signage5.webp')}}" class="why-card-img-top"
+                                    alt="Digital Backlit Boards">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">LED Backlit Boards</h3>
+                                    <ul class="mb-3" style="list-style: none; padding: 0;">
+                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Branding, Indoor Display, Promotional Signage</li>
+                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> LED Backlit (Edge-lit / Full Panel Options)</li>
+                                        <li><strong style="color: #E43D12;">Material:</strong> Acrylic, Aluminum, Fabric Frame</li>
+                                        <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted / Hanging / Freestanding</li>
+                                        <li><strong style="color: #E43D12;">Size:</strong> Customizable (Minimum Order: 10 Sq. Ft.)</li>
+                                        <li><strong style="color: #E43D12;">Color Options:</strong> Single Color / Multi-color / RGB</li>
+                                        <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V (as per size)</li>
+                                        <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
+                                    </ul>
+                                
+                                    <p>
+                                        Illuminate your brand with unmatched elegance using Brand Signages’ LED Backlit Boards. Designed to deliver maximum visual impact, these boards feature a sleek front face and even LED illumination from behind, creating a glow that captures attention and enhances readability, day or night.
+                                    </p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/led-signage6.webp')}}" class="why-card-img-top"
+                                    alt="LED Reverse Light Sign">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
+                                    <ul class="mb-3" style="list-style: none; padding: 0;">
+                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Corporate Branding, Hotels, Showrooms, Office Walls</li>
+                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> Reverse LED / Halo-Lit</li>
+                                        <li><strong style="color: #E43D12;">Material:</strong> Acrylic / Stainless Steel / Aluminum</li>
+                                        <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted with Spacer Kit</li>
+                                        <li><strong style="color: #E43D12;">Illumination Style:</strong> Back Glow (Halo Effect)</li>
+                                        <li><strong style="color: #E43D12;">Size:</strong> Customizable (Letter height from 6” onwards)</li>
+                                        <li><strong style="color: #E43D12;">Color Options:</strong> Warm White, Cool White, RGB</li>
+                                        <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V (as per sign size)</li>
+                                        <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
+                                    </ul>
+                                
+                                    <p>
+                                        LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, 
+                                        creating a halo or glow effect around the letters. Also known as halo-lit or backlit signs, these boards 
+                                        feature precision-cut acrylic or metal letters that are illuminated from behind, casting a soft, 
+                                        glowing halo effect on the wall surface.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/led-signage6.webp')}}" class="why-card-img-top"
+                                    alt="LED Reverse Light Sign">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
+                                    <ul class="mb-3" style="list-style: none; padding: 0;">
+                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Corporate Branding, Hotels, Showrooms, Office Walls</li>
+                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> Reverse LED / Halo-Lit</li>
+                                        <li><strong style="color: #E43D12;">Material:</strong> Acrylic / Stainless Steel / Aluminum</li>
+                                        <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted with Spacer Kit</li>
+                                        <li><strong style="color: #E43D12;">Illumination Style:</strong> Back Glow (Halo Effect)</li>
+                                        <li><strong style="color: #E43D12;">Size:</strong> Customizable (Letter height from 6” onwards)</li>
+                                        <li><strong style="color: #E43D12;">Color Options:</strong> Warm White, Cool White, RGB</li>
+                                        <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V (as per sign size)</li>
+                                        <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
+                                    </ul>
+                                
+                                    <p>
+                                        LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, 
+                                        creating a halo or glow effect around the letters. Also known as halo-lit or backlit signs, these boards 
+                                        feature precision-cut acrylic or metal letters that are illuminated from behind, casting a soft, 
+                                        glowing halo effect on the wall surface.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/led-signage7.webp')}}" class="why-card-img-top"
+                                    alt="LED Message Boards">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">LED Message Boards</h3>
+                                    <ul class="mb-3" style="list-style: none; padding: 0;">
+                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Advertisements, Announcements, Public Info</li>
+                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> LED – Monochrome / RGB</li>
+                                        <li><strong style="color: #E43D12;">Display Format:</strong> Scrolling Text, Flashing Alerts</li>
+                                        <li><strong style="color: #E43D12;">Material:</strong> Powder-Coated Metal / Aluminum Casing</li>
+                                        <li><strong style="color: #E43D12;">Pixel Pitch:</strong> P6 / P8 / P10 (Custom on request)</li>
+                                        <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mount / Pole Mount / Hanging</li>
+                                        <li><strong style="color: #E43D12;">Input Options:</strong> USB / Wi-Fi / LAN</li>
+                                        <li><strong style="color: #E43D12;">Control Software:</strong> PC / Mobile Compatible</li>
+                                        <li><strong style="color: #E43D12;">Brightness:</strong> Adjustable (Day/Night Modes)</li>
+                                        <li><strong style="color: #E43D12;">Size:</strong> Custom Sizes Available</li>
+                                    </ul>
+                                
+                                    <p>
+                                        Brand Signages’ LED Message Boards are the perfect solution for businesses looking to broadcast dynamic, 
+                                        real-time messages with high visibility and low maintenance. Powered by energy-efficient LEDs and controlled 
+                                        via USB, Wi-Fi, or remote software, you can update messages in seconds, anytime, from anywhere.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/led-signage8.webp')}}" class="why-card-img-top"
+                                    alt="Glowing Light Sign Boards">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Glowing Light Sign Boards</h3>
+                                    <ul class="mb-3" style="list-style: none; padding: 0;">
+                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Retail Stores, Restaurants, Showrooms, Office Displays</li>
+                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> LED Backlit / Edge-Lit</li>
+                                        <li><strong style="color: #E43D12;">Material:</strong> Acrylic / Aluminum / PVC</li>
+                                        <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted, Ceiling Mounted, Freestanding</li>
+                                        <li><strong style="color: #E43D12;">Illumination Style:</strong> Glowing (Front-Lit or Edge-Lit)</li>
+                                        <li><strong style="color: #E43D12;">Size:</strong> Customizable (From Small to Large Formats)</li>
+                                        <li><strong style="color: #E43D12;">Color Options:</strong> Single Color, RGB Multi-Color</li>
+                                        <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V</li>
+                                        <li><strong style="color: #E43D12;">Brightness:</strong> Adjustable Brightness</li>
+                                        <li><strong style="color: #E43D12;">Durability:</strong> UV Resistant, Waterproof (Outdoor Models)</li>
+                                    </ul>
+                                
+                                    <p>
+                                        Glowing Light Sign Boards are illuminated signage solutions that use LED or neon lights to create a vibrant, 
+                                        eye-catching glow. At Brand Signages, our Glowing Light Sign Boards are designed to add a touch of elegance 
+                                        and attention-grabbing flair to any space. These sign boards are crafted using high-quality materials and 
+                                        illuminated with energy-efficient LED lights.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="why-carousel-controls">
+                <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                    data-bs-slide="prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                    data-bs-slide="next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="carousel-indicators why-carousel-indicators">
+                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+        </div>
+    </div>
+</section>
+<x-coustom-inquiry-form />
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">Best LED Signage Board Manufacturers <br> for Custom LED Signs</h2>
@@ -47,7 +384,8 @@
     </div>
 </section>
 
-<x-coustom-inquiry-form />
+
+
 
 <section class="process-section">
         <div class="container">
@@ -88,168 +426,7 @@
         </div>
     </section>
 
-<section class="why-bg-light-pink py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Types of LED Signage Boards We Offer</h2>
-        </div>
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage3.webp')}}" class="why-card-img-top"
-                        alt="Acrylic LED Sign Board">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Acrylic LED Sign Board</h3>
-                        <p class="card-text">Acrylic LED Sign Board is a visually appealing signage solution made from durable acrylic material, illuminated with LED lights. These are one of the most used signage boards for restaurants and cafes, retail stores, event exhibitions, corporate offices, hotel resorts, shopping malls, and outdoor advertising. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage4.webp')}}" class="why-card-img-top" alt="Digital LED Display Boards">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Digital LED Display Boards</h3>
-                        <p class="card-text">Digital LED Display Boards use LED technology to display dynamic content, including text, images, and videos. Any type of retail store or outlet can use it to promote their offer or newly launched product with interactive digital LED screens. It can create an impressive customer experience and attract foot traffic. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage5.webp')}}" class="why-card-img-top"
-                        alt="Digital Backlit Boards">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">LED Backlit Boards</h3>
-                        <p class="card-text">LED Backlit Boards are illuminated signboards where LED lights are placed behind the display surface, creating a glowing effect. Digital backlit boards are the perfect choice for making brand names unforgettable. By placing them in strategic spots and striking design, backlit signs can establish a strong brand presence.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage6.webp')}}" class="why-card-img-top"
-                        alt="LED Reverse Light Sign">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
-                        <p class="card-text">LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, creating a halo or glow effect around the letters. LED Reverse Light Sign is perfect for storefronts, exhibitions, and vehicles. Strategically placed in high-traffic areas or mobile platforms, LED reverse light signs ensure your message stands out, day or night.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage7.webp')}}" class="why-card-img-top"
-                        alt="LED Message Boards">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">LED Message Boards</h3>
-                        <p class="card-text">LED Message Boards are digital display boards that use LED technology to showcase customizable text and messages, ideal for real-time updates, advertisements, and information display. If you're looking for captivating message boards that can easily communicate with your customers or visitors, LED message boards are the best option. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/led-signage8.webp')}}" class="why-card-img-top"
-                        alt="Glowing Light Sign Boards">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Glowing Light Sign Boards</h3>
-                        <p class="card-text">Glowing Light Sign Boards are illuminated signage solutions that use LED or neon lights to create a vibrant, eye-catching glow. Glowing light sign board is ideal for cafes, storefronts, exhibitions, malls, or event spaces.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage3.webp')}}" class="why-card-img-top"
-                                    alt="Acrylic LED Sign Board">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Acrylic LED Sign Board</h3>
-                                    <p class="card-text">Acrylic LED Sign Board is a visually appealing signage solution made from durable acrylic material, illuminated with LED lights. These are one of the most used signage boards for restaurants and cafes, retail stores, event exhibitions, corporate offices, hotel resorts, shopping malls, and outdoor advertising. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage4.webp')}}" class="why-card-img-top" alt="Digital LED Display Boards">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Digital LED Display Boards</h3>
-                                    <p class="card-text">Digital LED Display Boards use LED technology to display dynamic content, including text, images, and videos. Any type of retail store or outlet can use it to promote their offer or newly launched product with interactive digital LED screens. It can create an impressive customer experience and attract foot traffic.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage5.webp')}}" class="why-card-img-top"
-                                    alt="Digital Backlit Boards">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">LED Backlit Boards</h3>
-                                    <p class="card-text">LED Backlit Boards are illuminated signboards where LED lights are placed behind the display surface, creating a glowing effect. Digital backlit boards are the perfect choice for making brand names unforgettable. By placing them in strategic spots and striking design, backlit signs can establish a strong brand presence.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage6.webp')}}" class="why-card-img-top"
-                                    alt="LED Reverse Light Sign">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
-                                    <p class="card-text">LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, creating a halo or glow effect around the letters. LED Reverse Light Sign is perfect for storefronts, exhibitions, and vehicles. Strategically placed in high-traffic areas or mobile platforms, LED reverse light signs ensure your message stands out, day or night.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage7.webp')}}" class="why-card-img-top"
-                                    alt="LED Message Boards">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">LED Message Boards</h3>
-                                    <p class="card-text">LED Message Boards are digital display boards that use LED technology to showcase customizable text and messages, ideal for real-time updates, advertisements, and information display. If you're looking for captivating message boards that can easily communicate with your customers or visitors, LED message boards are the best option. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage8.webp')}}" class="why-card-img-top"
-                                    alt="Glowing Light Sign Boards">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Glowing Light Sign Boards</h3>
-                                    <p class="card-text">Glowing Light Sign Boards are illuminated signage solutions that use LED or neon lights to create a vibrant, eye-catching glow. Glowing light sign board is ideal for cafes, storefronts, exhibitions, malls, or event spaces.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="why-carousel-controls">
-                <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
-                    data-bs-slide="prev">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
-                    data-bs-slide="next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
-
-            <div class="carousel-indicators why-carousel-indicators">
-                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
-                    aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="container py-lg-5 py-md-3 py-sm-2 py-3">
     <div class="row g-4 d-flex flex-wrap justify-content-center">
@@ -308,36 +485,7 @@
     </div>
 </section>
 
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Why Choose LED Sign Boards for Maximum Impact</h2>
 
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/led-signage13.webp')}}" alt="LED Signage" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <p class="brand-description">
-                    <b>Eye-Catching Designs -</b>LED signage boards captivate attention with vibrant, high-resolution displays. Their dynamic visuals enhance brand visibility and leave a lasting impression.</p>
-                <p class="brand-description">
-                    <b>Powerful Tool for Advertising -</b> LED signboards offer customized content and illuminated options for attracting customers and boosting visibility.</p>
-                <p class="brand-description">
-                    <b>Long-Lasting Durability -</b> These signages are designed with energy-efficient technology to ensure low electricity consumption and extended lifespan. 
-                </p>
-                <p class="brand-description">
-                    <b>Installation & Maintenance -</b> Other than traditional sign boards, it does not require upkeep. LED signage boards are lightweight and easy-to-install solutions. 
-                </p>    
-                <p class="brand-description">
-                As a leading LED signage manufacturer, we ensure our signboards meet industry standards with innovative designs, energy efficiency, and durability, making them an ideal choice for businesses 
-                looking for high-impact and long-lasting branding solutions.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="testimonial section ">
     <div class="container">
