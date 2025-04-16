@@ -36,22 +36,48 @@
                     <img src="{{asset('frontend/Images/led-signage3.webp')}}" class="why-card-img-top"
                         alt="Acrylic LED Sign Board">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Acrylic LED Sign Board</h3>
-                        <ul class="mb-3" style="list-style: none; padding: 0;">
-                            <li><strong style="color: #E43D12;">Usage/Application:</strong> Advertisement, Branding</li>
-                            <li><strong style="color: #E43D12;">Lighting Type:</strong> Front Lit (LED)</li>
-                            <li><strong style="color: #E43D12;">Material:</strong> Acrylic</li>
-                            <li><strong style="color: #E43D12;">Shape:</strong> Rectangle/ Square</li>
-                            <li><strong style="color: #E43D12;">Size:</strong> Customizable (Minimum 10 Sq. Ft.)</li>
-                            <li><strong style="color: #E43D12;">Pixel Pitch:</strong> 16mm</li>
-                            <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
-                        </ul>
+                        <h3 class="why-text-red mb-3" style="color: #E43D12; font-weight: bold;">Acrylic LED Sign Board</h3>
+                        <div class="container mb-3">
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Usage/Application:</div>
+                                <div class="col-6">Advertisement, Branding</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Lighting Type:</div>
+                                <div class="col-6">Front Lit (LED)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Material:</div>
+                                <div class="col-6">Acrylic</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Shape:</div>
+                                <div class="col-6">Rectangle/ Square</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Size:</div>
+                                <div class="col-6">Customizable (Minimum 10 Sq. Ft.)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Pixel Pitch:</div>
+                                <div class="col-6">16mm</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Brand:</div>
+                                <div class="col-6">Brand Signages</div>
+                            </div>
+                        </div>
+                        
+                        
                     
                         <p>
-                            Crafted from high-grade cast acrylic, our Acrylic LED Sign Boards are designed to add depth and dimension 
-                            to your brand identity. Raised to a 2 to 3-inch depth, these signboards offer a clean, premium finish 
-                            with built-in LED illumination that enhances visibility day and night.
+                            Crafted from high-grade cast acrylic, our Acrylic LED Sign Boards are designed to add depth and dimension to your brand identity.
                         </p>
+                        <div class="text-center">
+                            <a href="{{route('contact_us')}}">
+                                <button class="contact-btn">Get Quote</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -60,22 +86,52 @@
                     <img src="{{asset('frontend/Images/led-signage5.webp')}}" class="why-card-img-top"
                         alt="Digital Backlit Boards">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">LED Backlit Boards</h3>
-                        <ul class="mb-3" style="list-style: none; padding: 0;">
-                            <li><strong style="color: #E43D12;">Usage/Application:</strong> Branding, Indoor Display, Promotional Signage</li>
-                            <li><strong style="color: #E43D12;">Lighting Type:</strong> LED Backlit (Edge-lit / Full Panel Options)</li>
-                            <li><strong style="color: #E43D12;">Material:</strong> Acrylic, Aluminum, Fabric Frame</li>
-                            <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted / Hanging / Freestanding</li>
-                            <li><strong style="color: #E43D12;">Size:</strong> Customizable (Minimum Order: 10 Sq. Ft.)</li>
-                            <li><strong style="color: #E43D12;">Color Options:</strong> Single Color / Multi-color / RGB</li>
-                            <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V (as per size)</li>
-                            <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
-                        </ul>
+                        <h3 class="why-text-red mb-3" style="color: #E43D12; font-weight: bold;">LED Backlit Boards</h3>
+                        <div class="container mb-3">
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Usage/Application:</div>
+                                <div class="col-6">Branding, Indoor Display</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Lighting Type:</div>
+                                <div class="col-6">LED Backlit (Edge-lit / Full Panel)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Material:</div>
+                                <div class="col-6">Acrylic, Aluminum, Fabric Frame</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Mounting Type:</div>
+                                <div class="col-6">Wall Mounted / Hanging</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Size:</div>
+                                <div class="col-6">Customizable (Minimum : 10 Sq. Ft.)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Color Options:</div>
+                                <div class="col-6">Single Color / Multi-color / RGB</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Power Supply:</div>
+                                <div class="col-6">12V / 24V (as per size)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Brand:</div>
+                                <div class="col-6">Brand Signages</div>
+                            </div>
+                        </div>
+                        
                     
                         <p>
-                            Illuminate your brand with unmatched elegance using Brand Signages’ LED Backlit Boards. Designed to deliver maximum visual impact, these boards feature a sleek front face and even LED illumination from behind, creating a glow that captures attention and enhances readability, day or night.
+                            Illuminate your brand with unmatched elegance using Brand Signages’ LED Backlit Boards, designed to deliver maximum visual impact.
 
-                        </p>   
+                        </p>  
+                        <div class="text-center">
+                            <a href="{{route('contact_us')}}">
+                                <button class="contact-btn">Get Quote</button>
+                            </a>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -84,25 +140,55 @@
                     <img src="{{asset('frontend/Images/led-signage6.webp')}}" class="why-card-img-top"
                         alt="LED Reverse Light Sign">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
-                        <ul class="mb-3" style="list-style: none; padding: 0;">
-                            <li><strong style="color: #E43D12;">Usage/Application:</strong> Corporate Branding, Hotels, Showrooms, Office Walls</li>
-                            <li><strong style="color: #E43D12;">Lighting Type:</strong> Reverse LED / Halo-Lit</li>
-                            <li><strong style="color: #E43D12;">Material:</strong> Acrylic / Stainless Steel / Aluminum</li>
-                            <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted with Spacer Kit</li>
-                            <li><strong style="color: #E43D12;">Illumination Style:</strong> Back Glow (Halo Effect)</li>
-                            <li><strong style="color: #E43D12;">Size:</strong> Customizable (Letter height from 6” onwards)</li>
-                            <li><strong style="color: #E43D12;">Color Options:</strong> Warm White, Cool White, RGB</li>
-                            <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V (as per sign size)</li>
-                            <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
-                        </ul>
+                        <h3 class="why-text-red mb-3" style="color: #E43D12; font-weight: bold;">LED Reverse Light Sign</h3>
+                        <div class="container mb-3">
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Usage/Application:</div>
+                                <div class="col-6">Corporate, Hotels, Showroom</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Lighting Type:</div>
+                                <div class="col-6">Reverse LED / Halo-Lit</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Material:</div>
+                                <div class="col-6">Acrylic / Stainless Steel / Aluminum</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Mounting Type:</div>
+                                <div class="col-6">Wall Mounted with Spacer Kit</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Illumination Style:</div>
+                                <div class="col-6">Back Glow (Halo Effect)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Size:</div>
+                                <div class="col-6">Customizable (Letter height from 6”)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Color Options:</div>
+                                <div class="col-6">Warm White, Cool White, RGB</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Power Supply:</div>
+                                <div class="col-6">12V / 24V (as per sign size)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Brand:</div>
+                                <div class="col-6">Brand Signages</div>
+                            </div>
+                        </div>
+                        
                     
                         <p>
-                            LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, 
-                            creating a halo or glow effect around the letters. Also known as halo-lit or backlit signs, these boards 
-                            feature precision-cut acrylic or metal letters that are illuminated from behind, casting a soft, 
-                            glowing halo effect on the wall surface.
+                            LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, creating a halo or glow effect around the letters. 
                         </p>
+                        <div class="text-center">
+                            <a href="{{route('contact_us')}}">
+                                <button class="contact-btn">Get Quote</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -111,25 +197,60 @@
                     <img src="{{asset('frontend/Images/led-signage7.webp')}}" class="why-card-img-top"
                         alt="LED Message Boards">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">LED Message Boards</h3>
-                        <ul class="mb-3" style="list-style: none; padding: 0;">
-                            <li><strong style="color: #E43D12;">Usage/Application:</strong> Advertisements, Announcements, Public Info</li>
-                            <li><strong style="color: #E43D12;">Lighting Type:</strong> LED – Monochrome / RGB</li>
-                            <li><strong style="color: #E43D12;">Display Format:</strong> Scrolling Text, Flashing Alerts</li>
-                            <li><strong style="color: #E43D12;">Material:</strong> Powder-Coated Metal / Aluminum Casing</li>
-                            <li><strong style="color: #E43D12;">Pixel Pitch:</strong> P6 / P8 / P10 (Custom on request)</li>
-                            <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mount / Pole Mount / Hanging</li>
-                            <li><strong style="color: #E43D12;">Input Options:</strong> USB / Wi-Fi / LAN</li>
-                            <li><strong style="color: #E43D12;">Control Software:</strong> PC / Mobile Compatible</li>
-                            <li><strong style="color: #E43D12;">Brightness:</strong> Adjustable (Day/Night Modes)</li>
-                            <li><strong style="color: #E43D12;">Size:</strong> Custom Sizes Available</li>
-                        </ul>
+                        <h3 class="why-text-red mb-3" style="color: #E43D12; font-weight: bold;">LED Message Boards</h3>
+                        <div class="container mb-3">
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Usage/Application:</div>
+                                <div class="col-6">Advertisements</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Lighting Type:</div>
+                                <div class="col-6">LED – Monochrome / RGB</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Display Format:</div>
+                                <div class="col-6">Scrolling Text, Flashing Alerts</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Material:</div>
+                                <div class="col-6">Powder-Coated Metal / </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Pixel Pitch:</div>
+                                <div class="col-6">P6 / P8 / P10 (Custom on request)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Mounting Type:</div>
+                                <div class="col-6">Wall Mount / Pole Mount</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Input Options:</div>
+                                <div class="col-6">USB / Wi-Fi / LAN</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Control Software:</div>
+                                <div class="col-6">PC / Mobile Compatible</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Brightness:</div>
+                                <div class="col-6">Adjustable (Day/Night Modes)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Size:</div>
+                                <div class="col-6">Custom Sizes Available</div>
+                            </div>
+                        </div>
+                        
                     
                         <p>
-                            Brand Signages’ LED Message Boards are the perfect solution for businesses looking to broadcast dynamic, 
-                            real-time messages with high visibility and low maintenance. Powered by energy-efficient LEDs and controlled 
-                            via USB, Wi-Fi, or remote software, you can update messages in seconds, anytime, from anywhere.
+                            Brand Signages’ LED Message Boards are the perfect solution for businesses looking to broadcast dynamic, real-time messages with high visibility.
+
                         </p>
+                        <div class="text-center">
+                            <a href="{{route('contact_us')}}">
+                                <button class="contact-btn">Get Quote</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -138,26 +259,59 @@
                     <img src="{{asset('frontend/Images/led-signage8.webp')}}" class="why-card-img-top"
                         alt="Glowing Light Sign Boards">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Glowing Light Sign Boards</h3>
-                        <ul class="mb-3" style="list-style: none; padding: 0;">
-                            <li><strong style="color: #E43D12;">Usage/Application:</strong> Retail Stores, Restaurants, Showrooms, Office Displays</li>
-                            <li><strong style="color: #E43D12;">Lighting Type:</strong> LED Backlit / Edge-Lit</li>
-                            <li><strong style="color: #E43D12;">Material:</strong> Acrylic / Aluminum / PVC</li>
-                            <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted, Ceiling Mounted, Freestanding</li>
-                            <li><strong style="color: #E43D12;">Illumination Style:</strong> Glowing (Front-Lit or Edge-Lit)</li>
-                            <li><strong style="color: #E43D12;">Size:</strong> Customizable (From Small to Large Formats)</li>
-                            <li><strong style="color: #E43D12;">Color Options:</strong> Single Color, RGB Multi-Color</li>
-                            <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V</li>
-                            <li><strong style="color: #E43D12;">Brightness:</strong> Adjustable Brightness</li>
-                            <li><strong style="color: #E43D12;">Durability:</strong> UV Resistant, Waterproof (Outdoor Models)</li>
-                        </ul>
+                        <h3 class="why-text-red mb-3" style="color: #E43D12; font-weight: bold;">Glowing Light Sign Boards</h3>
+                        <div class="container mb-3">
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Usage/Application:</div>
+                                <div class="col-6">Retail Stores, Showrooms, Office</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Lighting Type:</div>
+                                <div class="col-6">LED Backlit / Edge-Lit</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Material:</div>
+                                <div class="col-6">Acrylic / Aluminum / PVC</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Mounting Type:</div>
+                                <div class="col-6">Wall Mounted, Ceiling Mounted</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Illumination Style:</div>
+                                <div class="col-6">Glowing (Front-Lit or Edge-Lit)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Size:</div>
+                                <div class="col-6">Customizable (Small to Large Formats)</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Color Options:</div>
+                                <div class="col-6">Single Color, RGB Multi-Color</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Power Supply:</div>
+                                <div class="col-6">12V / 24V</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Brightness:</div>
+                                <div class="col-6">Adjustable Brightness</div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-4" style="color: #E43D12; font-weight: bold;">Durability:</div>
+                                <div class="col-6">UV Resistant, Waterproof</div>
+                            </div>
+                        </div>
+                        
                     
                         <p>
-                            Glowing Light Sign Boards are illuminated signage solutions that use LED or neon lights to create a vibrant, 
-                            eye-catching glow. At Brand Signages, our Glowing Light Sign Boards are designed to add a touch of elegance 
-                            and attention-grabbing flair to any space. These sign boards are crafted using high-quality materials and 
-                            illuminated with energy-efficient LED lights.
+                            Our Glowing Light Sign Boards are designed to add a touch of elegance and attention-grabbing flair to any space.
                         </p>
+                        <div class="text-center">
+                            <a href="{{route('contact_us')}}">
+                                <button class="contact-btn">Get Quote</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -168,164 +322,358 @@
                 <div class="carousel-item active">
                     <div class="row">
 
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/led-signage3.webp')}}" class="why-card-img-top"
                                     alt="Acrylic LED Sign Board">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Acrylic LED Sign Board</h3>
-                                    <ul class="mb-3" style="list-style: none; padding: 0;">
-                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Advertisement, Branding</li>
-                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> Front Lit (LED)</li>
-                                        <li><strong style="color: #E43D12;">Material:</strong> Acrylic</li>
-                                        <li><strong style="color: #E43D12;">Shape:</strong> Rectangle/ Square</li>
-                                        <li><strong style="color: #E43D12;">Size:</strong> Customizable (Minimum 10 Sq. Ft.)</li>
-                                        <li><strong style="color: #E43D12;">Pixel Pitch:</strong> 16mm</li>
-                                        <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
-                                    </ul>
+                                    <h3 class="why-text-red mb-3" style="color: #E43D12; font-weight: bold;">Acrylic LED Sign Board</h3>
+                                    <div class="container mb-3">
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Usage/Application:</div>
+                                            <div class="col-6">Advertisement, Branding</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Lighting Type:</div>
+                                            <div class="col-6">Front Lit (LED)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Material:</div>
+                                            <div class="col-6">Acrylic</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Shape:</div>
+                                            <div class="col-6">Rectangle/ Square</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Size:</div>
+                                            <div class="col-6">Customizable (Minimum 10 Sq. Ft.)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Pixel Pitch:</div>
+                                            <div class="col-6">16mm</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Brand:</div>
+                                            <div class="col-6">Brand Signages</div>
+                                        </div>
+                                    </div>
+                                    
+                                    
                                 
                                     <p>
-                                        Crafted from high-grade cast acrylic, our Acrylic LED Sign Boards are designed to add depth and dimension 
-                                        to your brand identity. Raised to a 2 to 3-inch depth, these signboards offer a clean, premium finish 
-                                        with built-in LED illumination that enhances visibility day and night.
+                                        Crafted from high-grade cast acrylic, our Acrylic LED Sign Boards are designed to add depth and dimension to your brand identity.
                                     </p>
+                                    <div class="text-center">
+                                        <a href="{{route('contact_us')}}">
+                                            <button class="contact-btn">Get Quote</button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/led-signage5.webp')}}" class="why-card-img-top"
                                     alt="Digital Backlit Boards">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">LED Backlit Boards</h3>
-                                    <ul class="mb-3" style="list-style: none; padding: 0;">
-                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Branding, Indoor Display, Promotional Signage</li>
-                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> LED Backlit (Edge-lit / Full Panel Options)</li>
-                                        <li><strong style="color: #E43D12;">Material:</strong> Acrylic, Aluminum, Fabric Frame</li>
-                                        <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted / Hanging / Freestanding</li>
-                                        <li><strong style="color: #E43D12;">Size:</strong> Customizable (Minimum Order: 10 Sq. Ft.)</li>
-                                        <li><strong style="color: #E43D12;">Color Options:</strong> Single Color / Multi-color / RGB</li>
-                                        <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V (as per size)</li>
-                                        <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
-                                    </ul>
+                                    <h3 class="why-text-red mb-3" style="color: #E43D12; font-weight: bold;">LED Backlit Boards</h3>
+                                    <div class="container mb-3">
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Usage/Application:</div>
+                                            <div class="col-6">Branding, Indoor Display</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Lighting Type:</div>
+                                            <div class="col-6">LED Backlit (Edge-lit / Full Panel)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Material:</div>
+                                            <div class="col-6">Acrylic, Aluminum, Fabric Frame</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Mounting Type:</div>
+                                            <div class="col-6">Wall Mounted / Hanging</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Size:</div>
+                                            <div class="col-6">Customizable (Minimum : 10 Sq. Ft.)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Color Options:</div>
+                                            <div class="col-6">Single Color / Multi-color / RGB</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Power Supply:</div>
+                                            <div class="col-6">12V / 24V (as per size)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Brand:</div>
+                                            <div class="col-6">Brand Signages</div>
+                                        </div>
+                                    </div>
+                                    
                                 
                                     <p>
-                                        Illuminate your brand with unmatched elegance using Brand Signages’ LED Backlit Boards. Designed to deliver maximum visual impact, these boards feature a sleek front face and even LED illumination from behind, creating a glow that captures attention and enhances readability, day or night.
+                                        Illuminate your brand with unmatched elegance using Brand Signages’ LED Backlit Boards, designed to deliver maximum visual impact.
                                     </p>  
+                                    <div class="text-center">
+                                        <a href="{{route('contact_us')}}">
+                                            <button class="contact-btn">Get Quote</button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/led-signage6.webp')}}" class="why-card-img-top"
-                                    alt="LED Reverse Light Sign">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
-                                    <ul class="mb-3" style="list-style: none; padding: 0;">
-                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Corporate Branding, Hotels, Showrooms, Office Walls</li>
-                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> Reverse LED / Halo-Lit</li>
-                                        <li><strong style="color: #E43D12;">Material:</strong> Acrylic / Stainless Steel / Aluminum</li>
-                                        <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted with Spacer Kit</li>
-                                        <li><strong style="color: #E43D12;">Illumination Style:</strong> Back Glow (Halo Effect)</li>
-                                        <li><strong style="color: #E43D12;">Size:</strong> Customizable (Letter height from 6” onwards)</li>
-                                        <li><strong style="color: #E43D12;">Color Options:</strong> Warm White, Cool White, RGB</li>
-                                        <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V (as per sign size)</li>
-                                        <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
-                                    </ul>
-                                
-                                    <p>
-                                        LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, 
-                                        creating a halo or glow effect around the letters. Also known as halo-lit or backlit signs, these boards 
-                                        feature precision-cut acrylic or metal letters that are illuminated from behind, casting a soft, 
-                                        glowing halo effect on the wall surface.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/led-signage6.webp')}}" class="why-card-img-top"
                                     alt="LED Reverse Light Sign">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">LED Reverse Light Sign</h3>
-                                    <ul class="mb-3" style="list-style: none; padding: 0;">
-                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Corporate Branding, Hotels, Showrooms, Office Walls</li>
-                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> Reverse LED / Halo-Lit</li>
-                                        <li><strong style="color: #E43D12;">Material:</strong> Acrylic / Stainless Steel / Aluminum</li>
-                                        <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted with Spacer Kit</li>
-                                        <li><strong style="color: #E43D12;">Illumination Style:</strong> Back Glow (Halo Effect)</li>
-                                        <li><strong style="color: #E43D12;">Size:</strong> Customizable (Letter height from 6” onwards)</li>
-                                        <li><strong style="color: #E43D12;">Color Options:</strong> Warm White, Cool White, RGB</li>
-                                        <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V (as per sign size)</li>
-                                        <li><strong style="color: #E43D12;">Brand:</strong> Brand Signages</li>
-                                    </ul>
+                                    <h3 class="why-text-red mb-3" style="color: #E43D12; font-weight: bold;">LED Reverse Light Sign</h3>
+                                    <div class="container mb-3">
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Usage/Application:</div>
+                                            <div class="col-6">Corporate, Hotels, Showroom</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Lighting Type:</div>
+                                            <div class="col-6">Reverse LED / Halo-Lit</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Material:</div>
+                                            <div class="col-6">Acrylic / Stainless Steel / Aluminum</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Mounting Type:</div>
+                                            <div class="col-6">Wall Mounted with Spacer Kit</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Illumination Style:</div>
+                                            <div class="col-6">Back Glow (Halo Effect)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Size:</div>
+                                            <div class="col-6">Customizable (Letter height from 6”)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Color Options:</div>
+                                            <div class="col-6">Warm White, Cool White, RGB</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Power Supply:</div>
+                                            <div class="col-6">12V / 24V (as per sign size)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Brand:</div>
+                                            <div class="col-6">Brand Signages</div>
+                                        </div>
+                                    </div>
+                                    
                                 
                                     <p>
-                                        LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, 
-                                        creating a halo or glow effect around the letters. Also known as halo-lit or backlit signs, these boards 
-                                        feature precision-cut acrylic or metal letters that are illuminated from behind, casting a soft, 
-                                        glowing halo effect on the wall surface.
+                                        LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, creating a halo or glow effect around the letters. 
                                     </p>
+                                    <div class="text-center">
+                                        <a href="{{route('contact_us')}}">
+                                            <button class="contact-btn">Get Quote</button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/led-signage7.webp')}}" class="why-card-img-top"
                                     alt="LED Message Boards">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">LED Message Boards</h3>
-                                    <ul class="mb-3" style="list-style: none; padding: 0;">
-                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Advertisements, Announcements, Public Info</li>
-                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> LED – Monochrome / RGB</li>
-                                        <li><strong style="color: #E43D12;">Display Format:</strong> Scrolling Text, Flashing Alerts</li>
-                                        <li><strong style="color: #E43D12;">Material:</strong> Powder-Coated Metal / Aluminum Casing</li>
-                                        <li><strong style="color: #E43D12;">Pixel Pitch:</strong> P6 / P8 / P10 (Custom on request)</li>
-                                        <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mount / Pole Mount / Hanging</li>
-                                        <li><strong style="color: #E43D12;">Input Options:</strong> USB / Wi-Fi / LAN</li>
-                                        <li><strong style="color: #E43D12;">Control Software:</strong> PC / Mobile Compatible</li>
-                                        <li><strong style="color: #E43D12;">Brightness:</strong> Adjustable (Day/Night Modes)</li>
-                                        <li><strong style="color: #E43D12;">Size:</strong> Custom Sizes Available</li>
-                                    </ul>
+                                    <h3 class="why-text-red mb-3" style="color: #E43D12; font-weight: bold;">LED Message Boards</h3>
+                                    <div class="container mb-3">
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Usage/Application:</div>
+                                            <div class="col-6">Advertisements</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Lighting Type:</div>
+                                            <div class="col-6">LED – Monochrome / RGB</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Display Format:</div>
+                                            <div class="col-6">Scrolling Text, Flashing Alerts</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Material:</div>
+                                            <div class="col-6">Powder-Coated Metal</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Pixel Pitch:</div>
+                                            <div class="col-6">P6 / P8 / P10 (Custom on request)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Mounting Type:</div>
+                                            <div class="col-6">Wall Mount / Pole Mount</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Input Options:</div>
+                                            <div class="col-6">USB / Wi-Fi / LAN</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Control Software:</div>
+                                            <div class="col-6">PC / Mobile Compatible</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Brightness:</div>
+                                            <div class="col-6">Adjustable (Day/Night Modes)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Size:</div>
+                                            <div class="col-6">Custom Sizes Available</div>
+                                        </div>
+                                    </div>
+                                    
                                 
                                     <p>
-                                        Brand Signages’ LED Message Boards are the perfect solution for businesses looking to broadcast dynamic, 
-                                        real-time messages with high visibility and low maintenance. Powered by energy-efficient LEDs and controlled 
-                                        via USB, Wi-Fi, or remote software, you can update messages in seconds, anytime, from anywhere.
+                                        Brand Signages’ LED Message Boards are the perfect solution for businesses looking to broadcast dynamic, real-time messages with high visibility.
                                     </p>
+                                    <div class="text-center">
+                                        <a href="{{route('contact_us')}}">
+                                            <button class="contact-btn">Get Quote</button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                       
+                        <div class="col-md-6">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/led-signage7.webp')}}" class="why-card-img-top"
+                                    alt="LED Message Boards">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3" style="color: #E43D12; font-weight: bold;">LED Message Boards</h3>
+                                    <div class="container mb-3">
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Usage/Application:</div>
+                                            <div class="col-6">Advertisements</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Lighting Type:</div>
+                                            <div class="col-6">LED – Monochrome / RGB</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Display Format:</div>
+                                            <div class="col-6">Scrolling Text, Flashing Alerts</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Material:</div>
+                                            <div class="col-6">Powder-Coated Metal / </div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Pixel Pitch:</div>
+                                            <div class="col-6">P6 / P8 / P10 (Custom on request)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Mounting Type:</div>
+                                            <div class="col-6">Wall Mount / Pole Mount</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Input Options:</div>
+                                            <div class="col-6">USB / Wi-Fi / LAN</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Control Software:</div>
+                                            <div class="col-6">PC / Mobile Compatible</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Brightness:</div>
+                                            <div class="col-6">Adjustable (Day/Night Modes)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Size:</div>
+                                            <div class="col-6">Custom Sizes Available</div>
+                                        </div>
+                                    </div>
+                                    
+                                
+                                    <p>
+                                        Brand Signages’ LED Message Boards are the perfect solution for businesses looking to broadcast dynamic, real-time messages with high visibility.
+                                    </p>
+                                    <div class="text-center">
+                                        <a href="{{route('contact_us')}}">
+                                            <button class="contact-btn">Get Quote</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/led-signage8.webp')}}" class="why-card-img-top"
                                     alt="Glowing Light Sign Boards">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Glowing Light Sign Boards</h3>
-                                    <ul class="mb-3" style="list-style: none; padding: 0;">
-                                        <li><strong style="color: #E43D12;">Usage/Application:</strong> Retail Stores, Restaurants, Showrooms, Office Displays</li>
-                                        <li><strong style="color: #E43D12;">Lighting Type:</strong> LED Backlit / Edge-Lit</li>
-                                        <li><strong style="color: #E43D12;">Material:</strong> Acrylic / Aluminum / PVC</li>
-                                        <li><strong style="color: #E43D12;">Mounting Type:</strong> Wall Mounted, Ceiling Mounted, Freestanding</li>
-                                        <li><strong style="color: #E43D12;">Illumination Style:</strong> Glowing (Front-Lit or Edge-Lit)</li>
-                                        <li><strong style="color: #E43D12;">Size:</strong> Customizable (From Small to Large Formats)</li>
-                                        <li><strong style="color: #E43D12;">Color Options:</strong> Single Color, RGB Multi-Color</li>
-                                        <li><strong style="color: #E43D12;">Power Supply:</strong> 12V / 24V</li>
-                                        <li><strong style="color: #E43D12;">Brightness:</strong> Adjustable Brightness</li>
-                                        <li><strong style="color: #E43D12;">Durability:</strong> UV Resistant, Waterproof (Outdoor Models)</li>
-                                    </ul>
+                                    <h3 class="why-text-red mb-3" style="color: #E43D12; font-weight: bold;">Glowing Light Sign Boards</h3>
+                                    <div class="container mb-3">
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Usage/Application:</div>
+                                            <div class="col-6">Retail Stores, Showrooms, Office</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Lighting Type:</div>
+                                            <div class="col-6">LED Backlit / Edge-Lit</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Material:</div>
+                                            <div class="col-6">Acrylic / Aluminum / PVC</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Mounting Type:</div>
+                                            <div class="col-6">Wall Mounted, Ceiling Mounted</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Illumination Style:</div>
+                                            <div class="col-6">Glowing (Front-Lit or Edge-Lit)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Size:</div>
+                                            <div class="col-6">Customizable ( Small to Large Formats)</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Color Options:</div>
+                                            <div class="col-6">Single Color, RGB Multi-Color</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Power Supply:</div>
+                                            <div class="col-6">12V / 24V</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Brightness:</div>
+                                            <div class="col-6">Adjustable Brightness</div>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-4" style="color: #E43D12; font-weight: bold;">Durability:</div>
+                                            <div class="col-6">UV Resistant, Waterproof</div>
+                                        </div>
+                                    </div>
+                                    
                                 
                                     <p>
-                                        Glowing Light Sign Boards are illuminated signage solutions that use LED or neon lights to create a vibrant, 
-                                        eye-catching glow. At Brand Signages, our Glowing Light Sign Boards are designed to add a touch of elegance 
-                                        and attention-grabbing flair to any space. These sign boards are crafted using high-quality materials and 
-                                        illuminated with energy-efficient LED lights.
+                                        Our Glowing Light Sign Boards are designed to add a touch of elegance and attention-grabbing flair to any space.
                                     </p>
+                                    <div class="text-center">
+                                        <a href="{{route('contact_us')}}">
+                                            <button class="contact-btn">Get Quote</button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -349,6 +697,8 @@
                     aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
         </div>
     </div>
