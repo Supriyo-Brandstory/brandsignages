@@ -44,6 +44,61 @@
         </div>
     </div>
 </section>
+
+<section>
+    <div class="container py-5" id="gallery-container">
+        <h2 class="hero-title  mb-4">LED Sign Boards – Crafted to Shine, Built to Last</h2>
+        <p class=" text-center mb-5">We bring brilliance to branding with our high-performance LED sign boards designed to capture attention. Our exclusive range offers sleek acrylic LED sign boards, dynamic LED message boards, and vibrant LED light boxes – each crafted to align perfectly with your brand vision and appeal.
+        </p>            
+
+        <div class="row align-items-center">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-1.webp')}}" data-lightbox="Acrylic LED Signboard Design" data-title="Image 1">
+                    <img src="{{asset('frontend/Images/acrylic-led-1.webp')}}" class="img-fluid" alt="Acrylic LED Signboard Design" style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/led-2.webp')}}" data-lightbox="LED Signboard Design" data-title="Image 2">
+                    <img src="{{asset('frontend/Images/led-2.webp')}}" class="img-fluid" alt="LED Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/message-board-3.webp')}}" data-lightbox="LED Message Board Design" data-title="Image 3">
+                    <img src="{{asset('frontend/Images/message-board-3.webp')}}" class="img-fluid" alt="LED Message Board Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/led-lightbox-4.webp')}}" data-lightbox="LED Lightbox Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/led-lightbox-4.webp')}}" class="img-fluid" alt="LED Lightbox Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/led-lightbox-5.webp')}}" data-lightbox="LED Lightbox Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/led-lightbox-5.webp')}}" class="img-fluid" alt="LED Lightbox Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/led-6.webp')}}" data-lightbox="LED Signboard Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/led-6.webp')}}" class="img-fluid" alt="LED Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-signboard-4.webp')}}" data-lightbox="Acrylic LED Signboard Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/acrylic-led-signboard-4.webp')}}" class="img-fluid" alt="Acrylic LED Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" data-lightbox="Acrylic LED Signboard Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid" alt="Acrylic LED Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
  
     <section class="why-bg-light-pink py-5">
     <div class="container">
