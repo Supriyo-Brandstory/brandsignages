@@ -56,6 +56,63 @@
     </div>
 </section>
 
+<section>
+    <div class="container py-5" id="gallery-container">
+        <h2 class="hero-title  mb-4">Premium Neon Signboards – Bold, Brilliant, and Unforgettable</h2>
+        <p class=" text-center mb-5">At Brand Signages, we bring your brand to life with vibrant, custom-designed neon signboards that captivate and communicate. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards – each tailored to reflect your unique brand identity. 
+
+            <br>Whether you're a budding startup, retail business, restaurant, seasoned brand, or looking for neon signs for a special event or home, our neon solutions offer the perfect fusion of artistic flair and functional brilliance. Every sign is meticulously crafted to ensure visual appeal and durability, turning ordinary spaces into glowing experiences.
+        </p>            
+
+        <div class="row align-items-center">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/neon-1.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 1">
+                    <img src="{{asset('frontend/Images/neon-1.webp')}}" class="img-fluid" alt="Neon Signboard Design" style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/neon-2.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 2">
+                    <img src="{{asset('frontend/Images/neon-2.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/neon-3.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 3">
+                    <img src="{{asset('frontend/Images/neon-3.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/neon-4.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/neon-4.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/neon-5.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/neon-5.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/neon-6.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/neon-6.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/neon-7.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/neon-7.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/neon-8.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/neon-8.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section class="container py-5">
     <div class="row g-4 d-flex flex-wrap justify-content-center">
 
