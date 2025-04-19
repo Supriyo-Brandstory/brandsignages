@@ -22,10 +22,7 @@
         <h2 class="hero-title  mb-4">Premium Neon Signboards Bangalore <br> Bold, Brilliant, and Unforgettable</h2>
         <p class=" text-center mb-5">Brand Signages is the leading supplier of neon sign board in Bangalore. With over 10 years of experience, we design high-quality and customized neon signs for top businesses. 
                 From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. We design spectacular neon signs perfect for businesses looking for eye-catching, 
-                stylish, and durable signage.
-        </p> 
-        <p>
-        Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards – each tailored to reflect your unique brand identity.
+                stylish, and durable signage. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards – each tailored to reflect your unique brand identity.
         </p>            
 
         <div class="row align-items-center">
@@ -93,11 +90,25 @@
                     you're a budding startup, retail business, restaurant, seasoned brand, or looking for neon signs for a special event or 
                     home, our neon solutions offer the perfect fusion of artistic flair and functional brilliance. Every sign is meticulously
                      crafted to ensure visual appeal and durability, turning ordinary spaces into glowing experiences. 
-                    </p> 
+                </p> 
                 <p class="brand-description">
                 <a href="{{route('neon_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Neon signs</a> are energy-efficient, long-lasting, and available in a variety of colors and design patterns. Choose from acrylic neon boards, neon glow 
                 signage boards, or custom neon designs to achieve the perfect look for your brand. Whether you need a single sign or bulk orders, we cater to all requirements.
                 </p>
+                <p class="brand-description">
+                 Get premium quality neon signs crafted according to your individual preferences from Brand Signage and elevate your space effortlessly.</p>
+                <ul class="process-list">
+                        <li>
+                            We craft the best-quality, custom neon signages to meet your needs.
+                        </li>
+                        <li>
+                            Our neon signages are energy-efficient, durable, and visually appealing.
+                        </li>
+                        <li>
+                            We offer expert design and installation services for a seamless experience.
+                        </li>
+                    </ul>
+
             </div>
         </div>
     </div>
