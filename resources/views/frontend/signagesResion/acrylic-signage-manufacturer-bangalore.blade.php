@@ -17,7 +17,6 @@
     </div>
 </section>
 
-
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">Modern Acrylic Sign Boards in Bangalore - Perfect <br>Blend of Style and Strength</h2>
@@ -42,6 +41,62 @@
                 <p class="brand-description">
                     At Brand Signages, we understand the essence of creating a lasting impact through effective branding. Our <a href="{{route('arcylic_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic sign boards </a>are crafted with innovation & precision, ensuring they not only enhance the aesthetic of your space but also communicate your brand’s values.
                 </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container py-5" id="gallery-container">
+        <h2 class="hero-title  mb-4">Acrylic LED Signages – Designed to Dazzle, Built to Endure</h2>
+        <p class=" text-center mb-5">At Brand Signages, we specialize in transforming ideas into illuminated reality with premium-quality acrylic LED signages. Our offerings include a wide range of styles from acrylic glow sign boards, LED name boards, to 3D acrylic letter signs, and more to match your unique branding goals. 
+
+            <br>We work with businesses of all scales, startups looking to make a bold entrance or established names aiming to refresh their presence. Each signage is crafted with attention to detail, blending modern aesthetics with long-lasting LED performance. With Brand Signages, your message doesn’t just appear- it radiates distinction.
+        </p>            
+
+        <div class="row align-items-center">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-sign-1.webp')}}" data-lightbox="catalogue" data-title="Image 1">
+                    <img src="{{asset('frontend/Images/acrylic-led-sign-1.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-sinnboard-2.webp')}}" data-lightbox="catalogue" data-title="Image 2">
+                    <img src="{{asset('frontend/Images/acrylic-led-sinnboard-2.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-signboard-3.webp')}}" data-lightbox="catalogue" data-title="Image 3">
+                    <img src="{{asset('frontend/Images/acrylic-led-signboard-3.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-signboard-4.webp')}}" data-lightbox="catalogue" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/acrylic-led-signboard-4.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-signboard-5.webp')}}" data-lightbox="catalogue" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/acrylic-led-signboard-5.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" data-lightbox="catalogue" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-sign-board-7.webp')}}" data-lightbox="catalogue" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/acrylic-led-sign-board-7.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-sign-board-8.webp')}}" data-lightbox="catalogue" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/acrylic-sign-board-8.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
+                    </a>
+                </div>
+                
             </div>
         </div>
     </div>

@@ -5,7 +5,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/led-sign-boards-bangalore.webp')}}" alt="LED Sign Board manufacturers in Bangalore">
+                <img src="{{asset('frontend/Images/led-signage1.webp')}}" alt="LED Sign Board manufacturers in Bangalore">
                 <div class="carousel-caption-custom">
                     <h1>Shine Bright with Custom LED Sign Boards in Bangalore</h1>
                      <div class="mt-4">
