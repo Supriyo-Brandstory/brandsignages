@@ -22,7 +22,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Manufacturing Company in Mumbai">
                 <div class="carousel-caption-custom">
-                    <h1>Best Signage companies in Mumbai and Navi Mumbai</h1>
+                    <h1>Best Signage Makers in Mumbai and Navi Mumbai</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
