@@ -129,6 +129,60 @@
         </div>
     </section>
 
+    <section>
+    <div class="container py-5" id="gallery-container">
+        <h2 class="hero-title  mb-4">Our Recent Signage Projects</h2>
+        <p class=" text-center mb-5">We design high-quality and customized signage and sign boards for top businesses in Mumbai. From outdoor neon signs to sleek acrylic signages, digital signages, and LED sign boards, our solutions are designed to enhance both branding and decor.
+        </p>            
+        <div class="row align-items-center">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-1.webp')}}" data-lightbox="Acrylic LED Signboard- Recent Client Work" data-title="Image 1">
+                    <img src="{{asset('frontend/Images/portfolio-1.webp')}}" class="img-fluid" alt="Acrylic LED Signboard- Recent Client Work" style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-2.webp')}}" data-lightbox="LED Signboard Design- Recent Client Work" data-title="Image 2">
+                    <img src="{{asset('frontend/Images/portfolio-2.webp')}}" class="img-fluid" alt="LED Signboard Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-3.webp')}}" data-lightbox="LED Lightbox Design- Recent Client Work" data-title="Image 3">
+                    <img src="{{asset('frontend/Images/portfolio-3.webp')}}" class="img-fluid" alt="LED Lightbox Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-4.webp')}}" data-lightbox="Neon Signboard Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/portfolio-4.webp')}}" class="img-fluid" alt="Neon Signboard Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-5.webp')}}" data-lightbox="Neon Signboard Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/portfolio-5.webp')}}" class="img-fluid" alt="Neon Signboard Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-6.webp')}}" data-lightbox="Digital Signage Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/portfolio-6.webp')}}" class="img-fluid" alt="Digital Signage Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-7.webp')}}" data-lightbox="Digital Signage Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/portfolio-7.webp')}}" class="img-fluid" alt="Digital Signage Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-8.webp')}}" data-lightbox="Acrylic LED Signboard Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/portfolio-8.webp')}}" class="img-fluid" alt="Acrylic LED Signboard Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
@@ -624,61 +678,6 @@
     </div>
 </section>-->
 
-
-<section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
-        <h2 class="hero-title">Catalogue</h2>
-        
-        <!-- First Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-16.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-16.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai" style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-17.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-17.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-18.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-19.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-19.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
-        
-        <!-- Second Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-20.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-20.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-21.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-22.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/leading-signage-company-mumbai-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/leading-signage-company-mumbai-23.webp')}}" class="img-fluid" alt="Signage Manufacturing Company in Mumbai"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
-
-    </div>
-</section>
 
 <section class="testimonial section ">
     <div class="container">
