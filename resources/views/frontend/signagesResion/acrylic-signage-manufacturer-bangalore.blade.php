@@ -129,10 +129,10 @@
 
       <div class="contact-details">
         <div class="contact-item">
-<i class="fas fa-phone fa-2x icon"></i> <span>‪tel:+91 8006606080‬</span>
+        <i class="fas fa-phone fa-2x icon"></i> <span>‪<a href="tel:+918006606080">+91 8006606080</a>‬</span>
         </div>
         <div class="contact-item">
-            <i class="fas fa-envelope fa-2x icon"></i> <span>mailto:sales@brandsignages.com</span>
+        <i class="fas fa-envelope fa-2x icon"></i> <span><a href="mailto:sales@brandsignages.com">sales@brandsignages.com</a></span>
         </div>
       </div>
     </div>
