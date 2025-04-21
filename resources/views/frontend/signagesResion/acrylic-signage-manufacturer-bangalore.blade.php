@@ -102,7 +102,7 @@
     </div>
 </section>
 
-<div class="container d-flex flex-column flex-md-row justify-content-between align-items-start my-5">
+<!--<div class="container d-flex flex-column flex-md-row justify-content-between align-items-start my-5">
     <div class="info">
     <div class="d-flex gap-3">
     <i class="fas fa-map-marker-alt fa-2x icon"></i>
@@ -206,7 +206,7 @@
         flex: 1;
       }
     }
-  </style>
+  </style>-->
 
 
 <section class="container py-5">
