@@ -47,15 +47,15 @@
 </section>
 
 <section>
-    <div class="container py-5" id="gallery-container">
+    <div class="container pb-0 pt-0 pb-lg-5 pt-lg-5 " id="gallery-container">
         <h2 class="hero-title  mb-4">Acrylic LED Signages – Designed to Dazzle, Built to Endure</h2>
         <p class=" text-center mb-5">At Brand Signages, we specialize in transforming ideas into illuminated reality with premium-quality acrylic LED signages. Our offerings include a wide range of styles from acrylic glow sign boards, LED name boards, to 3D acrylic letter signs, and more to match your unique branding goals. 
 
             <br>We work with businesses of all scales, startups looking to make a bold entrance or established names aiming to refresh their presence. Each signage is crafted with attention to detail, blending modern aesthetics with long-lasting LED performance. With Brand Signages, your message doesn’t just appear- it radiates distinction.
         </p>            
 
-        <div class="row align-items-center">
-            <div class="row">
+        <div class=" align-items-center">
+            <div class="row align-items-center">
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <a href="{{asset('frontend/Images/acrylic-led-sign-1.webp')}}" data-lightbox="Acrylic LED Signboard Design" data-title="Image 1">
                     <img src="{{asset('frontend/Images/acrylic-led-sign-1.webp')}}" class="img-fluid" alt="Acrylic LED Signboard Design" style="width: 100%;">
@@ -102,7 +102,7 @@
     </div>
 </section>
 
-<!--<div class="container d-flex flex-column flex-md-row justify-content-between align-items-start my-5">
+<div class="container d-block d-lg-flex justify-content-between align-items-start mt-0 mt-lg-5 mb-0 mb-lg-5">
     <div class="info">
     <div class="d-flex gap-3">
     <i class="fas fa-map-marker-alt fa-2x icon"></i>
@@ -205,8 +205,18 @@
 .map {
         flex: 1;
       }
+
     }
-  </style>-->
+@media(max-width: 768px) {    
+      .contact-details {
+        display: block;
+      }
+      .info, .map {
+    flex: 1 1 100%;
+    padding: 0px;
+}
+    }
+  </style>
 
 
 <section class="container py-5">
