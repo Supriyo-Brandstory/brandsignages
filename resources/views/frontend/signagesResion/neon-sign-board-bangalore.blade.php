@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Neon Light Sign Boards in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Best Neon Sign Board Bangalore- Brand Signages</h1>
+                    <h1>Best Neon Sign Lights Bangalore- Brand Signages</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -20,7 +20,7 @@
 <section>
     <div class="container py-5" id="gallery-container">
         <h2 class="hero-title  mb-4">Premium Neon Signboards Bangalore <br> Bold, Brilliant, and Unforgettable</h2>
-        <p class=" text-center mb-5">Brand Signages is the leading supplier of neon sign board in Bangalore. With over 10 years of experience, we design high-quality and customized neon signs for top businesses. 
+        <p class=" text-center mb-5">Brand Signages is the leading supplier of neon light and sign board in Bangalore. With over 10 years of experience, we design high-quality and customized neon signs for top businesses. 
                 From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. We design spectacular neon signs perfect for businesses looking for eye-catching, 
                 stylish, and durable signage. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards – each tailored to reflect your unique brand identity.
         </p>            
@@ -28,13 +28,13 @@
         <div class="row align-items-center">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/neon-1.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 1">
-                    <img src="{{asset('frontend/Images/neon-1.webp')}}" class="img-fluid" alt="Neon Signboard Design" style="width: 100%;">
+                    <a href="{{asset('frontend/Images/neon-1.webp')}}" data-lightbox="Neon Light Design" data-title="Image 1">
+                    <img src="{{asset('frontend/Images/neon-1.webp')}}" class="img-fluid" alt="Neon Light Design" style="width: 100%;">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/neon-2.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 2">
-                    <img src="{{asset('frontend/Images/neon-2.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
+                    <a href="{{asset('frontend/Images/neon-2.webp')}}" data-lightbox="Neon Light Signboard Design" data-title="Image 2">
+                    <img src="{{asset('frontend/Images/neon-2.webp')}}" class="img-fluid" alt="Neon Light Signboard Design"  style="width: 100%;">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
@@ -53,13 +53,13 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/neon-6.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/neon-6.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
+                    <a href="{{asset('frontend/Images/neon-6.webp')}}" data-lightbox="Neon Light Sign Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/neon-6.webp')}}" class="img-fluid" alt="Neon Light Sign Design"  style="width: 100%;">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/neon-7.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/neon-7.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
+                    <a href="{{asset('frontend/Images/neon-7.webp')}}" data-lightbox="Neon Sign Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/neon-7.webp')}}" class="img-fluid" alt="Neon Sign Design"  style="width: 100%;">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
@@ -202,8 +202,8 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Looking for neon signs? Unique and spectacular neon signs are the best branding element to enhance your space. Whether 
-                    you're a budding startup, retail business, restaurant, seasoned brand, or looking for neon signs for a special event or 
+                    Looking for neon light signs? Unique and spectacular neon signs are the best branding element to enhance your space. Whether 
+                    you're a budding startup, retail business, restaurant, seasoned brand, or looking for neon lights for a special event or 
                     home, our neon solutions offer the perfect fusion of artistic flair and functional brilliance. Every sign is meticulously
                      crafted to ensure visual appeal and durability, turning ordinary spaces into glowing experiences. 
                 </p> 
@@ -218,7 +218,7 @@
                             We craft the best-quality, custom neon signages to meet your needs.
                         </li>
                         <li>
-                            Our neon signages are energy-efficient, durable, and visually appealing.
+                            Our neon lights are energy-efficient, durable, and visually appealing.
                         </li>
                         <li>
                             We offer expert design and installation services for a seamless experience.
