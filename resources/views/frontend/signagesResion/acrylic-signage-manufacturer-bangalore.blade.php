@@ -114,7 +114,7 @@
     <div class="d-flex gap-3">
         <i class="fas fa-map-marker-alt fa-2x icon"></i>
         <div>
-          <h3>Corporate Office</h3>
+          <h3>Manufacturing Facility</h3>
           <p>34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, Karnataka 560071</p>
         </div>
         </div>
@@ -129,10 +129,10 @@
 
       <div class="contact-details">
         <div class="contact-item">
-<i class="fas fa-phone fa-2x icon"></i> <span>‪+91 8006606080‬</span>
+<i class="fas fa-phone fa-2x icon"></i> <span>‪tel:+91 8006606080‬</span>
         </div>
         <div class="contact-item">
-            <i class="fas fa-envelope fa-2x icon"></i> <span>sales@brandsignages.com</span>
+            <i class="fas fa-envelope fa-2x icon"></i> <span>mailto:sales@brandsignages.com</span>
         </div>
       </div>
     </div>
