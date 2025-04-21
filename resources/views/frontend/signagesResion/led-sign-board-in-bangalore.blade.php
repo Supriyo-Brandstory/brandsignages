@@ -99,7 +99,112 @@
     </div>
 </section>
 
- 
+<div class="container d-flex flex-column flex-md-row justify-content-between align-items-start my-5">
+    <div class="info">
+    <div class="d-flex gap-3">
+    <i class="fas fa-map-marker-alt fa-2x icon"></i>
+    <div>
+      <h3>Corporate Office</h3>
+      <p>Brand Signages, 5th Floor, BrandStoryVentures, Surya Chambers, 34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, Karnataka 560071</p>
+    </div>
+    </div>
+    <div class="d-flex gap-3">
+        <i class="fas fa-map-marker-alt fa-2x icon"></i>
+        <div>
+          <h3>Manufacturing Facility</h3>
+          <p>34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, Karnataka 560071</p>
+        </div>
+        </div>
+        <div class="d-flex gap-3">
+            <i class="fas fa-clock fa-2x icon"></i>
+            <div>
+                <h3>Timing</h3>
+                <p>Monday – Saturday: 9.30 AM – 8:00 PM</p>
+            </div>
+            </div>
+
+
+      <div class="contact-details">
+        <div class="contact-item">
+        <i class="fas fa-phone fa-2x icon"></i> <span>‪<a href="tel:+918006606080">+91 8006606080</a>‬</span>
+        </div>
+        <div class="contact-item">
+        <i class="fas fa-envelope fa-2x icon"></i> <span><a href="mailto:sales@brandsignages.com">sales@brandsignages.com</a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2458941156506!2d77.63487547484105!3d12.956111187357873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae154e854bc24d%3A0xca67160f8dc712fc!2sBrand%20Signages-%20Sign%20Board%20Manufacturers%20in%20Bangalore%20%7C%20LED%20%26%20Digital%20Signage%20Makers!5e0!3m2!1sen!2sin!4v1744381933145!5m2!1sen!2sin" width="600" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <style>
+
+
+    .info, .map {
+      flex: 1 1 100%;
+      padding: 20px;
+    }
+ .info h3 {
+      margin-bottom: 10px;
+      color: #111;
+      font-size: 22px;
+    }
+
+    .info p {
+      margin: 5px 0 15px;
+      line-height: 1.6;
+    }
+    .info .icon {
+    font-size: 20px;
+    padding: 7px;
+    color: #E43D12;
+    }
+
+    .highlight {
+      font-weight: bold;
+    }
+
+    .contact-details {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0 0;
+}
+ .contact-item {
+        display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: solid 1px #8080804a;
+    border-radius: 5px;
+    padding: 20px 15px;
+    width: 100%;
+    }
+
+    .contact-item span {
+      margin-left: 10px;
+      color: #E43D12;
+    }
+
+    .map iframe {
+      width: 100%;
+      height: 370px;
+      border: none;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        flex-wrap: nowrap;
+      }
+      .info {
+        flex: 1;
+      }
+.map {
+        flex: 1;
+      }
+    }
+  </style>
+
     <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
@@ -293,46 +398,6 @@
         </div>
     </div>
 </section>
-
-<section class="process-section">
-        <div class="container">
-            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-design">
-                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
-                        </div>
-                        <h3>On-demand Design</h3>
-                        <p>Our creative team of expert sign board makers in Bangalore offers flexible, personalized signage solutions. We transform your ideas into compelling visual narratives that strengthen your brand presence.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-deliver">
-                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
-                        </div>
-                        <h3>Timely Deliver</h3>
-                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
-                            project completion without compromising quality or design integrity.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-purchase">
-                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
-                        </div>
-                        <h3>Direct Purchase</h3>
-                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative
-                            brilliance.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
 <section class="why-bg-light-pink py-5" style="background: #fff;">
         <div class="container">
