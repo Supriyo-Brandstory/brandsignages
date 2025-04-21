@@ -99,37 +99,12 @@
     </div>
 </section>
 
-<!--<div class="container d-flex flex-column flex-md-row justify-content-between align-items-start my-5">
-    <div class="info">
-    <div class="d-flex gap-3">
-    <i class="fas fa-map-marker-alt fa-2x icon"></i>
-    <div>
-      <h3>Corporate Office</h3>
-      <p>Brand Signages, 5th Floor, BrandStoryVentures, Surya Chambers, 34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, Karnataka 560071</p>
-    </div>
-    </div>
-    <div class="d-flex gap-3">
-        <i class="fas fa-map-marker-alt fa-2x icon"></i>
-        <div>
-          <h3>Manufacturing Facility</h3>
-          <p>34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, Karnataka 560071</p>
-        </div>
-        </div>
-        <div class="d-flex gap-3">
-            <i class="fas fa-clock fa-2x icon"></i>
-            <div>
-                <h3>Timing</h3>
-                <p>Monday – Saturday: 9.30 AM – 8:00 PM</p>
-            </div>
-            </div>
-
-
-      <div class="contact-details">
+<div class="contact-details">
         <div class="contact-item">
-        <i class="fas fa-phone fa-2x icon"></i> <span>‪<a href="tel:+918006606080">+91 8006606080</a>‬</span>
+        <i class="fas fa-phone fa-2x icon"></i> <span>‪<a href="tel:+918006606080" style="text-decoration: unset;color:#E43D12;font-weight: bold;">+91 8006606080</a>‬</span>
         </div>
         <div class="contact-item">
-        <i class="fas fa-envelope fa-2x icon"></i> <span><a href="mailto:sales@brandsignages.com">sales@brandsignages.com</a></span>
+        <i class="fas fa-envelope fa-2x icon"></i> <span><a href="mailto:sales@brandsignages.com" style="text-decoration: unset;color:#E43D12;font-weight: bold;">sales@brandsignages.com</a></span>
         </div>
       </div>
     </div>
@@ -202,8 +177,19 @@
 .map {
         flex: 1;
       }
+
     }
-  </style>-->
+@media(max-width: 768px) {    
+      .contact-details {
+        display: block;
+      }
+      .info, .map {
+    flex: 1 1 100%;
+    padding: 0px;
+}
+    }
+  </style>
+
 
     <section class="why-bg-light-pink py-5">
     <div class="container">

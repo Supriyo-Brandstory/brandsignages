@@ -41,6 +41,7 @@
                 <p class="brand-description">
                     At Brand Signages, we understand the essence of creating a lasting impact through effective branding. Our <a href="{{route('arcylic_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic sign boards </a>are crafted with innovation & precision, ensuring they not only enhance the aesthetic of your space but also communicate your brand’s values.
                 </p>
+                <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
             </div>
         </div>
     </div>
@@ -129,10 +130,10 @@
 
       <div class="contact-details">
         <div class="contact-item">
-        <i class="fas fa-phone fa-2x icon"></i> <span>‪<a href="tel:+918006606080">+91 8006606080</a>‬</span>
+        <i class="fas fa-phone fa-2x icon"></i> <span>‪<a href="tel:+918006606080" style="text-decoration: unset;color:#E43D12;font-weight: bold;">+91 8006606080</a>‬</span>
         </div>
         <div class="contact-item">
-        <i class="fas fa-envelope fa-2x icon"></i> <span><a href="mailto:sales@brandsignages.com">sales@brandsignages.com</a></span>
+        <i class="fas fa-envelope fa-2x icon"></i> <span><a href="mailto:sales@brandsignages.com" style="text-decoration: unset;color:#E43D12;font-weight: bold;">sales@brandsignages.com</a></span>
         </div>
       </div>
     </div>
