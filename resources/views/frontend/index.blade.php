@@ -68,7 +68,7 @@
                        <a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
                        <a href="{{route('digital_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
                        <a href="{{route('acrylic_signage_manufacturer_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic signage </a>,
-                       <a href="{{route('eon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon lights </a>, and
+                       <a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon lights </a>, and
                        <a href="{{route('steel_signage_manufacturer_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">metal signage </a>
                         boards in Bangalore for almost every industry. Here is how we do it:
                     </p>
