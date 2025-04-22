@@ -6,9 +6,9 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/indoor-signage.webp')}}" alt="Indoor Signs">
+                <img src="{{asset('frontend/Images/indoor-business-sign.webp')}}" alt="Indoor Business Signs">
                 <div class="carousel-caption-custom">
-                    <h1>Premium-Quality Custom Indoor Signages</h1>
+                    <h1>Custom Indoor Signages for Businesses</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -21,58 +21,65 @@
 
 
 <section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Indoor Signages for Office and Retail Spaces</h2>   
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/indoor-signage2.webp')}}" alt="Indoor Signs" class="img-fluid">
+    <div class="container pb-0 pt-0 pb-lg-5 pt-lg-5 " id="gallery-container">
+        <h2 class="hero-title  mb-4">AIndoor Business Signs for Office and Retail Space</h2>
+        <p class=" text-center mb-5">Indoor signage is an exceptional branding tool to elevate interior branding. 
+            This can be wayfinding signage, reception signage, or nameplates that maintain a sleek and professional workspace. 
+            Indoor signage is a must-have for brands & businesses, while Brand Signages is your go-to option for interior branding.  
+        </p> 
+        <p class=" text-center mb-5">At Brand Signages, we transform indoor spaces with custom indoor business signs for a jaw-dropping 
+            visual experience. As an industry leader in signage & signboard manufacturing, we know how indoor signage can act as a strategic 
+            brand touchpoint.
+        </p>             
+        <p class=" text-center mb-5">We are here to reinforce your business identity with modern indoor signs. Crafted with premium materials and 
+            tailored to match your brand aesthetics, our signage solutions blend innovation with precision, making every indoor space an extension 
+            of your brand’s story.
+        </p>    
+
+        <div class=" align-items-center">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/office-sign-1.webp')}}" data-lightbox="Acrylic Logo Sign for Businesses" data-title="Image 1">
+                    <img src="{{asset('frontend/Images/office-sign-1.webp')}}" class="img-fluid" alt="Acrylic Logo Sign for Businesses" style="width: 100%;">
+                    </a>
                 </div>
-            </div>
-            
-            <div class="col-lg-6">
-                <p class="brand-description">
-                Indoor signages are exceptional branding tool to elevate interior branding. This can be wayfinding signage, 
-                reception signage, or nameplates that maintain a sleek and professional workspace. Whether it is an office space 
-                or a retail store, indoor signage is a must-have for brands & businesses.<br>
-                At Brand Signages, we transform indoor spaces with custom interior office signs for a jaw-dropping visual experience. 
-                As industry leader in signage & sign manufacturing, we know how indoor signages can act as a strategic brand touchpoint. 
-                We are here to reinforce your company and retail space’s identity with modern indoor signage solutions and leave a lasting first 
-                impact. Crafted with premium materials and tailored to match your brand aesthetics, our signage solutions blend innovation with precision, making every indoor space an extension of your brand’s story. 
-            </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        
-        <div class="row align-items-center">
-            
-            <div class="col-lg-6 order-2 order-lg-1">
-                <p class="brand-description">
-                We offer indoor signages in a variety of materials designed to offer durability, 
-                aesthetics, and premium look. Here are the options available at Brand Signages:
-                </p>
-                <p class="brand-description">
-                <ul>
-                    <li><a href="{{route('arcylic_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Acrylic Sign Boards</a></li>
-                    <li><a href="{{route('metal_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Metal Sign Boards</a></li>
-                    <li><a href="{{route('digital_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Digital Signage</a></li>
-                    <li><a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED Sign Boards</a></li>
-                    <li><a href="{{route('neon_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Neon Signage</a></li>
-                </ul>
-                As a reliable manufacturer of custom indoor business signs, we blend creativity and professional appeal to every design.
-                </p>
-            </div>
-
-            <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/reception-indoor-sign.webp')}}" alt="Reception Indoor Signs" class="img-fluid">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/office-sign-2.webp')}}" data-lightbox="Indoor Metal Sign Design" data-title="Image 2">
+                    <img src="{{asset('frontend/Images/office-sign-2.webp')}}" class="img-fluid" alt="Indoor Metal Sign Design"  style="width: 100%;">
+                    </a>
                 </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/office-sign-3.webp')}}" data-lightbox="Acrylic Indoor Sign Design" data-title="Image 3">
+                    <img src="{{asset('frontend/Images/office-sign-3.webp')}}" class="img-fluid" alt="Acrylic Indoor Sign Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/office-sign-4.webp')}}" data-lightbox="LED Signage Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/office-sign-4.webp')}}" class="img-fluid" alt="LED indoor Signage Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/office-sign-5.webp')}}" data-lightbox="LED Signboard Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/office-sign-5.webp')}}" class="img-fluid" alt="LED Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/office-sign-6.webp')}}" data-lightbox="Indoor Logo Sign Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/office-sign-6.webp')}}" class="img-fluid" alt="Indoor Logo Sign Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/office-sign-7.webp')}}" data-lightbox="Stainless Steel Indoor Sign Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/office-sign-7.webp')}}" class="img-fluid" alt="Stainless Steel Indoor Sign Design"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/office-sign-8.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/office-sign-8.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
+                    </a>
+                </div>
+                
             </div>
-
         </div>
     </div>
 </section>
@@ -82,7 +89,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Reasons for Choosing Our Indoor <br> Signs for Business</h2>
-            <p class="card-text text-center">What do people look into when they enter your office? Office interior design plays a significant role in establishing brand identity. <br> Therefore choosing the right indoor signs for business can make a difference from others. Our indoor signage is crafted with long- <br> lasting durable material to meet the standard quality. Our signage solution is available in customized design as well and you can also <br> choose interior signage for business from our wide range of templates. Explore our collection for your latest indoor signage.</p>
+            <p class="card-text text-center">What do people look into when they enter your office or retail space? Indoor business sign design plays a significant role in establishing brand identity. <br> Therefore choosing the right indoor signs for business can make a difference from others. Our indoor signage is crafted with long- <br> lasting durable material to meet the standard quality.</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -92,7 +99,7 @@
                     <img src="{{asset('frontend/Images/indoor-signage4.webp')}}" class="why-card-img-top" alt="Durable Material">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Durable Material</h3>
-                        <p class="card-text">Our office indoor signage is made with durable material that will last a long time. Whether you choose metal, acrylic, or wooden material, our office signage is your permanent solution. Share your preference, and get the best interior signage solutions for your business. Our interior office signs are not only a communication medium but also significant in building identity. </p>
+                        <p class="card-text">Our indoor business signs are made with durable materials that ensure long-lasting performance. Share your preferences and get the best interior signage solutions tailored for your business. More than just a communication tool, our interior signs reinforce your brand identity and elevate your professional space.</p>
                     </div>
                 </div>
             </div>
@@ -100,8 +107,8 @@
                 <div class="why-card card">
                     <img src="{{asset('frontend/Images/indoor-signage5.webp')}}" class="why-card-img-top" alt="Best Resolution Printing">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Best Resolution Printing</h3>
-                        <p class="card-text">We use the best-resolution printing technology to deliver unmatched quality outdoor and indoor signage for your company. Whether it is an office lobby or a retail shop, every detail is maintained to provide long-standing indoor signage. It ensures interior signage will be close to your brand value, motivate your employees, and make a professional connection.</p>
+                        <h3 class="why-text-red mb-3">Professional Appeal</h3>
+                        <p class="card-text">Whether it's a corporate space, retail environment, or any indoor business setting, we ensure every detail is carefully crafted to deliver durable and impactful signage. Our indoor signs align with your brand values, enhance the ambiance, and foster a professional connection with customers and employees alike.</p>
                     </div>
                 </div>
             </div>
@@ -110,7 +117,7 @@
                     <img src="{{asset('frontend/Images/indoor-signage6.webp')}}" class="why-card-img-top" alt="Customized Designs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Customized Designs</h3>
-                        <p class="card-text">Understanding your business needs which help us to meet your requirements for interior office signs. So, connect with us for your personalized office signage that can express your brand identity to the world. You will get guidance from our experienced team and the best option for your business indoor signage.</p>
+                        <p class="card-text">We take the time to analyze your needs, enabling us to deliver indoor business signs that align perfectly with your brand. Connect with our experts for personalized signage solutions that showcase your identity. Our team will guide you through every step, helping you choose the best indoor signage option for your business.</p>
                     </div>
                 </div>
             </div>
@@ -127,7 +134,7 @@
                                 <img src="{{asset('frontend/Images/indoor-signage4.webp')}}" class="why-card-img-top" alt="Durable Material">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Durable Material</h3>
-                                    <p class="card-text">Our office indoor signage is made with durable material that will last a long time. Whether you choose metal, acrylic, or wooden material, our office signage is your permanent solution. Share your preference, and get the best interior signage solutions for your business. Our interior office signs are not only a communication medium but also significant in building industry identity. Let us collaborate with you and enhance your brand presence!</p>
+                                    <p class="card-text">Our indoor business signs are made with durable materials that ensure long-lasting performance. Share your preferences and get the best interior signage solutions tailored for your business. More than just a communication tool, our interior signs reinforce your brand identity and elevate your professional space.</p>
                                 </div>
                             </div>
                         </div>
@@ -135,8 +142,8 @@
                             <div class="why-card card">
                                 <img src="{{asset('frontend/Images/indoor-signage5.webp')}}" class="why-card-img-top" alt="Best Resolution Printing">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Best Resolution Printing</h3>
-                                    <p class="card-text">We use the best-resolution printing technology to deliver unmatched quality outdoor and indoor signage for your company. Whether it is an office lobby or a retail shop, every detail is maintained to provide long-standing indoor signage. It ensures interior signage will be close to your brand value, motivate your employees, and make a professional connection.</p>
+                                    <h3 class="why-text-red mb-3">Professional Appeal</h3>
+                                    <p class="card-text">Whether it's a corporate space, retail environment, or any indoor business setting, we ensure every detail is carefully crafted to deliver durable and impactful signage. Our indoor signs align with your brand values, enhance the ambiance, and foster a professional connection with customers and employees alike.</p>
                                 </div>
                             </div>
                         </div>
@@ -145,7 +152,7 @@
                                 <img src="{{asset('frontend/Images/indoor-signage6.webp')}}" class="why-card-img-top" alt="Customized Designs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Customized Designs</h3>
-                                    <p class="card-text">Understanding your business needs which help us to meet your requirements for interior office signs. So, connect with us for your personalized office signage that can express your brand identity to the world. You will get guidance from our experienced team and the best option for your business indoor signage.</p>
+                                    <p class="card-text">We take the time to analyze your needs, enabling us to deliver indoor business signs that align perfectly with your brand. Connect with our experts for personalized signage solutions that showcase your identity. Our team will guide you through every step, helping you choose the best indoor signage option for your business.</p>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +217,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/digital-signage23.webp')}}" alt="Indoor Signs" class="img-fluid">
+                    <img src="{{asset('frontend/Images/digital-signage-benefits.webp')}}" alt="Indoor Signs" class="img-fluid">
                 </div>
             </div>
 
@@ -465,51 +472,51 @@
       
       <div class="faq-item">
         <button class="faq-question">
-            The right indoor signage, how do you choose it for your business?
+            What are indoor business signs, and why are they important for my brand?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>First, you have to understand branding and consider your target audience, including business goals, and space layout. Second, prioritize design alignment, visibility, and functionality to ensure indoor signage enhances customer experience and supports your brand.</p>
+          <p>Indoor business signs are visual displays placed inside offices, retail stores, or commercial buildings to communicate, guide customers, and improve brand identity. They play a key role in creating a professional environment, improving navigation, and leaving a lasting impression on visitors and customers.</p>
         </div>
       </div>
   
       <div class="faq-item">
         <button class="faq-question">
-            What are the main signage categories?
+         Which types of indoor business signs are commonly used in offices and retail spaces?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>The main signage categories are directional, branding, and purchase signage. Along with, informational signage, safety, and promotional signage are also used for educating visitors, building brand identity, providing information, and boosting sales.</p>
+          <p>Common types include reception signs, directional signs, acrylic logo signs, wall graphics, room identification signs, safety signs, and digital displays. These signs enhance aesthetics while ensuring efficient internal communication and brand visibility.</p>
         </div>
       </div>
   
       <div class="faq-item">
         <button class="faq-question">
-            What material are signs made of?
+           What materials are typically used to create durable indoor business signs?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>Signs are made of different materials, such as PVC, wood, glass, metal, acrylic, and foam board for aesthetic & sleekness for outdoor and indoor signage. Which types of material are used in office signage, depends on the company’s types and its requirements. After understanding company value and business, we will give the durable material for outdoor- indoor signage.</p>
+          <p>Indoor signs are made from materials like acrylic, PVC, foam board, aluminum, glass, vinyl, and LED panels. The choice depends on design preferences, branding needs, durability, and budget. Acrylic and LED are especially popular for modern, premium indoor signage.</p>
           </div>
       </div>
   
       <div class="faq-item">
         <button class="faq-question">
-            What is temporary signage?
+           Can indoor business signs be customized to match my brand identity?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>Temporary signage is generally used for shirt time events or a one day event. For example, if you do a promotion or sale or any kind of deal for a short period, temporary signage is the best option to promote your offers or business. So, it can be said that temporary signage is used for marketing purposes.</p>
+          <p>Yes, indoor signs can be fully customized in terms of color, size, typography, material, and lighting to reflect your brand’s personality. Custom signage ensures consistency in branding across all physical touchpoints within your business premises.</p>
          </div>
       </div>
   
       <div class="faq-item">
         <button class="faq-question">
-            What is the difference between signs and signage?
+           Do indoor business signs require maintenance or replacement over time?W
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-            <p>Sign Vs Signage-what is the difference between them- sign is used to convey some specific information like a brand logo or company name and is used to display directions. On the other hand, signage is the collective of signs. It is used together to convey messages.</p>
+            <p>While indoor signs are more protected from weather elements, regular cleaning and occasional maintenance help preserve their appearance. Over time, you may need to update them to match rebranding, design upgrades, or wear and tear.</p>
              </div>
       </div>
     </div>
