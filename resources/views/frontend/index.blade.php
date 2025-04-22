@@ -36,7 +36,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
                     <div class="carousel-caption-custom">
-                        <h2>Reliable signage and Signage Supplier for 200+ Businesses</h2>
+                        <h2>Reliable Signage and Sign Board Supplier for 200+ Businesses</h2>
                         <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Contact Us</a>
                         </div>
