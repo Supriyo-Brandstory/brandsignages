@@ -22,7 +22,7 @@
 
 <section>
     <div class="container pb-0 pt-0 pb-lg-5 pt-lg-5 " id="gallery-container">
-        <h2 class="hero-title  mb-4">AIndoor Business Signs for Office and Retail Space</h2>
+        <h2 class="hero-title  mb-4">Transform Your Space with Custom Indoor Business Signs</h2>
         <p class=" text-center mb-5">Indoor signage is an exceptional branding tool to elevate interior branding. 
             This can be wayfinding signage, reception signage, or nameplates that maintain a sleek and professional workspace. 
             Indoor signage is a must-have for brands & businesses, while Brand Signages is your go-to option for interior branding.  
@@ -168,7 +168,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Types of Indoor Signages We Offer</h2>
+        <h2 class="hero-title">Types of Indoor Signage We Offer</h2>
         <p class="card-text testimonial-card-text text-center pb-2">Brand Signages offers various types of indoor signage solutions tailored to meet various needs.<br> Here are the types in detail:</p>
         
         <div class="row align-items-center">
