@@ -63,6 +63,56 @@
     </div>
 </section>
 
+<section class="process-section">
+    <div class="container">
+        <h2 class="process-title">About Our Digital Signage Boards</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="process-card">
+                    <div class="icon-design">
+                        <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="Quality LED Sign Boards">
+                    </div>
+                    <h3>Smart Digital Displays</h3>
+                    <p><strong>No External Media Player:</strong> Our displays work seamlessly without additional hardware<br>
+                    <strong>Remote Display Control:</strong> Reboot and manage single or multiple displays<br>
+                    <strong>Universal Compatibility:</strong> Supports Android, LG webOS, Samsung Tizen, Windows<br> 
+                    <strong>Content Scheduling:</strong> Quickly add playlists, media files, or promotional campaigns<br></p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="process-card">
+                    <div class="icon-deliver">
+                        <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Comprehensive CMS">
+                    </div>
+                    <h3>Specifications</h3>
+                    <p><strong>Minimum Order Quantity:</strong> 1 Unit<br>
+                    <strong>Display Type:</strong> LED / OLED / E-Ink (Customizable)<br>
+                    <strong>Body Material:</strong> Aluminum, acrylic, Polycarbonate, Glass<br>
+                    <strong>Lighting Type:</strong> LED / Backlit LCD for superior brightness<br>
+                    <strong>Available Sizes:</strong> 15-inch, 18-inch, 24-inch, 32-inch, 55-inch<br>
+                    <strong>Shape Options:</strong> Rectangle, Square, Curved, Ultra-Wide<br>
+                    <strong>Viewing Angle:</strong> 178° - 270° for maximum visibility</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="process-card">
+                    <div class="icon-purchase">
+                        <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Support service">
+                    </div>
+                    <h3>Support service</h3>
+                    <p>We deliver end-to-end signage solutions from design to installation ensuring seamless deployment, 
+                        minimal downtime, and long-term reliability. Our commitment to customer satisfaction has helped
+                        us build a loyal customer base that trusts our expertise and relies on us for their digital
+                        signage needs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="why-bg-light-pink py-5">
     <div class="container">
@@ -82,6 +132,9 @@
                             corporate settings, and educational institutions. They deliver stunning visuals and can
                             be customized to fit any branding requirement.</p>
                     </div>
+                    <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Send Inquiry</a>
+                        </div>
                 </div>
             </div>
             <div class="col">
@@ -298,60 +351,6 @@
         </div>
     </div>
 </section>
-
-
-
-<section class="process-section">
-    <div class="container">
-        <h2 class="process-title">About Our Digital Signage Boards</h2>
-        <div class="row">
-
-            <div class="col-md-4">
-                <div class="process-card">
-                    <div class="icon-design">
-                        <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="Quality LED Sign Boards">
-                    </div>
-                    <h3>Smart Digital Displays</h3>
-                    <p><strong>No External Media Player:</strong> Our displays work seamlessly without additional hardware<br>
-                    <strong>Remote Display Control:</strong> Reboot and manage single or multiple displays<br>
-                    <strong>Universal Compatibility:</strong> Supports Android, LG webOS, Samsung Tizen, Windows<br> 
-                    <strong>Content Scheduling:</strong> Quickly add playlists, media files, or promotional campaigns<br></p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="process-card">
-                    <div class="icon-deliver">
-                        <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Comprehensive CMS">
-                    </div>
-                    <h3>Specifications</h3>
-                    <p><strong>Minimum Order Quantity:</strong> 1 Unit<br>
-                    <strong>Display Type:</strong> LED / OLED / E-Ink (Customizable)<br>
-                    <strong>Body Material:</strong> Aluminum, acrylic, Polycarbonate, Glass<br>
-                    <strong>Lighting Type:</strong> LED / Backlit LCD for superior brightness<br>
-                    <strong>Available Sizes:</strong> 15-inch, 18-inch, 24-inch, 32-inch, 55-inch<br>
-                    <strong>Shape Options:</strong> Rectangle, Square, Curved, Ultra-Wide<br>
-                    <strong>Viewing Angle:</strong> 178° - 270° for maximum visibility</p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="process-card">
-                    <div class="icon-purchase">
-                        <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Support service">
-                    </div>
-                    <h3>Support service</h3>
-                    <p>We deliver end-to-end signage solutions from design to installation ensuring seamless deployment, 
-                        minimal downtime, and long-term reliability. Our commitment to customer satisfaction has helped
-                        us build a loyal customer base that trusts our expertise and relies on us for their digital
-                        signage needs.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 
 
 <section class=" py-5">
