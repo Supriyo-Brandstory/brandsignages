@@ -110,9 +110,10 @@
                 </div>
             </div>
         </div>
-        <div class="mt-4">
-            <a href="{{route('contact_us')}}" class="custom-btn">Send Inquiry</a>
-            </div>
+        <div class="mt-4 flex justify-center">
+        <a href="{{ route('contact_us') }}" class="custom-btn">Send Inquiry</a>
+        </div>
+
     </div>
 </section>
 
