@@ -6,9 +6,9 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/indoor-business-sign.webp')}}" alt="Indoor Business Signs">
+                <img src="{{asset('frontend/Images/new-indoor-business-sign.webp')}}" alt="Indoor Business Signs">
                 <div class="carousel-caption-custom">
-                    <h1>Custom Indoor Signages for Businesses</h1>
+                    <h1>Custom Indoor Business Signs for Modern Spaces</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -26,12 +26,11 @@
         <p class=" text-center mb-5">Indoor signage is an exceptional branding tool to elevate interior branding. 
             This can be wayfinding signage, reception signage, or nameplates that maintain a sleek and professional workspace. 
             Indoor signage is a must-have for brands & businesses, while Brand Signages is your go-to option for interior branding.  
-        </p> 
-        <p class=" text-center mb-5">At Brand Signages, we transform indoor spaces with custom indoor business signs for a jaw-dropping 
+        
+            <br>At Brand Signages, we transform indoor spaces with custom indoor business signs for a jaw-dropping 
             visual experience. As an industry leader in signage & signboard manufacturing, we know how indoor signage can act as a strategic 
             brand touchpoint.
-        </p>             
-        <p class=" text-center mb-5">We are here to reinforce your business identity with modern indoor signs. Crafted with premium materials and 
+            <br>We are here to reinforce your business identity with modern indoor signs. Crafted with premium materials and 
             tailored to match your brand aesthetics, our signage solutions blend innovation with precision, making every indoor space an extension 
             of your brand’s story.
         </p>    
@@ -88,7 +87,7 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Reasons for Choosing Our Indoor <br> Signs for Business</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Indoor Business Signs That <br>Communicate with Clarity</h2>
             <p class="card-text text-center">What do people look into when they enter your office or retail space? Indoor business sign design plays a significant role in establishing brand identity. <br> Therefore choosing the right indoor signs for business can make a difference from others. Our indoor signage is crafted with long- <br> lasting durable material to meet the standard quality.</p>
         </div>
 
@@ -482,7 +481,7 @@
   
       <div class="faq-item">
         <button class="faq-question">
-         Which types of indoor business signs are commonly used in offices and retail spaces?
+         Which types of indoor signs are commonly used in offices & retail spaces?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
