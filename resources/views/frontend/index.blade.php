@@ -16,7 +16,7 @@
                 <div class="carousel-item active">
                     <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
                     <div class="carousel-caption-custom">
-                        <h1>Expert Sign Board Manufacturers in Bangalore- Brand Signages</h1>
+                        <h1>Expert Sign Board Makers in Bangalore- Brand Signages</h1>
                         <div class="mt-4">
                         <a  href="tel:+91 8006606080" class="custom-btn">Let's Talk</a>
                         </div>
@@ -26,7 +26,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h2>Transforming Brands with Modern LED Signage Solutions</h2>
+                        <h2>Transforming Brands with Modern Signage Designs</h2>
                         <div class="mt-4">
                         <a href="{{route('about_us')}}" class="custom-btn">About Us</a>
                         </div>
@@ -36,7 +36,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
                     <div class="carousel-caption-custom">
-                        <h2>Reliable Digital Signage Supplier for 200+ Businesses</h2>
+                        <h2>Reliable signage and Signage Supplier for 200+ Businesses</h2>
                         <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Contact Us</a>
                         </div>
@@ -48,7 +48,7 @@
 
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">Enhance Visibility & Brand <br>Recognition with Brand Signages</h2>
+            <h2 class="hero-title">Crafting Visibility, Building Brands<br>Bangalore’s Trusted Signage Experts</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -60,20 +60,17 @@
                 <div class="col-lg-6">
                     <h2 class="brand-title">#1 Signage Company in Bangalore, India  </h2>
                     <p class="brand-description">
-                        Brand Signages is the premier sign board manufacturers in Bangalore with 10+ years of rich industry experience. As leading branding sign makers, we design premium-quality sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Bangalore, 
-                       <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Chennai</a> ,
-                       <a href="{{route('leading_signage_company_in_mumbai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Mumbai</a>,
-                        and all over India.
+                        Brand Signages is the premier sign board manufacturers in Bangalore with 10+ years of rich industry experience. As leading sign board makers, we design premium-quality sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Bangalore, and all over India.
                     </p>
 
                     <p class="brand-description">
                         Signages and branding sign boards play an important role in fostering brand recognition, improving engagement and visibility. An expertly crafted sign board not only enhances visual aesthetics but also serves as a powerful branding asset. With a passion for excellence, we design modern 
-                       <a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
+                       <a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
                        <a href="{{route('digital_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
-                       <a href="{{route('arcylic_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic signage </a>,
-                       <a href="{{route('neon_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon signage </a>, and
-                       <a href="{{route('metal_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">metal signage </a>
-                        boards for almost every industry. Here is how we do it:
+                       <a href="{{route('acrylic_signage_manufacturer_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic signage </a>,
+                       <a href="{{route('eon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon lights </a>, and
+                       <a href="{{route('steel_signage_manufacturer_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">metal signage </a>
+                        boards in Bangalore for almost every industry. Here is how we do it:
                     </p>
 
                     <ul class="process-list">
@@ -264,6 +261,78 @@
             </div>
         </div>
     </section>
+
+    <section>
+    <div class="container py-5" id="gallery-container">
+        <h2 class="hero-title  mb-4">Our Recent Signage Projects</h2>
+        <p class=" text-center mb-5">We design high-quality and customized signage and sign boards for top businesses in Bangalore. From outdoor neon signs to sleek acrylic signages, digital signages, and LED sign boards, our solutions are designed to enhance both branding and decor.
+        </p>            
+        <div class="row align-items-center">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-1.webp')}}" data-lightbox="Acrylic LED Signboard- Recent Client Work" data-title="Image 1">
+                    <img src="{{asset('frontend/Images/portfolio-1.webp')}}" class="img-fluid" alt="Acrylic LED Signboard- Recent Client Work" style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-2.webp')}}" data-lightbox="LED Signboard Design- Recent Client Work" data-title="Image 2">
+                    <img src="{{asset('frontend/Images/portfolio-2.webp')}}" class="img-fluid" alt="LED Signboard Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-3.webp')}}" data-lightbox="LED Lightbox Design- Recent Client Work" data-title="Image 3">
+                    <img src="{{asset('frontend/Images/portfolio-3.webp')}}" class="img-fluid" alt="LED Lightbox Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-4.webp')}}" data-lightbox="Neon Signboard Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/portfolio-4.webp')}}" class="img-fluid" alt="Neon Signboard Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-5.webp')}}" data-lightbox="Neon Signboard Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/portfolio-5.webp')}}" class="img-fluid" alt="Neon Signboard Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-6.webp')}}" data-lightbox="Digital Signage Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/portfolio-6.webp')}}" class="img-fluid" alt="Digital Signage Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-7.webp')}}" data-lightbox="Digital Signage Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/portfolio-7.webp')}}" class="img-fluid" alt="Digital Signage Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/portfolio-8.webp')}}" data-lightbox="Acrylic LED Signboard Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/portfolio-8.webp')}}" class="img-fluid" alt="Acrylic LED Signboard Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-sign-1.webp')}}" data-lightbox="Acrylic Signage Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/acrylic-led-sign-1.webp')}}" class="img-fluid" alt="Acrylic Signage Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/led-lightbox-5.webp')}}" data-lightbox="LED Signboard Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/led-lightbox-5.webp')}}" class="img-fluid" alt="LED Signboard Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/neon-5.webp')}}" data-lightbox="Neon Signboard Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/neon-5.webp')}}" class="img-fluid" alt="Neon Signboard Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-sign-board-7.webp')}}" data-lightbox="Acrylic Signage Design- Recent Client Work" data-title="Image 4">
+                    <img src="{{asset('frontend/Images/acrylic-led-sign-board-7.webp')}}" class="img-fluid" alt="Acrylic Signage Design- Recent Client Work"  style="width: 100%;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
