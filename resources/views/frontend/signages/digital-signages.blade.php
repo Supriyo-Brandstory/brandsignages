@@ -65,7 +65,7 @@
 
 <section class="process-section">
     <div class="container">
-        <h2 class="process-title">About Our Digital Signage Boards</h2>
+        <h2 class="process-title">About Our Digital Display Boards</h2>
         <div class="row">
 
             <div class="col-md-4">
@@ -102,7 +102,7 @@
                     <div class="icon-purchase">
                         <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Support service">
                     </div>
-                    <h3>Support service</h3>
+                    <h3>Installation & Support</h3>
                     <p>We deliver end-to-end signage solutions from design to installation ensuring seamless deployment, 
                         minimal downtime, and long-term reliability. Our commitment to customer satisfaction has helped
                         us build a loyal customer base that trusts our expertise and relies on us for their digital
@@ -110,6 +110,9 @@
                 </div>
             </div>
         </div>
+        <div class="mt-4">
+            <a href="{{route('contact_us')}}" class="custom-btn">Send Inquiry</a>
+            </div>
     </div>
 </section>
 
@@ -132,9 +135,6 @@
                             corporate settings, and educational institutions. They deliver stunning visuals and can
                             be customized to fit any branding requirement.</p>
                     </div>
-                    <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Send Inquiry</a>
-                        </div>
                 </div>
             </div>
             <div class="col">
@@ -292,66 +292,6 @@
 </section>
 
 
-<section class="container py-5">
-    <div class="row g-4 d-flex flex-wrap justify-content-center">
-
-        <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for Digital Signages</h2>
-        </div>
-
-        <div class="col-lg-12">
-            <div class="row g-4">
-                <div class="col-lg-8">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digital-sign8.webp')}}" alt="On-time installation" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">In-House Experts</h5>
-                            <p class="text-content">From CMS software to digital displays production, we have a dedicated manufacturing unit and in-house team of experts. 
-                                We provide digital signage installation and support services across PAN India. </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digital-sign9.webp')}}" alt="Industry Grade Products" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Industry Grade Products</h5>
-                            <p class="text-content">Our digital signages combine robust hardware with advanced display technology and a Content 
-                                Management System. We have a PAN India support network.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digital-sign10.webp')}}" alt="Experienced professionals"
-                            class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">10 Years of Expertise</h5>
-                            <p class="text-content">We are among the best digital signage companies with expertise in digital signage technology. 
-                                We have a modern manufacturing facility for digital signage production.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-8">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/digital-sign11.webp')}}" alt="Happy Customer Base" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Network and Customer Support</h5>
-                            <p class="text-content">Being among the best digital signage companies in India, we prioritize understanding your specific 
-                                requirements and delivering digital signage solutions that exceed expectations. We utilize a wide partner network for 
-                                better support and services. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 
 <section class=" py-5">
     <div class="container">
@@ -440,7 +380,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Benefits of Choosing Digital Signages for Branding</h2>
+        <h2 class="hero-title">Benefits of Digital Signages for Branding</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -460,6 +400,67 @@
                 <p class="brand-description">
                 Brand Signages is a premier digital signage manufacturer with 10+ years of industry expertise. We understand every business is unique and creates digital signage solutions tailored to your brand’s specific needs, ensuring maximum engagement.  
                 </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="container py-5">
+    <div class="row g-4 d-flex flex-wrap justify-content-center">
+
+        <div class="text-center ">
+            <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for Digital Signages</h2>
+        </div>
+
+        <div class="col-lg-12">
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/digital-sign8.webp')}}" alt="On-time installation" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">In-House Experts</h5>
+                            <p class="text-content">From CMS software to digital displays production, we have a dedicated manufacturing unit and in-house team of experts. 
+                                We provide digital signage installation and support services across PAN India. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/digital-sign9.webp')}}" alt="Industry Grade Products" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Industry Grade Products</h5>
+                            <p class="text-content">Our digital signages combine robust hardware with advanced display technology and a Content 
+                                Management System. We have a PAN India support network.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/digital-sign10.webp')}}" alt="Experienced professionals"
+                            class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">10 Years of Expertise</h5>
+                            <p class="text-content">We are among the best digital signage companies with expertise in digital signage technology. 
+                                We have a modern manufacturing facility for digital signage production.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="image-container position-relative">
+                        <img src="{{asset('frontend/Images/digital-sign11.webp')}}" alt="Happy Customer Base" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Network and Customer Support</h5>
+                            <p class="text-content">Being among the best digital signage companies in India, we prioritize understanding your specific 
+                                requirements and delivering digital signage solutions that exceed expectations. We utilize a wide partner network for 
+                                better support and services. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
