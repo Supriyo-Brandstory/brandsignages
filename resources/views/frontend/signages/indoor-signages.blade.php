@@ -87,7 +87,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>Indoor Business Signs?</h2>
-            <p class="card-text text-center">Brand Signages is a premier indoor business signage maker working with brands across India. We design customized indoor signs for businesses on an affordable budget with unmatched quality.<br> We have pre-designed templates, we also offer customized designs, bulk orders, exciting discounts, and on-time delivery. Brand Signages ensures that you get the best quality products at an affordable price.</p>
+            <p class="card-text text-center">Brand Signages is a premier indoor business signage maker working with brands across India. We design customized indoor signs for businesses on an affordable budget with unmatched quality. We have pre-designed templates, we also offer customized designs, bulk orders, exciting discounts, and on-time delivery. Brand Signages ensures that you get the best quality products at an affordable price.</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -168,7 +168,7 @@
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">Clear & Captivating Indoor Signs for Every Space</h2>
-        <p class="card-text testimonial-card-text text-center pb-2">Your interior branding has an impact on how people perceive your retail store or office. Indoor office signs are the best way to enhance your indoor space. <br>Brand Signages offers various alternatives of indoor signage solutions tailored to meet various needs.</p>
+        <p class="card-text testimonial-card-text text-center pb-2">Your interior branding has an impact on how people perceive your retail store or office. Indoor office signs are the best way to enhance your indoor space. Brand Signages offers various alternatives of indoor signage solutions tailored to meet various needs. We also offer customized indoor signage solutions in a variety of sizes, materials, and designs for brands across India.</p>
         
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -217,6 +217,10 @@
                 <div class="showcase-image">
                     <img src="{{asset('frontend/Images/digital-signage-benefits.webp')}}" alt="Indoor Signs" class="img-fluid">
                 </div>
+            </div>
+
+            <div class="mt-4">
+                <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
             </div>
 
         </div>
