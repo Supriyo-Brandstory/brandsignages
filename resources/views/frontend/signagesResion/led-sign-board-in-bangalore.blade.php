@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/led-signage1.webp')}}" alt="LED Sign Board manufacturers in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Custom LED Sign Board Manufacturers Bangalore</h1>
+                    <h1>Custom LED Sign Boards in Bangalore</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get Started</a>
                         </div>
@@ -18,37 +18,13 @@
 </section>
 
 <section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Illuminate Your Brand <br>with LED Sign Boards in Bangalore</h2>
-
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/led-signboard1.webp')}}" alt="LED Sign Board Manufacturers in Bangalore" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <h2 class="brand-title">Electronic Name Boards in Bangalore</h2>
-               
-                <p class="brand-description">
-                As a signage company and a reliable name in LED sign board manufacturing in Bangalore, we serve customers with the best quality products. Our product range includes digital LED signage, glow LED Sign Boards, LED display boards, outdoor <a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>, and more. Every signboard is tailored to exhibit your brand's recognition while guaranteeing energy efficiency and durability.   
-                </p>
-                <p class="brand-description">
-                    LED sign boards are modern digital signage solutions for better visibility around the clock. With customizable options and vibrant colors, LED sign boards in Bangalore can deliver your brand’s message to your target customers swiftly.    
-                    </p>
-                <p class="brand-description">
-                We integrate modern technology and striking design into each signage. We offer solutions that line up with your needs and improve your brand presence. At Brand Signages, we push our limits to bring your brand vision to life with stunning signage design solutions. 
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
     <div class="container py-5" id="gallery-container">
-        <h2 class="hero-title  mb-4">LED Sign Boards – Crafted to Shine, Built to Last</h2>
-        <p class=" text-center mb-5">We bring brilliance to branding with our high-performance LED sign boards designed to capture attention. Our exclusive range offers sleek acrylic LED sign boards, dynamic LED message boards, and vibrant LED light boxes – each crafted to align perfectly with your brand vision and appeal.
+        <h2 class="hero-title  mb-4">Premium LED Sign Boards in Bangalore– <br>Crafted to Shine, Built to Last</h2>
+        <p class=" text-center mb-5">LED sign boards are modern digital advertising solutions for better visibility around the clock. With customizable options and modern designs, 
+            LED sign boards in Bangalore can deliver your brand’s message to your target customers swiftly. As a reliable name in LED sign board manufacturing in Bangalore, we serve 
+            customers with the best quality products and ensure client satisfaction.
+            <br><a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages</a> keeps up with the promise to deliver the best signage solutions in Bangalore with every design we deliver to the clients. Our dedication and experience 
+            in the field motivate us to push the boundaries and design stunning <a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED signboards</a> that make your brand stand out from the others. 
         </p>            
 
         <div class="row align-items-center">
@@ -98,6 +74,33 @@
         </div>
     </div>
 </section>
+
+<section>
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+        <h2 class="hero-title">Illuminate Your Brand <br>with Premium LED Sign Boards</h2>
+
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="showcase-image">
+                    <img src="{{asset('frontend/Images/led-signboard1.webp')}}" alt="LED Sign Board Manufacturers in Bangalore" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <h2 class="brand-title">Electronic Name Boards in Bangalore</h2>
+               
+                <p class="brand-description">
+                LED sign boards are modern digital signage solutions for better visibility around the clock. As the best LED sign board manufacturers in Bangalore, we design signages that help your brand stand aprt in Bangalore's competitive market. Our product range includes digital LED signage, glow LED Sign Boards, LED display boards, outdoor <a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>, and more. Every signboard is tailored to exhibit your brand's recognition while guaranteeing energy efficiency and durability.   
+                </p>
+                <p class="brand-description">
+                We integrate modern technology and striking design into each LED signboard. We offer solutions that line up with your needs and improve your brand presence. At Brand Signages, we push our limits to bring your brand vision to life with stunning signage design solutions. 
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <div class="container d-block d-lg-flex justify-content-between align-items-start mt-0 mt-lg-5 mb-0 mb-lg-5">
     <div class="info">
@@ -219,7 +222,7 @@
     <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Our Range of Custom LED Signage Boards</h2>
+            <h2 class="display-4 mb-3 why-text-heading">Our LED Sign Board Product Range</h2>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -381,7 +384,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Glow Smarter: What Makes LED Sign <br>Boards a Top Choice for Businesses</h2>
+        <h2 class="hero-title">What Makes LED Sign <br>Boards a Top Choice for Businesses</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -578,61 +581,6 @@
             </div>
         </div>
     </section>
-
-<!--<section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id='gallery-container'>
-        <h2 class="hero-title">Catalogue</h2>
-        
-        
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-sign-25.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-25.webp')}}" class="img-fluid" alt="LED sign board in Bangalore" style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-sign-18.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-18.webp')}}" class="img-fluid" alt="LED sign board in Domlur"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-sign-19.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-19.webp')}}" class="img-fluid" alt="LED sign board in Bangalore"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-sign-20.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-20.webp')}}" class="img-fluid" alt="Electronic name board in Bangalore"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
-        
-        
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-sign-21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-21.webp')}}" class="img-fluid" alt="LED sign board in Domlur"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-sign-22.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-22.webp')}}" class="img-fluid" alt="LED sign board in Bangalore"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-sign-23.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-23.webp')}}" class="img-fluid" alt="LED sign board in Bangalore"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-sign-24.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-sign-24.webp')}}" class="img-fluid" alt="Electronic name board in Bangalore"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
-
-    </div>
-</section>-->
 
 
 
@@ -867,7 +815,7 @@
 
 <section class="faq-section">
     <div class="faq-container">
-        <h1 class="faq-title">LED Signboard FAQS</h1>
+        <h1 class="faq-title">Your Questions Answered</h1>
 
 
         <div class="faq-item">
