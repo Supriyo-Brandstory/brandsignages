@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/led-signage1.webp')}}" alt="LED Sign Board manufacturers in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Custom LED Sign Boards in Bangalore</h1>
+                    <h1>Shine Smarter with Custom LED Signs in Bangalore</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get Started</a>
                         </div>
