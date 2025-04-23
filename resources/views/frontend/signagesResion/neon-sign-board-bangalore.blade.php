@@ -7,7 +7,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Neon Light Sign Boards in Bangalore">
                 <div class="carousel-caption-custom">
-                    <h1>Best Neon Sign Lights Bangalore- Brand Signages</h1>
+                    <h1>Best Neon Sign Boards in Bangalore- Signs That Speak Loud</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -19,10 +19,10 @@
 
 <section>
     <div class="container py-5" id="gallery-container">
-        <h2 class="hero-title  mb-4">Premium Neon Signboards Bangalore <br> Bold, Brilliant, and Unforgettable</h2>
-        <p class=" text-center mb-5">Brand Signages is the leading supplier of neon light and sign board in Bangalore. With over 10 years of experience, we design high-quality and customized neon signs for top businesses. 
+        <h2 class="hero-title  mb-4">Premium Neon Signboards Bangalore- <br> Bold, Brilliant, and Unforgettable</h2>
+        <p class=" text-center mb-5"><a href="{{route('/')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages</a> is the leading supplier of neon light sign board in Bangalore. With over 10 years of experience, we design high-quality and customized neon signs for top businesses. 
                 From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. We design spectacular neon signs perfect for businesses looking for eye-catching, 
-                stylish, and durable signage. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards – each tailored to reflect your unique brand identity.
+                stylish, and durable signage. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards.
         </p>            
 
         <div class="row align-items-center">
@@ -191,7 +191,7 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Bring Your Vision to Light with <br>Neon Signs in Bangalore</h2>
+        <h2 class="hero-title">Bring Your Vision to Light with <br>Brand Signages’ Neon Signs in Bangalore</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -202,28 +202,24 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Looking for neon light signs? Unique and spectacular neon signs are the best branding element to enhance your space. Whether 
-                    you're a budding startup, retail business, restaurant, seasoned brand, or looking for neon lights for a special event or 
-                    home, our neon solutions offer the perfect fusion of artistic flair and functional brilliance. Every sign is meticulously
-                     crafted to ensure visual appeal and durability, turning ordinary spaces into glowing experiences. 
+                    Brand Signages offers state-of-the-art <a href="{{route('neon_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">custom neon signboards</a>. Here are the reasons why we are a promising name in neon sign manufacturing:
                 </p> 
+                <h2 class="brand-title">Expert-led Customization</h2>
                 <p class="brand-description">
-                <a href="{{route('neon_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Neon signs</a> are energy-efficient, long-lasting, and available in a variety of colors and design patterns. Choose from acrylic neon boards, neon glow 
-                signage boards, or custom neon designs to achieve the perfect look for your brand. Whether you need a single sign or bulk orders, we cater to all requirements.
+                Brand Signages works with seasoned signage experts who design every piece of signage with creativity. You bring your vision to life with remarkable <b>neon signboards in Bangalore</b>. Our experts listen to your needs and create unique neon light designs with unmatched craftsmanship. 
                 </p>
+                <h2 class="brand-title">Latest Technology</h2>
                 <p class="brand-description">
-                 Get premium quality neon signs crafted according to your individual preferences from Brand Signage and elevate your space effortlessly.</p>
-                <ul class="process-list">
-                        <li>
-                            We craft the best-quality, custom neon signages to meet your needs.
-                        </li>
-                        <li>
-                            Our neon lights are energy-efficient, durable, and visually appealing.
-                        </li>
-                        <li>
-                            We offer expert design and installation services for a seamless experience.
-                        </li>
-                    </ul>
+                We leverage the latest technology to create neon lights in Bangalore and serve all types of businesses across the city. We deliver top-of-the-line, innovative neon sign solutions backed by the latest industry trends and technological advancements.    
+                </p>
+                <h2 class="brand-title">Durable Solutions</h2>
+                <p class="brand-description">
+                We work with pinpoint precision while designing neon signboards. Our neon lights are designed to last for a long time, are energy efficient, and reduce the cost of maintenance. When it comes to neon lights in Bangalore, Brand Signages is best for custom-made neon lights. 
+                </p>
+                <h2 class="brand-title">Timely Delivery & Support</h2>
+                <p class="brand-description">
+                We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee project completion without compromising quality or design integrity. We provide 24*7 support services from design to installation and maintenance. 
+                </p>
 
             </div>
         </div>
@@ -235,7 +231,7 @@
     <div class="row g-4 d-flex flex-wrap justify-content-center">
 
         <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">From Bold to Beautiful – Neon <br>Signs for Every Space</h2>
+            <h2 class="display-4 mb-3 why-text-heading">We Design Neon Signs for Every Space</h2>
             <p class="card-text text-center">We produce high-class neon lights in Bangalore for all setups. Redesign your place with glow <br> signage shaped just for you!</p>
         </div>
 
@@ -296,6 +292,7 @@
     </div>
 </section>
 
+
 <section class="process-section">
         <div class="container">
             <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
@@ -336,7 +333,7 @@
     </section>
 
 
-<section class="why-bg-light-pink py-5">
+/* <section class="why-bg-light-pink py-5">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>Neon Sign Boards?</h2>
@@ -502,7 +499,7 @@
         </div>
     </section>
 
-    <!--<section>
+    <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
         <h2 class="hero-title">Multicolor Neon Lights and Signs for <br> Every Space</h2>
   
@@ -529,7 +526,7 @@
             </div>
         </div>
     </div>
-</section>-->
+</section> */
 
 
 <section class="testimonial section ">
