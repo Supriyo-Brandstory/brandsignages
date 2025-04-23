@@ -22,17 +22,16 @@
 
 <section>
     <div class="container pb-0 pt-0 pb-lg-5 pt-lg-5 " id="gallery-container">
-        <h2 class="hero-title  mb-4">Transform Your Space with Custom Indoor Business Signs</h2>
-        <p class=" text-center mb-5">Indoor signage is an exceptional branding tool to elevate interior branding. 
-            This can be wayfinding signage, reception signage, or nameplates that maintain a sleek and professional workspace. 
-            Indoor signage is a must-have for brands & businesses, while Brand Signages is your go-to option for interior branding.  
+        <h2 class="hero-title  mb-4">Transform Your Space with Custom Indoor <br>Business Signs by Brand Signages </h2>
+        <p class=" text-center mb-5">Indoor signage is an exceptional branding tool to elevate interior branding. While you need to choose the right signage company, 
+            like <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages</a>. We transform indoor spaces with custom indoor business signs for a jaw-dropping visual experience. As an industry leader in signboard 
+            manufacturing, we know how indoor signage can act as a strategic touchpoint to grab customer attention.  
         
-            <br>At Brand Signages, we transform indoor spaces with custom indoor business signs for a jaw-dropping 
-            visual experience. As an industry leader in signage & signboard manufacturing, we know how indoor signage can act as a strategic 
-            brand touchpoint.
-            <br>We are here to reinforce your business identity with modern indoor signs. Crafted with premium materials and 
-            tailored to match your brand aesthetics, our signage solutions blend innovation with precision, making every indoor space an extension 
-            of your brand’s story.
+            <br>You can opt for wayfinding signage, reception signage, nameplates, or directly contact our experts for sleek and professional signage designs. Indoor 
+            signage is a must-have for brands & businesses, while Brand Signages is your go-to option for interior branding.
+            <br>Modern indoor signs are suitable for a range of businesses, like retail, corporate, hotels, and commercial spaces. Crafted with premium materials and 
+            tailored to match your brand aesthetics, our signage solutions blend innovation with precision. Have a look at our recent works, find your option, or <a href="{{route('contact_us')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">connect 
+            with us</a> for custom indoor signage solutions. 
         </p>    
 
         <div class=" align-items-center">
@@ -87,8 +86,8 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Indoor Business Signs That <br>Communicate with Clarity</h2>
-            <p class="card-text text-center">What do people look into when they enter your office or retail space? Indoor business sign design plays a significant role in establishing brand identity. <br> Therefore choosing the right indoor signs for business can make a difference from others. Our indoor signage is crafted with long- <br> lasting durable material to meet the standard quality.</p>
+            <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for <br>Indoor Business Signs?</h2>
+            <p class="card-text text-center">Brand Signages is a premier indoor business signage maker working with brands across India. We design customized indoor signs for businesses on an affordable budget with unmatched quality.<br> We have pre-designed templates, we also offer customized designs, bulk orders, exciting discounts, and on-time delivery. Brand Signages ensures that you get the best quality products at an affordable price.</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
@@ -98,7 +97,7 @@
                     <img src="{{asset('frontend/Images/indoor-signage4.webp')}}" class="why-card-img-top" alt="Durable Material">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Durable Material</h3>
-                        <p class="card-text">Our indoor business signs are made with durable materials that ensure long-lasting performance. Share your preferences and get the best interior signage solutions tailored for your business. More than just a communication tool, our interior signs reinforce your brand identity and elevate your professional space.</p>
+                        <p class="card-text">Our indoor business signs are made with durable materials, built to last, and ensure long-lasting performance. Our indoor signs are designed to meet quality standards and help you get a long-term solution for indoor use. Share your preferences and get the best interior signage solutions tailored for your business. </p>
                     </div>
                 </div>
             </div>
@@ -116,7 +115,7 @@
                     <img src="{{asset('frontend/Images/indoor-signage6.webp')}}" class="why-card-img-top" alt="Customized Designs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Customized Designs</h3>
-                        <p class="card-text">We take the time to analyze your needs, enabling us to deliver indoor business signs that align perfectly with your brand. Connect with our experts for personalized signage solutions that showcase your identity. Our team will guide you through every step, helping you choose the best indoor signage option for your business.</p>
+                        <p class="card-text">We take the time to analyze your needs, enabling us to deliver interior signs that align perfectly with your brand aesthetics. We design the best indoor signage for retail, commercial, and corporate offices that provides effective communication. Connect with our experts for personalized signage solutions to enhance your brand aesthetics.</p>
                     </div>
                 </div>
             </div>
@@ -133,7 +132,7 @@
                                 <img src="{{asset('frontend/Images/indoor-signage4.webp')}}" class="why-card-img-top" alt="Durable Material">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Durable Material</h3>
-                                    <p class="card-text">Our indoor business signs are made with durable materials that ensure long-lasting performance. Share your preferences and get the best interior signage solutions tailored for your business. More than just a communication tool, our interior signs reinforce your brand identity and elevate your professional space.</p>
+                                    <p class="card-text">Our indoor business signs are made with durable materials, built to last, and ensure long-lasting performance. Our indoor signs are designed to meet quality standards and help you get a long-term solution for indoor use. Share your preferences and get the best interior signage solutions tailored for your business. </p>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +150,7 @@
                                 <img src="{{asset('frontend/Images/indoor-signage6.webp')}}" class="why-card-img-top" alt="Customized Designs">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Customized Designs</h3>
-                                    <p class="card-text">We take the time to analyze your needs, enabling us to deliver indoor business signs that align perfectly with your brand. Connect with our experts for personalized signage solutions that showcase your identity. Our team will guide you through every step, helping you choose the best indoor signage option for your business.</p>
+                                    <p class="card-text">We take the time to analyze your needs, enabling us to deliver interior signs that align perfectly with your brand aesthetics. We design the best indoor signage for retail, commercial, and corporate offices that provides effective communication. Connect with our experts for personalized signage solutions to enhance your brand aesthetics.</p>
                                 </div>
                             </div>
                         </div>
@@ -168,8 +167,8 @@
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Types of Indoor Signage We Offer</h2>
-        <p class="card-text testimonial-card-text text-center pb-2">Brand Signages offers various types of indoor signage solutions tailored to meet various needs.<br> Here are the types in detail:</p>
+        <h2 class="hero-title">Clear & Captivating Indoor Signs for Every Space</h2>
+        <p class="card-text testimonial-card-text text-center pb-2">Your interior branding has an impact on how people perceive your retail store or office. Indoor office signs are the best way to enhance your indoor space. <br>Brand Signages offers various alternatives of indoor signage solutions tailored to meet various needs.</p>
         
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
