@@ -36,7 +36,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
                     <div class="carousel-caption-custom">
-                        <h2>Signage Boards Bangalore – Where Your Space Finds Its Unique Identity</h2>
+                        <h2>Signage Boards Bangalore– Helping Businesses to Build Their Unique Identity</h2>
                         <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get Quote</a>
                         </div>
@@ -60,7 +60,7 @@
                 <div class="col-lg-6">
                     <h2 class="brand-title">#1 Signage Company in Bangalore, India </h2>
                     <p class="brand-description">
-                        Brand Signages is the premier signage and signboard manufacturers in Bangalore. As leading sign board makers with with 10+ years of rich industry experience, we design premium-quality sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Bangalore, and all over India.
+                    Brand Signages is the premier signage and signboard manufacturer in Bangalore. As leading signboard makers trusted by top brands and businesses, we design high-quality products that showcase your identity & drive foot traffic. We serve small businesses, SMEs, and large-scale businesses across Bangalore, and all over India.
                     </p>
 
                     <p class="brand-description">
