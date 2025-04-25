@@ -21,11 +21,11 @@
     <div class="container py-5" id="gallery-container">
         <h2 class="hero-title  mb-4">Premium Neon Signboards Bangalore- <br> Bold, Brilliant, and Unforgettable</h2>
         <p class=" text-center mb-5">Add a fresh touch to your space and create a lasting impression with luminous neon lights that bring your branding to life.
-        <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages</a> is the leading supplier of neon light sign board in Bangalore. With over 10 years of experience, we design high-quality and customized neon signs for top businesses. 
+            Brand Signages is the premier neon signage board manufacturer in Bangalore. We design custom neon signs for businesses in Bangalore with striking visuals and exceptional build quality. 
                 From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. We design spectacular neon signs perfect for businesses looking for eye-catching, 
                 stylish, and durable signage. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards.
         </p>            
-        <p class=" text-center mb-5">Stand out from the crowd with expertly crafted neon signboards from Brand Signages. Our neon sign boards are lightweight, affordable, and energy-efficient compared to others. 
+        <p class=" text-center mb-5">Stand out from the crowd with expertly crafted neon signboards from <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages</a>. Our neon sign boards are lightweight, affordable, and energy-efficient compared to others. 
             We deliver the most iconic and technologically advanced neon signs with unmatched quality and standards. 
         </p>
 

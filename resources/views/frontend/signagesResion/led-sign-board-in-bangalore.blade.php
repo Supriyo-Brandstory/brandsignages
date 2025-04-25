@@ -21,10 +21,10 @@
     <div class="container py-5" id="gallery-container">
         <h2 class="hero-title  mb-4">Premium LED Sign Boards in Bangalore– <br>Crafted to Shine, Built to Last</h2>
         <p class=" text-center mb-5">LED sign boards are modern digital advertising solutions for better visibility around the clock. With customizable options and modern designs, 
-            LED sign boards in Bangalore can deliver your brand’s message to your target customers swiftly. As a reliable name in LED sign board manufacturing in Bangalore, we serve 
-            customers with the best quality products and ensure client satisfaction.
+            LED sign boards in Bangalore can deliver your brand’s message to your target customers swiftly. As a reliable name in LED sign board manufacturing in Bangalore, Brand Signages serve 
+            customers with the best quality products. We specialize in designing custom LED signage boards for outdoor spaces, indoor areas, and office branding.
             <br><a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages</a> keeps up with the promise to deliver the best signage solutions in Bangalore with every design we deliver to the clients. Our dedication and experience 
-            in the field motivate us to push the boundaries and design stunning <a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED signboards</a> that make your brand stand out from the others. 
+            in the field motivate us to push the boundaries and design stunning <a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED signboards</a> that make your brand stand out from the others. Ordering an LED sign board in Bangalore is easy; just fill out our contact form or give us a call for requirements. 
         </p>            
 
         <div class="row align-items-center">
