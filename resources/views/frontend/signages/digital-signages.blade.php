@@ -17,7 +17,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/digital-sign1.webp')}}" alt="Digital Signages">
                 <div class="carousel-caption-custom">
-                    <h1>Best Digital Signage Manufacturer & Supplier Company- Brand Signages</h1>
+                    <h1>Best Digital Signage Manufacturer & Supplier in Bangalore</h1>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
                         </div>
@@ -32,7 +32,7 @@
 
 <section>
     <div class="container py-5">
-        <h2 class="hero-title">Uplift Your Brand Image with <br> Digital Signages</h2>
+        <h2 class="hero-title">Transform Your Brand Visibility with <br> Digital Signages</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -42,21 +42,13 @@
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">#1 Digital Signage Company</h2>
+                <h2 class="brand-title">#1 digital signage company in Bangalore</h2>
                 <p class="brand-description">
-                Brand Signages is the premier digital signage manufacturer, backed by 10+ years of expertise. We have in-house facility for digital signage hardware manufacturing, software, and CMS technology experts. We are an ISO certified digital signage manufacturer and supplier situated in Bangalore, serving clients across PAN India.
+                Brand Signages is the premier digital signage manufacturer in Bangalore, backed by 10+ years of expertise. We have in-house facility for digital signage hardware manufacturing, software, and CMS technology experts. We are an ISO certified digital signage manufacturer and supplier, serving clients across PAN India.
                 </p>
-                <ul class="process-list">
-                        <li>
-                        <b>Effortless Content Control:</b> Our in-house built digital signage CMS empowers you to schedule, update, and manage content in real-time.
-                        </li>
-                        <li>
-                        <b>Advanced Display Technology:</b> We provide cutting-edge digital displays, including ultra-HD screens and interactive kiosks to enhance brand visibility & engagement.
-                        </li>
-                        <li>
-                        <b>Smart Network Integration:</b> Our signage CMS systems are seamlessly connected, allowing for instant updates, remote accessibility, and content delivery across multiple locations.
-                        </li>
-                </ul>
+                <p class="brand-description">
+                As the best BLR digital signage vendors, <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages </a> emphasizes designing the best signage displays that match your branding. We provide modern signage software for effortless content creation and handling. Whether it’s a video wall or a floor stand display board, our products deliver unparalleled standards. Transform your space with innovative digital signage solutions today.
+                </p>
 
             </div>
         </div>
@@ -327,8 +319,7 @@
                     <img src="{{asset('frontend/Images/industry-hospitality.webp')}}" class="why-card-img-top" alt="Hospitality">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Hospitality</h3>
-                        <p class="card-text">Our interactive <a href="https://brandsignages.com/restaurant-signages" style="text-decoration: unset;color:#E43D12">digital menu boards</a> enhance the guest experience for visitors dining at restaurants. 
-                            These boards can help people check in and promote facilities and events, thus helping brands effectively communicate with guests.</p>
+                        <p class="card-text">Our interactive digital signages elevate the guest experience across hospitality venues by offering dynamic, real-time information. From simplifying check-ins and wayfinding to promoting on-site dining, amenities, and events, these displays help hotels and resorts communicate seamlessly.</p>
                     </div>
                 </div>
             </div>
