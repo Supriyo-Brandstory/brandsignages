@@ -44,6 +44,9 @@
             <div class="col-lg-6">
                 <h2 class="brand-title">#1 digital signage company in Bangalore</h2>
                 <p class="brand-description">
+                Digital signage offers an engaging way to showcase your brand, grabbing attention with vibrant visuals and real-time updates. From digital display boards and video walls to digital standees, businesses in Bangalore are utilizing digital signage to enhance customer engagement. 
+                </p>
+                <p class="brand-description">
                 Brand Signages is the premier digital signage manufacturer in Bangalore, backed by 10+ years of expertise. We have in-house facility for digital signage hardware manufacturing, software, and CMS technology experts. We are an ISO certified digital signage manufacturer and supplier, serving clients across PAN India.
                 </p>
                 <p class="brand-description">
@@ -102,9 +105,7 @@
                 </div>
             </div>
         </div>
-        <div class="mt-4 flex justify-center">
-        <a href="{{ route('contact_us') }}" class="custom-btn">Send Inquiry</a>
-        </div>
+       
 
     </div>
 </section>
