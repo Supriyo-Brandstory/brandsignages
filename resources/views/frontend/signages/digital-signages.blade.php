@@ -50,7 +50,7 @@
                 Brand Signages is the premier digital signage manufacturer in Bangalore, backed by 10+ years of expertise. We have in-house facility for digital signage hardware manufacturing, software, and CMS technology experts. We are an ISO certified digital signage manufacturer and supplier, serving clients across PAN India.
                 </p>
                 <p class="brand-description">
-                As the best BLR digital signage vendors, <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages </a> emphasizes designing the best signage displays that match your branding. We provide modern signage software for effortless content creation and handling. Whether it’s a video wall or a floor stand display board, our products deliver unparalleled standards. Transform your space with innovative digital signage solutions today.
+                As the best digital signage vendors in Bangalore, <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages</a> focuses on designing high-quality displays that align seamlessly with your brand identity. Whether it’s a video wall or a floor stand display board, our products deliver unparalleled standards. Transform your space with innovative digital signage solutions today.
                 </p>
 
             </div>
