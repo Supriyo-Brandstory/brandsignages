@@ -17,7 +17,7 @@
             <div class="carousel-item active">
                 <img src="{{asset('frontend/Images/coffee-shop-menu.webp')}}" alt="Acrylic Signage -Coffee Shop Menu">
                 <div class="carousel-caption-custom">
-                    <h1>Acrylic LED Sign Boards and Signages</h1>
+                    <h1>Stunning Acrylic Signages in Bangalore</h1>
                     <p class="pree">Light up your brand with custom acrylic LED signboards that stand out.</p>
                      <div class="mt-4">
                         <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
@@ -32,7 +32,7 @@
 <section>
     <div class="container py-5" id="gallery-container">
         <h2 class="hero-title  mb-4">Acrylic LED Signages – Designed to Dazzle, Built to Endure</h2>
-        <p class=" text-center mb-5">At Brand Signages, we specialize in transforming ideas into illuminated reality with premium-quality acrylic LED signages. Our offerings include a wide range of styles from acrylic glow sign boards, LED name boards, to 3D acrylic letter signs, and more to match your unique branding goals. 
+        <p class=" text-center mb-5">At <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages</a>, we specialize in transforming ideas into illuminated reality with premium-quality acrylic LED signages. Our offerings include a wide range of styles from acrylic glow sign boards, <a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED name boards</a>, to 3D acrylic letter signs, and more to match your unique branding goals. 
 
             <br>We work with businesses of all scales, startups looking to make a bold entrance or established names aiming to refresh their presence. Each signage is crafted with attention to detail, blending modern aesthetics with long-lasting LED performance. With Brand Signages, your message doesn’t just appear- it radiates distinction.
         </p>            
