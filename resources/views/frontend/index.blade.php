@@ -16,9 +16,9 @@
                 <div class="carousel-item active">
                     <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
                     <div class="carousel-caption-custom">
-                        <h1>Shine Bright with No. 1 Signage Makers in Bangalore</h1>
+                        <h1>Top-rated Signage Manufacturers in Bangalore</h1>
                         <div class="mt-4">
-                        <a  href="tel:+91 8006606080" class="custom-btn">Get Quote</a>
+                        <a  href="tel:+91 8006606080" class="custom-btn">Get Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -26,9 +26,9 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h2>Bold Signage Boards for Your Bold Brand in Bangalore</h2>
+                        <h2>Best Signage Boards Bangalore: Quality That Speaks Volumes</h2>
                         <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get Quote</a>
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -36,9 +36,9 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
                     <div class="carousel-caption-custom">
-                        <h2>Signage Boards Bangalore– Helping Businesses to Build Their Unique Identity</h2>
+                        <h2>Premium Signage Solutions for Businesses Across Bangalore</h2>
                         <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get Quote</a>
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
 
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">Premium Signage Boards Bangalore: <br>Crafted in Detail, Designed to Last</h2>
+            <h2 class="hero-title">We are The Best <br>Signage Manufacturers in Bangalore</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -58,33 +58,25 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="brand-title">#1 Signage Company in Bangalore, India </h2>
+                    <h2 class="brand-title">One-Stop Shop for All Signage Needs</h2>
                     <p class="brand-description">
-                    Brand Signages is the premier signage and signboard manufacturer in Bangalore. As leading signboard makers trusted by top brands and businesses, we design high-quality products that showcase your identity & drive foot traffic. We serve small businesses, SMEs, and large-scale businesses across Bangalore, and all over India.
+                    Brand Signages is the premier signage manufacturer company headquartered in Bangalore. We have 10+ years of experience in signage design, manufacturing, and installation. We serve small businesses, SMEs, and large-scale businesses across Bangalore and operate across India. Our clientele includes industry leaders and top-tier brands from almost every sector.
                     </p>
-
                     <p class="brand-description">
-                        Signages and sign boards play an important role in fostering brand recognition, improving visibility, and ensuring seamless navigation. An expertly crafted sign board not only enhances visual aesthetics but also serves as a powerful branding asset. With a passion for excellence, we design modern 
+                    Signages and signboards play an important role in brand recognition, improving visibility, and attracting customers. At Brand Signages, we follow the industry standards and utilize latest technologies in signage design. We are the trusted partner for personalized sign boards, designed to reflect your vision. We craft custom indoor and outdoor sign boards in all shapes and sizes to meet your specific needs.
+                    </p>
+                    <p class="brand-description">
+                        With rich industry expertise and a passion for excellence, we design modern
                        <a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
                        <a href="{{route('digital_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
                        <a href="{{route('acrylic_signage_manufacturer_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic signage </a>,
                        <a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon lights </a>, and
                        <a href="{{route('steel_signage_manufacturer_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">metal signage </a>
-                        boards in Bangalore for almost every industry. Here is how we do it:
+                        for almost every industry. Contact the best signage manufacturers in Bangalore near you today!
                     </p>
-
-                    <ul class="process-list">
-                        <li>
-                            We start by collaborating with you to understand your industry type, brand's essence, target audience, and communication goals.
-                        </li>
-                        <li>
-                            Our designers then create detailed specifications, selecting colors, typography, and materials, while leveraging advanced technology for accurate brand representation.
-                        </li>
-                        <li>
-                            Finally, we conduct thorough quality control to ensure each signage meets visual and structural standards.
-
-                        </li>
-                    </ul>
+                    <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Talk to Sales</a>
+                        </div>
                 </div>
             </div>
         </div>
@@ -92,7 +84,7 @@
    
     <section class="process-section">
         <div class="container">
-            <h2 class="process-title">Hassle-Free Signage Solutions for Your Business</h2>
+            <h2 class="process-title">The Difference We Deliver</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="process-card">
@@ -111,7 +103,7 @@
                         </div>
                         <h3>Timely Deliver</h3>
                         <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee
-                            project completion without compromising quality or design integrity.</p>
+                            signage delivery without compromising quality or design integrity.</p>
                     </div>
                 </div>
 
@@ -131,8 +123,8 @@
 
     <section>
         <div class="container my-5">
-            <h2 class="text-center mb-5 card-heading">We are The Leading Sign Board <br>Makers in Bangalore, India</h2>
-            <p class="card-text text-center">With years of expertise, we craft premium-quality, custom signage boards, branding signs and branding banners that elevate your brand's visibility. Our innovative designs and attention to detail ensure your brand message stands out in any setting, whether it's for retail, corporate, or outdoor use. We specialize in:</p>
+            <h2 class="text-center mb-5 card-heading">Our Product Range :Leading Sign Board <br>Makers in Bangalore, India</h2>
+            <p class="card-text text-center">At Brand Signages, our creative signage designs and attention to detail ensure your brand message stands out in any setting, whether it's for retail, corporate, or outdoor use. We specialize in:</p>
 
             <div class="row g-4 cards-row">
                 <div class="col-lg-3 col-md-6">
@@ -253,7 +245,7 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12 contact-section">
-                    <p class="card-text"><strong>Your brand identity is the silent ambassador of your business. At Brand Signages, we don’t just design sign boards—we craft experiences that leave a lasting impression. As premier signage makers in Bangalore, we bring innovation, precision, and artistry to every design. Let’s illuminate your brand—connect with us today!</strong></p>
+                    <p class="card-text"><strong>Your brand identity is the silent ambassador of your business. At Brand Signages, we don’t just design sign boards, we craft designs that leave a lasting impression. As premier signage makers in Bangalore, we bring innovation, precision, and artistry to every design.</strong></p>
                     <a href="{{route('contact_us')}}">
                         <button class="contact-btn">Contact Us</button>
                     </a>
@@ -265,7 +257,7 @@
     <section>
     <div class="container py-5" id="gallery-container">
         <h2 class="hero-title  mb-4">Our Recent Signage Projects</h2>
-        <p class=" text-center mb-5">At Brand Signages, we design both indoor and outdoor signage to display your brand with style. We put our best efforts, skills, and precision into every signage board regardless of project size or budget.
+        <p class=" text-center mb-5">At Brand Signages, we put our best efforts, skills, and precision into every signage board regardless of project size or budget. Here is some of our recent works:
         </p>            
         <div class="row align-items-center">
             <div class="row">
@@ -333,123 +325,6 @@
         </div>
     </div>
 </section>
-
-<div class="container d-block d-lg-flex justify-content-between align-items-start mt-0 mt-lg-5 mb-0 mb-lg-5">
-    <div class="info">
-    <div class="d-flex gap-3">
-    <i class="fas fa-map-marker-alt fa-2x icon"></i>
-    <div>
-      <h3>Corporate Office</h3>
-      <p>Brand Signages, 5th Floor, BrandStoryVentures, Surya Chambers, 34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, Karnataka 560071</p>
-    </div>
-    </div>
-    <div class="d-flex gap-3">
-        <i class="fas fa-map-marker-alt fa-2x icon"></i>
-        <div>
-          <h3>Manufacturing Facility</h3>
-          <p>34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, Karnataka 560071</p>
-        </div>
-        </div>
-        <div class="d-flex gap-3">
-            <i class="fas fa-clock fa-2x icon"></i>
-            <div>
-                <h3>Timing</h3>
-                <p>Monday – Saturday: 9.30 AM – 8:00 PM</p>
-            </div>
-            </div>
-
-
-<div class="contact-details">
-        <div class="contact-item">
-        <i class="fas fa-phone fa-2x icon"></i> <span>‪<a href="tel:+918006606080" style="text-decoration: unset;color:#E43D12;font-weight: bold;">+91 8006606080</a>‬</span>
-        </div>
-        <div class="contact-item">
-        <i class="fas fa-envelope fa-2x icon"></i> <span><a href="mailto:sales@brandsignages.com" style="text-decoration: unset;color:#E43D12;font-weight: bold;">sales@brandsignages.com</a></span>
-        </div>
-      </div>
-    </div>
-
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2458941156506!2d77.63487547484105!3d12.956111187357873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae154e854bc24d%3A0xca67160f8dc712fc!2sBrand%20Signages-%20Sign%20Board%20Manufacturers%20in%20Bangalore%20%7C%20LED%20%26%20Digital%20Signage%20Makers!5e0!3m2!1sen!2sin!4v1744381933145!5m2!1sen!2sin" width="600" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-
-  <style>
-
-
-    .info, .map {
-      flex: 1 1 100%;
-      padding: 20px;
-    }
- .info h3 {
-      margin-bottom: 10px;
-      color: #111;
-      font-size: 22px;
-    }
-
-    .info p {
-      margin: 5px 0 15px;
-      line-height: 1.6;
-    }
-    .info .icon {
-    font-size: 20px;
-    padding: 7px;
-    color: #E43D12;
-    }
-
-    .highlight {
-      font-weight: bold;
-    }
-
-    .contact-details {
-    display: flex;
-    gap: 20px;
-    margin: 20px 0 0;
-}
- .contact-item {
-        display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    border: solid 1px #8080804a;
-    border-radius: 5px;
-    padding: 20px 15px;
-    width: 100%;
-    }
-
-    .contact-item span {
-      margin-left: 10px;
-      color: #E43D12;
-    }
-
-    .map iframe {
-      width: 100%;
-      height: 370px;
-      border: none;
-    }
-
-    @media (min-width: 768px) {
-      .container {
-        flex-wrap: nowrap;
-      }
-      .info {
-        flex: 1;
-      }
-.map {
-        flex: 1;
-      }
-
-    }
-@media(max-width: 768px) {    
-      .contact-details {
-        display: block;
-      }
-      .info, .map {
-    flex: 1 1 100%;
-    padding: 0px;
-}
-    }
-  </style>
-
 
 <x-coustom-inquiry-form />
 
