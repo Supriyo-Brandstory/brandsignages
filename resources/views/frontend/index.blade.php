@@ -254,7 +254,7 @@
         </div>
     </section>
 
-    <section>
+    <!--<section>
     <div class="container py-5" id="gallery-container">
         <h2 class="hero-title  mb-4">Our Recent Signage Projects</h2>
         <p class=" text-center mb-5">At Brand Signages, we put our best efforts, skills, and precision into every signage board regardless of project size or budget. Here is some of our recent works:
@@ -324,7 +324,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <x-coustom-inquiry-form />
 
