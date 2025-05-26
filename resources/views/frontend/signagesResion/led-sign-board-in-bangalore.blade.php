@@ -102,7 +102,7 @@
 
 
 
-<div class="container d-block d-lg-flex justify-content-between align-items-start mt-0 mt-lg-5 mb-0 mb-lg-5">
+<!--<div class="container d-block d-lg-flex justify-content-between align-items-start mt-0 mt-lg-5 mb-0 mb-lg-5">
     <div class="info">
     <div class="d-flex gap-3">
     <i class="fas fa-map-marker-alt fa-2x icon"></i>
@@ -210,7 +210,7 @@
     padding: 0px;
 }
     }
-  </style>
+  </style>-->
 
 
     <section class="why-bg-light-pink py-5">
