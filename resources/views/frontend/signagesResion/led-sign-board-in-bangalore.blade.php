@@ -32,7 +32,7 @@
                 <h2 class="brand-title">Supirior-quality Electronic Name Boards</h2>
                
                 <p class="brand-description">
-                Elevate your brand and make a bold statement with vibrant LED boards that connect with your audience. In today’s dynamic digital advertising landscape, we offer a wide range of <a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">cutting-edge LED sign boards</a> tailored to your business. Our product range includes digital LED signage, glow LED Signs, LED display boards, outdoor LED sign boards, etc. Every signboard is tailored to exhibit your brand's recognition at a lower cost while guaranteeing energy efficiency.   
+                Give your business a fresh look and present it in a way that truly connects with your audience. In today’s fast-evolving advertising landscape, we offer a wide range of <a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">cutting-edge LED sign boards</a> designed to elevate your brand and meet your business needs. Our product range includes digital LED signage, glow LED Signs, LED display boards, outdoor LED sign boards, etc. Every signboard is tailored to exhibit your brand's recognition at a lower cost while guaranteeing energy efficiency.   
                 </p>
                 <p class="brand-description">
                 Renowned as a <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">signage manufacturer in Bangalore</a>, we have also evolved as a leading name in LED sign board manufacturing. We have achieved this landmark by providing unmatched customer satisfaction, commitment to quality, and the best-quality product range. At Brand Signages, we push our limits to bring your brand vision to life with stunning signage design solutions. 
@@ -45,8 +45,8 @@
 <section>
     <div class="container py-5" id="gallery-container">
         <h2 class="hero-title  mb-4">Premium LED Sign Boards in Bangalore– <br>Crafted to Shine, Built to Last</h2>
-        <p class=" text-center mb-5">LED sign boards are modern branding and advertising solutions for better visibility around the clock. With customizable options and modern designs, 
-            LED sign boards in Bangalore can deliver your brand’s message to your target customers swiftly. As a reliable name in LED sign board manufacturing in Bangalore, Brand Signages serve 
+        <p class=" text-center mb-5">A display board is often the first thing customers notice about your business. A well-designed digital LED signage builds brand 
+            awareness and helps increase sales and overall turnover. As a reliable name in LED sign board manufacturing in Bangalore, Brand Signages serve 
             customers with the best quality products. We specialize in designing custom LED signage boards for outdoor spaces, indoor areas, and office branding. 
         </p>            
 
