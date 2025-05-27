@@ -60,7 +60,7 @@
                 <div class="col-lg-6">
                     <h2 class="brand-title">One-Stop Shop for All Signage Needs</h2>
                     <p class="brand-description">
-                    Brand Signages is the premier signage manufacturer company headquartered in Bangalore. We have 10+ years of experience in signage design, manufacturing, and installation. We serve small businesses, SMEs, and large-scale businesses across Bangalore and operate across India. Our clientele includes industry leaders and top-tier brands from almost every sector.
+                    Brand Signages is the top-rated signage manufacturers in Bangalore. We have 10+ years of experience in signage design, manufacturing, and installation. We serve small businesses, SMEs, and large-scale businesses across Bangalore and operate across India. Our clientele includes industry leaders and top-tier brands from almost every sector.
                     </p>
                     <p class="brand-description">
                     Signages and signboards play an important role in brand recognition, improving visibility, and attracting customers. At Brand Signages, we follow the industry standards and utilize latest technologies in signage design. We are the trusted partner for personalized sign boards, designed to reflect your vision. We craft custom indoor and outdoor sign boards in all shapes and sizes to meet your specific needs.
