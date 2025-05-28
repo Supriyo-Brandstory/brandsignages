@@ -69,7 +69,7 @@
                         With rich industry expertise and a passion for excellence, we design modern
                        <a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
                        <a href="{{route('digital_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
-                       acrylic signage,<a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon lights </a>, and
+                       acrylic signage, <a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon lights</a>, and
                        metal signage for almost every industry. Contact the best signage manufacturers in Bangalore near you today!
                     </p>
                     <div class="mt-4">
