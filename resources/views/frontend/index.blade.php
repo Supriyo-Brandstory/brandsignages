@@ -73,7 +73,7 @@
                        metal signage for almost every industry. Contact the best signage manufacturers in Bangalore near you today!
                     </p>
                     <div class="mt-4">
-                        <a href="{{route('about-us')}}" class="custom-btn">Know About Us</a>
+                        <a href="{{route('about_us')}}" class="custom-btn">Know About Us</a>
                         </div>
                 </div>
             </div>
