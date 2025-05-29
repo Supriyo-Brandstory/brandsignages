@@ -119,6 +119,27 @@
         </div>
     </section>
 
+    <x-clients-scroller :logos="[
+    'images/client/client-1.png',
+    'images/client/client-2.png',
+    'images/client/client-3.png',
+    'images/client/client-4.png',
+    'images/client/client-5.png',
+    'images/client/client-6.png',
+    'images/client/client-7.png',
+]" />
+
+<x-stats-counter 
+  title="Our Achievements"
+  :items="[
+    ['icon' => 'fas fa-pencil-ruler', 'number' => '10+ Years', 'label' => 'In Signage Design'],
+    ['icon' => 'fas fa-truck', 'number' => '12,000+', 'label' => 'Deliveries Done'],
+    ['icon' => 'fas fa-users', 'number' => '2,500+', 'label' => 'Clientbase']
+  ]"
+/>
+
+
+
     <section>
         <div class="container my-5">
             <h2 class="text-center mb-5 card-heading">Our Product Range :Leading Sign Board <br>Makers in Bangalore, India</h2>
