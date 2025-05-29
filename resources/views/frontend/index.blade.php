@@ -120,13 +120,13 @@
     </section>
 
     <x-clients-scroller :logos="[
-    'images/client/client-1.png',
-    'images/client/client-2.png',
-    'images/client/client-3.png',
-    'images/client/client-4.png',
-    'images/client/client-5.png',
-    'images/client/client-6.png',
-    'images/client/client-7.png',
+    'Images/client/client-1.png',
+    'Images/client/client-2.png',
+    'Images/client/client-3.png',
+    'Images/client/client-4.png',
+    'Images/client/client-5.png',
+    'Images/client/client-6.png',
+    'Images/client/client-7.png',
 ]" />
 
 <x-stats-counter 
