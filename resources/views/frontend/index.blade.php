@@ -16,9 +16,9 @@
                 <div class="carousel-item active">
                     <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
                     <div class="carousel-caption-custom">
-                        <h1>Top-rated Signage Manufacturers in Bangalore</h1>
+                        <h1>Best Signage Manufacturers in Bangalore- Brand Signages</h1>
                         <div class="mt-4">
-                        <a  href="tel:+91 8006606080" class="custom-btn">Get Free Quote</a>
+                        <a  href="{{route('contact_us')}}" class="custom-btn">Get Free Quote</a>
                         </div>
                     </div>
                 </div>
@@ -26,9 +26,9 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h2>Best Signage Boards Bangalore: Quality That Speaks Volumes</h2>
+                        <h2>Custom LED Sign Boards Manufacturers Bangalore</h2>
                         <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get Free Quote</a>
+                        <a href="{{route('led_sign_board_in_bangalore')}}" class="custom-btn">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -36,9 +36,9 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
                     <div class="carousel-caption-custom">
-                        <h2>Premium Signage Solutions for Businesses Across Bangalore</h2>
+                        <h2>Digital Signages Solutions for Businesses Across Bangalore</h2>
                         <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get Free Quote</a>
+                        <a href="{{route('digital_signage_company_bangalore')}}" class="custom-btn">Know More</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
 
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">We are The Best <br>Signage Manufacturers in Bangalore</h2>
+            <h2 class="hero-title">We are The Best <br>Signage Makers in Bangalore</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -60,7 +60,7 @@
                 <div class="col-lg-6">
                     <h2 class="brand-title">One-Stop Shop for All Signage Needs</h2>
                     <p class="brand-description">
-                    Brand Signages is the top-rated signage manufacturers in Bangalore. We have 10+ years of experience in signage design, manufacturing, and installation. We serve small businesses, SMEs, and large-scale businesses across Bangalore and operate across India. Our clientele includes industry leaders and top-tier brands from almost every sector.
+                    Brand Signages, located in Bangalore, stands out as one of the top signage manufacturers. We have 10+ years of experience in signage design, manufacturing, and installation. We serve small businesses, SMEs, and large-scale businesses across Bangalore and operate across India. Our clientele includes industry leaders and top-tier brands from almost every sector.
                     </p>
                     <p class="brand-description">
                     Signages and signboards play an important role in brand recognition, improving visibility, and attracting customers. At Brand Signages, we follow the industry standards and utilize latest technologies in signage design. We are the trusted partner for personalized sign boards, designed to reflect your vision. We craft custom indoor and outdoor sign boards in all shapes and sizes to meet your specific needs.
