@@ -79,6 +79,25 @@
             </div>
         </div>
     </section>
+
+        <x-clients-scroller :logos="[
+    'Images/client/client-1.png',
+    'Images/client/client-2.png',
+    'Images/client/client-3.png',
+    'Images/client/client-4.png',
+    'Images/client/client-5.png',
+    'Images/client/client-6.png',
+    'Images/client/client-7.png',
+]" />
+
+<x-stats-counter 
+  title="Our Achievements"
+  :items="[
+    ['icon' => 'fas fa-pencil-ruler', 'number' => '10+', 'label' => 'Years In Signage Design'],
+    ['icon' => 'fas fa-truck', 'number' => '12,000+', 'label' => 'Deliveries Done'],
+    ['icon' => 'fas fa-users', 'number' => '2,500+', 'label' => 'Clientbase']
+  ]"
+/>
    
     <section class="process-section">
         <div class="container">
@@ -118,25 +137,6 @@
             </div>
         </div>
     </section>
-
-    <x-clients-scroller :logos="[
-    'Images/client/client-1.png',
-    'Images/client/client-2.png',
-    'Images/client/client-3.png',
-    'Images/client/client-4.png',
-    'Images/client/client-5.png',
-    'Images/client/client-6.png',
-    'Images/client/client-7.png',
-]" />
-
-<x-stats-counter 
-  title="Our Achievements"
-  :items="[
-    ['icon' => 'fas fa-pencil-ruler', 'number' => '10+ Years', 'label' => 'In Signage Design'],
-    ['icon' => 'fas fa-truck', 'number' => '12,000+', 'label' => 'Deliveries Done'],
-    ['icon' => 'fas fa-users', 'number' => '2,500+', 'label' => 'Clientbase']
-  ]"
-/>
 
 
 
