@@ -1,16 +1,17 @@
-<!-- Our Valuable Clients Section -->
+@props(['logos'])
 <section class="py-5 bg-light">
   <div class="container text-center">
     <h2 class="mb-4 process-title ms">Our Valuable Clients</h2>
     <div class="logo-scroller overflow-hidden">
       <div class="scroller-track d-flex align-items-center">
         @foreach ($logos as $logo)
-          <img src="{{ asset('frontend/'.$logo) }}" alt="Client Logo" class="client-logo mx-3">
+          <img src="{{ asset('frontend/'.$logo['src']) }}" alt="{{ $logo['alt'] }}" class="client-logo mx-3">
         @endforeach
 
         <!-- Duplicate for smooth loop -->
         @foreach ($logos as $logo)
-          <img src="{{ asset('frontend/'.$logo) }}" alt="Client Logo" class="client-logo mx-3">
+                    <img src="{{ asset('frontend/'.$logo['src']) }}" alt="{{ $logo['alt'] }}" class="client-logo mx-3">
+
         @endforeach
       </div>
     </div>
