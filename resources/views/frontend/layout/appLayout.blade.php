@@ -38,33 +38,33 @@
         <meta property="og:image" content="{{ $seoImage }}" />
 
         <script type="application/ld+json">
-                    {
-                      "@context": "https://schema.org",
-                      "@type": "BlogPosting",
-                      "headline": "{{ $blogSeoData['title'] ?? 'Brand Signages' }}",
-                      "description": "{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}",
-                      "image": "{{ $seoImage }}",
-                      "author": {
-                        "@type": "Person",
-                        "name": "Manoj Kaliyannan",
-                        "url": "https://in.linkedin.com/in/manojkaliyannan"
-                      },
-                      "publisher": {
-                        "@type": "Organization",
-                        "name": "Brand Signages",
-                        "logo": {
-                          "@type": "ImageObject",
-                          "url": "{{ asset('frontend/Images/Brand-Signages-logo.png') }}"
+                        {
+                          "@context": "https://schema.org",
+                          "@type": "BlogPosting",
+                          "headline": "{{ $blogSeoData['title'] ?? 'Brand Signages' }}",
+                          "description": "{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}",
+                          "image": "{{ $seoImage }}",
+                          "author": {
+                            "@type": "Person",
+                            "name": "Manoj Kaliyannan",
+                            "url": "https://in.linkedin.com/in/manojkaliyannan"
+                          },
+                          "publisher": {
+                            "@type": "Organization",
+                            "name": "Brand Signages",
+                            "logo": {
+                              "@type": "ImageObject",
+                              "url": "{{ asset('frontend/Images/Brand-Signages-logo.png') }}"
+                            }
+                          },
+                          "datePublished": "{{ $blogSeoData['published_at'] ?? '2025-01-28' }}",
+                          "dateModified": "{{ $blogSeoData['updated_at'] ?? '2025-01-28' }}",
+                          "mainEntityOfPage": {
+                            "@type": "WebPage",
+                            "@id": "{{ $blogSeoData['canonical_url'] ?? url()->current() }}"
+                          }
                         }
-                      },
-                      "datePublished": "{{ $blogSeoData['published_at'] ?? '2025-01-28' }}",
-                      "dateModified": "{{ $blogSeoData['updated_at'] ?? '2025-01-28' }}",
-                      "mainEntityOfPage": {
-                        "@type": "WebPage",
-                        "@id": "{{ $blogSeoData['canonical_url'] ?? url()->current() }}"
-                      }
-                    }
-                </script>
+                    </script>
     @else
         {!!$seo->script ?? '<title>#1 Sign Board Manufacturer in Bangalore | Brand Signages</title>'!!}
     @endif
@@ -73,7 +73,8 @@
 
 
 
-    {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> --}}
+    {{--
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> --}}
 
 
     <meta name="google-site-verification" content="k2zT6vzjGmv5Qj_C5YPVg4YbcQNoHooAF5smISxk2qA" />
@@ -95,24 +96,33 @@
 
 
 
-    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
-    {{-- <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;700&display=swap" rel="stylesheet"> --}}
-    {{-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> --}}
-    {{-- <link
+    {{--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
+    {{--
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;700&display=swap" rel="stylesheet"> --}}
+    {{--
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    --}}
+    {{--
+    <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet"> --}}
 
 
-    {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> --}}
+    {{--
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> --}}
 
-    {{-- <link rel="stylesheet" href="{{asset('frontend/styles.css')}}">
+    {{--
+    <link rel="stylesheet" href="{{asset('frontend/styles.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/services.css')}}"> --}}
     <!-- Lightbox2 CSS -->
 
-    {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/css/lightgallery.min.css" /> --}}
+    {{--
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/css/lightgallery.min.css" />
+    --}}
 
 
-@vite(['resources/css/app.css'])
+    @vite(['resources/css/app.css'])
 
 </head>
 
@@ -328,113 +338,124 @@
 
 
 
-<section class="footer pb-2">
-    <div class="container">
-        <div class="row align-items-start text-start justify-content-between">
+    <section class="footer pb-2">
+        <div class="container">
+            <div class="row align-items-start text-start justify-content-between">
 
-            <!-- Logo -->
-            <div class="col-12 col-md-4 mb-5 mb-md-0 d-flex justify-content-center justify-content-md-start">
-                <a href="{{route('index')}}">
-                    <img src="{{asset('frontend/Images/Brand-Signages-logo.png')}}" alt="Brand Signages Logo"
-                        class="img-fluid" style="max-width: 200px;">
-                </a>
-            </div>
-
-            <!-- Contact Info + Address -->
-            <div
-                class="col-12 col-md-8 d-flex flex-column flex-md-row gap-4 align-items-start justify-content-md-center text-start">
-
-                <!-- Contact Info -->
-                <div>
-                    <a href="tel:+918006606080" class="mb-1" style="color: #E43D12; text-decoration: none;">
-                        <i class="fas fa-mobile-screen-button icon" style="color: #E43D12; font-size: 20px;"></i>
-                        <strong>Call :</strong> +918006606080
-                    </a><br>
-                    <a href="mailto:sales@brandsignages.com" class="mb-0" style="color: #E43D12; text-decoration: none;">
-                        <i class="fas fa-envelope icon" style="color: #E43D12; font-size: 20px;"></i>
-                        <strong>Email :</strong> sales@brandsignages.com
+                <!-- Logo -->
+                <div class="col-12 col-md-4 mb-5 mb-md-0 d-flex justify-content-center justify-content-md-start">
+                    <a href="{{route('index')}}">
+                        <img src="{{asset('frontend/Images/Brand-Signages-logo.png')}}" alt="Brand Signages Logo"
+                            class="img-fluid" style="max-width: 200px;">
                     </a>
                 </div>
 
-                <!-- Address -->
-                <div class="d-flex gap-2 align-items-start text-start">
-                    <i class="fas fa-map-marker-alt icon fa-2x mt-1" style="color: #E43D12; font-size: 20px;"></i>
-                    <a  href="https://www.google.com/maps/dir//Brand+Signages-+Sign+Board+Manufacturers+in+Bangalore+%7C+LED+Sign+Board+Makers,+5th+Floor,+Brand+Signages,+BrandStory+Ventures,+Surya+Chambers,+34,+K.R.Colony,+Domlur+I+Stage,+Amarjyoti+Layout,+Domlur,+Bengaluru,+Karnataka+560071"class="mb-0" style="color: #E43D12; text-decoration: none;">
-                        Brand Signages, 5th Floor, BrandStory Ventures, Surya Chambers,<br>
-                        34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, <br>Karnataka 560071
-                    </a>
+                <!-- Contact Info + Address -->
+                <div
+                    class="col-12 col-md-8 d-flex flex-column flex-md-row gap-4 align-items-start justify-content-md-center text-start">
+
+                    <!-- Contact Info -->
+                    <div>
+                        <a href="tel:+918006606080" class="mb-1" style="color: #E43D12; text-decoration: none;">
+                            <i class="fas fa-mobile-screen-button icon" style="color: #E43D12; font-size: 20px;"></i>
+                            <strong>Call :</strong> +918006606080
+                        </a><br>
+                        <a href="mailto:sales@brandsignages.com" class="mb-0"
+                            style="color: #E43D12; text-decoration: none;">
+                            <i class="fas fa-envelope icon" style="color: #E43D12; font-size: 20px;"></i>
+                            <strong>Email :</strong> sales@brandsignages.com
+                        </a>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="d-flex gap-2 align-items-start text-start">
+                        <i class="fas fa-map-marker-alt icon fa-2x mt-1" style="color: #E43D12; font-size: 20px;"></i>
+                        <a href="https://www.google.com/maps/dir//Brand+Signages-+Sign+Board+Manufacturers+in+Bangalore+%7C+LED+Sign+Board+Makers,+5th+Floor,+Brand+Signages,+BrandStory+Ventures,+Surya+Chambers,+34,+K.R.Colony,+Domlur+I+Stage,+Amarjyoti+Layout,+Domlur,+Bengaluru,+Karnataka+560071"
+                            class="mb-0" style="color: #E43D12; text-decoration: none;">
+                            Brand Signages, 5th Floor, BrandStory Ventures, Surya Chambers,<br>
+                            34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, <br>Karnataka 560071
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="color: #E43D12;" class="my-4">
+
+            <div class="row mb-4 text-start">
+                <!-- About Section -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <h5 class="fw-bold">Brand Signages</h5>
+                    <p>
+                        Brand Signages is a premier signage manufacturing company serving
+                        clients across Bangalore and India for 10+ years. We have a vast
+                        portfolio and client base across different industries.
+                    </p>
+                    <div class='d-flex justify-content-left' style="gap: 10px;">
+                        <a href="https://www.youtube.com/@BrandSignages" target="_blank"><i class="fab fa-youtube fa-2x"
+                                style="color: red;"></i></a>
+                        <a href="https://www.facebook.com/BrandSignagesIndia/" target="_blank"><i
+                                class="fab fa-facebook fa-2x" style="color: #1877F2;"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service Locations -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <h5 class="fw-bold">Service Locations</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="{{route('signage_in_bangalore')}}" class="text-decoration-none">Signages in
+                                Bangalore</a></li>
+                        <li><a href="{{route('leading_signage_company_in_mumbai')}}"
+                                class="text-decoration-none">Signages in Mumbai</a></li>
+                        <li><a href="{{route('signage_company_in_chennai')}}" class="text-decoration-none">Signages in
+                                Chennai</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <h5 class="fw-bold">Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="{{route('led_signages')}}" class="text-decoration-none">LED Sign Board</a></li>
+                        <li><a href="{{route('digital_signages')}}" class="text-decoration-none">Digital Signage</a>
+                        </li>
+                        <li><a href="{{route('arcylic_signages')}}" class="text-decoration-none">Acrylic Signage</a>
+                        </li>
+                        <li><a href="{{route('neon_signages')}}" class="text-decoration-none">Neon Sign</a></li>
+                        <li><a href="{{route('metal_signages')}}" class="text-decoration-none">Metal Signage</a></li>
+                        <li><a href="{{route('indoor_signages')}}" class="text-decoration-none">Indoor Signage</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <h5 class="fw-bold">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/" class="text-decoration-none">Home</a></li>
+                        <li><a href="/about-us" class="text-decoration-none">About Us</a></li>
+                        <li><a href="/contact-us" class="text-decoration-none">Contact Us</a></li>
+                        <li><a href="/terms-and-conditions" class="text-decoration-none">Terms & Conditions</a></li>
+                        <li><a href="/privacy-policy" class="text-decoration-none">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom Row -->
+            <div class="row justify-content-center justify-content-md-between text-start text-md-start">
+                <div class="col-12 text-center">
+                    <span>© 2024 Brand Signages. All Rights Reserved.</span>
                 </div>
             </div>
         </div>
-
-        <hr style="color: #E43D12;" class="my-4">
-
-        <div class="row mb-4 text-start">
-            <!-- About Section -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                <h5 class="fw-bold">Brand Signages</h5>
-                <p>
-                    Brand Signages is a premier signage manufacturing company serving
-                    clients across Bangalore and India for 10+ years. We have a vast
-                    portfolio and client base across different industries.
-                </p>
-                 <div class='d-flex justify-content-left' style="gap: 10px;">
-                                <a href="https://www.youtube.com/@BrandSignages" target="_blank"><i class="fab fa-youtube fa-2x" style="color: red;"></i></a>
-                                <a href="https://www.facebook.com/BrandSignagesIndia/" target="_blank"><i class="fab fa-facebook fa-2x" style="color: #1877F2;"></i></a>                              
-                            </div>
-            </div>
-
-            <!-- Service Locations -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                <h5 class="fw-bold">Service Locations</h5>
-                <ul class="list-unstyled">
-                    <li><a href="{{route('signage_in_bangalore')}}" class="text-decoration-none">Signages in Bangalore</a></li>
-                    <li><a href="{{route('leading_signage_company_in_mumbai')}}" class="text-decoration-none">Signages in Mumbai</a></li>
-                    <li><a href="{{route('signage_company_in_chennai')}}" class="text-decoration-none">Signages in Chennai</a></li>
-                </ul>
-            </div>
-
-            <!-- Services -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                <h5 class="fw-bold">Services</h5>
-                <ul class="list-unstyled">
-                    <li><a href="{{route('led_signages')}}" class="text-decoration-none">LED Sign Board</a></li>
-                    <li><a href="{{route('digital_signages')}}" class="text-decoration-none">Digital Signage</a></li>
-                    <li><a href="{{route('arcylic_signages')}}" class="text-decoration-none">Acrylic Signage</a></li>
-                    <li><a href="{{route('neon_signages')}}" class="text-decoration-none">Neon Sign</a></li>
-                    <li><a href="{{route('metal_signages')}}" class="text-decoration-none">Metal Signage</a></li>
-                    <li><a href="{{route('indoor_signages')}}" class="text-decoration-none">Indoor Signage</a></li>
-                </ul>
-            </div>
-
-            <!-- Quick Links -->
-            <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                <h5 class="fw-bold">Quick Links</h5>
-                <ul class="list-unstyled">
-                    <li><a href="/" class="text-decoration-none">Home</a></li>
-                    <li><a href="/about-us" class="text-decoration-none">About Us</a></li>
-                    <li><a href="/contact-us" class="text-decoration-none">Contact Us</a></li>
-                    <li><a href="/terms-and-conditions" class="text-decoration-none">Terms & Conditions</a></li>
-                    <li><a href="/privacy-policy" class="text-decoration-none">Privacy Policy</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Footer Bottom Row -->
-        <div class="row justify-content-center justify-content-md-between text-start text-md-start">
-            <div class="col-12 text-center">
-                <span>© 2024 Brand Signages. All Rights Reserved.</span>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 
 
     <!-- Floating Call Button (Only visible on mobile) -->
 
-    {{-- <script src="{{asset('frontend/script.js')}}"></script> --}}
-    {{-- <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script> --}}
+    {{--
+    <script src="{{asset('frontend/script.js')}}"></script> --}}
+    {{--
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script> --}}
 
     <script>
         // Initialize LightGallery
@@ -446,10 +467,14 @@
     </script>
     <!-- Bootstrap JS -->
 
-    {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> --}}
+    {{--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> --}}
     <style>
         .footer a {
             color: #E43D12;
         }
+    </style>
+@vite(['resources/js/app.js'])
+</body>
 
-        </body></html>
+</html>
