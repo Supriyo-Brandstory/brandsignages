@@ -1,6 +1,7 @@
 @extends('frontend.layout.appLayout')
-@section('content')
 
+@section('content')
+    <!-- Carousel Section -->
     <section class="carousel-section">
         <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -46,6 +47,7 @@
         </div>
     </section>
 
+    <!-- About Section -->
     <section>
         <div class="container py-5">
             <h2 class="hero-title">We are The Best <br>Signage Makers in Bangalore</h2>
@@ -138,8 +140,6 @@
             </div>
         </div>
     </section>
-
-
 
     <section>
         <div class="container my-5">
@@ -265,7 +265,7 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12 contact-section">
-                    <p class="card-text"><strong>Your brand identity is the silent ambassador of your business. At Brand Signages, we don’t just design sign boards, we craft designs that leave a lasting impression. As premier signage makers in Bangalore, we bring innovation, precision, and artistry to every design.</strong></p>
+                    <p class="card-text"><strong>Your brand identity is the silent ambassador of your business. At Brand Signages, we don't just design sign boards, we craft designs that leave a lasting impression. As premier signage makers in Bangalore, we bring innovation, precision, and artistry to every design.</strong></p>
                     <a href="{{route('contact_us')}}">
                         <button class="contact-btn">Contact Us</button>
                     </a>
@@ -274,79 +274,7 @@
         </div>
     </section>
 
-    <!--<section>
-    <div class="container py-5" id="gallery-container">
-        <h2 class="hero-title  mb-4">Our Recent Signage Projects</h2>
-        <p class=" text-center mb-5">At Brand Signages, we put our best efforts, skills, and precision into every signage board regardless of project size or budget. Here is some of our recent works:
-        </p>            
-        <div class="row align-items-center">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-1.webp')}}" data-lightbox="Acrylic LED Signboard" data-title="Image 1">
-                    <img src="{{asset('frontend/Images/portfolio-1.webp')}}" class="img-fluid" alt="Acrylic LED Signboard" style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-2.webp')}}" data-lightbox="LED Signboard Design" data-title="Image 2">
-                    <img src="{{asset('frontend/Images/portfolio-2.webp')}}" class="img-fluid" alt="LED Signboard Design"  style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-3.webp')}}" data-lightbox="LED Lightbox Design" data-title="Image 3">
-                    <img src="{{asset('frontend/Images/portfolio-3.webp')}}" class="img-fluid" alt="LED Lightbox Design"  style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-4.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/portfolio-4.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-5.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/portfolio-5.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-6.webp')}}" data-lightbox="Digital Signage Design" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/portfolio-6.webp')}}" class="img-fluid" alt="Digital Signage Design"  style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-7.webp')}}" data-lightbox="Digital Signage Design" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/portfolio-7.webp')}}" class="img-fluid" alt="Digital Signage Design"  style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-8.webp')}}" data-lightbox="Acrylic LED Signboard Design" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/portfolio-8.webp')}}" class="img-fluid" alt="Acrylic LED Signboard Design"  style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/acrylic-led-sign-1.webp')}}" data-lightbox="Acrylic Signage Design" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/acrylic-led-sign-1.webp')}}" class="img-fluid" alt="Acrylic Signage Design"  style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/led-lightbox-5.webp')}}" data-lightbox="LED Signboard Design" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/led-lightbox-5.webp')}}" class="img-fluid" alt="LED Signboard Design"  style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/neon-5.webp')}}" data-lightbox="Neon Signboard Design" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/neon-5.webp')}}" class="img-fluid" alt="Neon Signboard Design"  style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/acrylic-led-sign-board-7.webp')}}" data-lightbox="Acrylic Signage Design" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/acrylic-led-sign-board-7.webp')}}" class="img-fluid" alt="Acrylic Signage Design"  style="width: 100%;">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>-->
-
-<x-coustom-inquiry-form />
+    <x-coustom-inquiry-form />
 
     <section class="why-bg-light-pink py-5">
         <div class="container">
@@ -396,7 +324,7 @@
                         <div class="card-body px-0">
                             <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
                             <p class="card-text">Delays and excuses are the bane of our existence. We know that a lot is
-                                riding on our signage solutions, and that’s why we deliver branding signage solutions
+                                riding on our signage solutions, and that's why we deliver branding signage solutions
                                 within the deadline set ahead by the clients.</p>
                         </div>
                     </div>
@@ -408,7 +336,7 @@
                             <h3 class="why-text-red mb-3">Quality material</h3>
                             <p class="card-text">We prioritize the material quality to ensure they can withstand harsh
                                 weather and normal wear and tear. Our flexes and outdoor signs will tell the story for
-                                years and keep the brand’s visual identity sharp.</p>
+                                years and keep the brand's visual identity sharp.</p>
                         </div>
                     </div>
                 </div>
@@ -473,7 +401,7 @@
                                     <div class="card-body why-card-body px-0">
                                         <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
                                         <p class="card-text">Delays and excuses are the bane of our existence. We know
-                                            that a lot is riding on our signage solutions, and that’s why we deliver
+                                            that a lot is riding on our signage solutions, and that's why we deliver
                                             branding signage solutions within the deadline set ahead by the clients.</p>
                                     </div>
                                 </div>
@@ -485,7 +413,7 @@
                                         <h3 class="why-text-red mb-3">Quality material</h3>
                                         <p class="card-text">We prioritize the material quality to ensure they can
                                             withstand harsh weather and normal wear and tear. Our flexes and outdoor
-                                            signs will tell the story for years and keep the brand’s visual identity
+                                            signs will tell the story for years and keep the brand's visual identity
                                             sharp.</p>
                                     </div>
                                 </div>
@@ -510,89 +438,6 @@
                         aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
- 
-
-
-    <section class="container py-5">
-        <div class="row g-4 d-flex flex-wrap justify-content-center">
-
-            <div class="text-center ">
-                <h2 class="display-4 mb-3 why-text-heading">Signage That Leaves a Lasting Impression</h2>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="image-container position-relative">
-                    <img src="{{asset('frontend/Images/brand-signage.webp')}}" alt="Brand Signage" class="w-100 h-100">
-                    <div class="overlay">
-                        <h5 class="text-title">What is Brand Signage?</h5>
-                        <p class="text-content">Brand signage is your company's visual ambassador- a strategic plot that
-                            adds a compelling narrative touch to your corporate identity. Branding signs and branding banners combine perception and
-                            experience, creating memorable touchpoints that speak volumes without saying a word.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-8">
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <div class="image-container position-relative">
-                            <img src="{{asset('frontend/Images/pop-displays.webp')}}" alt="LED Signage Manufacturing Company in Bangalore" class="w-100 h-100">
-                            <div class="overlay">
-                                <h5 class="text-title">LED Sign Boards</h5>
-                                <p class="text-content">As a LED signboard manufacturer, we know that dynamic LED displays
-                                    can change retail spaces into interactive brand stories. These eye-catching
-                                    installations capture attention, especially with LED letters to drive impulse
-                                    purchases and create immersive experiences. These will engage customers, and turn
-                                    them into enthusiastic brand ambassadors.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="image-container position-relative">
-                            <img src="{{asset('frontend/Images/event-signage.webp')}}" alt="Event Signage" class="w-100 h-100">
-                            <div class="overlay">
-                                <h5 class="text-title">Event Signage</h5>
-                                <p class="text-content">Event signage is a go-to choice for your brand's live
-                                    performance - a strategic communication tool that guides, inspires, and connects. We
-                                    can create large-scale brand signages to create cohesive experiences, amplify your
-                                    message, and leave a memorable impression.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-8">
-                        <div class="image-container position-relative">
-                            <img src="{{asset('frontend/Images/corporate-offices.webp')}}" alt="Office Signage manufacturing Company in Bangalore" class="w-100 h-100">
-                            <div class="overlay">
-                                <h5 class="text-title">Corporate Offices</h5>
-                                <p class="text-content">Corporate office signage reflects your company's theme-
-                                    professionalism, innovation, and purpose-driven. As the best, sign board
-                                    manufacturer, we will produce thoughtfully designed signs to communicate your
-                                    organization's values, culture, and commitment to excellence.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="image-container position-relative">
-                            <img src="{{asset('frontend/Images/storefronts.webp')}}" alt="LED Signage manufacturing Company in Bangalore" class="w-100 h-100">
-                            <div class="overlay">
-                                <h5 class="text-title">Storefronts</h5>
-                                <p class="text-content">Your storefront deserves glow sign boards for visual appeal,
-                                    storytelling, professionalism, and promise. It transforms street-level visibility
-                                    into an invitation that draws people into your unique business world.</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -632,10 +477,11 @@
                             <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                         </div>
                         <div class="card-body px-0">
-                            <p class="card-text testimonial-card-text">As a boutique hotel chain, brand consistency is
-                                everything. These custom signages transformed our brand experience across multiple
-                                locations. The attention to detail is remarkable - each piece feels uniquely crafted yet
-                                perfectly aligned with our brand identity</p>
+                            <p class="card-text testimonial-card-text">As a boutique hotel chain, brand
+                                consistency is everything. These custom signages transformed our brand
+                                experience across multiple locations. The attention to detail is remarkable
+                                - each piece feels uniquely crafted yet perfectly aligned with our brand
+                                identity</p>
                             <hr class="yellow-line">
                             <div class="client-info">
                                 <img src="{{asset('frontend/Images/ashish.webp')}}" alt="Ashish" class="client-img">
@@ -653,9 +499,10 @@
                             <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                         </div>
                         <div class="card-body px-0">
-                            <p class="card-text testimonial-card-text">We needed urgent signage for our new retail
-                                location, and they delivered beyond expectations. The direct communication and on-demand
-                                design process made the experience seamless and stress-free</p>
+                            <p class="card-text testimonial-card-text">We needed urgent signage for our new
+                                retail location, and they delivered beyond expectations. The direct
+                                communication and on-demand design process made the experience seamless and
+                                stress-free</p>
                             <hr class="yellow-line">
                             <div class="client-info">
                                 <img src="{{asset('frontend/Images/nadini.webp')}}" alt="Nadini" class="client-img">
@@ -673,10 +520,10 @@
                             <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
                         </div>
                         <div class="card-body px-0">
-                            <p class="card-text testimonial-card-text">I was skeptical about how a signage company could
-                                truly understand our nonprofit's mission. But they did more than create a sign - they
-                                created a visual story that speaks to our community's heart. The quality and emotional
-                                resonance are unmatched 
+                            <p class="card-text testimonial-card-text">I was skeptical about how a signage
+                                company could truly understand our nonprofit's mission. But they did more
+                                than create a sign - they created a visual story that speaks to our
+                                community's heart. The quality and emotional resonance are unmatched 
                             </p>
                             <hr class="yellow-line">
                             <div class="client-info">
@@ -874,7 +721,6 @@
         </div>
     </section>
 
-
     <section class="faq-section">
         <div class="faq-container">
             <h1 class="faq-title">FAQs</h1>
@@ -904,7 +750,7 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Choosing a signage depends on many factors, including your business type, location, and branding goals. Here’s how to make the right choice:</p>
+                    <p>Choosing a signage depends on many factors, including your business type, location, and branding goals. Here's how to make the right choice:</p>
                     <ul>
                         <li>Purpose – Determine whether the signage is for branding, wayfinding, promotions, or safety.</li>
                         <li>Location & Visibility – Choose signage that stands out in your environment, whether indoor or outdoor.</li>
@@ -1082,7 +928,7 @@
                 </button>
                 <div class="faq-answer">
                     <p>It takes almost 7-10 business days to deliver signage. After you 
-                        finalize the design and material, we’ll proceed with manufacturing 
+                        finalize the design and material, we'll proceed with manufacturing 
                         and delivery of the signages. We ensure a hassle-free experience during the 
                         entire process. </p>
                 </div>
@@ -1094,55 +940,58 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, we also create signage for events and exhibitions in Bangalore. Whether it’s 
+                    <p>Yes, we also create signage for events and exhibitions in Bangalore. Whether it's 
                         directional signage, banners, stands, or branded displays, we offer a range of options. 
                         We are a leading signage manufacturer in Bangalore & India to help you with any type of 
                         custom signage solutions. </p>
                 </div>
             </div>
-
-            </div>
         </div>
     </section>
 
-<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
-            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our articles.</p>
+    <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
+                <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our articles.</p>
+            </div>
 
-        </div>
-
-        <div class="row">
-            @foreach ($blogs as $blog)
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
-                    <div class="blog-card">
-                        <div class="blog-card-img">
-                            <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
-                        </div>
-                        <div class="blog-card-body">
-                            <div class="d-flex justify-content-between align-items-center mb-2">
-                                <span class="badge">{{ strtoupper($blog->topic) }}</span>
-                                <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+            <div class="row">
+                @foreach ($blogs as $blog)
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                    <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
+                        <div class="blog-card">
+                            <div class="blog-card-img">
+                                <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
                             </div>
-                            <h5 class="blog-card-title">{{ $blog->title }}</h5>
-                            <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
-                            </p>
+                            <div class="blog-card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="badge">{{ strtoupper($blog->topic) }}</span>
+                                    <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+                                </div>
+                                <h5 class="blog-card-title">{{ $blog->title }}</h5>
+                                <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
+                @endforeach
+                <div class="text-center">
+                <a href="{{ route('blogs') }}">
+                    <button class="contact-btn">See All Blogs</button>
                 </a>
-            </div>
-            @endforeach
-            <div class="text-center">
-            <a href="{{ route('blogs') }}">
-                <button class="contact-btn">See All Blogs</button>
-            </a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+@endsection
 
-    @endsection
+@push('styles')
+    <link rel="preload" href="{{ asset('frontend/Images/banner1.webp') }}" as="image" media="(min-width: 769px)">
+    <link rel="preload" href="{{ asset('frontend/Images/banner1-sm.webp') }}" as="image" media="(max-width: 768px)">
+    <link rel="preload" href="{{ asset('frontend/Images/cafe-rosco-signage.webp') }}" as="image">
+    <link rel="preload" href="{{ asset('frontend/Images/graphic-designer.webp') }}" as="image">
+@endpush
 
-    
+{{-- @vite(['resources/js/app.js', 'resources/css/app.css']) --}}
