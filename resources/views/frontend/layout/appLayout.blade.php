@@ -73,7 +73,7 @@
 
 
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> --}}
 
 
     <meta name="google-site-verification" content="k2zT6vzjGmv5Qj_C5YPVg4YbcQNoHooAF5smISxk2qA" />
@@ -95,24 +95,24 @@
 
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link
+    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
+    {{-- <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;700&display=swap" rel="stylesheet"> --}}
+    {{-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> --}}
+    {{-- <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"> --}}
 
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> --}}
 
-    <link rel="stylesheet" href="{{asset('frontend/styles.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/services.css')}}">
+    {{-- <link rel="stylesheet" href="{{asset('frontend/styles.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/services.css')}}"> --}}
     <!-- Lightbox2 CSS -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/css/lightgallery.min.css" />
+    {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/css/lightgallery.min.css" /> --}}
 
 
-
+@vite(['resources/css/app.css'])
 
 </head>
 
@@ -433,8 +433,8 @@
 
     <!-- Floating Call Button (Only visible on mobile) -->
 
-    <script src="{{asset('frontend/script.js')}}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script>
+    {{-- <script src="{{asset('frontend/script.js')}}"></script> --}}
+    {{-- <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script> --}}
 
     <script>
         // Initialize LightGallery
@@ -446,7 +446,7 @@
     </script>
     <!-- Bootstrap JS -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> --}}
     <style>
         .footer a {
             color: #E43D12;
