@@ -34,15 +34,6 @@
                     </div>
                 </div>
 
-                <div class="carousel-item">
-                    <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
-                    <div class="carousel-caption-custom">
-                        <h2>Digital Signages Solutions for Businesses Across Bangalore</h2>
-                        <div class="mt-4">
-                        <a href="{{route('digital_signage_company_bangalore')}}" class="custom-btn">Know More</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
