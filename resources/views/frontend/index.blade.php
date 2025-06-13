@@ -83,13 +83,13 @@
     </section>
 
 <x-clients-scroller :logos="[
-    ['src' => 'Images/client/client-1.png', 'alt' => 'Client 1 Logo'],
-    ['src' => 'Images/client/client-2.png', 'alt' => 'Client 2 Logo'],
-    ['src' => 'Images/client/client-3.png', 'alt' => 'Client 3 Logo'],
-    ['src' => 'Images/client/client-4.png', 'alt' => 'Client 4 Logo'],
-    ['src' => 'Images/client/client-5.png', 'alt' => 'Client 5 Logo'],
-    ['src' => 'Images/client/client-6.png', 'alt' => 'Client 6 Logo'],
-    ['src' => 'Images/client/client-7.png', 'alt' => 'Client 7 Logo'],
+    ['src' => 'Images/client/client-1.png', 'alt' => 'BrandStory Solutions- Our Client'],
+    ['src' => 'Images/client/client-2.png', 'alt' => 'The Database provider- Our Client'],
+    ['src' => 'Images/client/client-3.png', 'alt' => 'Basel- Our Client'],
+    ['src' => 'Images/client/client-4.png', 'alt' => 'Liva International- Our Clients'],
+    ['src' => 'Images/client/client-5.png', 'alt' => 'Triva Technologies- Our Clients'],
+    ['src' => 'Images/client/client-6.png', 'alt' => '9 Velocity- Our Client'],
+    ['src' => 'Images/client/client-7.png', 'alt' => 'Flipkart- Our Client'],
 ]" />
 
 
