@@ -112,7 +112,7 @@
                         <div class="icon-deliver">
                             <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
                         </div>
-                        <h3>Timely Deliver</h3>
+                        <h3>Timely Delivery</h3>
                         <p>We maintain stringent timelines and coordinate logistics to guarantee on-time signage delivery. 
                             We also provide 24*7 online support for our valuable customers. </p>
                     </div>
@@ -123,7 +123,7 @@
                         <div class="icon-purchase">
                             <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
                         </div>
-                        <h3>Cost Effective</h3>
+                        <h3>Cost Effective Services</h3>
                         <p>We are recognized by our clients for the best quality product and value for money signage solutions. 
                             We are proud to be the best signage makers in Bangalore. </p>
                     </div>
