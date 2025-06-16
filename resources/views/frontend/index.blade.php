@@ -27,9 +27,9 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h2>Illuminate Your Brand with Our Custom LED Sign Boards</h2>
+                        <h2>Illuminate Your Brand with Premium-quality LED Sign Boards</h2>
                         <div class="mt-4">
-                        <a href="{{route('led_sign_board_in_bangalore')}}" class="custom-btn">Know More</a>
+                        <a href="{{route('contact_us')}}" class="custom-btn">Know More</a>
                         </div>
                     </div>
                 </div>
