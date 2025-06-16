@@ -90,7 +90,7 @@
   ]"
 />
 
-<x-coustom-inquiry-form />
+
    
     <section class="process-section">
         <div class="container">
@@ -131,6 +131,8 @@
             </div>
         </div>
     </section>
+
+    <x-coustom-inquiry-form />
 
     <section>
         <div class="container my-5">
