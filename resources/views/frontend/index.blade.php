@@ -17,7 +17,7 @@
                 <div class="carousel-item active">
                     <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
                     <div class="carousel-caption-custom">
-                        <h1>Best Sign Board Makers Near Me Bangalore: Brand Signages</h1>
+                        <h1>Best Signage Solutions by #1 Sign Board Makers in Bangalore</h1>
                         <div class="mt-4">
                         <a  href="{{route('about_us')}}" class="custom-btn">Know More</a>
                         </div>
@@ -27,9 +27,9 @@
                 <div class="carousel-item">
                     <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
                     <div class="carousel-caption-custom">
-                        <h2>Illuminate Your Brand with Premium-quality LED Sign Boards</h2>
+                        <h2>Signages That Leaves a Lasting Impression on Customers</h2>
                         <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Know More</a>
+                        <a href="{{route('contact_us')}}" class="custom-btn">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
     <!-- About Section -->
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">Welcome to Brand Signages <br>Best Signage Makers in Bangalore</h2>
+            <h2 class="hero-title">Level Up Your Brand Image <br>with Custom Signage Solutions</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -60,37 +60,30 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="brand-title">Sign Board Makers Near Me | LED Sign Board</h2>
+                    <h2 class="brand-title">Build Your Brand Identity with Brand Signages</h2>
+                    <p class="brand-description">
+                    The way in which you express your company's message visually and emotionally forms brand identity. It is not just the logo, it includes other design elements, 
+                    communication strategies, and visual expressions that distinguish a brand from its competitors
+                    </p>
                     <p class="brand-description">
                     <a href="{{route('about_us')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages</a> stands out as one of the top signage manufacturers in Bangalore. We help businesses stand apart with the best signage advertising solutions. 
                     With over 10 years of experience in signage design, manufacturing, and installation, our clientele includes small businesses, industry leaders, and top-tier brands.
+                    <ul>
+                        <li>
+                             The manufacturing process for brand signages begins with conceptualisation. Our designers will collaborate closely with you to understand the company's essence, target audience, and communication objectives.
+                        </li>
+                        <li>
+                            Once this is done, our graphic designers develop precise specifications, including colour palettes, typography, logo placement, and material selections. We use advanced technologies to ensure the exact replication of brand elements.
+                        </li>
+                        <li>
+                            The final stage involves quality control, where each signage piece is meticulously inspected to ensure it perfectly represents the brand's visual standards and meets structural integrity requirements.
+                        </li>
+                        </ul>
                     </p>
-                    <p class="brand-description">
-                    In today’s competitive market, your brand must stand out from others. Impactful signage and signboards are key to boosting visibility, attracting customers, and 
-                    strengthening brand recognition. Brand Signages is among the leading premier sign board manufacturers in Bangalore, offering custom-made LED sign boards for local brands and businesses. 
-                    </p>
-                    <p class="brand-description">
-                        Step forward with Brand Signages and engage your potential audience with
-                       <a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
-                       <a href="{{route('digital_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
-                       acrylic signage, <a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon lights</a>, and
-                       metal signage that leave a lasting impression and build enduring brand relationships.
-            
                 </div>
             </div>
         </div>
     </section>
-
-<x-stats-counter 
-  title="Our Achievements"
-  :items="[
-    ['icon' => 'fas fa-pencil-ruler', 'number' => '10+', 'label' => 'Years In Signage Design'],
-    ['icon' => 'fas fa-truck', 'number' => '12,000+', 'label' => 'Deliveries Done'],
-    ['icon' => 'fas fa-users', 'number' => '2,500+', 'label' => 'Clientbase']
-  ]"
-/>
-
-
    
     <section class="process-section">
         <div class="container">
@@ -102,8 +95,7 @@
                             <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
                         </div>
                         <h3>On-demand Design</h3>
-                        <p>Our creative team of sign board makers delivers custom-made signage solutions. 
-                            We transform your branding into compelling visual narratives with top-quality signages at minimal cost.</p>
+                        <p>Our creative sign board manufacturer team provides flexible, personalized brand signage manufacturing services, transforming your conceptual ideas into compelling visual narratives for market positioning.</p>
                     </div>
                 </div>
 
@@ -113,8 +105,7 @@
                             <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
                         </div>
                         <h3>Timely Delivery</h3>
-                        <p>We maintain stringent timelines and coordinate logistics to guarantee on-time signage delivery. 
-                            We also provide 24*7 online support for our valuable customers. </p>
+                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee project completion without compromising quality or design integrity.</p>
                     </div>
                 </div>
 
@@ -123,9 +114,8 @@
                         <div class="icon-purchase">
                             <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
                         </div>
-                        <h3>Cost Effective Services</h3>
-                        <p>We are recognized by our clients for the best quality product and value for money signage solutions. 
-                            We are proud to be the best signage makers in Bangalore. </p>
+                        <h3>Direct Purchase</h3>
+                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative brilliance.</p>
                     </div>
                 </div>
             </div>
