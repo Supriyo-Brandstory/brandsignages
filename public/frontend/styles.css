@@ -415,7 +415,7 @@ h1.hero-banner_title {
 }
 
 .home-page .pointing {
-    background: url('http://brandsignages.test/frontend/images/home/point.webp');
+    background: url('/frontend/images/home/point.webp');
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
@@ -588,7 +588,7 @@ h1.hero-banner_title {
 
 @media (max-width: 576px) {
     .home-page .pointing {
-        background: url(http://brandsignages.test/frontend/images/home/point.webp);
+        background: url(/frontend/images/home/point.webp);
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -657,7 +657,7 @@ h1.hero-banner_title {
 
 
 .we-deliver {
-    background: url('http://brandsignages.test/frontend/images/home/we-delivar-bg.webp');
+    background: url('/frontend/images/home/we-delivar-bg.webp');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -908,7 +908,7 @@ h1.hero-banner_title {
 
 /* new contus section  */
 .new-contacts-section {
-    background: url('http://brandsignages.test/frontend/Images/home/contact-us-bg.webp') no-repeat center center;
+    background: url('/frontend/Images/home/contact-us-bg.webp') no-repeat center center;
     background-size: cover;
     border-radius: 20px;
     padding: 40px 20px;
@@ -1210,7 +1210,7 @@ h1.hero-banner_title {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('http://brandsignages.test/frontend/Images/home/portfolio-bg.webp') no-repeat center/cover;
+    background: url('/frontend/Images/home/portfolio-bg.webp') no-repeat center/cover;
     border-radius: 12px;
 }
 
