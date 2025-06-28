@@ -319,18 +319,7 @@
         <x-coustom-inquiry-form />
         </div>
 
-        <section class="container">
-            <div class="new-contacts-section">
-                <div class="new-contacts-section-overlay">
-                    <p class="new-contacts-section-text">
-                        Your brand identity is the silent ambassador of your business. At Brand Signages, we don't just
-                        design sign boards, we craft designs that leave a lasting impression. As premier signage makers in
-                        Bangalore, we bring innovation, precision, and artistry to every design.
-                    </p>
-                    <button class="new-contacts-section-button">Contact Us</button>
-                </div>
-            </div>
-        </section>
+      
 
 
 
@@ -360,6 +349,18 @@
                             </div>
                         @endfor
                     </div>
+                </div>
+            </div>
+        </section>
+          <section class="container">
+            <div class="new-contacts-section">
+                <div class="new-contacts-section-overlay">
+                    <p class="new-contacts-section-text">
+                        Your brand identity is the silent ambassador of your business. At Brand Signages, we don't just
+                        design sign boards, we craft designs that leave a lasting impression. As premier signage makers in
+                        Bangalore, we bring innovation, precision, and artistry to every design.
+                    </p>
+                    <button class="new-contacts-section-button">Contact Us</button>
                 </div>
             </div>
         </section>
