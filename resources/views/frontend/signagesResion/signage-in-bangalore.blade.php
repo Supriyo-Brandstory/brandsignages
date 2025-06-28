@@ -164,55 +164,6 @@
 
             </div>
         </section>
-        <div class="inquery-from-section">
-        <x-coustom-inquiry-form />
-        </div>
-
-        <section class="we-deliver">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-12">
-                        <h2>The Difference We Deliver</h2>
-                    </div>
-                    <div class="col-md-8 col-12">
-                        <div class="row">
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
-                                        class="img-fluid">
-                                    <h3>On-demand Design</h3>
-                                    <p>Our creative team of sign board makers delivers custom-made signage solutions. We
-                                        transform your branding into compelling visual narratives with top-quality signages
-                                        at minimal cost.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Timely Delive"
-                                        class="img-fluid">
-                                    <h3>Timely Deliver</h3>
-                                    <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to
-                                        guarantee project completion without compromising quality or design integrity.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
-                                        class="img-fluid">
-                                    <h3>Direct Purchase</h3>
-                                    <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to
-                                        creative brilliance.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box align-items-center">
-                                    <a href="" class="button">Our Services</a>
-                                </div>
-                            </div>
-
-                        </div>
-        </section>
-
         <section class="bgrowth-slider-section">
             <div class="bgrowth-header">
                 <h2>Signage Services : Custom Sign Boards <br> to Ignite Your Business Growth</h2>
@@ -317,6 +268,56 @@
 
             </div>
         </section>
+        
+
+        <section class="we-deliver">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <h2>The Difference We Deliver</h2>
+                    </div>
+                    <div class="col-md-8 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <div class="deliver-box">
+                                    <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
+                                        class="img-fluid">
+                                    <h3>On-demand Design</h3>
+                                    <p>Our creative team of sign board makers delivers custom-made signage solutions. We
+                                        transform your branding into compelling visual narratives with top-quality signages
+                                        at minimal cost.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="deliver-box">
+                                    <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Timely Delive"
+                                        class="img-fluid">
+                                    <h3>Timely Deliver</h3>
+                                    <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to
+                                        guarantee project completion without compromising quality or design integrity.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="deliver-box">
+                                    <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
+                                        class="img-fluid">
+                                    <h3>Direct Purchase</h3>
+                                    <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to
+                                        creative brilliance.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="deliver-box align-items-center">
+                                    <a href="" class="button">Our Services</a>
+                                </div>
+                            </div>
+
+                        </div>
+        </section>
+
+       <div class="inquery-from-section">
+        <x-coustom-inquiry-form />
+        </div>
 
         <section class="container">
             <div class="new-contacts-section">
