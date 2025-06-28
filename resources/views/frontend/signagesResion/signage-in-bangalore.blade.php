@@ -164,6 +164,7 @@
 
             </div>
         </section>
+        <x-coustom-inquiry-form />
 
         <section class="we-deliver">
             <div class="container">
@@ -210,7 +211,6 @@
                         </div>
         </section>
 
-        <x-coustom-inquiry-form />
         <section class="bgrowth-slider-section">
             <div class="bgrowth-header">
                 <h2>Signage Services : Custom Sign Boards <br> to Ignite Your Business Growth</h2>
