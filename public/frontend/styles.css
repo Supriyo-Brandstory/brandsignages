@@ -597,7 +597,7 @@ h1.hero-banner_title {
 
 @media (max-width: 576px) {
     .home-page .pointing {
-        background: url(/frontend/Images/home/point.webp);
+        background: url('/frontend/Images/home/point.webp');
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -917,7 +917,7 @@ h1.hero-banner_title {
 
 /* new contus section  */
 .new-contacts-section {
-    background: url('/home/contact-us-bg.webp') no-repeat center center;
+    background: url('/frontend/Images/home/contact-us-bg.webp') no-repeat center center;
     background-size: cover;
     border-radius: 20px;
     padding: 40px 20px;
@@ -1219,7 +1219,7 @@ h1.hero-banner_title {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/home/portfolio-bg.webp') no-repeat center/cover;
+    background: url('/frontend/Images/home/portfolio-bg.webp') no-repeat center/cover;
     border-radius: 12px;
 }
 
