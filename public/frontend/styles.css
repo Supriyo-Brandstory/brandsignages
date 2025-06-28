@@ -921,7 +921,7 @@ h1.hero-banner_title {
     background-size: cover;
     border-radius: 20px;
     padding: 40px 20px;
-    margin: 0px auto 60px;
+    margin: 0px auto 0px;
     position: relative;
     color: #fff;
     text-align: center;
