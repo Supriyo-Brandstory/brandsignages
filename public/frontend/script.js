@@ -42,28 +42,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // FAQ SECTION
-    const faqQuestions = document.querySelectorAll('.faq-question');
+const faqQuestions = document.querySelectorAll('.faq-question');
 
-    faqQuestions.forEach(question => {
-        question.addEventListener('click', () => {
-            const allAnswers = document.querySelectorAll('.faq-answer');
-            const allQuestions = document.querySelectorAll('.faq-question');
-            allAnswers.forEach(answer => {
-                if (answer !== question.nextElementSibling) {
-                    answer.classList.remove('active');
-                }
-            });
-            allQuestions.forEach(q => {
-                if (q !== question) {
-                    q.classList.remove('active');
-                }
-            });
+faqQuestions.forEach(question => {
+    question.addEventListener('click', () => {
+        const allAnswers = document.querySelectorAll('.faq-answer');
+        const allQuestions = document.querySelectorAll('.faq-question');
+        const allItems = document.querySelectorAll('.faq-item');
 
-            const answer = question.nextElementSibling;
-            answer.classList.toggle('active');
-            question.classList.toggle('active');
+        const parentItem = question.closest('.faq-item');
+        const answer = question.nextElementSibling;
+
+        // Remove active class from others
+        allAnswers.forEach(ans => {
+            if (ans !== answer) ans.classList.remove('active');
         });
+
+        allQuestions.forEach(q => {
+            if (q !== question) q.classList.remove('active');
+        });
+
+        allItems.forEach(item => {
+            if (item !== parentItem) item.classList.remove('active');
+        });
+
+        // Toggle current item
+        answer.classList.toggle('active');
+        question.classList.toggle('active');
+        parentItem.classList.toggle('active');
     });
+});
+
 
     // CUSTOM DROPDOWN
     document.querySelectorAll('.custom-dropdown .nav-link').forEach(link => {
@@ -183,4 +192,116 @@ document.addEventListener('DOMContentLoaded', () => {
         carouselNew.addEventListener('slide.bs.carousel', updateButtonsNew);
         updateButtonsNew(); // Initialize button states
     }
+    $(document).ready(function() {
+            var modal=new bootstrap.Modal(document.getElementById('popupModal'));
+
+            $('#getStarted').click(function() {
+                    var isValid=true;
+
+                    // Validate all input fields
+                    $('#mainForm .form-control, #mainForm .form-select').each(function() {
+                            if ( !$(this).val()) {
+                                $(this).addClass('is-invalid');
+                                $(this).next('.invalid-feedback').show();
+                                isValid=false;
+                            }
+
+                            else {
+                                $(this).removeClass('is-invalid');
+                                $(this).next('.invalid-feedback').hide();
+                            }
+                        });
+
+                    // If validation fails, don't show the modal
+                    if ( !isValid) {
+                        return;
+                    }
+
+                    // Set values in the modal
+                    $('#modalTitle').val($('#title').val());
+                    $('#modalHeight').val($('#height').val());
+                    $('#modalWidth').val($('#width').val());
+
+                    // Show the modal
+                    modal.show();
+                });
+
+            // Remove error highlight when input is changed
+            $('#mainForm .form-control, #mainForm .form-select').on('input change', function() {
+                    if ($(this).val()) {
+                        $(this).removeClass('is-invalid');
+                        $(this).next('.invalid-feedback').hide();
+                    }
+                });
+
+            // Show/Hide upload field based on type selection
+            $('input[name="type"]').change(function() {
+                    if ($(this).val()==='upload') {
+                        $('#imageField').show();
+                    }
+
+                    else {
+                        $('#imageField').hide();
+                    }
+                });
+
+            $('#popupForm').submit(function(e) {
+                    e.preventDefault();
+                    var formData=new FormData(this);
+
+                    $.ajax({
+
+                        url: "{{ route('custom-inquiry.store') }}",
+                        type: "POST",
+                        data: formData,
+                        processData: false,
+                        contentType: false,
+                        success: function(response) {
+                            if (response.message) {
+                                modal.hide();
+                                $('#successMessage').fadeIn().delay(3000).fadeOut();
+                                $('#mainForm')[0].reset();
+                                $('#popupForm')[0].reset();
+                                $('.form-control, .form-select').removeClass('is-invalid'); // Reset validation styles
+                            }
+                        }
+
+                        ,
+                        error: function(xhr) {
+                            alert('Something went wrong! Please try again.');
+                        }
+                    });
+            });
+    });
+     const swiper = new Swiper('.bgrowth-swiper', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                    }
+                }
+            });
+
+            // Fixing testimonial swiper
+            const swiper2 = new Swiper('.new_testimonial-swiper', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                navigation: {
+                    nextEl: '.new_testimonial-button-next',
+                    prevEl: '.new_testimonial-button-prev',
+                },
+            });
 });
+
+

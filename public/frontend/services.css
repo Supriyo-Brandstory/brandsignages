@@ -24,11 +24,11 @@
 }
 
 .navbar-nav .nav-item .nav-link {
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #E43D12; 
+    color: #E43D12;
 }
 
 .contact-btn {
@@ -188,14 +188,14 @@
     }
 
     .faq-section {
-        padding: 5px 20px !important;
+        padding: 5px 10px !important;
     }
 
     .copyright {
         padding-top: 20px;
     }
 
-    .company-logo{
+    .company-logo {
         width: 125px !important;
     }
 }
@@ -759,14 +759,15 @@ section.footer {
 }
 
 .faq-item:not(:last-child) {
-    border-bottom: 1px solid rgb(0 0 0 / 10%);
+    /* border-bottom: 1px solid rgb(0 0 0 / 10%); */
+    border: none;
 }
 
 .faq-question {
     width: 100%;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     background: none;
-    border: none;
+    /* border: none; */
     color: #212121;
     cursor: pointer;
     transition: color 0.3s ease;
@@ -780,9 +781,24 @@ section.footer {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    border: 0.65px solid #00000080;
+    padding: 24px 20px;
+    border-radius: 12px;
+    margin-bottom: 12px;
 
 }
 
+button.faq-question.active {
+    border: none;
+    padding: 0 20px;
+}
+
+.faq-item.active {
+    border: 1.5px solid #E43D12;
+    padding: 24px 0px;
+    border-radius: 12px;
+    margin: 0 0 12px;
+}
 
 .faq-icon {
     transition: transform 0.3s ease;
@@ -794,7 +810,7 @@ section.footer {
 
 .faq-answer {
     display: none;
-    padding: 0 0 20px;
+    padding: 24px 20px;
     color: #474747;
 
     font-family: 'Roboto';
@@ -839,7 +855,7 @@ section.footer {
 
     .faq-question {
         font-size: 1rem;
-        padding: 15px 0;
+        padding: 15px 20px;
     }
 
     .faq-answer {
@@ -923,13 +939,15 @@ section.footer {
 }
 
 @media (max-width: 576px) {
-.carousel-section .carousel-item img {
-    margin-top: 10px;
+    .carousel-section .carousel-item img {
+        margin-top: 10px;
+    }
+
+    .carousel-caption-custom {
+        padding: 15px !important;
+    }
 }
-.carousel-caption-custom {
-    padding: 15px !important;
-}
-}     
+
 .error-section {
     height: 700px;
     background: rgba(0, 0, 0, 1);
@@ -940,18 +958,20 @@ section.footer {
     align-items: center;
     justify-content: center;
 }
+
 .error-container {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     padding: 2rem;
     text-align: center;
 }
+
 .neon-404 {
     font-size: 8rem;
     font-weight: bold;
     line-height: 1;
     color: #fff;
-    text-shadow: 
+    text-shadow:
         0 0 7px #fff,
         0 0 10px #fff,
         0 0 21px #fff,
@@ -962,10 +982,11 @@ section.footer {
         0 0 151px #0ff;
     animation: flicker 1.5s infinite alternate;
 }
+
 .neon-text {
     font-size: 2rem;
     color: #ff1f8f;
-    text-shadow: 
+    text-shadow:
         0 0 7px #fff,
         0 0 10px #fff,
         0 0 21px #fff,
@@ -976,6 +997,7 @@ section.footer {
         0 0 151px #ff1f8f;
     animation: flicker 2s infinite alternate;
 }
+
 .neon-button {
     display: inline-block;
     margin-top: 2rem;
@@ -990,14 +1012,16 @@ section.footer {
     position: relative;
     overflow: hidden;
 }
+
 .neon-button:hover {
     background-color: #0ff;
     color: #000;
     box-shadow: 0 0 5px #0ff,
-                0 0 25px #0ff,
-                0 0 50px #0ff,
-                0 0 100px #0ff;
+        0 0 25px #0ff,
+        0 0 50px #0ff,
+        0 0 100px #0ff;
 }
+
 .neon-button::before {
     content: "";
     position: absolute;
@@ -1005,20 +1029,27 @@ section.footer {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(
-        120deg,
-        transparent,
-        rgba(3, 255, 255, 0.4),
-        transparent
-    );
+    background: linear-gradient(120deg,
+            transparent,
+            rgba(3, 255, 255, 0.4),
+            transparent);
     transition: all 0.5s;
 }
+
 .neon-button:hover::before {
     left: 100%;
 }
+
 @keyframes flicker {
-    0%, 18%, 22%, 25%, 53%, 57%, 100% {
-        text-shadow: 
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow:
             0 0 7px #fff,
             0 0 10px #fff,
             0 0 21px #fff,
@@ -1028,29 +1059,38 @@ section.footer {
             0 0 102px #0ff,
             0 0 151px #0ff;
     }
-    20%, 24%, 55% {       
+
+    20%,
+    24%,
+    55% {
         text-shadow: none;
     }
 }
+
 @media (max-width: 768px) {
     .neon-404 {
         font-size: 6rem;
     }
+
     .neon-text {
         font-size: 1.5rem;
     }
+
     .neon-button {
         font-size: 1rem;
         padding: 0.5rem 1rem;
     }
 }
+
 @media (max-width: 480px) {
     .neon-404 {
         font-size: 4rem;
     }
+
     .neon-text {
         font-size: 1.2rem;
     }
+
     .neon-button {
         font-size: 0.9rem;
         padding: 0.4rem 0.8rem;
@@ -1100,6 +1140,7 @@ section.footer {
     margin: 10px 0;
     color: #212121;
 }
+
 @media (max-width: 767px) {
     .blog-card-title {
         font-size: 16px;
@@ -1118,7 +1159,8 @@ section.footer {
 .carousel-caption-custom h2 {
     font-family: 'Lora', serif;
 }
-a.custom-btn{
+
+a.custom-btn {
     background-color: #E43D12;
     color: white;
     font-size: 1rem;
@@ -1130,6 +1172,7 @@ a.custom-btn{
     transition: all 0.3s ease;
     text-decoration: none;
 }
+
 .number {
     font-size: 2.5rem;
     font-weight: bold;
@@ -1170,6 +1213,7 @@ a.custom-btn{
 .form-control {
     margin-bottom: 25px;
 }
+
 .btn-custom {
     background-color: #e63946;
     color: white;
@@ -1178,21 +1222,26 @@ a.custom-btn{
     width: 100%;
     border-radius: 5px;
 }
+
 .form-contact {
-border: solid 1px #3a232336;
-background: white;
-padding: 50px 40px;
-border-radius: 10px;
-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    border: solid 1px #3a232336;
+    background: white;
+    padding: 50px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 
 }
-input.form-control ,textarea.form-control{
-background: #f8f9fa;
+
+input.form-control,
+textarea.form-control {
+    background: #f8f9fa;
 }
-.form-control:focus,.form-select:focus{
-color: var(--bs-body-color);
-background-color: var(--bs-body-bg);
-border-color: #e43d12;
-outline: 0;
-box-shadow: none;
+
+.form-control:focus,
+.form-select:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #e43d12;
+    outline: 0;
+    box-shadow: none;
 }

@@ -1,47 +1,57 @@
 
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<div class="container mt-4 mb-5  ">
-    <h2 class="process-title mb-0">Order Custom Signages</h2>
-    <p class="card-text text-center mb-4 mt-3">At Brand Signages we provide high-quality custom sign board design services 
-        customized to your specific needs. <br>You can upload your preferred design or talk to our experts for an eye-catching 
-        and professional touch.</p>
-    <form id="mainForm">
-        <div id="successMessage" class="alert alert-success mt-3 text-center" style="display: none;">
-           Your requirement submitted successfully! We will contact you soon!
+<div class="container mt-4 mb-5  order-custom-signage-form">
+    <div class="row ">
+        <div class="col-md-6 col-12 ">
+            <img src="{{ asset('frontend/Images/home/inquery.webp') }}" class="img-fluid custom-enquery-img" alt="Custom Signages"
+                >
         </div>
-        @csrf
-        <div class="row g-3">
-            <div class="col-md-3">
-                <select id="title" name="title" class="form-select" required>
-                    <option value="">Choose Your Option</option>
-                    <option value="Acrylic Signage">Acrylic Signage</option>
-                    <option value="Digital Signage">Digital Signage</option>
-                    <option value="Neon Signage">Neon Signage</option>
-                    <option value="LED Signage">LED Signage</option>
-                    <option value="Steel Signage">Steel Signage</option>
+        <div class="col-md-6 col-12 ">
+            <h2>Order Custom Signages</h2>
+            <p class="text-muted">At Brand Signages we provide high-quality custom sign board design services customized
+                to your specific needs.You can upload your preferred design or talk to our experts for an eye-catching
+                and professional touch.</p>
+            <form id="mainForm">
+                <div id="successMessage" class="alert alert-success mt-3 text-center" style="display: none;">
+                    Your requirement submitted successfully! We will contact you soon!
+                </div>
+                @csrf
+                <div class="row g-3">
+                    <div class="col-md-12">
+                        <select id="title" name="title" class="form-select fromfiled" required>
+                            <option value="">Choose Your Option</option>
+                            <option value="Acrylic Signage">Acrylic Signage</option>
+                            <option value="Digital Signage">Digital Signage</option>
+                            <option value="Neon Signage">Neon Signage</option>
+                            <option value="LED Signage">LED Signage</option>
+                            <option value="Steel Signage">Steel Signage</option>
 
 
-                </select>
-                {{-- <div class="invalid-feedback">Title is required.</div> --}}
-            </div>
+                        </select>
+                        {{-- <div class="invalid-feedback">Title is required.</div> --}}
+                    </div>
 
-            <div class="col-md-3">
-                <input type="number" id="height" name="height" class="form-control mb-0" placeholder="Height (cm)" required>
-                {{-- <div class="invalid-feedback">Height is required.</div> --}}
-            </div>
+                    <div class="col-md-12">
+                        <input type="number" id="height" name="height" class="form-control mb-0 fromfiled"
+                            placeholder="Height (cm)" required>
+                        {{-- <div class="invalid-feedback">Height is required.</div> --}}
+                    </div>
 
-            <div class="col-md-3">
-                <input type="number" id="width" name="width" class="form-control mb-0" placeholder="Width (cm)" required>
-                {{-- <div class="invalid-feedback">Width is required.</div> --}}
-            </div>
+                    <div class="col-md-12">
+                        <input type="number" id="width" name="width" class="form-control mb-0 fromfiled" placeholder="Width (cm)"
+                            required>
+                        {{-- <div class="invalid-feedback">Width is required.</div> --}}
+                    </div>
 
-            <div class="col-md-3 d-flex align-items-start">
-                <button type="button" id="getStarted" class="custom-btn w-100 mt-0">Get Started</button>
-            </div>
+                    <div class="col-md-12 d-flex mobile align-items-start ">
+                        <div class="">
+                            <button type="button" id="getStarted" class="custom-btn w-100 mt-0">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
-    </form>
+    </div>
+
 </div>
 
 <!-- Success Message Alert -->
@@ -65,11 +75,13 @@
                     <label class="form-label">Choose Type</label>
                     <div class="d-flex gap-3">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" id="typeUpload" name="type" value="upload" required>
+                            <input class="form-check-input" type="radio" id="typeUpload" name="type" value="upload"
+                                required>
                             <label class="form-check-label" for="typeUpload">Upload Design</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" id="typeExpertise" name="type" value="expertise" required>
+                            <input class="form-check-input" type="radio" id="typeExpertise" name="type"
+                                value="expertise" required>
                             <label class="form-check-label" for="typeExpertise">Get Expert Help</label>
                         </div>
                     </div>
@@ -101,79 +113,3 @@
     </div>
 </div>
 
-<script>
-    $(document).ready(function() {
-        var modal = new bootstrap.Modal(document.getElementById('popupModal'));
-
-        $('#getStarted').click(function() {
-            var isValid = true;
-
-            // Validate all input fields
-            $('#mainForm .form-control, #mainForm .form-select').each(function() {
-                if (!$(this).val()) {
-                    $(this).addClass('is-invalid');
-                    $(this).next('.invalid-feedback').show();
-                    isValid = false;
-                } else {
-                    $(this).removeClass('is-invalid');
-                    $(this).next('.invalid-feedback').hide();
-                }
-            });
-
-            // If validation fails, don't show the modal
-            if (!isValid) {
-                return;
-            }
-
-            // Set values in the modal
-            $('#modalTitle').val($('#title').val());
-            $('#modalHeight').val($('#height').val());
-            $('#modalWidth').val($('#width').val());
-
-            // Show the modal
-            modal.show();
-        });
-
-        // Remove error highlight when input is changed
-        $('#mainForm .form-control, #mainForm .form-select').on('input change', function() {
-            if ($(this).val()) {
-                $(this).removeClass('is-invalid');
-                $(this).next('.invalid-feedback').hide();
-            }
-        });
-
-        // Show/Hide upload field based on type selection
-        $('input[name="type"]').change(function() {
-            if ($(this).val() === 'upload') {
-                $('#imageField').show();
-            } else {
-                $('#imageField').hide();
-            }
-        });
-
-        $('#popupForm').submit(function(e) {
-            e.preventDefault();
-            var formData = new FormData(this);
-
-            $.ajax({
-                url: "{{ route('custom-inquiry.store') }}",
-                type: "POST",
-                data: formData,
-                processData: false,
-                contentType: false,
-                success: function(response) {
-                    if (response.message) {
-                        modal.hide();
-                        $('#successMessage').fadeIn().delay(3000).fadeOut();
-                        $('#mainForm')[0].reset();
-                        $('#popupForm')[0].reset();
-                        $('.form-control, .form-select').removeClass('is-invalid'); // Reset validation styles
-                    }
-                },
-                error: function(xhr) {
-                    alert('Something went wrong! Please try again.');
-                }
-            });
-        });
-    });
-</script>

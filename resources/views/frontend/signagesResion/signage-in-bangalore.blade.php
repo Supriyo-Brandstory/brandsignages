@@ -1,895 +1,941 @@
 @extends('frontend.layout.appLayout')
+
 @section('content')
 
+    <section class="home-page">
 
+        <section class="hero-banner"
+            style="background-image: url('{{ asset('/frontend/Images/home/brandsignages-banner.webp') }}');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="hero-banner_title">Best Sign Board Makers Near <br>Me Bangalore: Brand Signages</h1>
+                        <p>Draw attention and leave a mark with vibrant, interactive sign boards <br>that speak
+                            loud and clear.</p>
+                        <a href="https://brandsignages.com/contact-us">
+                            <button class="contact-btn">Know More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section class="carousel-section">
-    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            
-        </div>
+        <!-- About Section -->
+        <section>
+            <div class="container pt-5">
+                <h2 class="hero-title">Welcome to Brand Signages <br>Best Signage Makers in Bangalore</h2>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/signage-1.webp')}}" alt="Prohibition Signs for Workplace Safety">
-                <div class="carousel-caption-custom">
-                    <h1>Expert Signage Makers in Bangalore</h1>
-                     <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="showcase-image">
+                            <img src="{{asset('frontend/Images/home/about-us.webp')}}" alt="Cafe Rosco Signage"
+                                class="img-fluid">
                         </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h2 class="brand-title">Sign Board Makers Near Me | LED Sign Board</h2>
+                        <p class="brand-description">
+                            Brand Signages stands out as one of the top signage manufacturers in Bangalore. We help
+                            businesses stand apart with the best signage advertising solutions. With over 10 years of
+                            experience in signage design, manufacturing, and installation, our clientele includes small
+                            businesses, industry leaders, and top-tier brands.
+                        </p>
+                        <p class="brand-description">
+                            In today’s competitive market, your brand must stand out from others. Impactful signage and
+                            signboards are key to boosting visibility, attracting customers, and strengthening brand
+                            recognition. Brand Signages is among the leading premier sign board manufacturers in Bangalore,
+                            offering custom-made LED sign boards for local brands and businesses.
+                        </p>
+                        <p class="brand-description">
+                            Step forward with Brand Signages and engage your potential audience with
+                            <a href="{{route('led_sign_board_in_bangalore')}}"
+                                style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
+                            <a href="{{route('digital_signages')}}"
+                                style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
+                            acrylic signage, <a href="{{route('neon_sign_board_bangalore')}}"
+                                style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon lights</a>, and
+                            metal signage that leave a lasting impression and build enduring brand relationships.
+                        </p>
+                        {{-- <div class="mt-4">
+                            <a href="{{route('about_us')}}" class="custom-btn">Know About Us</a>
+                        </div> --}}
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="carousel-item">
-                <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
-                <div class="carousel-caption-custom">
-                    <h2>High-Quality Sign Boards in Bangalore for Better Brand Visibility</h2>
-                     <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+        <section class="container my-5 achievements-section">
+            <h2 class="text-center">Our Achievements</h2>
+            <div class="row g-3">
+
+                <!-- Large Image Left -->
+                <div class="col-lg-6 col-md-6">
+                    <div class="achievement-box height-582">
+                        <img src="{{ asset('frontend/Images/home/single-brandex.webp') }}" class="img-fluid" alt="Signage">
+                    </div>
+                </div>
+
+                <!-- Top Right: 10+ Years -->
+                <div class="col-lg-6 col-md-6">
+                    <div class="row">
+                        <div class="col-12 mb-3">
+                            <div
+                                class="achievement-box years height-270 text-center p-4 d-flex flex-column justify-content-center">
+                                <h3>10+</h3>
+                                <p class="mb-0">Years In Signage Design</p>
+                            </div>
                         </div>
+                        <!-- Top Right: 12,000+ Deliveries -->
+                        <div class="col-lg-6 col-md-6">
+                            <div
+                                class="achievement-box  Deliveries text-center p-4 d-flex flex-column justify-content-center">
+                                <h3 class="fs-2 fw-bold">12,000+</h3>
+                                <p class="mb-0">Deliveries Done</p>
+                            </div>
+                        </div>
+
+                        <!-- Top Right: Neon Quote -->
+                        <div class="col-lg-6 col-md-6 pb-0">
+                            <div class="achievement-box h-100">
+                                <img src="{{ asset('frontend/Images/home/fortune-blue.webp') }}"
+                                    class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Quote">
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+
+                <!-- Bottom Left: Fashion Week -->
+                <div class="col-lg-8 col-md-12">
+                    <div class="achievement-box h-100">
+                        <img src="{{ asset('frontend/Images/home/fashion-week.webp') }}"
+                            class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Fashion">
+                    </div>
+                </div>
+
+                <!-- Bottom Right: Client Base -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="achievement-box client-base text-dark p-4  d-flex flex-column justify-content-center">
+                        <h3 class="fs-2 fw-bold">2,500+</h3>
+                        <p class="mb-0">Client Base</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="pointing">
+            <div class="container point">
+                <div class="ledx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
+                        alt="Hover Image">
+                </div>
+                <div class="outdoorx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
+                        alt="Hover Image">
+                </div>
+                <div class="digitalx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
+                        alt="Hover Image">
+                </div>
+                <div class="metalx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
+                        alt="Hover Image">
+                </div>
+                <div class="acrylicx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
+                        alt="Hover Image">
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+        <section class="we-deliver">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <h2>The Difference We Deliver</h2>
+                    </div>
+                    <div class="col-md-8 col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <div class="deliver-box">
+                                    <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
+                                        class="img-fluid">
+                                    <h3>On-demand Design</h3>
+                                    <p>Our creative team of sign board makers delivers custom-made signage solutions. We
+                                        transform your branding into compelling visual narratives with top-quality signages
+                                        at minimal cost.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="deliver-box">
+                                    <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Timely Delive"
+                                        class="img-fluid">
+                                    <h3>Timely Deliver</h3>
+                                    <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to
+                                        guarantee project completion without compromising quality or design integrity.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="deliver-box">
+                                    <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
+                                        class="img-fluid">
+                                    <h3>Direct Purchase</h3>
+                                    <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to
+                                        creative brilliance.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="deliver-box align-items-center">
+                                    <a href="" class="button">Our Services</a>
+                                </div>
+                            </div>
+
+                        </div>
+        </section>
+
+        <x-coustom-inquiry-form />
+        <section class="bgrowth-slider-section">
+            <div class="bgrowth-header">
+                <h2>Signage Services : Custom Sign Boards <br> to Ignite Your Business Growth</h2>
+                <p>
+                    At Brand Signages, our creative signage designs and attention to detail ensure your brand message stands
+                    out. We specialize in:
+                </p>
             </div>
 
-            
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Leading Signage Manufacturer - Brand Signages Bangalore</h2>
-       
+            <div class="swiper bgrowth-swiper container">
+                <div class="swiper-pagination"></div> <!-- should be inside swiper, before swiper-wrapper -->
+                <div class="swiper-wrapper">
 
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-2.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide bgrowth-card">
+                        <img src="{{ asset('frontend/Images/home/dutyfree.webp') }}" alt="Retail Signage"
+                            class="bgrowth-img" />
+                        <div class="bgrowth-content">
+                            <h3>Retail Signages & Retail Branding</h3>
+                            <p>
+                                Our retail signage is the epitome of beauty and elegance. When placed in entryways or
+                                archways, it attracts people's attention.
+                                These creations are bold, energy-efficient, and easy to use and maintain for long-lasting
+                                performance.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide bgrowth-card">
+                        <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
+                            class="bgrowth-img" />
+                        <div class="bgrowth-content">
+                            <h3>Metal & Steel Signages</h3>
+                            <p>
+                                As leading signage board makers, we craft stainless steel signs that deliver clean,
+                                professional messaging. Our expertise ensures
+                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
+                                across various applications.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bgrowth-card">
+                        <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
+                            class="bgrowth-img" />
+                        <div class="bgrowth-content">
+                            <h3>Metal & Steel Signages</h3>
+                            <p>
+                                As leading signage board makers, we craft stainless steel signs that deliver clean,
+                                professional messaging. Our expertise ensures
+                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
+                                across various applications.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide bgrowth-card">
+                        <img src="{{ asset('frontend/Images/home/dutyfree.webp') }}" alt="Retail Signage"
+                            class="bgrowth-img" />
+                        <div class="bgrowth-content">
+                            <h3>Retail Signages & Retail Branding</h3>
+                            <p>
+                                Our retail signage is the epitome of beauty and elegance. When placed in entryways or
+                                archways, it attracts people's attention.
+                                These creations are bold, energy-efficient, and easy to use and maintain for long-lasting
+                                performance.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide bgrowth-card">
+                        <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
+                            class="bgrowth-img" />
+                        <div class="bgrowth-content">
+                            <h3>Metal & Steel Signages</h3>
+                            <p>
+                                As leading signage board makers, we craft stainless steel signs that deliver clean,
+                                professional messaging. Our expertise ensures
+                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
+                                across various applications.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bgrowth-card">
+                        <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
+                            class="bgrowth-img" />
+                        <div class="bgrowth-content">
+                            <h3>Metal & Steel Signages</h3>
+                            <p>
+                                As leading signage board makers, we craft stainless steel signs that deliver clean,
+                                professional messaging. Our expertise ensures
+                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
+                                across various applications.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <!-- Add more slides if needed -->
                 </div>
-            </div>
 
-            <div class="col-lg-6">
-                <p class="brand-description">
-                    Brand Signages is one of the best signage manufacturers in Bangalore, providing high-class solutions for organizations of all sizes. As reliable signage makers, we are experts in making signage boards, acrylic sign boards, led signboards, and digital signage that uplift your brand visibility. Whether you require an outdoor sign, indoor signage, or a pylon sign, we render extraordinary outcomes customized to your needs.<br>Our signage company gives back-to-back signage solutions, from outline to installation. We design stainless steel, acrylic signs, lit signs, and glow sign boards that make a perpetual impact. For corporate offices, retail stores, and public spaces, our led signage and letter signage guarantee ultimate observability and fashion.  
-                    
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="new-contacts-section">
+                <div class="new-contacts-section-overlay">
+                    <p class="new-contacts-section-text">
+                        Your brand identity is the silent ambassador of your business. At Brand Signages, we don't just
+                        design sign boards, we craft designs that leave a lasting impression. As premier signage makers in
+                        Bangalore, we bring innovation, precision, and artistry to every design.
                     </p>
-                <p class="brand-description">
-                   With skillfulness in producing general display boards and led displays, we assist enterprises to be distinct with creative patterns and resistant substances. As one of the prominent sign board manufacturers in the area, we merge innovation and progressive technology to render signage that depicts your brand’s recognition.  <br>
-Opt for Brand Signages for superior signages in Bangalore that are useful as well as gracefully attractive. Contact us soon for custom-fit signage solutions that fulfill your branding requirements.  
+                    <button class="new-contacts-section-button">Contact Us</button>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="instant-pricing">
+            <div class="container">
+                <h2>Signage Makers in Bangalore - 24-Hour Production & Instant Pricing!</h2>
+                <p>Best Signage Manufacturers in Bangalore, what can we do for you?</p>
+                <div class="scroll-loop-wrapper">
+                    <div class="scroll-loop-track">
+                        @for ($i = 0; $i < 3; $i++)
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/panting.webp') }}" alt="Painting">
+                                <p>Painting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/MetalEtching.webp') }}" alt="Metal Etching">
+                                <p>Metal Etching</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/MetalLaserCutting.webp') }}" alt="Metal Laser Cutting">
+                                <p>Metal Laser Cutting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/AcrylicLaser.webp') }}" alt="Acrylic Laser">
+                                <p>Acrylic Laser</p>
+                            </div>
+                        @endfor
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-signage">
+            <div class="why-choose-container container">
+                <h2 class="why-title">Why Choose Us for <br>Your Signage Needs?</h2>
+                <p class="why-subtitle">
+                    With a team of expert designers and skilled craftsmen, we deliver high-quality signage solutions.
+                    Our expertise ensures your brand captures customer attention effectively.
                 </p>
-            </div>
-        </div>
-    </div>
-</section>
-<x-coustom-inquiry-form />
-<section class="why-bg-light-pink py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Industries We Serve with Custom Signages</h2>
-            <p class="card-text text-center">At Brand Signages, we take pride in being among the best signage makers in Bangalore. Our traditional signage solutions serve a huge number of industries, rendering standardized sign boards and patterns that improve brand observability. Collaborate with Brand Signages to enhance your brand visibility with creative and resistant signages solutions.</p>
-        </div>
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-3.webp')}}" class="why-card-img-top"
-                        alt="Apartment Signage Solutions">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Apartment Signage Solutions</h3>
-                        <p class="card-text">We shape LED sign boards, acrylic sign boards, and pylon signs to assist citizens and guests in seamlessly finding buildings. Our glow signs and lit signs give sophistication and operationality to apartment buildings.</p>
+                <div class="why-grid">
+                    <div class="why-box">
+                        <img src="{{asset('frontend/Images/home/On-site-consulting.png')}}" alt="On-site consulting"
+                            class="why-icon">
+                        <h3>On-site consulting & planning</h3>
+                        <p>
+                            Our team will work closely with you and listen to your POV and brand message.
+                            We will provide exactly what you need, no guesswork, no hassle, just personalized and strategic
+                            planning for your business.
+                        </p>
+                    </div>
+
+                    <div class="why-box">
+                        <img src="{{asset('frontend/Images/home/Creative-Designs.png')}}" alt="Creative Designs"
+                            class="why-icon">
+                        <h3>Top-tier Creative Designs</h3>
+                        <p>
+                            As creators of brand signage, we think that signs should not be visually boring.
+                            We will create visuals that will become the talk of the town. Our team members will marry
+                            creativity and smart thinking to make your brand pop.
+                        </p>
+                    </div>
+
+                    <div class="why-box">
+                        <img src="{{asset('frontend/Images/home/Skilled-workforce.png')}}" alt="Skilled workforce"
+                            class="why-icon">
+                        <h3>Skilled workforce for installation</h3>
+                        <p>
+                            We treat signboards as art pieces, which means our work is not done with just the installations.
+                            Moreover, we take special care while doing so, checking the placement is perfect from every
+                            angle.
+                        </p>
+                    </div>
+
+                    <div class="why-box">
+                        <img src="{{asset('frontend/Images/home/Timely-Delivery.png')}}" alt="Timely Delivery"
+                            class="why-icon">
+                        <h3>Timely Delivery of signage boards</h3>
+                        <p>
+                            Delays and excuses are the bane of our existence. We know that a lot is riding on our signage
+                            solutions,
+                            and that’s why we deliver branding signage solutions within the deadline set ahead by the
+                            clients.
+                        </p>
+                    </div>
+
+                    <div class="why-box">
+                        <img src="{{asset('frontend/Images/home/Quality-Material.png')}}" alt="Quality Material"
+                            class="why-icon">
+                        <h3>Quality material</h3>
+                        <p>
+                            We prioritize the material quality to ensure they can withstand harsh weather and normal wear
+                            and tear.
+                            Our flexes and outdoor signs will tell the story for years and keep the brand’s visual identity
+                            sharp.
+                        </p>
+                    </div>
+
+                    <div class="why-box cta-box">
+                        <a href="#" class="cta-btn">Our Portfolio</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-4.webp')}}" class="why-card-img-top"
-                        alt="Banking Sector Signage Services">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Banking Sector Signage Services</h3>
-                        <p class="card-text">Banks rely on us for long-lasting stainless steel signage, LED displays, and competent signage boards that match their commercial branding.</p>
-                    </div>
+        </section>
+
+        <section class="new_client_section container">
+            <h2 class="new_client_section-title">Our Clients</h2>
+            <div class="row">
+                <div class="col-md-5 new_client_section-image col-12">
+                    <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
                 </div>
-            </div>
-            <div class="col">
-                    <div class="why-card card">
-                        <img src="{{asset('frontend/Images/new/signage-5.webp')}}" class="why-card-img-top"
-                            alt="Corporate Signage for Businesses">
-                        <div class="card-body why-card-body px-0">
-                            <h3 class="why-text-red mb-3">Corporate Signage for Businesses</h3>
-                            <p class="card-text">We generate spectacular letter signage, digital signage, and formal signage boards for corporate offices, guaranteeing a competent and embracing look.</p>
+                <div class="col-md-7 new_client_section-scrolling col-12">
+
+                    <div class="new_client_section-wrapper">
+                        <!-- Row 1 (Left to Right) -->
+                        <div class="new_client_section-row new_client_section-row-1">
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Client Logo">
+                            </div>
+
+                            <!-- Duplicates for seamless loop -->
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Client Logo">
+                            </div>
+
                         </div>
-                    </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-5.webp')}}" class="why-card-img-top"
-                        alt="Corporate Signage for Businesses">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Corporate Signage for Businesses</h3>
-                        <p class="card-text">We generate spectacular letter signage, digital signage, and formal signage boards for corporate offices, guaranteeing a competent and embracing look.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-6.webp')}}" class="why-card-img-top"
-                        alt="Restaurant and Hotel Signage Designs">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Restaurant and Hotel Signage Designs</h3>
-                        <p class="card-text">From outdoor signs to fashionable indoor signage, we shape led signage and glow sign boards that appeal to clients and improve the atmosphere.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-7.webp')}}" class="why-card-img-top"
-                        alt="Medical and Hospital Signages">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Medical and Hospital Signages</h3>
-                        <p class="card-text">Our expertized sign board manufacturers create transparent and operational signage designs, comprising acrylic signs and display boards, perfect for hospitals and clinics.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-3.webp')}}" class="why-card-img-top"
-                                    alt="Apartment Signage Solutions">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Apartment Signage Solutions</h3>
-                                    <p class="card-text">We shape LED sign boards, acrylic sign boards, and pylon signs to assist citizens and guests in seamlessly finding buildings. Our glow signs and lit signs give sophistication and operationality to apartment buildings.</p>
-                                </div>
+                        <!-- Row 2 (Right to Left) -->
+                        <div class="new_client_section-row new_client_section-row-2">
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Client Logo">
+                            </div>
+
+                            <!-- Duplicates for seamless loop -->
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Client Logo">
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-4.webp')}}" class="why-card-img-top"
-                                    alt="Banking Sector Signage Services">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Banking Sector Signage Services</h3>
-                                    <p class="card-text">Banks rely on us for long-lasting stainless steel signage, LED displays, and competent signage boards that match their commercial branding.</p>
-                                </div>
+
+                        <!-- Row 3 (Left to Right) -->
+                        <div class="new_client_section-row new_client_section-row-3">
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Client Logo">
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-5.webp')}}" class="why-card-img-top"
-                                    alt="Corporate Signage for Businesses">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Corporate Signage for Businesses</h3>
-                                    <p class="card-text">We generate spectacular letter signage, digital signage, and formal signage boards for corporate offices, guaranteeing a competent and embracing look.</p>
-                                </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Client Logo">
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-5.webp')}}" class="why-card-img-top"
-                                    alt="Corporate Signage for Businesses">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Corporate Signage for Businesses</h3>
-                                    <p class="card-text">We generate spectacular <a href="https://brandsignages.com/office-desk-signs-in-bangalore" target="_blank">office design signage</a>, digital signage, and nameplate signage boards for corporate offices, guaranteeing a competent and embracing look.</p>
-                                </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Client Logo">
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-6.webp')}}" class="why-card-img-top"
-                                    alt="Restaurant and Hotel Signage Designs">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Restaurant and Hotel Signage Designs</h3>
-                                    <p class="card-text">From outdoor signs to fashionable indoor signage, we shape premium restaurant signage boards that appeal to clients and improve the atmosphere.</p>
-                                </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Client Logo">
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-7.webp')}}" class="why-card-img-top"
-                                    alt="Medical and Hospital Signages">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Medical and Hospital Signages</h3>
-                                    <p class="card-text">Our expert sign board manufacturers create transparent and professional signage designs, comprising acrylic signs and display boards, perfect for hospitals and clinics.</p>
-                                </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="Client Logo">
+                            </div>
+                            <!-- Duplicates for seamless loop -->
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Client Logo">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="Client Logo">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- testimonial Feedback Section -->
+        <section class="new_testimonial-swiper-section">
+            <div class="container">
+                <h2 class="text-center mb-md-5 mb-3">Feedback from Our Valuable Clients</h2>
 
-            <div class="why-carousel-controls">
-                <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
-                    data-bs-slide="prev">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
-                    data-bs-slide="next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
+                <div class="position-relative">
 
-            <div class="carousel-indicators why-carousel-indicators">
-                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
-                    aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            </div>
-        </div>
-    </div>
-</section>
+                    <!-- Navigation Arrows (placed OUTSIDE swiper container) -->
+                    <div class="new_testimonial-button-prev">
+                        <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40"
+                            height="40">
+                    </div>
+                    <div class="new_testimonial-button-next">
+                        <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40"
+                            height="40">
+                    </div>
 
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">We Craft Excellence: Buy Custom <br>Signages in Bangalore </h2>
-        <p class="card-text text-center">Signages are gaining popularity for their perfect blend of aesthetics and practical functionality. We are among the leading sign board makers in Bangalore, crafting innovative & high-quality signage solutions to elevate your brand's presence.</p>
+                    <!-- Swiper -->
+                    <div class="swiper new_testimonial-swiper">
+                        <div class="swiper-wrapper">
 
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-8.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                            <!-- Slide Item -->
+                            <div class="swiper-slide">
+                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                    <div class="mb-4">
+                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                            width="40" height="40">
+                                    </div>
+                                    <p class="description">
+                                        Our tech startup needed a signage solution that matched our innovative spirit. The
+                                        design team didn't just create a sign; they captured our company's entire essence.
+                                        The LED-powered brand display has become a conversation starter for clients and
+                                        employees alike.
+                                    </p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client"
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="name">Michael</h6>
+                                            <small class="text-muted">CEO, Technova Innovations</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Duplicate Slide -->
+                            <div class="swiper-slide">
+                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                    <div class="mb-4">
+                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                            width="40" height="40">
+                                    </div>
+                                    <p class="description">
+                                        Our tech startup needed a signage solution that matched our innovative spirit. The
+                                        design team didn't just create a sign; they captured our company's entire essence.
+                                        The LED-powered brand display has become a conversation starter for clients and
+                                        employees alike.
+                                    </p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client"
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="name">Michael</h6>
+                                            <small class="text-muted">CEO, Technova Innovations</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+        <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
+                    <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage
+                        designs through our articles.</p>
+                </div>
 
-            <div class="col-lg-6">
-                <h2 class="brand-title">Unique Traditional Signages</h2>
-                <p class="brand-description">
-                    <ul>
-                        <li>At Brand Signages, we feel honored to design traditional signages in Bangalore that are exceptional for their class and pattern. </li>
-                        <li>Pioneer signage makers in Bangalore, we are experts in supplying signage solutions personalized to your desires. </li>
-                        <li>From signboards to cutting-edge digital signage, we make sure that your brand illuminates each detail. </li>
-                    </ul>
-                </p>
-                <h2 class="brand-title">Huge Collection of Products</h2>
-                <p class="brand-description">
-                    Our proficient board manufacturers produce:
-                    <ul>
-                        <li><a href="{{route('led_sign_board_in_bangalore')}}" style="text-decoration: unset;color:#E43D12">LED sign boards</a></li>
-                        <li><a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12">Glow sign board</a></li>
-                        <li><a href="{{route('acrylic_signage_manufacturer_bangalore')}}" style="text-decoration: unset;color:#E43D12">Acrylic sign boards</a></li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-
-        <div class="row align-items-center">
-
-            <div class="col-lg-6 order-2 order-lg-1">
-                <h2 class="brand-title">Solutions for</h2>
-                <p class="brand-description">
-                    
-                    <ul>
-                        <li>Remarkable outdoor signs.</li>
-                        <li>Polished indoor signage.</li>
-                        <li>Executive appearances for your corporate office.</li>
-                    </ul>
-                </p>
-                <h2 class="brand-title">Designs that have Creativity and longevity</h2>
-                <p class="brand-description">
-                  
-                    <ul>
-                        <li>We also provide stainless steel and acrylic signs, letter signage, and LED displays to fulfill your branding targets.</li>
-                        <li>Our digital display signs are ideal for organizations looking for high observability.</li>
-                        <li>Our glow signs give gracefulness and attraction to any place. </li>
-                    </ul>
-                </p>
-            </div>
-
-            <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-9.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                <div class="row">
+                    @foreach ($blogs as $blog)
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                            <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
+                                <div class="blog-card">
+                                    <div class="blog-card-img">
+                                        <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
+                                    </div>
+                                    <div class="blog-card-body">
+                                        <div class="d-flex justify-content-between align-items-center mb-2">
+                                            <span class="badge">{{ strtoupper($blog->topic) }}</span>
+                                            <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+                                        </div>
+                                        <h5 class="blog-card-title">{{ $blog->title }}</h5>
+                                        <p class="card-text">
+                                            {{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    @endforeach
+                    <div class="text-center">
+                        <a href="{{ route('blogs') }}">
+                            <button class="contact-btn">See All Blogs</button>
+                        </a>
+                    </div>
                 </div>
             </div>
+        </section>
+        <section class="faq-section">
+            <div class="container">
+                <h1 class="faq-title">FAQs</h1>
 
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-10.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is Signage Used for?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Signage or branding signs are used for various purposes across different industries to
+                            communicate messages, enhance branding, and enhance navigation. Here are the key uses of
+                            signage:</p>
+                        <ul>
+                            <li>Branding & Marketing – Businesses use signage to display their logo, promote offers, and
+                                enhance brand visibility.</li>
+                            <li>Wayfinding & Navigation – Helps people find directions in malls, hospitals, offices, and
+                                public spaces.</li>
+                            <li>Safety & Compliance – Includes fire safety signs, construction signs, and hazard warnings to
+                                ensure safety.</li>
+                            <li>Retail & Advertising – Digital and traditional signage in stores to promote products and
+                                boost sales.</li>
+                            <li>Corporate & Office Use – Nameplates, department signs, and meeting room displays for
+                                organization and professionalism.</li>
+                            <li>Event & Exhibition Signage – Used for banners, standees, and digital screens to guide
+                                attendees.</li>
+                            <li>Informational Signage – Displays important messages, notices, or public announcements.</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-lg-6">
-                <h2 class="brand-title">Dependable signage manufacturers in Bangalore</h2>
-                <p class="brand-description">
-                    <ul>
-                        <li>We convert your wish to reality with creative signage designs that are operational and visibly attractive. </li>
-                        <li>Contact Brand Signages soon to discover our superior range of sign boards in Bangalore and uplift your brand with distinction.</li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How Do I Choose a Signage?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Choosing a signage depends on many factors, including your business type, location, and branding
+                            goals. Here's how to make the right choice:</p>
+                        <ul>
+                            <li>Purpose – Determine whether the signage is for branding, wayfinding, promotions, or safety.
+                            </li>
+                            <li>Location & Visibility – Choose signage that stands out in your environment, whether indoor
+                                or outdoor.</li>
+                            <li>Right Material – Opt for durable materials based on weather conditions and usage.</li>
+                            <li>Design & Readability – Ensure the signage has clear fonts, high-contrast colors, and an
+                                eye-catching design.</li>
+                            <li>The Right Lighting – Consider LED or illuminated signs for better visibility, especially at
+                                night.</li>
+                            <li>Hire Professionals – Collaborate with expert sign board manufacturers to get a high-quality,
+                                customized solution.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is Digital Signage Expensive?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The cost of digital signage depends on various factors like screen size, technology, content
+                            management software, and installation.
+                            While the investment can be much higher than traditional signage, digital signage offers
+                            long-term benefits such as dynamic content
+                            updates, scalability, and better engagement.</p>
+                        <ul>
+                            <li>Basic Digital Signage (Small Screens): Starts from ₹15,000 to ₹50,000.</li>
+                            <li>Large LED Walls & Interactive Displays: Can cost ₹1,00,000 to ₹10,00,000+ </li>
+                            <li>Ongoing Costs: Ranging from ₹5,000 to ₹50,000 per month based on requirements</li>
+                        </ul>
+                    </div>
+                </div>
 
-<section class="why-bg-light-pink py-5" style="background-color: #fff;">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages?</h2>
-            <p class="card-text text-center">Brand Signages is your credible associate for high-class signages in Bangalore. As one of the top signage makers in Bangalore, we render innovative signage solutions customized to your extraordinary requirements.Choose Brand Signages for inventive signage designs that assist your organization to be noticeable. Contact us soon for top-class signboard solutions personalized to your requirements.</p>
-        </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What are the types of signage products do you offer?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>As sign board makers, we provide a diverse range of solutions to businesses such as:</p>
+                        <ul>
+                            <li><a href="https://brandsignages.com/neon-signages"
+                                    style="text-decoration: unset;color:#E43D12">Glow signboard</a></li>
+                            <li>Acp signboard</li>
+                            <li><a href="https://brandsignages.com/arcylic-signages"
+                                    style="text-decoration: unset;color:#E43D12">Acrylic LED signboards</a></li>
+                            <li>Channel Letter signs</li>
+                            <li><a href="https://brandsignages.com/digital-signages"
+                                    style="text-decoration: unset;color:#E43D12">Digital signages</a></li>
+                            <li><a href="https://brandsignages.com/metal-signages"
+                                    style="text-decoration: unset;color:#E43D12">Steel letter</a></li>
+                            <li><a href="https://brandsignages.com/fire-safety-signages"
+                                    style="text-decoration: unset;color:#E43D12">Fire safety signs</a></li>
+                            <li><a href="https://brandsignages.com/led-light-signages"
+                                    style="text-decoration: unset;color:#E43D12">LED letter sign</a></li>
+                            <li><a href="https://brandsignages.com/neon-signages"
+                                    style="text-decoration: unset;color:#E43D12">Neon sign board</a></li>
+                            <li><a href="https://brandsignages.com/outdoor-signages"
+                                    style="text-decoration: unset;color:#E43D12">Outdoor signs</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-11.webp')}}" class="why-card-img-top"
-                        alt="Skillfulness and Inventiveness">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Skillfulness and Inventiveness</h3>
-                        <p class="card-text">
-                            Our group of expert board manufacturers utilizes modern technology to shape an array of signage boards, comprising led sign boards, acrylic sign boards, and glow sign boards.
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How can I customize a signage board to fit my specific requirements?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our team would meet for the initial consultation and begin working on the custom design mockups.
+                            Depending on your choice, we will select the material and dimensions, and add text and graphics
+                            to the signboard. We will send the final design for approval and also work on the installation.
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-12.webp')}}" class="why-card-img-top"
-                        alt="Wide Range of Products">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Wide Range of Products</h3>
-                        <p class="card-text">
-                            We deliver everything from outdoor signs and pylon signs to indoor signage and digital signage. Our stainless steel and acrylic signs are ideal for contemporary branding.
-                        </p>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is the process for ordering and purchasing signage boards directly?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our signage ordering process is designed to be straightforward and customer-friendly:</p>
+                        <ul>
+                            <li>Schedule a free consultation (online or on-site)</li>
+                            <li>Discuss your specific signage needs</li>
+                            <li>Receive initial design concepts</li>
+                            <li>Digital mockups and proof review</li>
+                            <li>Unlimited design iterations until you are satisfied</li>
+                            <li>Transparent pricing breakdown</li>
+                            <li>Delivery and installation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Are your signage boards suitable for both indoor and outdoor use?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our signage boards are designed with versatility in mind:</p>
+                        <ul>
+                            <li>Outdoor Signs:</li>
+                            <ul>
+                                <li>Weather-resistant materials</li>
+                                <li>UV-protected coatings</li>
+                                <li>Durable against harsh environmental conditions</li>
+                            </ul>
+                            <li>Indoor Signs:</li>
+                            <ul>
+                                <li>Sleek, polished finishes</li>
+                                <li>Adaptable to various interior settings</li>
+                                <li>Multiple mounting options</li>
+                                <li>Different lighting configurations</li>
+                                <li>Premium aesthetic materials</li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you offer any warranties or guarantees on your signage products?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our comprehensive warranty ensures your confidence:</p>
+                        <ul>
+                            <li>Material and installation Guarantee</li>
+                            <li>Color and finish durability protection</li>
+                            <li>Performance assurance against environmental damage</li>
+                            <li>Quick claim resolution process</li>
+                            <li>Transparent terms and conditions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How can I get a cost-effective solution for bulk signage orders?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We offer volume-based pricing discounts, custom package negotiations, and standardized design
+                            options. We prioritize providing top-notch customer service in terms of flexible payment terms
+                            and complimentary consultation. It is our goal to not compromise on quality and extend a
+                            competitive pricing guarantee.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can you install signage boards at my location in Bangalore?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we provide signage board installation services in Bangalore and all over India. When you
+                            order from us, you can expect:</p>
+                        <ul>
+                            <li>High-Quality Signage: We use durable, premium materials</li>
+                            <li>Customized Designs: We understand your brand's unique needs</li>
+                            <li>Timely Installation: We guarantee prompt and efficient installation</li>
+                            <li>Expert Team: We handle the entire process, from design to manufacturing</li>
+                            <li>Nationwide Reach: We provide coverage for signage installation services</li>
+                            <li>Affordable Pricing: Competitive rates without compromising on quality</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I request a sample before placing a bulk order for signage boards?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, you can definitely order a single piece as a sample before placing a bulk order.
+                            This allows you to evaluate the quality, design, and material of the signage boards
+                            firsthand. We want you to be completely satisfied with your choice, so feel free to
+                            request a sample to ensure it meets your expectations before making a larger
+                            commitment.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How long does it take to manufacture and deliver a signage board?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>It takes almost 7-10 business days to deliver signage. After you
+                            finalize the design and material, we'll proceed with manufacturing
+                            and delivery of the signages. We ensure a hassle-free experience during the
+                            entire process. </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can you create signage for events and exhibitions in Bangalore?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we also create signage for events and exhibitions in Bangalore. Whether it's
+                            directional signage, banners, stands, or branded displays, we offer a range of options.
+                            We are a leading signage manufacturer in Bangalore & India to help you with any type of
+                            custom signage solutions. </p>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-13.webp')}}" class="why-card-img-top"
-                        alt="Custom Solutions">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Custom Solutions</h3>
-                        <p class="card-text">
-                            Whether you require glossy LED signage for a corporate office or a spectacularly lit sign for your storefront, we create custom signages that mirror your brand’s individuality.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-14.webp')}}" class="why-card-img-top"
-                        alt="Standard and Longevity">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Standard and Longevity</h3>
-                        <p class="card-text text-start">
-                            Our sign boards in Bangalore are designed with superior substances to guarantee perpetual rendition and bright visuals.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/signage-15.webp')}}" class="why-card-img-top"
-                        alt="Trusted Signage Company">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Trusted Signage Company</h3>
-                        <p class="card-text">
-                            With many years of experience as one of the best signage manufacturers in Bangalore, we have created goodwill for distinction, trustworthiness, and customer contentment.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-
-        <div id="signageCarouselNew" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-11.webp')}}" class="why-card-img-top"
-                                    alt="Skillfulness and Inventiveness">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Skillfulness and Inventiveness</h3>
-                                    <p class="card-text">
-                                        Our group of expert board manufacturers utilizes modern technology to shape an array of signage boards, comprising led sign boards, acrylic sign boards, and glow sign boards.
-
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-12.webp')}}" class="why-card-img-top"
-                                    alt="Wide Range of Products">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Wide Range of Products</h3>
-                                    <p class="card-text">
-                                        We deliver everything from outdoor signs and pylon signs to indoor signage and digital signage. Our stainless steel and acrylic signs are ideal for contemporary branding.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-13.webp')}}" class="why-card-img-top"
-                                    alt="Custom Solutions">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Custom Solutions</h3>
-                                    <p class="card-text">
-                                        Whether you require glossy LED signage for a corporate office or a spectacularly lit sign for your storefront, we custioze signages that mirror your brand’s individuality.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-13.webp')}}" class="why-card-img-top"
-                                    alt="Custom Solutions">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Custom Solutions</h3>
-                                    <p class="card-text">
-                                        Whether you require glossy LED signage for a corporate office or a spectacularly lit sign for your storefront, we custioze signages that mirror your brand’s individuality.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-14.webp')}}" class="why-card-img-top"
-                                    alt="Standard and Longevity">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Standard and Longevity</h3>
-                                    <p class="card-text">
-                                        Our sign boards in Bangalore are designed with superior substances to guarantee perpetual rendition and bright visuals.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/signage-15.webp')}}" class="why-card-img-top"
-                                    alt="Trusted Signage Company">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Trusted Signage Company</h3>
-                                    <p class="card-text">
-                                        With many years of experience as the best signage manufacturers in Bangalore, we have created goodwill for distinction, trustworthiness, and customer contentment.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-
-            <div class="why-carousel-controls">
-                <button id="prevButtonNew" class="why-carousel-control" type="button" data-bs-target="#signageCarouselNew"
-                    data-bs-slide="prev">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button id="nextButtonNew" class="why-carousel-control" type="button" data-bs-target="#signageCarouselNew"
-                    data-bs-slide="next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
-
-            <div class="carousel-indicators why-carousel-indicators" style="margin-bottom: -0.8rem;">
-                <button type="button" data-bs-target="#signageCarouselNew" data-bs-slide-to="0" class="active"
-                    aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#signageCarouselNew" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
-        <h2 class="hero-title">Catalogue</h2>
-        
-        <!-- First Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-21.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/signage-21.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/hospital-20.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/new/hospital-20.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-23.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/new/signage-23.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/construction-safety-slide-3.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/construction-safety-slide-3.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
-        
-        <!-- Second Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-sign-24.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/new/led-sign-24.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-26.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/new/signage-26.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-27.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/new/signage-27.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/signage-28.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/new/signage-28.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section class="testimonial section ">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Customer Testimonial</h2>
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none ">
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">Brand Signages is incomparable! They produced a remarkable led sign board for our corporate office. I highly recommend them as the best signage makers in Bangalore!</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/signage-16.webp')}}" alt="Rahul Sharma" class="client-img">
-                            <div>
-                                <div class="client-name">Rahul Sharma</div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">We purchased an acrylic signboard for our restaurant, and it looks wonderful. Honestly one of the finest sign board manufacturers in Bangalore</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/signage-17.webp')}}" alt="Priya Sharma" class="client-img">
-                            <div>
-                                <div class="client-name">Priya Sharma</div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">The outdoor sign they formed for our store is noticeable and resistant. The glow sign is attractive at night. Brand Signages Bangalore is our one-stop signage company!</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/signage-18.webp')}}" alt="Ankit Mehta" class="client-img">
-                            <div>
-                                <div class="client-name">Ankit Mehta</div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">We wanted a general pylon sign, and their team provided exactly what we needed. Their signage solutions are creative and reasonable</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/signage-19.webp')}}" alt="Neha Gupta" class="client-img">
-                            <div>
-                                <div class="client-name">Neha Gupta</div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">The prohibition signage we purchased, comprising no entry and no smoking signage, reached promptly and was completely what we required. Highly suggested!</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/signage-21.webp')}}" alt="Arjun Verma" class="client-img">
-                            <div>
-                                <div class="client-name">Arjun Verma</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="testimonialCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">Brand Signages is incomparable! They produced a remarkable led sign board for our corporate office. I highly recommend them as the best signage makers in Bangalore!</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/signage-16.webp')}}" alt="Rahul Sharma" class="client-img">
-                                        <div>
-                                            <div class="client-name">Rahul Sharma</div>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">We purchased an acrylic signboard for our restaurant, and it looks wonderful. Honestly one of the finest sign board manufacturers in Bangalore</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/signage-17.webp')}}" alt="Priya Sharma" class="client-img">
-                                        <div>
-                                            <div class="client-name">Priya Sharma</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The outdoor sign they formed for our store is noticeable and resistant. The glow sign is attractive at night. Brand Signages Bangalore is our one-stop signage company!</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/signage-18.webp')}}" alt="Ankit Mehta" class="client-img">
-                                        <div>
-                                            <div class="client-name">Ankit Mehta</div>
-                                          
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The outdoor sign they formed for our store is noticeable and resistant. The glow sign is attractive at night. Brand Signages Bangalore is our one-stop signage company!</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/signage-19.webp')}}" alt="Ankit Mehta" class="client-img">
-                                        <div>
-                                            <div class="client-name">Ankit Mehta</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">We wanted a general pylon sign, and their team provided exactly what we needed. Their signage solutions are creative and reasonable</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/signage-19.webp')}}" alt="Neha Gupta" class="client-img">
-                                        <div>
-                                            <div class="client-name">Neha Gupta</div>
-                                         
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">Brand Signages Bangalore formulated a superb LED display for our office. Their service was prompt, and the outcome was simply perfect. They are the best signage manufacturers in Bangalore!</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/signage-21.webp')}}" alt="Arjun Verma" class="client-img">
-                                        <div>
-                                            <div class="client-name">Arjun Verma</div>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="testimonial-carousel-controls">
-                <button id="prevButton" class="testimonial-carousel-control" type="button"
-                    data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button id="nextButton" class="testimonial-carousel-control" type="button"
-                    data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
-
-            <div class="carousel-indicators testimonial-carousel-indicators">
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
-                    aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
-
-<section class="faq-section">
-    <div class="faq-container">
-        <h1 class="faq-title">FAQS</h1>
-
-        <div class="faq-item">
-            <button class="faq-question">
-                How much does signages cost?
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>Signage cost depends on the material, size, and complexity of design. Generally vinyl signages cost less while acrylic, digital, stainless steel, and <a href="https://brandsignages.com/neon-sign-board-bangalore" target="_blank" style="color: #E43D12"> neon signs</a> are more expensive. Additional features like digital components, illumination may have an influence on final product costing. The cost of signage can be a few hundred to several thousand rupees depending on the requirements. </p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question">
-                What is a signage company?
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>Signage companies design, manufacture, and install different types of signages for organizations and businesses. Signage company in Bangalore expertise in creating informational, branding, safety, and promotional signages. Signages are made with different types of materials like acrylic, stainless steel, neon, LED, digital displays, etc. They offer branding, signages design, and installation services to help businesses enhance visibility. 
-                </p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question">
-                Why should I choose Brand Signages for my sign requirements?
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>
-                    Because <a href="https://brandsignages.com/" target="_blank" style="color: #E43D12">Brand Signages</a> is one of the leading sign board manufacturing companies in Bangalore. We offer custom signage solutions designed to meet specific business requirements. Our product range includes safety signs, directional signs, <a href="https://brandsignages.com/digital-signage-company-bangalore" target="_blank" style="color: #E43D12">digital displays</a>, <a href="https://brandsignages.com/safety-signages-in-bangalore" target="_blank" style="color: #E43D12">safety signs</a>, and more. We ensure each design conveys a better brand message and stands out from the rest, and communicates effectively. 
-                </p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question">
-                Does Brand Signages provide routine signage solutions for organizations in Bangalore?
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>
-                    Yes, we provide routine signage solutions for organizations in Bangalore & all over India. As credible signage makers in Bangalore, we make branding signages, safety signages, directional signages, informational signages, and more to fulfill your branding requirements. Our signage solutions ensure compliances and branding across industries like retail, healthcare, education institution, office, etc. Contact us for high-quality custom sign board requirements.
-
-                </p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question">
-                Do you provide signage installation services throughout Bangalore?
-
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>Definitely! We not only produce high-class signage boards in Bangalore, but we also provide competent installation services for all kinds of signage boards, comprising outdoor signs, indoor signage, glow sign boards, and more.
-                </p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <button class="faq-question">
-                What kinds of substances are utilized for producing resistant and high-class signages?
-
-
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>
-                    Premium quality and resistant signages are made with durable materials like stainless steel that provide a sleek and professional. Acrylic signages have a glossy finish and yet are ideal for using indoor and outdoor. Aluminum signage is another option that is rust proof and suitable for outdoor signages.
-                </p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <button class="faq-question">
-                How can I request a custom design or quote for my signage requirements?
-
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>
-                    You can simply contact us to talk about your needs. Whether you require a digital display sign, acrylic sign board, LED signage, or neon sign, our team will assist you through the method and offer a custom quote.
-
-                </p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <button class="faq-question">
-                What industries do you cater to in your signage solutions?
-
-                <i class="faq-icon fa-solid fa-chevron-down"></i>
-            </button>
-            <div class="faq-answer">
-                <p>We serve several industries, consisting of real estate, banks, restaurants, hospitals, and corporate offices, designing customized signage designs based on specific requirements.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
 
 @endsection

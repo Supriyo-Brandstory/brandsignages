@@ -454,8 +454,8 @@
 
     {{--
     <script src="{{asset('frontend/script.js')}}"></script> --}}
-    {{--
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script> --}}
+    
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script>
 
     <script>
         // Initialize LightGallery
@@ -467,13 +467,14 @@
     </script>
     <!-- Bootstrap JS -->
 
-    {{--
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> --}}
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> 
     <style>
         .footer a {
             color: #E43D12;
         }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 @vite(['resources/js/app.js'])
 </body>
 
