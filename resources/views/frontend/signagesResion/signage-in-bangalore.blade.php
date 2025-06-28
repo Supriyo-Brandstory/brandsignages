@@ -164,7 +164,9 @@
 
             </div>
         </section>
+        <div class="inquery-from-section">
         <x-coustom-inquiry-form />
+        </div>
 
         <section class="we-deliver">
             <div class="container">

@@ -1,5 +1,5 @@
 
-<div class="container mt-4 mb-5  order-custom-signage-form">
+<div class="container order-custom-signage-form">
     <div class="row ">
         <div class="col-md-6 col-12 ">
             <img src="{{ asset('frontend/Images/home/inquery.webp') }}" class="img-fluid custom-enquery-img" alt="Custom Signages"
