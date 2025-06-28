@@ -969,6 +969,7 @@ h1.hero-banner_title {
     .new-contacts-section {
         border-radius: 12px;
         padding: 30px 15px;
+        margin: 50px 0px 10px;
     }
 
     .new-contacts-section-overlay {
