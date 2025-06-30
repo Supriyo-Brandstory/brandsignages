@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="hero-banner_title">Power Your Brand Visibility with<br>Signage Solutions in Bangalore</h1>
+                        <h1 class="hero-banner_title">Power Your Brand Visibility with<br>Our Signage Solutions in Bangalore</h1>
                         <p>Draw attention and leave a mark with vibrant, interactive sign boards <br>that speak
                             loud and clear.</p>
                         <a href="https://brandsignages.com/contact-us">
@@ -208,7 +208,7 @@
                             <h3>Indoor Signages</h3>
                             <p>
                                Indoor signages are mostly used in corporate offices, retail spaces, financial institutions, and medical facilities. Interior signages communicate 
-                               brand personality and transforms interior environments. 
+                               brand personality and transforms interior. 
                             </p>
                         </div>
                     </div>
@@ -398,7 +398,7 @@
 
         <section class="why-choose-signage">
             <div class="why-choose-container container">
-                <h2 class="why-title">Why Choose Us for <br>Your Signage Needs?</h2>
+                <h2 class="why-title">Why Choose Brand Signages for <br>Your Signage Needs?</h2>
                 <p class="why-subtitle">
                     With a team of expert designers and skilled craftsmen, we deliver high-quality signage solutions.
                     Our expertise ensures your brand captures customer attention effectively.
@@ -481,42 +481,42 @@
                         <!-- Row 1 (Left to Right) -->
                         <div class="new_client_section-row new_client_section-row-1">
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client">
                             </div>
 
                             <!-- Duplicates for seamless loop -->
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client">
                             </div>
 
                         </div>
@@ -524,83 +524,83 @@
                         <!-- Row 2 (Right to Left) -->
                         <div class="new_client_section-row new_client_section-row-2">
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client">
                             </div>
 
                             <!-- Duplicates for seamless loop -->
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client">
                             </div>
                         </div>
 
                         <!-- Row 3 (Left to Right) -->
                         <div class="new_client_section-row new_client_section-row-3">
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client">
                             </div>
                             <!-- Duplicates for seamless loop -->
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client">
                             </div>
                         </div>
                     </div>
@@ -610,7 +610,7 @@
         <!-- testimonial Feedback Section -->
         <section class="new_testimonial-swiper-section">
             <div class="container">
-                <h2 class="text-center mb-md-5 mb-3">Feedback from Our Valuable Clients</h2>
+                <h2 class="text-center mb-md-5 mb-3">The Impact We've Delivered for Clients</h2>
 
                 <div class="position-relative">
 
@@ -725,33 +725,6 @@
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        What is Signage Used for?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Signage or branding signs are used for various purposes across different industries to
-                            communicate messages, enhance branding, and enhance navigation. Here are the key uses of
-                            signage:</p>
-                        <ul>
-                            <li>Branding & Marketing – Businesses use signage to display their logo, promote offers, and
-                                enhance brand visibility.</li>
-                            <li>Wayfinding & Navigation – Helps people find directions in malls, hospitals, offices, and
-                                public spaces.</li>
-                            <li>Safety & Compliance – Includes fire safety signs, construction signs, and hazard warnings to
-                                ensure safety.</li>
-                            <li>Retail & Advertising – Digital and traditional signage in stores to promote products and
-                                boost sales.</li>
-                            <li>Corporate & Office Use – Nameplates, department signs, and meeting room displays for
-                                organization and professionalism.</li>
-                            <li>Event & Exhibition Signage – Used for banners, standees, and digital screens to guide
-                                attendees.</li>
-                            <li>Informational Signage – Displays important messages, notices, or public announcements.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
                         How Do I Choose a Signage?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
@@ -773,24 +746,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Is Digital Signage Expensive?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>The cost of digital signage depends on various factors like screen size, technology, content
-                            management software, and installation.
-                            While the investment can be much higher than traditional signage, digital signage offers
-                            long-term benefits such as dynamic content
-                            updates, scalability, and better engagement.</p>
-                        <ul>
-                            <li>Basic Digital Signage (Small Screens): Starts from ₹15,000 to ₹50,000.</li>
-                            <li>Large LED Walls & Interactive Displays: Can cost ₹1,00,000 to ₹10,00,000+ </li>
-                            <li>Ongoing Costs: Ranging from ₹5,000 to ₹50,000 per month based on requirements</li>
-                        </ul>
-                    </div>
-                </div>
 
                 <div class="faq-item">
                     <button class="faq-question">
@@ -800,24 +755,20 @@
                     <div class="faq-answer">
                         <p>As sign board makers, we provide a diverse range of solutions to businesses such as:</p>
                         <ul>
-                            <li><a href="https://brandsignages.com/neon-signages"
-                                    style="text-decoration: unset;color:#E43D12">Glow signboard</a></li>
+                            <li><a href="https://brandsignages.com/neon-sign-board-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">Neon sign</a></li>
                             <li>Acp signboard</li>
-                            <li><a href="https://brandsignages.com/arcylic-signages"
-                                    style="text-decoration: unset;color:#E43D12">Acrylic LED signboards</a></li>
+                            <li><a href="https://brandsignages.com/acrylic-signage-manufacturer-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">Acrylic Signage</a></li>
                             <li>Channel Letter signs</li>
-                            <li><a href="https://brandsignages.com/digital-signages"
-                                    style="text-decoration: unset;color:#E43D12">Digital signages</a></li>
-                            <li><a href="https://brandsignages.com/metal-signages"
-                                    style="text-decoration: unset;color:#E43D12">Steel letter</a></li>
-                            <li><a href="https://brandsignages.com/fire-safety-signages"
-                                    style="text-decoration: unset;color:#E43D12">Fire safety signs</a></li>
-                            <li><a href="https://brandsignages.com/led-light-signages"
-                                    style="text-decoration: unset;color:#E43D12">LED letter sign</a></li>
-                            <li><a href="https://brandsignages.com/neon-signages"
-                                    style="text-decoration: unset;color:#E43D12">Neon sign board</a></li>
-                            <li><a href="https://brandsignages.com/outdoor-signages"
-                                    style="text-decoration: unset;color:#E43D12">Outdoor signs</a></li>
+                            <li><a href="https://brandsignages.com/digital-signage-company-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">Digital Signages</a></li>
+                            <li><a href="https://brandsignages.com/steel-signage-manufacturer-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">Steel Signage</a></li>
+                            <li><a href="https://brandsignages.com/safety-signages-in-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">Fire safety Signs</a></li>
+                            <li><a href="https://brandsignages.com/led-sign-board-in-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">LED Sign Board</a></li>
                         </ul>
                     </div>
                 </div>
