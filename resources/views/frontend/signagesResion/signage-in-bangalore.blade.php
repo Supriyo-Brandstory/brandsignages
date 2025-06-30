@@ -682,9 +682,8 @@
                                             width="40" height="40">
                                     </div>
                                     <p class="description">
-                                        As a boutique hotel chain, brand consistency is everything. These custom signages transformed 
-                                        our brand experience across multiple locations. The attention to detail is remarkable - each piece 
-                                        feels uniquely crafted yet perfectly aligned with our brand identity.
+                                        We needed urgent signage for our new retail location, and they delivered beyond expectations. The direct 
+                                        communication and on-demand design process made the experience seamless and stress-free.
                                     </p>
                                     <div class="d-flex align-items-center mt-4">
                                         <img src="{{ asset('frontend/Images/home/testimonial-3.webp') }}" alt="Nandini, CEO, A Real Estate Company"
@@ -704,9 +703,9 @@
                                             width="40" height="40">
                                     </div>
                                     <p class="description">
-                                        As a boutique hotel chain, brand consistency is everything. These custom signages transformed 
-                                        our brand experience across multiple locations. The attention to detail is remarkable - each piece 
-                                        feels uniquely crafted yet perfectly aligned with our brand identity.
+                                        We weren’t sure if a signage company could capture the essence of a dynamic workspace 
+                                        like Bhive. But what they delivered went far beyond expectations. They didn’t just create 
+                                        signs – they crafted a visual identity that reflects our energy, innovation, and community spirit. 
                                     </p>
                                     <div class="d-flex align-items-center mt-4">
                                         <img src="{{ asset('frontend/Images/home/testimonial-4.webp') }}" alt="Manager, Bhive Workspace"
