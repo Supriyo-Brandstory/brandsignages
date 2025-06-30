@@ -177,7 +177,7 @@
 
 
     <section class="new_client_section container">
-        <h2 class="new_client_section-title">Our Clients</h2>
+        <h2 class="new_client_section-title">Our Valuable Clients Across Industries</h2>
         <div class="row">
             <div class="col-md-5 new_client_section-image col-12">
                 <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
@@ -187,128 +187,130 @@
                 <div class="new_client_section-wrapper">
                     <!-- Row 1 (Left to Right) -->
                     <div class="new_client_section-row new_client_section-row-1">
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Client Logo">
-                        </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client">
+                            </div>
 
                         <!-- Duplicates for seamless loop -->
                         <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Client Logo">
-                        </div>
+                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client">
+                            </div>
 
                     </div>
 
                     <!-- Row 2 (Right to Left) -->
                     <div class="new_client_section-row new_client_section-row-2">
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Client Logo">
-                        </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client">
+                            </div>
 
                         <!-- Duplicates for seamless loop -->
                         <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client">
+                            </div>
                         </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Client Logo">
-                        </div>
-                    </div>
 
                     <!-- Row 3 (Left to Right) -->
                     <div class="new_client_section-row new_client_section-row-3">
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="Client Logo">
-                        </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client">
+                            </div>
+
+
                         <!-- Duplicates for seamless loop -->
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Client Logo">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="Client Logo">
-                        </div>
+                      <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client">
+                            </div>
                     </div>
                 </div>
             </div>
@@ -346,11 +348,11 @@
                                     employees alike.
                                 </p>
                                 <div class="d-flex align-items-center mt-4">
-                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client"
+                                    <img src="{{ asset('frontend/Images/sneha-reddy-webp') }}" alt="Sneha Reddy- Our Client"
                                         class="rounded-circle me-3" width="50" height="50">
                                     <div>
-                                        <h6 class="name">Michael</h6>
-                                        <small class="text-muted">CEO, Technova Innovations</small>
+                                        <h6 class="name">Sneha Reddy</h6>
+                                        <small class="text-muted">Marketing Head – Urban Retail Co.</small>
                                     </div>
                                 </div>
                             </div>
@@ -364,17 +366,60 @@
                                         width="40" height="40">
                                 </div>
                                 <p class="description">
-                                    Our tech startup needed a signage solution that matched our innovative spirit. The
-                                    design team didn't just create a sign; they captured our company's entire essence.
-                                    The LED-powered brand display has become a conversation starter for clients and
-                                    employees alike.
+                                    We needed stunning, durable, and regulation-compliant signage for our hospital, 
+                                    and Brand Signages delivered exactly what we asked for. Their attention to detail 
+                                    is excellent, which helped us enhance the patient experience.
                                 </p>
                                 <div class="d-flex align-items-center mt-4">
-                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client"
+                                    <img src="{{ asset('frontend/Images/seema.webp') }}" alt="Seema - Our Client"
                                         class="rounded-circle me-3" width="50" height="50">
                                     <div>
-                                        <h6 class="name">Michael</h6>
-                                        <small class="text-muted">CEO, Technova Innovations</small>
+                                        <h6 class="name">Seema Nayak</h6>
+                                        <small class="text-muted">Operations Manager– Horizon Hospitals</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                           <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    From initial conceptualization to execution, they executed our café signage project 
+                                    seamlessly. They perfectly captured the aesthetics of our brand with vibrant acrylic 
+                                    signs and a neon board that has quickly become an Instagram favorite among local people.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/sandeep-gupta.webp') }}" alt="Sandeep Gupta - Our Client"
+                                        class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sandeep Gupta</h6>
+                                        <small class="text-muted">Founder – Café Bloom</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    We needed elegant indoor and outdoor corporate signage that matched our branding. 
+                                    Brand Signages impressed us with their quick turnaround, premium finish, and seamless 
+                                    coordination throughout the signage project.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/vikram-sharma.webp') }}" alt="Sandeep Gupta - Our Client"
+                                        class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sandeep Gupta</h6>
+                                        <small class="text-muted">Director– Nova Consulting Group</small>
                                     </div>
                                 </div>
                             </div>
