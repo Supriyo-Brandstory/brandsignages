@@ -9,11 +9,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="hero-banner_title">Best Sign Board Makers Near <br>Me Bangalore: Brand Signages</h1>
+                        <h1 class="hero-banner_title">Power Your Brand Visibility with Our High-Impact<br>Signage Solutions in Bangalore</h1>
                         <p>Draw attention and leave a mark with vibrant, interactive sign boards <br>that speak
                             loud and clear.</p>
                         <a href="https://brandsignages.com/contact-us">
-                            <button class="contact-btn">Know More</button>
+                            <button class="contact-btn">Contact Us</button>
                         </a>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
         <!-- About Section -->
         <section>
             <div class="container pt-5">
-                <h2 class="hero-title">Welcome to Brand Signages <br>Best Signage Makers in Bangalore</h2>
+                <h2 class="hero-title">Welcome to Brand Signage: <br>Top-rated Signage Company in Bangalore</h2>
 
                 <div class="row align-items-center">
                     <div class="col-lg-6 mb-4 mb-lg-0">
@@ -34,32 +34,22 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <h2 class="brand-title">Sign Board Makers Near Me | LED Sign Board</h2>
+                        <h2 class="brand-title">Trusted B2B Signage Partner for Businesses</h2>
                         <p class="brand-description">
-                            Brand Signages stands out as one of the top signage manufacturers in Bangalore. We help
-                            businesses stand apart with the best signage advertising solutions. With over 10 years of
-                            experience in signage design, manufacturing, and installation, our clientele includes small
-                            businesses, industry leaders, and top-tier brands.
+                            Brand Signages is a leading signage manufacturer in Bangalore, backed by 10+ years of expertise. 
+                            We are the most reputable name in the signage industry, executing 700+ large-scale signage projects 
+                            across Bangalore & South India. Since our establishment, we have worked across various industries, 
+                            starting from retail, corporate, real estate, restaurants, and government offices.  
                         </p>
                         <p class="brand-description">
-                            In today’s competitive market, your brand must stand out from others. Impactful signage and
-                            signboards are key to boosting visibility, attracting customers, and strengthening brand
-                            recognition. Brand Signages is among the leading premier sign board manufacturers in Bangalore,
-                            offering custom-made LED sign boards for local brands and businesses.
+                            We are exclusive signage manufacturers in the region, known for our proven expertise in LED sign board 
+                            manufacturing. Driven by passion, excellence, and dedication, we’ve become a trusted signage partner for 
+                            many brands across Bangalore. We are committed to delivering signage products with unmatched quality, 
+                            durability, and design that inspires. 
                         </p>
-                        <p class="brand-description">
-                            Step forward with Brand Signages and engage your potential audience with
-                            <a href="{{route('led_sign_board_in_bangalore')}}"
-                                style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
-                            <a href="{{route('digital_signages')}}"
-                                style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
-                            acrylic signage, <a href="{{route('neon_sign_board_bangalore')}}"
-                                style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon lights</a>, and
-                            metal signage that leave a lasting impression and build enduring brand relationships.
-                        </p>
-                        {{-- <div class="mt-4">
+                        <div class="mt-4">
                             <a href="{{route('about_us')}}" class="custom-btn">Know About Us</a>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -72,7 +62,7 @@
                 <!-- Large Image Left -->
                 <div class="col-lg-6 col-md-6">
                     <div class="achievement-box height-582">
-                        <img src="{{ asset('frontend/Images/home/single-brandex.webp') }}" class="img-fluid" alt="Signage">
+                        <img src="{{ asset('frontend/Images/home/single-brandex.webp') }}" class="img-fluid" alt="Signage Design">
                     </div>
                 </div>
 
@@ -99,7 +89,7 @@
                         <div class="col-lg-6 col-md-6 pb-0">
                             <div class="achievement-box h-100">
                                 <img src="{{ asset('frontend/Images/home/fortune-blue.webp') }}"
-                                    class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Quote">
+                                    class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Signage Design">
                             </div>
                         </div>
                     </div>
@@ -111,7 +101,7 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="achievement-box h-100">
                         <img src="{{ asset('frontend/Images/home/fashion-week.webp') }}"
-                            class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Fashion">
+                            class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Fashion Week Signage">
                     </div>
                 </div>
 
@@ -132,31 +122,31 @@
                     <span class="pulse"></span> <!-- White animated surface -->
                     <span class="pulse-center"></span> <!-- Red fixed center -->
                     <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
-                        alt="Hover Image">
+                        alt="LED Sign Board">
                 </div>
                 <div class="outdoorx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
                     <span class="pulse-center"></span> <!-- Red fixed center -->
                     <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
-                        alt="Hover Image">
+                        alt="Outdoor Signage">
                 </div>
                 <div class="digitalx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
                     <span class="pulse-center"></span> <!-- Red fixed center -->
                     <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
-                        alt="Hover Image">
+                        alt="Digital Signage">
                 </div>
                 <div class="metalx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
                     <span class="pulse-center"></span> <!-- Red fixed center -->
                     <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
-                        alt="Hover Image">
+                        alt="Metal Signage">
                 </div>
                 <div class="acrylicx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
                     <span class="pulse-center"></span> <!-- Red fixed center -->
                     <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
-                        alt="Hover Image">
+                        alt="Acrylic Signage">
                 </div>
 
 
@@ -166,7 +156,7 @@
         </section>
         <section class="bgrowth-slider-section">
             <div class="bgrowth-header">
-                <h2>Signage Services : Custom Sign Boards <br> to Ignite Your Business Growth</h2>
+                <h2>Explore The Best Signage Solutions <br>to Ignite Your Business Growth</h2>
                 <p>
                     At Brand Signages, our creative signage designs and attention to detail ensure your brand message stands
                     out. We specialize in:
@@ -283,18 +273,19 @@
                                     <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
                                         class="img-fluid">
                                     <h3>On-demand Design</h3>
-                                    <p>Our creative team of sign board makers delivers custom-made signage solutions. We
-                                        transform your branding into compelling visual narratives with top-quality signages
-                                        at minimal cost.</p>
+                                    <p>Our expert team provides flexible, personalized signage design and manufacturing services, 
+                                        transforming your conceptual ideas into compelling visual narratives that elevate your brand.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-12">
                                 <div class="deliver-box">
                                     <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Timely Delive"
                                         class="img-fluid">
-                                    <h3>Timely Deliver</h3>
-                                    <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to
-                                        guarantee project completion without compromising quality or design integrity.</p>
+                                    <h3>Timely Delivery</h3>
+                                    <p>We optimize workflows, maintain stringent timelines, and coordinate with the manufacturing team 
+                                        to guarantee project completion without compromising quality or design integrity.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-12">
@@ -302,13 +293,14 @@
                                     <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
                                         class="img-fluid">
                                     <h3>Direct Purchase</h3>
-                                    <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to
-                                        creative brilliance.</p>
+                                    <p>Connect with us and get a quick consultation for your signage project. Our streamlined purchasing pathway 
+                                        eliminates all complexity, connecting you straight to the creative brilliance.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-12">
                                 <div class="deliver-box align-items-center">
-                                    <a href="" class="button">Our Services</a>
+                                    <a href="https://brandsignages.com/contact-us" class="button">Contact Us</a>
                                 </div>
                             </div>
 
