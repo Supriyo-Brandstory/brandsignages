@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="hero-banner_title">Power Your Brand Visibility with<br>Our Signage Solutions in Bangalore</h1>
+                        <h1 class="hero-banner_title">Empower Your Brand Visibility with <br>Our Signage Solutions in Bangalore</h1>
                         <p>Draw attention and leave a mark with vibrant, interactive sign boards <br>that speak
                             loud and clear.</p>
                         <a href="https://brandsignages.com/contact-us">
