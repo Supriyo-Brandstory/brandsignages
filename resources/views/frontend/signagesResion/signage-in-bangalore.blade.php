@@ -172,12 +172,10 @@
                         <img src="{{ asset('frontend/Images/home/dutyfree.webp') }}" alt="Retail Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Retail Signages & Retail Branding</h3>
+                            <h3>Acrylic Signage</h3>
                             <p>
-                                Our retail signage is the epitome of beauty and elegance. When placed in entryways or
-                                archways, it attracts people's attention.
-                                These creations are bold, energy-efficient, and easy to use and maintain for long-lasting
-                                performance.
+                                Acrylic signage is a preferred choice among industries for its glossy finish and durability. 
+                                We design acrylic signage with unmatched durability and precision. 
                             </p>
                         </div>
                     </div>
@@ -189,10 +187,8 @@
                         <div class="bgrowth-content">
                             <h3>Metal & Steel Signages</h3>
                             <p>
-                                As leading signage board makers, we craft stainless steel signs that deliver clean,
-                                professional messaging. Our expertise ensures
-                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
-                                across various applications.
+                                Stainless steel signage is one of the most affordable and durable types of signage. We design stainless steel 
+                                signage for organizations with custom sizes and designs.
                             </p>
                         </div>
                     </div>
@@ -200,12 +196,10 @@
                         <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Metal & Steel Signages</h3>
+                            <h3>LED Sign Board</h3>
                             <p>
-                                As leading signage board makers, we craft stainless steel signs that deliver clean,
-                                professional messaging. Our expertise ensures
-                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
-                                across various applications.
+                                LED sign boards are the most versatile option for modern branding. We are proven experts in LED sign board manufacturing 
+                                to help you create the best LED nameboards. 
                             </p>
                         </div>
                     </div>
@@ -214,12 +208,10 @@
                         <img src="{{ asset('frontend/Images/home/dutyfree.webp') }}" alt="Retail Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Retail Signages & Retail Branding</h3>
+                            <h3>Digital Signages</h3>
                             <p>
-                                Our retail signage is the epitome of beauty and elegance. When placed in entryways or
-                                archways, it attracts people's attention.
-                                These creations are bold, energy-efficient, and easy to use and maintain for long-lasting
-                                performance.
+                                Digital displays are a dynamic and attention-grabbing transformation for retail spaces. We design modern digital signage 
+                                and digital displays for every industry.
                             </p>
                         </div>
                     </div>
@@ -229,12 +221,10 @@
                         <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Metal & Steel Signages</h3>
+                            <h3>Neon Signage</h3>
                             <p>
-                                As leading signage board makers, we craft stainless steel signs that deliver clean,
-                                professional messaging. Our expertise ensures
-                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
-                                across various applications.
+                               Neon signs are a go-to option for retail and restaurant businesses for all-around visibility. We employ our precious experts to 
+                               design the best neon signage designs in the city.
                             </p>
                         </div>
                     </div>
@@ -242,16 +232,35 @@
                         <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Metal & Steel Signages</h3>
+                            <h3>Retail Signages</h3>
                             <p>
-                                As leading signage board makers, we craft stainless steel signs that deliver clean,
-                                professional messaging. Our expertise ensures
-                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
-                                across various applications.
+                               Retail signage is the epitome of beauty and elegance. These creations are bold, energy-efficient, and easy to use and maintain 
+                               for long-lasting performance.
                             </p>
                         </div>
                     </div>
-
+                     <div class="swiper-slide bgrowth-card">
+                        <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
+                            class="bgrowth-img" />
+                        <div class="bgrowth-content">
+                            <h3>Indoor Signages</h3>
+                            <p>
+                               Indoor signages are mostly used in corporate offices, retail spaces, financial institutions, and medical facilities. Interior signages communicate 
+                               brand personality and transforms interior environments. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bgrowth-card">
+                        <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
+                            class="bgrowth-img" />
+                        <div class="bgrowth-content">
+                            <h3>Outdoor Signages</h3>
+                            <p>
+                               Outdoor signages create immersive visual experiences, balancing visibility with powerful messaging. These signage acts as a strategic marketing tools 
+                               that truly engage audiences. 
+                            </p>
+                        </div>
+                    </div>
 
                     <!-- Add more slides if needed -->
                 </div>
@@ -318,8 +327,8 @@
 
         <section class="instant-pricing">
             <div class="container">
-                <h2>Signage Makers in Bangalore - 24-Hour Production & Instant Pricing!</h2>
-                <p>Best Signage Manufacturers in Bangalore, what can we do for you?</p>
+                <h2>Best Signage Makers in Bangalore - 24-Hour Active Production Line</h2>
+                <p>We are the best Signage Manufacturers in Bangalore with 24-hours production capability and high-tech capability.</p>
                 <div class="scroll-loop-wrapper">
                     <div class="scroll-loop-track">
                         @for ($i = 0; $i < 3; $i++)
