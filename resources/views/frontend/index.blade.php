@@ -1,710 +1,430 @@
 @extends('frontend.layout.appLayout')
 
 @section('content')
-    <!-- Carousel Section -->
-    <section class="carousel-section">
-        <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                {{-- <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button> --}}
-            </div>
-
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{asset('frontend/Images/banner1.webp')}}" alt="Signage Design for Engine Oil Brand by Our Signage Board Makers">
-                    <div class="carousel-caption-custom">
-                        <h1>Best Signage Solutions by #1 Sign Board Makers in Bangalore</h1>
-                        <div class="mt-4">
-                        <a  href="{{route('about_us')}}" class="custom-btn">Know More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Design for Coffee Brand by Our Signage Manufacturer">
-                    <div class="carousel-caption-custom">
-                        <h2>Signages That Leaves a Lasting Impression on Customers</h2>
-                        <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!--<div class="carousel-item">
-                    <img src="{{asset('frontend/Images/banner3.webp')}}" alt="Signage Design Sample by Brand Signages">
-                    <div class="carousel-caption-custom">
-                        <h2>Digital Signages Solutions for Businesses Across Bangalore</h2>
-                        <div class="mt-4">
-                        <a href="{{route('digital_signage_company_bangalore')}}" class="custom-btn">Know More</a>
-                        </div>
-                    </div>
-                </div>-->
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section>
-        <div class="container py-5">
-            <h2 class="hero-title">Level Up Your Brand Image <br>with Custom Signage Solutions</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/cafe-rosco-signage.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <h2 class="brand-title">Build Your Brand Identity with Brand Signages</h2>
-                    <p class="brand-description">
-                    The way in which you express your company's message visually and emotionally forms brand identity. It is not just the logo, it includes other design elements, 
-                    communication strategies, and visual expressions that distinguish a brand from its competitors
-                    </p>
-                    <p class="brand-description">
-                    <a href="{{route('about_us')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages</a> stands out as one of the top signage manufacturers in Bangalore. We help businesses stand apart with the best signage advertising solutions. 
-                    With over 10 years of experience in signage design, manufacturing, and installation, our clientele includes small businesses, industry leaders, and top-tier brands.
-                    <ul>
-                        <li>
-                             The manufacturing process for brand signages begins with conceptualisation. Our designers will collaborate closely with you to understand the company's essence, target audience, and communication objectives.
-                        </li>
-                        <li>
-                            Once this is done, our graphic designers develop precise specifications, including colour palettes, typography, logo placement, and material selections. We use advanced technologies to ensure the exact replication of brand elements.
-                        </li>
-                        <li>
-                            The final stage involves quality control, where each signage piece is meticulously inspected to ensure it perfectly represents the brand's visual standards and meets structural integrity requirements.
-                        </li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-   
-    <section class="process-section">
+    <section class="hero-banner" style="background-image: url('{{ asset('/frontend/Images/home/home-banner-bg.webp') }}');">
         <div class="container">
-            <h2 class="process-title">The Difference We Deliver</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-design">
-                            <img src="{{asset('frontend/Images/graphic-designer.webp')}}" alt="On-demand Design">
-                        </div>
-                        <h3>On-demand Design</h3>
-                        <p>Our creative sign board manufacturer team provides flexible, personalized brand signage manufacturing services, transforming your conceptual ideas into compelling visual narratives for market positioning.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-deliver">
-                            <img src="{{asset('frontend/Images/on-time.webp')}}" alt="Timely Deliver">
-                        </div>
-                        <h3>Timely Delivery</h3>
-                        <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee project completion without compromising quality or design integrity.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="process-card">
-                        <div class="icon-purchase">
-                            <img src="{{asset('frontend/Images/transaction.webp')}}" alt="Direct Purchase">
-                        </div>
-                        <h3>Direct Purchase</h3>
-                        <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to creative brilliance.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <x-coustom-inquiry-form />
-
-    <section>
-        <div class="container my-5">
-            <h2 class="text-center mb-5 card-heading">Signage Services : Custom Sign Boards <br> to Ignite Your Business Growth</h2>
-            <p class="card-text text-center">At Brand Signages, our creative signage designs and attention to detail ensure your brand message stands out. We specialize in:</p>
-
-            <div class="row g-4 cards-row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="card">
-                        <img src="{{asset('frontend/Images/retail-signages.webp')}}" class="card-img-top" alt="Retail Signages & Retail Branding">
-                        <div class="card-body">
-                            <h5 class="card-title">Retail Signages & Retail Branding</h5>
-                            <p class="card-text">Our retail signage is the epitome of beauty and elegance. When placed
-                                in entryways or archways, it attracts people's attention. These creations are bold,
-                                energy-efficient, and easy to use and maintain for long-lasting performance. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card">
-                        <img src="{{asset('frontend/Images/rectangular-signages.webp')}}" class="card-img-top" alt="Metal Signage Manufacturer in Bangalore">
-                        <div class="card-body">
-                            <h5 class="card-title">Metal & Steel Signages</h5>
-                            <p class="card-text">As leading signage board makers, we craft stainless steel signs that deliver clean, professional messaging. 
-                                Our expertise ensures versatile, sleek designs that provide maximum visual impact with crisp brand communication across 
-                                various applications.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card">
-                        <img src="{{asset('frontend/Images/led-sign-new.webp')}}" class="card-img-top" alt="Storefront Signage">
-                        <div class="card-body">
-                            <h5 class="card-title">LED Signages</h5>
-                            <p class="card-text">We have been named among top-tier LED sign board manufacturers for crafting stunning 
-                                <a href="https://brandsignages.com/led-sign-board-in-bangalore" style="text-decoration: unset;color:#E43D12">LED Signages</a>. 
-                                These transform your spaces into powerful visual statements, attracting potential customers with strategic designs that blend 
-                                aesthetic appeal and compelling brand communication.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card">
-                        <img src="{{asset('frontend/Images/window-graphics.webp')}}" class="card-img-top" alt="outdoor Signage Manufacturer in Bangalore">
-                        <div class="card-body">
-                            <h5 class="card-title">Outdoor Signages</h5>
-                            <p class="card-text">As expert signage board makers, we turn ordinary glass into
-                                extraordinary brand canvases. Our outdoor signages create immersive visual experiences,
-                                balancing privacy with powerful messaging. These signage manufacturer innovations
-                                transform windows into strategic marketing tools that truly engage audiences.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="card">
-                        <img src="{{asset('frontend/Images/interior-decals.webp')}}" class="card-img-top" alt="Interior Decals">
-                        <div class="card-body">
-                            <h5 class="card-title">Interior Decals</h5>
-                            <p class="card-text">Our sign board manufacturing expertise creates more than mere
-                                decorations, these <a href="https://brandsignages.com/indoor-signages" style="text-decoration: unset;color:#E43D12">interior signages</a> communicate brand personality, guide customer journeys, and
-                                transform interior environments into compelling storytelling platforms.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card">
-                        <img src="{{asset('frontend/Images/digital-sign.webp')}}" class="card-img-top" alt="digital signage">
-                        <div class="card-body">
-                            <h5 class="card-title">Digital Signages</h5>
-                            <p class="card-text">Signage manufacturers know the power of <a href="https://brandsignages.com/digital-signages" style="text-decoration: unset;color:#E43D12">digital display</a> - dynamic,
-                                attention-grabbing installations that transform retail spaces. Our digital signage
-                                solutions create interactive experiences that turn browsing into buying, delivering
-                                marketing magic through creative and strategic visual storytelling.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card">
-                        <img src="{{asset('frontend/Images/reflective-signs.webp')}}" class="card-img-top" alt="Construction Safety Signage Manufacturer in Bangalore">
-                        <div class="card-body">
-                            <h5 class="card-title">Reflective Signs</h5>
-                            <p class="card-text">As innovative signage board makers in India, we engineer <a href="https://brandsignages.com/construction-safety-signages" style="text-decoration: unset;color:#E43D12">reflective construction safety signs</a> that
-                                combine safety with visual communication. We ensure maximum visibility, delivering
-                                critical information with clarity for high-impact, recognizable brand messaging.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card">
-                        <img src="{{asset('frontend/Images/tradeshow-signage.webp')}}" class="card-img-top" alt="Event and Tradeshow Sign">
-                        <div class="card-body">
-                            <h5 class="card-title">Event and Tradeshow Sign</h5>
-                            <p class="card-text">Our signage creates immersive experiences in crowded spaces.
-                                Designed by expert signboard manufacturers, these displays transform temporary
-                                environments into powerful platforms for compelling brand storytelling.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="card">
-                        <img src="{{asset('frontend/Images/retractable-banners.webp')}}" class="card-img-top" alt="Retractable Banners">
-                        <div class="card-body">
-                            <h5 class="card-title">Retractable Banners</h5>
-                            <p class="card-text">Are you looking for compact, portable, and retractable banners? We can
-                                provide high-quality graphics and robust design, these offer seamless portability
-                                without compromising visual impact or brand messaging.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card">
-                        <img src="{{asset('frontend/Images/indoor-outdoor-banner.webp')}}" class="card-img-top"
-                            alt=" Indoor Signage Manufacturer in Bangalore">
-                        <div class="card-body">
-                            <h5 class="card-title">Indoor Signages</h5>
-                            <p class="card-text">Indoor signages are versatile brand communicators for commercial and retail spaces. 
-                                They can improve internal communication, and deliver consistent,
-                                high-impact messaging. <a href="https://brandsignages.com/indoor-signages" style="text-decoration: unset;color:#E43D12">Indoor signages</a> can transform any space into a brand communication platform and offer lasting durability.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-12 contact-section">
-                    <p class="card-text"><strong>Your brand identity is the silent ambassador of your business. At Brand Signages, we don't just design sign boards, we craft designs that leave a lasting impression. As premier signage makers in Bangalore, we bring innovation, precision, and artistry to every design.</strong></p>
-                    <a href="{{route('contact_us')}}">
-                        <button class="contact-btn">Contact Us</button>
+                <div class="col-md-12">
+                    <h1 class="hero-banner_title">Unmatched LED Sign Board<br>Solutions for Every Industry</h1>
+                    <p>Brand Signages is a trusted B2B partner for premium signage solutions in Bangalore and <br>PAN India.
+                    </p>
+                    <a href="https://brandsignages.com/contact-us">
+                        <button class="contact-btn">Know More</button>
                     </a>
                 </div>
             </div>
         </div>
     </section>
-
-
-    <section class="why-bg-light-pink py-5">
+    <section class="Sign_Boards">
         <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-4 mb-3 why-text-heading">Why Choose Us for <br>Your Signage Needs?</h2>
-                <p class="card-text">With a team of expert designers and skilled craftsmen, we deliver high-quality signage solutions. 
-                    Our expertise ensures your brand captures customer attention effectively.</p>
-            </div>
+            <div class="row">
+                <div class="col-md-4 col-12">
 
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
-                <div class="col">
-                    <div class="why-card card">
-                        <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Consulting">
-                        <div class="card-body px-0">
-                            <h3 class="why-text-red mb-3">On-site consulting & planning</h3>
-                            <p class="card-text">Our team will work closely with you and listen to your POV and brand
-                                message. We will provide exactly what you need, no guesswork, no hassle, just
-                                personalized and strategic planning for your business.</p>
-                        </div>
-                    </div>
                 </div>
-                <div class="col">
-                    <div class="why-card card">
-                        <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
-                        <div class="card-body px-0">
-                            <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
-                            <p class="card-text">As creators of brand signage, we think that signs should not be
-                                visually boring. We will create visuals that will become the talk of the town. Our team
-                                members will marry creativity and smart thinking to make your brand pop.</p>
+                <div class="col-md-8 col-12 right-col">
+                    <h2>Welcome to Brand Signages - Your Go-to Choice for Premium-quality Sign Boards</h2>
+                    <p>We are among the exclusive signage manufacturers in India with a long-standing foundation in
+                        Bangalore. We design custom sign boards to meet the exact needs of customers with no compromise in
+                        quality and delivery time. Our core principle lies in 4 strong pillars that make us the #1 sign
+                        board company in the region.  </p>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="Sign_Boards-box">
+                                <img src="{{ asset('frontend/Images/home/creative-design.png') }}" alt="Creative Design"
+                                    class="img-fluid">
+                                <h3>Creative Design</h3>
+                                <p>Our creative team provides flexible, personalized signage design, transforming your
+                                    conceptual ideas into compelling visual narratives.</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="why-card card">
-                        <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Support">
-                        <div class="card-body px-0">
-                            <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
-                            <p class="card-text">We treat signboards as art pieces, which means our work is not done
-                                with just the installations. Moreover, we take special care while doing so, checking the
-                                placement is perfect from every angle.</p>
+                        <div class="col-md-6 col-12">
+                            <div class="Sign_Boards-box">
+                                <img src="{{ asset('frontend/Images/home/expert-precision.png') }}" alt="Expert Precision "
+                                    class="img-fluid">
+                                <h3>Expert Precision </h3>
+                                <p>We master sign board manufacturing with 10+ years of experience, well-known in the
+                                    industry for LED sign board, digital signage, acrylic, and neon sign board mastery.  
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="why-card card">
-                        <img src="{{asset('frontend/Images/time-delivery.webp')}}" class="why-card-img-top" alt="Quality">
-                        <div class="card-body px-0">
-                            <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
-                            <p class="card-text">Delays and excuses are the bane of our existence. We know that a lot is
-                                riding on our signage solutions, and that's why we deliver branding signage solutions
-                                within the deadline set ahead by the clients.</p>
+                        <div class="col-md-6 col-12">
+                            <div class="Sign_Boards-box">
+                                <img src="{{ asset('frontend/Images/home/premium-quality.png') }}" alt="Premium Quality "
+                                    class="img-fluid">
+                                <h3>Premium Quality </h3>
+                                <p>Quality is our primary benchmark that we maintain being a consistent leader in the
+                                    signage industry. Commitment to quality is a practice we follow at our core principles. 
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="why-card card">
-                        <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
-                        <div class="card-body px-0">
-                            <h3 class="why-text-red mb-3">Quality material</h3>
-                            <p class="card-text">We prioritize the material quality to ensure they can withstand harsh
-                                weather and normal wear and tear. Our flexes and outdoor signs will tell the story for
-                                years and keep the brand's visual identity sharp.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        <div class="col-md-6 col-12">
+                            <div class="Sign_Boards-box">
+                                <img src="{{ asset('frontend/Images/home/timely-deliver-2.png') }}" alt="Timely Delivery"
+                                    class="img-fluid">
+                                <h3>Timely Delivery</h3>
+                                <p>We optimize workflows, maintain stringent timelines for the delivery of signage products.
+                                    We measure our growth metrics based on customer satisfaction, and timing is a part of
+                                    it.</p>
 
-            <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/on-site-consulting.webp')}}" class="why-card-img-top" alt="Consulting">
-                                    <div class="card-body why-card-body px-0">
-                                        <h3 class="why-text-red mb-3">On-site consulting & planning</h3>
-                                        <p class="card-text">Our team will work closely with you and listen to your POV
-                                            and brand message. We will provide exactly what you need, no guesswork, no
-                                            hassle, just personalized and strategic planning for your business.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/top-tier-designs.webp')}}" class="why-card-img-top" alt="Designs">
-                                    <div class="card-body why-card-body px-0">
-                                        <h3 class="why-text-red mb-3">Top-tier Creative Designs</h3>
-                                        <p class="card-text">As creators of brand signage, we think that signs should
-                                            not be visually boring. We will create visuals that will become the talk of
-                                            the town. Our team members will marry creativity and smart thinking to make
-                                            your brand pop.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Workforce">
-                                    <div class="card-body why-card-body px-0">
-                                        <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
-                                        <p class="card-text">We treat signboards as art pieces, which means our work is
-                                            not done with just the installations. Moreover, we take special care while
-                                            doing so, checking the placement is perfect from every angle.</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/skilled-workforce.webp')}}" class="why-card-img-top" alt="Support">
-                                    <div class="card-body why-card-body px-0">
-                                        <h3 class="why-text-red mb-3">Skilled workforce for installation</h3>
-                                        <p class="card-text">We treat signboards as art pieces, which means our work is
-                                            not done with just the installations. Moreover, we take special care while
-                                            doing so, checking the placement is perfect from every angle. <br> <br> </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/time-delivery.webp')}}" class="why-card-img-top" alt="Quality">
-                                    <div class="card-body why-card-body px-0">
-                                        <h3 class="why-text-red mb-3">Timely Delivery of signage boards</h3>
-                                        <p class="card-text">Delays and excuses are the bane of our existence. We know
-                                            that a lot is riding on our signage solutions, and that's why we deliver
-                                            branding signage solutions within the deadline set ahead by the clients.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="why-card card">
-                                    <img src="{{asset('frontend/Images/quality-material.webp')}}" class="why-card-img-top" alt="Customer Service">
-                                    <div class="card-body why-card-body px-0">
-                                        <h3 class="why-text-red mb-3">Quality material</h3>
-                                        <p class="card-text">We prioritize the material quality to ensure they can
-                                            withstand harsh weather and normal wear and tear. Our flexes and outdoor
-                                            signs will tell the story for years and keep the brand's visual identity
-                                            sharp.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="why-carousel-controls">
-                    <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
-                        data-bs-slide="prev">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
-                        data-bs-slide="next">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
-
-                <div class="carousel-indicators why-carousel-indicators">
-                    <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
-                        aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
                 </div>
             </div>
         </div>
     </section>
+    <section class="led-signs-manufacturing">
+        <div class="container pt-5">
 
-    <section class="testimonial section ">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-4 mb-3 why-text-heading">Feedback from Our Valuable Clients</h2>
-            </div>
-
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none ">
-                <div class="col testimonial-small-div">
-                    <div class="testimonial-card card">
-                        <div class="yellow-circle">
-                            <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                        </div>
-                        <div class="card-body px-0">
-                            <p class="card-text testimonial-card-text">Our tech startup needed a signage solution that
-                                matched our innovative spirit. The design team didn't just create a sign; they captured
-                                our company's entire essence. The LED-powered brand display has become a conversation
-                                starter for clients and employees alike</p>
-                            <hr class="yellow-line">
-                            <div class="client-info">
-                                <img src="{{asset('frontend/Images/micheal.webp')}}" alt="Michael" class="client-img">
-                                <div>
-                                    <div class="client-name">Michael</div>
-                                    <div class="client-role">CEO, Technova Innovations</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col testimonial-small-div">
-                    <div class="testimonial-card card">
-                        <div class="yellow-circle">
-                            <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                        </div>
-                        <div class="card-body px-0">
-                            <p class="card-text testimonial-card-text">As a boutique hotel chain, brand
-                                consistency is everything. These custom signages transformed our brand
-                                experience across multiple locations. The attention to detail is remarkable
-                                - each piece feels uniquely crafted yet perfectly aligned with our brand
-                                identity</p>
-                            <hr class="yellow-line">
-                            <div class="client-info">
-                                <img src="{{asset('frontend/Images/ashish.webp')}}" alt="Ashish" class="client-img">
-                                <div>
-                                    <div class="client-name">Ashish</div>
-                                    <div class="client-role">CEO of a hotel company</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col testimonial-small-div">
-                    <div class="testimonial-card card">
-                        <div class="yellow-circle">
-                            <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                        </div>
-                        <div class="card-body px-0">
-                            <p class="card-text testimonial-card-text">We needed urgent signage for our new
-                                retail location, and they delivered beyond expectations. The direct
-                                communication and on-demand design process made the experience seamless and
-                                stress-free</p>
-                            <hr class="yellow-line">
-                            <div class="client-info">
-                                <img src="{{asset('frontend/Images/nadini.webp')}}" alt="Nadini" class="client-img">
-                                <div>
-                                    <div class="client-name">Nadini</div>
-                                    <div class="client-role">A Realtor</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col testimonial-small-div">
-                    <div class="testimonial-card card">
-                        <div class="yellow-circle">
-                            <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                        </div>
-                        <div class="card-body px-0">
-                            <p class="card-text testimonial-card-text">I was skeptical about how a signage
-                                company could truly understand our nonprofit's mission. But they did more
-                                than create a sign - they created a visual story that speaks to our
-                                community's heart. The quality and emotional resonance are unmatched 
-                            </p>
-                            <hr class="yellow-line">
-                            <div class="client-info">
-                                <img src="{{asset('frontend/Images/gonzalez.webp')}}" alt="Gonzalez" class="client-img">
-                                <div>
-                                    <div class="client-name">Gonzalez</div>
-                                    <div class="client-role">Executive Director, Real Estate</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col testimonial-small-div">
-                    <div class="testimonial-card card">
-                        <div class="yellow-circle">
-                            <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                        </div>
-                        <div class="card-body px-0">
-                            <p class="card-text testimonial-card-text">The level of professionalism was extraordinary.
-                                The materials they recommended perfectly suited our outdoor corporate environment,
-                                withstanding harsh weather while maintaining vibrant brand representation</p>
-                            <hr class="yellow-line">
-                            <div class="client-info">
-                                <img src="{{asset('frontend/Images/mayank.webp')}}" alt="Mayank" class="client-img">
-                                <div>
-                                    <div class="client-name">Mayank</div>
-                                    <div class="client-role">Finance, IT company.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="testimonialCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="testimonial-card card">
-                                    <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                    </div>
-                                    <div class="card-body px-0">
-                                        <p class="card-text testimonial-card-text">Our tech startup needed a signage
-                                            solution that matched our innovative spirit. The design team didn't just
-                                            create a sign; they captured our company's entire essence. The LED-powered
-                                            brand display has become a conversation starter for clients and employees
-                                            alike</p>
-                                        <hr class="yellow-line">
-                                        <div class="client-info">
-                                            <img src="{{asset('frontend/Images/micheal.webp')}}" alt="Michael" class="client-img">
-                                            <div>
-                                                <div class="client-name">Michael</div>
-                                                <div class="client-role">CEO, Technova Innovations</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="testimonial-card card">
-                                    <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                    </div>
-                                    <div class="card-body px-0">
-                                        <p class="card-text testimonial-card-text">As a boutique hotel chain, brand
-                                            consistency is everything. These custom signages transformed our brand
-                                            experience across multiple locations. The attention to detail is remarkable
-                                            - each piece feels uniquely crafted yet perfectly aligned with our brand
-                                            identity</p>
-                                        <hr class="yellow-line">
-                                        <div class="client-info">
-                                            <img src="{{asset('frontend/Images/ashish.webp')}}" alt="Ashish" class="client-img">
-                                            <div>
-                                                <div class="client-name">Ashish</div>
-                                                <div class="client-role">CEO of a hotel company</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="testimonial-card card">
-                                    <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                    </div>
-                                    <div class="card-body px-0">
-                                        <p class="card-text testimonial-card-text">We needed urgent signage for our new
-                                            retail location, and they delivered beyond expectations. The direct
-                                            communication and on-demand design process made the experience seamless and
-                                            stress-free</p>
-                                        <hr class="yellow-line">
-                                        <div class="client-info">
-                                            <img src="{{asset('frontend/Images/nadini.webp')}}" alt="Nadini" class="client-img">
-                                            <div>
-                                                <div class="client-name">Nadini</div>
-                                                <div class="client-role">A Realtor</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="testimonial-card card">
-                                    <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                    </div>
-                                    <div class="card-body px-0">
-                                        <p class="card-text testimonial-card-text">We needed urgent signage for our new
-                                            retail location, and they delivered beyond expectations. The direct
-                                            communication and on-demand design process made the experience seamless and
-                                            stress-free</p>
-                                        <hr class="yellow-line">
-                                        <div class="client-info">
-                                            <img src="{{asset('frontend/Images/nadini.webp')}}" alt="Nadini" class="client-img">
-                                            <div>
-                                                <div class="client-name">Nadini</div>
-                                                <div class="client-role">A Realtor</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="testimonial-card card">
-                                    <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                    </div>
-                                    <div class="card-body px-0">
-                                        <p class="card-text testimonial-card-text">I was skeptical about how a signage
-                                            company could truly understand our nonprofit's mission. But they did more
-                                            than create a sign - they created a visual story that speaks to our
-                                            community's heart. The quality and emotional resonance are unmatched <br>
-                                            <br>
-                                        </p>
-                                        <hr class="yellow-line">
-                                        <div class="client-info">
-                                            <img src="{{asset('frontend/Images/gonzalez.webp')}}" alt="Gonzalez" class="client-img">
-                                            <div>
-                                                <div class="client-name">Gonzalez</div>
-                                                <div class="client-role">Executive Director, Real Estate</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="testimonial-card card">
-                                    <div class="yellow-circle">
-                                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                    </div>
-                                    <div class="card-body px-0">
-                                        <p class="card-text testimonial-card-text">The level of professionalism was
-                                            extraordinary. The materials they recommended perfectly suited our outdoor
-                                            corporate environment, withstanding harsh weather while maintaining vibrant
-                                            brand representation</p>
-                                        <hr class="yellow-line">
-                                        <div class="client-info">
-                                            <img src="{{asset('frontend/Images/mayank.webp')}}" alt="Mayank" class="client-img">
-                                            <div>
-                                                <div class="client-name">Mayank</div>
-                                                <div class="client-role">Finance, IT company.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-imagex">
+                        <img src="{{asset('frontend/Images/home/led-sign-bg.webp')}}" alt="Cafe Rosco Signage"
+                            class="img-fluid">
                     </div>
                 </div>
 
-                <div class="testimonial-carousel-controls">
-                    <button id="prevButton" class="testimonial-carousel-control" type="button"
-                        data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button id="nextButton" class="testimonial-carousel-control" type="button"
-                        data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
-
-                <div class="carousel-indicators testimonial-carousel-indicators">
-                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
-                        aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
+                <div class="col-lg-6">
+                    <h2 class="hero-title text-start">Top-rated LED Signage Manufacturer with a Decade of Expertise </h2>
+                    <p class="brand-description">
+                        Brand Signages was established in 2014 with a vision to empower brands with signage solutions that
+                        are unmatched in quality and design. We are meeting the deadlines in 2025 as the best-rated signage
+                        manufacturer, working with the top brands across India. Our hustle is going on, and we work
+                        tirelessly to hold the title and remain a signage superpower. 
+                    </p>
+                    <ul class="brand-list">
+                        <li class="mb-3">
+                            The process begins with conceptualisation. Our designers collaborate closely with clients to
+                            understand the target audience and design objectives.
+                        </li>
+                        <li class="mb-3">
+                            At our signage manufacturing facility, we create the final product, including the desired colour
+                            palettes, typography, and logo placement. 
+                        </li>
+                        <li>
+                            The final stage involves quality control, where each signage piece is meticulously inspected to
+                            ensure it perfectly represents the brand's visual standards.
+                        </li>
+                        <div class="mt-4">
+                            <a href="{{route('about_us')}}" class="custom-btn">About Us</a>
+                        </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="new_custom-stats-section">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <h2 class="new_custom-stats-number">10+</h2>
+                    <p class="new_custom-stats-label">Years In Signage Design</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0 position-relative">
+                    <div class="new_custom-divider-left d-none d-md-block"></div>
+                    <h2 class="new_custom-stats-number">12,000+</h2>
+                    <p class="new_custom-stats-label">Deliveries Done</p>
+                    <div class="new_custom-divider-right d-none d-md-block"></div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h2 class="new_custom-stats-number">2,500+</h2>
+                    <p class="new_custom-stats-label">Client Base</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="new_custom-why-choose">
+  <div class="container">
+    <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages as Your<br> Signage Companion?</h2>
+    <div class="row justify-content-center g-4">
 
+      <!-- Expertise -->
+      <div class="col-md-4 justify-content-between d-flex flex-column">
+        <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
+          <p>We are among the best when it comes to signage manufacturing. We craft signage designs that speak volumes and attract audience from a distance.</p>
+          <h4 class="new_custom-title">Expertise</h4>
+        </div>
+        <div class="why-choose-image-container">
+            <img src="{{ asset('frontend/Images/home/why-choose.webp') }}" alt="why choose us" class="img-fluid mt-3">
+        </div>
+      </div>
+
+      <!-- Experience -->
+      <div class="col-md-4">
+        <div class="new_custom-box new_custom-image-box" style="background-image: url('{{ asset('frontend/Images/home/why-choose-2.webp') }}');">
+          <div class="new_custom-overlay">
+            <h4 class="new_custom-title text-white">Experience</h4>
+            <p class="text-white">We have 10 years of experience in the signage industry and have worked with major brands across India in various industries and verticals.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Excellence -->
+      <div class="col-md-4 justify-content-between d-flex flex-column">
+        <div class="why-choose-image-container">
+            <img src="{{ asset('frontend/Images/home/why-choose-3.webp') }}" alt="why choose us" class="img-fluid mb-3">
+        </div>
+        <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
+          <h4 class="new_custom-title">Excellence</h4>
+          <p>Our excellence lies in 4 core pillars, and we see ourselves as an unmatched competitor in signage design and manufacturing.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+    <section class="new_client_section container">
+        <h2 class="new_client_section-title">Our Clients</h2>
+        <div class="row">
+            <div class="col-md-5 new_client_section-image col-12">
+                <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
+            </div>
+            <div class="col-md-7 new_client_section-scrolling col-12">
+
+                <div class="new_client_section-wrapper">
+                    <!-- Row 1 (Left to Right) -->
+                    <div class="new_client_section-row new_client_section-row-1">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Client Logo">
+                        </div>
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Client Logo">
+                        </div>
+
+                    </div>
+
+                    <!-- Row 2 (Right to Left) -->
+                    <div class="new_client_section-row new_client_section-row-2">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Client Logo">
+                        </div>
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Client Logo">
+                        </div>
+                    </div>
+
+                    <!-- Row 3 (Left to Right) -->
+                    <div class="new_client_section-row new_client_section-row-3">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="Client Logo">
+                        </div>
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Client Logo">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="Client Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="new_testimonial-swiper-section">
+        <div class="container">
+            <h2 class="text-center mb-md-5 mb-3">Feedback from Our Valuable Clients</h2>
+
+            <div class="position-relative">
+
+                <!-- Navigation Arrows (placed OUTSIDE swiper container) -->
+                <div class="new_testimonial-button-prev">
+                    <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40" height="40">
+                </div>
+                <div class="new_testimonial-button-next">
+                    <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40" height="40">
+                </div>
+
+                <!-- Swiper -->
+                <div class="swiper new_testimonial-swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide Item -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    Our tech startup needed a signage solution that matched our innovative spirit. The
+                                    design team didn't just create a sign; they captured our company's entire essence.
+                                    The LED-powered brand display has become a conversation starter for clients and
+                                    employees alike.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client"
+                                        class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Michael</h6>
+                                        <small class="text-muted">CEO, Technova Innovations</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Duplicate Slide -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    Our tech startup needed a signage solution that matched our innovative spirit. The
+                                    design team didn't just create a sign; they captured our company's entire essence.
+                                    The LED-powered brand display has become a conversation starter for clients and
+                                    employees alike.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client"
+                                        class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Michael</h6>
+                                        <small class="text-muted">CEO, Technova Innovations</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
+                <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs
+                    through our articles.</p>
+            </div>
+
+            <div class="row">
+                @foreach ($blogs as $blog)
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                        <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
+                            <div class="blog-card">
+                                <div class="blog-card-img">
+                                    <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
+                                </div>
+                                <div class="blog-card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <span class="badge">{{ strtoupper($blog->topic) }}</span>
+                                        <span class="time">{{ $blog->reding_time }} mins 🕘</span>
+                                    </div>
+                                    <h5 class="blog-card-title">{{ $blog->title }}</h5>
+                                    <p class="card-text">
+                                        {{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                @endforeach
+                <div class="text-center">
+                    <a href="{{ route('blogs') }}">
+                        <button class="contact-btn">See All Blogs</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="faq-section">
-        <div class="faq-container">
+        <div class="container">
             <h1 class="faq-title">FAQs</h1>
 
             <div class="faq-item">
@@ -713,14 +433,21 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Signage or branding signs are used for various purposes across different industries to communicate messages, enhance branding, and enhance navigation. Here are the key uses of signage:</p>
+                    <p>Signage or branding signs are used for various purposes across different industries to communicate
+                        messages, enhance branding, and enhance navigation. Here are the key uses of signage:</p>
                     <ul>
-                        <li>Branding & Marketing – Businesses use signage to display their logo, promote offers, and enhance brand visibility.</li>
-                        <li>Wayfinding & Navigation – Helps people find directions in malls, hospitals, offices, and public spaces.</li>
-                        <li>Safety & Compliance – Includes fire safety signs, construction signs, and hazard warnings to ensure safety.</li>
-                        <li>Retail & Advertising – Digital and traditional signage in stores to promote products and boost sales.</li>
-                        <li>Corporate & Office Use – Nameplates, department signs, and meeting room displays for organization and professionalism.</li>
-                        <li>Event & Exhibition Signage – Used for banners, standees, and digital screens to guide attendees.</li>
+                        <li>Branding & Marketing – Businesses use signage to display their logo, promote offers, and enhance
+                            brand visibility.</li>
+                        <li>Wayfinding & Navigation – Helps people find directions in malls, hospitals, offices, and public
+                            spaces.</li>
+                        <li>Safety & Compliance – Includes fire safety signs, construction signs, and hazard warnings to
+                            ensure safety.</li>
+                        <li>Retail & Advertising – Digital and traditional signage in stores to promote products and boost
+                            sales.</li>
+                        <li>Corporate & Office Use – Nameplates, department signs, and meeting room displays for
+                            organization and professionalism.</li>
+                        <li>Event & Exhibition Signage – Used for banners, standees, and digital screens to guide attendees.
+                        </li>
                         <li>Informational Signage – Displays important messages, notices, or public announcements.</li>
                     </ul>
                 </div>
@@ -732,14 +459,19 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Choosing a signage depends on many factors, including your business type, location, and branding goals. Here's how to make the right choice:</p>
+                    <p>Choosing a signage depends on many factors, including your business type, location, and branding
+                        goals. Here's how to make the right choice:</p>
                     <ul>
                         <li>Purpose – Determine whether the signage is for branding, wayfinding, promotions, or safety.</li>
-                        <li>Location & Visibility – Choose signage that stands out in your environment, whether indoor or outdoor.</li>
+                        <li>Location & Visibility – Choose signage that stands out in your environment, whether indoor or
+                            outdoor.</li>
                         <li>Right Material – Opt for durable materials based on weather conditions and usage.</li>
-                        <li>Design & Readability – Ensure the signage has clear fonts, high-contrast colors, and an eye-catching design.</li>
-                        <li>The Right Lighting – Consider LED or illuminated signs for better visibility, especially at night.</li>
-                        <li>Hire Professionals – Collaborate with expert sign board manufacturers to get a high-quality, customized solution.</li>
+                        <li>Design & Readability – Ensure the signage has clear fonts, high-contrast colors, and an
+                            eye-catching design.</li>
+                        <li>The Right Lighting – Consider LED or illuminated signs for better visibility, especially at
+                            night.</li>
+                        <li>Hire Professionals – Collaborate with expert sign board manufacturers to get a high-quality,
+                            customized solution.</li>
                     </ul>
                 </div>
             </div>
@@ -749,8 +481,10 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>The cost of digital signage depends on various factors like screen size, technology, content management software, and installation. 
-                        While the investment can be much higher than traditional signage, digital signage offers long-term benefits such as dynamic content 
+                    <p>The cost of digital signage depends on various factors like screen size, technology, content
+                        management software, and installation.
+                        While the investment can be much higher than traditional signage, digital signage offers long-term
+                        benefits such as dynamic content
                         updates, scalability, and better engagement.</p>
                     <ul>
                         <li>Basic Digital Signage (Small Screens): Starts from ₹15,000 to ₹50,000.</li>
@@ -768,16 +502,24 @@
                 <div class="faq-answer">
                     <p>As sign board makers, we provide a diverse range of solutions to businesses such as:</p>
                     <ul>
-                        <li><a href="https://brandsignages.com/neon-signages" style="text-decoration: unset;color:#E43D12">Glow signboard</a></li>
+                        <li><a href="https://brandsignages.com/neon-signages"
+                                style="text-decoration: unset;color:#E43D12">Glow signboard</a></li>
                         <li>Acp signboard</li>
-                        <li><a href="https://brandsignages.com/arcylic-signages" style="text-decoration: unset;color:#E43D12">Acrylic LED signboards</a></li>
+                        <li><a href="https://brandsignages.com/arcylic-signages"
+                                style="text-decoration: unset;color:#E43D12">Acrylic LED signboards</a></li>
                         <li>Channel Letter signs</li>
-                        <li><a href="https://brandsignages.com/digital-signages" style="text-decoration: unset;color:#E43D12">Digital signages</a></li>
-                        <li><a href="https://brandsignages.com/metal-signages" style="text-decoration: unset;color:#E43D12">Steel letter</a></li>
-                        <li><a href="https://brandsignages.com/fire-safety-signages" style="text-decoration: unset;color:#E43D12">Fire safety signs</a></li>
-                        <li><a href="https://brandsignages.com/led-light-signages" style="text-decoration: unset;color:#E43D12">LED letter sign</a></li>
-                        <li><a href="https://brandsignages.com/neon-signages" style="text-decoration: unset;color:#E43D12">Neon sign board</a></li>
-                        <li><a href="https://brandsignages.com/outdoor-signages" style="text-decoration: unset;color:#E43D12">Outdoor signs</a></li>
+                        <li><a href="https://brandsignages.com/digital-signages"
+                                style="text-decoration: unset;color:#E43D12">Digital signages</a></li>
+                        <li><a href="https://brandsignages.com/metal-signages"
+                                style="text-decoration: unset;color:#E43D12">Steel letter</a></li>
+                        <li><a href="https://brandsignages.com/fire-safety-signages"
+                                style="text-decoration: unset;color:#E43D12">Fire safety signs</a></li>
+                        <li><a href="https://brandsignages.com/led-light-signages"
+                                style="text-decoration: unset;color:#E43D12">LED letter sign</a></li>
+                        <li><a href="https://brandsignages.com/neon-signages"
+                                style="text-decoration: unset;color:#E43D12">Neon sign board</a></li>
+                        <li><a href="https://brandsignages.com/outdoor-signages"
+                                style="text-decoration: unset;color:#E43D12">Outdoor signs</a></li>
                     </ul>
                 </div>
             </div>
@@ -876,9 +618,9 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, we provide signage board installation services in Bangalore and all over India. When you 
+                    <p>Yes, we provide signage board installation services in Bangalore and all over India. When you
                         order from us, you can expect:</p>
-                        <ul>
+                    <ul>
                         <li>High-Quality Signage: We use durable, premium materials</li>
                         <li>Customized Designs: We understand your brand's unique needs</li>
                         <li>Timely Installation: We guarantee prompt and efficient installation</li>
@@ -887,7 +629,7 @@
                         <li>Affordable Pricing: Competitive rates without compromising on quality</li>
                     </ul>
                 </div>
-            </div>   
+            </div>
 
             <div class="faq-item">
                 <button class="faq-question">
@@ -895,85 +637,39 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, you can definitely order a single piece as a sample before placing a bulk order. 
-                        This allows you to evaluate the quality, design, and material of the signage boards 
-                        firsthand. We want you to be completely satisfied with your choice, so feel free to 
-                        request a sample to ensure it meets your expectations before making a larger 
+                    <p>Yes, you can definitely order a single piece as a sample before placing a bulk order.
+                        This allows you to evaluate the quality, design, and material of the signage boards
+                        firsthand. We want you to be completely satisfied with your choice, so feel free to
+                        request a sample to ensure it meets your expectations before making a larger
                         commitment.</p>
                 </div>
-            </div>   
-            
+            </div>
+
             <div class="faq-item">
                 <button class="faq-question">
                     How long does it take to manufacture and deliver a signage board?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>It takes almost 7-10 business days to deliver signage. After you 
-                        finalize the design and material, we'll proceed with manufacturing 
-                        and delivery of the signages. We ensure a hassle-free experience during the 
+                    <p>It takes almost 7-10 business days to deliver signage. After you
+                        finalize the design and material, we'll proceed with manufacturing
+                        and delivery of the signages. We ensure a hassle-free experience during the
                         entire process. </p>
                 </div>
             </div>
-                
+
             <div class="faq-item">
                 <button class="faq-question">
                     Can you create signage for events and exhibitions in Bangalore?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, we also create signage for events and exhibitions in Bangalore. Whether it's 
-                        directional signage, banners, stands, or branded displays, we offer a range of options. 
-                        We are a leading signage manufacturer in Bangalore & India to help you with any type of 
+                    <p>Yes, we also create signage for events and exhibitions in Bangalore. Whether it's
+                        directional signage, banners, stands, or branded displays, we offer a range of options.
+                        We are a leading signage manufacturer in Bangalore & India to help you with any type of
                         custom signage solutions. </p>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
-                <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our articles.</p>
-            </div>
-
-            <div class="row">
-                @foreach ($blogs as $blog)
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">{{ strtoupper($blog->topic) }}</span>
-                                    <span class="time">{{ $blog->reding_time }} mins 🕘</span>
-                                </div>
-                                <h5 class="blog-card-title">{{ $blog->title }}</h5>
-                                <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                @endforeach
-                <div class="text-center">
-                <a href="{{ route('blogs') }}">
-                    <button class="contact-btn">See All Blogs</button>
-                </a>
-                </div>
-            </div>
-        </div>
-    </section>
 @endsection
-
-@push('styles')
-    <link rel="preload" href="{{ asset('frontend/Images/banner1.webp') }}" as="image" media="(min-width: 769px)">
-    <link rel="preload" href="{{ asset('frontend/Images/banner1-sm.webp') }}" as="image" media="(max-width: 768px)">
-    <link rel="preload" href="{{ asset('frontend/Images/cafe-rosco-signage.webp') }}" as="image">
-    <link rel="preload" href="{{ asset('frontend/Images/graphic-designer.webp') }}" as="image">
-@endpush
-
-{{-- @vite(['resources/js/app.js', 'resources/css/app.css']) --}}

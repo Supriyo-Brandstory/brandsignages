@@ -322,7 +322,7 @@
 h1.hero-banner_title {
     font-family: 'Lora';
     font-weight: 700;
-    font-size: 52px;
+    font-size: 47px;
     letter-spacing: 0%;
     color: #fff;
 }
@@ -421,7 +421,7 @@ h1.hero-banner_title {
     background-repeat: no-repeat;
 }
 
- .achievements-section h2 {
+.achievements-section h2 {
     font-family: 'Lora';
     font-weight: 600;
     font-size: 40px;
@@ -430,6 +430,7 @@ h1.hero-banner_title {
     text-align: center;
     margin-bottom: 40px;
 }
+
 @media (max-width: 576px) {
     .home-page .achievement-box.height-270 {
         height: 160px;
@@ -1565,116 +1566,425 @@ h1.hero-banner_title {
 }
 
 @media (max-width: 576px) {
-  .new_testimonial-swiper-section {
-   padding: 40px 10px 70px;
-  }
+    .new_testimonial-swiper-section {
+        padding: 40px 10px 70px;
+    }
 
-  .new_testimonial-swiper-section h2 {
-    font-size: 28px;
-    line-height: 130%;
-    margin-bottom: 30px;
-    padding: 0 10px;
-  }
+    .new_testimonial-swiper-section h2 {
+        font-size: 28px;
+        line-height: 130%;
+        margin-bottom: 30px;
+        padding: 0 10px;
+    }
 
-  .new_testimonial-swiper {
-    width: 100%;
-  }
+    .new_testimonial-swiper {
+        width: 100%;
+    }
 
-  .new_testimonial-swiper .description {
-    font-size: 16px;
-    line-height: 140%;
-  }
+    .new_testimonial-swiper .description {
+        font-size: 16px;
+        line-height: 140%;
+    }
 
-  .new_testimonial-swiper .name {
-    font-size: 18px;
-  }
+    .new_testimonial-swiper .name {
+        font-size: 18px;
+    }
 
-  .new_testimonial-swiper .degignation {
-    font-size: 14px;
-  }
+    .new_testimonial-swiper .degignation {
+        font-size: 14px;
+    }
 
-  .new_testimonial-swiper img {
-    width: 48px;
-    height: 48px;
-  }
+    .new_testimonial-swiper img {
+        width: 48px;
+        height: 48px;
+    }
 
-  .swiper-slide > div {
-    padding: 20px !important;
-  }
+    .swiper-slide>div {
+        padding: 20px !important;
+    }
 
-  .new_testimonial-button-prev,
-  .new_testimonial-button-next {
-    top: unset;
-    bottom: -45px;
-    transform: none;
-  }
+    .new_testimonial-button-prev,
+    .new_testimonial-button-next {
+        top: unset;
+        bottom: -45px;
+        transform: none;
+    }
 
-  .new_testimonial-button-prev {
-    left: 35%;
-  }
+    .new_testimonial-button-prev {
+        left: 35%;
+    }
 
-  .new_testimonial-button-next {
-    right: 35%;
-  }
+    .new_testimonial-button-next {
+        right: 35%;
+    }
 
-  .new_testimonial-button-prev img,
-  .new_testimonial-button-next img {
-    width: 32px;
-    height: 32px;
-  }
+    .new_testimonial-button-prev img,
+    .new_testimonial-button-next img {
+        width: 32px;
+        height: 32px;
+    }
 }
 
 
 /* custom enquery  */
-    .custom-enquery-img {
+.custom-enquery-img {
     width: 608px;
     height: 490px;
     border-radius: 20px;
     object-fit: cover;
-    }
-    .order-custom-signage-form h2 {
-        font-family: 'Lora';
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 120%;
-        letter-spacing: 0%;
+}
 
-    }
+.order-custom-signage-form h2 {
+    font-family: 'Lora';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0%;
 
-    .order-custom-signage-form p {
-        font-family: Roboto;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 130%;
-        letter-spacing: 0%;
-        margin: 25px 0px
-    }
-    .order-custom-signage-form .fromfiled{
+}
+
+.order-custom-signage-form p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    margin: 25px 0px
+}
+
+.order-custom-signage-form .fromfiled {
     padding: 20px 15px;
     background: #FFFFFF;
     box-shadow: 0px 0px 35px 0px #00000014;
     /* color: #00000080; */
 }
-.inquery-from-section{
+
+.inquery-from-section {
     margin: 60px auto;
 }
 
 @media (max-width: 576px) {
-    .inquery-from-section{
+    .inquery-from-section {
         margin: 40px auto;
     }
+
     .order-custom-signage-form h2 {
-    font-size: 28px;
-    text-align: center;
-    margin: 20px 0;
+        font-size: 28px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .order-custom-signage-form p {
+        text-align: center;
+    }
+
+    .mobile.align-items-start {
+        align-items: center !important;
+        flex-direction: column;
+        margin: 25px auto 0;
+    }
 }
-.order-custom-signage-form p {
-    text-align: center;
+
+
+
+/* Sign Boards section */
+
+.Sign_Boards {
+    background: url('/frontend/Images/home/signages-borad-bg.webp') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0 60px;
+    color: #fff;
+    padding: 40px 0px;
 }
-.mobile.align-items-start{
-    align-items: center !important;
+
+.Sign_Boards h2 {
+    font-family: 'Lora';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-top: 10px;
+}
+
+.Sign_Boards p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    margin: 40px 0px;
+
+}
+.Sign_Boards .right-col {
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.Sign_Boards-box {
+    backdrop-filter: blur(45px);
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 12px 0px;
+    min-height: 248px;
+    display: flex;
     flex-direction: column;
-    margin: 25px auto 0; 
+    align-items: self-start;
+    justify-content: center;
+}
+
+.Sign_Boards-box img {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 12px;
+}
+
+.Sign_Boards-box h3 {
+    font-family: 'Lora';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #E43D12;
+}
+
+.Sign_Boards-box p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin: 0;
+    color: #212121;
+    text-align: left;
+}
+
+.Sign_Boards .Sign_Boards-box .button {
+    gap: 10px;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background: #E43D12;
+    text-decoration: unset;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+@media (max-width: 576px) {
+    .Sign_Boards-box.align-items-center {
+        align-items: center !important;
+    }
+
+    .Sign_Boards h2 {
+        text-align: center;
+        font-size: 28px;
+        margin: 0px 0px 20px;
+    }
+
+    .Sign_Boards {
+        margin: 0px 0 40px;
+    }
+    .Sign_Boards .right-col {
+    padding: 10px;
+}
+.Sign_Boards-box {
+    margin: 6px 0px;
+}
+.Sign_Boards p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    margin: 20px auto;
+    text-align: center;
+}
+.Sign_Boards-box p {
+    text-align: center;
 }
 }
 
+
+/* led signs manufacturing section */
+.led-signs-manufacturing {
+margin: 0px auto 60px;
+}
+ul.brand-list {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 151%;
+    letter-spacing: 0%;
+    color: #212121;
+}
+
+.led-signs-manufacturing .brand-description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #212121;
+    margin-bottom: 40px;
+}
+.led-signs-manufacturing .custom-btn {
+    padding: 10px 28px;
+    
+}
+
+/* new statsh section */
+.new_custom-stats-section {
+  background-color: #e63912;
+    padding: 100px;
+}
+
+.new_custom-stats-number {
+  font-family: 'Lora';
+font-weight: 600;
+font-size: 64px;
+line-height: 120%;
+
+  margin-bottom: 10px;
+}
+
+.new_custom-stats-label {
+ font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.new_custom-divider-left,
+.new_custom-divider-right {
+  position: absolute;
+  top: 50%;
+  width: 1px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-50%);
+}
+
+.new_custom-divider-left {
+  left: 0;
+}
+
+.new_custom-divider-right {
+  right: 0;
+}
+@media (max-width: 576px) {
+    .new_custom-stats-section {
+        padding: 60px 20px;
+    }
+
+    .new_custom-stats-number {
+        font-size: 60px;
+        line-height: 130%;
+        margin-bottom: 8px;
+    }
+
+    .new_custom-stats-label {
+        font-size: 20px;
+        line-height: 140%;
+    }
+
+    .new_custom-divider-left,
+    .new_custom-divider-right {
+        height: 60px;
+    }
+}
+
+
+/* new custom why choose section */
+.new_custom-why-choose {
+  color: #000;
+  margin: 60px auto ;
+}
+
+.new_custom-heading {
+ font-family: 'Lora';
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.new_custom-box {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.new_custom-light-box {
+  background-color: #FCECE7;
+  padding: 30px;
+}
+.new_custom-light-box-3 {
+    background-color: #FDF7E8;
+    padding: 30px;
+}
+.new_custom-box p{
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+letter-spacing: 0%;
+
+}
+.new_custom-box h4 {
+ font-family: 'Lora';
+font-weight: 600;
+font-size: 28px;
+line-height: 120%;
+letter-spacing: 0%;
+
+}
+
+.new_custom-image-box {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.new_custom-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  width: 100%;
+}
+
+.new_custom-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 767.98px) {
+  .new_custom-title {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .new_custom-light-box,
+  .new_custom-overlay {
+    padding: 20px;
+  }
+
+  .new_custom-heading {
+    font-size: 22px;
+  }
+}
