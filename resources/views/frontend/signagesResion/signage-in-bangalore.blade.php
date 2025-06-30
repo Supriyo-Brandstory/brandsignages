@@ -470,7 +470,7 @@
         </section>
 
         <section class="new_client_section container">
-            <h2 class="new_client_section-title">Our Clients</h2>
+            <h2 class="new_client_section-title">Our Valuable Clients</h2>
             <div class="row">
                 <div class="col-md-5 new_client_section-image col-12">
                     <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
@@ -642,7 +642,7 @@
                                         employees alike.
                                     </p>
                                     <div class="d-flex align-items-center mt-4">
-                                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client"
+                                        <img src="{{ asset('frontend/Images/home/testimonial-1.webp') }}" alt="Michael, CEO, Technova Innovations"
                                             class="rounded-circle me-3" width="50" height="50">
                                         <div>
                                             <h6 class="name">Michael</h6>
@@ -660,17 +660,60 @@
                                             width="40" height="40">
                                     </div>
                                     <p class="description">
-                                        Our tech startup needed a signage solution that matched our innovative spirit. The
-                                        design team didn't just create a sign; they captured our company's entire essence.
-                                        The LED-powered brand display has become a conversation starter for clients and
-                                        employees alike.
+                                        As a boutique hotel chain, brand consistency is everything. These custom signages transformed 
+                                        our brand experience across multiple locations. The attention to detail is remarkable - each piece 
+                                        feels uniquely crafted yet perfectly aligned with our brand identity.
                                     </p>
                                     <div class="d-flex align-items-center mt-4">
-                                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client"
+                                        <img src="{{ asset('frontend/Images/home/testimonial-2.webp') }}" alt="Asish, CEO, A Hotel Chain"
                                             class="rounded-circle me-3" width="50" height="50">
                                         <div>
-                                            <h6 class="name">Michael</h6>
-                                            <small class="text-muted">CEO, Technova Innovations</small>
+                                            <h6 class="name">Asish</h6>
+                                            <small class="text-muted">CEO, A Hotel Chain</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                    <div class="mb-4">
+                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                            width="40" height="40">
+                                    </div>
+                                    <p class="description">
+                                        As a boutique hotel chain, brand consistency is everything. These custom signages transformed 
+                                        our brand experience across multiple locations. The attention to detail is remarkable - each piece 
+                                        feels uniquely crafted yet perfectly aligned with our brand identity.
+                                    </p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <img src="{{ asset('frontend/Images/home/testimonial-3.webp') }}" alt="Nandini, CEO, A Real Estate Company"
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="name">Nandini</h6>
+                                            <small class="text-muted">CEO, A Real Estate Company</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                    <div class="mb-4">
+                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                            width="40" height="40">
+                                    </div>
+                                    <p class="description">
+                                        As a boutique hotel chain, brand consistency is everything. These custom signages transformed 
+                                        our brand experience across multiple locations. The attention to detail is remarkable - each piece 
+                                        feels uniquely crafted yet perfectly aligned with our brand identity.
+                                    </p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <img src="{{ asset('frontend/Images/home/testimonial-4.webp') }}" alt="Manager, Bhive Workspace"
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="name">Sai Teja</h6>
+                                            <small class="text-muted">Manager, Bhive Workspace</small>
                                         </div>
                                     </div>
                                 </div>
@@ -681,6 +724,8 @@
                 </div>
             </div>
         </section>
+
+
         <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
             <div class="container">
                 <div class="text-center mb-5">
