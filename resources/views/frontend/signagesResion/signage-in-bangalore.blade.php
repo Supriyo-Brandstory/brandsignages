@@ -172,7 +172,7 @@
                         <img src="{{ asset('frontend/Images/home/dutyfree.webp') }}" alt="Acrylic Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3><a href="https://brandsignages.com/arcylic-signages">Acrylic Signage</a></h3>
+                            <h3>Acrylic Signage</h3>
                             <p>
                                 Acrylic signage is a preferred choice among industries for its glossy finish and durability. 
                                 We design acrylic signage with unmatched durability and precision. 
@@ -185,7 +185,7 @@
                         <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3><a href="https://brandsignages.com/metal-signages">Metal & Steel Signage</a></h3>
+                            <h3>Metal & Steel Signage</h3>
                             <p>
                                 Stainless steel signage is one of the most affordable and durable types of signage. We design stainless steel 
                                 signage for organizations with custom sizes and designs.
@@ -196,7 +196,7 @@
                         <img src="{{ asset('frontend/Images/home/led-sign-board.webp') }}" alt="LED Sign Board"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3><a href="https://brandsignages.com/led-light-signages">LED Sign Board</a></h3>
+                            <h3>LED Sign Board</h3>
                             <p>
                                 LED sign boards are the most versatile option for modern branding. We are proven experts in LED sign board manufacturing 
                                 to help you create the best LED nameboards. 
@@ -208,7 +208,7 @@
                         <img src="{{ asset('frontend/Images/home/digital-signages.webp') }}" alt="Digital Signages"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3><a href="https://brandsignages.com/digital-signages">Digital Signage</a></h3>
+                            <h3>Digital Signage</h3>
                             <p>
                                 Digital displays are a dynamic and attention-grabbing transformation for retail spaces. We design modern digital signage 
                                 and digital displays for every industry.
@@ -221,7 +221,7 @@
                         <img src="{{ asset('frontend/Images/home/neon-sign.webp') }}" alt="Neon Sign Board"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3><a href="https://brandsignages.com/neon-signages">Neon Sign Board</a></h3>
+                            <h3>Neon Sign Board</h3>
                             <p>
                                Neon signs are a go-to option for retail and restaurant businesses for all-around visibility. We employ our precious experts to 
                                design the best neon signage designs in the city.
@@ -243,7 +243,7 @@
                         <img src="{{ asset('frontend/Images/home/indoor-signages.webp') }}" alt="Indoor Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3><a href="https://brandsignages.com/indoor-signages">Indoor Signages</a></h3>
+                            <h3>Indoor Signages</h3>
                             <p>
                                Indoor signages are mostly used in corporate offices, retail spaces, financial institutions, and medical facilities. Interior signages communicate 
                                brand personality and transforms interior environments. 
@@ -254,7 +254,7 @@
                         <img src="{{ asset('frontend/Images/home/outdoor-signages.webp') }}" alt="Outdoor Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3><a href="https://brandsignages.com/outdoor-signages">Outdoor Signages</a></h3>
+                            <h3>Outdoor Signages</h3>
                             <p>
                                Outdoor signages create immersive visual experiences, balancing visibility with powerful messaging. These signage acts as a strategic marketing tools 
                                that truly engage audiences. 
@@ -347,6 +347,34 @@
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/home/AcrylicLaser.webp') }}" alt="Acrylic Laser">
                                 <p>Acrylic Laser</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/latex.printing.webp') }}" alt="Latex Printing">
+                                <p>Latex Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/uv-flat-print.webp') }}" alt="UV Flat Printing">
+                                <p>UV Flat Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/plotting.webp') }}" alt="Plotting">
+                                <p>Plotting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/channel-letter.webp') }}" alt="Channel Letters">
+                                <p>Channel Letters</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/epoxy-letter.webp') }}" alt="Epoxy Letters">
+                                <p>Channel Letters</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/3d-printing.webp') }}" alt="3D printing">
+                                <p>3D Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/led-letters.webp') }}" alt="LED Letters">
+                                <p>LED Letters</p>
                             </div>
                         @endfor
                     </div>
