@@ -329,8 +329,8 @@
 
         <section class="instant-pricing">
             <div class="container">
-                <h2>Best Signage Makers in Bangalore - 24-Hour Active Production Line</h2>
-                <p>We are the best Signage Manufacturers in Bangalore with 24-hours production capability and high-tech capability.</p>
+                <h2>Best Signage Makers in Bangalore - 24 Hour Active Production Line</h2>
+                <p>We are the best Signage Manufacturers in Bangalore with 24-hours production capability and expertise.</p>
                 <div class="scroll-loop-wrapper">
                     <div class="scroll-loop-track">
                         @for ($i = 0; $i < 3; $i++)
@@ -422,8 +422,8 @@
                         <h3>Top-tier Creative Designs</h3>
                         <p>
                             As creators of brand signage, we think that signs should not be visually boring.
-                            We will create visuals that will become the talk of the town. Our team members will marry
-                            creativity and smart thinking to make your brand pop.
+                            We create visuals that become the talk of the town. Our team members excels in
+                            creativity and smart thinking to make your brand shine bright.
                         </p>
                     </div>
 
