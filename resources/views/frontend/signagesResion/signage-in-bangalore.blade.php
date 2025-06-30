@@ -56,7 +56,7 @@
         </section>
 
         <section class="container my-5 achievements-section">
-            <h2 class="text-center">Our Achievements</h2>
+            <h2 class="text-center">Milestones That Define Us</h2>
             <div class="row g-3">
 
                 <!-- Large Image Left -->
