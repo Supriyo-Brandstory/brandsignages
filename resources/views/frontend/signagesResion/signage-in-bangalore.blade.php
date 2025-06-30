@@ -9,11 +9,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="hero-banner_title">Best Sign Board Makers Near <br>Me Bangalore: Brand Signages</h1>
+                        <h1 class="hero-banner_title">Empower Your Brand Visibility with <br>Our Signage Solutions in Bangalore</h1>
                         <p>Draw attention and leave a mark with vibrant, interactive sign boards <br>that speak
                             loud and clear.</p>
                         <a href="https://brandsignages.com/contact-us">
-                            <button class="contact-btn">Know More</button>
+                            <button class="contact-btn">Contact Us</button>
                         </a>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
         <!-- About Section -->
         <section>
             <div class="container pt-5">
-                <h2 class="hero-title">Welcome to Brand Signages <br>Best Signage Makers in Bangalore</h2>
+                <h2 class="hero-title">Welcome to Brand Signage: <br>Top-rated Signage Company in Bangalore</h2>
 
                 <div class="row align-items-center">
                     <div class="col-lg-6 mb-4 mb-lg-0">
@@ -34,45 +34,35 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <h2 class="brand-title">Sign Board Makers Near Me | LED Sign Board</h2>
+                        <h2 class="brand-title">Trusted B2B Signage Partner for Businesses</h2>
                         <p class="brand-description">
-                            Brand Signages stands out as one of the top signage manufacturers in Bangalore. We help
-                            businesses stand apart with the best signage advertising solutions. With over 10 years of
-                            experience in signage design, manufacturing, and installation, our clientele includes small
-                            businesses, industry leaders, and top-tier brands.
+                            Brand Signages is a leading signage manufacturer in Bangalore, backed by 10+ years of expertise. 
+                            We are the most reputable name in the signage industry, executing 700+ large-scale signage projects 
+                            across Bangalore & South India. Since our establishment, we have worked across various industries, 
+                            starting from retail, corporate, real estate, restaurants, and government offices.  
                         </p>
                         <p class="brand-description">
-                            In today’s competitive market, your brand must stand out from others. Impactful signage and
-                            signboards are key to boosting visibility, attracting customers, and strengthening brand
-                            recognition. Brand Signages is among the leading premier sign board manufacturers in Bangalore,
-                            offering custom-made LED sign boards for local brands and businesses.
+                            We are exclusive signage manufacturers in the region, known for our proven expertise in LED sign board 
+                            manufacturing. Driven by passion, excellence, and dedication, we’ve become a trusted signage partner for 
+                            many brands across Bangalore. We are committed to delivering signage products with unmatched quality, 
+                            durability, and design that inspires. 
                         </p>
-                        <p class="brand-description">
-                            Step forward with Brand Signages and engage your potential audience with
-                            <a href="{{route('led_sign_board_in_bangalore')}}"
-                                style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
-                            <a href="{{route('digital_signages')}}"
-                                style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
-                            acrylic signage, <a href="{{route('neon_sign_board_bangalore')}}"
-                                style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon lights</a>, and
-                            metal signage that leave a lasting impression and build enduring brand relationships.
-                        </p>
-                        {{-- <div class="mt-4">
+                        <div class="mt-4">
                             <a href="{{route('about_us')}}" class="custom-btn">Know About Us</a>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="container my-5 achievements-section">
-            <h2 class="text-center">Our Achievements</h2>
+            <h2 class="text-center">Milestones That Define Us</h2>
             <div class="row g-3">
 
                 <!-- Large Image Left -->
                 <div class="col-lg-6 col-md-6">
                     <div class="achievement-box height-582">
-                        <img src="{{ asset('frontend/Images/home/single-brandex.webp') }}" class="img-fluid" alt="Signage">
+                        <img src="{{ asset('frontend/Images/home/single-brandex.webp') }}" class="img-fluid" alt="Signage Design">
                     </div>
                 </div>
 
@@ -99,7 +89,7 @@
                         <div class="col-lg-6 col-md-6 pb-0">
                             <div class="achievement-box h-100">
                                 <img src="{{ asset('frontend/Images/home/fortune-blue.webp') }}"
-                                    class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Quote">
+                                    class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Signage Design">
                             </div>
                         </div>
                     </div>
@@ -111,7 +101,7 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="achievement-box h-100">
                         <img src="{{ asset('frontend/Images/home/fashion-week.webp') }}"
-                            class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Fashion">
+                            class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Fashion Week Signage">
                     </div>
                 </div>
 
@@ -126,47 +116,9 @@
             </div>
         </section>
 
-        <section class="pointing">
-            <div class="container point">
-                <div class="ledx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
-                        alt="Hover Image">
-                </div>
-                <div class="outdoorx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
-                        alt="Hover Image">
-                </div>
-                <div class="digitalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
-                        alt="Hover Image">
-                </div>
-                <div class="metalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
-                        alt="Hover Image">
-                </div>
-                <div class="acrylicx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
-                        alt="Hover Image">
-                </div>
-
-
-
-
-            </div>
-        </section>
-        <section class="bgrowth-slider-section">
+          <section class="bgrowth-slider-section">
             <div class="bgrowth-header">
-                <h2>Signage Services : Custom Sign Boards <br> to Ignite Your Business Growth</h2>
+                <h2>Explore The Best Signage Solutions <br>to Ignite Your Business Growth</h2>
                 <p>
                     At Brand Signages, our creative signage designs and attention to detail ensure your brand message stands
                     out. We specialize in:
@@ -179,15 +131,13 @@
 
                     <!-- Slide 1 -->
                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/dutyfree.webp') }}" alt="Retail Signage"
+                        <img src="{{ asset('frontend/Images/home/dutyfree.webp') }}" alt="Acrylic Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Retail Signages & Retail Branding</h3>
+                            <h3>Acrylic Signage</h3>
                             <p>
-                                Our retail signage is the epitome of beauty and elegance. When placed in entryways or
-                                archways, it attracts people's attention.
-                                These creations are bold, energy-efficient, and easy to use and maintain for long-lasting
-                                performance.
+                                Acrylic signage is a preferred choice among industries for its glossy finish and durability. 
+                                We design acrylic signage with unmatched durability and precision. 
                             </p>
                         </div>
                     </div>
@@ -197,78 +147,131 @@
                         <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Metal & Steel Signages</h3>
+                            <h3>Metal & Steel Signage</h3>
                             <p>
-                                As leading signage board makers, we craft stainless steel signs that deliver clean,
-                                professional messaging. Our expertise ensures
-                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
-                                across various applications.
+                                Stainless steel signage is one of the most affordable and durable types of signage. We design stainless steel 
+                                signage for organizations with custom sizes and designs.
                             </p>
                         </div>
                     </div>
                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
+                        <img src="{{ asset('frontend/Images/home/led-sign-board.webp') }}" alt="LED Sign Board"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Metal & Steel Signages</h3>
+                            <h3>LED Sign Board</h3>
                             <p>
-                                As leading signage board makers, we craft stainless steel signs that deliver clean,
-                                professional messaging. Our expertise ensures
-                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
-                                across various applications.
+                                LED sign boards are the most versatile option for modern branding. We are proven experts in LED sign board manufacturing 
+                                to help you create the best LED nameboards. 
                             </p>
                         </div>
                     </div>
                     <!-- Slide 1 -->
                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/dutyfree.webp') }}" alt="Retail Signage"
+                        <img src="{{ asset('frontend/Images/home/digital-signages.webp') }}" alt="Digital Signages"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Retail Signages & Retail Branding</h3>
+                            <h3>Digital Signage</h3>
                             <p>
-                                Our retail signage is the epitome of beauty and elegance. When placed in entryways or
-                                archways, it attracts people's attention.
-                                These creations are bold, energy-efficient, and easy to use and maintain for long-lasting
-                                performance.
+                                Digital displays are a dynamic and attention-grabbing transformation for retail spaces. We design modern digital signage 
+                                and digital displays for every industry.
                             </p>
                         </div>
                     </div>
 
                     <!-- Slide 2 -->
                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
+                        <img src="{{ asset('frontend/Images/home/neon-sign.webp') }}" alt="Neon Sign Board"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Metal & Steel Signages</h3>
+                            <h3>Neon Sign Board</h3>
                             <p>
-                                As leading signage board makers, we craft stainless steel signs that deliver clean,
-                                professional messaging. Our expertise ensures
-                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
-                                across various applications.
+                               Neon signs are a go-to option for retail and restaurant businesses for all-around visibility. We employ our precious experts to 
+                               design the best neon signage designs in the city.
                             </p>
                         </div>
                     </div>
                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
+                        <img src="{{ asset('frontend/Images/home/retail-signages.webp') }}" alt="retail Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Metal & Steel Signages</h3>
+                            <h3>Retail Signages</h3>
                             <p>
-                                As leading signage board makers, we craft stainless steel signs that deliver clean,
-                                professional messaging. Our expertise ensures
-                                versatile, sleek designs that provide maximum visual impact with crisp brand communication
-                                across various applications.
+                               Retail signage is the epitome of beauty and elegance. These creations are bold, energy-efficient, and easy to use and maintain 
+                               for long-lasting performance.
                             </p>
                         </div>
                     </div>
-
+                     <div class="swiper-slide bgrowth-card">
+                        <img src="{{ asset('frontend/Images/home/indoor-signages.webp') }}" alt="Indoor Signage"
+                            class="bgrowth-img" />
+                        <div class="bgrowth-content">
+                            <h3>Indoor Signages</h3>
+                            <p>
+                               Indoor signages are mostly used in corporate offices, retail spaces, financial institutions, and medical facilities. Interior signages communicate 
+                               brand personality and transforms interior. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bgrowth-card">
+                        <img src="{{ asset('frontend/Images/home/outdoor-signages.webp') }}" alt="Outdoor Signage"
+                            class="bgrowth-img" />
+                        <div class="bgrowth-content">
+                            <h3>Outdoor Signages</h3>
+                            <p>
+                               Outdoor signages create immersive visual experiences, balancing visibility with powerful messaging. These signage acts as a strategic marketing tools 
+                               that truly engage audiences. 
+                            </p>
+                        </div>
+                    </div>
 
                     <!-- Add more slides if needed -->
                 </div>
 
             </div>
         </section>
-        
+
+        <section class="pointing">
+            <div class="container point">
+                <div class="ledx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
+                        alt="LED Sign Board">
+                </div>
+                <div class="outdoorx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
+                        alt="Outdoor Signage">
+                </div>
+                <div class="digitalx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
+                        alt="Digital Signage">
+                </div>
+                <div class="metalx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
+                        alt="Metal Signage">
+                </div>
+                <div class="acrylicx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
+                        alt="Acrylic Signage">
+                </div>
+
+
+
+
+            </div>
+        </section>
+      
+        <div class="inquery-from-section">
+        <x-coustom-inquiry-form />
+        </div>
 
         <section class="we-deliver">
             <div class="container">
@@ -283,18 +286,19 @@
                                     <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
                                         class="img-fluid">
                                     <h3>On-demand Design</h3>
-                                    <p>Our creative team of sign board makers delivers custom-made signage solutions. We
-                                        transform your branding into compelling visual narratives with top-quality signages
-                                        at minimal cost.</p>
+                                    <p>Our expert team provides flexible, personalized signage design and manufacturing services, 
+                                        transforming your conceptual ideas into compelling visual narratives that elevate your brand.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-12">
                                 <div class="deliver-box">
                                     <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Timely Delive"
                                         class="img-fluid">
-                                    <h3>Timely Deliver</h3>
-                                    <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to
-                                        guarantee project completion without compromising quality or design integrity.</p>
+                                    <h3>Timely Delivery</h3>
+                                    <p>We optimize workflows, maintain stringent timelines, and coordinate with the manufacturing team 
+                                        to guarantee project completion without compromising quality or design integrity.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-12">
@@ -302,22 +306,21 @@
                                     <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
                                         class="img-fluid">
                                     <h3>Direct Purchase</h3>
-                                    <p>Our streamlined purchasing pathway eliminates complexity, connecting you straight to
-                                        creative brilliance.</p>
+                                    <p>Connect with us and get a quick consultation for your signage project. Our streamlined purchasing pathway 
+                                        eliminates all complexity, connecting you straight to the creative brilliance.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-12">
                                 <div class="deliver-box align-items-center">
-                                    <a href="" class="button">Our Services</a>
+                                    <a href="https://brandsignages.com/contact-us" class="button">Contact Us</a>
                                 </div>
                             </div>
 
                         </div>
         </section>
 
-       <div class="inquery-from-section">
-        <x-coustom-inquiry-form />
-        </div>
+       
 
       
 
@@ -326,8 +329,8 @@
 
         <section class="instant-pricing">
             <div class="container">
-                <h2>Signage Makers in Bangalore - 24-Hour Production & Instant Pricing!</h2>
-                <p>Best Signage Manufacturers in Bangalore, what can we do for you?</p>
+                <h2>Best Signage Makers in Bangalore - 24 Hour Active Production Line</h2>
+                <p>We are the best Signage Manufacturers in Bangalore with 24-hours production capability and expertise.</p>
                 <div class="scroll-loop-wrapper">
                     <div class="scroll-loop-track">
                         @for ($i = 0; $i < 3; $i++)
@@ -346,6 +349,34 @@
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/home/AcrylicLaser.webp') }}" alt="Acrylic Laser">
                                 <p>Acrylic Laser</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/latex-printing.webp') }}" alt="Latex Printing">
+                                <p>Latex Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/uv-flat-print.webp') }}" alt="UV Flat Printing">
+                                <p>UV Flat Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/plotting.webp') }}" alt="Plotting">
+                                <p>Plotting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/channel-letter.webp') }}" alt="Channel Letters">
+                                <p>Channel Letters</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/epoxy-letter.webp') }}" alt="Epoxy Letters">
+                                <p>Channel Letters</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/3d-printing.webp') }}" alt="3D printing">
+                                <p>3D Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/led-letters.webp') }}" alt="LED Letters">
+                                <p>LED Letters</p>
                             </div>
                         @endfor
                     </div>
@@ -367,7 +398,7 @@
 
         <section class="why-choose-signage">
             <div class="why-choose-container container">
-                <h2 class="why-title">Why Choose Us for <br>Your Signage Needs?</h2>
+                <h2 class="why-title">Why Choose Brand Signages for <br>Your Signage Needs?</h2>
                 <p class="why-subtitle">
                     With a team of expert designers and skilled craftsmen, we deliver high-quality signage solutions.
                     Our expertise ensures your brand captures customer attention effectively.
@@ -391,8 +422,8 @@
                         <h3>Top-tier Creative Designs</h3>
                         <p>
                             As creators of brand signage, we think that signs should not be visually boring.
-                            We will create visuals that will become the talk of the town. Our team members will marry
-                            creativity and smart thinking to make your brand pop.
+                            We create visuals that become the talk of the town. Our team members excels in
+                            creativity and smart thinking to make your brand shine bright.
                         </p>
                     </div>
 
@@ -439,7 +470,7 @@
         </section>
 
         <section class="new_client_section container">
-            <h2 class="new_client_section-title">Our Clients</h2>
+            <h2 class="new_client_section-title">Our Valuable Clients</h2>
             <div class="row">
                 <div class="col-md-5 new_client_section-image col-12">
                     <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
@@ -450,42 +481,42 @@
                         <!-- Row 1 (Left to Right) -->
                         <div class="new_client_section-row new_client_section-row-1">
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client">
                             </div>
 
                             <!-- Duplicates for seamless loop -->
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client">
                             </div>
 
                         </div>
@@ -493,83 +524,83 @@
                         <!-- Row 2 (Right to Left) -->
                         <div class="new_client_section-row new_client_section-row-2">
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client">
                             </div>
 
                             <!-- Duplicates for seamless loop -->
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client">
                             </div>
                         </div>
 
                         <!-- Row 3 (Left to Right) -->
                         <div class="new_client_section-row new_client_section-row-3">
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client">
                             </div>
                             <!-- Duplicates for seamless loop -->
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client">
                             </div>
                             <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="Client Logo">
+                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client">
                             </div>
                         </div>
                     </div>
@@ -579,7 +610,7 @@
         <!-- testimonial Feedback Section -->
         <section class="new_testimonial-swiper-section">
             <div class="container">
-                <h2 class="text-center mb-md-5 mb-3">Feedback from Our Valuable Clients</h2>
+                <h2 class="text-center mb-md-5 mb-3">The Impact We've Delivered for Clients</h2>
 
                 <div class="position-relative">
 
@@ -611,7 +642,7 @@
                                         employees alike.
                                     </p>
                                     <div class="d-flex align-items-center mt-4">
-                                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client"
+                                        <img src="{{ asset('frontend/Images/home/testimonial-1.webp') }}" alt="Michael, CEO, Technova Innovations"
                                             class="rounded-circle me-3" width="50" height="50">
                                         <div>
                                             <h6 class="name">Michael</h6>
@@ -629,17 +660,59 @@
                                             width="40" height="40">
                                     </div>
                                     <p class="description">
-                                        Our tech startup needed a signage solution that matched our innovative spirit. The
-                                        design team didn't just create a sign; they captured our company's entire essence.
-                                        The LED-powered brand display has become a conversation starter for clients and
-                                        employees alike.
+                                        As a boutique hotel chain, brand consistency is everything. These custom signages transformed 
+                                        our brand experience across multiple locations. The attention to detail is remarkable - each piece 
+                                        feels uniquely crafted yet perfectly aligned with our brand identity.
                                     </p>
                                     <div class="d-flex align-items-center mt-4">
-                                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client"
+                                        <img src="{{ asset('frontend/Images/home/testimonial-2.webp') }}" alt="Asish, CEO, A Hotel Chain"
                                             class="rounded-circle me-3" width="50" height="50">
                                         <div>
-                                            <h6 class="name">Michael</h6>
-                                            <small class="text-muted">CEO, Technova Innovations</small>
+                                            <h6 class="name">Asish</h6>
+                                            <small class="text-muted">CEO, A Hotel Chain</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                    <div class="mb-4">
+                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                            width="40" height="40">
+                                    </div>
+                                    <p class="description">
+                                        We needed urgent signage for our new retail location, and they delivered beyond expectations. The direct 
+                                        communication and on-demand design process made the experience seamless and stress-free.
+                                    </p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <img src="{{ asset('frontend/Images/home/testimonial-3.webp') }}" alt="Nandini, CEO, A Real Estate Company"
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="name">Nandini</h6>
+                                            <small class="text-muted">CEO, A Real Estate Company</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                    <div class="mb-4">
+                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                            width="40" height="40">
+                                    </div>
+                                    <p class="description">
+                                        We weren’t sure if a signage company could capture the essence of a dynamic workspace 
+                                        like Bhive. But what they delivered went far beyond expectations. They didn’t just create 
+                                        signs – they crafted a visual identity that reflects our energy, innovation, and community spirit. 
+                                    </p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <img src="{{ asset('frontend/Images/home/testimonial-4.webp') }}" alt="Manager, Bhive Workspace"
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="name">Sai Teja</h6>
+                                            <small class="text-muted">Manager, Bhive Workspace</small>
                                         </div>
                                     </div>
                                 </div>
@@ -650,6 +723,8 @@
                 </div>
             </div>
         </section>
+
+
         <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
             <div class="container">
                 <div class="text-center mb-5">
@@ -694,33 +769,6 @@
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        What is Signage Used for?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Signage or branding signs are used for various purposes across different industries to
-                            communicate messages, enhance branding, and enhance navigation. Here are the key uses of
-                            signage:</p>
-                        <ul>
-                            <li>Branding & Marketing – Businesses use signage to display their logo, promote offers, and
-                                enhance brand visibility.</li>
-                            <li>Wayfinding & Navigation – Helps people find directions in malls, hospitals, offices, and
-                                public spaces.</li>
-                            <li>Safety & Compliance – Includes fire safety signs, construction signs, and hazard warnings to
-                                ensure safety.</li>
-                            <li>Retail & Advertising – Digital and traditional signage in stores to promote products and
-                                boost sales.</li>
-                            <li>Corporate & Office Use – Nameplates, department signs, and meeting room displays for
-                                organization and professionalism.</li>
-                            <li>Event & Exhibition Signage – Used for banners, standees, and digital screens to guide
-                                attendees.</li>
-                            <li>Informational Signage – Displays important messages, notices, or public announcements.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
                         How Do I Choose a Signage?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
@@ -742,24 +790,6 @@
                         </ul>
                     </div>
                 </div>
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Is Digital Signage Expensive?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>The cost of digital signage depends on various factors like screen size, technology, content
-                            management software, and installation.
-                            While the investment can be much higher than traditional signage, digital signage offers
-                            long-term benefits such as dynamic content
-                            updates, scalability, and better engagement.</p>
-                        <ul>
-                            <li>Basic Digital Signage (Small Screens): Starts from ₹15,000 to ₹50,000.</li>
-                            <li>Large LED Walls & Interactive Displays: Can cost ₹1,00,000 to ₹10,00,000+ </li>
-                            <li>Ongoing Costs: Ranging from ₹5,000 to ₹50,000 per month based on requirements</li>
-                        </ul>
-                    </div>
-                </div>
 
                 <div class="faq-item">
                     <button class="faq-question">
@@ -769,24 +799,20 @@
                     <div class="faq-answer">
                         <p>As sign board makers, we provide a diverse range of solutions to businesses such as:</p>
                         <ul>
-                            <li><a href="https://brandsignages.com/neon-signages"
-                                    style="text-decoration: unset;color:#E43D12">Glow signboard</a></li>
+                            <li><a href="https://brandsignages.com/neon-sign-board-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">Neon sign</a></li>
                             <li>Acp signboard</li>
-                            <li><a href="https://brandsignages.com/arcylic-signages"
-                                    style="text-decoration: unset;color:#E43D12">Acrylic LED signboards</a></li>
+                            <li><a href="https://brandsignages.com/acrylic-signage-manufacturer-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">Acrylic Signage</a></li>
                             <li>Channel Letter signs</li>
-                            <li><a href="https://brandsignages.com/digital-signages"
-                                    style="text-decoration: unset;color:#E43D12">Digital signages</a></li>
-                            <li><a href="https://brandsignages.com/metal-signages"
-                                    style="text-decoration: unset;color:#E43D12">Steel letter</a></li>
-                            <li><a href="https://brandsignages.com/fire-safety-signages"
-                                    style="text-decoration: unset;color:#E43D12">Fire safety signs</a></li>
-                            <li><a href="https://brandsignages.com/led-light-signages"
-                                    style="text-decoration: unset;color:#E43D12">LED letter sign</a></li>
-                            <li><a href="https://brandsignages.com/neon-signages"
-                                    style="text-decoration: unset;color:#E43D12">Neon sign board</a></li>
-                            <li><a href="https://brandsignages.com/outdoor-signages"
-                                    style="text-decoration: unset;color:#E43D12">Outdoor signs</a></li>
+                            <li><a href="https://brandsignages.com/digital-signage-company-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">Digital Signages</a></li>
+                            <li><a href="https://brandsignages.com/steel-signage-manufacturer-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">Steel Signage</a></li>
+                            <li><a href="https://brandsignages.com/safety-signages-in-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">Fire safety Signs</a></li>
+                            <li><a href="https://brandsignages.com/led-sign-board-in-bangalore"
+                                    style="text-decoration: unset;color:#E43D12">LED Sign Board</a></li>
                         </ul>
                     </div>
                 </div>
