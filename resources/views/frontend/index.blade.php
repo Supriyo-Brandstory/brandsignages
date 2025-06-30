@@ -348,7 +348,7 @@
                                     employees alike.
                                 </p>
                                 <div class="d-flex align-items-center mt-4">
-                                    <img src="{{ asset('frontend/Images/sneha-reddy-webp') }}" alt="Sneha Reddy- Our Client"
+                                    <img src="{{ asset('frontend/Images/sneha-reddy.webp') }}" alt="Sneha Reddy- Our Client"
                                         class="rounded-circle me-3" width="50" height="50">
                                     <div>
                                         <h6 class="name">Sneha Reddy</h6>
