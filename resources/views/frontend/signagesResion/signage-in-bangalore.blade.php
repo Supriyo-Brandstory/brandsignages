@@ -351,7 +351,7 @@
                                 <p>Acrylic Laser</p>
                             </div>
                             <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/latex.printing.webp') }}" alt="Latex Printing">
+                                <img src="{{ asset('frontend/Images/home/latex-printing.webp') }}" alt="Latex Printing">
                                 <p>Latex Printing</p>
                             </div>
                             <div class="scroll-card">
