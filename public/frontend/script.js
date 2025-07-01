@@ -42,36 +42,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // FAQ SECTION
-const faqQuestions = document.querySelectorAll('.faq-question');
+    const faqQuestions = document.querySelectorAll('.faq-question');
 
-faqQuestions.forEach(question => {
-    question.addEventListener('click', () => {
-        const allAnswers = document.querySelectorAll('.faq-answer');
-        const allQuestions = document.querySelectorAll('.faq-question');
-        const allItems = document.querySelectorAll('.faq-item');
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+            const allAnswers = document.querySelectorAll('.faq-answer');
+            const allQuestions = document.querySelectorAll('.faq-question');
+            const allItems = document.querySelectorAll('.faq-item');
 
-        const parentItem = question.closest('.faq-item');
-        const answer = question.nextElementSibling;
+            const parentItem = question.closest('.faq-item');
+            const answer = question.nextElementSibling;
 
-        // Remove active class from others
-        allAnswers.forEach(ans => {
-            if (ans !== answer) ans.classList.remove('active');
+            // Remove active class from others
+            allAnswers.forEach(ans => {
+                if (ans !== answer) ans.classList.remove('active');
+            });
+
+            allQuestions.forEach(q => {
+                if (q !== question) q.classList.remove('active');
+            });
+
+            allItems.forEach(item => {
+                if (item !== parentItem) item.classList.remove('active');
+            });
+
+            // Toggle current item
+            answer.classList.toggle('active');
+            question.classList.toggle('active');
+            parentItem.classList.toggle('active');
         });
-
-        allQuestions.forEach(q => {
-            if (q !== question) q.classList.remove('active');
-        });
-
-        allItems.forEach(item => {
-            if (item !== parentItem) item.classList.remove('active');
-        });
-
-        // Toggle current item
-        answer.classList.toggle('active');
-        question.classList.toggle('active');
-        parentItem.classList.toggle('active');
     });
-});
 
 
     // CUSTOM DROPDOWN
@@ -92,14 +92,14 @@ faqQuestions.forEach(question => {
                 menu.style.display = 'none';
                 menu.classList.remove('show');
             });
-    
+
             const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
             dropdownToggles.forEach(toggle => toggle.classList.remove('show'));
-    
+
             const navLinks = document.querySelectorAll('.nav-link');
             navLinks.forEach(link => link.classList.remove('active'));
         }
-    
+
         // Function to handle screen size changes
         function handleScreenChange() {
             resetDropdowns();
@@ -108,21 +108,21 @@ faqQuestions.forEach(question => {
                 navbarCollapse.classList.remove('show');
             }
         }
-    
+
         // Handle dropdown toggle
         const navItems = document.querySelectorAll('.nav-item.dropdown .nav-link');
         navItems.forEach(link => {
             link.addEventListener('click', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
-    
+
                 const parentDropdown = this.closest('.dropdown');
                 const dropdownMenu = parentDropdown.querySelector('.dropdown-menu');
                 const isOpen = dropdownMenu.classList.contains('show');
-    
+
                 // First, reset all dropdowns
                 resetDropdowns();
-    
+
                 // Then toggle current dropdown if it wasn't open
                 if (!isOpen) {
                     dropdownMenu.style.display = 'block';
@@ -131,34 +131,34 @@ faqQuestions.forEach(question => {
                 }
             });
         });
-    
+
         // Close dropdowns when clicking outside
         document.addEventListener('click', function (e) {
             if (!e.target.closest('.dropdown')) {
                 resetDropdowns();
             }
         });
-    
+
         // Handle window resize with debounce
         let resizeTimer;
         window.addEventListener('resize', function () {
             clearTimeout(resizeTimer);
             resizeTimer = setTimeout(handleScreenChange, 250);
         });
-    
+
         // Handle navbar toggler click
         const navbarToggler = document.querySelector('.navbar-toggler');
         if (navbarToggler) {
             navbarToggler.addEventListener('click', resetDropdowns);
         }
-    
+
         // Handle navbar collapse shown/hidden
         const navbarCollapse = document.querySelector('.navbar-collapse');
         if (navbarCollapse) {
             navbarCollapse.addEventListener('shown.bs.collapse', resetDropdowns);
             navbarCollapse.addEventListener('hidden.bs.collapse', resetDropdowns);
         }
-    
+
         // Add active class to nav items when clicked
         const nonDropdownNavLinks = document.querySelectorAll('.nav-item:not(.dropdown) .nav-link');
         nonDropdownNavLinks.forEach(link => {
@@ -170,7 +170,7 @@ faqQuestions.forEach(question => {
             });
         });
     });
-    
+
 
     // NEW SIGNAGE CAROUSEL
     const prevButtonNew = document.getElementById('prevButtonNew');
@@ -192,116 +192,170 @@ faqQuestions.forEach(question => {
         carouselNew.addEventListener('slide.bs.carousel', updateButtonsNew);
         updateButtonsNew(); // Initialize button states
     }
-    $(document).ready(function() {
-            var modal=new bootstrap.Modal(document.getElementById('popupModal'));
+    $(document).ready(function () {
+        var modal = new bootstrap.Modal(document.getElementById('popupModal'));
 
-            $('#getStarted').click(function() {
-                    var isValid=true;
+        $('#getStarted').click(function () {
+            var isValid = true;
 
-                    // Validate all input fields
-                    $('#mainForm .form-control, #mainForm .form-select').each(function() {
-                            if ( !$(this).val()) {
-                                $(this).addClass('is-invalid');
-                                $(this).next('.invalid-feedback').show();
-                                isValid=false;
-                            }
+            // Validate all input fields
+            $('#mainForm .form-control, #mainForm .form-select').each(function () {
+                if (!$(this).val()) {
+                    $(this).addClass('is-invalid');
+                    $(this).next('.invalid-feedback').show();
+                    isValid = false;
+                }
 
-                            else {
-                                $(this).removeClass('is-invalid');
-                                $(this).next('.invalid-feedback').hide();
-                            }
-                        });
-
-                    // If validation fails, don't show the modal
-                    if ( !isValid) {
-                        return;
-                    }
-
-                    // Set values in the modal
-                    $('#modalTitle').val($('#title').val());
-                    $('#modalHeight').val($('#height').val());
-                    $('#modalWidth').val($('#width').val());
-
-                    // Show the modal
-                    modal.show();
-                });
-
-            // Remove error highlight when input is changed
-            $('#mainForm .form-control, #mainForm .form-select').on('input change', function() {
-                    if ($(this).val()) {
-                        $(this).removeClass('is-invalid');
-                        $(this).next('.invalid-feedback').hide();
-                    }
-                });
-
-            // Show/Hide upload field based on type selection
-            $('input[name="type"]').change(function() {
-                    if ($(this).val()==='upload') {
-                        $('#imageField').show();
-                    }
-
-                    else {
-                        $('#imageField').hide();
-                    }
-                });
-
-            $('#popupForm').submit(function(e) {
-                    e.preventDefault();
-                    var formData=new FormData(this);
-
-                    $.ajax({
-
-                        url: "{{ route('custom-inquiry.store') }}",
-                        type: "POST",
-                        data: formData,
-                        processData: false,
-                        contentType: false,
-                        success: function(response) {
-                            if (response.message) {
-                                modal.hide();
-                                $('#successMessage').fadeIn().delay(3000).fadeOut();
-                                $('#mainForm')[0].reset();
-                                $('#popupForm')[0].reset();
-                                $('.form-control, .form-select').removeClass('is-invalid'); // Reset validation styles
-                            }
-                        }
-
-                        ,
-                        error: function(xhr) {
-                            alert('Something went wrong! Please try again.');
-                        }
-                    });
-            });
-    });
-     const swiper = new Swiper('.bgrowth-swiper', {
-                slidesPerView: 1,
-                spaceBetween: 30,
-                loop: true,
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                breakpoints: {
-                    768: {
-                        slidesPerView: 2,
-                    }
+                else {
+                    $(this).removeClass('is-invalid');
+                    $(this).next('.invalid-feedback').hide();
                 }
             });
 
-            // Fixing testimonial swiper
-            const swiper2 = new Swiper('.new_testimonial-swiper', {
-                slidesPerView: 1,
-                spaceBetween: 30,
-                loop: true,
-                navigation: {
-                    nextEl: '.new_testimonial-button-next',
-                    prevEl: '.new_testimonial-button-prev',
-                },
+            // If validation fails, don't show the modal
+            if (!isValid) {
+                return;
+            }
+
+            // Set values in the modal
+            $('#modalTitle').val($('#title').val());
+            $('#modalHeight').val($('#height').val());
+            $('#modalWidth').val($('#width').val());
+
+            // Show the modal
+            modal.show();
+        });
+
+        // Remove error highlight when input is changed
+        $('#mainForm .form-control, #mainForm .form-select').on('input change', function () {
+            if ($(this).val()) {
+                $(this).removeClass('is-invalid');
+                $(this).next('.invalid-feedback').hide();
+            }
+        });
+
+        // Show/Hide upload field based on type selection
+        $('input[name="type"]').change(function () {
+            if ($(this).val() === 'upload') {
+                $('#imageField').show();
+            }
+
+            else {
+                $('#imageField').hide();
+            }
+        });
+
+        $('#popupForm').submit(function (e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+
+            $.ajax({
+
+                url: "{{ route('custom-inquiry.store') }}",
+                type: "POST",
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (response) {
+                    if (response.message) {
+                        modal.hide();
+                        $('#successMessage').fadeIn().delay(3000).fadeOut();
+                        $('#mainForm')[0].reset();
+                        $('#popupForm')[0].reset();
+                        $('.form-control, .form-select').removeClass('is-invalid'); // Reset validation styles
+                    }
+                }
+
+                ,
+                error: function (xhr) {
+                    alert('Something went wrong! Please try again.');
+                }
             });
+        });
+    });
+    const swiper = new Swiper('.bgrowth-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+            }
+        }
+    });
+
+    // Fixing testimonial swiper
+    const swiper2 = new Swiper('.new_testimonial-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+            nextEl: '.new_testimonial-button-next',
+            prevEl: '.new_testimonial-button-prev',
+        },
+    });
+    // Fixing maximum impact swiper
+    var maximumImpactSwiper = new Swiper('.Maximum-Impact-swiper', {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "3",
+        coverflowEffect: {
+            rotate: 2,
+            stretch: 0,
+            depth: 206,
+            modifier: 2,
+            slideShadows: true,
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        loop: true,
+
+        // Responsive breakpoints
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 2,
+            },
+            // when window width is >= 576px
+            576: {
+                slidesPerView: 2,
+            },
+            // when window width is >= 768px
+            768: {
+                slidesPerView: 3,
+            }
+        }
+    });
+
+    const weElevate = new Swiper(".We-Elevate-Brands-swiper", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    //   loop: true,
+      grabCursor: true,
+      navigation: {
+        nextEl: ".We-Elevate-Brands-button-next",
+        prevEl: ".We-Elevate-Brands-button-prev",
+      },
+      breakpoints: {
+        768: { slidesPerView: 2 },
+        992: { slidesPerView: 3 },
+      }
+    });
+
+
+
+
 });
 
 

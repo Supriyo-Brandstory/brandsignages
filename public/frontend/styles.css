@@ -1988,3 +1988,324 @@ letter-spacing: 0%;
     font-size: 22px;
   }
 }
+
+
+/* Maximum Impact Section */
+.Maximum-Impact-section{
+    background: url('http://brandsignages.test/frontend/Images/home/maximum-impact-bg.png') no-repeat center center/cover;
+    padding: 60px 0px;
+    margin: 60px auto 60px;
+}
+.Maximum-Impact-section h2{
+    font-family: 'Lora';
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+color: #fff;
+}
+.Maximum-Impact-section p{
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+letter-spacing: 0%;
+text-align: center;
+color: #fff;
+margin:40px 0px 90px;
+
+}
+
+    .Maximum-Impact-swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 250px;
+    }
+
+    .Maximum-Impact-swiper-slide img {
+      display: block;
+      width: 100%;
+      /* -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0002, #0004); */
+    }
+    .swiper-slide.Maximum-Impact-swiper-slide.swiper-slide-visible.swiper-slide-active {
+    margin-top: -3%;
+}
+
+@media (max-width: 576px) {
+    .Maximum-Impact-section {
+        padding: 40px 15px;
+        margin: 40px auto 40px;
+    }
+
+    .Maximum-Impact-section h2 {
+        font-size: 28px;
+        line-height: 130%;
+        margin-bottom: 20px;
+    }
+
+    .Maximum-Impact-section p {
+        font-size: 16px;
+        line-height: 140%;
+               margin: 20px 0 80px;
+    }
+
+    .Maximum-Impact-swiper-slide {
+        width: 200px;
+    }
+}
+
+/* We Elevate Brands Section */
+.We-Elevate-Brands-section {
+  background-color: #fff;
+  padding: 60px 20px;
+}
+
+.We-Elevate-Brands-heading {
+ font-family: 'Lora';
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.We-Elevate-Brands-subheading {
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.We-Elevate-Brands-swiper {
+  width: 100%;
+      padding: 60px 0 20px
+}
+
+.We-Elevate-Brands-swiper .swiper-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.We-Elevate-Brands-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    height: 100%;
+    box-shadow: 2px 2px 26px 4px #f38e791f !important;
+    border-color: #f38e793b;
+}
+
+
+.We-Elevate-Brands-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.We-Elevate-Brands-card img {
+  width: 100%;
+  height: 261px;
+  object-fit: cover;
+  border-radius: 25px;
+    padding: 16px;
+}
+
+.We-Elevate-Brands-title, .We-Elevate-Brands-title a{
+font-family: 'Lora';
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0%;
+color: #E43D12;
+text-decoration: unset;
+
+}
+
+.We-Elevate-Brands-text {
+ font-family: 'Roboto';
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: 0%;
+color: #212121;
+
+}
+
+/* Align navigation buttons to top-right of the slider */
+/* --- Navigation Wrapper --- */
+.We-Elevate-Brands-nav {
+  position: absolute;
+  top: -9px;
+  right: 0;
+  margin: 10px 10px 0 0;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+/* --- Common Button Styles --- */
+.We-Elevate-Brands-button-prev,
+.We-Elevate-Brands-button-next {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgb(228 61 18 / 35%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* --- Arrow Icons --- */
+
+
+.We-Elevate-Brands-button-prev::after,
+.We-Elevate-Brands-button-next::after {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #333;
+  border-right: 2px solid #333;
+  transform: rotate(-135deg); /* default is left arrow */
+  transition: border-color 0.3s ease;
+}
+
+/* Make next button a right arrow */
+.We-Elevate-Brands-button-next::after {
+  transform: rotate(45deg);
+}
+
+/* --- Hover Effect --- */
+.We-Elevate-Brands-button-prev:hover,
+.We-Elevate-Brands-button-next:hover {
+  background-color: #e63912;
+}
+
+.We-Elevate-Brands-button-prev:hover::after,
+.We-Elevate-Brands-button-next:hover::after {
+  border-color: #fff;
+}
+
+/* --- Disabled State --- */
+.swiper-button-disabled {
+  opacity: 0.7;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Disabled button icon color */
+.swiper-button-disabled::after {
+  border-color: #5d5b5b;
+}
+.btn-we-elevate{
+    background-color: #E43D12;
+    text-decoration: none  ;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .We-Elevate-Brands-section {
+    background-color: #fff;
+    padding: 0px 10px;
+}
+    .We-Elevate-Brands-swiper {
+        padding: 50px 0 20px;
+    }
+
+    .We-Elevate-Brands-heading {
+        font-size: 28px;
+        line-height: 130%;
+        margin-bottom: 20px;
+    }
+
+    .We-Elevate-Brands-card img {
+        height: 200px;
+    }
+
+    .We-Elevate-Brands-title {
+        font-size: 20px;
+    }
+
+    .We-Elevate-Brands-text {
+        font-size: 16px;
+    }
+    .We-Elevate-Brands-button-prev,
+    .We-Elevate-Brands-button-next {
+        width: 36px;    
+        height: 36px;
+        background-color: #fff;
+        color: #333;
+        border-radius: 50%;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        font-size: 14px;
+    }
+
+    .We-Elevate-Brands-button-prev:hover,
+    .We-Elevate-Brands-button-next:hover {
+        background-color: #d03801;
+        color: #fff;
+    }
+
+    .We-Elevate-Brands-button-prev::after,
+    .We-Elevate-Brands-button-next::after {
+        font-size: 16px;
+    }
+
+    .We-Elevate-Brands-nav {
+        position: absolute;
+        top: -9px;
+        right: 0;
+        margin: 10px 10px 0 0;
+        display: flex;
+        gap: 10px;
+        z-index: 10;
+    }
+
+    .We-Elevate-Brands-button-prev::after,
+    .We-Elevate-Brands-button-next::after {
+        content: '';
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-top: 2px solid #333;
+        border-right: 2px solid #333;
+        transform: rotate(-135deg); /* default is left arrow */
+        transition: border-color 0.3s ease;
+    }
+
+    /* Make next button a right arrow */
+    .We-Elevate-Brands-button-next::after {
+        transform: rotate(45deg);
+    }
+
+    /* --- Hover Effect --- */
+    .We-Elevate-Brands-button-prev:hover,
+    .We-Elevate-Brands-button-next:hover {
+        background-color: #e63912;
+    }
+
+    .We-Elevate-Brands-button-prev:hover::after,
+    .We-Elevate-Brands-button-next:hover::after {
+        border-color: #fff;
+    }
+
+    /* --- Disabled State --- */
+    .swiper-button-disabled {
+        opacity: 0.7;
+        cursor: default;
+        pointer-events: none;
+    }
+
+    /* Disabled button icon color */
+    .swiper-button-disabled::after {
+        border-color: #5d5b5b;
+    }
+}

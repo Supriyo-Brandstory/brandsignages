@@ -24,7 +24,7 @@
         <h2 class="hero-title mb-3">Transforming Spaces with Premium Sign Board Solutions</h2>
         <div class="row text-center">
             <div class="col-md-4">
-                <p class="number"><span class="counter">1000</span> +</p>
+                <p class="number"><span class="counter">12000</span> +</p>
                 <p class="card-text text-center">Projects Completed</p>
             </div>
             <div class="col-md-4">
@@ -32,7 +32,7 @@
                 <p class="card-text text-center">Years of Experience</p>
             </div>
             <div class="col-md-4">
-                <p class="number"><span class="counter">300</span> +</p>
+                <p class="number"><span class="counter">2500</span> +</p>
                 <p class="card-text text-center">Happy Clients</p>
             </div>
         
@@ -44,18 +44,14 @@
              <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/about-us-2.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/Production-house.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">Who We Are – No. 1 Sign Board Makers in India </h2>
+                <h2 class="brand-title">Empower Your Branding with No. 1 Sign Boards</h2>
                 <p class="brand-description">
-                    At Brand Signage, we are the most trusted sign board manufacturers in Bangalore, 
-                    <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Chennai</a> ,
-                    <a href="{{route('leading_signage_company_in_mumbai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Mumbai</a>,
-                    and all over India. With a focus on standards, longevity, and creativity, we offer businesses personalized signboard solutions that improve their brand existence. We serve several industries, including retail, corporate, hospitality, healthcare, education, and more. Whether it’s a striking LED sign board for storefronts, a high-observability digital display, or a corporate name board, we guarantee premium branding solutions customized to satisfy exceptional business requirements. Our team collaborates closely with you to craft sign boards that match your imagination. We provide durable, weather-proof, and elegantly attractive products.  
-                </p>
+                  Signages are the forefront of your business that play a vital role in brand visibility. At Brand Signages, we create visually appealing signage that reflects your brand’s vision and mission into a visual identity. With a focus on standards, longevity, and creativity, we focus on creating sign boards that impact and engage the audience. As a leading signage company, we collaborate.                </p>
                 
                
             </div>
@@ -95,39 +91,39 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Why Choose Us as Your Sign Boards Company? 
+            <h2 class="display-4 mb-3 why-text-heading">Meet Our Expert Team - Brand Signages 
             </h2>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/about-us-4.webp')}}" class="why-card-img-top"
+                    <img src="{{asset('frontend/Images/new/design-team.webp')}}" class="why-card-img-top"
                         alt="Skillfulness & Experience  ">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Skillfulness & Experience  </h3>
-                        <p class="card-text">With more than a decade of experience, Brand Signages is a prominent signboard manufacturer in Bangalore, providing high-class signage solutions to businesses across industries. Our expertise covers LED signboards, digital signages, neon glow signs, acrylic signages, and more, ensuring visually appealing and long-lasting products. We have successfully completed 1000+ projects, helping brands enhance their visibility through personalized, durable signage. </p>
+                        
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/custom-neon-sign-boards-in-chennai-4.webp')}}" class="why-card-img-top"
-                        alt="Innovative Technology">
+                    <img src="{{asset('frontend/Images/new/Production-team.webp')}}" class="why-card-img-top"
+                        alt="Production Team">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Innovative Technology</h3>
-                        <p class="card-text">At Brand Signages, we leverage modern technology to design and manufacture signages that are energy-efficient, vibrant, and durable. Our advanced equipment allows us to achieve precise cuts, flawless finishes, and high-definition digital displays for impactful branding. We merge high-quality LED modules, durable acrylic, and weather-resistant materials to ensure longevity. </p>
+                        <h3 class="why-text-red mb-3">Production Team</h3>
+                     
                     </div>
                 </div>
             </div>
             <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/new/about-us-5.webp')}}" class="why-card-img-top"
-                            alt="Customization & Quality  ">
+                        <img src="{{asset('frontend/Images/new/Installation.webp')}}" class="why-card-img-top"
+                            alt="Installation Team ">
                         <div class="card-body why-card-body px-0">
-                            <h3 class="why-text-red mb-3">Customization & Quality  </h3>
-                            <p class="card-text">Each business has exceptional branding requirements, and at Brand Signage, we provide full personalization to suit your vision. As a leading sign board manufacturer in Bangalore, we offer customized signboard solutions, from LED sign boards to digital sign boards, utilizing high-grade substances like stainless steel, acrylic, and aluminum. We emphasize quality by utilizing premium elements, ensuring that our signboard solutions not only appear nice but also persist for a long period. 
-                            </p>
+                            <h3 class="why-text-red mb-3">Installation Team </h3>
+                           
+                           
                         </div>
                     </div>
             </div>
@@ -141,35 +137,31 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/about-us-4.webp')}}" class="why-card-img-top"
+                                <img src="{{asset('frontend/Images/new/design-team.webp')}}" class="why-card-img-top"
                                     alt="Skillfulness & Experience  ">
                                 <div class="card-body why-card-body px-0">
                                     <h3 class="why-text-red mb-3">Skillfulness & Experience  </h3>
-                                    <p class="card-text">With more than a decade of experience, Brand Signages is a prominent signboard manufacturer in Bangalore, providing high-class signage solutions to businesses across industries. Our expertise covers LED signboards, digital signages, neon glow signs, acrylic signages, and more, ensuring visually appealing and long-lasting products. We have successfully completed 1000+ projects, helping brands enhance their visibility through personalized, durable signage. </p>
+                                    
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/about-us-7.webp')}}" class="why-card-img-top"
-                                    alt="Innovative Technology">
+                                <img src="{{asset('frontend/Images/new/Production-team.webp')}}" class="why-card-img-top"
+                                    alt="Production Team">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Innovative Technology</h3>
-                                    <p class="card-text">At Brand Signages, we leverage modern technology to design and manufacture signages that are energy-efficient, vibrant, and durable. Our advanced equipment allows us to achieve precise cuts, flawless finishes, and high-definition digital displays for impactful branding. We merge high-quality LED modules, durable acrylic, and weather-resistant materials to ensure longevity. </p>
+                                    <h3 class="why-text-red mb-3">Production Team</h3>
+                                 
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/about-us-5.webp')}}" class="why-card-img-top"
-                                    alt="Customization & Quality  ">
+                                <img src="{{asset('frontend/Images/new/Installation.webp')}}" class="why-card-img-top"
+                                    alt="Installation Team ">
                                 <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Customization & Quality  </h3>
-                                    <p class="card-text">
-                                        Each business has exceptional branding requirements, and at Brand Signage, we provide full personalization to suit your vision. As a leading sign board manufacturer in Bangalore, we offer customized signboard solutions, from LED sign boards to digital sign boards, utilizing high-grade substances like stainless steel, acrylic, and aluminum. We emphasize quality by utilizing premium elements, ensuring that our signboard solutions not only appear nice but also persist for a long period. 
-
-
-                                    </p>
+                                    <h3 class="why-text-red mb-3">Installation Team </h3>
+                                    
                                 </div>
                             </div>
                         </div>

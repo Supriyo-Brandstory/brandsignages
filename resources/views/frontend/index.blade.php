@@ -30,8 +30,8 @@
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <div class="Sign_Boards-box">
-                                <img src="{{ asset('frontend/Images/home/creative-design.png') }}" alt="Brand Signages Provides Creative Design"
-                                    class="img-fluid">
+                                <img src="{{ asset('frontend/Images/home/creative-design.png') }}"
+                                    alt="Brand Signages Provides Creative Design" class="img-fluid">
                                 <h3>Creative Design</h3>
                                 <p>Our creative team provides flexible, personalized signage design, transforming your
                                     conceptual ideas into compelling visual narratives.</p>
@@ -39,8 +39,8 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="Sign_Boards-box">
-                                <img src="{{ asset('frontend/Images/home/expert-precision.png') }}" alt="We work with Expert Precision "
-                                    class="img-fluid">
+                                <img src="{{ asset('frontend/Images/home/expert-precision.png') }}"
+                                    alt="We work with Expert Precision " class="img-fluid">
                                 <h3>Expert Precision </h3>
                                 <p>We master sign board manufacturing with 10+ years of experience, well-known in the
                                     industry for LED sign board, digital signage, acrylic, and neon sign board mastery.  
@@ -49,8 +49,8 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="Sign_Boards-box">
-                                <img src="{{ asset('frontend/Images/home/premium-quality.png') }}" alt="Our products are of Premium Quality "
-                                    class="img-fluid">
+                                <img src="{{ asset('frontend/Images/home/premium-quality.png') }}"
+                                    alt="Our products are of Premium Quality " class="img-fluid">
                                 <h3>Premium Quality </h3>
                                 <p>Quality is our primary benchmark that we maintain being a consistent leader in the
                                     signage industry. Commitment to quality is a practice we follow at our core principles. 
@@ -59,8 +59,8 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="Sign_Boards-box">
-                                <img src="{{ asset('frontend/Images/home/timely-deliver-2.png') }}" alt="We provide Timely Delivery for all products"
-                                    class="img-fluid">
+                                <img src="{{ asset('frontend/Images/home/timely-deliver-2.png') }}"
+                                    alt="We provide Timely Delivery for all products" class="img-fluid">
                                 <h3>Timely Delivery</h3>
                                 <p>We optimize workflows, maintain stringent timelines for the delivery of signage products.
                                     We measure our growth metrics based on customer satisfaction, and timing is a part of
@@ -79,8 +79,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-imagex">
-                        <img src="{{asset('frontend/Images/home/led-sign-bg.webp')}}" alt="Starbucks LED Sign board designed by Brand Signages"
-                            class="img-fluid">
+                        <img src="{{asset('frontend/Images/home/led-sign-bg.webp')}}"
+                            alt="Starbucks LED Sign board designed by Brand Signages" class="img-fluid">
                     </div>
                 </div>
 
@@ -132,48 +132,184 @@
             </div>
         </div>
     </section>
+    <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="We-Elevate-Brands-heading fw-bold">We Elevate Brands with Quality Signages <br>That Makes a Lasting Impression  </h2>
+        </div>
+
+        <div class="position-relative">
+            <div class="swiper We-Elevate-Brands-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="#">Metal & Steel Signages</a></h5>
+                                <p class="We-Elevate-Brands-text">Stainless steel signage is one of the most affordable and
+                                    durable signage. We design stainless steel signage for organizations with custom sizes
+                                    and designs.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title">Metal & Steel Signages</h5>
+                                <p class="We-Elevate-Brands-text">Stainless steel signage is one of the most affordable and
+                                    durable signage. We design stainless steel signage for organizations with custom sizes
+                                    and designs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title">Metal & Steel Signages</h5>
+                                <p class="We-Elevate-Brands-text">Stainless steel signage is one of the most affordable and
+                                    durable signage. We design stainless steel signage for organizations with custom sizes
+                                    and designs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title">Metal & Steel Signages</h5>
+                                <p class="We-Elevate-Brands-text">Stainless steel signage is one of the most affordable and
+                                    durable signage. We design stainless steel signage for organizations with custom sizes
+                                    and designs.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Arrows -->
+                <div class="We-Elevate-Brands-nav ">
+                    <!-- Swap order: prev on left, next on right -->
+                    <div class="We-Elevate-Brands-button-prev"></div>
+                    <div class="We-Elevate-Brands-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="#" class="btn-we-elevate">View All Services</a>
+        </div>
+        </div>
+    </section>
+
     <section class="new_custom-why-choose">
-  <div class="container">
-    <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages as Your<br> Signage Companion?</h2>
-    <div class="row justify-content-center g-4">
+        <div class="container">
+            <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages as Your<br> Signage Companion?</h2>
+            <div class="row justify-content-center g-4">
 
-      <!-- Expertise -->
-      <div class="col-md-4 justify-content-between d-flex flex-column">
-        <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
-          <p>We are among the best when it comes to signage manufacturing. We craft signage designs that speak volumes and attract audience from a distance.</p>
-          <h4 class="new_custom-title">Expertise</h4>
+                <!-- Expertise -->
+                <div class="col-md-4 justify-content-between d-flex flex-column">
+                    <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
+                        <p>We are among the best when it comes to signage manufacturing. We craft signage designs that speak
+                            volumes and attract audience from a distance.</p>
+                        <h4 class="new_custom-title">Expertise</h4>
+                    </div>
+                    <div class="why-choose-image-container">
+                        <img src="{{ asset('frontend/Images/home/why-choose.webp') }}"
+                            alt="why choose us as your signage partner in Bangalore" class="img-fluid mt-3">
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="col-md-4">
+                    <div class="new_custom-box new_custom-image-box"
+                        style="background-image: url('{{ asset('frontend/Images/home/why-choose-2.webp') }}');">
+                        <div class="new_custom-overlay">
+                            <h4 class="new_custom-title text-white">Experience</h4>
+                            <p class="text-white">We have 10 years of experience in the signage industry and have worked
+                                with major brands across India in various industries and verticals.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excellence -->
+                <div class="col-md-4 justify-content-between d-flex flex-column">
+                    <div class="why-choose-image-container">
+                        <img src="{{ asset('frontend/Images/home/why-choose-3.webp') }}"
+                            alt="Outdoor sign board designed by our experts" class="img-fluid mb-3">
+                    </div>
+                    <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
+                        <h4 class="new_custom-title">Excellence</h4>
+                        <p>Our excellence lies in 4 core pillars, and we see ourselves as an unmatched competitor in signage
+                            design and manufacturing.</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="why-choose-image-container">
-            <img src="{{ asset('frontend/Images/home/why-choose.webp') }}" alt="why choose us as your signage partner in Bangalore" class="img-fluid mt-3">
+    </section>
+    <section class="Maximum-Impact-section">
+        <div class="container">
+            <div class="swiper Maximum-Impact-swiper">
+
+                <h2>LED Sign Boards That Create <br>Maximum Impact </h2>
+                <p>Trusted by clients across Bangalore and India, we’ve worked on 100+ LED sign board projects with
+                    excellence.
+                    We are a proven leader in the B2B led sign board manufacturing with 10+ years of excellence.We design
+                    modern tech-savvy LED sign boards that consume 7x less energy, backed with premium quality materials and
+                    range of options.</p>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="">
+                    </div>
+
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="">
+                    </div>
+
+
+
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- Experience -->
-      <div class="col-md-4">
-        <div class="new_custom-box new_custom-image-box" style="background-image: url('{{ asset('frontend/Images/home/why-choose-2.webp') }}');">
-          <div class="new_custom-overlay">
-            <h4 class="new_custom-title text-white">Experience</h4>
-            <p class="text-white">We have 10 years of experience in the signage industry and have worked with major brands across India in various industries and verticals.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Excellence -->
-      <div class="col-md-4 justify-content-between d-flex flex-column">
-        <div class="why-choose-image-container">
-            <img src="{{ asset('frontend/Images/home/why-choose-3.webp') }}" alt="Outdoor sign board designed by our experts" class="img-fluid mb-3">
-        </div>
-        <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
-          <h4 class="new_custom-title">Excellence</h4>
-          <p>Our excellence lies in 4 core pillars, and we see ourselves as an unmatched competitor in signage design and manufacturing.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
+    </section>
 
 
     <section class="new_client_section container">
@@ -187,130 +323,166 @@
                 <div class="new_client_section-wrapper">
                     <!-- Row 1 (Left to Right) -->
                     <div class="new_client_section-row new_client_section-row-1">
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client">
-                            </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
+                                alt="White Gold - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
+                                alt="Manthan - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
+                                alt="Sobha - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
+                                alt="Societe Generale - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
+                                alt="HashedIn - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
+                                alt="Innoviti - Our Signage Client">
+                        </div>
 
                         <!-- Duplicates for seamless loop -->
                         <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client">
-                            </div>
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
+                                alt="White Gold - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
+                                alt="Manthan - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
+                                alt="Sobha - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
+                                alt="Societe Generale - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
+                                alt="HashedIn - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
+                                alt="Innoviti - Our Signage Client">
+                        </div>
 
                     </div>
 
                     <!-- Row 2 (Right to Left) -->
                     <div class="new_client_section-row new_client_section-row-2">
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client">
-                            </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
+                                alt="Flipkart - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
+                                alt="VYMO - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
+                                alt="Indusface - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
+                                alt="Chargebee - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
 
                         <!-- Duplicates for seamless loop -->
                         <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client">
-                            </div>
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
+                                alt="Puravankara - Our Signage Client">
                         </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
+                                alt="Flipkart - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
+                                alt="VYMO - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
+                                alt="Indusface - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
+                                alt="Chargebee - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                    </div>
 
                     <!-- Row 3 (Left to Right) -->
                     <div class="new_client_section-row new_client_section-row-3">
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client">
-                            </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
+                                alt="Natural - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
+                                alt="Vakil Search - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
+                                alt="Bhive Workspace - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
+                                alt="Apollo Hospitals - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
+                                alt="Adarsh Developers - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
+                                alt="New Horizon Educational Institution - Our Signage Client">
+                        </div>
 
 
                         <!-- Duplicates for seamless loop -->
-                      <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client">
-                            </div>
-                            <div class="new_client_section-client">
-                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client">
-                            </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
+                                alt="Natural - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
+                                alt="Vakil Search - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
+                                alt="Bhive Workspace - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
+                                alt="Apollo Hospitals - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
+                                alt="Adarsh Developers - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
+                                alt="New Horizon Educational Institution - Our Signage Client">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -366,8 +538,8 @@
                                         width="40" height="40">
                                 </div>
                                 <p class="description">
-                                    We needed stunning, durable, and regulation-compliant signage for our hospital, 
-                                    and Brand Signages delivered exactly what we asked for. Their attention to detail 
+                                    We needed stunning, durable, and regulation-compliant signage for our hospital,
+                                    and Brand Signages delivered exactly what we asked for. Their attention to detail
                                     is excellent, which helped us enhance the patient experience.
                                 </p>
                                 <div class="d-flex align-items-center mt-4">
@@ -381,20 +553,20 @@
                             </div>
                         </div>
 
-                           <div class="swiper-slide">
+                        <div class="swiper-slide">
                             <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
                                 <div class="mb-4">
                                     <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
                                         width="40" height="40">
                                 </div>
                                 <p class="description">
-                                    From initial conceptualization to execution, they executed our café signage project 
-                                    seamlessly. They perfectly captured the aesthetics of our brand with vibrant acrylic 
+                                    From initial conceptualization to execution, they executed our café signage project
+                                    seamlessly. They perfectly captured the aesthetics of our brand with vibrant acrylic
                                     signs and a neon board that has quickly become an Instagram favorite among local people.
                                 </p>
                                 <div class="d-flex align-items-center mt-4">
-                                    <img src="{{ asset('frontend/Images/sandeep-gupta.webp') }}" alt="Sandeep Gupta - Our Client"
-                                        class="rounded-circle me-3" width="50" height="50">
+                                    <img src="{{ asset('frontend/Images/sandeep-gupta.webp') }}"
+                                        alt="Sandeep Gupta - Our Client" class="rounded-circle me-3" width="50" height="50">
                                     <div>
                                         <h6 class="name">Sandeep Gupta</h6>
                                         <small class="text-muted">Founder – Café Bloom</small>
@@ -403,20 +575,20 @@
                             </div>
                         </div>
 
-                         <div class="swiper-slide">
+                        <div class="swiper-slide">
                             <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
                                 <div class="mb-4">
                                     <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
                                         width="40" height="40">
                                 </div>
                                 <p class="description">
-                                    We needed elegant indoor and outdoor corporate signage that matched our branding. 
-                                    Brand Signages impressed us with their quick turnaround, premium finish, and seamless 
+                                    We needed elegant indoor and outdoor corporate signage that matched our branding.
+                                    Brand Signages impressed us with their quick turnaround, premium finish, and seamless
                                     coordination throughout the signage project.
                                 </p>
                                 <div class="d-flex align-items-center mt-4">
-                                    <img src="{{ asset('frontend/Images/vikram-sharma.webp') }}" alt="Sandeep Gupta - Our Client"
-                                        class="rounded-circle me-3" width="50" height="50">
+                                    <img src="{{ asset('frontend/Images/vikram-sharma.webp') }}"
+                                        alt="Sandeep Gupta - Our Client" class="rounded-circle me-3" width="50" height="50">
                                     <div>
                                         <h6 class="name">Sandeep Gupta</h6>
                                         <small class="text-muted">Director– Nova Consulting Group</small>
