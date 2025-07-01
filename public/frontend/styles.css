@@ -1992,7 +1992,7 @@ letter-spacing: 0%;
 
 /* Maximum Impact Section */
 .Maximum-Impact-section{
-    background: url('http://brandsignages.test/frontend/Images/home/maximum-impact-bg.png') no-repeat center center/cover;
+    background: url('/frontend/Images/home/maximum-impact-bg.png') no-repeat center center/cover;
     padding: 60px 0px;
     margin: 60px auto 60px;
 }
