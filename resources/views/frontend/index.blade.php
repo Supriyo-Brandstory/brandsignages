@@ -30,7 +30,7 @@
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <div class="Sign_Boards-box">
-                                <img src="{{ asset('frontend/Images/home/creative-design.png') }}" alt="Creative Design"
+                                <img src="{{ asset('frontend/Images/home/creative-design.png') }}" alt="Brand Signages Provides Creative Design"
                                     class="img-fluid">
                                 <h3>Creative Design</h3>
                                 <p>Our creative team provides flexible, personalized signage design, transforming your
@@ -39,7 +39,7 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="Sign_Boards-box">
-                                <img src="{{ asset('frontend/Images/home/expert-precision.png') }}" alt="Expert Precision "
+                                <img src="{{ asset('frontend/Images/home/expert-precision.png') }}" alt="We work with Expert Precision "
                                     class="img-fluid">
                                 <h3>Expert Precision </h3>
                                 <p>We master sign board manufacturing with 10+ years of experience, well-known in the
@@ -49,7 +49,7 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="Sign_Boards-box">
-                                <img src="{{ asset('frontend/Images/home/premium-quality.png') }}" alt="Premium Quality "
+                                <img src="{{ asset('frontend/Images/home/premium-quality.png') }}" alt="Our products are of Premium Quality "
                                     class="img-fluid">
                                 <h3>Premium Quality </h3>
                                 <p>Quality is our primary benchmark that we maintain being a consistent leader in the
@@ -59,7 +59,7 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="Sign_Boards-box">
-                                <img src="{{ asset('frontend/Images/home/timely-deliver-2.png') }}" alt="Timely Delivery"
+                                <img src="{{ asset('frontend/Images/home/timely-deliver-2.png') }}" alt="We provide Timely Delivery for all products"
                                     class="img-fluid">
                                 <h3>Timely Delivery</h3>
                                 <p>We optimize workflows, maintain stringent timelines for the delivery of signage products.
@@ -79,7 +79,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-imagex">
-                        <img src="{{asset('frontend/Images/home/led-sign-bg.webp')}}" alt="Cafe Rosco Signage"
+                        <img src="{{asset('frontend/Images/home/led-sign-bg.webp')}}" alt="Starbucks LED Sign board designed by Brand Signages"
                             class="img-fluid">
                     </div>
                 </div>
@@ -144,7 +144,7 @@
           <h4 class="new_custom-title">Expertise</h4>
         </div>
         <div class="why-choose-image-container">
-            <img src="{{ asset('frontend/Images/home/why-choose.webp') }}" alt="why choose us" class="img-fluid mt-3">
+            <img src="{{ asset('frontend/Images/home/why-choose.webp') }}" alt="why choose us as your signage partner in Bangalore" class="img-fluid mt-3">
         </div>
       </div>
 
@@ -161,7 +161,7 @@
       <!-- Excellence -->
       <div class="col-md-4 justify-content-between d-flex flex-column">
         <div class="why-choose-image-container">
-            <img src="{{ asset('frontend/Images/home/why-choose-3.webp') }}" alt="why choose us" class="img-fluid mb-3">
+            <img src="{{ asset('frontend/Images/home/why-choose-3.webp') }}" alt="Outdoor sign board designed by our experts" class="img-fluid mb-3">
         </div>
         <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
           <h4 class="new_custom-title">Excellence</h4>
