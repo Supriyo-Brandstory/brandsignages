@@ -60,7 +60,7 @@
                     for top brands and businesses for the last 10 years. Our LED sign boards are 7X energy efficient and built with premium-quality materials. 
                 </p>    
                 <div class="mt-4">
-                            <a href="{{route('/')}}" class="custom-btn">Know More</a>
+                            <a href="https://brandsignages.com/" class="custom-btn">Know More</a>
                     </div>
                
             </div>
