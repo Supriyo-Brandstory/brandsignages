@@ -147,7 +147,7 @@
                             <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
                                 alt="Metal Signage">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="#">Metal & Steel Signages</a></h5>
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/metal-signages">Metal & Steel Signages</a></h5>
                                 <p class="We-Elevate-Brands-text">Stainless steel signage is one of the most affordable and
                                     durable signage. We design stainless steel signage for organizations with custom sizes
                                     and designs.</p>
@@ -157,37 +157,70 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                            <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
                                 alt="Metal Signage">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title">Metal & Steel Signages</h5>
-                                <p class="We-Elevate-Brands-text">Stainless steel signage is one of the most affordable and
-                                    durable signage. We design stainless steel signage for organizations with custom sizes
-                                    and designs.</p>
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/led-light-signages">LED Sign Board</a></h5>
+                                <p class="We-Elevate-Brands-text">LED sign boards are the most versatile option for modern branding. 
+                                    We are proven experts in LED sign board manufacturing to help you create the best LED nameboards. </p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
                                 alt="Metal Signage">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title">Metal & Steel Signages</h5>
-                                <p class="We-Elevate-Brands-text">Stainless steel signage is one of the most affordable and
-                                    durable signage. We design stainless steel signage for organizations with custom sizes
-                                    and designs.</p>
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Digital Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Digital displays are a dynamic and attention-grabbing transformation for 
+                                    retail spaces. We design modern digital signage and digital displays for every industry. </p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                            <img src="{{asset('frontend/Images/home/acrylic-sign.webp')}}" class="card-img-center"
                                 alt="Metal Signage">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title">Metal & Steel Signages</h5>
-                                <p class="We-Elevate-Brands-text">Stainless steel signage is one of the most affordable and
-                                    durable signage. We design stainless steel signage for organizations with custom sizes
-                                    and designs.</p>
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/arcylic-signages">Acrylic Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Acrylic signage is a preferred choice among industries for its glossy finish and durability. 
+                                    We design acrylic signage with unmatched durability and precision. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/neon-signages">Neon Sign Board</a></h5>
+                                <p class="We-Elevate-Brands-text">Neon signs are a go-to option for retail and restaurant businesses for all-around visibility. 
+                                    We employ our precious experts to design the best neon signage designs in the city. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/retail-sign.webp')}}" class="card-img-center"
+                                alt="Retail Signages">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/">Retail Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Retail signage is the epitome of beauty and elegance. These creations are bold, energy-efficient, 
+                                    and easy to use and maintain for long-lasting performance. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/outdoor-sign.webp')}}" class="card-img-center"
+                                alt="Outdoor Business Signages">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/outdoor-signages">Outdoor Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Outdoor signages create immersive visual experiences, balancing visibility with powerful messaging. 
+                                    These signage acts as a strategic marketing tools that truly engage audiences.</p>
                             </div>
                         </div>
                     </div>
@@ -204,7 +237,7 @@
         </div>
 
         <div class="text-center mt-4">
-            <a href="#" class="btn-we-elevate">View All Services</a>
+            <a href="https://brandsignages.com/" class="btn-we-elevate">View All Services</a>
         </div>
         </div>
     </section>
@@ -262,46 +295,46 @@
                 <h2>LED Sign Boards That Create <br>Maximum Impact </h2>
                 <p>Trusted by clients across Bangalore and India, we’ve worked on 100+ LED sign board projects with
                     excellence.
-                    We are a proven leader in the B2B led sign board manufacturing with 10+ years of excellence.We design
+                    We are a proven leader in the B2B led sign board manufacturing with 10+ years of excellence. We design
                     modern tech-savvy LED sign boards that consume 7x less energy, backed with premium quality materials and
                     range of options.</p>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
 
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Sign Board designed by Brand Signages">
                     </div>
 
 
@@ -602,6 +635,7 @@
             </div>
         </div>
     </section>
+
     <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
