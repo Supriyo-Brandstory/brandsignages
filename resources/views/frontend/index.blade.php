@@ -295,7 +295,7 @@
                 <h2>LED Sign Boards That Create <br>Maximum Impact </h2>
                 <p>Trusted by clients across Bangalore and India, we’ve worked on 100+ LED sign board projects with
                     excellence.
-                    We are a proven leader in the B2B led sign board manufacturing with 10+ years of excellence.We design
+                    We are a proven leader in the B2B led sign board manufacturing with 10+ years of excellence. We design
                     modern tech-savvy LED sign boards that consume 7x less energy, backed with premium quality materials and
                     range of options.</p>
                 <div class="swiper-wrapper">
@@ -635,6 +635,7 @@
             </div>
         </div>
     </section>
+
     <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
