@@ -150,6 +150,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{route('index')}}">Home</a>
                     </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{{route('about_us')}}">About Us</a>
+                    </li>
 
                     <li class="nav-item dropdown position-static">
                         <a class="nav-link dropdown-toggle" href="#" id="signagesDropdown" role="button"
@@ -215,10 +218,10 @@
                             Signages by Region <i class="fas fa-chevron-down dropdown__arrow"
                                 style="font-size: 12px; margin-left: 4px; margin-bottom: 3px;"></i>
                         </a>
-                        <div class="dropdown-menu w-100 p-4" aria-labelledby="regionDropdown">
+                        <div class="dropdown-menu p-4" style="width:auto;" aria-labelledby="regionDropdown">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-lg-3 col-md-6">
+                                    <div class="col-lg-4 col-md-6">
                                         <h6 class="dropdown-header">Bangalore</h6>
                                         <a class="dropdown-item" href="{{route('signage_in_bangalore')}}">Signages in
                                             Bangalore</a>
@@ -250,7 +253,7 @@
                                             href="{{route('office_desk_signs_in_bangalore')}}">Office Desk Signs in
                                             Bangalore</a>
                                     </div>
-                                    <div class="col-lg-3 col-md-6">
+                                    <div class="col-lg-4 col-md-6">
                                         <h6 class="dropdown-header">Mumbai</h6>
                                         <a class="dropdown-item"
                                             href="{{route('leading_signage_company_in_mumbai')}}">Signages in Mumbai</a>
@@ -281,7 +284,7 @@
                                         <a class="dropdown-item" href="{{route('restroom_signs_in_mumbai')}}">Restroom
                                             Signs in Mumbai</a>
                                     </div>
-                                    <div class="col-lg-3 col-md-6">
+                                    <div class="col-lg-4 col-md-6">
                                         <h6 class="dropdown-header">Chennai</h6>
                                         <a class="dropdown-item" href="{{route('signage_company_in_chennai')}}">Signages
                                             in Chennai</a>
@@ -309,10 +312,7 @@
 
 
                                     </div>
-                                    <div class="col-lg-3 col-md-6">
-                                        <h6 class="dropdown-header">Delhi</h6>
-                                        <a class="dropdown-item" href="#">Signages in Delhi</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -325,8 +325,8 @@
                         <a class="nav-link" href="#">Pricing</a>
                     </li> --}}
                     <li class="nav-item ms-3">
-                        <a href="tel:8006606080">
-                            <button class="contact-btn">Call Now</button>
+                        <a href="{{route('contact_us')}}">
+                            <button class="contact-btn">Contact Us</button>
                         </a>
                     </li>
                 </ul>
