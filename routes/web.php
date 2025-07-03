@@ -73,7 +73,9 @@ Route::get('/contact-us', [frontendController::class, 'contact_us'])->name('cont
 Route::post('/contact-us', [frontendController::class, 'store'])->name('contact.store');
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');
 Route::post('/custom-inquiry', [frontendController::class, 'coustomInquiryStore'])->name('custom-inquiry.store');
-
+Route::get('/captcha/refresh', function() {
+    return response()->json(['captcha' => captcha_img()]);
+})->name('captcha.refresh');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

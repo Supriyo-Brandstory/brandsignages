@@ -77,26 +77,62 @@ i.fa {
         <div class="col-md-6">
         
         
-        <form class="form-contact" action="{{ route('contact.store') }}" method="POST">
-            @if(session('success'))
-            <div class="alert alert-success">
-                {{ session('success') }}
-            </div>
+     <form class="form-contact" action="{{ route('contact.store') }}" method="POST">
+    @if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+    @endif
+    
+    @csrf
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" class="form-control" name="first_name" placeholder="First Name*" required>
+        </div>
+        <div class="col-md-6">
+            <input type="text" class="form-control" name="last_name" placeholder="Last Name*" required>
+        </div>
+    </div>
+    <input type="email" class="form-control" name="email" placeholder="Email*" required>
+    <input type="tel" class="form-control" name="phone_number" placeholder="Phone Number*" required>
+    <textarea class="form-control" name="message" rows="3" placeholder="Your message..." required></textarea>
+    
+    <!-- CAPTCHA Image -->
+    <div class="form-group mt-3">
+        <label for="captcha">Enter the CAPTCHA code:</label>
+        <div class="d-flex align-items-center mb-2 gap-3">
+            <img src="{{ captcha_src('flat') }}" id="captcha-image" class="img-thumbnail mr-2" style="cursor: pointer; width: 40%;" onclick="refreshCaptcha()">
+            <button type="button " class="btn btn-outline-secondary" onclick="refreshCaptcha()">
+                <i class="fas fa-sync-alt"></i> Refresh
+            </button>
+        </div>
+         @if($errors->has('captcha'))
+            <small class="text-danger d-block my-2">{{ $errors->first('captcha') }}</small>
         @endif
-            @csrf
-            <div class="row">
-                <div class="col-md-6">
-                    <input type="text" class="form-control" name="first_name" placeholder="First Name*" required>
-                </div>
-                <div class="col-md-6">
-                    <input type="text" class="form-control" name="last_name" placeholder="Last Name*" required>
-                </div>
-            </div>
-            <input type="email" class="form-control" name="email" placeholder="Email*" required>
-            <input type="tel" class="form-control" name="phone_number" placeholder="Phone Number*" required>
-            <textarea class="form-control" name="message" rows="3" placeholder="Your message..." required></textarea>
-            <button type="submit" class="contact-btn w-100">Send Message</button>
-        </form>
+        <input type="text" class="form-control" name="captcha" placeholder="Enter CAPTCHA" required>
+       
+    </div>
+    
+    <button type="submit" class="contact-btn w-100">Send Message</button>
+</form>
+
+<script>
+function refreshCaptcha() {
+    // Add timestamp to prevent caching
+    var timestamp = Date.now();
+    document.getElementById('captcha-image').src = '{{ captcha_src() }}?' + timestamp;
+    
+    // Alternative using fetch API if you prefer
+    /*
+    fetch('{{ route("captcha.refresh") }}')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('captcha-image').src = data.captcha;
+        });
+    */
+}
+</script>
+
         
         </div>
     </div>

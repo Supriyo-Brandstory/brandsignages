@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 use App\Models\SEO;
 use App\Models\Sitemap;
 use Illuminate\Support\Facades\Response;
+use Illuminate\Support\Facades\Validator;
 
 class frontendController extends Controller
 
@@ -390,20 +391,66 @@ public function restroom_signs_in_mumbai(){
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.about-us', compact('seo'));
     }
-    public function store(Request $request)
-    {
-        $request->validate([
-            'first_name' => 'required|string|max:255',
-            'last_name' => 'required|string|max:255',
-            'email' => 'required|email',
-            'phone_number' => 'required|string|max:20',
-            'message' => 'nullable|string|max:5000',
-        ]);
+//     public function __construct()
+// {
+//     session(['captcha_text' => $this->generateCaptcha()]);
+// }
 
-        Contact::create($request->all());
+// private function generateCaptcha()
+// {
+//     $characters = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+//     return substr(str_shuffle($characters), 0, 6);
+// }
 
-        return redirect()->back()->with('success', 'Your message has been sent successfully!');
+// public function store(Request $request)
+// {
+//     // Check captcha
+//     if (strtolower($request->input('captcha_input')) !== strtolower(session('captcha_text'))) {
+//         return redirect()->back()
+//             ->withInput()
+//             ->with('captcha_error', 'Captcha is incorrect. Please try again.')
+//             ->with('captcha_text', $this->generateCaptcha());
+//     }
+
+//     // Validate other fields
+//     $request->validate([
+//         'first_name' => 'required|string|max:255',
+//         'last_name' => 'required|string|max:255',
+//         'email' => 'required|email',
+//         'phone_number' => 'required|string|max:20',
+//         'message' => 'nullable|string|max:5000',
+//     ]);
+
+//     Contact::create($request->except('captcha_input'));
+
+//     return redirect()->back()
+//         ->with('success', 'Your message has been sent successfully!')
+//         ->with('captcha_text', $this->generateCaptcha());
+// }
+
+public function store(Request $request)
+{
+    $validator = Validator::make($request->all(), [
+        'first_name' => 'required|string|max:255',
+        'last_name' => 'required|string|max:255',
+        'email' => 'required|email',
+        'phone_number' => 'required|string|max:20',
+        'message' => 'nullable|string|max:5000',
+        'captcha' => 'required|captcha',
+    ]);
+
+    if ($validator->fails()) {
+        return redirect()->back()
+            ->withErrors($validator)
+            ->withInput();
     }
+
+    Contact::create($request->except('captcha', '_token'));
+
+    return redirect()->back()
+        ->with('success', 'Your message has been sent successfully!');
+}
+
    
     public function blogs(Request $request)
     {
