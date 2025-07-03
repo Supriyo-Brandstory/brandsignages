@@ -418,7 +418,7 @@
         </section>
 
     <section class="new_client_section container">
-        <h2 class="new_client_section-title">Our Valuable Clients Across Industries</h2>
+        <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
         <div class="row">
             <div class="col-md-5 new_client_section-image col-12">
                 <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
