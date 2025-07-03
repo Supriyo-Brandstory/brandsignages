@@ -752,37 +752,28 @@
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What is Signage Used for?
+                    What is the difference between a sign board and signage?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Signage or branding signs are used for various purposes across different industries to communicate
-                        messages, enhance branding, and enhance navigation. Here are the key uses of signage:</p>
-                    <ul>
-                        <li>Branding & Marketing – Businesses use signage to display their logo, promote offers, and enhance
-                            brand visibility.</li>
-                        <li>Wayfinding & Navigation – Helps people find directions in malls, hospitals, offices, and public
-                            spaces.</li>
-                        <li>Safety & Compliance – Includes fire safety signs, construction signs, and hazard warnings to
-                            ensure safety.</li>
-                        <li>Retail & Advertising – Digital and traditional signage in stores to promote products and boost
-                            sales.</li>
-                        <li>Corporate & Office Use – Nameplates, department signs, and meeting room displays for
-                            organization and professionalism.</li>
-                        <li>Event & Exhibition Signage – Used for banners, standees, and digital screens to guide attendees.
-                        </li>
-                        <li>Informational Signage – Displays important messages, notices, or public announcements.</li>
-                    </ul>
+                    <p>Signage and sign boards are interchangeable terms as both refer to visual displays. 
+                        While "sign board" usually points to individual display units, and "signage" refers 
+                        to the broader category of all types of signs, they ultimately serve the same purpose: 
+                        effective visual communication.</p>
+                    <p>At Brand Signages, we specialize in both sign board and signage manufacturing. We are 
+                        exclusive sign board manufacturers providing complete signage solutions. Whether you need 
+                        a single shop board, indoor branding sign boards, or outdoor sign boards, we design the best 
+                        signage in the city, tailored to specific business needs.  </p>    
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    How Do I Choose a Signage?
+                    How do I choose a sign board for my business?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Choosing a signage depends on many factors, including your business type, location, and branding
+                    <p>Choosing a signage or sign board for your business depends on many factors, including your business type, location, and branding
                         goals. Here's how to make the right choice:</p>
                     <ul>
                         <li>Purpose – Determine whether the signage is for branding, wayfinding, promotions, or safety.</li>
@@ -800,7 +791,7 @@
             </div>
             <div class="faq-item">
                 <button class="faq-question">
-                    Is Digital Signage Expensive?
+                    Is digital signage expensive?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
@@ -823,14 +814,13 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>As sign board makers, we provide a diverse range of solutions to businesses such as:</p>
+                    <p>Brand Signages is exclusively known as an <a href="https://brandsignages.com/" style="text-decoration: unset;color:#E43D12">LED sign board manufacturer in Bangalore</a>. 
+                    We also have a high-level portfolio for designing all other types of signage and sign boards. Our product range includes:</p>
                     <ul>
                         <li><a href="https://brandsignages.com/neon-signages"
                                 style="text-decoration: unset;color:#E43D12">Glow signboard</a></li>
-                        <li>Acp signboard</li>
                         <li><a href="https://brandsignages.com/arcylic-signages"
                                 style="text-decoration: unset;color:#E43D12">Acrylic LED signboards</a></li>
-                        <li>Channel Letter signs</li>
                         <li><a href="https://brandsignages.com/digital-signages"
                                 style="text-decoration: unset;color:#E43D12">Digital signages</a></li>
                         <li><a href="https://brandsignages.com/metal-signages"
@@ -881,11 +871,11 @@
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Are your signage boards suitable for both indoor and outdoor use?
+                    Are your sign boards suitable for both indoor and outdoor use?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Our signage boards are designed with versatility in mind:</p>
+                    <p>Our sign boards are designed with versatility in mind:</p>
                     <ul>
                         <li>Outdoor Signs:</li>
                         <ul>
