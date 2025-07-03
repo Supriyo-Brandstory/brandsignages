@@ -327,74 +327,8 @@
 
 
 
-        <section class="instant-pricing">
-            <div class="container">
-                <h2>Best Signage Makers in Bangalore - 24 Hour Active Production Line</h2>
-                <p>We are the best Signage Manufacturers in Bangalore with 24-hours production capability and expertise.</p>
-                <div class="scroll-loop-wrapper">
-                    <div class="scroll-loop-track">
-                        @for ($i = 0; $i < 3; $i++)
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/panting.webp') }}" alt="Painting">
-                                <p>Painting</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/MetalEtching.webp') }}" alt="Metal Etching">
-                                <p>Metal Etching</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/MetalLaserCutting.webp') }}" alt="Metal Laser Cutting">
-                                <p>Metal Laser Cutting</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/AcrylicLaser.webp') }}" alt="Acrylic Laser">
-                                <p>Acrylic Laser</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/latex-printing.webp') }}" alt="Latex Printing">
-                                <p>Latex Printing</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/uv-flat-print.webp') }}" alt="UV Flat Printing">
-                                <p>UV Flat Printing</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/plotting.webp') }}" alt="Plotting">
-                                <p>Plotting</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/channel-letter.webp') }}" alt="Channel Letters">
-                                <p>Channel Letters</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/epoxy-letter.webp') }}" alt="Epoxy Letters">
-                                <p>Channel Letters</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/3d-printing.webp') }}" alt="3D printing">
-                                <p>3D Printing</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/led-letters.webp') }}" alt="LED Letters">
-                                <p>LED Letters</p>
-                            </div>
-                        @endfor
-                    </div>
-                </div>
-            </div>
-        </section>
-          <section class="container">
-            <div class="new-contacts-section">
-                <div class="new-contacts-section-overlay">
-                    <p class="new-contacts-section-text">
-                        Your brand identity is the silent ambassador of your business. At Brand Signages, we don't just
-                        design sign boards, we craft designs that leave a lasting impression. As premier signage makers in
-                        Bangalore, we bring innovation, precision, and artistry to every design.
-                    </p>
-                    <button class="new-contacts-section-button">Contact Us</button>
-                </div>
-            </div>
-        </section>
+      
+     
 
         <section class="why-choose-signage">
             <div class="why-choose-container container">
