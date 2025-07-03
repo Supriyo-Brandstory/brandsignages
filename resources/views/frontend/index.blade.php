@@ -242,6 +242,45 @@
         </div>
     </section>
 
+       <section class="pointing">
+            <div class="container point">
+                <div class="ledx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
+                        alt="LED Sign Board">
+                </div>
+                <div class="outdoorx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
+                        alt="Outdoor Signage">
+                </div>
+                <div class="digitalx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
+                        alt="Digital Signage">
+                </div>
+                <div class="metalx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
+                        alt="Metal Signage">
+                </div>
+                <div class="acrylicx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
+                        alt="Acrylic Signage">
+                </div>
+
+
+
+
+            </div>
+        </section>
+
     <section class="new_custom-why-choose">
         <div class="container">
             <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages as Your<br> Signage Companion?</h2>
@@ -344,6 +383,75 @@
         </div>
     </section>
 
+      <section class="instant-pricing">
+            <div class="container">
+                <h2>Best Signage Makers in Bangalore - 24 Hour Active Production Line</h2>
+                <p>We are the best Signage Manufacturers in Bangalore with 24-hours production capability and expertise.</p>
+                <div class="scroll-loop-wrapper">
+                    <div class="scroll-loop-track">
+                        @for ($i = 0; $i < 3; $i++)
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/panting.webp') }}" alt="Painting">
+                                <p>Painting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/MetalEtching.webp') }}" alt="Metal Etching">
+                                <p>Metal Etching</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/MetalLaserCutting.webp') }}" alt="Metal Laser Cutting">
+                                <p>Metal Laser Cutting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/AcrylicLaser.webp') }}" alt="Acrylic Laser">
+                                <p>Acrylic Laser</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/latex-printing.webp') }}" alt="Latex Printing">
+                                <p>Latex Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/uv-flat-print.webp') }}" alt="UV Flat Printing">
+                                <p>UV Flat Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/plotting.webp') }}" alt="Plotting">
+                                <p>Plotting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/channel-letter.webp') }}" alt="Channel Letters">
+                                <p>Channel Letters</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/epoxy-letter.webp') }}" alt="Epoxy Letters">
+                                <p>Channel Letters</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/3d-printing.webp') }}" alt="3D printing">
+                                <p>3D Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/led-letters.webp') }}" alt="LED Letters">
+                                <p>LED Letters</p>
+                            </div>
+                        @endfor
+                    </div>
+                </div>
+            </div>
+        </section>
+
+             <section class="container">
+            <div class="new-contacts-section">
+                <div class="new-contacts-section-overlay">
+                    <p class="new-contacts-section-text">
+                        Your brand identity is the silent ambassador of your business. At Brand Signages, we don't just
+                        design sign boards, we craft designs that leave a lasting impression. As premier signage makers in
+                        Bangalore, we bring innovation, precision, and artistry to every design.
+                    </p>
+                    <button class="new-contacts-section-button">Contact Us</button>
+                </div>
+            </div>
+        </section>
 
     <section class="new_client_section container">
         <h2 class="new_client_section-title">Our Valuable Clients Across Industries</h2>
