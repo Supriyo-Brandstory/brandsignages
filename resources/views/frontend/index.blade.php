@@ -410,7 +410,9 @@
                         design sign boards, we craft designs that leave a lasting impression. As premier signage makers in
                         Bangalore, we bring innovation, precision, and artistry to every design.
                     </p>
-                    <button class="new-contacts-section-button">Contact Us</button>
+                    <!--<button class="new-contacts-section-button">Contact Us</button>-->
+                    <a href="https://brandsignages.com/contact-us" class="new-contacts-section-button">Contact Us</a>
+
                 </div>
             </div>
         </section>
