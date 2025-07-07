@@ -147,11 +147,12 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{route('index')}}">Home</a>
-                    </li>
+                    
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{route('about_us')}}">About Us</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{{route('services')}}">Services</a>
                     </li>
 
                     <li class="nav-item dropdown position-static">
