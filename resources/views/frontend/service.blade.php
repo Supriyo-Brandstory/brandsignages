@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="hero-banner"
-        style="background-image: url('{{asset('frontend/images/new/service-banner.webp')}}');">
+        style="background-image: url('{{asset('frontend/Images/new/service-banner.webp')}}');">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -20,14 +20,14 @@
             <!-- Each signage item -->
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
-                    <img src="{{asset('frontend/images/new/service-1.webp')}}" alt="Retail Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/service-1.webp')}}" alt="Retail Signages" class="img-fluid">
                     <p class="new_servicespage-caption">Retail Signages & Retail Branding</p>
                 </div>
             </div>
 
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
-                    <img src="{{asset('frontend/images/new/service-10.webp')}}" alt="Metal & Steel Signages"
+                    <img src="{{asset('frontend/Images/new/service-10.webp')}}" alt="Metal & Steel Signages"
                         class="img-fluid">
                     <p class="new_servicespage-caption">Metal & Steel Signages</p>
                 </div>
@@ -35,42 +35,42 @@
 
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
-                    <img src="{{asset('frontend/images/new/service-9.webp')}}" alt="LED Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/service-9.webp')}}" alt="LED Signages" class="img-fluid">
                     <p class="new_servicespage-caption">LED Signages</p>
                 </div>
             </div>
 
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
-                    <img src="{{asset('frontend/images/new/service-8.webp')}}" alt="Outdoor Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/service-8.webp')}}" alt="Outdoor Signages" class="img-fluid">
                     <p class="new_servicespage-caption">Outdoor Signages</p>
                 </div>
             </div>
 
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
-                    <img src="{{asset('frontend/images/new/service-7.webp')}}" alt="Interior Decals" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/service-7.webp')}}" alt="Interior Decals" class="img-fluid">
                     <p class="new_servicespage-caption">Interior Decals</p>
                 </div>
             </div>
 
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
-                    <img src="{{asset('frontend/images/new/service-6.webp')}}" alt="Digital Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/service-6.webp')}}" alt="Digital Signages" class="img-fluid">
                     <p class="new_servicespage-caption">Digital Signages</p>
                 </div>
             </div>
 
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
-                    <img src="{{asset('frontend/images/new/service-5.webp')}}" alt="Reflective Signs" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/service-5.webp')}}" alt="Reflective Signs" class="img-fluid">
                     <p class="new_servicespage-caption">Reflective Signs</p>
                 </div>
             </div>
 
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
-                    <img src="{{asset('frontend/images/new/service-4.webp')}}" alt="Event and Tradeshow Sign"
+                    <img src="{{asset('frontend/Images/new/service-4.webp')}}" alt="Event and Tradeshow Sign"
                         class="img-fluid">
                     <p class="new_servicespage-caption">Event and Tradeshow Sign</p>
                 </div>
@@ -78,14 +78,14 @@
 
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
-                    <img src="{{asset('frontend/images/new/service-3.webp')}}" alt="Retractable Banners" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/service-3.webp')}}" alt="Retractable Banners" class="img-fluid">
                     <p class="new_servicespage-caption">Retractable Banners</p>
                 </div>
             </div>
 
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
-                    <img src="{{asset('frontend/images/new/service-2.webp')}}" alt="Indoor Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/new/service-2.webp')}}" alt="Indoor Signages" class="img-fluid">
                     <p class="new_servicespage-caption">Indoor Signages</p>
                 </div>
             </div>
