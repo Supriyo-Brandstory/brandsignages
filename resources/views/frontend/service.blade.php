@@ -24,7 +24,7 @@
                     <p class="new_servicespage-caption">Retail Signages & Retail Branding</p>
                 </div>
             </div>
-
+            <a href="https://brandsignages.com/arcylic-signages" style="text-decoration: unset;">
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
                     <img src="{{asset('frontend/Images/new/service-10.webp')}}" alt="Metal & Steel Signages"
@@ -32,6 +32,7 @@
                     <p class="new_servicespage-caption">Metal & Steel Signages</p>
                 </div>
             </div>
+            </a>
 
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
                 <div class="new_servicespage-box">
