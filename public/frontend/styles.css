@@ -416,7 +416,7 @@ h1.hero-banner_title {
 
 .home-page .pointing {
     background: url('/frontend/Images/home/point.webp');
-    background-size: contain;
+    background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -2315,6 +2315,7 @@ color: #212121;
   color: white;
   padding: 60px 20px;
   text-align: center;
+  background-size: cover !important ;
       
 }
 
