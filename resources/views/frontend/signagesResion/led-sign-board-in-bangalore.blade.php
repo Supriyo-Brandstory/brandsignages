@@ -36,7 +36,9 @@
                     <p class="brand-description">
                        Renowned as a <a style="color: #E43D12;text-decoration: none;" href="/">signage manufacturer in Bangalore</a>, we have also evolved as a leading name in LED sign board manufacturing. We have achieved this landmark by providing unmatched customer satisfaction, commitment to quality, and the best-quality product range. At Brand Signages, we push our limits to bring your brand vision to life with stunning signage design solutions.
                     </p>
-                    
+                    <div class="mt-4">
+                            <a href="{{route('about_us')}}" class="custom-btn">About Us</a>
+                        </div>
                 </div>
             </div>
         </div>
@@ -57,7 +59,7 @@
                     class="BuiltToLast-img">
                 <img src="{{asset('frontend/Images/new/congrats-sign.webp')}}" alt="Congrats LED Sign"
                     class="BuiltToLast-img">
-                <img src="{{asset('frontend/Images/new/led-sign-3.webp')}}" alt="Scrolling LED Sign"
+                <img src="{{asset('frontend/Images/led-sign-3.webp')}}" alt="Scrolling LED Sign"
                     class="BuiltToLast-img">
             </div>
         </div>
@@ -154,6 +156,10 @@
 
                     <!-- Add more slides if needed -->
                 </div>
+                <div class="text-center mt-4">
+            <a href="https://brandsignages.com/services" class="btn-we-elevate">View All Services</a>
+        </div>
+
 
             </div>
         </section>
