@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="hero-banner_title">Best LED Sign Board <br>Manufacturer in Bangalore</h1>
-                    <p>Brand Signages is a trusted B2B partner and a premium LED sign board manufacturer in Bangalore, India.
+                    <p>Brand Signages is a trusted B2B partner and a premium LED sign board manufacturer<br> in Bangalore, India.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Get Free Quote</button>
