@@ -290,7 +290,8 @@
         </div>
     </section>
 
-         <section class="pointing">
+    <section class="home-page">
+         <div class="pointing">
             <div class="container point">
                 <div class="ledx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
@@ -327,7 +328,8 @@
 
 
             </div>
-        </section>
+        </div>
+    </section>
     {{-- <section class="Maximum-Impact-section">
         <div class="container">
             <div class="swiper Maximum-Impact-swiper">
