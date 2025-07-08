@@ -171,6 +171,64 @@
 
             </div>
         </section>
+          <section class="Maximum-Impact-section">
+        <div class="container">
+            <div class="swiper Maximum-Impact-swiper">
+
+                <h2>LED Sign Boards That Create <br>Maximum Impact </h2>
+                <p>Trusted by clients across Bangalore and India, we’ve worked on 100+ LED sign board projects with
+                    excellence.
+                    We are a proven leader in the B2B led sign board manufacturing with 10+ years of excellence. We design
+                    modern tech-savvy LED sign boards that consume 7x less energy, backed with premium quality materials and
+                    range of options.</p>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+     <div class="inquery-from-section">
+        <x-coustom-inquiry-form />
+        </div>
                 <section class="we-deliver" style="background:url('{{asset('frontend/Images/new/What-Makes-LED-Sign-Boards.webp')}}')  no-repeat; background-size: cover; background-position: center;">
             <div class="container">
                 <div class="row">
