@@ -486,7 +486,11 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>As sign board makers, we provide a diverse range of solutions to businesses such as:</p>
+                        <p>Absolutely, at Brand Signages, we specialize in creating custom LED signboards 
+                            that perfectly align with your brand identity. Whether you want to showcase your 
+                            logo, brand colors, tagline, or unique design elements, our expert team ensures 
+                            every signboard is tailored to reflect your brand’s personality and vision.
+                        </p>
                     </div>
                 </div>
 
@@ -496,9 +500,12 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Our team would meet for the initial consultation and begin working on the custom design mockups.
-                            Depending on your choice, we will select the material and dimensions, and add text and graphics
-                            to the signboard. We will send the final design for approval and also work on the installation.
+                        <p>We ensure timely delivery of your signboards across Bangalore. Our standard delivery time 
+                            ranges from 2 to 7 business days, depending on the complexity of the design, customization 
+                            requirements, and installation needs.</p>
+                        <p>For simpler designs or ready-to-install boards, delivery can be completed within 2 to 3 days. 
+                            Custom signboards with branding elements like logos, lighting, or unique shapes may take up 
+                            to 7 days to ensure precision and quality. For bulk sign board orders, it can take up to 15 days.</p> 
                         </p>
                     </div>
                 </div>
@@ -509,16 +516,12 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Our signage ordering process is designed to be straightforward and customer-friendly:</p>
-                        <ul>
-                            <li>Schedule a free consultation (online or on-site)</li>
-                            <li>Discuss your specific signage needs</li>
-                            <li>Receive initial design concepts</li>
-                            <li>Digital mockups and proof review</li>
-                            <li>Unlimited design iterations until you are satisfied</li>
-                            <li>Transparent pricing breakdown</li>
-                            <li>Delivery and installation</li>
-                        </ul>
+                        <p>Our LED sign boards are designed to be highly energy-efficient, up to 
+                            7 times more efficient than traditional LED sign board options. This means 
+                            significantly lower power consumption without compromising on brightness or 
+                            visual impact.</p>
+                        <p>Our LED boards also generate less heat, have longer lifespans, and require minimal maintenance, 
+                            making them an eco-friendly and cost-effective choice.</p>
                     </div>
                 </div>
 
@@ -528,23 +531,18 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Our signage boards are designed with versatility in mind:</p>
+                        <p>For small and large-scale businesses in Bangalore, <strong>Brand Signages</strong> offers a variety of LED 
+                        signboards tailored to suit different environments, brand styles, and visibility needs. Here are the most popular 
+                        and effective types:</p>
                         <ul>
-                            <li>Outdoor Signs:</li>
-                            <ul>
-                                <li>Weather-resistant materials</li>
-                                <li>UV-protected coatings</li>
-                                <li>Durable against harsh environmental conditions</li>
-                            </ul>
-                            <li>Indoor Signs:</li>
-                            <ul>
-                                <li>Sleek, polished finishes</li>
-                                <li>Adaptable to various interior settings</li>
-                                <li>Multiple mounting options</li>
-                                <li>Different lighting configurations</li>
-                                <li>Premium aesthetic materials</li>
-                            </ul>
+                            <li>Front-lit LED Signboards</li>
+                            <li>Back-lit LED Signboards</li>
+                            <li>Acrylic LED Signboards</li>
+                            <li>3D LED Letter Signboards</li>
+                            <li>LED Reverse Light Signs</li>
+                            <li>Digital LED Display Boards</li>
                         </ul>
+
                     </div>
                 </div>
 
@@ -554,14 +552,9 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Our comprehensive warranty ensures your confidence:</p>
-                        <ul>
-                            <li>Material and installation Guarantee</li>
-                            <li>Color and finish durability protection</li>
-                            <li>Performance assurance against environmental damage</li>
-                            <li>Quick claim resolution process</li>
-                            <li>Transparent terms and conditions</li>
-                        </ul>
+                        <p>Absolutely, LED sign boards are an excellent choice for promoting your retail store, 
+                            and at Brand Signages, we specialize in crafting high-impact LED solutions tailored 
+                            for retail environments.</p>
                     </div>
                 </div>
 
@@ -571,10 +564,17 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>We offer volume-based pricing discounts, custom package negotiations, and standardized design
-                            options. We prioritize providing top-notch customer service in terms of flexible payment terms
-                            and complimentary consultation. It is our goal to not compromise on quality and extend a
-                            competitive pricing guarantee.</p>
+                        <p>Yes, at <strong>Brand Signages</strong>, we provide complete installation services for all LED sign boards 
+                        across Bangalore and other locations in India. Our expert installation team ensures that your signage is securely 
+                        mounted, perfectly aligned, and fully functional.</p>
+                        <p>Our installation service includes:</p>
+                            <ul>
+                                <li>On-site assessment for optimal positioning</li>
+                                <li>Safe and professional mounting on various surfaces</li>
+                                <li>Electrical setup and testing to ensure proper illumination</li>
+                                <li>Post-installation support and maintenance guidance</li>
+                            </ul>
+
                     </div>
                 </div>
             </div>
