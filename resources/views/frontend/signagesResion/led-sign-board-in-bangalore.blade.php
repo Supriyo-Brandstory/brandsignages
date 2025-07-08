@@ -760,4 +760,19 @@
         </div>
     </div>
 </section>
+<section class="BuiltToLast-section" style="background: url('{{ asset('frontend/Images/new/Premium-LED-Sign-bg.png') }}') no-repeat;">
+
+  <div class="BuiltToLast-container">
+    <h2 class="BuiltToLast-heading">Premium LED Sign Boards in Bangalore–<br>Crafted to Shine, Built to Last</h2>
+    <p class="BuiltToLast-description">
+      A display board is often the first thing customers notice about your business. A well-designed digital LED signage builds brand awareness and helps increase sales and overall turnover. As a reliable name in LED sign board manufacturing in Bangalore, Brand Signages serve customers with the best quality products. We specialize in designing custom LED signage boards for outdoor spaces, indoor areas, and office branding.
+    </p>
+    <div class="BuiltToLast-images">
+      <img src="{{asset('frontend/Images/new/cardamom-sign.webp')}}" alt="Cardamom LED Sign" class="BuiltToLast-img">
+      <img src="{{asset('frontend/Images/new/congrats-sign.webp')}}" alt="Congrats LED Sign" class="BuiltToLast-img">
+      <img src="{{asset('frontend/Images/new/scrolling-led.webp')}}" alt="Scrolling LED Sign" class="BuiltToLast-img">
+    </div>
+  </div>
+</section>
+
 @endsection
