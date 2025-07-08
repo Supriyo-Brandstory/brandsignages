@@ -290,7 +290,7 @@
         </div>
     </section>
 
-    <section class="home-page">
+    <section class="home-page mb-5">
          <div class="pointing">
             <div class="container point">
                 <div class="ledx pulse-point">
