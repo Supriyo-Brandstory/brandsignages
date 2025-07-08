@@ -428,7 +428,7 @@
           <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
+                <h2 class="display-4 mb-3 why-text-heading">Latest Articles on LED Sign Boards</h2>
                 <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs
                     through our articles.</p>
             </div>
@@ -465,61 +465,34 @@
     </section>
          <section class="faq-section">
             <div class="container">
-                <h1 class="faq-title">FAQs</h1>
+                <h1 class="faq-title">LED Sign Board FAQs</h1>
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        How Do I Choose a Signage?
+                        What is the lifespan of your LED signboards?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Choosing a signage depends on many factors, including your business type, location, and branding
-                            goals. Here's how to make the right choice:</p>
-                        <ul>
-                            <li>Purpose – Determine whether the signage is for branding, wayfinding, promotions, or safety.
-                            </li>
-                            <li>Location & Visibility – Choose signage that stands out in your environment, whether indoor
-                                or outdoor.</li>
-                            <li>Right Material – Opt for durable materials based on weather conditions and usage.</li>
-                            <li>Design & Readability – Ensure the signage has clear fonts, high-contrast colors, and an
-                                eye-catching design.</li>
-                            <li>The Right Lighting – Consider LED or illuminated signs for better visibility, especially at
-                                night.</li>
-                            <li>Hire Professionals – Collaborate with expert sign board manufacturers to get a high-quality,
-                                customized solution.</li>
-                        </ul>
+                        <p>The average lifespan of our LED signboards ranges from 30,000 to 80,000 hours, 
+                            depending on usage. With adequate care and maintenance, LED signboards can last for 
+                            3 to 7 years, making them a long-lasting and cost-effective signage solution for 
+                            businesses in Bangalore.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        What are the types of signage products do you offer?
+                        Can LED signboards be customized with my brand logo and colors?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
                         <p>As sign board makers, we provide a diverse range of solutions to businesses such as:</p>
-                        <ul>
-                            <li><a href="https://brandsignages.com/neon-sign-board-bangalore"
-                                    style="text-decoration: unset;color:#E43D12">Neon sign</a></li>
-                            <li>Acp signboard</li>
-                            <li><a href="https://brandsignages.com/acrylic-signage-manufacturer-bangalore"
-                                    style="text-decoration: unset;color:#E43D12">Acrylic Signage</a></li>
-                            <li>Channel Letter signs</li>
-                            <li><a href="https://brandsignages.com/digital-signage-company-bangalore"
-                                    style="text-decoration: unset;color:#E43D12">Digital Signages</a></li>
-                            <li><a href="https://brandsignages.com/steel-signage-manufacturer-bangalore"
-                                    style="text-decoration: unset;color:#E43D12">Steel Signage</a></li>
-                            <li><a href="https://brandsignages.com/safety-signages-in-bangalore"
-                                    style="text-decoration: unset;color:#E43D12">Fire safety Signs</a></li>
-                            <li><a href="https://brandsignages.com/led-sign-board-in-bangalore"
-                                    style="text-decoration: unset;color:#E43D12">LED Sign Board</a></li>
-                        </ul>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        How can I customize a signage board to fit my specific requirements?
+                        What is the delivery time for signboard in Bangalore?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
@@ -532,7 +505,7 @@
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        What is the process for ordering and purchasing signage boards directly?
+                        How energy-efficient are your LED signboards?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
@@ -551,7 +524,7 @@
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        Are your signage boards suitable for both indoor and outdoor use?
+                        What types of LED signboards are ideal for businesses in Bangalore?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
@@ -577,7 +550,7 @@
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        Do you offer any warranties or guarantees on your signage products?
+                        Are LED sign boards suitable for promoting my retail store?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
@@ -594,7 +567,7 @@
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        How can I get a cost-effective solution for bulk signage orders?
+                        Do you provide installation services for the LED sign boards?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
@@ -602,65 +575,6 @@
                             options. We prioritize providing top-notch customer service in terms of flexible payment terms
                             and complimentary consultation. It is our goal to not compromise on quality and extend a
                             competitive pricing guarantee.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Can you install signage boards at my location in Bangalore?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Yes, we provide signage board installation services in Bangalore and all over India. When you
-                            order from us, you can expect:</p>
-                        <ul>
-                            <li>High-Quality Signage: We use durable, premium materials</li>
-                            <li>Customized Designs: We understand your brand's unique needs</li>
-                            <li>Timely Installation: We guarantee prompt and efficient installation</li>
-                            <li>Expert Team: We handle the entire process, from design to manufacturing</li>
-                            <li>Nationwide Reach: We provide coverage for signage installation services</li>
-                            <li>Affordable Pricing: Competitive rates without compromising on quality</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Can I request a sample before placing a bulk order for signage boards?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Yes, you can definitely order a single piece as a sample before placing a bulk order.
-                            This allows you to evaluate the quality, design, and material of the signage boards
-                            firsthand. We want you to be completely satisfied with your choice, so feel free to
-                            request a sample to ensure it meets your expectations before making a larger
-                            commitment.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        How long does it take to manufacture and deliver a signage board?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>It takes almost 7-10 business days to deliver signage. After you
-                            finalize the design and material, we'll proceed with manufacturing
-                            and delivery of the signages. We ensure a hassle-free experience during the
-                            entire process. </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Can you create signage for events and exhibitions in Bangalore?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Yes, we also create signage for events and exhibitions in Bangalore. Whether it's
-                            directional signage, banners, stands, or branded displays, we offer a range of options.
-                            We are a leading signage manufacturer in Bangalore & India to help you with any type of
-                            custom signage solutions. </p>
                     </div>
                 </div>
             </div>
