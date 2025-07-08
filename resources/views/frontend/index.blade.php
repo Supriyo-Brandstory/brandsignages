@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Unmatched LED Sign Board<br>Solutions for Every Industry</h1>
-                    <p>Brand Signages is a trusted B2B partner for premium signage solutions in Bangalore and <br>PAN India.
+                    <h1 class="hero-banner_title">Unmatched Sign Board Design<br>Solutions for Every Industry</h1>
+                    <p>Brand Signages is a trusted B2B partner and a premium signage manufacturer in Bangalore, India.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Know More</button>
@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="hero-title text-start">Top-rated LED Signage Manufacturer with a Decade of Expertise </h2>
+                    <h2 class="hero-title text-start">Top-rated Signage Manufacturer with a Decade of Expertise </h2>
                     <p class="brand-description">
                         Brand Signages was established in 2014 with a vision to empower brands with signage solutions that
                         are unmatched in quality and design. We are meeting the deadlines in 2025 as the best-rated signage

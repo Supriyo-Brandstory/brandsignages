@@ -6,7 +6,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="hero-banner_title">Best LED Sign Board <br>Manufacturer in Bangalore</h1>
-
+                    <p>Brand Signages is a trusted B2B partner and a premium LED sign board manufacturer in Bangalore, India.
+                    </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Get Free Quote</button>
                     </a>
@@ -22,13 +23,13 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/home/about-us.webp')}}" alt="Cafe Rosco Signage"
+                        <img src="{{asset('frontend/Images/led-sign-board-signage.webp')}}" alt="LED Sign Board Design"
                             class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="brand-title">Supirior-quality Electronic Name Boards</h2>
+                    <h2 class="brand-title">Supirior-quality LED Name Boards</h2>
                     <p class="brand-description">
                        Give your business a fresh look and present it in a way that truly connects with your audience. In today’s fast-evolving advertising landscape, we offer a wide range of <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages">cutting-edge LED sign boards</a> designed to elevate your brand and meet your business needs. Our product range includes digital LED signage, glow LED Signs, LED display boards, outdoor LED sign boards, etc. Every signboard is tailored to exhibit your brand's recognition at a lower cost while guaranteeing energy efficiency.
                     </p>
@@ -56,7 +57,7 @@
                     class="BuiltToLast-img">
                 <img src="{{asset('frontend/Images/new/congrats-sign.webp')}}" alt="Congrats LED Sign"
                     class="BuiltToLast-img">
-                <img src="{{asset('frontend/Images/new/scrolling-led.webp')}}" alt="Scrolling LED Sign"
+                <img src="{{asset('frontend/Images/new/led-sign-3.webp')}}" alt="Scrolling LED Sign"
                     class="BuiltToLast-img">
             </div>
         </div>
@@ -73,98 +74,83 @@
 
                     <!-- Slide 1 -->
                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/dutyfree.webp') }}" alt="Acrylic Signage"
+                        <img src="{{ asset('frontend/Images/acrylic-sign-board-1.webp') }}" alt="Acrylic LED Sign"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Acrylic Signage</h3>
+                            <h3>Acrylic LED Sign Board</h3>
                             <p>
-                                Acrylic signage is a preferred choice among industries for its glossy finish and durability. 
-                                We design acrylic signage with unmatched durability and precision. 
+                                Acrylic LED Sign Board is a visually appealing signage solution made from durable acrylic material, 
+                                illuminated with LED lights. These are one of the most used signage boards for restaurants and cafes, 
+                                retail stores, event exhibitions, corporate offices, hotel resorts, shopping malls, and outdoor advertising. 
                             </p>
                         </div>
                     </div>
 
                     <!-- Slide 2 -->
                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
+                        <img src="{{ asset('frontend/Images/digital-led-signage-1.webp') }}" alt="Metal Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Metal & Steel Signage</h3>
+                            <h3>Digital LED Display Boards</h3>
                             <p>
-                                Stainless steel signage is one of the most affordable and durable types of signage. We design stainless steel 
-                                signage for organizations with custom sizes and designs.
+                                Digital LED Display Boards use LED technology to display dynamic content, including text, images, and videos. 
+                                Any type of retail store or outlet can use it to promote their offer or newly launched product with interactive 
+                                digital LED screens. It can create an impressive customer experience and attract foot traffic.
                             </p>
                         </div>
                     </div>
                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/led-sign-board.webp') }}" alt="LED Sign Board"
+                        <img src="{{ asset('frontend/Images/led-backlit-board-1.webp') }}" alt="LED Sign Board"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>LED Sign Board</h3>
+                            <h3>LED Backlit Boards</h3>
                             <p>
-                                LED sign boards are the most versatile option for modern branding. We are proven experts in LED sign board manufacturing 
-                                to help you create the best LED nameboards. 
+                                LED Backlit Boards are illuminated signboards where LED lights are placed behind the display surface, creating a 
+                                glowing effect. Digital backlit boards are the perfect choice for making brand names unforgettable. By placing 
+                                them in strategic spots and striking design, backlit signs can establish a strong brand presence. 
                             </p>
                         </div>
                     </div>
                     <!-- Slide 1 -->
                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/digital-signages.webp') }}" alt="Digital Signages"
+                        <img src="{{ asset('frontend/Images/led-reverse-light.webp') }}" alt="Digital Signages"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Digital Signage</h3>
+                            <h3>LED Reverse Light Sign</h3>
                             <p>
-                                Digital displays are a dynamic and attention-grabbing transformation for retail spaces. We design modern digital signage 
-                                and digital displays for every industry.
+                                LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, creating a halo 
+                                or glow effect around the letters. LED Reverse Light Sign is perfect for storefronts, exhibitions, and vehicles. 
+                                Strategically placed in high-traffic areas or mobile platforms, LED reverse light signs ensure your message stands 
+                                out, day or night.
                             </p>
                         </div>
                     </div>
 
                     <!-- Slide 2 -->
                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/neon-sign.webp') }}" alt="Neon Sign Board"
+                        <img src="{{ asset('frontend/Images/led-message-boards.webp') }}" alt="Neon Sign Board"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Neon Sign Board</h3>
+                            <h3>LED Message Boards</h3>
                             <p>
-                               Neon signs are a go-to option for retail and restaurant businesses for all-around visibility. We employ our precious experts to 
-                               design the best neon signage designs in the city.
+                               LED Message Boards are digital display boards that use LED technology to showcase customizable text and messages, ideal 
+                               for real-time updates, advertisements, and information display. If you're looking for captivating message boards that can 
+                               easily communicate with your customers or visitors, LED message boards are the best option.
                             </p>
                         </div>
                     </div>
                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/retail-signages.webp') }}" alt="retail Signage"
+                        <img src="{{ asset('frontend/Images/glow-sign-board.webp') }}" alt="retail Signage"
                             class="bgrowth-img" />
                         <div class="bgrowth-content">
-                            <h3>Retail Signages</h3>
+                            <h3>Glowing Light Sign Boards</h3>
                             <p>
-                               Retail signage is the epitome of beauty and elegance. These creations are bold, energy-efficient, and easy to use and maintain 
-                               for long-lasting performance.
+                               Glowing Light Sign Boards are illuminated signage solutions that use LED or neon lights to create a vibrant, eye-catching glow. 
+                               Glowing light sign board is ideal for cafes, storefronts, exhibitions, malls, or event spaces.
                             </p>
                         </div>
                     </div>
-                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/indoor-signages.webp') }}" alt="Indoor Signage"
-                            class="bgrowth-img" />
-                        <div class="bgrowth-content">
-                            <h3>Indoor Signages</h3>
-                            <p>
-                               Indoor signages are mostly used in corporate offices, retail spaces, financial institutions, and medical facilities. Interior signages communicate 
-                               brand personality and transforms interior. 
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/outdoor-signages.webp') }}" alt="Outdoor Signage"
-                            class="bgrowth-img" />
-                        <div class="bgrowth-content">
-                            <h3>Outdoor Signages</h3>
-                            <p>
-                               Outdoor signages create immersive visual experiences, balancing visibility with powerful messaging. These signage acts as a strategic marketing tools 
-                               that truly engage audiences. 
-                            </p>
-                        </div>
-                    </div>
+
 
                     <!-- Add more slides if needed -->
                 </div>
@@ -229,14 +215,14 @@
      <div class="inquery-from-section">
         <x-coustom-inquiry-form />
         </div>
-                <section class="we-deliver" style="background:url('{{asset('frontend/Images/new/What-Makes-LED-Sign-Boards.webp')}}')  no-repeat; background-size: cover; background-position: center;">
+                <section class="we-deliver">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-12">
                         <h2>What Makes LED Sign Boards a Top Choice for Businesses</h2>
                     </div>
                     <div class="col-md-8 col-12">
-                        <p>As a leading LED signage manufacturer, we ensure our signboards meet industry standards with innovative designs, energy efficiency, and durability, making them an ideal choice for businesses looking for high-impact and long-lasting branding solutions.</p>
+                    
                         <div class="row">
                             <div class="col-md-6 col-12">
                                 <div class="deliver-box">
