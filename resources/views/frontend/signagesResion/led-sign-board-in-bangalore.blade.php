@@ -30,10 +30,10 @@
                 <div class="col-lg-6">
                     <h2 class="brand-title">Supirior-quality Electronic Name Boards</h2>
                     <p class="brand-description">
-                       Give your business a fresh look and present it in a way that truly connects with your audience. In today’s fast-evolving advertising landscape, we offer a wide range of <a href="https://brandsignages.com/led-light-signages">cutting-edge LED sign boards</a> designed to elevate your brand and meet your business needs. Our product range includes digital LED signage, glow LED Signs, LED display boards, outdoor LED sign boards, etc. Every signboard is tailored to exhibit your brand's recognition at a lower cost while guaranteeing energy efficiency.
+                       Give your business a fresh look and present it in a way that truly connects with your audience. In today’s fast-evolving advertising landscape, we offer a wide range of <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages">cutting-edge LED sign boards</a> designed to elevate your brand and meet your business needs. Our product range includes digital LED signage, glow LED Signs, LED display boards, outdoor LED sign boards, etc. Every signboard is tailored to exhibit your brand's recognition at a lower cost while guaranteeing energy efficiency.
                     </p>
                     <p class="brand-description">
-                       Renowned as a <a href="/">signage manufacturer in Bangalore</a>, we have also evolved as a leading name in LED sign board manufacturing. We have achieved this landmark by providing unmatched customer satisfaction, commitment to quality, and the best-quality product range. At Brand Signages, we push our limits to bring your brand vision to life with stunning signage design solutions.
+                       Renowned as a <a style="color: #E43D12;text-decoration: none;" href="/">signage manufacturer in Bangalore</a>, we have also evolved as a leading name in LED sign board manufacturing. We have achieved this landmark by providing unmatched customer satisfaction, commitment to quality, and the best-quality product range. At Brand Signages, we push our limits to bring your brand vision to life with stunning signage design solutions.
                     </p>
                     
                 </div>
