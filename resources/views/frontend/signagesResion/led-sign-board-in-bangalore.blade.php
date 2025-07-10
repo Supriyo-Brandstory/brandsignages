@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Best LED Sign Board <br>Manufacturer in Bangalore</h1>
+                    <h1 class="hero-banner_title">Shine Brighter with Eye-Catching <br>LED Sign Boards in Bangalore</h1>
                     <p>Brand Signages is a trusted B2B partner for premium LED sign board manufacturer<br> in Bangalore, India.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
@@ -18,7 +18,7 @@
     <!-- About Section -->
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">Illuminate Your Brand in Bangalore <br>with Stunning LED Sign Boards</h2>
+            <h2 class="hero-title">Stand Out in Bangalore’s Cityscape with<br> LED Sign Boards That Speak for Your Brand</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -59,11 +59,11 @@
                 specialize in designing custom LED signage boards for outdoor spaces and retail branding.
             </p>
             <div class="BuiltToLast-images">
-                <img src="{{asset('frontend/Images/new/cardamom-sign.webp')}}" alt="Cardamom LED Sign"
+                <img src="{{asset('frontend/Images/new/cardamom-sign.webp')}}" alt="LED Sign Board Design for B2B Customer"
                     class="BuiltToLast-img">
-                <img src="{{asset('frontend/Images/new/congrats-sign.webp')}}" alt="Congrats LED Sign"
+                <img src="{{asset('frontend/Images/new/congrats-sign.webp')}}" alt="LED Sign Board Design for B2B Customer"
                     class="BuiltToLast-img">
-                <img src="{{asset('frontend/Images/led-sign-3.webp')}}" alt="Scrolling LED Sign"
+                <img src="{{asset('frontend/Images/led-sign-3.webp')}}" alt="LED Sign Board Design for B2B Customer"
                     class="BuiltToLast-img">
             </div>
         </div>
@@ -246,7 +246,7 @@
                                     <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Timely Delive"
                                         class="img-fluid">
                                     <h3>Powerful Tool for Advertising</h3>
-                                    <p>Bangalore's vibrant commercial landscape, with its tech hubs and bustling streets, makes LED signboards a perfect choice for businesses seeking high visibility. These illuminated displays enhance brand presence, attracting customers even in the city's dynamic environment.
+                                    <p>Bangalore's vibrant commercial landscape, with its tech hubs and bustling streets, makes LED signboards a perfect choice for businesses seeking high visibility. These illuminated displays enhance brand presence, and attracting customers.
                                     </p>
                                 </div>
                             </div>
@@ -255,7 +255,7 @@
                                     <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
                                         class="img-fluid">
                                     <h3>Long-Lasting Durability </h3>
-                                    <p>These signages are designed with energy-efficient technology to ensure low electricity consumption and extended lifespan.
+                                    <p>LED sign boards are designed with energy-efficient LED technology to ensure low electricity consumption and extended lifespan.
                                     </p>
                                 </div>
                             </div>
@@ -264,7 +264,7 @@
                                     <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
                                         class="img-fluid">
                                     <h3>Installation & Maintenance </h3>
-                                    <p> Other than traditional sign boards, it does not require upkeep. LED signage boards are lightweight and easy-to-install solutions.
+                                    <p> Other than traditional sign boards, it does not require upkeep. LED signage boards are lightweight due to modern materials like aluminum frames and acrylic panels.
                                     </p>
                                 </div>
                             </div>
@@ -275,7 +275,7 @@
           <!-- testimonial Feedback Section -->
         <section class="new_testimonial-swiper-section">
             <div class="container">
-                <h2 class="text-center mb-md-5 mb-3">The Impact We've Delivered for Clients</h2>
+                <h2 class="text-center mb-md-5 mb-3">What Our Clients Say About Us</h2>
 
                 <div class="position-relative">
 
