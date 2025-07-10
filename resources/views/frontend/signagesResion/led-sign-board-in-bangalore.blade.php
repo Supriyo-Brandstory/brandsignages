@@ -40,7 +40,7 @@
                        products. We provide a wide range of comprehensive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a> for our customers at affordable prices.
                     </p>
                     <p class="brand-description">
-                       Being a prominent leader in <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/services"><strong>signage services</strong></a>, we have evolved into a leader in LED sign board manufacturing. We value our core principles, serve each customer with utmost priority, and bring your brand to life with captivating graphics and impactful visual storytelling. 
+                       Being a prominent leader in <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/services"><strong>signage services</strong></a>, we have become trusted name in LED sign board manufacturing. We value our core principles, serve each customer with utmost priority, and bring your brand to life with captivating graphics and impactful visual storytelling. 
                     </p>
                     <div class="mt-4">
                             <a href="{{route('about_us')}}" class="custom-btn">About Us</a>
