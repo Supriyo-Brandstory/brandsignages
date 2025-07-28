@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Shine Brighter with Eye-Catching <br>LED Sign Boards in Bangalore</h1>
+                    <h1 class="hero-banner_title">Shine Brighter with High-Impact <br>LED Sign Boards in Bangalore</h1>
                     <p>Brand Signages is a trusted B2B partner for premium LED sign board manufacturer<br> in Bangalore, India.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
@@ -37,7 +37,7 @@
                     </p>
                        <p class="brand-description">
                        Brand Signages is a leading LED sign board manufacturer in Bangalore, serving B2B customers with premium 
-                       products. We provide a wide range of comprehensive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a> for our customers at affordable prices.
+                       products. We provide a wide range of comprehensive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a> for our customers at affordable prices. As your trusted provider of LED signboards in Bangalore, we deliver solutions tailored to make an impact.
                     </p>
                     <p class="brand-description">
                        Being a prominent leader in <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/services"><strong>signage services</strong></a>, we have become trusted name in LED sign board manufacturing. We value our core principles, serve each customer with utmost priority, and bring your brand to life with captivating graphics and impactful visual storytelling. 
@@ -53,10 +53,10 @@
         style="background: url('{{ asset('frontend/Images/new/Premium-LED-Sign-bg.png') }}') no-repeat;">
 
         <div class="BuiltToLast-container">
-            <h2 class="BuiltToLast-heading">Premium LED Sign Boards in Bangalore–<br>Crafted to Shine, Built to Last</h2>
+            <h2 class="BuiltToLast-heading">Premium LED Sign Boards in Bangalore<br>Crafted to Shine, Built to Last</h2>
             <p class="BuiltToLast-description">
-                As a trusted name in signage and LED sign board manufacturing, Brand Signages serve customers with the best quality products. We
-                specialize in designing custom LED signage boards for outdoor spaces and retail branding.
+                As a trusted name in signage and LED sign board manufacturing, Brand Signages always make the best quality products for Bangalore-based businesses. We
+                specialize in designing custom LED signage boards for outdoor spaces, retail branding, etc.
             </p>
             <div class="BuiltToLast-images">
                 <img src="{{asset('frontend/Images/new/cardamom-sign.webp')}}" alt="LED Sign Board Design for B2B Customer"
@@ -227,7 +227,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-12">
-                        <h2>What Makes LED Sign Boards a Top Choice for Businesses</h2>
+                        <h2>What Makes LED Sign Boards a Top Choice for Businesses</h2>
                     </div>
                     <div class="col-md-8 col-12">
                     
@@ -464,6 +464,52 @@
          <section class="faq-section">
             <div class="container">
                 <h1 class="faq-title">LED Sign Board FAQs</h1>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is an LED signboard and how does it work?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>An LED signboard is a display system that uses light-emitting 
+                            diodes (LEDs) to project messages, visuals, or branding content. These signs are energy-efficient, 
+                            durable, and visible both day and night, making them ideal for commercial promotion.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Are your LED signboards weather-resistant and suitable for outdoor use?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, our LED signboards are built to withstand Bangalore’s varying climate, whether it's intense sunlight or 
+                            heavy monsoon rains, ensuring consistent performance throughout the year.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you provide remote content management or scheduling for LED displays?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, our digital LED signboards can be integrated with remote content management systems, allowing you to update 
+                            messages, ads, or visuals in real-time from anywhere.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do I need any permissions or approvals to install an LED signboard in Bangalore?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Depending on the location and size, certain LED signboards may require permissions from the local municipal authorities 
+                            or BBMP (Bruhat Bengaluru Mahanagara Palike). We can guide you through the approval process.</p>
+                    </div>
+                </div>
+
 
                 <div class="faq-item">
                     <button class="faq-question">
