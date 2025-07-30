@@ -4,6 +4,9 @@
 User-agent: *
 Disallow:
 
+# Block Babbar's crawler
+User-agent: Barkrowler
+Disallow: /
 
 # Sitemap location
 Sitemap: https://www.brandsignages.com/sitemap.xml
