@@ -4,14 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
- 
-
     <link rel="icon" href="https://brandsignages.com/favicon-32x32.ico" sizes="32x32" type="image/x-icon" />
-
     <link rel="icon" href="https://brandsignages.com/favicon.ico" sizes="48x48" type="image/x-icon">
-
     <link rel="apple-touch-icon" sizes="180x180" href="https://brandsignages.com/favicon-180x180.ico">
 
 
@@ -32,47 +26,38 @@
         <meta property="og:image" content="{{ $seoImage }}" />
 
         <script type="application/ld+json">
-                            {
-                              "@context": "https://schema.org",
-                              "@type": "BlogPosting",
-                              "headline": "{{ $blogSeoData['title'] ?? 'Brand Signages' }}",
-                              "description": "{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}",
-                              "image": "{{ $seoImage }}",
-                              "author": {
-                                "@type": "Person",
-                                "name": "Manoj Kaliyannan",
-                                "url": "https://in.linkedin.com/in/manojkaliyannan"
-                              },
-                              "publisher": {
-                                "@type": "Organization",
-                                "name": "Brand Signages",
-                                "logo": {
-                                  "@type": "ImageObject",
-                                  "url": "{{ asset('frontend/Images/Brand-Signages-logo.png') }}"
-                                }
-                              },
-                              "datePublished": "{{ $blogSeoData['published_at'] ?? '2025-01-28' }}",
-                              "dateModified": "{{ $blogSeoData['updated_at'] ?? '2025-01-28' }}",
-                              "mainEntityOfPage": {
-                                "@type": "WebPage",
-                                "@id": "{{ $blogSeoData['canonical_url'] ?? url()->current() }}"
-                              }
-                            }
-                        </script>
+                                        {
+                                          "@context": "https://schema.org",
+                                          "@type": "BlogPosting",
+                                          "headline": "{{ $blogSeoData['title'] ?? 'Brand Signages' }}",
+                                          "description": "{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}",
+                                          "image": "{{ $seoImage }}",
+                                          "author": {
+                                            "@type": "Person",
+                                            "name": "Manoj Kaliyannan",
+                                            "url": "https://in.linkedin.com/in/manojkaliyannan"
+                                          },
+                                          "publisher": {
+                                            "@type": "Organization",
+                                            "name": "Brand Signages",
+                                            "logo": {
+                                              "@type": "ImageObject",
+                                              "url": "{{ asset('frontend/Images/Brand-Signages-logo.png') }}"
+                                            }
+                                          },
+                                          "datePublished": "{{ $blogSeoData['published_at'] ?? '2025-01-28' }}",
+                                          "dateModified": "{{ $blogSeoData['updated_at'] ?? '2025-01-28' }}",
+                                          "mainEntityOfPage": {
+                                            "@type": "WebPage",
+                                            "@id": "{{ $blogSeoData['canonical_url'] ?? url()->current() }}"
+                                          }
+                                        }
+                                    </script>
     @else
         {!!$seo->script ?? '<title>#1 Sign Board Manufacturer in Bangalore | Brand Signages</title>'!!}
     @endif
 
-
-
-
-
-    
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-
-
     <meta name="google-site-verification" content="k2zT6vzjGmv5Qj_C5YPVg4YbcQNoHooAF5smISxk2qA" />
-
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -89,40 +74,23 @@
 
 
 
-
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;700&display=swap" rel="stylesheet">
-    
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-   
-    
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-
-
-    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
-    
     <link rel="stylesheet" href="{{asset('frontend/styles.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/services.css')}}">
-    <!-- Lightbox2 CSS -->
-
-    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/css/lightgallery.min.css" />
-   
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 
 
 </head>
 
 <body>
-
-    <!-- Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMB37QHX" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -434,7 +402,6 @@
                 </div>
             </div>
 
-            <!-- Footer Bottom Row -->
             <div class="row justify-content-center justify-content-md-between text-start text-md-start">
                 <div class="col-12 text-center">
                     <span>© 2024 Brand Signages. All Rights Reserved.</span>
@@ -444,32 +411,107 @@
     </section>
 
 
-
-    <!-- Floating Call Button (Only visible on mobile) -->
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="{{asset('frontend/script.js')}}"></script>
-
+    <style>
+        .footer a {
+            color: #E43D12;
+        }
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="{{ asset('frontend/script.js') }}" defer></script>
+
 
     <script>
-        // Initialize LightGallery
         lightGallery(document.getElementById("gallery-container"), {
             speed: 500,
             selector: "a",
             download: false
         });
     </script>
-    <!-- Bootstrap JS -->
+    <script>
+        $(document).ready(function () {
+            var popupModalEl = document.getElementById('popupModal');
+            var modal = null;
 
+            if (popupModalEl) {
+                modal = new bootstrap.Modal(popupModalEl);
+            }
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-        .footer a {
-            color: #E43D12;
-        }
-    </style>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+            $('#getStarted').click(function () {
+                var isValid = true;
+
+                // Validate all input fields
+                $('#mainForm .form-control, #mainForm .form-select').each(function () {
+                    if (!$(this).val()) {
+                        $(this).addClass('is-invalid');
+                        $(this).next('.invalid-feedback').show();
+                        isValid = false;
+                    } else {
+                        $(this).removeClass('is-invalid');
+                        $(this).next('.invalid-feedback').hide();
+                    }
+                });
+
+                // If validation fails, don't show the modal
+                if (!isValid || !modal) {
+                    return;
+                }
+
+                // Set values in the modal
+                $('#modalTitle').val($('#title').val());
+                $('#modalHeight').val($('#height').val());
+                $('#modalWidth').val($('#width').val());
+
+                // Show the modal
+                modal.show();
+            });
+
+            // Remove error highlight when input is changed
+            $('#mainForm .form-control, #mainForm .form-select').on('input change', function () {
+                if ($(this).val()) {
+                    $(this).removeClass('is-invalid');
+                    $(this).next('.invalid-feedback').hide();
+                }
+            });
+
+            // Show/Hide upload field based on type selection
+            $('input[name="type"]').change(function () {
+                if ($(this).val() === 'upload') {
+                    $('#imageField').show();
+                } else {
+                    $('#imageField').hide();
+                }
+            });
+
+            $('#popupForm').submit(function (e) {
+                e.preventDefault();
+                var formData = new FormData(this);
+
+                $.ajax({
+                    url: "{{ route('custom-inquiry.store') }}",
+                    type: "POST",
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function (response) {
+                        if (response.message) {
+                            if (modal) modal.hide();
+                            $('#successMessage').fadeIn().delay(3000).fadeOut();
+                            $('#mainForm')[0].reset();
+                            $('#popupForm')[0].reset();
+                            $('.form-control, .form-select').removeClass('is-invalid'); // Reset validation styles
+                        }
+                    },
+                    error: function (xhr) {
+                        alert('Something went wrong! Please try again.');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

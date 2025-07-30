@@ -3,7 +3,7 @@
 # Allow all bots to access the site
 User-agent: *
 Disallow:
-Allow: /frontend/
+
 
 # Sitemap location
 Sitemap: https://www.brandsignages.com/sitemap.xml
