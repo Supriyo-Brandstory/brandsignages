@@ -50,6 +50,7 @@
 <IfModule mod_headers.c>
     <FilesMatch "\.(js|css|ttf|otf|eot|woff|woff2|png|jpg|jpeg|gif|svg|webp)$">
         Header set Access-Control-Allow-Origin "*"
+         Header set Access-Control-Allow-Origin "http://search.google.com/"
     </FilesMatch>
 </IfModule>
 
