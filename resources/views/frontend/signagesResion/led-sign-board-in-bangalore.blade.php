@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Shine Brighter with High-Impact <br>LED Sign Boards in Bangalore</h1>
-                    <p>Brand Signages is a trusted B2B premium LED sign board manufacturer<br> in Bangalore, India.
+                    <h1 class="hero-banner_title">High-Impact LED Sign Boards <br>in Bangalore | 7X Energy Efficient</h1>
+                    <p>Brand Signages is a trusted B2B premium LED sign board manufacturer<br> in Bangalore, India. Shine brighter in the city with high-impact LED sign boards.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Get Free Quote</button>
@@ -69,7 +69,7 @@
     </section>
   <section class="bgrowth-slider-section">
             <div class="bgrowth-header">
-                <h2>7X Efficient LED Sign Board <br>Product Range</h2>
+                <h2>Our LED Sign Board <br>Product Range</h2>
                 
             </div>
 
