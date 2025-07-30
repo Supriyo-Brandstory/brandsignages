@@ -1,16 +1,30 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
+import { resolve } from 'path';
 
 export default defineConfig({
   plugins: [
     laravel({
       input: [
         'resources/css/app.css',
+        // Add JS if needed:
+        // 'resources/js/app.js'
       ],
       refresh: true,
     }),
   ],
-    assetsInclude: [],
+
+  // Proper assets handling
+  assetsInclude: [],
+
+  // Resolve aliases
+  resolve: {
+    alias: {
+      '@': '/resources',
+      '~': resolve(__dirname, 'public')
+    },
+  },
+
   build: {
     outDir: 'public/build',
     emptyOutDir: true,
@@ -25,10 +39,13 @@ export default defineConfig({
         warn(warning);
       },
       output: {
-              assetFileNames: 'assets/[name].[hash][extname]',
-
+        assetFileNames: 'assets/[name].[hash][extname]',
+        chunkFileNames: 'assets/js/[name].[hash].js',
+        entryFileNames: 'assets/js/[name].[hash].js',
       }
     }
   },
-  publicDir: '/public', // Make sure this points to your public directory
+
+  // Correct publicDir configuration
+  publicDir: false,
 });
