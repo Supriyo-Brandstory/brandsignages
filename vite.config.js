@@ -10,12 +10,25 @@ export default defineConfig({
       refresh: true,
     }),
   ],
+    assetsInclude: [],
   build: {
+    outDir: 'public/build',
+    emptyOutDir: true,
+    manifest: true,
     rollupOptions: {
-      output: {
-        assetFileNames: 'assets/[name].[hash][extname]',
+      // Silence warnings about static assets
+      onwarn(warning, warn) {
+        if (warning.code === 'UNRESOLVED_IMPORT' && 
+            warning.message.includes('/frontend/Images/')) {
+          return;
+        }
+        warn(warning);
       },
-    },
+      output: {
+              assetFileNames: 'assets/[name].[hash][extname]',
+
+      }
+    }
   },
   publicDir: '/public', // Make sure this points to your public directory
 });
