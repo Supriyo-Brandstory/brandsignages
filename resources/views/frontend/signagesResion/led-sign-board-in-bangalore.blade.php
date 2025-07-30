@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="hero-banner_title">Shine Brighter with High-Impact <br>LED Sign Boards in Bangalore</h1>
-                    <p>Brand Signages is a trusted B2B partner for premium LED sign board manufacturer<br> in Bangalore, India.
+                    <p>Brand Signages is a trusted B2B premium LED sign board manufacturer<br> in Bangalore, India.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Get Free Quote</button>
@@ -18,7 +18,7 @@
     <!-- About Section -->
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">Stand Out in Bangalore’s Cityscape with<br> LED Sign Boards That Speak for Your Brand</h2>
+            <h2 class="hero-title">Stand Out in Bangalore’s Cityscape with<br> High-Impact LED Sign Boards</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -29,15 +29,14 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="brand-title">Supirior-quality LED Name Boards</h2>
+                    <h2 class="brand-title">Supirior-quality LED Name Boards Bangalore</h2>
                     <p class="brand-description">
-                       In today’s competitive market, your business must make an impact offline to stand out from competitors. 
+                       In a world full of visual noise, your business must make an impact offline to stand out from competitors. 
                        Sign boards act as the first point of interaction, and LED sign boards are the talk of the town, boosting 
                        brand visibility and capturing attention instantly.
                     </p>
                        <p class="brand-description">
-                       Brand Signages is a leading LED sign board manufacturer in Bangalore, serving B2B customers with premium 
-                       products. We provide a wide range of comprehensive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a> for our customers at affordable prices. As your trusted provider of LED signboards in Bangalore, we deliver solutions tailored to make an impact.
+                       Brand Signages is a leading LED sign board manufacturer in Bangalore, serving B2B customers with striking visual displays. We provide a wide range of comprehensive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a> for our customers at affordable prices. As a trusted provider of LED signboards in Bangalore, we deliver solutions tailored to make an impact.
                     </p>
                     <p class="brand-description">
                        Being a prominent leader in <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/services"><strong>signage services</strong></a>, we have become trusted name in LED sign board manufacturing. We value our core principles, serve each customer with utmost priority, and bring your brand to life with captivating graphics and impactful visual storytelling. 
@@ -53,9 +52,9 @@
         style="background: url('{{ asset('frontend/Images/new/Premium-LED-Sign-bg.png') }}') no-repeat;">
 
         <div class="BuiltToLast-container">
-            <h2 class="BuiltToLast-heading">Premium LED Sign Boards in Bangalore<br>Crafted to Shine, Built to Last</h2>
+            <h2 class="BuiltToLast-heading">Premium LED Sign Boards for Businesses<br> Crafted to Shine, Built to Last</h2>
             <p class="BuiltToLast-description">
-                As a trusted name in signage and LED sign board manufacturing, Brand Signages always make the best quality products for Bangalore-based businesses. We
+                Renowned for craftsmanship and creativity, Brand Signages delivers top-tier LED signage solutions for businesses in Bangalore. We
                 specialize in designing custom LED signage boards for outdoor spaces, retail branding, etc.
             </p>
             <div class="BuiltToLast-images">

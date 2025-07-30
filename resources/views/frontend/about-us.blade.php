@@ -56,8 +56,8 @@
                   sign boards that impact and engage the audience. As a leading signage company, we collaborate closely with you to craft sign boards that match your 
                   imagination. We design and deliver all types of indoor and outdoor signage solutions that are unmatched in quality, artistry, and design. </p>
                 <p class="brand-description">
-                    At Brand Signages, we are among the exclusive LED sign board manufacturers in Bangalore & India. We have a proven track record of designing LED sign boards 
-                    for top brands and businesses for the last 10 years. Our LED sign boards are 7X energy efficient and built with premium-quality materials. 
+                    At Brand Signages, we are among the top-rated <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/digital-signage-company-bangalore"><strong>digital signage</strong></a> and <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-sign-board-in-bangalore"><strong>LED sign board manufacturers in Bangalore</strong></a> & India. We have a proven track record of designing LED sign boards 
+                    for top brands and businesses for the last 10 years. Our LED display boards are 7X energy efficient and built with premium-quality materials. 
                 </p>    
                 <div class="mt-4">
                             <a href="https://brandsignages.com/" class="custom-btn">Know More</a>

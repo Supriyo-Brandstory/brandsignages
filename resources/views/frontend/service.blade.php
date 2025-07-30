@@ -18,14 +18,14 @@
         </h2>
         <div class="row g-4">
             <!-- Each signage item -->
-            <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
+            <!--<div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
             <a href="https://brandsignages.com/" style="text-decoration: unset;">
 
                 <div class="new_servicespage-box">
                     <img src="{{asset('frontend/Images/new/service-1.webp')}}" alt="Retail Signages" class="img-fluid">
                     <p class="new_servicespage-caption">Retail Signages & Retail Branding</p>
                 </div>
-            </div>
+            </div>-->
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
             <a href="https://brandsignages.com/metal-signages" style="text-decoration: unset;">
 
