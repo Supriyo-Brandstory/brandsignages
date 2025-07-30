@@ -4,17 +4,6 @@
 User-agent: *
 Disallow:
 
-# Block specific directories
-Disallow: /admin/
-Disallow: /private/
-Disallow: /tmp/
-
-# Allow all images (important for favicon visibility)
-Allow: /frontend/Images/
-Allow: /favicon.ico
-Allow: /favicon-32x32.ico
-Allow: /favicon-180x180.ico
-
 
 # Sitemap location
 Sitemap: https://www.brandsignages.com/sitemap.xml

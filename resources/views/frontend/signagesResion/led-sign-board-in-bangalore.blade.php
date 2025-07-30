@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Best LED Sign Board <br>Manufacturer in Bangalore</h1>
-                    <p>Brand Signages is a trusted B2B partner and a premium LED sign board manufacturer<br> in Bangalore, India.
+                    <h1 class="hero-banner_title">High-Impact LED Sign Boards <br>in Bangalore | 7X Energy Efficient</h1>
+                    <p>Brand Signages is a trusted B2B premium LED sign board manufacturer<br> in Bangalore, India. Shine brighter in the city with high-impact LED sign boards.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Get Free Quote</button>
@@ -18,7 +18,7 @@
     <!-- About Section -->
     <section>
         <div class="container py-5">
-            <h2 class="hero-title">Illuminate Your Brand in Bangalore <br>with Premium LED Sign Boards</h2>
+            <h2 class="hero-title">Stand Out in Bangalore’s Cityscape with<br> High-Impact LED Sign Boards</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -29,12 +29,17 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="brand-title">Supirior-quality LED Name Boards</h2>
+                    <h2 class="brand-title">Supirior-quality LED Name Boards Bangalore</h2>
                     <p class="brand-description">
-                       Give your business a fresh look and present it in a way that truly connects with your audience. In today’s fast-evolving advertising landscape, we offer a wide range of <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages">cutting-edge LED sign boards</a> designed to elevate your brand and meet your business needs. Our product range includes digital LED signage, glow LED Signs, LED display boards, outdoor LED sign boards, etc. Every signboard is tailored to exhibit your brand's recognition at a lower cost while guaranteeing energy efficiency.
+                       In a world full of visual noise, your business must make an impact offline to stand out from competitors. 
+                       Sign boards act as the first point of interaction, and LED sign boards are the talk of the town, boosting 
+                       brand visibility and capturing attention instantly.
+                    </p>
+                       <p class="brand-description">
+                       Brand Signages is a leading LED sign board manufacturer in Bangalore, serving B2B customers with 7X energy-efficient striking visual displays. We provide a wide range of comprehensive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a> for our customers at affordable prices. As a trusted provider of LED signboards in Bangalore, we deliver solutions tailored to make an impact.
                     </p>
                     <p class="brand-description">
-                       Renowned as a <a style="color: #E43D12;text-decoration: none;" href="/">signage manufacturer in Bangalore</a>, we have also evolved as a leading name in LED sign board manufacturing. We have achieved this landmark by providing unmatched customer satisfaction, commitment to quality, and the best-quality product range. At Brand Signages, we push our limits to bring your brand vision to life with stunning signage design solutions.
+                       Being a prominent leader in <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/services"><strong>signage services</strong></a>, we have become trusted name in LED sign board manufacturing. We value our core principles, serve each customer with utmost priority, and bring your brand to life with captivating graphics and impactful visual storytelling. 
                     </p>
                     <div class="mt-4">
                             <a href="{{route('about_us')}}" class="custom-btn">About Us</a>
@@ -47,26 +52,24 @@
         style="background: url('{{ asset('frontend/Images/new/Premium-LED-Sign-bg.png') }}') no-repeat;">
 
         <div class="BuiltToLast-container">
-            <h2 class="BuiltToLast-heading">Premium LED Sign Boards in Bangalore–<br>Crafted to Shine, Built to Last</h2>
+            <h2 class="BuiltToLast-heading">Premium LED Sign Boards for Businesses<br> Crafted to Shine, Built to Last</h2>
             <p class="BuiltToLast-description">
-                A display board is often the first thing customers notice about your business. A well-designed digital LED
-                signage builds brand awareness and helps increase sales and overall turnover. As a reliable name in LED sign
-                board manufacturing in Bangalore, Brand Signages serve customers with the best quality products. We
-                specialize in designing custom LED signage boards for outdoor spaces, indoor areas, and office branding.
+                Renowned for craftsmanship and creativity, Brand Signages delivers top-tier LED signage solutions for businesses in Bangalore. We
+                specialize in designing custom LED signage boards for outdoor spaces, retail branding, etc.
             </p>
             <div class="BuiltToLast-images">
-                <img src="{{asset('frontend/Images/new/cardamom-sign.webp')}}" alt="Cardamom LED Sign"
+                <img src="{{asset('frontend/Images/new/cardamom-sign.webp')}}" alt="LED Sign Board Design for B2B Customer"
                     class="BuiltToLast-img">
-                <img src="{{asset('frontend/Images/new/congrats-sign.webp')}}" alt="Congrats LED Sign"
+                <img src="{{asset('frontend/Images/new/congrats-sign.webp')}}" alt="LED Sign Board Design for B2B Customer"
                     class="BuiltToLast-img">
-                <img src="{{asset('frontend/Images/led-sign-3.webp')}}" alt="Scrolling LED Sign"
+                <img src="{{asset('frontend/Images/led-sign-3.webp')}}" alt="LED Sign Board Design for B2B Customer"
                     class="BuiltToLast-img">
             </div>
         </div>
     </section>
   <section class="bgrowth-slider-section">
             <div class="bgrowth-header">
-                <h2>Our LED Sign Board Product Range</h2>
+                <h2>Our LED Sign Board <br>Product Range</h2>
                 
             </div>
 
@@ -82,8 +85,7 @@
                             <h3>Acrylic LED Sign Board</h3>
                             <p>
                                 Acrylic LED Sign Board is a visually appealing signage solution made from durable acrylic material, 
-                                illuminated with LED lights. These are one of the most used signage boards for restaurants and cafes, 
-                                retail stores, event exhibitions, corporate offices, hotel resorts, shopping malls, and outdoor advertising. 
+                                illuminated with LED lights. Ideal for restaurants and cafes, retail stores, event exhibitions, hotel resorts, etc. 
                             </p>
                         </div>
                     </div>
@@ -96,8 +98,7 @@
                             <h3>Digital LED Display Boards</h3>
                             <p>
                                 Digital LED Display Boards use LED technology to display dynamic content, including text, images, and videos. 
-                                Any type of retail store or outlet can use it to promote their offer or newly launched product with interactive 
-                                digital LED screens. It can create an impressive customer experience and attract foot traffic.
+                                It can create an impressive customer experience and attract foot traffic with interactive digital LED screens.
                             </p>
                         </div>
                     </div>
@@ -108,8 +109,7 @@
                             <h3>LED Backlit Boards</h3>
                             <p>
                                 LED Backlit Boards are illuminated signboards where LED lights are placed behind the display surface, creating a 
-                                glowing effect. Digital backlit boards are the perfect choice for making brand names unforgettable. By placing 
-                                them in strategic spots and striking design, backlit signs can establish a strong brand presence. 
+                                glowing effect. With striking design and visual appeal, LED backlit signs can establish a strong brand presence. 
                             </p>
                         </div>
                     </div>
@@ -120,10 +120,8 @@
                         <div class="bgrowth-content">
                             <h3>LED Reverse Light Sign</h3>
                             <p>
-                                LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, creating a halo 
-                                or glow effect around the letters. LED Reverse Light Sign is perfect for storefronts, exhibitions, and vehicles. 
-                                Strategically placed in high-traffic areas or mobile platforms, LED reverse light signs ensure your message stands 
-                                out, day or night.
+                                LED Reverse Light Signs are signage solutions where LED lights illuminate the design from the back, creating a 
+                                glow effect around the letters. In high-traffic areas, LED reverse light signs ensure your message stands out, day or night.
                             </p>
                         </div>
                     </div>
@@ -135,9 +133,8 @@
                         <div class="bgrowth-content">
                             <h3>LED Message Boards</h3>
                             <p>
-                               LED Message Boards are digital display boards that use LED technology to showcase customizable text and messages, ideal 
-                               for real-time updates, advertisements, and information display. If you're looking for captivating message boards that can 
-                               easily communicate with your customers or visitors, LED message boards are the best option.
+                               LED Message Boards are digital display boards to showcase customizable text and messages, ideal for real-time updates on information 
+                               display. If you're looking for captivating message boards, LED message boards are the best option.
                             </p>
                         </div>
                     </div>
@@ -147,8 +144,8 @@
                         <div class="bgrowth-content">
                             <h3>Glowing Light Sign Boards</h3>
                             <p>
-                               Glowing Light Sign Boards are illuminated signage solutions that use LED or neon lights to create a vibrant, eye-catching glow. 
-                               Glowing light sign board is ideal for cafes, storefronts, exhibitions, malls, or event spaces.
+                               Glowing Light Sign Boards are illuminated signage solutions that use LED or neon lights to create a vibrant, eye-catching glow. The glowing 
+                               light sign board is ideal for cafes, storefronts, exhibitions, malls, or event spaces.
                             </p>
                         </div>
                     </div>
@@ -229,7 +226,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-12">
-                        <h2>What Makes LED Sign Boards a Top Choice for Businesses</h2>
+                        <h2>What Makes LED Sign Boards a Top Choice for Businesses</h2>
                     </div>
                     <div class="col-md-8 col-12">
                     
@@ -248,7 +245,7 @@
                                     <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Timely Delive"
                                         class="img-fluid">
                                     <h3>Powerful Tool for Advertising</h3>
-                                    <p>Bangalore's vibrant commercial landscape, with its tech hubs and bustling streets, makes LED signboards a perfect choice for businesses seeking high visibility. These illuminated displays enhance brand presence, attracting customers even in the city's dynamic environment.
+                                    <p>Bangalore's vibrant commercial landscape, with its tech hubs and bustling streets, makes LED signboards a perfect choice for businesses seeking high visibility. These illuminated displays enhance brand presence, and attracting customers.
                                     </p>
                                 </div>
                             </div>
@@ -257,7 +254,7 @@
                                     <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
                                         class="img-fluid">
                                     <h3>Long-Lasting Durability </h3>
-                                    <p>These signages are designed with energy-efficient technology to ensure low electricity consumption and extended lifespan.
+                                    <p>LED sign boards are designed with energy-efficient LED technology to ensure low electricity consumption and extended lifespan.
                                     </p>
                                 </div>
                             </div>
@@ -266,7 +263,7 @@
                                     <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
                                         class="img-fluid">
                                     <h3>Installation & Maintenance </h3>
-                                    <p> Other than traditional sign boards, it does not require upkeep. LED signage boards are lightweight and easy-to-install solutions.
+                                    <p> Other than traditional sign boards, it does not require upkeep. LED signage boards are lightweight due to modern materials like aluminum frames and acrylic panels.
                                     </p>
                                 </div>
                             </div>
@@ -277,7 +274,7 @@
           <!-- testimonial Feedback Section -->
         <section class="new_testimonial-swiper-section">
             <div class="container">
-                <h2 class="text-center mb-md-5 mb-3">The Impact We've Delivered for Clients</h2>
+                <h2 class="text-center mb-md-5 mb-3">What Our Clients Say About Us</h2>
 
                 <div class="position-relative">
 
@@ -303,10 +300,9 @@
                                             width="40" height="40">
                                     </div>
                                     <p class="description">
-                                        Our tech startup needed a signage solution that matched our innovative spirit. The
-                                        design team didn't just create a sign; they captured our company's entire essence.
-                                        The LED-powered brand display has become a conversation starter for clients and
-                                        employees alike.
+                                        Our tech startup needed a signage solution that matched our innovative spirit. The Brand Signages team didn't just 
+                                        create a sign; they captured our company's essence. The LED sign board has become a conversation starter for clients 
+                                        and employees alike.
                                     </p>
                                     <div class="d-flex align-items-center mt-4">
                                         <img src="{{ asset('frontend/Images/home/testimonial-1.webp') }}" alt="Michael, CEO, Technova Innovations"
@@ -328,7 +324,7 @@
                                     </div>
                                     <p class="description">
                                         As a boutique hotel chain, brand consistency is everything. These custom signages transformed 
-                                        our brand experience across multiple locations. The attention to detail is remarkable - each piece 
+                                        our branding across multiple locations. The attention to detail is remarkable - each piece 
                                         feels uniquely crafted yet perfectly aligned with our brand identity.
                                     </p>
                                     <div class="d-flex align-items-center mt-4">
@@ -349,8 +345,9 @@
                                             width="40" height="40">
                                     </div>
                                     <p class="description">
-                                        We needed urgent signage for our new retail location, and they delivered beyond expectations. The direct 
-                                        communication and on-demand design process made the experience seamless and stress-free.
+                                        We needed a visually appealing sign for our office location, and Brand Signages delivered a 
+                                        stunning LED sign board beyond our expectations. The direct communication and on-demand design 
+                                        process was seamless and stress-free.
                                     </p>
                                     <div class="d-flex align-items-center mt-4">
                                         <img src="{{ asset('frontend/Images/home/testimonial-3.webp') }}" alt="Nandini, CEO, A Real Estate Company"
@@ -466,6 +463,52 @@
          <section class="faq-section">
             <div class="container">
                 <h1 class="faq-title">LED Sign Board FAQs</h1>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is an LED signboard and how does it work?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>An LED signboard is a display system that uses light-emitting 
+                            diodes (LEDs) to project messages, visuals, or branding content. These signs are energy-efficient, 
+                            durable, and visible both day and night, making them ideal for commercial promotion.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Are your LED signboards weather-resistant and suitable for outdoor use?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, our LED signboards are built to withstand Bangalore’s varying climate, whether it's intense sunlight or 
+                            heavy monsoon rains, ensuring consistent performance throughout the year.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you provide remote content management or scheduling for LED displays?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, our digital LED signboards can be integrated with remote content management systems, allowing you to update 
+                            messages, ads, or visuals in real-time from anywhere.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do I need any permissions or approvals to install an LED signboard in Bangalore?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Depending on the location and size, certain LED signboards may require permissions from the local municipal authorities 
+                            or BBMP (Bruhat Bengaluru Mahanagara Palike). We can guide you through the approval process.</p>
+                    </div>
+                </div>
+
 
                 <div class="faq-item">
                     <button class="faq-question">
