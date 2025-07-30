@@ -38,33 +38,33 @@
         <meta property="og:image" content="{{ $seoImage }}" />
 
         <script type="application/ld+json">
-                        {
-                          "@context": "https://schema.org",
-                          "@type": "BlogPosting",
-                          "headline": "{{ $blogSeoData['title'] ?? 'Brand Signages' }}",
-                          "description": "{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}",
-                          "image": "{{ $seoImage }}",
-                          "author": {
-                            "@type": "Person",
-                            "name": "Manoj Kaliyannan",
-                            "url": "https://in.linkedin.com/in/manojkaliyannan"
-                          },
-                          "publisher": {
-                            "@type": "Organization",
-                            "name": "Brand Signages",
-                            "logo": {
-                              "@type": "ImageObject",
-                              "url": "{{ asset('frontend/Images/Brand-Signages-logo.png') }}"
+                            {
+                              "@context": "https://schema.org",
+                              "@type": "BlogPosting",
+                              "headline": "{{ $blogSeoData['title'] ?? 'Brand Signages' }}",
+                              "description": "{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}",
+                              "image": "{{ $seoImage }}",
+                              "author": {
+                                "@type": "Person",
+                                "name": "Manoj Kaliyannan",
+                                "url": "https://in.linkedin.com/in/manojkaliyannan"
+                              },
+                              "publisher": {
+                                "@type": "Organization",
+                                "name": "Brand Signages",
+                                "logo": {
+                                  "@type": "ImageObject",
+                                  "url": "{{ asset('frontend/Images/Brand-Signages-logo.png') }}"
+                                }
+                              },
+                              "datePublished": "{{ $blogSeoData['published_at'] ?? '2025-01-28' }}",
+                              "dateModified": "{{ $blogSeoData['updated_at'] ?? '2025-01-28' }}",
+                              "mainEntityOfPage": {
+                                "@type": "WebPage",
+                                "@id": "{{ $blogSeoData['canonical_url'] ?? url()->current() }}"
+                              }
                             }
-                          },
-                          "datePublished": "{{ $blogSeoData['published_at'] ?? '2025-01-28' }}",
-                          "dateModified": "{{ $blogSeoData['updated_at'] ?? '2025-01-28' }}",
-                          "mainEntityOfPage": {
-                            "@type": "WebPage",
-                            "@id": "{{ $blogSeoData['canonical_url'] ?? url()->current() }}"
-                          }
-                        }
-                    </script>
+                        </script>
     @else
         {!!$seo->script ?? '<title>#1 Sign Board Manufacturer in Bangalore | Brand Signages</title>'!!}
     @endif
@@ -147,11 +147,11 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-center">
-                    
-                      <li class="nav-item">
+
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{route('about_us')}}">About Us</a>
                     </li>
-                      <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{route('services')}}">Services</a>
                     </li>
 
@@ -313,7 +313,7 @@
 
 
                                     </div>
-                                   
+
                                 </div>
                             </div>
                         </div>
@@ -453,9 +453,9 @@
 
     <!-- Floating Call Button (Only visible on mobile) -->
 
-    {{--
-    <script src="{{asset('frontend/script.js')}}"></script> --}}
-    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{asset('frontend/script.js')}}"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script>
 
     <script>
@@ -468,15 +468,14 @@
     </script>
     <!-- Bootstrap JS -->
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <style>
         .footer a {
             color: #E43D12;
         }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-@vite(['resources/js/app.js'])
 </body>
 
 </html>
