@@ -2,6 +2,9 @@
 
 # Allow all bots to access the site
 User-agent: *
+Allow: /build/
+Allow: /frontend/
+Disallow: /storage/
 Disallow:
 
 
