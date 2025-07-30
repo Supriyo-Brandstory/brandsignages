@@ -11,7 +11,14 @@
     ExpiresByType image/png "access plus 1 year"
     ExpiresByType image/svg+xml "access plus 1 year"
 </IfModule>
+<IfModule mod_authz_core.c>
+    Require all granted
+</IfModule>
 
+<IfModule !mod_authz_core.c>
+    Order allow,deny
+    Allow from all
+</IfModule>
 # Allow access from bots like Googlebot and PageSpeed
 <IfModule mod_setenvif.c>
     SetEnvIfNoCase User-Agent "Googlebot" allow_bot
