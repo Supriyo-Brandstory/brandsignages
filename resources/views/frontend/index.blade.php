@@ -855,7 +855,7 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Brand Signages is exclusively known as an <a href="https://brandsignages.com/" style="text-decoration: unset;color:#E43D12">LED sign board manufacturer in Bangalore</a>. 
+                    <p>Brand Signages is exclusively known as a leading <a href="https://brandsignages.com/" style="text-decoration: unset;color:#E43D12">digital signage manufacturer in Bangalore</a>. 
                     We also have a high-level portfolio for designing all other types of signage and sign boards. Our product range includes:</p>
                     <ul>
                         <li><a href="https://brandsignages.com/neon-signages"
