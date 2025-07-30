@@ -36,7 +36,7 @@
                        brand visibility and capturing attention instantly.
                     </p>
                        <p class="brand-description">
-                       Brand Signages is a leading LED sign board manufacturer in Bangalore, serving B2B customers with striking visual displays. We provide a wide range of comprehensive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a> for our customers at affordable prices. As a trusted provider of LED signboards in Bangalore, we deliver solutions tailored to make an impact.
+                       Brand Signages is a leading LED sign board manufacturer in Bangalore, serving B2B customers with 7X energy-efficient striking visual displays. We provide a wide range of comprehensive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a> for our customers at affordable prices. As a trusted provider of LED signboards in Bangalore, we deliver solutions tailored to make an impact.
                     </p>
                     <p class="brand-description">
                        Being a prominent leader in <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/services"><strong>signage services</strong></a>, we have become trusted name in LED sign board manufacturing. We value our core principles, serve each customer with utmost priority, and bring your brand to life with captivating graphics and impactful visual storytelling. 
@@ -69,7 +69,7 @@
     </section>
   <section class="bgrowth-slider-section">
             <div class="bgrowth-header">
-                <h2>Our LED Sign Board Product Range</h2>
+                <h2>7X Efficient LED Sign Board <br>Product Range</h2>
                 
             </div>
 
