@@ -1,17 +1,9 @@
+# robots.txt for BrandSignages.com
+
+# Allow all bots to access the site
 User-agent: *
-Allow: /build/
-Allow: /build/assets/
-Allow: /frontend/
-Allow: /frontend/Images/
-Disallow: /storage/
-Disallow: /vendor/
-Disallow: /app/
-Disallow: /bootstrap/
-Disallow: /config/
-Disallow: /database/
-Disallow: /resources/
-Disallow: /routes/
-Disallow: /tests/
+Disallow:
+
 
 # Sitemap location
 Sitemap: https://www.brandsignages.com/sitemap.xml
