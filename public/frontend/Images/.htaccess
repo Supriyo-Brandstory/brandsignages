@@ -1,0 +1,21 @@
+# Set correct MIME type for WebP
+<IfModule mod_mime.c>
+    AddType image/webp .webp
+</IfModule>
+
+# Enable correct caching for images
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+</IfModule>
+
+# Allow access from bots like Googlebot and PageSpeed
+<IfModule mod_setenvif.c>
+    SetEnvIfNoCase User-Agent "Googlebot" allow_bot
+    SetEnvIfNoCase User-Agent "Chrome-Lighthouse" allow_bot
+    Order Allow,Deny
+    Allow from env=allow_bot
+</IfModule>
