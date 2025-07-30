@@ -1,16 +1,4 @@
-# Set correct MIME type for WebP
-<IfModule mod_mime.c>
-    AddType image/webp .webp
-</IfModule>
-
-# Enable correct caching for images
-<IfModule mod_expires.c>
-    ExpiresActive On
-    ExpiresByType image/webp "access plus 1 year"
-    ExpiresByType image/jpeg "access plus 1 year"
-    ExpiresByType image/png "access plus 1 year"
-    ExpiresByType image/svg+xml "access plus 1 year"
-</IfModule>
+# ✅ Allow access to all files and folders
 <IfModule mod_authz_core.c>
     Require all granted
 </IfModule>
@@ -19,7 +7,25 @@
     Order allow,deny
     Allow from all
 </IfModule>
-# Allow access from bots like Googlebot and PageSpeed
+
+# ✅ Set correct MIME type for WebP and others
+<IfModule mod_mime.c>
+    AddType image/webp .webp
+    AddType image/jpeg .jpg .jpeg
+    AddType image/png .png
+    AddType image/svg+xml .svg
+</IfModule>
+
+# ✅ Enable caching for images
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+</IfModule>
+
+# ✅ Allow bots (optional)
 <IfModule mod_setenvif.c>
     SetEnvIfNoCase User-Agent "Googlebot" allow_bot
     SetEnvIfNoCase User-Agent "Chrome-Lighthouse" allow_bot
