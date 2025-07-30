@@ -6,19 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    {{--
-    <link rel="icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
-    <link rel="shortcut icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('favicon.ico')}}"> --}}
+ 
 
     <link rel="icon" href="https://brandsignages.com/favicon-32x32.ico" sizes="32x32" type="image/x-icon" />
 
     <link rel="icon" href="https://brandsignages.com/favicon.ico" sizes="48x48" type="image/x-icon">
 
     <link rel="apple-touch-icon" sizes="180x180" href="https://brandsignages.com/favicon-180x180.ico">
-
-    {{--
-    <link rel="icon" href="{{asset('frontend/Images/brandsignages-favicon.png')}}" type="image/x-icon"> --}}
 
 
     @if(!empty($blogSeoData))
@@ -73,8 +67,8 @@
 
 
 
-    {{--
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"> --}}
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
 
     <meta name="google-site-verification" content="k2zT6vzjGmv5Qj_C5YPVg4YbcQNoHooAF5smISxk2qA" />
@@ -96,33 +90,33 @@
 
 
 
-    {{--
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
-    {{--
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;700&display=swap" rel="stylesheet"> --}}
-    {{--
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;700&display=swap" rel="stylesheet">
+    
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    --}}
-    {{--
+   
+    
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet"> --}}
+        rel="stylesheet">
 
 
-    {{--
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> --}}
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
-    {{--
+    
     <link rel="stylesheet" href="{{asset('frontend/styles.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/services.css')}}"> --}}
+    <link rel="stylesheet" href="{{asset('frontend/services.css')}}">
     <!-- Lightbox2 CSS -->
 
-    {{--
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/css/lightgallery.min.css" />
-    --}}
+   
 
 
-    @vite(['resources/css/app.css'])
+
 
 </head>
 
