@@ -21,8 +21,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::resource('/seo', SEOController::class);
     Route::resource('/sitemap', SitemapController::class);
     route::resource('categories', CategoryController::class);
-    Route::post('/categories/update-order', [CategoryController::class, 'updateOrder'])->name('categories.updateOrder');
-    Route::get('categories/{id}/edit/{type}', [CategoryController::class, 'edit'])->name('categories.edit');
+    Route::post('/categories/update-order', [CategoryController::class, 'updateOrder'])->name('mcategories.updateOrder');
+    Route::get('categories/{id}/edit/{type}', [CategoryController::class, 'edit'])->name('mcategories.edit');
     Route::delete('subcategories/{id}', [CategoryController::class, 'subcategorydestroy'])->name('subcategories.destroy');
     route::resource('blogs', BlogController::class);
     route::resource('contacts', contactController::class);

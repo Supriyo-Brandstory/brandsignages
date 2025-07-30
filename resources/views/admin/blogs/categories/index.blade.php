@@ -43,7 +43,7 @@
                                                             </div>
                                                             <div class="col-4 d-flex justify-content-between align-items-center">
                                                                 <span class="badge bg-primary rounded-pill">Drag</span>
-                                                                <a href="{{ route('categories.edit', ['id' => $subCategory->id, 'type' => 1]) }}">
+                                                                <a href="{{ route('mcategories.edit', ['id' => $subCategory->id, 'type' => 1]) }}">
                                                                     <i class="ri-pencil-fill"></i>
                                                                 </a>
                                                                 <form method="POST" action="{{ route('subcategories.destroy', $subCategory->id) }}" class="d-inline-block">
@@ -65,7 +65,7 @@
                                             
                                         </td>
                                         <td>
-                                            <a href="{{ route('categories.edit', ['id' => $category->id, 'type' => 0]) }}"><i class="ri-pencil-fill"></i></a>
+                                            <a href="{{ route('mcategories.edit', ['id' => $category->id, 'type' => 0]) }}"><i class="ri-pencil-fill"></i></a>
                                             <form method="POST" action="{{ route('categories.destroy', $category->id) }}" class="d-inline-block">
                                                 @csrf
                                                 @method('DELETE')
@@ -111,7 +111,7 @@
     
                     // Send the updated order to the backend
                     if (subcategoryIds.length > 0) { // Ensure there are subcategories to update
-                        axios.post('{{ route('categories.updateOrder') }}', {
+                        axios.post('{{ route('mcategories.updateOrder') }}', {
                             category_id: categoryId,
                             order: subcategoryIds
                         }).then(response => {
