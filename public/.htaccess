@@ -5,29 +5,79 @@
 
     RewriteEngine On
 
+    # =======================
     # Force HTTPS
+    # =======================
     RewriteCond %{HTTPS} !=on
     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-    # Redirect www to non-www (change if you prefer www)
+    # =======================
+    # Redirect www to non-www
+    # =======================
     RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
     RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
 
+    # =======================
     # Handle Authorization Header
+    # =======================
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
-    # Redirect index.php to Home URL ("/")
+    # =======================
+    # Remove index.php from URL
+    # =======================
     RewriteCond %{THE_REQUEST} \s/index\.php [NC]
     RewriteRule ^index\.php$ / [R=301,L]
 
-    # Redirect Trailing Slashes If Not A Folder
+    # =======================
+    # Remove Trailing Slash
+    # =======================
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [L,R=301]
 
-    # Send Requests To Front Controller
+    # =======================
+    # Laravel Routing (Front Controller)
+    # =======================
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+# =======================
+# Allow Googlebot to access CSS, JS, Fonts, Images
+# =======================
+<IfModule mod_headers.c>
+    <FilesMatch "\.(js|css|ttf|otf|eot|woff|woff2|png|jpg|jpeg|gif|svg|webp)$">
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+</IfModule>
+
+# =======================
+# Cache control for static resources
+# =======================
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType application/font-woff2 "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+</IfModule>
+
+# =======================
+# Prevent access to .env and sensitive files
+# =======================
+<FilesMatch "^\.env">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "(\.log|\.git|\.svn|\.htaccess|composer\.(json|lock)|package\.json)">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
