@@ -54,13 +54,6 @@
     </FilesMatch>
 </IfModule>
 
-<IfModule mod_rewrite.c>
-RewriteEngine On
-# Block known Babbar IPs (example)
-RewriteCond %{REMOTE_ADDR} ^154\.54\.249\.204$
-RewriteRule ^.* - [F,L]
-</IfModule>
-
 # =======================
 # Cache control for static resources
 # =======================
