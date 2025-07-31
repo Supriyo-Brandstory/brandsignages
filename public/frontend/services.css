@@ -810,7 +810,7 @@ button.faq-question.active {
 
 .faq-answer {
     display: none;
-    padding: 24px 20px;
+    padding: 24px 10px;
     color: #474747;
 
     font-family: 'Roboto';

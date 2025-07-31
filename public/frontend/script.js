@@ -212,6 +212,25 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+     const swiper3 = new Swiper('.bgrowth-swiper-2', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 1,
+            }
+        }
+    });
+
     // Fixing testimonial swiper
     const swiper2 = new Swiper('.new_testimonial-swiper', {
         slidesPerView: 1,
