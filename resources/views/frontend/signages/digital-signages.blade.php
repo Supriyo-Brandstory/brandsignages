@@ -74,19 +74,19 @@
                 <!-- Slide 1 -->
                 <div class="swiper-slide bgrowth-card">
                     <div class="row align">
-                        <div class="col-12 col-md-6 pb-0">
+                        <div class="col-12 col-md-5 pb-0">
                             <img src="{{ asset('frontend/Images/Smart-Digital-Displays.webp') }}"
                                 alt="Smart-Digital-Displays" class="bgrowth-img-2" />
                         </div>
-                        <div class="col-12 col-md-6">
-                            <div class="bgrowth-content">
-                                <h3>Smart Digital Displays</h3>
+                        <div class="col-12 col-md-7  d-flex flex-column justify-content-center ">
+                            <div class="bgrowth-content ">
+                                <h3 class="mb-3">Smart Digital Displays</h3>
                                 <p>
-                                    No External Media Player: Our displays work seamlessly without additional hardware
+                                    <b>No External Media Player:</b> Our displays work seamlessly without additional hardware
                                 </p>
-                                <p>Remote Display Control: Reboot and manage single or multiple displays</p>
-                                <p>Universal Compatibility: Supports Android, LG webOS, Samsung Tizen, Windows</p>
-                                <p class="">Content Scheduling: Quickly add playlists, media files, or promotional campaigns
+                                <p><b>Remote Display Control:</b> Reboot and manage single or multiple displays</p>
+                                <p><b>Universal Compatibility:</b> Supports Android, LG webOS, Samsung Tizen, Windows</p>
+                                <p class=""><b>Content Scheduling:</b> Quickly add playlists, media files, or promotional campaigns
                                 </p>
                             </div>
                         </div>
@@ -99,18 +99,18 @@
                             <img src="{{ asset('frontend/Images/smart-digital-Specifications.webp') }}"
                                 alt="smart-digital-Specifications" class="bgrowth-img-2" />
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                             <div class="bgrowth-content">
-                                <h3>Specifications</h3>
+                                <h3 class="mb-3">Specifications</h3>
                                 <p>
-                                    Minimum Order Quantity: 1 Unit
+                                    <b>Minimum Order Quantity:</b> 1 Unit
                                 </p>
-                                <p>Display Type: LED / OLED / E-Ink (Customizable)</p>
-                                <p>Body Material: Aluminum, acrylic, Polycarbonate, Glass</p>
-                                <p>Lighting Type: LED / Backlit LCD for superior brightness</p>
-                                <p>Available Sizes: 15-inch, 18-inch, 24-inch, 32-inch, 55-inch</p>
-                                <p>Shape Options: 1Rectangle, Square, Curved, Ultra-Wide</p>
-                                <p>Viewing Angle: 178° - 270° for maximum visibility</p>
+                                <p><b>Display Type:</b> LED / OLED / E-Ink (Customizable)</p>
+                                <p><b>Body Material:</b> Aluminum, acrylic, Polycarbonate, Glass</p>
+                                <p><b>Lighting Type:</b> LED / Backlit LCD for superior brightness</p>
+                                <p><b>Available Sizes:</b> 15-inch, 18-inch, 24-inch, 32-inch, 55-inch</p>
+                                <p><b>Shape Options:</b> Rectangle, Square, Curved, Ultra-Wide</p>
+                                <p><b>Viewing Angle:</b> 178° - 270° for maximum visibility</p>
                             </div>
                         </div>
                     </div>
@@ -121,9 +121,9 @@
                             <img src="{{ asset('frontend/Images/smar-digital-Installation-Support.webp') }}"
                                 alt="smar-digital-Installation-Support" class="bgrowth-img-2" />
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6  d-flex flex-column justify-content-center ">
                             <div class="bgrowth-content">
-                                <h3>Installation & Support</h3>
+                                <h3 class="mb-3">Installation & Support</h3>
                                 <p>
                                     We deliver end-to-end signage solutions from design to installation ensuring seamless
                                     deployment, minimal downtime, and long-term reliability. Our commitment to customer
@@ -142,288 +142,315 @@
         </div>
     </section>
 
-          <section class="why-choose-signage">
-            <div class="why-choose-container container">
-                <h2 class="why-title">Customized Solutions for Every<br>Industry</h2>
-                
+    <section class="why-choose-signage">
+        <div class="why-choose-container container">
+            <h2 class="why-title">Customized Solutions for Every<br>Industry</h2>
 
-                <div class="why-grid">
-                    <div class="why-box">
-                        <img src="{{asset('frontend/Images/Corporate-Office.png')}}" alt="Corporate Office"
-                            class="why-icon">
-                        <h3>Corporate Office</h3>
-                        <p>
-                           We are considered among digital signage comapnies because our products enhance internal communication and streamline information sharing. Companies can use digital <a href="https://brandsignages.com/office-signages" style="color: #E43D12">office signages</a> to display announcements showcasing performance metrics.
-                        </p>
-                    </div>
 
-                    <div class="why-box">
-                        <img src="{{asset('frontend/Images/Retail.png')}}" alt="Retail"
-                            class="why-icon">
-                        <h3>Retail</h3>
-                        <p>
-                          We provide vibrant digital display boards that attract customers and promote products. Our solutions enable retailers to showcase promotions, highlight new arrivals, and create an engaging shopping experience that drives sales.
-                        </p>
-                    </div>
-
-                    <div class="why-box">
-                        <img src="{{asset('frontend/Images/Hospitality.png')}}" alt="Hospitality"
-                            class="why-icon">
-                        <h3>Hospitality</h3>
-                        <p>
-                            Our interactive digital signages elevate the guest experience across hospitality venues by offering dynamic, real-time information. From simplifying check-ins and wayfinding to promoting on-site dining, amenities, and events, these displays help hotels and resorts communicate seamlessly.
-                        </p>
-                    </div>
-
-                    <div class="why-box">
-                        <img src="{{asset('frontend/Images/Food.png')}}" alt="Food"
-                            class="why-icon">
-                        <h3>Food</h3>
-                        <p>
-                            We design <a href="https://brandsignages.com/restaurant-signages" style="color: #E43D12">digital menu boards</a> to be placed in restaurants and cades to boost customer engagement. These boards can show updated prices dynamically, thus giving the latest information to customers.
-                        </p>
-                    </div>
-
-                    <div class="why-box">
-                        <img src="{{asset('frontend/Images/Banking.png')}}" alt="Banking"
-                            class="why-icon">
-                        <h3>Banking</h3>
-                        <p>
-                           In banking, digital signage can streamline customer interactions by displaying wait times, service information, and promotional offers. Our solutions help banks improve customer service while maintaining a professional appearance.
-                        </p>
-                    </div>
-                    <div class="why-box">
-                        <img src="{{asset('frontend/Images/Education.png')}}" alt="Education"
-                            class="why-icon">
-                        <h3>Education</h3>
-                        <p>
-                          As a digital signage company, our products enhance communication among students, staff, and visitors. You can use them to display schedules and promote events to create an informed campus environment.
-                        </p>
-                    </div>
-
-                   
+            <div class="why-grid">
+                <div class="why-box">
+                    <img src="{{asset('frontend/Images/Corporate-Office.png')}}" alt="Corporate Office" class="why-icon">
+                    <h3>Corporate Office</h3>
+                    <p>
+                        We are considered among digital signage comapnies because our products enhance internal
+                        communication and streamline information sharing. Companies can use digital <a
+                            href="https://brandsignages.com/office-signages" style="color: #E43D12">office signages</a> to
+                        display announcements showcasing performance metrics.
+                    </p>
                 </div>
+
+                <div class="why-box">
+                    <img src="{{asset('frontend/Images/Retail.png')}}" alt="Retail" class="why-icon">
+                    <h3>Retail</h3>
+                    <p>
+                        We provide vibrant digital display boards that attract customers and promote products. Our solutions
+                        enable retailers to showcase promotions, highlight new arrivals, and create an engaging shopping
+                        experience that drives sales.
+                    </p>
+                </div>
+
+                <div class="why-box">
+                    <img src="{{asset('frontend/Images/Hospitality.png')}}" alt="Hospitality" class="why-icon">
+                    <h3>Hospitality</h3>
+                    <p>
+                        Our interactive digital signages elevate the guest experience across hospitality venues by offering
+                        dynamic, real-time information. From simplifying check-ins and wayfinding to promoting on-site
+                        dining, amenities, and events, these displays help hotels and resorts communicate seamlessly.
+                    </p>
+                </div>
+
+                <div class="why-box">
+                    <img src="{{asset('frontend/Images/Food.png')}}" alt="Food" class="why-icon">
+                    <h3>Food</h3>
+                    <p>
+                        We design <a href="https://brandsignages.com/restaurant-signages" style="color: #E43D12">digital
+                            menu boards</a> to be placed in restaurants and cades to boost customer engagement. These boards
+                        can show updated prices dynamically, thus giving the latest information to customers.
+                    </p>
+                </div>
+
+                <div class="why-box">
+                    <img src="{{asset('frontend/Images/Banking.png')}}" alt="Banking" class="why-icon">
+                    <h3>Banking</h3>
+                    <p>
+                        In banking, digital signage can streamline customer interactions by displaying wait times, service
+                        information, and promotional offers. Our solutions help banks improve customer service while
+                        maintaining a professional appearance.
+                    </p>
+                </div>
+                <div class="why-box">
+                    <img src="{{asset('frontend/Images/Education.png')}}" alt="Education" class="why-icon">
+                    <h3>Education</h3>
+                    <p>
+                        As a digital signage company, our products enhance communication among students, staff, and
+                        visitors. You can use them to display schedules and promote events to create an informed campus
+                        environment.
+                    </p>
+                </div>
+
+
             </div>
-        </section>
+        </div>
+    </section>
 
 
- <section>
+    <section>
         <div class="container pt-5">
             <h2 class="hero-title">Benefits of Digital Signages for Branding</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/Benefits-of-Digital-Signages-for-Branding.webp')}}" alt="Benefits-of-Digital-Signages-for-Branding"
-                            class="img-fluid">
+                        <img src="{{asset('frontend/Images/Benefits-of-Digital-Signages-for-Branding.webp')}}"
+                            alt="Benefits-of-Digital-Signages-for-Branding" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
 
                     <p class="brand-description">
-                       Brand Signages is a premier digital signage manufacturer with 10+ years of industry expertise. We understand every business is unique and creates digital signage solutions tailored to your brand’s specific needs, ensuring maximum engagement. </p>
-                   <div class="faq-item active">
-                <button class="faq-question active">
-                    Customer Engagement
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer active">
-                    <p>Digital signage employs dynamic visual content and videos to attract customer attention. Digital displays help in improving customer engagement, visibility, and retention using interactive visuals.</p>
-                </div>
-            </div>
+                        Brand Signages is a premier digital signage manufacturer with 10+ years of industry expertise. We
+                        understand every business is unique and creates digital signage solutions tailored to your brand’s
+                        specific needs, ensuring maximum engagement. </p>
+                    <div class="faq-item active">
+                        <button class="faq-question active">
+                            Customer Engagement
+                            <i class="faq-icon fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer active">
+                            <p>Digital signage employs dynamic visual content and videos to attract customer attention.
+                                Digital displays help in improving customer engagement, visibility, and retention using
+                                interactive visuals.</p>
+                        </div>
+                    </div>
 
-            <div class="faq-item">
-                <button class="faq-question">
-                    Real-time Content
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Digital signage employs dynamic visual content and videos to attract customer attention. Digital displays help in improving customer engagement, visibility, and retention using interactive visuals.</p>
-                </div>
-            </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Real-time Content
+                            <i class="faq-icon fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Digital signage employs dynamic visual content and videos to attract customer attention.
+                                Digital displays help in improving customer engagement, visibility, and retention using
+                                interactive visuals.</p>
+                        </div>
+                    </div>
 
-            <div class="faq-item">
-                <button class="faq-question">
-                    Long-term Benefits
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Digital signage employs dynamic visual content and videos to attract customer attention. Digital displays help in improving customer engagement, visibility, and retention using interactive visuals.</p>
-                   
-                </div>
-            </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Long-term Benefits
+                            <i class="faq-icon fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Digital signage employs dynamic visual content and videos to attract customer attention.
+                                Digital displays help in improving customer engagement, visibility, and retention using
+                                interactive visuals.</p>
+
+                        </div>
+                    </div>
                     <div class="mt-4">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-      <section class="we-deliver" style="background: url('{{ asset('frontend/Images/Why-Choose-Us-for-Digital-Signages.webp') }}') no-repeat center center; background-size: cover;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-12">
-                        <h2>Why Choose Us for Digital Signages</h2>
-                    </div>
-                    <div class="col-md-8 col-12">
-                        <div class="row">
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/In-House-Experts.png') }}" alt="In-House Experts"
-                                        class="img-fluid">
-                                    <h3>In-House Experts</h3>
-                                    <p>
-                                        From CMS software to digital displays production, we have a dedicated manufacturing unit and in-house team of experts. We provide digital signage installation and support services across PAN India.
-                                                                   </p>
-                                </div>
+    <section class="we-deliver"
+        style="background: url('{{ asset('frontend/Images/Why-Choose-Us-for-Digital-Signages.webp') }}') no-repeat center center; background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <h2>Why Choose Us for Digital Signages</h2>
+                </div>
+                <div class="col-md-8 col-12">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/In-House-Experts.png') }}" alt="In-House Experts"
+                                    class="img-fluid">
+                                <h3>In-House Experts</h3>
+                                <p>
+                                    From CMS software to digital displays production, we have a dedicated manufacturing unit
+                                    and in-house team of experts. We provide digital signage installation and support
+                                    services across PAN India.
+                                </p>
                             </div>
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/Industry-Grade-Products.png') }}" alt="Industry Grade Products"
-                                        class="img-fluid">
-                                    <h3>Industry Grade Products</h3>
-                                    <p>Our digital signages combine robust hardware with advanced display technology and a Content Management System. We have a PAN India support network.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/10-Years-of-Expertise.png') }}" alt="10 Years of Expertise"
-                                        class="img-fluid">
-                                    <h3>10 Years of Expertise</h3>
-                                    <p>We are among the best digital signage companies with expertise in digital signage technology. We have a modern manufacturing facility for digital signage production.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/Network-and-Customer-Support.png') }}" alt="Network and Customer Support"
-                                        class="img-fluid">
-                                    <h3>Network and Customer Support</h3>
-                                    <p>Being among the best digital signage companies in India, we prioritize understanding your specific requirements and delivering digital signage solutions that exceed expectations. We utilize a wide partner network for better support and services.
-                                    </p>
-                                </div>
-                            </div>
-
                         </div>
-        </section>  
-         <!-- testimonial Feedback Section -->
-        <section class="new_testimonial-swiper-section">
-            <div class="container">
-                <h2 class="text-center mb-md-5 mb-3">Customer Testimonial</h2>
-
-                <div class="position-relative">
-
-                    <!-- Navigation Arrows (placed OUTSIDE swiper container) -->
-                    <div class="new_testimonial-button-prev">
-                        <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40"
-                            height="40">
-                    </div>
-                    <div class="new_testimonial-button-next">
-                        <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40"
-                            height="40">
-                    </div>
-
-                    <!-- Swiper -->
-                    <div class="swiper new_testimonial-swiper">
-                        <div class="swiper-wrapper">
-
-                            <!-- Slide Item -->
-                            <div class="swiper-slide">
-                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                    <div class="mb-4">
-                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                            width="40" height="40">
-                                    </div>
-                                    <p class="description">
-                                        Our tech startup needed a signage solution that matched our innovative spirit. The
-                                        design team didn't just create a sign; they captured our company's entire essence.
-                                        The LED-powered brand display has become a conversation starter for clients and
-                                        employees alike.
-                                    </p>
-                                    <div class="d-flex align-items-center mt-4">
-                                        <img src="{{ asset('frontend/Images/home/testimonial-1.webp') }}" alt="Michael, CEO, Technova Innovations"
-                                            class="rounded-circle me-3" width="50" height="50">
-                                        <div>
-                                            <h6 class="name">Michael</h6>
-                                            <small class="text-muted">CEO, Technova Innovations</small>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/Industry-Grade-Products.png') }}"
+                                    alt="Industry Grade Products" class="img-fluid">
+                                <h3>Industry Grade Products</h3>
+                                <p>Our digital signages combine robust hardware with advanced display technology and a
+                                    Content Management System. We have a PAN India support network.
+                                </p>
                             </div>
-
-                            <!-- Duplicate Slide -->
-                            <div class="swiper-slide">
-                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                    <div class="mb-4">
-                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                            width="40" height="40">
-                                    </div>
-                                    <p class="description">
-                                        As a boutique hotel chain, brand consistency is everything. These custom signages transformed 
-                                        our brand experience across multiple locations. The attention to detail is remarkable - each piece 
-                                        feels uniquely crafted yet perfectly aligned with our brand identity.
-                                    </p>
-                                    <div class="d-flex align-items-center mt-4">
-                                        <img src="{{ asset('frontend/Images/home/testimonial-2.webp') }}" alt="Asish, CEO, A Hotel Chain"
-                                            class="rounded-circle me-3" width="50" height="50">
-                                        <div>
-                                            <h6 class="name">Asish</h6>
-                                            <small class="text-muted">CEO, A Hotel Chain</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                    <div class="mb-4">
-                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                            width="40" height="40">
-                                    </div>
-                                    <p class="description">
-                                        We needed urgent signage for our new retail location, and they delivered beyond expectations. The direct 
-                                        communication and on-demand design process made the experience seamless and stress-free.
-                                    </p>
-                                    <div class="d-flex align-items-center mt-4">
-                                        <img src="{{ asset('frontend/Images/home/testimonial-3.webp') }}" alt="Nandini, CEO, A Real Estate Company"
-                                            class="rounded-circle me-3" width="50" height="50">
-                                        <div>
-                                            <h6 class="name">Nandini</h6>
-                                            <small class="text-muted">CEO, A Real Estate Company</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                    <div class="mb-4">
-                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                            width="40" height="40">
-                                    </div>
-                                    <p class="description">
-                                        We weren’t sure if a signage company could capture the essence of a dynamic workspace 
-                                        like Bhive. But what they delivered went far beyond expectations. They didn’t just create 
-                                        signs – they crafted a visual identity that reflects our energy, innovation, and community spirit. 
-                                    </p>
-                                    <div class="d-flex align-items-center mt-4">
-                                        <img src="{{ asset('frontend/Images/home/testimonial-4.webp') }}" alt="Manager, Bhive Workspace"
-                                            class="rounded-circle me-3" width="50" height="50">
-                                        <div>
-                                            <h6 class="name">Sai Teja</h6>
-                                            <small class="text-muted">Manager, Bhive Workspace</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/10-Years-of-Expertise.png') }}"
+                                    alt="10 Years of Expertise" class="img-fluid">
+                                <h3>10 Years of Expertise</h3>
+                                <p>We are among the best digital signage companies with expertise in digital signage
+                                    technology. We have a modern manufacturing facility for digital signage production.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/Network-and-Customer-Support.png') }}"
+                                    alt="Network and Customer Support" class="img-fluid">
+                                <h3>Network and Customer Support</h3>
+                                <p>Being among the best digital signage companies in India, we prioritize understanding your
+                                    specific requirements and delivering digital signage solutions that exceed expectations.
+                                    We utilize a wide partner network for better support and services.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+    </section>
+    <!-- testimonial Feedback Section -->
+    <section class="new_testimonial-swiper-section">
+        <div class="container">
+            <h2 class="text-center mb-md-5 mb-3">Customer Testimonial</h2>
+
+            <div class="position-relative">
+
+                <!-- Navigation Arrows (placed OUTSIDE swiper container) -->
+                <div class="new_testimonial-button-prev">
+                    <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40" height="40">
+                </div>
+                <div class="new_testimonial-button-next">
+                    <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40" height="40">
+                </div>
+
+                <!-- Swiper -->
+                <div class="swiper new_testimonial-swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide Item -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    Our tech startup needed a signage solution that matched our innovative spirit. The
+                                    design team didn't just create a sign; they captured our company's entire essence.
+                                    The LED-powered brand display has become a conversation starter for clients and
+                                    employees alike.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/home/testimonial-1.webp') }}"
+                                        alt="Michael, CEO, Technova Innovations" class="rounded-circle me-3" width="50"
+                                        height="50">
+                                    <div>
+                                        <h6 class="name">Michael</h6>
+                                        <small class="text-muted">CEO, Technova Innovations</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Duplicate Slide -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    As a boutique hotel chain, brand consistency is everything. These custom signages
+                                    transformed
+                                    our brand experience across multiple locations. The attention to detail is remarkable -
+                                    each piece
+                                    feels uniquely crafted yet perfectly aligned with our brand identity.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/home/testimonial-2.webp') }}"
+                                        alt="Asish, CEO, A Hotel Chain" class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Asish</h6>
+                                        <small class="text-muted">CEO, A Hotel Chain</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    We needed urgent signage for our new retail location, and they delivered beyond
+                                    expectations. The direct
+                                    communication and on-demand design process made the experience seamless and stress-free.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/home/testimonial-3.webp') }}"
+                                        alt="Nandini, CEO, A Real Estate Company" class="rounded-circle me-3" width="50"
+                                        height="50">
+                                    <div>
+                                        <h6 class="name">Nandini</h6>
+                                        <small class="text-muted">CEO, A Real Estate Company</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    We weren’t sure if a signage company could capture the essence of a dynamic workspace
+                                    like Bhive. But what they delivered went far beyond expectations. They didn’t just
+                                    create
+                                    signs – they crafted a visual identity that reflects our energy, innovation, and
+                                    community spirit.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/home/testimonial-4.webp') }}"
+                                        alt="Manager, Bhive Workspace" class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sai Teja</h6>
+                                        <small class="text-muted">Manager, Bhive Workspace</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </section>
- 
+        </div>
+    </section>
+
 
 
     <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
@@ -465,7 +492,7 @@
             </div>
         </div>
     </section>
-       <section class="faq-section">
+    <section class="faq-section">
         <div class="faq-container">
             <h1 class="faq-title">FAQS</h1>
 
