@@ -40,22 +40,21 @@
 
                 <div class="col-lg-6">
 
-                    <p class="brand-description">
+                    <p class="fs-20">
                         Digital signage offers an engaging way to showcase your brand, grabbing attention with vibrant visuals, 
                         dynamic content, and real-time updates. From digital display boards and interactive video walls to sleek 
                         digital standees, modern digital signage displays can enhance customer engagement and create lasting brand 
                         impressions.
                     </p>
-                    <p class="brand-description">
+                    <p class=" fs-20">
                         <a href="https://brandsignages.com/" style="color: #E43D12">Brand Signages</a> is the pioneering digital signage manufacturer, providing inventive and personalized digital
                          signage solutions for organizations. We have full-scale facility for digital signage display manufacturing, 
                          software, and CMS technology experts. We are certified digital signage vendors, offering digital signage 
                          services in pan India.
                     </p>
-                    <p>Whether it's a dynamic video wall or a modern floor-standing display board, our digital signage products offer exceptional clarity and reliability. Our expertise is powered by 
+                    <p class="fs-20">Whether it's a dynamic video wall or a modern floor-standing display board, our digital signage products offer exceptional clarity and reliability. Our expertise is powered by 
                         advanced technology and flexible customization options, tailored to meet the evolving needs of modern businesses.</p>
-                    <div class="mt-4">
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -138,7 +137,7 @@
 
     <section class="why-choose-signage">
         <div class="why-choose-container container">
-            <h2 class="why-title">Customized Solutions for Every<br>Industry</h2>
+            <h2 class="why-title mb-3">Customized Solutions for Every<br>Industry</h2>
 
 
             <div class="why-grid">
@@ -220,7 +219,7 @@
 
                 <div class="col-lg-6">
 
-                    <p class="brand-description">
+                    <p class="fs-20">
                         Brand Signages is a premier digital signage manufacturer with a decade of industry expertise. We
                         understand every business is unique and creates digital signage solutions tailored to your brand’s
                         specific needs, ensuring maximum engagement. </p>
@@ -242,9 +241,7 @@
                             <i class="faq-icon fa-solid fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>Digital signage employs dynamic visual content and videos to attract customer attention.
-                                Digital displays help in improving customer engagement, visibility, and retention using
-                                interactive visuals.</p>
+                            <p>Digital signage delivers live, dynamic content that instantly captures attention. From promotional videos to real-time updates, these displays enhance customer engagement and boost visibility with visually rich experiences.</p>
                         </div>
                     </div>
 
@@ -254,9 +251,7 @@
                             <i class="faq-icon fa-solid fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>Digital signage employs dynamic visual content and videos to attract customer attention.
-                                Digital displays help in improving customer engagement, visibility, and retention using
-                                interactive visuals.</p>
+                            <p>Digital signage offers lasting value by consistently enhancing brand visibility and customer engagement. With dynamic visuals and interactive content, it helps businesses build stronger connections.</p>
 
                         </div>
                     </div>
