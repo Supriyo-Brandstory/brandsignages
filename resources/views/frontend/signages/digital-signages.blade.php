@@ -147,8 +147,8 @@
                     <h3>Corporate Office</h3>
                     <p>
                         We provide digital signage solutions for corporate offices, designed to enhance internal communication and 
-                        boost workplace engagement. From real-time announcements and performance metrics to internal updates and branding 
-                        messages, our corporate office signages keep your teams informed and aligned.
+                        boost workplace engagement. Perform real-time announcements and performance metrics to internal updates and branding 
+                        messages with our digital signage solutions for corporate office.
                     </p>
                 </div>
 
@@ -167,8 +167,8 @@
                     <h3>Hospitality</h3>
                     <p>
                         Our interactive digital signages elevate the guest experience across hospitality venues by offering
-                        dynamic, real-time information. From simplifying check-ins and wayfinding to promoting on-site
-                        dining, amenities, and events, these displays help hotels and resorts communicate seamlessly.
+                        dynamic, real-time information. Simplifying check-ins and wayfinding to promoting on-site
+                        dining, amenities, and events with our digital signages.
                     </p>
                 </div>
 
