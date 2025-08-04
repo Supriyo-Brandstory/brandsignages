@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-12">
-                    <h1 class="hero-banner_title">Best Digital Signage Manufacturer & Supplier in Bangalore</h1>
+                    <h1 class="hero-banner_title">Best Digital Signage Manufacturers for High-Impact Displays</h1>
 
                     <a href="https://brandsignages.com/contact-us" class="mt-3 d-block">
                         <button class="contact-btn ">Get Free Quote</button>
@@ -28,12 +28,12 @@
     <!-- About Section -->
     <section>
         <div class="container pt-5">
-            <h2 class="hero-title">Transform Your Brand Visibility with<br>Digital Signages</h2>
+            <h2 class="hero-title">Transform Your Brand Visibility with <br>#1 Digital Signage India</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/digital-signages-banner-1.webp')}}" alt="Cafe Rosco Signage"
+                        <img src="{{asset('frontend/Images/digital-signages-banner-1.webp')}}" alt="Digital Signage installed in retail space by Brand Signages"
                             class="img-fluid">
                     </div>
                 </div>
@@ -41,20 +41,19 @@
                 <div class="col-lg-6">
 
                     <p class="brand-description">
-                        Digital signage offers an engaging way to showcase your brand, grabbing attention with vibrant
-                        visuals and real-time updates. From digital display boards and video walls to digital standees,
-                        businesses in Bangalore are utilizing digital signage to enhance customer engagement. </p>
-                    <p class="brand-description">
-                        Brand Signages is the premier digital signage manufacturer in Bangalore, backed by 10+ years of
-                        expertise. We have in-house facility for digital signage hardware manufacturing, software, and CMS
-                        technology experts. We are an ISO certified digital signage manufacturer and supplier, serving
-                        clients across PAN India.
+                        Digital signage offers an engaging way to showcase your brand, grabbing attention with vibrant visuals, 
+                        dynamic content, and real-time updates. From digital display boards and interactive video walls to sleek 
+                        digital standees, modern digital signage displays can enhance customer engagement and create lasting brand 
+                        impressions.
                     </p>
-                    <p>As the best digital signage vendors in Bangalore, <a href="https://brandsignages.com/"
-                            style="color: #E43D12">Brand Signages</a> focuses on designing high-quality displays that align
-                        seamlessly with your brand identity. Whether it’s a video wall or a floor stand display board, our
-                        products deliver unparalleled standards. Transform your space with innovative digital signage
-                        solutions today.</p>
+                    <p class="brand-description">
+                        <a href="https://brandsignages.com/" style="color: #E43D12">Brand Signages</a> is the pioneering digital signage manufacturer, providing inventive and personalized digital
+                         signage solutions for organizations. We have full-scale facility for digital signage display manufacturing, 
+                         software, and CMS technology experts. We are certified digital signage vendors, offering digital signage 
+                         services in pan India.
+                    </p>
+                    <p>Whether it's a dynamic video wall or a modern floor-standing display board, our digital signage products offer exceptional clarity and reliability. Our expertise is powered by 
+                        advanced technology and flexible customization options, tailored to meet the evolving needs of modern businesses.</p>
                     <div class="mt-4">
                     </div>
                 </div>
@@ -63,7 +62,7 @@
     </section>
     <section class="bgrowth-slider-section">
         <div class="bgrowth-header">
-            <h2>About Our Digital Display Boards</h2>
+            <h2>Digital Signage Display Features</h2>
 
         </div>
 
@@ -82,11 +81,11 @@
                             <div class="bgrowth-content ">
                                 <h3 class="mb-3">Smart Digital Displays</h3>
                                 <p>
-                                    <b>No External Media Player:</b> Our displays work seamlessly without additional hardware
+                                    <b>Built-In Playback:</b> Operates smoothly without the need for external media players.
                                 </p>
-                                <p><b>Remote Display Control:</b> Reboot and manage single or multiple displays</p>
-                                <p><b>Universal Compatibility:</b> Supports Android, LG webOS, Samsung Tizen, Windows</p>
-                                <p class=""><b>Content Scheduling:</b> Quickly add playlists, media files, or promotional campaigns
+                                <p><b>Remote Control:</b> Easily control, update, or reboot displays from any location.</p>
+                                <p><b>Wide Compatibility:</b> Compatible with Android, LG webOS, Samsung Tizen, and Windows.</p>
+                                <p class=""><b>Easy Scheduling:</b> Effortlessly schedule playlists, media content, and campaigns.
                                 </p>
                             </div>
                         </div>
@@ -102,9 +101,6 @@
                         <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                             <div class="bgrowth-content">
                                 <h3 class="mb-3">Specifications</h3>
-                                <p>
-                                    <b>Minimum Order Quantity:</b> 1 Unit
-                                </p>
                                 <p><b>Display Type:</b> LED / OLED / E-Ink (Customizable)</p>
                                 <p><b>Body Material:</b> Aluminum, acrylic, Polycarbonate, Glass</p>
                                 <p><b>Lighting Type:</b> LED / Backlit LCD for superior brightness</p>
@@ -119,17 +115,15 @@
                     <div class="row align">
                         <div class="col-12 col-md-6 pb-0">
                             <img src="{{ asset('frontend/Images/smar-digital-Installation-Support.webp') }}"
-                                alt="smar-digital-Installation-Support" class="bgrowth-img-2" />
+                                alt="Digital Signage Installation and Support" class="bgrowth-img-2" />
                         </div>
                         <div class="col-12 col-md-6  d-flex flex-column justify-content-center ">
                             <div class="bgrowth-content">
                                 <h3 class="mb-3">Installation & Support</h3>
-                                <p>
-                                    We deliver end-to-end signage solutions from design to installation ensuring seamless
-                                    deployment, minimal downtime, and long-term reliability. Our commitment to customer
-                                    satisfaction has helped us build a loyal customer base that trusts our expertise and
-                                    relies on us for their digital signage needs.
-                                </p>
+                                <p><b>Site Planning:</b> We evaluate your space to recommend optimal screen placement.</p>
+                                <p><b>Professional Installation:</b> Secure and clean setup tailored to your environment.</p>
+                                <p><b>System Setup:</b> Complete hardware and software configuration for smooth performance.</p>
+                                <p><b>After-Sales Support:</b> Ongoing assistance to ensure uninterrupted operation.</p>
                             </div>
                         </div>
                     </div>
@@ -152,10 +146,9 @@
                     <img src="{{asset('frontend/Images/Corporate-Office.png')}}" alt="Corporate Office" class="why-icon">
                     <h3>Corporate Office</h3>
                     <p>
-                        We are considered among digital signage comapnies because our products enhance internal
-                        communication and streamline information sharing. Companies can use digital <a
-                            href="https://brandsignages.com/office-signages" style="color: #E43D12">office signages</a> to
-                        display announcements showcasing performance metrics.
+                        We provide digital signage solutions for corporate offices, designed to enhance internal communication and 
+                        boost workplace engagement. From real-time announcements and performance metrics to internal updates and branding 
+                        messages, our corporate office signages keep your teams informed and aligned.
                     </p>
                 </div>
 
@@ -184,8 +177,7 @@
                     <h3>Food</h3>
                     <p>
                         We design <a href="https://brandsignages.com/restaurant-signages" style="color: #E43D12">digital
-                            menu boards</a> to be placed in restaurants and cades to boost customer engagement. These boards
-                        can show updated prices dynamically, thus giving the latest information to customers.
+                            menu boards</a> to be placed in restaurants and cafes to boost customer engagement. These boards serve up menus, prices, and offers in real time, fresh, and up-to-date.
                     </p>
                 </div>
 
@@ -216,20 +208,20 @@
 
     <section>
         <div class="container pt-5">
-            <h2 class="hero-title">Benefits of Digital Signages for Branding</h2>
+            <h2 class="hero-title">Benefits of Digital Signages for Businesses</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
                         <img src="{{asset('frontend/Images/Benefits-of-Digital-Signages-for-Branding.webp')}}"
-                            alt="Benefits-of-Digital-Signages-for-Branding" class="img-fluid">
+                            alt="Benefits of Digital Signages for Businesses" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
 
                     <p class="brand-description">
-                        Brand Signages is a premier digital signage manufacturer with 10+ years of industry expertise. We
+                        Brand Signages is a premier digital signage manufacturer with a decade of industry expertise. We
                         understand every business is unique and creates digital signage solutions tailored to your brand’s
                         specific needs, ensuring maximum engagement. </p>
                     <div class="faq-item active">
@@ -289,7 +281,7 @@
                                     class="img-fluid">
                                 <h3>In-House Experts</h3>
                                 <p>
-                                    From CMS software to digital displays production, we have a dedicated manufacturing unit
+                                    From digital displays to CMS software integration, and installation, we have a dedicated manufacturing unit
                                     and in-house team of experts. We provide digital signage installation and support
                                     services across PAN India.
                                 </p>
@@ -300,8 +292,8 @@
                                 <img src="{{ asset('frontend/Images/Industry-Grade-Products.png') }}"
                                     alt="Industry Grade Products" class="img-fluid">
                                 <h3>Industry Grade Products</h3>
-                                <p>Our digital signages combine robust hardware with advanced display technology and a
-                                    Content Management System. We have a PAN India support network.
+                                <p>Our digital signages combine advanced display technology and dedicated
+                                    Content Management System. This ensures smooth content delivery and easy real-time updates.
                                 </p>
                             </div>
                         </div>
@@ -311,7 +303,7 @@
                                     alt="10 Years of Expertise" class="img-fluid">
                                 <h3>10 Years of Expertise</h3>
                                 <p>We are among the best digital signage companies with expertise in digital signage
-                                    technology. We have a modern manufacturing facility for digital signage production.
+                                    display solutions. We have a modern manufacturing facility for digital signage production.
                                 </p>
                             </div>
                         </div>
@@ -329,6 +321,185 @@
 
                     </div>
     </section>
+
+         <section class="new_client_section container">
+        <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
+        <div class="row">
+            <div class="col-md-5 new_client_section-image col-12">
+                <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
+            </div>
+            <div class="col-md-7 new_client_section-scrolling col-12">
+
+                <div class="new_client_section-wrapper">
+                    <!-- Row 1 (Left to Right) -->
+                    <div class="new_client_section-row new_client_section-row-1">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
+                                alt="White Gold - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
+                                alt="Manthan - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
+                                alt="Sobha - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
+                                alt="Societe Generale - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
+                                alt="HashedIn - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
+                                alt="Innoviti - Our Signage Client">
+                        </div>
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
+                                alt="White Gold - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
+                                alt="Manthan - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
+                                alt="Sobha - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
+                                alt="Societe Generale - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
+                                alt="HashedIn - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
+                                alt="Innoviti - Our Signage Client">
+                        </div>
+
+                    </div>
+
+                    <!-- Row 2 (Right to Left) -->
+                    <div class="new_client_section-row new_client_section-row-2">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
+                                alt="Flipkart - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
+                                alt="VYMO - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
+                                alt="Indusface - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
+                                alt="Chargebee - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
+                                alt="Flipkart - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
+                                alt="VYMO - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
+                                alt="Indusface - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
+                                alt="Chargebee - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                    </div>
+
+                    <!-- Row 3 (Left to Right) -->
+                    <div class="new_client_section-row new_client_section-row-3">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
+                                alt="Natural - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
+                                alt="Vakil Search - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
+                                alt="Bhive Workspace - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
+                                alt="Apollo Hospitals - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
+                                alt="Adarsh Developers - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
+                                alt="New Horizon Educational Institution - Our Signage Client">
+                        </div>
+
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
+                                alt="Natural - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
+                                alt="Vakil Search - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
+                                alt="Bhive Workspace - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
+                                alt="Apollo Hospitals - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
+                                alt="Adarsh Developers - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
+                                alt="New Horizon Educational Institution - Our Signage Client">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+
     <!-- testimonial Feedback Section -->
     <section class="new_testimonial-swiper-section">
         <div class="container">
@@ -451,6 +622,40 @@
         </div>
     </section>
 
+     <section class="other-cities-section mt-5">
+    <div class="container">
+        <h2 class="my-5">Digital Signages in Other Cities</h2>
+        <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/digital-signages-manufacturer-in-mumbai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="Digital Signages Mumbai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Mumbai</p>
+                </div>
+            </a>
+            </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/leading-digital-signage-in-chennai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="Digital Signages Chennai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Chennai</p>
+                </div>
+                </a>
+            </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/digital-signage-company-bangalore" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="Digital Signages Bangalore">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Bangalore</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
 
     <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
