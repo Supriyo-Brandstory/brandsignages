@@ -748,7 +748,7 @@
                         to the broader category of all types of signs, they ultimately serve the same purpose: 
                         effective visual communication.</p>
                     <p>At Brand Signages, we specialize in both sign board and signage manufacturing. We are 
-                        exclusive sign board manufacturers providing complete signage solutions. Whether you need 
+                        exclusive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/"><strong>sign board manufacturers</strong></a> providing complete signage solutions. Whether you need 
                         a single shop board, indoor branding sign boards, or outdoor sign boards, we design the best 
                         signage in the city, tailored to specific business needs.  </p>    
                 </div>
