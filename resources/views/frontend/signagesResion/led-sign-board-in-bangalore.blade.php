@@ -271,6 +271,225 @@
 
                         </div>
         </section>
+
+         <section class="new_client_section container">
+        <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
+        <div class="row">
+            <div class="col-md-5 new_client_section-image col-12">
+                <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
+            </div>
+            <div class="col-md-7 new_client_section-scrolling col-12">
+
+                <div class="new_client_section-wrapper">
+                    <!-- Row 1 (Left to Right) -->
+                    <div class="new_client_section-row new_client_section-row-1">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
+                                alt="White Gold - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
+                                alt="Manthan - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
+                                alt="Sobha - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
+                                alt="Societe Generale - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
+                                alt="HashedIn - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
+                                alt="Innoviti - Our Signage Client">
+                        </div>
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
+                                alt="White Gold - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
+                                alt="Manthan - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
+                                alt="Sobha - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
+                                alt="Societe Generale - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
+                                alt="HashedIn - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
+                                alt="Innoviti - Our Signage Client">
+                        </div>
+
+                    </div>
+
+                    <!-- Row 2 (Right to Left) -->
+                    <div class="new_client_section-row new_client_section-row-2">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
+                                alt="Flipkart - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
+                                alt="VYMO - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
+                                alt="Indusface - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
+                                alt="Chargebee - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
+                                alt="Flipkart - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
+                                alt="VYMO - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
+                                alt="Indusface - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
+                                alt="Chargebee - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                    </div>
+
+                    <!-- Row 3 (Left to Right) -->
+                    <div class="new_client_section-row new_client_section-row-3">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
+                                alt="Natural - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
+                                alt="Vakil Search - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
+                                alt="Bhive Workspace - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
+                                alt="Apollo Hospitals - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
+                                alt="Adarsh Developers - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
+                                alt="New Horizon Educational Institution - Our Signage Client">
+                        </div>
+
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
+                                alt="Natural - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
+                                alt="Vakil Search - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
+                                alt="Bhive Workspace - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
+                                alt="Apollo Hospitals - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
+                                alt="Adarsh Developers - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
+                                alt="New Horizon Educational Institution - Our Signage Client">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="home-page mb-5">
+         <div class="pointing">
+            <div class="container point">
+                <div class="ledx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
+                        alt="LED Sign Board">
+                </div>
+                <div class="outdoorx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
+                        alt="Outdoor Signage">
+                </div>
+                <div class="digitalx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
+                        alt="Digital Signage">
+                </div>
+                <div class="metalx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
+                        alt="Metal Signage">
+                </div>
+                <div class="acrylicx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
+                        alt="Acrylic Signage">
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
           <!-- testimonial Feedback Section -->
         <section class="new_testimonial-swiper-section">
             <div class="container">
