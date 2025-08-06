@@ -26,33 +26,33 @@
         <meta property="og:image" content="{{ $seoImage }}" />
 
         <script type="application/ld+json">
-                                        {
-                                          "@context": "https://schema.org",
-                                          "@type": "BlogPosting",
-                                          "headline": "{{ $blogSeoData['title'] ?? 'Brand Signages' }}",
-                                          "description": "{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}",
-                                          "image": "{{ $seoImage }}",
-                                          "author": {
-                                            "@type": "Person",
-                                            "name": "Manoj Kaliyannan",
-                                            "url": "https://in.linkedin.com/in/manojkaliyannan"
-                                          },
-                                          "publisher": {
-                                            "@type": "Organization",
-                                            "name": "Brand Signages",
-                                            "logo": {
-                                              "@type": "ImageObject",
-                                              "url": "{{ asset('frontend/Images/Brand-Signages-logo.png') }}"
+                                            {
+                                              "@context": "https://schema.org",
+                                              "@type": "BlogPosting",
+                                              "headline": "{{ $blogSeoData['title'] ?? 'Brand Signages' }}",
+                                              "description": "{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}",
+                                              "image": "{{ $seoImage }}",
+                                              "author": {
+                                                "@type": "Person",
+                                                "name": "Manoj Kaliyannan",
+                                                "url": "https://in.linkedin.com/in/manojkaliyannan"
+                                              },
+                                              "publisher": {
+                                                "@type": "Organization",
+                                                "name": "Brand Signages",
+                                                "logo": {
+                                                  "@type": "ImageObject",
+                                                  "url": "{{ asset('frontend/Images/Brand-Signages-logo.png') }}"
+                                                }
+                                              },
+                                              "datePublished": "{{ $blogSeoData['published_at'] ?? '2025-01-28' }}",
+                                              "dateModified": "{{ $blogSeoData['updated_at'] ?? '2025-01-28' }}",
+                                              "mainEntityOfPage": {
+                                                "@type": "WebPage",
+                                                "@id": "{{ $blogSeoData['canonical_url'] ?? url()->current() }}"
+                                              }
                                             }
-                                          },
-                                          "datePublished": "{{ $blogSeoData['published_at'] ?? '2025-01-28' }}",
-                                          "dateModified": "{{ $blogSeoData['updated_at'] ?? '2025-01-28' }}",
-                                          "mainEntityOfPage": {
-                                            "@type": "WebPage",
-                                            "@id": "{{ $blogSeoData['canonical_url'] ?? url()->current() }}"
-                                          }
-                                        }
-                                    </script>
+                                        </script>
     @else
         {!!$seo->script ?? '<title>#1 Sign Board Manufacturer in Bangalore | Brand Signages</title>'!!}
     @endif
@@ -78,7 +78,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('frontend/styles.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/services.css')}}">
@@ -90,7 +92,7 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMB37QHX" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -175,14 +177,23 @@
                         </div>
                     </li>
 
-                    <li class="nav-item dropdown position-static">
+                    <li class="nav-item dropdown position-relative">
                         <a class="nav-link dropdown-toggle" href="#" id="regionDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Signages by Region <i class="fas fa-chevron-down dropdown__arrow"
+                            Our Locations<i class="fas fa-chevron-down dropdown__arrow"
                                 style="font-size: 12px; margin-left: 4px; margin-bottom: 3px;"></i>
                         </a>
-                        <div class="dropdown-menu p-4" style="width:auto;" aria-labelledby="regionDropdown">
+                        <div class="dropdown-menu" style="width:max-content;" aria-labelledby="regionDropdown">
                             <div class="container">
+                             <a class="dropdown-item" href="{{route('signage_in_bangalore')}}">➤ Signages in
+                                    Bangalore</a>
+                                <a class="dropdown-item" href="{{route('leading_signage_company_in_mumbai')}}">➤ Signages
+                                    in Mumbai</a>
+                                <a class="dropdown-item" href="{{route('signage_company_in_chennai')}}">➤ Signages
+                                    in Chennai</a>
+                            </div>
+                            {{-- <div class="container">
+                               
                                 <div class="row">
                                     <div class="col-lg-4 col-md-6">
                                         <h6 class="dropdown-header">Bangalore</h6>
@@ -276,8 +287,9 @@
 
                                     </div>
 
+
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </li>
 

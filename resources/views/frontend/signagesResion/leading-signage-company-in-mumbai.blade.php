@@ -139,7 +139,7 @@
         </div>
 
         <div class="position-relative">
-            <div class="swiper We-Elevate-Brands-swiper">
+            <div class="swiper We-Elevate-Brands-swiper pt-60">
                 <div class="swiper-wrapper">
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
