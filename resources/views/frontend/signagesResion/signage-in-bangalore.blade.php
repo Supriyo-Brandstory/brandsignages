@@ -230,95 +230,11 @@
             </div>
         </section>
 
-        <section class="pointing">
-            <div class="container point">
-                <div class="ledx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
-                        alt="LED Sign Board">
-                </div>
-                <div class="outdoorx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
-                        alt="Outdoor Signage">
-                </div>
-                <div class="digitalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
-                        alt="Digital Signage">
-                </div>
-                <div class="metalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
-                        alt="Metal Signage">
-                </div>
-                <div class="acrylicx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
-                        alt="Acrylic Signage">
-                </div>
-
-
-
-
-            </div>
-        </section>
+        
       
         <div class="inquery-from-section">
         <x-coustom-inquiry-form />
         </div>
-
-        <section class="we-deliver">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-12">
-                        <h2>The Difference We Deliver</h2>
-                    </div>
-                    <div class="col-md-8 col-12">
-                        <div class="row">
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
-                                        class="img-fluid">
-                                    <h3>On-demand Design</h3>
-                                    <p>Our expert team provides flexible, personalized signage design and manufacturing services, 
-                                        transforming your conceptual ideas into compelling visual narratives that elevate your brand.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Timely Delive"
-                                        class="img-fluid">
-                                    <h3>Timely Delivery</h3>
-                                    <p>We optimize workflows, maintain stringent timelines, and coordinate with the manufacturing team 
-                                        to guarantee project completion without compromising quality or design integrity.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
-                                        class="img-fluid">
-                                    <h3>Direct Purchase</h3>
-                                    <p>Connect with us and get a quick consultation for your signage project. Our streamlined purchasing pathway 
-                                        eliminates all complexity, connecting you straight to the creative brilliance.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box align-items-center">
-                                    <a href="https://brandsignages.com/contact-us" class="button">Contact Us</a>
-                                </div>
-                            </div>
-
-                        </div>
-        </section>
 
        
 
