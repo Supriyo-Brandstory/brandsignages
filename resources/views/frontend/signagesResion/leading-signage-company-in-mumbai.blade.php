@@ -244,7 +244,7 @@
 
 <x-coustom-inquiry-form />
 
-<section class="pointing">
+<section class="pointing mb-5">
             <div class="container point">
                 <div class="ledx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
@@ -339,9 +339,7 @@
 
 
 
-
-
-<section class="why-bg-light-pink py-5">
+<!--<section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Best Signage Solutions for Businesses in Mumbai</h2>
@@ -496,7 +494,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <section class="we-deliver">
             <div class="container">
