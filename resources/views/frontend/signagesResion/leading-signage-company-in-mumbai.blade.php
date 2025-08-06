@@ -244,7 +244,7 @@
 
 <x-coustom-inquiry-form />
 
-<section class="pointing mb-5">
+<section class="pointing mt-5">
             <div class="container point">
                 <div class="ledx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
