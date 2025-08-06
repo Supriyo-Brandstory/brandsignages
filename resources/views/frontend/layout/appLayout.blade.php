@@ -129,19 +129,19 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-4 col-md-6">
-                                        <h6 class="dropdown-header">Signage by Type</h6>
+                                        <h6 class="dropdown-header">Signages by Type</h6>
                                         <a class="dropdown-item" href="{{route('arcylic_signages')}}">Acrylic
-                                            Signages</a>
+                                            Signage</a>
                                         <a class="dropdown-item" href="{{route('metal_signages')}}">Metal Signages</a>
                                         <a class="dropdown-item" href="{{route('digital_signages')}}">Digital
-                                            Signages</a>
+                                            Signage</a>
                                         <a class="dropdown-item" href="{{route('outdoor_signages')}}">Outdoor
                                             Signages</a>
                                         <a class="dropdown-item" href="{{route('indoor_signages')}}">Interior
                                             Signages</a>
-                                        <a class="dropdown-item" href="{{route('neon_signages')}}">Neon Glowing
-                                            Signage</a>
-                                        <a class="dropdown-item" href="{{route('led_signages')}}">LED Sign</a>
+                                        <a class="dropdown-item" href="{{route('neon_signages')}}">Neon Glow
+                                            Sign</a>
+                                        <a class="dropdown-item" href="{{route('led_signages')}}">LED Sign Board</a>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <h6 class="dropdown-header">Signages by Industry</h6>
@@ -170,7 +170,7 @@
                                         {{-- <a class="dropdown-item" href="#">Office Desk Sign</a>
                                         <a class="dropdown-item" href="#">Floor Sign</a> --}}
                                         <a class="dropdown-item" href="{{route('room_name_plates')}}">Room Number
-                                            Signs</a>
+                                            Sign</a>
                                     </div>
                                 </div>
                             </div>
