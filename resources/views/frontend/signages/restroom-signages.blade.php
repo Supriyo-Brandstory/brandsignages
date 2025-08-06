@@ -564,6 +564,41 @@
     </div>
 </section>
 
+<section class="other-cities-section mt-5">
+    <div class="container">
+        <h2 class="my-5">Restroom Signs in Other Cities</h2>
+        <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/restroom-signs-in-mumbai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="Restroom Signages Mumbai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Mumbai</p>
+                </div>
+            </a>
+            </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/high-quality-restroom-signs-in-chennai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="Restroom Signages Chennai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Chennai</p>
+                </div>
+                </a>
+            </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/restroom-signs-in-bangalore" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="Restroom Signages Bangalore">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Bangalore</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 <section class="faq-section">

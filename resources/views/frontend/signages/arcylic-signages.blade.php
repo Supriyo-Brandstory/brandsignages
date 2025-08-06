@@ -461,9 +461,44 @@
     </div>
 </section>
 
+<section class="other-cities-section mt-5">
+    <div class="container">
+        <h2 class="my-5">Acrylic Signages in Other Cities</h2>
+        <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/premium-acrylic-sign-boards-in-mumbai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="Acrylic Signages Mumbai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Mumbai</p>
+                </div>
+            </a>
+            </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/acrylic-signages-in-chennai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="Acrylic Signages Chennai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Chennai</p>
+                </div>
+                </a>
+            </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/acrylic-signage-manufacturer-bangalore" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="Acrylic Signages Bangalore">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Bangalore</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="faq-section">
     <div class="faq-container">
-        <h1 class="faq-title">FAQS</h1>
+        <h1 class="faq-title">FAQs</h1>
 
         <div class="faq-item">
             <button class="faq-question">
