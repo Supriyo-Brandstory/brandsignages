@@ -43,7 +43,7 @@
                 <p class="brand-description">
                  Looking for a reliable signage company in Mumbai? Brand Signages is the premier signage manufacturers in Mumbai with 10+ years of rich industry experience. As a leading signage company located in Worli, Mumbai, we design premium-quality
                  sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Mumbai, <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Chennai</a> , 
-                 <a href="{{route('/')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore</a>, and all over India.
+                 <a href="{{route('')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore</a>, and all over India.
                 </p>
                 <p class="brand-description">
                 Signages & sign boards are the most powerful branding tools to introduce, inform, and guide potential audiences. We are proud of our proficiency 
