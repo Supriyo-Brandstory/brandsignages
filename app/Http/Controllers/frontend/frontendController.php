@@ -212,10 +212,11 @@ class frontendController extends Controller
 
     public function signage_in_bangalore()
     {
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-         $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',2)->take(3)->get();
-        return view('frontend.signagesResion.signage-in-bangalore', compact('seo','blogs'));
+        // $currentRoute = Route::current()->uri();
+        // $seo = SEO::where('page_url', $currentRoute)->first();
+        //  $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',2)->take(3)->get();
+        // return view('frontend.signagesResion.signage-in-bangalore', compact('seo','blogs'));
+        return redirect('/')->setStatusCode(301);
     }
     public function led_sign_board_in_bangalore()
     {
