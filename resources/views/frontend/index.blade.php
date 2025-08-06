@@ -695,6 +695,43 @@
         </div>
     </section>
 
+    <section class="other-cities-section mt-5">
+    <div class="container">
+        <h2 class="my-5">Sign Board in Other Cities</h2>
+        <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/leading-signage-company-in-mumbai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="Sign Boards in Mumbai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Mumbai</p>
+                </div>
+            </a>
+            </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/signage-in-chennai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="Sign Boards in Chennai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Chennai</p>
+                </div>
+                </a>
+            </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="Sign Boards in Bangalore">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Bangalore</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
     <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
