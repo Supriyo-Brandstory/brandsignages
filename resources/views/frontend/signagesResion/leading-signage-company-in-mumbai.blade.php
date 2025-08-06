@@ -132,119 +132,115 @@
             </div>
         </section>
 
-        <section class="bgrowth-slider-section">
-            <div class="bgrowth-header">
-                <h2>Explore The Best Signage Solutions <br>to Ignite Your Business Growth</h2>
-                <p>
-                    At Brand Signages, our creative signage designs and attention to detail ensure your brand message stands
-                    out. We specialize in:
-                </p>
-            </div>
+ <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="We-Elevate-Brands-heading fw-bold">We Elevate Brands with Quality Signages <br>That Makes a Lasting Impression  </h2>
+        </div>
 
-            <div class="swiper bgrowth-swiper container">
-                <div class="swiper-pagination"></div> <!-- should be inside swiper, before swiper-wrapper -->
+        <div class="position-relative">
+            <div class="swiper We-Elevate-Brands-swiper">
                 <div class="swiper-wrapper">
-
                     <!-- Slide 1 -->
-                    <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/dutyfree.webp') }}" alt="Acrylic Signage"
-                            class="bgrowth-img" />
-                        <div class="bgrowth-content">
-                            <h3>Acrylic Signage</h3>
-                            <p>
-                                Acrylic signage is a preferred choice among industries for its glossy finish and durability. 
-                                We design acrylic signage with unmatched durability and precision. 
-                            </p>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/stainless-steel-sign-board-manufacturer-mumbai">Metal & Steel Signages</a></h5>
+                                <p class="We-Elevate-Brands-text">Stainless steel signage is one of the most affordable and
+                                    durable signage. We design stainless steel signage for organizations with custom sizes
+                                    and designs.</p>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/steel-sign.webp') }}" alt="Metal Signage"
-                            class="bgrowth-img" />
-                        <div class="bgrowth-content">
-                            <h3>Metal & Steel Signage</h3>
-                            <p>
-                                Stainless steel signage is one of the most affordable and durable types of signage. We design stainless steel 
-                                signage for organizations with custom sizes and designs.
-                            </p>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/led-display-board-in-mumbai">LED Sign Board</a></h5>
+                                <p class="We-Elevate-Brands-text">LED sign boards are the most versatile option for modern branding. 
+                                    We are proven experts in LED sign board manufacturing to help you create the best LED nameboards. </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/led-sign-board.webp') }}" alt="LED Sign Board"
-                            class="bgrowth-img" />
-                        <div class="bgrowth-content">
-                            <h3>LED Sign Board</h3>
-                            <p>
-                                LED sign boards are the most versatile option for modern branding. We are proven experts in LED sign board manufacturing 
-                                to help you create the best LED nameboards. 
-                            </p>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages-manufacturer-in-mumbai">Digital Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Digital displays are a dynamic and attention-grabbing transformation for 
+                                    retail spaces. We design modern digital signage and digital displays for every industry. </p>
+                            </div>
                         </div>
                     </div>
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/digital-signages.webp') }}" alt="Digital Signages"
-                            class="bgrowth-img" />
-                        <div class="bgrowth-content">
-                            <h3>Digital Signage</h3>
-                            <p>
-                                Digital displays are a dynamic and attention-grabbing transformation for retail spaces. We design modern digital signage 
-                                and digital displays for every industry.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/neon-sign.webp') }}" alt="Neon Sign Board"
-                            class="bgrowth-img" />
-                        <div class="bgrowth-content">
-                            <h3>Neon Sign Board</h3>
-                            <p>
-                               Neon signs are a go-to option for retail and restaurant businesses for all-around visibility. We employ our precious experts to 
-                               design the best neon signage designs in the city.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/retail-signages.webp') }}" alt="retail Signage"
-                            class="bgrowth-img" />
-                        <div class="bgrowth-content">
-                            <h3>Retail Signages</h3>
-                            <p>
-                               Retail signage is the epitome of beauty and elegance. These creations are bold, energy-efficient, and easy to use and maintain 
-                               for long-lasting performance.
-                            </p>
-                        </div>
-                    </div>
-                     <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/indoor-signages.webp') }}" alt="Indoor Signage"
-                            class="bgrowth-img" />
-                        <div class="bgrowth-content">
-                            <h3>Indoor Signages</h3>
-                            <p>
-                               Indoor signages are mostly used in corporate offices, retail spaces, financial institutions, and medical facilities. Interior signages communicate 
-                               brand personality and transforms interior. 
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide bgrowth-card">
-                        <img src="{{ asset('frontend/Images/home/outdoor-signages.webp') }}" alt="Outdoor Signage"
-                            class="bgrowth-img" />
-                        <div class="bgrowth-content">
-                            <h3>Outdoor Signages</h3>
-                            <p>
-                               Outdoor signages create immersive visual experiences, balancing visibility with powerful messaging. These signage acts as a strategic marketing tools 
-                               that truly engage audiences. 
-                            </p>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/acrylic-sign.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/premium-acrylic-sign-boards-in-mumbai">Acrylic Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Acrylic signage is a preferred choice among industries for its glossy finish and durability. 
+                                    We design acrylic signage with unmatched durability and precision. </p>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Add more slides if needed -->
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/neon-sign-board-in-mumbai">Neon Sign Board</a></h5>
+                                <p class="We-Elevate-Brands-text">Neon signs are a go-to option for retail and restaurant businesses for all-around visibility. 
+                                    We employ our precious experts to design the best neon signage designs in the city. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/retail-sign.webp')}}" class="card-img-center"
+                                alt="Retail Signages">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/leading-signage-company-in-mumbai">Retail Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Retail signage is the epitome of beauty and elegance. These creations are bold, energy-efficient, 
+                                    and easy to use and maintain for long-lasting performance. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/outdoor-sign.webp')}}" class="card-img-center"
+                                alt="Outdoor Business Signages">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/leading-signage-company-in-mumbai">Outdoor Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Outdoor signages create immersive visual experiences, balancing visibility with powerful messaging. 
+                                    These signage acts as a strategic marketing tools that truly engage audiences.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Arrows -->
+                <div class="We-Elevate-Brands-nav ">
+                    <!-- Swap order: prev on left, next on right -->
+                    <div class="We-Elevate-Brands-button-prev"></div>
+                    <div class="We-Elevate-Brands-button-next"></div>
                 </div>
 
             </div>
-        </section>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="https://brandsignages.com/services" class="btn-we-elevate">View All Services</a>
+        </div>
+        </div>
+    </section>
 
 <x-coustom-inquiry-form />
 
