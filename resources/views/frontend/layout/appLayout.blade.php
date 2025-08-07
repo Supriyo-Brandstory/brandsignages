@@ -185,7 +185,7 @@
                         </a>
                         <div class="dropdown-menu" style="width:max-content;" aria-labelledby="regionDropdown">
                             <div class="container">
-                             <a class="dropdown-item" href="{{route('signage_in_bangalore')}}">➤ Signages in
+                             <a class="dropdown-item" href="{{route('home')}}">➤ Signages in
                                     Bangalore</a>
                                 <a class="dropdown-item" href="{{route('leading_signage_company_in_mumbai')}}">➤ Signages
                                     in Mumbai</a>

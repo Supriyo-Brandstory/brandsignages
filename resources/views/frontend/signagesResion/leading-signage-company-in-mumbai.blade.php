@@ -33,19 +33,19 @@
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/skyline-of-mumbai-across-back-bay.webp')}}" alt="Skyline View of Mumbai from Back Bay" class="img-fluid">
+                <div class="rounded">
+                    <img src="{{asset('frontend/Images/skyline-of-mumbai-across-back-bay.webp')}}" alt="Skyline View of Mumbai from Back Bay" class="img-fluid rounded">
                 </div>
             </div>
 
             <div class="col-lg-6">
-                <h2 class="brand-title">Trusted B2B Signage Partner for Businesses</h2>
-                <p class="brand-description">
+                <h2 class="We-Elevate-Brands-title">Trusted B2B Signage Partner for Businesses</h2>
+                <p class="We-Elevate-Brands-text">
                  Looking for a reliable signage company in Mumbai? Brand Signages is the premier signage manufacturers in Mumbai with 10+ years of rich industry experience. As a leading signage company located in Worli, Mumbai, we design premium-quality
                  sign boards for top companies. We serve small businesses, SMEs, and large-scale businesses across Mumbai, <a href="{{route('signage_company_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Chennai</a> , 
                  <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore</a>, and all over India.
                 </p>
-                <p class="brand-description">
+                <p class="We-Elevate-Brands-text">
                 Signages & sign boards are the most powerful branding tools to introduce, inform, and guide potential audiences. We are proud of our proficiency 
                 in signage design services in Mumbai for a decade. Our product range includes <a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
                        <a href="{{route('digital_signages_manufacturer_in_mumbai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
@@ -286,7 +286,7 @@
     <section>
     <div class="container py-5" id="gallery-container">
         <h2 class="hero-title  mb-4">Our Recent Signage Projects</h2>
-        <p class=" text-center mb-5">We design high-quality and customized signage and sign boards for top businesses in Mumbai. From outdoor neon signs to sleek acrylic signages, digital signages, and LED sign boards, our solutions are designed to enhance both branding and decor.
+        <p class=" text-center mb-5 We-Elevate-Brands-text">We design high-quality and customized signage and sign boards for top businesses in Mumbai. From outdoor neon signs to sleek acrylic signages, digital signages, and LED sign boards, our solutions are designed to enhance both branding and decor.
         </p>            
         <div class="row align-items-center">
             <div class="row">
@@ -962,7 +962,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
-            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our articles.</p>
+            <p class="text-center We-Elevate-Brands-text">Explore the latest trends, tips, and expert insights in the signage designs through our articles.</p>
 
         </div>
 
