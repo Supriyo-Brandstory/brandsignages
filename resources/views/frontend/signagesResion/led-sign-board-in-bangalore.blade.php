@@ -690,9 +690,12 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>An LED signboard is a display system that uses light-emitting 
-                            diodes (LEDs) to project messages, visuals, or branding content. These signs are energy-efficient, 
-                            durable, and visible both day and night, making them ideal for commercial promotion.</p>
+                        <p>An LED signboard is a bright, attention-grabbing display that helps businesses showcase their messages, 
+                            offers, or brand vibrantly. It works by lighting up specially designed panels that can show text, images,
+                             or even moving visuals. Because it’s clear and visible in any lighting, day or night, it makes your business
+                              stand out from the crowd. Plus, LED signboards are cost-effective to run, long-lasting, and easy to update,
+                               so you can change your message whenever you need to.
+                        </p>
                     </div>
                 </div>
 
@@ -702,8 +705,10 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Yes, our LED signboards are built to withstand Bangalore’s varying climate, whether it's intense sunlight or 
-                            heavy monsoon rains, ensuring consistent performance throughout the year.</p>
+                        <p>Yes. Our <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-sign-board-in-bangalore"><strong>LED sign boards</strong></a> are designed for durability and can handle Bangalore’s 
+                            changing weather from scorching summer heat to heavy monsoon rains. They deliver 
+                            reliable performance all year round, making them perfect for long-term outdoor use.
+                        </p>
                     </div>
                 </div>
 
@@ -713,14 +718,16 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Yes, our digital LED signboards can be integrated with remote content management systems, allowing you to update 
-                            messages, ads, or visuals in real-time from anywhere.</p>
+                        <p>Yes. Our digital LED signboards support remote content management, so you can update messages, 
+                            ads, or visuals in real time from anywhere. You can also schedule content in advance, making 
+                            it easy to run timely promotions without being on-site.
+                        </p>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        Do I need any permissions or approvals to install an LED signboard in Bangalore?
+                        Do I need any permissions to install an LED signboard in Bangalore?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
@@ -749,10 +756,11 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Absolutely, at Brand Signages, we specialize in creating custom LED signboards 
-                            that perfectly align with your brand identity. Whether you want to showcase your 
-                            logo, brand colors, tagline, or unique design elements, our expert team ensures 
-                            every signboard is tailored to reflect your brand’s personality and vision.
+                        <p>Absolutely. At <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/"><strong>Brand Signages</strong></a>, we design LED signboards that are 
+                            fully customized to match your brand identity. From incorporating 
+                            your logo and brand colors to adding your tagline and unique design elements, 
+                            we ensure every detail reflects your business’s style and message. Our goal is 
+                            to create a signboard that not only looks great but also strengthens your brand presence.
                         </p>
                     </div>
                 </div>
@@ -815,9 +823,12 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Absolutely, LED sign boards are an excellent choice for promoting your retail store, 
-                            and at Brand Signages, we specialize in crafting high-impact LED solutions tailored 
-                            for retail environments.</p>
+                        <p>Absolutely. LED sign boards are one of the most effective ways to 
+                            attract attention and drive foot traffic to your retail store. At 
+                            Brand Signages, we create high-impact LED displays designed specifically 
+                            for retail spaces, helping you showcase offers, new arrivals, and brand 
+                            messages in a way that stands out and engages customers.
+                        </p>
                     </div>
                 </div>
 
