@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-12">
-                    <h1 class="hero-banner_title">Best Digital Signage Manufacturers for High-Impact Displays</h1>
+                    <h1 class="hero-banner_title">Best Digital Signage Manufacturers | High-Impact Displays</h1>
 
                     <a href="https://brandsignages.com/contact-us" class="mt-3 d-block">
                         <button class="contact-btn ">Get Free Quote</button>
@@ -28,7 +28,7 @@
     <!-- About Section -->
     <section>
         <div class="container pt-5">
-            <h2 class="hero-title">Transform Your Brand Visibility with <br>#1 Digital Signage India</h2>
+            <h2 class="hero-title">Your Trusted Partner for Digital Signages <br>in Bangalore & India</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -41,10 +41,9 @@
                 <div class="col-lg-6">
 
                     <p class="fs-20">
-                        Digital signage offers an engaging way to showcase your brand, grabbing attention with vibrant visuals, 
-                        dynamic content, and real-time updates. From digital display boards and interactive video walls to sleek 
-                        digital standees, modern digital signage displays can enhance customer engagement and create lasting brand 
-                        impressions.
+                        Digital signages are designed to grab attention with visually appealing displays. Compared to other signages it showcases advertising and promotional information more effectively. 
+                        High-resolution screens and real-time information display make it the most prominent option for top businesses. Retail spaces, restaurants, and public spaces can leverage the benefits 
+                        by highlighting offers, new arrivals, and more.
                     </p>
                     <p class=" fs-20">
                         <a href="https://brandsignages.com/" style="color: #E43D12">Brand Signages</a> is the pioneering digital signage manufacturer, providing inventive and personalized digital
@@ -52,8 +51,9 @@
                          software, and CMS technology experts. We are certified digital signage vendors, offering digital signage 
                          services in pan India.
                     </p>
-                    <p class="fs-20">Whether it's a dynamic video wall or a modern floor-standing display board, our digital signage products offer exceptional clarity and reliability. Our expertise is powered by 
-                        advanced technology and flexible customization options, tailored to meet the evolving needs of modern businesses.</p>
+                    <p class="fs-20">Whether it's a dynamic video wall or a modern floor-standing display board, our digital signage products offer exceptional clarity and reliability. With made-to-order 
+                        alternatives, our digital signage suits effortlessly into any atmosphere, from retail outlets and offices to public places. We are the top digital signage manufacturers in India for 
+                        creative and influential signage solutions.</p>
                     
                 </div>
             </div>
@@ -137,12 +137,12 @@
 
     <section class="why-choose-signage">
         <div class="why-choose-container container">
-            <h2 class="why-title mb-3">Customized Solutions for Every<br>Industry</h2>
+            <h2 class="why-title mb-3">Types of Digital Signages We Offer</h2>
 
 
             <div class="why-grid">
                 <div class="why-box">
-                    <img src="{{asset('frontend/Images/Corporate-Office.png')}}" alt="Corporate Office" class="why-icon">
+                    <img src="{{asset('frontend/Images/Corporate-Office.png')}}" alt="Digital Signage for Corporate Office" class="why-icon">
                     <h3>Corporate Office</h3>
                     <p>
                         We provide digital signage solutions for corporate offices, designed to enhance internal communication and 
@@ -152,7 +152,7 @@
                 </div>
 
                 <div class="why-box">
-                    <img src="{{asset('frontend/Images/Retail.png')}}" alt="Retail" class="why-icon">
+                    <img src="{{asset('frontend/Images/Retail.png')}}" alt="Digitl Signage for Retail Businesses" class="why-icon">
                     <h3>Retail</h3>
                     <p>
                         We provide vibrant digital display boards that attract customers and promote products. Our solutions
@@ -162,7 +162,7 @@
                 </div>
 
                 <div class="why-box">
-                    <img src="{{asset('frontend/Images/Hospitality.png')}}" alt="Hospitality" class="why-icon">
+                    <img src="{{asset('frontend/Images/Hospitality.png')}}" alt="Digital Signage for Hospitality Sector" class="why-icon">
                     <h3>Hospitality</h3>
                     <p>
                         Our interactive digital signages elevate the guest experience across hospitality venues by offering
@@ -172,7 +172,7 @@
                 </div>
 
                 <div class="why-box">
-                    <img src="{{asset('frontend/Images/Food.png')}}" alt="Food" class="why-icon">
+                    <img src="{{asset('frontend/Images/Food.png')}}" alt="Digital Signages for Restaurants" class="why-icon">
                     <h3>Food</h3>
                     <p>
                         We design <a href="https://brandsignages.com/restaurant-signages" style="color: #E43D12">digital
@@ -181,7 +181,7 @@
                 </div>
 
                 <div class="why-box">
-                    <img src="{{asset('frontend/Images/Banking.png')}}" alt="Banking" class="why-icon">
+                    <img src="{{asset('frontend/Images/Banking.png')}}" alt="Digital Signages for Banking" class="why-icon">
                     <h3>Banking</h3>
                     <p>
                         In banking, digital signage can streamline customer interactions by displaying wait times, service
@@ -190,7 +190,7 @@
                     </p>
                 </div>
                 <div class="why-box">
-                    <img src="{{asset('frontend/Images/Education.png')}}" alt="Education" class="why-icon">
+                    <img src="{{asset('frontend/Images/Education.png')}}" alt="Digital Signages for Education" class="why-icon">
                     <h3>Education</h3>
                     <p>
                         As a digital signage company, our products enhance communication among students, staff, and
