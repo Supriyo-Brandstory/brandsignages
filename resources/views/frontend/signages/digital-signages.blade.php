@@ -179,7 +179,8 @@
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Indoor Digital Displays</a></h5>
                                 <p class="We-Elevate-Brands-text">Our indoor digital signage displays are ideal for retail outlets, offices, and lobbies. 
-                                    They depict dynamic visuals and vibrant content to engross guests and render information effectively.</p>
+                                    They depict dynamic visuals and vibrant content to engross guests and render information effectively. Brand Signages
+                                     is a trusted provider of digital display boards.</p>
                             </div>
                         </div>
                     </div>
@@ -198,12 +199,12 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/digital-sign-sample.web')}}" class="card-img-center"
+                            <img src="{{asset('frontend/Images/home/digital-sign-sample.webb')}}" class="card-img-center"
                                 alt="Interactive Kiosks">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Interactive Kiosks</a></h5>
                                 <p class="We-Elevate-Brands-text">We provide innovative touchscreen kiosks that merge easily operationable interfaces with creative technology.
-                                     These interactive flat panels are ideal for customer engagement, offering a communicative method to obtain information, browse products, 
+                                     These interactive flat panels are ideal for customer engagement, offering a communicative method to deliver information, browse products, 
                                      or make orders.</p>
                             </div>
                         </div>
@@ -211,12 +212,12 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/digital-signage2.web')}}" class="card-img-center"
+                            <img src="{{asset('frontend/Images/home/digital-signage2.webb')}}" class="card-img-center"
                                 alt="Retail Signages">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">LED Video Walls</a></h5>
-                                <p class="We-Elevate-Brands-text">Generate a perpetual impact with our remarkable LED video walls. These large-pattern digital signage displays 
-                                    are ideal for events, exhibitions, and commercial places, rendering enveloping visuals and effortless performance.  </p>
+                                <p class="We-Elevate-Brands-text">Generate a long-lasting impact and attract visitors with our remarkable LED video walls. These large-pattern digital signage displays 
+                                    are ideal for events, exhibitions, and commercial places, rendering enveloping visuals and effortless performance. </p>
                             </div>
                         </div>
                     </div>
