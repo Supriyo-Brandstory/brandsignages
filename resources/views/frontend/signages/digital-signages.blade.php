@@ -199,7 +199,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/digital-sign-sample.webb')}}" class="card-img-center"
+                            <img src="{{asset('frontend/Images/home/digital-sign-sample.webp')}}" class="card-img-center"
                                 alt="Interactive Kiosks">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Interactive Kiosks</a></h5>
@@ -212,7 +212,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/digital-signage2.webb')}}" class="card-img-center"
+                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
                                 alt="Retail Signages">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">LED Video Walls</a></h5>
