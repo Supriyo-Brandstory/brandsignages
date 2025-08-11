@@ -135,7 +135,122 @@
         </div>
     </section>
 
-    <section class="why-choose-signage">
+    <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="We-Elevate-Brands-heading fw-bold">We Elevate Brands with Digital Signages<br>That Makes a Lasting Impression  </h2>
+        </div>
+
+        <div class="position-relative">
+            <div class="swiper We-Elevate-Brands-swiper pt-60">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                                alt="Digital Signage for Corporate Office">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Corporate Office</a></h5>
+                                <p class="We-Elevate-Brands-text">We provide digital signage solutions for corporate offices, designed to enhance 
+                                    internal communication and boost workplace engagement. Perform real-time announcements and performance metrics 
+                                    to internal updates and branding messages with our digital signage solutions for corporate office.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                                alt="Digital Signage for Retail">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Retail Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">We provide vibrant digital display boards that attract customers and promote products. 
+                                    Our solutions enable retailers to showcase promotions, highlight new arrivals, and create an engaging shopping experience 
+                                    that drives sales.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                                alt="Indoor Digital Displays">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Indoor Digital Displays</a></h5>
+                                <p class="We-Elevate-Brands-text">Our indoor digital signage displays are ideal for retail outlets, offices, and lobbies. 
+                                    They depict dynamic visuals and vibrant content to engross guests and render information effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                                alt="Outdoor Digital Displays">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Outdoor Digital Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Shaped to bear rough weather situations, our outdoor LED displays are perfect for advertisements, 
+                                    promotions, and proclamations. These signage solutions render high observability and extraordinary resistance, making them 
+                                    appropriate for several industries. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/digital-sign-sample.web')}}" class="card-img-center"
+                                alt="Interactive Kiosks">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Interactive Kiosks</a></h5>
+                                <p class="We-Elevate-Brands-text">We provide innovative touchscreen kiosks that merge easily operationable interfaces with creative technology.
+                                     These interactive flat panels are ideal for customer engagement, offering a communicative method to obtain information, browse products, 
+                                     or make orders.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/digital-signage2.web')}}" class="card-img-center"
+                                alt="Retail Signages">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">LED Video Walls</a></h5>
+                                <p class="We-Elevate-Brands-text">Generate a perpetual impact with our remarkable LED video walls. These large-pattern digital signage displays 
+                                    are ideal for events, exhibitions, and commercial places, rendering enveloping visuals and effortless performance.  </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/outdoor-sign.webp')}}" class="card-img-center"
+                                alt="Outdoor Business Signages">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/restaurant-signages">Menu Boards for Restaurants</a></h5>
+                                <p class="We-Elevate-Brands-text">Our made-to-order digital menu boards are crafted to improve your restaurant’s attraction. With easily updated 
+                                    displays, you can illustrate menu stuff, promotions, and daily specials immediately, guaranteeing a smooth customer experience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Arrows -->
+                <div class="We-Elevate-Brands-nav ">
+                    <!-- Swap order: prev on left, next on right -->
+                    <div class="We-Elevate-Brands-button-prev"></div>
+                    <div class="We-Elevate-Brands-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="https://brandsignages.com/services" class="btn-we-elevate">View All Services</a>
+        </div>
+        </div>
+    </section>
+
+    <!--<section class="why-choose-signage">
         <div class="why-choose-container container">
             <h2 class="why-title mb-3">Types of Digital Signages We Offer</h2>
 
@@ -202,7 +317,7 @@
 
             </div>
         </div>
-    </section>
+    </section>-->
 
 
     <section>
