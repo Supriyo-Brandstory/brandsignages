@@ -147,7 +147,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                            <img src="{{asset('frontend/Images/home/corporate-digital-signage.webp')}}" class="card-img-center"
                                 alt="Digital Signage for Corporate Office">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Corporate Office</a></h5>
@@ -174,7 +174,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                            <img src="{{asset('frontend/Images/home/indoor-digital-sgn.webp')}}" class="card-img-center"
                                 alt="Indoor Digital Displays">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Indoor Digital Displays</a></h5>
@@ -186,7 +186,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                            <img src="{{asset('frontend/Images/home/digital-sign-sample-3.webp')}}" class="card-img-center"
                                 alt="Outdoor Digital Displays">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Outdoor Digital Signage</a></h5>
@@ -212,7 +212,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                            <img src="{{asset('frontend/Images/home/video-walls.webp')}}" class="card-img-center"
                                 alt="Retail Signages">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">LED Video Walls</a></h5>
