@@ -153,6 +153,7 @@
                                             href="{{route('construction_safety_signages')}}">Construction Safety
                                             Sign</a>
                                         <a class="dropdown-item" href="{{route('office_signages')}}">Office Sign</a>
+                                        <a class="dropdown-item" href="{{route('shop_name_board_bangalore')}}">Shop Name Boards</a>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <h6 class="dropdown-header">Signage by Use Type</h6>
