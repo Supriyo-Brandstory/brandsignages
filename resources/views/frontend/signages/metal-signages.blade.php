@@ -42,7 +42,7 @@
 
                 </p>
                 <p class="brand-description">
-                Our metal and steel signage boards can withstand harsh weather conditions and provide lasting durability and a professional appearance. Our steel signages are designed to match your brand's unique identity, offering shiny and matte options for a flawless look. Whether you need a nameplate, outdoor signage, or interior signs, our metal signage is versatile to meet your needs. 
+                Our metal and steel signage boards can withstand harsh weather conditions and provide lasting durability and a professional appearance. Our steel signages are designed to match your brand's unique identity, offering shiny and matte options for a flawless look. Whether you need a <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop board design</strong></a>, outdoor signage, or interior signs, our metal signage is versatile to meet your needs. 
 
                 </p>
             </div>

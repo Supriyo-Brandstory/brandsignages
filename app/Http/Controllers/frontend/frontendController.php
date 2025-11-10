@@ -258,6 +258,12 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.office-desk-signs-in-bangalore', compact('seo'));
     }
+    public function shop_name_board_bangalore()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.name-board-designs-for-shops-bangalore', compact('seo'));
+    }
 
 
     //chennai

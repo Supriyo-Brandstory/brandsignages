@@ -204,11 +204,10 @@
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
                             <img src="{{asset('frontend/Images/home/retail-sign.webp')}}" class="card-img-center"
-                                alt="Retail Signages">
+                                alt="Shop Name Boards">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/">Retail Signage</a></h5>
-                                <p class="We-Elevate-Brands-text">Retail signage is the epitome of beauty and elegance. These creations are bold, energy-efficient, 
-                                    and easy to use and maintain for long-lasting performance. </p>
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/name-board-designs-for-shops-bangalore">Shop Name Boards</a></h5>
+                                <p class="We-Elevate-Brands-text">Shop name boards are the face of your brand or retail business. We create stylish & durable shop board designs to create a lasting first impression.</p>
                             </div>
                         </div>
                     </div>
@@ -797,7 +796,7 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Choosing a signage or sign board for your business depends on many factors, including your business type, location, and branding
+                    <p>Choosing a sign board or <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop board design</strong></a> for your business depends on many factors, including your business type, location, and branding
                         goals. Here's how to make the right choice:</p>
                     <ul>
                         <li>Purpose – Determine whether the signage is for branding, wayfinding, promotions, or safety.</li>

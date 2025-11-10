@@ -217,7 +217,7 @@
                 </p>
                 <h2 class="brand-title">Durable Solutions</h2>
                 <p class="brand-description">
-                We work with pinpoint precision while designing neon signboards. Our neon lights are designed to last for a long time, are energy efficient, and reduce the cost of maintenance. When it comes to neon lights in Bangalore, Brand Signages is best for custom-made neon lights. 
+                We work with pinpoint precision while designing neon signboards. Our neon <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name board designs</strong></a> are designed to last for a long time, are energy efficient, and reduce the cost of maintenance. When it comes to neon lights in Bangalore, Brand Signages is best for custom-made neon lights. 
                 </p>
                 <h2 class="brand-title">Timely Delivery & Support</h2>
                 <p class="brand-description">

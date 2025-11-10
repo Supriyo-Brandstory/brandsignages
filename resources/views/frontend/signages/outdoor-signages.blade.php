@@ -56,7 +56,7 @@
             <div class="col-lg-6 order-2 order-lg-1">
                 <h2 class="brand-title">Creates a Lasting Brand Impression</h2>
                 <p class="brand-description">
-                Outdoor signage can instantly attract customers and eventually create a long-lasting brand impression. 
+                Outdoor signage/<a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com"><strong>shop name boards</strong></a> can instantly attract customers and eventually create a long-lasting brand impression. 
                 It establishes a brand’s presence in an area with permanent fixtures. A signboard outdoors becomes an 
                 easy-to-identify landmark for local residents and occasional visitors in that area.
                 </p>

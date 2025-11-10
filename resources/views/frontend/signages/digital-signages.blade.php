@@ -46,14 +46,11 @@
                         by highlighting offers, new arrivals, and more.
                     </p>
                     <p class=" fs-20">
-                        <a href="https://brandsignages.com/" style="color: #E43D12">Brand Signages</a> is the pioneering digital signage manufacturer, providing inventive and personalized digital
+                        <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>Brand Signages</strong></a> is the pioneering digital signage manufacturer, providing inventive and personalized digital
                          signage solutions for organizations. We have full-scale facility for digital signage display manufacturing, 
                          software, and CMS technology experts. We are certified digital signage vendors, offering digital signage 
                          services in pan India.
                     </p>
-                    <p class="fs-20">Whether it's a dynamic video wall or a modern floor-standing display board, our digital signage products offer exceptional clarity and reliability. With made-to-order 
-                        alternatives, our digital signage suits effortlessly into any atmosphere, from retail outlets and offices to public places. We are the top digital signage manufacturers in India for 
-                        creative and influential signage solutions.</p>
                     
                 </div>
             </div>
@@ -152,8 +149,7 @@
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Corporate Office</a></h5>
                                 <p class="We-Elevate-Brands-text">We provide digital signage solutions for corporate offices, designed to enhance 
-                                    internal communication and boost workplace engagement. Perform real-time announcements and performance metrics 
-                                    to internal updates and branding messages with our digital signage solutions for corporate office.
+                                    internal communication and boost workplace engagement.
                                 </p>
                             </div>
                         </div>
@@ -337,8 +333,8 @@
 
                     <p class="fs-20">
                         Brand Signages is a premier digital signage manufacturer with a decade of industry expertise. We
-                        understand every business is unique and creates digital signage solutions tailored to your brand’s
-                        specific needs, ensuring maximum engagement. </p>
+                        understand every business is unique and creates digital signage & <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name board designs</strong></a> solutions tailored to your brand’s
+                        specific needs, ensuring maximum engagement.</p>
                     <div class="faq-item active">
                         <button class="faq-question active">
                             Customer Engagement
