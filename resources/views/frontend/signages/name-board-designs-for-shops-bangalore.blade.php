@@ -703,7 +703,7 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Yes, we offer a wide range of <strong>LED sign boards, neon lights, and backlit name board</storng> options that give your storefront a premium glow. These illuminated designs help your brand stay visible even after dark, making them ideal for high-footfall areas.</p>
+                        <p>Yes, we offer a wide range of <strong>LED sign boards, neon lights, and backlit name board</strong> options that give your storefront a premium glow. These illuminated designs help your brand stay visible even after dark, making them ideal for high-footfall areas.</p>
                     </div>
                 </div>
 
