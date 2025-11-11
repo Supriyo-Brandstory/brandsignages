@@ -2367,6 +2367,9 @@ color: #212121;
 
 /* Responsive */
 @media (max-width: 768px) {
+    .BuiltToLast-images{
+        width: 100%;
+    }
   .BuiltToLast-heading {
     font-size: 22px;
   }
@@ -2376,9 +2379,9 @@ color: #212121;
   }
 
   .BuiltToLast-img {
-    width: 250px;
-    height: 250px;
-    object-fit: contain;
+           width: 100%;
+        height: 250px;
+        object-fit: cover;
   }
 }
 
