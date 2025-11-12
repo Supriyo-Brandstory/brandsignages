@@ -2467,3 +2467,75 @@ text-align: center;
 .pt-60{
     padding-top: 60px !important;
 }
+
+.new-lighbox {
+            a {
+                text-decoration: none;
+                color: #000;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                background: #fff;
+                box-shadow: 0 8px 35px -5px rgb(228 61 18 / 11%);
+                border-radius: 10px;
+                padding: 0 0 20px;
+                overflow: hidden;
+            }
+
+        }
+
+        .new-recent-works {
+            .box {
+                padding: 0px 0px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: white;
+                border-radius: 20px;
+                box-shadow: 0 20px 35px 0 rgb(228 61 18 / 12%);
+                margin-bottom: 30px;
+            }
+
+            h4 {
+                font-size: 20px;
+                font-weight: 600;
+                margin-top: 10px;
+            }
+
+            a {
+                color: #E43D12;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                font-size: 20px;
+
+            }
+
+            a:hover {
+                color: #ff5a2c;
+                text-shadow: 0 0 8px rgba(228, 61, 18, 0.1),
+                    0 0 8px rgba(228, 61, 18, 0.2);
+            }
+
+        }
+
+        .BuiltToLast-images {
+            .add-text {
+                display: flex;
+                flex-direction: column;
+                background: #fff;
+                box-shadow: 0 20px 35px 0 rgb(228 61 18 / 12%);
+                border-radius: 20px;
+                overflow: hidden;
+
+                a {
+                    text-decoration: none;
+                    color: #E43D12;
+                    font-size: 24px;
+                    margin: 20px auto;
+                    font-weight: 600; 
+                }
+            }
+        }
