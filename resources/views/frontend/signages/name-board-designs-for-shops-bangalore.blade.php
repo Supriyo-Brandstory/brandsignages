@@ -1,7 +1,7 @@
 @extends('frontend.layout.appLayout')
 @section('content')
     <section class="hero-banner"
-        style="background-image: url('{{ asset('/frontend/Images/home/led-signagesbengalor-banner.webp') }}');">
+        style="background-image: url('{{ asset('/frontend/Images/name-boards/beauty-shop-name-board-design.webp') }}'); ">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -23,7 +23,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board-signage.webp')}}" alt="LED Sign Board Design"
+                        <img src="{{asset('frontend/Images/name-boards/home-ground-name-board-design.webp')}}" alt="Home Ground Bakery Business- Name Board Design Project by Brand Signages"
                             class="img-fluid">
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     <h2 class="brand-title">Premium-quality Shop Name Boards</h2>
                     <p class="brand-description">
                        Your storefront deserves more than just a name, it deserves an identity. At <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/services"><strong>Brand Signages</strong></a>, 
-                       we design <strong>shop name board designs</strong> that capture attention, reflect your brand’s essence, and create a lasting impression. 
+                       we design <strong>shop name board designs</strong> that capture attention, reflect your brand’s essence, and create a lasting impression. We are the best name board design company known for our <b>creative approach</b> to shop sign board manufacturing. 
                     </p>
                        <p class="brand-description">
                        Whether it’s a <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/hospital-signages"><strong>healthcare</strong></a>, <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/restaurant-signages"><strong>restaurant</strong></a>, retail outlet, or <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/office-desk-signs-in-bangalore"><strong>office sign board</strong></a>, our name board designs for shops blend creativity, craftsmanship, and visibility to turn every glance into curiosity and every visit into trust. With us, your shop sign board doesn’t just stand out, it stands apart.
@@ -41,7 +41,7 @@
                        Being a prominent leader in sign board design services, we have become a trusted name in shop sign board manufacturing. We value our core principles, serve each customer with utmost priority, and bring your brand to life with captivating graphics and impactful visual storytelling.
                     </p>
                     <div class="mt-4">
-                            <a href="{{route('about_us')}}" class="custom-btn">About Us</a>
+                            <a href="{{route('about_us')}}" class="custom-btn">Know About Us</a>
                         </div>
                 </div>
             </div>
@@ -51,45 +51,45 @@
         <div class="container">
             <div class="swiper Maximum-Impact-swiper">
 
-                <h2>Shop Name Boards That Make Every <br>Impression Count- Our Portfolio</h2>
+                <h2>Shop Name Boards That Make Every <br>Impression Count- Our Designs</h2>
                 <p>Your shop’s name board isn’t just a sign, it’s your brand’s first handshake with the world. At Brand Signages, we create name board designs for shops that combine creativity, clarity, and craftsmanship to make your brand unforgettable. Each shop name board is designed to command attention, convey trust, and complement your business personality.</p>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/name-boards/shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/name-boards/Mango-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/name-boards/seecco-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/name-boards/casa-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/name-boards/sweet-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/name-boards/hurley-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
 
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/name-boards/lavazza-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/name-boards/coffee-roastery-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/name-boards/lahori-street-food-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/name-boards/sports-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
                     <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Sign Board designed by Brand Signages">
+                        <img src="{{ asset('frontend/Images/name-boards/gentle-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
                     </div>
 
 
@@ -199,22 +199,22 @@
                                     <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
                                         class="img-fluid">
                                     <h3>Striking Designs</h3>
-                                    <p>We are <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com"><strong>Brand Signages</strong></a>, the best in creating shop name board designs that captivate every visitor. Our shop sign board designs go beyond visuals, they capture brand’s personality & enhance visibility. 
+                                    <p>We are <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com"><strong>Brand Signages</strong></a>, the best in creating shop name board designs that captivate every visitor. Our shop sign board designs go beyond visuals, they capture brand’s personality & enhance visibility. 
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-12">
                                 <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Timely Delive"
+                                    <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Custom Craftmanship"
                                         class="img-fluid">
                                     <h3>Custom Craftsmanship</h3>
-                                    <p>Every business is unique, and so are our designs. From modern <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/arcylic-signages"><strong>acrylic name boards</strong></a> to classic metal finishes, we tailor every shop name board design to reflect your brand’s tone and target audience.
+                                    <p>Every business is unique, and so are our designs. From modern <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com/arcylic-signages"><strong>acrylic name boards</strong></a> to classic metal finishes, we tailor every shop name board design to reflect your brand’s tone and target audience.
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-12">
                                 <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
+                                    <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Highly Durable Name Boards"
                                         class="img-fluid">
                                     <h3>High Durability</h3>
                                     <p>We use premium, durable, weather-resistant materials that ensure your shop sign board stays vibrant and long-lasting, even in challenging outdoor conditions. 
@@ -223,7 +223,7 @@
                             </div>
                              <div class="col-md-6 col-12">
                                 <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
+                                    <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Perfect Illumination"
                                         class="img-fluid">
                                     <h3>Perfect Illumination</h3>
                                     <p> Add brilliance to your brand with our LED-lit and neon shop name boards, designed to shine bright day and night. Each design is engineered for maximum visibility, ensuring your brand stands out.
@@ -239,8 +239,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-imagex">
-                        <img src="{{asset('frontend/Images/home/led-sign-bg.webp')}}"
-                            alt="Starbucks LED Sign board designed by Brand Signages" class="img-fluid">
+                        <img src="{{asset('frontend/Images/name-boards/name-board-for-shop.webp')}}"
+                            alt="Shop Name Board designed by Brand Signages" class="img-fluid">
                     </div>
                 </div>
 
@@ -262,6 +262,9 @@
                         <li>
                             <strong>Creates Trust:</strong> A premium, well-crafted shop sign board design signals reliability and quality, two things every customer looks for before stepping inside.
                         </li>
+                        <div class="mt-4">
+                            <a href="{{route('contact_us')}}" class="custom-btn">Start Your Project</a>
+                        </div>
                 </div>
             </div>
         </div>
@@ -309,13 +312,13 @@
     </section>
         <section>
         <div class="container pt-5">
-            <h2 class="hero-title">Why Choose Us for Shop Sign <br>Board Designs?</h2>
+            <h2 class="hero-title">Why Choose Brand Signages for Shop <br>Name Boards?</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/Benefits-of-Digital-Signages-for-Branding.webp')}}"
-                            alt="Benefits of Digital Signages for Businesses" class="img-fluid">
+                        <img src="{{asset('frontend/Images/name-boards/bakery-shop-sign-baord.webp')}}"
+                            alt="Brand Signages Latest Design - Wenzel's Bakery Shop Name Board" class="img-fluid">
                     </div>
                 </div>
 
@@ -360,11 +363,11 @@
         </div>
     </section>
 
-         <section class="new_client_section container">
+         <section class="new_client_section container pt-5">
         <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
         <div class="row">
             <div class="col-md-5 new_client_section-image col-12">
-                <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
+                <img src="{{ asset('frontend/Images/name-boards/chai-cafe-shop-name-board.webp') }}" alt="Our Clients">
             </div>
             <div class="col-md-7 new_client_section-scrolling col-12">
 
@@ -654,6 +657,7 @@
                 </div>
             </div>
         </section>   
+
           
          <section class="faq-section">
             <div class="container">

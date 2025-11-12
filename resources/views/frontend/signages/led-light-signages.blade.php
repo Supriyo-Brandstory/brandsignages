@@ -1,7 +1,7 @@
 @extends('frontend.layout.appLayout')
 @section('content')
     <section class="hero-banner"
-        style="background-image: url('{{ asset('/frontend/Images/home/led-signagesbengalor-banner.webp') }}');">
+        style="background-image: url('{{ asset('/frontend/Images/led-sign-board/led-sign-boards.webp') }}');">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -50,99 +50,99 @@
             <div class="row align-items-center new-lighbox">
 
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/acrylic-led-1.webp')}}" data-lightbox="Custom LED Sign Board"
+                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" data-lightbox="Custom LED Sign Board"
                         data-title="Image 1">
-                        <img src="{{asset('frontend/Images/acrylic-led-1.webp')}}" class="img-fluid"
+                        <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
                             alt="Custom LED Sign Board" style="width: 100%;">
-                        <span>Custom LED Sign Board</span>
+                        <span><b>Custom LED Sign Board</b></span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/led-2.webp')}}" data-lightbox="LED Signboard Design"
+                    <a href="{{asset('frontend/Images/led-sign-board/led-sign-board-1.webp')}}" data-lightbox="LED Sign Board"
                         data-title="Image 2">
-                        <img src="{{asset('frontend/Images/led-2.webp')}}" class="img-fluid" alt="LED Sign Board"
+                        <img src="{{asset('frontend/Images/led-sign-board/led-sign-board-1.webp')}}" class="img-fluid" alt="LED Sign Board"
                             style="width: 100%;">
-                        <span>LED Sign Board</span>
+                        <span><b>LED Sign Board</b></span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/message-board-3.webp')}}" data-lightbox="LED Display Board Design"
+                    <a href="{{asset('frontend/Images/led-sign-board/led-display-board.webp')}}" data-lightbox="LED Display Board Design"
                         data-title="Image 3">
-                        <img src="{{asset('frontend/Images/message-board-3.webp')}}" class="img-fluid"
+                        <img src="{{asset('frontend/Images/led-sign-board/led-display-board.webp')}}" class="img-fluid"
                             alt="LED Display Board" style="width: 100%;">
-                        <span>LED Display Board</span>
+                        <span><b>LED Display Board</b></span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/led-lightbox-4.webp')}}" data-lightbox="LED Light Board"
+                    <a href="{{asset('frontend/Images/led-sign-board/led-light-board.webp')}}" data-lightbox="LED Light Board"
                         data-title="Image 4">
-                        <img src="{{asset('frontend/Images/led-lightbox-4.webp')}}" class="img-fluid"
+                        <img src="{{asset('frontend/Images/led-sign-board/led-light-board.webp')}}" class="img-fluid"
                             alt="LED Light Board" style="width: 100%;">
-                        <span>LED Light Board</span>
+                        <span><b>LED Light Board</b></span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/led-lightbox-5.webp')}}" data-lightbox="LED Light Board"
+                    <a href="{{asset('frontend/Images/led-sign-board/custom-led-sign-board.webp')}}" data-lightbox="Custom LED Sign Board"
                         data-title="Image 4">
-                        <img src="{{asset('frontend/Images/led-lightbox-5.webp')}}" class="img-fluid"
+                        <img src="{{asset('frontend/Images/led-sign-board/custom-led-sign-board.webp')}}" class="img-fluid"
                             alt="LED Light Board" style="width: 100%;">
-                        <span>LED Light Board</span>
+                        <span><b>Cusom LED Sign Board</b></span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/led-6.webp')}}" data-lightbox="Acrylic LED Name Board"
+                    <a href="{{asset('frontend/Images/led-sign-board/acrylic-led-sign-board.webp')}}" data-lightbox="Acrylic LED Name Board"
                         data-title="Image 4">
-                        <img src="{{asset('frontend/Images/led-6.webp')}}" class="img-fluid" alt="Acrylic LED Name Board"
+                        <img src="{{asset('frontend/Images/led-sign-board/acrylic-led-sign-board.webp')}}" class="img-fluid" alt="Acrylic LED Name Board"
                             style="width: 100%;">
-                        <span>Acrylic LED Name Board</span>
+                        <span><b>Acrylic LED Name Board</b></span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/acrylic-led-signboard-4.webp')}}"
+                    <a href="{{asset('frontend/Images/led-sign-board/led-glow-sign-board.webp')}}"
                         data-lightbox="LED Glow Sign Board" data-title="Image 4">
-                        <img src="{{asset('frontend/Images/acrylic-led-signboard-4.webp')}}" class="img-fluid"
+                        <img src="{{asset('frontend/Images/led-sign-board/led-glow-sign-board.webp')}}" class="img-fluid"
                             alt="LED Glow Sign Board" style="width: 100%;">
-                        <span>LED Glow Sign Board</span>
+                        <span><b>LED Glow Sign Board</b></span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}"
+                    <a href="{{asset('frontend/Images/led-sign-board/led-name-board.webp')}}"
                         data-lightbox="LED Name Board" data-title="Image 4">
-                        <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
+                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board.webp')}}" class="img-fluid"
                             alt="LED Name Board" style="width: 100%;">
-                        <span>LED Name Board</span>
+                        <span><b>LED Name Board</b></span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}"
+                    <a href="{{asset('frontend/Images/led-sign-board/outdoor-led-sign-board.webp')}}"
                         data-lightbox="Outdoor LED Sign Board" data-title="Image 4">
-                        <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
+                        <img src="{{asset('frontend/Images/led-sign-board/outdoor-led-sign-board.webp')}}" class="img-fluid"
                             alt="Outdoor LED Sign Board" style="width: 100%;">
-                        <span>Outdoor LED Sign Board</span>
+                        <span><b>Outdoor LED Sign Board</b></span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}"
+                    <a href="{{asset('frontend/Images/led-sign-board/indoor-led-sign-board.webp')}}"
                         data-lightbox="Indoor LED Sign Board" data-title="Image 4">
-                        <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
+                        <img src="{{asset('frontend/Images/led-sign-board/indoor-led-sign-board.webp')}}" class="img-fluid"
                             alt="Indoor LED Sign Board" style="width: 100%;">
-                        <span>Indoor LED Sign Board</span>
+                        <span><b>Indoor LED Sign Board</b></span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}"
+                    <a href="{{asset('frontend/Images/led-sign-board/led-office-name-board.webp')}}"
                         data-lightbox="LED Office Name Board" data-title="Image 4">
-                        <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
+                        <img src="{{asset('frontend/Images/led-sign-board/led-office-name-board.webp')}}" class="img-fluid"
                             alt="LED Office Name Board" style="width: 100%;">
-                        <span>LED Office Name Board</span>
+                        <span><b>LED Office Name Board</b></span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}"
-                        data-lightbox="LED Glow Sign Board" data-title="Image 4">
-                        <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
+                    <a href="{{asset('frontend/Images/led-sign-board/l-glow-name-board.webp')}}"
+                        data-lightbox="LED Glow Name Board" data-title="Image 4">
+                        <img src="{{asset('frontend/Images/led-sign-board/led-glow-name-board.webp')}}" class="img-fluid"
                             alt="LED Glow Sign Board" style="width: 100%;">
-                        <span>LED Glow Sign Board</span>
+                        <span><b>LED Glow Name Board</b></span>
                     </a>
                 </div>
 
@@ -156,33 +156,33 @@
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="box">
-                        <img src="http://brandsignages.test/frontend/Images/new/Mumbai.webp"
-                            alt="Best LED Signage Manufacturers" class="img-fluid">
+                        <img src="/frontend/Images/led-sign-board/led-sign-board-titan-watch.webp"
+                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
                             <h4>Titan Showroom</h4>
-                            <a href="#">Start Project ➣</a>
+                            <a href="https://brandsignages.com/contact-us"><b>Start Your Project ➣</b></a>
                         </div>
 
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="box">
-                        <img src="http://brandsignages.test/frontend/Images/new/Mumbai.webp"
-                            alt="Best LED Signage Manufacturers" class="img-fluid">
+                        <img src="/frontend/Images/led-sign-board/led-sign-board-fortis-hospital.webp"
+                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Fortis Healthcare</h4>
-                            <a href="#">Start Project ➣</a>
+                            <h4>Fortis Hospital</h4>
+                            <a href="https://brandsignages.com/contact-us"><b><b>Start Your Project ➣</b></b></a>
                         </div>
 
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="box">
-                        <img src="http://brandsignages.test/frontend/Images/new/Mumbai.webp"
-                            alt="Best LED Signage Manufacturers" class="img-fluid">
+                        <img src="/frontend/Images/led-sign-board/led-sign-board-cafe-mocha.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
                             <h4>Café Mocha</h4>
-                            <a href="#">Start Project ➣</a>
+                            <a href="https://brandsignages.com/contact-us"><b>Start Your Project ➣</b></a>
                         </div>
 
                     </div>
@@ -207,7 +207,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-signage2.webp')}}" alt="Best LED Signage Manufacturers"
+                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}" alt="Rivetoile LED Name Board Design"
                             class="img-fluid">
                     </div>
                 </div>
@@ -260,19 +260,19 @@
             </p>
             <div class="BuiltToLast-images">
                 <div class="add-text">
-                    <img src="{{asset('frontend/Images/new/cardamom-sign.webp')}}"
-                        alt="Titan Showroom LED Sign Board Design" class="BuiltToLast-img">
+                    <img src="{{asset('frontend/Images/led-sign-board/tanishq-led-sign-board.webp')}}"
+                        alt="Tanishq Store LED Sign Board Design" class="BuiltToLast-img">
                     <a href="#">Tanishq</a>
 
                 </div>
                 <div class="add-text">
-                    <img src="{{asset('frontend/Images/new/congrats-sign.webp')}}"
-                        alt="Fortis Healthcare LED Sign Board Design" class="BuiltToLast-img">
+                    <img src="{{asset('frontend/Images/led-sign-board/prestidge-group-sign-board.webp')}}"
+                        alt="Prestidge Group LED Sign Board Design" class="BuiltToLast-img">
                     <a href="#">Prestige Group</a>
 
                 </div>
                 <div class="add-text">
-                    <img src="{{asset('frontend/Images/led-sign-3.webp')}}" alt="Café Mocha LED Sign Board Design"
+                    <img src="{{asset('frontend/Images/led-sign-board/medplus-sign-board-design.webp')}}" alt="MedPlus LED Sign Board Design"
                         class="BuiltToLast-img">
                     <a href="#">MedPlus Pharmacy</a>
                 </div>
@@ -294,15 +294,15 @@
                         <h4 class="new_custom-title">Expert Craftsmanship</h4>
                     </div>
                     <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/home/why-choose.webp') }}"
-                            alt="why choose us as your signage partner in Bangalore" class="img-fluid mt-3">
+                        <img src="{{ asset('frontend/Images/led-sign-board/hotwind-led-sign-board.webp') }}"
+                            alt="why choose us as your LED Sign Board Partner" class="img-fluid mt-3">
                     </div>
                 </div>
 
                 <!-- Experience -->
                 <div class="col-md-4">
                     <div class="new_custom-box new_custom-image-box"
-                        style="background-image: url('{{ asset('frontend/Images/home/why-choose-2.webp') }}');">
+                        style="background-image: url('{{ asset('frontend/Images/led-sign-board/optical-store-led-sign-board.webp') }}');">
                         <div class="new_custom-overlay">
                             <h4 class="new_custom-title text-white">Tailored Solution</h4>
                             <p class="text-white">We believe no two brands are the same. That’s why every LED name board we
@@ -316,8 +316,8 @@
                 <!-- Excellence -->
                 <div class="col-md-4 justify-content-between d-flex flex-column">
                     <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/home/why-choose-3.webp') }}"
-                            alt="Outdoor sign board designed by our experts" class="img-fluid mb-3">
+                        <img src="{{ asset('frontend/Images/led-sign-board/diner-led-sign-board.webp') }}"
+                            alt="Outdoor LED sign board designed by our experts" class="img-fluid mb-3">
                     </div>
                     <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
                         <h4 class="new_custom-title">Superior Material</h4>
@@ -372,7 +372,7 @@
         <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
         <div class="row">
             <div class="col-md-5 new_client_section-image col-12">
-                <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
+                <img src="{{ asset('frontend/Images/led-sign-board/irani-cafe-led-sign-board.webp') }}" alt="Irani Cafe LED Sign Board - Brand Signages">
             </div>
             <div class="col-md-7 new_client_section-scrolling col-12">
 
@@ -702,99 +702,86 @@
 
     <section class="faq-section">
         <div class="faq-container">
-            <h1 class="faq-title">FAQS</h1>
+            <h1 class="faq-title">LED Sign Board FAQs</h1>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What are the advantages of using LED light sign boards? 
+                    How long will it take to deliver my LED sign board? 
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <P>There are a few advantages of using LED light sign boards:</P>
-                    <ul>
-                        <ul>
-                            <li>Low Energy Consumer: LED sign boards consume a low amount of electricity.</li>
-                            <li>Weatherproof: it is weatherproof and safe to place in an outdoor palace.</li>
-                            <li>Low Maintenance: They are easy to maintain and more effective to place in any location.</li>
-                            <li>Customizable: You can easily personalize your light sign board according to your brand
-                                image.</li>
-                        </ul>
-                    </ul>
+                    <P>The delivery time for your LED sign board typically ranges between <b>7 to 10 working days</b>, 
+                        depending on the size, design complexity, and customization requirements. Our team ensures 
+                        timely production and delivery while maintaining top-notch quality standards.</P>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What types of LED signboards are ideal for businesses in Bangalore?
+                    Can I customize my LED sign board according to my needs?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Businesses in Bangalore can benefit from various LED signboards, including 2D and 3D LED signs for
-                        retail stores, glow signboards for restaurants and cafes, acrylic LED signs for corporate offices,
-                        and digital signage for malls and commercial spaces. Brand Signages offers customized solutions with
-                        a dedicated manufacturing facility to meet your specific needs.</p>
+                    <p>Absolutely. We offer <b>fully customized LED sign boards</b> tailored to your brand’s identity, including 
+                        design, color, size, lighting type, and logo integration. Our team works closely with you to create 
+                        a sign board that truly reflects your business personality.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Are LED sign boards suitable for promoting my retail store?
+                    Do you deliver LED sign boards PAN India?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Definitely! LED signboards are highly efficient for retail store promotion, as they are transparent
-                        day and night, long-lasting, and energy-saving. They seize awareness and offer lucid information,
-                        making them perfect for any enterprise.</p>
+                    <p>Yes, we deliver LED sign boards across Bangalore and <b>all over India within 10 Working Days</b>. Our logistics team ensures safe packaging 
+                        and hassle-free delivery so that your signage reaches you in perfect condition.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Can LED sign boards be customized for my business?
+                    Do you provide installation support?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, you can easily customize your brand’s LED sign boards. You can choose color, design, style,
-                        font, and lighting effects that match your brand identity effortlessly.</p>
+                    <p>YYes, we offer <b>complete installation services</b> for all LED sign boards. Our expert technicians ensure proper setup, alignment, and wiring 
+                        to make your signage functional and visually appealing from day one.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Can I Use LED Light Sign Board for Outdoor Use?
+                    Can LED sign boards be used for outdoor branding?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, you can use LED light sign boards for outdoor places. They are weatherproof, long-lasting, which
-                        offer superior visibility in a variety of outdoor settings. They are ideal for both during the day
-                        and at night for boosting brand visibility because of their brilliant illumination.</p>
+                    <p>Definitely. Our LED sign boards are designed for both indoor and outdoor use, built to withstand varying weather conditions while maintaining 
+                        brightness and visual impact, making them perfect for outdoor branding.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    LED sign boards compared to traditional signage- which one is better in energy-efficient?
+                    Are your LED sign boards energy-efficient?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>It is one of the most significant questions that you should know when you choose LED sign boards. In
-                        the matter of energy saving, LED sign boards are always top of the list. You can save electricity up
-                        to 80% compared to neon signage. They are an environmentally and cost effective option for all types
-                        of enterprises. Its lower maintenance and long-lasting lifespan make it suitable for any setting.
+                    <p>Yes, our LED sign boards are <b>highly energy-efficient and</b> designed to consume significantly less power compared 
+                        to traditional lighting options. They deliver bright, consistent illumination while keeping electricity costs 
+                        low, making them an eco-friendly and cost-effective branding solution for your business.
                     </p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Do LED light sign boards go for a long period?
+                    How long do LED sign boards last?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, it can go on for a long period. However, there are a few factors that play a significant role in
-                        the lifespan of LED light sign boards. They are- manufacturer of LED light signage boards and the
-                        material that is used. It can be said, the LED light sign board’s lifespan can range from 4,000 to
-                        13,000 hours. However, the industry standard is 10,000 hours which is more than 1 year.</p>
+                    <p>High-quality LED sign boards typically last for up to 5–7 years with proper maintenance. They are energy-efficient, 
+                        durable, and designed to deliver long-lasting performance, ensuring great value for your investment.</p>
                 </div>
             </div>
 

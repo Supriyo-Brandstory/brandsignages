@@ -51,10 +51,10 @@
             <div class="col-lg-6">
                 <h2 class="brand-title">Empower Your Branding with No. 1 Sign Boards</h2>
                 <p class="brand-description">
-                  Signages are the forefront of your business that play a vital role in brand visibility. At Brand Signages, we create visually appealing signage 
-                  that reflects your brand’s vision and mission into a visual identity. With a focus on standards, longevity, and creativity, we focus on creating 
+                  Sign Boards are the forefront of your business that play a vital role in brand visibility. At Brand Signages, we create visually appealing <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name boards</strong></a> 
+                  that reflects your brand’s vision and mission into a <b>visual identity</b>. With a focus on standards, longevity, and creativity, we focus on creating 
                   sign boards that impact and engage the audience. As a leading signage company, we collaborate closely with you to craft sign boards that match your 
-                  imagination. We design and deliver all types of indoor and outdoor signage solutions that are unmatched in quality, artistry, and design. </p>
+                  imagination. We design and deliver all types of <b>indoor and outdoor sign boards</b> solutions that are unmatched in quality, artistry, and design. </p>
                 <p class="brand-description">
                     At Brand Signages, we are among the top-rated <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/digital-signage-company-bangalore"><strong>digital signage</strong></a> and <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-sign-board-in-bangalore"><strong>LED sign board manufacturers in Bangalore</strong></a> & India. We have a proven track record of designing LED sign boards 
                     for top brands and businesses for the last 10 years. Our LED display boards are 7X energy efficient and built with premium-quality materials. 
