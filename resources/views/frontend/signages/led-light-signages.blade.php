@@ -50,60 +50,99 @@
             <div class="row align-items-center new-lighbox">
 
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/acrylic-led-1.webp')}}" data-lightbox="Acrylic LED Signboard Design"
+                    <a href="{{asset('frontend/Images/acrylic-led-1.webp')}}" data-lightbox="Custom LED Sign Board"
                         data-title="Image 1">
                         <img src="{{asset('frontend/Images/acrylic-led-1.webp')}}" class="img-fluid"
-                            alt="Acrylic LED Signboard Design" style="width: 100%;">
-                        <span>Outdoor LED Sign Board</span>
+                            alt="Custom LED Sign Board" style="width: 100%;">
+                        <span>Custom LED Sign Board</span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <a href="{{asset('frontend/Images/led-2.webp')}}" data-lightbox="LED Signboard Design"
                         data-title="Image 2">
-                        <img src="{{asset('frontend/Images/led-2.webp')}}" class="img-fluid" alt="LED Signboard Design"
+                        <img src="{{asset('frontend/Images/led-2.webp')}}" class="img-fluid" alt="LED Sign Board"
                             style="width: 100%;">
+                        <span>LED Sign Board</span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/message-board-3.webp')}}" data-lightbox="LED Message Board Design"
+                    <a href="{{asset('frontend/Images/message-board-3.webp')}}" data-lightbox="LED Display Board Design"
                         data-title="Image 3">
                         <img src="{{asset('frontend/Images/message-board-3.webp')}}" class="img-fluid"
-                            alt="LED Message Board Design" style="width: 100%;">
+                            alt="LED Display Board" style="width: 100%;">
+                        <span>LED Display Board</span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/led-lightbox-4.webp')}}" data-lightbox="LED Lightbox Design"
+                    <a href="{{asset('frontend/Images/led-lightbox-4.webp')}}" data-lightbox="LED Light Board"
                         data-title="Image 4">
                         <img src="{{asset('frontend/Images/led-lightbox-4.webp')}}" class="img-fluid"
-                            alt="LED Lightbox Design" style="width: 100%;">
+                            alt="LED Light Board" style="width: 100%;">
+                        <span>LED Light Board</span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/led-lightbox-5.webp')}}" data-lightbox="LED Lightbox Design"
+                    <a href="{{asset('frontend/Images/led-lightbox-5.webp')}}" data-lightbox="LED Light Board"
                         data-title="Image 4">
                         <img src="{{asset('frontend/Images/led-lightbox-5.webp')}}" class="img-fluid"
-                            alt="LED Lightbox Design" style="width: 100%;">
+                            alt="LED Light Board" style="width: 100%;">
+                        <span>LED Light Board</span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/led-6.webp')}}" data-lightbox="LED Signboard Design"
+                    <a href="{{asset('frontend/Images/led-6.webp')}}" data-lightbox="Acrylic LED Name Board"
                         data-title="Image 4">
-                        <img src="{{asset('frontend/Images/led-6.webp')}}" class="img-fluid" alt="LED Signboard Design"
+                        <img src="{{asset('frontend/Images/led-6.webp')}}" class="img-fluid" alt="Acrylic LED Name Board"
                             style="width: 100%;">
+                        <span>Acrylic LED Name Board</span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <a href="{{asset('frontend/Images/acrylic-led-signboard-4.webp')}}"
-                        data-lightbox="Acrylic LED Signboard Design" data-title="Image 4">
+                        data-lightbox="LED Glow Sign Board" data-title="Image 4">
                         <img src="{{asset('frontend/Images/acrylic-led-signboard-4.webp')}}" class="img-fluid"
-                            alt="Acrylic LED Signboard Design" style="width: 100%;">
+                            alt="LED Glow Sign Board" style="width: 100%;">
+                        <span>LED Glow Sign Board</span>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}"
-                        data-lightbox="Acrylic LED Signboard Design" data-title="Image 4">
+                        data-lightbox="LED Name Board" data-title="Image 4">
                         <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
-                            alt="Acrylic LED Signboard Design" style="width: 100%;">
+                            alt="LED Name Board" style="width: 100%;">
+                        <span>LED Name Board</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}"
+                        data-lightbox="Outdoor LED Sign Board" data-title="Image 4">
+                        <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
+                            alt="Outdoor LED Sign Board" style="width: 100%;">
+                        <span>Outdoor LED Sign Board</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}"
+                        data-lightbox="Indoor LED Sign Board" data-title="Image 4">
+                        <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
+                            alt="Indoor LED Sign Board" style="width: 100%;">
+                        <span>Indoor LED Sign Board</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}"
+                        data-lightbox="LED Office Name Board" data-title="Image 4">
+                        <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
+                            alt="LED Office Name Board" style="width: 100%;">
+                        <span>LED Office Name Board</span>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <a href="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}"
+                        data-lightbox="LED Glow Sign Board" data-title="Image 4">
+                        <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
+                            alt="LED Glow Sign Board" style="width: 100%;">
+                        <span>LED Glow Sign Board</span>
                     </a>
                 </div>
 
@@ -120,7 +159,7 @@
                         <img src="http://brandsignages.test/frontend/Images/new/Mumbai.webp"
                             alt="Best LED Signage Manufacturers" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Sagility Health</h4>
+                            <h4>Titan Showroom</h4>
                             <a href="#">Start Project ➣</a>
                         </div>
 
@@ -131,7 +170,7 @@
                         <img src="http://brandsignages.test/frontend/Images/new/Mumbai.webp"
                             alt="Best LED Signage Manufacturers" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Sagility Health</h4>
+                            <h4>Fortis Healthcare</h4>
                             <a href="#">Start Project ➣</a>
                         </div>
 
@@ -142,7 +181,7 @@
                         <img src="http://brandsignages.test/frontend/Images/new/Mumbai.webp"
                             alt="Best LED Signage Manufacturers" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Sagility Health</h4>
+                            <h4>Café Mocha</h4>
                             <a href="#">Start Project ➣</a>
                         </div>
 
@@ -150,8 +189,8 @@
                 </div>
             </div>
             <div class="text-center">
-                <a href="#">
-                    <button class="contact-btn">See All Projects</button>
+                <a href="https://brandsignages.com/contact-us">
+                    <button class="contact-btn">Start Your Projects</button>
                 </a>
             </div>
 
@@ -223,19 +262,19 @@
                 <div class="add-text">
                     <img src="{{asset('frontend/Images/new/cardamom-sign.webp')}}"
                         alt="Titan Showroom LED Sign Board Design" class="BuiltToLast-img">
-                    <a href="#">Add Heding</a>
+                    <a href="#">Tanishq</a>
 
                 </div>
                 <div class="add-text">
                     <img src="{{asset('frontend/Images/new/congrats-sign.webp')}}"
                         alt="Fortis Healthcare LED Sign Board Design" class="BuiltToLast-img">
-                    <a href="#">Add Heding</a>
+                    <a href="#">Prestige Group</a>
 
                 </div>
                 <div class="add-text">
                     <img src="{{asset('frontend/Images/led-sign-3.webp')}}" alt="Café Mocha LED Sign Board Design"
                         class="BuiltToLast-img">
-                    <a href="#">Add Heding</a>
+                    <a href="#">MedPlus Pharmacy</a>
                 </div>
             </div>
         </div>
