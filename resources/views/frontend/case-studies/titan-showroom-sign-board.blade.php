@@ -8,7 +8,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/about-us.webp')}}" alt="">
+                <img src="{{asset('frontend/Images/case-studies/custom-sign-board-design.webp')}}" alt="Custom Sign Board Design">
                 
         </div>
             
@@ -16,7 +16,7 @@
     </div>
 </section>
 <section>
-    <div class="container py-md-3 py-sm-2">
+    <div class="container py-md-3 pt-4 mt-3">
        
         <h2 class="hero-title mb-0">Titan Showroom – Brand Signages Project</h2>
 
@@ -27,7 +27,7 @@
              <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/Production-house.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/case-studies/titan-store-sign-1.webp')}}" alt="Titan Store Sign Board" class="img-fluid">
                 </div>
             </div>
 
@@ -84,7 +84,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/about-us-3.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                    <img src="{{asset('frontend/Images/case-studies/titan-store-sign-1.webp')}}" alt="Titan Store Name Sign Board" class="img-fluid">
                 </div>
             </div>
 
@@ -162,8 +162,8 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/design-team.webp')}}" class="why-card-img-top"
-                        alt="Skillful & Experienced Design Team">
+                    <img src="{{asset('frontend/Images/case-studies/titan-store-sign-3.webp')}}" class="why-card-img-top"
+                        alt="Titan Showroom Outdoor LED Name Board Designs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Design Team</h3>
                         
@@ -172,8 +172,8 @@
             </div>
             <div class="col">
                 <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/Production-team.webp')}}" class="why-card-img-top"
-                        alt="Production Team">
+                    <img src="{{asset('frontend/Images/case-studies/titan-store-sign-4.webp')}}" class="why-card-img-top"
+                        alt="Titan Showroom Outdoor LED Name Board Designs">
                     <div class="card-body why-card-body px-0">
                         <h3 class="why-text-red mb-3">Production Team</h3>
                      
@@ -182,8 +182,8 @@
             </div>
             <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/new/Installation.webp')}}" class="why-card-img-top"
-                            alt="Installation Team ">
+                        <img src="{{asset('frontend/Images/case-studies/titan-store-sign-5.webp')}}" class="why-card-img-top"
+                            alt="Titan Showroom Outdoor LED Name Board Designs">
                         <div class="card-body why-card-body px-0">
                             <h3 class="why-text-red mb-3">Installation Team </h3>
                            
@@ -201,8 +201,8 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/design-team.webp')}}" class="why-card-img-top"
-                                    alt="Skillful & Experienced Design Team">
+                                <img src="{{asset('frontend/Images/case-studies/titan-store-sign-3.webp')}}" class="why-card-img-top"
+                                    alt="Titan Showroom Outdoor LED Name Board Designs">
                                 <div class="card-body why-card-body px-0">
                                     
                                     
@@ -211,8 +211,8 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/Production-team.webp')}}" class="why-card-img-top"
-                                    alt="Production Team">
+                                <img src="{{asset('frontend/Images/case-studies/titan-store-sign-4.webp')}}" class="why-card-img-top"
+                                    alt="Titan Showroom Outdoor LED Name Board Designs">
                                 <div class="card-body why-card-body px-0">
                                     
                                  
@@ -221,8 +221,8 @@
                         </div>
                         <div class="col-md-4">
                             <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/Installation.webp')}}" class="why-card-img-top"
-                                    alt="Installation Team ">
+                                <img src="{{asset('frontend/Images/case-studies/titan-store-sign-5.webp')}}" class="why-card-img-top"
+                                    alt="Titan Showroom Outdoor LED Name Board Designs">
                                 <div class="card-body why-card-body px-0">
                                     
                                     

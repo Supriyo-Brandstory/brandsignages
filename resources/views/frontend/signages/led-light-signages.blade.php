@@ -707,7 +707,7 @@
 
             <div class="faq-item">
                 <button class="faq-question">
-                    How long will it take to deliver my LED sign board? 
+                    How Long Will It Take to Deliver LED Sign Board? 
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
@@ -719,7 +719,7 @@
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Can I customize my LED sign board according to my needs?
+                    Can I Customize My LED Sign Board According to My Needs?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
@@ -731,7 +731,76 @@
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Do you deliver LED sign boards PAN India?
+                    How to Choose LED Sign Board for Outdoor Advertising?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>When choosing an LED sign board for outdoor advertising, focus on brightness, durability, and visibility. <b>Opt for weather-resistant 
+                        materials, high-luminance LEDs</b>, and a design that aligns with your brand’s identity. At Brand Signages, we craft outdoor LED sign boards 
+                        engineered to withstand Indian climatic conditions while ensuring your brand message remains clear and vibrant, day or night.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Difference between Single Color and Full Color LED Sign Board?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>A <b>single-color LED sign board</b> displays text or visuals in one shade- commonly red, green, or white- ideal for simple messages and budget-friendly 
+                        solutions. In contrast, a <b>full-color LED sign board</b> supports multiple hues and dynamic visuals, perfect for high-impact promotions and video 
+                        displays. Brand Signages offers both options to suit diverse advertising needs and budgets.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Are Your LED Sign Board Energy Efficient for Indian Climate?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Our LED sign boards are designed with <b>energy-efficient modules and low-heat components</b>, ensuring optimal performance even in high-temperature and humid conditions. 
+                        With Brand Signages, you get energy-saving LED systems that minimize power consumption while delivering maximum brightness and long lifespan—ideal for the Indian 
+                        climate.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do You Offer Affordable LED Sign Board for Small Business?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>For small businesses looking to enhance visibility, Brand Signages offers <b>affordable LED sign board solutions</b> without compromising on quality. Whether it’s a compact storefront display 
+                        or a simple illuminated name board, our custom LED signage designs help you attract more customers at a budget that fits your business goals.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Where to Buy Customizable LED Sign Board with Remote Control?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>You can purchase customizable LED sign boards with remote control directly from Brand Signages. Our <b>advanced control systems</b> allow you to update messages, visuals, and offers in real time with
+                         ease. Choose from a variety of sizes, colors, and display modes to suit your business communication needs.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do You Provide LED Sign Board with Warranty and After-Sale Service in India?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>At Brand Signages, every LED sign board comes with a <b>comprehensive warranty and dedicated after-sales support</b>. We ensure hassle-free maintenance, quick service response, and long-lasting performance. 
+                        Our team stands by your signage even after installation, ensuring your investment continues to shine bright.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do You Deliver LED Sign Boards PAN India?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
@@ -742,7 +811,19 @@
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Do you provide installation support?
+                    What are The Leading Companies Offering LED Sign Board with Programmable Display?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Brand Signages is among the leading LED sign board manufacturers in India, specializing in <b>programmable displays</b> for retail, hospitality, and 
+                        corporate branding. Our LED boards feature dynamic content control, remote access, and high brightness for impactful communication—making 
+                        your brand message stand out 24/7.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do You Provide Installation Support?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
@@ -753,18 +834,18 @@
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Can LED sign boards be used for outdoor branding?
+                    Can LED Sign Boards be Used for Outdoor Branding?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Definitely. Our LED sign boards are designed for both indoor and outdoor use, built to withstand varying weather conditions while maintaining 
+                    <p>Definitely, Our LED sign boards are designed for both indoor and outdoor use, built to withstand varying weather conditions while maintaining 
                         brightness and visual impact, making them perfect for outdoor branding.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Are your LED sign boards energy-efficient?
+                    Are Your LED Sign Boards Energy-efficient?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
@@ -777,7 +858,7 @@
 
             <div class="faq-item">
                 <button class="faq-question">
-                    How long do LED sign boards last?
+                    How Long Do LED Sign Boards Last?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">

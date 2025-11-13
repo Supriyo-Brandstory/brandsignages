@@ -713,7 +713,7 @@
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        Why is a Shop Name Board Design Important for Your Business?
+                        Why is a Shop Name Board Important for Your Business?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
@@ -727,13 +727,116 @@
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        How does Brand Signage Improve Shop Visibility?
+                        How to Order Personalized Shop Name Boards Online in India?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>At <strong>Brand Signages</strong>, we combine creativity with smart design strategy to enhance your store’s 
-                            visibility. Our shop name boards use the perfect blend of color contrast, typography, 
-                            and lighting to ensure your brand catches attention from every angle, day or night.
+                        <p>At Brand Signages, you can easily order your personalized shop name board online. Simply share your business name, 
+                            logo, preferred material, and size. Our design team will create a digital mock-up for approval before production. 
+                            Once confirmed, your board will be fabricated using premium materials and delivered or installed at your location.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Which Local Vendor Provides Shop Name Board Branding Solutions?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Brand Signages is one of the leading <b>signage manufacturers in India</b> offering complete shop name board branding 
+                            solutions- from design to installation. We create customized boards for retail stores, restaurants, showrooms, 
+                            and offices with options in acrylic, LED, and metal finishes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Where to Buy Eco-friendly Shop Name Boards with Fast Delivery?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>If you’re looking for sustainable solutions, Brand Signages offers <b>eco-friendly shop name boards</b> made with recyclable materials
+                             and energy-efficient LED lighting. We ensure quick fabrication and fast delivery across major Indian cities.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Which Company Offers Custom Shop Name Board Designs Nearby?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Whether you’re in <b>Bangalore, Chennai, Mumbai, or Delhi</b>, Brand Signages is your nearby expert for custom shop name boards. Our in-house 
+                            design and fabrication team ensures your sign reflects your brand identity perfectly and stands out on any high street.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is The Cost of An Acrylic Shop Name Board with Installation?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The cost of an acrylic shop name board in India depends on size, lighting, and mounting requirements. At Brand Signages, 
+                            prices typically start from <b>₹1,500 per sq. ft (including LED)</b> and vary based on design and customization. Contact our 
+                            team for an exact quote with installation included.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How to Choose Shop Name Boards That Attract Customers?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>To attract customers, your shop name board should be clear, 
+                            well-lit, and visually aligned with your brand identity. 
+                            We recommend using <b>high-contrast colors, readable fonts,
+                             and elegant LED illumination</b>. Brand Signages helps you design
+                              boards that grab attention without being overwhelming.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is The Best Material for Durable Shop Name Boards in India?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>For long-lasting performance, materials like <b>acrylic, aluminum composite panels (ACP), stainless steel, 
+                            and LED modules</b> work best. At Brand Signages, we combine these durable materials with weather-resistant 
+                            finishes to ensure your shop board stays bright and beautiful for years.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is The Standard Size of a Shop Name Board?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>There’s no fixed size for shop name boards- it depends on your storefront width, local regulations, and viewing distance. 
+                            However, most boards range <b>between 6x2 ft to 10x3 ft.</b> Our experts at Brand Signages can recommend the ideal dimensions for 
+                            maximum visibility and balance.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How Can I Make My Shop Name Board Stand Out?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>To make your shop name board stand out, <b>use 3D lettering, LED backlighting, clean design, and premium finishes.</b> Add your brand logo and keep 
+                            the layout minimal yet impactful. Brand Signages specializes in designing visually striking boards that help businesses get noticed and remembered.
                         </p>
                     </div>
                 </div>
@@ -799,17 +902,6 @@
                     </button>
                     <div class="faq-answer">
                         <p>Our process is efficient and end-to-end. Once the design is approved, we handle production, installation, and finishing within a <strong>quick turnaround time, usually within 5-7 days</strong>, without compromising on quality.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                       Do Shop Sign Boards Really Attract More Customers?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Definitely! A well-placed, creatively designed shop sign board can significantly increase walk-ins by grabbing attention and sparking curiosity. It’s one of the most effective, long-term marketing tools for any physical business.</p>
-
                     </div>
                 </div>
 
