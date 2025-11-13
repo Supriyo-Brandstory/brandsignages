@@ -694,7 +694,7 @@
         </div>
     </section>
 
-    <section class="other-cities-section mt-5">
+<section class="other-cities-section mt-5">
     <div class="container">
         <h2 class="my-5">Sign Board in Other Cities</h2>
         <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
@@ -728,10 +728,7 @@
         </div>
     </div>
 </section>
-
-
-
-    <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
@@ -768,8 +765,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="faq-section">
+</section>
+<section class="faq-section">
         <div class="container">
             <h1 class="faq-title">FAQs</h1>
 
@@ -1007,5 +1004,5 @@
                 </div>
             </div>
         </div>
-    </section>
+</section>
 @endsection
