@@ -64,11 +64,13 @@ Route::get('/stainless-steel-sign-board-manufacturer-mumbai',[frontendController
 Route::get('/neon-sign-board-in-mumbai',[frontendController::class,'neon_sign_board_in_mumbai'])->name('neon_sign_board_in_mumbai');
 Route::get('/restroom-signs-in-mumbai',[frontendController::class,'restroom_signs_in_mumbai'])->name('restroom_signs_in_mumbai');
 
+Route::get('/case-studies', [frontendController::class, 'case_study'])->name('case_study');
 Route::get('/case-studies/titan-showroom-sign-board', [frontendController::class, 'titan_case_study'])->name('titan_case_study');
 Route::get('/case-studies/fortis-hospital-sign-board', [frontendController::class, 'fortis_hospital_case_study'])->name('fortis_hospital_case_study');
 Route::get('/case-studies/tanishq-sign-board', [frontendController::class, 'tanishq_case_study'])->name('tanishq_case_study');
 Route::get('/case-studies/prestidge-group-sign-board', [frontendController::class, 'prestidge_group_case_study'])->name('prestidge_group_case_study');
 Route::get('/case-studies/medplus-pharmacy-sign-board', [frontendController::class, 'medplus_pharmacy_case_study'])->name('medplus_pharmacy_case_study');
+Route::get('/case-studies/cafe-mocha-sign-board', [frontendController::class, 'cafe_mocha_case_study'])->name('cafe_mocha_case_study');
 
 //others
 Route::get('/blogs', [frontendController::class, 'blogs'])->name('blogs');

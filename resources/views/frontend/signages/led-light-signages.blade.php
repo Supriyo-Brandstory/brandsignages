@@ -152,7 +152,7 @@
     </section>
     <section class="new-recent-works">
         <div class="container">
-            <h2 class="hero-title  mb-4">Our Recent Works</h2>
+            <h2 class="hero-title  mb-6">Our Recent Sign Board Projects</h2>
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="box">
@@ -160,7 +160,7 @@
                             alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
                             <h4>Titan Showroom</h4>
-                            <a href="https://brandsignages.com/contact-us"><b>Start Your Project</b></a>
+                            <a href="https://brandsignages.com/case-studies"><b>Explore Project</b></a>
                         </div>
 
                     </div>
@@ -171,7 +171,7 @@
                             alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
                             <h4>Fortis Hospital</h4>
-                            <a href="https://brandsignages.com/contact-us"><b><b>Start Your Project</b></b></a>
+                            <a href="https://brandsignages.com/case-studies"><b>Explore Project</b></a>
                         </div>
 
                     </div>
@@ -182,7 +182,7 @@
                             alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
                             <h4>Café Mocha</h4>
-                            <a href="https://brandsignages.com/contact-us"><b>Start Your Project</b></a>
+                            <a href="https://brandsignages.com/case-studies"><b>Explore Project</b></a>
                         </div>
 
                     </div>
@@ -190,7 +190,7 @@
             </div>
             <div class="text-center">
                 <a href="https://brandsignages.com/contact-us">
-                    <button class="contact-btn">Start Your Projects</button>
+                    <button class="contact-btn">Start Your Project</button>
                 </a>
             </div>
 
@@ -219,9 +219,7 @@
                             href="https://brandsignages.com/indoor-signages"><strong>make your business shine</strong></a>.
                         <strong>Designed for maximum
                             visibility</strong>, these boards highlight your brand name and logo with exceptional clarity,
-                        ensuring they stay etched in every viewer’s mind. For indoor
-                        applications, acrylic LED name boards add a sleek and polished appeal, making them ideal for
-                        reception areas, showrooms, and boutiques.
+                        ensuring they stay etched in every viewer’s mind.
                     </p>
                     <p class="brand-description">
                         When it comes to outdoor branding, our weather-resistant <a style="color: #E43D12;text-decoration: none;"
@@ -263,19 +261,19 @@
                 <div class="add-text">
                     <img src="{{asset('frontend/Images/led-sign-board/tanishq-led-sign-board.webp')}}"
                         alt="Tanishq Store LED Sign Board Design" class="BuiltToLast-img">
-                    <a href="#">Tanishq</a>
+                    <a href="https://brandsignages.com/case-studies">Tanishq Showroom</a>
 
                 </div>
                 <div class="add-text">
                     <img src="{{asset('frontend/Images/led-sign-board/prestidge-group-sign-board.webp')}}"
                         alt="Prestidge Group LED Sign Board Design" class="BuiltToLast-img">
-                    <a href="#">Prestige Group</a>
+                    <a href="https://brandsignages.com/case-studies">Prestige Group</a>
 
                 </div>
                 <div class="add-text">
                     <img src="{{asset('frontend/Images/led-sign-board/medplus-sign-board-design.webp')}}" alt="MedPlus LED Sign Board Design"
                         class="BuiltToLast-img">
-                    <a href="#">MedPlus Pharmacy</a>
+                    <a href="https://brandsignages.com/case-studies">MedPlus Pharmacy</a>
                 </div>
             </div>
         </div>

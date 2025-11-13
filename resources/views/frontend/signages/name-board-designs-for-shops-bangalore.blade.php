@@ -183,6 +183,54 @@
         </div>
     </section>
 
+        <section class="new-recent-works">
+        <div class="container">
+            <h2 class="hero-title  mb-6">Our Recent Sign Board Projects</h2>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/led-sign-board/led-sign-board-titan-watch.webp"
+                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Titan Showroom</h4>
+                            <a href="https://brandsignages.com/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/led-sign-board/led-sign-board-fortis-hospital.webp"
+                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Fortis Hospital</h4>
+                            <a href="https://brandsignages.com/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/led-sign-board/cafe-mocha-led-sign-board.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Café Mocha</h4>
+                            <a href="https://brandsignages.com/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="https://brandsignages.com/contact-us">
+                    <button class="contact-btn">Start Your Project</button>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
         </section>
           
         <section class="we-deliver">

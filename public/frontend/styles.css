@@ -2561,9 +2561,9 @@ ul.brand-list {
         a {
             text-decoration: none;
             color: #E43D12;
-            font-size: 24px;
+            font-size: 20px;
             margin: 20px auto;
-            font-weight: 600;
+            font-weight: 700;
         }
     }
 }

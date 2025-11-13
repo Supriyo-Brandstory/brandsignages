@@ -8,7 +8,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/about-us.webp')}}" alt="custom_neon_sign_board_in_chennai">
+                <img src="{{asset('frontend/Images/new/about-us.webp')}}" alt="">
                 
         </div>
             

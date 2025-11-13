@@ -419,6 +419,13 @@ public function restroom_signs_in_mumbai(){
         return view('frontend.case-studies.fortis-hospital-sign-board', compact('seo'));
     }
 
+    public function case_study()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.case-studies.case-studies', compact('seo'));
+    }
+
     public function tanishq_case_study()
     {
         $currentRoute = Route::current()->uri();
@@ -438,6 +445,13 @@ public function restroom_signs_in_mumbai(){
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.case-studies.medplus-pharmacy-sign-board', compact('seo'));
+    }
+
+    public function cafe_mocha_case_study()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.case-studies.cafe-mocha-sign-board', compact('seo'));
     }
 
 
