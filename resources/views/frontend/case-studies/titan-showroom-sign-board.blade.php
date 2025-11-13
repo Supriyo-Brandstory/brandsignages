@@ -3,18 +3,9 @@
 
 
 
-<section class="carousel-section">
- 
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/case-studies/custom-sign-board-design.webp')}}" alt="Custom Sign Board Design">
-                
-        </div>
-            
-        </div>
-    </div>
-</section>
+<section class="banner-for-casestuides" style="background: url('/frontend/Images/case-studies/custom-sign-board-design.webp')"> 
+    </section>
 <section>
     <div class="container py-md-3 pt-4 mt-3">
        

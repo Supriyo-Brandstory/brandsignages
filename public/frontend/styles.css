@@ -2577,3 +2577,38 @@ ul.brand-list {
     }
 }
 }
+
+
+.banner-for-casestuides {
+  position: relative;
+  width: 100%;
+  height: 70vh; /* adjust height as needed */
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* for any text inside */
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .banner-for-casestuides {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-for-casestuides {
+    height: 50vh;
+    background-position: top center;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-for-casestuides {
+    height: 40vh;
+  }
+}
