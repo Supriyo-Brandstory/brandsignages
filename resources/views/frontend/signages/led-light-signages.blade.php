@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="box">
-                        <img src="/frontend/Images/led-sign-board/led-sign-board-cafe-mocha.webp"
+                        <img src="/frontend/Images/led-sign-board/cafe-mocha-led-sign-board.webp"
                             alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
                             <h4>Café Mocha</h4>

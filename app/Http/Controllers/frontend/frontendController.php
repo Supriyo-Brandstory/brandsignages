@@ -404,6 +404,45 @@ public function restroom_signs_in_mumbai(){
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.about-us', compact('seo'));
     }
+
+    public function titan_case_study()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.case-studies.titan-showroom-sign-board', compact('seo'));
+    }
+
+    public function fortis_hospital_case_study()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.case-studies.fortis-hospital-sign-board', compact('seo'));
+    }
+
+    public function tanishq_case_study()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.case-studies.tanishq-sign-board', compact('seo'));
+    }
+
+    public function prestidge_group_case_study()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.case-studies.prestidge-group-sign-board', compact('seo'));
+    }
+
+    public function medplus_pharmacy_case_study()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.case-studies.medplus-pharmacy-sign-board', compact('seo'));
+    }
+
+
+
+
 //     public function __construct()
 // {
 //     session(['captcha_text' => $this->generateCaptcha()]);
