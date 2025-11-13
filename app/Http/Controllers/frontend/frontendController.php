@@ -262,7 +262,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signages.name-board-designs-for-shops-bangalore', compact('seo'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',2)->take(3)->get();
+        return view('frontend.signages.name-board-designs-for-shops-bangalore', compact('seo','blogs'));
     }
 
 
