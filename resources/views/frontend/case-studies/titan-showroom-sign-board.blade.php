@@ -84,7 +84,7 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
                 <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/case-studies/titan-store-sign-1.webp')}}" alt="Titan Store Name Sign Board" class="img-fluid">
+                    <img src="{{asset('frontend/Images/case-studies/titan-store-sign-2.webp')}}" alt="Titan Store Name Sign Board" class="img-fluid">
                 </div>
             </div>
 
