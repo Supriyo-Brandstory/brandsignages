@@ -188,7 +188,7 @@
             </div>
             <div class="col">
                     <div class="why-card card">
-                        <img src="{{asset('frontend/Images/fortis-hospital-name-board-5.webp')}}" class="why-card-img-top"
+                        <img src="{{asset('frontend/Images/case-studies/fortis-hospital-name-board-5.webp')}}" class="why-card-img-top"
                             alt="Fortsi hospital Name Board Design by Brand Signages">
                         <div class="card-body why-card-body px-0">
                        
