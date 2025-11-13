@@ -294,12 +294,14 @@
                         </div>
                     </li>
 
+                     <li class="nav-item">
+                        <a class="nav-link" href="{{route('case_study')}}">Case Studies</a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('blogs')}}">Blog</a>
                     </li>
-                    {{-- <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li> --}}
+                   
                     <li class="nav-item ms-3">
                         <a href="{{route('contact_us')}}">
                             <button class="contact-btn">Contact Us</button>
