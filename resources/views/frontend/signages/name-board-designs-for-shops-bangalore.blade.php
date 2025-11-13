@@ -47,57 +47,68 @@
             </div>
         </div>
     </section>
-    <section class="Maximum-Impact-section">
-        <div class="container">
-            <div class="swiper Maximum-Impact-swiper">
 
+      <section class="instant-pricing">
+            <div class="container">
                 <h2>Shop Name Boards That Make Every <br>Impression Count- Our Designs</h2>
-                <p>Your shop’s name board isn’t just a sign, it’s your brand’s first handshake with the world. At Brand Signages, we create name board designs for shops that combine creativity, clarity, and craftsmanship to make your brand unforgettable. Each shop name board is designed to command attention, convey trust, and complement your business personality.</p>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/name-boards/shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                <p>Your shop’s name board isn’t just a sign, it’s your brand’s first handshake with the world. At Brand Signages,
+                     we create name board designs for shops that combine creativity, clarity, and craftsmanship to make your brand
+                      unforgettable. Each shop name board is designed to command attention, convey trust, and complement your business 
+                      personality.</p>
+                <div class="scroll-loop-wrapper">
+                    <div class="scroll-loop-track">
+                        @for ($i = 0; $i < 3; $i++)
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>Shop Name Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/Mango-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>Mango- Name Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/seecco-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>Seecco- Name Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/casa-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>Casa- Name Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/sweet-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>Sweet Shop Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/hurley-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>Hurley- Name Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/lavazza-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>Lavazza- Name Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/coffee-roastery-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>Coffee Roastery</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/lahori-street-food-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>Lahori Street Food</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/sports-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>Sports- Name Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/gentle-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>Gentle- Name Board</p>
+                            </div>
+                        @endfor
                     </div>
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/name-boards/Mango-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                    </div>
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/name-boards/seecco-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                    </div>
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/name-boards/casa-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                    </div>
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/name-boards/sweet-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                    </div>
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/name-boards/hurley-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                    </div>
-
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/name-boards/lavazza-shop-name-board-design.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                    </div>
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/name-boards/coffee-roastery-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                    </div>
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/name-boards/lahori-street-food-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                    </div>
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/name-boards/sports-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                    </div>
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                    </div>
-                    <div class="swiper-slide Maximum-Impact-swiper-slide">
-                        <img src="{{ asset('frontend/Images/name-boards/gentle-shop-name-board.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                    </div>
-
-
-
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+
     <section class="We-Elevate-Brands-section py-5">
         <div class="container">
         <div class="text-center mb-4">
