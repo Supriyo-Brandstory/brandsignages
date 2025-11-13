@@ -409,6 +409,7 @@
                         <li><a href="/" class="text-decoration-none">Home</a></li>
                         <li><a href="/about-us" class="text-decoration-none">About Us</a></li>
                         <li><a href="/contact-us" class="text-decoration-none">Contact Us</a></li>
+                        <li><a href="/case-studies" class="text-decoration-none">Recent Projects</a></li>
                         <li><a href="/terms-and-conditions" class="text-decoration-none">Terms & Conditions</a></li>
                         <li><a href="/privacy-policy" class="text-decoration-none">Privacy Policy</a></li>
                     </ul>
