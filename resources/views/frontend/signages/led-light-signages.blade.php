@@ -20,7 +20,7 @@
     <section>
         <div class="container py-5" id="gallery-container">
             <h2 class="hero-title  mb-4">Shine Brighter, Get Noticed with LED Sign Boards</h2>
-            <p class=" text-center mb-5">Make your brand impossible to ignore with LED name boards from <a
+            <p class=" text-center mb-5 fs-20">Make your brand impossible to ignore with LED name boards from <a
                     style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com"><strong>Brand
                         Signages</strong></a>. Designed to attract
                 attention from every angle, our sign boards ensure your business stands out in crowded streets and busy
