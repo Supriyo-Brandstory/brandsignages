@@ -17,7 +17,7 @@
     </section>
 
 <section>
-    <div class="container py-md-5 py-sm-2">
+    <div class="container py-md-5 pt-4">
        
         <h2 class="hero-title mb-4">Latest Case Studies- <br>Recent Projects by Brand Signages</h2>
 
