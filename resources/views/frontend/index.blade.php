@@ -6,7 +6,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="hero-banner_title">Unmatched Sign Board Design<br>Solutions for Every Industry</h1>
-                    <p>Brand Signages is a trusted B2B partner and a premium signage manufacturer in Bangalore, India.
+                    <p>Brand Signages is a trusted B2B partner and a premium signage board manufacturer<br> 
+                        in Bangalore, India.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Know More</button>
@@ -23,7 +24,7 @@
                 </div>
                 <div class="col-md-8 col-12 right-col">
                     <h2>Welcome to Brand Signages - Your Go-to Choice for Premium-quality Sign Boards</h2>
-                    <p>We are among the exclusive signage manufacturers in India with a long-standing foundation in
+                    <p>We are among the exclusive <b>signage board</b> manufacturers in India with a long-standing foundation in
                         Bangalore. We design custom sign boards to meet the exact needs of customers with no compromise in
                         quality and delivery time. Our core principle lies in 4 strong pillars that make us the #1 sign
                         board company in the region.  </p>
@@ -244,13 +245,13 @@
 
     <section class="new_custom-why-choose">
         <div class="container">
-            <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages as Your<br> Signage Companion?</h2>
+            <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages as Your<br> Signage Board Companion?</h2>
             <div class="row justify-content-center g-4">
 
                 <!-- Expertise -->
                 <div class="col-md-4 justify-content-between d-flex flex-column">
                     <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
-                        <p>We are among the best when it comes to signage manufacturing. We craft signage designs that speak
+                        <p>We are among the best when it comes to <b>signage board</b> manufacturing. We craft signage designs that speak
                             volumes and attract audience from a distance.</p>
                         <h4 class="new_custom-title">Expertise</h4>
                     </div>
@@ -280,8 +281,8 @@
                     </div>
                     <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
                         <h4 class="new_custom-title">Excellence</h4>
-                        <p>Our excellence lies in 4 core pillars, and we see ourselves as an unmatched competitor in signage
-                            design and manufacturing.</p>
+                        <p>Our excellence lies in 4 core pillars, and we see ourselves as an unmatched competitor in <b>signage
+                            board</b> design and manufacturing.</p>
                     </div>
                 </div>
 
@@ -333,8 +334,8 @@
 
       <section class="instant-pricing">
             <div class="container">
-                <h2>Best Signage Makers in Bangalore - 24 Hour Active Production Line</h2>
-                <p>We are the best Signage Manufacturers in Bangalore with 24-hours production capability and expertise.</p>
+                <h2>Best Signage Board Makers in Bangalore - 24 Hour Production Line</h2>
+                <p>We are the best <b>Signage Board</b> Manufacturers in Bangalore with 24-hours production capability and expertise.</p>
                 <div class="scroll-loop-wrapper">
                     <div class="scroll-loop-track">
                         @for ($i = 0; $i < 3; $i++)
@@ -769,6 +770,20 @@
 <section class="faq-section">
         <div class="container">
             <h1 class="faq-title">FAQs</h1>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What is Signage?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Signages are visual communication tools like boards, symbols, graphics, or digital displays- created
+                         to convey messages, identify a place, promote a brand, or guide people. They include everything from 
+                         <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name boards</strong></a> 
+                         and <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a> to safety signs and directional signs used in public and commercial 
+                         spaces.</p>  
+                </div>
+            </div>
 
             <div class="faq-item">
                 <button class="faq-question">
