@@ -124,8 +124,8 @@
                             <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
                                 alt="Metal Signage">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/metal-signages">Metal Name Boards</a></h5>
-                                <p class="We-Elevate-Brands-text">Stainless steel name boards are among the most durable & cost-effective options for businesses. 
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/metal-signages">Metal Shop Boards</a></h5>
+                                <p class="We-Elevate-Brands-text">Stainless steel shop boards are among the most durable & cost-effective options for businesses. 
                                     We design stainless steel name boards in custom sizes and styles to reflect your brand.</p>
                             </div>
                         </div>
@@ -136,8 +136,8 @@
                             <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
                                 alt="Metal Signage">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/led-light-signages">LED Name Boards</a></h5>
-                                <p class="We-Elevate-Brands-text">LED name boards are a modern and versatile choice for impactful branding. We craft high-quality 
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/led-light-signages">LED Shop Boards</a></h5>
+                                <p class="We-Elevate-Brands-text">LED shop boards are a modern and versatile choice for impactful branding. We craft high-quality 
                                     LED name boards that make your business shine bright, day and night. </p>
                             </div>
                         </div>
@@ -147,8 +147,8 @@
                             <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
                                 alt="Metal Signage">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Digital Name Boards</a></h5>
-                                <p class="We-Elevate-Brands-text">Digital name boards bring a dynamic and engaging touch to modern retail spaces. We create digital 
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Digital Shop Boards</a></h5>
+                                <p class="We-Elevate-Brands-text">Digital shop boards bring a dynamic and engaging touch to modern retail spaces. We create digital 
                                     name boards that captivate attention and elevate brand communication. </p>
                             </div>
                         </div>
@@ -158,8 +158,8 @@
                             <img src="{{asset('frontend/Images/home/acrylic-sign.webp')}}" class="card-img-center"
                                 alt="Metal Signage">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/arcylic-signages">Acrylic Name Boards</a></h5>
-                                <p class="We-Elevate-Brands-text">Acrylic name boards are a popular choice for their sleek finish and long-lasting appeal. We 
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/arcylic-signages">Acrylic Shop Boards</a></h5>
+                                <p class="We-Elevate-Brands-text">Acrylic shop boards are a popular choice for their sleek finish and long-lasting appeal. We 
                                     design acrylic name boards with exceptional precision and durability.</p>
                             </div>
                         </div>
@@ -170,8 +170,8 @@
                             <img src="{{asset('frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
                                 alt="Metal Signage">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/neon-signages">Neon Name Boards</a></h5>
-                                <p class="We-Elevate-Brands-text">Neon name boards are the perfect choice for retail and restaurant spaces seeking vibrant, 
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/neon-signages">Neon Shop Boards</a></h5>
+                                <p class="We-Elevate-Brands-text">Neon shop boards are the perfect choice for retail and restaurant spaces seeking vibrant, 
                                     round-the-clock visibility. Our skilled designers craft neon name boards that add a timeless charm.</p>
                             </div>
                         </div>
