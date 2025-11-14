@@ -9,7 +9,7 @@
                     <p>Enhance your storefront with premium LED name boards. Designed for superior </br>visibility and
                         lasting performance, our creations ensure your brand never goes unnoticed.
                     </p>
-                    <a href="https://brandsignages.com/contact-us">
+                    <a href="/contact-us">
                         <button class="contact-btn">Get Free Quote</button>
                     </a>
                 </div>
@@ -30,17 +30,17 @@
                 LED name boards are not just visually striking- they’re functional, energy-efficient, and built for
                 longevity.
                 Whether for <a style="color: #E43D12;text-decoration: none;"
-                    href="https://brandsignages.com/indoor-signages"><strong>indoor branding</strong></a>, <a
+                    href="/indoor-signages"><strong>indoor branding</strong></a>, <a
                     style="color: #E43D12;text-decoration: none;"
-                    href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name
+                    href="/name-board-designs-for-shops-bangalore"><strong>shop name
                         board</strong></a>, or <a style="color: #E43D12;text-decoration: none;"
-                    href="https://brandsignages.com/outdoor-signages"><strong>outdoor sign board</strong></a>, they provide
+                    href="/outdoor-signages"><strong>outdoor sign board</strong></a>, they provide
                 high visibility that communicates your brand message
                 clearly, day or night. In a market where first impressions matter, investing in the right LED sign boards
                 ensures your brand is seen,
                 remembered, and trusted.<br></br>
                 Our <a style="color: #E43D12;text-decoration: none;"
-                    href="https://brandsignages.com/led-sign-board-in-bangalore"><strong>LED sign boards</strong></a>
+                    href="/led-sign-board-in-bangalore"><strong>LED sign boards</strong></a>
                 feature elegant typography, bold graphics, and full-color or classic-color options, tailored
                 to reflect your business identity. From retail stores and restaurants to corporate offices and public
                 spaces, our LED solutions cater to
@@ -156,40 +156,73 @@
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="box">
-                        <img src="/frontend/Images/led-sign-board/led-sign-board-titan-watch.webp"
+                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
                             alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
                             <h4>Titan Showroom</h4>
-                            <a href="https://brandsignages.com/case-studies"><b>Explore Project</b></a>
+                            <a href="/case-studies"><b>Explore Project</b></a>
                         </div>
 
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="box">
-                        <img src="/frontend/Images/led-sign-board/led-sign-board-fortis-hospital.webp"
+                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
                             alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
                             <h4>Fortis Hospital</h4>
-                            <a href="https://brandsignages.com/case-studies"><b>Explore Project</b></a>
+                            <a href="/case-studies"><b>Explore Project</b></a>
                         </div>
 
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
                     <div class="box">
-                        <img src="/frontend/Images/led-sign-board/cafe-mocha-led-sign-board.webp"
+                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
                             alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
                         <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
                             <h4>Café Mocha</h4>
-                            <a href="https://brandsignages.com/case-studies"><b>Explore Project</b></a>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/tanishq.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Tanishq Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Prestige Group</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>MedPlus Pharmacy</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
                         </div>
 
                     </div>
                 </div>
             </div>
             <div class="text-center">
-                <a href="https://brandsignages.com/contact-us">
+                <a href="/contact-us">
                     <button class="contact-btn">Start Your Project</button>
                 </a>
             </div>
@@ -216,14 +249,14 @@
                     <p class="brand-description">
                         LED name boards have become a defining element of modern branding, where light meets creativity to
                         <a style="color: #E43D12;text-decoration: none;"
-                            href="https://brandsignages.com/indoor-signages"><strong>make your business shine</strong></a>.
+                            href="/indoor-signages"><strong>make your business shine</strong></a>.
                         <strong>Designed for maximum
                             visibility</strong>, these boards highlight your brand name and logo with exceptional clarity,
                         ensuring they stay etched in every viewer’s mind.
                     </p>
                     <p class="brand-description">
                         When it comes to outdoor branding, our weather-resistant <a style="color: #E43D12;text-decoration: none;"
-                            href="https://brandsignages.com/led-display-board-in-mumbai"><strong>LED sign boards</strong></a> ensure your message remains
+                            href="/led-display-board-in-mumbai"><strong>LED sign boards</strong></a> ensure your message remains
                         bright and clear, even under challenging conditions.
                         Built with high-intensity illumination and premium materials, they make your storefront impossible
                         to miss, whether day or night.
@@ -233,9 +266,9 @@
                         appeal. They’re customizable in design, color, and size,
                         making them a <strong>perfect fit for diverse industries</strong> such as <a
                             style="color: #E43D12;text-decoration: none;"
-                            href="https://brandsignages.com/hospital-signages"><strong>healthcare</strong></a>, retail, and
+                            href="/hospital-signages"><strong>healthcare</strong></a>, retail, and
                         <a style="color: #E43D12;text-decoration: none;"
-                            href="https://brandsignages.com/restaurant-signages"><strong>restaurant</strong></a>. With Brand
+                            href="/restaurant-signages"><strong>restaurant</strong></a>. With Brand
                         Signages expertise, every LED name board becomes more
                         than just a sign, it becomes a statement of identity and innovation, built to captivate and last.
                     </p>
@@ -244,40 +277,7 @@
         </div>
     </section>
 
-    <section class="BuiltToLast-section"
-        style="background: url('{{ asset('frontend/Images/new/Premium-LED-Sign-bg.png') }}') no-repeat;">
 
-        <div class="BuiltToLast-container">
-            <h2 class="BuiltToLast-heading">Our Recent Projects: LED Name Boards by Brand Signages</h2>
-            <p class="BuiltToLast-description">
-                Make your brand unmissable with premium LED name boards by <strong>Brand Signages</strong>. Designed to
-                impress at first glance, our boards combine
-                vibrant illumination with refined craftsmanship to elevate your brand’s presence. Every LED board we create
-                reflects <strong>precision, creativity,
-                    and innovation</strong>, crafted to shine bright, enhance visibility, and make a powerful statement both
-                day and night.
-            </p>
-            <div class="BuiltToLast-images">
-                <div class="add-text">
-                    <img src="{{asset('frontend/Images/led-sign-board/tanishq-led-sign-board.webp')}}"
-                        alt="Tanishq Store LED Sign Board Design" class="BuiltToLast-img">
-                    <a href="https://brandsignages.com/case-studies">Tanishq Showroom</a>
-
-                </div>
-                <div class="add-text">
-                    <img src="{{asset('frontend/Images/led-sign-board/prestidge-group-sign-board.webp')}}"
-                        alt="Prestidge Group LED Sign Board Design" class="BuiltToLast-img">
-                    <a href="https://brandsignages.com/case-studies">Prestige Group</a>
-
-                </div>
-                <div class="add-text">
-                    <img src="{{asset('frontend/Images/led-sign-board/medplus-sign-board-design.webp')}}" alt="MedPlus LED Sign Board Design"
-                        class="BuiltToLast-img">
-                    <a href="https://brandsignages.com/case-studies">MedPlus Pharmacy</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="new_custom-why-choose pb-5">
         <div class="container">
@@ -288,7 +288,7 @@
                 <div class="col-md-4 justify-content-between d-flex flex-column">
                     <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
                         <p>Backed by years of hands-on experience, we specialize in <a style="color: #000000ff;text-decoration: underline;"
-                            href="https://brandsignages.com/led-display-board-in-chennai"><strong>LED sign boards</strong></a> that blend functionality
+                            href="/led-display-board-in-chennai"><strong>LED sign boards</strong></a> that blend functionality
                             with creativity.
                             Our experts ensures every design aligns with your brand identity.</p>
                         <h4 class="new_custom-title">Expert Craftsmanship</h4>
@@ -306,7 +306,7 @@
                         <div class="new_custom-overlay">
                             <h4 class="new_custom-title text-white">Tailored Solution</h4>
                             <p class="text-white">We believe no two brands are the same. That’s why every <a style="color: #ffffffff;text-decoration: underline;"
-                            href="https://brandsignages.com/led-sign-board-in-bangalore"><strong>LED name board</strong></a> we
+                            href="/led-sign-board-in-bangalore"><strong>LED name board</strong></a> we
                                 design is fully customizable,
                                 whether you need a sleek indoor display for a boutique or a high-visibility outdoor sign for
                                 a corporate space.</p>
@@ -339,7 +339,7 @@
             <h2 class="my-5">Led Sign Board in Other Cities</h2>
             <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
                 <div class="other-cities-card">
-                    <a href="https://brandsignages.com/led-display-board-in-mumbai" style="text-decoration: none;">
+                    <a href="/led-display-board-in-mumbai" style="text-decoration: none;">
                         <div class="other-cities-img">
                             <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="LED Sign Boards Mumbai">
                             <div class="other-cities-overlay"></div>
@@ -348,7 +348,7 @@
                     </a>
                 </div>
                 <div class="other-cities-card">
-                    <a href="https://brandsignages.com/led-display-board-in-chennai" style="text-decoration: none;">
+                    <a href="/led-display-board-in-chennai" style="text-decoration: none;">
                         <div class="other-cities-img">
                             <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="LED Sign Boards Chennai">
                             <div class="other-cities-overlay"></div>
@@ -357,7 +357,7 @@
                     </a>
                 </div>
                 <div class="other-cities-card">
-                    <a href="https://brandsignages.com/led-sign-board-in-bangalore" style="text-decoration: none;">
+                    <a href="/led-sign-board-in-bangalore" style="text-decoration: none;">
                         <div class="other-cities-img">
                             <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="LED Sign Boards Bangalore">
                             <div class="other-cities-overlay"></div>

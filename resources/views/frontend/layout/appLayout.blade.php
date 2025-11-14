@@ -425,12 +425,42 @@
             </div>
         </div>
     </section>
-
+<a href="{{ asset('/frontend/Brand Signages Brochure-.pdf') }}" target="_blank" class="sticky-btn">Download Brochure</a>
 
     <style>
         .footer a {
             color: #E43D12;
         }
+        .sticky-btn {
+    position: fixed;
+    right: 3.5%;;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: right top;
+    background: #E43D12; /* your dark purple */
+    color: #fff;
+    padding: 12px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px 8px 0 0;
+    text-decoration: none;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    letter-spacing: 0.5px;
+    z-index: 9999;
+    white-space: nowrap;
+    opacity: 0.9;
+
+}
+
+.sticky-btn:hover {
+    opacity: 1;
+}
+
+@media (max-width:768px) {
+    .sticky-btn {
+    right: 12.5%;
+    }
+}
     </style>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
