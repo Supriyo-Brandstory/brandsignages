@@ -196,7 +196,7 @@
 
         <section class="new-recent-works">
         <div class="container">
-            <h2 class="hero-title  mb-6">Our Recent Sign Board Projects</h2>
+            <h2 class="hero-title  mb-6">Our Shop Board Design Projects</h2>
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="box">
@@ -336,31 +336,31 @@
                     <span class="pulse"></span> <!-- White animated surface -->
                     <span class="pulse-center"></span> <!-- Red fixed center -->
                     <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
-                        alt="LED Sign Board">
+                        alt="Shop Board Design- LED Sign Board">
                 </div>
                 <div class="outdoorx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
                     <span class="pulse-center"></span> <!-- Red fixed center -->
                     <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
-                        alt="Outdoor Signage">
+                        alt="Shop Board Design- Outdoor Signage">
                 </div>
                 <div class="digitalx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
                     <span class="pulse-center"></span> <!-- Red fixed center -->
                     <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
-                        alt="Digital Signage">
+                        alt="Shop Board Design- Digital Signage">
                 </div>
                 <div class="metalx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
                     <span class="pulse-center"></span> <!-- Red fixed center -->
                     <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
-                        alt="Metal Signage">
+                        alt="Shop Board Design- Metal Signage">
                 </div>
                 <div class="acrylicx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
                     <span class="pulse-center"></span> <!-- Red fixed center -->
                     <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
-                        alt="Acrylic Signage">
+                        alt="Shop Board Design- Acrylic Signage">
                 </div>
 
 
