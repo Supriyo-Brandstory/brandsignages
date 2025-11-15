@@ -33,8 +33,7 @@
                     <h2 class="hero-title text-start">Why Your Shop Deserves a Stunning Name Board</h2>
                     <p class="brand-description">
                         Every city street buzzes with local and global brands competing for attention, your shop signboard 
-                        design isn’t just a display, it’s your store’s first conversation with the audience. A stunning 
-                        <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/outdoor-signages"><strong>outdoor advertising</strong></a> board 
+                        design isn’t just a display, it’s your store’s first conversation with the audience. A stunning outdoor advertising board 
                         goes beyond showing your brand name, it sets the tone for what customers can expect inside. Whether it’s a <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>mobile shop</strong></a>, 
                             <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/best-tea-shop-name-board-design-trends-to-attract-customers-in-2025"><strong>tea shop</strong></a>, 
                             <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"><strong>tailoring shop</strong></a>, or 
