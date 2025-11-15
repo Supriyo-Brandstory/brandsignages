@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="hero-banner_title">30+ Shop Name Board Designs-<br>Name Board Design for Shop</h1>
-                    <p>We create distinctive and memorable shop/store board designs</br> that turn your outdoor advertising space into a visual landmark customers can’t forget.
+                    <p>We create distinctive and memorable shop/store board designs</br> that turn your outdoor advertising space into a visual landmark <br>customers can’t forget.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Get Free Quote</button>
