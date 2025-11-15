@@ -68,47 +68,47 @@
                         @for ($i = 0; $i < 3; $i++)
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board LED</p>
+                                <p>LED Shop Board</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/Mango-shop-name-board-design.webp') }}" alt="Mango - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board LED</p>
+                                <p>ACP Shop Board</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/seecco-shop-name-board-design.webp') }}" alt="Seecco - Shop Name Board designed by Brand Signages">
-                                <p>Store Name Board</p>
+                                <p>Metal Shop Board</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/casa-shop-name-board-design.webp') }}" alt="Casa - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board ACP</p>
+                                <p>ACP Shop Board</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/sweet-shop-name-board-design.webp') }}" alt="Sweet Shop - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board ACP</p>
+                                <p>ACP Shop Board</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/hurley-shop-name-board-design.webp') }}" alt="Hurley - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board LED</p>
+                                <p>LED Shop Board</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/lavazza-shop-name-board-design.webp') }}" alt="Lavazza - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board LED</p>
+                                <p>LED Shop Board</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/coffee-roastery-shop-name-board.webp') }}" alt="Coffee Roastery - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board LED</p>
+                                <p>LED Shop Board</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/lahori-street-food-shop-name-board.webp') }}" alt="Lahori Street Food - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board ACP</p>
+                                <p>Metal Shop Board</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/sports-shop-name-board.webp') }}" alt="Sports - Shop Name Board designed by Brand Signages">
-                                <p>Store Name Board LED</p>
+                                <p>LED Shop Board</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/gentle-shop-name-board.webp') }}" alt="Gentle - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board ACP</p>
+                                <p>LED Shop Board</p>
                             </div>
                         @endfor
                     </div>
