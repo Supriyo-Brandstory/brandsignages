@@ -35,7 +35,11 @@
                         Every city street buzzes with local and global brands competing for attention, your shop signboard 
                         design isn’t just a display, it’s your store’s first conversation with the audience. A stunning 
                         <a style="color: #000000ff;text-decoration: underline;" href="https://brandsignages.com/outdoor-signages"><strong>outdoor advertising</strong></a> board 
-                        goes beyond showing your brand name, it sets the tone for what customers can expect inside. 
+                        goes beyond showing your brand name, it sets the tone for what customers can expect inside. Whether it’s a <a style="color: #000000ff;text-decoration: underline;" href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>mobile shop</strong></a>, 
+                            <a style="color: #000000ff;text-decoration: underline;" href="https://brandsignages.com/blogs/best-tea-shop-name-board-design-trends-to-attract-customers-in-2025"><strong>tea shop</strong></a>, 
+                            <a style="color: #000000ff;text-decoration: underline;" href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"><strong>tailoring shop</strong></a>, or 
+                            <a style="color: #000000ff;text-decoration: underline;" href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>cloth shop name board</strong></a>, 
+                            the right sign board can instantly elevate your visibility. 
                     </p>
                     <ul class="brand-list">
                         <li class="mb-3">
@@ -49,7 +53,7 @@
                             <strong>Creates Trust:</strong> A premium, well-crafted shop sign board design signals reliability and quality, two things every customer looks for before stepping inside.
                         </li>
                         <div class="mt-4">
-                            <a href="{{route('contact_us')}}" class="custom-btn">Start Your Project</a>
+                            <a href="https://brandsignages.com/blogs/shop-name-board" class="custom-btn">Browse Design Ideas</a>
                         </div>
                 </div>
             </div>
