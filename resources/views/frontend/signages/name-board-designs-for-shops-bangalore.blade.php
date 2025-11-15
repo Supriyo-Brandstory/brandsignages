@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="hero-banner_title">30+ Shop Name Board Designs-<br>Name Board Design for Shop</h1>
-                    <p>We create distinctive and memorable shop/store board designs</br> that turn your space into a visual landmark customers can’t forget.
+                    <p>We create distinctive and memorable shop/store board designs</br> that turn your outdoor advertising space into a visual landmark customers can’t forget.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Get Free Quote</button>
@@ -33,7 +33,8 @@
                     <h2 class="hero-title text-start">Why Your Shop Deserves a Stunning Name Board</h2>
                     <p class="brand-description">
                         Every city street buzzes with local and global brands competing for attention, your shop signboard 
-                        design isn’t just a display, it’s your store’s first conversation with the audience. A stunning shop sign board 
+                        design isn’t just a display, it’s your store’s first conversation with the audience. A stunning 
+                        <a style="color: #000000ff;text-decoration: underline;" href="https://brandsignages.com/outdoor-signages"><strong>outdoor advertising</strong></a> board 
                         goes beyond showing your brand name, it sets the tone for what customers can expect inside. 
                     </p>
                     <ul class="brand-list">
@@ -57,7 +58,7 @@
 
       <section class="instant-pricing">
             <div class="container">
-                <h2>20+ Shop Name Board Designs- <br>We Make Every Impression Count</h2>
+                <h2>20+ Shop Name Board Designs <br>for Outdoor Advertising</h2>
                 <p>Your shop name board isn’t just a sign, it’s your brand’s first handshake with the world. At Brand Signages,
                      we create name board designs for shops that combine creativity, clarity, and craftsmanship to make your brand
                       unforgettable. Each <b>shop board design</b> is designed to command attention, convey trust, and complement your business 
@@ -67,11 +68,11 @@
                         @for ($i = 0; $i < 3; $i++)
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board</p>
+                                <p>Shop Name Board LED</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/Mango-shop-name-board-design.webp') }}" alt="Mango - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board</p>
+                                <p>Shop Name Board LED</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/seecco-shop-name-board-design.webp') }}" alt="Seecco - Shop Name Board designed by Brand Signages">
@@ -79,35 +80,35 @@
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/casa-shop-name-board-design.webp') }}" alt="Casa - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board</p>
+                                <p>Shop Name Board ACP</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/sweet-shop-name-board-design.webp') }}" alt="Sweet Shop - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board</p>
+                                <p>Shop Name Board ACP</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/hurley-shop-name-board-design.webp') }}" alt="Hurley - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board</p>
+                                <p>Shop Name Board LED</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/lavazza-shop-name-board-design.webp') }}" alt="Lavazza - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board</p>
+                                <p>Shop Name Board LED</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/coffee-roastery-shop-name-board.webp') }}" alt="Coffee Roastery - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board</p>
+                                <p>Shop Name Board LED</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/lahori-street-food-shop-name-board.webp') }}" alt="Lahori Street Food - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board</p>
+                                <p>Shop Name Board ACP</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/sports-shop-name-board.webp') }}" alt="Sports - Shop Name Board designed by Brand Signages">
-                                <p>Store Name Board</p>
+                                <p>Store Name Board LED</p>
                             </div>
                             <div class="scroll-card">
                                 <img src="{{ asset('frontend/Images/name-boards/gentle-shop-name-board.webp') }}" alt="Gentle - Shop Name Board designed by Brand Signages">
-                                <p>Shop Name Board</p>
+                                <p>Shop Name Board ACP</p>
                             </div>
                         @endfor
                     </div>
@@ -203,7 +204,7 @@
 
     <section class="new-recent-works">
         <div class="container">
-                        <h2 class="hero-title  mb-6">Our Shop Name Board Design Projects</h2>
+                        <h2 class="hero-title  mb-6">Our Shop Name Board Projects<br> Outdoor Advertising</h2>
 
             <div class="row">
                 <div class="col-12 col-lg-4">
