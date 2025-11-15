@@ -46,7 +46,7 @@
                             an instant perception of your brand’s quality and personality.
                         </li>
                         <li class="mb-3">
-                            <strong>Silent Brand Ambassador:</strong>A well-designed shop board design works around the clock, communicating your brand identity even when your shop is closed. 
+                            <strong>Silent Brand Ambassador:</strong> A well-designed shop board design works around the clock, communicating your brand identity even when your shop is closed. 
                         </li>
                         <li>
                             <strong>Creates Trust:</strong> A premium, well-crafted shop sign board design signals reliability and quality, two things every customer looks for before stepping inside.
