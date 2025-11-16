@@ -967,7 +967,11 @@
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>We offer a diverse collection, including <strong>acrylic name boards, metal sign boards, LED-lit boards, neon signs, and 3D letter boards</strong>, all shop board designs are customizable to fit your brand aesthetics and space requirements.
+                        <p>We offer a wide range of shop name board designs suitable for all types of businesses, including <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>mobile shop</strong></a>, 
+                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/best-tea-shop-name-board-design-trends-to-attract-customers-in-2025"><strong>tea shop</strong></a>, 
+                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"><strong>tailoring shop</strong></a>, or 
+                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>cloth shop name board</strong></a>, xerox shops, footwear shops, medical shops, furniture stores, jewellery shops, and more. Our collection includes 
+                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/arcylic-signages"><strong>acrylic name boards</strong></a>, <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/metal-signages"><strong>metal sign boards</strong></a>, <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a>, <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/arcylic-signages"><strong>neon signage</strong></a>, glow sign boards, and <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/digital-signages"><strong>digital signage</strong></a>, all fully customizable to reflect your brand identity and enhance your storefront visibility.
                         </p>
                     </div>
                 </div>
