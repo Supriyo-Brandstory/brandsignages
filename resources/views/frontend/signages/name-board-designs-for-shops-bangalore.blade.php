@@ -9,117 +9,15 @@
                     <p>We create distinctive and memorable shop/store board designs</br> that turn your outdoor advertising space into a visual landmark <br>customers can’t forget.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
-                        <button class="contact-btn">Get Free Quote</button>
+                        <button class="contact-btn">Start Your Project</button>
                     </a>
                 </div>
             </div>
         </div>
     </section>
     <!-- About Section -->
-   
 
-     <section class="led-signs-manufacturing">
-        <div class="container pt-5">
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-imagex">
-                        <img src="{{asset('frontend/Images/name-boards/name-board-for-shop.webp')}}"
-                            alt="Shop Board designed by Brand Signages" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <h2 class="hero-title text-start">Why Your Shop Deserves a Stunning Name Board</h2>
-                    <p class="brand-description">
-                        Every city street buzzes with local and global brands competing for attention, your shop signboard 
-                        design isn’t just a display, it’s your store’s first conversation with the audience. A stunning outdoor advertising board 
-                        goes beyond showing your brand name, it sets the tone for what customers can expect inside. Whether it’s a <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>mobile shop</strong></a>, 
-                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/best-tea-shop-name-board-design-trends-to-attract-customers-in-2025"><strong>tea shop</strong></a>, 
-                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"><strong>tailoring shop</strong></a>, or 
-                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>cloth shop name board</strong></a>, 
-                            the right sign board can instantly elevate your visibility. 
-                    </p>
-                    <ul class="brand-list">
-                        <li class="mb-3">
-                            <strong>First Impressions Matter:</strong> Your shop sign board design is often the first thing people notice about your store, it sets the tone and creates 
-                            an instant perception of your brand’s quality and personality.
-                        </li>
-                        <li class="mb-3">
-                            <strong>Silent Brand Ambassador:</strong> A well-designed shop board design works around the clock, communicating your brand identity even when your shop is closed. 
-                        </li>
-                        <li>
-                            <strong>Creates Trust:</strong> A premium, well-crafted shop sign board design signals reliability and quality, two things every customer looks for before stepping inside.
-                        </li>
-                        <div class="mt-4">
-                            <a href="https://brandsignages.com/blogs/shop-name-board" class="custom-btn">Browse Design Ideas</a>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-      <section class="instant-pricing">
-            <div class="container">
-                <h2>30+ Shop Name Board Designs <br>for Outdoor Advertising</h2>
-                <p>Your shop name board isn’t just a sign, it’s your brand’s first handshake with the world. At Brand Signages,
-                     we create name board designs for shops that combine creativity, clarity, and craftsmanship to make your brand
-                      unforgettable. Each <b>shop board design</b> is designed to command attention, convey trust, and complement your business 
-                      personality.</p>
-                <div class="scroll-loop-wrapper">
-                    <div class="scroll-loop-track">
-                        @for ($i = 0; $i < 3; $i++)
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/Mango-shop-name-board-design.webp') }}" alt="Mango - Shop Name Board designed by Brand Signages">
-                                <p>ACP Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/seecco-shop-name-board-design.webp') }}" alt="Seecco - Shop Name Board designed by Brand Signages">
-                                <p>Metal Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/casa-shop-name-board-design.webp') }}" alt="Casa - Shop Name Board designed by Brand Signages">
-                                <p>ACP Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/sweet-shop-name-board-design.webp') }}" alt="Sweet Shop - Shop Name Board designed by Brand Signages">
-                                <p>ACP Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/hurley-shop-name-board-design.webp') }}" alt="Hurley - Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/lavazza-shop-name-board-design.webp') }}" alt="Lavazza - Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/coffee-roastery-shop-name-board.webp') }}" alt="Coffee Roastery - Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/lahori-street-food-shop-name-board.webp') }}" alt="Lahori Street Food - Shop Name Board designed by Brand Signages">
-                                <p>Metal Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/sports-shop-name-board.webp') }}" alt="Sports - Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/gentle-shop-name-board.webp') }}" alt="Gentle - Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                        @endfor
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    <section class="new-recent-works">
+        <section class="new-recent-works">
         <div class="container">
                         <h2 class="hero-title  mb-6">Name Board Designs for Shop<br> Our Recent Projects</h2>
 
@@ -200,6 +98,109 @@
 
         </div>
     </section>
+
+    <section class="instant-pricing">
+            <div class="container">
+                <h2>30+ Shop Name Board Designs <br>for Outdoor Advertising</h2>
+                <p>Your shop name board isn’t just a sign, it’s your brand’s first handshake with the world. At Brand Signages,
+                     we create name board designs for shops that combine creativity, clarity, and craftsmanship to make your brand
+                      unforgettable. Each <b>shop board design</b> is designed to command attention, convey trust, and complement your business 
+                      personality.</p>
+                <div class="scroll-loop-wrapper">
+                    <div class="scroll-loop-track">
+                        @for ($i = 0; $i < 3; $i++)
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="Shop Name Board designed by Brand Signages">
+                                <p>LED Shop Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/Mango-shop-name-board-design.webp') }}" alt="Mango - Shop Name Board designed by Brand Signages">
+                                <p>ACP Shop Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/seecco-shop-name-board-design.webp') }}" alt="Seecco - Shop Name Board designed by Brand Signages">
+                                <p>Metal Shop Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/casa-shop-name-board-design.webp') }}" alt="Casa - Shop Name Board designed by Brand Signages">
+                                <p>ACP Shop Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/sweet-shop-name-board-design.webp') }}" alt="Sweet Shop - Shop Name Board designed by Brand Signages">
+                                <p>ACP Shop Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/hurley-shop-name-board-design.webp') }}" alt="Hurley - Shop Name Board designed by Brand Signages">
+                                <p>LED Shop Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/lavazza-shop-name-board-design.webp') }}" alt="Lavazza - Shop Name Board designed by Brand Signages">
+                                <p>LED Shop Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/coffee-roastery-shop-name-board.webp') }}" alt="Coffee Roastery - Shop Name Board designed by Brand Signages">
+                                <p>LED Shop Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/lahori-street-food-shop-name-board.webp') }}" alt="Lahori Street Food - Shop Name Board designed by Brand Signages">
+                                <p>Metal Shop Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/sports-shop-name-board.webp') }}" alt="Sports - Shop Name Board designed by Brand Signages">
+                                <p>LED Shop Board</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/name-boards/gentle-shop-name-board.webp') }}" alt="Gentle - Shop Name Board designed by Brand Signages">
+                                <p>LED Shop Board</p>
+                            </div>
+                        @endfor
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+
+     <section class="led-signs-manufacturing">
+        <div class="container pt-5">
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-imagex">
+                        <img src="{{asset('frontend/Images/name-boards/name-board-for-shop.webp')}}"
+                            alt="Shop Board designed by Brand Signages" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="hero-title text-start">Why Your Shop Deserves a Stunning Name Board</h2>
+                    <p class="brand-description">
+                        Every city street buzzes with local and global brands competing for attention, your shop signboard 
+                        design isn’t just a display, it’s your store’s first conversation with the audience. A stunning outdoor advertising board 
+                        goes beyond showing your brand name, it sets the tone for what customers can expect inside. Whether it’s a <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>mobile shop</strong></a>, 
+                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/best-tea-shop-name-board-design-trends-to-attract-customers-in-2025"><strong>tea shop</strong></a>, 
+                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"><strong>tailoring shop</strong></a>, or 
+                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>cloth shop name board</strong></a>, 
+                            the right sign board can instantly elevate your visibility. 
+                    </p>
+                    <ul class="brand-list">
+                        <li class="mb-3">
+                            <strong>First Impressions Matter:</strong> Your shop sign board design is often the first thing people notice about your store, it sets the tone and creates 
+                            an instant perception of your brand’s quality and personality.
+                        </li>
+                        <li class="mb-3">
+                            <strong>Silent Brand Ambassador:</strong> A well-designed shop board design works around the clock, communicating your brand identity even when your shop is closed. 
+                        </li>
+                        <li>
+                            <strong>Creates Trust:</strong> A premium, well-crafted shop sign board design signals reliability and quality, two things every customer looks for before stepping inside.
+                        </li>
+                        <div class="mt-4">
+                            <a href="https://brandsignages.com/blogs/shop-name-board" class="custom-btn">Browse Design Ideas</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="We-Elevate-Brands-section py-5">
         <div class="container">
