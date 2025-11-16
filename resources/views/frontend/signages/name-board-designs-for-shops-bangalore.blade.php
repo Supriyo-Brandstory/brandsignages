@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">30+ Shop Name Board Designs-<br> Name Board Designs for Shop</h1>
+                    <h1 class="hero-banner_title">Shop Name Board Designs-<br> Name Board Designs for Shop</h1>
                     <p>We create distinctive and memorable shop/store board designs</br> that turn your outdoor advertising space into a visual landmark <br>customers can’t forget.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
@@ -61,7 +61,7 @@
 
       <section class="instant-pricing">
             <div class="container">
-                <h2>20+ Shop Name Board Designs <br>for Outdoor Advertising</h2>
+                <h2>30+ Shop Name Board Designs <br>for Outdoor Advertising</h2>
                 <p>Your shop name board isn’t just a sign, it’s your brand’s first handshake with the world. At Brand Signages,
                      we create name board designs for shops that combine creativity, clarity, and craftsmanship to make your brand
                       unforgettable. Each <b>shop board design</b> is designed to command attention, convey trust, and complement your business 
@@ -121,7 +121,7 @@
 
     <section class="new-recent-works">
         <div class="container">
-                        <h2 class="hero-title  mb-6">Our Shop Name Board Designs for<br> Outdoor Advertising</h2>
+                        <h2 class="hero-title  mb-6">Name Board Designs for Shop<br> Our Recent Projects</h2>
 
             <div class="row">
                 <div class="col-12 col-lg-4">
