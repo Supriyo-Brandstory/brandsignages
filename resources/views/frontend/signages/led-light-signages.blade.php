@@ -231,55 +231,7 @@
         </div>
     </section>
 
-
-
-    <section>
-        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">LED Name Boards: Merging Brilliance </br>with Modern Design</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}" alt="Rivetoile LED Name Board Design"
-                            class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <p class="brand-description">
-                        LED name boards have become a defining element of modern branding, where light meets creativity to
-                        <a style="color: #E43D12;text-decoration: none;"
-                            href="/indoor-signages"><strong>make your business shine</strong></a>.
-                        <strong>Designed for maximum
-                            visibility</strong>, these boards highlight your brand name and logo with exceptional clarity,
-                        ensuring they stay etched in every viewer’s mind.
-                    </p>
-                    <p class="brand-description">
-                        When it comes to outdoor branding, our weather-resistant <a style="color: #E43D12;text-decoration: none;"
-                            href="/led-display-board-in-mumbai"><strong>LED sign boards</strong></a> ensure your message remains
-                        bright and clear, even under challenging conditions.
-                        Built with high-intensity illumination and premium materials, they make your storefront impossible
-                        to miss, whether day or night.
-                    </p>
-                    <p class="brand-description">
-                        Unlike conventional signage, LED name boards blend energy efficiency with durability and aesthetic
-                        appeal. They’re customizable in design, color, and size,
-                        making them a <strong>perfect fit for diverse industries</strong> such as <a
-                            style="color: #E43D12;text-decoration: none;"
-                            href="/hospital-signages"><strong>healthcare</strong></a>, retail, and
-                        <a style="color: #E43D12;text-decoration: none;"
-                            href="/restaurant-signages"><strong>restaurant</strong></a>. With Brand
-                        Signages expertise, every LED name board becomes more
-                        than just a sign, it becomes a statement of identity and innovation, built to captivate and last.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section class="new_custom-why-choose pb-5">
+        <section class="new_custom-why-choose pb-5">
         <div class="container">
             <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages for LED <br>Light Name Boards?</h2>
             <div class="row justify-content-center g-4">
@@ -329,6 +281,52 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+            <h2 class="hero-title">LED Name Boards: Merging Brilliance </br>with Modern Design</h2>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}" alt="Rivetoile LED Name Board Design"
+                            class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <p class="brand-description">
+                        LED name boards have become a defining element of modern branding, where light meets creativity to
+                        <a style="color: #E43D12;text-decoration: none;"
+                            href="/indoor-signages"><strong>make your business shine</strong></a>.
+                        <strong>Designed for maximum
+                            visibility</strong>, these boards highlight your brand name and logo with exceptional clarity,
+                        ensuring they stay etched in every viewer’s mind.
+                    </p>
+                    <p class="brand-description">
+                        When it comes to outdoor branding, our weather-resistant <a style="color: #E43D12;text-decoration: none;"
+                            href="/led-display-board-in-mumbai"><strong>LED sign boards</strong></a> ensure your message remains
+                        bright and clear, even under challenging conditions.
+                        Built with high-intensity illumination and premium materials, they make your storefront impossible
+                        to miss, whether day or night.
+                    </p>
+                    <p class="brand-description">
+                        Unlike conventional signage, LED name boards blend energy efficiency with durability and aesthetic
+                        appeal. They’re customizable in design, color, and size,
+                        making them a <strong>perfect fit for diverse industries</strong> such as <a
+                            style="color: #E43D12;text-decoration: none;"
+                            href="/hospital-signages"><strong>healthcare</strong></a>, retail, and
+                        <a style="color: #E43D12;text-decoration: none;"
+                            href="/restaurant-signages"><strong>restaurant</strong></a>. With Brand
+                        Signages expertise, every LED name board becomes more
+                        than just a sign, it becomes a statement of identity and innovation, built to captivate and last.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
