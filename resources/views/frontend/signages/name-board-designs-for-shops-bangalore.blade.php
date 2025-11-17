@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="hero-banner_title">Best Shop Name Boards-<br> Name Board Designs for Shop</h1>
-                    <p>We create distinctive and memorable shop/store boards</br> that turn your outdoor advertising space
+                    <p>We create distinctive and memorable shop/store name boards</br> that turn your outdoor advertising space
                         into a visual landmark <br>customers can’t forget.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
@@ -29,27 +29,27 @@
                    
                         <div class="scroll-card">
                             <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-1.webp') }}"
-                                alt="Shop Name Board designed by Brand Signages">
+                               alt="Premium Shop Name Boards for Outdoor Advertising">
                         </div>
                            <div class="scroll-card">
                             <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-7.webp') }}"
-                                alt="Shop Name Board designed by Brand Signages">
+                               alt="Premium Shop Name Boards for Outdoor Advertising">
                         </div>
                            <div class="scroll-card">
                             <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-9.webp') }}"
-                                alt="Shop Name Board designed by Brand Signages">
+                               alt="Premium Shop Name Boards for Outdoor Advertising">
                         </div>
                            <div class="scroll-card">
                             <img src="{{ asset('frontend/Images/name-boards/shop-sign-board-designs-4.webp') }}"
-                                alt="Shop Name Board designed by Brand Signages">
+                               alt="Premium Shop Name Boards for Outdoor Advertising">
                         </div>
                            <div class="scroll-card">
                             <img src="{{ asset('frontend/Images/name-boards/shop-sign-boards-8.webp') }}"
-                                alt="Shop Name Board designed by Brand Signages">
+                               alt="Premium Shop Name Boards for Outdoor Advertising">
                         </div>
                            <div class="scroll-card">
                             <img src="{{ asset('frontend/Images/name-boards/shop-sign-boards-10.webp') }}"
-                                alt="Shop Name Board designed by Brand Signages">
+                               alt="Premium Shop Name Boards for Outdoor Advertising">
                         </div>
 
                        
