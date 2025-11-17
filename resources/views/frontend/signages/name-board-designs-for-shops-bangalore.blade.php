@@ -143,9 +143,9 @@
        
     <section class="instant-pricing">
             <div class="container pt-5">
-                <h2>30+ Shop Name Board Designs <br>for Outdoor Advertising</h2>
+                <h2>Premium Shop Name Boards <br>for Outdoor Advertising</h2>
                 <p>Your shop name board isn’t just a sign, it’s your brand’s first handshake with the world. At Brand Signages,
-                     we create <b>shop name boards</b> for shops that combine creativity, clarity, and craftsmanship to make your brand
+                     we create <b>shop name boards</b> that combine creativity, clarity, and craftsmanship to make your brand
                       unforgettable.</p>
                 <div class="scroll-loop-wrapper">
                     <div class="scroll-loop-track">
@@ -291,7 +291,7 @@
 
         </section>
           
-        <section class="we-deliver">
+    <!--<section class="we-deliver">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-12">
@@ -338,9 +338,9 @@
                             
 
                         </div>
-        </section>
+        </section>-->
         
-        <section>
+    <!--<section>
         <div class="container py-5">
             <h2 class="hero-title">Crafting Shop Boards That <br>Speak Your Brand’s Language</h2>
 
@@ -370,50 +370,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
-         <section class="home-page mb-5">
-         <div class="pointing">
-            <div class="container point">
-                <div class="ledx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
-                        alt="Shop Board Design- LED Sign Board">
-                </div>
-                <div class="outdoorx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
-                        alt="Shop Board Design- Outdoor Signage">
-                </div>
-                <div class="digitalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
-                        alt="Shop Board Design- Digital Signage">
-                </div>
-                <div class="metalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
-                        alt="Shop Board Design- Metal Signage">
-                </div>
-                <div class="acrylicx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
-                        alt="Shop Board Design- Acrylic Signage">
-                </div>
-
-
-
-
-            </div>
-        </div>
-    </section>
         <section>
-        <div class="container pt-5">
+        <div class="container pb-5">
             <h2 class="hero-title">Why Choose Brand Signages for Shop <br>Name Boards?</h2>
 
             <div class="row align-items-center">
@@ -464,6 +424,49 @@
             </div>
         </div>
     </section>
+
+         <section class="home-page mb-5">
+         <div class="pointing">
+            <div class="container point">
+                <div class="ledx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
+                        alt="Shop Board Design- LED Sign Board">
+                </div>
+                <div class="outdoorx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
+                        alt="Shop Board Design- Outdoor Signage">
+                </div>
+                <div class="digitalx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
+                        alt="Shop Board Design- Digital Signage">
+                </div>
+                <div class="metalx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
+                        alt="Shop Board Design- Metal Signage">
+                </div>
+                <div class="acrylicx pulse-point">
+                    <span class="pulse"></span> <!-- White animated surface -->
+                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
+                        alt="Shop Board Design- Acrylic Signage">
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
 
          <section class="new_client_section container pt-5">
         <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
@@ -950,17 +953,6 @@
                     </button>
                     <div class="faq-answer">
                         <p>Yes, we offer a wide range of <strong>LED sign boards, neon lights, and backlit name board</strong> options that give your storefront a premium glow. These illuminated designs help your brand stay visible even after dark, making them ideal for high-footfall areas.</p>
-                    </div>
-                </div>
-
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Why Choose Brand Signages for Shop Name Boards?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>We’re not just another signage company, we’re storytellers in design. With years of expertise, top-grade materials, and a creative approach, <strong>Brand Signages</strong> delivers shop sign boards that are stylish, durable, and strategically built to attract customers.</p>
                     </div>
                 </div>
 
