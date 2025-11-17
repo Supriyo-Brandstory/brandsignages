@@ -6,7 +6,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="hero-banner_title">Best Shop Name Boards-<br> Name Board Designs for Shop</h1>
-                    <p>We create distinctive and memorable shop/store boards</br> that turn your outdoor advertising space into a visual landmark <br>customers can’t forget.
+                    <p>We create distinctive and memorable shop/store boards</br> that turn your outdoor advertising space
+                        into a visual landmark <br>customers can’t forget.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Start Your Project</button>
@@ -17,7 +18,48 @@
     </section>
     <!-- About Section -->
 
-         <section class="led-signs-manufacturing">
+    <section class="instant-pricing">
+        <div class="container pt-5">
+            <h2>Premium Shop Name Boards <br>for Outdoor Advertising</h2>
+            <p>Your shop name board isn’t just a sign, it’s your brand’s first handshake with the world. At Brand Signages,
+                we create <b>shop name boards</b> that combine creativity, clarity, and craftsmanship to make your brand
+                unforgettable.</p>
+            <div class="scroll-loop-wrapper">
+                <div class="gridbox">
+                   
+                        <div class="scroll-card">
+                            <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-1.webp') }}"
+                                alt="Shop Name Board designed by Brand Signages">
+                        </div>
+                           <div class="scroll-card">
+                            <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-7.webp') }}"
+                                alt="Shop Name Board designed by Brand Signages">
+                        </div>
+                           <div class="scroll-card">
+                            <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-9.webp') }}"
+                                alt="Shop Name Board designed by Brand Signages">
+                        </div>
+                           <div class="scroll-card">
+                            <img src="{{ asset('frontend/Images/name-boards/shop-sign-board-designs-4.webp') }}"
+                                alt="Shop Name Board designed by Brand Signages">
+                        </div>
+                           <div class="scroll-card">
+                            <img src="{{ asset('frontend/Images/name-boards/shop-sign-boards-8.webp') }}"
+                                alt="Shop Name Board designed by Brand Signages">
+                        </div>
+                           <div class="scroll-card">
+                            <img src="{{ asset('frontend/Images/name-boards/shop-sign-boards-10.webp') }}"
+                                alt="Shop Name Board designed by Brand Signages">
+                        </div>
+
+                       
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="led-signs-manufacturing">
         <div class="container pt-5">
 
             <div class="row align-items-center">
@@ -31,27 +73,41 @@
                 <div class="col-lg-6">
                     <h2 class="hero-title text-start">Why Your Shop Deserves a Stunning Name Board</h2>
                     <p class="brand-description">
-                        Every city street buzzes with local and global brands competing for attention, your shop signboard 
-                        design isn’t just a display, it’s your store’s first conversation with the audience. A stunning outdoor advertising board 
-                        goes beyond showing your brand name, it sets the tone for what customers can expect inside. Whether it’s a <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>mobile shop</strong></a>, 
-                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/best-tea-shop-name-board-design-trends-to-attract-customers-in-2025"><strong>tea shop</strong></a>, 
-                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"><strong>tailoring shop</strong></a>, or 
-                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>cloth shop name board</strong></a>, 
-                            the right sign board can instantly elevate your visibility. 
+                        Every city street buzzes with local and global brands competing for attention, your shop signboard
+                        design isn’t just a display, it’s your store’s first conversation with the audience. A stunning
+                        outdoor advertising board
+                        goes beyond showing your brand name, it sets the tone for what customers can expect inside. Whether
+                        it’s a <a style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>mobile
+                                shop</strong></a>,
+                        <a style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/blogs/best-tea-shop-name-board-design-trends-to-attract-customers-in-2025"><strong>tea
+                                shop</strong></a>,
+                        <a style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"><strong>tailoring
+                                shop</strong></a>, or
+                        <a style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>cloth
+                                shop name board</strong></a>,
+                        the right sign board can instantly elevate your visibility. 
                     </p>
                     <ul class="brand-list">
                         <li class="mb-3">
-                            <strong>First Impressions Matter:</strong> Your shop sign board design is often the first thing people notice about your store, it sets the tone and creates 
+                            <strong>First Impressions Matter:</strong> Your shop sign board design is often the first thing
+                            people notice about your store, it sets the tone and creates
                             an instant perception of your brand’s quality and personality.
                         </li>
                         <li class="mb-3">
-                            <strong>Silent Brand Ambassador:</strong> A well-designed shop board design works around the clock, communicating your brand identity even when your shop is closed. 
+                            <strong>Silent Brand Ambassador:</strong> A well-designed shop board design works around the
+                            clock, communicating your brand identity even when your shop is closed. 
                         </li>
                         <li>
-                            <strong>Creates Trust:</strong> A premium, well-crafted shop sign board design signals reliability and quality, two things every customer looks for before stepping inside.
+                            <strong>Creates Trust:</strong> A premium, well-crafted shop sign board design signals
+                            reliability and quality, two things every customer looks for before stepping inside.
                         </li>
                         <div class="mt-4">
-                            <a href="https://brandsignages.com/blogs/shop-name-board" class="custom-btn">Browse Design Ideas</a>
+                            <a href="https://brandsignages.com/blogs/shop-name-board" class="custom-btn">Browse Design
+                                Ideas</a>
                         </div>
                 </div>
             </div>
@@ -60,7 +116,7 @@
 
     <section class="new-recent-works">
         <div class="container pt-5">
-                        <h2 class="hero-title  mb-6">Name Board Designs for Shop<br> Our Recent Projects</h2>
+            <h2 class="hero-title  mb-6">Name Board Designs for Shop<br> Our Recent Projects</h2>
 
             <div class="row">
                 <div class="col-12 col-lg-4">
@@ -96,7 +152,7 @@
 
                     </div>
                 </div>
-                 <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4">
                     <div class="box">
                         <img src="/frontend/Images/case-studies/tanishq.webp"
                             alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
@@ -107,7 +163,7 @@
 
                     </div>
                 </div>
-                 <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4">
                     <div class="box">
                         <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
                             alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
@@ -118,7 +174,7 @@
 
                     </div>
                 </div>
-                 <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4">
                     <div class="box">
                         <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
                             alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
@@ -140,239 +196,192 @@
         </div>
     </section>
 
-       
-    <section class="instant-pricing">
-            <div class="container pt-5">
-                <h2>Premium Shop Name Boards <br>for Outdoor Advertising</h2>
-                <p>Your shop name board isn’t just a sign, it’s your brand’s first handshake with the world. At Brand Signages,
-                     we create <b>shop name boards</b> that combine creativity, clarity, and craftsmanship to make your brand
-                      unforgettable.</p>
-                <div class="scroll-loop-wrapper">
-                    <div class="scroll-loop-track">
-                        @for ($i = 0; $i < 3; $i++)
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/Mango-shop-name-board-design.webp') }}" alt="Mango - Shop Name Board designed by Brand Signages">
-                                <p>ACP Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/seecco-shop-name-board-design.webp') }}" alt="Seecco - Shop Name Board designed by Brand Signages">
-                                <p>Metal Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/casa-shop-name-board-design.webp') }}" alt="Casa - Shop Name Board designed by Brand Signages">
-                                <p>ACP Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/sweet-shop-name-board-design.webp') }}" alt="Sweet Shop - Shop Name Board designed by Brand Signages">
-                                <p>ACP Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/hurley-shop-name-board-design.webp') }}" alt="Hurley - Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/lavazza-shop-name-board-design.webp') }}" alt="Lavazza - Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/coffee-roastery-shop-name-board.webp') }}" alt="Coffee Roastery - Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/lahori-street-food-shop-name-board.webp') }}" alt="Lahori Street Food - Shop Name Board designed by Brand Signages">
-                                <p>Metal Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/sports-shop-name-board.webp') }}" alt="Sports - Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                            <div class="scroll-card">
-                                <img src="{{ asset('frontend/Images/name-boards/gentle-shop-name-board.webp') }}" alt="Gentle - Shop Name Board designed by Brand Signages">
-                                <p>LED Shop Board</p>
-                            </div>
-                        @endfor
-                    </div>
-                </div>
-            </div>
-        </section>
 
-         
 
-   
+
+
 
     <section class="We-Elevate-Brands-section py-5">
         <div class="container">
-        <div class="text-center mb-4">
-            <h2 class="We-Elevate-Brands-heading fw-bold">Material Options </br>Premium Shop Name Boards</h2>
-        </div>
-
-        <div class="position-relative">
-            <div class="swiper We-Elevate-Brands-swiper pt-60">
-                <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
-                                alt="Metal Signage">
-                            <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/metal-signages">Metal Name Boards</a></h5>
-                                <p class="We-Elevate-Brands-text">Stainless steel shop boards are among the most durable & cost-effective options for businesses. 
-                                    We design stainless steel name boards in custom sizes and styles to reflect your brand.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
-                                alt="Metal Signage">
-                            <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/led-light-signages">LED Name Boards</a></h5>
-                                <p class="We-Elevate-Brands-text">LED shop boards are a modern and versatile choice for impactful branding. We craft high-quality 
-                                    LED name boards that make your business shine bright, day and night. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
-                                alt="Metal Signage">
-                            <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Digital Name Boards</a></h5>
-                                <p class="We-Elevate-Brands-text">Digital shop boards bring a dynamic and engaging touch to modern retail spaces. We create digital 
-                                    name boards that captivate attention and elevate brand communication. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/acrylic-sign.webp')}}" class="card-img-center"
-                                alt="Metal Signage">
-                            <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/arcylic-signages">Acrylic Name Boards</a></h5>
-                                <p class="We-Elevate-Brands-text">Acrylic shop boards are a popular choice for their sleek finish and long-lasting appeal. We 
-                                    design acrylic name boards with exceptional precision and durability.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
-                                alt="Metal Signage">
-                            <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/neon-signages">Neon Name Boards</a></h5>
-                                <p class="We-Elevate-Brands-text">Neon shop boards are the perfect choice for retail and restaurant spaces seeking vibrant, 
-                                    round-the-clock visibility. Our skilled designers craft neon name boards that add a timeless charm.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Navigation Arrows -->
-                <div class="We-Elevate-Brands-nav ">
-                    <!-- Swap order: prev on left, next on right -->
-                    <div class="We-Elevate-Brands-button-prev"></div>
-                    <div class="We-Elevate-Brands-button-next"></div>
-                </div>
-
+            <div class="text-center mb-4">
+                <h2 class="We-Elevate-Brands-heading fw-bold">Material Options </br>Premium Shop Name Boards</h2>
             </div>
-        </div>
 
-        <div class="text-center mt-4">
-            <a href="https://brandsignages.com/services" class="btn-we-elevate">View All Options</a>
-        </div>
+            <div class="position-relative">
+                <div class="swiper We-Elevate-Brands-swiper pt-60">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                                    alt="Metal Signage">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="https://brandsignages.com/metal-signages">Metal Name Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">Stainless steel shop boards are among the most durable
+                                        & cost-effective options for businesses.
+                                        We design stainless steel name boards in custom sizes and styles to reflect your
+                                        brand.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
+                                    alt="Metal Signage">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="https://brandsignages.com/led-light-signages">LED Name Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">LED shop boards are a modern and versatile choice for
+                                        impactful branding. We craft high-quality
+                                        LED name boards that make your business shine bright, day and night. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                                    alt="Metal Signage">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="https://brandsignages.com/digital-signages">Digital Name Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">Digital shop boards bring a dynamic and engaging touch
+                                        to modern retail spaces. We create digital
+                                        name boards that captivate attention and elevate brand communication. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/home/acrylic-sign.webp')}}" class="card-img-center"
+                                    alt="Metal Signage">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="https://brandsignages.com/arcylic-signages">Acrylic Name Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">Acrylic shop boards are a popular choice for their
+                                        sleek finish and long-lasting appeal. We
+                                        design acrylic name boards with exceptional precision and durability.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
+                                    alt="Metal Signage">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="https://brandsignages.com/neon-signages">Neon Name Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">Neon shop boards are the perfect choice for retail and
+                                        restaurant spaces seeking vibrant,
+                                        round-the-clock visibility. Our skilled designers craft neon name boards that add a
+                                        timeless charm.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Navigation Arrows -->
+                    <div class="We-Elevate-Brands-nav ">
+                        <!-- Swap order: prev on left, next on right -->
+                        <div class="We-Elevate-Brands-button-prev"></div>
+                        <div class="We-Elevate-Brands-button-next"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="https://brandsignages.com/services" class="btn-we-elevate">View All Options</a>
+            </div>
         </div>
     </section>
 
-        </section>
-          
+    </section>
+
     <!--<section class="we-deliver">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-12">
-                        <h2>Brand Signages- Premium Sign Boards for Shops</h2>
-                    </div>
-                    <div class="col-md-8 col-12">
-                    
-                        <div class="row">
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
-                                        class="img-fluid">
-                                    <h3>Striking Designs</h3>
-                                    <p>We are <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com"><strong>Brand Signages</strong></a>, the best in creating shop and store boards that captivate every visitor. Our shop sign boards go beyond visuals, they capture brand’s personality & enhance visibility. 
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Custom Craftmanship"
-                                        class="img-fluid">
-                                    <h3>Custom Craftsmanship</h3>
-                                    <p>Every business is unique, and so are our designs. From modern <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com/arcylic-signages"><strong>acrylic name boards</strong></a> to classic metal finishes, we tailor every shop board design to reflect your brand’s tone and target audience.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Highly Durable Name Boards"
-                                        class="img-fluid">
-                                    <h3>High Durability</h3>
-                                    <p>We use premium, durable, weather-resistant materials that ensure your shop sign board stays vibrant and long-lasting, even in challenging outdoor conditions. 
-                                    </p>
-                                </div>
-                            </div>
-                             <div class="col-md-6 col-12">
-                                <div class="deliver-box">
-                                    <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Perfect Illumination"
-                                        class="img-fluid">
-                                    <h3>Perfect Illumination</h3>
-                                    <p> Add brilliance to your brand with our LED-lit and neon store name boards, designed to shine bright day and night. Each design is engineered for maximum visibility, ensuring your brand stands out.
-                                </div>
-                            </div>
-                            
-
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <h2>Brand Signages- Premium Sign Boards for Shops</h2>
                         </div>
-        </section>-->
-        
+                        <div class="col-md-8 col-12">
+
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
+                                            class="img-fluid">
+                                        <h3>Striking Designs</h3>
+                                        <p>We are <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com"><strong>Brand Signages</strong></a>, the best in creating shop and store boards that captivate every visitor. Our shop sign boards go beyond visuals, they capture brand’s personality & enhance visibility. 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Custom Craftmanship"
+                                            class="img-fluid">
+                                        <h3>Custom Craftsmanship</h3>
+                                        <p>Every business is unique, and so are our designs. From modern <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com/arcylic-signages"><strong>acrylic name boards</strong></a> to classic metal finishes, we tailor every shop board design to reflect your brand’s tone and target audience.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Highly Durable Name Boards"
+                                            class="img-fluid">
+                                        <h3>High Durability</h3>
+                                        <p>We use premium, durable, weather-resistant materials that ensure your shop sign board stays vibrant and long-lasting, even in challenging outdoor conditions. 
+                                        </p>
+                                    </div>
+                                </div>
+                                 <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Perfect Illumination"
+                                            class="img-fluid">
+                                        <h3>Perfect Illumination</h3>
+                                        <p> Add brilliance to your brand with our LED-lit and neon store name boards, designed to shine bright day and night. Each design is engineered for maximum visibility, ensuring your brand stands out.
+                                    </div>
+                                </div>
+
+
+                            </div>
+            </section>-->
+
     <!--<section>
-        <div class="container py-5">
-            <h2 class="hero-title">Crafting Shop Boards That <br>Speak Your Brand’s Language</h2>
+            <div class="container py-5">
+                <h2 class="hero-title">Crafting Shop Boards That <br>Speak Your Brand’s Language</h2>
 
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/name-boards/home-ground-name-board-design.webp')}}" alt="Home Ground Bakery Business- Name Board Design Project by Brand Signages"
-                            class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <h2 class="brand-title">Premium-quality Store Boards</h2>
-                    <p class="brand-description">
-                       Your storefront deserves more than just a name, it deserves an identity. At <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/services"><strong>Brand Signages</strong></a>, 
-                       we design <strong>shop/store name boards</strong> that capture attention, reflect your brand’s essence, and create a lasting impression. We are the best name board design company known for our <b>creative approach</b> to shop sign board manufacturing. 
-                    </p>
-                       <p class="brand-description">
-                       Whether it’s a <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/hospital-signages"><strong>healthcare</strong></a>, <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/restaurant-signages"><strong>restaurant</strong></a>, retail outlet, or <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/office-desk-signs-in-bangalore"><strong>office sign board</strong></a>, our name boards for shops blend creativity, craftsmanship, and visibility to turn every glance into curiosity and every visit into trust. With us, your shop sign board doesn’t just stand out, it stands apart.
-                    </p>
-                    <p class="brand-description">
-                       Being a prominent leader in sign board design services, we have become a trusted name in shop sign board manufacturing. We value our core principles, serve each customer with utmost priority, and bring your brand to life with captivating graphics and impactful visual storytelling.
-                    </p>
-                    <div class="mt-4">
-                            <a href="https://brandsignages.com/contact-us" class="custom-btn">Start Your Project</a>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="showcase-image">
+                            <img src="{{asset('frontend/Images/name-boards/home-ground-name-board-design.webp')}}" alt="Home Ground Bakery Business- Name Board Design Project by Brand Signages"
+                                class="img-fluid">
                         </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h2 class="brand-title">Premium-quality Store Boards</h2>
+                        <p class="brand-description">
+                           Your storefront deserves more than just a name, it deserves an identity. At <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/services"><strong>Brand Signages</strong></a>, 
+                           we design <strong>shop/store name boards</strong> that capture attention, reflect your brand’s essence, and create a lasting impression. We are the best name board design company known for our <b>creative approach</b> to shop sign board manufacturing. 
+                        </p>
+                           <p class="brand-description">
+                           Whether it’s a <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/hospital-signages"><strong>healthcare</strong></a>, <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/restaurant-signages"><strong>restaurant</strong></a>, retail outlet, or <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/office-desk-signs-in-bangalore"><strong>office sign board</strong></a>, our name boards for shops blend creativity, craftsmanship, and visibility to turn every glance into curiosity and every visit into trust. With us, your shop sign board doesn’t just stand out, it stands apart.
+                        </p>
+                        <p class="brand-description">
+                           Being a prominent leader in sign board design services, we have become a trusted name in shop sign board manufacturing. We value our core principles, serve each customer with utmost priority, and bring your brand to life with captivating graphics and impactful visual storytelling.
+                        </p>
+                        <div class="mt-4">
+                                <a href="https://brandsignages.com/contact-us" class="custom-btn">Start Your Project</a>
+                            </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>-->
+        </section>-->
 
-        <section>
+    <section>
         <div class="container pb-5">
             <h2 class="hero-title">Why Choose Brand Signages for Shop <br>Name Boards?</h2>
 
@@ -387,15 +396,19 @@
                 <div class="col-lg-6">
 
                     <p class="fs-20">
-                        <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com"><strong>Brand Signages</strong></a> is one of a kind shop sign board manufacturer backed by 10+ years of experience 
-                        and 500+ client base. We are recognized by local businesses for intuitive shop sign boards.</p>
+                        <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com"><strong>Brand
+                                Signages</strong></a> is one of a kind shop sign board manufacturer backed by 10+ years of
+                        experience
+                        and 500+ client base. We are recognized by local businesses for intuitive shop sign boards.
+                    </p>
                     <div class="faq-item active">
                         <button class="faq-question active">
                             Designs That Tell Stories
                             <i class="faq-icon fa-solid fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer active">
-                            <p>At Brand Signages, we don’t just create shop name boards, we craft brand stories that speak through design, color, and light.</p>
+                            <p>At Brand Signages, we don’t just create shop name boards, we craft brand stories that speak
+                                through design, color, and light.</p>
                         </div>
                     </div>
 
@@ -405,7 +418,8 @@
                             <i class="faq-icon fa-solid fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>We understand the city’s ever-evolving vibe and create shop name board that resonate with its energy and audience.</p>
+                            <p>We understand the city’s ever-evolving vibe and create shop name board that resonate with its
+                                energy and audience.</p>
                         </div>
                     </div>
 
@@ -415,7 +429,8 @@
                             <i class="faq-icon fa-solid fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>From local retails shops to established names, businesses choose Brand Signages for our commitment to quality, innovation, and impact.</p>
+                            <p>From local retails shops to established names, businesses choose Brand Signages for our
+                                commitment to quality, innovation, and impact.</p>
                         </div>
                     </div>
                     <div class="mt-4">
@@ -425,8 +440,8 @@
         </div>
     </section>
 
-         <section class="home-page mb-5">
-         <div class="pointing">
+    <section class="home-page mb-5">
+        <div class="pointing">
             <div class="container point">
                 <div class="ledx pulse-point">
                     <span class="pulse"></span> <!-- White animated surface -->
@@ -468,7 +483,7 @@
 
 
 
-         <section class="new_client_section container pt-5">
+    <section class="new_client_section container pt-5">
         <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
         <div class="row">
             <div class="col-md-5 new_client_section-image col-12">
@@ -646,123 +661,131 @@
     </section>
 
 
-          <!-- testimonial Feedback Section -->
-        <section class="new_testimonial-swiper-section">
-            <div class="container">
-                <h2 class="text-center mb-md-5 mb-3">What Our Clients Say About Us</h2>
+    <!-- testimonial Feedback Section -->
+    <section class="new_testimonial-swiper-section">
+        <div class="container">
+            <h2 class="text-center mb-md-5 mb-3">What Our Clients Say About Us</h2>
 
-                <div class="position-relative">
+            <div class="position-relative">
 
-                    <!-- Navigation Arrows (placed OUTSIDE swiper container) -->
-                    <div class="new_testimonial-button-prev">
-                        <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40"
-                            height="40">
-                    </div>
-                    <div class="new_testimonial-button-next">
-                        <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40"
-                            height="40">
-                    </div>
+                <!-- Navigation Arrows (placed OUTSIDE swiper container) -->
+                <div class="new_testimonial-button-prev">
+                    <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40" height="40">
+                </div>
+                <div class="new_testimonial-button-next">
+                    <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40" height="40">
+                </div>
 
-                    <!-- Swiper -->
-                    <div class="swiper new_testimonial-swiper">
-                        <div class="swiper-wrapper">
+                <!-- Swiper -->
+                <div class="swiper new_testimonial-swiper">
+                    <div class="swiper-wrapper">
 
-                            <!-- Slide Item -->
-                            <div class="swiper-slide">
-                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                    <div class="mb-4">
-                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                            width="40" height="40">
-                                    </div>
-                                    <p class="description">
-                                        Our tech startup needed a signage solution that matched our innovative spirit. The Brand Signages team didn't just 
-                                        create a sign; they captured our company's essence. The LED sign board has become a conversation starter for clients 
-                                        and employees alike.
-                                    </p>
-                                    <div class="d-flex align-items-center mt-4">
-                                        <img src="{{ asset('frontend/Images/home/testimonial-1.webp') }}" alt="Michael, CEO, Technova Innovations"
-                                            class="rounded-circle me-3" width="50" height="50">
-                                        <div>
-                                            <h6 class="name">Michael</h6>
-                                            <small class="text-muted">CEO, Technova Innovations</small>
-                                        </div>
+                        <!-- Slide Item -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    Our tech startup needed a signage solution that matched our innovative spirit. The Brand
+                                    Signages team didn't just
+                                    create a sign; they captured our company's essence. The LED sign board has become a
+                                    conversation starter for clients
+                                    and employees alike.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/home/testimonial-1.webp') }}"
+                                        alt="Michael, CEO, Technova Innovations" class="rounded-circle me-3" width="50"
+                                        height="50">
+                                    <div>
+                                        <h6 class="name">Michael</h6>
+                                        <small class="text-muted">CEO, Technova Innovations</small>
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- Duplicate Slide -->
-                            <div class="swiper-slide">
-                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                    <div class="mb-4">
-                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                            width="40" height="40">
-                                    </div>
-                                    <p class="description">
-                                        As a boutique hotel chain, brand consistency is everything. These custom signages transformed 
-                                        our branding across multiple locations. The attention to detail is remarkable - each piece 
-                                        feels uniquely crafted yet perfectly aligned with our brand identity.
-                                    </p>
-                                    <div class="d-flex align-items-center mt-4">
-                                        <img src="{{ asset('frontend/Images/home/testimonial-2.webp') }}" alt="Asish, CEO, A Hotel Chain"
-                                            class="rounded-circle me-3" width="50" height="50">
-                                        <div>
-                                            <h6 class="name">Asish</h6>
-                                            <small class="text-muted">CEO, A Hotel Chain</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                    <div class="mb-4">
-                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                            width="40" height="40">
-                                    </div>
-                                    <p class="description">
-                                        We needed a visually appealing sign for our office location, and Brand Signages delivered a 
-                                        stunning LED sign board beyond our expectations. The direct communication and on-demand design 
-                                        process was seamless and stress-free.
-                                    </p>
-                                    <div class="d-flex align-items-center mt-4">
-                                        <img src="{{ asset('frontend/Images/home/testimonial-3.webp') }}" alt="Nandini, CEO, A Real Estate Company"
-                                            class="rounded-circle me-3" width="50" height="50">
-                                        <div>
-                                            <h6 class="name">Nandini</h6>
-                                            <small class="text-muted">CEO, A Real Estate Company</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                    <div class="mb-4">
-                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                            width="40" height="40">
-                                    </div>
-                                    <p class="description">
-                                        We weren’t sure if a signage company could capture the essence of a dynamic workspace 
-                                        like Bhive. But what they delivered went far beyond expectations. They didn’t just create 
-                                        signs – they crafted a visual identity that reflects our energy, innovation, and community spirit. 
-                                    </p>
-                                    <div class="d-flex align-items-center mt-4">
-                                        <img src="{{ asset('frontend/Images/home/testimonial-4.webp') }}" alt="Manager, Bhive Workspace"
-                                            class="rounded-circle me-3" width="50" height="50">
-                                        <div>
-                                            <h6 class="name">Sai Teja</h6>
-                                            <small class="text-muted">Manager, Bhive Workspace</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
+
+                        <!-- Duplicate Slide -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    As a boutique hotel chain, brand consistency is everything. These custom signages
+                                    transformed
+                                    our branding across multiple locations. The attention to detail is remarkable - each
+                                    piece
+                                    feels uniquely crafted yet perfectly aligned with our brand identity.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/home/testimonial-2.webp') }}"
+                                        alt="Asish, CEO, A Hotel Chain" class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Asish</h6>
+                                        <small class="text-muted">CEO, A Hotel Chain</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    We needed a visually appealing sign for our office location, and Brand Signages
+                                    delivered a
+                                    stunning LED sign board beyond our expectations. The direct communication and on-demand
+                                    design
+                                    process was seamless and stress-free.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/home/testimonial-3.webp') }}"
+                                        alt="Nandini, CEO, A Real Estate Company" class="rounded-circle me-3" width="50"
+                                        height="50">
+                                    <div>
+                                        <h6 class="name">Nandini</h6>
+                                        <small class="text-muted">CEO, A Real Estate Company</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    We weren’t sure if a signage company could capture the essence of a dynamic workspace
+                                    like Bhive. But what they delivered went far beyond expectations. They didn’t just
+                                    create
+                                    signs – they crafted a visual identity that reflects our energy, innovation, and
+                                    community spirit.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/home/testimonial-4.webp') }}"
+                                        alt="Manager, Bhive Workspace" class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sai Teja</h6>
+                                        <small class="text-muted">Manager, Bhive Workspace</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </section>   
-<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+        </div>
+    </section>
+    <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
@@ -799,210 +822,257 @@
                 </div>
             </div>
         </div>
-</section>
-          
-         <section class="faq-section">
-            <div class="container">
-                <h1 class="faq-title">Frequently Asked Questions</h1>
+    </section>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Why is a Shop Name Board Design Important for Your Business?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>A well-designed shop/store name board is the face of your business, it creates the first 
-                            impression and communicates your brand’s personality before customers step inside. 
-                            It enhances visibility, builds trust, and helps your store stand out amid 
-                            competitive retail landscape.
-                        </p>
-                    </div>
-                </div>
+    <section class="faq-section">
+        <div class="container">
+            <h1 class="faq-title">Frequently Asked Questions</h1>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        How to Order Personalized Shop Name Boards Online in India?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>At Brand Signages, you can easily order your personalized shop name boards online. Simply share your business name, 
-                            logo, preferred material, and size. Our design team will create a digital mock-up for approval before production. 
-                            Once confirmed, your board will be fabricated using premium materials and delivered or installed at your location.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Which Local Vendor Provides Shop Name Board Branding Solutions?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Brand Signages is one of the leading <b>signage manufacturers in India</b> offering complete shop board design and branding 
-                            solutions- from design to installation. We create customized boards for retail stores, restaurants, showrooms, 
-                            and offices with options in acrylic, LED, and metal finishes.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Where to Buy Eco-friendly Shop Name Boards with Fast Delivery?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>If you’re looking for sustainable solutions, Brand Signages offers <b>eco-friendly shop name boards</b> made with recyclable materials
-                             and energy-efficient LED lighting. We ensure quick fabrication and fast delivery across major Indian cities.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Which Company Offers Custom Shop Board Name Designs Nearby?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Whether you’re in <b>Bangalore, Chennai, Mumbai, or Delhi</b>, Brand Signages is your nearby expert for custom shop name boards. Our in-house 
-                            design and fabrication team ensures your sign reflects your brand identity perfectly and stands out on any high street.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        What is The Cost of An Acrylic Shop Name Board Design with Installation?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>The cost of an acrylic shop name board design in India depends on size, lighting, and mounting requirements. At Brand Signages, 
-                            prices typically start from <b>₹1,500 per sq. ft (including LED)</b> and vary based on design and customization. Contact our 
-                            team for an exact quote with installation included.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        How to Choose Shop Name Board Designs That Attract Customers?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>To attract customers, your shop name board design should be clear, 
-                            well-lit, and visually aligned with your brand identity. 
-                            We recommend using <b>high-contrast colors, readable fonts,
-                             and elegant LED illumination</b>. Brand Signages helps you design
-                              boards that grab attention without being overwhelming.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        What is The Best Material for Durable Shop Name Board Design in India?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>For long-lasting performance, materials like <b>acrylic, aluminum composite panels (ACP), stainless steel, 
-                            and LED modules</b> work best. At Brand Signages, we combine these durable materials with weather-resistant 
-                            finishes to ensure your shop board stays bright and beautiful for years.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        What is The Standard Size of a Shop Name Board?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>There’s no fixed size for shop name boards- it depends on your storefront width, local regulations, and viewing distance. 
-                            However, most boards range <b>between 6x2 ft to 10x3 ft.</b> Our experts at Brand Signages can recommend the ideal dimensions for 
-                            maximum visibility and balance.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        How Can I Make My Shop Name Board Design Stand Out?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>To make your shop name board design stand out, <b>use 3D lettering, LED backlighting, clean design, and premium finishes.</b> Add your brand logo and keep 
-                            the layout minimal yet impactful. Brand Signages specializes in designing visually striking boards that help businesses get noticed and remembered.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Can I Customize My Shop Board Design?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Absolutely! we specialize in custom shop name boards <strong>tailored to your business type, size, and theme</strong>. From fonts and materials to lighting styles and finishes, every element is designed to reflect your unique brand identity.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Do You Offer LED and Illuminated Sign Boards?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Yes, we offer a wide range of <strong>LED sign boards, neon lights, and backlit name board</strong> options that give your storefront a premium glow. These illuminated designs help your brand stay visible even after dark, making them ideal for high-footfall areas.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        What Types of Store Name Boards are Available at Brand Signages?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>We offer a wide range of shop name board designs suitable for all types of businesses, including <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>mobile shop</strong></a>, 
-                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/best-tea-shop-name-board-design-trends-to-attract-customers-in-2025"><strong>tea shop</strong></a>, 
-                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"><strong>tailoring shop</strong></a>, or 
-                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>cloth shop name board</strong></a>, xerox shops, footwear shops, medical shops, furniture stores, jewellery shops, and more. Our collection includes 
-                            <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/arcylic-signages"><strong>acrylic name boards</strong></a>, <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/metal-signages"><strong>metal sign boards</strong></a>, <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a>, <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/arcylic-signages"><strong>neon signage</strong></a>, glow sign boards, and <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/digital-signages"><strong>digital signage</strong></a>, all fully customizable to reflect your brand identity and enhance your storefront visibility.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Are Brand Signages Boards Weatherproof and Durable?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Yes, every shop board design we craft is made from premium, weather-resistant materials that withstand changing climate, be it rain, heat, or humidity- while maintaining long-term color brilliance and structure.</p> 
-                        </p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        How Fast is The Installation and Delivery Process?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Our process is efficient and end-to-end. Once the design is approved, we handle production, installation, and finishing within a <strong>quick turnaround time, usually within 5-7 days</strong>, without compromising on quality.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Are Multilingual Shop Boards Available?
-                        <i class="faq-icon fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Yes, we create multilingual shop name boards in <strong>English, Kannada, Hindi, or any preferred language</strong> to help your business connect better with local and diverse audiences across.</p>
-
-                    </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    Why is a Shop Name Board Design Important for Your Business?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>A well-designed shop/store name board is the face of your business, it creates the first
+                        impression and communicates your brand’s personality before customers step inside.
+                        It enhances visibility, builds trust, and helps your store stand out amid
+                        competitive retail landscape.
+                    </p>
                 </div>
             </div>
-        </section>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How to Order Personalized Shop Name Boards Online in India?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>At Brand Signages, you can easily order your personalized shop name boards online. Simply share your
+                        business name,
+                        logo, preferred material, and size. Our design team will create a digital mock-up for approval
+                        before production.
+                        Once confirmed, your board will be fabricated using premium materials and delivered or installed at
+                        your location.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Which Local Vendor Provides Shop Name Board Branding Solutions?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Brand Signages is one of the leading <b>signage manufacturers in India</b> offering complete shop
+                        board design and branding
+                        solutions- from design to installation. We create customized boards for retail stores, restaurants,
+                        showrooms,
+                        and offices with options in acrylic, LED, and metal finishes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Where to Buy Eco-friendly Shop Name Boards with Fast Delivery?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>If you’re looking for sustainable solutions, Brand Signages offers <b>eco-friendly shop name
+                            boards</b> made with recyclable materials
+                        and energy-efficient LED lighting. We ensure quick fabrication and fast delivery across major Indian
+                        cities.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Which Company Offers Custom Shop Board Name Designs Nearby?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Whether you’re in <b>Bangalore, Chennai, Mumbai, or Delhi</b>, Brand Signages is your nearby expert
+                        for custom shop name boards. Our in-house
+                        design and fabrication team ensures your sign reflects your brand identity perfectly and stands out
+                        on any high street.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What is The Cost of An Acrylic Shop Name Board Design with Installation?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>The cost of an acrylic shop name board design in India depends on size, lighting, and mounting
+                        requirements. At Brand Signages,
+                        prices typically start from <b>₹1,500 per sq. ft (including LED)</b> and vary based on design and
+                        customization. Contact our
+                        team for an exact quote with installation included.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How to Choose Shop Name Board Designs That Attract Customers?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>To attract customers, your shop name board design should be clear,
+                        well-lit, and visually aligned with your brand identity.
+                        We recommend using <b>high-contrast colors, readable fonts,
+                            and elegant LED illumination</b>. Brand Signages helps you design
+                        boards that grab attention without being overwhelming.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What is The Best Material for Durable Shop Name Board Design in India?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>For long-lasting performance, materials like <b>acrylic, aluminum composite panels (ACP), stainless
+                            steel,
+                            and LED modules</b> work best. At Brand Signages, we combine these durable materials with
+                        weather-resistant
+                        finishes to ensure your shop board stays bright and beautiful for years.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What is The Standard Size of a Shop Name Board?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>There’s no fixed size for shop name boards- it depends on your storefront width, local regulations,
+                        and viewing distance.
+                        However, most boards range <b>between 6x2 ft to 10x3 ft.</b> Our experts at Brand Signages can
+                        recommend the ideal dimensions for
+                        maximum visibility and balance.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How Can I Make My Shop Name Board Design Stand Out?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>To make your shop name board design stand out, <b>use 3D lettering, LED backlighting, clean design,
+                            and premium finishes.</b> Add your brand logo and keep
+                        the layout minimal yet impactful. Brand Signages specializes in designing visually striking boards
+                        that help businesses get noticed and remembered.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can I Customize My Shop Board Design?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Absolutely! we specialize in custom shop name boards <strong>tailored to your business type, size,
+                            and theme</strong>. From fonts and materials to lighting styles and finishes, every element is
+                        designed to reflect your unique brand identity.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do You Offer LED and Illuminated Sign Boards?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, we offer a wide range of <strong>LED sign boards, neon lights, and backlit name board</strong>
+                        options that give your storefront a premium glow. These illuminated designs help your brand stay
+                        visible even after dark, making them ideal for high-footfall areas.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What Types of Store Name Boards are Available at Brand Signages?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>We offer a wide range of shop name board designs suitable for all types of businesses, including <a
+                            style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>mobile
+                                shop</strong></a>,
+                        <a style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/blogs/best-tea-shop-name-board-design-trends-to-attract-customers-in-2025"><strong>tea
+                                shop</strong></a>,
+                        <a style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"><strong>tailoring
+                                shop</strong></a>, or
+                        <a style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>cloth
+                                shop name board</strong></a>, xerox shops, footwear shops, medical shops, furniture stores,
+                        jewellery shops, and more. Our collection includes
+                        <a style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/arcylic-signages"><strong>acrylic name boards</strong></a>, <a
+                            style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/metal-signages"><strong>metal sign boards</strong></a>, <a
+                            style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a>, <a
+                            style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/arcylic-signages"><strong>neon signage</strong></a>, glow sign
+                        boards, and <a style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/digital-signages"><strong>digital signage</strong></a>, all
+                        fully customizable to reflect your brand identity and enhance your storefront visibility.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Are Brand Signages Boards Weatherproof and Durable?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, every shop board design we craft is made from premium, weather-resistant materials that
+                        withstand changing climate, be it rain, heat, or humidity- while maintaining long-term color
+                        brilliance and structure.</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How Fast is The Installation and Delivery Process?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Our process is efficient and end-to-end. Once the design is approved, we handle production,
+                        installation, and finishing within a <strong>quick turnaround time, usually within 5-7
+                            days</strong>, without compromising on quality.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Are Multilingual Shop Boards Available?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, we create multilingual shop name boards in <strong>English, Kannada, Hindi, or any preferred
+                            language</strong> to help your business connect better with local and diverse audiences across.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 @endsection
