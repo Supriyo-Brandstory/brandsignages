@@ -3,7 +3,7 @@
 
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">LED Glow Sign Boards</h1>
+            <h1 class="hero-banner_title">Acrylic LED Glow Sign Boards</h1>
 
         </div>
         <!-- Slider -->
