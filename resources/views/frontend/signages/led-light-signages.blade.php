@@ -1,6 +1,336 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-    <section class="hero-banner"
+
+    <style>
+        .newly-bannersection {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            min-height: 600px;
+            margin-bottom:50px;
+
+.bar {
+    background: #e43d12;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 11px;
+}
+        .slider-wrapper {
+            flex: 1;
+            max-width: 42%;
+            position: relative;
+        }
+
+        .main-slider {
+            position: relative;
+            width: 100%;
+            height: 82%;
+        }
+
+        .slide {
+            display: none;
+            width: 100%;
+            height: 100%;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+                    border-radius: 20px 20px 0 0;
+        }
+
+        .nav-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 50px;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            cursor: pointer;
+            z-index: 10;
+            transition: all 0.3s;
+            border: 1px solid #e43d12;
+        }
+
+        .nav-arrow:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .prev {
+            left: 0px;
+        }
+
+        .next {
+            right: 0px;
+        }
+
+        .thumbnails {
+            display: flex;
+            gap: 10px;
+            padding: 20px;
+            overflow-x: auto;
+            background: #111;
+        }
+
+        .thumb {
+            width: 90px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 6px;
+            cursor: pointer;
+            opacity: 0.6;
+            border: 3px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .thumb.active,
+        .thumb:hover {
+            opacity: 1;
+            border: 3px solid #e74c3c;
+        }
+
+        .content {
+            flex: 1;
+            min-width: 300px;
+            padding: 0px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .content h1 {
+            color: #1a1a1a;
+        }
+
+        .subtitle {
+            font-size: 19px;
+            color: #555;
+            margin-bottom: 0px;
+            line-height: 1.6;
+        }
+
+        .divider {
+            height: 1px;
+            background: #eee;
+            margin: 20px 0;
+        }
+
+        .features {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .features li {
+            font-size: 17.5px;
+            padding-left: 32px;
+            position: relative;
+            margin-bottom: 13px;
+            line-height: 1.6;
+        }
+
+        .features li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #e74c3c;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            background: #e74c3c;
+            color: #fff;
+            padding: 10px 30px;
+            font-size: 17px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0 6px 15px rgba(231, 76, 60, 0.4);
+            transition: all 0.3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(231, 76, 60, 0.5);
+        }
+    }
+
+        @media (max-width: 768px) {
+            .newly-bannersection{
+                margin-bottom: 0px;
+            .content {
+                padding: 55px 30px 10px;
+            }
+
+            .slider-wrapper {
+                max-width: 100%;
+            }
+
+            .content h1 {
+                font-size: 32px;
+            }
+
+            .nav-arrow {
+                width: 40px;
+                height: 40px;
+                font-size: 20px;
+            }
+
+            .prev {
+                left: 10px;
+            }
+
+            .next {
+                right: 10px;
+            }
+
+            .btn {
+                padding: 10px 24px;
+            }
+        }
+    }
+    </style>
+
+
+    <div class="newly-bannersection">
+        <div class="bar">
+            <h1 class="hero-banner_title">LED Name Boards</h1>
+
+        </div>
+        <!-- Slider -->
+        <div class="slider-wrapper">
+            <div class="main-slider">
+                <div class="slide active">
+                    <img src="/frontend/Images/acrylic-led-signboard-6.webp" alt="Main Sign">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/led-sign-board/led-sign-board-1.webp" alt="Sign 2">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/led-sign-board/led-display-board.webp" alt="Sign 3">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/led-sign-board/led-light-board.webp" alt="Sign 3">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/led-sign-board/custom-led-sign-board.webp" alt="Sign 3">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-sign-board.webp" alt="Sign 3">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" alt="Sign 3">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/led-sign-board/led-name-board.webp" alt="Sign 3">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/led-sign-board/outdoor-led-sign-board.webp" alt="Sign 3">
+                </div>
+                <!-- Add more slides as needed -->
+
+                <div class="nav-arrow prev">&#8249;</div>
+                <div class="nav-arrow next">&#8250;</div>
+            </div>
+
+            <div class="thumbnails">
+                <img src="/frontend/Images/acrylic-led-signboard-6.webp" class="thumb active" data-index="0">
+                <img src="/frontend/Images/led-sign-board/led-sign-board-1.webp" class="thumb" data-index="1">
+                <img src="/frontend/Images/led-sign-board/led-display-board.webp" class="thumb" data-index="2">
+                <img src="/frontend/Images/led-sign-board/led-light-board.webp" class="thumb" data-index="3">
+                <img src="/frontend/Images/led-sign-board/custom-led-sign-board.webp" class="thumb" data-index="4">
+                <img src="/frontend/Images/led-sign-board/acrylic-led-sign-board.webp" class="thumb" data-index="5">
+                <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" class="thumb" data-index="6">
+                <img src="/frontend/Images/led-sign-board/led-name-board.webp" class="thumb" data-index="7">
+                <img src="/frontend/Images/led-sign-board/outdoor-led-sign-board.webp" class="thumb" data-index="8">
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <h1 class="hero-banner_title">Brilliant LED Name Boards That Make Your Brand Shine</h1>
+            <p class="subtitle">Eye-Popping Shop Boards to Impress Customers and Entice Them to Step In Your Store</p>
+
+            <div class="divider"></div>
+
+            <ul class="features">
+                <li>Choose from 10 different premium shop-sign options</li>
+                <li>Built using new-age material like acrylic, LEDs, and ACP</li>
+                <li>3D form-factor to highlight your logos and shop name</li>
+                <li>Distinctive LED glow to attract customer attention</li>
+                <li>End-to-End services including fabrication and on-site installation</li>
+                <li>An investment that will yield major returns in terms of visibility</li>
+            </ul>
+
+            <div class="buttons">
+                <a href="#pricing" class="btn">Check Pricing</a>
+                <a href="{{ route('contact_us') }}" class="btn">Get Quote</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const thumbs = document.querySelectorAll('.thumb');
+        const prevBtn = document.querySelector('.prev');
+        const nextBtn = document.querySelector('.next');
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+
+            thumbs.forEach((thumb, i) => {
+                thumb.classList.toggle('active', i === index);
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        nextBtn.addEventListener('click', nextSlide);
+        prevBtn.addEventListener('click', prevSlide);
+
+        thumbs.forEach(thumb => {
+            thumb.addEventListener('click', () => {
+                currentIndex = parseInt(thumb.dataset.index);
+                showSlide(currentIndex);
+            });
+        });
+
+        // Optional: Auto-play
+        setInterval(nextSlide, 3000);
+    </script>
+
+
+
+    {{-- <section class="hero-banner"
         style="background-image: url('{{ asset('/frontend/Images/led-sign-board/led-sign-boards.webp') }}');">
         <div class="container">
             <div class="row">
@@ -15,7 +345,15 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
+
+
+
+
+
+
+
+
 
     <section>
         <div class="container py-5" id="">
@@ -29,9 +367,8 @@
                 impression on every passerby.<br></br>
                 LED name boards are not just visually striking- they’re functional, energy-efficient, and built for
                 longevity.
-                Whether for <a style="color: #E43D12;text-decoration: none;"
-                    href="/indoor-signages"><strong>indoor branding</strong></a>, <a
-                    style="color: #E43D12;text-decoration: none;"
+                Whether for <a style="color: #E43D12;text-decoration: none;" href="/indoor-signages"><strong>indoor
+                        branding</strong></a>, <a style="color: #E43D12;text-decoration: none;"
                     href="/name-board-designs-for-shops-bangalore"><strong>shop name
                         board</strong></a>, or <a style="color: #E43D12;text-decoration: none;"
                     href="/outdoor-signages"><strong>outdoor sign board</strong></a>, they provide
@@ -39,15 +376,15 @@
                 clearly, day or night. In a market where first impressions matter, investing in the right LED sign boards
                 ensures your brand is seen,
                 remembered, and trusted.<br></br>
-                Our <a style="color: #E43D12;text-decoration: none;"
-                    href="/led-sign-board-in-bangalore"><strong>LED sign boards</strong></a>
+                Our <a style="color: #E43D12;text-decoration: none;" href="/led-sign-board-in-bangalore"><strong>LED sign
+                        boards</strong></a>
                 feature elegant typography, bold graphics, and full-color or classic-color options, tailored
                 to reflect your business identity. From retail stores and restaurants to corporate offices and public
                 spaces, our LED solutions cater to
                 every industry.
             </p>
 
-            <div class="row align-items-center new-lighbox">
+            {{-- <div class="row align-items-center new-lighbox">
 
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <a href="javascript:void(0)">
@@ -58,8 +395,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-sign-board-1.webp')}}" class="img-fluid" alt="LED Sign Board"
-                            style="width: 100%;">
+                        <img src="{{asset('frontend/Images/led-sign-board/led-sign-board-1.webp')}}" class="img-fluid"
+                            alt="LED Sign Board" style="width: 100%;">
                         <span><b>LED Sign Board</b></span>
                     </a>
                 </div>
@@ -86,8 +423,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
                     <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/acrylic-led-sign-board.webp')}}" class="img-fluid" alt="Acrylic LED Name Board"
-                            style="width: 100%;">
+                        <img src="{{asset('frontend/Images/led-sign-board/acrylic-led-sign-board.webp')}}" class="img-fluid"
+                            alt="Acrylic LED Name Board" style="width: 100%;">
                         <span><b>Acrylic LED Name Board</b></span>
                     </a>
                 </div>
@@ -127,8 +464,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)"
-                        >
+                    <a href="javascript:void(0)">
                         <img src="{{asset('frontend/Images/led-sign-board/led-glow-name-board.webp')}}" class="img-fluid"
                             alt="LED Glow Sign Board" style="width: 100%;">
                         <span><b>LED Glow Name Board</b></span>
@@ -136,7 +472,7 @@
                 </div>
 
 
-            </div>
+            </div> --}}
         </div>
     </section>
     <section class="new-recent-works">
@@ -176,7 +512,7 @@
 
                     </div>
                 </div>
-                 <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4">
                     <div class="box">
                         <img src="/frontend/Images/case-studies/tanishq.webp"
                             alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
@@ -187,7 +523,7 @@
 
                     </div>
                 </div>
-                 <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4">
                     <div class="box">
                         <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
                             alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
@@ -198,7 +534,7 @@
 
                     </div>
                 </div>
-                 <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4">
                     <div class="box">
                         <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
                             alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
@@ -220,7 +556,7 @@
         </div>
     </section>
 
-        <section class="new_custom-why-choose pb-5">
+    <section class="new_custom-why-choose pb-5">
         <div class="container">
             <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages for LED <br>Light Name Boards?</h2>
             <div class="row justify-content-center g-4">
@@ -228,8 +564,10 @@
                 <!-- Expertise -->
                 <div class="col-md-4 justify-content-between d-flex flex-column">
                     <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
-                        <p>Backed by years of hands-on experience, we specialize in <a style="color: #000000ff;text-decoration: underline;"
-                            href="/led-display-board-in-chennai"><strong>LED sign boards</strong></a> that blend functionality
+                        <p>Backed by years of hands-on experience, we specialize in <a
+                                style="color: #000000ff;text-decoration: underline;"
+                                href="/led-display-board-in-chennai"><strong>LED sign boards</strong></a> that blend
+                            functionality
                             with creativity.
                             Our experts ensures every design aligns with your brand identity.</p>
                         <h4 class="new_custom-title">Expert Craftsmanship</h4>
@@ -246,8 +584,9 @@
                         style="background-image: url('{{ asset('frontend/Images/led-sign-board/optical-store-led-sign-board.webp') }}');">
                         <div class="new_custom-overlay">
                             <h4 class="new_custom-title text-white">Tailored Solution</h4>
-                            <p class="text-white">We believe no two brands are the same. That’s why every <a style="color: #ffffffff;text-decoration: underline;"
-                            href="/led-sign-board-in-bangalore"><strong>LED name board</strong></a> we
+                            <p class="text-white">We believe no two brands are the same. That’s why every <a
+                                    style="color: #ffffffff;text-decoration: underline;"
+                                    href="/led-sign-board-in-bangalore"><strong>LED name board</strong></a> we
                                 design is fully customizable,
                                 whether you need a sleek indoor display for a boutique or a high-visibility outdoor sign for
                                 a corporate space.</p>
@@ -276,46 +615,36 @@
 
 
 
-    <section>
+    <section id="pricing">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">LED Name Boards: Merging Brilliance </br>with Modern Design</h2>
+            <h2 class="hero-title">LED Sign Board Pricing & Size Options</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}" alt="Rivetoile LED Name Board Design"
-                            class="img-fluid">
+                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}"
+                            alt="Rivetoile LED Name Board Design" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
-                    <p class="brand-description">
-                        LED name boards have become a defining element of modern branding, where light meets creativity to
-                        <a style="color: #E43D12;text-decoration: none;"
-                            href="/indoor-signages"><strong>make your business shine</strong></a>.
-                        <strong>Designed for maximum
-                            visibility</strong>, these boards highlight your brand name and logo with exceptional clarity,
-                        ensuring they stay etched in every viewer’s mind.
-                    </p>
-                    <p class="brand-description">
-                        When it comes to outdoor branding, our weather-resistant <a style="color: #E43D12;text-decoration: none;"
-                            href="/led-display-board-in-mumbai"><strong>LED sign boards</strong></a> ensure your message remains
-                        bright and clear, even under challenging conditions.
-                        Built with high-intensity illumination and premium materials, they make your storefront impossible
-                        to miss, whether day or night.
-                    </p>
-                    <p class="brand-description">
-                        Unlike conventional signage, LED name boards blend energy efficiency with durability and aesthetic
-                        appeal. They’re customizable in design, color, and size,
-                        making them a <strong>perfect fit for diverse industries</strong> such as <a
-                            style="color: #E43D12;text-decoration: none;"
-                            href="/hospital-signages"><strong>healthcare</strong></a>, retail, and
-                        <a style="color: #E43D12;text-decoration: none;"
-                            href="/restaurant-signages"><strong>restaurant</strong></a>. With Brand
-                        Signages expertise, every LED name board becomes more
-                        than just a sign, it becomes a statement of identity and innovation, built to captivate and last.
-                    </p>
-                </div>
+    <p class="brand-description">
+        LED name board pricing varies based on size, material, lighting type, and customization. At Brand Signages, we offer multiple standard and custom-sized options to suit your branding needs.
+    </p>
+
+    <p class="brand-description"><strong>Popular Size Options Include:</strong></p>
+    <ul class="brand-description" style="padding-left: 18px;">
+        <li>Small LED Boards: 1 ft x 2 ft, 1 ft x 3 ft (₹8,000 – ₹15,000)</li>
+        <li>Medium LED Boards: 2 ft x 4 ft, 3 ft x 5 ft (₹18,000 – ₹35,000)</li>
+        <li>Large LED Boards: 4 ft x 8 ft (₹40,000 – ₹60,000)</li>
+        <li>Custom Dimensions: Depends on your design & customization.</li>
+    </ul>
+
+    <p class="brand-description">
+        Each board is crafted with high-quality materials, premium LEDs, and weather-resistant finishes. Choose from different lighting styles, including front-lit, backlit, edge-lit, or RGB color-changing LEDs, to match your brand’s identity.
+    </p>
+</div>
+
             </div>
         </div>
     </section>
@@ -360,7 +689,8 @@
         <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
         <div class="row">
             <div class="col-md-5 new_client_section-image col-12">
-                <img src="{{ asset('frontend/Images/led-sign-board/irani-cafe-led-sign-board.webp') }}" alt="Irani Cafe LED Sign Board - Brand Signages">
+                <img src="{{ asset('frontend/Images/led-sign-board/irani-cafe-led-sign-board.webp') }}"
+                    alt="Irani Cafe LED Sign Board - Brand Signages">
             </div>
             <div class="col-md-7 new_client_section-scrolling col-12">
 
@@ -698,8 +1028,8 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <P>The delivery time for your LED sign board typically ranges between <b>7 to 10 working days</b>, 
-                        depending on the size, design complexity, and customization requirements. Our team ensures 
+                    <P>The delivery time for your LED sign board typically ranges between <b>7 to 10 working days</b>,
+                        depending on the size, design complexity, and customization requirements. Our team ensures
                         timely production and delivery while maintaining top-notch quality standards.</P>
                 </div>
             </div>
@@ -710,8 +1040,9 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Absolutely. We offer <b>fully customized LED sign boards</b> tailored to your brand’s identity, including 
-                        design, color, size, lighting type, and logo integration. Our team works closely with you to create 
+                    <p>Absolutely. We offer <b>fully customized LED sign boards</b> tailored to your brand’s identity,
+                        including
+                        design, color, size, lighting type, and logo integration. Our team works closely with you to create
                         a sign board that truly reflects your business personality.</p>
                 </div>
             </div>
@@ -722,9 +1053,12 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>When choosing an LED sign board for outdoor advertising, focus on brightness, durability, and visibility. <b>Opt for weather-resistant 
-                        materials, high-luminance LEDs</b>, and a design that aligns with your brand’s identity. At Brand Signages, we craft outdoor LED sign boards 
-                        engineered to withstand Indian climatic conditions while ensuring your brand message remains clear and vibrant, day or night.</p>
+                    <p>When choosing an LED sign board for outdoor advertising, focus on brightness, durability, and
+                        visibility. <b>Opt for weather-resistant
+                            materials, high-luminance LEDs</b>, and a design that aligns with your brand’s identity. At
+                        Brand Signages, we craft outdoor LED sign boards
+                        engineered to withstand Indian climatic conditions while ensuring your brand message remains clear
+                        and vibrant, day or night.</p>
                 </div>
             </div>
 
@@ -734,8 +1068,10 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>A <b>single-color LED sign board</b> displays text or visuals in one shade- commonly red, green, or white- ideal for simple messages and budget-friendly 
-                        solutions. In contrast, a <b>full-color LED sign board</b> supports multiple hues and dynamic visuals, perfect for high-impact promotions and video 
+                    <p>A <b>single-color LED sign board</b> displays text or visuals in one shade- commonly red, green, or
+                        white- ideal for simple messages and budget-friendly
+                        solutions. In contrast, a <b>full-color LED sign board</b> supports multiple hues and dynamic
+                        visuals, perfect for high-impact promotions and video
                         displays. Brand Signages offers both options to suit diverse advertising needs and budgets.</p>
                 </div>
             </div>
@@ -746,8 +1082,10 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Our LED sign boards are designed with <b>energy-efficient modules and low-heat components</b>, ensuring optimal performance even in high-temperature and humid conditions. 
-                        With Brand Signages, you get energy-saving LED systems that minimize power consumption while delivering maximum brightness and long lifespan—ideal for the Indian 
+                    <p>Our LED sign boards are designed with <b>energy-efficient modules and low-heat components</b>,
+                        ensuring optimal performance even in high-temperature and humid conditions.
+                        With Brand Signages, you get energy-saving LED systems that minimize power consumption while
+                        delivering maximum brightness and long lifespan—ideal for the Indian
                         climate.</p>
                 </div>
             </div>
@@ -758,8 +1096,10 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>For small businesses looking to enhance visibility, Brand Signages offers <b>affordable LED sign board solutions</b> without compromising on quality. Whether it’s a compact storefront display 
-                        or a simple illuminated name board, our custom LED signage designs help you attract more customers at a budget that fits your business goals.</p>
+                    <p>For small businesses looking to enhance visibility, Brand Signages offers <b>affordable LED sign
+                            board solutions</b> without compromising on quality. Whether it’s a compact storefront display
+                        or a simple illuminated name board, our custom LED signage designs help you attract more customers
+                        at a budget that fits your business goals.</p>
                 </div>
             </div>
 
@@ -769,8 +1109,11 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>You can purchase customizable LED sign boards with remote control directly from Brand Signages. Our <b>advanced control systems</b> allow you to update messages, visuals, and offers in real time with
-                         ease. Choose from a variety of sizes, colors, and display modes to suit your business communication needs.</p>
+                    <p>You can purchase customizable LED sign boards with remote control directly from Brand Signages. Our
+                        <b>advanced control systems</b> allow you to update messages, visuals, and offers in real time with
+                        ease. Choose from a variety of sizes, colors, and display modes to suit your business communication
+                        needs.
+                    </p>
                 </div>
             </div>
 
@@ -780,8 +1123,11 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>At Brand Signages, every LED sign board comes with a <b>comprehensive warranty and dedicated after-sales support</b>. We ensure hassle-free maintenance, quick service response, and long-lasting performance. 
-                        Our team stands by your signage even after installation, ensuring your investment continues to shine bright.</p>
+                    <p>At Brand Signages, every LED sign board comes with a <b>comprehensive warranty and dedicated
+                            after-sales support</b>. We ensure hassle-free maintenance, quick service response, and
+                        long-lasting performance.
+                        Our team stands by your signage even after installation, ensuring your investment continues to shine
+                        bright.</p>
                 </div>
             </div>
 
@@ -791,7 +1137,8 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, we deliver LED sign boards across Bangalore and <b>all over India within 10 Working Days</b>. Our logistics team ensures safe packaging 
+                    <p>Yes, we deliver LED sign boards across Bangalore and <b>all over India within 10 Working Days</b>.
+                        Our logistics team ensures safe packaging
                         and hassle-free delivery so that your signage reaches you in perfect condition.</p>
                 </div>
             </div>
@@ -802,9 +1149,12 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Brand Signages is among the leading LED sign board manufacturers in India, specializing in <b>programmable displays</b> for retail, hospitality, and 
-                        corporate branding. Our LED boards feature dynamic content control, remote access, and high brightness for impactful communication—making 
-                        your brand message stand out 24/7.</p>
+                    <p>Brand Signages is among the leading LED sign board manufacturers in India, specializing in
+                        <b>programmable displays</b> for retail, hospitality, and
+                        corporate branding. Our LED boards feature dynamic content control, remote access, and high
+                        brightness for impactful communication—making
+                        your brand message stand out 24/7.
+                    </p>
                 </div>
             </div>
 
@@ -814,7 +1164,8 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>YYes, we offer <b>complete installation services</b> for all LED sign boards. Our expert technicians ensure proper setup, alignment, and wiring 
+                    <p>YYes, we offer <b>complete installation services</b> for all LED sign boards. Our expert technicians
+                        ensure proper setup, alignment, and wiring
                         to make your signage functional and visually appealing from day one.</p>
                 </div>
             </div>
@@ -825,7 +1176,8 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Definitely, Our LED sign boards are designed for both indoor and outdoor use, built to withstand varying weather conditions while maintaining 
+                    <p>Definitely, Our LED sign boards are designed for both indoor and outdoor use, built to withstand
+                        varying weather conditions while maintaining
                         brightness and visual impact, making them perfect for outdoor branding.</p>
                 </div>
             </div>
@@ -836,8 +1188,10 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, our LED sign boards are <b>highly energy-efficient and</b> designed to consume significantly less power compared 
-                        to traditional lighting options. They deliver bright, consistent illumination while keeping electricity costs 
+                    <p>Yes, our LED sign boards are <b>highly energy-efficient and</b> designed to consume significantly
+                        less power compared
+                        to traditional lighting options. They deliver bright, consistent illumination while keeping
+                        electricity costs
                         low, making them an eco-friendly and cost-effective branding solution for your business.
                     </p>
                 </div>
@@ -849,8 +1203,10 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>High-quality LED sign boards typically last for up to 5–7 years with proper maintenance. They are energy-efficient, 
-                        durable, and designed to deliver long-lasting performance, ensuring great value for your investment.</p>
+                    <p>High-quality LED sign boards typically last for up to 5–7 years with proper maintenance. They are
+                        energy-efficient,
+                        durable, and designed to deliver long-lasting performance, ensuring great value for your investment.
+                    </p>
                 </div>
             </div>
 
