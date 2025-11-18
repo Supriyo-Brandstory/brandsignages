@@ -313,9 +313,9 @@
     <p class="brand-description">
         Brand Signages provides the best LED name boards in the industry, combining innovative design, superior craftsmanship, and reliable customer service.
     </p>
-    <div class="buttons">
-                <a href="{{ route('contact_us') }}" class="btn">Get Quote</a>
-            </div>
+   <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
+                            <button class="contact-btn">Get Quote</button>
+                        </a>
 </div>
 
 
