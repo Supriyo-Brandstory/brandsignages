@@ -20,10 +20,11 @@
 
     <section class="instant-pricing">
         <div class="container pt-5">
-            <h2>Premium Shop Name Boards <br>for Outdoor Advertising</h2>
-            <p>Your shop name board isn’t just a sign, it’s your brand’s first handshake with the world. At Brand Signages,
-                we create <b>shop name boards</b> that combine creativity, clarity, and craftsmanship to make your brand
-                unforgettable.</p>
+            <h2>Affordable Shop Name Boards <br>for Outdoor Advertising</h2>
+            <p>Searching for a budget-friendly shop name board price estimate? Brand Signages provides 
+                customized signage at fair, <b>transparent rates</b> with <b>quick turnaround</b> and <b>expert installation</b> along with <b>4-5 years warranty</b>. 
+                Whether you're checking shop name board prices locally or exploring online options, we ensure clarity, 
+                quality, and long-lasting performance with every design.</p>
             <div class="scroll-loop-wrapper">
                 <div class="gridbox">
                    
@@ -300,7 +301,7 @@
 
     </section>
 
-    <!--<section class="we-deliver">
+    <section class="we-deliver">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 col-12">
@@ -347,7 +348,7 @@
 
 
                             </div>
-            </section>-->
+            </section>
 
     <!--<section>
             <div class="container py-5">
@@ -383,7 +384,7 @@
 
     <section>
         <div class="container pb-5">
-            <h2 class="hero-title">Why Choose Brand Signages for Shop <br>Name Boards?</h2>
+            <h2 class="hero-title">Why Businesses Trust Brand Signages for <br>Shop Name Board Design</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -396,41 +397,39 @@
                 <div class="col-lg-6">
 
                     <p class="fs-20">
-                        <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com"><strong>Brand
-                                Signages</strong></a> is one of a kind shop sign board manufacturer backed by 10+ years of
-                        experience
-                        and 500+ client base. We are recognized by local businesses for intuitive shop sign boards.
+                        Shop name boards are one of the most powerful ways for outdoor advertising. At <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com"><strong>Brand
+                        Signages</strong></a>, we design impactful, high-quality boards that help businesses stand out effortlessly and attract customers to step inside.
                     </p>
                     <div class="faq-item active">
                         <button class="faq-question active">
-                            Designs That Tell Stories
+                            Brand-Focused Approach
                             <i class="faq-icon fa-solid fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer active">
-                            <p>At Brand Signages, we don’t just create shop name boards, we craft brand stories that speak
-                                through design, color, and light.</p>
+                            <p>We take the time to understand your business personality, customer base, and market positioning, ensuring every 
+                                shop name board reflects who you are and what you stand for.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
                         <button class="faq-question">
-                            Where Design Meets Identity
+                            Smooth, Hassle-Free Execution
                             <i class="faq-icon fa-solid fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>We understand the city’s ever-evolving vibe and create shop name board that resonate with its
-                                energy and audience.</p>
+                            <p>From concept to design, fabrication, and installation, our team handles every stage with precision and professionalism, 
+                                making the entire process quick, seamless, and worry-free for business owners.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
                         <button class="faq-question">
-                            Trusted by Leading Brands
+                            Transparent & Instant Pricing
                             <i class="faq-icon fa-solid fa-chevron-down"></i>
                         </button>
                         <div class="faq-answer">
-                            <p>From local retails shops to established names, businesses choose Brand Signages for our
-                                commitment to quality, innovation, and impact.</p>
+                            <p>Businesses appreciate our quick and clear pricing system that eliminates guesswork. With Brand Signages, you know the 
+                                cost upfront- no hidden charges, no delays, just instant quotes that help you plan with confidence.</p>
                         </div>
                     </div>
                     <div class="mt-4">
