@@ -432,7 +432,7 @@
         Each board is crafted with <b>high-quality materials</b>, <b>premium LEDs</b>, and weather-resistant finishes. 
         You can choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB color-changing LEDs</b>, 
         to match your brand’s identity. We discuss the best materials, help the customer visualize the final sign, and once specifications 
-        are agreed, we determine the cost.
+        are agreed.
     </p>
 
    <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
