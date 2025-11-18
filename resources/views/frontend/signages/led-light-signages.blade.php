@@ -1,215 +1,6 @@
 @extends('frontend.layout.appLayout')
 @section('content')
 
-    <style>
-        .newly-bannersection {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: stretch;
-            min-height: 600px;
-            margin-bottom:50px;
-
-.bar {
-    background: #e43d12;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 30px;
-    padding: 11px;
-}
-        .slider-wrapper {
-            flex: 1;
-            max-width: 42%;
-            position: relative;
-        }
-
-        .main-slider {
-            position: relative;
-            width: 100%;
-            height: 82%;
-        }
-
-        .slide {
-            display: none;
-            width: 100%;
-            height: 100%;
-        }
-
-        .slide.active {
-            display: block;
-        }
-
-        .slide img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-                    border-radius: 20px 20px 0 0;
-        }
-
-        .nav-arrow {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 50px;
-            height: 50px;
-            background: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 28px;
-            cursor: pointer;
-            z-index: 10;
-            transition: all 0.3s;
-            border: 1px solid #e43d12;
-        }
-
-        .nav-arrow:hover {
-            background: rgba(0, 0, 0, 0.8);
-        }
-
-        .prev {
-            left: 0px;
-        }
-
-        .next {
-            right: 0px;
-        }
-
-        .thumbnails {
-            display: flex;
-            gap: 10px;
-            padding: 20px;
-            overflow-x: auto;
-            background: #111;
-        }
-
-        .thumb {
-            width: 90px;
-            height: 70px;
-            object-fit: cover;
-            border-radius: 6px;
-            cursor: pointer;
-            opacity: 0.6;
-            border: 3px solid transparent;
-            transition: all 0.3s;
-        }
-
-        .thumb.active,
-        .thumb:hover {
-            opacity: 1;
-            border: 3px solid #e74c3c;
-        }
-
-        .content {
-            flex: 1;
-            min-width: 300px;
-            padding: 0px 40px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .content h1 {
-            color: #1a1a1a;
-        }
-
-        .subtitle {
-            font-size: 19px;
-            color: #555;
-            margin-bottom: 0px;
-            line-height: 1.6;
-        }
-
-        .divider {
-            height: 1px;
-            background: #eee;
-            margin: 20px 0;
-        }
-
-        .features {
-            list-style: none;
-            margin-bottom: 20px;
-        }
-
-        .features li {
-            font-size: 17.5px;
-            padding-left: 32px;
-            position: relative;
-            margin-bottom: 13px;
-            line-height: 1.6;
-        }
-
-        .features li::before {
-            content: "•";
-            position: absolute;
-            left: 0;
-            color: #e74c3c;
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        .buttons {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .btn {
-            background: #e74c3c;
-            color: #fff;
-            padding: 10px 30px;
-            font-size: 17px;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 8px;
-            box-shadow: 0 6px 15px rgba(231, 76, 60, 0.4);
-            transition: all 0.3s;
-        }
-
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(231, 76, 60, 0.5);
-        }
-    }
-
-        @media (max-width: 768px) {
-            .newly-bannersection{
-                margin-bottom: 0px;
-            .content {
-                padding: 55px 30px 10px;
-            }
-
-            .slider-wrapper {
-                max-width: 100%;
-            }
-
-            .content h1 {
-                font-size: 32px;
-            }
-
-            .nav-arrow {
-                width: 40px;
-                height: 40px;
-                font-size: 20px;
-            }
-
-            .prev {
-                left: 10px;
-            }
-
-            .next {
-                right: 10px;
-            }
-
-            .btn {
-                padding: 10px 24px;
-            }
-        }
-    }
-    </style>
-
-
     <div class="newly-bannersection">
         <div class="bar">
             <h1 class="hero-banner_title">LED Name Boards</h1>
@@ -277,7 +68,7 @@
                 <li>3D letters to highlight your logos and shop name</li>
                 <li>Attractive LED glow boards to attract attention</li>
                 <li>Full-service including design and on-site installation</li>
-                <li>Active support services with 24/7 active hotline</li>
+                <li>Active support with 24/7 active hotline</li>
             </ul>
 
             <div class="buttons">
@@ -287,46 +78,7 @@
         </div>
     </div>
 
-    <script>
-        const slides = document.querySelectorAll('.slide');
-        const thumbs = document.querySelectorAll('.thumb');
-        const prevBtn = document.querySelector('.prev');
-        const nextBtn = document.querySelector('.next');
-        let currentIndex = 0;
 
-        function showSlide(index) {
-            slides.forEach((slide, i) => {
-                slide.classList.toggle('active', i === index);
-            });
-
-            thumbs.forEach((thumb, i) => {
-                thumb.classList.toggle('active', i === index);
-            });
-        }
-
-        function nextSlide() {
-            currentIndex = (currentIndex + 1) % slides.length;
-            showSlide(currentIndex);
-        }
-
-        function prevSlide() {
-            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-            showSlide(currentIndex);
-        }
-
-        nextBtn.addEventListener('click', nextSlide);
-        prevBtn.addEventListener('click', prevSlide);
-
-        thumbs.forEach(thumb => {
-            thumb.addEventListener('click', () => {
-                currentIndex = parseInt(thumb.dataset.index);
-                showSlide(currentIndex);
-            });
-        });
-
-        // Optional: Auto-play
-        setInterval(nextSlide, 3000);
-    </script>
 
 
 
@@ -349,14 +101,8 @@
 
 
 
-
-
-
-
-
-
     <section>
-        <div class="container py-5" id="">
+        <div class="container" id="">
             <h2 class="hero-title  mb-4">Shine Brighter, Get Noticed with LED Sign Boards</h2>
             <p class=" text-center mb-5 fs-20">Make your brand impossible to ignore with LED name boards from <a
                     style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com"><strong>Brand
@@ -475,7 +221,109 @@
             </div> --}}
         </div>
     </section>
-    <section class="new-recent-works">
+
+
+    <section class="new_custom-why-choose">
+        <div class="container">
+            <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages for LED <br>Light Name Boards?</h2>
+            <div class="row justify-content-center g-4">
+
+                <!-- Expertise -->
+                <div class="col-md-4 justify-content-between d-flex flex-column">
+                    <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
+                        <p>Backed by years of hands-on experience, we specialize in <a
+                                style="color: #000000ff;text-decoration: underline;"
+                                href="/led-display-board-in-chennai"><strong>LED sign boards</strong></a> that blend
+                            functionality
+                            with creativity.
+                            Our experts ensures every design aligns with your brand identity.</p>
+                        <h4 class="new_custom-title">Expert Craftsmanship</h4>
+                    </div>
+                    <div class="why-choose-image-container">
+                        <img src="{{ asset('frontend/Images/led-sign-board/hotwind-led-sign-board.webp') }}"
+                            alt="why choose us as your LED Sign Board Partner" class="img-fluid mt-3">
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="col-md-4">
+                    <div class="new_custom-box new_custom-image-box"
+                        style="background-image: url('{{ asset('frontend/Images/led-sign-board/optical-store-led-sign-board.webp') }}');">
+                        <div class="new_custom-overlay">
+                            <h4 class="new_custom-title text-white">Tailored Solution</h4>
+                            <p class="text-white">We believe no two brands are the same. That’s why every <a
+                                    style="color: #ffffffff;text-decoration: underline;"
+                                    href="/led-sign-board-in-bangalore"><strong>LED name board</strong></a> we
+                                design is fully customizable,
+                                whether you need a sleek indoor display for a boutique or a high-visibility outdoor sign for
+                                a corporate space.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excellence -->
+                <div class="col-md-4 justify-content-between d-flex flex-column">
+                    <div class="why-choose-image-container">
+                        <img src="{{ asset('frontend/Images/led-sign-board/diner-led-sign-board.webp') }}"
+                            alt="Outdoor LED sign board designed by our experts" class="img-fluid mb-3">
+                    </div>
+                    <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
+                        <h4 class="new_custom-title">Superior Material</h4>
+                        <p>We use only premium-grade acrylic, stainless steel, and advanced LED modules to ensure your
+                            signage remains brilliant, long-lasting,
+                            and energy-efficient. Each board is crafted to withstand time, weather, and constant visibility
+                            demands.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="pricing">
+        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+            <h2 class="hero-title">LED Sign Board Pricing & Size Options</h2>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}"
+                            alt="Rivetoile LED Name Board Design" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+    <p class="brand-description">
+        LED name board pricing varies based on size, material, lighting type, and customization. At <b>Brand Signages</b>, we offer multiple standard and <b>custom-sized options</b> to suit your branding needs.
+    </p>
+
+    <p class="brand-description"><strong>Popular Size Options Include:</strong></p>
+    <ul class="brand-description" style="padding-left: 18px;">
+        <li><b>Small LED Boards:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹8,000 – ₹15,000)</li>
+        <li><b>Medium LED Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹18,000 – ₹35,000)</li>
+        <li><b>Large LED Boards:</b> 4 ft x 8 ft (₹40,000 – ₹60,000)</li>
+        <li><b>Custom Dimensions:</b> Depends on your design & customization.</li>
+    </ul>
+
+    <p class="brand-description">
+        Each board is crafted with <b>high-quality materials</b>, <b>premium LEDs</b>, and weather-resistant finishes. Choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB color-changing LEDs</b>, to match your brand’s identity.
+    </p>
+    <p class="brand-description">
+        Brand Signages provides the best LED name boards in the industry, combining innovative design, superior craftsmanship, and reliable customer service.
+    </p>
+    <div class="buttons">
+                <a href="{{ route('contact_us') }}" class="btn">Get Quote</a>
+            </div>
+</div>
+
+
+            </div>
+        </div>
+    </section>
+
+        <section class="new-recent-works">
         <div class="container">
             <h2 class="hero-title  mb-6">Our Recent Sign Board Projects</h2>
             <div class="row">
@@ -556,104 +404,8 @@
         </div>
     </section>
 
-    <section class="new_custom-why-choose pb-5">
-        <div class="container">
-            <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages for LED <br>Light Name Boards?</h2>
-            <div class="row justify-content-center g-4">
 
-                <!-- Expertise -->
-                <div class="col-md-4 justify-content-between d-flex flex-column">
-                    <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
-                        <p>Backed by years of hands-on experience, we specialize in <a
-                                style="color: #000000ff;text-decoration: underline;"
-                                href="/led-display-board-in-chennai"><strong>LED sign boards</strong></a> that blend
-                            functionality
-                            with creativity.
-                            Our experts ensures every design aligns with your brand identity.</p>
-                        <h4 class="new_custom-title">Expert Craftsmanship</h4>
-                    </div>
-                    <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/led-sign-board/hotwind-led-sign-board.webp') }}"
-                            alt="why choose us as your LED Sign Board Partner" class="img-fluid mt-3">
-                    </div>
-                </div>
-
-                <!-- Experience -->
-                <div class="col-md-4">
-                    <div class="new_custom-box new_custom-image-box"
-                        style="background-image: url('{{ asset('frontend/Images/led-sign-board/optical-store-led-sign-board.webp') }}');">
-                        <div class="new_custom-overlay">
-                            <h4 class="new_custom-title text-white">Tailored Solution</h4>
-                            <p class="text-white">We believe no two brands are the same. That’s why every <a
-                                    style="color: #ffffffff;text-decoration: underline;"
-                                    href="/led-sign-board-in-bangalore"><strong>LED name board</strong></a> we
-                                design is fully customizable,
-                                whether you need a sleek indoor display for a boutique or a high-visibility outdoor sign for
-                                a corporate space.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Excellence -->
-                <div class="col-md-4 justify-content-between d-flex flex-column">
-                    <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/led-sign-board/diner-led-sign-board.webp') }}"
-                            alt="Outdoor LED sign board designed by our experts" class="img-fluid mb-3">
-                    </div>
-                    <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
-                        <h4 class="new_custom-title">Superior Material</h4>
-                        <p>We use only premium-grade acrylic, stainless steel, and advanced LED modules to ensure your
-                            signage remains brilliant, long-lasting,
-                            and energy-efficient. Each board is crafted to withstand time, weather, and constant visibility
-                            demands.</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-
-    <section id="pricing">
-        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">LED Sign Board Pricing & Size Options</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}"
-                            alt="Rivetoile LED Name Board Design" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-    <p class="brand-description">
-        LED name board pricing varies based on size, material, lighting type, and customization. At Brand Signages, we offer multiple standard and custom-sized options to suit your branding needs.
-    </p>
-
-    <p class="brand-description"><strong>Popular Size Options Include:</strong></p>
-    <ul class="brand-description" style="padding-left: 18px;">
-        <li>Small LED Boards: 1 ft x 2 ft, 1 ft x 3 ft (₹8,000 – ₹15,000)</li>
-        <li>Medium LED Boards: 2 ft x 4 ft, 3 ft x 5 ft (₹18,000 – ₹35,000)</li>
-        <li>Large LED Boards: 4 ft x 8 ft (₹40,000 – ₹60,000)</li>
-        <li>Custom Dimensions: Depends on your design & customization.</li>
-    </ul>
-
-    <p class="brand-description">
-        Each board is crafted with high-quality materials, premium LEDs, and weather-resistant finishes. Choose from different lighting styles, including front-lit, backlit, edge-lit, or RGB color-changing LEDs, to match your brand’s identity.
-    </p>
-    <p class="brand-description">
-        Brand Signages provides the best LED name boards in the industry, combining innovative design, superior craftsmanship, and reliable customer service. From consultation to installation, we ensure every board reflects your brand’s personality while delivering lasting impact and visibility.
-    </p>
-</div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <section class="other-cities-section py-5">
+    <!--<section class="other-cities-section py-5">
         <div class="container">
             <h2 class="my-5">Led Sign Board in Other Cities</h2>
             <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
@@ -686,7 +438,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section class="new_client_section container">
         <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
@@ -1215,6 +967,47 @@
 
         </div>
     </section>
+
+        <script>
+        const slides = document.querySelectorAll('.slide');
+        const thumbs = document.querySelectorAll('.thumb');
+        const prevBtn = document.querySelector('.prev');
+        const nextBtn = document.querySelector('.next');
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+
+            thumbs.forEach((thumb, i) => {
+                thumb.classList.toggle('active', i === index);
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        nextBtn.addEventListener('click', nextSlide);
+        prevBtn.addEventListener('click', prevSlide);
+
+        thumbs.forEach(thumb => {
+            thumb.addEventListener('click', () => {
+                currentIndex = parseInt(thumb.dataset.index);
+                showSlide(currentIndex);
+            });
+        });
+
+        // Optional: Auto-play
+        setInterval(nextSlide, 3000);
+    </script>
 
 
 @endsection
