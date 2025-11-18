@@ -415,7 +415,9 @@
 
                 <div class="col-lg-6">
     <p class="fs-20">
-        LED name board pricing varies based on size, material, lighting type, and customization. At <b>Brand Signages</b>, we offer multiple standard and <b>custom-sized options</b> to suit your branding needs.
+        The cost of an LED acrylic sign includes materials and installation. Since signs like an 8-ft shop 
+        board or 20-ft sky sign can’t be handed over, we visit the site to measure the space accurately before 
+        installation.
     </p>
 
     <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
@@ -427,11 +429,12 @@
     </ul>
 
     <p class="fs-20">
-        Each board is crafted with <b>high-quality materials</b>, <b>premium LEDs</b>, and weather-resistant finishes. Choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB color-changing LEDs</b>, to match your brand’s identity.
+        Each board is crafted with <b>high-quality materials</b>, <b>premium LEDs</b>, and weather-resistant finishes. 
+        You can choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB color-changing LEDs</b>, 
+        to match your brand’s identity. We discuss the best materials, help the customer visualize the final sign, and once specifications 
+        are agreed, we determine the cost.
     </p>
-    <p class="fs-20">
-        Brand Signages provides the best LED name boards in the industry, combining innovative design, superior craftsmanship, and reliable customer service.
-    </p>
+
    <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
                             <button class="contact-btn">Book Order Now</button>
                         </a>
