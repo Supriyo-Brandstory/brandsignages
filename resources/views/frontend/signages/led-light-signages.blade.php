@@ -222,7 +222,7 @@
         </div>
     </section>
 
-        <section class="We-Elevate-Brands-section py-5">
+        <section class="We-Elevate-Brands-section">
         <div class="container">
         <div class="text-center mb-4">
             <h2 class="We-Elevate-Brands-heading fw-bold">10 Types of LED & ACP Acrylic Glow Sign <br>Boards - Order at Brand Signages </h2>
