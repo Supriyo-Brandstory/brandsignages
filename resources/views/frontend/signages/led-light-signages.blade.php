@@ -3,38 +3,38 @@
 
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">LED Name Boards</h1>
+            <h1 class="hero-banner_title">LED Glow Sign Boards</h1>
 
         </div>
         <!-- Slider -->
         <div class="slider-wrapper">
             <div class="main-slider">
                 <div class="slide active">
-                    <img src="/frontend/Images/acrylic-led-signboard-6.webp" alt="Main Sign">
+                    <img src="/frontend/Images/acrylic-led-signboard-6.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-sign-board-1.webp" alt="Sign 2">
+                    <img src="/frontend/Images/led-sign-board/led-sign-board-1.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-display-board.webp" alt="Sign 3">
+                    <img src="/frontend/Images/led-sign-board/led-display-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-light-board.webp" alt="Sign 3">
+                    <img src="/frontend/Images/led-sign-board/led-light-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/custom-led-sign-board.webp" alt="Sign 3">
+                    <img src="/frontend/Images/led-sign-board/custom-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-sign-board.webp" alt="Sign 3">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" alt="Sign 3">
+                    <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-name-board.webp" alt="Sign 3">
+                    <img src="/frontend/Images/led-sign-board/led-name-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/outdoor-led-sign-board.webp" alt="Sign 3">
+                    <img src="/frontend/Images/led-sign-board/outdoor-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <!-- Add more slides as needed -->
 
@@ -103,7 +103,7 @@
 
     <section>
         <div class="container" id="">
-            <h2 class="hero-title  mb-4">Shine Brighter, Get Noticed with LED Sign Boards</h2>
+            <h2 class="hero-title  mb-4">Shine Brighter with Acrylic LED Glow Sign Boards</h2>
             <p class=" text-center mb-5 fs-20">Make your brand impossible to ignore with LED name boards from <a
                     style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com"><strong>Brand
                         Signages</strong></a>. Designed to attract
@@ -219,6 +219,125 @@
 
 
             </div> --}}
+        </div>
+    </section>
+
+        <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="We-Elevate-Brands-heading fw-bold">10 Types of LED & ACP Acrylic Glow Sign <br>Boards - Order at Brand Signages </h2>
+        </div>
+
+        <div class="position-relative">
+            <div class="swiper We-Elevate-Brands-swiper pt-60">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                                alt="ACP Mounted Acrylic Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title">ACP Mounted Acrylic Letters</h5>
+                                <p class="We-Elevate-Brands-text">Custom 3D acrylic box letters with a metallic finish and internal LED illumination, mounted on a 
+                                    sleek ACP frame. This premium, glowing sign offers a modern and professional look for corporate or retail spaces.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
+                                alt="3D Acrylic Channel Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title">3D Acrylic Channel Letters</h5>
+                                <p class="We-Elevate-Brands-text">Premium illuminated aluminum channel letter signage with professional 3D construction, featuring aluminum profiles 
+                                    and acrylic faces, ideal for corporate offices and retail store branding.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                                alt="Stencil Cut Acrylic Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title">Stencil Cut Acrylic Signage</h5>
+                                <p class="We-Elevate-Brands-text">2D Stencil Cut Acrylic Signboards, perfect for intricate details and multi-content displays. Ideal for shop fronts 
+                                    requiring information like timings, contact details, and taglines.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/acrylic-sign.webp')}}" class="card-img-center"
+                                alt="Wall Mounted 3D Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title">Wall Mounted 3D Letters</h5>
+                                <p class="We-Elevate-Brands-text">Illuminated 3D letters with internal LEDs, designed for direct wall mounting without a baseboard. They offer a sleek, 
+                                    modern appearance by appearing to float directly on the surface.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/retail-sign.webp')}}" class="card-img-center"
+                                alt="Backlit Metal Letter Signs">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title">Backlit Metal Letter Signs</h5>
+                                <p class="We-Elevate-Brands-text">Premium metal letter signs in luxury finishes like gold and chrome, featuring a subtle LED back-glow for elegant accent 
+                                    lighting. Ideal for sophisticated interiors and well-lit corporate spaces.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/outdoor-sign.webp')}}" class="card-img-center"
+                                alt="Glittering Acrylic Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title">Glittering Acrylic Letters</h5>
+                                <p class="We-Elevate-Brands-text">Sparkling crystal-accented 3D acrylic letters that create a luxurious, glittering effect. Ideal for adding festive bling 
+                                    to jewellery stores, boutiques, and premium restaurants.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
+                                alt="Vibrant Neon Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title">Vibrant Neon Signage</h5>
+                                <p class="We-Elevate-Brands-text">Vibrant neon signs with their iconic glow, perfect for creating a retro, high-energy atmosphere. Ideal for bars, lounges,
+                                     and entertainment venues seeking standout visual appeal.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/dot-matrix.webp')}}" class="card-img-center"
+                                alt="Open LED Dot Matrix Signs">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title">Open LED Dot Matrix Signs</h5>
+                                <p class="We-Elevate-Brands-text">Open Dot LED signs feature exposed, intensely bright pinpoints of light for maximum visibility. This bold, high-impact solution 
+                                    ensures your shop front stands out, ideal for creating a flashy display.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Arrows -->
+                <div class="We-Elevate-Brands-nav ">
+                    <!-- Swap order: prev on left, next on right -->
+                    <div class="We-Elevate-Brands-button-prev"></div>
+                    <div class="We-Elevate-Brands-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+
+       
         </div>
     </section>
 
