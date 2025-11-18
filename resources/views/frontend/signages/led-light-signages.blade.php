@@ -57,7 +57,7 @@
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">LED Name Boards - 10 Acrylic LED Sign Board Options</h1>
+            <h1 class="hero-banner_title">LED Name Boards- 20+ Acrylic LED Shop Sign Board Options</h1>
             <p class="subtitle">Eye-Catching LED Shop Boards That Attract Customers Into Your Store</p>
 
             <div class="divider"></div>
