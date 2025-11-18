@@ -2822,7 +2822,7 @@ ul.brand-list {
 
         @media (max-width: 768px) {
             .newly-bannersection{
-                margin-bottom: 0px;
+                margin-bottom: 20px;
             .content {
                 padding: 55px 30px 10px;
             }
