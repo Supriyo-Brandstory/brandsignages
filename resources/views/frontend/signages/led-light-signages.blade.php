@@ -442,6 +442,41 @@
         </div>
     </section>
 
+        <section>
+        <div class="container pt-5">
+            <h2 class="hero-title">From Query to Concept and Reality: Our Quote Process</h2>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{asset('frontend/Images/digital-signages-banner-1.webp')}}" alt="Digital Signage installed in retail space by Brand Signages"
+                            class="img-fluid">
+                    </div>
+                </div>
+
+             <div class="col-lg-6">
+
+    <p class="fs-20">
+        At <strong>Brand Signages</strong>, we make getting a signage quote simple and transparent:
+    </p>
+
+    <ol class="fs-20">
+        <li><strong>Site Check:</strong> We visit your location to confirm measurements and assess installation feasibility.</li>
+        <li><strong>Design & Artwork:</strong> Whether you have a ready design or just a logo, we create a layout that highlights your brand name, tagline, and identity.</li>
+        <li><strong>Material Selection:</strong> Choose from our wide range of acrylic, ACP, and LED options with samples to guide your decision.</li>
+        <li><strong>3D Preview:</strong> We provide a 3D render showing dimensions, materials, and lighting, so you know exactly how your sign will look.</li>
+        <li><strong>Clear Quoting:</strong> With specifications and visuals in hand, you can compare options confidently and avoid surprises at installation.</li>
+    </ol>
+
+    <p class="fs-20">
+        At <strong>Brand Signages</strong>, we combine clarity, quality, and design to deliver signage that perfectly represents your brand.
+    </p>
+
+</div>
+            </div>
+        </div>
+    </section>
+
         <section class="new-recent-works">
         <div class="container">
             <h2 class="hero-title  mb-6">Our Recent Sign Board Projects</h2>
