@@ -110,9 +110,9 @@
                 attention from every angle, our sign boards ensure your business stands out in crowded streets and busy
                 commercial areas. With
                 vibrant colors, sharp visuals, and eye-catching designs, these boards turn heads and leave a lasting
-                impression on every passerby.<br></br>
+                impression on every passerby.
                 LED name boards are not just visually striking- they’re functional, energy-efficient, and built for
-                longevity.
+                longevity.<br><br>
                 Whether for <a style="color: #E43D12;text-decoration: none;" href="/indoor-signages"><strong>indoor
                         branding</strong></a>, <a style="color: #E43D12;text-decoration: none;"
                     href="/name-board-designs-for-shops-bangalore"><strong>shop name

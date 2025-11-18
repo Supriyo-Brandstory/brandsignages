@@ -2012,7 +2012,7 @@ ul.brand-list {
     }
 
     .new_custom-heading {
-        font-size: 22px;
+        font-size: 30px;
     }
 }
 
@@ -2488,7 +2488,7 @@ ul.brand-list {
 
 @media (max-width: 767px) {
     .fs-20 {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
