@@ -266,18 +266,18 @@
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">Brilliant LED Name Boards That Make Your Brand Shine</h1>
+            <h1 class="hero-banner_title">LED Name Boards - 10 Acrylic LED Sign Board Options</h1>
             <p class="subtitle">Eye-Popping Shop Boards to Impress Customers and Entice Them to Step In Your Store</p>
 
             <div class="divider"></div>
 
             <ul class="features">
-                <li>Choose from 10 different premium shop-sign options</li>
-                <li>Built using new-age material like acrylic, LEDs, and ACP</li>
-                <li>3D form-factor to highlight your logos and shop name</li>
-                <li>Distinctive LED glow to attract customer attention</li>
-                <li>End-to-End services including fabrication and on-site installation</li>
-                <li>An investment that will yield major returns in terms of visibility</li>
+                <li>Browse 10 different shop-sign design options</li>
+                <li>Crafted using quality material like acrylic, LEDs, and ACP</li>
+                <li>3D letters to highlight your logos and shop name</li>
+                <li>Attractive LED glow boards to attract attention</li>
+                <li>Full-service including design and on-site installation</li>
+                <li>Active support services with 24/7 active hotline</li>
             </ul>
 
             <div class="buttons">
@@ -642,6 +642,9 @@
 
     <p class="brand-description">
         Each board is crafted with high-quality materials, premium LEDs, and weather-resistant finishes. Choose from different lighting styles, including front-lit, backlit, edge-lit, or RGB color-changing LEDs, to match your brand’s identity.
+    </p>
+    <p class="brand-description">
+        Brand Signages provides the best LED name boards in the industry, combining innovative design, superior craftsmanship, and reliable customer service. From consultation to installation, we ensure every board reflects your brand’s personality while delivering lasting impact and visibility.
     </p>
 </div>
 
