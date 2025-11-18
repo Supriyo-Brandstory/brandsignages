@@ -443,7 +443,7 @@
     </section>
 
         <section>
-        <div class="container pt-5">
+        <div class="py-lg-5 py-md-3 py-sm-2 py-3">
             <h2 class="hero-title">From Query to Concept and Reality: Our Quote Process</h2>
 
             <div class="row align-items-center">
