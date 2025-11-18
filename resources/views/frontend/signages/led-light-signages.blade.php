@@ -414,22 +414,22 @@
                 </div>
 
                 <div class="col-lg-6">
-    <p class="brand-description">
+    <p class="fs-20">
         LED name board pricing varies based on size, material, lighting type, and customization. At <b>Brand Signages</b>, we offer multiple standard and <b>custom-sized options</b> to suit your branding needs.
     </p>
 
-    <p class="brand-description"><strong>Popular Size Options Include:</strong></p>
-    <ul class="brand-description" style="padding-left: 18px;">
+    <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
+    <ul class="fs-20" style="padding-left: 18px;">
         <li><b>Small LED Boards:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹8,000 – ₹15,000)</li>
         <li><b>Medium LED Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹18,000 – ₹35,000)</li>
         <li><b>Large LED Boards:</b> 4 ft x 8 ft (₹40,000 – ₹60,000)</li>
         <li><b>Custom Dimensions:</b> Depends on your design & customization.</li>
     </ul>
 
-    <p class="brand-description">
+    <p class="fs-20">
         Each board is crafted with <b>high-quality materials</b>, <b>premium LEDs</b>, and weather-resistant finishes. Choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB color-changing LEDs</b>, to match your brand’s identity.
     </p>
-    <p class="brand-description">
+    <p class="fs-20">
         Brand Signages provides the best LED name boards in the industry, combining innovative design, superior craftsmanship, and reliable customer service.
     </p>
    <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
