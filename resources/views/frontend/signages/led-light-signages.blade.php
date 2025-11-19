@@ -8,44 +8,44 @@
         </div>
         <!-- Slider -->
         <div class="slider-wrapper">
-
-            <div class="main-slider">
-                <div class="slide active">
-                    <img src="/frontend/Images/acrylic-led-signboard-6.webp" alt="Acrylic LED Glow Sign Board">
-                </div>
-                <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-sign-board-1.webp" alt="Acrylic LED Glow Sign Board">
-                </div>
-                <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-display-board.webp" alt="Acrylic LED Glow Sign Board">
-                </div>
-                <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-light-board.webp" alt="Acrylic LED Glow Sign Board">
-                </div>
-                <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/custom-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
-                </div>
-                <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
-                </div>
-                <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" alt="Acrylic LED Glow Sign Board">
-                </div>
-                <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-name-board.webp" alt="Acrylic LED Glow Sign Board">
-                </div>
-                <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/outdoor-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
-                </div>
-                <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-product.webp" alt="Acrylic LED Sign Board Product Description">
-                </div>
-            </div>
-
-            <!-- Navigation should be OUTSIDE -->
-            <div class="nav-arrow prev">&#8249;</div>
-            <div class="nav-arrow next">&#8250;</div>
+    <div class="main-slider">
+        <div class="slide active">
+            <img src="/frontend/Images/acrylic-led-signboard-6.webp" alt="Acrylic LED Glow Sign Board">
         </div>
+        <div class="slide">
+            <img src="/frontend/Images/led-sign-board/led-sign-board-1.webp" alt="Acrylic LED Glow Sign Board">
+        </div>
+        <div class="slide">
+            <img src="/frontend/Images/led-sign-board/led-display-board.webp" alt="Acrylic LED Glow Sign Board">
+        </div>
+        <div class="slide">
+            <img src="/frontend/Images/led-sign-board/led-light-board.webp" alt="Acrylic LED Glow Sign Board">
+        </div>
+        <div class="slide">
+            <img src="/frontend/Images/led-sign-board/custom-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
+        </div>
+        <div class="slide">
+            <img src="/frontend/Images/led-sign-board/acrylic-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
+        </div>
+        <div class="slide">
+            <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" alt="Acrylic LED Glow Sign Board">
+        </div>
+        <div class="slide">
+            <img src="/frontend/Images/led-sign-board/led-name-board.webp" alt="Acrylic LED Glow Sign Board">
+        </div>
+        <div class="slide">
+            <img src="/frontend/Images/led-sign-board/outdoor-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
+        </div>
+        <div class="slide">
+            <img src="/frontend/Images/led-sign-board/acrylic-led-product.webp" alt="Acrylic LED Sign Board Product Description">
+        </div>
+        <!-- Add more slides as needed -->
+
+        <div class="nav-arrow prev">&#8249;</div>
+        <div class="nav-arrow next">&#8250;</div>
+    </div>
+</div>
+
 
 
             <div class="thumbnails">
