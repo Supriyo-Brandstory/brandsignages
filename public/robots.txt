@@ -10,3 +10,19 @@ Disallow: /
 
 # Sitemap location
 Sitemap: https://www.brandsignages.com/sitemap.xml
+
+
+
+
+# Block entire vendor directory
+Disallow: /brandsignages/vendor/
+
+# Block resources/views folders
+Disallow: /brandsignages/resources/
+
+# Block specific files if needed
+Disallow: /brandsignages/resources/views/vendor/
+Disallow: /brandsignages/resources/views/vendor/pagination/
+
+# Block duplicated /brandsignages/ folder path if required
+Disallow: /brandsignages/brandsignages/
