@@ -2884,3 +2884,14 @@ ul.brand-list {
         flex: 1 1 100%;
     }
 }
+
+.material-img img {
+    width: 75%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .material-img img {
+        width: 100%;
+    }
+}

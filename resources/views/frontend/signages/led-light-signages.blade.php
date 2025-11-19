@@ -566,9 +566,12 @@
                         </ul>
                         <p class="fs-20">
                         With these materials and lighting options, skilled signmakers can design eye-catching shop boards in countless shapes and sizes, making your storefront truly unique.
-                        Many of these feature striking 3D designs, with letters and logos projecting 2–3 inches from the base. We also display sleek, 2D stencil-cut boards where the letters are seamlessly carved into the ACP base.<br><br>
-                        For those looking beyond acrylic, metal letter boards are also available in elegant finishes such as gold, chrome, copper, rose gold, and brushed textures. Larger installations like Sky Signs, designed for rooftops or tall buildings, are crafted from more robust materials to withstand exposure and weather.<br><br>
-                        For a more dramatic, festive look ideal for restaurants or nightclubs, our exotic options include <strong>crystal-studded letters</strong>, <strong>Open Dot LED illumination</strong>, and flexible <strong>neon LED rope designs</strong>. With so many combinations of colours, materials, and lighting, the possibilities are limited only by imagination.</p>
+                        Many of these feature <b>striking 3D designs</b>, with letters and logos projecting 2–3 inches from the base. We also display sleek, <b>2D stencil-cut boards</b> where the letters are seamlessly carved into the ACP base.<br><br>
+                        For those looking beyond acrylic, metal letter boards are also available in elegant finishes such as gold, chrome, copper, rose gold, and brushed textures.</p> 
+                        <p class="fs-20">
+                        Larger installations like Sky Signs, designed for rooftops or tall buildings, are crafted from more robust materials to withstand exposure and weather.<br><br>
+                        For a more dramatic, festive look ideal for restaurants or nightclubs, our exotic options include <strong>crystal-studded letters</strong>, <strong>Open Dot LED illumination</strong>, and flexible <strong>neon LED rope designs</strong>. With 
+                        so many combinations of colours, materials, and lighting, the possibilities are limited only by imagination.</p>
 
                         <h3 class="mb-4"><strong>Choosing the Right Shop Board for Your Business</strong></h3>
                         <p class="fs-20">
@@ -588,10 +591,9 @@
                         <li><strong>The Letters or Logos</strong> – Usually crafted from polished acrylic for a glass-like, high-end finish.</li>
                         <li><strong>Lighting Elements</strong> – Embedded LEDs bring the letters to life, producing a variety of colours and effects.</li>
                         </ul>
-                            <div class="image-item" style="text-align:center;">
+                            <div class="image-item material-img" style="text-align:center;">
                                 <img src="/frontend/Images/led-sign-board/material-specifications.jpg" 
-                                    alt="3D Acrylic LED Sign Board - Material Specifications"
-                                    style="width:75%; height:auto;">
+                                    alt="3D Acrylic LED Sign Board - Material Specifications">
                                 <p>3D Acrylic LED Sign Board - Material Specifications</p>
                             </div>
 
