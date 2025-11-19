@@ -440,7 +440,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/digital-signages-banner-1.webp')}}" alt="Digital Signage installed in retail space by Brand Signages"
+                        <img src="{{asset('frontend/Images/home/our-quote-process.jpg')}}" alt="Digital Signage installed in retail space by Brand Signages"
                             class="img-fluid">
                     </div>
                 </div>
@@ -588,6 +588,13 @@
                         <li><strong>The Letters or Logos</strong> – Usually crafted from polished acrylic for a glass-like, high-end finish.</li>
                         <li><strong>Lighting Elements</strong> – Embedded LEDs bring the letters to life, producing a variety of colours and effects.</li>
                         </ul>
+                            <div class="image-item" style="text-align:center;">
+                                <img src="/frontend/Images/led-sign-board/material-specifications.jpg" 
+                                    alt="3D Acrylic LED Sign Board - Material Specifications"
+                                    style="width:75%; height:auto;">
+                                <p>3D Acrylic LED Sign Board - Material Specifications</p>
+                            </div>
+
                         <p class="fs-20">For a deep dive into these materials, their construction, and the process behind modern 3D signboards, you can explore the detailed section at the end of this page. It’s a fascinating look at how creativity and technology combine to make storefronts stand out.
                         </p>
 
