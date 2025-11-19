@@ -3,7 +3,7 @@
 
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">Acrylic LED Glow Sign Boards</h1>
+            <h1 class="hero-banner_title">3D Acrylic LED Sign Boards</h1>
 
         </div>
         <!-- Slider -->
@@ -65,8 +65,8 @@
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">LED Name Boards- 10+ Acrylic LED Shop Sign Board Options</h1>
-            <p class="subtitle">Eye-Catching LED Shop Boards That Attract Customers Into Your Store</p>
+            <h1 class="hero-banner_title">LED Acrylic Boards- 10+ Iconic 3D Glow Sign Board Options</h1>
+            <p class="subtitle">Eye-Catching LED Shop Name Boards That Attract Customers Into Your Store</p>
 
             <div class="divider"></div>
 
@@ -90,7 +90,7 @@
 
 
 
-    {{-- <section class="hero-banner"
+    <!--<section class="hero-banner"
         style="background-image: url('{{ asset('/frontend/Images/led-sign-board/led-sign-boards.webp') }}');">
         <div class="container">
             <div class="row">
@@ -105,7 +105,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>-->
 
 
 
@@ -119,7 +119,7 @@
                 more than just a display of your brand name. It acts as the store’s ambassador, making a bold statement about 
                 your business. A well-designed sign can literally make people pause and take notice, compelling them to step 
                 through your doors.</p>
-                <p class=" text-center fs-20"><b>Acrylic LED sign boards</b>, especially those with metallic finishes and backlit elements, create a striking visual impact. Imagine polished gold 
+                <p class=" text-center fs-20"><b>Acrylic LED sign boards</b>, especially those with metallic finishes and backlit elements, create a iconic visual impact. Imagine polished gold 
                 letters mounted on crisp white acrylic, laser-cut with precision, glowing softly to highlight your brand. Different types of signage serve different roles. Flashing lights grab immediate 
                 attention, while neon signs in vibrant hues evoke energy and excitement, perfect for stores with a lively, festive vibe.</p>
                 <p class=" text-center fs-20">Conversely, <b>3D acrylic LED sign boards</b> with a gold finish or subtle illumination communicate luxury and quality, signaling to customers that your 
@@ -565,7 +565,7 @@
         <div class="container pt-5" id="">
             <h2 class="hero-title  mb-4">Endless Options for Shop Sign Boards</h2>
                 <p class="fs-20">
-                        Shop boards today come in an astonishing variety of styles, colours, and materials. Acrylic sheets, for instance, are available in multiple shades and thicknesses, while LEDs can range from warm-white to crisp white, giving store owners plenty of flexibility. But the options don’t stop there; modern sign boards offer:<br></p>
+                        Shop name boards today come in an astonishing variety of styles, colours, and materials. Acrylic sheets, for instance, are available in multiple shades and thicknesses, while LEDs can range from warm-white to crisp white, giving store owners plenty of flexibility. But the options don’t stop there; modern sign boards offer:<br></p>
                         <ul class="fs-20">
                         <li>Vibrant neon and fluorescent colors</li>
                         <li>Flashing or dynamic light effects</li>
@@ -573,7 +573,7 @@
                         <li>Programmable RGB LED lighting</li>
                         </ul>
                         <p class="fs-20">
-                        With these materials and lighting options, skilled signmakers can design eye-catching shop boards in countless shapes and sizes, making your storefront truly unique.
+                        With these materials and lighting options, skilled signmakers can design eye-catching shop name boards in countless shapes and sizes, making your storefront truly unique.
                         Many of these feature <b>striking 3D designs</b>, with letters and logos projecting 2–3 inches from the base. We also display sleek, <b>2D stencil-cut boards</b> where the letters are seamlessly carved into the ACP base.<br><br>
                         For those looking beyond acrylic, metal letter boards are also available in elegant finishes such as gold, chrome, copper, rose gold, and brushed textures.</p> 
                         <p class="fs-20">
@@ -581,7 +581,7 @@
                         For a more dramatic, festive look ideal for restaurants or nightclubs, our exotic options include <strong>crystal-studded letters</strong>, <strong>Open Dot LED illumination</strong>, and flexible <strong>neon LED rope designs</strong>. With 
                         so many combinations of colours, materials, and lighting, the possibilities are limited only by imagination.</p>
 
-                        <h3 class="mb-4"><strong>Choosing the Right Shop Board for Your Business</strong></h3>
+                        <h3 class="mb-4"><strong>Choosing the Right Shop Name Board for Your Business</strong></h3>
                         <p class="fs-20">
                         Selecting the ideal signage for your store is crucial, as the right design can set the tone for your brand. Today, businesses can choose from a variety of acrylic glow signboards and premium LED options:</p>
                         <ul class="fs-20">
@@ -591,7 +591,7 @@
                         </ul>
                         <p class="fs-20">With so many possibilities, it’s normal to feel overwhelmed. That’s why our team is here to guide you in selecting the signboard that perfectly matches your business’s personality and goals.</p>
 
-                        <h3 class="mb-4"><strong>Materials Used in Modern 3D Shop Boards</strong></h3>
+                        <h3 class="mb-4"><strong>Materials Used in Modern 3D Shop Name Boards</strong></h3>
                         <p class="fs-20">
                         Every high-quality signboard generally consists of three main elements:<br>
                         <ul class="fs-20">
@@ -1054,7 +1054,7 @@
 
     <h3 class="mb-4"><strong>Practical Applications:</strong></h3>
     <ul>
-        <li class="fs-20">High-end retail shop boards and <a style="color: #E43D12;text-decoration: none;" href="blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"><strong>tailoring shop board</strong></a></li>
+        <li class="fs-20">High-end retail shop boards and <a style="color: #E43D12;text-decoration: none;" href="blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"><strong>tailoring shop name board</strong></a></li>
         <li class="fs-20">Hotel and restaurant signage</li>
         <li class="fs-20">Corporate office nameboards</li>
         <li class="fs-20">Indoor wayfinding or decorative panels</li>
