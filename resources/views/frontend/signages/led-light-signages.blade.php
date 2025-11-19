@@ -36,6 +36,9 @@
                 <div class="slide">
                     <img src="/frontend/Images/led-sign-board/outdoor-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
+                <div class="slide">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-product.webp" alt="Acrylic LED Sign Board Product Description">
+                </div>
                 <!-- Add more slides as needed -->
 
                 <div class="nav-arrow prev">&#8249;</div>
@@ -592,7 +595,7 @@
                         <li><strong>Lighting Elements</strong> – Embedded LEDs bring the letters to life, producing a variety of colours and effects.</li>
                         </ul>
                             <div class="image-item material-img" style="text-align:center;">
-                                <img src="/frontend/Images/led-sign-board/material-specifications.jpg" 
+                                <img src="/frontend/Images/led-sign-board/acrylic-led-specifications.webp" 
                                     alt="3D Acrylic LED Sign Board - Material Specifications">
                                 <p>3D Acrylic LED Sign Board - Material Specifications</p>
                             </div>
