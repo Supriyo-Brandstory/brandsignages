@@ -57,18 +57,18 @@
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">LED Name Boards- 12+ Acrylic LED Shop Sign Board Options</h1>
+            <h1 class="hero-banner_title">LED Name Boards- 10+ Acrylic LED Shop Sign Board Options</h1>
             <p class="subtitle">Eye-Catching LED Shop Boards That Attract Customers Into Your Store</p>
 
             <div class="divider"></div>
 
             <ul class="features">
-                <li>Browse 10 different shop-sign design options</li>
-                <li>Crafted using quality material like acrylic, LEDs, and ACP</li>
-                <li>3D letters to highlight your logos and shop name</li>
+                <li>Browse 10+ different shop-sign design options</li>
+                <li>Crafted using quality material- acrylic, LEDs, and ACP</li>
+                <li>3D LED letters to highlight your shop name</li>
                 <li>Attractive LED glow boards to attract attention</li>
                 <li>Full-service including design and on-site installation</li>
-                <li>Active support with 24/7 active hotline</li>
+                <li>Active support services with 24/7 active hotline</li>
             </ul>
 
             <div class="buttons">
