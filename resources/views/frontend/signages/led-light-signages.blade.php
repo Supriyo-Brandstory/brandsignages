@@ -600,7 +600,7 @@
                             <div class="image-item material-img" style="text-align:center;">
                                 <img src="/frontend/Images/led-sign-board/acrylic-led-specification.webp" 
                                     alt="3D Acrylic LED Sign Board - Material Specifications">
-                                <p>3D Acrylic LED Sign Board - Material Specifications</p>
+                                <p>3D Acrylic LED Sign Board - Material Specifications </p>
                             </div>
 
                         <p class="fs-20">For a deep dive into these materials, their construction, and the process behind modern 3D signboards, you can explore the detailed section at the end of this page. It’s a fascinating look at how creativity and technology combine to make storefronts stand out.
