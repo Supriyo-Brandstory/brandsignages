@@ -38,7 +38,7 @@
                     <img src="/frontend/Images/led-sign-board/outdoor-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-product.webp" alt="Acrylic LED Sign Board Spefifications">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" alt="Acrylic LED Sign Board Spefifications">
                 </div>
               
             </div>
@@ -59,7 +59,7 @@
                 <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" class="thumb" data-index="6">
                 <img src="/frontend/Images/led-sign-board/led-name-board.webp" class="thumb" data-index="7">
                 <img src="/frontend/Images/led-sign-board/outdoor-led-sign-board.webp" class="thumb" data-index="8">
-                <img src="/frontend/Images/led-sign-board/acrylic-led-product.webp" class="thumb" data-index="9">
+                <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" class="thumb" data-index="9">
             </div>
         </div>
 
