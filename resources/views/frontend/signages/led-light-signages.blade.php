@@ -14,7 +14,7 @@
                     <img src="/frontend/Images/acrylic-led-signboard-6.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-sign-board-1.webp" alt="Acrylic LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-letter-boards-23.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
                     <img src="/frontend/Images/led-sign-board/led-display-board.webp" alt="Acrylic LED Glow Sign Board">
@@ -23,10 +23,10 @@
                     <img src="/frontend/Images/led-sign-board/led-light-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/custom-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-sign-product-22.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/3d-crystal-led-prodct.webp" alt="3D Crystal LED Glow Sign Board">
                 </div>
                 <div class="slide">
                     <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" alt="Acrylic LED Glow Sign Board">
@@ -35,7 +35,7 @@
                     <img src="/frontend/Images/led-sign-board/led-name-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/outdoor-led-sign-board.webp" alt="Acrylic LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-glow-sign-golden-letters.webp" alt="Golden glow LED Glow Sign Board">
                 </div>
                 <div class="slide">
                     <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" alt="Acrylic LED Sign Board Spefifications">
@@ -51,14 +51,14 @@
 
             <div class="thumbnails">
                 <img src="/frontend/Images/acrylic-led-signboard-6.webp" class="thumb active" data-index="0">
-                <img src="/frontend/Images/led-sign-board/led-sign-board-1.webp" class="thumb" data-index="1">
+                <img src="/frontend/Images/led-sign-board/led-letter-boards-23.webp" class="thumb" data-index="1">
                 <img src="/frontend/Images/led-sign-board/led-display-board.webp" class="thumb" data-index="2">
                 <img src="/frontend/Images/led-sign-board/led-light-board.webp" class="thumb" data-index="3">
-                <img src="/frontend/Images/led-sign-board/custom-led-sign-board.webp" class="thumb" data-index="4">
-                <img src="/frontend/Images/led-sign-board/acrylic-led-sign-board.webp" class="thumb" data-index="5">
+                <img src="/frontend/Images/led-sign-board/led-sign-product-22.webp" class="thumb" data-index="4">
+                <img src="/frontend/Images/led-sign-board/3d-crystal-led-prodct.webp" class="thumb" data-index="5">
                 <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" class="thumb" data-index="6">
                 <img src="/frontend/Images/led-sign-board/led-name-board.webp" class="thumb" data-index="7">
-                <img src="/frontend/Images/led-sign-board/outdoor-led-sign-board.webp" class="thumb" data-index="8">
+                <img src="/frontend/Images/led-sign-board/led-glow-sign-golden-letters.webp" class="thumb" data-index="8">
                 <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" class="thumb" data-index="9">
             </div>
         </div>
@@ -126,9 +126,9 @@
                                             <p>3D Crystal Letter LED Sign Board (3D Letter LED Sign)</p>
                                         </div>
                                         <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/3d-led-sign-board-for-shops-1.webp" 
-                                                alt="3D LED Letter Sign & Neon Sign Board (3D Letter LED Signs & Neon Sign Boards for Shop)">
-                                            <p>3D LED Letter Sign & Neon Sign Board (3D Letter LED Signs & Neon Sign Boards for Shop)</p>
+                                            <img src="/frontend/Images/led-sign-board/led-sign-boards-for-shop.webp" 
+                                                alt="3D LED Letter Sign & Neon Sign Board (3D Letter VenHussen LED Signs for Shop)">
+                                            <p>3D LED Letter Sign & Neon Sign Board (3D Letter VenHussen LED Boards for Shop)</p>
                                         </div>
                                     </div>
                 <p class=" text-center fs-20"><b>Acrylic LED sign boards</b>, especially those with metallic finishes and backlit elements, create a iconic visual impact. Imagine polished gold 
