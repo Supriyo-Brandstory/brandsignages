@@ -1708,46 +1708,59 @@
         </div>
     </section>
 
-        <script>
-        const slides = document.querySelectorAll('.slide');
-        const thumbs = document.querySelectorAll('.thumb');
-        const prevBtn = document.querySelector('.prev');
-        const nextBtn = document.querySelector('.next');
-        let currentIndex = 0;
+<script>
+    const slides = document.querySelectorAll('.slide');
+    const thumbs = document.querySelectorAll('.thumb');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    let currentIndex = 0;
 
-        function showSlide(index) {
-            slides.forEach((slide, i) => {
-                slide.classList.toggle('active', i === index);
-            });
+    let autoPlay = setInterval(nextSlide, 3000); // store interval
 
-            thumbs.forEach((thumb, i) => {
-                thumb.classList.toggle('active', i === index);
-            });
-        }
-
-        function nextSlide() {
-            currentIndex = (currentIndex + 1) % slides.length;
-            showSlide(currentIndex);
-        }
-
-        function prevSlide() {
-            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-            showSlide(currentIndex);
-        }
-
-        nextBtn.addEventListener('click', nextSlide);
-        prevBtn.addEventListener('click', prevSlide);
-
-        thumbs.forEach(thumb => {
-            thumb.addEventListener('click', () => {
-                currentIndex = parseInt(thumb.dataset.index);
-                showSlide(currentIndex);
-            });
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.toggle('active', i === index);
         });
 
-        // Optional: Auto-play
-        setInterval(nextSlide, 3000);
-    </script>
+        thumbs.forEach((thumb, i) => {
+            thumb.classList.toggle('active', i === index);
+        });
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        showSlide(currentIndex);
+    }
+
+    function stopAutoPlay() {
+        clearInterval(autoPlay);
+        autoPlay = null;
+    }
+
+    nextBtn.addEventListener('click', () => {
+        stopAutoPlay();
+        nextSlide();
+    });
+
+    prevBtn.addEventListener('click', () => {
+        stopAutoPlay();
+        prevSlide();
+    });
+
+    thumbs.forEach(thumb => {
+        thumb.addEventListener('click', () => {
+            stopAutoPlay();
+            currentIndex = parseInt(thumb.dataset.index);
+            showSlide(currentIndex);
+        });
+    });
+</script>
+
 
 
 @endsection
