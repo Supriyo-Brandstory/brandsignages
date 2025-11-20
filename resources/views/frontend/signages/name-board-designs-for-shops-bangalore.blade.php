@@ -21,7 +21,8 @@
     <section class="instant-pricing">
         <div class="container pt-5">
             <h2>Affordable Shop Name Boards <br>for Outdoor Advertising</h2>
-            <p>Searching for a budget-friendly shop name board price estimate? Brand Signages provides 
+            <p>Searching for a budget-friendly <a style="color: #E43D12;text-decoration: none;"
+                            href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>shop name board</strong></a>price estimate? Brand Signages provides 
                 customized signage at fair, <b>transparent rates</b> with <b>quick turnaround</b> and <b>expert installation</b> along with <b>4-5 years warranty</b>. 
                 Whether you're checking shop name board prices locally or exploring online options, we ensure clarity, 
                 quality, and long-lasting performance with every design.</p>
@@ -107,7 +108,7 @@
                             reliability and quality, two things every customer looks for before stepping inside.
                         </li>
                         <div class="mt-4">
-                            <a href="https://brandsignages.com/blogs/shop-name-board" class="custom-btn">Browse Design
+                            <a href="https://brandsignages.com/led-acrylic-3d-glow-sign-board" class="custom-btn">Browse Design
                                 Ideas</a>
                         </div>
                 </div>
@@ -218,7 +219,7 @@
                                     alt="Metal Signage">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
-                                            href="https://brandsignages.com/metal-signages">Metal Name Boards</a></h5>
+                                            href="https://brandsignages.com/led-acrylic-3d-glow-sign-board">Metal Name Boards</a></h5>
                                     <p class="We-Elevate-Brands-text">Stainless steel shop boards are among the most durable
                                         & cost-effective options for businesses.
                                         We design stainless steel name boards in custom sizes and styles to reflect your
@@ -233,7 +234,7 @@
                                     alt="Metal Signage">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
-                                            href="https://brandsignages.com/led-light-signages">LED Name Boards</a></h5>
+                                            href="https://brandsignages.com/led-acrylic-3d-glow-sign-board">Acrylic LED Name Boards</a></h5>
                                     <p class="We-Elevate-Brands-text">LED shop boards are a modern and versatile choice for
                                         impactful branding. We craft high-quality
                                         LED name boards that make your business shine bright, day and night. </p>
@@ -259,7 +260,7 @@
                                     alt="Metal Signage">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
-                                            href="https://brandsignages.com/arcylic-signages">Acrylic Name Boards</a></h5>
+                                            href="https://brandsignages.com/led-acrylic-3d-glow-sign-board">Acrylic Name Boards</a></h5>
                                     <p class="We-Elevate-Brands-text">Acrylic shop boards are a popular choice for their
                                         sleek finish and long-lasting appeal. We
                                         design acrylic name boards with exceptional precision and durability.</p>
