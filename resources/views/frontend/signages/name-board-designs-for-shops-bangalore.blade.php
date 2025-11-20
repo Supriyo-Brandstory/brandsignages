@@ -22,7 +22,7 @@
         <div class="container pt-5">
             <h2>Affordable Shop Name Boards <br>for Outdoor Advertising</h2>
             <p>Searching for a budget-friendly <a style="color: #E43D12;text-decoration: none;"
-                            href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>shop name board</strong></a>price estimate? Brand Signages provides 
+                            href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>shop name board</strong></a> price estimate? Brand Signages provides 
                 customized signage at fair, <b>transparent rates</b> with <b>quick turnaround</b> and <b>expert installation</b> along with <b>4-5 years warranty</b>. 
                 Whether you're checking shop name board prices locally or exploring online options, we ensure clarity, 
                 quality, and long-lasting performance with every design.</p>
