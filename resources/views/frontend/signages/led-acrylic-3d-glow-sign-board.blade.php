@@ -23,7 +23,7 @@
                     <img src="/frontend/Images/led-sign-board/led-light-board.webp" alt="Acrylic LED Glow Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-sign-product-22.webp" alt="Acrylic LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-sign-product-23.webp" alt="Acrylic LED Glow Sign Board for Shop">
                 </div>
                 <div class="slide">
                     <img src="/frontend/Images/led-sign-board/3d-crystal-led-prodct.webp" alt="3D Crystal LED Glow Sign Board">
@@ -54,7 +54,7 @@
                 <img src="/frontend/Images/led-sign-board/led-letter-boards-23.webp" class="thumb" data-index="1">
                 <img src="/frontend/Images/led-sign-board/led-display-board.webp" class="thumb" data-index="2">
                 <img src="/frontend/Images/led-sign-board/led-light-board.webp" class="thumb" data-index="3">
-                <img src="/frontend/Images/led-sign-board/led-sign-product-22.webp" class="thumb" data-index="4">
+                <img src="/frontend/Images/led-sign-board/led-sign-product-23.webp" class="thumb" data-index="4">
                 <img src="/frontend/Images/led-sign-board/3d-crystal-led-prodct.webp" class="thumb" data-index="5">
                 <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" class="thumb" data-index="6">
                 <img src="/frontend/Images/led-sign-board/led-name-board.webp" class="thumb" data-index="7">
