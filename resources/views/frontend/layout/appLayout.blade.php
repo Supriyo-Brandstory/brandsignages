@@ -374,6 +374,8 @@
                                 style="color: red;"></i></a>
                         <a href="https://www.facebook.com/BrandSignagesIndia/" target="_blank"><i
                                 class="fab fa-facebook fa-2x" style="color: #1877F2;"></i></a>
+                        <a href="https://in.pinterest.com/brandsignages/" target="_blank"><i
+                                class="fab fa-pinterest fa-2x" style="color: #1877F2;"></i></a>
                     </div>
                 </div>
 
