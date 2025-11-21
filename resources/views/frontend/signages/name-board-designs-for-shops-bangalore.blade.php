@@ -51,16 +51,16 @@
 
 
             <div class="thumbnails">
-                <img src="/frontend/Images/name-boards/shop-name-boards--1.webp" class="thumb active" data-index="0">
-                <img src="/frontend/Images/name-boards/shop-name-boards-2.webp" class="thumb" data-index="1">
-                <img src="/frontend/Images/name-boards/shop-name-boards--3.webp" class="thumb" data-index="2">
-                <img src="/frontend/Images/name-boards/shop-name-boards-4.webp" class="thumb" data-index="3">
-                <img src="/frontend/Images/name-boards/shop-name-board-6.webp" class="thumb" data-index="4">
-                <img src="/frontend/Images/name-boards/shop-name-board-7.webp" class="thumb" data-index="5">
-                <img src="/frontend/Images/name-boards/shop-name-board-8.webp" class="thumb" data-index="6">
-                <img src="/frontend/Images/name-boards/shop-name-boards--9.webp" class="thumb" data-index="7">
-                <img src="/frontend/Images/name-boards/shop-name-boards--10.webp" class="thumb" data-index="8">
-                <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" class="thumb" data-index="9">
+                <img src="/frontend/Images/name-boards/shop-name-boards--1.webp" alt="Acrylic LED Shop Name Boards- Venn Hussen, USPA Shop Sign Board Design Sample" class="thumb active" data-index="0">
+                <img src="/frontend/Images/name-boards/shop-name-boards-2.webp" alt="Acrylic LED Glow Shop Name Board - Blackberry Shop Sign Board Design Sample" class="thumb" data-index="1">
+                <img src="/frontend/Images/name-boards/shop-name-boards--3.webp" alt="Acrylic LED Glow Sign - Sufflolk Shop Name Board" class="thumb" data-index="2">
+                <img src="/frontend/Images/name-boards/shop-name-boards-4.webp" alt="Acrylic LED Glow Sign Board- Queens Restaurant Shop Name Board" class="thumb" data-index="3">
+                <img src="/frontend/Images/name-boards/shop-name-board-6.webp" alt="Neon Glow Sign Board for Shop" class="thumb" data-index="4">
+                <img src="/frontend/Images/name-boards/shop-name-board-7.webp" alt="Dotted LED Glow Sign Board - Biduria Chai Shop Name Board" class="thumb" data-index="5">
+                <img src="/frontend/Images/name-boards/shop-name-board-8.webp" alt="Acrylic Sign Board- Corporate Office" class="thumb" data-index="6">
+                <img src="/frontend/Images/name-boards/shop-name-boards--9.webp" alt="Acrylic LED Glow Sign Board- RJ Jewellery Shop Name Board" class="thumb" data-index="7">
+                <img src="/frontend/Images/name-boards/shop-name-boards--10.webp" alt="patiala Hardware & Plywood Shop Name Board" class="thumb" data-index="8">
+                <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" alt="Acrylic LED Sign Board Spefifications" class="thumb" data-index="9">
             </div>
         </div>
 
@@ -70,14 +70,16 @@
             <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 +GST</b> (Shop Name Boards)</p>
 
             <div class="divider"></div>
-
+            <p class="fs-16">A shop name board plays a key role in setting the tone for your business. Your shop needs a sign boards 
+                that feels aligned, clear to read, visually striking, durable, and customised to fit your space. When the design, 
+                lighting, and materials work together, the shop sign board stands out effortlessly and helps pull more customers toward 
+                the store.</p>
             <ul class="features">
-                <li>Browse 10+ shop name board design options</li>
-                <li>Crafted with quality material- acrylic, LEDs, and ACP</li>
-                <li>3D LED letters to highlight your shop name</li>
-                <li>Attractive LED glow boards to attract attention</li>
+                <li>10+ shop name board design options</li>
+                <li>Crafted with quality material- acrylic, LEDs, Neon, & ACP</li>
+                <li>3D Acrylic LED letters highlight your shop name & logo</li>
                 <li>PAN India service including design & installation</li>
-                <li>Active support services round the clock</li>
+                <li>Support services round the clock</li>
             </ul>
 
             <div class="buttons">
