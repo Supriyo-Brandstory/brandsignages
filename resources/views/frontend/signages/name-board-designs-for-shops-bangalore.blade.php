@@ -1196,57 +1196,26 @@
     </section>
 
 
-    <script>
-    const slides = document.querySelectorAll('.slide');
-    const thumbs = document.querySelectorAll('.thumb');
-    const prevBtn = document.querySelector('.prev');
-    const nextBtn = document.querySelector('.next');
-    let currentIndex = 0;
+<script>
+let current = 0;
+const slides = document.querySelectorAll('.slide');
+const thumbs = document.querySelectorAll('.thumb');
 
-    let autoPlay = setInterval(nextSlide, 3000); // store interval
+function show(i) {
+  slides[current].classList.remove('active');
+  current = i;
+  slides[current].classList.add('active');
+}
 
-    function showSlide(index) {
-        slides.forEach((slide, i) => {
-            slide.classList.toggle('active', i === index);
-        });
+document.querySelector('.next').onclick = () =>
+  show((current + 1) % slides.length);
 
-        thumbs.forEach((thumb, i) => {
-            thumb.classList.toggle('active', i === index);
-        });
-    }
+document.querySelector('.prev').onclick = () =>
+  show((current - 1 + slides.length) % slides.length);
 
-    function nextSlide() {
-        currentIndex = (currentIndex + 1) % slides.length;
-        showSlide(currentIndex);
-    }
-
-    function prevSlide() {
-        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-        showSlide(currentIndex);
-    }
-
-    function stopAutoPlay() {
-        clearInterval(autoPlay);
-        autoPlay = null;
-    }
-
-    nextBtn.addEventListener('click', () => {
-        stopAutoPlay();
-        nextSlide();
-    });
-
-    prevBtn.addEventListener('click', () => {
-        stopAutoPlay();
-        prevSlide();
-    });
-
-    thumbs.forEach(thumb => {
-        thumb.addEventListener('click', () => {
-            stopAutoPlay();
-            currentIndex = parseInt(thumb.dataset.index);
-            showSlide(currentIndex);
-        });
-    });
+thumbs.forEach((t, i) => (t.onclick = () => show(i)));
 </script>
+
+
 
 @endsection
