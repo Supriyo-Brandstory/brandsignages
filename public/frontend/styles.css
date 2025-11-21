@@ -2899,3 +2899,15 @@ ul.brand-list {
 
 .slide { display:none; }
 .slide.active { display:block; }
+
+.shop-image {
+    width: 55%;
+    display: block;
+    margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+    .shop-image {
+        width: 100%;
+    }
+}
