@@ -315,7 +315,7 @@
 
     <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
     <ul class="fs-20" style="padding-left: 18px;">
-        <li><b>Small Name Board:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹2,000 – ₹10,000)</li>
+        <li><b>Small Name Board:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹1,000 – ₹10,000)</li>
         <li><b>Medium Name Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹12,000 – ₹20,000)</li>
         <li><b>Large Name Boards:</b> 4 ft x 8 ft (₹210,000 – ₹30,000)</li>
         <li><b>Custom Dimension:</b> Depends on your material & design</li>
