@@ -58,6 +58,7 @@
     @endif
 
     <meta name="google-site-verification" content="k2zT6vzjGmv5Qj_C5YPVg4YbcQNoHooAF5smISxk2qA" />
+    <meta name="p:domain_verify" content="cc033e9186a2749560bbbcb4d4d906ad"/>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -373,9 +374,9 @@
                         <a href="https://www.youtube.com/@BrandSignages" target="_blank"><i class="fab fa-youtube fa-2x"
                                 style="color: red;"></i></a>
                         <a href="https://www.facebook.com/BrandSignagesIndia/" target="_blank"><i
-                                class="fab fa-facebook fa-2x" style="color: #1877F2;"></i></a>
+                                class="fab fa-facebook fa-2x" style="color: #1216e4ff;"></i></a>
                         <a href="https://in.pinterest.com/brandsignages/" target="_blank"><i
-                                class="fab fa-pinterest fa-2x" style="color: #1877F2;"></i></a>
+                                class="fab fa-pinterest fa-2x" style="color: #E43D12;"></i></a>
                     </div>
                 </div>
 
@@ -432,40 +433,43 @@
     </section>
 
 
-<a href="{{route('contact_us')}}" target="_blank" class="sticky-btn">Start Your Projects</a>
+
+
+
+<a href="tel:+918006606080" class="call-btn"><i class="fas fa-phone"></i></a>
 
     <style>
         .footer a {
             color: #E43D12;
         }
-        .sticky-btn {
-    position: fixed;
-    right: 3.5%;;
-    top: 50%;
-    transform: translateY(-50%) rotate(-90deg);
-    transform-origin: right top;
-    background: #E43D12; /* your dark purple */
-    color: #fff;
-    padding: 12px 28px;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 8px 8px 0 0;
-    text-decoration: none;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    letter-spacing: 0.5px;
-    z-index: 9999;
-    white-space: nowrap;
-    opacity: 0.9;
-
+        .call-btn{
+    position:fixed;
+    bottom:80px; /* moved higher */
+    right:20px;
+    width:67px;
+    height:67px;
+    background:#E43D12;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    text-decoration:none;
+    z-index:9999;
 }
 
-.sticky-btn:hover {
-    opacity: 1;
+.call-btn:hover {
+    background:#bf3310;
+    color:#fff;
+    text-decoration:none;
 }
 
-@media (max-width:768px) {
-    .sticky-btn {
-    right: 12.5%;
+
+@media (max-width:768px){
+    .call-btn{
+        bottom:100px;
+        right:15px;
     }
 }
     </style>
