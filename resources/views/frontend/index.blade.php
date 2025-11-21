@@ -290,6 +290,21 @@
         </div>
     </section>
 
+        <section class="container py-5">
+            <div class="new-contacts-section">
+                <div class="new-contacts-section-overlay">
+                    <p class="new-contacts-section-text">
+                        Your brand identity is the silent ambassador of your business. At Brand Signages, we don't just
+                        design sign boards, we craft designs that leave a lasting impression. As premier signage makers in
+                        Bangalore, we bring innovation, precision, and artistry to every design.
+                    </p>
+                    <a href="{{route('contact_us')}}" class="new-contacts-section-button" style="text-decoration: none;">Contact Us</a>
+                    
+
+                </div>
+            </div>
+        </section>
+
     <section class="home-page mb-5">
          <div class="pointing">
             <div class="container point">
@@ -331,6 +346,7 @@
         </div>
     </section>
     
+
 
     <!--<section class="instant-pricing">
             <div class="container">
@@ -389,20 +405,7 @@
             </div>
     </section>-->
 
-             <section class="container">
-            <div class="new-contacts-section">
-                <div class="new-contacts-section-overlay">
-                    <p class="new-contacts-section-text">
-                        Your brand identity is the silent ambassador of your business. At Brand Signages, we don't just
-                        design sign boards, we craft designs that leave a lasting impression. As premier signage makers in
-                        Bangalore, we bring innovation, precision, and artistry to every design.
-                    </p>
-                    <a href="{{route('contact_us')}}" class="new-contacts-section-button" style="text-decoration: none;">Contact Us</a>
-                    
 
-                </div>
-            </div>
-        </section>
 
     <section class="new_client_section container">
         <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
