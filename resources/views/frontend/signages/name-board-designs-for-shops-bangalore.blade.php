@@ -15,7 +15,7 @@
                     <img src="/frontend/Images/name-boards/shop-name-boards--1.webp" alt="Acrylic LED Shop Name Boards- Venn Hussen, USPA Design">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/shop-name-boards-2.webp" alt="Acrylic LED Glow Shop Name Board - Blackberry">
+                    <img src="/frontend/Images/name-boards/shop-name-logo-design.webp" alt="Acrylic LED Glow Shop Name Board - GI">
                 </div>
                 <div class="slide">
                     <img src="/frontend/Images/name-boards/shop-name-boards--3.webp" alt="Acrylic LED Glow Sign - Sufflolk Shop Name Board">
@@ -52,7 +52,7 @@
 
             <div class="thumbnails">
                 <img src="/frontend/Images/name-boards/shop-name-boards--1.webp" alt="Acrylic LED Shop Name Boards- Venn Hussen, USPA Shop Sign Board Design Sample" class="thumb active" data-index="0">
-                <img src="/frontend/Images/name-boards/shop-name-boards-2.webp" alt="Acrylic LED Glow Shop Name Board - Blackberry Shop Sign Board Design Sample" class="thumb" data-index="1">
+                <img src="/frontend/Images/name-boards/shop-name-logo-design.webp" alt="Acrylic LED Glow Shop Name Board - GI Shop Sign Logo Board Design Sample" class="thumb" data-index="1">
                 <img src="/frontend/Images/name-boards/shop-name-boards--3.webp" alt="Acrylic LED Glow Sign - Sufflolk Shop Name Board" class="thumb" data-index="2">
                 <img src="/frontend/Images/name-boards/shop-name-boards-4.webp" alt="Acrylic LED Glow Sign Board- Queens Restaurant Shop Name Board" class="thumb" data-index="3">
                 <img src="/frontend/Images/name-boards/shop-name-board-6.webp" alt="Neon Glow Sign Board for Shop" class="thumb" data-index="4">
