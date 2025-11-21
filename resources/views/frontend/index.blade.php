@@ -332,7 +332,7 @@
     </section>
     
 
-      <section class="instant-pricing">
+    <!--<section class="instant-pricing">
             <div class="container">
                 <h2>Best Signage Board Makers in Bangalore - 24 Hour Production Line</h2>
                 <p>We are the best <b>Signage Board</b> Manufacturers in Bangalore with 24-hours production capability and expertise.</p>
@@ -387,7 +387,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+    </section>-->
 
              <section class="container">
             <div class="new-contacts-section">
