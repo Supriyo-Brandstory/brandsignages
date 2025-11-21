@@ -430,6 +430,8 @@
             </div>
         </div>
     </section>
+
+
 <a href="{{route('contact_us')}}" target="_blank" class="sticky-btn">Start Your Projects</a>
 
     <style>
@@ -467,6 +469,7 @@
     }
 }
     </style>
+
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
