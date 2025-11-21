@@ -67,7 +67,7 @@
         <!-- Content -->
         <div class="content">
             <h1 class="hero-banner_title">10+ Iconic Shop Name Board Design</h1>
-            <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 +GST</b> (Shop Name Boards)</p>
+            <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 +GST</b></p>
 
             <div class="divider"></div>
             <p class="fs-16">A shop name board plays a key role in setting the tone for your business. Your shop needs a sign boards 
