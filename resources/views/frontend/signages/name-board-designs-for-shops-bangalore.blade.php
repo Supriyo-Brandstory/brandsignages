@@ -1,26 +1,97 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-    <section class="hero-banner"
-        style="background-image: url('{{ asset('/frontend/Images/name-boards/beauty-shop-name-board-design.webp') }}'); ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="hero-banner_title">Best Shop Name Boards-<br> Name Board Designs for Shop</h1>
-                    <p>We create distinctive and memorable shop/store name boards</br> that turn your outdoor advertising space
-                        into a visual landmark <br>customers can’t forget.
-                    </p>
-                    <a href="https://brandsignages.com/contact-us">
-                        <button class="contact-btn">Start Your Project</button>
-                    </a>
+
+
+    <div class="newly-bannersection">
+        <div class="bar">
+            <h1 class="hero-banner_title">Shop Name Boards</h1>
+
+        </div>
+        <!-- Slider -->
+        <div class="slider-wrapper">
+
+            <div class="main-slider">
+                <div class="slide active">
+                    <img src="/frontend/Images/name-boards/shop-name-boards--1.webp" alt="Acrylic LED Shop Name Boards- Venn Hussen, USPA Design">
                 </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/shop-name-boards-2.webp" alt="Acrylic LED Glow Shop Name Board - Blackberry">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/shop-name-boards--3.webp" alt="Acrylic LED Glow Sign - Sufflolk Shop Name Board">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/shop-name-boards-4.webp" alt="Acrylic LED Glow Sign Board- Queens Restaurant Shop Name Board">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/shop-name-board-6.webp" alt="Neon Glow Sign Board for Shop">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/shop-name-board-7.webp" alt="Dotted LED Glow Sign Board - Biduria Chai Shop Name Board">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/shop-name-board-8.webp" alt="Acrylic Sign Board- Corporate Office">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/shop-name-boards--9.webp" alt="Acrylic LED Glow Sign Board- RJ Jewellery Shop Name Board">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/shop-name-boards--10.webp" alt="patiala Hardware & Plywood Shop Name Board">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" alt="Acrylic LED Sign Board Spefifications">
+                </div>
+              
+            </div>
+
+            <!-- Navigation should be OUTSIDE -->
+            <div class="nav-arrow prev">&#8249;</div>
+            <div class="nav-arrow next">&#8250;</div>
+        
+
+
+            <div class="thumbnails">
+                <img src="/frontend/Images/name-boards/shop-name-boards--1.webp" class="thumb active" data-index="0">
+                <img src="/frontend/Images/name-boards/shop-name-boards-2.webp" class="thumb" data-index="1">
+                <img src="/frontend/Images/name-boards/shop-name-boards--3.webp" class="thumb" data-index="2">
+                <img src="/frontend/Images/name-boards/shop-name-boards-4.webp" class="thumb" data-index="3">
+                <img src="/frontend/Images/name-boards/shop-name-board-6.webp" class="thumb" data-index="4">
+                <img src="/frontend/Images/name-boards/shop-name-board-7.webp" class="thumb" data-index="5">
+                <img src="/frontend/Images/name-boards/shop-name-board-8.webp" class="thumb" data-index="6">
+                <img src="/frontend/Images/name-boards/shop-name-boards--9.webp" class="thumb" data-index="7">
+                <img src="/frontend/Images/name-boards/shop-name-boards--10.webp" class="thumb" data-index="8">
+                <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" class="thumb" data-index="9">
             </div>
         </div>
-    </section>
+
+        <!-- Content -->
+        <div class="content">
+            <h1 class="hero-banner_title">10+ Iconic Shop Name Board Designs</h1>
+            <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 +GST</b> (LED Shop Name Boards)</p>
+
+            <div class="divider"></div>
+
+            <ul class="features">
+                <li>Browse 10+ different shop-sign design options</li>
+                <li>Crafted using quality material- acrylic, LEDs, and ACP</li>
+                <li>3D LED letters to highlight your shop name</li>
+                <li>Attractive LED glow boards to attract attention</li>
+                <li>Full-service including design and on-site installation</li>
+                <li>Active support services with 24/7 active hotline</li>
+            </ul>
+
+            <div class="buttons">
+                <a href="#recent_projects" class="btn">Browse Projects</a>
+                <a href="{{ route('contact_us') }}" class="btn">Place Order</a>
+            </div>
+        </div>
+    </div>
+
     <!-- About Section -->
 
     <section class="instant-pricing">
         <div class="container pt-5">
-            <h2>Affordable Shop Name Boards <br>for Outdoor Advertising</h2>
+            <h2>Key Features of a Shop Name Board</h2>
             <p>Searching for a budget-friendly <a style="color: #E43D12;text-decoration: none;"
                             href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>shop name board</strong></a> price estimate? Brand Signages provides 
                 customized signage at fair, <b>transparent rates</b> with <b>quick turnaround</b> and <b>expert installation</b> along with <b>4-5 years warranty</b>. 
@@ -40,23 +111,32 @@
                            <div class="scroll-card">
                             <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-9.webp') }}"
                                alt="Premium Shop Name Boards for Outdoor Advertising">
-                        </div>
-                           <div class="scroll-card">
-                            <img src="{{ asset('frontend/Images/name-boards/shop-sign-board-designs-4.webp') }}"
-                               alt="Premium Shop Name Boards for Outdoor Advertising">
-                        </div>
-                           <div class="scroll-card">
-                            <img src="{{ asset('frontend/Images/name-boards/shop-sign-boards-8.webp') }}"
-                               alt="Premium Shop Name Boards for Outdoor Advertising">
-                        </div>
-                           <div class="scroll-card">
-                            <img src="{{ asset('frontend/Images/name-boards/shop-sign-boards-10.webp') }}"
-                               alt="Premium Shop Name Boards for Outdoor Advertising">
-                        </div>
-
-                       
+                        </div>    
                     
                 </div>
+
+                     <p>When choosing a name board, visibility should be the primary consideration. The design must be 
+                            easily <b>noticeable from a distance</b> and should use contrasting colors along with clear fonts that maintain 
+                            readability in different lighting conditions. Proper visibility ensures that potential customers can quickly 
+                            identify the business without confusion.</p>
+                        <p>The size and placement of the board also play a crucial role in effectiveness. It should be proportionate to the 
+                            storefront, large enough to attract attention but not so overwhelming that it disrupts the aesthetic balance. 
+                            Ideally, the installation should be at eye level or slightly above to maximize visibility and catch the attention 
+                            of passersby.</p>
+                        <p>Multiple material options are available based on durability, style preferences, and budget. <b>Acrylic name boards</b>, 
+                            <b>LED name boards</b>, and <b>Neon sign boards</b> offer a modern and polished appearance, while wood brings a timeless and 
+                            warm finish suitable for boutique or traditional brands. Metal is another durable option that works across a 
+                            variety of styles, and vinyl remains a cost-effective solution, especially suited for short-term or temporary 
+                            signage.</p>
+                        <p>Lighting is another important factor, particularly for businesses that operate during evening hours. <b>Illuminated 
+                            signboards</b> improve visibility at night and help create a welcoming atmosphere, ensuring the brand remains noticeable 
+                            around the clock.</p>
+                            <div class="text-center">
+                <a href="#pricing">
+                    <button class="contact-btn">Check Instant Pricing</button>
+                </a>
+            </div>
+                            
             </div>
         </div>
     </section>
@@ -116,94 +196,8 @@
         </div>
     </section>
 
-    <section class="new-recent-works">
-        <div class="container pt-5">
-            <h2 class="hero-title  mb-6">Name Board Designs for Shop<br> Our Recent Projects</h2>
 
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
-                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Titan Showroom</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
-                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Fortis Hospital</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Café Mocha</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/tanishq.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Tanishq Showroom</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Prestige Group</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>MedPlus Pharmacy</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <a href="/contact-us">
-                    <button class="contact-btn">Start Your Project</button>
-                </a>
-            </div>
-
-
-        </div>
-    </section>
-
-
-
-
-
-
-    <section class="We-Elevate-Brands-section py-5">
+        <section class="We-Elevate-Brands-section py-5">
         <div class="container">
             <div class="text-center mb-4">
                 <h2 class="We-Elevate-Brands-heading fw-bold">Material Options </br>Premium Shop Name Boards</h2>
@@ -299,6 +293,132 @@
             </div>
         </div>
     </section>
+
+       <section id="pricing">
+        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+            <h2 class="hero-title">Shop Name Board Pricing & Size Options</h2>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}"
+                            alt="Rivetoile LED Name Board Design" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+    <p class="fs-20">
+        The cost of shop name boards includes materials, size, design complexity, and installation. Since signs like an 8-ft shop 
+        board or 20-ft sky sign can’t be handed over, we visit the site to measure the space accurately before 
+        installation.
+    </p>
+
+    <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
+    <ul class="fs-20" style="padding-left: 18px;">
+        <li><b>Small Shop Name Board:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹2,000 – ₹10,000)</li>
+        <li><b>Medium LED Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹12,000 – ₹20,000)</li>
+        <li><b>Large LED Boards:</b> 4 ft x 8 ft (₹210,000 – ₹30,000)</li>
+        <li><b>Custom Dimensions:</b> Depends on your material & design</li>
+    </ul>
+
+    <p class="fs-20">
+        Each shop name board is crafted with <b>high-quality materials</b>, <b>exclusive design</b>, and weather-resistant finishes. 
+        You can choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB color-changing LEDs</b>, 
+        to match your brand’s identity.
+    </p>
+
+   <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
+            <button class="contact-btn">Book Order Now</button>
+    </a>
+</div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="recent_projects" class="new-recent-works">
+        <div class="container pt-5">
+            <h2 class="hero-title  mb-6">Name Board Designs for Shop<br> Our Recent Projects</h2>
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
+                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Titan Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
+                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Fortis Hospital</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Café Mocha</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/tanishq.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Tanishq Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Prestige Group</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>MedPlus Pharmacy</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="/contact-us">
+                    <button class="contact-btn">Start Your Project</button>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
 
     </section>
 
@@ -1074,5 +1194,59 @@
             </div>
         </div>
     </section>
+
+
+    <script>
+    const slides = document.querySelectorAll('.slide');
+    const thumbs = document.querySelectorAll('.thumb');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    let currentIndex = 0;
+
+    let autoPlay = setInterval(nextSlide, 3000); // store interval
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.toggle('active', i === index);
+        });
+
+        thumbs.forEach((thumb, i) => {
+            thumb.classList.toggle('active', i === index);
+        });
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        showSlide(currentIndex);
+    }
+
+    function stopAutoPlay() {
+        clearInterval(autoPlay);
+        autoPlay = null;
+    }
+
+    nextBtn.addEventListener('click', () => {
+        stopAutoPlay();
+        nextSlide();
+    });
+
+    prevBtn.addEventListener('click', () => {
+        stopAutoPlay();
+        prevSlide();
+    });
+
+    thumbs.forEach(thumb => {
+        thumb.addEventListener('click', () => {
+            stopAutoPlay();
+            currentIndex = parseInt(thumb.dataset.index);
+            showSlide(currentIndex);
+        });
+    });
+</script>
 
 @endsection
