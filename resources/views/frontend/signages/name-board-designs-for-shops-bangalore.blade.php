@@ -4,7 +4,7 @@
 
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">Shop Name Boards</h1>
+            <h1 class="hero-banner_title">Shop Name Board</h1>
 
         </div>
         <!-- Slider -->
@@ -66,18 +66,18 @@
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">10+ Iconic Shop Name Board Designs</h1>
-            <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 +GST</b> (LED Shop Name Boards)</p>
+            <h1 class="hero-banner_title">10+ Iconic Shop Name Board Design</h1>
+            <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 +GST</b> (Shop Name Boards)</p>
 
             <div class="divider"></div>
 
             <ul class="features">
-                <li>Browse 10+ different shop-sign design options</li>
-                <li>Crafted using quality material- acrylic, LEDs, and ACP</li>
+                <li>Browse 10+ shop name board design options</li>
+                <li>Crafted with quality material- acrylic, LEDs, and ACP</li>
                 <li>3D LED letters to highlight your shop name</li>
                 <li>Attractive LED glow boards to attract attention</li>
-                <li>Full-service including design and on-site installation</li>
-                <li>Active support services with 24/7 active hotline</li>
+                <li>PAN India service including design & installation</li>
+                <li>Active support services round the clock</li>
             </ul>
 
             <div class="buttons">
@@ -188,7 +188,7 @@
                             reliability and quality, two things every customer looks for before stepping inside.
                         </li>
                         <div class="mt-4">
-                            <a href="https://brandsignages.com/led-acrylic-3d-glow-sign-board" class="custom-btn">Browse Design
+                            <a href="https://brandsignages.com/blogs/shop-name-board" class="custom-btn">Browse Design
                                 Ideas</a>
                         </div>
                 </div>
@@ -309,16 +309,16 @@
                 <div class="col-lg-6">
     <p class="fs-20">
         The cost of shop name boards includes materials, size, design complexity, and installation. Since signs like an 8-ft shop 
-        board or 20-ft sky sign can’t be handed over, we visit the site to measure the space accurately before 
+        board or 20-ft sky sign can not be handed over, we visit the site to measure the space accurately before 
         installation.
     </p>
 
     <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
     <ul class="fs-20" style="padding-left: 18px;">
-        <li><b>Small Shop Name Board:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹2,000 – ₹10,000)</li>
-        <li><b>Medium LED Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹12,000 – ₹20,000)</li>
-        <li><b>Large LED Boards:</b> 4 ft x 8 ft (₹210,000 – ₹30,000)</li>
-        <li><b>Custom Dimensions:</b> Depends on your material & design</li>
+        <li><b>Small Name Board:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹2,000 – ₹10,000)</li>
+        <li><b>Medium Name Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹12,000 – ₹20,000)</li>
+        <li><b>Large Name Boards:</b> 4 ft x 8 ft (₹210,000 – ₹30,000)</li>
+        <li><b>Custom Dimension:</b> Depends on your material & design</li>
     </ul>
 
     <p class="fs-20">
