@@ -112,7 +112,7 @@
     <section>
         <div class="container" id="">
             <h2 class="hero-title  mb-4">Largest Ever Collection of LED Glow Sign <br>Boards in India</h2>
-            <p class=" text-center fs-20">In the world of retail and consumer businesses, first impressions are often the deciding factor for 
+            <p class="text-center fs-20">In the world of retail and consumer businesses, first impressions are often the deciding factor for 
                 customers. This is why shopping malls and high streets are designed to be visually captivating. The shop sign board is more 
                 than just a display of your brand name. It acts as the store’s ambassador, making a bold statement about your business.</p>
                 <p class=" text-center fs-20">Brand Signages brings the latest, ever-exclusive range of LED sign boards to your doorstep. 
@@ -501,7 +501,7 @@
        <section id="exploredesigns">
         <div class="container pt-5" id="">
             <h2 class="hero-title  mb-4">Best LED Sign Board Product Range <br>for Your Business</h2>
-                    <p class="fs-20">
+                    <p class="text-center fs-20">
                         The right LED sign board can set the tone for your brand. At Brand Signages, you can choose from a variety of <b>acrylic 
                         glow sign boards</b>, <b>crystal LED</b>, <b>programmable LED</b>, and other most in-demand LED sign board options. We present the 
                             briliant designs and custom LED sign board design options to help you choose what fits your needs. Browse 
@@ -531,7 +531,7 @@
            <section>
         <div class="container pt-5" id="">
             <h2 class="hero-title  mb-4">Explore Largest Collection of LED Sign<br> Boards in India</h2>
-                    <p class="fs-20">Yes, you heard it right, the <b>lagest collection of LED sign boards in India</b> is here at Brand Signages. Find everything starting from 
+                    <p class="text-center fs-20">Yes, you heard it right, the <b>lagest collection of LED sign boards in India</b> is here at Brand Signages. Find everything starting from 
                         the ACP-mounted acrylic LED sign boards, crystal LED sign boards, open-dot LED sign, acrylic LED letter signs, 3D LED letters, and even 
                         the most trending flexible LED display boards. </p>
 
