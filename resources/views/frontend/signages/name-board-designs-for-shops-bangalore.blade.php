@@ -394,7 +394,7 @@
                             <span class="badge">JEWELLERY SHOP BOARD</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
-                        <h5 class="blog-card-title">Jewellery Shop Name Board: Stunning Designs for Your Storefront</h5>
+                        <h5 class="blog-card-title">Jewellery Shop Name Board: Explore Stunning Designs</h5>
                     </div>
                 </div>
             </a>
