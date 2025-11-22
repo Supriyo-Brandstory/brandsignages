@@ -96,10 +96,10 @@
             <h2>Explore Endless Shop Name Board Design Options</h2>
             <p>Brand Signages brings you the <b>largest ever collection</b> of shop sign board options for your storefront. We are 
                 providing the most affordable shop sign boards all over India with quick turnaround and expert installation 
-                services. Our shop sign boards come with <b>custom design</b>, <b>4-5 years warranty</b>, and transparent pricing options. 
+                services. Our shop name boards come with <b>custom design</b>, <b>4-5 years warranty</b>, and transparent pricing options. 
             </p>
-            <p>Our shop name board products come with <b>various size, color, & lighting options</b> to suit your 
-                        storefront and capture attention at eye level or above. With a wide range of materials, including <b>acrylic, 
+            <p>Featuring various <b>size formats</b>, <b>dynamic colour options</b>, and <b>superior lighting</b>, our shop name boards offer a standout visual 
+                presence and make your business impossible to overlook. With a wide range of materials, including <b>acrylic, 
                         LED, neon, wood, metal, and vinyl</b>, we create signage that matches your style, durability needs, and budget 
                         while enhancing your brand presence.</p>
             <img src="/frontend/Images/name-boards/largest-ever-signage-board-collection.webp" alt="Exclusive Shop Name Board Design by Brand Signages" class="shop-image">
@@ -312,7 +312,7 @@
 <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="hero-title">Ever Largest Collection of Shop Name <br>Board Designs in India</h2>
+                <h2 class="hero-title">Largest Collection of Shop Name <br>Board Designs in India</h2>
                 <p class="fs-20">Your search for shop name board design ends with Brand Signages. You bring you the 
                     <b>largest collection of shop name board designs</b> in India. Explore designs, choose your preferred option, and start your 
                     shop name board project with us. From concept to design and installation, we ensure flawless process, quality, and long-lasting durability.</p>
@@ -328,7 +328,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">HARDWARE SHOP BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Hardware Shop Name Board: Designs, Styles & Branding</h5>
                     </div>
@@ -344,7 +344,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">ELECTRICAL SHOP NAME BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Electrical Shop Name Board Design: Ideas, Trends & Branding</h5>
                     </div>
@@ -360,7 +360,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">STATIONARY SHOP BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Stationery Shop Name Board: Creative Signage Options</h5>
                     </div>
@@ -376,7 +376,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">JUICE SHOP NAME BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Juice Shop Name Board: Fresh & Eye-Catching Designs</h5>
                     </div>
@@ -392,7 +392,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">JEWELLERY SHOP BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Jewellery Shop Name Board: Stunning Designs for Your Storefront</h5>
                     </div>
@@ -408,7 +408,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">FURNITURE SHOP NAME BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Furniture Shop Name Board: Explore Designs for Storefronts</h5>
                     </div>
@@ -424,7 +424,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">SHOE SHOP NAME BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Footwear Shop Name Board: Modern Designs & Trends</h5>
                     </div>
@@ -440,7 +440,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">MEDICAL SHOP NAME BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Medical Shop Name Board: Explore Modern Styles and Trends</h5>
                     </div>
@@ -456,7 +456,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">XEROX SHOP NAME BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Xerox Shop Name Board: Discover Exclusive Modern Designs</h5>
                     </div>
@@ -472,7 +472,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">CLOTH SHOP NAME BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Cloth & Saree Shop Name Board: Trending Designs for 2025</h5>
                     </div>
@@ -488,7 +488,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">TAILOR SHOP NAME BOARD</span>
-                            <span class="time">3 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Creative Tailoring Shop Name Board: Find Out Trending Designs</h5>
                     </div>
@@ -505,7 +505,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">MOBILE SHOP BOARDS</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Mobile Shop Name Board Design: Attract More Customers</h5>
                     </div>
