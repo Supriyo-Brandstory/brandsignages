@@ -2904,9 +2904,6 @@ ul.brand-list {
     }
 }
 
-.slide {
-    display: none;
-}
 
 .slide.active {
     display: block;
