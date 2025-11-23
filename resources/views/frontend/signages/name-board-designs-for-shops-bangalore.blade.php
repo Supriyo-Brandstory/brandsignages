@@ -66,7 +66,7 @@
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">10+ Iconic Shop Name Board Design</h1>
+            <h1 class="hero-banner_title">Shop Name Board Designs</h1>
             <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 + GST</b></p>
 
             <div class="divider"></div>
@@ -75,7 +75,7 @@
                 lighting, and materials work together, the shop sign board stands out effortlessly and helps pull more customers toward 
                 the store.</p>
             <ul class="features">
-                <li>10+ shop name board design options</li>
+                <li>100+ shop name board design (Largest Collection)</li>
                 <li>Crafted with quality material- acrylic, LEDs, Neon, & ACP</li>
                 <li>3D Acrylic LED letters highlight your shop name & logo</li>
                 <li>PAN India service including design & installation</li>
