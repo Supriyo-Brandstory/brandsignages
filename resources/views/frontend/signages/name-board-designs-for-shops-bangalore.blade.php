@@ -75,7 +75,7 @@
                 lighting, and materials work together, the shop sign board stands out effortlessly and helps pull more customers toward 
                 the store.</p>
             <ul class="features">
-                <li>100+ shop name board design (Largest Collection)</li>
+                <li>100+ shop name board designs (Largest Collection in India)</li>
                 <li>Crafted with quality material- acrylic, LEDs, Neon, & ACP</li>
                 <li>3D Acrylic LED letters highlight your shop name & logo</li>
                 <li>PAN India service including design & installation</li>
