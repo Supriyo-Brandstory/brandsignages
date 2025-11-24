@@ -3,7 +3,7 @@
 
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">LED Sign Boards</h1>
+            <h1 class="hero-banner_title">LED Sign Board</h1>
 
         </div>
         <!-- Slider -->
@@ -65,18 +65,19 @@
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">LED Sign Boards- 10+ 3D LED Sign Board Design Options</h1>
+            <h1 class="hero-banner_title">LED Sign Board Designs</h1>
             <p class="subtitle"><b>Price: ₹1,000 - ₹35,000.00 + GST</b></p>
 
             <div class="divider"></div>
-            <p class="fs-16">We offer an extensive selection of wall-mount LED sign board, LED standees, scrolling LED displays, LED sign boards, Acrylic LED sign board, 
-                and premium LED unipoles built for maximum impact and durability.</p>
+            <p class="fs-16">LED sign boards do more than display your business name, they bring a brand to life. LED light signs provide bright illumination, superior visibility, 
+                & customizable design options. With a wide variety of styles like scrolling LED displays, crystal LED signs, Acrylic LED sign boards, and programmable LED displays
+                , we bring you the largest collection of LED sign boards in India.</p>
             <ul class="features">
-                <li>Browse 10+ different shop-sign design options</li>
+                <li>100+ LED sign board designs (Largest Collection in India)</li>
                 <li>Crafted using quality material- acrylic, LEDs, and ACP</li>
-                <li>3D LED letters to highlight your shop name</li>
-                <li>Attractive LED glow boards to attract attention</li>
-                <li>PAN India service- design, delivery, & installation</li>
+                <li>Attractive LED glow boards with custom design options</li>
+                <li>PAN India service including design & installation</li>
+                <li>Dedicated Support services round the clock</li>
             </ul>
 
             <div class="buttons">
@@ -86,38 +87,17 @@
         </div>
     </div>
 
-
-
-
-
-    <!--<section class="hero-banner"
-        style="background-image: url('{{ asset('/frontend/Images/led-sign-board/led-sign-boards.webp') }}');">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="hero-banner_title">Brilliant LED Name Boards That </br>Make Your Brand Shine</h1>
-                    <p>Enhance your storefront with premium LED name boards. Designed for superior </br>visibility and
-                        lasting performance, our creations ensure your brand never goes unnoticed.
-                    </p>
-                    <a href="/contact-us">
-                        <button class="contact-btn">Get Free Quote</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
-
-
     <section>
         <div class="container" id="">
-            <h2 class="hero-title  mb-4">Largest Ever Collection of LED Glow Sign <br>Boards in India</h2>
+            <h2 class="hero-title  mb-4">We Have The Largest Collection of <br>LED Sign Boards in India</h2>
             <p class="text-center fs-20">In the world of retail and consumer businesses, first impressions are often the deciding factor for 
-                customers. This is why shopping malls and high streets are designed to be visually captivating. The shop sign board is more 
-                than just a display of your brand name. It acts as the store’s ambassador, making a bold statement about your business.</p>
+                customers. This is why shopping malls and high streets are designed to be visually captivating. With 
+                <b>precision lighting</b> and <b>flawless visual clarity</b>, LED sign boards act like beacons commanding attention and guiding 
+                customers with effortless brilliance. LED sign boards don’t just display your business name, they project identity, 
+                elevate presence, and <b>create a moment of connection</b> that feels intentional, modern, and impossible to ignore.</p>
                 <p class=" text-center fs-20">Brand Signages brings the latest, ever-exclusive range of LED sign boards to your doorstep. 
                     We have the best sign board options that include <b>acrylic LED</b>, <b>2D stencil cut acrylic LED letters</b>, <b>glittering crystal
-                     LED letters</b>, <b>open dot LED boards</b>, and LED neon sign boards. You can get an endless LED sign board collection with
+                     LED letters</b>, <b>open dot LED boards</b>, programmable LED sign boards, and LED neon sign boards. You can get an endless LED sign board collection with
                       an astonishing variety of styles, colours, and materials. </p>
                 <div class="image-grid">
                                         <div class="image-item">
@@ -138,95 +118,6 @@
                            </a>
                        </div>
 
-            <!--<div class="row align-items-center new-lighbox">
-
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/acrylic-led-signboard-6.webp')}}" class="img-fluid"
-                            alt="Custom LED Sign Board" style="width: 100%;">
-                        <span><b>Custom LED Sign Board</b></span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-sign-board-1.webp')}}" class="img-fluid"
-                            alt="LED Sign Board" style="width: 100%;">
-                        <span><b>LED Sign Board</b></span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-display-board.webp')}}" class="img-fluid"
-                            alt="LED Display Board" style="width: 100%;">
-                        <span><b>LED Display Board</b></span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-light-board.webp')}}" class="img-fluid"
-                            alt="LED Light Board" style="width: 100%;">
-                        <span><b>LED Light Board</b></span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/custom-led-sign-board.webp')}}" class="img-fluid"
-                            alt="LED Light Board" style="width: 100%;">
-                        <span><b>Cusom LED Sign Board</b></span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/acrylic-led-sign-board.webp')}}" class="img-fluid"
-                            alt="Acrylic LED Name Board" style="width: 100%;">
-                        <span><b>Acrylic LED Name Board</b></span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-glow-sign-board.webp')}}" class="img-fluid"
-                            alt="LED Glow Sign Board" style="width: 100%;">
-                        <span><b>LED Glow Sign Board</b></span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board.webp')}}" class="img-fluid"
-                            alt="LED Name Board" style="width: 100%;">
-                        <span><b>LED Name Board</b></span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/outdoor-led-sign-board.webp')}}" class="img-fluid"
-                            alt="Outdoor LED Sign Board" style="width: 100%;">
-                        <span><b>Outdoor LED Sign Board</b></span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/indoor-led-sign-board.webp')}}" class="img-fluid"
-                            alt="Indoor LED Sign Board" style="width: 100%;">
-                        <span><b>Indoor LED Sign Board</b></span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-office-name-board.webp')}}" class="img-fluid"
-                            alt="LED Office Name Board" style="width: 100%;">
-                        <span><b>LED Office Name Board</b></span>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="javascript:void(0)">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-glow-name-board.webp')}}" class="img-fluid"
-                            alt="LED Glow Sign Board" style="width: 100%;">
-                        <span><b>LED Glow Name Board</b></span>
-                    </a>
-                </div>
-
-
-            </div>-->
         </div>
     </section>
 
@@ -279,7 +170,7 @@
                             <img src="{{asset('frontend/Images/home/acrylic-sign.webp')}}" class="card-img-center"
                                 alt="Wall Mounted 3D Letters">
                             <div class="card-body pt-0">
-                                <a href="#wall-mounted-led-letter" class="We-Elevate-Brands-title">Glow Sign Board</a>
+                                <a href="#wall-mounted-led-letter" class="We-Elevate-Brands-title">LED Glow Sign Board</a>
                                 <p class="We-Elevate-Brands-text">Illuminated Acrylic 3D letters with internal LEDs, designed for direct wall mounting without a baseboard. They offer a sleek, 
                                     modern appearance by appearing to float directly on the surface.</p>
                             </div>
@@ -535,527 +426,535 @@
                         the ACP-mounted acrylic LED sign boards, crystal LED sign boards, open-dot LED sign, acrylic LED letter signs, 3D LED letters, and even 
                         the most trending flexible LED display boards. </p>
 
-                    <div class="signage-box">
-                                <h3 id="3d-acrylic-letter" style="color:#E43D12;"><strong>3D Acrylic Letters Embossed on ACP Frame</strong></h3>
-                                <p>
-                                    One of the most preferred LED sign boards among modern shop owners is the <b>LED-illuminated 3D acrylic letter</b> signboard mounted on 
-                                    an ACP (Aluminium Composite Panel) base. The combination of raised acrylic letters with built-in LED lighting creates 
-                                    exceptional depth, vibrant glow, and a <b>premium visual impact</b>, ensuring your storefront stands out day and night.
-                                </p>
+                            <div class="signage-box signage-product-layout">
 
-                                <h4><strong>Key Features of 3D Acrylic Letter Signboards</strong></h4>
-                                <ul>
-                                    <li>Acrylic letters or logos are crafted with a 2–3 inch thickness for a strong 3D dimensional effect.</li>
-                                    <li>High-quality LEDs are installed inside hollow acrylic letter for bright and energy-efficient illumination.</li>
-                                    <li>Acrylic elements are mounted on a durable ACP frame, offering stability and refined background.</li>
-                                    <li>Installed with precision to guarantee a long-lasting, professional, and striking illuminated display.</li>
-                                </ul>
+                                <!-- LEFT CONTENT -->
+                                <div class="content-column">
+
+                                    <h3 id="3d-acrylic-letter" style="color:#E43D12;"><strong>3D Acrylic Letters Embossed on ACP Frame</strong></h3>
+                                    <p>
+                                        One of the most preferred LED sign boards among modern retail & corporate businesses is the LED-illuminated 3D acrylic letter sign boards mounted on an ACP 
+                                        (Aluminium Composite Panel) base. At Brand Signages, 3D Acrylic LED sign boards are available in multiple styles, from matte white ACP with
+                                         golden LED letters, bright neon acrylic effects, to multi-colour illuminated branding. Whether it's <a href="/blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront"><strong>jewellery stores</strong></a>, 
+                                        <a href="blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>clothing boutiques</strong></a>, cafés, 
+                                        franchise outlets, salons, or premium retail spaces. 
+                                    </p>
+
+                                    <h4><strong>Key Features of 3D Acrylic Letter Signboards</strong></h4>
+                                    <ul>
+                                        <li>Acrylic letters or logos are crafted with a 2–3 inch thickness for a strong 3D dimensional effect.</li>
+                                        <li>High-quality LEDs are installed inside hollow acrylic letter for bright and energy-efficient illumination.</li>
+                                        <li>Acrylic elements are mounted on a durable ACP frame, offering stability and refined background.</li>
+                                    </ul>
 
                                     <h4><strong>Day and Night Impact</strong></h4>
-                                        <p>
-                                            The main advantage of LED acrylic sign boards lies in its striking dual visual performance:
-                                        <ul>
-                                            <li><strong>Daytime:</strong> The raised 3D acrylic letters create shadows, contrast, and depth against the ACP base, giving a clean look without illumination.</li>
-                                            <li><strong>Nighttime:</strong> Once lit, the LED glow enhances readability, brilliance, and visibility turning the sign board into a bold illuminated feature.</li>
-                                        </ul>
-                                         </p>
+                                    <p>
+                                    <ul>
+                                        <li><strong>Daytime:</strong> The raised 3D acrylic letters create shadows, contrast, and depth against the ACP base.</li>
+                                        <li><strong>Night-time:</strong> Once lit, the LED glow enhances readability, brilliance, and visibility.</li>
+                                    </ul>
+                                    </p>
 
-                                <p>
-                                    At Brand Signages, these LED sign boards are available in multiple styles from matte white ACP with golden LED letters, bright 
-                                    neon acrylic effects, to multi-colour illuminated branding. Whether it's <a href="/blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront"><strong>jewellery stores</strong></a>, 
-                                    <a href="blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>clothing boutiques</strong></a>, cafés, 
-                                    franchise outlets, salons, or premium retail spaces, this LED signage design adapts effortlessly to any brand identity. 
-                                    
-                                </p>
-
-                                <div class="image-grid">
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame.webp" alt="3D Acrylic Letter LED Glow Sign Mounted on ACP Panel">
-                                        <p>3D Acrylic Letter Glow Sign on ACP Panel</p>
-                                    </div>
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp" alt="Premium Acrylic LED Letters on ACP Base">
-                                        <p>Premium Acrylic LED Lettering on ACP Base</p>
-                                    </div>
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/acrylic-leter-acp-3.webp" alt="Custom Acrylic LED Glow Letter Signboard Installed on Storefront">
-                                        <p>Custom Acrylic Letter LED Glow Board</p>
-                                    </div>
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/acrylic-leter-acp-4.webp" alt="Acrylic LED Sign Board Mounted Outside Shop">
-                                        <p>Storefront Acrylic LED Glow Sign</p>
-                                    </div>
                                 </div>
+
+                                <!-- RIGHT PRODUCT GALLERY -->
+                                <div class="product-gallery">
+
+                                    <div class="main-preview">
+                                        <img src="/frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame.webp" alt="3D Acrylic LED Glow Board">
+                                    </div>
+
+                                    <div class="thumbnail-row">
+                                        <img src="/frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp" alt="3D Acrylic LED Glow Board">
+                                        <img src="/frontend/Images/led-sign-board/acrylic-leter-acp-3.webp" alt="3D Acrylic LED Glow Board">
+                                        <img src="/frontend/Images/led-sign-board/acrylic-leter-acp-4.webp" alt="3D Acrylic LED Glow Board">
+                                    </div>
+
+                                    <div class="text-center py-4">
+                                        <a href="contact-us">
+                                            <button class="contact-btn">Explore 100+ Designs</button>
+                                        </a>
+                                    </div>
+
+                                </div>
+
                             </div>
 
-                            <div class="signage-box">
+
+                        <div class="signage-box signage-product-layout">
+
+                            <!-- LEFT CONTENT -->
+                            <div class="content-column">
+
                                 <h3 id="3d-acrylic-channel-letter" style="color:#E43D12;"><strong>3D Acrylic Aluminum Channel Letters</strong></h3>
 
-                                        <p>
-                                            Aluminum channel letters are a modern, premium alternative to traditional acrylic box letters. Combining 3D depth with LED illumination, these signs deliver a sleek, eye-catching look that enhances any storefront. Unlike acrylic box letters, only the front acrylic surface lights up, while the metallic sidewalls create a sharp, elegant outline, providing a polished and professional appearance.
-                                        </p>
-
-                                        <h4><strong>Key Features of LED 3D Acrylic Channel Letters</strong></h4>
-                                        <ul>
-                                            <li><strong>Sleek 3D design:</strong> Raised acrylic letters provide depth and dimensionality, making the brand more visible from a distance.</li>
-                                            <li><strong>Front-facing LED illumination:</strong> Only the front surface lights up, producing a focused, radiant glow.</li>
-                                            <li><strong>Durable metallic sides:</strong> Aluminium sidewalls enhance strength and longevity while maintaining a refined daytime look.</li>
-                                            <li><strong>Customizable styling:</strong> Available in black, gold, silver, or multi-colour acrylic fronts to match brand identity.</li>
-                                            <li><strong>Versatile mounting:</strong> Can be mounted on ACP panels, wooden backboards, or metal frames, suitable for indoor and outdoor use.</li>
-                                        </ul>
-
-                                        <h4><strong>Day and Night Appearance</strong></h4>
-                                        <p>
-                                            Channel letters are designed to deliver maximum impact both day and night:
-                                        </p>
-                                        <ul>
-                                            <li><strong>Daytime:</strong> Crisp acrylic fronts and metallic edges create a premium, professional appearance without illumination.</li>
-                                            <li><strong>Nighttime:</strong> The embedded LEDs light up the letters, producing a vibrant glow that highlights the brand and enhances visibility.</li>
-                                        </ul>
-
-                                        <p>
-                                            We provide acrylic aluminum channel letters customized in multiple styles, <b>black letters on metal frames</b>, <b>acrylic fronts with golden or silver sides</b>, 
-                                            or vibrant multi-colour combinations <b>mounted on wooden or ACP back panels</b>. They are ideal for boutique shops, 
-                                            <a href="blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront"><strong>jewellery stores</strong></a>, 
-                                            <a href="blogs/medical-shop-name-board-design-modern-styles-trends-best-practices"><strong>medical shop</strong></a>, cafés, 
-                                            <a href="blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>mobile shops</strong></a>, and 
-                                            premium retail outlets, giving each storefront a contemporary and sophisticated look.
-                                        </p>
-
-
-                                <div class="image-grid">
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/acrylic-aluminum-letters-1.webp" alt="LED Acrylic Aluminium Channel Letter Mounted on Shop">
-                                        <p>LED Acrylic Aluminium Channel Letter Mounted on Shop</p>
-                                    </div>
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp" alt="Aluminium LED Channel Letters on ACP Frame">
-                                        <p>Aluminium LED Channel Letters on ACP Frame</p>
-                                    </div>
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/aluminum-channel-letters-acp-3.webp" alt="Front View of Aluminium LED Channel Letters on ACP Frame">
-                                        <p>Front View of Aluminium LED Channel Letters</p>
-                                    </div>
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/aluminum-channel-letters-acp-5.webp" alt="Aluminium LED Channel Letters showing Size and Front View">
-                                        <p>Size & Front View of Aluminium LED Channel Letters</p>
-                                    </div>
-                                </div>
-
-                            
-                            </div>
-
-                    <div class="signage-box">
-                            <h3 id="wall-mounted-led-letter" style="color:#E43D12;"><strong>Acrylic Glow Sign Boards (Stand-Alone Letters)</strong></h3>
-
-                            <p>
-                                LED glow sign boards are a classic choice for businesses looking to make their name shine literally. Traditionally, acrylic 
-                                letters are mounted on an aluminium composite (ACP) base. But increasingly, customers prefer a cleaner look, where the 
-                                letters are mounted directly on walls or existing metal frames, removing the need for a bulky base. Installing acrylic 
-                                LED letters directly on the wall preserves the premium feel while providing a radiant glow.
-                            </p>
-
-
-                              <h4><strong>Key Features of Stand-Alone Acrylic Glow Letters</strong></h4>
-                            <ul>
-                                <li><strong>LED Illumination:</strong> Each letter contains embedded LEDs for vibrant, eye-catching glow.</li>
-                                <li><strong>Floating Design:</strong> Mounted directly on walls or steel frames, creating a clean, modern look.</li>
-                                <li><strong>Enhanced Material Strength:</strong> Letters made from 5mm acrylic with reinforced back surfaces for stability.</li>
-                                <li><strong>Custom Mounting Options:</strong> Suitable for wall mounting, ceiling suspension, or existing metal frames.</li>
-                            </ul>
-
-                            <h4><strong>Key Considerations</strong></h4>
-                            <ul>
-                                <li><strong>Power Supply:</strong> LEDs require careful wiring, hidden via wall holes or hollow frame structures.</li>
-                                <li><strong>Material Strength:</strong> Letters must be thicker (5mm) and reinforced with metal or ACP for stability.</li>
-                                <li><strong>Durability & Safety:</strong> Ensures the letters withstand environmental factors and high-rise placement.</li>
-                            </ul>
-                            <p>
-                                At Brand Signages, we provide high-quality <b>stand-alone acrylic glow letters</b> designed for maximum impact. They can be mounted on 
-                                existing steel frames or suspended from ceilings, making them perfect for <b>malls</b>, 
-                                <a href="blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>boutiques</strong></a>, <b>restaurants</b>, 
-                                <a href="blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront"><strong>jewellery stores</strong></a>, and 
-                                premium retail spaces, while instantly enhancing brand visibility and creating a memorable storefront presence.
-                            </p>
-
-                            <div class="image-grid">
-                                <div class="image-item">
-                                    <img src="/frontend/Images/led-sign-board/acrylic-glow-sign-board-1.webp" 
-                                        alt="Acrylic Glow Sign Board mounted on Juice Bar">
-                                    <p>Acrylic Glow Sign Board for Juice Bar</p>
-                                </div>
-                                <div class="image-item">
-                                    <img src="/frontend/Images/led-sign-board/acrylic-glow-sign-board-2.webp" 
-                                        alt="Acrylic Glow Sign Boards Jewellery Shop">
-                                    <p>Acrylic Glow Sign Boards Jewellery Shop</p>
-                                </div>
-                                <div class="image-item">
-                                    <img src="/frontend/Images/led-sign-board/acrylic-glow-sign-board-3.webp" 
-                                        alt="Acrylic Glow Sign Boards mounted on Shop">
-                                    <p>Acrylic Glow Sign Boards mounted on Shop</p>
-                                </div>
-                                <div class="image-item">
-                                    <img src="/frontend/Images/led-sign-board/acrylic-glow-sign-board-4.webp" 
-                                        alt="Aluminium Channel Letter on ACP Base Frame">
-                                    <p>Aluminium Channel Letter with LED Glow</p>
-                                </div>
-                            </div>
-
-                          
-                        </div>
-
-                        <div class="signage-box">
-                        <h3 id="stencil-cut-acrylic-letter" style="color:#E43D12;"><strong>2D Stencil Cut Letters in ACP Frame</strong></h3>
-
-                            <p class="fs-20">
-                                Not every sign needs a raised or 3D finish. Sometimes a sleek, minimalist, flat layout offers a stronger visual impression. Our 2D stencil cut signage uses 
-                                precision-cut acrylic letters fitted seamlessly into an ACP sheet, creating a flush, professional appearance with clean edges and a refined finish. Hidden 
-                                LEDs behind the letters illuminate the acrylic without adding bulk or depth.
-                            </p>
-
-                            <h4><strong>Key Fearures of 2D Stencil Cut Boards</strong></h4>
-                            <ul>
-                                <li class="fs-20"><strong>Cost-Effective Design:</strong> Offers a premium illuminated finish at a significantly lower cost compared to 3D channel letters.</li>
-                                <li class="fs-20"><strong>Customizable Visual Balance:</strong> Allows mixing 2D and 3D elements for strategic emphasis perfect for highlighting brand names.</li>
-                                <li class="fs-20"><strong> Thin or Delicate Fonts:</strong> Works perfectly for fonts or design elements that cannot accommodate internal LEDs in 3D format.</li>
-                            </ul>
-                            <p class="fs-20">
-                                We provide high-precision 2D stencil-cut acrylic letter signboards designed with LED illumination and a flush ACP finish for a <b>clean, modern look</b>. These signs are 
-                                durable, low-maintenance, and offer a <b>premium visual effect</b> without the bulk of 3D letters. They are ideal for reception areas, retail stores, office lobbies, 
-                                <a href="blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>boutique showrooms</strong></a>, cafés, <a href="blogs/medical-shop-name-board-design-modern-styles-trends-best-practices"><strong>clinics</strong></a>, and any space where a sleek, 
-                                minimalist illuminated branding style is preferred.
-                            </p>
-
-                                <div class="image-grid">
-
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp" 
-                                            alt="2D Stencil Cut Acrylic LED Letters (e.g., Acrylic Glow Sign Board mounted on Shop Front)">
-                                        <p>2D Stencil Cut Acrylic LED Letters (Mounted on Shop Front)</p>
-                                    </div>
-
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/2d-stencil-cut-letters-3.webp" 
-                                            alt="2D Stencil Cut Acrylic LED Letters (e.g., Acrylic Glow Sign Board mounted on Interior Wall)">
-                                        <p>2D Stencil Cut Acrylic LED Letters (Mounted on Interior Wall)</p>
-                                    </div>
-
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/in-cut-acp-frame-4.webp" 
-                                            alt="2D Stencil Cut Acrylic LED Letters (Mounted on Shop Front)">
-                                        <p>2D Stencil Cut Acrylic LED Letters (Mounted on Shop Front)</p>
-                                    </div>
-
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/in-cut-acp-frame-3.webp" 
-                                            alt="2D Stencil Cut Acrylic LED Letters (Mounted on Shop Front)">
-                                        <p>2D Stencil Cut Acrylic LED Letters (Mounted on Shop Front)</p>
-                                    </div>
-
-                                </div>
-
-                        </div>
-
-                            <div class="signage-box">
-                                    <h3 id="backlit-metal-letters" style="color:#E43D12;"><strong>Metal LED Letter Sign Boards</strong></h3>
-
-                                    <p class="fs-20">
-                                        Metal LED letter boards are the perfect blend of craftsmanship and technology. Unlike acrylic-based signage, these letters are crafted 
-                                        from premium metals such as stainless steel, aluminum, or brass and are finished in luxurious textures like brushed <b>gold, rose gold, chrome, 
-                                        copper</b>, and <b>matte black</b>.
-                                    </p>
-
-                                    <h4 class="mb-3"><strong>Lighting Style</strong></h4>
-                                    <p class="fs-20">
-                                        Metal letters are opaque, so the lighting is designed as a <b>backlit or halo glow effect</b>. LEDs are placed behind the letters, 
-                                        and by mounting them slightly away from the wall, light spreads softly around the edges giving a timeless, high-end look suited for premium interior 
-                                        and exterior environments.
-                                    </p>
-
-                                    <h4 class="mb-3"><strong>Advantages of Metal LED Letter Boards</strong></h4>
-                                    <ul>
-                                        <li class="fs-20"><strong>Premium Visual Appeal:</strong> Polished or brushed metal provides a rich, luxurious finish unmatched by standard acrylic.</li>
-                                        <li class="fs-20"><strong>Long-lasting Build:</strong> Metal letters resist weather damage, corrosion, and fading making them suitable for long-term branding.</li>
-                                        <li class="fs-20"><strong>Soft LED Halo Effect:</strong> Since metal cannot glow from within, LEDs are installed behind the letters, creating a sophisticated backlit.</li>
-                                    </ul>
-
-                                    <p class="fs-20">
-                                        We provide premium Metal LED Letter Sign Boards crafted in stainless steel, aluminium, or brass with brushed, polished, chrome, gold, or matte finishes 
-                                        along with elegant halo lighting options. They are especially suitable for luxury hotels, <b>jewellery stores</b>, 
-                                        <a href="blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>high-end boutiques</strong></a>, 
-                                        <b>corporate offices</b>, <b>fine-dining restaurants</b>, and premium commercial spaces where branding needs to look sophisticated, timeless, and upscale.
-                                    </p>
-
-                                    <div class="image-grid">
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/metal-letter-boards-1.webp" 
-                                                alt="Metal Letter Boards for Shop (e.g., Metal Leter Board Mounted on Juice Shop)">
-                                            <p>Metal Leter Board Mounted on Juice Shop</p>
-                                        </div>
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/metal-letter-boards-2.webp" 
-                                                alt="Metal Letter Boards for Shop (e.g., Metal Leter Board Mounted on Shop)">
-                                            <p>Metal Leter Board Mounted on Garments Shop</p>
-                                        </div>
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/metal-letter-boards-3.webp" 
-                                                alt="Metal Letter Boards for Shop (e.g., Metal Leter Board Mounted on Shop)">
-                                            <p>Metal Leter Board Mounted on Jewellery Shop</p>
-                                        </div>
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/metal-letter-boards-4.webp" 
-                                                alt="Metal Letter Boards for Shop (e.g., Metal Leter Board Mounted on Juice Shop)">
-                                            <p>Metal Leter Board Mounted on Jewellery Shop</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                
-                                <div class="signage-box">
-                                            <h3 id="glittering-acrylic" style="color:#E43D12;"><strong>3D Crystal Letter LED Sign Board</strong></h3>
-
-                                            <p class="fs-20">
-                                                If your brand deserves attention, not just visibility, 3D Crystal Letter LED Boards are the signboard equivalent of luxury jewellery.
-                                                Unlike standard LED signage, these letters are embedded with thousands of precision-cut micro crystals that refract LED light like diamonds,
-                                                creating a sparkling, chandelier-style glow that instantly draws attention and elevates the storefront.
-                                            </p>
-
-                                            <h4 class="mt-3">Key Features at a Glance</h4>
-                                            <ul class="fs-20">
-                                                <li><strong>Crystal-Embedded Acrylic Face:</strong> Each letter is layered with micro-crystals engineered to scatter and amplify light like gemstones.</li>
-                                                <li><strong>Backlit LED Brilliance:</strong> High-performance LEDs placed behind the structure create a luminous, dramatic glow effect suitable for premium branding.</li>
-                                                <li><strong>Luxury Metallic Finishes:</strong> Sidewalls available in gold, rose gold, silver, chrome, matte black, and brushed titanium for a refined premium appearance.</li>
-                                                <li><strong>Deep 3D Layering:</strong> A bold raised structure ensures strong visibility during the day while offering a glamorous night glow.</li>
-                                            </ul>
-
-                                            <p class="fs-20 mt-3">
-                                                We craft premium 3D Crystal LED Letter Boards using crystal-infused acrylic fronts, metallic edge finishing, and custom light intensity options 
-                                                for both subtle ambience and bold attention-grabbing illumination. These signage systems are ideal for <b>luxury jewellery stores, designer boutiques, 
-                                                beauty and nail salons, upscale hotels, cosmetic brands, bridal studios</b>, and any business wanting to project exclusivity, elegance, and a premium identity.
-                                            </p>
-
-                                  <div class="image-grid">
-
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/crystal-letter-led-1.webp" 
-                                            alt="3D Crystal Letter LED Board Installed on Retail Front">
-                                        <p>3D Crystal Letter LED Board for Retail Store</p>
-                                    </div>
-
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/crystal-letter-board-2.webp" 
-                                            alt="Crystal Letter LED Sign with Gold Metallic Finish">
-                                        <p>Crystal Letter LED Sign with Gold-Finished Profile</p>
-                                    </div>
-
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/crystal-led-5.webp" 
-                                            alt="Crystal Acrylic LED Glow Letters for Outdoor Branding">
-                                        <p>Crystal Acrylic LED Glow Letters for Outdoor Branding</p>
-                                    </div>
-
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/crystal-led-6.webp" 
-                                            alt="Premium Crystal Letter LED Board with Golden Backlit">
-                                        <p>Premium Crystal Letter LED Board with Golden Backlit</p>
-                                    </div>
-
-                                </div>
-
-
-                                        </div>
-
-   
-                                        <div class="signage-box">
-                                            <h3 id="sky-sign-board" style="color:#E43D12;"><strong>Sky Sign Boards– Acrylic LED Sign</strong></h3>
-
-                                            <p class="fs-20">
-                                                Sky sign boards are engineered for large-format, high-altitude branding, typically installed on high-rise buildings, commercial towers, 
-                                                and skyline landmarks. These signs are designed to be <b>seen from long distances</b> even kilometers away, making them one of the most 
-                                                powerful identity elements for corporate brands. With letters often ranging from 6 to 12 feet or more, sky signage requires careful 
-                                                planning in design, structure, lighting, and installation.
-                                                </p>
-
-                                                <h4 class="mt-3 mb-3"><strong>Key Features for Sky Sign Boards:</strong></h4>
-                                                <ul class="fs-20">
-                                                    <li><strong>High-Strength Build:</strong> Made using heavy-duty aluminium channel letters combined with thick acrylic fronts for maximum rigidity.</li>
-                                                    <li><strong>Weather-Resistant Engineering:</strong> Designed to withstand extreme wind pressure, UV exposure, and outdoor environmental challenges.</li>
-                                                    <li><strong>IP67-Rated Components:</strong> LEDs, wiring, and drivers are fully waterproof and dustproof, ensuring performance in heavy rain, heat, & dust storms.</li>
-                                                    <li><strong>Premium Illumination Options:</strong> Available in front-lit, backlit halo, or dual-lighting systems for superior visibility from long distances.</li>
-                                                </ul>
-
-                                                <p class="fs-20">
-                                                We manufacture and install premium-quality sky sign boards using durable aluminium channel letter construction, weatherproof LED systems, and custom lighting
-                                                 styles suitable for long-distance brand visibility. These sky signs are ideal for <b>corporate headquarters</b>, <b>IT parks</b>, <b>shopping malls</b>, <b>hospitals</b>, real estate 
-                                                 developers, hotels, banks, and national-level retail chains looking to establish a powerful skyline identity and large-scale public visibility.
-                                                </p>
-
-                                                <div class="image-grid">
-                                                    <div class="image-item">
-                                                        <img src="/frontend/Images/led-sign-board/sky-sign-board-1.webp" 
-                                                            alt="Sky Sign Board(e.g., Sky Sign Mounted on Holiday Inn Hotel)">
-                                                        <p>Sky Sign Mounted on Hotel</p>
-                                                    </div>
-                                                    <div class="image-item">
-                                                        <img src="/frontend/Images/led-sign-board/sky-sgn-board-2.webp" 
-                                                            alt="Sky Sign Board(e.g., Sky Sign Mounted on Corporate Building - ISAGENIX)">
-                                                        <p>Sky Sign Mounted on Corporate Building</p>
-                                                    </div>
-                                                    <div class="image-item">
-                                                        <img src="/frontend/Images/led-sign-board/sky-sgn-board-3.webp" 
-                                                            alt="Sky Sign Board (e.g., Sky Sign Mounted on Corporate Building- Sanofi Avontis)">
-                                                        <p>Sky Sign Mounted on Corporate Building</p>
-                                                    </div>
-                                                    <div class="image-item">
-                                                        <img src="/frontend/Images/led-sign-board/sky-sign-board-4.webp" 
-                                                            alt="Sky Sign Board (e.g., Sky Sign Mounted on Corporate Building - Steria)">
-                                                        <p> Sky Sign Mounted on Corporate Building</p>
-                                                    </div>
-                                                </div>
-                                                </div>
-                                                
-                                <div class="signage-box">
-                                    <h3 id="dot-led-matrix" style="color:#E43D12;"><strong>Open Dot LED Sign Boards</strong></h3>
-                                    <p>
-                                        Open Dot LED Boards are designed for maximum visibility and high-impact lighting. Unlike standard glow signboards where LEDs are diffused behind acrylic, open-dot signage exposes each individual LED directly. This creates an ultra-bright, high-contrast effect that stands out even in crowded commercial streets or brightly lit marketplaces. These boards are also commonly known as Spot LED Sign Boards because each LED acts as a precise point source of intense illumination.
-                                    </p>
-
-                                    <h4>Key Features</h4>
-                                    <ul>
-                                        <li><b>Extreme Brightness:</b> Exposed LED points deliver high-intensity lighting powerful enough to be seen clearly in daylight or busy nightlife environments.</li>
-                                        <li><b>Dynamic Visual Effects:</b> Optional RGB LED modules and programmable controllers allow running effects like chasing lights, gradients, waves, text animation.</li>
-                                        <li><b>Durable Construction:</b> Acrylic or metal letter structures are precision-drilled, allowing each LED bulb to be inserted securely for long-term performance.</li>
-                                        <li><b>Energy Efficient:</b> Despite their brightness, modern dot LEDs consume significantly less power while maintaining long-lasting illumination.</li>
-                                    </ul>
-
-                                    <p>
-                                        We manufacture high-impact Open Dot LED Boards with customizable LED colors, programmable lighting options, durable drilled acrylic/metal frames, and long-lasting 
-                                        power efficiency. These boards are especially suitable for <b>supermarkets, mobile shops, gaming zones, fast-food outlets, night markets, bars, electronics stores</b>, and any 
-                                        business that wants high visibility, crowd attention, and a bold illuminated identity day or night.
-                                    </p>
-
-                                    <div class="image-grid">
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/open-dot-led-sign-1.webp" 
-                                                alt="Open Dot LED Sign Board(e.g., Open Dot LED Sign Board for Shop)">
-                                            <p>Open Dot LED Sign Board for Shop</p>
-                                        </div>
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/open-dot-led-sign-2.webp" 
-                                                alt="Open Dot LED Sign Board (e.g., Open Dot LED Sign Board for Shop)">
-                                            <p>Open Dot LED Sign Board for Shop</p>
-                                        </div>
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/open-dot-led-sign-3.webp" 
-                                                alt="Open Dot LED Sign Boards (e.g., Open Dot LED Sign board for Shop)">
-                                            <p>Open Dot LED Sign board for Shop</p>
-                                        </div>
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/open-dot-led-sign-4.webp" 
-                                                alt="Open Dot LED Sign Boards (e.g., Open Dot LED Sign mounted on Hotel)">
-                                            <p>Open Dot LED Sign Board for Hotel</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                        <div class="signage-box">
-                                            <h3 id="flexibleled" style="color:#E43D12;"><strong>Flexible LED Display Boards</strong></h3>
-
-                                            <p>
-                                                Flexible LED Display Boards are the modern evolution of LED signboards, designed for brands that want 
-                                                dynamic visibility instead of fixed messages. Unlike traditional signage where text remains static, 
-                                                programmable LED displays allow businesses to <b>showcase scrolling text, animations, motion graphics, 
-                                                pricing updates, offers, countdowns</b>, and real-time information, all controlled remotely.
-                                            </p>
-
-                                            <ul>
-                                                <li><b>Programmable Message System:</b> Update text, announcements, or offers via Wi-Fi, USB, mobile app, or cloud control.</li>
-                                                <li><b>Flexible LED Modules:</b> Can adapt to curved walls, pillars, arches, or non-flat surfaces for creative installations.</li>
-                                                <li><b>High Brightness Output:</b> Visible in broad daylight with adjustable brightness for indoor & outdoor usage.</li>
-                                                <li><b>RGB or Single Color Options:</b> Available in red, white, amber, or full RGB for animations and visual effects.</li>
-                                                <li><b>Energy Efficient & Durable:</b> Long lifespan, weather-resistant, and reliable for 24/7 operation.</li>
-                                            </ul>
-
-                                            <p>
-                                                At Brand Signages, we manufacture and customize these programmable LED displays in any <b>size, brightness, color configuration, and mounting style</b>. 
-                                                Flexible Programmable LED Display Boards are ideal for shopping malls, petrol bunks, pharmacies, gyms, 
-                                                railway stations, theatres, retail storefronts, and corporate spaces.
-                                            </p>
-                                                <div class="image-grid">
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/flexibile-led-1.webp" 
-                                                alt="Flexible LED Sign Board (Programmable LED Sign Board)">
-                                            <p>Programmable Fielxible LED Sign Board</p>
-                                        </div>
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/flexible-led-2.webp" 
-                                                alt="Flexible LED Sign Board (Programmable LED Sign Board)">
-                                            <p>Programmable Fielxible LED Sign Board</p>
-                                        </div>
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/flexible-led-3.webp" 
-                                                alt="Flexible LED Sign Board (Programmable LED Sign Board)">
-                                            <p>Programmable Fielxible LED Sign Board</p>
-                                        </div>
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/flexible-led-4.webp" 
-                                                alt="Flexible LED Sign Board (Programmable LED Sign Board)">
-                                            <p>Programmable Fielxible LED Sign Board</p>
-                                        </div>
-                                    </div>
-                                </div>
- 
- 
-                            <div class="signage-box">
-                                <h3 id="neon-sign-board" style="color:#E43D12;"><strong>LED Neon Sign Boards</strong></h3>
                                 <p>
-                                    LED Neon Sign Boards represent the next generation of vibrant, eye-catching signage inspired by the retro charm of traditional neon. 
-                                    With advancements in signage technology, LED Neon ropes have completely replaced fragile gas-filled glass tubes, delivering a visually 
-                                    identical effect but with far better durability, lower power consumption, and precise color consistency.
+                                    Aluminum channel letters are a modern, premium alternative to traditional acrylic box letters, combining 3D depth with LED illumination. We provide acrylic 
+                                aluminum channel letters customized in multiple styles, black letters on metal frames, acrylic fronts with golden or silver sides, or vibrant multi-colour
+                                combinations. They are ideal for boutique shops, 
+                                    <a href="blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront"><strong>jewellery stores</strong></a>, 
+                                    <a href="blogs/medical-shop-name-board-design-modern-styles-trends-best-practices"><strong>medical shop</strong></a>, cafés, 
+                                    <a href="blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"><strong>mobile shops</strong></a>, and 
+                                    premium retail outlets.
                                 </p>
 
-                                <h4>Key Benefits of LED Neon Ropes</h4>
+                                <h4><strong>Key Features of LED 3D Acrylic Channel Letters</strong></h4>
                                 <ul>
-                                    <li><strong>Durability:</strong> LED neon is made from shatter-resistant flexible PVC or silicone, ideal for high-traffic commercial areas.</li>
-                                    <li><strong>Low Power Consumption:</strong> Uses significantly less electricity than traditional neon, making long-term usage cost-efficient.</li>
-                                    <li><strong>Vivid Fluorescent Colors:</strong> Available in ultra-bright shades including electric green, peppermint blue, hot pink, deep royal blue, etc.</li>
-                                    <li><strong>Low Maintenance:</strong> No flickering, no gas refills, no tube leaks — just stable, uniform lighting throughout its lifespan.</li>
+                                    <li><strong>Sleek 3D design:</strong> Raised acrylic letters provide depth and dimensionality, making the brand more visible from a distance.</li>
+                                    <li><strong>Front-facing LED illumination:</strong> Only the front surface lights up, producing a focused, radiant glow.</li>
+                                    <li><strong>Customizable styling:</strong> Available in black, gold, silver, or multi-colour acrylic fronts to match brand identity.</li>
+                                </ul>
+
+                                <h4><strong>Day and Night Appearance</strong></h4>
+                                <ul>
+                                    <li><strong>Daytime:</strong> Crisp acrylic fronts and metallic edges create a premium, professional appearance.</li>
+                                    <li><strong>Nighttime:</strong> The embedded LEDs light up the letters, producing a vibrant glow.</li>
+                                </ul>
+
+                            </div>
+
+                            <!-- RIGHT PRODUCT GALLERY -->
+                                <div class="product-gallery">
+
+                                    <div class="main-preview">
+                                        <img src="/frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp" alt="3D Acrylic LED Glow Board">
+                                    </div>
+
+                                    <div class="thumbnail-row">
+                                        <img src="/frontend/Images/led-sign-board/acrylic-aluminum-letters-1.webp" alt="3D Acrylic LED Glow Board">
+                                        <img src="/frontend/Images/led-sign-board/aluminum-channel-letters-acp-3.webp" alt="3D Acrylic LED Glow Board">
+                                        <img src="/frontend/Images/led-sign-board/aluminum-channel-letters-acp-5.webp" alt="3D Acrylic LED Aluminum Channel Letters">
+                                    </div>
+
+                                    <div class="text-center py-4">
+                                        <a href="contact-us">
+                                            <button class="contact-btn">Explore 100+ Designs</button>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+
+                        </div>
+
+
+                        <div class="signage-box signage-product-layout">
+
+                            <!-- LEFT CONTENT -->
+                            <div class="content-column">
+
+                                <h3 id="wall-mounted-led-letter" style="color:#E43D12;"><strong>Acrylic LED Glow Sign (Stand-Alone Letters)</strong></h3>
+
+                                <p>
+                                 LED glow sign boards are a classic choice for businesses looking to make their name shine literally. At Brand Signages, we provide high-quality stand-alone 
+                                 <b>acrylic LED glow letters</b> designed for maximum impact. Acrylic LED glow sign boards are perfect for <b>malls</b>, 
+                                 <a href="blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>boutiques</strong></a>, <b>restaurants</b>, <b>jewellery stores</b>, and premium 
+                                 retail spaces, while instantly enhancing brand visibility and creating a memorable business presence.
+                                </p>
+
+                                <h4><strong>Key Features of LED 3D Acrylic Channel Letters</strong></h4>
+                                <ul>
+                                    <li><strong>LED Illumination:</strong> Each letter contains embedded LEDs for a vibrant, eye-catching glow.</li>
+                                    <li><strong>Floating Design:</strong> Mounted directly on walls or steel frames, creating a clean, modern look.</li>
+                                    <li><strong>Enhanced Material Strength:</strong> Letters made from 5mm acrylic with reinforced back surfaces for stability.</li>
+                                </ul>
+
+                                <h4><strong>Key Considerations</strong></h4>
+                                <ul>
+                                    <li><strong>Power Supply:</strong> LEDs require careful wiring, hidden via wall holes or hollow frame structures.</li>
+                                    <li><strong>Material Strength:</strong> Letters must be thicker (5mm) and reinforced with metal or ACP for stability.</li>
+                                </ul>
+
+                            </div>
+
+                            <!-- RIGHT PRODUCT GALLERY -->
+                                <div class="product-gallery">
+
+                                    <div class="main-preview">
+                                        <img src="frontend/Images/led-sign-board/acrylic-glow-sign-board-1.webp" alt="3D Acrylic LED Glow Board">
+                                    </div>
+
+                                    <div class="thumbnail-row">
+                                        <img src="frontend/Images/led-sign-board/acrylic-glow-sign-board-2.webp" alt="3D Acrylic LED Glow Board">
+                                        <img src="frontend/Images/led-sign-board/acrylic-glow-sign-board-3.webp" alt="3D Acrylic LED Glow Board">
+                                        <img src="frontend/Images/led-sign-board/acrylic-glow-sign-board-4.webp" alt="3D Acrylic LED Aluminum Channel Letters">
+                                    </div>
+
+                                    <div class="text-center py-4">
+                                        <a href="contact-us">
+                                            <button class="contact-btn">Explore 100+ Designs</button>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+
+
+                        </div>
+                    
+
+
+
+                    <div class="signage-box signage-product-layout">
+
+                            <!-- LEFT CONTENT -->
+                            <div class="content-column">
+
+                                <h3 id="stencil-cut-acrylic-letter" style="color:#E43D12;"><strong>2D Stencil Cut Letters in ACP Frame</strong></h3>
+
+                                <p>
+                                    Not every sign needs a raised or 3D finish. Sometimes a sleek, minimalist, flat layout offers a stronger visual impression. Our <b>2D stencil cut sign boards</b> 
+                                    uses precision-cut acrylic letters fitted seamlessly into an ACP sheet, creating a flush, professional appearance with clean edges and a refined finish. 
+                                    Hidden LEDs behind the letters illuminate the acrylic without adding bulk or depth.
+                                </p>
+
+                                <h4><strong>Key Features of 2D Stencil Boards</strong></h4>
+                                <ul>
+                                    <li><strong>Cost-Effective Design:</strong> Offers a premium illuminated finish at a significantly lower cost compared to 3D channel letters.</li>
+                                    <li><strong>Customizable Visual Balance:</strong> Allows mixing 2D and 3D elements for strategic emphasis perfect for highlighting brand names.</li>
+                                    <li><strong>Thin or Delicate Fonts:</strong> Works perfectly for fonts or design elements that cannot accommodate internal LEDs.</li>
                                 </ul>
 
                                 <p>
-                                    We manufacture premium LED Neon Sign Boards with <b>custom text, shapes, logos, borders, and decorative</b> designs available in single color, 
-                                    RGB, or color-changing options. Our neon solutions are crafted using high-brightness silicone neon strips, high-efficiency drivers, and 
-                                    precision acrylic base. LED Neon signs are especially suitable for <b>cafés, boutique stores, gyms, salons, bars, nightclubs</b>, gaming rooms, 
-                                    home décor walls, studios, restaurants, and modern retail stores.
+                                    We provide high-precision 2D stencil-cut acrylic letter signboards designed with LED illumination and a flush ACP finish for a clean, modern look. These signs 
+                                    are durable, low-maintenance, and offer a <b>premium visual effect</b> without the bulk of 3D letters. They are ideal for <b>reception areas</b>, <b>retail stores</b>, <b>office lobbies</b>, 
+                                    <b>boutique showrooms</b>, <a href="blogs/best-tea-shop-name-board-design-trends-to-attract-customers-in-2025"><strong>cafes</strong></a>, clinics, and any space where minimalist illuminated branding is preferred.
                                 </p>
 
-                                <div class="image-grid">
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/neon-sign-board-1.webp" 
-                                            alt="Neon Sign Board for Juice Bar (e.g., Neon Sign Board Exclusively Designed for Juice Shop)">
-                                        <p>Neon Sign Board for Juice Bar</p>
-                                    </div>
-
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/seon-sign-board-2.webp" 
-                                            alt="In-cut Acrylic Letters on an ACP Frame (e.g., In-cut Acrylic Letters on an ACP Frame for Shop)">
-                                        <p>Neon Sign Board for Coffee Shop</p>
-                                    </div>
-
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/neon-sign-board-3.webp" 
-                                            alt="Neon Sign Board for Gaming Shop (e.g., Neon Sign Board Exclusively Designed for Gaming Shop)">
-                                        <p>Neon Sign Board for Gaming Shop</p>
-                                    </div>
-
-                                    <div class="image-item">
-                                        <img src="/frontend/Images/led-sign-board/neon-sign-board-4.webp" 
-                                            alt="Neon Sign Board Sample Designs for Shop (e.g., Neon Sign Board Sample Designs for Shop)">
-                                        <p>Neon Sign Board Sample Designs for Shop</p>
-                                    </div>
-                                </div>
                             </div>
+
+                            <!-- RIGHT PRODUCT GALLERY -->
+                            <div class="product-gallery">
+
+                                <div class="main-preview">
+                                    <img src="/frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp" alt="2D Stencil Cut ACP Signage">
+                                </div>
+
+                                <div class="thumbnail-row">
+                                    <img src="/frontend/Images/led-sign-board/2d-stencil-cut-letters-3.webp" alt="2D Stencil Cut ACP Signage">
+                                    <img src="/frontend/Images/led-sign-board/in-cut-acp-frame-4.webp" alt="2D Stencil Cut ACP Signage">
+                                    <img src="/frontend/Images/led-sign-board/in-cut-acp-frame-3.webp" alt="2D Stencil Cut ACP Signage">
+                                </div>
+
+                                <div class="text-center py-4">
+                                    <a href="contact-us">
+                                        <button class="contact-btn">Explore 100+ Designs</button>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+   
+
+                        <div class="signage-box signage-product-layout">
+
+                                    <!-- LEFT CONTENT -->
+                                    <div class="content-column">
+
+                                        <h3 id="backlit-metal-letters" style="color:#E43D12;"><strong>Metal LED Letter Sign Boards</strong></h3>
+
+                                        <p>
+                                            Metal LED letter boards are the perfect blend of craftsmanship and technology. Unlike acrylic-based signage, these letters 
+                                            are crafted in luxurious textures like <b>brushed gold</b>, <b>rose gold</b>, <b>chrome</b>, <b>copper</b>, and <b>matte black</b>. At Brand Signages we provide premium Metal LED Letter Sign Boards 
+                                            crafted in <b>stainless steel</b>, <b>aluminium</b>, or <b>brass with brushed</b>, polished, chrome, gold, or matte finishes along with elegant halo lighting 
+                                            options. Metal LED letters are especially suitable for <b>luxury hotels</b>, <a href="blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront"><strong>jewellery stores</strong></a>, 
+                                            <b>garments shop</b>, <b>corporate offices</b>, <b>fine-dining restaurants</b>, and premium commercial spaces.
+                                        </p>
+
+                                        <h4><strong>Advantages of Metal LED Sign Boards</strong></h4>
+                                        <ul>
+                                            <li><strong>Premium Visual Appeal:</strong> Polished or brushed metal provides a rich, luxurious finish.</li>
+                                            <li><strong>Long-lasting Build:</strong> Metal letters resist weather damage, corrosion, and fading making them suitable for outdoor and indoor use.</li>
+                                            <li><strong>Soft LED Halo Effect:</strong> Since metal cannot glow from within, LEDs are installed behind the letters, creating a sophisticated backlit.</li>
+                                        </ul>
+
+                                    </div>
+
+                                    <!-- RIGHT PRODUCT GALLERY -->
+                                    <div class="product-gallery">
+
+                                        <div class="main-preview">
+                                            <img src="frontend/Images/led-sign-board/metal-letter-boards-1.webp" alt="Metal LED Letter Sign Board">
+                                        </div>
+
+                                        <div class="thumbnail-row">
+                                            <img src="frontend/Images/led-sign-board/metal-letter-boards-2.webp" alt="Metal LED Letter Sign Board">
+                                            <img src="frontend/Images/led-sign-board/metal-letter-boards-3.webp" alt="Metal LED Letter Sign Board">
+                                            <img src="frontend/Images/led-sign-board/metal-letter-boards-4.webp" alt="Metal LED Letter Sign Board">
+                                        </div>
+
+                                        <div class="text-center py-4">
+                                            <a href="contact-us">
+                                                <button class="contact-btn">Explore 100+ Designs</button>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                    <div class="signage-box signage-product-layout">
+
+                                                <!-- LEFT CONTENT -->
+                                                <div class="content-column">
+
+                                                    <h3 id="glittering-acrylic" style="color:#E43D12;"><strong>3D Crystal Letters- LED Sign Board</strong></h3>
+
+                                                    <p>
+                                                        If your brand deserves attention, not just visibility, 3D Crystal Letter LED Boards are the signboard equivalent of luxury jewellery. Unlike standard LED signage
+                                                        , these letters are embedded with thousands of <b>precision-cut crystals</b> that refract LED light like diamonds.
+                                                    </p>
+
+                                                    <h4><strong>Key Features at a Glance</strong></h4>
+                                                    <ul>
+                                                        <li><strong>Crystal-Embedded Acrylic Face:</strong> Each letter is layered with micro-crystals engineered to amplify light like gemstones.</li>
+                                                        <li><strong>Backlit LED Brilliance:</strong> High-performance LEDs placed behind the structure create a luminous, dramatic glow effect.</li>
+                                                        <li><strong>Luxury Metallic Finishes:</strong> Sidewalls available in gold, rose gold, silver, chrome, matte black, and brushed titanium.</li>
+                                                        <li><strong>Deep 3D Layering:</strong> A bold raised structure ensures strong visibility during the day and a glamorous night glow.</li>
+                                                    </ul>
+
+                                                    <p>
+                                                        We craft premium <b>3D Crystal LED Letter Boards</b> using crystal-infused acrylic fronts, metallic edge finishing, and custom light intensity options for both subtle ambience 
+                                                        and bold attention-grabbing illumination. These signage systems are ideal for <b>luxury jewellery stores</b>, <a href="blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"><strong>designer boutiques</strong></a>
+                                                        , <b>beauty and nail salons</b>, upscale hotels, cosmetic brands, and bridal studios.
+                                                    </p>
+
+                                                </div>
+
+                                                <!-- RIGHT PRODUCT GALLERY -->
+                                                <div class="product-gallery">
+
+                                                    <div class="main-preview">
+                                                        <img src="/frontend/Images/led-sign-board/crystal-letter-led-1.webp" alt="3D Crystal Letter LED Sign Board">
+                                                    </div>
+
+                                                    <div class="thumbnail-row">
+                                                        <img src="/frontend/Images/led-sign-board/crystal-letter-board-2.webp" alt="Crystal LED Letter Sign Board">
+                                                        <img src="/frontend/Images/led-sign-board/crystal-led-5.webp" alt="Crystal LED Glow Letters">
+                                                        <img src="/frontend/Images/led-sign-board/crystal-led-6.webp" alt="Luxury Crystal LED Letter Signage">
+                                                    </div>
+
+                                                    <div class="text-center py-4">
+                                                        <a href="contact-us">
+                                                            <button class="contact-btn">Explore 100+ Designs</button>
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+
+
+                                    <div class="signage-box signage-product-layout">
+
+                                            <!-- LEFT CONTENT -->
+                                            <div class="content-column">
+
+                                                <h3 id="sky-sign-board" style="color:#E43D12;"><strong>Sky Sign Boards– Acrylic LED Sign</strong></h3>
+
+                                                <p>
+                                                    Sky sign boards are engineered for large-format, high-altitude branding, typically installed on high-rise buildings, commercial towers, and skyline 
+                                                    landmarks. We create sky sign boards to be seen from long distances even kilometers away, making them one of the most powerful identity elements for 
+                                                    corporate brands.
+                                                </p>
+
+                                                <h4><strong>Key Features for Sky Sign Boards:</strong></h4>
+                                                <ul>
+                                                    <li><strong>High-Strength Build:</strong> Made using heavy-duty aluminium channel letters combined with thick acrylic fronts for maximum rigidity.</li>
+                                                    <li><strong>Weather-Resistant Engineering:</strong> Designed to withstand extreme wind pressure, UV exposure, and outdoor challenges.</li>
+                                                    <li><strong>IP67-Rated Components:</strong> LEDs, wiring, and drivers are fully waterproof and dustproof, protected from heavy rain and heat.</li>
+                                                    <li><strong>Premium Illumination Options:</strong> Available in front-lit, backlit halo, or dual-lighting systems for superior visibility.</li>
+                                                </ul>
+
+                                                <p>
+                                                    We manufacture and install premium-quality sky sign boards using durable aluminium channel letter construction, weatherproof LED systems, and custom lighting styles. 
+                                                    These sky signs are ideal for <b>corporate headquarters</b>, <b>IT parks</b>, <b>shopping malls</b>, <a href="case-studies/fortis-hospital-sign-board"><strong>hospitals</strong></a>, <b>real estate developers</b>, 
+                                                    hotels, banks, and national-level retail chains looking to establish a powerful skyline identity.
+                                                </p>
+
+                                            </div>
+
+                                            <!-- RIGHT PRODUCT GALLERY -->
+                                            <div class="product-gallery">
+
+                                                <div class="main-preview">
+                                                    <img src="/frontend/Images/led-sign-board/sky-sign-board-1.webp" alt="Sky LED Sign Board Installed on High-Rise Building">
+                                                </div>
+
+                                                <div class="thumbnail-row">
+                                                    <img src="/frontend/Images/led-sign-board/sky-sgn-board-2.webp" alt="Acrylic LED Sky Sign Board">
+                                                    <img src="/frontend/Images/led-sign-board/sky-sgn-board-3.webp" alt="Large-Scale Sky LED Sign Board">
+                                                    <img src="/frontend/Images/led-sign-board/sky-sign-board-4.webp" alt="Corporate Building Sky Signboard with LED Lighting">
+                                                </div>
+
+                                                <div class="text-center py-4">
+                                                    <a href="contact-us">
+                                                        <button class="contact-btn">Explore 100+ Designs</button>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                                
+                                    
+                                    <div class="signage-box signage-product-layout">
+
+                                            <!-- LEFT CONTENT -->
+                                            <div class="content-column">
+
+                                                <h3 id="dot-led-matrix" style="color:#E43D12;"><strong>Open Dot LED Sign Boards</strong></h3>
+
+                                                <p>
+                                                    Open Dot LED Boards are designed for maximum visibility and high-impact lighting. Unlike standard glow signboards where LEDs are diffused behind acrylic, 
+                                                    open-dot signage exposes each individual LED directly. This creates an ultra-bright, high-contrast effect that stands out even in crowded commercial streets.
+                                                </p>
+
+                                                <h4><strong>Key Features</strong></h4>
+                                                <ul>
+                                                    <li><strong>Extreme Brightness:</strong> Exposed LED points deliver high-intensity lighting powerful to be seen clearly.</li>
+                                                    <li><strong>Dynamic Visual Effects:</strong> Optional RGB LED modules and programmable controllers like chasing lights & text animation.</li>
+                                                    <li><strong>Energy Efficient:</strong> Despite their brightness, modern dot LEDs consume significantly less power with lasting illumination.</li>
+                                                </ul>
+
+                                                <p>
+                                                    We manufacture high-impact Open Dot LED Boards with customizable LED colors, programmable lighting options, durable drilled <b>acrylic/metal frames</b>, and long-lasting power 
+                                                    efficiency. These boards are especially suitable for <b>supermarkets</b>, <b>mobile shops</b>, gaming zones, <b>fast-food outlets</b>, night markets, bars, <b>electronics stores</b>.
+                                                </p>
+
+                                            </div>
+
+                                            <!-- RIGHT PRODUCT GALLERY -->
+                                            <div class="product-gallery">
+
+                                                <div class="main-preview">
+                                                    <img src="/frontend/Images/led-sign-board/open-dot-led-sign-1.webp" alt="Open Dot LED Sign Board">
+                                                </div>
+
+                                                <div class="thumbnail-row">
+                                                    <img src="/frontend/Images/led-sign-board/open-dot-led-sign-2.webp" alt="Open Dot LED Board Display">
+                                                    <img src="/frontend/Images/led-sign-board/open-dot-led-sign-3.webp" alt="RGB Animated Dot LED Sign">
+                                                    <img src="/frontend/Images/led-sign-board/open-dot-led-sign-4.webp" alt="Bright Open Dot LED Store Sign">
+                                                </div>
+
+                                                <div class="text-center py-4">
+                                                    <a href="contact-us">
+                                                        <button class="contact-btn">Explore 100+ Designs</button>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+
+                                           
+                                <div class="signage-box signage-product-layout">
+
+                                    <!-- LEFT CONTENT -->
+                                    <div class="content-column">
+
+                                        <h3 id="flexibleled" style="color:#E43D12;"><strong>Flexible LED Display Boards</strong></h3>
+
+                                        <p>
+                                            Flexible LED Display Boards are the modern evolution of LED signage, designed for brands that need dynamic communication instead of static 
+                                            visuals. With programmable displays, messages can be updated anytime showing scrolling text, offers, animations, 
+                                            or real-time information remotely.
+                                        </p>
+
+                                        <h4 style="margin-top:15px;"><strong>Key Features</strong></h4>
+
+                                        <ul>
+                                            <li><strong>Programmable Messaging:</strong> Update content instantly using Wi-Fi, USB, mobile app, or cloud control.</li>
+                                            <li><strong>Flexible LED Modular Design:</strong> Can be installed on curved walls, pillars, arches, or uneven surfaces.</li>
+                                            <li><strong>High Brightness Output:</strong> Designed for indoor and outdoor use with adjustable brightness.</li>
+                                            <li><strong>RGB or Single Colour:</strong> Available in white, red, amber or full-RGB motion graphics capability.</li>
+                                        </ul>
+
+                                        <p>
+                                            At Brand Signages, we design and manufacture customizable Flexible Programmable LED Display Boards to suit any size, installation style, 
+                                            resolution, brightness requirement, and control system. These displays are ideal for <b>petrol pumps</b>, <b>retail stores, gyms, pharmacies, theatres</b>, 
+                                            railway stations, & malls.
+                                        </p>
+
+                                    </div>
+
+                                    <!-- RIGHT IMAGE GALLERY -->
+                                    <div class="product-gallery">
+                                        <div class="main-preview">
+                                            <img src="/frontend/Images/led-sign-board/flexible-led-2.webp" alt="Flexible LED Display Board">
+                                        </div>
+
+                                        <div class="thumbnail-row">
+                                            <img src="/frontend/Images/led-sign-board/flexibile-led-1.webp" alt="Flexible LED Sign">
+                                            <img src="/frontend/Images/led-sign-board/flexible-led-3.webp" alt="Curved LED Display">
+                                            <img src="/frontend/Images/led-sign-board/flexible-led-4.webp" alt="LED Digital Display Board">
+                                        </div>
+                                        <div class="text-center py-4">
+                                                    <a href="contact-us">
+                                                        <button class="contact-btn">Explore 100+ Designs</button>
+                                                    </a>
+                                                </div>
+                                    </div>
+                                    
+
+                                </div>
+
+
+                                <div class="signage-box signage-product-layout">
+
+                                        <!-- LEFT CONTENT -->
+                                        <div class="content-column">
+
+                                            <h3 id="neon-sign-board" style="color:#E43D12;"><strong>LED Neon Sign Boards</strong></h3>
+
+                                            <p>
+                                                LED Neon Sign Boards represent the next generation of vibrant, eye-catching signage inspired by the retro charm of traditional neon. With advancements in signage technology, LED Neon ropes have completely replaced fragile gas-filled glass tubes, delivering a visually identical effect but with far better durability, lower power consumption, and precise color consistency.
+                                            </p>
+
+                                            <h4><strong>Key Benefits of LED Neon Ropes</strong></h4>
+                                            <ul>
+                                                <li><strong>Durability:</strong> LED neon is made from shatter-resistant flexible PVC or silicone, ideal for high-traffic areas.</li>
+                                                <li><strong>Low Power Consumption:</strong> Uses significantly less electricity than traditional neon, making long-term usage.</li>
+                                                <li><strong>Vivid Fluorescent Colors:</strong> Available in ultra-bright shades including electric green, peppermint blue, hot pink, etc.</li>
+                                            </ul>
+
+                                            <p>
+                                                We manufacture premium LED Neon Sign Boards with custom text, shapes, logos, borders, and decorative designs available in single color, RGB, or color-changing
+                                                 options. Our neon solutions are crafted using high-brightness silicone neon strips, high-efficiency drivers, and precision acrylic base. LED Neon signs are 
+                                                 especially suitable for <b>cafés, boutique stores, gyms</b>, salons, bars, nightclubs, <b>gaming rooms, home décor walls, studios, restaurants</b>, and modern retail stores.
+                                            </p>
+
+                                        </div>
+
+                                        <!-- RIGHT PRODUCT GALLERY -->
+                                        <div class="product-gallery">
+
+                                            <div class="main-preview">
+                                                <img src="frontend/Images/led-sign-board/neon-sign-board-1.webp" alt="LED Neon Sign Board">
+                                            </div>
+
+                                            <div class="thumbnail-row">
+                                                <img src="frontend/Images/led-sign-board/seon-sign-board-2.webp" alt="LED Neon Sign Board">
+                                                <img src="frontend/Images/led-sign-board/neon-sign-board-3.webp" alt="LED Neon Sign Board">
+                                                <img src="frontend/Images/led-sign-board/neon-sign-board-4.webp" alt="LED Neon Sign Board">
+                                            </div>
+
+                                            <div class="text-center py-4">
+                                                <a href="contact-us">
+                                                    <button class="contact-btn">Explore 100+ Designs</button>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
 
         </div>
     </section>
@@ -1665,25 +1564,40 @@
         </div>
     </section>
 
+    <script>
+    let current = 0;
+        const slides = document.querySelectorAll('.slide');
+        const thumbs = document.querySelectorAll('.thumb');
+
+        function show(i) {
+        slides[current].classList.remove('active');
+        current = i;
+        slides[current].classList.add('active');
+        }
+
+        document.querySelector('.next').onclick = () =>
+        show((current + 1) % slides.length);
+
+        document.querySelector('.prev').onclick = () =>
+        show((current - 1 + slides.length) % slides.length);
+
+        thumbs.forEach((t, i) => (t.onclick = () => show(i)));
+    </script>
+
 <script>
-let current = 0;
-const slides = document.querySelectorAll('.slide');
-const thumbs = document.querySelectorAll('.thumb');
+    document.querySelectorAll('.product-gallery').forEach(gallery => {
+        const mainImg = gallery.querySelector('.main-preview img');
+        const thumbs = gallery.querySelectorAll('.thumbnail-row img');
 
-function show(i) {
-  slides[current].classList.remove('active');
-  current = i;
-  slides[current].classList.add('active');
-}
-
-document.querySelector('.next').onclick = () =>
-  show((current + 1) % slides.length);
-
-document.querySelector('.prev').onclick = () =>
-  show((current - 1 + slides.length) % slides.length);
-
-thumbs.forEach((t, i) => (t.onclick = () => show(i)));
+        thumbs.forEach(thumb => {
+            thumb.addEventListener('click', () => {
+                mainImg.src = thumb.src;
+                mainImg.alt = thumb.alt;
+            });
+        });
+    });
 </script>
+
 
 
 

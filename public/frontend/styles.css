@@ -2921,6 +2921,7 @@ ul.brand-list {
     }
 }
 
+/* 📱 Signage LED Box */
 
 .signage-box {
     background: #ffffff;
@@ -2958,52 +2959,113 @@ ul.brand-list {
     text-decoration: underline;
 }
 
-/* IMAGE GRID ONLY INSIDE SIGNAGE BOX */
-.signage-box .image-grid {
-    display: grid;
-    gap: 22px;
-    margin-top: 30px;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.signage-box .image-item {
-    text-align: center;
-}
-
-.signage-box .image-item img {
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
-.signage-box .image-item p {
-    font-size: 15px;
-    margin-top: 8px;
-    color: #555;
-}
-
-/* RESPONSIVE BREAKPOINTS */
-@media (max-width: 992px) {
-    .signage-box .image-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
+/* 📱 MOBILE RESPONSIVE */
 @media (max-width: 576px) {
     .signage-box {
-        padding: 20px;
-        border-radius: 10px;
-    }
-
-    .signage-box .image-grid {
-        grid-template-columns: 1fr;
+        padding: 18px;
+        margin: 20px 0;
+        border-radius: 8px;
     }
 
     .signage-box p,
     .signage-box ul li {
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 1.55;
+    }
+
+    .signage-box h3,
+    .signage-box h4 {
+        font-size: 20px;
+        margin-bottom: 12px;
     }
 }
 
 
+
+/* NEW LAYOUT FOR TWO-COLUMN DESIGN */
+.signage-product-layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* LEFT COLUMN WIDTH */
+.signage-product-layout .content-column {
+    width: 55%;
+}
+
+/* RIGHT GALLERY STYLES */
+.signage-product-layout .product-gallery {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.product-gallery .main-preview img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.product-gallery .main-preview img:hover {
+    transform: scale(1.02);
+}
+
+.thumbnail-row {
+    display: flex;
+    gap: 12px;
+}
+
+.thumbnail-row img {
+    width: 31%;
+    height: 105px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: .75;
+    transition: 0.3s;
+}
+
+.thumbnail-row img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+
+/* --------------------- */
+/* RESPONSIVE UPDATE     */
+/* --------------------- */
+
+@media (max-width: 992px) {
+    .signage-product-layout {
+        flex-direction: column;
+    }
+    .signage-product-layout .content-column,
+    .signage-product-layout .product-gallery {
+        width: 100%;
+    }
+
+    /* FIX: Ensure full image visible on mobile */
+    .product-gallery .main-preview img {
+        height: auto !important;
+        object-fit: contain !important;
+        max-height: 400px;
+    }
+
+    .thumbnail-row img {
+        height: 95px;
+        object-fit: cover;
+    }
+}
+
+/* On mobile: Gallery first, Text second */
+@media (max-width: 992px) {
+    .signage-product-layout {
+        flex-direction: column-reverse !important;
+    }
+}
 
