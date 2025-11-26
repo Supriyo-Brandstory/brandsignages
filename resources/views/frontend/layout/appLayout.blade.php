@@ -142,7 +142,7 @@
                                             Signages</a>
                                         <a class="dropdown-item" href="{{route('neon_signages')}}">Neon Glow
                                             Sign</a>
-                                        <a class="dropdown-item" href="{{route('led_signages')}}">LED Sign Board</a>
+                                        <a class="dropdown-item" href="{{route('led_acrylic_glow_sign')}}">LED Sign Board</a>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <h6 class="dropdown-header">Signages by Industry</h6>
@@ -155,7 +155,7 @@
                                             Sign</a>
                                         <a class="dropdown-item" href="{{route('office_signages')}}">Office Sign</a>
                                         <a class="dropdown-item" href="{{route('shop_name_board_bangalore')}}">Shop Name Boards</a>
-                                        <a class="dropdown-item" href="{{route('led_acrylic_glow_sign')}}">3D Acrylic LED Sign </a>
+                                        
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <h6 class="dropdown-header">Signage by Use Type</h6>
@@ -397,7 +397,7 @@
                 <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
                     <h5 class="fw-bold">Products</h5>
                     <ul class="list-unstyled">
-                        <li><a href="{{route('led_signages')}}" class="text-decoration-none">LED Sign Board</a></li>
+                        <li><a href="{{route('led_acrylic_glow_sign')}}" class="text-decoration-none">LED Sign Board</a></li>
                         <li><a href="{{route('digital_signages')}}" class="text-decoration-none">Digital Signage</a>
                         </li>
                         <li><a href="{{route('arcylic_signages')}}" class="text-decoration-none">Acrylic Signage</a>
@@ -405,7 +405,6 @@
                         <li><a href="{{route('neon_signages')}}" class="text-decoration-none">Neon Sign</a></li>
                         <li><a href="{{route('metal_signages')}}" class="text-decoration-none">Metal Signage</a></li>
                         <li><a href="{{route('indoor_signages')}}" class="text-decoration-none">Indoor Signage</a></li>
-                        <li><a href="{{route('led_acrylic_glow_sign')}}" class="text-decoration-none">3D Acrylic LED Sign</a></li>
                     </ul>
                 </div>
 

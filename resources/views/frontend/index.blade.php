@@ -161,7 +161,7 @@
                             <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
                                 alt="Metal Signage">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/led-light-signages">LED Sign Board</a></h5>
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/led-acrylic-3d-glow-sign-board">LED Sign Board</a></h5>
                                 <p class="We-Elevate-Brands-text">LED sign boards are the most versatile option for modern branding. 
                                     We are proven experts in LED sign board manufacturing to help you create the best LED nameboards. </p>
                             </div>
@@ -783,7 +783,7 @@
                     <p>Signages are visual communication tools like boards, symbols, graphics, or digital displays- created
                          to convey messages, identify a place, promote a brand, or guide people. They include everything from 
                          <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name boards</strong></a> 
-                         and <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a> to safety signs and directional signs used in public and commercial 
+                         and <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED sign boards</strong></a> to safety signs and directional signs used in public and commercial 
                          spaces.</p>  
                 </div>
             </div>
@@ -865,8 +865,8 @@
                                 style="text-decoration: unset;color:#E43D12">Steel letter</a></li>
                         <li><a href="https://brandsignages.com/fire-safety-signages"
                                 style="text-decoration: unset;color:#E43D12">Fire safety signs</a></li>
-                        <li><a href="https://brandsignages.com/led-light-signages"
-                                style="text-decoration: unset;color:#E43D12">LED letter sign</a></li>
+                        <li><a href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"
+                                style="text-decoration: unset;color:#E43D12">LED sign board</a></li>
                         <li><a href="https://brandsignages.com/neon-signages"
                                 style="text-decoration: unset;color:#E43D12">Neon sign board</a></li>
                         <li><a href="https://brandsignages.com/outdoor-signages"

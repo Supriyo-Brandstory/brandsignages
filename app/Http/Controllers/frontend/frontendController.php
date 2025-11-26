@@ -186,6 +186,12 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.led-acrylic-3d-glow-sign-board', compact('seo'));
     }
+    public function three_d_led_acrylic_letters()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.3d-led-acrylic-letters', compact('seo'));
+    }
 
     //    signagesResion
     public function acrylic_signage_manufacturer_bangalore()

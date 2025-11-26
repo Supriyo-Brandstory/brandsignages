@@ -65,7 +65,7 @@
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">LED Sign Board Designs</h1>
+            <h1 class="hero-banner_title">Best-rated LED Sign Boards</h1>
             <p class="subtitle"><b>Price: ₹1,000 - ₹35,000.00 + GST</b></p>
 
             <div class="divider"></div>
@@ -431,7 +431,7 @@
                                 <!-- LEFT CONTENT -->
                                 <div class="content-column">
 
-                                    <h3 id="3d-acrylic-letter" style="color:#E43D12;"><strong>3D Acrylic Letters Embossed on ACP Frame</strong></h3>
+                                    <h3 id="3d-acrylic-letter" style="color:#E43D12;"><strong>3D Acrylic LED Letters</strong></h3>
                                     <p>
                                         One of the most preferred LED sign boards among modern retail & corporate businesses is the LED-illuminated 3D acrylic letter sign boards mounted on an ACP 
                                         (Aluminium Composite Panel) base. At Brand Signages, 3D Acrylic LED sign boards are available in multiple styles, from matte white ACP with
@@ -471,8 +471,8 @@
                                     </div>
 
                                     <div class="text-center py-4">
-                                        <a href="contact-us">
-                                            <button class="contact-btn">Explore 100+ Designs</button>
+                                        <a href="3d-led-acrylic-letters">
+                                            <button class="contact-btn">Explore Details</button>
                                         </a>
                                     </div>
 

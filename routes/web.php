@@ -29,6 +29,7 @@ Route::get('/modern-room-number-signs', [frontendController::class, 'room_name_p
 Route::get('/digital-signage-for-retail', [frontendController::class, 'digital_signage_for_retail'])->name('digital_signage_for_retail');
 Route::get('/restaurant-menu-boards', [frontendController::class, 'restaurant_menu_boards'])->name('restaurant_menu_boards');
 Route::get('/led-acrylic-3d-glow-sign-board', [frontendController::class, 'led_acrylic_glow_sign'])->name('led_acrylic_glow_sign');
+Route::get('/3d-led-acrylic-letters', [frontendController::class, 'three_d_led_acrylic_letters'])->name('three_d_led_acrylic_letters');
 //bengalore
 Route::get('/acrylic-signage-manufacturer-bangalore', [frontendController::class, 'acrylic_signage_manufacturer_bangalore'])->name('acrylic_signage_manufacturer_bangalore');
 Route::get('/steel-signage-manufacturer-bangalore', [frontendController::class, 'steel_signage_manufacturer_bangalore'])->name('steel_signage_manufacturer_bangalore');
