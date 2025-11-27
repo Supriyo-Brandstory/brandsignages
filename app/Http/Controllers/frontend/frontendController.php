@@ -192,6 +192,36 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.3d-led-acrylic-letters', compact('seo'));
     }
+    public function aluminum_channel_letters()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.led-aluminum-channel-letters', compact('seo'));
+    }
+    public function stencil_cut_letters()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.2d-stencil-cut-acrylic-led-letters', compact('seo'));
+    }
+    public function metal_led_letters()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.metal-led-letters', compact('seo'));
+    }
+    public function crystal_led_letters()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.3d-crystal-led-letters', compact('seo'));
+    }
+    public function sky_signs()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.sky-sign-boards', compact('seo'));
+    }
 
     //    signagesResion
     public function acrylic_signage_manufacturer_bangalore()

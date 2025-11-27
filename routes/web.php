@@ -30,6 +30,11 @@ Route::get('/digital-signage-for-retail', [frontendController::class, 'digital_s
 Route::get('/restaurant-menu-boards', [frontendController::class, 'restaurant_menu_boards'])->name('restaurant_menu_boards');
 Route::get('/led-acrylic-3d-glow-sign-board', [frontendController::class, 'led_acrylic_glow_sign'])->name('led_acrylic_glow_sign');
 Route::get('/3d-led-acrylic-letters', [frontendController::class, 'three_d_led_acrylic_letters'])->name('three_d_led_acrylic_letters');
+Route::get('/led-aluminum-channel-letters', [frontendController::class, 'aluminum_channel_letters'])->name('aluminum_channel_letters');
+Route::get('/2d-stencil-cut-acrylic-led-letters', [frontendController::class, 'stencil_cut_letters'])->name('stencil_cut_letters');
+Route::get('/metal-led-letters', [frontendController::class, 'metal_led_letters'])->name('metal_led_letters');
+Route::get('/3d-crystal-led-letters', [frontendController::class, 'crystal_led_letters'])->name('crystal_led_letters');
+Route::get('/sky-sign-boards', [frontendController::class, 'sky_signs'])->name('sky_signs');
 //bengalore
 Route::get('/acrylic-signage-manufacturer-bangalore', [frontendController::class, 'acrylic_signage_manufacturer_bangalore'])->name('acrylic_signage_manufacturer_bangalore');
 Route::get('/steel-signage-manufacturer-bangalore', [frontendController::class, 'steel_signage_manufacturer_bangalore'])->name('steel_signage_manufacturer_bangalore');
