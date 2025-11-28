@@ -133,7 +133,7 @@
                                 <!-- LEFT CONTENT -->
                                 <div class="content-column">
 
-                                    <h3 id="3d-acrylic-letter" style="color:#E43D12;"><strong>3D Acrylic LED Letters</strong></h3>
+                                    <h3 id="3d-acrylic-letter" style="color:#E43D12;"><strong>Acrylic LED 3D Letters</strong></h3>
                                     <p>
                                         One of the most preferred LED sign boards among modern retail & corporate businesses is the LED-illuminated 3D acrylic letter sign boards mounted on an ACP 
                                         (Aluminium Composite Panel) base. At Brand Signages, 3D Acrylic LED sign boards are available in multiple styles, from matte white ACP with
@@ -180,7 +180,7 @@
                             <!-- LEFT CONTENT -->
                             <div class="content-column">
 
-                                <h3 id="3d-acrylic-channel-letter" style="color:#E43D12;"><strong>Aluminum Channel Letters</strong></h3>
+                                <h3 id="3d-acrylic-channel-letter" style="color:#E43D12;"><strong>Aluminum LED hannel Letters</strong></h3>
 
                                 <p>
                                     Aluminum channel letters are a modern, premium alternative to traditional acrylic box letters, combining 3D depth with LED illumination. We provide acrylic 
@@ -285,7 +285,7 @@
                             <!-- LEFT CONTENT -->
                             <div class="content-column">
 
-                                <h3 id="stencil-cut-acrylic-letter" style="color:#E43D12;"><strong>2D Stencil Cut Letters</strong></h3>
+                                <h3 id="stencil-cut-acrylic-letter" style="color:#E43D12;"><strong>2D Stencil Cut Sign Boards</strong></h3>
 
                                 <p>
                                     Not every sign needs a raised or 3D finish. Sometimes a sleek, minimalist, flat layout offers a stronger visual impression. Our <b>2D stencil cut sign boards</b> 
@@ -332,7 +332,7 @@
                                     <!-- LEFT CONTENT -->
                                     <div class="content-column">
 
-                                        <h3 id="backlit-metal-letters" style="color:#E43D12;"><strong>Metal LED Letter Sign Boards</strong></h3>
+                                        <h3 id="backlit-metal-letters" style="color:#E43D12;"><strong>Metal Letter LED Sign Boards</strong></h3>
 
                                         <p>
                                             Metal LED letter boards are the perfect blend of craftsmanship and technology. Unlike acrylic-based signage, these letters 
@@ -381,7 +381,7 @@
                                                 <!-- LEFT CONTENT -->
                                                 <div class="content-column">
 
-                                                    <h3 id="glittering-acrylic" style="color:#E43D12;"><strong>3D Crystal Letter LED Letters</strong></h3>
+                                                    <h3 id="glittering-acrylic" style="color:#E43D12;"><strong>3D Crystal LED Letters</strong></h3>
 
                                                     <p>
                                                         If your brand deserves attention, not just visibility, 3D Crystal LED Letters are the signboard equivalent of luxury jewellery. Unlike standard LED signage
@@ -428,7 +428,7 @@
                                             <!-- LEFT CONTENT -->
                                             <div class="content-column">
 
-                                                <h3 id="sky-sign-board" style="color:#E43D12;"><strong>Sky Sign Boards– Acrylic LED Sign</strong></h3>
+                                                <h3 id="sky-sign-board" style="color:#E43D12;"><strong>Sky Sign Boards- Rooftop Signs</strong></h3>
 
                                                 <p>
                                                     Sky sign boards are engineered for large-format, high-altitude branding, typically installed on high-rise buildings, commercial towers, and skyline 
@@ -477,10 +477,10 @@
                                             <!-- LEFT CONTENT -->
                                             <div class="content-column">
 
-                                                <h3 id="dot-led-matrix" style="color:#E43D12;"><strong>Open Dot LED Sign Boards</strong></h3>
+                                                <h3 id="dot-led-matrix" style="color:#E43D12;"><strong>LED Dot Matrix Displays</strong></h3>
 
                                                 <p>
-                                                    Open Dot LED Boards are designed for maximum visibility and high-impact lighting. Unlike standard glow signboards where LEDs are diffused behind acrylic, 
+                                                    LED Dot Matrix Displays are designed for maximum visibility and high-impact lighting. Unlike standard glow signboards where LEDs are diffused behind acrylic, 
                                                     open-dot signage exposes each individual LED directly. This creates an ultra-bright, high-contrast effect that stands out even in crowded commercial streets.
                                                 </p>
 
