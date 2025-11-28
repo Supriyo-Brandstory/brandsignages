@@ -222,6 +222,18 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.sky-sign-boards', compact('seo'));
     }
+    public function led_dot_matrix()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.led-dot-matrix-display', compact('seo'));
+    }
+    public function flexible_led_display()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.flexible-led-display-boards', compact('seo'));
+    }
 
     //    signagesResion
     public function acrylic_signage_manufacturer_bangalore()

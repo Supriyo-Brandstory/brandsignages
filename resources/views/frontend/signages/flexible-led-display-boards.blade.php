@@ -3,26 +3,27 @@
 
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">Aluminum Channel Letters</h1>
+            <h1 class="hero-banner_title">Flexible LED Display</h1>
 
         </div>
         <!-- Slider -->
         <div class="slider-wrapper">
-        <div class="main-slider">
-               <div class="slide active">
-                    <img src="/frontend/Images/led-sign-board/aluminum-led-sign-1.webp" alt="Aluminum LED Letters Sign Board">
+
+            <div class="main-slider">
+                <div class="slide active">
+                    <img src="/frontend/Images/led-sign-board/programmable-led-sign-1.webp" alt="Flexible LED Display Boards">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/aluminum-led-sign-2.webp" alt="Aluminum LED Letters Sign Board">
+                    <img src="/frontend/Images/led-sign-board/programmable-led-sign-2.webp" alt="Flexible LED Display Boards">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/aluminum-led-sign-3.webp" alt="Aluminum LED Letters Sign Board">
+                    <img src="/frontend/Images/led-sign-board/programmable-led-sign-3.webp" alt="Flexible LED Display Boards">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/aluminum-led-sign-4.webp" alt="Aluminum LED Letters Sign Board">
+                    <img src="/frontend/Images/led-sign-board/programmable-led-sign-4.webp" alt="Flexible LED Display Boards">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/aluminum-led-sgn-5.webp" alt="Aluminum LED Letters Sign Board">
+                    <img src="/frontend/Images/led-sign-board/programmable-led-sign-5.webp" alt="Flexible LED Display Boards">
                 </div>
               
             </div>
@@ -34,29 +35,29 @@
 
 
             <div class="thumbnails">
-                <img src="/frontend/Images/led-sign-board/aluminum-led-sign-1.webp" class="thumb active" data-index="0" alt="Aluminum LED Letters Sign Board">
-                <img src="/frontend/Images/led-sign-board/aluminum-led-sign-2.webp" class="thumb" data-index="1" alt="Aluminum LED Letters Sign Board">
-                <img src="/frontend/Images/led-sign-board/aluminum-led-sign-3.webp" class="thumb" data-index="2" alt="Aluminum LED Letters Sign Board">
-                <img src="/frontend/Images/led-sign-board/aluminum-led-sign-4.webp" class="thumb" data-index="3" alt="Aluminum LED Letters Sign Board">
-                <img src="/frontend/Images/led-sign-board/aluminum-led-sgn-5.webp" class="thumb" data-index="4" alt="Aluminum LED Letters Sign Board">
+                <img src="/frontend/Images/led-sign-board/programmable-led-sign-1.webp" class="thumb active" data-index="0" alt="Flexible LED Display Boards">
+                <img src="/frontend/Images/led-sign-board/programmable-led-sign-2.webp" class="thumb" data-index="1" alt="Flexible LED Display Boards">
+                <img src="/frontend/Images/led-sign-board/programmable-led-sign-3.webp" class="thumb" data-index="2" alt="Flexible LED Display Boards">
+                <img src="/frontend/Images/led-sign-board/programmable-led-sign-4.webp" class="thumb" data-index="3" alt="Flexible LED Display Boards">
+                <img src="/frontend/Images/led-sign-board/programmable-led-sign-5.webp" class="thumb" data-index="4" alt="Flexible LED Display Boards">
             </div>
         </div>
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">Best-rated LED Aluminum Channel Letters (ACP)</h1>
-            <p class="subtitle"><b>Price: ₹200 - ₹2,000.00 + GST</b></p>
+            <h1 class="hero-banner_title">Best-rated Fleible LED Display Boards</h1>
+            <p class="subtitle"><b>Price: ₹1000 - ₹20,000.00 + GST</b></p>
 
             <div class="divider"></div>
-            <p class="fs-16">Brighten your outdoor with Aluminum LED Channel Letters engineered for precision, longevity, and high-impact visibility. Built from high-grade 
-                aluminum alloys, each letter is CNC-bent, welded, and sealed to deliver rigidity and an immaculate finish. Combined with high-efficiency
-                 LEDs, the result is sign boards that stays sharp, bright, and consistent- day, night, and year after year.</p>
+            <p class="fs-16">Upgrade your space with versatile Flexible LED Display Boards that bend, curve, and adapt to any surface. Designed for seamless visual impact
+                , these displays deliver vivid text, graphics, animations, and video content, making them ideal for dynamic, creative, and interactive advertising. Their 
+                flexibility allows unique curved, cylindrical, or irregular installations without compromising brightness or clarity.</p>
             <ul class="features">
-                <li>Aluminum letters with long-lasting durability and premium look</li>
-                <li>High-efficiency LED illumination for brightness & night visibility</li>
-                <li>Front-lit, backlit (halo), side-lit, and dual-lit for visual impact</li>
-                <li>Weather, UV, and corrosion-resistant finish ensure stability</li>
-                <li>PAN India delivery and round-the-clock support services</li>
+                <li>Flexible LED display panels for custom installations</li>
+                <li>High-resolution visuals with animations, videos, and live content</li>
+                <li>Adjustable brightness & viewing angles suitable for all environments</li>
+                <li>Lightweight, durable, and engineered for 24/7 operation</li>
+                <li>PAN India delivery, installation, and technical support</li>
             </ul>
 
             <div class="buttons">
@@ -68,14 +69,13 @@
 
     <section>
         <div class="container" id="">
-            <h2 class="We-Elevate-Brands-heading fw-bold">Aluminum Channel Letters- Custom <br>Illuminated Branding Solutions</h2>
-            <p class=" text-center fs-20">Engineered for precision and visual impact, our <b>aluminum channel letters</b> are designed to elevate your brand with a clean, modern, and 
-                professional presence. We craft each sign board from high-grade aluminum paired with premium acrylic and <b>high-performance LEDs</b>, ensuring sharp visibility, 
-                durability, and illumination.</p>
-                <p class=" text-center fs-20">Whether you're looking to enhance a <b>storefront</b>, <b>corporate office</b>, or <b>retail environment</b>, our LED sign board solutions are built
-                     to match your brand identity with accuracy and style. From bold <b>front-lit aluminum letters</b> to elegant <b>halo-glow lighting effects</b>, every installation is 
-                     fully customized in size, finish, illumination type, and depth.</p>
-                <img src="/frontend/Images/led-sign-board/acrylic-led-specification.webp" alt="3D Acrylic LED Sign Board Specifications" class="shop-image">
+            <h2 class="We-Elevate-Brands-heading fw-bold">Flexible LED Displays- Visual Communication<br> for Modern Businesses</h2>
+            <p class=" text-center fs-20">Elevate your brand presence with <b>programmable LED display</b> boards for flexibility and real-time updates. Also known as flexible LED display boards, these 
+                boards bend, curve, and conform to unique surfaces, enabling eye-catching installations. Suitable for <b>outdoor advertising</b>, flexible LED displays deliver scrolling text, animations, 
+                videos, and live updates with clarity.</p>
+                <p class=" text-center fs-20"><b>Brand Signages</b> provides fully customizable solutions, allowing you to choose size, pixel pitch, display color, brightness, and content type. We create 
+                    the best LED sign boards that are lightweight, durable, and engineered for <b>24/7 visibility</b>. Our products range spans across multiple industries- commercial spaces, events, 
+                    exhibitions, and creative signage. </p>
 
         </div>
     </section>
@@ -83,12 +83,12 @@
 
     <section>
         <div class="container pt-5">
-            <h2 class="hero-title">Key Highlights of Aluminum Channel Letters</h2>
+            <h2 class="hero-title">Key Highlights of Flexible LED Displays</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/acrylic-led-letter-showcase.webp')}}" alt="3D LED Acrylic Letters Designed by Brand Signages"
+                        <img src="{{asset('frontend/Images/led-sign-board/open-dot-led-5.webp')}}" alt="Flexible LED Display Boards"
                             class="img-fluid">
                     </div>
                 </div>
@@ -99,27 +99,27 @@
                     
 
                         <li class="fs-20">
-                            <strong>Robust Architectural-Grade</strong><br>
-                            Crafted using high-strength aluminum profiles, as corrosion-resistant metals, aluminum channel letters offer solid structural integrity and 
-                            exceptional outdoor performance. 
+                            <strong>Seamless Curved Design</strong><br>
+                            Flexible LED displays can bend, wrap, and adapt to curved walls, columns, cylinders, and irregular surfaces,
+                             creating immersive installations with smooth, continuous visual flow.
                         </li>
 
                         <li class="fs-20">
-                            <strong>Precision Illumination With LED</strong><br>
-                            Integrated with high-efficiency LED modules that support front-lit, backlit (halo), side-lit, or dual-lit illumination. 
-                            The lighting delivers uniform brightness, improved night readability, and energy savings.
+                            <strong>High-Resolution Output</strong><br>
+                            With advanced pixel technology and vibrant color reproduction, these displays support HD content- animations, 
+                            text, graphics, and video ensuring every visual stands out with clarity.
                         </li>
 
                         <li class="fs-20">
-                            <strong>Custom Design & Finishing Options</strong><br>
-                            Aluminum channel letters are available in multiple depths, font styles, shapes, and surface coatings, including matte, brushed, powder-coated, chrome, or 
-                            metallic finishes.
+                            <strong>Lightweight & Modular Build</strong><br>
+                            Designed with soft, lightweight modules, flexible LED displays are easy to transport, install, and maintain, 
+                            making them ideal for creative events, exhibitions, and architectural branding.
                         </li>
 
                         <li class="fs-20">
-                            <strong>Reliable & Low-Maintenance</strong><br>
-                            Engineered to withstand UV exposure, rain, dust, and temperature fluctuations. The sealed LED housing and durable metal 
-                            fabrication require minimal upkeep while maintaining consistent performance.
+                            <strong>Versatile Content Control</strong><br>
+                            With programmable interfaces, brightness adjustment, and support for live content streaming, these displays 
+                            allow full creative freedom for dynamic branding and real-time communication.
                         </li>
                         </ul>
 
@@ -130,90 +130,98 @@
     </section>
 
 
-    <section class="new_custom-why-choose">
-        <div class="container">
-            <h2 class="text-center mb-5 new_custom-heading">Why ACP Signage Is a Smart Choice <br>for Business Branding</h2>
-            <div class="row justify-content-center g-4">
-
-                <!-- Expertise -->
-                <div class="col-md-4 justify-content-between d-flex flex-column">
-                    <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
-                        <p>ACP sign boards are made using weather-resistant composite panels that withstand rain, heat, sunlight, and dust, making 
-                            them a reliable option for both indoor and exterior branding.</p>
-                        <h4 class="new_custom-title">Long-Term Performance</h4>
-                    </div>
-                    <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/led-sign-board/hotwind-led-sign-board.webp') }}"
-                            alt="why choose us as your LED Sign Board Partner" class="img-fluid mt-3">
-                    </div>
-                </div>
-
-                <!-- Experience -->
-                <div class="col-md-4">
-                    <div class="new_custom-box new_custom-image-box"
-                        style="background-image: url('{{ asset('frontend/Images/led-sign-board/optical-store-led-sign-board.webp') }}');">
-                        <div class="new_custom-overlay">
-                            <h4 class="new_custom-title text-white">Adaptable to Any Style</h4>
-                            <p class="text-white">From bold outdoor facades to sleek indoor applications, ACP offers outstanding flexibility. It can be 
-                                fabricated into various forms- including cut letters, 3D elements, LED-lit signage, or architectural branding panels- 
-                                making it suitable for diverse creative and structural requirements.</p>
+       <section class="we-deliver">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <h2>Advantages of Flexible LED Displays</h2>
                         </div>
-                    </div>
-                </div>
+                        <div class="col-md-8 col-12">
 
-                <!-- Excellence -->
-                <div class="col-md-4 justify-content-between d-flex flex-column">
-                    <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/led-sign-board/diner-led-sign-board.webp') }}"
-                            alt="Outdoor LED sign board designed by our experts" class="img-fluid mb-3">
-                    </div>
-                    <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
-                        <h4 class="new_custom-title">Premium Look & Finish</h4>
-                        <p>ACP signage delivers a refined appearance with smooth surfaces and clean edges. The availability of matte, brushed metal, gloss, 
-                            textured, or custom brand-color finishes enhances the overall aesthetic and creates a premium professional impression.</p>
-                    </div>
-                </div>
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
+                                            class="img-fluid">
+                                        <h3>Surface-Conforming Impact</h3>
+                                        <p>Suitable to any surface, enabling curved, cylindrical, or irregular installations that create 
+                                            immersive visuals and unique brand experiences without extensive structural changes.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Custom Craftmanship"
+                                            class="img-fluid">
+                                        <h3>Light Modular Installation</h3>
+                                        <p>Lightweight modular panels simplify transport, handling, and installation, reducing labour time and 
+                                            costs while allowing rapid assembly for temporary events or permanent architectural displays.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Highly Durable Name Boards"
+                                            class="img-fluid">
+                                        <h3>High-Tech Curved Imagery</h3>
+                                        <p>High-resolution pixel options and flexible pixel pitches deliver crisp visuals and smooth motion on curved
+                                             surfaces, preserving image quality for video, animation, and text across viewing distances. 
+                                        </p>
+                                    </div>
+                                </div>
+                                 <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Perfect Illumination"
+                                            class="img-fluid">
+                                        <h3>Smart Content Control</h3>
+                                        <p>Integrated control systems enable remote programming, dynamic scheduling, and real-time updates, giving 
+                                            marketers instant campaign control while supporting sensors, interactivity, and multi-display networks.
+                                    </div>
+                                </div>
 
-            </div>
-        </div>
-    </section>
+
+                            </div>
+            </section>
 
 
 
     <section id="pricing">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">Affordable Aluminum Channel Letters <br>Pricing Breakdown</h2>
+            <h2 class="hero-title">Affordable Flexible LED Displays<br> Cost & Configuration Guide</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/aluminum-led-sign-6.webp')}}"
-                            alt="LED Aluminum Channel Letter Design" class="img-fluid">
+                        <img src="{{asset('frontend/Images/led-sign-board/open-dot-led-6.webp')}}"
+                            alt="Flexible LED Display Boards" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
     <p class="fs-20">
-        The cost of aluminum channel letters depends on the letter size, metal thickness, illumination type, installation method, and 
-        finishing style. Pricing is typically calculated per running inch and may vary based on complexity and customization requirements.
+        Flexible LED display pricing varies based on panel size, pixel pitch, bend radius capability, brightness level, 
+        LED type, and mounting configuration. Costs are typically calculated per square foot and may change depending 
+        on the complexity.
     </p>
     <ul class="fs-20" style="padding-left: 18px;">
-        <li><b>Non-Lit Channel Letters:</b> ₹150 - ₹850 per inch</li>
-        <li><b>Front-Lit LED Letters:</b> ₹250 - ₹1,000 per inch</li>
-        <li><b>Backlit (Halo Glow) Letters:</b> ₹700 - ₹1,600 per inch</li>
-        <li><b>Dual-Lit (Front + Halo):</b> ₹1,000 - ₹2,500+ per inch</li>
-        <li><b>Custom RGB Letters:</b> ₹1,000 - ₹3,200+ per inch</li>
+        <li><b>Indoor LED Display:</b> ₹400 - ₹3,500 per sq. ft</li>
+        <li><b>Semi-Outdoor LED Display:</b> ₹2,500 - ₹5,800 per sq. ft</li>
+        <li><b>Outdoor Display (Weather-Sealed): </b> ₹6,000 - ₹20,000 per sq. ft</li>
     </ul>
 
     <p class="fs-20">
-        We are the leading manufacturers of <a href="/led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;"><strong>aluminum LED channel letters</strong></a> in Bangalore and across India. From corporate office and retail storefronts to hospitality and commercial complexes, our aluminum channel letters 
-         are engineered to provide a bold, modern identity.
+        As a reputable <a href="/led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;"><strong>LED sign board makers</strong></a> in India, 
+        we build flexible LED displays engineered for durability, seamless curvature, and immersive visual performance. From event stages and retail brand experiences to 
+        architectural displays and smart advertising walls, flexible LED technology enables limitless creative possibilities with dynamic, programmable content 
+        and 24/7 impact.
     </p>
 
-   <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
-                            <button class="contact-btn">Book Order Now</button>
-                        </a>
+    <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
+            <button class="contact-btn">Book Order Now</button>
+    </a>
+   
 </div>
+
 
 
             </div>
@@ -342,6 +350,7 @@
        
         </div>
     </section>
+    
 
      <section class="new-recent-works">
         <div class="container">
@@ -755,110 +764,90 @@
 
     <section class="faq-section">
         <div class="faq-container">
-            <h1 class="faq-title">3D Aluminum LED Letters- FAQs</h1>
+            <h1 class="faq-title">Flexible LED Displays- FAQs</h1>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What are ACP Signages? 
+                    What is a flexible LED display? 
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <P>ACP (Aluminium Composite Panel) sign boards are branding and display boards made using a 
-                        lightweight aluminum sheet bonded over a core material. They provide a sleek, modern 
-                        finish and are commonly used for outdoor storefronts, wayfinding, and architectural branding.</P>
+                    <P>A flexible LED display is a bendable digital screen made from soft circuit boards
+                         and modular LED panels. It can curve, wrap, or shape around cylindrical, wavy, 
+                         or irregular surfaces for immersive visual effects.</P>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What are the advantages of ACP sign boards?
+                    Can flexible LED displays bend without damaging the screen?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>ACP sign boards are durable, weather-resistant, lightweight, and visually premium. They 
-                        withstand heat, rain, and UV exposure, making them suitable for long-term outdoor installation
-                         while maintaining a clean, professional appearance.</p>
+                    <p>Yes, these displays are designed with soft PCB technology and protective materials 
+                        that allow safe bending within a specified radius. However, they should not be folded 
+                        sharply or bent beyond the recommended limit.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Can ACP sign boards be customized in terms of design?
+                    Where can flexible LED displays be used?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, ACP signages offer immense flexibility in design, size, shape, lighting types, colors, 
-                        textures, and finishes. They can be fabricated into 3D letters, LED boards, branding 
-                        panels, and architectural facade elements.</p>
+                    <p>They are ideal for shopping malls, exhibitions, stage backdrops, showrooms, museums, event
+                         branding, architectural installations, retail façades, and creative advertising environments 
+                         that require curved or non-flat digital displays.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Are ACP sign boards eco-friendly?
+                     Are flexible LED displays suitable for outdoor use?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Many ACP materials today are manufactured using recyclable aluminum and sustainable core 
-                        materials. They have a long lifespan, reducing replacement frequency and environmental waste.</p>
+                    <p>Yes, outdoor-grade flexible LEDs are available with waterproofing, UV protection, and high-brightness
+                         modules. Indoor and outdoor variants differ in pixel pitch, durability, and brightness.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What applications are ACP signages suitable for?
+                    What pixel pitch options are available?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>ACP signages are ideal for corporate offices, retail storefronts, malls, hospitals, real estate projects, 
-                        restaurants, educational institutions, and large commercial building spaces.</p>
+                    <p>Flexible LED displays commonly range from P1.8 to P10, with lower pixel pitch offering higher resolution 
+                        for close viewing and larger pitch being suitable for viewing from a longer distance.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    How long do ACP signages last?
+                    What is the lifespan and maintenance requirement?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>With proper installation and maintenance, ACP sign boards can last 4 - 10+ years, thanks to their 
-                        corrosion resistance, rigid surface, and durable exterior coating.</p>
+                    <p>Quality flexible LED displays typically last 50,000–100,000 hours depending on usage conditions. Maintenance 
+                        includes periodic cleaning, pixel checks, module replacement (if needed), and ventilation checks for 
+                        optimal performance.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Are ACP signages suitable for illuminated branding?
+                    Can I schedule or automate updates on a programmable LED display?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Absolutely, ACP panels work seamlessly with LED backlit letters, front-lit acrylic signs, edge-lit elements, 
-                        and 3D illuminated signage systems, making them an excellent choice for nighttime visibility.
-                    </p>
+                    <p>Yes, programmable LED displays support scheduling features that allow you to set automatic content playback based on time,
+                         date, or events. Using dedicated software or cloud control, you can automate scrolling text, announcements, promotions,
+                          and real-time updates without manually changing content each time.</p>
                 </div>
             </div>
 
-            <div class="faq-item">
-                <button class="faq-question">
-                    Do ACP sign boards require maintenance?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p> ACP signages require minimal upkeep. Occasional cleaning to remove dust and environmental deposits 
-                        is enough to maintain their finish, shine, and clarity.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Can ACP signage be installed on any surface?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes, ACP signs can be installed on concrete, glass, brick, metal frames, ACP cladding, and interior 
-                        walls using appropriate mounting systems, ensuring secure and long-term placement.</p>
-                </div>
-            </div>
 
         </div>
     </section>

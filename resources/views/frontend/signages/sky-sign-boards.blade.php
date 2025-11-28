@@ -11,19 +11,19 @@
 
             <div class="main-slider">
                 <div class="slide active">
-                    <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-1.webp" alt="3D Acrylic LED Letter for LED Sign Boards">
+                    <img src="/frontend/Images/led-sign-board/sky-sign-boards-1.webp" alt="Sky Sign Boards">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-2.webp" alt="3D Acrylic LED Letter for LED Sign Boards">
+                    <img src="/frontend/Images/led-sign-board/sky-sign-boards-2.webp" alt="Sky Sign Boards">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-3.webp" alt="3D Acrylic LED Letter for LED Sign Boards">
+                    <img src="/frontend/Images/led-sign-board/sky-sign-boards-3.webp" alt="Sky Sign Boards">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-4.webp" alt="3D Acrylic LED Letter for LED Sign Boards">
+                    <img src="/frontend/Images/led-sign-board/sky-sign-boards-4.webp" alt="Sky Sign Boards">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-5.webp" alt="3D Acrylic LED Letter for LED Sign Boards">
+                    <img src="/frontend/Images/led-sign-board/sky-sign-boards-5.webp" alt="Sky Sign Boards">
                 </div>
               
             </div>
@@ -35,11 +35,11 @@
 
 
             <div class="thumbnails">
-                <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-1.webp" class="thumb active" data-index="0" alt="3D Acrylic LED Letter for LED Sign Boards">
-                <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-2.webp" class="thumb" data-index="1" alt="3D Acrylic LED Letter for LED Sign Boards">
-                <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-3.webp" class="thumb" data-index="2" alt="3D Acrylic LED Letter for LED Sign Boards">
-                <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-4.webp" class="thumb" data-index="3" alt="3D Acrylic LED Letter for LED Sign Boards">
-                <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-5.webp" class="thumb" data-index="4" alt="3D Acrylic LED Letter for LED Sign Boards">
+                <img src="/frontend/Images/led-sign-board/sky-sign-boards-1.webp" class="thumb active" data-index="0" alt="Sky Sign Boards">
+                <img src="/frontend/Images/led-sign-board/sky-sign-boards-2.webp" class="thumb" data-index="1" alt="Sky Sign Boards">
+                <img src="/frontend/Images/led-sign-board/sky-sign-boards-3.webp" class="thumb" data-index="2" alt="Sky Sign Boards">
+                <img src="/frontend/Images/led-sign-board/sky-sign-boards-4.webp" class="thumb" data-index="3" alt="Sky Sign Boards">
+                <img src="/frontend/Images/led-sign-board/sky-sign-boards-5.webp" class="thumb" data-index="4" alt="Sky Sign Boards">
             </div>
         </div>
 
@@ -82,12 +82,12 @@
 
     <section>
         <div class="container pt-5">
-            <h2 class="hero-title">Key Highlights of Metal LED Letters</h2>
+            <h2 class="hero-title">Key Highlights of Sky Sign Boards</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/acrylic-led-letter-showcase.webp')}}" alt="3D LED Acrylic Letters Designed by Brand Signages"
+                        <img src="{{asset('frontend/Images/led-sign-board/sky-sign-boards-6.webp')}}" alt="Sky Sign Board by Brand Signages"
                             class="img-fluid">
                     </div>
                 </div>
@@ -98,27 +98,29 @@
                     
 
                         <li class="fs-20">
-                            <strong>Tailored Design Possibilities</strong><br>
-                            From brushed metal and mirror finishes to bold fonts, color-changing LEDs, and motion 
-                            effects every element can be customised to align with branding and architectural aesthetics.
+                            <strong>Maximum Visibility</strong><br>
+                            Sky sign boards are engineered for long-distance visibility using bold lettering, illumination, 
+                            and elevated placement, ensuring brands remain noticeable from public spaces, and aerial 
+                            viewpoints.
                         </li>
 
                         <li class="fs-20">
-                            <strong>Engineered for Strength</strong><br>
-                            Made from high-grade stainless steel, these letters are built to endure outdoor conditions, 
-                            resist corrosion, and maintain a premium finish over years of usage.
+                            <strong>Structural Integrity</strong><br>
+                            Manufactured with durable aluminium, galvanized steel, and weather-resistant LED systems, these sign 
+                            boards withstand strong winds, outdoor exposure, and reliable for high-rise
+                             installations.
                         </li>
 
                         <li class="fs-20">
-                            <strong>High-Visibility LED Integration</strong><br>
-                            Designed with advanced LED technology that provides consistent brightness, uniform light
-                             spread, and clear readability in both daylight and low-light environments.
+                            <strong>Custom Design & Branding</strong><br>
+                            Each sky sign board is fully customizable in scale, font, illumination style, and structure, ensuring 
+                            a perfect match to corporate branding while complementing building architecture and skyline aesthetics.
                         </li>
 
                         <li class="fs-20">
-                            <strong>Impactful Installations</strong><br>
-                            Whether used for storefronts, corporate identities, themed environments, events, or 
-                             architectural signage, metal LED letters deliver a striking, modern visual presence that instantly elevates brand perception.
+                            <strong>Premium Brand Impact</strong><br>
+                            Mounted at the highest visible point, sky sign boards deliver unmatched brand authority, serving as a 
+                            lasting landmark that enhances recognition, visibility, and overall brand presence across the cityscape.
                         </li>
                         </ul>
 
@@ -133,7 +135,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 col-12">
-                            <h2>Advantages of Metal LED Sign Boards</h2>
+                            <h2>Advantages of Sky Sign Boards</h2>
                         </div>
                         <div class="col-md-8 col-12">
 
@@ -142,9 +144,9 @@
                                     <div class="deliver-box">
                                         <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
                                             class="img-fluid">
-                                        <h3>Premium Visual Appeal</h3>
-                                        <p>Metal LED signage delivers a sleek and modern look that instantly elevates brand perception, 
-                                            helping businesses appear more premium, reliable, and future-focused. 
+                                        <h3>Long-Range Exposure</h3>
+                                        <p>Sky sign boards provide superior visibility from great distances, helping businesses stand out
+                                             in crowded cityscapes and ensuring consistent brand exposure in both day and night conditions.
                                         </p>
                                     </div>
                                 </div>
@@ -152,9 +154,9 @@
                                     <div class="deliver-box">
                                         <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Custom Craftmanship"
                                             class="img-fluid">
-                                        <h3>Outdoor Durability</h3>
-                                        <p>Built from corrosion-resistant metals and high-performance LEDs, these sign boards withstand 
-                                            rain, sun, dust, and temperature changes without losing brightness or finish.
+                                        <h3>Long-Term Efficiency</h3>
+                                        <p>Using energy-saving LEDs and durable materials, sky signage delivers long operational life with 
+                                            minimal maintenance, reducing overall ownership cost while keeping brand visibility uninterrupted.
                                         </p>
                                     </div>
                                 </div>
@@ -162,9 +164,9 @@
                                     <div class="deliver-box">
                                         <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Highly Durable Name Boards"
                                             class="img-fluid">
-                                        <h3>High Visibility Day & Night</h3>
-                                        <p>With bright, energy-efficient LED illumination, metal letter signage ensures your business
-                                             remains noticeable from long distances, improving recognition and footfall. 
+                                        <h3>Enhanced Brand Authority</h3>
+                                        <p>Their elevated installation instantly elevates brand perception, making businesses appear more established,
+                                             credible, and dominant within competitive commercial environments or high-traffic urban regions. 
                                         </p>
                                     </div>
                                 </div>
@@ -172,9 +174,9 @@
                                     <div class="deliver-box">
                                         <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Perfect Illumination"
                                             class="img-fluid">
-                                        <h3>Customizable Branding</h3>
-                                        <p>From lighting style and font selection to finishes like brushed steel, chrome, or 
-                                            matte black- every detail can be tailored to match your brand personality and architectural style.
+                                        <h3>Adaptability & Scalability</h3>
+                                        <p>Sky sign boards can be tailored to various building heights, design styles, and lighting requirements, ensuring
+                                             flexibility for future expansions, rebranding, or architectural upgrades.
                                     </div>
                                 </div>
 
@@ -186,33 +188,33 @@
 
     <section id="pricing">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">Affordable Metal LED Sign Boards <br>Pricing Breakdown</h2>
+            <h2 class="hero-title">Affordable Sky Sign Boards- <br>Pricing Breakdown</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}"
-                            alt="Rivetoile LED Name Board Design" class="img-fluid">
+                        <img src="{{asset('frontend/Images/led-sign-board/sky-sign-boards-7.webp')}}"
+                            alt="Sky Sign Board Designed by Board Design" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
     <p class="fs-20">
-        Metal LED sign board pricing varies depending on the letter size, metal grade, 
-        illumination style, finish type, and installation complexity. Costs are calculated per running inch & 
-        change based on animation & mounting style.
+        Sky sign board pricing depends on several technical factors such as letter height, 
+        illumination type, requirements, wind load structure, and access conditions. Charges 
+        are calculated per running inch and may increase based on size and lighting specification. 
     </p>
     <ul class="fs-20" style="padding-left: 18px;">
-        <li><b>Non-Lit Metal Letters:</b> ₹250 - ₹950 per inch</li>
-        <li><b>Front-Lit LED Metal Letters:</b> ₹400 - ₹1,800 per inch</li>
-        <li><b>Backlit (Halo Glow) Letters:</b> ₹700 - ₹2,200 per inch</li>
-        <li><b>Dual-Lit (Front + Halo):</b> ₹1,400 - ₹3,200+ per inch</li>
+        <li><b>Front-Lit Sky Letters:</b> ₹900 - ₹3,500 per inch</li>
+        <li><b>Halo Glow Sky Letters:</b> ₹1,500 - ₹4,200 per inch</li>
+        <li><b>Dual-Lit (Front + Halo):</b> ₹2,800 - ₹6,500+ per inch</li>
+        <li><b>Logo Structure/ Box Type:</b> Pricing on inspection</li>
     </ul>
 
     <p class="fs-20">
-        As one of India’s trusted manufacturers of premium metal <a href="/led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;"><strong>LED sign boards</strong></a>, 
-        we deliver signage solutions designed for long-term performance and high-impact visual appeal. From corporate headquarters and luxury retail storefronts to entertainment venues, hospitality spaces, and outdoor 
-        architectural branding.
+        As a trusted provider of premium sky signage solutions in India, we manufacture and install high-performance sky sign 
+        boards. Ideal for corporate towers, IT parks, shopping complexes, hospitals, airports, and commercial properties, sky 
+        sign boards transform rooftops into powerful advertising spaces.
     </p>
 
     <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
@@ -226,7 +228,128 @@
             </div>
         </div>
     </section>
+    <section class="We-Elevate-Brands-section">
+        <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="We-Elevate-Brands-heading fw-bold">Explore Our LED Sign Board <br>Product Range</h2>
+        </div>
 
+        <div class="position-relative">
+            <div class="swiper We-Elevate-Brands-swiper pt-60">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                                alt="ACP Mounted Acrylic Letters">
+                            <div class="card-body pt-0">
+                                <a href="3d-led-acrylic-letters" class="We-Elevate-Brands-title">LED Acrylic Letters with ACP</a>
+                                <p class="We-Elevate-Brands-text">Custom 3D acrylic box with LED letters with a metallic finish and internal LED illumination, mounted on a 
+                                    sleek ACP frame. This premium, glowing sign offers a modern and professional look for corporate or retail spaces.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
+                                alt="3D Acrylic Channel Letters">
+                            <div class="card-body pt-0">
+                                <a href="led-aluminum-channel-letters" class="We-Elevate-Brands-title">Aluminum Channel Letters</a>
+                                <p class="We-Elevate-Brands-text">Premium LED illuminated aluminum channel letter signage with professional 3D construction, featuring aluminum profiles 
+                                    and acrylic faces, ideal for corporate offices and retail store branding.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/stencil-cut-sign.webp')}}" class="card-img-center"
+                                alt="Stencil Cut Acrylic Signage">
+                            <div class="card-body pt-0">
+                                <a href="2d-stencil-cut-acrylic-led-letters" class="We-Elevate-Brands-title">2D Stencil Cut Letters</a>
+                                <p class="We-Elevate-Brands-text">2D Stencil Cut Acrylic LED Sign boards, perfect for intricate details and multi-content displays. Ideal for shop fronts 
+                                    requiring information like timings, contact details, and taglines.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/retail-sign.webp')}}" class="card-img-center"
+                                alt="Backlit Metal Letter Signs">
+                            <div class="card-body pt-0">
+                                <a href="metal-led-letters" class="We-Elevate-Brands-title">Metal LED Letters</a>
+                                <p class="We-Elevate-Brands-text">Premium metal letter signs in luxury finishes like gold and chrome, featuring a subtle LED back-glow for elegant accent 
+                                    lighting. Ideal for sophisticated interiors and well-lit corporate spaces.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/crystal-led.webp')}}" class="card-img-center"
+                                alt="Glittering Acrylic Letters">
+                            <div class="card-body pt-0">
+                                <a href="3d-crystal-led-letters" class="We-Elevate-Brands-title">Crystal LED Letters</a>
+                                <p class="We-Elevate-Brands-text">Sparkling crystal-accented 3D LED acrylic letters that create a luxurious, glittering effect. Ideal for adding festive bling 
+                                    to jewellery stores, boutiques, and premium restaurants.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/programmable-led.webp')}}" class="card-img-center"
+                                alt="Glittering Acrylic Letters">
+                            <div class="card-body pt-0">
+                                <a href="flexible-led-display-boards" class="We-Elevate-Brands-title">Flexible LED Displays</a>
+                                <p class="We-Elevate-Brands-text">Dynamic, programmable LED displays capable of displaying scrolling text, animations, real-time updates, and motion graphics.
+                                     Perfect for businesses that need attention-grabbing digital communication.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
+                                alt="Vibrant LED Neon Signage">
+                            <div class="card-body pt-0">
+                                <a href="neon-signages" class="We-Elevate-Brands-title">LED Neon Sign</a>
+                                <p class="We-Elevate-Brands-text">Vibrant LED neon signs with their iconic glow, perfect for creating a retro, high-energy atmosphere. Ideal for bars, lounges,
+                                     and entertainment venues seeking standout visual appeal.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/dot-matrix.webp')}}" class="card-img-center"
+                                alt="Open LED Dot Matrix Signs">
+                            <div class="card-body pt-0">
+                                <a href="led-dot-matrix-display" class="We-Elevate-Brands-title">Open Dot LED Signs</a>
+                                <p class="We-Elevate-Brands-text">Open Dot LED signs feature exposed, intensely bright pinpoints of light for maximum visibility. This bold, high-impact solution 
+                                    ensures your shop front stands out, ideal for creating a flashy display.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Arrows -->
+                <div class="We-Elevate-Brands-nav ">
+                    <!-- Swap order: prev on left, next on right -->
+                    <div class="We-Elevate-Brands-button-prev"></div>
+                    <div class="We-Elevate-Brands-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="led-acrylic-3d-glow-sign-board" class="btn-we-elevate">View All Services</a>
+        </div>
+       
+        </div>
+    </section>
     
 
      <section class="new-recent-works">
@@ -641,87 +764,84 @@
 
     <section class="faq-section">
         <div class="faq-container">
-            <h1 class="faq-title">Metal LED Letters- FAQs</h1>
+            <h1 class="faq-title">Sky Sign Boards- FAQs</h1>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What are Metal LED Sign Boards? 
+                    What is a sky sign board? 
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <P>Metal LED sign boards are signage systems made from stainless steel or aluminum, 
-                        illuminated using energy-efficient LED modules. They offer a premium, modern appearance 
-                        and are commonly used for storefronts, offices, hotels, luxury retail brands, and outdoor 
-                        building signage.</P>
+                    <P>A sky sign board is a large-format signage system installed on high-rise 
+                        buildings or rooftops, designed for long-distance visibility and 24/7 
+                        brand exposure.</P>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Are Metal LED Letters suitable for outdoor installation?
+                    How durable are sky sign boards in extreme weather?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, metal LED sign boards are built using corrosion-resistant stainless steel (typically 
-                        304 or 316 grade) and waterproof LED modules, making them highly suitable for outdoor environments, 
-                        including harsh weather, heat, and rainfall.</p>
+                    <p>Sky signage is engineered using wind-load tested frames, rust-proof metals, 
+                        and weather-resistant LEDs, ensuring long-term performance against rain, heat, 
+                        storms, and coastal humidity.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    How long do the LEDs inside metal letters last?
+                    What materials are used to manufacture sky sign boards?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>High-quality LED modules typically last 30,000–50,000 hours, depending on usage and conditions. With 
-                        proper sealing, heat management, and regulated power supply, they maintain brightness and performance
-                         for years.</p>
+                    <p>Common materials include stainless steel (SS304/316), aluminium, ACP panels, acrylic
+                         faces, galvanized steel structures, and high-efficiency LED lighting modules.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Can Metal LED Sign Boards be customized?
+                    Do sky sign boards require government approval?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Absolutely, these signs can be customised in terms of font style, size, metal finish (brushed, mirror, 
-                        matte, titanium/PVD), illumination mode (front-lit, halo-lit, dual-lit, or RGB), and installation method, ensuring 
-                        they match your brand identity perfectly.</p>
+                    <p>Yes, most sky sign installations require permissions from municipal authorities and
+                         building management due to height, electrical, and safety regulations.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    How energy-efficient are Metal LED Sign Boards?
+                    How long does installation take?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Metal LED signs consume significantly less power compared to traditional neon lighting. Their high-efficiency LED 
-                        technology ensures bright illumination with low electricity usage, making them both cost-effective and eco-friendly.</p>
+                    <p>Depending on size, design, permissions, and mounting complexity, a sky sign board 
+                        may take 3-8 weeks from design finalization to safe installation.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What maintenance do Metal LED Sign Boards require?
+                    Can sky sign boards be customized with logos and lighting effects?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Maintenance is minimal- usually limited to occasional cleaning and basic inspection of LED wiring and mounting hardware. 
-                        The sealed construction prevents dust, moisture, and corrosion, ensuring long-term performance with little upkeep.</p>
+                    <p>Absolutely, sky signs can be designed with 3D letters, custom logos, animation effects, 
+                        front glow, halo effects, or dual-lit illumination to suit branding needs.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Where are Metal LED Sign Boards commonly used?
+                    What type of maintenance is required for sky sign boards?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>They are widely used in shopping malls, corporate offices, building facades, hospitality and entertainment venues, luxury 
-                        retail stores, showrooms, and high-visibility commercial spaces to create a bold, premium, and memorable brand presence.
+                    <p>Routine checks include LED performance, electrical safety, structural inspection, and surface
+                         cleaning. Most installations require servicing only once or twice a year.
                     </p>
                 </div>
             </div>

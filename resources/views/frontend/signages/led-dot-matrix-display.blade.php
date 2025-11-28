@@ -3,26 +3,27 @@
 
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">Aluminum Channel Letters</h1>
+            <h1 class="hero-banner_title">LED Dot Matrix Displays</h1>
 
         </div>
         <!-- Slider -->
         <div class="slider-wrapper">
-        <div class="main-slider">
-               <div class="slide active">
-                    <img src="/frontend/Images/led-sign-board/aluminum-led-sign-1.webp" alt="Aluminum LED Letters Sign Board">
+
+            <div class="main-slider">
+                <div class="slide active">
+                    <img src="/frontend/Images/led-sign-board/open-dot-leds-1.webp" alt="Open Dot LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/aluminum-led-sign-2.webp" alt="Aluminum LED Letters Sign Board">
+                    <img src="/frontend/Images/led-sign-board/open-dot-led-2.webp" alt="Open Dot LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/aluminum-led-sign-3.webp" alt="Aluminum LED Letters Sign Board">
+                    <img src="/frontend/Images/led-sign-board/open-dot-led-3.webp" alt="Open Dot LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/aluminum-led-sign-4.webp" alt="Aluminum LED Letters Sign Board">
+                    <img src="/frontend/Images/led-sign-board/open-dot-led-4.webp" alt="Open Dot LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/aluminum-led-sgn-5.webp" alt="Aluminum LED Letters Sign Board">
+                    <img src="/frontend/Images/led-sign-board/open-dot-led-5.webp" alt="Open Dot LED Sign Board">
                 </div>
               
             </div>
@@ -34,29 +35,29 @@
 
 
             <div class="thumbnails">
-                <img src="/frontend/Images/led-sign-board/aluminum-led-sign-1.webp" class="thumb active" data-index="0" alt="Aluminum LED Letters Sign Board">
-                <img src="/frontend/Images/led-sign-board/aluminum-led-sign-2.webp" class="thumb" data-index="1" alt="Aluminum LED Letters Sign Board">
-                <img src="/frontend/Images/led-sign-board/aluminum-led-sign-3.webp" class="thumb" data-index="2" alt="Aluminum LED Letters Sign Board">
-                <img src="/frontend/Images/led-sign-board/aluminum-led-sign-4.webp" class="thumb" data-index="3" alt="Aluminum LED Letters Sign Board">
-                <img src="/frontend/Images/led-sign-board/aluminum-led-sgn-5.webp" class="thumb" data-index="4" alt="Aluminum LED Letters Sign Board">
+                <img src="/frontend/Images/led-sign-board/open-dot-leds-1.webp" class="thumb active" data-index="0" alt="Open Dot LED Sign Board">
+                <img src="/frontend/Images/led-sign-board/open-dot-led-2.webp" class="thumb" data-index="1" alt="Open Dot LED Sign Board">
+                <img src="/frontend/Images/led-sign-board/open-dot-led-3.webp" class="thumb" data-index="2" alt="Open Dot LED Sign Board">
+                <img src="/frontend/Images/led-sign-board/open-dot-led-4.webp" class="thumb" data-index="3" alt="Open Dot LED Sign Board">
+                <img src="/frontend/Images/led-sign-board/open-dot-led-5.webp" class="thumb" data-index="4" alt="3Open Dot LED Sign Board">
             </div>
         </div>
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">Best-rated LED Aluminum Channel Letters (ACP)</h1>
-            <p class="subtitle"><b>Price: ₹200 - ₹2,000.00 + GST</b></p>
+            <h1 class="hero-banner_title">Best-rated LED Dot Matrix Display</h1>
+            <p class="subtitle"><b>Price: ₹1000 - ₹20,000.00 + GST</b></p>
 
             <div class="divider"></div>
-            <p class="fs-16">Brighten your outdoor with Aluminum LED Channel Letters engineered for precision, longevity, and high-impact visibility. Built from high-grade 
-                aluminum alloys, each letter is CNC-bent, welded, and sealed to deliver rigidity and an immaculate finish. Combined with high-efficiency
-                 LEDs, the result is sign boards that stays sharp, bright, and consistent- day, night, and year after year.</p>
+            <p class="fs-16">Enhance your storefront with dynamic and high-performance LED dot matrix displays, designed for real-time communication. Built with advanced LED modules, 
+                this delivers crisp text, animations, and live updates. LED dot matrix displays are perfect for attention-grabbing messaging. Available in multiple
+                 pixel pitches, they support multilingual text, custom graphics, and adjustable brightness. </p>
             <ul class="features">
-                <li>Aluminum letters with long-lasting durability and premium look</li>
-                <li>High-efficiency LED illumination for brightness & night visibility</li>
-                <li>Front-lit, backlit (halo), side-lit, and dual-lit for visual impact</li>
-                <li>Weather, UV, and corrosion-resistant finish ensure stability</li>
-                <li>PAN India delivery and round-the-clock support services</li>
+                <li>High-brightness LED modules for long-range readability</li>
+                <li>Programmable- scrolling text, animations, and real-time updates</li>
+                <li>Adjustable brightness for indoor and outdoor environments</li>
+                <li>Weatherproof, dust-resistant, and built for 24/7 operation</li>
+                <li>PAN India delivery, installation, and technical support</li>
             </ul>
 
             <div class="buttons">
@@ -68,14 +69,13 @@
 
     <section>
         <div class="container" id="">
-            <h2 class="We-Elevate-Brands-heading fw-bold">Aluminum Channel Letters- Custom <br>Illuminated Branding Solutions</h2>
-            <p class=" text-center fs-20">Engineered for precision and visual impact, our <b>aluminum channel letters</b> are designed to elevate your brand with a clean, modern, and 
-                professional presence. We craft each sign board from high-grade aluminum paired with premium acrylic and <b>high-performance LEDs</b>, ensuring sharp visibility, 
-                durability, and illumination.</p>
-                <p class=" text-center fs-20">Whether you're looking to enhance a <b>storefront</b>, <b>corporate office</b>, or <b>retail environment</b>, our LED sign board solutions are built
-                     to match your brand identity with accuracy and style. From bold <b>front-lit aluminum letters</b> to elegant <b>halo-glow lighting effects</b>, every installation is 
-                     fully customized in size, finish, illumination type, and depth.</p>
-                <img src="/frontend/Images/led-sign-board/acrylic-led-specification.webp" alt="3D Acrylic LED Sign Board Specifications" class="shop-image">
+            <h2 class="We-Elevate-Brands-heading fw-bold">LED Dot Matrix Displays- Dynamic<br> Attention-Grabs Messaging</h2>
+            <p class=" text-center fs-20">Transform the way you communicate with customers- vibrant <b>LED Dot Matrix Displays</b> are designed to deliver scrolling messages, promotions, and live
+                 updates with absolute clarity. Dot matrix displays keep content moving making them impossible to ignore. With programmable settings, multiple font styles, adjustable 
+                 speed, and multilingual support, your messages stay relevant, impactful, and always visible.</p>
+                <p class=" text-center fs-20">At <b>Brand Signages</b>, we design and manufacture fully customized dot matrix displays for indoor, semi-outdoor, and outdoor environments. From 
+                    selecting size, pixel pitch, brightness level, and display color to integrating <b>automation</b>, <b>sensors</b>, and <b>remote connectivity</b>, we handle everything from engineering 
+                    to installation. Additionally, our pan-India delivery and support ensure a seamless experience from start to finish.</p>
 
         </div>
     </section>
@@ -83,12 +83,12 @@
 
     <section>
         <div class="container pt-5">
-            <h2 class="hero-title">Key Highlights of Aluminum Channel Letters</h2>
+            <h2 class="hero-title">Key Highlights of LED Dot Matrix Displays</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/acrylic-led-letter-showcase.webp')}}" alt="3D LED Acrylic Letters Designed by Brand Signages"
+                        <img src="{{asset('frontend/Images/led-sign-board/open-dot-led-6.webp')}}" alt="Open Dot LED Sign Boards by Brand Signages"
                             class="img-fluid">
                     </div>
                 </div>
@@ -99,27 +99,27 @@
                     
 
                         <li class="fs-20">
-                            <strong>Robust Architectural-Grade</strong><br>
-                            Crafted using high-strength aluminum profiles, as corrosion-resistant metals, aluminum channel letters offer solid structural integrity and 
-                            exceptional outdoor performance. 
+                            <strong>Dynamic & Programmable</strong><br>
+                            LED dot matrix displays allow real-time content updates, including scrolling messages, alerts,
+                             promotions, countdowns, and multilingual text, making them ideal for indoor & outdoor spaces.
                         </li>
 
                         <li class="fs-20">
-                            <strong>Precision Illumination With LED</strong><br>
-                            Integrated with high-efficiency LED modules that support front-lit, backlit (halo), side-lit, or dual-lit illumination. 
-                            The lighting delivers uniform brightness, improved night readability, and energy savings.
+                            <strong>High-Contrast Visibility</strong><br>
+                            Built with high-luminance LEDs and optimized pixel spacing, these displays ensure clear readability
+                             from close or long distances, even under bright daylight or nighttime environments.
                         </li>
 
                         <li class="fs-20">
-                            <strong>Custom Design & Finishing Options</strong><br>
-                            Aluminum channel letters are available in multiple depths, font styles, shapes, and surface coatings, including matte, brushed, powder-coated, chrome, or 
-                            metallic finishes.
+                            <strong>Energy-Efficient</strong><br>
+                            Using advanced LED technology, dot matrix displays operate with low power consumption while 
+                            delivering bright, continuous output, making them cost-effective for 24/7 communication.
                         </li>
 
                         <li class="fs-20">
-                            <strong>Reliable & Low-Maintenance</strong><br>
-                            Engineered to withstand UV exposure, rain, dust, and temperature fluctuations. The sealed LED housing and durable metal 
-                            fabrication require minimal upkeep while maintaining consistent performance.
+                            <strong>Durable & Weather-Resistant</strong><br>
+                            Manufactured with robust materials and protective coatings, these displays withstand exposure
+                             to dust, rain, humidity, and temperature, ensuring consistent performance indoors or outdoors.
                         </li>
                         </ul>
 
@@ -130,90 +130,97 @@
     </section>
 
 
-    <section class="new_custom-why-choose">
-        <div class="container">
-            <h2 class="text-center mb-5 new_custom-heading">Why ACP Signage Is a Smart Choice <br>for Business Branding</h2>
-            <div class="row justify-content-center g-4">
-
-                <!-- Expertise -->
-                <div class="col-md-4 justify-content-between d-flex flex-column">
-                    <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
-                        <p>ACP sign boards are made using weather-resistant composite panels that withstand rain, heat, sunlight, and dust, making 
-                            them a reliable option for both indoor and exterior branding.</p>
-                        <h4 class="new_custom-title">Long-Term Performance</h4>
-                    </div>
-                    <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/led-sign-board/hotwind-led-sign-board.webp') }}"
-                            alt="why choose us as your LED Sign Board Partner" class="img-fluid mt-3">
-                    </div>
-                </div>
-
-                <!-- Experience -->
-                <div class="col-md-4">
-                    <div class="new_custom-box new_custom-image-box"
-                        style="background-image: url('{{ asset('frontend/Images/led-sign-board/optical-store-led-sign-board.webp') }}');">
-                        <div class="new_custom-overlay">
-                            <h4 class="new_custom-title text-white">Adaptable to Any Style</h4>
-                            <p class="text-white">From bold outdoor facades to sleek indoor applications, ACP offers outstanding flexibility. It can be 
-                                fabricated into various forms- including cut letters, 3D elements, LED-lit signage, or architectural branding panels- 
-                                making it suitable for diverse creative and structural requirements.</p>
+       <section class="we-deliver">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <h2>Advantages of LED Dot Matrix Displays</h2>
                         </div>
-                    </div>
-                </div>
+                        <div class="col-md-8 col-12">
 
-                <!-- Excellence -->
-                <div class="col-md-4 justify-content-between d-flex flex-column">
-                    <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/led-sign-board/diner-led-sign-board.webp') }}"
-                            alt="Outdoor LED sign board designed by our experts" class="img-fluid mb-3">
-                    </div>
-                    <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
-                        <h4 class="new_custom-title">Premium Look & Finish</h4>
-                        <p>ACP signage delivers a refined appearance with smooth surfaces and clean edges. The availability of matte, brushed metal, gloss, 
-                            textured, or custom brand-color finishes enhances the overall aesthetic and creates a premium professional impression.</p>
-                    </div>
-                </div>
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
+                                            class="img-fluid">
+                                        <h3>Real-Time Content Control</h3>
+                                        <p>LED dot matrix displays allow instant message updates, making them ideal for dynamic environments 
+                                            where schedules, alerts, or announcements that need immediate visibility. 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Custom Craftmanship"
+                                            class="img-fluid">
+                                        <h3>Long-Range Readability</h3>
+                                        <p>With bright, high-contrast LED output and clear pixel formatting, these displays remain visible 
+                                            from significant distances, ensuring information is easy to read in any lighting condition.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Highly Durable Name Boards"
+                                            class="img-fluid">
+                                        <h3>Energy-Efficient Comm.</h3>
+                                        <p>Engineered for continuous operation, dot matrix displays consume minimal power while delivering bright
+                                             visuals, making them a cost-effective choice for long-term, 24/7 messaging. 
+                                        </p>
+                                    </div>
+                                </div>
+                                 <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Perfect Illumination"
+                                            class="img-fluid">
+                                        <h3>Customization Options</h3>
+                                        <p>Users can customize text speed, font size, brightness level, and animation effects, creating engaging 
+                                            content that suits specific environments, audiences, and communication needs.
+                                    </div>
+                                </div>
 
-            </div>
-        </div>
-    </section>
+
+                            </div>
+            </section>
 
 
 
     <section id="pricing">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">Affordable Aluminum Channel Letters <br>Pricing Breakdown</h2>
+            <h2 class="hero-title">Affordable LED Dot Matrix- <br>Pricing Breakdown</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/aluminum-led-sign-6.webp')}}"
-                            alt="LED Aluminum Channel Letter Design" class="img-fluid">
+                        <img src="{{asset('frontend/Images/led-sign-board/open-dot-led-7.webp')}}"
+                            alt="Open Dot LED Sign Board" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
     <p class="fs-20">
-        The cost of aluminum channel letters depends on the letter size, metal thickness, illumination type, installation method, and 
-        finishing style. Pricing is typically calculated per running inch and may vary based on complexity and customization requirements.
+        LED dot matrix display pricing depends on screen size, pixel pitch, LED type, display color (single/bi/multicolor), mounting 
+        requirements, and software features. Costs are calculated per square foot and may vary based on brightness level, connectivity 
+        options, and installation complexity.
     </p>
     <ul class="fs-20" style="padding-left: 18px;">
-        <li><b>Non-Lit Channel Letters:</b> ₹150 - ₹850 per inch</li>
-        <li><b>Front-Lit LED Letters:</b> ₹250 - ₹1,000 per inch</li>
-        <li><b>Backlit (Halo Glow) Letters:</b> ₹700 - ₹1,600 per inch</li>
-        <li><b>Dual-Lit (Front + Halo):</b> ₹1,000 - ₹2,500+ per inch</li>
-        <li><b>Custom RGB Letters:</b> ₹1,000 - ₹3,200+ per inch</li>
+        <li><b>Single-Color Display:</b> ₹400 - ₹3,500 per sq. ft</li>
+        <li><b>Bi-Color Display:</b> ₹2,500 - ₹5,800 per sq. ft</li>
+        <li><b>Full-Color (RGB) Display:</b> ₹4,000 – ₹12,500 per sq. ft</li>
     </ul>
 
     <p class="fs-20">
-        We are the leading manufacturers of <a href="/led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;"><strong>aluminum LED channel letters</strong></a> in Bangalore and across India. From corporate office and retail storefronts to hospitality and commercial complexes, our aluminum channel letters 
-         are engineered to provide a bold, modern identity.
+        As a trusted <a href="/led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;"><strong>LED sign board manufacturers</strong></a> in India, we design solutions built for durability, clarity, and long-term performance.
+         Whether used for transport terminals, retails, hospitals, industrial facilities, schools, or public display systems, 
+         LED dot matrix boards deliver  real-time programmable messaging and 24/7 visibility.
     </p>
 
-   <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
-                            <button class="contact-btn">Book Order Now</button>
-                        </a>
+    <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
+            <button class="contact-btn">Book Order Now</button>
+    </a>
+   
 </div>
+
 
 
             </div>
@@ -755,110 +762,74 @@
 
     <section class="faq-section">
         <div class="faq-container">
-            <h1 class="faq-title">3D Aluminum LED Letters- FAQs</h1>
+            <h1 class="faq-title">LED Dot Matrix Displays- FAQs</h1>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What are ACP Signages? 
+                    What is an LED dot matrix display? 
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <P>ACP (Aluminium Composite Panel) sign boards are branding and display boards made using a 
-                        lightweight aluminum sheet bonded over a core material. They provide a sleek, modern 
-                        finish and are commonly used for outdoor storefronts, wayfinding, and architectural branding.</P>
+                    <P>An LED dot matrix display is an electronic signage system that uses a grid of LED pixels to show 
+                        scrolling messages, numbers, alerts, animations, or real-time information.</P>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What are the advantages of ACP sign boards?
+                    Can the LED dot matrix display content be updated remotely?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>ACP sign boards are durable, weather-resistant, lightweight, and visually premium. They 
-                        withstand heat, rain, and UV exposure, making them suitable for long-term outdoor installation
-                         while maintaining a clean, professional appearance.</p>
+                    <p>Yes, depending on the model, content can be updated through USB, Wi-Fi, software interface, or 
+                        cloud-based systems, making it easy to manage messages anytime.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Can ACP sign boards be customized in terms of design?
+                    Are LED dot matrix displays suitable for outdoor use?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, ACP signages offer immense flexibility in design, size, shape, lighting types, colors, 
-                        textures, and finishes. They can be fabricated into 3D letters, LED boards, branding 
-                        panels, and architectural facade elements.</p>
+                    <p>Absolutely, outdoor models are built with waterproof housings, high-brightness LEDs, and weatherproof 
+                        components to withstand rain, dust, temperature variations, and sunlight exposure.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Are ACP sign boards eco-friendly?
+                     What sizes and colors are available?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Many ACP materials today are manufactured using recyclable aluminum and sustainable core 
-                        materials. They have a long lifespan, reducing replacement frequency and environmental waste.</p>
+                    <p>LED dot matrix displays are available in multiple sizes, pixel pitches, and color formats single-color,
+                         bi-color, and full RGB to suit different viewing distances and applications.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What applications are ACP signages suitable for?
+                    How energy-efficient are these displays?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>ACP signages are ideal for corporate offices, retail storefronts, malls, hospitals, real estate projects, 
-                        restaurants, educational institutions, and large commercial building spaces.</p>
+                    <p>LED dot matrix displays are designed for low-power consumption and continuous operation, 
+                        making them energy-efficient even when running 24/7.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    How long do ACP signages last?
+                    Do LED Dot Matrix Boards support multiple languages?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>With proper installation and maintenance, ACP sign boards can last 4 - 10+ years, thanks to their 
-                        corrosion resistance, rigid surface, and durable exterior coating.</p>
+                    <p>Yes, these displays support multilingual text, including English, Hindi, regional languages,
+                         and even numeric or symbolic communication such as arrows, icons, and countdowns.</p>
                 </div>
             </div>
 
-            <div class="faq-item">
-                <button class="faq-question">
-                    Are ACP signages suitable for illuminated branding?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Absolutely, ACP panels work seamlessly with LED backlit letters, front-lit acrylic signs, edge-lit elements, 
-                        and 3D illuminated signage systems, making them an excellent choice for nighttime visibility.
-                    </p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Do ACP sign boards require maintenance?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p> ACP signages require minimal upkeep. Occasional cleaning to remove dust and environmental deposits 
-                        is enough to maintain their finish, shine, and clarity.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Can ACP signage be installed on any surface?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes, ACP signs can be installed on concrete, glass, brick, metal frames, ACP cladding, and interior 
-                        walls using appropriate mounting systems, ensuring secure and long-term placement.</p>
-                </div>
-            </div>
 
         </div>
     </section>
