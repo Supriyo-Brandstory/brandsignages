@@ -1661,7 +1661,7 @@
 
     <section class="faq-section">
         <div class="faq-container">
-            <h1 class="faq-title">LED Sign Board FAQs</h1>
+            <h1 class="faq-title py-5">LED Sign Board FAQs</h1>
 
             <div class="faq-item">
                 <button class="faq-question">
