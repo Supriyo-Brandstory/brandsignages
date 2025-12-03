@@ -1294,7 +1294,7 @@
 
    <section class="other-cities-section py-5">
         <div class="container">
-            <h2 class="my-5">Led Sign Board Manufacturing <br>Services Across India</h2>
+            <h2 class="hero-title">We Deliver LED Sign Boards <br> Across India</h2>
             <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
                 <div class="other-cities-card">
                     <a href="/led-display-board-in-mumbai" style="text-decoration: none;">
