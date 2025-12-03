@@ -65,18 +65,18 @@
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">Best-rated LED Sign Boards</h1>
+            <h1 class="hero-banner_title">Custom LED Sign Boards</h1>
             <p class="subtitle"><b>Price: ₹1,000 - ₹35,000.00 + GST</b></p>
 
             <div class="divider"></div>
-            <p class="fs-16">LED sign boards do more than display your business name, they bring a brand to life. LED light signs provide bright illumination, superior visibility, 
-                & customizable design options. With a wide variety of styles like scrolling LED displays, crystal LED signs, Acrylic LED sign boards, and programmable LED displays
-                , we bring you the largest collection of LED sign boards in India.</p>
+            <p class="fs-16">LED sign boards do more than just display names- they make a brand unforgettable. With bright illumination, exceptional visibility, and fully 
+                customizable design options, LED signage ensures a business stands out day and night. Designed to draw attention from distances and elevate brand presence, 
+                LED sign boards help businesses be seen, recognised, and remembered.</p>
             <ul class="features">
-                <li>100+ LED sign board designs (Largest Collection in India)</li>
-                <li>Crafted using quality material- acrylic, LEDs, and ACP</li>
-                <li>Attractive LED glow boards with custom design options</li>
-                <li>PAN India service including design & installation</li>
+                <li>Explore 8+ LED sign board types</li>
+                <li>Crafted with quality material- acrylic, LEDs, & ACP</li>
+                <li>Attractive LED name boards with custom designs</li>
+                <li>PAN India service including delivery & installation</li>
                 <li>Dedicated Support services round the clock</li>
             </ul>
 
@@ -89,30 +89,20 @@
 
     <section>
         <div class="container" id="">
-            <h2 class="hero-title  mb-4">We Have The Largest Collection of <br>LED Sign Boards in India</h2>
-            <p class="text-center fs-20">In the world of retail and consumer businesses, first impressions are often the deciding factor for 
-                customers. This is why shopping malls and high streets are designed to be visually captivating. With 
-                <b>precision lighting</b> and <b>flawless visual clarity</b>, LED sign boards act like beacons commanding attention and guiding 
-                customers with effortless brilliance. LED sign boards don’t just display your business name, they project identity, 
-                elevate presence, and <b>create a moment of connection</b> that feels intentional, modern, and impossible to ignore.</p>
-                <p class=" text-center fs-20">Brand Signages brings the latest, ever-exclusive range of LED sign boards to your doorstep. 
-                    We have the best sign board options that include <b>acrylic LED</b>, <b>2D stencil cut acrylic LED letters</b>, <b>glittering crystal
-                     LED letters</b>, <b>open dot LED boards</b>, programmable LED sign boards, and LED neon sign boards. You can get an endless LED sign board collection with
-                      an astonishing variety of styles, colours, and materials. </p>
-                <div class="image-grid">
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/led-showcase.webp" 
-                                                alt="Flexible LED Sign Board by Brand Signages">
-                                  
-                                        </div>
-                                        <div class="image-item">
-                                            <img src="/frontend/Images/led-sign-board/led-sign-boards-for-shop.webp" 
-                                                alt="3D LED Letter Sign & Neon Sign Board (3D Letter VenHussen LED Signs for Shop)">
-                                        
-                                        </div>
-                                    </div>
-                        
-                        <div class="text-center py-5">
+            <h2 class="hero-title  mb-4">Bright Sign Boards, Bold Branding <br>with LED Sign Boards</h2>
+            <p class="text-center fs-20">LED sign boards have become one of the smartest ways for businesses to stay visible in busy streets and commercial environments.
+                 A well-designed LED sign doesn’t just display a name- it signals presence, builds recall, and helps customers find you instantly, even from a distance.
+                </p>
+                <p class=" text-center fs-20">At Brand Signages, LED boards are designed to meet real business needs: durability, clear visibility in day and night conditions,
+                     and a look that represents the brand accurately. Whether it’s a compact indoor LED nameplate or a large outdoor <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>illuminated storefront sign</strong></a>, every 
+                     design is engineered for high brightness, low power consumption, and long-term reliability.
+                </p>
+                <p class=" text-center fs-20">Businesses across <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>retail</strong></a>, <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>hospitality</strong></a>, <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>healthcare</strong></a>, education,
+                 and corporate spaces choose LED sign boards because they are modern, customizable, and visually striking. With multiple options 
+                    such as 3D acrylic LED letters, neon-style signage, edge-lit panels, programmable boards, and digital displays, brands can choose a style that suits their space and audience.
+                </p>
+                
+                        <div class="text-center">
                            <a href="contact-us">
                              <button class="contact-btn">Start Your Project</button>
                            </a>
@@ -121,7 +111,126 @@
         </div>
     </section>
 
-    <section>
+    <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="We-Elevate-Brands-heading fw-bold">Exlusive LED Sign Board <br>Product Range</h2>
+        </div>
+
+        <div class="position-relative">
+            <div class="swiper We-Elevate-Brands-swiper pt-60">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp')}}" class="card-img-center"
+                                alt="Acrylic LED Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="3d-led-acrylic-letters">3D Acrylic LED Letters</a></h5>
+                                <p class="We-Elevate-Brands-text">Acrylic LED letters are a versatile choice for LED sign boards, offering bright illumination, sleek design, and durability. 
+                                    Perfect for creating high-impact, attention-grabbing name boards for any business.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp')}}" class="card-img-center"
+                                alt="Aluminum LED Channel Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="led-aluminum-channel-letters">Aluminum LED Letters</a></h5>
+                                <p class="We-Elevate-Brands-text">Aluminum channel letters offer a sleek, 3D design with front-facing LED illumination. Customizable in black, gold, silver, or 
+                                    multi-colour, they create premium, high-visibility signage for retail and boutique businesses. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp')}}" class="card-img-center"
+                                alt="2D Stencil Cut Sign Boards">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="2d-stencil-cut-acrylic-led-letters">2D Stencil Cut Sign Board</a></h5>
+                                <p class="We-Elevate-Brands-text">2D stencil cut sign boards offer sleek, flush designs with hidden LED illumination, providing a cost-effective, professional, and
+                                     customizable signage solution ideal for delicate fonts and minimalist branding.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/crystal-led-6.webp')}}" class="card-img-center"
+                                alt="3D Crystal LED Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="3d-crystal-led-letters">3D Crystal LED Letters</a></h5>
+                                <p class="We-Elevate-Brands-text">3D Crystal LED Letters feature crystal-embedded acrylic faces with backlit LEDs, deep 3D layering, and luxurious metallic finishes, 
+                                    creating dazzling, high-visibility sign boards perfect for premium retail and luxury brands.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp')}}" class="card-img-center"
+                                alt="Sky LED Sign Boards">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="sky-sign-boards">Sky LED Sign Boards</a></h5>
+                                <p class="We-Elevate-Brands-text">Sky LED sign boards are large-format rooftop signs with weather-resistant construction, IP67-rated LEDs, and premium 
+                                    illumination. Designed for high-rise branding, they ensure long-distance visibility and strong corporate identity impact.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/open-dot-led-sign-1.webp')}}" class="card-img-center"
+                                alt="LED Dot Matrix Displays">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="led-dot-matrix-display">LED Dot Matrix Displays</a></h5>
+                                <p class="We-Elevate-Brands-text">LED Dot Matrix Displays feature exposed, high-intensity LEDs for maximum brightness and contrast. With programmable RGB 
+                                    effects and energy-efficient design, they deliver dynamic, attention-grabbing signage for commercial and retail spaces.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/flexibile-led-1.webp')}}" class="card-img-center"
+                                alt="Outdoor Business Signages">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="flexible-led-display-boards">Flexible LED Displays</a></h5>
+                                <p class="We-Elevate-Brands-text">Flexible LED Displays offer dynamic, programmable messaging with high brightness and curved installation capability. Available
+                                     in RGB or single-color, they allow real-time updates for indoor and outdoor branding applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/neon-sign-board-4.webp')}}" class="card-img-center"
+                                alt="Neon LED Signs">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="neon-signages">Neon LED Signs</a></h5>
+                                <p class="We-Elevate-Brands-text">LED Neon Sign Boards deliver vibrant, durable signage with shatter-resistant LED ropes. Offering low power consumption and vivid 
+                                    fluorescent colors, they provide a retro neon effect with modern efficiency and longevity.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Arrows -->
+                <div class="We-Elevate-Brands-nav ">
+                    <!-- Swap order: prev on left, next on right -->
+                    <div class="We-Elevate-Brands-button-prev"></div>
+                    <div class="We-Elevate-Brands-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+
+       
+        </div>
+    </section>
+
+
+    <!--<section>
         <div class="container pt-5" id="">
             <h2 class="hero-title  mb-4">Best LED Sign Board Product Range <br>for Your Business</h2>
                     <p class="text-center fs-20">Yes, you heard it right, the <b>lagest collection of LED sign boards</b>  in India is here at Brand Signages. Find everything starting from 
@@ -130,7 +239,7 @@
 
                             <div class="signage-box signage-product-layout">
 
-                                <!-- LEFT CONTENT -->
+                              
                                 <div class="content-column">
 
                                     <h3>
@@ -153,7 +262,7 @@
 
                                 </div>
 
-                                <!-- RIGHT PRODUCT GALLERY -->
+                            
                                 <div class="product-gallery">
 
                                     <div class="main-preview">
@@ -179,7 +288,7 @@
 
                         <div class="signage-box signage-product-layout">
 
-                            <!-- LEFT CONTENT -->
+                           
                             <div class="content-column">
 
                                 <h3>
@@ -205,7 +314,7 @@
 
                             </div>
 
-                            <!-- RIGHT PRODUCT GALLERY -->
+                            
                                 <div class="product-gallery">
 
                                     <div class="main-preview">
@@ -230,7 +339,7 @@
                         </div>
 
 
-                        <!--<div class="signage-box signage-product-layout">
+                        <div class="signage-box signage-product-layout">
 
                          
                             <div class="content-column">
@@ -282,11 +391,11 @@
 
 
 
-                        </div>-->
+                        </div>
                     
                     <div class="signage-box signage-product-layout">
 
-                            <!-- LEFT CONTENT -->
+                           
                             <div class="content-column">
 
                                 <h3>
@@ -309,7 +418,7 @@
 
                             </div>
 
-                            <!-- RIGHT PRODUCT GALLERY -->
+                          
                             <div class="product-gallery">
 
                                 <div class="main-preview">
@@ -335,7 +444,7 @@
 
                         <div class="signage-box signage-product-layout">
 
-                                    <!-- LEFT CONTENT -->
+                                  
                                     <div class="content-column">
 
                                         <h3>
@@ -359,7 +468,7 @@
 
                                     </div>
 
-                                    <!-- RIGHT PRODUCT GALLERY -->
+                                  
                                     <div class="product-gallery">
 
                                         <div class="main-preview">
@@ -386,7 +495,7 @@
 
                                     <div class="signage-box signage-product-layout">
 
-                                                <!-- LEFT CONTENT -->
+                                             
                                                 <div class="content-column">
 
                                                     <h3>
@@ -408,7 +517,7 @@
 
                                                 </div>
 
-                                                <!-- RIGHT PRODUCT GALLERY -->
+                                               
                                                 <div class="product-gallery">
 
                                                     <div class="main-preview">
@@ -435,7 +544,7 @@
 
                                     <div class="signage-box signage-product-layout">
 
-                                            <!-- LEFT CONTENT -->
+                                           
                                             <div class="content-column">
 
                                                 <h3>
@@ -459,7 +568,7 @@
 
                                             </div>
 
-                                            <!-- RIGHT PRODUCT GALLERY -->
+                                           
                                             <div class="product-gallery">
 
                                                 <div class="main-preview">
@@ -486,7 +595,7 @@
                                     
                                     <div class="signage-box signage-product-layout">
 
-                                            <!-- LEFT CONTENT -->
+                                          
                                             <div class="content-column">
 
                                                 <h3>
@@ -508,7 +617,7 @@
 
                                             </div>
 
-                                            <!-- RIGHT PRODUCT GALLERY -->
+                                          
                                             <div class="product-gallery">
 
                                                 <div class="main-preview">
@@ -536,7 +645,7 @@
                                            
                                 <div class="signage-box signage-product-layout">
 
-                                    <!-- LEFT CONTENT -->
+                                   
                                     <div class="content-column">
 
                                         <h3>
@@ -561,7 +670,7 @@
 
                                     </div>
 
-                                    <!-- RIGHT IMAGE GALLERY -->
+                                    
                                     <div class="product-gallery">
                                         <div class="main-preview">
                                             <img src="/frontend/Images/led-sign-board/flexible-led-2.webp" alt="Flexible LED Display Board">
@@ -585,7 +694,7 @@
 
                                 <div class="signage-box signage-product-layout">
 
-                                        <!-- LEFT CONTENT -->
+                                        
                                         <div class="content-column">
 
                                             <h3>
@@ -607,7 +716,7 @@
 
                                         </div>
 
-                                        <!-- RIGHT PRODUCT GALLERY -->
+                                     
                                         <div class="product-gallery">
 
                                             <div class="main-preview">
@@ -631,7 +740,7 @@
                                     </div>
 
         </div>
-    </section>
+    </section>-->
 
 
 
@@ -640,7 +749,7 @@
 
     <section id="pricing">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">LED Sign Board Size & Pricing Options</h2>
+            <h2 class="hero-title">LED Sign Board Size & Pricing <br>Explore Options</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
@@ -652,7 +761,7 @@
 
                 <div class="col-lg-6">
     <p class="fs-20">
-        The cost of an LED sign board includes materials and installation. Prices vary based on size, design complexity, and lighting options.
+        The cost of an LED sign board includes materials and installation. Prices vary based on size, design complexity, lighting, and color options.
     </p>
 
     <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
@@ -678,6 +787,212 @@
             </div>
         </div>
     </section>
+
+    <section class="new-recent-works">
+        <div class="container">
+            <h2 class="hero-title  mb-6">Our Recent LED Sign Board <br>Installation Projects</h2>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
+                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Titan Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
+                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Fortis Hospital</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Café Mocha</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/tanishq.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Tanishq Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Prestige Group</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>MedPlus Pharmacy</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="/contact-us">
+                    <button class="contact-btn">Start Your Project</button>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="inquery-from-section">
+        <x-coustom-inquiry-form />
+        </div>
+
+        <section class="new_custom-why-choose">
+        <div class="container">
+            <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages for LED <br>Sign Boards?</h2>
+            <div class="row justify-content-center g-4">
+
+                <!-- Expertise -->
+                <div class="col-md-4 justify-content-between d-flex flex-column">
+                    <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
+                        <p>Backed by years of hands-on experience, we specialize in <a
+                                style="color: #000000ff;text-decoration: underline;"
+                                href="/led-display-board-in-chennai"><strong>LED sign boards</strong></a> that blend
+                            functionality
+                            with creativity.
+                            Our experts ensures every design aligns with your brand identity.</p>
+                        <h4 class="new_custom-title">Expert Craftsmanship</h4>
+                    </div>
+                    <div class="why-choose-image-container">
+                        <img src="{{ asset('frontend/Images/led-sign-board/hotwind-led-sign-board.webp') }}"
+                            alt="why choose us as your LED Sign Board Partner" class="img-fluid mt-3">
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="col-md-4">
+                    <div class="new_custom-box new_custom-image-box"
+                        style="background-image: url('{{ asset('frontend/Images/led-sign-board/optical-store-led-sign-board.webp') }}');">
+                        <div class="new_custom-overlay">
+                            <h4 class="new_custom-title text-white">Tailored Solution</h4>
+                            <p class="text-white">We believe no two brands are the same. That’s why every <a
+                                    style="color: #ffffffff;text-decoration: underline;"
+                                    href="/led-sign-board-in-bangalore"><strong>LED sign board</strong></a> we
+                                design is fully customizable,
+                                whether you need a sleek indoor display for a boutique or a high-visibility outdoor sign for
+                                a corporate space.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excellence -->
+                <div class="col-md-4 justify-content-between d-flex flex-column">
+                    <div class="why-choose-image-container">
+                        <img src="{{ asset('frontend/Images/led-sign-board/diner-led-sign-board.webp') }}"
+                            alt="Outdoor LED sign board designed by our experts" class="img-fluid mb-3">
+                    </div>
+                    <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
+                        <h4 class="new_custom-title">Superior Material</h4>
+                        <p>We use only premium-grade acrylic, stainless steel, and advanced LED modules to ensure your
+                            signage remains brilliant, long-lasting,
+                            and energy-efficient. Each board is crafted to withstand time, weather, and constant visibility
+                            demands.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="hero-title">LED Sign Board Price<br> Explore Pricing Insights</h2>
+            </div>
+            
+           <div class="row con-fix2">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/led-sign-board-pricing-size-material-led-type-controller-warranty-installation-cost" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/mjcQbqNZEIMQBfDGJeSfhJXTHkKR1ZKkZGgtfMex.jpg" alt="LED Sign Board Pricing: Size, Material, LED Type, Controller, Warranty &amp; Installation Cost">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">LED SIGN BOARDS</span>
+                            <span class="time">LED Signs</span>
+                        </div>
+                        <h5 class="blog-card-title">LED Sign Board Pricing: Size, Material, LED Type, Controller, Warranty &amp; Installation Cost</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/how-to-choose-the-best-led-sign-board-manufacturer-in-bangalore-mumbai-chennai" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/6VPY4cEx3enyaVpRAUMc21SN0KvJpitvClousHFX.jpg" alt="How to Choose the Best LED Sign Board Manufacturers: A Detailed Guide">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">LED SIGN BOARDS</span>
+                            <span class="time">LED Signs</span>
+                        </div>
+                        <h5 class="blog-card-title">How to Choose the Best LED Sign Board Manufacturers: A Detailed Guide</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/led-sign-board-price-guide-updated-2025-cost-by-size-material-lighting-type" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/MlHPqaVwbtBat0oZQ2sC81XRXopsxK054vVc0uFV.jpg" alt="LED Sign Board Price Guide (Updated 2025): Cost by Size, Material &amp; Lighting Type">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">LED SIGN BOARDS</span>
+                            <span class="time">LED Signs</span>
+                        </div>
+                        <h5 class="blog-card-title">LED Sign Board Price Guide (Updated 2025): Cost by Size, Material &amp; Lighting Type</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+            </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+
 
     <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
         <div class="container">
@@ -903,62 +1218,8 @@
         </div>
     </section>
 
-    <section class="new_custom-why-choose">
-        <div class="container">
-            <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages for LED <br>Sign Boards?</h2>
-            <div class="row justify-content-center g-4">
+        
 
-                <!-- Expertise -->
-                <div class="col-md-4 justify-content-between d-flex flex-column">
-                    <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
-                        <p>Backed by years of hands-on experience, we specialize in <a
-                                style="color: #000000ff;text-decoration: underline;"
-                                href="/led-display-board-in-chennai"><strong>LED sign boards</strong></a> that blend
-                            functionality
-                            with creativity.
-                            Our experts ensures every design aligns with your brand identity.</p>
-                        <h4 class="new_custom-title">Expert Craftsmanship</h4>
-                    </div>
-                    <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/led-sign-board/hotwind-led-sign-board.webp') }}"
-                            alt="why choose us as your LED Sign Board Partner" class="img-fluid mt-3">
-                    </div>
-                </div>
-
-                <!-- Experience -->
-                <div class="col-md-4">
-                    <div class="new_custom-box new_custom-image-box"
-                        style="background-image: url('{{ asset('frontend/Images/led-sign-board/optical-store-led-sign-board.webp') }}');">
-                        <div class="new_custom-overlay">
-                            <h4 class="new_custom-title text-white">Tailored Solution</h4>
-                            <p class="text-white">We believe no two brands are the same. That’s why every <a
-                                    style="color: #ffffffff;text-decoration: underline;"
-                                    href="/led-sign-board-in-bangalore"><strong>LED sign board</strong></a> we
-                                design is fully customizable,
-                                whether you need a sleek indoor display for a boutique or a high-visibility outdoor sign for
-                                a corporate space.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Excellence -->
-                <div class="col-md-4 justify-content-between d-flex flex-column">
-                    <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/led-sign-board/diner-led-sign-board.webp') }}"
-                            alt="Outdoor LED sign board designed by our experts" class="img-fluid mb-3">
-                    </div>
-                    <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
-                        <h4 class="new_custom-title">Superior Material</h4>
-                        <p>We use only premium-grade acrylic, stainless steel, and advanced LED modules to ensure your
-                            signage remains brilliant, long-lasting,
-                            and energy-efficient. Each board is crafted to withstand time, weather, and constant visibility
-                            demands.</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
 
 
     <!--<section>
@@ -1029,90 +1290,11 @@
     
     
 
-     <section class="new-recent-works">
+
+
+   <section class="other-cities-section py-5">
         <div class="container">
-            <h2 class="hero-title  mb-6">Our Recent LED Sign Board <br>Installation Projects</h2>
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
-                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Titan Showroom</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
-                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Fortis Hospital</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Café Mocha</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/tanishq.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Tanishq Showroom</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Prestige Group</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>MedPlus Pharmacy</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <a href="/contact-us">
-                    <button class="contact-btn">Start Your Project</button>
-                </a>
-            </div>
-
-
-        </div>
-    </section>
-
-    <!--<section class="other-cities-section py-5">
-        <div class="container">
-            <h2 class="my-5">Led Sign Board in Other Cities</h2>
+            <h2 class="my-5">Led Sign Board Manufacturing <br>Services Across India</h2>
             <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
                 <div class="other-cities-card">
                     <a href="/led-display-board-in-mumbai" style="text-decoration: none;">
@@ -1143,7 +1325,7 @@
                 </div>
             </div>
         </div>
-    </section>-->
+    </section>
 
     <section class="new_client_section container">
         <h2 class="new_client_section-title">We Serve Clients Across <br>All Industries</h2>

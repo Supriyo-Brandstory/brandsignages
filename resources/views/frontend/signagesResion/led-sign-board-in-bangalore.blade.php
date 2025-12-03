@@ -36,7 +36,7 @@
                        brand visibility and capturing attention instantly.
                     </p>
                        <p class="brand-description">
-                       Brand Signages is a leading LED sign board manufacturer in Bangalore, serving B2B customers with 7X energy-efficient striking visual displays. We provide a wide range of comprehensive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED sign boards</strong></a> for our customers at affordable prices. As a trusted provider of LED signboards in Bangalore, we deliver solutions tailored to make an impact.
+                       Brand Signages is a leading LED sign board manufacturers in Bangalore, serving B2B customers with 7X energy-efficient striking visual displays. We provide a wide range of comprehensive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED sign boards</strong></a> for our customers at affordable prices. As a trusted provider of LED signboards in Bangalore, we deliver solutions tailored to make an impact.
                     </p>
                     <p class="brand-description">
                        Being a prominent leader in <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/services"><strong>signage services</strong></a>, we have become trusted name in LED sign board manufacturing. We value our core principles, serve each customer with utmost priority, and bring your brand to life with captivating graphics and impactful visual storytelling. 
@@ -48,7 +48,7 @@
             </div>
         </div>
     </section>
-    <section class="BuiltToLast-section"
+    <!--<section class="BuiltToLast-section"
         style="background: url('{{ asset('frontend/Images/new/Premium-LED-Sign-bg.png') }}') no-repeat;">
 
         <div class="BuiltToLast-container">
@@ -66,18 +66,18 @@
                     class="BuiltToLast-img">
             </div>
         </div>
-    </section>
-  <section class="bgrowth-slider-section">
+    </section>-->
+  <!--<section class="bgrowth-slider-section">
             <div class="bgrowth-header">
                 <h2>Our LED Sign Board <br>Product Range</h2>
                 
             </div>
 
             <div class="swiper bgrowth-swiper container">
-                <div class="swiper-pagination"></div> <!-- should be inside swiper, before swiper-wrapper -->
+                <div class="swiper-pagination"></div>
                 <div class="swiper-wrapper">
 
-                    <!-- Slide 1 -->
+                    
                     <div class="swiper-slide bgrowth-card">
                         <img src="{{ asset('frontend/Images/acrylic-sign-board-1.webp') }}" alt="Acrylic LED Sign"
                             class="bgrowth-img" />
@@ -90,7 +90,7 @@
                         </div>
                     </div>
 
-                    <!-- Slide 2 -->
+                   
                     <div class="swiper-slide bgrowth-card">
                         <img src="{{ asset('frontend/Images/digital-led-signage-1.webp') }}" alt="Metal Signage"
                             class="bgrowth-img" />
@@ -113,7 +113,7 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Slide 1 -->
+                    
                     <div class="swiper-slide bgrowth-card">
                         <img src="{{ asset('frontend/Images/led-reverse-light.webp') }}" alt="Digital Signages"
                             class="bgrowth-img" />
@@ -126,7 +126,7 @@
                         </div>
                     </div>
 
-                    <!-- Slide 2 -->
+                   
                     <div class="swiper-slide bgrowth-card">
                         <img src="{{ asset('frontend/Images/led-message-boards.webp') }}" alt="Neon Sign Board"
                             class="bgrowth-img" />
@@ -151,7 +151,7 @@
                     </div>
 
 
-                    <!-- Add more slides if needed -->
+                    
                 </div>
              
 
@@ -163,7 +163,126 @@
         </div>
 
 
-        </section>
+        </section>-->
+        <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="We-Elevate-Brands-heading fw-bold">Exlusive LED Sign Board <br>Product Range</h2>
+        </div>
+
+        <div class="position-relative">
+            <div class="swiper We-Elevate-Brands-swiper pt-60">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp')}}" class="card-img-center"
+                                alt="Acrylic LED Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="3d-led-acrylic-letters">3D Acrylic LED Letters</a></h5>
+                                <p class="We-Elevate-Brands-text">Acrylic LED letters are a versatile choice for LED sign boards, offering bright illumination, sleek design, and durability. 
+                                    Perfect for creating high-impact, attention-grabbing name boards for any business.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp')}}" class="card-img-center"
+                                alt="Aluminum LED Channel Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="led-aluminum-channel-letters">Aluminum LED Letters</a></h5>
+                                <p class="We-Elevate-Brands-text">Aluminum channel letters offer a sleek, 3D design with front-facing LED illumination. Customizable in black, gold, silver, or 
+                                    multi-colour, they create premium, high-visibility signage for retail and boutique businesses. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp')}}" class="card-img-center"
+                                alt="2D Stencil Cut Sign Boards">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="2d-stencil-cut-acrylic-led-letters">2D Stencil Cut Sign Board</a></h5>
+                                <p class="We-Elevate-Brands-text">2D stencil cut sign boards offer sleek, flush designs with hidden LED illumination, providing a cost-effective, professional, and
+                                     customizable signage solution ideal for delicate fonts and minimalist branding.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/crystal-led-6.webp')}}" class="card-img-center"
+                                alt="3D Crystal LED Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="3d-crystal-led-letters">3D Crystal LED Letters</a></h5>
+                                <p class="We-Elevate-Brands-text">3D Crystal LED Letters feature crystal-embedded acrylic faces with backlit LEDs, deep 3D layering, and luxurious metallic finishes, 
+                                    creating dazzling, high-visibility sign boards perfect for premium retail and luxury brands.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp')}}" class="card-img-center"
+                                alt="Sky LED Sign Boards">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="sky-sign-boards">Sky LED Sign Boards</a></h5>
+                                <p class="We-Elevate-Brands-text">Sky LED sign boards are large-format rooftop signs with weather-resistant construction, IP67-rated LEDs, and premium 
+                                    illumination. Designed for high-rise branding, they ensure long-distance visibility and strong corporate identity impact.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/open-dot-led-sign-1.webp')}}" class="card-img-center"
+                                alt="LED Dot Matrix Displays">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="led-dot-matrix-display">LED Dot Matrix Displays</a></h5>
+                                <p class="We-Elevate-Brands-text">LED Dot Matrix Displays feature exposed, high-intensity LEDs for maximum brightness and contrast. With programmable RGB 
+                                    effects and energy-efficient design, they deliver dynamic, attention-grabbing signage for commercial and retail spaces.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/flexibile-led-1.webp')}}" class="card-img-center"
+                                alt="Outdoor Business Signages">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="flexible-led-display-boards">Flexible LED Displays</a></h5>
+                                <p class="We-Elevate-Brands-text">Flexible LED Displays offer dynamic, programmable messaging with high brightness and curved installation capability. Available
+                                     in RGB or single-color, they allow real-time updates for indoor and outdoor branding applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/neon-sign-board-4.webp')}}" class="card-img-center"
+                                alt="Neon LED Signs">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="neon-signages">Neon LED Signs</a></h5>
+                                <p class="We-Elevate-Brands-text">LED Neon Sign Boards deliver vibrant, durable signage with shatter-resistant LED ropes. Offering low power consumption and vivid 
+                                    fluorescent colors, they provide a retro neon effect with modern efficiency and longevity.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Arrows -->
+                <div class="We-Elevate-Brands-nav ">
+                    <!-- Swap order: prev on left, next on right -->
+                    <div class="We-Elevate-Brands-button-prev"></div>
+                    <div class="We-Elevate-Brands-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+
+       
+        </div>
+    </section>
+
+
           <section class="Maximum-Impact-section">
         <div class="container">
             <div class="swiper Maximum-Impact-swiper">
@@ -219,6 +338,90 @@
             </div>
         </div>
     </section>
+    
+    <section class="new-recent-works">
+        <div class="container">
+            <h2 class="hero-title  mb-6">Our Recent LED Sign Board <br>Installation Projects</h2>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
+                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Titan Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
+                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Fortis Hospital</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Café Mocha</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/tanishq.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Tanishq Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Prestige Group</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>MedPlus Pharmacy</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="/contact-us">
+                    <button class="contact-btn">Start Your Project</button>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
      <div class="inquery-from-section">
         <x-coustom-inquiry-form />
         </div>
@@ -449,36 +652,36 @@
         </div>
     </section>
 
-     <section class="home-page mb-5">
+     <!--<section class="home-page mb-5">
          <div class="pointing">
             <div class="container point">
                 <div class="ledx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <span class="pulse"></span> 
+                    <span class="pulse-center"></span> 
                     <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
                         alt="LED Sign Board">
                 </div>
                 <div class="outdoorx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <span class="pulse"></span> 
+                    <span class="pulse-center"></span> 
                     <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
                         alt="Outdoor Signage">
                 </div>
                 <div class="digitalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <span class="pulse"></span> 
+                    <span class="pulse-center"></span> 
                     <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
                         alt="Digital Signage">
                 </div>
                 <div class="metalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <span class="pulse"></span>
+                    <span class="pulse-center"></span>
                     <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
                         alt="Metal Signage">
                 </div>
                 <div class="acrylicx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
+                    <span class="pulse"></span> 
+                    <span class="pulse-center"></span> 
                     <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
                         alt="Acrylic Signage">
                 </div>
@@ -488,7 +691,7 @@
 
             </div>
         </div>
-    </section>
+    </section>-->
 
           <!-- testimonial Feedback Section -->
         <section class="new_testimonial-swiper-section">
