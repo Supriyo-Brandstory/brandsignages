@@ -285,7 +285,7 @@
 
     <section class="new-recent-works">
         <div class="container">
-            <h2 class="hero-title  mb-6">Our Recent Sign Board <br>Installation Projects</h2>
+            <h2 class="hero-title  py-5">Our Recent Sign Board <br>Installation Projects</h2>
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="box">
