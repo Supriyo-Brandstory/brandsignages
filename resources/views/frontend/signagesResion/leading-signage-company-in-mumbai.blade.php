@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="hero-banner_title">Empower Your Brand Visibility with <br>Brand Signages</h1>
+                        <h1 class="hero-banner_title">Empower Your Visibility with <br>Premium Sign Boards in Mumbai</h1>
                         <p>Draw attention and leave a mark with vibrant, interactive sign boards in Mumbai <br>that speak
                             loud and clear.</p>
                         <a href="https://brandsignages.com/contact-us">
@@ -283,58 +283,87 @@
             </div>
         </section>
 
-    <section>
-    <div class="container py-5" id="gallery-container">
-        <h2 class="hero-title  mb-4">Our Recent Signage Projects</h2>
-        <p class=" text-center mb-5 We-Elevate-Brands-text">We design high-quality and customized signage and sign boards for top businesses in Mumbai. From outdoor neon signs to sleek acrylic signages, digital signages, and LED sign boards, our solutions are designed to enhance both branding and decor.
-        </p>            
-        <div class="row align-items-center">
+    <section class="new-recent-works">
+        <div class="container">
+            <h2 class="hero-title  mb-6">Our Recent Sign Board <br>Installation Projects</h2>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-1.webp')}}" data-lightbox="Acrylic LED Signboard- Recent Client Work" data-title="Image 1">
-                    <img src="{{asset('frontend/Images/portfolio-1.webp')}}" class="img-fluid" alt="Acrylic LED Signboard- Recent Client Work" style="width: 100%;">
-                    </a>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
+                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Titan Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-2.webp')}}" data-lightbox="LED Signboard Design- Recent Client Work" data-title="Image 2">
-                    <img src="{{asset('frontend/Images/portfolio-2.webp')}}" class="img-fluid" alt="LED Signboard Design- Recent Client Work"  style="width: 100%;">
-                    </a>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
+                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Fortis Hospital</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-3.webp')}}" data-lightbox="LED Lightbox Design- Recent Client Work" data-title="Image 3">
-                    <img src="{{asset('frontend/Images/portfolio-3.webp')}}" class="img-fluid" alt="LED Lightbox Design- Recent Client Work"  style="width: 100%;">
-                    </a>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Café Mocha</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-4.webp')}}" data-lightbox="Neon Signboard Design- Recent Client Work" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/portfolio-4.webp')}}" class="img-fluid" alt="Neon Signboard Design- Recent Client Work"  style="width: 100%;">
-                    </a>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/tanishq.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Tanishq Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-5.webp')}}" data-lightbox="Neon Signboard Design- Recent Client Work" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/portfolio-5.webp')}}" class="img-fluid" alt="Neon Signboard Design- Recent Client Work"  style="width: 100%;">
-                    </a>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Prestige Group</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-6.webp')}}" data-lightbox="Digital Signage Design- Recent Client Work" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/portfolio-6.webp')}}" class="img-fluid" alt="Digital Signage Design- Recent Client Work"  style="width: 100%;">
-                    </a>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>MedPlus Pharmacy</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-7.webp')}}" data-lightbox="Digital Signage Design- Recent Client Work" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/portfolio-7.webp')}}" class="img-fluid" alt="Digital Signage Design- Recent Client Work"  style="width: 100%;">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                    <a href="{{asset('frontend/Images/portfolio-8.webp')}}" data-lightbox="Acrylic LED Signboard Design- Recent Client Work" data-title="Image 4">
-                    <img src="{{asset('frontend/Images/portfolio-8.webp')}}" class="img-fluid" alt="Acrylic LED Signboard Design- Recent Client Work"  style="width: 100%;">
-                    </a>
-                </div>
-                
             </div>
+            <div class="text-center">
+                <a href="/contact-us">
+                    <button class="contact-btn">Start Your Project</button>
+                </a>
+            </div>
+
+
         </div>
-    </div>
-</section>
+    </section>
+
 
 
 

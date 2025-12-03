@@ -87,34 +87,10 @@
         </div>
     </div>
 
-    <section>
-        <div class="container" id="">
-            <h2 class="hero-title  mb-4">Bright Sign Boards, Bold Branding <br>with LED Sign Boards</h2>
-            <p class="text-center fs-20">LED sign boards have become one of the smartest ways for businesses to stay visible in busy streets and commercial environments.
-                 A well-designed LED sign doesn’t just display a name- it signals presence, builds recall, and helps customers find you instantly, even from a distance.
-                </p>
-                <p class=" text-center fs-20">At Brand Signages, LED boards are designed to meet real business needs: durability, clear visibility in day and night conditions,
-                     and a look that represents the brand accurately. Whether it’s a compact indoor LED nameplate or a large outdoor <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>illuminated storefront sign</strong></a>, every 
-                     design is engineered for high brightness, low power consumption, and long-term reliability.
-                </p>
-                <p class=" text-center fs-20">Businesses across <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>retail</strong></a>, <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>hospitality</strong></a>, <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>healthcare</strong></a>, education,
-                 and corporate spaces choose LED sign boards because they are modern, customizable, and visually striking. With multiple options 
-                    such as 3D acrylic LED letters, neon-style signage, edge-lit panels, programmable boards, and digital displays, brands can choose a style that suits their space and audience.
-                </p>
-                
-                        <div class="text-center">
-                           <a href="contact-us">
-                             <button class="contact-btn">Start Your Project</button>
-                           </a>
-                       </div>
-
-        </div>
-    </section>
-
-    <section class="We-Elevate-Brands-section py-5">
+        <section class="We-Elevate-Brands-section py-5">
         <div class="container">
         <div class="text-center mb-4">
-            <h2 class="We-Elevate-Brands-heading fw-bold">Exlusive LED Sign Board <br>Product Range</h2>
+            <h2 class="We-Elevate-Brands-heading fw-bold">Our Exlusive Range of<br>LED Sign Board Products</h2>
         </div>
 
         <div class="position-relative">
@@ -228,6 +204,73 @@
        
         </div>
     </section>
+
+        <section class="led-signs-manufacturing">
+        <div class="container pt-5">
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-imagex">
+                        <img src="{{asset('frontend/Images/home/led-sign-bg.webp')}}"
+                            alt="Starbucks LED Sign board designed by Brand Signages" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="hero-title text-start">Top-rated LED Sign Boards: Built with Impact & Style</h2>
+                    <p class="brand-description">
+                        LED sign boards is the most powerful branding elements for modern businesses delivering high
+                         visibility, energy efficiency, and premium appeal. Over the years, LED signage has evolved into a must-have identity 
+                         element for <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>retail stores</strong></a>, <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>restaurants</strong></a>, <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>corporate offices</strong></a>, <a href="blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront" style="color:#E43D12; text-decoration:none;"><strong>jewellery shops</strong></a>, <a href="blogs/medical-shop-name-board-design-modern-styles-trends-best-practices" style="color:#E43D12; text-decoration:none;"><strong>clinics</strong></a>, and franchise chains across India.
+                          Today in 2025, LED sign boards continue to redefine how businesses stand out offering customization 
+                          and tech-driven illumination. 
+                    </p>
+                    <ul class="brand-list">
+                        <li class="mb-3">
+                            The journey begins with precision planning, where the ideal LED type, material, illumination style, and size 
+                            are selected to match the location, visibility requirements, and branding goals.
+                        </li>
+                        <li class="mb-3">
+                            Manufacturing follows with advanced cutting, fabrication, and LED integration ensuring every letter, curve, and 
+                            lighting pattern is engineered with accuracy, durability, and aesthetic consistency. 
+                        </li>
+                        <li>
+                            The final step is installation and testing, where brightness levels, waterproofing, wiring safety, and alignment
+                             are verified, ensuring the LED sign board performs day and night.
+                        </li>
+                        <div class="mt-4">
+                            <a href="{{route('about_us')}}" class="custom-btn">Explore About Us</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--<section>
+        <div class="container" id="">
+            <h2 class="hero-title  mb-4">Bright Sign Boards, Bold Branding <br>with LED Sign Boards</h2>
+            <p class="text-center fs-20">LED sign boards have become one of the smartest ways for businesses to stay visible in busy streets and commercial environments.
+                 A well-designed LED sign doesn’t just display a name- it signals presence, builds recall, and helps customers find you instantly, even from a distance.
+                </p>
+                <p class=" text-center fs-20">At Brand Signages, LED boards are designed to meet real business needs: durability, clear visibility in day and night conditions,
+                     and a look that represents the brand accurately. Whether it’s a compact indoor LED nameplate or a large outdoor <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>illuminated storefront sign</strong></a>, every 
+                     design is engineered for high brightness, low power consumption, and long-term reliability.
+                </p>
+                <p class=" text-center fs-20">Businesses across <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>retail</strong></a>, <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>hospitality</strong></a>, <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>healthcare</strong></a>, education,
+                 and corporate spaces choose LED sign boards because they are modern, customizable, and visually striking. With multiple options 
+                    such as 3D acrylic LED letters, neon-style signage, edge-lit panels, programmable boards, and digital displays, brands can choose a style that suits their space and audience.
+                </p>
+                
+                        <div class="text-center">
+                           <a href="contact-us">
+                             <button class="contact-btn">Start Your Project</button>
+                           </a>
+                       </div>
+
+        </div>
+    </section>-->
+
+
 
 
     <!--<section>
@@ -742,52 +785,6 @@
         </div>
     </section>-->
 
-
-
-    
-
-
-    <section id="pricing">
-        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">LED Sign Board Size & Pricing <br>Explore Options</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}"
-                            alt="Rivetoile LED Name Board Design" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-    <p class="fs-20">
-        The cost of an LED sign board includes materials and installation. Prices vary based on size, design complexity, lighting, and color options.
-    </p>
-
-    <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
-    <ul class="fs-20" style="padding-left: 18px;">
-        <li><b>Small LED Boards:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹1,000 – ₹10,000)</li>
-        <li><b>Medium LED Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹10,000 – ₹25,000)</li>
-        <li><b>Large LED Boards:</b> 4 ft x 8 ft (₹25,000 – ₹35,000)</li>
-        <li><b>Custom Dimensions:</b> Depends on your design & customization.</li>
-    </ul>
-
-    <p class="fs-20">
-        Each sign board is crafted with <b>high-quality materials</b>, <b>premium LEDs</b>, and weather-resistant finishes. 
-        You can choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB color-changing LEDs</b>, 
-        to match your brand’s identity.
-    </p>
-
-   <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
-                            <button class="contact-btn">Book Order Now</button>
-                        </a>
-</div>
-
-
-            </div>
-        </div>
-    </section>
-
     <section class="new-recent-works">
         <div class="container">
             <h2 class="hero-title  mb-6">Our Recent LED Sign Board <br>Installation Projects</h2>
@@ -866,6 +863,47 @@
             </div>
 
 
+        </div>
+    </section>
+
+        <section id="pricing">
+        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+            <h2 class="hero-title">LED Sign Board Size & Pricing <br>Explore Options</h2>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}"
+                            alt="Rivetoile LED Name Board Design" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+    <p class="fs-20">
+        The cost of an LED sign board includes materials and installation. Prices vary based on size, design complexity, lighting, and color options.
+    </p>
+
+    <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
+    <ul class="fs-20" style="padding-left: 18px;">
+        <li><b>Small LED Boards:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹1,000 – ₹10,000)</li>
+        <li><b>Medium LED Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹10,000 – ₹25,000)</li>
+        <li><b>Large LED Boards:</b> 4 ft x 8 ft (₹25,000 – ₹35,000)</li>
+        <li><b>Custom Dimensions:</b> Depends on your design & customization.</li>
+    </ul>
+
+    <p class="fs-20">
+        Each sign board is crafted with <b>high-quality materials</b>, <b>premium LEDs</b>, and weather-resistant finishes. 
+        You can choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB color-changing LEDs</b>, 
+        to match your brand’s identity.
+    </p>
+
+   <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
+                            <button class="contact-btn">Book Order Now</button>
+                        </a>
+</div>
+
+
+            </div>
         </div>
     </section>
 
