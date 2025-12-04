@@ -100,21 +100,27 @@
                 service support, and long-term operational value. If your priority is standing out, being instantly recognisable, and creating a lasting visual presence, a precision-crafted <b>LED sign
                  board</b> ensures your brand is noticed- not overlooked.</p>
             <!--<img src="/frontend/Images/name-boards/largest-ever-signage-board-collection.webp" alt="Exclusive LED Name Board Design by Brand Signages" class="shop-image">-->
-                <div class="video-image-container">
+               <div class="video-image-container">
                     <img src="/frontend/Images/name-boards/largest-ever-signage-board-collection.webp" 
                         alt="Exclusive LED Name Board Design by Brand Signages" 
                         class="shop-image">
 
-                    <div class="play-overlay" onclick="openVideo()">▶</div>
+                    <!-- Modern Play Button -->
+                    <div class="play-overlay" onclick="openVideo()">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </div>
                 </div>
 
                 <!-- Popup Modal -->
                 <div id="ytPopup" class="yt-popup">
-                <div class="yt-wrapper">
-                    <span class="close-btn" onclick="closeVideo()">×</span>
-                    <iframe id="ytFrame" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+                    <div class="yt-wrapper">
+                        <span class="close-btn" onclick="closeVideo()">×</span>
+                        <iframe id="ytFrame" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+                    </div>
                 </div>
-                </div>
+
 
                      
                 <div class="text-center">
