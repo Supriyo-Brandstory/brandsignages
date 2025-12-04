@@ -1912,7 +1912,7 @@
         </div>
     </section>
 
-    <!--<script>
+    <script>
     let current = 0;
         const slides = document.querySelectorAll('.slide');
         const thumbs = document.querySelectorAll('.thumb');
@@ -1944,7 +1944,7 @@
             });
         });
     });
-</script>-->
+</script>
 
 <script>
 function openVideo(){
