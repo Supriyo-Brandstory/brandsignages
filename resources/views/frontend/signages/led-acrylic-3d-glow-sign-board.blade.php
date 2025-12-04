@@ -11,34 +11,34 @@
 
             <div class="main-slider">
                 <div class="slide active">
-                    <img src="/frontend/Images/acrylic-led-signboard-6.webp" alt="Acrylic LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-sign-boards-10.webp" alt="LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-letter-boards-23.webp" alt="Acrylic LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-sign-boards-1.webp" alt="LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-display-board.webp" alt="Acrylic LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-sign-boards-2.webp" alt="LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-light-board.webp" alt="Acrylic LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-sign-boards-3.webp" alt="LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-sign-product-23.webp" alt="Acrylic LED Glow Sign Board for Shop">
+                    <img src="/frontend/Images/led-sign-board/led-sign-boards-4.webp" alt="LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/3d-crystal-led-prodct.webp" alt="3D Crystal LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-sign-boards-5.webp" alt="LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" alt="Acrylic LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-sign-boards-6.webp" alt="LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-name-board.webp" alt="Acrylic LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-sign-boards-7.webp" alt="LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-glow-sign-golden-letters.webp" alt="Golden glow LED Glow Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-sign-boards-8.webp" alt="LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" alt="Acrylic LED Sign Board Spefifications">
+                    <img src="/frontend/Images/led-sign-board/led-sign-boards-9.webp" alt="LED Sign Board">
                 </div>
               
             </div>
@@ -50,16 +50,16 @@
 
 
             <div class="thumbnails">
-                <img src="/frontend/Images/acrylic-led-signboard-6.webp" class="thumb active" data-index="0" alt="Acrylic LED Glow Sign Board">
-                <img src="/frontend/Images/led-sign-board/led-letter-boards-23.webp" class="thumb" data-index="1" alt="Acrylic LED Glow Sign Board">
-                <img src="/frontend/Images/led-sign-board/led-display-board.webp" class="thumb" data-index="2" alt="Acrylic LED Glow Sign Board">
-                <img src="/frontend/Images/led-sign-board/led-light-board.webp" class="thumb" data-index="3" alt="Acrylic LED Glow Sign Board">
-                <img src="/frontend/Images/led-sign-board/led-sign-product-23.webp" class="thumb" data-index="4" alt="Acrylic LED Glow Sign Board for Shop">
-                <img src="/frontend/Images/led-sign-board/3d-crystal-led-prodct.webp" class="thumb" data-index="5" alt="3D Crystal LED Glow Sign Board">
-                <img src="/frontend/Images/led-sign-board/led-glow-sign-board.webp" class="thumb" data-index="6" alt="Acrylic LED Glow Sign Board">
-                <img src="/frontend/Images/led-sign-board/led-name-board.webp" class="thumb" data-index="7" alt="Acrylic LED Glow Sign Board">
-                <img src="/frontend/Images/led-sign-board/led-glow-sign-golden-letters.webp" class="thumb" data-index="8" alt="Golden glow LED Glow Sign Board">
-                <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" class="thumb" data-index="9" alt="Acrylic LED Sign Board Spefifications">
+                <img src="/frontend/Images/led-sign-board/led-sign-boards-10.webp" class="thumb active" data-index="0" alt="LED Scrolling Text Sign Board">
+                <img src="/frontend/Images/led-sign-board/led-sign-boards-1.webp" class="thumb" data-index="1" alt="LED Glow Sign Board">
+                <img src="/frontend/Images/led-sign-board/led-sign-boards-2.webp" class="thumb" data-index="2" alt="LED Glow Sign Board">
+                <img src="/frontend/Images/led-sign-board/led-sign-boards-3.webp" class="thumb" data-index="3" alt="LED Glow Sign Board">
+                <img src="/frontend/Images/led-sign-board/led-sign-boards-4.webp" class="thumb" data-index="4" alt="LED Glow Sign Board">
+                <img src="/frontend/Images/led-sign-board/led-sign-boards-5.webp" class="thumb" data-index="5" alt="LED Glow Sign Board">
+                <img src="/frontend/Images/led-sign-board/led-sign-boards-6.webp" class="thumb" data-index="6" alt="LED Glow Sign Board">
+                <img src="/frontend/Images/led-sign-board/led-sign-boards-7.webp" class="thumb" data-index="7" alt="LED Glow Sign Board">
+                <img src="/frontend/Images/led-sign-board/led-sign-boards-8.webp" class="thumb" data-index="8" alt="LED Glow Sign Board">
+                <img src="/frontend/Images/led-sign-board/led-sign-boards-9.webp" class="thumb" data-index="9" alt="LED Glow Sign Board">
             </div>
         </div>
 
@@ -99,6 +99,7 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
+                            <a href="3d-led-acrylic-letters" style="text-decoration:none; color:inherit;">
                             <img src="{{asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp')}}" class="card-img-center"
                                 alt="Acrylic LED Letters">
                             <div class="card-body pt-0">
@@ -111,6 +112,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
+                            <a href="led-aluminum-channel-letters" style="text-decoration:none; color:inherit;">
                             <img src="{{asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp')}}" class="card-img-center"
                                 alt="Aluminum LED Channel Letters">
                             <div class="card-body pt-0">
@@ -120,8 +122,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
+                            <a href="2d-stencil-cut-acrylic-led-letters" style="text-decoration:none; color:inherit;">
                             <img src="{{asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp')}}" class="card-img-center"
                                 alt="2D Stencil Cut Sign Boards">
                             <div class="card-body pt-0">
@@ -131,8 +135,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
+                            <a href="3d-crystal-led-letters" style="text-decoration:none; color:inherit;">
                             <img src="{{asset('frontend/Images/led-sign-board/crystal-led-6.webp')}}" class="card-img-center"
                                 alt="3D Crystal LED Letters">
                             <div class="card-body pt-0">
@@ -145,6 +151,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
+                            <a href="sky-sign-boards" style="text-decoration:none; color:inherit;">
                             <img src="{{asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp')}}" class="card-img-center"
                                 alt="Sky LED Sign Boards">
                             <div class="card-body pt-0">
@@ -157,6 +164,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
+                             <a href="led-dot-matrix-display" style="text-decoration:none; color:inherit;">
                             <img src="{{asset('frontend/Images/led-sign-board/open-dot-led-sign-1.webp')}}" class="card-img-center"
                                 alt="LED Dot Matrix Displays">
                             <div class="card-body pt-0">
@@ -169,6 +177,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
+                            <a href="flexible-led-display-boards" style="text-decoration:none; color:inherit;">
                             <img src="{{asset('frontend/Images/led-sign-board/flexibile-led-1.webp')}}" class="card-img-center"
                                 alt="Outdoor Business Signages">
                             <div class="card-body pt-0">
@@ -178,8 +187,10 @@
                             </div>
                         </div>
                     </div>
+
                      <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
+                            <a href="neon-signages" style="text-decoration:none; color:inherit;">
                             <img src="{{asset('frontend/Images/led-sign-board/neon-sign-board-4.webp')}}" class="card-img-center"
                                 alt="Neon LED Signs">
                             <div class="card-body pt-0">
@@ -239,7 +250,7 @@
                              are verified, ensuring the LED sign board performs day and night.
                         </li>
                         <div class="mt-4">
-                            <a href="{{route('about_us')}}" class="custom-btn">Explore About Us</a>
+                            <a href="blogs/led-sign-board" class="custom-btn">Explore More</a>
                         </div>
                 </div>
             </div>
@@ -785,6 +796,48 @@
         </div>
     </section>-->
 
+           <section id="pricing">
+        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+            <h2 class="hero-title">LED Sign Board Size & Pricing <br>Explore Options</h2>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{asset('frontend/Images/led-sign-board-signage.webp')}}"
+                            alt="LED Name Board Design" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+    <p class="fs-20">
+        The cost of an LED sign board includes materials and installation. Prices vary based on size, design complexity, lighting, and color options.
+    </p>
+
+    <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
+    <ul class="fs-20" style="padding-left: 18px;">
+        <li><b>Small LED Boards:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹1,000 – ₹10,000)</li>
+        <li><b>Medium LED Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹10,000 – ₹25,000)</li>
+        <li><b>Large LED Boards:</b> 4 ft x 8 ft (₹25,000 – ₹35,000)</li>
+        <li><b>Custom Dimensions:</b> Depends on your design & customization.</li>
+    </ul>
+
+    <p class="fs-20">
+        Each sign board is crafted with <b>high-quality materials</b>, <b>premium LEDs</b>, and weather-resistant finishes. 
+        You can choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB color-changing LEDs</b>, 
+        to match your brand’s identity.
+    </p>
+
+   <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
+                            <button class="contact-btn">Book Order Now</button>
+                        </a>
+</div>
+
+
+            </div>
+        </div>
+    </section>
+
+
     <section class="new-recent-works">
         <div class="container">
             <h2 class="hero-title  mb-6">Our Recent LED Sign Board <br>Installation Projects</h2>
@@ -866,47 +919,7 @@
         </div>
     </section>
 
-        <section id="pricing">
-        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">LED Sign Board Size & Pricing <br>Explore Options</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board-signage.webp')}}"
-                            alt="LED Name Board Design" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-    <p class="fs-20">
-        The cost of an LED sign board includes materials and installation. Prices vary based on size, design complexity, lighting, and color options.
-    </p>
-
-    <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
-    <ul class="fs-20" style="padding-left: 18px;">
-        <li><b>Small LED Boards:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹1,000 – ₹10,000)</li>
-        <li><b>Medium LED Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹10,000 – ₹25,000)</li>
-        <li><b>Large LED Boards:</b> 4 ft x 8 ft (₹25,000 – ₹35,000)</li>
-        <li><b>Custom Dimensions:</b> Depends on your design & customization.</li>
-    </ul>
-
-    <p class="fs-20">
-        Each sign board is crafted with <b>high-quality materials</b>, <b>premium LEDs</b>, and weather-resistant finishes. 
-        You can choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB color-changing LEDs</b>, 
-        to match your brand’s identity.
-    </p>
-
-   <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
-                            <button class="contact-btn">Book Order Now</button>
-                        </a>
-</div>
-
-
-            </div>
-        </div>
-    </section>
-
+ 
     <div class="inquery-from-section">
         <x-coustom-inquiry-form />
         </div>
