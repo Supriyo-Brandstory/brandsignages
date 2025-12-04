@@ -99,7 +99,22 @@
                 and hybrid material options for brands requiring architectural integration. Businesses choose Brand Signages not just for manufacturing, but for reliability, 
                 service support, and long-term operational value. If your priority is standing out, being instantly recognisable, and creating a lasting visual presence, a precision-crafted <b>LED sign
                  board</b> ensures your brand is noticed- not overlooked.</p>
-            <img src="/frontend/Images/name-boards/largest-ever-signage-board-collection.webp" alt="Exclusive LED Name Board Design by Brand Signages" class="shop-image">
+            <!--<img src="/frontend/Images/name-boards/largest-ever-signage-board-collection.webp" alt="Exclusive LED Name Board Design by Brand Signages" class="shop-image">-->
+                <div class="video-image-container">
+                    <img src="/frontend/Images/name-boards/largest-ever-signage-board-collection.webp" 
+                        alt="Exclusive LED Name Board Design by Brand Signages" 
+                        class="shop-image">
+
+                    <div class="play-overlay" onclick="openVideo()">▶</div>
+                </div>
+
+                <!-- Popup Modal -->
+                <div id="ytPopup" class="yt-popup">
+                <div class="yt-wrapper">
+                    <span class="close-btn" onclick="closeVideo()">×</span>
+                    <iframe id="ytFrame" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+                </div>
+                </div>
 
                      
                 <div class="text-center">
@@ -1891,7 +1906,7 @@
         </div>
     </section>
 
-    <script>
+    <!--<script>
     let current = 0;
         const slides = document.querySelectorAll('.slide');
         const thumbs = document.querySelectorAll('.thumb');
@@ -1923,7 +1938,20 @@
             });
         });
     });
+</script>-->
+
+<script>
+function openVideo(){
+  document.getElementById("ytPopup").style.display = "flex";
+  document.getElementById("ytFrame").src = "https://www.youtube.com/embed/RnnPGGb_iJI?autoplay=1";
+}
+
+function closeVideo(){
+  document.getElementById("ytPopup").style.display = "none";
+  document.getElementById("ytFrame").src = "";
+}
 </script>
+
 
 
 
