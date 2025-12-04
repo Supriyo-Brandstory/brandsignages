@@ -57,7 +57,7 @@
 
                 </p>
                 <p class="brand-description">
-                    An LED digital display provides superb observability, even in immense daylight, making it ideal for outdoor LED light boards. These wall-mounted LED signs are long-lasting, energy-saving, and highly efficient. We are a leading provider of LED signboards in Mumbai serving thousands of happy clients across India. We design LED signages and LED scrolling signs for organizations to make certain that your message is always noticeable. 
+                    An LED digital display provides superb observability, even in immense daylight, making it ideal for outdoor <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED light boards</strong></a>. These wall-mounted LED signs are long-lasting, energy-saving, and highly efficient. We are a leading provider of LED signboards in Mumbai serving thousands of happy clients across India. We design LED signages and LED scrolling signs for organizations to make certain that your message is always noticeable. 
    
                 </p>
                 <p class="brand-description">From LED moving displays to LED light sign boards, enterprises can make an exceptional existence that makes them different from the rest. With top-of-the-line LED displays, we guarantee your business dazzles brighter 24/7.  

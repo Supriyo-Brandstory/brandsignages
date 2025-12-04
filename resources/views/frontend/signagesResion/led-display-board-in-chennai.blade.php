@@ -42,7 +42,7 @@
 
                 </p>
                 <p class="brand-description">
-                    Brand Signages is a premier LED signage manufacturers and makers in Chennai serving for more than 10 years. Be it wall-mounted LED signage, outdoor displays for publicity, or industrial LED signs for factories, we offer high-class LED signs customized to your requirements. With alternatives like custom LED signs and digital LED signage, your brand can be distinct in the combative Chennai market with Brand Signages.
+                    Brand Signages is a premier <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED sign board manufacturers</strong></a> and makers in Chennai serving for more than 10 years. Be it wall-mounted LED signage, outdoor displays for publicity, or industrial LED signs for factories, we offer high-class LED signs customized to your requirements. With alternatives like custom LED signs and digital LED signage, your brand can be distinct in the combative Chennai market with Brand Signages.
 
                 </p>
                 <p class="brand-description">We are ready to push boundaries to showcase your brand with brand-new LED sign boards. Choose Brand Signage for innovative LED display boards in Chennai to illuminate your organization and leave a permanent impact!</p>
