@@ -17,7 +17,7 @@
                     <img src="/frontend/Images/led-sign-board/led-sign-boards-1.webp" alt="LED Sign Board">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/led-sign-boards-2.webp" alt="LED Sign Board">
+                    <img src="/frontend/Images/led-sign-board/led-sign-boards-12.webp" alt="LED Sign Board">
                 </div>
                 <div class="slide">
                     <img src="/frontend/Images/led-sign-board/led-sign-boards-3.webp" alt="LED Sign Board">
@@ -52,7 +52,7 @@
             <div class="thumbnails">
                 <img src="/frontend/Images/led-sign-board/led-sign-boards-10.webp" class="thumb active" data-index="0" alt="LED Scrolling Text Sign Board">
                 <img src="/frontend/Images/led-sign-board/led-sign-boards-1.webp" class="thumb" data-index="1" alt="LED Glow Sign Board">
-                <img src="/frontend/Images/led-sign-board/led-sign-boards-2.webp" class="thumb" data-index="2" alt="LED Glow Sign Board">
+                <img src="/frontend/Images/led-sign-board/led-sign-boards-12.webp" class="thumb" data-index="2" alt="LED Glow Sign Board">
                 <img src="/frontend/Images/led-sign-board/led-sign-boards-3.webp" class="thumb" data-index="3" alt="LED Glow Sign Board">
                 <img src="/frontend/Images/led-sign-board/led-sign-boards-4.webp" class="thumb" data-index="4" alt="LED Glow Sign Board">
                 <img src="/frontend/Images/led-sign-board/led-sign-boards-5.webp" class="thumb" data-index="5" alt="LED Glow Sign Board">
