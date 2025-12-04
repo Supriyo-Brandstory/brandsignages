@@ -87,10 +87,75 @@
         </div>
     </div>
 
-        <section class="We-Elevate-Brands-section py-5">
+    <section class="instant-pricing">
+        <div class="container pt-5">
+            <h2>LED Sign Boards for Brand Visibility<br> and Commercial Impact</h2>
+            <p>The demand for <b>custom LED sign boards</b> has grown as businesses shift toward high-visibility branding solutions that perform across lighting conditions
+                 and environments. Brand Signages manufactures LED signage engineered for clarity and consistent illumination, making them suitable for <b>retail chains</b>, 
+                 <b>hospitality brands</b>, <b>healthcare facilities</b>, <b>corporate spaces</b>, and <b>high-footfall commercial zones</b>. Unlike generic signage, our LED solutions are 
+                 developed with lumen-optimized lighting, weather-resistant construction, and installation compatibility for indoor and outdoor.  
+            </p>
+            <p>Our product range includes precision-built <b>LED name boards</b>, <b>acrylic face-lit sign</b>, <b>metal channel letters</b> with backlit glow, high-brightness <b>LED display boards</b>, 
+                and hybrid material options for brands requiring architectural integration. Businesses choose Brand Signages not just for manufacturing, but for reliability, 
+                service support, and long-term operational value. If your priority is standing out, being instantly recognisable, and creating a lasting visual presence, a precision-crafted <b>LED sign
+                 board</b> ensures your brand is noticed- not overlooked.</p>
+            <img src="/frontend/Images/name-boards/largest-ever-signage-board-collection.webp" alt="Exclusive LED Name Board Design by Brand Signages" class="shop-image">
+
+                     
+                <div class="text-center">
+                <a href="#designs">
+                    <button class="contact-btn">See How It Works</button>
+                </a>
+            </div>
+                            
+            </div>
+        </div>
+    </section>
+
+        
+
+        <section class="led-signs-manufacturing">
+        <div class="container pt-5">
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-imagex">
+                        <img src="{{asset('frontend/Images/home/led-sign-bg.webp')}}"
+                            alt="Starbucks LED Sign board designed by Brand Signages" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="hero-title text-start">LED Sign Boards: Built with Impact & Style</h2>
+                    <p class="brand-description">
+                        LED sign boards is the most powerful branding elements for modern businesses delivering high
+                         visibility, energy efficiency, and premium appeal. Over the years, LED signage has evolved into a must-have identity 
+                         element for <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>retail stores</strong></a>, <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>restaurants</strong></a>, <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>corporate offices</strong></a>, <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>jewellery shops</strong></a>, <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>clinics</strong></a>, and franchise chains across India.
+                          Today in 2025, LED sign boards continue to redefine how businesses stand out offering customization 
+                          and tech-driven illumination. 
+                    </p>
+                    <ul class="brand-list">
+                        <li class="mb-3">
+                            <b>Visibility That Wins Attention:</b> A well-built LED sign board isn’t decoration- it’s a locator. It cuts through visual competition, makes your brand findable, and turns casual visibility into awareness.
+                        </li>
+                        <li class="mb-3">
+                            <b>Brand Recall Without Pause:</b> LED name boards don’t rely on operating hours. They work nonstop- guiding, reminding, and imprinting your brand in the customer’s mind long after shutters close.
+                        </li>
+                        <li>
+                            <b>Perception Built Instantly:</b> Quality LED signage signals discipline, investment, and reliability. Customers judge before entering, and a precise, well-lit sign tells them your standards aren’t negotiable.
+                        </li>
+                        <div class="mt-4">
+                            <a href="blogs/led-sign-board" class="custom-btn">Explore More</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="We-Elevate-Brands-section py-5">
         <div class="container">
         <div class="text-center mb-4">
-            <h2 class="We-Elevate-Brands-heading fw-bold">Our Exlusive Range of<br>LED Sign Board Products</h2>
+            <h2 class="We-Elevate-Brands-heading fw-bold">Material Options for<br>Exclusive LED Sign Boards</h2>
         </div>
 
         <div class="position-relative">
@@ -213,47 +278,6 @@
         </div>
 
        
-        </div>
-    </section>
-
-        <section class="led-signs-manufacturing">
-        <div class="container pt-5">
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-imagex">
-                        <img src="{{asset('frontend/Images/home/led-sign-bg.webp')}}"
-                            alt="Starbucks LED Sign board designed by Brand Signages" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <h2 class="hero-title text-start">Top-rated LED Sign Boards: Built with Impact & Style</h2>
-                    <p class="brand-description">
-                        LED sign boards is the most powerful branding elements for modern businesses delivering high
-                         visibility, energy efficiency, and premium appeal. Over the years, LED signage has evolved into a must-have identity 
-                         element for <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>retail stores</strong></a>, <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>restaurants</strong></a>, <a href="blogs/shop-name-board" style="color:#E43D12; text-decoration:none;"><strong>corporate offices</strong></a>, <a href="blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront" style="color:#E43D12; text-decoration:none;"><strong>jewellery shops</strong></a>, <a href="blogs/medical-shop-name-board-design-modern-styles-trends-best-practices" style="color:#E43D12; text-decoration:none;"><strong>clinics</strong></a>, and franchise chains across India.
-                          Today in 2025, LED sign boards continue to redefine how businesses stand out offering customization 
-                          and tech-driven illumination. 
-                    </p>
-                    <ul class="brand-list">
-                        <li class="mb-3">
-                            The journey begins with precision planning, where the ideal LED type, material, illumination style, and size 
-                            are selected to match the location, visibility requirements, and branding goals.
-                        </li>
-                        <li class="mb-3">
-                            Manufacturing follows with advanced cutting, fabrication, and LED integration ensuring every letter, curve, and 
-                            lighting pattern is engineered with accuracy, durability, and aesthetic consistency. 
-                        </li>
-                        <li>
-                            The final step is installation and testing, where brightness levels, waterproofing, wiring safety, and alignment
-                             are verified, ensuring the LED sign board performs day and night.
-                        </li>
-                        <div class="mt-4">
-                            <a href="blogs/led-sign-board" class="custom-btn">Explore More</a>
-                        </div>
-                </div>
-            </div>
         </div>
     </section>
     
