@@ -4,7 +4,7 @@
 
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">Office Name Plate</h1>
+            <h1 class="hero-banner_title">Name Board for Office</h1>
 
         </div>
         <!-- Slider -->
@@ -71,7 +71,7 @@
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">Name Board for Office- Office Signage Design</h1>
+            <h1 class="hero-banner_title">Modern Office Name Board Design- Office Signage</h1>
             <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 + GST</b></p>
 
             <div class="divider"></div>
