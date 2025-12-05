@@ -1324,7 +1324,7 @@
                             style="color: #E43D12;text-decoration: none;"
                             href="https://brandsignages.com/metal-signages"><strong>metal sign boards</strong></a>, <a
                             style="color: #E43D12;text-decoration: none;"
-                            href="https://brandsignages.com/led-light-signages"><strong>LED sign boards</strong></a>, <a
+                            href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED sign boards</strong></a>, <a
                             style="color: #E43D12;text-decoration: none;"
                             href="https://brandsignages.com/arcylic-signages"><strong>neon signage</strong></a>, glow sign
                         boards, and <a style="color: #E43D12;text-decoration: none;"
