@@ -18,10 +18,10 @@
                     <img src="/frontend/Images/office-sign-board/office-name-board-10.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/office-sign-board/office-name-board-11.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
+                    <img src="/frontend/Images/office-sign-board/office-name-board-16.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/office-sign-board/office-name-board-2.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
+                    <img src="/frontend/Images/office-sign-board/office-name-board-17.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
                 </div>
                 <div class="slide">
                     <img src="/frontend/Images/office-sign-board/office-name-board-3.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
@@ -56,8 +56,8 @@
             <div class="thumbnails">
                 <img src="/frontend/Images/office-sign-board/office-name-board-1.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb active" data-index="0">
                 <img src="/frontend/Images/office-sign-board/office-name-board-10.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="1">
-                <img src="/frontend/Images/office-sign-board/office-name-board-11.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="2">
-                <img src="/frontend/Images/office-sign-board/office-name-board-2.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="3">
+                <img src="/frontend/Images/office-sign-board/office-name-board-16.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="2">
+                <img src="/frontend/Images/office-sign-board/office-name-board-17.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="3">
                 <img src="/frontend/Images/office-sign-board/office-name-board-3.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="4">
                 <img src="/frontend/Images/office-sign-board/office-name-board-4.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="5">
                 <img src="/frontend/Images/office-sign-board/office-name-board-5.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="6">
@@ -80,7 +80,7 @@
                  nameplate that complements your office space and reflects your professional identity.</p>
             <ul class="features">
                 <li>50+ Office Nameplate Designs (Premium Collection in India)</li>
-                <li>CCrafted with High-Quality Materials- Acrylic, Metal, LEDs & ACP</li>
+                <li>Crafted with High-Quality Materials- Acrylic, Metal, LEDs & ACP</li>
                 <li>3D Acrylic or Metal Letters to Highlight Your Office Name & Logo</li>
                 <li>PAN India Service Including Custom Design & Installation</li>
                 <li>24/7 Support Services for Maintenance</li>
@@ -301,6 +301,152 @@
             </div>
 
     <!-- Add Blogs-->
+     <div class="row con-fix2">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/corporate-office-name-board-a-guide-to-design-materials-branding" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/EsV2OTzrEUUAGjrpOXzsCa6sBs1CPae4g0O5hWja.jpg" alt="Corporate Office Name Board: A Guide to Design, Materials &amp; Branding">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">OFFICE NAME BOARD</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Corporate Office Name Board: A Guide to Design, Materials &amp; Branding</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/architect-office-name-board-style-purpose-and-design-inspiration" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/46IixlgPvKVGIEvL1ChMVL6sqJj7tRARQVryKvoj.jpg" alt="Architect Office Name Board: Style, Purpose, and Design Inspiration">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">ARCHITECT NAME BOARD</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Architect Office Name Board: Style, Purpose, and Design Inspiration</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/construction-office-name-board-materials-design-best-practices" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/mqJg5KUos0Cforc8V53lCsXb2DRu6Q8N9aRyQWt8.jpg" alt="Construction Office Name Board: Materials, Design &amp; Best Practices">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">CONSTRUCTION COMPANY BOARD</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Construction Office Name Board: Materials, Design &amp; Best Practices</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/advocate-office-name-board-design-elements-for-professional-identity" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/0JkmK0VAmreB2vOgbjL5wVkz98ObfFbFkVQpauYj.jpg" alt="Advocate Office Name Board: Design Elements for Professional Identity">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">ADVOCATE NAME BOARD</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Advocate Office Name Board: Design Elements for Professional Identity</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/acrylic-name-board-for-office-modern-workspace-branding-essential" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/ndCP4QNacZLWFXX24t18HCjgPVEkTsek1zsZMgKT.jpg" alt="Acrylic Name Board for Office: Modern Workspace Branding Essential">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">ACRYLIC OFFICE SIGNAGE</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Acrylic Name Board for Office: Modern Workspace Branding Essential</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/glass-name-board-for-office-stylish-and-professional-branding" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/wXN0JgRl1EJSXleQL7pPnA053DqrAeuou6rNuGN7.jpg" alt="Glass Name Board for Office: Stylish and Professional Branding">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">GLASS NAME BOARDS</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Glass Name Board for Office: Stylish and Professional Branding</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/ultimate-guide-to-office-reception-signage-make-the-right-first-impression" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/eUDB0KONeuaVFgwrwoYPYtzz0uMyMEfMgn4NoCgR.jpg" alt="Ultimate Guide to Office Reception Signage: Make the Right First Impression">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">RECEPTION SIGNAGE</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Office Reception Signage: Make the Right First Impression</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/office-name-board-design-ideas-modern-inspiration-for-workplace" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/128OGM4WHmoCSgngsw8ZeEfzQ4FPfQDOnNPGWgFt.jpg" alt="Office Name Board Design Ideas: Modern Inspiration for Workplace">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">OFFICE NAME BOARD</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Office Name Board Designs: Modern Inspiration for Workplace</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/name-board-for-office-table-designs-materials-pricing-buyers-guide" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/qAUgJK6EM4OPF9K9uFY40E2EpxhoVBeNYa4BGmkb.jpg" alt="Name Board for Office Table: Designs, Materials, Pricing &amp; Buyer's Guide">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">NAME PLATE OFFICE TABLE</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Name Board for Office Table: Designs, Materials, Pricing &amp; Buyer's Guide</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+            </div>
 
             </div>
 
@@ -309,56 +455,7 @@
     </section>
 
 
-        <section class="we-deliver">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-12">
-                            <h2>Brand Signages- Premium Office Name Boards</h2>
-                        </div>
-                        <div class="col-md-8 col-12">
-
-                            <div class="row">
-                                <div class="col-md-6 col-12">
-                                    <div class="deliver-box">
-                                        <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
-                                            class="img-fluid">
-                                        <h3>Tailored Office Designs</h3>
-                                        <p>Every office has its own identity. We are <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com"><strong>Brand Signages</strong></a>, the best in crafting custom office name board designs that reflect your company’s 
-                                        professionalism, each design is crafted to suit your workspace and corporate style. 
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-12">
-                                    <div class="deliver-box">
-                                        <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Custom Craftmanship"
-                                            class="img-fluid">
-                                        <h3>Precision Craftsmanship</h3>
-                                        <p>Our office name boards are made with meticulous attention to detail. From sleek acrylic boards to elegant metal finishes, every element, from fonts to finishes, is carefully designed to convey your brand’s values and create a professional impression.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-12">
-                                    <div class="deliver-box">
-                                        <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Highly Durable Name Boards"
-                                            class="img-fluid">
-                                        <h3>Durable & Long-Lasting</h3>
-                                        <p>We use high-quality, durable, and maintenance-free materials (acrylic, ACP, aluminum, stainless steel, energy-efficient LEDs) that ensure your office signage remains pristine over time, even in high-traffic areas or challenging environments.
-                                        </p>
-                                    </div>
-                                </div>
-                                 <div class="col-md-6 col-12">
-                                    <div class="deliver-box">
-                                        <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Perfect Illumination"
-                                            class="img-fluid">
-                                        <h3>Lighting Options</h3>
-                                        <p> Make your office name board stand out with our LED-lit or backlit sign board solutions. Designed for maximum visibility, our boards highlight your office name and logo clearly, day and night, creating a strong first impression for visitors and clients.
-                                    </div>
-                                </div>
-
-
-                            </div>
-            </section>
-
+        
     <section id="recent_projects" class="new-recent-works">
         <div class="container pt-5">
             <h2 class="hero-title  mb-6">Our Recent Office Name Board <br>Design Projects</h2>
@@ -445,6 +542,55 @@
     </section>
 
 
+<section class="we-deliver">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <h2>Brand Signages- Premium Office Name Boards</h2>
+                        </div>
+                        <div class="col-md-8 col-12">
+
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
+                                            class="img-fluid">
+                                        <h3>Tailored Office Designs</h3>
+                                        <p>Every office has its own identity. We are <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com"><strong>Brand Signages</strong></a>, the best in crafting custom office name board designs that reflect your company’s 
+                                        professionalism, each design is crafted to suit your workspace and corporate style. 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Custom Craftmanship"
+                                            class="img-fluid">
+                                        <h3>Precision Craftsmanship</h3>
+                                        <p>Our office name boards are made with meticulous attention to detail. From sleek acrylic boards to elegant metal finishes, every element, from fonts to finishes, is carefully designed to convey your brand’s values and create a professional impression.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Highly Durable Name Boards"
+                                            class="img-fluid">
+                                        <h3>Durable & Long-Lasting</h3>
+                                        <p>We use high-quality, durable, and maintenance-free materials (acrylic, ACP, aluminum, stainless steel, energy-efficient LEDs) that ensure your office signage remains pristine over time, even in high-traffic areas or challenging environments.
+                                        </p>
+                                    </div>
+                                </div>
+                                 <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Perfect Illumination"
+                                            class="img-fluid">
+                                        <h3>Lighting Options</h3>
+                                        <p> Make your office name board stand out with our LED-lit or backlit sign board solutions. Designed for maximum visibility, our boards highlight your office name and logo clearly, day and night, creating a strong first impression for visitors and clients.
+                                    </div>
+                                </div>
+
+
+                            </div>
+            </section>
 
 
     <section class="new_client_section container">
