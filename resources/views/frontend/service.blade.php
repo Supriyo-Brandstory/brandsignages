@@ -39,7 +39,7 @@
             </div>
 
             <div class="col-6 col-md-4 col-lg-4 new_servicespage-card">
-                  <a href="https://brandsignages.com/led-light-signages" style="text-decoration: unset;">
+                  <a href="https://brandsignages.com/led-acrylic-3d-glow-sign-board" style="text-decoration: unset;">
                 <div class="new_servicespage-box">
                     <img src="{{asset('frontend/Images/new/service-9.webp')}}" alt="LED Sign Board" class="img-fluid">
                     <p class="new_servicespage-caption">LED Sign Board</p>

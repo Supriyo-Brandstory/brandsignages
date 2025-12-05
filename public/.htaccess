@@ -13,6 +13,12 @@
     RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
 
     # =======================
+    # Redirect OLD URL → NEW URL
+    # =======================
+    RewriteRule ^led-light-signages/?$ /led-acrylic-3d-glow-sign-board [L,R=301]
+
+
+    # =======================
     # Handle Authorization Header
     # =======================
     RewriteCond %{HTTP:Authorization} .
