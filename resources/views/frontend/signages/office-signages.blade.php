@@ -36,13 +36,13 @@
                     <img src="/frontend/Images/office-sign-board/office-name-board-6.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/office-sign-board/office-name-board-7.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
+                    <img src="/frontend/Images/office-sign-board/office-name-board-13.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/office-sign-board/office-name-board-8.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
+                    <img src="/frontend/Images/office-sign-board/office-name-board-14.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/office-sign-board/office-name-board-9.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
+                    <img src="/frontend/Images/office-sign-board/office-name-board-15.webp" alt="Office Name Plate, Office Name Board, Office Signage Design">
                 </div>
               
             </div>
@@ -62,9 +62,9 @@
                 <img src="/frontend/Images/office-sign-board/office-name-board-4.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="5">
                 <img src="/frontend/Images/office-sign-board/office-name-board-5.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="6">
                 <img src="/frontend/Images/office-sign-board/office-name-board-6.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="7">
-                <img src="/frontend/Images/office-sign-board/office-name-board-7.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="8">
-                <img src="/frontend/Images/office-sign-board/office-name-board-8.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="9">
-                <img src="/frontend/Images/office-sign-board/office-name-board-9.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="10">
+                <img src="/frontend/Images/office-sign-board/office-name-board-13.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="8">
+                <img src="/frontend/Images/office-sign-board/office-name-board-14.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="9">
+                <img src="/frontend/Images/office-sign-board/office-name-board-15.webp" alt="Office Name Plate, Office Name Board, Office Signage Design" class="thumb" data-index="10">
                
             </div>
         </div>
