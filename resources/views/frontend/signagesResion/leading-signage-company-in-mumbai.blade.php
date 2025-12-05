@@ -47,7 +47,7 @@
                 </p>
                 <p class="We-Elevate-Brands-text">
                 Signages & sign boards are the most powerful branding tools to introduce, inform, and guide potential audiences. We are proud of our proficiency 
-                in signage design services in Mumbai for a decade. Our product range includes <a href="{{route('led_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
+                in signage design services in Mumbai for a decade. Our product range includes <a href="led-acrylic-3d-glow-sign-board" style="text-decoration: unset;color:#E43D12;font-weight: bold;">LED sign boards </a>,
                        <a href="{{route('digital_signages_manufacturer_in_mumbai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">digital signage </a>,
                        <a href="{{route('premium_acrylic_sign_boards_in_mumbai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">acrylic signage </a>,
                        <a href="{{route('neon_sign_board_in_mumbai')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">neon signage </a>, and
