@@ -1723,6 +1723,83 @@
 
             <div class="faq-item">
                 <button class="faq-question">
+                    What Exactly is an LED Sign Board and How Does it Work? 
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <P>LED sign boards are electronic displays that use light-emitting diodes (LEDs) to show text, images,
+                         and videos. They are bright, energy-efficient, and long-lasting, available in formats like 3D logo
+                          signs, scrolling message boards, and indoor or outdoor display boards, helping businesses communicate
+                           clearly and attract attention.</P>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can I Get Customized LED Name Boards and Banner-style Sign Boards? 
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <P>Yes, we offer custom LED sign boards designed for <b>offices, indoor branding</b>, <b>and outdoor</b> 
+                        advertisements. You can get premium-quality LED name boards and banner-style board designs made
+                         using high-grade materials for long-lasting performance and a standout visual appeal.</P>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What types of LED sign boards do you offer? 
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <P>We provide LED advertising display boards, indoor and outdoor LED displays, scrolling message boards, 
+                        and glow signs. You can choose from <b>10+ exclusive material options</b> like acrylic LED boards, ACP-based
+                         LED signs, 3D illuminated letters, programmable LED displays, and fully custom shop-front LED signs. 
+                         All are made using quality materials like acrylic, LED modules, and ACP to ensure a premium, durable
+                          finish for your brand.</P>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What are the advantages of using LED sign boards? 
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <P>LED sign boards are energy-efficient, long-lasting, and built for durability. They are water-resistant, 
+                        weather-proof, and require very minimal maintenance. Their eco-friendly components and safer disposal
+                         also make them a more sustainable signage choice compared to traditional options.</P>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What is an Acrylic LED Sign Board?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <P>Acrylic LED Sign Boards are made from high-quality cast acrylic and raised to a depth of 2–3 inches. 
+                        The letters are securely fixed directly onto walls or ACP panels, providing a clean, premium, and
+                         durable 3D appearance for your brand.</P>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How Do Your LED Sign Boards Make a Business Stand Out?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <P>Our LED sign boards are crafted using advanced LED technology and fully customizable designs to meet your 
+                        brand’s unique requirements. They provide bright, consistent illumination that attracts attention both day and 
+                        night. The boards are energy-efficient, durable, and designed for long-term use, combining modern aesthetics with
+                         functional performance. With options for 3D lettering, glow effects, and premium materials like acrylic, metal and ACP,
+                          these signage boards help create a strong visual identity.</P>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
                     How Long Will It Take to Deliver LED Sign Board? 
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
