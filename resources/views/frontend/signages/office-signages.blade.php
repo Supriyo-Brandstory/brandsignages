@@ -490,7 +490,7 @@
             <a href="https://brandsignages.com/blogs/ultimate-guide-to-office-reception-signage-make-the-right-first-impression" style="text-decoration: none;">
                 <div class="blog-card">
                     <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/eUDB0KONeuaVFgwrwoYPYtzz0uMyMEfMgn4NoCgR.jpg" alt="Ultimate Guide to Office Reception Signage: Make the Right First Impression">
+                        <img src="https://brandsignages.com/storage/blogs/FLAAtgEPuON6RRCIHNI3ECWvChlzu9z5mC9sy2sD.jpg" alt="Ultimate Guide to Office Reception Signage: Make the Right First Impression">
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">

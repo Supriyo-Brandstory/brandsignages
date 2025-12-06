@@ -3178,4 +3178,308 @@ ul.brand-list {
 }
 
 
-/* Youtube Video Embed Responsive */
+
+
+.thumbnails-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.thumbnails-left img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Mobile only – sweet spot size */
+@media (max-width: 768px) {
+    .slider-wrapper {
+        flex-direction: column;
+    }
+
+    .main-slider-wrapper { order: 1; }
+
+    .thumbnails-left {
+        order: 2;
+        flex-direction: row !important;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }
+
+    .thumbnails-left img {
+        width: 105px !important;   /* perfect size – looks premium but never too big */
+        height: 105px !important;
+        border: 2px solid #ddd;
+        border-radius: 6px;
+    }
+}
+
+
+.price-big {
+    margin: 0px 0 8px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #e74c3c;
+}
+
+.price-big small {
+    font-size: 22px;
+    color: #555;
+    font-weight: 400;
+}
+
+.features-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 8px 0 25px 0 !important;
+}
+
+.features-list li {
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 8px;           /* ← reduced from 14px */
+    font-size: 20px;
+    line-height: 1.5;             /* ← tighter line height */
+    color: #222;
+    font-weight: 500;
+}
+
+.features-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.visible-thin-divider {
+    border: none;
+    border-top: 1px solid #cccccc;    /* slightly darker = perfectly visible */
+    margin: 35px 0;
+}
+
+.product-tabs-box {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    margin-top: 30px;
+}
+
+.tab-buttons {
+    display: flex;
+    background: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 16px 10px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.tab-btn.active {
+    background: white;
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+}
+
+.review-count { color: #007bff; font-weight: bold; }
+
+.tab-content { padding: 28px 25px; min-height: 180px; }
+
+.tab-pane { display: none; animation: fadeIn 0.4s; }
+.tab-pane.active { display: block; }
+
+.info-list li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+    font-size: 15.5px;
+}
+
+
+.product-tabs-box {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    margin-top: 30px;
+}
+
+.tab-buttons {
+    display: flex;
+    background: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 16px 20px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.tab-btn.active {
+    background: white;
+    color: #e74c3c;
+    border-bottom: 3px solid #e74c3c;
+}
+
+.tab-content {
+    padding: 30px 28px;
+    min-height: 20px;                    /* just a small minimum so it never collapses */
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+    animation: fadeIn 0.4s;
+}
+
+.action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    padding: 28px 25px;
+    background: #f9f9f9;
+    border-top: 1px solid #eee;
+}
+
+.btn {
+    padding: 15px 36px;                /* increased padding for bigger text */
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-blue {
+    background: #e74c3c;
+    color: white;
+}
+
+.btn-blue:hover {
+    background: #f45a49ff;
+}
+
+.btn-red {
+    background: #e74c3c;
+    color: white;
+}
+
+.btn-red:hover {
+    background: #c0392b;
+}
+
+
+/* FIXES HEADING + LIST PADDING IN PRODUCT INFORMATION TAB */
+#information,
+#information .price-big,
+#information ul.info-list {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .action-buttons {
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 20px;
+    }
+    .btn {
+        width: 100%;
+        max-width: 340px;
+        padding: 16px 20px;
+    }
+}
+
+.highlight-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    margin-top: 22px;
+    padding: 8px 0;
+}
+
+.highlight-tag {
+    display: inline-block;
+    padding: 11px 24px;
+    background: #e74c3c;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 2px solid #e74c3c;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect – looks alive even though not clickable */
+.highlight-tag:hover {
+    background: white;
+    color: #e74c3c;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .highlight-tags {
+        gap: 12px;
+    }
+    .highlight-tag {
+        padding: 10px 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .tab-buttons { flex-direction: column; }
+    .tab-btn { text-align: left; padding: 16px 22px; }
+    .action-buttons { flex-direction: column; align-items: center; }
+    .btn { width: 100%; max-width: 320px; }
+}
+
+/* Mobile – even tighter */
+@media (max-width: 768px) {
+    .features-list li {
+        font-size: 18px;
+        padding-left: 20px;
+        margin-bottom: 7px;       /* ← smaller gap on mobile */
+        line-height: 1.45;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .price-big { font-size: 22px; }
+    .price-big small { font-size: 20px; }
+}

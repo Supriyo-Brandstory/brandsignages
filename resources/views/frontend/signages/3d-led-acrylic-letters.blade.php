@@ -1,644 +1,315 @@
 @extends('frontend.layout.appLayout')
 @section('content')
 
-    <div class="newly-bannersection">
-        <div class="bar">
-            <h1 class="hero-banner_title">3D Acrylic LED Letter</h1>
+<div class="newly-bannersection">
+    <div class="bar">
+        <h1 class="hero-banner_title">3D Acrylic LED Letter</h1>
+    </div>
 
+    <div class="slider-wrapper" style="display: flex; gap: 20px; padding-left: 20px;">
+        <!-- Left Side: 3 Visible Thumbnails -->
+        <div class="thumbnails-left" style="display: flex; flex-direction: column; gap: 10px; flex-shrink: 0;">
+            <img src="/frontend/Images/led-sign-board/acrylic-led-letters-1.webp" class="thumb active" data-index="0" style="width: 80px; height: 80px; cursor: pointer;">
+            <img src="/frontend/Images/led-sign-board/acrylic-led-letters-2.webp" class="thumb" data-index="1" style="width: 80px; height: 80px; cursor: pointer;">
+            <img src="/frontend/Images/led-sign-board/acrylic-led-letters-3.webp" class="thumb" data-index="2" style="width: 80px; height: 80px; cursor: pointer;">
         </div>
-        <!-- Slider -->
-        <div class="slider-wrapper">
 
+        <!-- Right Side: Main Slider -->
+        <div class="main-slider-wrapper" style="position: relative; flex-grow: 1;">
             <div class="main-slider">
                 <div class="slide active">
-                    <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-1.webp" alt="3D Acrylic LED Letter for LED Sign Boards">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-1.webp" alt="3D Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-2.webp" alt="3D Acrylic LED Letter for LED Sign Boards">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-2.webp" alt="3D Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-3.webp" alt="3D Acrylic LED Letter for LED Sign Boards">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-3.webp" alt="3D Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
                 </div>
-                <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-4.webp" alt="3D Acrylic LED Letter for LED Sign Boards">
-                </div>
-                <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-5.webp" alt="3D Acrylic LED Letter for LED Sign Boards">
-                </div>
-              
             </div>
 
-            <!-- Navigation should be OUTSIDE -->
-            <div class="nav-arrow prev">&#8249;</div>
-            <div class="nav-arrow next">&#8250;</div>
-        
+            <!-- Navigation -->
 
-
-            <div class="thumbnails">
-                <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-1.webp" class="thumb active" data-index="0" alt="3D Acrylic LED Letter for LED Sign Boards">
-                <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-2.webp" class="thumb" data-index="1" alt="3D Acrylic LED Letter for LED Sign Boards">
-                <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-3.webp" class="thumb" data-index="2" alt="3D Acrylic LED Letter for LED Sign Boards">
-                <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-4.webp" class="thumb" data-index="3" alt="3D Acrylic LED Letter for LED Sign Boards">
-                <img src="/frontend/Images/led-sign-board/3d-led-acrylic-letters-5.webp" class="thumb" data-index="4" alt="3D Acrylic LED Letter for LED Sign Boards">
-            </div>
-        </div>
-
-        <!-- Content -->
-        <div class="content">
-            <h1 class="hero-banner_title">Best-rated 3D Acrylic LED Letters</h1>
-            <p class="subtitle"><b>Price: ₹200 - ₹2,000.00 + GST</b></p>
-
-            <div class="divider"></div>
-            <p class="fs-16">Create your bold identity with exclusive 3D LED acrylic letters curated for clarity, impact, and best performance. Designed to withstand
-                 day and night, we design acrylic letters for office, storefronts, and buildings for a modern and polished branding style. </p>
-            <ul class="features">
-                <li>Modern, premium 3D acrylic letters built to stand out</li>
-                <li>3D depth for a bold brand presence & appeal</li>
-                <li>Energy-efficient, bright LED lighting for 24*7 visibility</li>
-                <li>Smooth, clean finish for a professional look</li>
-                <li>PAN India delivery and round the clock support services</li>
-            </ul>
-
-            <div class="buttons">
-                <a href="#pricing" class="btn">Check Pricing</a>
-                <a href="{{ route('contact_us') }}" class="btn">Get Quote</a>
-            </div>
         </div>
     </div>
 
-    <section>
-        <div class="container" id="">
-            <h2 class="We-Elevate-Brands-heading fw-bold">Most Exclusive 3D Acrylic LED letter Boards <br>for Your Business </h2>
-            <p class=" text-center fs-20">Crafted with a premium three-layer build, <b>acrylic face</b>, <b>illuminated core</b>, and 
-                <b>durable backing</b>, our 3D LED Acrylic Letters come with <b>4 years warranty</b>, offers a striking visual presence. 3D LED acrylic letter sign boards 
-                offer clarity, elegance, and high visibility, featuring <b>clean edges</b> and <b>brilliant lighting</b>. Whether placed indoors or 
-                outdoors, the illuminated acrylic finish ensures your brand stands out during the day and shines effortlessly after 
-                sunset. </p>
-                <p class=" text-center fs-20">The right 3D Acrylic LED letters can elevate your brand’s visibility and make a lasting impression. At Brand Signages, 
-                    you can choose from a variety of <b>front-lit</b>, <b>backlit, halo-lit</b>, and <b>dual-lit 3D LED letters</b> in custom sizes, fonts, and colors. Explore our 
-                    extensive collection of 3D acrylic LED letters, consult with our experts, and get fully customized sign boards that fits your brand perfectly. 
-                    We also provide <b>PAN India delivery</b> and professional <b>installation services</b>.</p>
-                <img src="/frontend/Images/led-sign-board/acrylic-led-specification.webp" alt="3D Acrylic LED Sign Board Specifications" class="shop-image">
+    <!-- Content stays unchanged -->
+    <div class="content">
+        <h1 class="hero-banner_title">3D LED Acrylic Letter</h1>
+        <p class="subtitle"><b>★★★★★ (10 customer reviews)</b></p>
 
+        <div class="divider"></div>
+        <p class="price-big">
+            <b>₹200 - ₹1,000.00</b> <small>+ GST</small>
+        </p>
+        <p class="fs-20"><b>3D LED acrylic letters-</b> High-quality LED acrylic sign board curated for 
+            clarity, impact, and best performance. We design acrylic letters for commercial & residential spaces
+             (office, storefronts, real estate, and high-rise buildings).</p>
+        <p class="price-big">
+            <b>Key Features:</b>
+        </p>
+<ul class="features-list">
+    <li class="fs-20">Durable, weather-resistant acrylic & aluminum letters</li>
+    <li class="fs-20">Multi-layered structure for a bold, eye-catching look</li>
+    <li class="fs-20">Bright, energy-efficient LED lighting for 24/7 visibility</li>
+    <li class="fs-20">High-visibility reflective elements for maximum impact</li>
+    <li class="fs-20">Fully customizable to match your brand identity</li>
+    <li class="fs-20">Fast & secure professional installation</li>
+    <li class="fs-20">Perfect for shops, offices, hotels, and outdoor signage</li>
+</ul>
+        <div class="buttons">
+<a href="#information" 
+   class="btn" 
+   onclick="event.preventDefault();
+            document.querySelector('.tab-btn[data-tab=\'information\']').click();
+            setTimeout(() => {
+                document.querySelector('#information').scrollIntoView({behavior: 'smooth'});
+            }, 100);">
+   Check Specs.
+</a>
+            <a href="{{ route('contact_us') }}" class="btn">Get Quote</a>
         </div>
-    </section>
 
-
-    <section>
-        <div class="container pt-5">
-            <h2 class="hero-title">Key Highlights of 3D LED Acrylic Letters</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/acrylic-led-letter-showcase.webp')}}" alt="3D LED Acrylic Letters Designed by Brand Signages"
-                            class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-
-                   <ul>
-                    
-
-                        <li class="fs-20">
-                            <strong>High-Impact 3D Visibility</strong><br>
-                            The raised acrylic lettering design provides depth and shadow effects that make the sign boards stand out from any background, enhancing brand visibility and increasing attention.
-                        </li>
-
-                        <li class="fs-20">
-                            <strong>Energy-Efficient LED Illumination</strong><br>
-                            Equipped with high-quality LEDs available in halo, front-lit, or dual-lit lighting options, delivering bright illumination during daytime and nighttime with low energy consumption.
-                        </li>
-
-                        <li class="fs-20">
-                            <strong>Customizable Appearance</strong><br>
-                            Available in multiple sizes, fonts, thicknesses, lighting styles, and color finishes such as matte, gloss, chrome, or metallic. This aligns with various styles, branding themes, and placement needs.
-                        </li>
-
-                        <li class="fs-20">
-                            <strong>Durability & Low Maintenance</strong><br>
-                            Designed to resist UV exposure, moisture, corrosion, fading, and temperature variations. The acrylic and metal combination ensures structural stability, while LEDs offer long operational life.
-                        </li>
-                        </ul>
-
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="new_custom-why-choose">
-        <div class="container">
-            <h2 class="text-center mb-5 new_custom-heading">What Makes 3D LED Acrylic Letters<br> Worth Considering</h2>
-            <div class="row justify-content-center g-4">
-
-                <!-- Expertise -->
-                <div class="col-md-4 justify-content-between d-flex flex-column">
-                    <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
-                        <p>The illuminated 3D letters create a striking visual presence, making the brand instantly noticeable from a distance. The premium 
-                            finish enhances professionalism and helps businesses leave a memorable impression.</p>
-                        <h4 class="new_custom-title">Visibility & Impact</h4>
-                    </div>
-                    <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/led-sign-board/hotwind-led-sign-board.webp') }}"
-                            alt="why choose us as your LED Sign Board Partner" class="img-fluid mt-3">
-                    </div>
-                </div>
-
-                <!-- Experience -->
-                <div class="col-md-4">
-                    <div class="new_custom-box new_custom-image-box"
-                        style="background-image: url('{{ asset('frontend/Images/led-sign-board/optical-store-led-sign-board.webp') }}');">
-                        <div class="new_custom-overlay">
-                            <h4 class="new_custom-title text-white">Improved Recognition</h4>
-                            <p class="text-white">Perfect for showcasing business names, service offerings, or essential 
-                                contact details clearly. This signage boosts brand recall, guides potential customers
-                                 effectively, and ensures the business is easy to recognize and remember.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Excellence -->
-                <div class="col-md-4 justify-content-between d-flex flex-column">
-                    <div class="why-choose-image-container">
-                        <img src="{{ asset('frontend/Images/led-sign-board/diner-led-sign-board.webp') }}"
-                            alt="Outdoor LED sign board designed by our experts" class="img-fluid mb-3">
-                    </div>
-                    <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between">
-                        <h4 class="new_custom-title">Durable & Cost-Efficient</h4>
-                        <p>Built to withstand weather, UV exposure, and daily wear while consuming low energy. 
-                            The long-lasting construction reduces maintenance, ensures compliance with signage standards, 
-                            and offers excellent long-term return on investment.</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-
-    <section id="pricing">
-        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">Affordable 3D LED Acrylic Letters <br>Pricing Breakdown</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/led-sign-board/led-name-board-design-1.webp')}}"
-                            alt="Rivetoile LED Name Board Design" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-    <p class="fs-20">
-        The cost of 3D LED acrylic letters varies based on size, thickness, lighting style, and finishing options. 
-        Pricing is calculated per running inch and changes with design complexity.
-    </p>
-    <ul class="fs-20" style="padding-left: 18px;">
-        <li><b>Front-Lit LED Acrylic Letters:</b> ₹350 - ₹650 per inch</li>
-        <li><b>Backlit / Halo-Lit Acrylic Letters:</b> ₹450 - ₹850 per inch</li>
-        <li><b>Dual-Lit (Front + Halo):</b> ₹750 - ₹1,200+ per inch</li>
-        <li><b>RGB LED Letters:</b> ₹1,200 - ₹1,800+ per inch</li>
-    </ul>
-
-    <p class="fs-20">
-        We are the top 3D acrylic LED sign board manufacturer in Bangalore & India, delivering high-quality and <a href="/led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;"><strong>custom LED Sign Boards</strong></a>
-         LED sign boards. We design <b>glow signs</b>, <b>LED boards</b>, and <b>flexible LED displays</b> that enhance brand visibility and suit
-         commercial, retail, and office spaces. Every sign is crafted with precision to combine aesthetic appeal & performance.
-    </p>
-
-   <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
-                            <button class="contact-btn">Book Order Now</button>
-                        </a>
+        <div class="divider"></div>
+        <p class="fs-20">
+            <b>3D Signage Category: <a href="led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;">3D LED Letters</a>, <a href="led-aluminum-channel-letters" style="color: #E43D12; text-decoration: none;">Aluminum LED Letters</a>, <a href="3d-crystal-led-letters" style="color: #E43D12; text-decoration: none;">3D Crystal Letters</a>, <a href="sky-sign-boards" style="color: #E43D12; text-decoration: none;">3D Sky Signs</a></b>
+        </p>
+    </div>
 </div>
 
 
-            </div>
-        </div>
-    </section>
-
-    <section class="We-Elevate-Brands-section">
-        <div class="container">
-        <div class="text-center mb-4">
-            <h2 class="We-Elevate-Brands-heading fw-bold">Explore Our LED Sign Board <br>Product Range</h2>
-        </div>
-
-        <div class="position-relative">
-            <div class="swiper We-Elevate-Brands-swiper pt-60">
-                <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
-                                alt="ACP Mounted Acrylic Letters">
-                            <div class="card-body pt-0">
-                                <a href="3d-led-acrylic-letters" class="We-Elevate-Brands-title">LED Acrylic Letters with ACP</a>
-                                <p class="We-Elevate-Brands-text">Custom 3D acrylic box with LED letters with a metallic finish and internal LED illumination, mounted on a 
-                                    sleek ACP frame. This premium, glowing sign offers a modern and professional look for corporate or retail spaces.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
-                                alt="3D Acrylic Channel Letters">
-                            <div class="card-body pt-0">
-                                <a href="led-aluminum-channel-letters" class="We-Elevate-Brands-title">Aluminum Channel Letters</a>
-                                <p class="We-Elevate-Brands-text">Premium LED illuminated aluminum channel letter signage with professional 3D construction, featuring aluminum profiles 
-                                    and acrylic faces, ideal for corporate offices and retail store branding.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/stencil-cut-sign.webp')}}" class="card-img-center"
-                                alt="Stencil Cut Acrylic Signage">
-                            <div class="card-body pt-0">
-                                <a href="2d-stencil-cut-acrylic-led-letters" class="We-Elevate-Brands-title">2D Stencil Cut Letters</a>
-                                <p class="We-Elevate-Brands-text">2D Stencil Cut Acrylic LED Sign boards, perfect for intricate details and multi-content displays. Ideal for shop fronts 
-                                    requiring information like timings, contact details, and taglines.</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/retail-sign.webp')}}" class="card-img-center"
-                                alt="Backlit Metal Letter Signs">
-                            <div class="card-body pt-0">
-                                <a href="metal-led-letters" class="We-Elevate-Brands-title">Metal LED Letters</a>
-                                <p class="We-Elevate-Brands-text">Premium metal letter signs in luxury finishes like gold and chrome, featuring a subtle LED back-glow for elegant accent 
-                                    lighting. Ideal for sophisticated interiors and well-lit corporate spaces.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/led-sign-board/crystal-led.webp')}}" class="card-img-center"
-                                alt="Glittering Acrylic Letters">
-                            <div class="card-body pt-0">
-                                <a href="3d-crystal-led-letters" class="We-Elevate-Brands-title">Crystal LED Letters</a>
-                                <p class="We-Elevate-Brands-text">Sparkling crystal-accented 3D LED acrylic letters that create a luxurious, glittering effect. Ideal for adding festive bling 
-                                    to jewellery stores, boutiques, and premium restaurants.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/led-sign-board/programmable-led.webp')}}" class="card-img-center"
-                                alt="Glittering Acrylic Letters">
-                            <div class="card-body pt-0">
-                                <a href="flexible-led-display-boards" class="We-Elevate-Brands-title">Flexible LED Displays</a>
-                                <p class="We-Elevate-Brands-text">Dynamic, programmable LED displays capable of displaying scrolling text, animations, real-time updates, and motion graphics.
-                                     Perfect for businesses that need attention-grabbing digital communication.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
-                                alt="Vibrant LED Neon Signage">
-                            <div class="card-body pt-0">
-                                <a href="neon-signages" class="We-Elevate-Brands-title">LED Neon Sign</a>
-                                <p class="We-Elevate-Brands-text">Vibrant LED neon signs with their iconic glow, perfect for creating a retro, high-energy atmosphere. Ideal for bars, lounges,
-                                     and entertainment venues seeking standout visual appeal.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/dot-matrix.webp')}}" class="card-img-center"
-                                alt="Open LED Dot Matrix Signs">
-                            <div class="card-body pt-0">
-                                <a href="led-dot-matrix-display" class="We-Elevate-Brands-title">Open Dot LED Signs</a>
-                                <p class="We-Elevate-Brands-text">Open Dot LED signs feature exposed, intensely bright pinpoints of light for maximum visibility. This bold, high-impact solution 
-                                    ensures your shop front stands out, ideal for creating a flashy display.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Navigation Arrows -->
-                <div class="We-Elevate-Brands-nav ">
-                    <!-- Swap order: prev on left, next on right -->
-                    <div class="We-Elevate-Brands-button-prev"></div>
-                    <div class="We-Elevate-Brands-button-next"></div>
-                </div>
-
-            </div>
-        </div>
-        <div class="text-center mt-4">
-            <a href="led-acrylic-3d-glow-sign-board" class="btn-we-elevate">View All Services</a>
-        </div>
-       
-        </div>
-    </section>
-
-     <section class="new-recent-works">
-        <div class="container">
-            <h2 class="hero-title  mb-6">Our Recent Sign Board Projects</h2>
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
-                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Titan Showroom</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
-                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Fortis Hospital</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Café Mocha</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/tanishq.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Tanishq Showroom</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Prestige Group</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>MedPlus Pharmacy</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <a href="/contact-us">
-                    <button class="contact-btn">Start Your Project</button>
-                </a>
+<section class="pt-0 pb-5">
+    <div class="container">
+        
+        <!-- Your Tabs Box Starts Here -->
+        <div class="product-tabs-box">
+            
+            <!-- Tab Buttons -->
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="description">Description</button>
+                <button class="tab-btn" data-tab="information">Product Information</button>
             </div>
 
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <!-- Description -->
+                <div class="tab-pane active" id="description">
+                    <p class="price-big"><b>3D Acrylic LED Letters- Description</b></p>
+                    <p class="fs-20">Crafted with a premium <b>three-layer build</b>, <b>acrylic face</b>, illuminated core, and durable backing, our 3D LED Acrylic Letters
+                         come with 4 years warranty, offers a striking visual presence. <b>3D LED acrylic letter</b> sign boards offer clarity, elegance, and high visibility, 
+                         featuring clean edges and brilliant lighting. Whether placed indoors or outdoors, the <b>illuminated acrylic finish</b> ensures your brand stands out during the 
+                         day and shines effortlessly after sunset.<br>
+                         The right 3D Acrylic LED letters can elevate your brand’s visibility and make a lasting impression. At Brand Signages, you can choose from a variety of front-lit, 
+                         <b>backlit</b>, <b>halo-lit</b>, and <b>dual-lit 3D LED letters</b> in custom sizes, fonts, and colors. Explore our extensive collection of 3D acrylic LED letters, consult with our experts,
+                          and get fully customized sign boards that fits your brand perfectly. We also provide PAN India delivery and professional installation services.
+                    </p>
+                <div class="action-buttons">
+                    <a href="led-acrylic-3d-glow-sign-board" class="btn btn-blue fs-20">About LED Sign Board</a>
+                    <a href="https://share.google/XAiKaiNNVNKgNJWRG" target="_blank" class="btn btn-red fs-20">Check Latest Reviews</a>
+                </div>
+
+            <br>
+            
+              <p class="price-big"><b>3D Acrylic LED Letters- Pricing Terms</b></p>
+                    <p class="fs-20">The cost of 3D acrylic LED sign board varies based on size, thickness, color, lighting style, and finishing options. Pricing is calculated per running inch and changes with design complexity. 
+                        The provided cost per running inch is <b>₹200 to ₹1,000</b> based on complexity and customization.<br>
+
+                         We are the top 3D acrylic LED sign board manufacturer in Bangalore & India, delivering high-quality and custom LED Sign Boards. For more detailed information on pricing contact our sales team at <a href="tel:+918006606080" style="color: #E43D12; text-decoration: none;" aria-label="Call us at +91 80066 06080"><strong>+91 80066 06080</strong></a>
+                        and schedule a meeting, or fill out <a href="contact-us" style="color: #E43D12; text-decoration: none;"><strong>contact form</strong></a>. In a detailed discussion our team can provide you the best affordable quotaion on acrylic LED sign board price.  
+                </p>
+                <hr class="visible-thin-divider">
+                <p class="price-big"><b>3D Acrylic LED Letters- Important Features</b></p>
+                <ul class="fs-20">
+                    <li><b>Robust Construction:</b> Built using premium-grade acrylic paired with aluminum backing for long-lasting indoor and outdoor performance.</li>
+
+                    <li class="fs-20"><b>Enhanced 3D Depth:</b> Layered letter profiles create a bold dimensional effect that instantly draws attention and elevates brand presence and appeal.</li>
+
+                    <li class="fs-20"><b>Advanced LED System:</b> Comes with high-efficiency LEDs offering uniform lighting with options like halo glow, front illumination, or dual lighting.</li>
+
+                    <li class="fs-20"><b>Superior Visibility:</b> Crisp finishes, vivid colors, and highly legible graphics ensure your signage remains clear and noticeable from long distances.</li>
+
+                    <li class="fs-20"><b>Fully Customizable:</b> Tailored to your brand with custom lettering, logos, messaging, lighting style, finishes, and installation specifications.</li>
+
+                    <li class="fs-20"><b>Quick & Secure Mounting:</b> Engineered with ready-to-install fixtures suitable for concrete walls, glass fronts, metal panels, ACP sheets, and reception backdrops.</li>
+
+                    <li class="fs-20"><b>Multi-Purpose Use:</b> Ideal for commercial storefronts, corporate interiors, hospitality spaces, real estate projects, event branding, and outdoor building signage.</li>
+
+                    <li class="fs-20"><b>UV & Weather Protection:</b> Coated with protection layers to prevent color fading, yellowing, cracks, or corrosion caused by sunlight, moisture, or extreme temperatures.</li>
+
+                    <li class="fs-20"><b>Energy-Smart Illumination:</b> LED technology ensures strong brightness with minimal power consumption and extended operational lifespan.</li>
+
+                    <li class="fs-20"><b>Standards Compliant:</b> Designed in alignment with signage regulations, branding norms, and building structure guidelines for seamless approval.</li>
+
+                    <li class="fs-20"><b>Low Upkeep:</b> Designed with long-lasting LED modules and durable acrylic materials that resist dust and rain, requiring only occasional cleaning and minimal servicing.</li>
+
+                    <li class="fs-20"><b>Noise-Free Operation:</b> Silent lighting technology ensures smooth, flicker-free illumination with zero buzzing or heat-related noise, providing a seamless visual experience.</li>
+
+                    <li class="fs-20"><b>Premium Finish Options:</b> Available in matte, glossy, brushed steel, chrome, satin gold, metallic tones, with the flexibility to match exact brand colors.</li>
+
+                    <li class="fs-20"><b>Precision Craftsmanship:</b> CNC precision cutting combined with laser-edge finishing delivers smooth, flawless edges and consistent detailing, resulting in a refined, high-end appearance.</li>
+                </ul>
+                <hr class="visible-thin-divider">
+                <p class="price-big"><b>3D Acrylic LED Letters- Know The Benefits</b></p>
+                <p class="fs-20">
+                    <b>Visibility & Impact</b>
+                    <br>
+                    Acrylic LED letters deliver high brightness and clarity, ensuring readability from long distances and multiple angles day or night. They help brands stand out in crowded environments like malls, corporate zones, 
+                    and high-traffic streets, improving attention and recall.
+                    </p>
+
+                    <p class="fs-20">
+                    <b>Improved Recognition</b>
+                    <br>
+                    With clean typography and uniform lighting, these signs make business names and visuals easy to identify. Whether placed indoors or outdoors, they support strong brand presence and location awareness 
+                    without ongoing marketing effort.
+                    </p>
+
+                    <p class="fs-20">
+                    <b>Easy Customization</b>
+                    <br>
+                    These letters can be tailored in size, color, lighting type (front-lit, backlit, halo-lit, etc.), and finish options like matte, gloss, brushed metal, or chrome making them suitable for various industries,
+                     spaces, and branding styles.
+                    </p>
+
+                    <p class="fs-20">
+                    <b>Durable & Cost-Efficient</b>
+                    <br>
+                    Made with weather-resistant acrylic, metal backing, and energy-efficient LEDs, these letters perform well in harsh climates while reducing power and maintenance costs. Their long lifespan ensures a strong
+                     return on investment.
+                    </p>
+                    <hr class="visible-thin-divider">
+                    <p class="price-big"><b>Bangalore's Premier Acrylic & LED Sign Board Manufacturer</b></p>
+                    <p class="fs-20">With <b>12+ years of expertise</b>, <b>a skilled design team</b>, and <b>cutting-edge machinery</b>, Brand Signages delivers top-tier, custom-made signboards across India. We specialize in glow signs, acrylic and LED boards, 
+                        and ACP signage in every shape, size, and color, ensuring <b>maximum visibility</b>, lasting durability, and a professional finish that leaves a lasting impression. 
+                </p>
+                <div class="highlight-tags">
+                <span class="highlight-tag fs-20">Fastest Delivery</span>
+                <span class="highlight-tag fs-20">Quick Turnaround</span>
+                <span class="highlight-tag fs-20">Free Consultation</span>
+</div>
+
+                <hr class="visible-thin-divider">
+                <p class="price-big"><b>Frequently Asked Questions</b></p>
+                    <p class="fs-20"><strong>1. What makes 3D LED Acrylic Letters durable and long-lasting?</strong><br>
+                    High-quality acrylic combined with robust metal backing and premium LED modules, ensuring letters withstand weather, UV exposure, and everyday wear while maintaining vibrant illumination.</p>
+
+                    <p class="fs-20"><strong>2. Can I get 3D LED letters in custom shapes and fonts?</strong><br>
+                    Yes, all 3D LED Acrylic Letters are <b>fully customizable</b>. Choose your preferred fonts, sizes, colors, logos, and shapes to create signage that aligns perfectly with your brand identity.</p>
+
+                    <p class="fs-20"><strong>3. Are 3D LED Acrylic Letters suitable for indoor and outdoor use?</strong><br>
+                    Absolutely, our 3D LED Acrylic Letters are designed for both <b>indoor and outdoor applications</b>, providing consistent brightness and durability in offices, retail stores, restaurants, and building exteriors.</p>
+
+                    <p class="fs-20"><strong>4. What types of LED lighting are available?</strong><br>
+                    Customers can select from <b>front-lit</b>, <b>backlit</b>, <b>halo-lit</b>, <b>dual-lit</b>, or <b>RGB color-changing LEDs</b>. Each option delivers bright, energy-efficient illumination tailored to your signage requirements.</p>
+
+                    <p class="fs-20"><strong>5. How easy is the installation process?</strong><br>
+                    Installation is straightforward with user-friendly hardware and detailed instructions. Letters can be securely mounted on walls, glass, metal, or any flat surface, making setup fast and hassle-free.</p>
+
+                    <p class="fs-20"><strong>6. Can I order letters in multiple sizes for the same project?</strong><br>
+                    Yes, Brand Signages offers flexible sizing. You can mix and match letter heights and thicknesses to create a visually balanced and professional signage layout.</p>
+
+                    <p class="fs-20"><strong>7. Do these letters require frequent maintenance?</strong><br>
+                    No, the acrylic and LED combination is <b>low-maintenance</b>. Occasional cleaning is enough to keep the letters bright and looking brand-new for years.</p>
+
+                    <p class="fs-20"><strong>8. Do You Provide LED Sign Board with Warranty and After-Sale Service in India?</strong><br>
+                    At Brand Signages, every LED sign board comes with a comprehensive <b>4-5 years warranty</b> and dedicated after-sales support. We ensure hassle-free maintenance, quick service response, and long-lasting performance. Our team stands by your signage even after installation, ensuring your investment continues to shine bright.</p>
+
+                    <p class="fs-20"><strong>9. Do You Deliver LED Sign Boards PAN India?</strong><br>
+                    Yes, we deliver LED sign boards across <b>Bangalore, Chennai, Mumbai and all over India</b> within <b>15 Working Days</b>. Our logistics team ensures safe packaging and hassle-free delivery so that your signage reaches you in perfect condition.</p>
+                </div>
 
         </div>
-    </section>
 
-    <!--<section class="other-cities-section py-5">
-        <div class="container">
-            <h2 class="my-5">Led Sign Board in Other Cities</h2>
-            <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
-                <div class="other-cities-card">
-                    <a href="/led-display-board-in-mumbai" style="text-decoration: none;">
-                        <div class="other-cities-img">
-                            <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="LED Sign Boards Mumbai">
-                            <div class="other-cities-overlay"></div>
-                            <p class="other-cities-title">Mumbai</p>
-                        </div>
-                    </a>
+
+
+
+                <!-- Product Information -->
+                <div class="tab-pane" id="information">
+
+    </p>
+    
+        <!-- Material -->
+        <p class="fs-20"><strong>Material</strong></p>
+        <ul class="info-list fs-20">
+        <li>High-grade, weather-resistant acrylic panels for durability and clarity.</li>
+        <li>Sturdy aluminum frame for structural support and long-lasting performance.</li>
+        <li>Corrosion-proof and UV-resistant materials suitable for indoor and outdoor use.</li>
+        </ul>
+        <!-- Size -->
+        <p class="fs-20"><strong>Size</strong></p>
+        <ul class="info-list fs-20">
+        <li>Available in multiple standard sizes (6", 12", 24") with fully customizable dimensions.</li>
+        <li>Suitable for small storefronts, large building facades, and architectural signage.</li>
+        </ul>
+        <!-- Thickness -->
+        <p class="fs-20"><strong>Thickness</strong></p>
+        <ul class="info-list fs-20">
+        <li>Multiple thickness options: 1/4", 3/8", and 1/2" for varied visual depth and premium 3D effect.</li>
+        <li>Custom thickness available for high-impact visibility or layered design applications.</li>
+        </ul>
+        <!-- Weight -->
+        <p class="fs-20"><strong>Weight</strong></p>
+        <ul class="info-list fs-20">
+        <li>Lightweight yet robust for easy handling and quick installation.</li>
+        <li>Balanced design ensures secure mounting without compromising durability.</li>
+        </ul>
+        <!-- Color Options -->
+        <p class="fs-20"><strong>Color Options</strong></p>
+        <ul class="info-list fs-20">
+        <li>Wide palette of colors to match brand guidelines.</li>
+        <li>Special finishes such as metallic tones, chrome, satin gold, matte, or gloss available.</li>
+        <li>Custom color matching for corporate branding or promotional campaigns.</li>
+        </ul>
+        <!-- Finish -->
+        <p class="fs-20"><strong>Finish</strong></p>
+        <ul class="info-list fs-20">
+        <li>Smooth polished finish for a premium, reflective look.</li>
+        <li>Matte finish for modern, understated elegance.</li>
+        <li>Options for textured or brushed finishes to add unique brand personality.</li>
+        </ul>
+        <!-- Lighting Options -->
+        <p class="fs-20"><strong>Lighting Options</strong></p>
+        <ul class="info-list fs-20">
+        <li>Integrated LED illumination with front-lit, backlit, halo-lit, or dual-lit configurations.</li>
+        <li>Energy-efficient LEDs for low power consumption and high brightness.</li>
+        <li>Consistent illumination ensures maximum visibility in both day and night conditions.</li>
+        <li>Optional programmable or color-changing LEDs for dynamic signage.</li>
+        </ul>
+
+        <!-- Mounting Options -->
+        <p class="fs-20"><strong>Mounting Options</strong></p>
+        <ul class="info-list fs-20">
+        <li>Includes versatile mounting hardware for walls, glass, metal panels, or ACP sheets.</li>
+        <li>Quick and secure installation with options for flush-mount or raised-mount setups.</li>
+        <li>Can be installed for indoor reception areas, outdoor storefronts, or large-scale facades.</li>
+        </ul>
+
+        <!-- Additional Features -->
+        <p class="fs-20"><strong>Additional Features</strong></p>
+        <ul class="info-list fs-20">
+        <li><b>Durability:</b> Resistant to UV, moisture, dust, and temperature changes.</li>
+        <li><b>Low Maintenance:</b> Long-lasting materials and LEDs require minimal upkeep.</li>
+        <li><b>Custom Branding:</b> Supports logos, taglines, and promotional graphics.</li>
+        <li><b>3D Design Elements:</b> Multi-layered construction creates depth, shadows, and a premium aesthetic.</li>
+        <li><b>Professional Craftsmanship:</b> CNC-cut and laser-finished edges for precise, clean visuals.</li>
+        <li><b>Compliance Ready:</b> Meets local signage regulations and safety standards.</li>
+        <li><b>Eco-Friendly:</b> Uses energy-efficient LED modules and recyclable materials wherever possible.</li>
+    </ul>
+
                 </div>
-                <div class="other-cities-card">
-                    <a href="/led-display-board-in-chennai" style="text-decoration: none;">
-                        <div class="other-cities-img">
-                            <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="LED Sign Boards Chennai">
-                            <div class="other-cities-overlay"></div>
-                            <p class="other-cities-title">Chennai</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="other-cities-card">
-                    <a href="/led-sign-board-in-bangalore" style="text-decoration: none;">
-                        <div class="other-cities-img">
-                            <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="LED Sign Boards Bangalore">
-                            <div class="other-cities-overlay"></div>
-                            <p class="other-cities-title">Bangalore</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
-    <section class="new_client_section container">
-        <h2 class="new_client_section-title">We Serve Clients Across <br>All Industries</h2>
-        <div class="row">
-            <div class="col-md-5 new_client_section-image col-12">
-                <img src="{{ asset('frontend/Images/led-sign-board/irani-cafe-led-sign-board.webp') }}"
-                    alt="Irani Cafe LED Sign Board - Brand Signages">
-            </div>
-            <div class="col-md-7 new_client_section-scrolling col-12">
-
-                <div class="new_client_section-wrapper">
-                    <!-- Row 1 (Left to Right) -->
-                    <div class="new_client_section-row new_client_section-row-1">
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
-                                alt="White Gold - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
-                                alt="Manthan - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
-                                alt="Sobha - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
-                                alt="Societe Generale - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
-                                alt="HashedIn - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
-                                alt="Innoviti - Our Signage Client">
-                        </div>
-
-                        <!-- Duplicates for seamless loop -->
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
-                                alt="White Gold - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
-                                alt="Manthan - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
-                                alt="Sobha - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
-                                alt="Societe Generale - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
-                                alt="HashedIn - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
-                                alt="Innoviti - Our Signage Client">
-                        </div>
-
-                    </div>
-
-                    <!-- Row 2 (Right to Left) -->
-                    <div class="new_client_section-row new_client_section-row-2">
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
-                                alt="Puravankara - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
-                                alt="Flipkart - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
-                                alt="VYMO - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
-                                alt="Indusface - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
-                                alt="Chargebee - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
-                                alt="Puravankara - Our Signage Client">
-                        </div>
-
-                        <!-- Duplicates for seamless loop -->
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
-                                alt="Puravankara - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
-                                alt="Flipkart - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
-                                alt="VYMO - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
-                                alt="Indusface - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
-                                alt="Chargebee - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
-                                alt="Puravankara - Our Signage Client">
-                        </div>
-                    </div>
-
-                    <!-- Row 3 (Left to Right) -->
-                    <div class="new_client_section-row new_client_section-row-3">
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
-                                alt="Natural - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
-                                alt="Vakil Search - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
-                                alt="Bhive Workspace - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
-                                alt="Apollo Hospitals - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
-                                alt="Adarsh Developers - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
-                                alt="New Horizon Educational Institution - Our Signage Client">
-                        </div>
 
 
-                        <!-- Duplicates for seamless loop -->
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
-                                alt="Natural - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
-                                alt="Vakil Search - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
-                                alt="Bhive Workspace - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
-                                alt="Apollo Hospitals - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
-                                alt="Adarsh Developers - Our Signage Client">
-                        </div>
-                        <div class="new_client_section-client">
-                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
-                                alt="New Horizon Educational Institution - Our Signage Client">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
+            <!-- Bottom Action Buttons -->
+           
+        <!-- Tabs Box Ends -->
+
+    </div>
+</section>
+    
     <section class="new_testimonial-swiper-section">
         <div class="container">
-            <h2 class="text-center mb-md-5 mb-3">Feedback from Our Valuable Clients</h2>
+            <h2 class="text-center mb-md-5 mb-3">Recent Client Reviews</h2>
 
             <div class="position-relative">
 
@@ -753,150 +424,39 @@
 
 
 
-    <section class="faq-section">
-        <div class="faq-container">
-            <h1 class="faq-title">3D Acrylic LED Letters- FAQs</h1>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    What makes 3D LED Acrylic Letters durable and long-lasting? 
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <P>High-quality acrylic combined with robust metal backing and premium LED modules, ensuring letters 
-                        withstand weather, UV exposure, and everyday wear while maintaining vibrant illumination.</P>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Can I get 3D LED letters in custom shapes and fonts?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes, all 3D LED Acrylic Letters are fully customizable. Choose your preferred fonts, sizes, colors, 
-                        logos, and shapes to create signage that aligns perfectly with your brand identity.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Are 3D LED Acrylic Letters suitable for indoor and outdoor use?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Absolutely, our 3D LED Acrylic Letters are designed for both indoor and outdoor applications, providing consistent 
-                        brightness and durability in offices, retail stores, restaurants, and building exteriors.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    What types of LED lighting are available?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Customers can select from front-lit, backlit, halo-lit, dual-lit, or RGB color-changing LEDs. Each option delivers bright, 
-                        energy-efficient illumination tailored to your signage requirements.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    How easy is the installation process?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Installation is straightforward with user-friendly hardware and detailed instructions. Letters 
-                        can be securely mounted on walls, glass, metal, or any flat surface, making setup fast and hassle-free.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Can I order letters in multiple sizes for the same project?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes, Brand Signages offers flexible sizing. You can mix and match letter heights and thicknesses 
-                        to create a visually balanced and professional signage layout.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Do these letters require frequent maintenance?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>No, the acrylic and LED combination is low-maintenance. Occasional cleaning 
-                        is enough to keep the letters bright and looking brand-new for years.
-                    </p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Do You Provide LED Sign Board with Warranty and After-Sale Service in India?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>At Brand Signages, every LED sign board comes with a <b>comprehensive 4-5 years warranty and dedicated
-                            after-sales support</b>. We ensure hassle-free maintenance, quick service response, and
-                        long-lasting performance.
-                        Our team stands by your signage even after installation, ensuring your investment continues to shine
-                        bright.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Do You Deliver LED Sign Boards PAN India?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes, we deliver LED sign boards across Bangalore and <b>all over India within 10 Working Days</b>.
-                        Our logistics team ensures safe packaging
-                        and hassle-free delivery so that your signage reaches you in perfect condition.</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <script>
-    let current = 0;
-        const slides = document.querySelectorAll('.slide');
-        const thumbs = document.querySelectorAll('.thumb');
-
-        function show(i) {
-        slides[current].classList.remove('active');
-        current = i;
-        slides[current].classList.add('active');
-        }
-
-        document.querySelector('.next').onclick = () =>
-        show((current + 1) % slides.length);
-
-        document.querySelector('.prev').onclick = () =>
-        show((current - 1 + slides.length) % slides.length);
-
-        thumbs.forEach((t, i) => (t.onclick = () => show(i)));
-    </script>
-
 <script>
-    document.querySelectorAll('.product-gallery').forEach(gallery => {
-        const mainImg = gallery.querySelector('.main-preview img');
-        const thumbs = gallery.querySelectorAll('.thumbnail-row img');
+// Simple thumbnail click functionality
+document.querySelectorAll('.thumb').forEach(thumb => {
+    thumb.addEventListener('click', () => {
+        // Remove active class from all thumbs
+        document.querySelectorAll('.thumb').forEach(t => t.classList.remove('active'));
+        thumb.classList.add('active');
 
-        thumbs.forEach(thumb => {
-            thumb.addEventListener('click', () => {
-                mainImg.src = thumb.src;
-                mainImg.alt = thumb.alt;
-            });
+        // Show corresponding slide
+        let index = thumb.dataset.index;
+        document.querySelectorAll('.main-slider .slide').forEach((slide, i) => {
+            slide.classList.toggle('active', i == index);
         });
     });
+});
 </script>
+
+<script>
+document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        const target = this.getAttribute('data-tab');
+
+        // Remove active from all buttons and panes
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+
+        // Add active to clicked button and target pane
+        this.classList.add('active');
+        document.getElementById(target).classList.add('active');
+    });
+});
+</script>
+
 
 
 
