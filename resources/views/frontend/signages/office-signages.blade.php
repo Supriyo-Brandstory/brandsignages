@@ -75,9 +75,10 @@
             <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 + GST</b></p>
 
             <div class="divider"></div>
-            <p class="fs-16">Looking for the perfect office nameplate and office signage design? Brand Signages got you covered. Choose from the widest range of stylish and durable nameplates
-                 that leave a lasting impression on employees and visitors alike. From sleek acrylic options to robust metal designs and LED sign board, our collection ensures you find a 
-                 nameplate that complements your office space and reflects your professional identity.</p>
+            <p class="fs-16">Searching for the perfect office name board for your brand? At Brand Signages, we offer a wide range of durable office 
+                name plates and sign boards designed to represent roles, departments, and spaces while maintaining consistency with your brand’s style,
+                 colors, and materials. Whether acrylic, metal, wood, or LED signage- every design is made to stand out, stay readable, and leave a 
+                 strong first impression.</p>
             <ul class="features">
                 <li>50+ Office Nameplate Designs (Premium Collection in India)</li>
                 <li>Crafted with High-Quality Materials- Acrylic, Metal, LEDs & ACP</li>
@@ -97,14 +98,15 @@
 
     <section class="instant-pricing">
         <div class="container pt-5">
-            <h2>Explore Endless Office Name Board Design​ Options</h2>
-            <p>Brand Signages brings you a wide range of <b>name boards for office</b> designed to make your workplace stand out. We offer the most stylish
-                 and affordable name boards for office spaces across India, with quick turnaround and expert installation services. Our office name board
-                  designs come with <b>custom designs</b>, <b>4-5 years warranty</b>, and <b>transparent pricing</b> to suit every professional environment. 
+            <h2>Upgrade Your Workspace with Modern Office Name Boards</h2>
+            <p>At Brand Signages, you’ll find an extensive selection of name boards from professional office name plates, reception sign boards, and door signs to premium desk name boards
+                 tailored for your <b>modern workspaces</b>. Choose from a range of <b>office name plate designs</b> that align with your brand identity. Pick from multiple sizes, finishes, and colors perfect 
+                 for employee name plates or corporate signage. Our modern name plate designs are perfect for office entrances, workspaces,  <a href="blogs/ultimate-guide-to-office-reception-signage-make-the-right-first-impression" style="color:#E43D12; text-decoration:none;"><strong>reception areas</strong></a>, and <a href="blogs/name-board-for-office-table-designs-materials-pricing-buyers-guide" style="color:#E43D12; text-decoration:none;"><strong>office tables</strong></a> creating a consistent
+                  and professional identity.  
             </p>
-            <p>Featuring <b>various size options</b>, <b>dynamic color choices</b>, and <b>superior finishes</b>, our office name board designs create a strong visual presence that 
-                enhances your brand image. Made from high-quality materials including <b>acrylic, metal</b>, <a href="led-acrylic-3d-glow-sign-board" style="color:#E43D12; text-decoration:none;"><strong>LED sign board</strong></a>,
-                 <b>ACP</b>, and <b>wood</b>, our office name boards are durable, visually striking, and tailored to your office style and budget.</p>
+            <p>Brand Signages provides name plate options that are modern, convenient, practical, and built to last. With sturdy materials and precision engraved printing, your signage stays durable and retains its
+                 premium finish over time. Transform your office space with office name plates from Brand Signages, featuring <b>100+ custom designs</b>, <b>4-5 years warranty</b>, <b>transparent pricing</b>, <b>easy delivery</b>, and 
+                 <b>installation support</b>.</p>
             <img src="/frontend/Images/office-sign-board/name-boards-for-office.webp" alt="Exclusive Office Name Board Design by Brand Signages" class="shop-image">
 
                      
