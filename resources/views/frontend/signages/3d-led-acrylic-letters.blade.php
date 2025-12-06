@@ -190,32 +190,32 @@
 
                 <hr class="visible-thin-divider">
                 <p class="price-big"><b>Frequently Asked Questions</b></p>
-                    <p class="fs-20"><strong>1. What makes 3D LED Acrylic Letters durable and long-lasting?</strong><br>
+                    <p class="fs-20"><strong>1. What makes 3D LED Acrylic Letters durable and long-lasting?</strong></p>
                     High-quality acrylic combined with robust metal backing and premium LED modules, ensuring letters withstand weather, UV exposure, and everyday wear while maintaining vibrant illumination.</p>
 
-                    <p class="fs-20"><strong>2. Can I get 3D LED letters in custom shapes and fonts?</strong><br>
-                    Yes, all 3D LED Acrylic Letters are <b>fully customizable</b>. Choose your preferred fonts, sizes, colors, logos, and shapes to create signage that aligns perfectly with your brand identity.</p>
+                    <p class="fs-20"><strong>2. Can I get 3D LED letters in custom shapes and fonts?</strong></p>
+                    <p>Yes, all 3D LED Acrylic Letters are <b>fully customizable</b>. Choose your preferred fonts, sizes, colors, logos, and shapes to create signage that aligns perfectly with your brand identity.</p>
 
-                    <p class="fs-20"><strong>3. Are 3D LED Acrylic Letters suitable for indoor and outdoor use?</strong><br>
-                    Absolutely, our 3D LED Acrylic Letters are designed for both <b>indoor and outdoor applications</b>, providing consistent brightness and durability in offices, retail stores, restaurants, and building exteriors.</p>
+                    <p class="fs-20"><strong>3. Are 3D LED Acrylic Letters suitable for indoor and outdoor use?</strong></p>
+                    <p>Absolutely, our 3D LED Acrylic Letters are designed for both <b>indoor and outdoor applications</b>, providing consistent brightness and durability in offices, retail stores, restaurants, and building exteriors.</p>
 
-                    <p class="fs-20"><strong>4. What types of LED lighting are available?</strong><br>
-                    Customers can select from <b>front-lit</b>, <b>backlit</b>, <b>halo-lit</b>, <b>dual-lit</b>, or <b>RGB color-changing LEDs</b>. Each option delivers bright, energy-efficient illumination tailored to your signage requirements.</p>
+                    <p class="fs-20"><strong>4. What types of LED lighting are available?</strong></p>
+                    <p>Customers can select from <b>front-lit</b>, <b>backlit</b>, <b>halo-lit</b>, <b>dual-lit</b>, or <b>RGB color-changing LEDs</b>. Each option delivers bright, energy-efficient illumination tailored to your signage requirements.</p>
 
-                    <p class="fs-20"><strong>5. How easy is the installation process?</strong><br>
-                    Installation is straightforward with user-friendly hardware and detailed instructions. Letters can be securely mounted on walls, glass, metal, or any flat surface, making setup fast and hassle-free.</p>
+                    <p class="fs-20"><strong>5. How easy is the installation process?</strong></p>
+                    <p>Installation is straightforward with user-friendly hardware and detailed instructions. Letters can be securely mounted on walls, glass, metal, or any flat surface, making setup fast and hassle-free.</p>
 
-                    <p class="fs-20"><strong>6. Can I order letters in multiple sizes for the same project?</strong><br>
-                    Yes, Brand Signages offers flexible sizing. You can mix and match letter heights and thicknesses to create a visually balanced and professional signage layout.</p>
+                    <p class="fs-20"><strong>6. Can I order letters in multiple sizes for the same project?</strong></p>
+                    <p>Yes, Brand Signages offers flexible sizing. You can mix and match letter heights and thicknesses to create a visually balanced and professional signage layout.</p>
 
-                    <p class="fs-20"><strong>7. Do these letters require frequent maintenance?</strong><br>
-                    No, the acrylic and LED combination is <b>low-maintenance</b>. Occasional cleaning is enough to keep the letters bright and looking brand-new for years.</p>
+                    <p class="fs-20"><strong>7. Do these letters require frequent maintenance?</strong></p>
+                    <p>No, the acrylic and LED combination is <b>low-maintenance</b>. Occasional cleaning is enough to keep the letters bright and looking brand-new for years.</p>
 
-                    <p class="fs-20"><strong>8. Do You Provide LED Sign Board with Warranty and After-Sale Service in India?</strong><br>
-                    At Brand Signages, every LED sign board comes with a comprehensive <b>4-5 years warranty</b> and dedicated after-sales support. We ensure hassle-free maintenance, quick service response, and long-lasting performance. Our team stands by your signage even after installation, ensuring your investment continues to shine bright.</p>
+                    <p class="fs-20"><strong>8. Do You Provide LED Sign Board with Warranty and After-Sale Service in India?</strong></p>
+                    <p>At Brand Signages, every LED sign board comes with a comprehensive <b>4-5 years warranty</b> and dedicated after-sales support. We ensure hassle-free maintenance, quick service response, and long-lasting performance. Our team stands by your signage even after installation, ensuring your investment continues to shine bright.</p>
 
-                    <p class="fs-20"><strong>9. Do You Deliver LED Sign Boards PAN India?</strong><br>
-                    Yes, we deliver LED sign boards across <b>Bangalore, Chennai, Mumbai and all over India</b> within <b>15 Working Days</b>. Our logistics team ensures safe packaging and hassle-free delivery so that your signage reaches you in perfect condition.</p>
+                    <p class="fs-20"><strong>9. Do You Deliver LED Sign Boards PAN India?</strong></p>
+                    <p>Yes, we deliver LED sign boards across <b>Bangalore, Chennai, Mumbai and all over India</b> within <b>15 Working Days</b>. Our logistics team ensures safe packaging and hassle-free delivery so that your signage reaches you in perfect condition.</p>
                 </div>
 
         </div>
