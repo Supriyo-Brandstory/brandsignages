@@ -80,11 +80,11 @@
                  colors, and materials. Whether acrylic, metal, wood, or LED signage- every design is made to stand out, stay readable, and leave a 
                  strong first impression.</p>
             <ul class="features">
-                <li>50+ Office Nameplate Designs (Premium Collection in India)</li>
-                <li>Crafted with High-Quality Materials- Acrylic, Metal, LEDs & ACP</li>
-                <li>3D Acrylic or Metal Letters to Highlight Your Office Name & Logo</li>
-                <li>PAN India Service Including Custom Design & Installation</li>
-                <li>24/7 Support Services for Maintenance</li>
+                <li><b>Nameplate Designs:</b> For desks, doors, walls, reception areas, and more.</li>
+                <li><b>Materials:</b> Wood, metal, glass, acrylic, LEDs, and ACP for indoor & outdoor.</li>
+                <li><b>Custom Letters:</b> Highlight office name, logo, and brand identity of your choice.</li>
+                <li><b>PAN India Service:</b> For all types of office signage needs.</li>
+                <li><b>24/7 Support:</b> Keep signage readable & aligned with brand standards.</li>
             </ul>
 
             <div class="buttons">
@@ -279,9 +279,10 @@
     </ul>
 
     <p class="fs-20">
-        Each office name board is crafted using <b>premium materials</b>, <b>tailored designs</b>, and <b>durable finishes</b>. You can 
-        choose from various lighting options such as <b>front-lit, backlit, edge-lit</b>, or <b>RGB color-changing LEDs</b> to perfectly 
-        match your office style and brand identity.
+        Each office name board is created using premium materials such as <b>wood, metal, acrylic, glass,
+         ACP</b>, and more, with durable finishes and custom designs. For added effect, you can choose from 
+         lighting options like <b>front-lit, backlit, edge-lit</b>, or <b>RGB color-changing LEDs</b> to enhance office
+          name board visibility.
     </p>
 
    <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
@@ -295,11 +296,10 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="hero-title">Largest Collection of Office Name Board<br> Designs in India</h2>
-                <p class="fs-20">Your search for the perfect <b>office name board design</b> ends with Brand Signages. We showcase a wide range
-                     of modern and professional office nameplates, crafted to suit different workspaces and <b>corporate aesthetics</b>. Explore 
-                     <b>various styles</b>, select your preferred option, and start your office name board project with us. From concept and design 
-                     to installation, we ensure a seamless process, premium quality, and long-lasting durability for every office signage 
-                     solution.</p>
+                <p class="fs-20">Your search for the perfect office name board design ends with Brand Signages. We showcase a wide range of modern and professional office nameplates, 
+                    <b>name board for office table​</b>, <b>office reception signage</b>, <b>glass name board​s</b>, <b>acrylic name board​s</b>, <b>advocate office name boards​</b>, <b>construction office name boards</b>, 
+                    <b>architect office name boards</b>​, <b>corporate office name boards</b>, and more. Explore various styles, select your preferred option, and start your office 
+                    name board project with us. From concept and design to installation, we ensure a seamless process, premium quality, and long-lasting durability.</p>
             </div>
 
     <!-- Add Blogs-->
