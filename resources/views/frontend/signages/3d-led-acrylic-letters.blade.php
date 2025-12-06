@@ -36,7 +36,7 @@
     <!-- Content stays unchanged -->
     <div class="content">
         <h1 class="hero-banner_title">3D LED Acrylic Letter</h1>
-        <p class="subtitle"><b>★★★★★ (10 customer reviews)</b></p>
+        <p class="subtitle"><b>★★★★★ (130 customer reviews)</b></p>
 
         <div class="divider"></div>
         <p class="price-big">
