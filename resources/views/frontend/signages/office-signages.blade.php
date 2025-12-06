@@ -120,6 +120,94 @@
         </div>
     </section>
 
+     <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="We-Elevate-Brands-heading fw-bold">Name Boards for Office & Company<br> Reception, Desk, Door & Directory Solutions</h2>
+            </div>
+
+            <div class="position-relative">
+                <div class="swiper We-Elevate-Brands-swiper pt-60">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/office-sign-board/office-reception-signage.jpg')}}" class="card-img-center"
+                                    alt="Office Reception Signage Boards">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="contact-us">Office Reception Signage</a></h5>
+                                    <p class="We-Elevate-Brands-text">At Brand Signages, we specialize in office reception signage, offering reception signage boards 
+                                        that reflect your brand’s identity and create a professional, welcoming first impression on employees, clients, and visitors.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/office-sign-board/desk-table-name-plate.jpg')}}" class="card-img-center"
+                                    alt="Office Desk and Table Name Plates">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="contact-us">Desk & Table Name Plates</a></h5>
+                                    <p class="We-Elevate-Brands-text">Our name boards for office tables are designed to clearly display employee names, designations, and departments. 
+                                        Crafted from premium materials like wood, acrylic, glass , or metal (lit and non-lit options).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/office-sign-board/doop-cabin-name-board.jpg')}}" class="card-img-center"
+                                    alt="Door and Cabin Name Boards for Office">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="contact-us">Door & Cabin Name Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">Our door and cabin name boards help clearly identify rooms, employee roles, and departments while maintaining a cohesive 
+                                        office branding. Premium materials such as wood, acrylic, or metal, these boards offer durability, readability, and style.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/office-sign-board/wall-directory-graphics.jpg')}}" class="card-img-center"
+                                    alt="Office Wall and Directory Boards">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="contact-us">Wall & Directory Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">Wall and directory boards serve as the central guide for your office, making navigation simple for employees and visitors. 
+                                        Strategically placed, they highlight departments, floors, and key areas, while enhancing professional appearance.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/office-sign-board/floor-name-boards.jpg')}}" class="card-img-center"
+                                    alt="Office Floor Name Boards">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="https://brandsignages.com/neon-signages">Dept. & Floor Name Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">Department and floor name boards are designed to showcase your office’s structure and hierarchy with style. Highlight each team, 
+                                        floor, or functional area while maintaining a cohesive brand identity. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Navigation Arrows -->
+                    <div class="We-Elevate-Brands-nav ">
+                        <!-- Swap order: prev on left, next on right -->
+                        <div class="We-Elevate-Brands-button-prev"></div>
+                        <div class="We-Elevate-Brands-button-next"></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
     <section class="led-signs-manufacturing">
         <div class="container pt-5">
 
@@ -281,8 +369,7 @@
     <p class="fs-20">
         Each office name board is created using premium materials such as <b>wood, metal, acrylic, glass,
          ACP</b>, and more, with durable finishes and custom designs. For added effect, you can choose from 
-         lighting options like <b>front-lit, backlit, edge-lit</b>, or <b>RGB color-changing LEDs</b> to enhance office
-          name board visibility.
+         lighting options like <b>front-lit, backlit, edge-lit</b>, or <b>RGB color-changing LEDs</b>.
     </p>
 
    <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
@@ -297,8 +384,7 @@
             <div class="text-center mb-5">
                 <h2 class="hero-title">Largest Collection of Office Name Board<br> Designs in India</h2>
                 <p class="fs-20">Your search for the perfect office name board design ends with Brand Signages. We showcase a wide range of modern and professional office nameplates, 
-                    <b>name board for office table​</b>, <b>office reception signage</b>, <b>glass name board​s</b>, <b>acrylic name board​s</b>, <b>advocate office name boards​</b>, <b>construction office name boards</b>, 
-                    <b>architect office name boards</b>​, <b>corporate office name boards</b>, and more. Explore various styles, select your preferred option, and start your office 
+                    <b>name board for office table​</b>, <b>office reception signage</b>, <b>glass name board​s</b>, <b>acrylic name board​s</b>, and more. Explore various styles, select your preferred option, and start your office 
                     name board project with us. From concept and design to installation, we ensure a seamless process, premium quality, and long-lasting durability.</p>
             </div>
 
