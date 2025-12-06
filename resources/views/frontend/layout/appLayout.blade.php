@@ -153,7 +153,7 @@
                                         <a class="dropdown-item"
                                             href="{{route('construction_safety_signages')}}">Construction Safety
                                             Sign</a>
-                                        <a class="dropdown-item" href="{{route('office_signages')}}">Office Sign</a>
+                                        <a class="dropdown-item" href="{{route('office_signages')}}">Office Name Boards</a>
                                         <a class="dropdown-item" href="{{route('shop_name_board_bangalore')}}">Shop Name Boards</a>
                                         
                                     </div>
