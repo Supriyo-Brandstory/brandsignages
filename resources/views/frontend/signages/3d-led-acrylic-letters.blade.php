@@ -191,6 +191,7 @@
                 <hr class="visible-thin-divider">
                 <p class="price-big"><b>Frequently Asked Questions</b></p>
                     <p class="fs-20"><strong>1. What makes 3D LED Acrylic Letters durable and long-lasting?</strong></p>
+                    Acrylic 3D letters with LED lighting are durable, customizable, long-lasting, and highly visible. Made from precision-cut acrylic with energy-efficient LEDs, they work well for indoor or outdoor branding and signage. 
                     High-quality acrylic combined with robust metal backing and premium LED modules, ensuring letters withstand weather, UV exposure, and everyday wear while maintaining vibrant illumination.</p>
 
                     <p class="fs-20"><strong>2. Can I get 3D LED letters in custom shapes and fonts?</strong></p>
