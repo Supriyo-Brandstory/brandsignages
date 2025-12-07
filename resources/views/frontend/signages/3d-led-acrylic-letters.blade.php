@@ -3,7 +3,7 @@
 
 <div class="newly-bannersection">
     <div class="bar">
-        <h1 class="hero-banner_title">3D Acrylic LED Letter</h1>
+        <h1 class="hero-banner_title">Acrylic LED Letter</h1>
     </div>
 
     <div class="slider-wrapper" style="display: flex; gap: 20px; padding-left: 20px;">
@@ -18,13 +18,13 @@
         <div class="main-slider-wrapper" style="position: relative; flex-grow: 1;">
             <div class="main-slider">
                 <div class="slide active">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-1.webp" alt="3D Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-1.webp" alt="Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-2.webp" alt="3D Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-2.webp" alt="Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-3.webp" alt="3D Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-3.webp" alt="Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
                 </div>
             </div>
 
@@ -35,15 +35,15 @@
 
     <!-- Content stays unchanged -->
     <div class="content">
-        <h1 class="hero-banner_title">3D LED Acrylic Letter</h1>
+        <h1 class="hero-banner_title">Acrylic LED Letter</h1>
         <p class="subtitle"><b>★★★★★ (130 customer reviews)</b></p>
 
         <div class="divider"></div>
         <p class="price-big">
             <b>₹200 - ₹1,000.00</b> <small>+ GST</small>
         </p>
-        <p class="fs-20"><b>3D acrylic LED letters-</b> High-quality acrylic illuminated letters curated for 
-            clarity, impact, and best performance. We design 3D acrylic letters for commercial & residential spaces
+        <p class="fs-20"><b>Acrylic LED Letters-</b> High-quality acrylic LED-illuminated letters curated for 
+            clarity, impact, and best performance. We design acrylic LED letters for commercial & residential spaces
              (office, storefronts, real estate, and high-rise buildings).</p>
         <p class="price-big">
             <b>Key Features:</b>
@@ -94,13 +94,13 @@
             <div class="tab-content">
                 <!-- Description -->
                 <div class="tab-pane active" id="description">
-                    <p class="price-big"><b>3D Acrylic LED Letters- Description</b></p>
-                    <p class="fs-20">Crafted with a premium <b>three-layer build</b>, <b>acrylic face</b>, illuminated core, and durable backing, our 3D LED Acrylic Letters
-                         come with 4 years warranty, offers a striking visual presence. <b>3D LED acrylic letter</b> sign boards offer clarity, elegance, and high visibility, 
+                    <p class="price-big"><b>Acrylic LED Letters- Description</b></p>
+                    <p class="fs-20">Crafted with a premium <b>three-layer build</b>, <b>acrylic face</b>, illuminated core, and durable backing, our Acrylic LED Letters
+                         come with 4 years warranty, offers a striking visual presence. <b>LED acrylic letter</b> sign boards offer clarity, elegance, and high visibility, 
                          featuring clean edges and brilliant lighting. Whether placed indoors or outdoors, the <b>illuminated acrylic finish</b> ensures your brand stands out during the 
                          day and shines effortlessly after sunset.<br>
-                         The right 3D Acrylic LED letters can elevate your brand’s visibility and make a lasting impression. At Brand Signages, you can choose from a variety of front-lit, 
-                         <b>backlit</b>, <b>halo-lit</b>, and <b>dual-lit 3D LED letters</b> in custom sizes, fonts, and colors. Explore our extensive collection of 3D acrylic LED letters, consult with our experts,
+                         The right Acrylic LED letters can elevate your brand’s visibility and make a lasting impression. At Brand Signages, you can choose from a variety of front-lit, 
+                         <b>backlit</b>, <b>halo-lit</b>, and <b>dual-lit LED letters</b> in custom sizes, fonts, and colors. Explore our extensive collection of acrylic LED letters, consult with our experts,
                           and get fully customized sign boards that fits your brand perfectly. We also provide PAN India delivery and professional installation services.
                     </p>
                 <div class="action-buttons">
@@ -110,15 +110,15 @@
 
             <br>
             
-              <p class="price-big"><b>3D Acrylic LED Letters- Pricing Terms</b></p>
-                    <p class="fs-20">The cost of 3D acrylic LED sign board varies based on size, thickness, color, lighting style, and finishing options. Pricing is calculated per running inch and changes with design complexity. 
+              <p class="price-big"><b>Acrylic LED Letters- Pricing Terms</b></p>
+                    <p class="fs-20">The cost of acrylic LED letters varies based on size, thickness, color, lighting style, and finishing options. Pricing is calculated per running inch and changes with design complexity. 
                         The provided cost per running inch is <b>₹200 to ₹1,000</b> based on complexity and customization.<br>
 
-                         We are the top 3D acrylic LED sign board manufacturer in Bangalore & India, delivering high-quality and custom LED Sign Boards. For more detailed information on pricing contact our sales team at <a href="tel:+918006606080" style="color: #E43D12; text-decoration: none;" aria-label="Call us at +91 80066 06080"><strong>+91 80066 06080</strong></a>
+                         We are the top acrylic LED sign board manufacturer in Bangalore & India, delivering high-quality and custom LED Sign Boards. For more detailed information on pricing contact our sales team at <a href="tel:+918006606080" style="color: #E43D12; text-decoration: none;" aria-label="Call us at +91 80066 06080"><strong>+91 80066 06080</strong></a>
                         and schedule a meeting, or fill out <a href="contact-us" style="color: #E43D12; text-decoration: none;"><strong>contact form</strong></a>. In a detailed discussion our team can provide you the best affordable quotaion on acrylic LED sign board price.  
                 </p>
                 <hr class="visible-thin-divider">
-                <p class="price-big"><b>3D Acrylic LED Letters- Important Features</b></p>
+                <p class="price-big"><b>Acrylic LED Letters- Important Features</b></p>
                 <ul class="fs-20">
                     <li><b>Robust Construction:</b> Built using premium-grade acrylic paired with aluminum backing for long-lasting indoor and outdoor performance.</li>
 
@@ -149,7 +149,7 @@
                     <li class="fs-20"><b>Precision Craftsmanship:</b> CNC precision cutting combined with laser-edge finishing delivers smooth, flawless edges and consistent detailing, resulting in a refined, high-end appearance.</li>
                 </ul>
                 <hr class="visible-thin-divider">
-                <p class="price-big"><b>3D Acrylic LED Letters- Know The Benefits</b></p>
+                <p class="price-big"><b>Acrylic LED Letters- Know The Benefits</b></p>
                 <p class="fs-20">
                     <b>Visibility & Impact</b>
                     <br>
@@ -190,15 +190,15 @@
 
                 <hr class="visible-thin-divider">
                 <p class="price-big"><b>Frequently Asked Questions</b></p>
-                    <p class="fs-20"><strong>1. What makes 3D LED Acrylic Letters durable and long-lasting?</strong></p>
-                    Acrylic 3D letters with LED lighting are durable, customizable, long-lasting, and highly visible. Made from precision-cut acrylic with energy-efficient LEDs, they work well for indoor or outdoor branding and signage. 
+                    <p class="fs-20"><strong>1. What makes LED Acrylic Letters durable and long-lasting?</strong></p>
+                    Acrylic letters with LED lighting are durable, customizable, long-lasting, and highly visible. Made from precision-cut acrylic with energy-efficient LEDs, they work well for indoor or outdoor branding and signage. 
                     High-quality acrylic combined with robust metal backing and premium LED modules, ensuring letters withstand weather, UV exposure, and everyday wear while maintaining vibrant illumination.</p>
 
-                    <p class="fs-20"><strong>2. Can I get 3D LED letters in custom shapes and fonts?</strong></p>
-                    <p>Yes, all 3D LED Acrylic Letters are <b>fully customizable</b>. Choose your preferred fonts, sizes, colors, logos, and shapes to create signage that aligns perfectly with your brand identity.</p>
+                    <p class="fs-20"><strong>2. Can I get Acrylic LED letters in custom shapes and fonts?</strong></p>
+                    <p>Yes, all LED Acrylic Letters are <b>fully customizable</b>. Choose your preferred fonts, sizes, colors, logos, and shapes to create signage that aligns perfectly with your brand identity.</p>
 
-                    <p class="fs-20"><strong>3. Are 3D LED Acrylic Letters suitable for indoor and outdoor use?</strong></p>
-                    <p>Absolutely, our 3D LED Acrylic Letters are designed for both <b>indoor and outdoor applications</b>, providing consistent brightness and durability in offices, retail stores, restaurants, and building exteriors.</p>
+                    <p class="fs-20"><strong>3. Are Acrylic LED Letters suitable for indoor and outdoor use?</strong></p>
+                    <p>Absolutely, our LED-illuminated Acrylic Letters are designed for both <b>indoor and outdoor applications</b>, providing consistent brightness and durability in offices, retail stores, restaurants, and building exteriors.</p>
 
                     <p class="fs-20"><strong>4. What types of LED lighting are available?</strong></p>
                     <p>Customers can select from <b>front-lit</b>, <b>backlit</b>, <b>halo-lit</b>, <b>dual-lit</b>, or <b>RGB color-changing LEDs</b>. Each option delivers bright, energy-efficient illumination tailored to your signage requirements.</p>
