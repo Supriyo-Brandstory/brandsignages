@@ -42,8 +42,8 @@
         <p class="price-big">
             <b>₹200 - ₹1,000.00</b> <small>+ GST</small>
         </p>
-        <p class="fs-20"><b>3D LED acrylic letters-</b> High-quality LED acrylic sign board curated for 
-            clarity, impact, and best performance. We design acrylic letters for commercial & residential spaces
+        <p class="fs-20"><b>3D acrylic LED letters-</b> High-quality acrylic illuminated letters curated for 
+            clarity, impact, and best performance. We design 3D acrylic letters for commercial & residential spaces
              (office, storefronts, real estate, and high-rise buildings).</p>
         <p class="price-big">
             <b>Key Features:</b>
