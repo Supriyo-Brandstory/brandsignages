@@ -14,22 +14,22 @@
     <div class="slide-wrapper" style="display: flex; gap: 20px; padding-left: 20px;">
         <!-- Left Side: 3 Visible Thumbnails -->
         <div class="thumbnails-left" style="display: flex; flex-direction: column; gap: 10px; flex-shrink: 0;">
-            <img src="/frontend/Images/led-sign-board/acrylic-led-letters-1.webp" class="thumb active" data-index="0" style="width: 80px; height: 80px; cursor: pointer;">
-            <img src="/frontend/Images/led-sign-board/acrylic-led-letters-2.webp" class="thumb" data-index="1" style="width: 80px; height: 80px; cursor: pointer;">
-            <img src="/frontend/Images/led-sign-board/acrylic-led-letters-3.webp" class="thumb" data-index="2" style="width: 80px; height: 80px; cursor: pointer;">
+            <img src="/frontend/Images/led-sign-board/3d-acrylic-led-letters-1.webp" class="thumb active" data-index="0" style="width: 80px; height: 80px; cursor: pointer;">
+            <img src="/frontend/Images/led-sign-board/3d-acrylic-led-letters-2.webp" class="thumb" data-index="1" style="width: 80px; height: 80px; cursor: pointer;">
+            <img src="/frontend/Images/led-sign-board/3d-acrylic-led-letters-3.webp" class="thumb" data-index="2" style="width: 80px; height: 80px; cursor: pointer;">
         </div>
 
         <!-- Right Side: Main Slider -->
         <div class="main-slide-wrapper" style="position: relative; flex-grow: 1;">
             <div class="main-slider">
                 <div class="slide active">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-1.webp" alt="Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
+                    <img src="/frontend/Images/led-sign-board/3d-acrylic-led-letters-1.webp" alt="Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-2.webp" alt="Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
+                    <img src="/frontend/Images/led-sign-board/3d-acrylic-led-letters-2.webp" alt="Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/led-sign-board/acrylic-led-letters-3.webp" alt="Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
+                    <img src="/frontend/Images/led-sign-board/3d-acrylic-led-letters-3.webp" alt="Acrylic LED Letter" style="width: 100%; max-width: 500px; height: auto; border-radius: 6px;">
                 </div>
             </div>
 
@@ -94,6 +94,7 @@
             <div class="tab-buttons">
                 <button class="tab-btn active" data-tab="description">Description</button>
                 <button class="tab-btn" data-tab="information">Product Information</button>
+                <button class="tab-btn" data-tab="review">Reviews</button>
             </div>
 
             <!-- Tab Content -->
@@ -305,7 +306,53 @@
 
             </div>
 
+              <div class="tab-pane" id="review">
 
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle ">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">John Doe</h6>
+                        <div class="review-rating mb-1">
+                            ★★★★☆
+                        </div>
+                        <p class="text-muted mb-0">
+                            Great experience, very professional and friendly team!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Sarah Williams</h6>
+                        <div class="review-rating mb-1">
+                            ★★★★★
+                        </div>
+                        <p class="text-muted mb-0">
+                            Excellent service! I highly recommend them.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Michael Brown</h6>
+                        <div class="review-rating mb-1">
+                            ★★★☆☆
+                        </div>
+                        <p class="text-muted mb-0">
+                            Good but could be a bit faster.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
             <!-- Bottom Action Buttons -->
 
@@ -314,6 +361,96 @@
         </div>
 </section>
 
+<div class="container py-5">
+    <h2 class="mb-4">Related Products</h2>
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-lg-3 col-md-6 col-12">
+            <a href="/3d-acrylic-letter-non-lit" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="{{ asset('frontend/Images/led-sign-board/acrilc-letters-1.webp') }}" class="card-img-topx" alt="3D Acrylic Letter: Non-lit">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">3D Acrylic Letter: Non-lit</h5>
+
+                        <!-- Price -->
+                        <p class="mb-1 fw-bold text-black">₹100 – ₹800</p>
+
+                        <!-- 5 Star Rating -->
+                        <p class="mb-1 text-warning">
+                            ⭐⭐⭐⭐⭐ <span class="text-dark">(120 reviews)</span>
+                        </p>
+
+                        <!-- Small Description -->
+                        <p class="text-muted small">Premium non-lit acrylic letters perfect for branding.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-3 col-md-6 col-12">
+            <a href="/3d-acp-letter-acrylic" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="{{ asset('frontend/Images/led-sign-board/acrylic-led-acp-letter-1.webp') }}" class="card-img-topx" alt="3D Acrylic Letter with ACP">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">3D Acrylic Letter with ACP</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹100 – ₹800</p>
+
+                        <p class="mb-1 text-warning">
+                            ⭐⭐⭐⭐⭐ <span class="text-dark">(98 reviews)</span>
+                        </p>
+
+                        <p class="text-muted small">Durable ACP base with premium acrylic finish.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-3 col-md-6 col-12">
+            <a href="/3d-led-acrylic-letters" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-led-letters-3.webp') }}" class="card-img-topx" alt="3D Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">3D Acrylic LED Letter</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹200 – ₹1,000</p>
+
+                        <p class="mb-1 text-warning">
+                            ⭐⭐⭐⭐⭐ <span class="text-dark">(150 reviews)</span>
+                        </p>
+
+                        <p class="text-muted small">Bright LED-lit acrylic letters for high visibility.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-lg-3 col-md-6 col-12">
+            <a href="/acrylic-led-letter" class="text-decoration-none text-dark">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="{{ asset('frontend/Images/led-sign-board/acrylic-led-letter-1.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Letter</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹200 – ₹1,000</p>
+
+                        <p class="mb-1 text-warning">
+                            ⭐⭐⭐⭐⭐ <span class="text-dark">(110 reviews)</span>
+                        </p>
+
+                        <p class="text-muted small">Elegant LED acrylic letters for indoor & outdoor use.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+</div>
 
 
 
