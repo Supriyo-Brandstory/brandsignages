@@ -3197,7 +3197,7 @@ ul.brand-list {
 
 /* Mobile only – sweet spot size */
 @media (max-width: 768px) {
-    .slider-wrapper {
+    .slide-wrapper {
         flex-direction: column;
     }
 
@@ -3483,3 +3483,7 @@ ul.brand-list {
     .price-big { font-size: 22px; }
     .price-big small { font-size: 20px; }
 }
+
+
+
+

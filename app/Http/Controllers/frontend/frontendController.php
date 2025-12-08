@@ -192,6 +192,24 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.3d-led-acrylic-letters', compact('seo'));
     }
+    public function three_d_acrylic_letters_nonlit()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.3d-acrylic-letter-non-lit', compact('seo'));
+    }
+    public function three_d_acrylic_letters_acp()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.3d-acp-letter-acrylic', compact('seo'));
+    }
+    public function acrylic_led_letter_two_d()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.acrylic-led-letter', compact('seo'));
+    }
     public function aluminum_channel_letters()
     {
         $currentRoute = Route::current()->uri();

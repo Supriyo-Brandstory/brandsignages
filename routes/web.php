@@ -30,6 +30,9 @@ Route::get('/digital-signage-for-retail', [frontendController::class, 'digital_s
 Route::get('/restaurant-menu-boards', [frontendController::class, 'restaurant_menu_boards'])->name('restaurant_menu_boards');
 Route::get('/led-acrylic-3d-glow-sign-board', [frontendController::class, 'led_acrylic_glow_sign'])->name('led_acrylic_glow_sign');
 Route::get('/3d-led-acrylic-letters', [frontendController::class, 'three_d_led_acrylic_letters'])->name('three_d_led_acrylic_letters');
+Route::get('/3d-acrylic-letter-non-lit', [frontendController::class, 'three_d_acrylic_letters_nonlit'])->name('three_d_acrylic_letters_nonlit');
+Route::get('/3d-acp-letter-acrylic', [frontendController::class, 'three_d_acrylic_letters_acp'])->name('three_d_acrylic_letters_acp');
+Route::get('/acrylic-led-letter', [frontendController::class, 'acrylic_led_letter_two_d'])->name('acrylic_led_letter_two_d');
 Route::get('/led-aluminum-channel-letters', [frontendController::class, 'aluminum_channel_letters'])->name('aluminum_channel_letters');
 Route::get('/2d-stencil-cut-acrylic-led-letters', [frontendController::class, 'stencil_cut_letters'])->name('stencil_cut_letters');
 Route::get('/metal-led-letters', [frontendController::class, 'metal_led_letters'])->name('metal_led_letters');
