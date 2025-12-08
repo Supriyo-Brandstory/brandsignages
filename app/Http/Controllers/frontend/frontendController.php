@@ -33,14 +33,15 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',2)->take(3)->get();
-        return view('frontend.index', compact('seo','blogs'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 2)->take(3)->get();
+        return view('frontend.index', compact('seo', 'blogs'));
     }
 
-    public function services(){
+    public function services()
+    {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-         return view('frontend.service',compact('seo'));
+        return view('frontend.service', compact('seo'));
     }
 
     //Signages
@@ -48,8 +49,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',5)->take(3)->get();
-        return view('frontend.signages.arcylic-signages', compact('seo','blogs'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 5)->take(3)->get();
+        return view('frontend.signages.arcylic-signages', compact('seo', 'blogs'));
     }
     public function metal_signages()
     {
@@ -61,8 +62,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',3)->take(3)->get();
-        return view('frontend.signages.digital-signages', compact('seo','blogs'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 3)->take(3)->get();
+        return view('frontend.signages.digital-signages', compact('seo', 'blogs'));
     }
     public function outdoor_signages()
     {
@@ -80,15 +81,15 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',8)->take(3)->get();
-        return view('frontend.signages.neon-signages', compact('seo','blogs'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 8)->take(3)->get();
+        return view('frontend.signages.neon-signages', compact('seo', 'blogs'));
     }
     public function led_signages()
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',9)->take(3)->get();
-        return view('frontend.signages.led-light-signages', compact('seo','blogs'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 9)->take(3)->get();
+        return view('frontend.signages.led-light-signages', compact('seo', 'blogs'));
     }
     public function hospital_signages()
     {
@@ -258,8 +259,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',5)->take(3)->get();
-        return view('frontend.signagesResion.acrylic-signage-manufacturer-bangalore', compact('seo','blogs'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 5)->take(3)->get();
+        return view('frontend.signagesResion.acrylic-signage-manufacturer-bangalore', compact('seo', 'blogs'));
     }
     public function steel_signage_manufacturer_bangalore()
     {
@@ -271,15 +272,15 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',3)->take(3)->get();
-        return view('frontend.signagesResion.digital-signage-company-bangalore', compact('seo','blogs'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 3)->take(3)->get();
+        return view('frontend.signagesResion.digital-signage-company-bangalore', compact('seo', 'blogs'));
     }
     public function neon_sign_board_bangalore()
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',8)->take(3)->get();
-        return view('frontend.signagesResion.neon-sign-board-bangalore', compact('seo','blogs'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 8)->take(3)->get();
+        return view('frontend.signagesResion.neon-sign-board-bangalore', compact('seo', 'blogs'));
     }
 
     public function signage_in_bangalore()
@@ -294,9 +295,9 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',9)->take(3)->get();
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 9)->take(3)->get();
 
-        return view('frontend.signagesResion.led-sign-board-in-bangalore', compact('seo','blogs'));
+        return view('frontend.signagesResion.led-sign-board-in-bangalore', compact('seo', 'blogs'));
     }
 
     public function hospital_signages_in_bangalore()
@@ -334,8 +335,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',11)->take(3)->get();
-        return view('frontend.signages.name-board-designs-for-shops-bangalore', compact('seo','blogs'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 11)->take(3)->get();
+        return view('frontend.signages.name-board-designs-for-shops-bangalore', compact('seo', 'blogs'));
     }
 
 
@@ -344,8 +345,8 @@ class frontendController extends Controller
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',10)->take(3)->get();
-        return view('frontend.signagesResion.signages-in-chennai', compact('seo','blogs'));
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 10)->take(3)->get();
+        return view('frontend.signagesResion.signages-in-chennai', compact('seo', 'blogs'));
     }
     public function acrylic_signages_in_chennai()
     {
@@ -353,13 +354,14 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.acrylic-signages-in-chennai', compact('seo'));
     }
-    public function metal_sign_in_chennai (){
+    public function metal_sign_in_chennai()
+    {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.metal-stainless-steel-chennai', compact('seo'));
-        
     }
-    public function leading_digital_signages_manufacturer_in_chennai(){
+    public function leading_digital_signages_manufacturer_in_chennai()
+    {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.leading-digital-signages-manufacturer-in-chennai', compact('seo'));
@@ -368,100 +370,104 @@ class frontendController extends Controller
 
     public function custom_neon_sign_board_in_chennai()
     {
-        
+
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.custom-neon-sign-boards-in-chennai', compact('seo'));
     }
-    public function led_display_board_in_chennai(){
+    public function led_display_board_in_chennai()
+    {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.led-display-board-in-chennai', compact('seo'));
     }
-    public function hospital_medical_signages_chennai(){
+    public function hospital_medical_signages_chennai()
+    {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.hospital-medical-signages-chennai', compact('seo'));
     }
-    public function high_quality_safety_signages_in_chennai(){
+    public function high_quality_safety_signages_in_chennai()
+    {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.high-quality-safety-signages-in-chennai', compact('seo'));
     }
-    public function high_quality_restroom_signs_in_chennai(){
+    public function high_quality_restroom_signs_in_chennai()
+    {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signagesResion.high-quality-restroom-signs-in-chennai', compact('seo'));
     }
-//mumbai
+    //mumbai
 
-public function leading_signage_company_in_mumbai(){
-    $currentRoute = Route::current()->uri();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id',7)->take(3)->get();
-    return view('frontend.signagesResion.leading-signage-company-in-mumbai', compact('seo','blogs'));
-    
-}
-public function premium_acrylic_sign_boards_in_mumbai(){
-    $currentRoute = Route::current()->uri();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.signagesResion.premium-acrylic-sign-boards-in-mumbai', compact('seo'));
- 
-}
-public function digital_signages_manufacturer_in_mumbai(){
-    $currentRoute = Route::current()->uri();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.signagesResion.digital-signages-manufacturer-in-mumbai', compact('seo'));
- 
-}
-public function led_display_board_in_mumbai(){
-    $currentRoute = Route::current()->uri();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.signagesResion.led-display-board-in-mumbai', compact('seo'));
- 
-}
-public function hospital_and_medical_signages_in_mumbai(){
-    $currentRoute = Route::current()->uri();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.signagesResion.hospital-and-medical-signages-in-mumbai', compact('seo'));
- 
-}
-public function construction_fire_safety_signages_in_mumbai(){
-    $currentRoute = Route::current()->uri();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.signagesResion.construction-fire-safety-signages-in-mumbai', compact('seo'));
- 
-}
-public function name_plate_signs_manufacturer_mumbai(){
-    $currentRoute = Route::current()->uri();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.signagesResion.name-plate-signs-manufacturer-mumbai', compact('seo'));
- 
-}
-public function office_signages_in_mumbai(){
-    $currentRoute = Route::current()->uri();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.signagesResion.office-signages-in-mumbai', compact('seo'));
- 
-}
-public function stainless_steel_sign_board_manufacturer_mumbai(){
-    $currentRoute = Route::current()->uri();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.signagesResion.stainless-steel-sign-board-manufacturer-mumbai', compact('seo'));
- 
-}
-public function neon_sign_board_in_mumbai(){
-    $currentRoute = Route::current()->uri();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.signagesResion.neon-sign-board-in-mumbai', compact('seo'));
- 
-}
-public function restroom_signs_in_mumbai(){
-    $currentRoute = Route::current()->uri();
-    $seo = SEO::where('page_url', $currentRoute)->first();
-    return view('frontend.signagesResion.restroom-signs-in-mumbai', compact('seo'));
- 
-}
+    public function leading_signage_company_in_mumbai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 7)->take(3)->get();
+        return view('frontend.signagesResion.leading-signage-company-in-mumbai', compact('seo', 'blogs'));
+    }
+    public function premium_acrylic_sign_boards_in_mumbai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.premium-acrylic-sign-boards-in-mumbai', compact('seo'));
+    }
+    public function digital_signages_manufacturer_in_mumbai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.digital-signages-manufacturer-in-mumbai', compact('seo'));
+    }
+    public function led_display_board_in_mumbai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.led-display-board-in-mumbai', compact('seo'));
+    }
+    public function hospital_and_medical_signages_in_mumbai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.hospital-and-medical-signages-in-mumbai', compact('seo'));
+    }
+    public function construction_fire_safety_signages_in_mumbai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.construction-fire-safety-signages-in-mumbai', compact('seo'));
+    }
+    public function name_plate_signs_manufacturer_mumbai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.name-plate-signs-manufacturer-mumbai', compact('seo'));
+    }
+    public function office_signages_in_mumbai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.office-signages-in-mumbai', compact('seo'));
+    }
+    public function stainless_steel_sign_board_manufacturer_mumbai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.stainless-steel-sign-board-manufacturer-mumbai', compact('seo'));
+    }
+    public function neon_sign_board_in_mumbai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.neon-sign-board-in-mumbai', compact('seo'));
+    }
+    public function restroom_signs_in_mumbai()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.restroom-signs-in-mumbai', compact('seo'));
+    }
 
     public function contact_us()
     {
@@ -530,103 +536,103 @@ public function restroom_signs_in_mumbai(){
 
 
 
-//     public function __construct()
-// {
-//     session(['captcha_text' => $this->generateCaptcha()]);
-// }
+    //     public function __construct()
+    // {
+    //     session(['captcha_text' => $this->generateCaptcha()]);
+    // }
 
-// private function generateCaptcha()
-// {
-//     $characters = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
-//     return substr(str_shuffle($characters), 0, 6);
-// }
+    // private function generateCaptcha()
+    // {
+    //     $characters = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+    //     return substr(str_shuffle($characters), 0, 6);
+    // }
 
-// public function store(Request $request)
-// {
-//     // Check captcha
-//     if (strtolower($request->input('captcha_input')) !== strtolower(session('captcha_text'))) {
-//         return redirect()->back()
-//             ->withInput()
-//             ->with('captcha_error', 'Captcha is incorrect. Please try again.')
-//             ->with('captcha_text', $this->generateCaptcha());
-//     }
+    // public function store(Request $request)
+    // {
+    //     // Check captcha
+    //     if (strtolower($request->input('captcha_input')) !== strtolower(session('captcha_text'))) {
+    //         return redirect()->back()
+    //             ->withInput()
+    //             ->with('captcha_error', 'Captcha is incorrect. Please try again.')
+    //             ->with('captcha_text', $this->generateCaptcha());
+    //     }
 
-//     // Validate other fields
-//     $request->validate([
-//         'first_name' => 'required|string|max:255',
-//         'last_name' => 'required|string|max:255',
-//         'email' => 'required|email',
-//         'phone_number' => 'required|string|max:20',
-//         'message' => 'nullable|string|max:5000',
-//     ]);
+    //     // Validate other fields
+    //     $request->validate([
+    //         'first_name' => 'required|string|max:255',
+    //         'last_name' => 'required|string|max:255',
+    //         'email' => 'required|email',
+    //         'phone_number' => 'required|string|max:20',
+    //         'message' => 'nullable|string|max:5000',
+    //     ]);
 
-//     Contact::create($request->except('captcha_input'));
+    //     Contact::create($request->except('captcha_input'));
 
-//     return redirect()->back()
-//         ->with('success', 'Your message has been sent successfully!')
-//         ->with('captcha_text', $this->generateCaptcha());
-// }
+    //     return redirect()->back()
+    //         ->with('success', 'Your message has been sent successfully!')
+    //         ->with('captcha_text', $this->generateCaptcha());
+    // }
 
-public function store(Request $request)
-{
-    $validator = Validator::make($request->all(), [
-        'first_name' => 'required|string|max:255',
-        'last_name' => 'required|string|max:255',
-        'email' => 'required|email',
-        'phone_number' => 'required|string|max:20',
-        'message' => 'nullable|string|max:5000',
-        'captcha' => 'required|captcha',
-    ]);
+    public function store(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phone_number' => 'required|string|max:20',
+            'message' => 'nullable|string|max:5000',
+            'captcha' => 'required|captcha',
+        ]);
 
-    if ($validator->fails()) {
+        if ($validator->fails()) {
+            return redirect()->back()
+                ->withErrors($validator)
+                ->withInput();
+        }
+
+        Contact::create($request->except('captcha', '_token'));
+
         return redirect()->back()
-            ->withErrors($validator)
-            ->withInput();
+            ->with('success', 'Your message has been sent successfully!');
     }
 
-    Contact::create($request->except('captcha', '_token'));
 
-    return redirect()->back()
-        ->with('success', 'Your message has been sent successfully!');
-}
-
-   
     public function blogs(Request $request)
     {
         // Fetch the search query
         $searchQuery = $request->query('search');
-    
+
         if ($searchQuery) {
             // Search blogs by title or content
             $allBlogs = Blog::where('title', 'like', '%' . $searchQuery . '%')
                 ->orWhere('content', 'like', '%' . $searchQuery . '%')
                 ->orderBy('id', 'desc')
                 ->paginate(15);
-    
+
             $categories = BlogCategory::with('subCategories')->get();
-    
+
             // Pass search query to the view for display in the search bar
             return view('frontend.blogs.index', compact('categories', 'allBlogs', 'searchQuery'));
         }
-    
+
         // Fetch the latest 3 blogs for the banner/featured section
         $latestBlogs = Blog::orderBy('id', 'desc')->take(3)->get();
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         // Exclude the latest 3 blogs from the main list of all blogs
         $allBlogs = Blog::whereNotIn('id', $latestBlogs->pluck('id'))->orderBy('id', 'desc')->paginate(15);
-    
+
         // Fetch categories with their subcategories
         $categories = BlogCategory::with('subCategories')->get();
-    
+
         // You can set the banner here (e.g., static content or dynamic query)
         $banner = "Your Banner Content";
-    
+
         // Pass variables to the view
         return view('frontend.blogs.index', compact('categories', 'allBlogs', 'latestBlogs', 'banner', 'seo'));
     }
-    
-    
+
+
     public function blogsVariation(Request $request, $slug)
     {
         // Check if the slug matches a blog category
@@ -635,33 +641,33 @@ public function store(Request $request)
 
 
         $category = BlogCategory::where('slug', $slug)->first();
-    
+
         // Check if it's a blog post slug
         $blog = Blog::join('blog_sub_categories', 'blog_sub_categories.id', '=', 'blogs.blog_sub_category_id')
             ->join('blog_categories', 'blog_categories.id', '=', 'blog_sub_categories.blog_category_id')
             ->select('blogs.*', 'blog_categories.name as category_name', 'blog_sub_categories.name as sub_category_name')
             ->where('blogs.slug', $slug)
             ->first();
-    
-            if ($blog) {
-                $blogSeoData = [];
-            
-                if ($seo && !empty($seo->script)) {
-                    preg_match('/<title>(.*?)<\/title>/', $seo->script, $titleMatch);
-                    preg_match('/<meta name="description" content="(.*?)"/', $seo->script, $descriptionMatch);
-            
-                    $blogSeoData = [
-                        'title' => $titleMatch[1] ?? null,
-                        'meta_description' => $descriptionMatch[1] ?? null,
-                        'canonical_url' => isset($seo->page_url) ? url($seo->page_url) : null,
-                        'image' => $blog->image ?? null,
-                    ];
-                }
-            
-                return view('frontend.blogs.details', compact('blog', 'blogSeoData'));
+
+        if ($blog) {
+            $blogSeoData = [];
+
+            if ($seo && !empty($seo->script)) {
+                preg_match('/<title>(.*?)<\/title>/', $seo->script, $titleMatch);
+                preg_match('/<meta name="description" content="(.*?)"/', $seo->script, $descriptionMatch);
+
+                $blogSeoData = [
+                    'title' => $titleMatch[1] ?? null,
+                    'meta_description' => $descriptionMatch[1] ?? null,
+                    'canonical_url' => isset($seo->page_url) ? url($seo->page_url) : null,
+                    'image' => $blog->image ?? null,
+                ];
             }
-            
-    
+
+            return view('frontend.blogs.details', compact('blog', 'blogSeoData'));
+        }
+
+
         // If a search query exists
         if ($request->has('search') && !empty($request->input('search'))) {
             $searchTerm = $request->input('search');
@@ -674,22 +680,22 @@ public function store(Request $request)
             if (!$subcategory) {
                 abort(404, 'Category or Subcategory not found');
             }
-    
+
             $allBlogs = Blog::where('blog_sub_category_id', $subcategory->id)->orderBy('id', 'desc')->paginate(15);
             $categories = BlogCategory::with('subCategories')->get();
             $category = $subcategory;
-            
+
             return view('frontend.blogs.index', compact('allBlogs', 'categories', 'category', 'seo'));
         } else {
             $subCategoryIds = BlogSubCategory::where('blog_category_id', $category->id)->pluck('id');
             $allBlogs = Blog::whereIn('blog_sub_category_id', $subCategoryIds)->orderBy('id', 'desc')->paginate(15);
         }
-      
+
         $categories = BlogCategory::with('subCategories')->get();
-       
+
         return view('frontend.blogs.index', compact('allBlogs', 'categories', 'category', 'seo'));
     }
-    
+
     public function privacyPolicy()
     {
         $currentRoute = Route::current()->uri();
@@ -734,4 +740,12 @@ public function store(Request $request)
         return response()->json(['message' => 'Inquiry saved successfully!']);
     }
 
+
+
+    public function acrylic_letters()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.acrylic-letters', compact('seo'));
+    }
 }
