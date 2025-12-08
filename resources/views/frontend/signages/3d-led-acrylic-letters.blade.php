@@ -11,7 +11,7 @@
 
 
 
-    <div class="slide-wrapper" style="display: flex; gap: 20px; padding-left: 20px;">
+    <div class="slide-wrapper" style="display: flex; gap: 20px; padding-left: 20px; padding-right: 20px;">
         <!-- Left Side: 3 Visible Thumbnails -->
         <div class="thumbnails-left" style="display: flex; flex-direction: column; gap: 10px; flex-shrink: 0;">
             <img src="/frontend/Images/led-sign-board/3d-acrylic-led-letters-1.webp" class="thumb active" data-index="0" style="width: 80px; height: 80px; cursor: pointer;">
@@ -48,20 +48,22 @@
             <b>₹200 - ₹1,000.00</b> <small>+ GST</small>
         </p>
         <p class="fs-20"><b>3D Acrylic LED Letters-</b> High-quality 3D acrylic LED-illuminated letters curated for
-            clarity, impact, and best performance. We design acrylic LED letters for commercial & residential spaces
-            (office, storefronts, real estate, and high-rise buildings).</p>
+            clarity, impact, and best performance. Crafted with optical-grade acrylic, precision CNC cutting, and LED 
+            illumination, these letters offer a sleek modern finish ideal for high-visibility.</p>
         <p class="price-big">
             <b>Key Features:</b>
         </p>
         <ul class="features-list">
-            <li class="fs-20">Durable, weather-resistant acrylic & aluminum letters</li>
-            <li class="fs-20">Multi-layered structure for a bold, eye-catching look</li>
-            <li class="fs-20">Bright, energy-efficient LED lighting for 24/7 visibility</li>
-            <li class="fs-20">High-visibility reflective elements for maximum impact</li>
-            <li class="fs-20">Fully customizable to match your brand identity</li>
-            <li class="fs-20">Fast & secure professional installation</li>
-            <li class="fs-20">Perfect for shops, offices, hotels, and outdoor signage</li>
+            <li class="fs-20"><b>Built to last:</b> Weather-resistant acrylic with long-term clarity.</li>
+            <li class="fs-20"><b>Sleek 3D depth:</b> Clean multi-layer profile for a bold 3D effect.</li>
+            <li class="fs-20"><b>Uniform Illumination:</b> Energy-efficient LEDs for day & night visibility.</li>
+            <li class="fs-20"><b>Adjustable Contrast:</b> Sharp readability from close or long distance.</li>
+            <li class="fs-20"><b>Custom Finish:</b> Fonts, colors, sizes, and lighting tailored to your brand.</li>
+            <li class="fs-20"><b>Easy installation:</b> Concealed wiring and secure professional mounting.</li>
+            <li class="fs-20"><b>Versatile Use:</b> Perfect for storefronts, offices, and hospitality brands.</li>
         </ul>
+         <p class="fs-20">Acrylic LED Letters are built to impress with premium lighting aesthetics, weather-resistant durability, and 
+            seamless installation ensuring your brand stands out day and night.</p>
 
         <div class="buttons">
             <a href="#information"
@@ -78,7 +80,7 @@
 
         <div class="divider"></div>
         <p class="fs-20">
-            <b>3D Signage Category: <a href="led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;">3D LED Letters</a>, <a href="led-aluminum-channel-letters" style="color: #E43D12; text-decoration: none;">Aluminum LED Letters</a>, <a href="3d-crystal-led-letters" style="color: #E43D12; text-decoration: none;">3D Crystal Letters</a>, <a href="sky-sign-boards" style="color: #E43D12; text-decoration: none;">3D Sky Signs</a></b>
+            <b>Signage Category: <a href="led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;">LED Sign Board</a>, <a href="led-aluminum-channel-letters" style="color: #E43D12; text-decoration: none;">Aluminum LED Letters</a>, <a href="3d-crystal-led-letters" style="color: #E43D12; text-decoration: none;">3D Crystal Letters</a>, <a href="sky-sign-boards" style="color: #E43D12; text-decoration: none;">Sky Signs</a></b>
         </p>
     </div>
 </div>
@@ -313,13 +315,11 @@
                         <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle ">
                     </div>
                     <div class="review-content">
-                        <h6 class="mb-1">John Doe</h6>
+                        <h6 class="mb-1">Amit Verma</h6>
                         <div class="review-rating mb-1">
                             ★★★★☆
                         </div>
-                        <p class="text-muted mb-0">
-                            Great experience, very professional and friendly team!
-                        </p>
+                        <p class="text-muted mb-0">Very happy with the 3D LED Acrylic Letters, they look premium and bright.</p>
                     </div>
                 </div>
 
@@ -328,13 +328,11 @@
                         <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
                     </div>
                     <div class="review-content">
-                        <h6 class="mb-1">Sarah Williams</h6>
+                        <h6 class="mb-1">Priya Nair</h6>
                         <div class="review-rating mb-1">
                             ★★★★★
                         </div>
-                        <p class="text-muted mb-0">
-                            Excellent service! I highly recommend them.
-                        </p>
+                        <p class="text-muted mb-0">Loved the finishing of the Acrylic LED letters, installation was smooth.</p>
                     </div>
                 </div>
 
@@ -343,15 +341,308 @@
                         <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
                     </div>
                     <div class="review-content">
-                        <h6 class="mb-1">Michael Brown</h6>
+                        <h6 class="mb-1">Rohit Sharma</h6>
                         <div class="review-rating mb-1">
                             ★★★☆☆
                         </div>
-                        <p class="text-muted mb-0">
-                            Good but could be a bit faster.
-                        </p>
+                        <p class="text-muted mb-0">I ordered Acrylic LED letters for my restaurant and they completely changed the way the exterior looks. Many customers compliment the board!</p>
                     </div>
                 </div>
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Meera Krishnan</h6>
+                        <div class="review-rating mb-1">
+                            ★★★★☆
+                        </div>
+                        <p class="text-muted mb-0">Installation was smooth and the LED Acrylic Letter signage looks premium. Worth every rupee.</p>
+                    </div>
+                </div>
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Farhan Shaikh</h6>
+                        <div class="review-rating mb-1">
+                            ★★★★☆
+                        </div>
+                        <p class="text-muted mb-0">The acrylic letters are bright and well-constructed. Great visibility even during daylight.</p>
+                    </div>
+                </div>
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Manoj Kumar</h6>
+                        <div class="review-rating mb-1">
+                            ★★★★☆
+                        </div>
+                        <p class="text-muted mb-0">We installed 3D LED Acrylic Letters last month and they still look brand new, even with rain and heat. Very durable.</p>
+                    </div>
+                </div>
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Tanvi Mukherjee</h6>
+                        <div class="review-rating mb-1">
+                            ★★★★★
+                        </div>
+                        <p class="text-muted mb-0">Very classy looking acrylic LED letters. Adds a premium feel to the storefront.</p>
+                    </div>
+                </div>
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Arjun Mehta</h6>
+                        <div class="review-rating mb-1">
+                            ★★★★★
+                        </div>
+                        <p class="text-muted mb-0">The Acrylic LED letters helped our signage stand out. Earlier no one noticed the board now everyone does.</p>
+                    </div>
+                </div>
+                                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Sneha Kulkarni</h6>
+                        <div class="review-rating mb-1">
+                            ★★★★★
+                        </div>
+                        <p class="text-muted mb-0">Nice glow effect at night. Acrylic LED Sign looks elegant and premium.</p>
+                    </div>
+                </div>
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Yogesh Patel</h6>
+                        <div class="review-rating mb-1">
+                            ★★★★★
+                        </div>
+                        <p class="text-muted mb-0">Loved the finishing and the spacing between each acrylic letter. Very neat work.</p>
+                    </div>
+                </div>
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Ayesha Siddiqui</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Honestly didn’t expect this level of finishing. Perfect size and uniform lighting.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Devendra Rawat</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Good job on the LED Acrylic Letter setup. Took slightly longer but result was worth it.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Karan Chopra</h6>
+                        <div class="review-rating mb-1">★★★☆☆</div>
+                        <p class="text-muted mb-0">Very premium product, looks high-end.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Ritu Sharma</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The 3D LED Acrylic Letters are sharp and well aligned. The glow is soft, perfect for my boutique.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Vikram Singh</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Good brightness and perfect look.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Shreya Patil</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">We upgraded our old board to Acrylic LED letters and the difference is huge. Looks very modern now.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Rahul Jain</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Good product and smooth installation.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Divya Das</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The letters look much better than vinyl boards. Feels premium and attracts attention.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Abhishek Chatterjee</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Finishing is excellent and the lighting is uniform. No complaints.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Varsha Gupta</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">The LED Acrylic Letter board is now the highlight of our storefront. Even in daylight it stands out.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Kunal Bansal</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Experience was good overall, happy with the quality.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Payal Thakur</h6>
+                        <div class="review-rating mb-1">★★★☆☆</div>
+                        <p class="text-muted mb-0">The acrylic letters look modern and fresh. Installation team was polite and helpful.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Ankit Pandey</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Worth the investment. These 3D LED Acrylic Letters definitely make branding look premium.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Parth Desai</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Glow is consistent and clear, no dim spots. Very impressed.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Sonal Shah</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Looks elegant and matches the design shared during consultation.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Naveen Reddy</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">We ordered backlit Acrylic LED letters and the final finish matched the digital preview perfectly.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Harshita Rao</h6>
+                        <div class="review-rating mb-1">★★★☆☆</div>
+                        <p class="text-muted mb-0">Simple, clean and premium signage. Exactly what I wanted.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Imran Khan</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">These 3D LED Acrylic Letters make our brand visible from far away. Good for high-traffic roads.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Reema Kulkarni</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Good support, fast delivery and great outcome. Happy customer.</p>
+                    </div>
+                </div>
+
+
+
             </div>
 
             <!-- Bottom Action Buttons -->

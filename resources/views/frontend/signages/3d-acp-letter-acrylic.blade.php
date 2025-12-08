@@ -6,7 +6,7 @@
         <p><a href="{{ route('index') }}">Home</a> / <a href="{{ route('acrylic_letters') }}">Acrylic Letters</a> / 3D Acrylic Letter with ACP</p>
     </div>
 
-    <div class="slide-wrapper" style="display: flex; gap: 20px; padding-left: 20px;">
+    <div class="slide-wrapper" style="display: flex; gap: 20px; padding-left: 20px; padding-right: 20px;">
         <!-- Left Side: 3 Visible Thumbnails -->
         <div class="thumbnails-left" style="display: flex; flex-direction: column; gap: 10px; flex-shrink: 0;">
             <img src="/frontend/Images/led-sign-board/acrylic-led-acp-letter-1.webp" class="thumb active" data-index="0" style="width: 80px; height: 80px; cursor: pointer;">
