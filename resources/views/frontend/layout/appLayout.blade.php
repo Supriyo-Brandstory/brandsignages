@@ -138,8 +138,8 @@
                                             Signage</a>
                                         <a class="dropdown-item" href="{{route('outdoor_signages')}}">Outdoor
                                             Signages</a>
-                                        <a class="dropdown-item" href="{{route('indoor_signages')}}">Interior
-                                            Signages</a>
+                                        <a class="dropdown-item" href="{{route('acrylic_letters')}}">Acrylic Letters
+                                            </a>
                                         <a class="dropdown-item" href="{{route('neon_signages')}}">Neon Glow
                                             Sign</a>
                                         <a class="dropdown-item" href="{{route('led_acrylic_glow_sign')}}">LED Sign Board</a>
@@ -155,6 +155,8 @@
                                             Sign</a>
                                         <a class="dropdown-item" href="{{route('office_signages')}}">Office Name Boards</a>
                                         <a class="dropdown-item" href="{{route('shop_name_board_bangalore')}}">Shop Name Boards</a>
+                                        <a class="dropdown-item" href="{{route('indoor_signages')}}">Interior
+                                            Signages</a>
                                         
                                     </div>
                                     <div class="col-lg-4 col-md-6">
@@ -401,6 +403,7 @@
                         <li><a href="{{route('digital_signages')}}" class="text-decoration-none">Digital Signage</a>
                         </li>
                         <li><a href="{{route('arcylic_signages')}}" class="text-decoration-none">Acrylic Signage</a>
+                         <li><a href="{{route('acrylic_letters')}}" class="text-decoration-none">Acrylic Letter</a></li>
                         </li>
                         <li><a href="{{route('neon_signages')}}" class="text-decoration-none">Neon Sign</a></li>
                         <li><a href="{{route('metal_signages')}}" class="text-decoration-none">Metal Signage</a></li>
