@@ -36,7 +36,7 @@
     <!-- Content stays unchanged -->
     <div class="content">
         <h1 class="hero-banner_title">3D Acrylic Letter with ACP</h1>
-        <p class="subtitle"><b>⭐⭐⭐⭐⭐ (150 customer reviews)</b></p>
+        <p class="subtitle"><b>⭐⭐⭐⭐⭐ (15 Reviews)</b></p>
 
         <div class="divider"></div>
         <p class="price-big">
@@ -72,8 +72,7 @@
 
         <div class="divider"></div>
         <p class="fs-20">
-            <b>3D Signage Category: <a href="led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;">3D LED Letters</a>, <a href="led-aluminum-channel-letters" style="color: #E43D12; text-decoration: none;">Aluminum LED Letters</a>, <a href="3d-crystal-led-letters" style="color: #E43D12; text-decoration: none;">3D Crystal Letters</a>, <a href="sky-sign-boards" style="color: #E43D12; text-decoration: none;">3D Sky Signs</a></b>
-        </p>
+            <b>Category: <a href="arcylic-signages" style="color: #E43D12; text-decoration: none;">Acrylic Signage</a>, <a href="acrylic-letters" style="color: #E43D12; text-decoration: none;">Acrylic Letters</a>, <a href="3d-acrylic-letter-non-lit" style="color: #E43D12; text-decoration: none;">Non-Lit Letter</a>, <a href="3d-led-acrylic-letters" style="color: #E43D12; text-decoration: none;">3D Acrylic LED</a>, <a href="3d-acp-letter-acrylic" style="color: #E43D12; text-decoration: none;">Acrylic with ACP</a></b>
     </div>
 </div>
 
@@ -282,50 +281,160 @@
 
             <div class="tab-pane" id="review">
 
-                <div class="review-item d-flex gap-3 mb-4">
-                    <div class="review-avatar">
-                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle ">
-                    </div>
-                    <div class="review-content">
-                        <h6 class="mb-1">John Doe</h6>
-                        <div class="review-rating mb-1">
-                            ★★★★☆
-                        </div>
-                        <p class="text-muted mb-0">
-                            Great experience, very professional and friendly team!
-                        </p>
-                    </div>
-                </div>
+                        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar">
+                <img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User">
+            </div>
+            <div class="review-content">
+                <h6 class="mb-1">Amit Verma</h6>
+                <div class="review-rating mb-1">★★★★★</div>
+                <p class="text-muted mb-0">The Acrylic letters with ACP came out exactly as we wanted. Clean fonts and perfect spacing.</p>
+            </div>
+        </div>
 
-                <div class="review-item d-flex gap-3 mb-4">
-                    <div class="review-avatar">
-                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
-                    </div>
-                    <div class="review-content">
-                        <h6 class="mb-1">Sarah Williams</h6>
-                        <div class="review-rating mb-1">
-                            ★★★★★
-                        </div>
-                        <p class="text-muted mb-0">
-                            Excellent service! I highly recommend them.
-                        </p>
-                    </div>
-                </div>
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar">
+                <img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User">
+            </div>
+            <div class="review-content">
+                <h6 class="mb-1">Tanya Kaur</h6>
+                <div class="review-rating mb-1">★★★★☆</div>
+                <p class="text-muted mb-0">Looks premium and modern. The ACP background really elevates the Acrylic letters.</p>
+            </div>
+        </div>
 
-                <div class="review-item d-flex gap-3 mb-4">
-                    <div class="review-avatar">
-                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
-                    </div>
-                    <div class="review-content">
-                        <h6 class="mb-1">Michael Brown</h6>
-                        <div class="review-rating mb-1">
-                            ★★★☆☆
-                        </div>
-                        <p class="text-muted mb-0">
-                            Good but could be a bit faster.
-                        </p>
-                    </div>
-                </div>
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar">
+                <img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User">
+            </div>
+            <div class="review-content">
+                <h6 class="mb-1">Rishi Malhotra</h6>
+                <div class="review-rating mb-1">★★★★★</div>
+                <p class="text-muted mb-0">Loved the finishing. The Aluminum Acrylic Letters look sharp and very professional.</p>
+            </div>
+        </div>
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar">
+                <img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User">
+            </div>
+            <div class="review-content">
+                <h6 class="mb-1">Simran D'Souza</h6>
+                <div class="review-rating mb-1">★★★★★</div>
+                <p class="text-muted mb-0">Installation was smooth and the result looks stylish. Perfect match to our branding colours.</p>
+            </div>
+        </div>
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar">
+                <img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User">
+            </div>
+            <div class="review-content">
+                <h6 class="mb-1">Sagar Patil</h6>
+                <div class="review-rating mb-1">★★★★☆</div>
+                <p class="text-muted mb-0">Good quality Acrylic letters with ACP. Worth the investment for outdoor branding.</p>
+            </div>
+        </div>
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar">
+                <img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User">
+            </div>
+            <div class="review-content">
+                <h6 class="mb-1">Madhuri Saxena</h6>
+                <div class="review-rating mb-1">★★★★★</div>
+                <p class="text-muted mb-0">Very premium looking signage. The letters are thick, glossy and perfectly aligned.</p>
+            </div>
+        </div>
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar">
+                <img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User">
+            </div>
+            <div class="review-content">
+                <h6 class="mb-1">Kunal Shetty</h6>
+                <div class="review-rating mb-1">★★★★★</div>
+                <p class="text-muted mb-0">Unexpectedly classy. The ACP back panel combined with Acrylic letters gives a high-end finish.</p>
+            </div>
+        </div>
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar">
+                <img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User">
+            </div>
+            <div class="review-content">
+                <h6 class="mb-1">Arpita Deshmukh</h6>
+                <div class="review-rating mb-1">★★★★☆</div>
+                <p class="text-muted mb-0">Looks beautiful! The Acrylic LED Letter sample was shown but we chose non-lit. Still looks amazing.</p>
+            </div>
+        </div>
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar">
+                <img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User">
+            </div>
+            <div class="review-content">
+                <h6 class="mb-1">Sohail Khan</h6>
+                <div class="review-rating mb-1">★★★★★</div>
+                <p class="text-muted mb-0">Fonts look premium and balanced. Gives the storefront a polished identity.</p>
+            </div>
+        </div>
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar">
+                <img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User">
+            </div>
+            <div class="review-content">
+                <h6 class="mb-1">Megha Bharadwaj</h6>
+                <div class="review-rating mb-1">★★★★★</div>
+                <p class="text-muted mb-0">Professional work and timely delivery. Very happy with the final Acrylic letters with ACP board.</p>
+            </div>
+        </div>
+
+        <!-- continuing -->
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+            <div class="review-content">
+                <h6 class="mb-1">Suresh Iyer</h6><div class="review-rating mb-1">★★★★☆</div>
+                <p class="text-muted mb-0">Simple, neat and effective signage. The matte ACP background looks classy.</p>
+            </div>
+        </div>
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+            <div class="review-content">
+                <h6 class="mb-1">Priya Mehra</h6><div class="review-rating mb-1">★★★★★</div>
+                <p class="text-muted mb-0">The letters are sturdy and weather resistant. Perfect for outdoor use.</p>
+            </div>
+        </div>
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+            <div class="review-content">
+                <h6 class="mb-1">Farhan Shaikh</h6><div class="review-rating mb-1">★★★★★</div>
+                <p class="text-muted mb-0">Very impressed with the precision cutting and polishing of the Acrylic letters.</p>
+            </div>
+        </div>
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+            <div class="review-content">
+                <h6 class="mb-1">Kiran Joshi</h6><div class="review-rating mb-1">★★★★☆</div>
+                <p class="text-muted mb-0">Looks premium and matches our wall texture perfectly. Good craftsmanship.</p>
+            </div>
+        </div>
+
+        <div class="review-item d-flex gap-3 mb-4">
+            <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+            <div class="review-content">
+                <h6 class="mb-1">Ashwin Rao</h6><div class="review-rating mb-1">★★★★★</div>
+                <p class="text-muted mb-0">Strongly recommend. The Aluminum Acrylic Letters look high-end and are easy to maintain.</p>
+            </div>
+        </div>
+
+
+
             </div>
 
 

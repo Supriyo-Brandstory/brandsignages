@@ -38,7 +38,7 @@
     <!-- Content stays unchanged -->
     <div class="content">
         <h1 class="hero-banner_title">Acrylic LED Letter</h1>
-        <p class="subtitle"><b>⭐⭐⭐⭐⭐ (150 customer reviews)</b></p>
+        <p class="subtitle"><b>⭐⭐⭐⭐⭐ (20 Reviews)</b></p>
 
         <div class="divider"></div>
         <p class="price-big">
@@ -75,7 +75,7 @@
 
         <div class="divider"></div>
         <p class="fs-20">
-            <b>3D Signage Category: <a href="led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;">3D LED Letters</a>, <a href="led-aluminum-channel-letters" style="color: #E43D12; text-decoration: none;">Aluminum LED Letters</a>, <a href="3d-crystal-led-letters" style="color: #E43D12; text-decoration: none;">3D Crystal Letters</a>, <a href="sky-sign-boards" style="color: #E43D12; text-decoration: none;">3D Sky Signs</a></b>
+            <b>Category: <a href="arcylic-signages" style="color: #E43D12; text-decoration: none;">Acrylic Signage</a>, <a href="acrylic-letters" style="color: #E43D12; text-decoration: none;">Acrylic Letters</a>, <a href="3d-acrylic-letter-non-lit" style="color: #E43D12; text-decoration: none;">Non-Lit Letter</a>, <a href="3d-led-acrylic-letters" style="color: #E43D12; text-decoration: none;">3D Acrylic LED</a>, <a href="3d-acp-letter-acrylic" style="color: #E43D12; text-decoration: none;">Acrylic with ACP</a></b>
         </p>
     </div>
 </div>
@@ -148,46 +148,63 @@
 
 
                     <hr class="visible-thin-divider">
-                    <p class="price-big"><b>3D LED Acrylic Letters with ACP Base- Benefits</b></p>
+                    <p class="price-big"><b>LED Acrylic Letters- Benefits</b></p>
                     <p class="fs-20">
-                        <b>Striking Brand Presence:</b>
+                        <b>Premium Brand Visibility:</b>
                         <br>
-                        Make your business instantly recognizable with bold, illuminated 3D acrylic letters mounted on ACP panels that command attention
-                        in any environment.
+                        Acrylic LED letters deliver high clarity and brightness, ensuring your brand stands out clearly in both well-lit 
+                        and low-light environments.
                     </p>
 
                     <p class="fs-20">
-                        <b>Maximum Readability:</b>
+                        <b>Precision-Crafted Lettering:</b>
                         <br>
-                        Crisp, clean lettering and vibrant LED illumination ensure your signage is clear and legible from any distance, day or night.
+                        Made using CNC or laser-cutting technology, each letter maintains sharp edges, accurate spacing, and consistent proportions 
+                        for a clean, professional appearance.
                     </p>
 
                     <p class="fs-20">
-                        <b>Sleek & Modern Aesthetic:</b>
+                        <b>Uniform Illumination:</b>
                         <br>
-                        Combines the contemporary look of acrylic with the smooth, durable ACP backing for a refined, high-end appearance.
+                        Built with high-efficiency LEDs and optimized internal diffusion, the light distribution remains smooth without hotspots, 
+                        shadows, or uneven glow.
                     </p>
 
                     <p class="fs-20">
-                        <b>Fully Tailored Design:</b>
+                        <b>Lightweight Yet Durable:</b>
                         <br>
-                        Customize fonts, sizes, colors, finishes, and layouts to perfectly match your brand identity and architectural style.
+                        Acrylic offers an ideal balance of strength and weight resistant to corrosion, cracking, fading, and moisture, making it 
+                        reliable for indoor and outdoor use.
                     </p>
                     <p class="fs-20">
-                        <b>Long-Lasting Durability:</b>
+                        <b>Customizable to Any Style:</b>
                         <br>
-                        Weatherproof, UV-resistant, and low-maintenance materials guarantee lasting performance with minimal upkeep.
+                        Available in multiple thicknesses, gloss levels, colors, and lighting styles (front-lit, edge-lit, back-lit), allowing
+                         seamless alignment with brand identity and design aesthetics.
                     </p>
                     <p class="fs-20">
-                        <b>Versatile Placement:</b>
+                        <b>Energy-Efficient Lighting:</b>
                         <br>
-                        Ideal for storefronts, corporate offices, reception areas, events, and exterior building signage adaptable to any space.
+                        LED technology consumes significantly less power compared to traditional lighting, reducing operational costs while maintaining
+                         high brightness levels.
                     </p>
                     <p class="fs-20">
-                        <b>Smart Investment:</b>
+                        <b>Long Lifespan & Low Maintenance:</b>
                         <br>
-                        Combines premium materials with energy-efficient LED lighting, offering a cost-effective signage solution that enhances
-                        visibility and brand recall.
+                        Minimal upkeep is required LED modules are long-lasting, and the smooth acrylic surface can be easily cleaned without
+                         specialized products.
+                    </p>
+                    <p class="fs-20">
+                        <b>Flexible Installation Options:</b>
+                        <br>
+                        Suitable for reception areas, storefronts, lobby walls, commercial interiors, malls, showrooms, and facade branding without
+                         requiring heavy structural support.
+                    </p>
+                    <p class="fs-20">
+                        <b>Modern, Minimal, & Eye-Catchy:</b>
+                        <br>
+                        The combination of illuminated acrylic and clean cut-letter styling creates a contemporary look ideal for 
+                        premium and modern business environments.
                     </p>
                     <hr class="visible-thin-divider">
                     <p class="price-big"><b>Premier Acrylic Sign Board Manufacturer- Brand Signages</b></p>
@@ -203,29 +220,35 @@
 
                     <hr class="visible-thin-divider">
                     <p class="price-big"><b>Frequently Asked Questions</b></p>
-                    <p class="fs-20"><strong>1. What materials are used in 3D LED Acrylic Letters with ACP?</strong></p>
-                    These letters are crafted from high-quality, weather-resistant acrylic for clarity and durability, mounted on sturdy ACP (Aluminium Composite Panel) for structural support.
-                    High-efficiency LED modules are integrated to provide bright, energy-saving illumination.</p>
+                    <p class="fs-20"><strong>1. What are Acrylic LED Letters made of?</strong></p>
+                    Acrylic LED Letters are made using high-grade acrylic sheets paired with high-efficiency LED lighting modules. The acrylic provides a sleek, premium finish, while the LED lights 
+                    offer bright, uniform illumination suitable for indoor and outdoor environments.</p>
 
-                    <p class="fs-20"><strong>2. Can I customize the size, font, and design of the letters?</strong></p>
-                    <p>Yes, the letters are fully customizable in terms of height, thickness, font style, colors, finishes, and layouts. Logos, taglines, or unique shapes can
-                        also be incorporated to match your brand identity.</p>
+                    <p class="fs-20"><strong>2. Can Acrylic LED Letters be customized in design?</strong></p>
+                    <p>Yes, Acrylic LED Letters can be fully customized. You can choose the size, font style, thickness, lighting style (front-lit, backlit, edge-lit), and color options. Logo 
+                        shapes, symbols, and brand elements can also be added for a tailored visual identity.</p>
 
-                    <p class="fs-20"><strong>3. How easy is the installation process of 3D LED Acrylic Letters on ACP?</strong></p>
-                    <p>Installation is straightforward. The signage can be mounted using studs, adhesive tape, or spacers depending on the surface type, such as walls, glass, metal, or ACP panels.
-                        Mounting hardware and guidance are included for secure and precise placement.</p>
+                    <p class="fs-20"><strong>3. How are Acrylic LED Letters installed?</strong></p>
+                    <p>Installation is simple and depends on the mounting surface. Letters can be fixed using stud mounts, spacers, or adhesive methods. Professional installation ensures proper 
+                        wiring, alignment, and a clean finish.</p>
 
-                    <p class="fs-20"><strong>4. Are these letters suitable for outdoor use?</strong></p>
-                    <p>Absolutely, the combination of weather-resistant acrylic, durable ACP backing, and UV-protected coatings ensures that the letters withstand sunlight, rain, dust, and temperature
-                        variations without fading or losing structural integrity.</p>
+                    <p class="fs-20"><strong>4. Are Acrylic LED Letters suitable for outdoor use?</strong></p>
+                    <p>Yes, they are designed to perform well outdoors. The acrylic and LED components are weather-resistant, UV-protected, and moisture-safe, ensuring long-term
+                         durability even in sun, rain, or dust.</p>
 
-                    <p class="fs-20"><strong>5. What types of applications are ideal for 3D Acrylic LED letters?</strong></p>
-                    <p>They are perfect for storefronts, corporate offices, reception areas, exhibitions, real estate projects, event branding, and exterior building signage- anywhere
-                        you want to create a strong brand impression.</p>
+                    <p class="fs-20"><strong>5. What are the common applications of Acrylic LED Letters?</strong></p>
+                    <p>Acrylic LED Letters are widely used for storefronts, shopfronts, reception branding, office walls, real estate buildings, façade signage, event branding, retail displays,
+                         and directional signage anywhere visibility and modern branding are needed.</p>
 
-                    <p class="fs-20"><strong>6. How is maintenance handled for 3D LED Acrylic Letters on ACP?</strong></p>
-                    <p>Maintenance is minimal. The durable materials and energy-efficient LEDs require only occasional cleaning to remove dust and maintain brightness, ensuring
-                        long-lasting performance with very low upkeep.</p>
+                    <p class="fs-20"><strong>6. What kind of maintenance do Acrylic LED Letters require?</strong></p>
+                    <p>Very minimal upkeep is needed. Occasional dusting or wiping with a soft cloth keeps them clean. The LEDs are long-lasting and energy-efficient, requiring little to no 
+                        maintenance over years of operation.</p>
+                    <p class="fs-20"><strong>7. Can Acrylic LED Letters be made in color-changing or dimmable lighting?</strong></p>
+                    <p>Yes, depending on preference, Acrylic LED Letters can include warm, cool, RGB, or Smart LED modules with options like dimming control or app-based color 
+                        changing (available upon request).</p>
+                    <p class="fs-20"><strong>8. Do Acrylic LED Letters consume a lot of electricity?</strong></p>
+                    <p>No. These letters use energy-efficient LED modules that provide high brightness while consuming low power, making them economical compared to
+                         neon and traditional lighting.</p>
 
                 </div>
 
@@ -239,56 +262,63 @@
 
                 </p>
 
-                <p class="fs-20"><strong>Material</strong></p>
+                <p class="fs-20 mb-2"><strong>Material</strong></p>
                 <ul class="info-list fs-20">
-                    <li>Premium-grade cast acrylic designed for durability and long-term clarity.</li>
-                    <li>UV and weather-resistant material suitable for both indoor and outdoor installations.</li>
-                    <li>Optional aluminum or PVC backing available for large-scale or structural signage needs.</li>
+                    <li>Premium cast acrylic designed for high clarity and precise light transmission.</li>
+                    <li>Integrated energy-efficient LED modules ensure even illumination and consistent brightness over time.</li>
+                    <li>Optional backing materials such as aluminium, PVC, or ACP available for added structural support and outdoor durability.</li>
                 </ul>
 
-                <p class="fs-20"><strong>Size</strong></p>
+                <p class="fs-20 mb-2"><strong>Size</strong></p>
+                    <ul class="info-list fs-20">
+                        <li>Standard sizes available in 6”, 12”, 18”, and 24”.</li>
+                        <li>Fully customizable dimensions based on viewing distance, installation height, or architectural layout.</li>
+                    </ul>
+
+                    <p class="fs-20 mb-2"><strong>Thickness</strong></p>
+                    <ul class="info-list fs-20">
+                        <li>Available in 5mm, 8mm, 10mm, 12mm, and 20mm depending on lighting configuration (front-lit, backlit, or edge-lit).</li>
+                        <li>Custom thickness options available for enhanced depth and premium 3D visual impact.</li>
+                    </ul>
+
+                <p class="fs-20 mb-2"><strong>Weight</strong></p>
                 <ul class="info-list fs-20">
-                    <li>Standard sizes include 6”, 12”, 18”, and 24”.</li>
-                    <li>Custom dimensions available to match branding requirements and installation space.</li>
+                    <li>Lightweight construction for easy handling and efficient installation.</li>
+                    <li>Engineered to support integrated LED wiring without adding heavy load to mounting surfaces.</li>
                 </ul>
 
-                <p class="fs-20"><strong>Thickness</strong></p>
+                <p class="fs-20 mb-2"><strong>LED Options</strong></p>
                 <ul class="info-list fs-20">
-                    <li>Available in 3mm, 5mm, 8mm, 10mm, and 12mm thickness options.</li>
-                    <li>Custom thickness available for increased depth and layered effects.</li>
+                    <li>Available in Warm White, Cool White, RGB, RGB-W, and Smart App-Controlled Color-Changing LEDs.</li>
+                    <li>Energy-efficient, low-heat LED modules designed for long lifespan and consistent brightness.</li>
                 </ul>
 
-                <p class="fs-20"><strong>Weight</strong></p>
+                <p class="fs-20 mb-2"><strong>Color Options</strong></p>
                 <ul class="info-list fs-20">
-                    <li>Lightweight design for easy handling and mounting.</li>
-                    <li>Engineered for secure installation without requiring heavy support structures.</li>
+                    <li>Available in solid, transparent, frosted, matte, or tinted acrylic options.</li>
+                    <li>Face-layer options: mirror gold, mirror silver, rose gold, brushed metal, matte black, chrome, or fully customized brand colors.</li>
                 </ul>
 
-                <p class="fs-20"><strong>Color Options</strong></p>
+                <p class="fs-20 mb-2"><strong>Finish</strong></p>
                 <ul class="info-list fs-20">
-                    <li>Available in a wide range of standard and custom brand colors.</li>
-                    <li>Finish options include solid, transparent, frosted, metallic, and mirror styles.</li>
+                    <li>High-gloss finish available for a clean, modern, and reflective appearance.</li>
+                    <li>Matte and frosted finishes available for diffused, soft light output and subtle branding.</li>
+                    <li>Optional metallic or layered front finish for elevated luxury aesthetics.</li>
                 </ul>
 
-                <p class="fs-20"><strong>Finish</strong></p>
+                <p class="fs-20 mb-2"><strong>Mounting Options</strong></p>
                 <ul class="info-list fs-20">
-                    <li>Gloss finish for a reflective and premium appearance.</li>
-                    <li>Matte finish for a modern and understated look.</li>
-                    <li>Optional textured or brushed style for unique brand character.</li>
+                    <li>Stud mounting for secure and long-term outdoor signage applications.</li>
+                    <li>High-strength adhesive mounting for clean indoor installations on smooth surfaces and glass.</li>
+                    <li>Spacer installation for floating lettering, wall glow effects, and enhanced 3D depth.</li>
                 </ul>
 
-                <p class="fs-20"><strong>Mounting Options</strong></p>
+                <p class="fs-20 mb-2"><strong>Additional Features</strong></p>
                 <ul class="info-list fs-20">
-                    <li>Stud mounting for long-term secure installations.</li>
-                    <li>High-strength adhesive mounting for clean and quick setup on smooth surfaces.</li>
-                    <li>Spacer installation available for raised or 3D floating appearance.</li>
-                </ul>
-
-                <p class="fs-20"><strong>Additional Features</strong></p>
-                <ul class="info-list fs-20">
-                    <li>Weatherproof and UV-resistant to prevent fading or discoloration.</li>
-                    <li>Low-maintenance build requiring only occasional cleaning.</li>
-                    <li>Designed with CNC and laser cutting for accuracy, smooth edges, and premium finish.</li>
+                    <li>Waterproof, dust-resistant, and UV-stable build ensures long-lasting clarity and no yellowing.</li>
+                    <li>LED lifespan of 30,000–50,000+ hours with minimal power consumption.</li>
+                    <li>CNC and laser-cut precision ensures accurate alignment, smooth edges, and premium craftsmanship.</li>
+                    <li>Low-maintenance design requires only occasional cleaning to maintain illumination and appearance.</li>
                 </ul>
 
             </div>
@@ -296,49 +326,185 @@
             <div class="tab-pane" id="review">
 
                 <div class="review-item d-flex gap-3 mb-4">
-                    <div class="review-avatar">
-                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle ">
-                    </div>
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
                     <div class="review-content">
-                        <h6 class="mb-1">John Doe</h6>
-                        <div class="review-rating mb-1">
-                            ★★★★☆
-                        </div>
-                        <p class="text-muted mb-0">
-                            Great experience, very professional and friendly team!
-                        </p>
+                        <h6 class="mb-1">Niharika Shinde</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The Acrylic LED letter signage completely upgraded the look of my boutique. Super clean finish.</p>
                     </div>
                 </div>
 
                 <div class="review-item d-flex gap-3 mb-4">
-                    <div class="review-avatar">
-                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
-                    </div>
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
                     <div class="review-content">
-                        <h6 class="mb-1">Sarah Williams</h6>
-                        <div class="review-rating mb-1">
-                            ★★★★★
-                        </div>
-                        <p class="text-muted mb-0">
-                            Excellent service! I highly recommend them.
-                        </p>
+                        <h6 class="mb-1">Anuj Saxena</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Good brightness and even glow. The LED Acrylic Letter board stands out clearly day and night.</p>
                     </div>
                 </div>
 
                 <div class="review-item d-flex gap-3 mb-4">
-                    <div class="review-avatar">
-                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
-                    </div>
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
                     <div class="review-content">
-                        <h6 class="mb-1">Michael Brown</h6>
-                        <div class="review-rating mb-1">
-                            ★★★☆☆
-                        </div>
-                        <p class="text-muted mb-0">
-                            Good but could be a bit faster.
-                        </p>
+                        <h6 class="mb-1">Sneha Agarwal</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Really impressed with the uniform lighting and finishing. Looks premium.</p>
                     </div>
                 </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Ramesh Pawar</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The Acrylic LED Sign Board has made our restaurant much more visible from the main road.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Bhavika Jain</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Clean edges, good glow and perfect sizing. Looks exactly like the design shared earlier.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Yusuf Ansari</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">High brightness but still soft on eyes. The Acrylic LED Letter board looks outstanding.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Mitali Ghosh</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Nice finishing and proper alignment. The LED Acrylic Letter style feels very elegant.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Tejas Salunke</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Installation team did a professional job. The glow is uniform without any hotspots.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Krishna Narang</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Perfect choice for modern interiors. The Acrylic LED Sign Board looks very premium in person.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Sandeep Mishra</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Exactly what I needed for my clinic signage. Good glow and visibility from far.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Ritika Kapoor</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Very high quality material. Looks luxurious and durable.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Sumit Tiwari</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Worth every rupee. The LED Acrylic Letter design added a premium touch to my store.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Payal Jadhav</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Looks classy and modern. The acrylic surface is smooth and reflective.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Rahul Chauhan</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The Acrylic LED letter signage improved our brand visibility drastically. Great job.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Harleen Kaur</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Perfect lighting tone and neat cable management. Looks premium and neat.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Dev Sharma</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Good detailing and durable build. No flickering or brightness issues.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Zara Sheikh</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Looks stunning after installation. Exactly the premium look we expected.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Vijay Nair</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The Acrylic LED Sign Board is visible from long distance and looks very professional.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Aarav Singh</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Smooth finishing, great brightness and perfect proportion. Highly satisfied.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar"><img src="{{asset('frontend/Images/profile-icon.webp')}}" class="rounded-circle" alt="User"></div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Pranita Kolhe</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Looks rich and polished. The LED glow gives our reception wall a premium feel.</p>
+                    </div>
+                </div>
+
             </div>
 
 

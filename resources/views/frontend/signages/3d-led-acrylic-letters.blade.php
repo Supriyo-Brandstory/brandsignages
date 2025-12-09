@@ -41,7 +41,7 @@
     <!-- Content stays unchanged -->
     <div class="content">
         <h1 class="hero-banner_title">3D Acrylic LED Letter</h1>
-        <p class="subtitle"><b>⭐⭐⭐⭐⭐ (130 customer reviews)</b></p>
+        <p class="subtitle"><b>⭐⭐⭐⭐⭐ (19 Reviews)</b></p>
 
         <div class="divider"></div>
         <p class="price-big">
@@ -80,7 +80,7 @@
 
         <div class="divider"></div>
         <p class="fs-20">
-            <b>Signage Category: <a href="led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;">LED Sign Board</a>, <a href="led-aluminum-channel-letters" style="color: #E43D12; text-decoration: none;">Aluminum LED Letters</a>, <a href="3d-crystal-led-letters" style="color: #E43D12; text-decoration: none;">3D Crystal Letters</a>, <a href="sky-sign-boards" style="color: #E43D12; text-decoration: none;">Sky Signs</a></b>
+            <b>Category: <a href="arcylic-signages" style="color: #E43D12; text-decoration: none;">Acrylic Signage</a>, <a href="acrylic-letters" style="color: #E43D12; text-decoration: none;">Acrylic Letters</a>, <a href="3d-acrylic-letter-non-lit" style="color: #E43D12; text-decoration: none;">Non-Lit Letter</a>, <a href="3d-led-acrylic-letters" style="color: #E43D12; text-decoration: none;">3D Acrylic LED</a>, <a href="3d-acp-letter-acrylic" style="color: #E43D12; text-decoration: none;">Acrylic with ACP</a></b>
         </p>
     </div>
 </div>

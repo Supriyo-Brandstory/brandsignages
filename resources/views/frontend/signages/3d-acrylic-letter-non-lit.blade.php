@@ -37,7 +37,7 @@
     <!-- Content stays unchanged -->
     <div class="content">
         <h1 class="hero-banner_title">3D Acrylic Letter: Non-lit</h1>
-        <p class="subtitle"><b>⭐⭐⭐⭐⭐ (150 customer reviews)</b></p>
+        <p class="subtitle"><b>⭐⭐⭐⭐⭐ (23 customer reviews)</b></p>
 
         <div class="divider"></div>
         <p class="price-big">
@@ -72,8 +72,7 @@
 
         <div class="divider"></div>
         <p class="fs-20">
-            <b>3D Signage Category: <a href="led-acrylic-3d-glow-sign-board" style="color: #E43D12; text-decoration: none;">3D LED Letters</a>, <a href="led-aluminum-channel-letters" style="color: #E43D12; text-decoration: none;">Aluminum LED Letters</a>, <a href="3d-crystal-led-letters" style="color: #E43D12; text-decoration: none;">3D Crystal Letters</a>, <a href="sky-sign-boards" style="color: #E43D12; text-decoration: none;">3D Sky Signs</a></b>
-        </p>
+            <b>Category: <a href="arcylic-signages" style="color: #E43D12; text-decoration: none;">Acrylic Signage</a>, <a href="acrylic-letters" style="color: #E43D12; text-decoration: none;">Acrylic Letters</a>, <a href="3d-acrylic-letter-non-lit" style="color: #E43D12; text-decoration: none;">Non-Lit Letter</a>, <a href="3d-led-acrylic-letters" style="color: #E43D12; text-decoration: none;">3D Acrylic LED</a>, <a href="3d-acp-letter-acrylic" style="color: #E43D12; text-decoration: none;">Acrylic with ACP</a></b>
     </div>
 </div>
 
@@ -104,7 +103,7 @@
                         Whether it’s a business name, logo, or custom text, our 3D acrylic lettering adds depth, style, and lasting durability to any space.
                     </p>
                     <div class="action-buttons">
-                        <a href="led-acrylic-3d-glow-sign-board" class="btn btn-blue fs-20">About LED Sign Board</a>
+                        <a href="acrylic-letters" class="btn btn-blue fs-20">About Acrylic Letters</a>
                         <a href="https://share.google/XAiKaiNNVNKgNJWRG" target="_blank" class="btn btn-red fs-20">Check Latest Reviews</a>
                     </div>
 
@@ -190,7 +189,7 @@
 
                     <hr class="visible-thin-divider">
                     <p class="price-big"><b>Frequently Asked Questions</b></p>
-                    <p class="fs-20"><strong>1. What material are 3D Acrylic Letters made from?</strong></p>
+                    <p class="fs-20"><strong>1. What material are 3D Acrylic Non-lit Letters made from?</strong></p>
                     Our 3D acrylic letters are crafted from premium-grade cast acrylic, known for its clarity, strength, and resistance to fading. This material ensures a clean cut, smooth finish, and long-lasting
                     durability for both indoor and outdoor environments.</p>
 
@@ -206,7 +205,7 @@
                     <p>Installation is simple and secure. Based on surface requirements, letters can be mounted using studs, industrial-grade adhesive tape, or brackets. We provide guidance and support
                         to ensure proper placement and alignment.</p>
 
-                    <p class="fs-20"><strong>5. Do 3D Acrylic Letters require regular maintenance?</strong></p>
+                    <p class="fs-20"><strong>5. Do 3D Acrylic Letters (non-lit) require regular maintenance?</strong></p>
                     <p>Maintenance is minimal. Occasional cleaning with a soft cloth and mild cleaner is enough to keep the letters looking polished and clear. Since they have no electrical components, they
                         require zero servicing beyond surface cleaning.</p>
 
@@ -283,16 +282,12 @@
 
                 <div class="review-item d-flex gap-3 mb-4">
                     <div class="review-avatar">
-                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle ">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
                     </div>
                     <div class="review-content">
-                        <h6 class="mb-1">John Doe</h6>
-                        <div class="review-rating mb-1">
-                            ★★★★☆
-                        </div>
-                        <p class="text-muted mb-0">
-                            Great experience, very professional and friendly team!
-                        </p>
+                        <h6 class="mb-1">Amit Verma</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Loved the finishing of the 3D acrylic letter. Clean edges and great material quality.</p>
                     </div>
                 </div>
 
@@ -301,13 +296,9 @@
                         <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
                     </div>
                     <div class="review-content">
-                        <h6 class="mb-1">Sarah Williams</h6>
-                        <div class="review-rating mb-1">
-                            ★★★★★
-                        </div>
-                        <p class="text-muted mb-0">
-                            Excellent service! I highly recommend them.
-                        </p>
+                        <h6 class="mb-1">Simran Kaur</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Looks premium on the wall. The acrylic letters have a very smooth finish.</p>
                     </div>
                 </div>
 
@@ -316,15 +307,289 @@
                         <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
                     </div>
                     <div class="review-content">
-                        <h6 class="mb-1">Michael Brown</h6>
-                        <div class="review-rating mb-1">
-                            ★★★☆☆
-                        </div>
-                        <p class="text-muted mb-0">
-                            Good but could be a bit faster.
-                        </p>
+                        <h6 class="mb-1">Rohit Sharma</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Good work. The 3D acrylic letters give my store a clean and professional feel.</p>
                     </div>
                 </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Ayesha Siddiqui</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Simple, neat and elegant. Exactly what I needed.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Nikhil Mehta</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The material feels sturdy and long-lasting. Good job.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Ritu Sharma</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The 3D acrylic letter signage completely changed the look of my boutique. Minimal but classy.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Karan Singh</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Alignment and spacing were perfect. Looks professional.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Tanya Arora</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The acrylic letters have a premium look. Very happy with the outcome.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Vivek Pillai</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Looks solid. The 3D acrylic letters give a high-end feel without being flashy.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Payal Thakur</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Loved the smooth matte look. Simple and elegant.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Rajesh Kumar</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Good quality and installation team was polite and fast.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Sneha Desai</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The acrylic 3D letters look flawless. Smooth finish and clean edges.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Imran Khan</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Exactly what I had in mind. Neat and minimal branding.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Dhruv Patel</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Perfect sizing and thickness. The 3D acrylic letter looks very premium on the entrance wall.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Lavanya Rao</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Looks great. Good for office branding.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Jayant Chhabra</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Super sleek work. Glad I chose 3D acrylic letters instead of vinyl.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Mansi Warma</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Looks premium and minimal — just how I wanted.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Aditya Joshi</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The 3D acrylic letters added a very modern touch to our reception area.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Roshni Paul</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Nice work. Clean finishing and sturdy letters.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Farhan Siddiqui</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Loved the precision cutting. No rough edges at all.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Vaishnavi Pawar</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The acrylic sign immediately makes the storefront look cleaner and more premium.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Saurabh Gupta</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Good results. Exactly like shown in the mock-up.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Harini Subramaniam</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Smooth, classy and minimal — love the look of these acrylic letters.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Abhay Thakur</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">The 3D acrylic letter work looks solid and durable. Very satisfied.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Shalini Verma</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Perfect for a clean professional brand look. Highly recommend.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Ashwin Joseph</h6>
+                        <div class="review-rating mb-1">★★★★☆</div>
+                        <p class="text-muted mb-0">Nice finish. Great upgrade compared to printed boards.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Pooja Chauhan</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Looks neat and premium. Installation team handled everything smoothly.</p>
+                    </div>
+                </div>
+
+                <div class="review-item d-flex gap-3 mb-4">
+                    <div class="review-avatar">
+                        <img src="{{asset('frontend/Images/profile-icon.webp')}}" alt="User" class="rounded-circle">
+                    </div>
+                    <div class="review-content">
+                        <h6 class="mb-1">Harsh Rajput</h6>
+                        <div class="review-rating mb-1">★★★★★</div>
+                        <p class="text-muted mb-0">Very happy with the final look. The acrylic letters give a premium identity to the brand.</p>
+                    </div>
+                </div>
+
+
+
             </div>
 
 
