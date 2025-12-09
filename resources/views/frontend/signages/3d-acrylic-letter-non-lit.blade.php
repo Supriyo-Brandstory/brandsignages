@@ -617,7 +617,7 @@
 
                         <!-- 5 Star Rating -->
                         <p class="mb-1 text-warning">
-                            ⭐⭐⭐⭐⭐ <span class="text-dark">(120 reviews)</span>
+                            ⭐⭐⭐⭐⭐ <span class="text-dark">(23 reviews)</span>
                         </p>
 
                         <!-- Small Description -->
@@ -638,7 +638,7 @@
                         <p class="mb-1 fw-bold text-black">₹100 – ₹800</p>
 
                         <p class="mb-1 text-warning">
-                            ⭐⭐⭐⭐⭐ <span class="text-dark">(98 reviews)</span>
+                            ⭐⭐⭐⭐⭐ <span class="text-dark">(15 reviews)</span>
                         </p>
 
                         <p class="text-muted small">Durable ACP base with premium acrylic finish.</p>
@@ -658,7 +658,7 @@
                         <p class="mb-1 fw-bold text-black">₹200 – ₹1,000</p>
 
                         <p class="mb-1 text-warning">
-                            ⭐⭐⭐⭐⭐ <span class="text-dark">(150 reviews)</span>
+                            ⭐⭐⭐⭐⭐ <span class="text-dark">(19 reviews)</span>
                         </p>
 
                         <p class="text-muted small">Bright LED-lit acrylic letters for high visibility.</p>
@@ -678,7 +678,7 @@
                         <p class="mb-1 fw-bold text-black">₹200 – ₹1,000</p>
 
                         <p class="mb-1 text-warning">
-                            ⭐⭐⭐⭐⭐ <span class="text-dark">(110 reviews)</span>
+                            ⭐⭐⭐⭐⭐ <span class="text-dark">(20 reviews)</span>
                         </p>
 
                         <p class="text-muted small">Elegant LED acrylic letters for indoor & outdoor use.</p>
