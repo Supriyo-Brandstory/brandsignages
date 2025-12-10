@@ -338,8 +338,12 @@ class frontendController extends Controller
         $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 11)->take(3)->get();
         return view('frontend.signages.name-board-designs-for-shops-bangalore', compact('seo', 'blogs'));
     }
-
-
+    public function name_board_office_bangalore()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.name-board-design-for-office-bangalore', compact('seo'));
+    }
     //chennai
     public function signage_company_in_chennai()
     {

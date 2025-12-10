@@ -305,50 +305,10 @@
             </div>
         </section>
 
-    <section class="home-page mb-5">
-         <div class="pointing">
-            <div class="container point">
-                <div class="ledx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
-                        alt="LED Sign Board">
-                </div>
-                <div class="outdoorx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
-                        alt="Outdoor Signage">
-                </div>
-                <div class="digitalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
-                        alt="Digital Signage">
-                </div>
-                <div class="metalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
-                        alt="Metal Signage">
-                </div>
-                <div class="acrylicx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
-                        alt="Acrylic Signage">
-                </div>
-
-
-
-
-            </div>
-        </div>
-    </section>
     
 
 
-    <!--<section class="instant-pricing">
+    <section class="instant-pricing">
             <div class="container">
                 <h2>Best Signage Board Makers in Bangalore - 24 Hour Production Line</h2>
                 <p>We are the best <b>Signage Board</b> Manufacturers in Bangalore with 24-hours production capability and expertise.</p>
@@ -403,7 +363,7 @@
                     </div>
                 </div>
             </div>
-    </section>-->
+    </section>
 
 
 

@@ -2617,7 +2617,7 @@ ul.brand-list {
     }
 }
 
-.scroll-loop-wrapper {
+.scroll-loop-wrap {
     border-radius: 0px;
 
     .gridbox {
@@ -2626,7 +2626,7 @@ ul.brand-list {
         gap: 20px;
     }
 
-    .scroll-card {
+    .scroll-card-1 {
         height: auto;
         border-radius: 6px;
 
