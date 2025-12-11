@@ -314,9 +314,9 @@
 
  <section class="instant-pricing pt-5">
             <div class="container">
-                <h2>Your Office Name Board Design Built with Precision Manufacturing</h2>
-                <p>The office name board design is a blend of class and credibility, crafted using <b>top-tier materials</b>, designed for 
-                    effortless visibility, and acts as a signature of your identity.  At Brand Signages we are the best office name board design 
+                <h2>Office Name Board Design with <br>Precision Manufacturing</h2>
+                <p>The office name board design delivers a rare mix of refined elegance and brand authority, 
+                    built with premium materials and engineered for clear, effortless visibility.  At Brand Signages we are the best office name board design 
                     makers with <b>24-hours production</b> capability and expertise.</p>
                 <div class="scroll-loop-wrapper">
                     <div class="scroll-loop-track">
