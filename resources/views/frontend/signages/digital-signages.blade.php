@@ -12,130 +12,26 @@
     </style>
 
     <section class="hero-banner"
-        style="background-image: url('{{ asset('/frontend/Images/digital-signages-banner.webp') }}');">
+        style="background-image: url('{{ asset('/frontend/Images/digital-signages-banner.webp') }}'); ">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-12">
-                    <h1 class="hero-banner_title">Best Digital Signage Manufacturers | High-Impact Displays</h1>
-
-                    <a href="https://brandsignages.com/contact-us" class="mt-3 d-block">
-                        <button class="contact-btn ">Get Free Quote</button>
+                <div class="col-md-12">
+                    <h1 class="hero-banner_title">Digital Signage Manufacturers<br> for High-Impact Displays</h1>
+                    <p>Brand Signages is a premier digital signage manufacturer with 12+ years <br>of experience. 
+                    We create digital displays, interactive kiosk for all industries. With <br>in-house manufacturing setup 
+                    in Bangalore, we deliver PAN India services.
+                    </p>
+                    <a href="https://brandsignages.com/contact-us">
+                        <button class="contact-btn">Book a Demo Call</button>
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- About Section -->
-    <section>
-        <div class="container pt-5">
-            <h2 class="hero-title">Your Trusted Partner for Digital Signages <br>in Bangalore & India</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/digital-signages-banner-1.webp')}}" alt="Digital Signage installed in retail space by Brand Signages"
-                            class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-
-                    <p class="fs-20">
-                        Digital signages are designed to grab attention with visually appealing displays. Compared to other signages it showcases advertising and promotional information more effectively. 
-                        High-resolution screens and real-time information display make it the most prominent option for top businesses. Retail spaces, restaurants, and public spaces can leverage the benefits 
-                        by highlighting offers, new arrivals, and more.
-                    </p>
-                    <p class=" fs-20">
-                        <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>Brand Signages</strong></a> is the pioneering digital signage manufacturer, providing inventive and personalized digital
-                         signage solutions for organizations. We have full-scale facility for digital signage display manufacturing, 
-                         software, and CMS technology experts. We are certified digital signage vendors, offering digital signage 
-                         services in pan India.
-                    </p>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="bgrowth-slider-section">
-        <div class="bgrowth-header">
-            <h2>Digital Signage Display Features</h2>
-
-        </div>
-
-        <div class="swiper bgrowth-swiper-2 container">
-            <div class="swiper-pagination"></div> <!-- should be inside swiper, before swiper-wrapper -->
-            <div class="swiper-wrapper">
-
-                <!-- Slide 1 -->
-                <div class="swiper-slide bgrowth-card">
-                    <div class="row align">
-                        <div class="col-12 col-md-5 pb-0">
-                            <img src="{{ asset('frontend/Images/Smart-Digital-Displays.webp') }}"
-                                alt="Smart-Digital-Displays" class="bgrowth-img-2" />
-                        </div>
-                        <div class="col-12 col-md-7  d-flex flex-column justify-content-center ">
-                            <div class="bgrowth-content ">
-                                <h3 class="mb-3">Smart Digital Displays</h3>
-                                <p>
-                                    <b>Built-In Playback:</b> Operates smoothly without the need for external media players.
-                                </p>
-                                <p><b>Remote Control:</b> Easily control, update, or reboot displays from any location.</p>
-                                <p><b>Wide Compatibility:</b> Compatible with Android, LG webOS, Samsung Tizen, and Windows.</p>
-                                <p class=""><b>Easy Scheduling:</b> Effortlessly schedule playlists, media content, and campaigns.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide bgrowth-card">
-                    <div class="row align">
-                        <div class="col-12 col-md-6 pb-0">
-                            <img src="{{ asset('frontend/Images/smart-digital-Specifications.webp') }}"
-                                alt="smart-digital-Specifications" class="bgrowth-img-2" />
-                        </div>
-                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                            <div class="bgrowth-content">
-                                <h3 class="mb-3">Specifications</h3>
-                                <p><b>Display Type:</b> LED / OLED / E-Ink (Customizable)</p>
-                                <p><b>Body Material:</b> Aluminum, acrylic, Polycarbonate, Glass</p>
-                                <p><b>Lighting Type:</b> LED / Backlit LCD for superior brightness</p>
-                                <p><b>Available Sizes:</b> 15-inch, 18-inch, 24-inch, 32-inch, 55-inch</p>
-                                <p><b>Shape Options:</b> Rectangle, Square, Curved, Ultra-Wide</p>
-                                <p><b>Viewing Angle:</b> 178° - 270° for maximum visibility</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide bgrowth-card">
-                    <div class="row align">
-                        <div class="col-12 col-md-6 pb-0">
-                            <img src="{{ asset('frontend/Images/smar-digital-Installation-Support.webp') }}"
-                                alt="Digital Signage Installation and Support" class="bgrowth-img-2" />
-                        </div>
-                        <div class="col-12 col-md-6  d-flex flex-column justify-content-center ">
-                            <div class="bgrowth-content">
-                                <h3 class="mb-3">Installation & Support</h3>
-                                <p><b>Site Planning:</b> We evaluate your space to recommend optimal screen placement.</p>
-                                <p><b>Professional Installation:</b> Secure and clean setup tailored to your environment.</p>
-                                <p><b>System Setup:</b> Complete hardware and software configuration for smooth performance.</p>
-                                <p><b>After-Sales Support:</b> Ongoing assistance to ensure uninterrupted operation.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- Add more slides if needed -->
-            </div>
-
-        </div>
-    </section>
-
-    <section class="We-Elevate-Brands-section py-5">
+        <section class="We-Elevate-Brands-section py-5">
         <div class="container">
         <div class="text-center mb-4">
-            <h2 class="We-Elevate-Brands-heading fw-bold">We Elevate Brands with Digital Signages<br>That Makes a Lasting Impression  </h2>
+            <h2 class="We-Elevate-Brands-heading fw-bold">Explore Commercial-Grade Digital Signages <br>with Inbuilt Smart Software</h2>
         </div>
 
         <div class="position-relative">
@@ -144,76 +40,46 @@
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/corporate-digital-signage.webp')}}" class="card-img-center"
-                                alt="Digital Signage for Corporate Office">
+                            <img src="{{asset('frontend/Images/home/commercial-display.webp')}}" class="card-img-center"
+                                alt="Commercial Display">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Corporate Office</a></h5>
-                                <p class="We-Elevate-Brands-text">We provide digital signage solutions for corporate offices, designed to enhance 
-                                    internal communication and boost workplace engagement.
-                                </p>
+                                <h5 class="We-Elevate-Brands-title"><a href="#">Commercial Display</a></h5>
+                                <p class="We-Elevate-Brands-text">High-brightness commercial displays, Full HD clarity to Ultra HD brilliance, available in screens size as 98-inch, perfect
+                                     for dynamic digital signage, delivering vibrant visuals and experiences.</p>
                             </div>
                         </div>
                     </div>
 
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/corporate-digital-signage.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="#">Touch Screen Kiosk</a></h5>
+                                <p class="We-Elevate-Brands-text">Engage customers with touch-screen kiosk. Sleek rectangular frame, this interactive kiosk functions as an intuitive input 
+                                    device. Like a smartphone, it runs CMS software, providing real-time assistance and information.</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
                             <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
-                                alt="Digital Signage for Retail">
+                                alt="Digital Standee Display">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Retail Signage</a></h5>
-                                <p class="We-Elevate-Brands-text">We provide vibrant digital display boards that attract customers and promote products. 
-                                    Our solutions enable retailers to showcase promotions, highlight new arrivals, and create an engaging shopping experience 
-                                    that drives sales.
-                                </p>
+                                <h5 class="We-Elevate-Brands-title"><a href="#">Digital Standee Display</a></h5>
+                                <p class="We-Elevate-Brands-text">Our digital standees feature customizable colors and branding, offering commercial-grade displays in India. Enjoy an immersive
+                                     viewing experience with crisp visuals, superior audio, and high-quality video wall performance.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/indoor-digital-sgn.webp')}}" class="card-img-center"
-                                alt="Indoor Digital Displays">
-                            <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Indoor Digital Displays</a></h5>
-                                <p class="We-Elevate-Brands-text">Our indoor digital signage displays are ideal for retail outlets, offices, and lobbies. 
-                                    They depict dynamic visuals and vibrant content to engross guests and render information effectively. Brand Signages
-                                     is a trusted provider of digital display boards.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/digital-sign-sample-3.webp')}}" class="card-img-center"
-                                alt="Outdoor Digital Displays">
-                            <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Outdoor Digital Signage</a></h5>
-                                <p class="We-Elevate-Brands-text">Shaped to bear rough weather situations, our outdoor LED displays are perfect for advertisements, 
-                                    promotions, and proclamations. These signage solutions render high observability and extraordinary resistance, making them 
-                                    appropriate for several industries. </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/digital-sign-sample.webp')}}" class="card-img-center"
-                                alt="Interactive Kiosks">
-                            <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Interactive Kiosks</a></h5>
-                                <p class="We-Elevate-Brands-text">We provide innovative touchscreen kiosks that merge easily operationable interfaces with creative technology.
-                                     These interactive flat panels are ideal for customer engagement, offering a communicative method to deliver information, browse products, 
-                                     or make orders.</p>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
                             <img src="{{asset('frontend/Images/home/video-walls.webp')}}" class="card-img-center"
-                                alt="Retail Signages">
+                                alt="Digital Video Walls">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">LED Video Walls</a></h5>
-                                <p class="We-Elevate-Brands-text">Generate a long-lasting impact and attract visitors with our remarkable LED video walls. These large-pattern digital signage displays 
-                                    are ideal for events, exhibitions, and commercial places, rendering enveloping visuals and effortless performance. </p>
+                                <h5 class="We-Elevate-Brands-title"><a href="#">Display Video Wall</a></h5>
+                                <p class="We-Elevate-Brands-text">Showcase your products and services with our high-brightness video walls, available in 26” and 55” screens. Designed for commercial 
+                                    impact, these walls deliver stunning visuals and immersive experiences. </p>
                             </div>
                         </div>
                     </div>
@@ -221,11 +87,23 @@
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
                             <img src="{{asset('frontend/Images/home/outdoor-sign.webp')}}" class="card-img-center"
-                                alt="Outdoor Business Signages">
+                                alt="Outdoor Signage Display">
                             <div class="card-body pt-0">
-                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/restaurant-signages">Menu Boards for Restaurants</a></h5>
-                                <p class="We-Elevate-Brands-text">Our made-to-order digital menu boards are crafted to improve your restaurant’s attraction. With easily updated 
-                                    displays, you can illustrate menu stuff, promotions, and daily specials immediately, guaranteeing a smooth customer experience.</p>
+                                <h5 class="We-Elevate-Brands-title"><a href="#">Outdoor Signage Display</a></h5>
+                                <p class="We-Elevate-Brands-text">Experience durable, all-weather signage built for maximum visibility and impact. We provide premium outdoor and indoor display boards, including
+                                     digital notice boards, successfully deployed across India’s major cities. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/flat-panel-display.webp')}}" class="card-img-center"
+                                alt="Flat Panel Display">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="#">Flat Panel Display</a></h5>
+                                <p class="We-Elevate-Brands-text">Enhance engagement with our Interactive Flat Panel Display, featuring cutting-edge visuals and advanced touch technology. Comes with integrated 
+                                    digital signage software, delivering complete, seamless signage solutions.</p>
                             </div>
                         </div>
                     </div>
@@ -242,137 +120,285 @@
         </div>
 
         <div class="text-center mt-4">
-            <a href="https://brandsignages.com/services" class="btn-we-elevate">View All Services</a>
+            <a href="contact-us" class="btn-we-elevate">Book a Demo Call</a>
         </div>
         </div>
     </section>
+    <!-- About Section -->
+         <section class="Sign_Boards">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
 
-    <!--<section class="why-choose-signage">
-        <div class="why-choose-container container">
-            <h2 class="why-title mb-3">Types of Digital Signages We Offer</h2>
-
-
-            <div class="why-grid">
-                <div class="why-box">
-                    <img src="{{asset('frontend/Images/Corporate-Office.png')}}" alt="Digital Signage for Corporate Office" class="why-icon">
-                    <h3>Corporate Office</h3>
-                    <p>
-                        We provide digital signage solutions for corporate offices, designed to enhance internal communication and 
-                        boost workplace engagement. Perform real-time announcements and performance metrics to internal updates and branding 
-                        messages with our digital signage solutions for corporate office.
-                    </p>
                 </div>
+                <div class="col-md-8 col-12 right-col">
+                    <h2>The Home of Premium Digital Signage- Excellence Beyond Expectations</h2>
+                    <p>Brand Signages is a premier <b>digital signage brand</b> with 12+ years of expertise. With a long-standing foundation,
+                         we have manufacturing excellence for digital displays, interactive kiosks, commercial displays, and more. We are committed to deliver products with
+                          unmatched quality and  work with long-term business principles putting 100% efforts in digital signage manufacturing.  </p>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="Sign_Boards-box">
+                                <img src="{{ asset('frontend/Images/home/premium-quality.png') }}"
+                                    alt="Brand Signages Provides Supitor Quality Materials" class="img-fluid">
+                                <h3>Superior Quality</h3>
+                                <p>We craft digital signage using premium materials and advanced technology, ensuring long-lasting 
+                                    performance, high clarity, and exceptional visual appeal.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="Sign_Boards-box">
+                                <img src="{{ asset('frontend/Images/home/premium-quality.png') }}"
+                                    alt="We work with Expert Precision " class="img-fluid">
+                                <h3>Technical Expertise</h3>
+                                <p>Our tech-focused team invests in continuous R&D to deliver innovative, modern, and highly efficient
+                                     digital signage solutions for every business.  
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="Sign_Boards-box">
+                                <img src="{{ asset('frontend/Images/home/premium-quality.png') }}"
+                                    alt="Our products are of Premium Quality " class="img-fluid">
+                                <h3>Unmatched Expertise</h3>
+                                <p>With 12+ years in the digital and LED signage industry, we deliver deep expertise and trend-forward 
+                                    solutions for every project. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="Sign_Boards-box">
+                                <img src="{{ asset('frontend/Images/home/premium-quality.png') }}"
+                                    alt="We provide Transparent Pricing and Timely Delivery" class="img-fluid">
+                                <h3>Transparent Pricing</h3>
+                                <p>We provide clear, detailed, and competitive pricing with no hidden charges, helping you plan
+                                     confidently and know exactly what you receive.</p>
 
-                <div class="why-box">
-                    <img src="{{asset('frontend/Images/Retail.png')}}" alt="Digitl Signage for Retail Businesses" class="why-icon">
-                    <h3>Retail</h3>
-                    <p>
-                        We provide vibrant digital display boards that attract customers and promote products. Our solutions
-                        enable retailers to showcase promotions, highlight new arrivals, and create an engaging shopping
-                        experience that drives sales.
-                    </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="why-box">
-                    <img src="{{asset('frontend/Images/Hospitality.png')}}" alt="Digital Signage for Hospitality Sector" class="why-icon">
-                    <h3>Hospitality</h3>
-                    <p>
-                        Our interactive digital signages elevate the guest experience across hospitality venues by offering
-                        dynamic, real-time information. Simplifying check-ins and wayfinding to promoting on-site
-                        dining, amenities, and events with our digital signages.
-                    </p>
-                </div>
-
-                <div class="why-box">
-                    <img src="{{asset('frontend/Images/Food.png')}}" alt="Digital Signages for Restaurants" class="why-icon">
-                    <h3>Food</h3>
-                    <p>
-                        We design <a href="https://brandsignages.com/restaurant-signages" style="color: #E43D12">digital
-                            menu boards</a> to be placed in restaurants and cafes to boost customer engagement. These boards serve up menus, prices, and offers in real time, fresh, and up-to-date.
-                    </p>
-                </div>
-
-                <div class="why-box">
-                    <img src="{{asset('frontend/Images/Banking.png')}}" alt="Digital Signages for Banking" class="why-icon">
-                    <h3>Banking</h3>
-                    <p>
-                        In banking, digital signage can streamline customer interactions by displaying wait times, service
-                        information, and promotional offers. Our solutions help banks improve customer service while
-                        maintaining a professional appearance.
-                    </p>
-                </div>
-                <div class="why-box">
-                    <img src="{{asset('frontend/Images/Education.png')}}" alt="Digital Signages for Education" class="why-icon">
-                    <h3>Education</h3>
-                    <p>
-                        As a digital signage company, our products enhance communication among students, staff, and
-                        visitors. You can use them to display schedules and promote events to create an informed campus
-                        environment.
-                    </p>
-                </div>
-
-
             </div>
         </div>
-    </section>-->
+    </section>
+    
 
+    <section class="bgrowth-slider-section">
+        <div class="bgrowth-header">
+            <h2>Smart and Impactful Digital Signage <br>Solutions for Every Industry</h2>
 
-    <section>
+        </div>
+
+        <div class="swiper bgrowth-swiper-2 container">
+            <div class="swiper-pagination"></div> <!-- should be inside swiper, before swiper-wrapper -->
+            <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide bgrowth-card">
+                    <div class="row align">
+                        <div class="col-12 col-md-5 pb-0">
+                            <img src="{{ asset('frontend/Images/home/digital-signage-restaurant.webp') }}"
+                                alt="Smart-Digital-Displays" class="bgrowth-img-2" />
+                        </div>
+                        <div class="col-12 col-md-7  d-flex flex-column justify-content-center ">
+                            <div class="bgrowth-content ">
+                                <h3 class="mb-3">Hotels, Restaurants, & QSRs</h3>
+                                <p>
+                                 Effective advertising are important for hotels and restaurants. Engaging visuals, videos, and promotional 
+                                 campaigns capture attention. With our customized <b>Digital Displays</b>, restaurants and hotels across India can showcase
+                                  dynamic content. We provide in-built Signage Software for <b>real-time updates</b>, ensuring your messages 
+                                  stay fresh and relevant. Our digital signage solutions include:</p>
+                                    <ul class="fs-20">
+                                    <li>Digital Menu Boards</li>
+                                    <li>Self-Ordering Kiosks</li>
+                                    <li>Digital Standees</li>
+                                    <li>Custom Digital Walls</li>
+                                    </ul>
+                                <a href="contact-us">
+                            <button class="contact-btn">Book Your Order</button>
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide bgrowth-card">
+                    <div class="row align">
+                        <div class="col-12 col-md-6 pb-0">
+                            <img src="{{ asset('frontend/Images/home/digital-signage-retail.webp') }}"
+                                alt="smart-digital-Specifications" class="bgrowth-img-2" />
+                        </div>
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                            <div class="bgrowth-content">
+                                <h3 class="mb-3">Retail Kiosk</h3>
+                                <p>
+                                 Brand Signages delivers advanced hardware and software solutions for retail, enabling <b>dynamic kiosks</b> and <b>digital signage</b>.
+                                  Retail businesses can <b>showcase products</b>, promotions, and engaging content in one place, capturing attention, enhancing
+                                   engagement, and boosting sales with visually immersive, flexible, and modern in-store experiences. Our 
+                                   digital signage solutions include:</p>
+                                   <ul class="fs-20">
+                                    <li>Display LED Wall</li>
+                                    <li>Digital Standee</li>
+                                    <li>Custom Window Displays</li>
+                                    <li>Interactive Displays</li>
+                                    </ul>
+                                    <a href="contact-us">
+                            <button class="contact-btn">Book Your Order</button>
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide bgrowth-card">
+                    <div class="row align">
+                        <div class="col-12 col-md-6 pb-0">
+                            <img src="{{ asset('frontend/Images/home/digital-signage-hospital.webp') }}"
+                                alt="Digital Signage Display for Hospital" class="bgrowth-img-2" />
+                        </div>
+                        <div class="col-12 col-md-6  d-flex flex-column justify-content-center ">
+                            <div class="bgrowth-content">
+                                <h3 class="mb-3">Digital Signage for Hospitals</h3>
+                                <p>
+                                 Brand Signages Digital Signage transforms hospitals with <b>interactive solutions</b> like wayfinding, self-service kiosks, and digital walls.
+                                  Display informative content about <b>doctors, services</b>, and <b>health tips</b>, enhancing patient engagement while reducing stress and improving overall
+                                   hospital experience. Our digital signage solutions include:</p>
+                                   <ul class="fs-20">
+                                        <li>Touch Screen Kiosk</li>
+                                        <li>Digital Standees</li>
+                                        <li>Video Wall</li>
+                                        <li>Queue Management Display</li>
+                                        </ul>
+                                        <a href="contact-us">
+                            <button class="contact-btn">Book Your Order</button>
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="swiper-slide bgrowth-card">
+                    <div class="row align">
+                        <div class="col-12 col-md-6 pb-0">
+                            <img src="{{ asset('frontend/Images/home/digital-display-for-bank.webp') }}"
+                                alt="Digital Signage for Banks" class="bgrowth-img-2" />
+                        </div>
+                        <div class="col-12 col-md-6  d-flex flex-column justify-content-center ">
+                            <div class="bgrowth-content">
+                                <h3 class="mb-3">Bank & Financial Kisok</h3>
+                                <p>
+                                 Brand Signages digital signage transforms banks and financial institutions by streamlining information updates and reducing
+                                  customer wait times. These solutions <b>improve operational efficiency</b>, elevate brand presence, and deliver a modern, <b>seamless
+                                   experience</b> for every customer. Our digital signage solutions include:</p>
+                                   <ul class="fs-20">
+                                    <li>Commercial Display TV</li>
+                                    <li>Digital Standees</li>
+                                    <li>Custom LED Scrollers</li>
+                                    <li>Digital Notice Board</li>
+                                    <li>Self Service Kiosk</li>
+                                    </ul>
+                                    <a href="contact-us">
+                            <button class="contact-btn">Book Your Order</button>
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide bgrowth-card">
+                    <div class="row align">
+                        <div class="col-12 col-md-6 pb-0">
+                            <img src="{{ asset('frontend/Images/home/digital-signage-classroom.webp') }}"
+                                alt="Digital Signage for Classrooms" class="bgrowth-img-2" />
+                        </div>
+                        <div class="col-12 col-md-6  d-flex flex-column justify-content-center ">
+                            <div class="bgrowth-content">
+                                <h3 class="mb-3">Smart Classroom Solutions</h3>
+                                <p>
+                                 Brand Signages helps educational institutes transition from <b>paper to digital platforms</b>, offering smart 
+                                 olutions like interactive kiosks, digital standees, and <b>smart classroom technologies</b> with projectors, digital
+                                  whiteboards, and advanced learning software to streamline communication and teaching experiences. Our digital 
+                                  signage solutions include:</p>
+                                   <ul class="fs-20">
+                                    <li>Interactive Flat Panel Display</li>
+                                    <li>Digital Standees</li>
+                                    <li>Custom Seminar Hall Solutions</li>
+                                    <li>Digital Notice Board</li>
+                                    </ul>
+                                    <a href="contact-us">
+                            <button class="contact-btn">Book Your Order</button>
+                        </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                                <div class="swiper-slide bgrowth-card">
+                    <div class="row align">
+                        <div class="col-12 col-md-6 pb-0">
+                            <img src="{{ asset('frontend/Images/home/corporate-office-display.webp') }}"
+                                alt="Digital Signage for Corporate Office" class="bgrowth-img-2" />
+                        </div>
+                        <div class="col-12 col-md-6  d-flex flex-column justify-content-center ">
+                            <div class="bgrowth-content">
+                                <h3 class="mb-3">Corporate Office Solutions</h3>
+                                <p>
+                                 Brand Signages enables corporate offices to embrace digital transformation with solutions like <b>interactive displays</b>, 
+                                 large-format signage, and smart meeting management tools, <b>improving communication</b>, boosting collaboration, and creating 
+                                 modern, efficient, and engaging workplace environments. Our digital signage solutions include:</p>
+                                   <ul class="fs-20">
+                                    <li>Video Conferencing Solution</li>
+                                    <li>Big Commercial Displays</li>
+                                    <li>Custom Meeting Scheduler</li>
+                                    <li>Digital Standee</li>
+                                    </ul>
+                                    <a href="contact-us">
+                            <button class="contact-btn">Book Your Order</button>
+                        </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more slides if needed -->
+            </div>
+
+        </div>
+    </section>
+
+       <section>
         <div class="container pt-5">
-            <h2 class="hero-title">Benefits of Digital Signages for Businesses</h2>
+            <h2 class="hero-title">We Have Full Scale Manufacturing <br>Expertise for Digital Signages</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{asset('frontend/Images/Benefits-of-Digital-Signages-for-Branding.webp')}}"
-                            alt="Benefits of Digital Signages for Businesses" class="img-fluid">
+                        <img src="{{asset('frontend/Images/home/digital-signage-manufacture.webp')}}" alt="Digital Signage manufacturing Machine"
+                            class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
-
                     <p class="fs-20">
-                        Brand Signages is a premier digital signage manufacturer with a decade of industry expertise. We
-                        understand every business is unique and creates digital signage & <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name board designs</strong></a> solutions tailored to your brand’s
-                        specific needs, ensuring maximum engagement.</p>
-                    <div class="faq-item active">
-                        <button class="faq-question active">
-                            Customer Engagement
-                            <i class="faq-icon fa-solid fa-chevron-down"></i>
-                        </button>
-                        <div class="faq-answer active">
-                            <p>Digital signage employs dynamic visual content and videos to attract customer attention.
-                                Digital displays help in improving customer engagement, visibility, and retention using
-                                interactive visuals.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <button class="faq-question">
-                            Real-time Content
-                            <i class="faq-icon fa-solid fa-chevron-down"></i>
-                        </button>
-                        <div class="faq-answer">
-                            <p>Digital signage delivers live, dynamic content that instantly captures attention. From promotional videos to real-time updates, these displays enhance customer engagement and boost visibility with visually rich experiences.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <button class="faq-question">
-                            Long-term Benefits
-                            <i class="faq-icon fa-solid fa-chevron-down"></i>
-                        </button>
-                        <div class="faq-answer">
-                            <p>Digital signage offers lasting value by consistently enhancing brand visibility and customer engagement. With dynamic visuals and interactive content, it helps businesses build stronger connections.</p>
-
-                        </div>
-                    </div>
-                    <div class="mt-4">
-                    </div>
+                        Brand Signages is the best digital signage manufacturer, transforms every screen into an interactive experience, helping brands connect effortlessly with their audience.
+                    <p class="fs-20">
+                        We have advanced in-house manufacturing unit to handle the complete production from metal fabrication and powder coating to <b>display integration</b>, 
+                        <b>PCB assembly</b>, <b>wiring</b>, <b>testing</b>, and <b>quality inspection</b>. Every digital signage display product is engineered with precision, using commercial-grade components
+                         and proper <b>QC processes</b> to ensure durability, long operational life, and flawless performance.
+                    </p>
+                    <p class=" fs-20">
+                        Our cloud-powered digital signage software (Scala, Panasonic’s SignEdge CMS) gives you complete control over every screen from anywhere. It allows you to schedule 
+                        content, manage playlists, push real-time updates, monitor device health, and automate campaigns with ease.
+                    </p>
+                    <a href="contact-us">
+                            <button class="contact-btn">Book Your Order</button>
+                        </a>
                 </div>
             </div>
         </div>
     </section>
+
+    
     <section class="we-deliver"
         style="background: url('{{ asset('frontend/Images/Why-Choose-Us-for-Digital-Signages.webp') }}') no-repeat center center; background-size: cover;">
         <div class="container">
@@ -386,11 +412,9 @@
                             <div class="deliver-box">
                                 <img src="{{ asset('frontend/Images/In-House-Experts.png') }}" alt="In-House Experts"
                                     class="img-fluid">
-                                <h3>In-House Experts</h3>
+                                <h3>In-House Manufacturing</h3>
                                 <p>
-                                    From digital displays to CMS software integration, and installation, we have a dedicated manufacturing unit
-                                    and in-house team of experts. We provide digital signage installation and support
-                                    services across PAN India.
+                                    With full in-house manufacturing, every digital signage system is produced, tested, and quality-checked by our expert team, ensuring unmatched durability, finish, and long-term performance.
                                 </p>
                             </div>
                         </div>
@@ -398,9 +422,8 @@
                             <div class="deliver-box">
                                 <img src="{{ asset('frontend/Images/Industry-Grade-Products.png') }}"
                                     alt="Industry Grade Products" class="img-fluid">
-                                <h3>Industry Grade Products</h3>
-                                <p>Our digital signages combine advanced display technology and dedicated
-                                    Content Management System. This ensures smooth content delivery and easy real-time updates.
+                                <h3>Advanced Signage Platform</h3>
+                                <p>Our advanced cloud-based software lets you publish, schedule, and monitor content in real time, ensuring seamless display management across multiple locations without downtime or technical frustration.
                                 </p>
                             </div>
                         </div>
@@ -408,9 +431,8 @@
                             <div class="deliver-box">
                                 <img src="{{ asset('frontend/Images/10-Years-of-Expertise.png') }}"
                                     alt="10 Years of Expertise" class="img-fluid">
-                                <h3>10 Years of Expertise</h3>
-                                <p>We are among the best digital signage companies with expertise in digital signage
-                                    display solutions. We have a modern manufacturing facility for digital signage production.
+                                <h3>Expert Technical Team</h3>
+                                <p>Our trained digital signage engineers provide proactive support, quick issue resolution, and reliable maintenance, ensuring your digital signage network stays stable and responsive.
                                 </p>
                             </div>
                         </div>
@@ -418,10 +440,8 @@
                             <div class="deliver-box">
                                 <img src="{{ asset('frontend/Images/Network-and-Customer-Support.png') }}"
                                     alt="Network and Customer Support" class="img-fluid">
-                                <h3>Network and Customer Support</h3>
-                                <p>Being among the best digital signage companies in India, we prioritize understanding your
-                                    specific requirements and delivering digital signage solutions that exceed expectations.
-                                    We utilize a wide partner network for better support and services.
+                                <h3>Designed for Performance</h3>
+                                <p>Every screen, kiosk, and signage solution is custom-designed digital signage to match your branding, environment, viewing distance, and content goals creating a fully personalized experience.
                                 </p>
                             </div>
                         </div>
@@ -606,46 +626,6 @@
         </div>
     </section>   
 
-     <section class="home-page mb-5">
-         <div class="pointing">
-            <div class="container point">
-                <div class="ledx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img ledx-img" src="{{ asset('frontend/Images/home/led-signage.png') }}"
-                        alt="LED Sign Board">
-                </div>
-                <div class="outdoorx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img outdoorx-img" src="{{ asset('frontend/Images/home/outdoor-signage.png') }}"
-                        alt="Outdoor Signage">
-                </div>
-                <div class="digitalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img digitalx-img" src="{{ asset('frontend/Images/home/digital-signage.png') }}"
-                        alt="Digital Signage">
-                </div>
-                <div class="metalx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img metalx-img" src="{{ asset('frontend/Images/home/metal-signage.png') }}"
-                        alt="Metal Signage">
-                </div>
-                <div class="acrylicx pulse-point">
-                    <span class="pulse"></span> <!-- White animated surface -->
-                    <span class="pulse-center"></span> <!-- Red fixed center -->
-                    <img class="pulse-hover-img acrylicx-img" src="{{ asset('frontend/Images/home/acrylic-signage.png') }}"
-                        alt="Acrylic Signage">
-                </div>
-
-
-
-
-            </div>
-        </div>
-    </section>
 
     <!-- testimonial Feedback Section -->
     <section class="new_testimonial-swiper-section">
