@@ -181,6 +181,10 @@
             </div>
         </div>
     </section>
+        <section class="wide-fullscreen-banner">
+    <img src="{{asset('frontend/Images/home/digital-signage-feature.webp')}}"
+         alt="Digital Signage Product range by Brand Signages">
+</section>
     
 
     <section class="bgrowth-slider-section">
@@ -332,7 +336,7 @@
                     </div>
                 </div>
 
-                                <div class="swiper-slide bgrowth-card">
+                <div class="swiper-slide bgrowth-card">
                     <div class="row align">
                         <div class="col-12 col-md-6 pb-0">
                             <img src="{{ asset('frontend/Images/home/corporate-office-display.webp') }}"
@@ -365,6 +369,10 @@
 
         </div>
     </section>
+
+
+
+
 
        <section>
         <div class="container pt-5">

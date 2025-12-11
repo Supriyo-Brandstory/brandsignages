@@ -914,6 +914,8 @@ h1.hero-banner_title {
     .bgrowth-img {
         height: 200px;
     }
+    
+
 
     .bgrowth-content {
         padding: 16px;
@@ -3561,4 +3563,21 @@ ul.brand-list {
     border-radius: 8px;
     overflow: hidden;
     margin: 15px 15px 0;
+}
+
+.wide-fullscreen-banner {
+    width: 100%;
+}
+
+.wide-fullscreen-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 420px;   /* reduce height on desktop */
+    object-fit: contain; /* shows full image without cropping */
+}
+@media (max-width: 768px) {
+    .wide-fullscreen-banner img {
+        max-height: 260px;  /* reduce size on mobile */
+    }
 }
