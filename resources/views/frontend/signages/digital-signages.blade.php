@@ -228,7 +228,7 @@
 
                 <div class="swiper-slide bgrowth-card">
                     <div class="row align">
-                        <div class="col-12 col-md-6 pb-0">
+                        <div class="col-12 col-md-5 pb-0">
                             <img src="{{ asset('frontend/Images/home/digital-signage-retail.webp') }}"
                                 alt="smart-digital-Specifications" class="bgrowth-img-2" />
                         </div>
@@ -255,7 +255,7 @@
                 </div>
                 <div class="swiper-slide bgrowth-card">
                     <div class="row align">
-                        <div class="col-12 col-md-6 pb-0">
+                        <div class="col-12 col-md-5 pb-0">
                             <img src="{{ asset('frontend/Images/home/digital-signage-hospital.webp') }}"
                                 alt="Digital Signage Display for Hospital" class="bgrowth-img-2" />
                         </div>
@@ -281,7 +281,7 @@
                 </div>
                  <div class="swiper-slide bgrowth-card">
                     <div class="row align">
-                        <div class="col-12 col-md-6 pb-0">
+                        <div class="col-12 col-md-5 pb-0">
                             <img src="{{ asset('frontend/Images/home/digital-display-for-bank.webp') }}"
                                 alt="Digital Signage for Banks" class="bgrowth-img-2" />
                         </div>
@@ -309,7 +309,7 @@
 
                 <div class="swiper-slide bgrowth-card">
                     <div class="row align">
-                        <div class="col-12 col-md-6 pb-0">
+                        <div class="col-12 col-md-5 pb-0">
                             <img src="{{ asset('frontend/Images/home/digital-signage-classroom.webp') }}"
                                 alt="Digital Signage for Classrooms" class="bgrowth-img-2" />
                         </div>
@@ -338,7 +338,7 @@
 
                 <div class="swiper-slide bgrowth-card">
                     <div class="row align">
-                        <div class="col-12 col-md-6 pb-0">
+                        <div class="col-12 col-md-5 pb-0">
                             <img src="{{ asset('frontend/Images/home/corporate-office-display.webp') }}"
                                 alt="Digital Signage for Corporate Office" class="bgrowth-img-2" />
                         </div>
