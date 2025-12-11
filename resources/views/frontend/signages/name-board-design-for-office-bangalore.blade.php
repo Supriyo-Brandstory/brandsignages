@@ -380,7 +380,7 @@
     <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="hero-title">Office Name Board Design Inspiration<br> by Brand Signages</h2>
+                <h2 class="hero-title">Name Board Design of Office<br> Modern Inspiration for Workspace</h2>
             </div>
 
     <!-- Add Blogs-->
