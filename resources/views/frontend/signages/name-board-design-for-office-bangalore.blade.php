@@ -202,7 +202,9 @@
  <section class="instant-pricing">
             <div class="container">
                 <h2>Your Office Name Board Design Built with Precision Manufacturing</h2>
-                <p>We are the best <b>Office Name Board Design</b> Manufacturers in Bangalore with 24-hours production capability and expertise.</p>
+                <p>The office name board design is a blend of class and credibility, crafted using <b>top-tier materials</b>, designed for 
+                    effortless visibility, and acts as a signature of your identity.  At Brand Signages we are the best office name board design 
+                    makers with <b>24-hours production</b> capability and expertise.</p>
                 <div class="scroll-loop-wrapper">
                     <div class="scroll-loop-track">
                         @for ($i = 0; $i < 3; $i++)
