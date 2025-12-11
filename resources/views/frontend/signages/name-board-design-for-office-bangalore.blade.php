@@ -312,7 +312,7 @@
     </section>
 
 
- <section class="instant-pricing">
+ <section class="instant-pricing pt-5">
             <div class="container">
                 <h2>Your Office Name Board Design Built with Precision Manufacturing</h2>
                 <p>The office name board design is a blend of class and credibility, crafted using <b>top-tier materials</b>, designed for 
