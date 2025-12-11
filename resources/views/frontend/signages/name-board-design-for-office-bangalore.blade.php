@@ -20,7 +20,7 @@
 
     <section class="instant-pricing">
         <div class="container pt-5">
-            <h2>Premium Office Name Board Designs <br>Our Recent Projects</h2>
+            <h2>Premium Name Board Design for Office <br>Our Recent Projects</h2>
             <p>Brand Signages provides <b>custom office name boards</b> at fair, transparent rates with quick turnaround and expert installation along with
                  <b>4 years warranty</b>. Whether you're checking name board design for office or office name board price locally or exploring options, 
                  we ensure clarity, quality, and long-lasting performance with every office name board.</p>
@@ -198,6 +198,119 @@
             </div>
         </div>
     </section>
+
+    <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="hero-title">Name Board Design of Office<br> Modern Inspiration for Workspace</h2>
+            </div>
+
+    <!-- Add Blogs-->
+     <div class="row con-fix2">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/corporate-office-name-board-a-guide-to-design-materials-branding" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/EsV2OTzrEUUAGjrpOXzsCa6sBs1CPae4g0O5hWja.jpg" alt="Corporate Office Name Board: A Guide to Design, Materials &amp; Branding">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">OFFICE NAME BOARD</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Corporate Office Name Board: A Guide to Design, Materials &amp; Branding</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/architect-office-name-board-style-purpose-and-design-inspiration" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/46IixlgPvKVGIEvL1ChMVL6sqJj7tRARQVryKvoj.jpg" alt="Architect Office Name Board: Style, Purpose, and Design Inspiration">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">ARCHITECT NAME BOARD</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Architect Office Name Board: Style, Purpose, and Design Inspiration</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/construction-office-name-board-materials-design-best-practices" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/mqJg5KUos0Cforc8V53lCsXb2DRu6Q8N9aRyQWt8.jpg" alt="Construction Office Name Board: Materials, Design &amp; Best Practices">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">CONSTRUCTION COMPANY BOARD</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Construction Office Name Board: Materials, Design &amp; Best Practices</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/advocate-office-name-board-design-elements-for-professional-identity" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/0JkmK0VAmreB2vOgbjL5wVkz98ObfFbFkVQpauYj.jpg" alt="Advocate Office Name Board: Design Elements for Professional Identity">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">ADVOCATE NAME BOARD</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Advocate Office Name Board: Design Elements for Professional Identity</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/ultimate-guide-to-office-reception-signage-make-the-right-first-impression" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/FLAAtgEPuON6RRCIHNI3ECWvChlzu9z5mC9sy2sD.jpg" alt="Ultimate Guide to Office Reception Signage: Make the Right First Impression">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">RECEPTION SIGNAGE</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Office Reception Signage: Make the Right First Impression</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <a href="https://brandsignages.com/blogs/office-name-board-design-ideas-modern-inspiration-for-workplace" style="text-decoration: none;">
+                <div class="blog-card">
+                    <div class="blog-card-img">
+                        <img src="https://brandsignages.com/storage/blogs/128OGM4WHmoCSgngsw8ZeEfzQ4FPfQDOnNPGWgFt.jpg" alt="Office Name Board Design Ideas: Modern Inspiration for Workplace">
+                    </div>
+                    <div class="blog-card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="badge">OFFICE NAME BOARD</span>
+                            <span class="time">Office Name Board</span>
+                        </div>
+                        <h5 class="blog-card-title">Office Name Board Designs: Modern Inspiration for Workplace</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+            </div>
+
+            </div>
+
+            </div>
+        </div>
+    </section>
+
 
  <section class="instant-pricing">
             <div class="container">
@@ -377,118 +490,7 @@
             </section>
 
 
-    <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="hero-title">Name Board Design of Office<br> Modern Inspiration for Workspace</h2>
-            </div>
-
-    <!-- Add Blogs-->
-     <div class="row con-fix2">
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/corporate-office-name-board-a-guide-to-design-materials-branding" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/EsV2OTzrEUUAGjrpOXzsCa6sBs1CPae4g0O5hWja.jpg" alt="Corporate Office Name Board: A Guide to Design, Materials &amp; Branding">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">OFFICE NAME BOARD</span>
-                            <span class="time">Office Name Board</span>
-                        </div>
-                        <h5 class="blog-card-title">Corporate Office Name Board: A Guide to Design, Materials &amp; Branding</h5>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/architect-office-name-board-style-purpose-and-design-inspiration" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/46IixlgPvKVGIEvL1ChMVL6sqJj7tRARQVryKvoj.jpg" alt="Architect Office Name Board: Style, Purpose, and Design Inspiration">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">ARCHITECT NAME BOARD</span>
-                            <span class="time">Office Name Board</span>
-                        </div>
-                        <h5 class="blog-card-title">Architect Office Name Board: Style, Purpose, and Design Inspiration</h5>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/construction-office-name-board-materials-design-best-practices" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/mqJg5KUos0Cforc8V53lCsXb2DRu6Q8N9aRyQWt8.jpg" alt="Construction Office Name Board: Materials, Design &amp; Best Practices">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">CONSTRUCTION COMPANY BOARD</span>
-                            <span class="time">Office Name Board</span>
-                        </div>
-                        <h5 class="blog-card-title">Construction Office Name Board: Materials, Design &amp; Best Practices</h5>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/advocate-office-name-board-design-elements-for-professional-identity" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/0JkmK0VAmreB2vOgbjL5wVkz98ObfFbFkVQpauYj.jpg" alt="Advocate Office Name Board: Design Elements for Professional Identity">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">ADVOCATE NAME BOARD</span>
-                            <span class="time">Office Name Board</span>
-                        </div>
-                        <h5 class="blog-card-title">Advocate Office Name Board: Design Elements for Professional Identity</h5>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/ultimate-guide-to-office-reception-signage-make-the-right-first-impression" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/FLAAtgEPuON6RRCIHNI3ECWvChlzu9z5mC9sy2sD.jpg" alt="Ultimate Guide to Office Reception Signage: Make the Right First Impression">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">RECEPTION SIGNAGE</span>
-                            <span class="time">Office Name Board</span>
-                        </div>
-                        <h5 class="blog-card-title">Office Reception Signage: Make the Right First Impression</h5>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/office-name-board-design-ideas-modern-inspiration-for-workplace" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/128OGM4WHmoCSgngsw8ZeEfzQ4FPfQDOnNPGWgFt.jpg" alt="Office Name Board Design Ideas: Modern Inspiration for Workplace">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">OFFICE NAME BOARD</span>
-                            <span class="time">Office Name Board</span>
-                        </div>
-                        <h5 class="blog-card-title">Office Name Board Designs: Modern Inspiration for Workplace</h5>
-                    </div>
-                </div>
-            </a>
-        </div>
-            </div>
-
-            </div>
-
-            </div>
-        </div>
-    </section>
-
+    
 
         <section class="new-recent-works">
         <div class="container pt-5">
