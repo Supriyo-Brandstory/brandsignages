@@ -382,7 +382,7 @@
     <section class="instant-pricing">
             <div class="container">
                 <h2>Your Office Signage Built with <br>Precision Manufacturing</h2>
-                <p>We are the best <b>Office Signage</b> Manufacturers in Bangalore with 24-hours production capability and expertise.</p>
+                <p>We are the best Office Signage Manufacturers with 24-hours production capability and expertise. Our <b>office signage collection</b> includes acrylic boards, nameplates, general office signs, 3D acrylic lettering, photo-printed boards, logo signage, etc. </p>
                 <div class="scroll-loop-wrapper">
                     <div class="scroll-loop-track">
                         @for ($i = 0; $i < 3; $i++)
