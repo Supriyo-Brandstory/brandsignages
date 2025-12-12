@@ -30,40 +30,14 @@
                   of durability and style</b>. Each office name board design is made to match your brand requirements and provide clear visibility
                    in any office setting.</p>
                   
-            <div class="scroll-loop-wrap">
-                <div class="gridbox">
-                   
-                        <div class="scroll-card-1">
-                            <img src="{{ asset('frontend/Images/name-boards/office-name-board-design-1.jpg') }}"
-                               alt="Rohit Agarwal Law Chembers - Office Name Board Design">
-                        </div>
-                           <div class="scroll-card-1">
-                            <img src="{{ asset('frontend/Images/name-boards/office-name-board-design-2.jpg') }}"
-                               alt="Future Inc. - Office Name Board Design">
-                        </div>
-                           <div class="scroll-card-1">
-                            <img src="{{ asset('frontend/Images/name-boards/office-name-board-design-3.jpg') }}"
-                               alt="ALP Construction - Office Name Board Design">
-                        </div>
-                           <div class="scroll-card-1">
-                            <img src="{{ asset('frontend/Images/name-boards/office-name-board-design-4.jpg') }}"
-                               alt="Phoenix Global Group - Office Name Board Design">
-                        </div>
-                           <div class="scroll-card-1">
-                            <img src="{{ asset('frontend/Images/name-boards/office-name-board-design-5.jpg') }}"
-                               alt="Madhu Reddy Architect - Office Name Board Design">
-                        </div>
-                           <div class="scroll-card-1">
-                            <img src="{{ asset('frontend/Images/name-boards/office-name-board-design-6.jpg') }}"
-                               alt="BrandStory Ventures - Office Name Board Design">
-                        </div>
+            <img src="/frontend/Images/name-boards/exclusive-office-name-boards.webp" alt="Exclusive Office Name Board Design by Brand Signages" class="shop-image">
                
             </div>
             <div class="text-center" style="padding: 20px 0;">
-    <a href="#designs">
-        <button class="contact-btn">Browse Latest Designs</button>
-    </a>
-</div>
+                <a href="#designs">
+                    <button class="contact-btn">Browse Latest Designs</button>
+                </a>
+            </div>
 
              </div>
                        
