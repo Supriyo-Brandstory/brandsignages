@@ -119,7 +119,7 @@
 
     <section class="instant-pricing">
         <div class="container pb-5">
-            <h2>Signage & Branding Experts Crafting Signature <br>Visibility for Brands</h2>
+            <h2>Signage & Branding Experts Shaping High-Impact <br>Visibility for Brands</h2>
                 <p>Elevate your brand with stunning sign boards that spark attention. At Brand Signages, we are premier signage board manufacturers 
                 committed to delivering innovative signage board design and superior signage board manufacturing. Our expertise encompasses eye-catching
                  branding sign boards, strategic sign branding, integrated <b>signage and branding solutions</b>, and sophisticated branding signage design, 
