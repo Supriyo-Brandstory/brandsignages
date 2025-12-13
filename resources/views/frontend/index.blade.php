@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Unmatched Signage Board Design<br> Solutions for Every Industry</h1>
+                    <h1 class="hero-banner_title">Unmatched Sign Board Design<br> Solutions for Every Industry</h1>
                     <p>Brand Signages is a trusted B2B partner and a premium signage board manufacturer<br> 
                         in Bangalore, India.
                     </p>
