@@ -1,25 +1,28 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-<section class="carousel-section">
-    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/door-signage1.webp')}}" alt="Door Signage">
-                <div class="carousel-caption-custom">
-                    <h1>Door Signs: Making a Lasting Impression</h1>
-                     <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
-                        </div>
+
+
+<section class="hero-banner"
+        style="background-image: url('{{ asset('frontend/Images/door-sign-board-2.jpg') }}'); ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="hero-banner_title">Door Sign Board: Making <br>a Lasting Impression</h1>
+                    <p>Looking for a standout name board design for your office? Brand Signages <br>is trusted expert in crafting fine-quality,
+                     professional office name boards <br>to showcase your brand with clarity and style.
+                    </p>
+                    <a href="https://brandsignages.com/contact-us">
+                        <button class="contact-btn">Get a Quote</button>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Elevate Your Home Entrance with <br> Elegance</h2>
+        <h2 class="hero-title">Elevate Your Entrance with a Premium<br> Door Sign Board</h2>
 
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -30,14 +33,17 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Make your home entrance look more inviting with a stylish, elegant door signboard. The door of your home is the element responsible for creating a first impression upon people’s minds, whether first-time visitors or frequently-coming friends and relatives. Placing thoughtful, beautifully crafted signage on the door adorns your home exquisitely. Signboards on the door with names mentioned or art crafted brighten up your entrance space at home.
+                    A well-designed door sign board plays an important role in creating a clear and <b>lasting first impression</b>. Whether for a home, office, or commercial space, door signage helps identify spaces, reflect brand or personal identity, and enhance the overall appearance of the entrance. Thoughtfully crafted door sign board designs with names, design elements, or branding details add structure and visual clarity to any entryway.
                 </p>
                 <p class="brand-description">
-                    Nowadays, diverse entrance and exit signs made by professional artisans are available online. Brand Signage, being a trusted signage manufacturing brand, offers durable, stylish, and sophisticated signage for doors with a personalised touch for all. Homeowners, realtors, residential construction workers, and others- all are welcome to visit the Brand Signage website and pick up the preferred door signage that suits your needs the most.
+                    Brand Signages designs and manufactures <b>custom door sign boards</b> for residential, corporate, and commercial environments. Our range includes durable and refined door signage solutions suited for homes, offices, workspaces, and professional buildings. Each sign board is created with attention to material quality, finish, and long-term usability.
                 </p>
                 <p class="brand-description">
-                    Ranging from simple, rustic, and Mediterranean to modern, aesthetic, sleek, and sophisticated - all types of door signs are offered at Brand Signage. With a team of highly-skilled craftsmen, the company offers a vast range of adorable and customisation signs for your doors. Known for style and durability, our door signs are loved by homeowners and business owners worldwide.
-                </p>    
+                    From minimal and contemporary styles to classic and premium designs, Brand Signages offers door sign boards that align with different architectural and branding requirements. Backed by skilled manufacturing process, we deliver door signage solutions that combine durability, clarity, and <b>consistent visual appeal</b>.
+                </p> 
+                <div class="mt-4">
+                            <a href="contact-us" class="custom-btn">Contact Us Now</a>
+                        </div>   
             </div>
         </div>
     </div>
@@ -46,294 +52,70 @@
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Why Do You Need a Door Sign?</h2>
-            <p class="card-text text-center">A door sign is a signboard showcasing pictorial, lettered, or numbered matter, that is placed on a door that is visible from the exterior <br> of the premise. It can be made of wood, fiber, aluminum, PVC board, etc. Reasons why one should opt for a door sign are as follows:</p>
-
+            <h2 class="display-4 mb-3 why-text-heading">
+                Why Do You Need a Well-Designed <br>Door Sign Board?
+            </h2>
+            <p class="card-text text-center">
+                A door sign is a signboard displaying text, symbols, or numbers, installed on a door and visible from outside the premises.
+                Door signs are commonly used to identify occupants, departments, room functions, or brand presence in residential,
+                corporate, and commercial environments. Some key reasons to opt for a door sign include:
+            </p>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
-            <div class="col">
-                <div class="why-card card">
+        <div class="row g-4">
+            <!-- Point 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="why-card card h-100">
                     <img src="{{asset('frontend/Images/door-signage3.webp')}}" class="why-card-img-top"
                         alt="Holds a Welcoming or Warning Message">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Holds a Welcoming or Warning Message</h3>
-                        <p class="card-text">A door sign is useful for welcoming or restricting visitors at a certain place. For example, a “Restricted Space” signboard in an office or factory prevents people from having random access. On the other hand, the entrance doors of tourist spots often showcase door signs like “Welcome to the Wonderland” and invite visitors with warm gestures.</p>
+                        <h3 class="why-text-red mb-3">
+                            <b>Holds a Welcoming or Warning Message</b>
+                        </h3>
+                        <p class="card-text">
+                            Door sign boards help clearly communicate access instructions, room purpose, or usage guidelines.
+                            In offices, factories, and commercial facilities, signs such as “Authorized Personnel Only” or
+                            “Staff Access” support safety and controlled entry. In residential and hospitality settings,
+                            door signs are used to indicate occupancy, room identification, or visitor guidance, ensuring clarity.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="why-card card">
+
+            <!-- Point 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="why-card card h-100">
                     <img src="{{asset('frontend/Images/door-signage4.webp')}}" class="why-card-img-top"
                         alt="Makes Your Space Look More Aesthetic">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Makes Your Space Look More Aesthetic</h3>
-                        <p class="card-text">Whether it is your home, office, resort, or other spaces, creative and unique door signs can make your space look elegant, exhibiting your personality and style. They enhance the charm of the place, making it more appealing.</p>
+                        <h3 class="why-text-red mb-3">
+                            <b>Makes Your Space Look More Aesthetic</b>
+                        </h3>
+                        <p class="card-text">
+                            Whether used in homes, offices, resorts, or commercial environments, well-designed door sign boards
+                            contribute to a refined and organised appearance. Thoughtfully created signage complements the
+                            surrounding space, reflects personal or brand identity, and improves the overall visual balance
+                            of the environment.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="col-md-4">
-                    <div class="why-card card">
-                        <img src="{{asset('frontend/Images/door-signage5.webp')}}" class="why-card-img-top"
-                            alt="Guides people about what is behind the door">
-                        <div class="card-body why-card-body px-0">
-                            <h3 class="why-text-red mb-3">Guides people about what is behind the door</h3>
-                            <p class="card-text">Door signs are not only to enhance the beauty of the home or office space. It has crucial functionalities as well like guiding people about what’s inside. Suppose it is a restroom, another private place, a hallway, or a seminar room, that can be easily mentioned using a clear and concise door sign.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/door-signage6.webp')}}" class="why-card-img-top"
-                        alt="Door signage">
+
+            <!-- Point 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="why-card card h-100">
+                    <img src="{{asset('frontend/Images/door-signage5.webp')}}" class="why-card-img-top"
+                        alt="Provides Clear Space Identification">
                     <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Door signage</h3>
-                        <p class="card-text">Is an elegant and useful element to deck up your personal or professional space and make it easy to navigate.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage3.webp')}}" class="why-card-img-top"
-                                    alt="Holds a Welcoming or Warning Message">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Holds a Welcoming or Warning Message</h3>
-                                    <p class="card-text">A door sign is useful for welcoming or restricting visitors at a certain place. For example, a “Restricted Space” signboard in an office or factory prevents people from having random access. On the other hand, the entrance doors of tourist spots often showcase door signs like “Welcome to the Wonderland” and invite visitors with warm gestures.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage4.webp')}}" class="why-card-img-top"
-                                    alt="Makes Your Space Look More Aesthetic">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Makes Your Space Look More Aesthetic</h3>
-                                    <p class="card-text">Whether it is your home, office, resort, or other spaces, creative and unique door signs can make your space look elegant, exhibiting your personality and style. They enhance the charm of the place, making it more appealing.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage5.webp')}}" class="why-card-img-top"
-                                    alt="Guides people about what is behind the door">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Guides people about what is behind the door</h3>
-                                    <p class="card-text">Door signs are not only to enhance the beauty of the home or office space. It has crucial functionalities as well like guiding people about what’s inside. Suppose it is a restroom, another private place, a hallway, or a seminar room, that can be easily mentioned using a clear and concise door sign.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage4.webp')}}" class="why-card-img-top"
-                                    alt="Makes Your Space Look More Aesthetic">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Makes Your Space Look More Aesthetic</h3>
-                                    <p class="card-text">Whether it is your home, office, resort, or other spaces, creative and unique door signs can make your space look elegant, exhibiting your personality and style. They enhance the charm of the place, making it more appealing.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage5.webp')}}" class="why-card-img-top"
-                                    alt="Guides people about what is behind the door">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Guides people about what is behind the door</h3>
-                                    <p class="card-text">Door signs are not only to enhance the beauty of the home or office space. It has crucial functionalities as well like guiding people about what’s inside. Suppose it is a restroom, another private place, a hallway, or a seminar room, that can be easily mentioned using a clear and concise door sign. <br> <br></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage6.webp')}}" class="why-card-img-top"
-                                    alt="Door signage">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Door signage</h3>
-                                    <p class="card-text">Is an elegant and useful element to deck up your personal or professional space and make it easy to navigate.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="why-carousel-controls">
-                <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
-                    data-bs-slide="prev">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
-                    data-bs-slide="next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
-
-            <div class="carousel-indicators why-carousel-indicators">
-                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
-                    aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="container py-5">
-    <div class="row g-4 d-flex flex-wrap justify-content-center">
-
-        <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">Types of Door Signs We Deliver</h2>
-            <p class="card-text text-center">From indicating a specific room’s presence to giving a warning for entering a significant space, door signboards serve many purposes. <br> Some of the common types include:</p>
-        </div>
-
-        <div class="col-lg-4">
-            <div class="image-container position-relative">
-                <img src="{{asset('frontend/Images/door-signage7.webp')}}" alt="Name Plates" class="w-100 h-100">
-                <div class="overlay">
-                    <h5 class="text-title">Name Plates</h5>
-                    <p class="text-content">It is mostly seen in front of a house door gate, on the office desk of notable dignitaries, etc. With them, identifying houses or treating official professionals properly becomes easy.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-8">
-            <div class="row g-4">
-                <div class="col-lg-6">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/door-signage8.webp')}}" alt="Warning Signs" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Warning Signs</h5>
-                            <p class="text-content">When there is danger inside, warning sign boards are hung to make people alert about the possible consequences of going inside. In the mining industry and many other fields, such signboards are quite common.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/door-signage9.webp')}}" alt="Instructions" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Instructions</h5>
-                            <p class="text-content">A significant place like a reputed personality’s cabin, etc. is found with signboards mentioning instructions, hung in front of the main door of the space. Also, instruction boards are used to guide visitors in tourist spots.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-8">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/door-signage10.webp')}}" alt="Personalized Message" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Personalized Message</h5>
-                            <p class="text-content">Sometimes, personalised messages are written on signboards and sent to specific people, as a part of various brands’ digital marketing campaigns.Whether it is a welcome sign for the front door or open closed sign for the door, Brand Signage is your ultimate destination for all types of door signs.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/door-signage11.webp')}}" alt="Do Not Disturb" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Do Not Disturb</h5>
-                            <p class="text-content">To maintain privacy or confidentiality in professional spaces, “Do Not Disturb boards” are often hung, mostly as temporary. It is typically hung on a door’s handle denoting that the people inside don’t want to be disturbed in any way.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">The Perfect Materials to Match <br> Every Aesthetic</h2>
-            <p class="card-text text-center">Nowadays, a wide range of materials are used to manufacture door signs. Among them, the most popular ones are:</p>
-
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/door-signage17.webp')}}" class="why-card-img-top"
-                        alt="Acrylic">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Acrylic</h3>
-                        <p class="card-text">With a sleek and professional appearance, Acrylic signboards become a popular choice for many businesses. It helps to improve their brand impression making their products or services attractive to people. Thus, mostly used in attention-grabbing storefronts, directions in large facilities, etc. acrylic signs convey important information and work as an effective branding technique.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/door-signage18.webp')}}" class="why-card-img-top"
-                        alt="Wood">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Wood</h3>
-                        <p class="card-text">A piece of wooden signboard adds a rustic look to the space wherever it is placed. For a simple yet elegant style, wooden signboards are often used in entrance and exit signs of large bungalows, house nameplates, and so on.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="col-md-4">
-                    <div class="why-card card">
-                        <img src="{{asset('frontend/Images/door-signage12.webp')}}" class="why-card-img-top"
-                            alt="Metal">
-                        <div class="card-body why-card-body px-0">
-                            <h3 class="why-text-red mb-3">Metal</h3>
-                            <p class="card-text">To ensure durability and sophistication at once, metal signboards hold a special position. Metals like aluminum, stainless steel, etc. create a glossy and fine look for the door signs. Directional signs, wayfinding signboards, brand information in a company, etc. can be presented well with stylish and impactful metal signboards.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage17.webp')}}" class="why-card-img-top"
-                                    alt="Acrylic">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Acrylic</h3>
-                                    <p class="card-text">With a sleek and professional appearance, Acrylic signboards become a popular choice for many businesses. It helps to improve their brand impression making their products or services attractive to people. Thus, mostly used in attention-grabbing storefronts, directions in large facilities, etc. acrylic signs convey important information and work as an effective branding technique.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage18.webp')}}" class="why-card-img-top"
-                                    alt="Wood">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Wood</h3>
-                                    <p class="card-text">A piece of wooden signboard adds a rustic look to the space wherever it is placed. For a simple yet elegant style, wooden signboards are often used in entrance and exit signs of large bungalows, house nameplates, and so on.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/door-signage12.webp')}}" class="why-card-img-top"
-                                    alt="Metal">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Metal</h3>
-                                    <p class="card-text">To ensure durability and sophistication at once, metal signboards hold a special position. Metals like aluminum, stainless steel, etc. create a glossy and fine look for the door signs. Directional signs, wayfinding signboards, brand information in a company, etc. can be presented well with stylish and impactful metal signboards.</p>
-                                </div>
-                            </div>
-                        </div>
+                        <h3 class="why-text-red mb-3">
+                            <b>Provides Clear Space Identification</b>
+                        </h3>
+                        <p class="card-text">
+                            Door sign boards help people understand the purpose of a room or area before entry.
+                            In offices, commercial buildings, and residential spaces, they are used to identify
+                            restrooms, meeting rooms, cabins, hallways, or restricted areas.
+                            Clear and concise door signage improves navigation and reduces confusion.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -341,6 +123,195 @@
         </div>
     </div>
 </section>
+
+    <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="We-Elevate-Brands-heading fw-bold">Types of Door Sign Boards </br>We Manufacture</h2>
+            </div>
+
+            <div class="position-relative">
+                <div class="swiper We-Elevate-Brands-swiper pt-60">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/name-boards/name-plate-door.webp')}}" class="card-img-center"
+                                    alt="Name Plates">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="name-board-design-for-office-bangalore">Name Plates</a></h5>
+                                    <p class="We-Elevate-Brands-text">Name plates are commonly installed on residential entrance doors, office cabins, and workstations to clearly display names, designations, or unit details. They help identify occupants or departments at a glance and add a sense of order, professionalism, identity.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/name-boards/warning-sign-door.webp')}}" class="card-img-center"
+                                    alt="Warning Signs">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="prohibitory-signages">Warning Signs</a></h5>
+                                    <p class="We-Elevate-Brands-text">We manufacture durable and highly visible warning sign boards to alert people about potential hazards or restricted areas. Commonly used in industries such as mining, manufacturing, and construction, our warning signs ensure safety compliance and help prevent accidents.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/name-boards/name-board-door.webp')}}" class="card-img-center"
+                                    alt="Metal Signage">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="name-board-designs-for-shops-bangalore">Personalized Name Board</a></h5>
+                                    <p class="We-Elevate-Brands-text">We design custom door sign boards featuring personalized messages for homes, offices, or commercial spaces. Whether it’s a welcome sign for the front door, an “Open/Closed” sign for a store, or a branded message for promotional purposes, we create stylish name boards.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/name-boards/pull-push-door.webp')}}" class="card-img-center"
+                                    alt="Push & Pull Door Signs">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="contact-us">Push & Pull Door Signs</a></h5>
+                                    <p class="We-Elevate-Brands-text">We design and manufacture clear and durable Push & Pull door signs for offices, commercial spaces, and public areas. Our signs ensure smooth navigation by clearly indicating door operation, enhancing convenience, safety, and the overall professional appearance.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/name-boards/welcome-sign-door.webp')}}" class="card-img-center"
+                                    alt="Welcome Sign">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="contact-us">Welcome Sign</a></h5>
+                                    <p class="We-Elevate-Brands-text">We design and manufacture elegant Welcome signs for classroom door, homes, offices, hotels, resorts, and commercial spaces. These signs create a warm first impression, guiding visitors while adding a touch of style and personality to entrances. Each sign is custom-crafted.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Navigation Arrows -->
+                    <div class="We-Elevate-Brands-nav ">
+                        <!-- Swap order: prev on left, next on right -->
+                        <div class="We-Elevate-Brands-button-prev"></div>
+                        <div class="We-Elevate-Brands-button-next"></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="We-Elevate-Brands-heading fw-bold">The Perfect Materials to Match <br>Every Aesthetic </h2>
+        </div>
+
+        <div class="position-relative">
+            <div class="swiper We-Elevate-Brands-swiper pt-60">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/metal-signages">Metal & Steel Signages</a></h5>
+                                <p class="We-Elevate-Brands-text">Stainless steel signage is one of the most affordable and
+                                    durable signage. We design stainless steel signage for organizations with custom sizes
+                                    and designs.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/led-acrylic-3d-glow-sign-board">LED Sign Board</a></h5>
+                                <p class="We-Elevate-Brands-text">LED sign boards are the most versatile option for modern branding. 
+                                    We are proven experts in LED sign board manufacturing to help you create the best LED nameboards. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/digital-signages">Digital Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Digital displays are a dynamic and attention-grabbing transformation for 
+                                    retail spaces. We design modern digital signage and digital displays for every industry. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/acrylic-sign.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/arcylic-signages">Acrylic Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Acrylic signage is a preferred choice among industries for its glossy finish and durability. 
+                                    We design acrylic signage with unmatched durability and precision. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/neon-signages">Neon Sign Board</a></h5>
+                                <p class="We-Elevate-Brands-text">Neon signs are a go-to option for retail and restaurant businesses for all-around visibility. 
+                                    We employ our precious experts to design the best neon signage designs in the city. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/retail-sign.webp')}}" class="card-img-center"
+                                alt="Shop Name Boards">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/name-board-designs-for-shops-bangalore">Shop Name Boards</a></h5>
+                                <p class="We-Elevate-Brands-text">Shop name boards are the face of your brand or retail business. We create stylish & durable shop board designs to create a lasting first impression.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/outdoor-sign.webp')}}" class="card-img-center"
+                                alt="Outdoor Business Signages">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/outdoor-signages">Outdoor Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Outdoor signages create immersive visual experiences, balancing visibility with powerful messaging. 
+                                    These signage acts as a strategic marketing tools that truly engage audiences.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Arrows -->
+                <div class="We-Elevate-Brands-nav ">
+                    <!-- Swap order: prev on left, next on right -->
+                    <div class="We-Elevate-Brands-button-prev"></div>
+                    <div class="We-Elevate-Brands-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    </section>
+
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
@@ -355,16 +326,18 @@
 
             <div class="col-lg-6">
                 <p class="brand-description">
-                    Doors take you to a space; sometimes a warm welcoming area like home, or sometimes, a professional world filled with passion and purpose. In this scenario, door signs work as a subtle symbol depicting the essence of what is behind it.
-                    <br>
-                    Well-crafted and unique door signs create lasting impressions while conveying the necessary information. Diverse types of door signs serve various purposes. For example, a sleek and modern acrylic sign is perfect for a corporate setting whereas rustic, wooden signage is ideal to enhance the warmth and charm of the ambience in a cafe.
-                    <br>
-                    Suitable signage becomes an integral part of the place’s overall aesthetics.  Personalisation makes it more special. Also, style and functionality are two crucial things to be taken good care of, while choosing door signage.
-                    <br>
-                    Hence, investing in a durable, stylish, and unique door signboard helps in many ways.
-                    <br>
-                    Whether it is your business space, home, or other setting, suitable door signage speaks volumes about the area. Brand Signage, as a leading signage company, understands it well and offers a wide range of door signboards made of various materials.
-                </p>    
+                    A door is the gateway to any space, whether it’s the welcoming comfort of a home, the dynamic energy of a café, or the professional 
+                    environment of an office. Thoughtfully designed door signage sets the tone, communicates the purpose of the space, and creates a strong
+                     first impression for anyone entering.</p>
+                <p class="brand-description">At Brand Signages, we specialize in crafting <b>door signs</b> that are both functional and visually appealing. From sleek
+                     acrylic boards ideal for corporate spaces to rustic wooden signs that enhance the warmth and charm of residential or hospitality areas, our
+                      signage solutions blend style, durability, and clarity.</p>
+                      <p class="brand-description">Investing in high-quality, <b>custom door signage</b> elevates the overall experience of any environment. Whether for 
+                        homes, offices, or commercial spaces, Brand Signages offers a wide range of premium materials and customizable designs to make every entrance
+                         truly remarkable.</p>
+                         <div class="mt-4">
+                            <a href="contact-us" class="custom-btn">Contact Us Now</a>
+                        </div>  
             </div>
         </div>
     </div>
@@ -622,11 +595,30 @@
 
         <div class="faq-item">
             <button class="faq-question">
-                Is acrylic signage expensive?
+                Can I customize door signs with logos or graphics?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>The cost of an acrylic door signboard depends on the size of the board, matters written there and availed customisation options. Acrylic signage mostly is not expensive, whereas signs made of wood or composite materials can be a little costly.</p>
+                <p>Yes, door signs can be fully customized with company logos, graphics, or unique designs. Customization helps reinforce brand identity, add a professional touch, and make your signage visually distinctive.</p>
+            </div>
+        </div>
+
+         <div class="faq-item">
+            <button class="faq-question">
+                What materials are best for durable door signs?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Door signs can be made from materials like acrylic, aluminum, PVC, wood, or metal. Acrylic and aluminum are particularly durable and resistant to wear, making them ideal for both indoor and outdoor use.</p>
+            </div>
+        </div>
+                 <div class="faq-item">
+            <button class="faq-question">
+                How do I ensure door signs are visible and readable?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>To maximize visibility, use clear fonts, high-contrast colors, and appropriate sizes for the text. Placement at eye level and proper lighting also enhance readability and ensure the sign serves its purpose effectively.</p>
             </div>
         </div>
 
