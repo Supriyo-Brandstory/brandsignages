@@ -1137,22 +1137,21 @@ h1.hero-banner_title {
     }
 
     .scroll-card {
-        height: 280px;
-        width: 200px;
+        width: 160px !important;
+        height: 240px !important;
     }
 
     .scroll-card img {
-        height: 280px;
-        width: 200px;
-        object-fit: cover;
+        width: 100% !important;
+        height: 100% !important;
         border-radius: 12px;
     }
 
     .instant-pricing .scroll-card p {
-        font-size: 18px;
-        top: -50px;
-        padding: 6px 8px;
-        line-height: 110%;
+        font-size: 14px !important;
+        top: -48px !important;
+        padding: 6px 8px !important;
+        line-height: 1.2;
     }
 }
 
