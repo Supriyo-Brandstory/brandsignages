@@ -343,6 +343,88 @@
     </div>
 </section>
 
+    <section class="new-recent-works">
+        <div class="container pt-5">
+            <h2 class="hero-title  mb-6">High-end Name Board Projects Executed<br> by Brand Signages</h2>
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
+                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Titan Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
+                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Fortis Hospital</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Café Mocha</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/tanishq.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Tanishq Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Prestige Group</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>MedPlus Pharmacy</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="/contact-us">
+                    <button class="contact-btn">Start Your Project</button>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
 <section class="testimonial section ">
     <div class="container">
         <div class="text-center mb-5">
