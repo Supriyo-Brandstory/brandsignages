@@ -131,7 +131,7 @@
                 the industry, we are Brand Signages.</p>
             <img src="/frontend/Images/home/signage-and-branding-2.webp" alt="Exclusive Shop Name Board Design by Brand Signages" class="shop-image">     
                 <div class="text-center">
-                <a href="#designs">
+                <a href="contact-us">
                     <button class="contact-btn">Talk To Our Experts</button>
                 </a>
             </div>
