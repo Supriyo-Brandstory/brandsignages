@@ -581,20 +581,27 @@ class frontendController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'first_name' => 'required|string|max:255',
-            'last_name' => 'required|string|max:255',
-            'email' => 'required|email',
+            'last_name' => 'string|max:255',
+            'email' => 'email',
             'phone_number' => 'required|string|max:20',
             'message' => 'nullable|string|max:5000',
             'captcha' => 'required|captcha',
         ]);
 
         if ($validator->fails()) {
+            if ($request->ajax()) {
+                return response()->json(['errors' => $validator->errors()], 422);
+            }
             return redirect()->back()
                 ->withErrors($validator)
                 ->withInput();
         }
 
         Contact::create($request->except('captcha', '_token'));
+
+        if ($request->ajax()) {
+            return response()->json(['success' => true, 'message' => 'Your message has been sent successfully!']);
+        }
 
         return redirect()->back()
             ->with('success', 'Your message has been sent successfully!');

@@ -10,64 +10,72 @@
 
 
     @if(!empty($blogSeoData))
-        <title>{{ $blogSeoData['title'] ?? 'Brand Signages' }}</title>
-        <meta name="description"
-            content="{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}">
-        <link rel="canonical" href="{{ $blogSeoData['canonical_url'] ?? url()->current() }}">
-        <meta name="author" content="Manoj Kaliyannan" />
-        <meta property="og:title" content="{{ $blogSeoData['title'] ?? 'Brand Signages' }}" />
-        <meta property="og:description"
-            content="{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="{{ $blogSeoData['canonical_url'] ?? url()->current() }}" />
-        @php
-            $seoImage = !empty($blogSeoData['image']) ? asset('storage/' . $blogSeoData['image']) : asset('storage/blogs/default-image.webp');
-        @endphp
-        <meta property="og:image" content="{{ $seoImage }}" />
+    <title>{{ $blogSeoData['title'] ?? 'Brand Signages' }}</title>
+    <meta name="description"
+        content="{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}">
+    <link rel="canonical" href="{{ $blogSeoData['canonical_url'] ?? url()->current() }}">
+    <meta name="author" content="Manoj Kaliyannan" />
+    <meta property="og:title" content="{{ $blogSeoData['title'] ?? 'Brand Signages' }}" />
+    <meta property="og:description"
+        content="{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ $blogSeoData['canonical_url'] ?? url()->current() }}" />
+    @php
+    $seoImage = !empty($blogSeoData['image']) ? asset('storage/' . $blogSeoData['image']) : asset('storage/blogs/default-image.webp');
+    @endphp
+    <meta property="og:image" content="{{ $seoImage }}" />
 
-        <script type="application/ld+json">
-                                            {
-                                              "@context": "https://schema.org",
-                                              "@type": "BlogPosting",
-                                              "headline": "{{ $blogSeoData['title'] ?? 'Brand Signages' }}",
-                                              "description": "{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}",
-                                              "image": "{{ $seoImage }}",
-                                              "author": {
-                                                "@type": "Person",
-                                                "name": "Manoj Kaliyannan",
-                                                "url": "https://in.linkedin.com/in/manojkaliyannan"
-                                              },
-                                              "publisher": {
-                                                "@type": "Organization",
-                                                "name": "Brand Signages",
-                                                "logo": {
-                                                  "@type": "ImageObject",
-                                                  "url": "{{ asset('frontend/Images/Brand-Signages-logo.png') }}"
-                                                }
-                                              },
-                                              "datePublished": "{{ $blogSeoData['published_at'] ?? '2025-01-28' }}",
-                                              "dateModified": "{{ $blogSeoData['updated_at'] ?? '2025-01-28' }}",
-                                              "mainEntityOfPage": {
-                                                "@type": "WebPage",
-                                                "@id": "{{ $blogSeoData['canonical_url'] ?? url()->current() }}"
-                                              }
-                                            }
-                                        </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "{{ $blogSeoData['title'] ?? 'Brand Signages' }}",
+            "description": "{{ $blogSeoData['meta_description'] ?? 'Discover why acrylic signage is the perfect choice for indoor and outdoor branding. Explore its durability, customization options, and cost-effective benefits for businesses.' }}",
+            "image": "{{ $seoImage }}",
+            "author": {
+                "@type": "Person",
+                "name": "Manoj Kaliyannan",
+                "url": "https://in.linkedin.com/in/manojkaliyannan"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Brand Signages",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{ asset('frontend/Images/Brand-Signages-logo.png') }}"
+                }
+            },
+            "datePublished": "{{ $blogSeoData['published_at'] ?? '2025-01-28' }}",
+            "dateModified": "{{ $blogSeoData['updated_at'] ?? '2025-01-28' }}",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "{{ $blogSeoData['canonical_url'] ?? url()->current() }}"
+            }
+        }
+    </script>
     @else
-        {!!$seo->script ?? '<title>#1 Sign Board Manufacturer in Bangalore | Brand Signages</title>'!!}
+    {!!$seo->script ?? '<title>#1 Sign Board Manufacturer in Bangalore | Brand Signages</title>'!!}
     @endif
 
     <meta name="google-site-verification" content="k2zT6vzjGmv5Qj_C5YPVg4YbcQNoHooAF5smISxk2qA" />
-    <meta name="p:domain_verify" content="cc033e9186a2749560bbbcb4d4d906ad"/>
+    <meta name="p:domain_verify" content="cc033e9186a2749560bbbcb4d4d906ad" />
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PMB37QHX');</script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PMB37QHX');
+    </script>
     <!-- End Google Tag Manager -->
 
 
@@ -139,7 +147,7 @@
                                         <a class="dropdown-item" href="{{route('outdoor_signages')}}">Outdoor
                                             Signages</a>
                                         <a class="dropdown-item" href="{{route('acrylic_letters')}}">Acrylic Letters
-                                            </a>
+                                        </a>
                                         <a class="dropdown-item" href="{{route('neon_signages')}}">Neon Glow
                                             Sign</a>
                                         <a class="dropdown-item" href="{{route('led_acrylic_glow_sign')}}">LED Sign Board</a>
@@ -158,7 +166,7 @@
                                         <a class="dropdown-item" href="{{route('shop_name_board_bangalore')}}">Shop Name Boards</a>
                                         <a class="dropdown-item" href="{{route('indoor_signages')}}">Interior
                                             Signages</a>
-                                        
+
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <h6 class="dropdown-header">Signage by Use Type</h6>
@@ -191,7 +199,7 @@
                         </a>
                         <div class="dropdown-menu" style="width:max-content;" aria-labelledby="regionDropdown">
                             <div class="container">
-                             <a class="dropdown-item" href="{{route('index')}}">➤ Signages in
+                                <a class="dropdown-item" href="{{route('index')}}">➤ Signages in
                                     Bangalore</a>
                                 <a class="dropdown-item" href="{{route('leading_signage_company_in_mumbai')}}">➤ Signages
                                     in Mumbai</a>
@@ -204,115 +212,115 @@
                                     <div class="col-lg-4 col-md-6">
                                         <h6 class="dropdown-header">Bangalore</h6>
                                         <a class="dropdown-item" href="{{route('signage_in_bangalore')}}">Signages in
-                                            Bangalore</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('acrylic_signage_manufacturer_bangalore')}}">Acrylic Signages
-                                            in Bangalore</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('steel_signage_manufacturer_bangalore')}}">Steel Signs in
-                                            Bangalore</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('digital_signage_company_bangalore')}}">Digital Signage in
-                                            Bangalore</a>
-                                        <a class="dropdown-item" href="{{route('neon_sign_board_bangalore')}}">Neon Sign
-                                            Board in Bangalore</a>
-                                        <a class="dropdown-item" href="{{route('led_sign_board_in_bangalore')}}">LED
-                                            Sign Board in Bangalore</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('hospital_signages_in_bangalore')}}">Hospital Signages in
-                                            Bangalore</a>
-                                        <a class="dropdown-item" href="{{route('safety_signages_in_bangalore')}}">Safety
-                                            Signages in Bangalore</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('name_plate_signages_in_bangalore')}}">Name Plate Signages in
-                                            Bangalore</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('restroom_signs_in_bangalore')}}">Restroom Signs in
-                                            Bangalore</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('office_desk_signs_in_bangalore')}}">Office Desk Signs in
-                                            Bangalore</a>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6">
-                                        <h6 class="dropdown-header">Mumbai</h6>
-                                        <a class="dropdown-item"
-                                            href="{{route('leading_signage_company_in_mumbai')}}">Signages in Mumbai</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('premium_acrylic_sign_boards_in_mumbai')}}">Acrylic Signages
-                                            in Mumbai</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('digital_signages_manufacturer_in_mumbai')}}">Digital Signages
-                                            in Mumbai</a>
-                                        <a class="dropdown-item" href="{{route('led_display_board_in_mumbai')}}">LED
-                                            Display Boards in Mumbai</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('hospital_and_medical_signages_in_mumbai')}}">Hospital and
-                                            Medical in Mumbai</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('construction_fire_safety_signages_in_mumbai')}}">Fire Safety
-                                            Signage in Mumbai</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('name_plate_signs_manufacturer_mumbai')}}">Name Plate Signages
-                                            in Mumbai</a>
-                                        <a class="dropdown-item" href="{{route('office_signages_in_mumbai')}}">Office
-                                            Signages in Mumbai</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('stainless_steel_sign_board_manufacturer_mumbai')}}">Stainless
-                                            Steel Sign Board in Mumbai</a>
-                                        <a class="dropdown-item" href="{{route('neon_sign_board_in_mumbai')}}">Neon Sign
-                                            Board in Mumbai</a>
-                                        <a class="dropdown-item" href="{{route('restroom_signs_in_mumbai')}}">Restroom
-                                            Signs in Mumbai</a>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6">
-                                        <h6 class="dropdown-header">Chennai</h6>
-                                        <a class="dropdown-item" href="{{route('signage_company_in_chennai')}}">Signages
-                                            in Chennai</a>
-                                        <a class="dropdown-item" href="{{route('acrylic_signages_in_chennai')}}">Acrylic
-                                            Signages in Chennai</a>
-                                        <a class="dropdown-item" href="{{route('metal_sign_in_chennai')}}">Metal
-                                            Signages in Chennai</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('leading_digital_signages_manufacturer_in_chennai')}}">
-                                            Digital Signage in Chennai</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('custom_neon_sign_board_in_chennai')}}">Custom Neon Signage in
-                                            Chennai</a>
-                                        <a class="dropdown-item" href="{{route('led_display_board_in_chennai')}}">LED
-                                            Display Board in Chennai</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('hospital_medical_signages_chennai')}}">Hospital & Medical
-                                            Signages Chennai</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('high_quality_safety_signages_in_chennai')}}">Safety Signages
-                                            in Chennai</a>
-                                        <a class="dropdown-item"
-                                            href="{{route('high_quality_restroom_signs_in_chennai')}}"> Restroom Signs
-                                            in Chennai</a>
-
-
-                                    </div>
-
-
-                                </div>
-                            </div> --}}
+                            Bangalore</a>
+                            <a class="dropdown-item"
+                                href="{{route('acrylic_signage_manufacturer_bangalore')}}">Acrylic Signages
+                                in Bangalore</a>
+                            <a class="dropdown-item"
+                                href="{{route('steel_signage_manufacturer_bangalore')}}">Steel Signs in
+                                Bangalore</a>
+                            <a class="dropdown-item"
+                                href="{{route('digital_signage_company_bangalore')}}">Digital Signage in
+                                Bangalore</a>
+                            <a class="dropdown-item" href="{{route('neon_sign_board_bangalore')}}">Neon Sign
+                                Board in Bangalore</a>
+                            <a class="dropdown-item" href="{{route('led_sign_board_in_bangalore')}}">LED
+                                Sign Board in Bangalore</a>
+                            <a class="dropdown-item"
+                                href="{{route('hospital_signages_in_bangalore')}}">Hospital Signages in
+                                Bangalore</a>
+                            <a class="dropdown-item" href="{{route('safety_signages_in_bangalore')}}">Safety
+                                Signages in Bangalore</a>
+                            <a class="dropdown-item"
+                                href="{{route('name_plate_signages_in_bangalore')}}">Name Plate Signages in
+                                Bangalore</a>
+                            <a class="dropdown-item"
+                                href="{{route('restroom_signs_in_bangalore')}}">Restroom Signs in
+                                Bangalore</a>
+                            <a class="dropdown-item"
+                                href="{{route('office_desk_signs_in_bangalore')}}">Office Desk Signs in
+                                Bangalore</a>
                         </div>
-                    </li>
+                        <div class="col-lg-4 col-md-6">
+                            <h6 class="dropdown-header">Mumbai</h6>
+                            <a class="dropdown-item"
+                                href="{{route('leading_signage_company_in_mumbai')}}">Signages in Mumbai</a>
+                            <a class="dropdown-item"
+                                href="{{route('premium_acrylic_sign_boards_in_mumbai')}}">Acrylic Signages
+                                in Mumbai</a>
+                            <a class="dropdown-item"
+                                href="{{route('digital_signages_manufacturer_in_mumbai')}}">Digital Signages
+                                in Mumbai</a>
+                            <a class="dropdown-item" href="{{route('led_display_board_in_mumbai')}}">LED
+                                Display Boards in Mumbai</a>
+                            <a class="dropdown-item"
+                                href="{{route('hospital_and_medical_signages_in_mumbai')}}">Hospital and
+                                Medical in Mumbai</a>
+                            <a class="dropdown-item"
+                                href="{{route('construction_fire_safety_signages_in_mumbai')}}">Fire Safety
+                                Signage in Mumbai</a>
+                            <a class="dropdown-item"
+                                href="{{route('name_plate_signs_manufacturer_mumbai')}}">Name Plate Signages
+                                in Mumbai</a>
+                            <a class="dropdown-item" href="{{route('office_signages_in_mumbai')}}">Office
+                                Signages in Mumbai</a>
+                            <a class="dropdown-item"
+                                href="{{route('stainless_steel_sign_board_manufacturer_mumbai')}}">Stainless
+                                Steel Sign Board in Mumbai</a>
+                            <a class="dropdown-item" href="{{route('neon_sign_board_in_mumbai')}}">Neon Sign
+                                Board in Mumbai</a>
+                            <a class="dropdown-item" href="{{route('restroom_signs_in_mumbai')}}">Restroom
+                                Signs in Mumbai</a>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <h6 class="dropdown-header">Chennai</h6>
+                            <a class="dropdown-item" href="{{route('signage_company_in_chennai')}}">Signages
+                                in Chennai</a>
+                            <a class="dropdown-item" href="{{route('acrylic_signages_in_chennai')}}">Acrylic
+                                Signages in Chennai</a>
+                            <a class="dropdown-item" href="{{route('metal_sign_in_chennai')}}">Metal
+                                Signages in Chennai</a>
+                            <a class="dropdown-item"
+                                href="{{route('leading_digital_signages_manufacturer_in_chennai')}}">
+                                Digital Signage in Chennai</a>
+                            <a class="dropdown-item"
+                                href="{{route('custom_neon_sign_board_in_chennai')}}">Custom Neon Signage in
+                                Chennai</a>
+                            <a class="dropdown-item" href="{{route('led_display_board_in_chennai')}}">LED
+                                Display Board in Chennai</a>
+                            <a class="dropdown-item"
+                                href="{{route('hospital_medical_signages_chennai')}}">Hospital & Medical
+                                Signages Chennai</a>
+                            <a class="dropdown-item"
+                                href="{{route('high_quality_safety_signages_in_chennai')}}">Safety Signages
+                                in Chennai</a>
+                            <a class="dropdown-item"
+                                href="{{route('high_quality_restroom_signs_in_chennai')}}"> Restroom Signs
+                                in Chennai</a>
 
-                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('case_study')}}">Case Studies</a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('blogs')}}">Blog</a>
-                    </li>
-                   
-                    <li class="nav-item ms-3">
-                        <a href="{{route('contact_us')}}">
-                            <button class="contact-btn">Contact Us</button>
-                        </a>
-                    </li>
-                </ul>
+                        </div>
+
+
+            </div>
+            </div> --}}
+            </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('case_study')}}">Case Studies</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('blogs')}}">Blog</a>
+            </li>
+
+            <li class="nav-item ms-3">
+                <a href="{{route('contact_us')}}">
+                    <button class="contact-btn">Contact Us</button>
+                </a>
+            </li>
+            </ul>
             </div>
         </nav>
     </header>
@@ -404,7 +412,7 @@
                         <li><a href="{{route('digital_signages')}}" class="text-decoration-none">Digital Signage</a>
                         </li>
                         <li><a href="{{route('arcylic_signages')}}" class="text-decoration-none">Acrylic Signage</a>
-                         <li><a href="{{route('acrylic_letters')}}" class="text-decoration-none">Acrylic Letter</a></li>
+                        <li><a href="{{route('acrylic_letters')}}" class="text-decoration-none">Acrylic Letter</a></li>
                         </li>
                         <li><a href="{{route('neon_signages')}}" class="text-decoration-none">Neon Sign</a></li>
                         <li><a href="{{route('metal_signages')}}" class="text-decoration-none">Metal Signage</a></li>
@@ -439,43 +447,172 @@
 
 
 
-<a href="tel:+918006606080" class="call-btn"><i class="fas fa-phone"></i></a>
+    <a href="tel:+918006606080" class="call-btn"><i class="fas fa-phone"></i></a>
 
     <style>
         .footer a {
             color: #E43D12;
         }
-        .call-btn{
-    position:fixed;
-    bottom:80px; /* moved higher */
-    right:20px;
-    width:67px;
-    height:67px;
-    background:#E43D12;
-    color:#fff;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:28px;
-    text-decoration:none;
-    z-index:9999;
-}
 
-.call-btn:hover {
-    background:#bf3310;
-    color:#fff;
-    text-decoration:none;
-}
+        .call-btn {
+            position: fixed;
+            bottom: 80px;
+            /* moved higher */
+            right: 20px;
+            width: 67px;
+            height: 67px;
+            background: #E43D12;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            text-decoration: none;
+            z-index: 9999;
+        }
+
+        .call-btn:hover {
+            background: #bf3310;
+            color: #fff;
+            text-decoration: none;
+        }
 
 
-@media (max-width:768px){
-    .call-btn{
-        bottom:100px;
-        right:15px;
-    }
-}
+        @media (max-width:768px) {
+            .call-btn {
+                bottom: 100px;
+                right: 15px;
+            }
+        }
     </style>
+
+    @if((!isset($exception) || (method_exists($exception, 'getStatusCode') && $exception->getStatusCode() !== 404)) && !Request::is('privacy-policy*') && !Request::is('sitemap*') && !Request::is('terms-and-conditions*') && !Request::is('contact-us*') && !Request::is('about-us*'))
+
+    <!-- Popup Modal -->
+    <div class="modal fade" id="globalContactPopup" tabindex="-1" aria-labelledby="globalContactPopupLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="row g-0 ">
+                        <div class="col-md-12 p-4">
+                            <h3 class="mb-3" style="font-family: 'Lora', serif; color: #E43D12;">Request a Quote</h3>
+                            <p class="mb-4">Need More Info? Please Contact Us and We'll Do Our Best to Help.</p>
+
+                            <form id="globalPopupForm" action="{{ route('contact.store') }}" method="POST">
+                                @csrf
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" name="first_name" placeholder="Full Name*" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="tel" class="form-control" name="phone_number" placeholder="Phone Number*" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" name="message" rows="3" placeholder="Your Requirements..." required></textarea>
+                                </div>
+
+                                <!-- CAPTCHA for Popup -->
+                                <div class="mb-3">
+                                    <div class="d-block d-md-flex align-items-center mb-2 gap-2">
+                                        <div class="d-flex gap-2 align-items-center mb-3 mb-md-0 w-100">
+                                            <img src="{{ captcha_src('flat') }}" id="popup-captcha-image" class="img-thumbnail" style="cursor: pointer; height: 60px;" onclick="refreshPopupCaptcha()">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary" onclick="refreshPopupCaptcha()">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="form-control mb-0" name="captcha" placeholder="Enter CAPTCHA" required>
+
+                                    </div>
+                                </div>
+
+                                <div id="popup-msg" class="alert alert-success d-none">Thank you! Your message has been sent.</div>
+                                <div id="popup-err" class="alert alert-danger d-none">Something went wrong. Please try again.</div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn w-50 text-white" style="background-color: #E43D12;">Get in Touch</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function refreshPopupCaptcha() {
+            var timestamp = Date.now();
+            var img = document.getElementById('popup-captcha-image');
+            if (img) {
+                img.src = '{{ captcha_src() }}?' + timestamp;
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var globalPopupEl = document.getElementById('globalContactPopup');
+            if (globalPopupEl) {
+                var myModal = new bootstrap.Modal(globalPopupEl, {
+                    keyboard: false
+                });
+
+                setTimeout(function() {
+                    myModal.show();
+                }, 5000);
+            }
+
+            // AJAX Submission for Global Popup
+            $('#globalPopupForm').submit(function(e) {
+                e.preventDefault();
+                var form = $(this);
+                var submitBtn = form.find('button[type="submit"]');
+                var originalBtnText = submitBtn.text();
+
+                // Reset errors
+                form.find('.form-control').removeClass('is-invalid');
+                $('#popup-msg, #popup-err').addClass('d-none');
+
+                submitBtn.prop('disabled', true).text('Sending...');
+
+                $.ajax({
+                    url: form.attr('action'),
+                    type: 'POST',
+                    data: new FormData(this),
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        if (response.success) {
+                            $('#popup-msg').removeClass('d-none').text(response.message);
+                            form[0].reset();
+                            refreshPopupCaptcha();
+                            // Optional: Hide form content after success
+                            setTimeout(function() {
+                                if (myModal) myModal.hide();
+                            }, 3000);
+                        }
+                    },
+                    error: function(xhr) {
+                        $('#popup-err').removeClass('d-none').text('Something went wrong. Please check your inputs.');
+
+                        if (xhr.status === 422) {
+                            var errors = xhr.responseJSON.errors;
+                            $.each(errors, function(key, value) {
+                                var input = form.find('[name="' + key + '"]');
+                                input.addClass('is-invalid');
+                                // You could append error message divs here if needed
+                            });
+                        }
+                        refreshPopupCaptcha(); // Refresh captcha on error
+                    },
+                    complete: function() {
+                        submitBtn.prop('disabled', false).text(originalBtnText);
+                    }
+                });
+            });
+        });
+    </script>
+    @endif
 
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/lightgallery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
@@ -493,7 +630,7 @@
         });
     </script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             var popupModalEl = document.getElementById('popupModal');
             var modal = null;
 
@@ -501,11 +638,11 @@
                 modal = new bootstrap.Modal(popupModalEl);
             }
 
-            $('#getStarted').click(function () {
+            $('#getStarted').click(function() {
                 var isValid = true;
 
                 // Validate all input fields
-                $('#mainForm .form-control, #mainForm .form-select').each(function () {
+                $('#mainForm .form-control, #mainForm .form-select').each(function() {
                     if (!$(this).val()) {
                         $(this).addClass('is-invalid');
                         $(this).next('.invalid-feedback').show();
@@ -531,7 +668,7 @@
             });
 
             // Remove error highlight when input is changed
-            $('#mainForm .form-control, #mainForm .form-select').on('input change', function () {
+            $('#mainForm .form-control, #mainForm .form-select').on('input change', function() {
                 if ($(this).val()) {
                     $(this).removeClass('is-invalid');
                     $(this).next('.invalid-feedback').hide();
@@ -539,7 +676,7 @@
             });
 
             // Show/Hide upload field based on type selection
-            $('input[name="type"]').change(function () {
+            $('input[name="type"]').change(function() {
                 if ($(this).val() === 'upload') {
                     $('#imageField').show();
                 } else {
@@ -547,7 +684,7 @@
                 }
             });
 
-            $('#popupForm').submit(function (e) {
+            $('#popupForm').submit(function(e) {
                 e.preventDefault();
                 var formData = new FormData(this);
 
@@ -557,7 +694,7 @@
                     data: formData,
                     processData: false,
                     contentType: false,
-                    success: function (response) {
+                    success: function(response) {
                         if (response.message) {
                             if (modal) modal.hide();
                             $('#successMessage').fadeIn().delay(3000).fadeOut();
@@ -566,7 +703,7 @@
                             $('.form-control, .form-select').removeClass('is-invalid'); // Reset validation styles
                         }
                     },
-                    error: function (xhr) {
+                    error: function(xhr) {
                         alert('Something went wrong! Please try again.');
                     }
                 });
