@@ -95,7 +95,7 @@
         <div class="container pt-5">
             <h2>Explore Endless Shop Name Board Design Options</h2>
             <p>Brand Signages brings you the <b>largest ever collection</b> of shop sign board options for your storefront. We are 
-                providing the most affordable <b>shop name boards</b> & <a href="office-signages" style="color:#E43D12; text-decoration:none;"><strong>office name boards</strong></a> all over India with quick turnaround and expert installation 
+                providing the most affordable <b>shop name boards</b> & <a href="name-board-design-for-office-bangalore" style="color:#E43D12; text-decoration:none;"><strong>office name boards</strong></a> all over India with quick turnaround and expert installation 
                 services. Our shop name boards come with <b>custom design</b>, <b>4-5 years warranty</b>, and transparent pricing options. 
             </p>
             <p>Featuring various <b>size formats</b>, <b>dynamic colour options</b>, and <b>superior lighting</b>, our shop name boards offer a standout visual 

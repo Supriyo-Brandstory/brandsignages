@@ -74,6 +74,9 @@
             </div>
         </div>
     </section>
+
+ 
+
     <section class="led-signs-manufacturing">
         <div class="container pt-5">
 
@@ -107,12 +110,36 @@
                             ensure it perfectly represents the brand's visual standards.
                         </li>
                         <div class="mt-4">
-                            <a href="{{route('about_us')}}" class="custom-btn">About Us</a>
+                            <a href="{{route('about_us')}}" class="custom-btn">Know About Us</a>
                         </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="instant-pricing">
+        <div class="container pb-5">
+            <h2>Signage & Branding Experts Crafting Signature <br>Visibility for Brands</h2>
+                <p>Elevate your brand with stunning sign boards that spark attention. At Brand Signages, we are premier signage board manufacturers 
+                committed to delivering innovative signage board design and superior signage board manufacturing. Our expertise encompasses eye-catching
+                 branding sign boards, strategic sign branding, integrated <b>signage and branding solutions</b>, and sophisticated branding signage design, 
+                 bringing a new standard in signage and branding excellence. 
+            </p>
+            <p>We are <b>trusted by 2500+ businesses</b> across India for professional signage, sign branding, and custom <b>branding signage design</b> solutions that turn 
+                business names into strong brand identities. Our <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>shop name board projects</strong></a>, transformative <a href="name-board-design-for-office-bangalore" style="color:#E43D12; text-decoration:none;"><strong>office name board designs</strong></a>, and comprehensive 
+                signage and branding packages are setting <b>gold standard in visual branding</b>. We don’t just build brand sign boards, we are the trendsetters in 
+                the industry, we are Brand Signages.</p>
+            <img src="/frontend/Images/home/signage-and-branding-2.webp" alt="Exclusive Shop Name Board Design by Brand Signages" class="shop-image">     
+                <div class="text-center">
+                <a href="#designs">
+                    <button class="contact-btn">Talk To Our Experts</button>
+                </a>
+            </div>
+                            
+            </div>
+        </div>
+    </section>
+
     <section class="new_custom-stats-section">
         <div class="container">
             <div class="row text-center text-white">
@@ -365,7 +392,87 @@
             </div>
     </section>
 
+     <section id="recent_projects" class="new-recent-works">
+        <div class="container pt-5">
+            <h2 class="hero-title  mb-6">Our Recent Signage and Branding<br> Design Projects</h2>
 
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
+                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Titan Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
+                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Fortis Hospital</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Café Mocha</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/tanishq.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Tanishq Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Prestige Group</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>MedPlus Pharmacy</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="/contact-us">
+                    <button class="contact-btn">Start Your Project</button>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
 
     <section class="new_client_section container">
         <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
