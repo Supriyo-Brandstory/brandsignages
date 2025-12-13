@@ -487,7 +487,7 @@
         }
     </style>
 
-    @if((!isset($exception) || (method_exists($exception, 'getStatusCode') && $exception->getStatusCode() !== 404)) && !Request::is('privacy-policy*') && !Request::is('sitemap*') && !Request::is('terms-and-conditions*') && !Request::is('contact-us*') && !Request::is('about-us*'))
+    @if((!isset($exception) || (method_exists($exception, 'getStatusCode') && $exception->getStatusCode() !== 404)) && !Request::is('privacy-policy*') && !Request::is('sitemap*') && !Request::is('terms-and-conditions*') && !Request::is('contact-us*') && !Request::is('about-us*') && !Request::is('blogs*') )
 
     <!-- Popup Modal -->
     <div class="modal fade" id="globalContactPopup" tabindex="-1" aria-labelledby="globalContactPopupLabel" aria-hidden="true">
