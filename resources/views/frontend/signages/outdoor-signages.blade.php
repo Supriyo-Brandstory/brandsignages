@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Outdoor Sign Board <br>for Better Brand Visibility</h1>
+                    <h1 class="hero-banner_title">Outdoor Sign Board <br>High-impact Exterior Signages</h1>
                     <p>Looking for a standout outdoor sign board for your business? <br>Brand Signages is a trusted expert in crafting high-quality, durable <br>outdoor sign boards that showcase your brand with visibility, <br>style, and lasting impact.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
@@ -61,7 +61,7 @@
                 In today's digital age, modern signages with embedded QR codes allow customers to scan instantly, explore your business online, and make purchases on the spot.
                 </p>
                 <p class="brand-description">
-                <b>Creates a Lasting Brand Impression:</b> A well-designed outdoor shop name board instantly draws in customers, building strong brand recognition. It serves as a 
+                <b>Creates a Lasting Brand Impression:</b> A well-designed outdoor sign board instantly draws in customers, building strong brand recognition. It serves as a 
                 permanent landmark, making your location easily identifiable for locals and visitors alike.</p>
                 <p class="brand-description">
                 <b>Durability and Versatility:</b> Unlike temporary marketing like posters or flyers, our outdoor signs are built to last. Using weather-resistant materials, 
@@ -96,7 +96,7 @@
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
                                             href="contact-us">Freestanding Outdoor Signs</a></h5>
-                                    <p class="We-Elevate-Brands-text">A freestanding sign, anchored directly to the ground without being attached to any building or establishment, comes in different forms like pylon or pole signs, monoliths, and monuments. </p>
+                                    <p class="We-Elevate-Brands-text">We create freestanding sign boards that stand independently without attaching to any building, designed as pylon signs, pole signs, monoliths, or monument displays to deliver strong visibility.</p>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
                                             href="contact-us">Outdoor Banners</a></h5>
-                                    <p class="We-Elevate-Brands-text">Simple outdoor banners placed outside your store are a cost-effective yet useful way to make the passerby audiences stop at the store and decide about buying the products or services.</p>
+                                    <p class="We-Elevate-Brands-text">We design simple yet impactful outdoor banners that are placed outside your store to attract passerby attention, encourage walk-ins, and promote your products or services in a cost-effective way.</p>
                                 </div>
                             </div>
                         </div>
@@ -118,8 +118,8 @@
                                     alt="Illuminated Outdoor Signage">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
-                                            href="led-acrylic-3d-glow-sign-board">LED Outdoor Signage</a></h5>
-                                    <p class="We-Elevate-Brands-text">With attractive LED lights attached to the signages, the visibility of the signages can be doubled. The illuminated boards comprise neon, LED or other fluorescent lights and deliver maximum impact.</p>
+                                            href="led-acrylic-3d-glow-sign-board">LED Display Signage</a></h5>
+                                    <p class="We-Elevate-Brands-text">We create illuminated outdoor sign boards enhanced with vibrant LED lighting that significantly boosts visibility. Using neon, LED, or fluorescent elements, these glowing signages ensure maximum impact.</p>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
                                             href="contact-us">PVC Outdoor Signage</a></h5>
-                                    <p class="We-Elevate-Brands-text">Made of polyvinyl chloride, PVC outdoor signage works as a durable, lightweight, low-maintenance and affordable marketing tool. Suitable for diverse weather conditions and used for multiple purposes.</p>
+                                    <p class="We-Elevate-Brands-text">We design PVC outdoor signages for exterior branding, offering a durable, lightweight, low-maintenance, and cost-effective solution. Withstands varied weather conditions and ideal for multiple outdoor applications.</p>
                                 </div>
                             </div>
                         </div>
@@ -140,8 +140,8 @@
                                     alt="Outdoor Digital Signage">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
-                                            href="digital-signages">Digital Signage</a></h5>
-                                    <p class="We-Elevate-Brands-text">Also known as digital displays, digital signage is a dynamic form of high-visibility outdoor business signage. Promote services, events, and special offers through engaging, real-time visual content.</p>
+                                            href="digital-signages">Outdoor Digital Display</a></h5>
+                                    <p class="We-Elevate-Brands-text">As a digital signage manufacturer, we build advanced digital display solutions designed for maximum outdoor visibility. Dynamic digital signages help promote services, events, and offers using eye-catching visual content.</p>
                                 </div>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
                                             href="metal-signages">Aluminium Outdoor Signage</a></h5>
-                                    <p class="We-Elevate-Brands-text">Made of composite aluminium sheets strengthened with polyethylene plastic from the core, this type of outdoor signage is lightweight. It is ideal for strong and permanent outdoor board signs.</p>
+                                    <p class="We-Elevate-Brands-text">We create ACP outdoor sign boards using composite aluminum sheets with a reinforced polyethylene core. These exterior signages are lightweight yet sturdy, making them ideal for long-lasting and permanent outdoor branding.</p>
                                 </div>
                             </div>
                         </div>
@@ -172,66 +172,76 @@
         </div>
     </section>
 
-
-
-<section class="container py-lg-5 py-md-3 py-sm-2 py-3">
-    <div class="row g-4 d-flex flex-wrap justify-content-center">
-
-        <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">Your Reliable Partner for Perfect <br>Outdoor Sign Boards</h2>
+<section class="why-bg-light-pink py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">
+                Your Reliable Partner for Perfect <br>Outdoor Sign Boards
+            </h2>
+            <p class="card-text text-center">
+                At Brand Signages, we specialise in outdoor signage design and manufacturing that helps businesses stand out in 
+                high-visibility locations. From concept to installation, our outdoor sign boards are crafted to deliver durability, 
+                clarity, and strong brand impact.
+            </p>
         </div>
 
-        <div class="col-lg-12">
-            <div class="row g-4">
-                <div class="col-lg-8">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/outdoor-sign-6.jpg')}}" alt="Reverse Glow Signs" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Get Sample Designs</h5>
-                            <p class="text-content">We provide sample design concepts to help you visualise the final signage before production. This allows you to review layout, material finish, colour combinations, and overall impact, ensuring the final sign aligns perfectly with your brand requirements.</p>
-                        </div>
+        <div class="row g-4">
+            <!-- Point 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="why-card card h-100">
+                    <img src="{{asset('frontend/Images/outdoor-sign-5.webp')}}" class="why-card-img-top"
+                        alt="Outdoor Signages That Attract Attention">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">
+                            <b>Sample Sign Board Designs</b>
+                        </h3>
+                        <p class="card-text">
+                            As trusted outdoor signage manufacturers, we provide sample outdoor sign board designs to help you visualise the final look. These concepts include layout planning, material finish, colour combinations, and lighting options to 
+                             ensure the signage suits your outdoor branding needs.
+                        </p>
                     </div>
                 </div>
-
-                <div class="col-lg-4">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/outdoor-signage11.webp')}}" alt="Metal Backlit" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Service and Support</h5>
-                            <p class="text-content">Our team offers end-to-end service and support, from initial consultation and design planning to manufacturing and installation. With a focus on professionalism and timely execution, we ensure a smooth experience and consistent communication throughout the project.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/outdoor-signage12.webp')}}" alt="Premium Metal Letters and Signage"
-                            class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Price & Size Guide</h5>
-                            <p class="text-content">We assist you with clear pricing and size recommendations based on your location, visibility needs, and budget. Our experts guide you in selecting the right dimensions and materials to achieve maximum impact while maintaining cost efficiency.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-8">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/outdoor-signage13.webp')}}" alt="Stainless Steel Signs" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Sustainable Printing</h5>
-                            <p class="text-content">As we are moving toward a future where sustainability becomes a
-                                primary concern, focusing on sustainable printing in signage boards is important.
-                                Eco-friendly boards with elements soothing to the eyes are helpful to carry forward
-                                your business mission toward a secure future.</p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-        </div>
 
+            <!-- Point 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="why-card card h-100">
+                    <img src="{{asset('frontend/Images/outdoor-sign-6.webp')}}" class="why-card-img-top"
+                        alt="Outdoor Signages That Withstand Weather Conditions">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">
+                            <b>End-to-End Service & Support</b>
+                        </h3>
+                        <p class="card-text">
+                            We offer complete outdoor signage solutions services, covering consultation, design planning, outdoor sign board manufacturing, and professional 
+                            installation. Our experienced team ensures smooth coordination, timely execution, and reliable support throughout the project.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Point 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="why-card card h-100">
+                    <img src="{{asset('frontend/Images/signage-mock.webp')}}" class="why-card-img-top"
+                        alt="Outdoor Signages Pricing & Size Guidance">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">
+                            <b>Sign Board Pricing & Size Guidance</b>
+                        </h3>
+                        <p class="card-text">
+                            Our experts assist with transparent pricing and accurate size recommendations for outdoor sign boards based on location, viewing distance,
+                             and budget. This helps you select the right materials and dimensions for maximum outdoor visibility and long-term performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </section>
+
+
 
     <section class="new-recent-works">
         <div class="container pt-5">
