@@ -1,6 +1,6 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-    <section class="hero-banner"
+    <!--<section class="hero-banner"
         style="background-image: url('{{ asset('/frontend/Images/name-boards/name-board-design-for-office-1.webp') }}'); ">
         <div class="container">
             <div class="row">
@@ -15,7 +15,85 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
+        <div class="newly-bannersection">
+        <div class="bar">
+            <h1 class="hero-banner_title">Office Name Board</h1>
+
+        </div>
+        <!-- Slider -->
+        <div class="slider-wrapper">
+
+            <div class="main-slider">
+                <div class="slide active">
+                    <img src="/frontend/Images/name-boards/office-name-board-design-1.jpg" alt="Advocate Office Name Board Design Sample">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/office-name-board-design-2.jpg" alt="Office Name Board Design Sample">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/office-name-board-design-3.jpg" alt="Office Name Board Design Sample">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/office-name-board-design-4.jpg" alt="Office Name Board Design Sample">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/office-name-board-design-5.jpg" alt="Office Name Board Design Sample">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/office-name-board-design-6.jpg" alt="Office Name Board Design Sample">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/shop-name-board-8.webp" alt="Office Name Board Design Sample">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" alt="Acrylic LED Sign Board Spefifications">
+                </div>
+              
+            </div>
+
+            <!-- Navigation should be OUTSIDE -->
+            <div class="nav-arrow prev">&#8249;</div>
+            <div class="nav-arrow next">&#8250;</div>
+        
+
+
+            <div class="thumbnails">
+                <img src="/frontend/Images/name-boards/office-name-board-design-1.jpg" alt="Advocate Office Name Board Design Sample" class="thumb active" data-index="0">
+                <img src="/frontend/Images/name-boards/office-name-board-design-2.jpg" alt="Corporate Office Name Board Design Sample" class="thumb" data-index="1">
+                <img src="/frontend/Images/name-boards/office-name-board-design-3.jpg" alt="Corporate Office Name Board Design Sample" class="thumb" data-index="2">
+                <img src="/frontend/Images/name-boards/office-name-board-design-4.jpg" alt="Corporate Office Name Board Design Sample" class="thumb" data-index="3">
+                <img src="/frontend/Images/name-boards/office-name-board-design-5.jpg" alt="Corporate Office Name Board Design Sample" class="thumb" data-index="4">
+                <img src="/frontend/Images/name-boards/office-name-board-design-6.jpg" alt="Corporate Office Name Board Design Sample" class="thumb" data-index="5">
+                <img src="/frontend/Images/name-boards/shop-name-board-8.webp" alt="Corporate Office Outdoor Name Board Design Sample" class="thumb" data-index="6">
+                <img src="/frontend/Images/led-sign-board/acrylic-led-product-details.webp" alt="Acrylic LED Sign Board Spefifications" class="thumb" data-index="7">
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <h1 class="hero-banner_title">Office Name Board Designs</h1>
+            <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 + GST</b></p>
+
+            <div class="divider"></div>
+            <p class="fs-16">A premium office name board serves as the foundation of your corporate identity, projecting sophistication, reliability, and authority. 
+                Cutting-edge design, efficient LED lighting, and top-grade materials ensure your office name board look sharp day and night. Make a powerful statement
+                 of professionalism and welcome clients with confidence, choose an office name board design that turns heads and opens doors.</p>
+            <ul class="features">
+                <li>100+ office name board designs (Largest Collection in India)</li>
+                <li>Crafted with quality material- acrylic, LEDs, Neon, & ACP</li>
+                <li>3D letters & LED lighting highlight your office name & logo</li>
+                <li>PAN India service including design & installation</li>
+                <li>Support services round the clock</li>
+            </ul>
+
+            <div class="buttons">
+                <a href="#pricing" class="btn">Explore Pricing</a>
+                <a href="{{ route('contact_us') }}" class="btn">Place Order</a>
+            </div>
+        </div>
+    </div>
+
     <!-- About Section -->
 
     <section class="instant-pricing">
@@ -992,5 +1070,25 @@
 
         </div>
     </section>
+
+    <script>
+let current = 0;
+const slides = document.querySelectorAll('.slide');
+const thumbs = document.querySelectorAll('.thumb');
+
+function show(i) {
+  slides[current].classList.remove('active');
+  current = i;
+  slides[current].classList.add('active');
+}
+
+document.querySelector('.next').onclick = () =>
+  show((current + 1) % slides.length);
+
+document.querySelector('.prev').onclick = () =>
+  show((current - 1 + slides.length) % slides.length);
+
+thumbs.forEach((t, i) => (t.onclick = () => show(i)));
+</script>
 
 @endsection

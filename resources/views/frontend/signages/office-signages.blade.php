@@ -71,7 +71,7 @@
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">Office Signage Boards</h1>
+            <h1 class="hero-banner_title">Office Sign Boards</h1>
             <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 + GST</b></p>
 
             <div class="divider"></div>
