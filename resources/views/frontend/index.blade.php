@@ -129,7 +129,7 @@
                 business names into strong brand identities. Our <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>shop name board projects</strong></a>, transformative <a href="name-board-design-for-office-bangalore" style="color:#E43D12; text-decoration:none;"><strong>office name board designs</strong></a>, and comprehensive 
                 signage and branding packages are setting <b>gold standard in visual branding</b>. We don’t just build brand sign boards, we are the trendsetters in 
                 the industry, we are Brand Signages.</p>
-            <img src="/frontend/Images/home/exclusive-sign-board-design.webp" alt="Exclusive Shop Name Board Design by Brand Signages" class="shop-image">     
+            <img src="/frontend/Images/home/sign-board-design-exclusives.webp" alt="Exclusive Shop Name Board Design by Brand Signages" class="shop-image">     
                 <div class="text-center">
                 <a href="contact-us">
                     <button class="contact-btn">Talk To Our Experts</button>
