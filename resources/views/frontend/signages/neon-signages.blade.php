@@ -1,6 +1,6 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-<section class="carousel-section">
+<!--<section class="carousel-section">
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -14,52 +14,27 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Best Neon Sign Board Manufacturers <br>for Eye-Catching Signages</h2>
-        
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/neon-image2.webp')}}" alt="Neon sign boards " class="img-fluid">
+    <section class="hero-banner" style="background-image: url('{{ asset('frontend/Images/neon-image.webp') }}');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="hero-banner_title">Best Neon Sign Boards:<br> Creative & Bright Neons</h1>
+                    <p>Create a refined elegance with Brand Signages's <br>LED neon sign boards, designed to illuminate your space, <br>complementing your brand style.
+                    </p>
+                    <a href="https://brandsignages.com/contact-us">
+                        <button class="contact-btn">Know More</button>
+                    </a>
                 </div>
             </div>
-            
-            <div class="col-lg-6">
-            <h2 class="brand-title">#1 Neon Sign Boards</h2>
-                <p class="brand-description">
-                Neon signage has become a trending element of modern branding, enhancing both personal & professional spaces. Neon sign boards are designed to add a vibrant touch and make your space visually appealing. These are used in restaurants, retail stores, offices, homes, and events to create a vibrant & eye-catching ambiance. It can be a perfect go-to option to create your unique brand identity and attract customers.</p>
-                <p class="brand-description">
-                Brand Signages is a leading name in neon sign board  
-                
-                <a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Bangalore </a>, 
-                <a href="{{route('neon_sign_board_in_mumbai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;"> Mumbai </a>, and
-                 <a href="{{route('custom_neon_sign_board_in_chennai')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;"> Chennai </a>,
-             offering custom neon signage design options. Top businesses rely on us for custom-made neon signs that perfectly combine quality and style. Our expert custom neon sign manufacturers pay close attention to your needs and preferences when making the signs. Thus, we ensure that you get top-notch neon signs that can bring your dream ambiance to life with stunning illumination.</p>
-                <p class="brand-description">
-                Whether it is neon signs for shops and offices, our every product undergoes detailed quality checks and thus we provide best-in-class neon signs for you. Being made of the highest-quality material, our neon signs can be used for diverse purposes including advertising, decoration, gifting, etc. Get quality neon signs crafted according to your individual preferences from Brand Signage and enliven your space effortlessly.</p>
-                <ul class="process-list">
-                        <li>
-                            We craft the best-quality, custom neon signages to meet your needs.
-                        </li>
-                        <li>
-                            Our neon signages are energy-efficient, durable, and visually appealing.
-                        </li>
-                        <li>
-                            We offer expert design and installation services for a seamless experience.
-                        </li>
-                    </ul>
-            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section>
+    <section>
     <div class="container py-5" id="gallery-container">
         <h2 class="hero-title  mb-4">Premium Neon Signboards – Bold, Brilliant, and Unforgettable</h2>
-        <p class=" text-center mb-5">At Brand Signages, we bring your brand to life with vibrant, custom-designed neon signboards that captivate and communicate. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards – each tailored to reflect your unique brand identity. 
+        <p class=" brand-description text-center mb-5">At <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Brand Signages</a>, we bring your brand to life with vibrant, custom-designed neon signboards that captivate and communicate. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards- each tailored to reflect your unique brand identity. 
 
             <br>Whether you're a budding startup, retail business, restaurant, seasoned brand, or looking for neon signs for a special event or home, our neon solutions offer the perfect fusion of artistic flair and functional brilliance. Every sign is meticulously crafted to ensure visual appeal and durability, turning ordinary spaces into glowing experiences.
         </p>            
@@ -112,72 +87,81 @@
     </div>
 </section>
 
+    <section id="pricing">
+        <div class="container py-sm-2 py-3 pb-5">
+            <h2 class="hero-title">Custom Neon Sign Boards to Light Up<br> Your Brand Identity</h2>
 
-<section class="container py-5">
-    <div class="row g-4 d-flex flex-wrap justify-content-center">
-
-        <div class="text-center ">
-            <h2 class="display-4 mb-3 why-text-heading">Custom-Made Neon Light Signs for Your Space</h2>
-            <p class="card-text text-center">We produce high-class neon lights in Bangalore for all setups. Redesign your place with glow <br> signage shaped just for you!</p>
-        </div>
-
-        <div class="col-lg-4">
-            <div class="image-container position-relative">
-                <img src="{{asset('frontend/Images/neonsign-bangalore6.webp')}}" alt="Neon Signs for Bar" class="w-100 h-100">
-                <div class="overlay">
-                    <h5 class="text-title">Neon Signs for Bar</h5>
-                    <p class="text-content">Add vibrant energy to your bar with stylish neon signs. Create an inviting atmosphere with custom neon sign boards featuring bold colors and eye-catching designs.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-8">
-            <div class="row g-4">
-                <div class="col-lg-6">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/neonsign-bangalore7.webp')}}" alt="Neon Lights for Restaurants" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Neon Lights for Restaurants</h5>
-                            <p class="text-content">Elevate your restaurant’s atmosphere with bold, custom neon lights that seamlessly blend style and function. With their sleek, modern appeal, neon lights bring a fresh energy to any restaurant setting.</p>
-                        </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{asset('frontend/Images/neon-image2.webp')}}"
+                            alt="LED Name Board Design" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/neonsign-bangalore8.webp')}}" alt="Neon Sign Logo" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Neon Sign Logo</h5>
-                            <p class="text-content">Stand aloof with a customized neon sign logo for your brand. Whether for a corporate office or a retail shop, sign boards implant life in your logo in a shining, unforgettable manner.</p>
-                        </div>
-                    </div>
-                </div>
+            <p class="fs-20">
+                Step into the spotlight with Brand Signages- where timeless neon signs meets cutting-edge LED innovation. 
+                Our custom <a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">neon sign boards</a>, elegantly mounted on crystal-clear acrylic bases, deliver a floating, ethereal glow 
+                that transforms any space into a captivating masterpiece. Perfect for bold business logos, inspiring quotes, or
+                 intricate designs, these signs command attention and etch your brand into memory.
+            </p>
 
-                <div class="col-lg-8">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/neonsign-bangalore9.webp')}}" alt="Neon Sign Party Decor" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Neon Sign Party Decor</h5>
-                            <p class="text-content">Spice up your parties with innovative neon LED signs. From birthdays to weddings, our custom neon signs make for memorable party decor that brightens up your festivities.</p>
-                        </div>
-                    </div>
-                </div>
+    <p class="fs-20">
+                The transparent acrylic backdrop creates a sleek, minimalist "halo" effect, allowing 
+                    vibrant LED neon flex to radiate pure, unfiltered energy. Shatterproof, lightweight, and optically superior,
+                     it diffuses light flawlessly for an ultra-modern vibe that's visible day or night- indoors in storefront windows,
+                      offices, or selfie walls, or outdoors.
+    </p>
 
-                <div class="col-lg-4">
-                    <div class="image-container position-relative">
-                        <img src="{{asset('frontend/Images/neonsign-bangalore10.webp')}}" alt="Neon Signs for Home" class="w-100 h-100">
-                        <div class="overlay">
-                            <h5 class="text-title">Neon Signs for Home</h5>
-                            <p class="text-content">Give individuality to your living area with tailored neon sign boards. Whether for a comfort zone or your entertainment zone, these LED signage pieces are ideal for home decor.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <p class="fs-20">
+        Up to <b>80% more energy-efficient</b> than traditional neon, with cool-running LEDs that <b>last over 50,000 hours</b>- no fragile glass, no high maintenance. Choose from endless colors, fonts, shapes, and even UV-printed details for 
+                logos that pop with personality. Pre-drilled mounts, remote dimmers, and plug-and-play setup make it a breeze to elevate your brand instantly.
+    </p>
 
-    </div>
+   <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
+            <button class="contact-btn">Book Order Now</button>
+    </a>
+</div>
+
 </section>
 
+<section>
+    <div class="container py-lg-5 py-md-3 py-sm-2 py-2">
+        <h2 class="hero-title">Neon Sign Boards: Promotions That<br> Spark Sales</h2>
+        <div class="row align-items-center">
+            
+            <div class="col-lg-6 order-2 order-lg-1">
+
+                <p class="fs-20">Turn heads, draw crowds, and skyrocket your visibility with stunning custom neon signs from Brand Signages. We craft breathtaking signage that illuminate, captivates, and attracts passerby.
+                <ul class="fs-20">
+                    <li>
+                        <strong>Unmatched Attraction Power:</strong> Brilliant glow that lures eyes from afar, boosting footfall and sales like never before.
+                    </li>
+                    <li>
+                        <strong>Vivid, Unforgettable Impact:</strong> Dazzling colors and dynamic designs that create lasting impressions and memorable brand experiences.
+                    </li>
+                    <li>
+                        <strong>Endless Customization:</strong> Choose any color, font, size, or message – fully personalized to make your promotion pop.
+                    </li>
+                    <li>
+                        <strong>Shine 24/7:</strong> Energy-efficient, weatherproof, and built to glow brilliantly day and night- your ultimate partner in non-stop visibility.
+                    </li>
+                    </ul>
+
+            </p>
+             
+            </div>
+
+            <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
+                <div class="showcase-image">
+                    <img src="{{asset('frontend/Images/neon-image9.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 <section class="why-bg-light-pink py-lg-5 py-md-3 py-sm-2 py-3">
     <div class="container">
@@ -328,67 +312,6 @@
 
 
 
-
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Multicolor Neon Lights and Signs for <br> Every Space</h2>
-  
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/neon-image8.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
-                </div>
-            </div>
-            
-            <div class="col-lg-6">
-                <p class="brand-description">
-                    If you’re looking for an illuminated sign with different colours combined in one design, check out premium quality multicolour neon lights and signs from us. With an added touch of personalisation, these neon signs and lights are ideal for your indoor and outdoor spaces.</p>
-             
-                <p class="brand-description">
-                    The comprehensive range of diverse colours makes the multicoloured neon lights and signs more special than others. Whether it’s a get-together at your drawing room, a house party in the broad hallway, or an event on your rooftop, multicolour neon lights from Brand Signage can create the ambience you look for.</p>
-             
-                <p class="brand-description">
-                    To illuminate your space in your desired way, you must rely upon trusted neon light manufacturers as they offer long-lasting yet stylish products. However, if you have made up your mind to purchase multi-colour neon signs for personal or professional spaces, we are here with the best collections of them.</p>
-                
-                <p class="brand-description">
-                    Brighten your space and rejuvenate your mind with our exclusive neon signs suitable for all purposes</p>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-2">
-        <h2 class="hero-title">Illuminate Your Space with <br>Custom-Made Neon Signages</h2>
-        <div class="row align-items-center">
-            
-            <div class="col-lg-6 order-2 order-lg-1">
-
-                <p class="brand-description">
-                Illuminate your space with custom-made neon signage boards by Brand Signages. 
-                If you're looking to elevate your brand or add a modern touch to your space, 
-                our neon signages are the perfect blend of style and aesthetics. Neon signage is 
-                mostly used in cafes, bars, and restaurants to elevate ambiance with vibrant neon art. 
-                We also make neon signages for beauty salons, retail stores, and yoga studios. Brand Signages 
-                is India's most affordable supplier of neon light signs for home, office, and retail spaces. 
-                With less power consumption our neon signages offer a long-lasting solution that’s perfect for 
-                your space. Whether you're looking to mount them on walls or set them up on display stands, we 
-                provide a full-scale solution from design to installation. 
-            </p>
-             
-            </div>
-
-            <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/neon-image9.webp')}}" alt="Cafe Rosco Signage" class="img-fluid">
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
 
 
 
