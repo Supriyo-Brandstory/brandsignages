@@ -7,8 +7,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Door Sign Boards: Door<br> Signs for Home, Business & Shops</h1>
-                    <p>Looking for a standout door sign board design? Brand Signages is a trusted <br>expert in crafting fine-quality, professional door sign boards that display names, <br>messages, or branding with clarity, durability, and refined style.
+                    <h1 class="hero-banner_title">Door Sign Boards: Door<br> Signages for Home & Business</h1>
+                    <p>Looking for a standout door sign board? Brand Signages is a trusted <br>expert in crafting fine-quality, professional door signages that display names, <br>messages, or branding with clarity, durability, and refined style.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Get a Quote</button>
