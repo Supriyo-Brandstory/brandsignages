@@ -1033,7 +1033,7 @@
 
         <div class="row g-4 align-items-start">
             <!-- Background thumbnails -->
-            <div class="col-md-4">
+            <div class="col-md-4 order-2 order-md-1">
                 <div class="thumb-card">
                     <h5>Choose Background</h5>
                     <div class="customization-thumbs bg-thumbs">
@@ -1064,7 +1064,7 @@
             </div>
 
             <!-- Preview -->
-            <div class="col-md-8">
+            <div class="col-md-8 order-1 order-md-2">
                 <div class="customization-preview">
                     <img id="bgPreview" src="{{ asset('frontend/Images/customization/background/background-1.webp') }}">
                     <img id="signPreview" src="{{ asset('frontend/Images/customization/front/sign-1.webp') }}">
