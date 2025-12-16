@@ -254,7 +254,7 @@
             </div>
             <div class="text-center" style="padding: 20px 0;">
                 <a href="#designs">
-                    <button class="contact-btn">Browse More Designs</button>
+                    <button class="contact-btn">Browse More Ideas</button>
                 </a>
             </div>
 
