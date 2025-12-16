@@ -1,6 +1,6 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-    <!--<section class="hero-banner"
+    <section class="hero-banner"
         style="background-image: url('{{ asset('/frontend/Images/name-boards/name-board-design-for-office-1.webp') }}'); ">
         <div class="container">
             <div class="row">
@@ -15,13 +15,13 @@
                 </div>
             </div>
         </div>
-    </section>-->
-        <div class="newly-bannersection">
+    </section>
+       <!-- <div class="newly-bannersection">
         <div class="bar">
             <h1 class="hero-banner_title">Office Name Board</h1>
 
         </div>
-        <!-- Slider -->
+       
         <div class="slider-wrapper">
 
             <div class="main-slider">
@@ -52,7 +52,7 @@
               
             </div>
 
-            <!-- Navigation should be OUTSIDE -->
+          
             <div class="nav-arrow prev">&#8249;</div>
             <div class="nav-arrow next">&#8250;</div>
         
@@ -70,7 +70,7 @@
             </div>
         </div>
 
-        <!-- Content -->
+        
         <div class="content">
             <h1 class="hero-banner_title">Office Name Board Designs</h1>
             <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 + GST</b></p>
@@ -92,9 +92,7 @@
                 <a href="{{ route('contact_us') }}" class="btn">Place Order</a>
             </div>
         </div>
-    </div>
-
-    <!-- About Section -->
+    </div>-->
 
     <section class="instant-pricing">
         <div class="container pt-5">
@@ -108,12 +106,155 @@
                   of durability and style</b>. Each office name board design is made to match your brand requirements and provide clear visibility
                    in any office setting.</p>
                   
-            <img src="/frontend/Images/name-boards/exclusive-office-name-boards.webp" alt="Exclusive Office Name Board Design by Brand Signages" class="shop-image">
+            <!--<img src="/frontend/Images/name-boards/exclusive-office-name-boards.webp" alt="Exclusive Office Name Board Design by Brand Signages" class="shop-image">-->
                
+        <div class="container">
+
+            <div class="position-relative">
+                <div class="swiper We-Elevate-Brands-swiper pt-60">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-1.webp')}}" class="card-img-center"
+                                    alt="wooden name plate for a legal professional">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Wooden Name plate</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-2.webp')}}" class="card-img-center"
+                                    alt="Acrylic Name Board for Phoenix Global">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Acrylic Name Boards</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-3.webp')}}" class="card-img-center"
+                                    alt="Reception Name Board Designed with ACP Material">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Reception Name Board</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-13.webp')}}" class="card-img-center"
+                                    alt="Office Name Board Designed with ACP Material">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Corporate Name Board</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-4.webp')}}" class="card-img-center"
+                                    alt="Metal Signage for Law Office">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Office Name Boards</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-5.webp')}}" class="card-img-center"
+                                    alt="Acrylic LED Office Name Board for Future Inc.">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Office Name Board</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-6.webp')}}" class="card-img-center"
+                                    alt="Metal Signage for Office">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Office Sign Board</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-7.webp')}}" class="card-img-center"
+                                    alt="Office Name Board Acrylic LED Board Black Color">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Corporate Name Boards</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-8.webp')}}" class="card-img-center"
+                                    alt="Corporate Name Boards Acrylic">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Corporate Name Boards</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-9.webp')}}" class="card-img-center"
+                                    alt="Office Name Board">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Office Name Board</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-10.webp')}}" class="card-img-center"
+                                    alt="Office Name Board">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Office Name Board</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-11.webp')}}" class="card-img-center"
+                                    alt="Office Name Board">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Office Name Board</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide text-center">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('/frontend/Images/name-boards/office-name-12.webp')}}" class="card-img-center"
+                                    alt="Office Name Board">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title">Office Name Board</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Navigation Arrows -->
+                    <div class="We-Elevate-Brands-nav ">
+                        <!-- Swap order: prev on left, next on right -->
+                        <div class="We-Elevate-Brands-button-prev"></div>
+                        <div class="We-Elevate-Brands-button-next"></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
             </div>
             <div class="text-center" style="padding: 20px 0;">
                 <a href="#designs">
-                    <button class="contact-btn">Browse Latest Designs</button>
+                    <button class="contact-btn">Browse More Designs</button>
                 </a>
             </div>
 
