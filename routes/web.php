@@ -101,6 +101,7 @@ Route::get('/captcha/refresh', function () {
 })->name('captcha.refresh');
 
 Route::get('/acrylic-letters', [frontendController::class, 'acrylic_letters'])->name('acrylic_letters');
+Route::get('/sign-board', [frontendController::class, 'sign_board'])->name('sign_board');
 
 
 

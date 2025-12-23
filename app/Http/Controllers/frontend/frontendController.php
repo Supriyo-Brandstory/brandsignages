@@ -759,4 +759,10 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.acrylic-letters', compact('seo'));
     }
+    public function sign_board()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.sign-board', compact('seo'));
+    }
 }
