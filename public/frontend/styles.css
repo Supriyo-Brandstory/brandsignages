@@ -3628,3 +3628,119 @@ ul.brand-list {
         align-items: center !important;
     }
 }
+
+
+.signage-journey {
+    padding: 80px 40px;
+    background: radial-gradient(circle at top right, #0f4c5c, #020024 70%);
+    color: #fff;
+    margin-bottom: 60px;
+
+    /* CARDS WRAPPER */
+    .journey-steps {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 25px;
+    }
+
+    /* CARD BASE */
+    .step-card {
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(10px);
+        border-radius: 18px;
+        padding: 35px 25px;
+        text-align: center;
+        transition: all 0.4s ease;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        min-height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .icon {
+            font-size: 42px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        /* TITLE */
+        h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+
+        /* TEXT */
+        p {
+            font-size: 15px;
+            opacity: 0.9;
+            margin-bottom: 0;
+        }
+
+        .step-1 {
+            transition: all 0.4s ease;
+            width: 100%;
+        }
+
+        .step-2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 35px 25px;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.4s ease;
+            pointer-events: none;
+        }
+    }
+
+    /* HOVER STYLE */
+    .step-card:hover {
+        background: #e43d12;
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .step-card:hover .step-1 {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    .step-card:hover .step-2 {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+
+    /* FIRST CARD ACTIVE BY DEFAULT */
+    .active {
+        background: #d80000;
+    }
+
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 1200px) {
+    .journey-steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .journey-steps {
+        grid-template-columns: 1fr !important;
+    }
+
+    .signage-journey h2 {
+        font-size: 30px;
+    }
+}
