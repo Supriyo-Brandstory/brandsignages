@@ -765,4 +765,46 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.sign-board', compact('seo'));
     }
+
+    public function commercial_display()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.commercial-display', compact('seo'));
+    }
+
+    public function touch_screen_kiosk()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.touch-screen-kiosk', compact('seo'));
+    }
+
+    public function digital_standee_display()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.digital-standee-display', compact('seo'));
+    }
+
+    public function display_video_wall()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.display-video-wall', compact('seo'));
+    }
+
+    public function outdoor_signage_display()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.outdoor-signage-display', compact('seo'));
+    }
+
+    public function flat_panel_display()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.flat-panel-display', compact('seo'));
+    }
 }

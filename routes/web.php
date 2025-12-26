@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\frontend\frontendController;
 // Route::get('/', function () {
 //     return view('frontend.index');
@@ -102,6 +103,13 @@ Route::get('/captcha/refresh', function () {
 
 Route::get('/acrylic-letters', [frontendController::class, 'acrylic_letters'])->name('acrylic_letters');
 Route::get('/sign-board', [frontendController::class, 'sign_board'])->name('sign_board');
+
+Route::get('/commercial-display', [frontendController::class, 'commercial_display'])->name('commercial_display');
+Route::get('/touch-screen-kiosk', [frontendController::class, 'touch_screen_kiosk'])->name('touch_screen_kiosk');
+Route::get('/digital-standee-display', [frontendController::class, 'digital_standee_display'])->name('digital_standee_display');
+Route::get('/display-video-wall', [frontendController::class, 'display_video_wall'])->name('display_video_wall');
+Route::get('/outdoor-signage-display', [frontendController::class, 'outdoor_signage_display'])->name('outdoor_signage_display');
+Route::get('/flat-panel-display', [frontendController::class, 'flat_panel_display'])->name('flat_panel_display');
 
 
 
