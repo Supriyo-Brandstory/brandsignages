@@ -41,10 +41,160 @@
             </div>
         </section>
 
+        <section class="py-80 product-highlights-section">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold text-white">Premium Display Solutions</h2>
+                    <p class="text-white-50 fs-5">Discover our range of cutting-edge display technologies</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- LED Displays -->
+                    <div class="col-lg-4 col-md-4">
+                        <div class="product-highlight-card">
+                            <div class="product-highlight-content">
+                                <h3 class="product-highlight-title">LED Displays</h3>
+                            </div>
+                            <div class="product-highlight-img-wrapper">
+                                <img src="{{ asset('frontend/Images/Display_homepage-Product_LED.jpg') }}"
+                                    alt="LED Displays" class="product-highlight-img">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 ">
+                        <div class="product-highlight-card">
+                            <div class="product-highlight-content">
+                                <h3 class="product-highlight-title">WonderHub Interactive Display</h3>
+                            </div>
+                            <div class="product-highlight-img-wrapper">
+                                <img src="{{ asset('frontend/Images/Display_homepage-Product_IFPD.jpg') }}"
+                                    alt="WonderHub Interactive Display" class="product-highlight-img">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- WonderHub Interactive Display -->
+                    <div class="col-lg-4 col-md-4 d-flex gap-4 flex-column justify-content-between">
+                        <div class="product-highlight-card">
+                            <div class="product-highlight-content">
+                                <h3 class="product-highlight-title">Digital Signage</h3>
+                            </div>
+                            <div class="product-highlight-img-wrapper">
+                                <img src="{{ asset('frontend/Images/Display_homepage-Product_digital-signage-1.jpg') }}"
+                                    alt="Digital Signage" class="product-highlight-img">
+                            </div>
+
+                        </div>
+                        <div class="product-highlight-card">
+                            <div class="product-highlight-content">
+                                <h3 class="product-highlight-title">LCD Displays</h3>
+                            </div>
+                            <div class="product-highlight-img-wrapper">
+                                <img src="{{ asset('frontend/Images/Display_homepage-Product_LCD-1.jpg') }}"
+                                    alt="LCD Displays" class="product-highlight-img">
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <!-- LCD Displays -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Spacer for sticky behavior -->
+        <div class="solutions-section-spacer"></div>
+
+        <!-- Solutions Tailored Section -->
+        <section class="solutions-tailored-section">
+            <div class="container">
+                <h2 class="solutions-heading">Check out solutions tailored for you</h2>
+
+                <!-- Tab Navigation -->
+                <div class="solutions-tabs">
+                    <button class="solution-tab active" data-tab="shopping-mall">Shopping Mall</button>
+                    <button class="solution-tab" data-tab="enterprise">Enterprise</button>
+                    <button class="solution-tab" data-tab="classroom">Classroom Hub</button>
+                    <button class="solution-tab" data-tab="command-center">Command Center</button>
+                </div>
+
+                <!-- Tab Content -->
+                <div class="solutions-content">
+                    <!-- Shopping Mall Tab -->
+                    <div class="solution-panel active" id="shopping-mall">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/Display_homepage-Solution_retail.jpg') }}"
+                                alt="Shopping Mall Display Solution" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    A full-cycle display solution for shopping malls, facilitating captivating
+                                    outdoor/indoor
+                                    attraction, promotion, display, and management.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Enterprise Tab -->
+                    <div class="solution-panel" id="enterprise">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/home/corporate-office-display.webp') }}"
+                                alt="Enterprise Display Solution" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    Transform your corporate environment with intelligent displays for presentations,
+                                    collaboration, and seamless communication across all departments.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Classroom Hub Tab -->
+                    <div class="solution-panel" id="classroom">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/home/digital-display-classroom.webp') }}"
+                                alt="Classroom Hub Display Solution" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    Interactive displays and smart classroom solutions enabling modern education
+                                    with engaging content, collaborative learning, and digital transformation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Command Center Tab -->
+                    <div class="solution-panel" id="command-center">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/home/video-walls.webp') }}"
+                                alt="Command Center Display Solution" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    High-performance video walls and display systems for control rooms,
+                                    offering real-time monitoring, data visualization, and mission-critical operations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
         <section class="We-Elevate-Brands-section py-80">
             <div class="container">
                 <div class="text-center mb-4">
-                    <h2 class="We-Elevate-Brands-heading fw-bold">Explore Commercial-Grade Digital Signages <br>with Inbuilt
+                    <h2 class="We-Elevate-Brands-heading fw-bold">Explore Commercial-Grade Digital Signages <br>with
+                        Inbuilt
                         Smart Software</h2>
                 </div>
 
@@ -94,8 +244,8 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="card We-Elevate-Brands-card ">
-                                    <img src="{{ asset('frontend/Images/home/video-walls.webp') }}" class="card-img-center"
-                                        alt="Digital Video Walls">
+                                    <img src="{{ asset('frontend/Images/home/video-walls.webp') }}"
+                                        class="card-img-center" alt="Digital Video Walls">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a href="#">Display Video Wall</a></h5>
                                         <p class="We-Elevate-Brands-text">Showcase your products and services with our
@@ -108,8 +258,8 @@
 
                             <div class="swiper-slide">
                                 <div class="card We-Elevate-Brands-card ">
-                                    <img src="{{ asset('frontend/Images/home/outdoor-sign.webp') }}" class="card-img-center"
-                                        alt="Outdoor Signage Display">
+                                    <img src="{{ asset('frontend/Images/home/outdoor-sign.webp') }}"
+                                        class="card-img-center" alt="Outdoor Signage Display">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a href="#">Outdoor Signage Display</a>
                                         </h5>
@@ -127,7 +277,8 @@
                                         class="card-img-center" alt="Flat Panel Display">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a href="#">Flat Panel Display</a></h5>
-                                        <p class="We-Elevate-Brands-text">Enhance engagement with our Interactive Flat Panel
+                                        <p class="We-Elevate-Brands-text">Enhance engagement with our Interactive Flat
+                                            Panel
                                             Display, featuring cutting-edge visuals and advanced touch technology. Comes
                                             with integrated
                                             digital signage software, delivering complete, seamless signage solutions.</p>
@@ -337,4 +488,216 @@
             </div>
         </section>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.solution-tab');
+            const panels = document.querySelectorAll('.solution-panel');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const targetId = this.getAttribute('data-tab');
+
+                    // Remove active class from all tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+
+                    // Hide all panels
+                    panels.forEach(panel => {
+                        panel.classList.remove('active');
+                    });
+
+                    // Show target panel
+                    setTimeout(() => {
+                        const targetPanel = document.getElementById(targetId);
+                        if (targetPanel) {
+                            targetPanel.classList.add('active');
+                        }
+                    }, 300);
+                });
+            });
+        });
+    </script>
+
+    <script>
+        // Scroll-based tab switching functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.solution-tab');
+            const section = document.querySelector('.solutions-tailored-section');
+
+            let currentTabIndex = 0;
+            let isScrolling = false;
+            let scrollTimeout;
+
+            // Scroll event for automatic tab switching
+            if (section) {
+                section.addEventListener('wheel', function(e) {
+                    if (!isScrolling) {
+                        e.preventDefault();
+                        isScrolling = true;
+
+                        // Determine scroll direction
+                        if (e.deltaY > 0) {
+                            // Scrolling down - next tab
+                            if (currentTabIndex < tabs.length - 1) {
+                                currentTabIndex++;
+                                tabs[currentTabIndex].click();
+                            }
+                        } else {
+                            // Scrolling up - previous tab
+                            if (currentTabIndex > 0) {
+                                currentTabIndex--;
+                                tabs[currentTabIndex].click();
+                            }
+                        }
+
+                        // Debounce scroll events
+                        clearTimeout(scrollTimeout);
+                        scrollTimeout = setTimeout(() => {
+                            isScrolling = false;
+                        }, 800);
+                    }
+                }, {
+                    passive: false
+                });
+
+                // Update currentTabIndex when tabs are clicked manually
+                tabs.forEach((tab, index) => {
+                    tab.addEventListener('click', function() {
+                        currentTabIndex = index;
+                    });
+                });
+
+                // Touch support for mobile
+                let touchStartY = 0;
+
+                section.addEventListener('touchstart', function(e) {
+                    touchStartY = e.changedTouches[0].screenY;
+                }, {
+                    passive: true
+                });
+
+                section.addEventListener('touchend', function(e) {
+                    if (isScrolling) return;
+
+                    const touchEndY = e.changedTouches[0].screenY;
+                    const diff = touchStartY - touchEndY;
+
+                    if (Math.abs(diff) > 50) {
+                        isScrolling = true;
+
+                        if (diff > 0 && currentTabIndex < tabs.length - 1) {
+                            currentTabIndex++;
+                            tabs[currentTabIndex].click();
+                        } else if (diff < 0 && currentTabIndex > 0) {
+                            currentTabIndex--;
+                            tabs[currentTabIndex].click();
+                        }
+
+                        setTimeout(() => {
+                            isScrolling = false;
+                        }, 800);
+                    }
+                }, {
+                    passive: true
+                });
+            }
+        });
+    </script>
+
+    <script>
+        // Sticky scroll-jacking behavior
+        document.addEventListener('DOMContentLoaded', function() {
+            const section = document.querySelector('.solutions-tailored-section');
+            const spacer = document.querySelector('.solutions-section-spacer');
+            const tabs = document.querySelectorAll('.solution-tab');
+
+            let isSticky = false;
+            let sectionPassed = false;
+            let currentIndex = 0;
+
+            function makeSticky() {
+                if (!isSticky) {
+                    isSticky = true;
+                    section.classList.add('is-sticky');
+                    spacer.classList.add('active');
+                }
+            }
+
+            function unstick() {
+                if (isSticky) {
+                    isSticky = false;
+                    sectionPassed = true;
+                    section.classList.remove('is-sticky');
+                    spacer.classList.remove('active');
+                }
+            }
+
+            // Check if section should be sticky
+            window.addEventListener('scroll', function() {
+                const spacerTop = spacer.getBoundingClientRect().top;
+                const scrolledPastSection = window.pageYOffset > (spacer.offsetTop + window.innerHeight);
+
+                if (!sectionPassed) {
+                    if (spacerTop <= 0 && !isSticky) {
+                        makeSticky();
+                        currentIndex = 0;
+                    }
+                } else {
+                    // Reset if scrolling back up
+                    if (window.pageYOffset < spacer.offsetTop - 200) {
+                        sectionPassed = false;
+                        currentIndex = 0;
+                    }
+                }
+            });
+
+            // Override wheel event when sticky
+            let wheelTimeout;
+            let isWheeling = false;
+
+            window.addEventListener('wheel', function(e) {
+                if (isSticky && !isWheeling) {
+                    e.preventDefault();
+                    isWheeling = true;
+
+                    if (e.deltaY > 0) {
+                        // Scroll down
+                        if (currentIndex < tabs.length - 1) {
+                            currentIndex++;
+                            tabs[currentIndex].click();
+                        } else {
+                            // Last tab, release sticky
+                            unstick();
+                        }
+                    } else {
+                        // Scroll up
+                        if (currentIndex > 0) {
+                            currentIndex--;
+                            tabs[currentIndex].click();
+                        } else {
+                            // First tab, release sticky
+                            unstick();
+                            sectionPassed = false;
+                        }
+                    }
+
+                    clearTimeout(wheelTimeout);
+                    wheelTimeout = setTimeout(() => {
+                        isWheeling = false;
+                    }, 900);
+                }
+            }, {
+                passive: false
+            });
+
+            // Sync manual tab clicks
+            tabs.forEach((tab, index) => {
+                tab.addEventListener('click', function() {
+                    currentIndex = index;
+                });
+            });
+        });
+    </script>
 @endsection
