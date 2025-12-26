@@ -3806,34 +3806,6 @@ ul.brand-list {
 
     /* Buttons */
 
-    /* Stats Section */
-    .new_custom-stats-section {
-        background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
-        padding: 60px 0;
-        margin-top: -60px;
-        position: relative;
-        z-index: 10;
-        box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    .new_custom-stats-number {
-        font-size: 3rem;
-        font-weight: 800;
-        color: #E43D12;
-        text-shadow: 0 0 20px rgba(255, 94, 20, 0.3);
-    }
-
-    .new_custom-stats-label {
-        font-size: 1.1rem;
-        color: #e0e0e0;
-        margin-bottom: 0;
-        font-weight: 500;
-    }
-
-    .new_custom-divider-left,
-    .new_custom-divider-right {
-        background: linear-gradient(to bottom, transparent, rgba(255, 94, 20, 0.3), transparent);
-    }
 
     /* Product Grid - Image Containers */
     .image-container {

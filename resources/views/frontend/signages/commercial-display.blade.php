@@ -41,104 +41,113 @@
             </div>
         </section>
 
-        <section class="py-80">
+        <section class="We-Elevate-Brands-section py-80">
             <div class="container">
-                <div class="text-center mb-5">
-                    <h2 class="display-5 why-text-heading">High-Fidelity Commercial Displays</h2>
-                    <p class="lead text-muted max-w-800 mx-auto">
-                        Transform your space with vibrant, ultra-high-definition displays designed for commercial
-                        environments.
-                        Built with industrial-grade panels that offer superior brightness and 24/7 reliability.
-                    </p>
+                <div class="text-center mb-4">
+                    <h2 class="We-Elevate-Brands-heading fw-bold">Explore Commercial-Grade Digital Signages <br>with Inbuilt
+                        Smart Software</h2>
                 </div>
 
-                <div class="col-lg-12">
-                    <div class="row g-4">
-                        <div class="col-lg-4">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/commercial-display.webp') }}"
-                                    alt="4K UHD Commercial Monitor" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Ultra HD Commercial Monitors</h5>
-                                    <p class="text-content">Crystal clear 4K resolution with 350-700 nits brightness.
-                                        Perfect
-                                        for boardroom presentations, retail branding, and menu boards that require precision
-                                        and
-                                        vibrant colors.</p>
+                <div class="position-relative">
+                    <div class="swiper We-Elevate-Brands-swiper pt-60">
+                        <div class="swiper-wrapper">
+                            <!-- Slide 1 -->
+                            <div class="swiper-slide">
+                                <div class="card We-Elevate-Brands-card ">
+                                    <img src="{{ asset('frontend/Images/home/commercial-display.webp') }}"
+                                        class="card-img-center" alt="Commercial Display">
+                                    <div class="card-body pt-0">
+                                        <h5 class="We-Elevate-Brands-title"><a href="#">Commercial Display</a></h5>
+                                        <p class="We-Elevate-Brands-text">High-brightness commercial displays, Full HD
+                                            clarity to Ultra HD brilliance, available in screens size as 98-inch, perfect
+                                            for dynamic digital signage, delivering vibrant visuals and experiences.</p>
+                                    </div>
                                 </div>
                             </div>
+
+                            <div class="swiper-slide">
+                                <div class="card We-Elevate-Brands-card ">
+                                    <img src="{{ asset('frontend/Images/home/corporate-digital-signage.webp') }}"
+                                        class="card-img-center" alt="Metal Signage">
+                                    <div class="card-body pt-0">
+                                        <h5 class="We-Elevate-Brands-title"><a href="#">Touch Screen Kiosk</a></h5>
+                                        <p class="We-Elevate-Brands-text">Engage customers with touch-screen kiosk. Sleek
+                                            rectangular frame, this interactive kiosk functions as an intuitive input
+                                            device. Like a smartphone, it runs CMS software, providing real-time assistance
+                                            and information.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card We-Elevate-Brands-card ">
+                                    <img src="{{ asset('frontend/Images/home/digital-signage2.webp') }}"
+                                        class="card-img-center" alt="Digital Standee Display">
+                                    <div class="card-body pt-0">
+                                        <h5 class="We-Elevate-Brands-title"><a href="#">Digital Standee Display</a>
+                                        </h5>
+                                        <p class="We-Elevate-Brands-text">Our digital standees feature customizable colors
+                                            and branding, offering commercial-grade displays in India. Enjoy an immersive
+                                            viewing experience with crisp visuals, superior audio, and high-quality video
+                                            wall performance.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card We-Elevate-Brands-card ">
+                                    <img src="{{ asset('frontend/Images/home/video-walls.webp') }}" class="card-img-center"
+                                        alt="Digital Video Walls">
+                                    <div class="card-body pt-0">
+                                        <h5 class="We-Elevate-Brands-title"><a href="#">Display Video Wall</a></h5>
+                                        <p class="We-Elevate-Brands-text">Showcase your products and services with our
+                                            high-brightness video walls, available in 26” and 55” screens. Designed for
+                                            commercial
+                                            impact, these walls deliver stunning visuals and immersive experiences. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card We-Elevate-Brands-card ">
+                                    <img src="{{ asset('frontend/Images/home/outdoor-sign.webp') }}" class="card-img-center"
+                                        alt="Outdoor Signage Display">
+                                    <div class="card-body pt-0">
+                                        <h5 class="We-Elevate-Brands-title"><a href="#">Outdoor Signage Display</a>
+                                        </h5>
+                                        <p class="We-Elevate-Brands-text">Experience durable, all-weather signage built for
+                                            maximum visibility and impact. We provide premium outdoor and indoor display
+                                            boards, including
+                                            digital notice boards, successfully deployed across India’s major cities. </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card We-Elevate-Brands-card ">
+                                    <img src="{{ asset('frontend/Images/home/flat-panel-display.webp') }}"
+                                        class="card-img-center" alt="Flat Panel Display">
+                                    <div class="card-body pt-0">
+                                        <h5 class="We-Elevate-Brands-title"><a href="#">Flat Panel Display</a></h5>
+                                        <p class="We-Elevate-Brands-text">Enhance engagement with our Interactive Flat Panel
+                                            Display, featuring cutting-edge visuals and advanced touch technology. Comes
+                                            with integrated
+                                            digital signage software, delivering complete, seamless signage solutions.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Navigation Arrows -->
+                        <div class="We-Elevate-Brands-nav ">
+                            <!-- Swap order: prev on left, next on right -->
+                            <div class="We-Elevate-Brands-button-prev"></div>
+                            <div class="We-Elevate-Brands-button-next"></div>
                         </div>
 
-                        <div class="col-lg-4">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/video-walls.webp') }}" alt="Ultra-Slim Video Walls"
-                                    class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Seamless Video Walls</h5>
-                                    <p class="text-content">Create massive visual impact with near-invisible bezels. Our
-                                        video
-                                        wall solutions are ideal for control rooms, grand lobbies, and flagship retail
-                                        stores.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/outdoor-sign.webp') }}"
-                                    alt="High Brightness Window Displays" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Outdoor & Window Displays</h5>
-                                    <p class="text-content">Ultra-high brightness panels (up to 3000 nits) designed to look
-                                        clear even in direct sunlight. Perfect for street-facing storefronts and digital
-                                        billboards.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/flat-panel-display.webp') }}"
-                                    alt="Interactive Touch Panels" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Interactive Collaborative Panels</h5>
-                                    <p class="text-content">Enable multi-touch collaboration for classrooms and meeting
-                                        rooms.
-                                        Features 20-point touch, wireless sharing, and integrated whiteboarding tools.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-5">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/corporate-digital-signage.webp') }}"
-                                    alt="Smart Digital Signage" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">SOC Integrated Smart Displays</h5>
-                                    <p class="text-content">Screens with inbuilt System-on-Chip (SOC) and Android/WebOS.
-                                        Manage
-                                        content remotely without external media players, reducing hardware clutter and cost.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/digital-signage2.webp') }}"
-                                    alt="Vertical Digital Standees" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Sleek Digital Standees</h5>
-                                    <p class="text-content">Floor-standing vertical displays for malls and lobbies.
-                                        Lightweight,
-                                        mobile-friendly, and perfect for real-time promotional updates in high-footfall
-                                        areas.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <a href="contact-us" class="btn-we-elevate">Book a Demo Call</a>
                 </div>
             </div>
         </section>
