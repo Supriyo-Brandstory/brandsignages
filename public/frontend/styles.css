@@ -219,11 +219,7 @@
 }
 
 /* Active state styling */
-.nav-link.active,
-.nav-link:hover,
-.dropdown-toggle.show {
-    /* color: #E43D12 !important; */
-}
+
 
 .nav-link.active .dropdown__arrow,
 .dropdown-toggle.show .dropdown__arrow {
@@ -3780,7 +3776,6 @@ ul.brand-list {
     }
 
     .hero-banner_title {
-        font-size: 3.5rem;
         font-weight: 800;
         line-height: 1.2;
         margin-bottom: 25px;
@@ -3943,6 +3938,27 @@ ul.brand-list {
         margin-bottom: 15px;
     }
 
+    .industry-icon {
+        width: 60px;
+        height: 60px;
+        background: #fdf2f0;
+        color: #E43D12;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        margin: 0 auto 20px;
+        transition: all 0.3s ease;
+    }
+
+    .industry-card:hover .industry-icon {
+        background: #E43D12;
+        color: white;
+        transform: scale(1.1);
+    }
+
+
 
 
     /* Headings */
@@ -4046,28 +4062,10 @@ ul.brand-list {
     .solutions-tailored-section {
         background: #f8f9fa;
         padding: 80px 0;
-        min-height: 100vh;
         position: relative;
         transition: all 0.3s ease;
     }
 
-    .solutions-tailored-section.is-sticky {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        z-index: 100;
-    }
-
-    .solutions-section-spacer {
-        height: 100vh;
-        display: none;
-    }
-
-    .solutions-section-spacer.active {
-        display: block;
-    }
 
     .solutions-heading {
         font-family: 'Lora', serif;
@@ -4228,7 +4226,7 @@ ul.brand-list {
         }
 
         .solutions-content {
-            min-height: 350px;
+            min-height: 270px;
         }
     }
 
@@ -4306,9 +4304,6 @@ ul.brand-list {
             min-height: 500px;
         }
 
-        .hero-banner_title {
-            font-size: 2.2rem !important;
-        }
 
         .hero-banner p {
             font-size: 1rem;

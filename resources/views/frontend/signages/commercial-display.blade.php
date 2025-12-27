@@ -44,7 +44,7 @@
         <section class="py-80 product-highlights-section">
             <div class="container">
                 <div class="text-center mb-5">
-                    <h2 class="display-5 fw-bold text-white">Premium Display Solutions</h2>
+                    <h2 class="hero-title text-white mb-3">Premium Display Solutions</h2>
                     <p class="text-white-50 fs-5">Discover our range of cutting-edge display technologies</p>
                 </div>
 
@@ -108,10 +108,8 @@
             </div>
         </section>
 
-        <!-- Spacer for sticky behavior -->
-        <div class="solutions-section-spacer"></div>
-
         <!-- Solutions Tailored Section -->
+
         <section class="solutions-tailored-section">
             <div class="container">
                 <h2 class="solutions-heading">Check out solutions tailored for you</h2>
@@ -306,7 +304,7 @@
         <!-- Key Benefits Section -->
         <section class="py-80 bg-light">
             <div class="container">
-                <h2 class="text-center display-5 fw-bold mb-5">Engineering Excellence in Every Panel</h2>
+                <h2 class="text-center hero-title mb-5">Engineering Excellence in Every Panel</h2>
                 <div class="row g-4">
                     <div class="col-md-3">
                         <div class="benefit-card">
@@ -351,18 +349,27 @@
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6">
                         <div class="industry-card">
+                            <div class="industry-icon">
+                                <i class="fa-solid fa-utensils"></i>
+                            </div>
                             <h5 class="fw-bold text-orange">Retail & QSR</h5>
                             <p>Digital menu boards and window signage to drive footfall and impulse purchases.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="industry-card">
+                            <div class="industry-icon">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
                             <h5 class="fw-bold text-orange">Corporate & BFSI</h5>
                             <p>Lobby branding, meeting room schedulers, and real-time financial data dashboards.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="industry-card">
+                            <div class="industry-icon">
+                                <i class="fa-solid fa-hospital-user"></i>
+                            </div>
                             <h5 class="fw-bold text-orange">Healthcare</h5>
                             <p>Wayfinding kiosks and informative displays to improve patient experience and flow.</p>
                         </div>
@@ -374,7 +381,7 @@
         <!-- Call to Action -->
         <section class="bg-primary-custom text-white">
             <div class="container text-center">
-                <h2 class="display-5 fw-bold mb-4">Ready to Modernize Your Communication?</h2>
+                <h2 class="hero-title mb-4 text-white">Ready to Modernize Your Communication?</h2>
                 <p class="lead mb-5 max-w-800 mx-auto text-white">Join 500+ brands that trust Brand Signages for premium
                     display
                     technology. Request a site survey or a virtual demo today.</p>
@@ -493,209 +500,26 @@
             const tabs = document.querySelectorAll('.solution-tab');
             const panels = document.querySelectorAll('.solution-panel');
 
-            tabs.forEach(tab => {
-                tab.addEventListener('click', function() {
-                    const targetId = this.getAttribute('data-tab');
+            if (tabs.length === 0) return;
 
-                    // Remove active class from all tabs
-                    tabs.forEach(t => t.classList.remove('active'));
-
-                    // Add active class to clicked tab
-                    this.classList.add('active');
-
-                    // Hide all panels
-                    panels.forEach(panel => {
-                        panel.classList.remove('active');
-                    });
-
-                    // Show target panel
-                    setTimeout(() => {
-                        const targetPanel = document.getElementById(targetId);
-                        if (targetPanel) {
-                            targetPanel.classList.add('active');
-                        }
-                    }, 300);
-                });
-            });
-        });
-    </script>
-
-    <script>
-        // Scroll-based tab switching functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const tabs = document.querySelectorAll('.solution-tab');
-            const section = document.querySelector('.solutions-tailored-section');
-
-            let currentTabIndex = 0;
-            let isScrolling = false;
-            let scrollTimeout;
-
-            // Scroll event for automatic tab switching
-            if (section) {
-                section.addEventListener('wheel', function(e) {
-                    if (!isScrolling) {
-                        e.preventDefault();
-                        isScrolling = true;
-
-                        // Determine scroll direction
-                        if (e.deltaY > 0) {
-                            // Scrolling down - next tab
-                            if (currentTabIndex < tabs.length - 1) {
-                                currentTabIndex++;
-                                tabs[currentTabIndex].click();
-                            }
-                        } else {
-                            // Scrolling up - previous tab
-                            if (currentTabIndex > 0) {
-                                currentTabIndex--;
-                                tabs[currentTabIndex].click();
-                            }
-                        }
-
-                        // Debounce scroll events
-                        clearTimeout(scrollTimeout);
-                        scrollTimeout = setTimeout(() => {
-                            isScrolling = false;
-                        }, 800);
-                    }
-                }, {
-                    passive: false
-                });
-
-                // Update currentTabIndex when tabs are clicked manually
-                tabs.forEach((tab, index) => {
-                    tab.addEventListener('click', function() {
-                        currentTabIndex = index;
-                    });
-                });
-
-                // Touch support for mobile
-                let touchStartY = 0;
-
-                section.addEventListener('touchstart', function(e) {
-                    touchStartY = e.changedTouches[0].screenY;
-                }, {
-                    passive: true
-                });
-
-                section.addEventListener('touchend', function(e) {
-                    if (isScrolling) return;
-
-                    const touchEndY = e.changedTouches[0].screenY;
-                    const diff = touchStartY - touchEndY;
-
-                    if (Math.abs(diff) > 50) {
-                        isScrolling = true;
-
-                        if (diff > 0 && currentTabIndex < tabs.length - 1) {
-                            currentTabIndex++;
-                            tabs[currentTabIndex].click();
-                        } else if (diff < 0 && currentTabIndex > 0) {
-                            currentTabIndex--;
-                            tabs[currentTabIndex].click();
-                        }
-
-                        setTimeout(() => {
-                            isScrolling = false;
-                        }, 800);
-                    }
-                }, {
-                    passive: true
-                });
-            }
-        });
-    </script>
-
-    <script>
-        // Sticky scroll-jacking behavior
-        document.addEventListener('DOMContentLoaded', function() {
-            const section = document.querySelector('.solutions-tailored-section');
-            const spacer = document.querySelector('.solutions-section-spacer');
-            const tabs = document.querySelectorAll('.solution-tab');
-
-            let isSticky = false;
-            let sectionPassed = false;
-            let currentIndex = 0;
-
-            function makeSticky() {
-                if (!isSticky) {
-                    isSticky = true;
-                    section.classList.add('is-sticky');
-                    spacer.classList.add('active');
-                }
-            }
-
-            function unstick() {
-                if (isSticky) {
-                    isSticky = false;
-                    sectionPassed = true;
-                    section.classList.remove('is-sticky');
-                    spacer.classList.remove('active');
-                }
-            }
-
-            // Check if section should be sticky
-            window.addEventListener('scroll', function() {
-                const spacerTop = spacer.getBoundingClientRect().top;
-                const scrolledPastSection = window.pageYOffset > (spacer.offsetTop + window.innerHeight);
-
-                if (!sectionPassed) {
-                    if (spacerTop <= 0 && !isSticky) {
-                        makeSticky();
-                        currentIndex = 0;
-                    }
-                } else {
-                    // Reset if scrolling back up
-                    if (window.pageYOffset < spacer.offsetTop - 200) {
-                        sectionPassed = false;
-                        currentIndex = 0;
-                    }
-                }
-            });
-
-            // Override wheel event when sticky
-            let wheelTimeout;
-            let isWheeling = false;
-
-            window.addEventListener('wheel', function(e) {
-                if (isSticky && !isWheeling) {
-                    e.preventDefault();
-                    isWheeling = true;
-
-                    if (e.deltaY > 0) {
-                        // Scroll down
-                        if (currentIndex < tabs.length - 1) {
-                            currentIndex++;
-                            tabs[currentIndex].click();
-                        } else {
-                            // Last tab, release sticky
-                            unstick();
-                        }
-                    } else {
-                        // Scroll up
-                        if (currentIndex > 0) {
-                            currentIndex--;
-                            tabs[currentIndex].click();
-                        } else {
-                            // First tab, release sticky
-                            unstick();
-                            sectionPassed = false;
-                        }
-                    }
-
-                    clearTimeout(wheelTimeout);
-                    wheelTimeout = setTimeout(() => {
-                        isWheeling = false;
-                    }, 900);
-                }
-            }, {
-                passive: false
-            });
-
-            // Sync manual tab clicks
             tabs.forEach((tab, index) => {
                 tab.addEventListener('click', function() {
-                    currentIndex = index;
+                    // Update tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+
+                    // Update panels
+                    panels.forEach(p => p.classList.remove('active'));
+
+                    const targetId = this.getAttribute('data-tab');
+                    const targetPanel = document.getElementById(targetId);
+
+                    if (targetPanel) {
+                        // Small timeout to trigger CSS animations if any
+                        setTimeout(() => {
+                            targetPanel.classList.add('active');
+                        }, 50);
+                    }
                 });
             });
         });
