@@ -1,31 +1,7 @@
 @extends('frontend.layout.appLayout')
 @section('content')
     <style>
-        .why-carousel-controls,
-        .testimonial-carousel-controls {
-            position: absolute;
-            top: -34px;
-            right: 15px;
-            transform: translateY(0);
-        }
-
-        /* Ensure contact buttons are clickable */
-
-        .bgrowth-content a {
-            position: relative;
-            z-index: 1000 !important;
-            pointer-events: auto !important;
-            display: block;
-        }
-
-        .bgrowth-card {
-            position: relative;
-        }
-
-        /* Reduce swiper pagination z-index */
-        .bgrowth-swiper-2 .swiper-pagination {
-            z-index: 1 !important;
-        }
+        
     </style>
 
     <section class="hero-banner"
@@ -46,6 +22,52 @@
             </div>
         </div>
     </section>
+<section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
+
+            <a href="/commercial-display" class="seo-marquee-item">Commercial Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/touch-screen-kiosk" class="seo-marquee-item">Touch Screen Kiosk</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/digital-standee-display" class="seo-marquee-item">Digital Standee</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/display-video-wall" class="seo-marquee-item">Video Wall Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/outdoor-signage-display" class="seo-marquee-item">Outdoor Signage Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/flat-panel-display" class="seo-marquee-item">Flat Panel Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <!-- duplicate for seamless loop -->
+            <a href="/commercial-display" class="seo-marquee-item">Commercial Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/touch-screen-kiosk" class="seo-marquee-item">Touch Screen Kiosk</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/digital-standee-display" class="seo-marquee-item">Digital Standee</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/display-video-wall" class="seo-marquee-item">Video Wall Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/outdoor-signage-display" class="seo-marquee-item">Outdoor Signage Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/flat-panel-display" class="seo-marquee-item">Flat Panel Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+        </div>
+    </div>
+</section>
+
+
     <section class="We-Elevate-Brands-section py-5">
         <div class="container">
             <div class="text-center mb-4">
@@ -64,7 +86,7 @@
                                         class="card-img-center" alt="Commercial Display">
                                 </a>
                                 <div class="card-body pt-0">
-                                    <h5 class="We-Elevate-Brands-title"><a href="#">Commercial Display</a></h5>
+                                    <h5 class="We-Elevate-Brands-title"><a href="/commercial-display">Commercial Display</a></h5>
                                     <p class="We-Elevate-Brands-text">High-brightness commercial displays, Full HD clarity
                                         to Ultra HD brilliance, available in screens size as 98-inch, perfect
                                         for dynamic digital signage, delivering vibrant visuals and experiences.</p>
@@ -79,7 +101,7 @@
                                         class="card-img-center" alt="Metal Signage">
                                 </a>
                                 <div class="card-body pt-0">
-                                    <h5 class="We-Elevate-Brands-title"><a href="#">Touch Screen Kiosk</a></h5>
+                                    <h5 class="We-Elevate-Brands-title"><a href="/touch-screen-kiosk">Touch Screen Kiosk</a></h5>
                                     <p class="We-Elevate-Brands-text">Engage customers with touch-screen kiosk. Sleek
                                         rectangular frame, this interactive kiosk functions as an intuitive input
                                         device. Like a smartphone, it runs CMS software, providing real-time assistance and
@@ -94,7 +116,7 @@
                                         class="card-img-center" alt="Digital Standee Display">
                                 </a>
                                 <div class="card-body pt-0">
-                                    <h5 class="We-Elevate-Brands-title"><a href="#">Digital Standee Display</a></h5>
+                                    <h5 class="We-Elevate-Brands-title"><a href="/digital-standee-display">Digital Standee Display</a></h5>
                                     <p class="We-Elevate-Brands-text">Our digital standees feature customizable colors and
                                         branding, offering commercial-grade displays in India. Enjoy an immersive
                                         viewing experience with crisp visuals, superior audio, and high-quality video wall
@@ -109,7 +131,7 @@
                                         alt="Digital Video Walls">
                                 </a>
                                 <div class="card-body pt-0">
-                                    <h5 class="We-Elevate-Brands-title"><a href="#">Display Video Wall</a></h5>
+                                    <h5 class="We-Elevate-Brands-title"><a href="/display-video-wall">Display Video Wall</a></h5>
                                     <p class="We-Elevate-Brands-text">Showcase your products and services with our
                                         high-brightness video walls, available in 26” and 55” screens. Designed for
                                         commercial
@@ -125,7 +147,7 @@
                                         class="card-img-center" alt="Outdoor Signage Display">
                                 </a>
                                 <div class="card-body pt-0">
-                                    <h5 class="We-Elevate-Brands-title"><a href="#">Outdoor Signage Display</a></h5>
+                                    <h5 class="We-Elevate-Brands-title"><a href="/outdoor-signage-display">Outdoor Signage Display</a></h5>
                                     <p class="We-Elevate-Brands-text">Experience durable, all-weather signage built for
                                         maximum visibility and impact. We provide premium outdoor and indoor display boards,
                                         including
@@ -141,7 +163,7 @@
                                         class="card-img-center" alt="Flat Panel Display">
                                 </a>
                                 <div class="card-body pt-0">
-                                    <h5 class="We-Elevate-Brands-title"><a href="#">Flat Panel Display</a></h5>
+                                    <h5 class="We-Elevate-Brands-title"><a href="/flat-panel-display">Flat Panel Display</a></h5>
                                     <p class="We-Elevate-Brands-text">Enhance engagement with our Interactive Flat Panel
                                         Display, featuring cutting-edge visuals and advanced touch technology. Comes with
                                         integrated
@@ -497,6 +519,43 @@
                 </div>
             </div>
         </div>
+    </section>
+        
+    <section class="py-5 commercial-display">
+            <div class="container">
+                <h2 class="text-center hero-title mb-5">Engineering Excellence in Every Panel</h2>
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="benefit-card">
+                            <h4>24/7 Stability</h4>
+                            <p>Designed for continuous operation with advanced cooling systems to prevent screen burn-in and
+                                overheating.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="benefit-card">
+                            <h4>Ultra HD Brilliance</h4>
+                            <p>Leverage 4K IPS panels with wide viewing angles, ensuring your content looks great from any
+                                position.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="benefit-card">
+                            <h4>Centralized Control</h4>
+                            <p>Update content across your entire network from a single dashboard using our cloud-based CMS
+                                software.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="benefit-card">
+                            <h4>Smart Connectivity</h4>
+                            <p>Supports HDMI, DisplayPort, Wi-Fi, and LAN for seamless integration with any media source or
+                                IT
+                                environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 
 
@@ -1205,4 +1264,7 @@
             });
         });
     </script>
+
+
+
 @endsection

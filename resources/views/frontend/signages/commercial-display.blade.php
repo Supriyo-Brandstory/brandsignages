@@ -6,21 +6,63 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-10">
-                        <h1 class="hero-banner_title">Elite Commercial Display <br>Solutions for Modern Brands</h1>
+                        <h1 class="hero-banner_title">Advanced Commercial Display <br>and Business Display Solutions</h1>
                         <p class="fs-5 mb-4">Brand Signages is India's leading manufacturer of commercial-grade digital
-                            displays.
-                            <br>
-                            We deliver high-brightness, 24/7 reliable UHD screens for retail, corporate, and public spaces.
+                            displays.<br> We deliver high-brightness, 24/7 reliable UHD screens for retail, corporate, and public spaces.
                         </p>
                         <a href="https://brandsignages.com/contact-us">
-                            <button class="contact-btn">Get a Technical Quote</button>
+                            <button class="contact-btn">Get a Free Quote</button>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="seo-marquee">
+    <div class="seo-marquee-wrapper">
+        <div class="seo-marquee-track">
 
-        <section class="new_custom-stats-section">
+            <a href="/commercial-display" class="seo-marquee-item">Commercial Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/touch-screen-kiosk" class="seo-marquee-item">Touch Screen Kiosk</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/digital-standee-display" class="seo-marquee-item">Digital Standee</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/display-video-wall" class="seo-marquee-item">Video Wall Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/outdoor-signage-display" class="seo-marquee-item">Outdoor Signage Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/flat-panel-display" class="seo-marquee-item">Flat Panel Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <!-- duplicate for seamless loop -->
+            <a href="/commercial-display" class="seo-marquee-item">Commercial Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/touch-screen-kiosk" class="seo-marquee-item">Touch Screen Kiosk</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/digital-standee-display" class="seo-marquee-item">Digital Standee</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/display-video-wall" class="seo-marquee-item">Video Wall Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/outdoor-signage-display" class="seo-marquee-item">Outdoor Signage Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+            <a href="/flat-panel-display" class="seo-marquee-item">Flat Panel Display</a>
+            <span class="seo-marquee-sep">*</span>
+
+        </div>
+    </div>
+</section>
+
+        <!--<section class="new_custom-stats-section">
             <div class="container">
                 <div class="row text-center text-white">
                     <div class="col-12 col-md-4 mb-4 mb-md-0">
@@ -39,65 +81,76 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <section class="py-80 product-highlights-section">
             <div class="container">
                 <div class="text-center mb-5">
-                    <h2 class="hero-title text-white mb-3">Premium Display Solutions</h2>
-                    <p class="text-white-50 fs-5">Discover our range of cutting-edge display technologies</p>
+                    <h2 class="hero-title text-white mb-3">Premium Commercial Display Solutions</h2>
+                    <p class="text-white fs-5">Discover advanced commercial display solutions crafted for diverse industry needs. Our products include
+                         industry-specific display solutions, business displays, and specialized commercial screens engineered for clarity, durability, and
+                          performance. With expertise in vertical market digital signage, we provide custom display integrations that fit seamlessly into 
+                          business environments, enhancing visual and operational efficiency.</p>
                 </div>
 
                 <div class="row g-4">
                     <!-- LED Displays -->
                     <div class="col-lg-4 col-md-4">
+                        <a href="https://brandsignages.com/commercial-display">
                         <div class="product-highlight-card">
                             <div class="product-highlight-content">
-                                <h3 class="product-highlight-title">LED Displays</h3>
+                                <h3 class="product-highlight-title">Display Video Wall</h3>
                             </div>
                             <div class="product-highlight-img-wrapper">
-                                <img src="{{ asset('frontend/Images/Display_homepage-Product_LED.jpg') }}"
+                                <img src="{{ asset('frontend/Images/digital-display-1.webp') }}"
                                     alt="LED Displays" class="product-highlight-img">
                             </div>
 
                         </div>
-
+                        </a>
                     </div>
+
                     <div class="col-lg-4 col-md-4 ">
+                        <a href="https://brandsignages.com/flat-panel-display">
                         <div class="product-highlight-card">
                             <div class="product-highlight-content">
-                                <h3 class="product-highlight-title">WonderHub Interactive Display</h3>
+                                <h3 class="product-highlight-title">LED Interactive Display</h3>
                             </div>
                             <div class="product-highlight-img-wrapper">
-                                <img src="{{ asset('frontend/Images/Display_homepage-Product_IFPD.jpg') }}"
+                                <img src="{{ asset('frontend/Images/digital-display-2.webp') }}"
                                     alt="WonderHub Interactive Display" class="product-highlight-img">
                             </div>
 
                         </div>
+                        </a>
                     </div>
 
                     <!-- WonderHub Interactive Display -->
                     <div class="col-lg-4 col-md-4 d-flex gap-4 flex-column justify-content-between">
+                        <a href="https://brandsignages.com/digital-standee-display">
                         <div class="product-highlight-card">
                             <div class="product-highlight-content">
-                                <h3 class="product-highlight-title">Digital Signage</h3>
+                                <h3 class="product-highlight-title">Digital Standee</h3>
                             </div>
                             <div class="product-highlight-img-wrapper">
-                                <img src="{{ asset('frontend/Images/Display_homepage-Product_digital-signage-1.jpg') }}"
+                                <img src="{{ asset('frontend/Images/digital-display-4.webp') }}"
                                     alt="Digital Signage" class="product-highlight-img">
                             </div>
 
                         </div>
+                        </a>
+                        <a href="https://brandsignages.com/touch-screen-kiosk">
                         <div class="product-highlight-card">
                             <div class="product-highlight-content">
-                                <h3 class="product-highlight-title">LCD Displays</h3>
+                                <h3 class="product-highlight-title">Touch Screen Kiosk</h3>
                             </div>
                             <div class="product-highlight-img-wrapper">
-                                <img src="{{ asset('frontend/Images/Display_homepage-Product_LCD-1.jpg') }}"
+                                <img src="{{ asset('frontend/Images/digital-display-3.webp') }}"
                                     alt="LCD Displays" class="product-highlight-img">
                             </div>
 
                         </div>
+                        </a>
                     </div>
 
 
@@ -112,14 +165,14 @@
 
         <section class="solutions-tailored-section">
             <div class="container">
-                <h2 class="solutions-heading">Check out solutions tailored for you</h2>
+                <h2 class="solutions-heading">Industry-Specific Commercial Display Solutions</h2>
 
                 <!-- Tab Navigation -->
                 <div class="solutions-tabs">
-                    <button class="solution-tab active" data-tab="shopping-mall">Shopping Mall</button>
-                    <button class="solution-tab" data-tab="enterprise">Enterprise</button>
-                    <button class="solution-tab" data-tab="classroom">Classroom Hub</button>
-                    <button class="solution-tab" data-tab="command-center">Command Center</button>
+                    <button class="solution-tab active" data-tab="shopping-mall">Retail Shops</button>
+                    <button class="solution-tab" data-tab="enterprise">Enterprises</button>
+                    <button class="solution-tab" data-tab="classroom">Calssrooms</button>
+                    <button class="solution-tab" data-tab="command-center">Healthcare</button>
                 </div>
 
                 <!-- Tab Content -->
@@ -127,13 +180,13 @@
                     <!-- Shopping Mall Tab -->
                     <div class="solution-panel active" id="shopping-mall">
                         <div class="solution-card">
-                            <img src="{{ asset('frontend/Images/Display_homepage-Solution_retail.jpg') }}"
-                                alt="Shopping Mall Display Solution" class="solution-img">
+                            <img src="{{ asset('frontend/Images/digital-display-shopping-mall.webp') }}"
+                                alt="Shopiing Mall and Retail Shop Digital Display Solution" class="solution-img">
                             <div class="solution-overlay">
                                 <p class="solution-description">
-                                    A full-cycle display solution for shopping malls, facilitating captivating
-                                    outdoor/indoor
-                                    attraction, promotion, display, and management.
+                                    Our commercial displays for retail shops enhance customer engagement with vibrant visuals and interactive content. Designed
+                                     for high footfall areas, they showcase products, promotions, and brand messages effectively, driving sales and improving
+                                      the shopping experience.
                                 </p>
                             </div>
                         </div>
@@ -142,12 +195,12 @@
                     <!-- Enterprise Tab -->
                     <div class="solution-panel" id="enterprise">
                         <div class="solution-card">
-                            <img src="{{ asset('frontend/Images/home/corporate-office-display.webp') }}"
+                            <img src="{{ asset('frontend/Images/digital-display-corporate-office.webp') }}"
                                 alt="Enterprise Display Solution" class="solution-img">
                             <div class="solution-overlay">
                                 <p class="solution-description">
-                                    Transform your corporate environment with intelligent displays for presentations,
-                                    collaboration, and seamless communication across all departments.
+                                    Elevate your enterprise with smart commercial displays designed for corporate office presentations, team collaboration, and seamless communication
+                                     across departments, enhancing productivity and workplace efficiency.
                                 </p>
                             </div>
                         </div>
@@ -156,12 +209,12 @@
                     <!-- Classroom Hub Tab -->
                     <div class="solution-panel" id="classroom">
                         <div class="solution-card">
-                            <img src="{{ asset('frontend/Images/home/digital-display-classroom.webp') }}"
+                            <img src="{{ asset('frontend/Images/digital-display-calssroom.webp') }}"
                                 alt="Classroom Hub Display Solution" class="solution-img">
                             <div class="solution-overlay">
                                 <p class="solution-description">
-                                    Interactive displays and smart classroom solutions enabling modern education
-                                    with engaging content, collaborative learning, and digital transformation.
+                                    Interactive displays designed for modern classrooms, enhancing engagement and participation. 
+                                    Smart solutions enable collaborative learning and support seamless digital transformation.
                                 </p>
                             </div>
                         </div>
@@ -170,133 +223,16 @@
                     <!-- Command Center Tab -->
                     <div class="solution-panel" id="command-center">
                         <div class="solution-card">
-                            <img src="{{ asset('frontend/Images/home/video-walls.webp') }}"
+                            <img src="{{ asset('frontend/Images/digital-display-medical.webp') }}"
                                 alt="Command Center Display Solution" class="solution-img">
                             <div class="solution-overlay">
                                 <p class="solution-description">
-                                    High-performance video walls and display systems for control rooms,
-                                    offering real-time monitoring, data visualization, and mission-critical operations.
+                                    Interactive displays for healthcare facilities streamline patient check-ins and provide clear information. 
+                                    Smart kiosks enhance workflow, support appointment management, and improve overall patient experience.
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-        <section class="We-Elevate-Brands-section py-80">
-            <div class="container">
-                <div class="text-center mb-4">
-                    <h2 class="We-Elevate-Brands-heading fw-bold">Explore Commercial-Grade Digital Signages <br>with
-                        Inbuilt
-                        Smart Software</h2>
-                </div>
-
-                <div class="position-relative">
-                    <div class="swiper We-Elevate-Brands-swiper pt-60">
-                        <div class="swiper-wrapper">
-                            <!-- Slide 1 -->
-                            <div class="swiper-slide">
-                                <div class="card We-Elevate-Brands-card ">
-                                    <img src="{{ asset('frontend/Images/home/commercial-display.webp') }}"
-                                        class="card-img-center" alt="Commercial Display">
-                                    <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="#">Commercial Display</a></h5>
-                                        <p class="We-Elevate-Brands-text">High-brightness commercial displays, Full HD
-                                            clarity to Ultra HD brilliance, available in screens size as 98-inch, perfect
-                                            for dynamic digital signage, delivering vibrant visuals and experiences.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="card We-Elevate-Brands-card ">
-                                    <img src="{{ asset('frontend/Images/home/corporate-digital-signage.webp') }}"
-                                        class="card-img-center" alt="Metal Signage">
-                                    <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="#">Touch Screen Kiosk</a></h5>
-                                        <p class="We-Elevate-Brands-text">Engage customers with touch-screen kiosk. Sleek
-                                            rectangular frame, this interactive kiosk functions as an intuitive input
-                                            device. Like a smartphone, it runs CMS software, providing real-time assistance
-                                            and information.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card We-Elevate-Brands-card ">
-                                    <img src="{{ asset('frontend/Images/home/digital-signage2.webp') }}"
-                                        class="card-img-center" alt="Digital Standee Display">
-                                    <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="#">Digital Standee Display</a>
-                                        </h5>
-                                        <p class="We-Elevate-Brands-text">Our digital standees feature customizable colors
-                                            and branding, offering commercial-grade displays in India. Enjoy an immersive
-                                            viewing experience with crisp visuals, superior audio, and high-quality video
-                                            wall performance.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="card We-Elevate-Brands-card ">
-                                    <img src="{{ asset('frontend/Images/home/video-walls.webp') }}"
-                                        class="card-img-center" alt="Digital Video Walls">
-                                    <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="#">Display Video Wall</a></h5>
-                                        <p class="We-Elevate-Brands-text">Showcase your products and services with our
-                                            high-brightness video walls, available in 26” and 55” screens. Designed for
-                                            commercial
-                                            impact, these walls deliver stunning visuals and immersive experiences. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="card We-Elevate-Brands-card ">
-                                    <img src="{{ asset('frontend/Images/home/outdoor-sign.webp') }}"
-                                        class="card-img-center" alt="Outdoor Signage Display">
-                                    <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="#">Outdoor Signage Display</a>
-                                        </h5>
-                                        <p class="We-Elevate-Brands-text">Experience durable, all-weather signage built for
-                                            maximum visibility and impact. We provide premium outdoor and indoor display
-                                            boards, including
-                                            digital notice boards, successfully deployed across India’s major cities. </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="card We-Elevate-Brands-card ">
-                                    <img src="{{ asset('frontend/Images/home/flat-panel-display.webp') }}"
-                                        class="card-img-center" alt="Flat Panel Display">
-                                    <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="#">Flat Panel Display</a></h5>
-                                        <p class="We-Elevate-Brands-text">Enhance engagement with our Interactive Flat
-                                            Panel
-                                            Display, featuring cutting-edge visuals and advanced touch technology. Comes
-                                            with integrated
-                                            digital signage software, delivering complete, seamless signage solutions.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <!-- Navigation Arrows -->
-                        <div class="We-Elevate-Brands-nav ">
-                            <!-- Swap order: prev on left, next on right -->
-                            <div class="We-Elevate-Brands-button-prev"></div>
-                            <div class="We-Elevate-Brands-button-next"></div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="text-center mt-4">
-                    <a href="contact-us" class="btn-we-elevate">Book a Demo Call</a>
                 </div>
             </div>
         </section>
@@ -343,17 +279,18 @@
         <section class="py-80">
             <div class="container">
                 <div class="text-center mb-5">
-                    <h2 class="display-5 fw-bold">Built for Every Vertical</h2>
-                    <p class="text-muted">Our commercial displays are optimized for specific industry needs.</p>
+                    <h2 class="text-center hero-title mb-5">Discover Our Expertise as <br>Commercial Display Manufacturers</h2>
+                    <p class="text-muted">At Brand Signages, we combine innovation, quality, and industry knowledge to deliver professional display solutions. Trusted by 
+                        businesses across Bangalore and India, we help businesses transform spaces with cutting-edge enterprise display systems.</p>
                 </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6">
                         <div class="industry-card">
                             <div class="industry-icon">
-                                <i class="fa-solid fa-utensils"></i>
+                                <i class="fa-solid fa-anchor"></i>
                             </div>
-                            <h5 class="fw-bold text-orange">Retail & QSR</h5>
-                            <p>Digital menu boards and window signage to drive footfall and impulse purchases.</p>
+                            <h5 class="fw-bold text-orange">Trusted Manufacturers</h5>
+                            <p>As one of the top commercial display brands, we deliver reliable, high-quality display solutions trusted by businesses across industries.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -361,17 +298,17 @@
                             <div class="industry-icon">
                                 <i class="fa-solid fa-briefcase"></i>
                             </div>
-                            <h5 class="fw-bold text-orange">Corporate & BFSI</h5>
-                            <p>Lobby branding, meeting room schedulers, and real-time financial data dashboards.</p>
+                            <h5 class="fw-bold text-orange">Display Technology Experts</h5>
+                            <p>Our team specializes in professional display solutions, offering innovative enterprise display systems tailored to enhance operational efficiency.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="industry-card">
                             <div class="industry-icon">
-                                <i class="fa-solid fa-hospital-user"></i>
+                                <i class="fa-solid fa-handshake"></i>
                             </div>
-                            <h5 class="fw-bold text-orange">Healthcare</h5>
-                            <p>Wayfinding kiosks and informative displays to improve patient experience and flow.</p>
+                            <h5 class="fw-bold text-orange">Industry-Leading Solutions</h5>
+                            <p>Recognized as a global display supplier and display industry leader, we provide cutting-edge technology and support for seamless business interactions.</p>
                         </div>
                     </div>
                 </div>
@@ -391,46 +328,40 @@
             </div>
         </section>
 
-        <section class="other-cities-section py-80">
-            <div class="container">
-                <h2 class="mb-5 why-text-heading">Serving Digital Signs Across India</h2>
-                <div class="other-cities-wrapper d-flex gap-4 justify-content-between flex-wrap">
-                    <div class="other-cities-card flex-fill">
-                        <a href="https://brandsignages.com/stainless-steel-sign-board-manufacturer-mumbai"
-                            class="text-decoration-none">
-                            <div class="other-cities-img">
-                                <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}"
-                                    alt="Commercial Displays Mumbai">
-                                <div class="other-cities-overlay"></div>
-                                <p class="other-cities-title">Mumbai</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="other-cities-card flex-fill">
-                        <a href="https://brandsignages.com/metal-and-stainless-steel-sign-boards-in-chennai"
-                            class="text-decoration-none">
-                            <div class="other-cities-img">
-                                <img src="{{ asset('frontend/Images/new/Chennai.webp') }}"
-                                    alt="Commercial Displays Chennai">
-                                <div class="other-cities-overlay"></div>
-                                <p class="other-cities-title">Chennai</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="other-cities-card flex-fill">
-                        <a href="https://brandsignages.com/steel-signage-manufacturer-bangalore"
-                            class="text-decoration-none">
-                            <div class="other-cities-img">
-                                <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}"
-                                    alt="Commercial Displays Bangalore">
-                                <div class="other-cities-overlay"></div>
-                                <p class="other-cities-title">Bangalore</p>
-                            </div>
-                        </a>
-                    </div>
+       <section class="other-cities-section py-5">
+    <div class="container">
+        <h2 class="my-5">Serving PAN India Location</h2>
+        <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/leading-signage-company-in-mumbai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="Sign Boards in Mumbai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Mumbai</p>
                 </div>
+            </a>
             </div>
-        </section>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/leading-digital-signage-in-chennai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="Sign Boards in Chennai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Chennai</p>
+                </div>
+                </a>
+            </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/digital-signage-company-bangalore" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="Sign Boards in Bangalore">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Bangalore</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
         <section class="faq-section">
             <div class="faq-container">
@@ -438,57 +369,60 @@
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        What makes a Commercial Display different from a standard TV?
+                        What makes a commercial display different from a standard TV?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Commercial displays are engineered for long-duration use (16/7 or 24/7), feature higher
-                            brightness
-                            (350-3000 nits), and contain industrial-grade cooling systems. Unlike standard TVs, they also
-                            come
-                            with landscape/portrait flexibility and lack distracting "smart TV" broadcast tuners, focusing
-                            on
-                            professional connectivity.</p>
+                        <p>Commercial displays are purpose-built for 16/7 or 24/7 operation, deliver significantly higher brightness
+                             (350–3000 nits), and use industrial-grade thermal management. They support portrait and landscape orientation,
+                              professional I/O connectivity, and exclude consumer broadcast tuners ensuring reliability, control, and 
+                              uninterrupted business use.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        Can I manage my screens remotely from a different city?
+                        What services do you provide as commercial display manufacturers?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Yes. Our commercial displays come with integrated CMS (Content Management System) compatibility.
-                            You
-                            can login to our web-based dashboard from anywhere and push images, videos, or real-time ticker
-                            data
-                            to one or thousands of screens instantly.</p>
+                        <p>As commercial display manufacturers, we design, build, and deploy complete display solutions, not just screens. 
+                            This includes custom enclosure design, hardware and software integration, installation support, and ongoing lifecycle
+                             management to ensure long-term performance in real business environments.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        Are these displays sunlight-readable?
+                        How do I identify a trusted commercial display supplier?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>For window-facing or outdoor displays, we provide "Ultra-High Brightness" models with 2000 to
-                            3000
-                            nits. These are specifically designed to remain visible even under direct sunlight, featuring
-                            anti-reflective glass and thermal management.</p>
+                        <p>A trusted supplier demonstrates proven deployment scale, commercial-grade certifications, transparent technical 
+                            specifications, consistent panel sourcing, and structured post-installation support rather than focusing on short-term 
+                            pricing alone.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        Do you provide installation and on-site support?
+                        Are commercial displays suitable for large-scale and multi-location deployments?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Absolutely. We offer PAN-India installation services. Our team handles everything from
-                            wall-mounting
-                            and structure fabrication to cabling and CMS software training. We also provide on-site warranty
-                            support.</p>
+                        <p>Yes. Commercial displays are designed for centralized content control, remote diagnostics, and uniform performance, 
+                            making them ideal for enterprises managing multiple sites or nationwide networks.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What future technologies are shaping the commercial display industry?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The industry is advancing toward microLED panels, AI-driven content optimization, IoT-connected displays, 
+                            energy-efficient manufacturing, and purpose-built screens for smart cities and enterprise ecosystems.</p>
                     </div>
                 </div>
 

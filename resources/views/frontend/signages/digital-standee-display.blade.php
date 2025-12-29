@@ -6,49 +6,71 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-10">
-                        <h1 class="hero-banner_title">Elite Commercial Display <br>Solutions for Modern Brands</h1>
-                        <p class="fs-5 mb-4">Brand Signages is India's leading manufacturer of commercial-grade digital
-                            displays.
-                            <br>
-                            We deliver high-brightness, 24/7 reliable UHD screens for retail, corporate, and public spaces.
+                        <h1 class="hero-banner_title">Digital Standee Displays <br>for High-Impact Communication</h1>
+                        <p class="fs-5 mb-4">Brand Signages is a trusted manufacturer of commercial-grade digital standee built for modern <br>business environments. Our sleek, free-standing displays deliver high-brightness, UHD visuals with 24/7 reliability.
                         </p>
                         <a href="https://brandsignages.com/contact-us">
-                            <button class="contact-btn">Get a Technical Quote</button>
+                            <button class="contact-btn">Get a Free Quote</button>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="new_custom-stats-section">
-            <div class="container">
-                <div class="row text-center text-white">
-                    <div class="col-12 col-md-4 mb-4 mb-md-0">
-                        <h2 class="new_custom-stats-number">12+</h2>
-                        <p class="new_custom-stats-label">Years of Innovation</p>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4 mb-md-0 position-relative">
-                        <div class="new_custom-divider-left d-none d-md-block"></div>
-                        <h2 class="new_custom-stats-number">15,000+</h2>
-                        <p class="new_custom-stats-label">Screens Deployed</p>
-                        <div class="new_custom-divider-right d-none d-md-block"></div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <h2 class="new_custom-stats-number">500+</h2>
-                        <p class="new_custom-stats-label">Enterprise Clients</p>
-                    </div>
+        <section class="seo-marquee">
+            <div class="seo-marquee-wrapper">
+                <div class="seo-marquee-track">
+
+                    <a href="/digital-standee-display" class="seo-marquee-item">Indoor Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/digital-standee-display" class="seo-marquee-item">Outdoor Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/digital-standee-display" class="seo-marquee-item">Interactive Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/digital-standee-display" class="seo-marquee-item">Touch Screen Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/digital-standee-display" class="seo-marquee-item">Portable Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/digital-standee-display" class="seo-marquee-item">Floor Standing Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <!-- duplicate for seamless loop -->
+                    <a href="/digital-standee-display" class="seo-marquee-item">Indoor Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/digital-standee-display" class="seo-marquee-item">Outdoor Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/digital-standee-display" class="seo-marquee-item">Interactive Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/digital-standee-display" class="seo-marquee-item">Touch Screen Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/digital-standee-display" class="seo-marquee-item">Portable Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/digital-standee-display" class="seo-marquee-item">Floor Standing Digital Standee</a>
+                    <span class="seo-marquee-sep">*</span>
+
                 </div>
             </div>
         </section>
 
+
         <section class="py-80">
             <div class="container">
                 <div class="text-center mb-5">
-                    <h2 class="display-5 why-text-heading">High-Fidelity Commercial Displays</h2>
+                    <h2 class="display-5 why-text-heading">Interactive & Smart Digital Standees- Brand Signages</h2>
                     <p class="lead text-muted max-w-800 mx-auto">
-                        Transform your space with vibrant, ultra-high-definition displays designed for commercial
-                        environments.
-                        Built with industrial-grade panels that offer superior brightness and 24/7 reliability.
+                        Enhance your commercial spaces with Digital Standees and interactive smart displays. Designed for 24/7 reliability, these 
+                        solutions offer high visibility, seamless content management, and engaging experiences for retail, corporate, and public
+                         environments.
                     </p>
                 </div>
 
@@ -56,69 +78,26 @@
                     <div class="row g-4">
                         <div class="col-lg-4">
                             <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/commercial-display.webp') }}"
-                                    alt="4K UHD Commercial Monitor" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Ultra HD Commercial Monitors</h5>
-                                    <p class="text-content">Crystal clear 4K resolution with 350-700 nits brightness.
-                                        Perfect
-                                        for boardroom presentations, retail branding, and menu boards that require precision
-                                        and
-                                        vibrant colors.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/video-walls.webp') }}" alt="Ultra-Slim Video Walls"
-                                    class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Seamless Video Walls</h5>
-                                    <p class="text-content">Create massive visual impact with near-invisible bezels. Our
-                                        video
-                                        wall solutions are ideal for control rooms, grand lobbies, and flagship retail
-                                        stores.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/outdoor-sign.webp') }}"
-                                    alt="High Brightness Window Displays" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Outdoor & Window Displays</h5>
-                                    <p class="text-content">Ultra-high brightness panels (up to 3000 nits) designed to look
-                                        clear even in direct sunlight. Perfect for street-facing storefronts and digital
-                                        billboards.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/flat-panel-display.webp') }}"
+                                <img src="{{ asset('frontend/Images/home/digital-standee-1.webp') }}"
                                     alt="Interactive Touch Panels" class="w-100 h-100">
                                 <div class="overlay">
-                                    <h5 class="text-title">Interactive Collaborative Panels</h5>
-                                    <p class="text-content">Enable multi-touch collaboration for classrooms and meeting
-                                        rooms.
-                                        Features 20-point touch, wireless sharing, and integrated whiteboarding tools.</p>
+                                    <h5 class="text-title">Static (Standard) Digital Standees</h5>
+                                    <p class="text-content">These are non-interactive displays used primarily for broadcasting scheduled content like images, 
+                                        videos, and advertisements. They are common in retail for product showcasing and in hospitals or corporate lobbies
+                                         for announcements.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-5">
                             <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/corporate-digital-signage.webp') }}"
+                                <img src="{{ asset('frontend/Images/home/digital-standee-4.webp') }}"
                                     alt="Smart Digital Signage" class="w-100 h-100">
                                 <div class="overlay">
-                                    <h5 class="text-title">SOC Integrated Smart Displays</h5>
-                                    <p class="text-content">Screens with inbuilt System-on-Chip (SOC) and Android/WebOS.
-                                        Manage
-                                        content remotely without external media players, reducing hardware clutter and cost.
+                                    <h5 class="text-title">Interactive (Touchscreen) Standees</h5>
+                                    <p class="text-content">These units feature touch-sensitive screens (often with 10-point multi-touch) that allow users to
+                                        engage directly with the content. They are widely used as wayfinding kiosks in malls, self-service stations in restaurants,
+                                         and information hubs at exhibitions.
                                     </p>
                                 </div>
                             </div>
@@ -126,14 +105,12 @@
 
                         <div class="col-lg-3">
                             <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/digital-signage2.webp') }}"
+                                <img src="{{ asset('frontend/Images/home/digital-standee-3.webp') }}"
                                     alt="Vertical Digital Standees" class="w-100 h-100">
                                 <div class="overlay">
-                                    <h5 class="text-title">Sleek Digital Standees</h5>
-                                    <p class="text-content">Floor-standing vertical displays for malls and lobbies.
-                                        Lightweight,
-                                        mobile-friendly, and perfect for real-time promotional updates in high-footfall
-                                        areas.
+                                    <h5 class="text-title">Outdoor Digital Standees</h5>
+                                    <p class="text-content">Built to withstand environmental factors, these are weather-resistant and feature "high bright" screens
+                                         (measured in candela) to remain visible under direct sunlight.
                                     </p>
                                 </div>
                             </div>
@@ -142,6 +119,7 @@
                 </div>
             </div>
         </section>
+
 
         <!-- Key Benefits Section -->
         <section class="py-80 bg-light">

@@ -1270,6 +1270,9 @@ h6 {
     transition: opacity 0.3s;
 }
 
+
+
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
@@ -1288,3 +1291,5 @@ h6 {
 .more-btn {
     cursor: pointer;
 }
+
+
