@@ -96,7 +96,7 @@
                 <div class="row g-4">
                     <!-- LED Displays -->
                     <div class="col-lg-4 col-md-4">
-                        <a href="https://brandsignages.com/commercial-display">
+                        <a href="https://brandsignages.com/display-video-wall">
                         <div class="product-highlight-card">
                             <div class="product-highlight-content">
                                 <h3 class="product-highlight-title">Display Video Wall</h3>
