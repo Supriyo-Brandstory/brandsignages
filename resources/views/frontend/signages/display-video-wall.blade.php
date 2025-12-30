@@ -92,7 +92,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-5">
+                <div class="col-lg-4">
                     <div class="image-container position-relative">
                         <img src="{{ asset('frontend/Images/home/digital-standee-4.webp') }}"
                             alt="Smart Digital Signage" class="w-100 h-100">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="image-container position-relative">
                         <img src="{{ asset('frontend/Images/home/digital-standee-1.webp') }}"
                             alt="Vertical Digital Standees" class="w-100 h-100">
