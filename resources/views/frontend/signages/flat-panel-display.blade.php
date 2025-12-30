@@ -6,205 +6,272 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-10">
-                        <h1 class="hero-banner_title">Elite Commercial Display <br>Solutions for Modern Brands</h1>
-                        <p class="fs-5 mb-4">Brand Signages is India's leading manufacturer of commercial-grade digital
-                            displays.
-                            <br>
-                            We deliver high-brightness, 24/7 reliable UHD screens for retail, corporate, and public spaces.
+                        <h1 class="hero-banner_title">Flat Panel Displays for Clear, <br>Professional Communication</h1>
+                        <p class="fs-5 mb-4">Brand Signages designs and manufactures commercial-grade flat panel displays that deliver crisp visuals and 
+                            consistent performance. Unlike consumer TVs, our flat panel displays are built for reliable, 
+                            long-hour operation, offering sharp image quality and clean presentation.
                         </p>
                         <a href="https://brandsignages.com/contact-us">
-                            <button class="contact-btn">Get a Technical Quote</button>
+                            <button class="contact-btn">Get a Free Quote</button>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="new_custom-stats-section">
+        <section class="seo-marquee">
+            <div class="seo-marquee-wrapper">
+                <div class="seo-marquee-track">
+
+                    <a href="/flat-panel-display" class="seo-marquee-item">Commercial Flat Panel</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/flat-panel-display" class="seo-marquee-item">Industrial Display Panel</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/flat-panel-display" class="seo-marquee-item">Ultra HD Display</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/flat-panel-display" class="seo-marquee-item">Indoor Display Panel</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/flat-panel-display" class="seo-marquee-item">Commercial LED Display</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/flat-panel-display" class="seo-marquee-item">Wall Mounted Display</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <!-- duplicate for seamless loop -->
+                    <a href="/flat-panel-display" class="seo-marquee-item">Commercial Flat Panel</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/flat-panel-display" class="seo-marquee-item">Industrial Display Panel</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/flat-panel-display" class="seo-marquee-item">Ultra HD Display</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/flat-panel-display" class="seo-marquee-item">Indoor Display Panel</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/flat-panel-display" class="seo-marquee-item">Commercial LED Display</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/flat-panel-display" class="seo-marquee-item">Wall Mounted Display</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                </div>
+            </div>
+        </section>
+
+
+<section class="py-80">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 why-text-heading">Flat Panel Displays for Clear, <br>Consistent Visual Communication</h2>
+            <p class="lead text-muted max-w-800 mx-auto">
+                Designed for professional environments, commercial flat panel displays offer high brightness, durable panels, and 24/7 operation. They
+                 are ideal for digital signage, corporate communications, retail promotions, and public information displays where reliability and consistent
+                  performance are essential.
+            </p>
+        </div>
+
+        <div class="col-lg-12">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="image-container position-relative">
+                        <img src="{{ asset('frontend/Images/home/digital-standee-1.webp') }}"
+                            alt="Interactive Touch Panels" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Interactive Displays</h5>
+                            <p class="text-content">Interactive flat panel displays feature built-in touch technology that enables user interaction, 
+                                collaboration, and real-time engagement. Commonly used in meeting rooms, classrooms, and training centers, they support 
+                                presentations, annotations, video conferencing, and collaborative workflows.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="image-container position-relative">
+                        <img src="{{ asset('frontend/Images/home/digital-standee-4.webp') }}"
+                            alt="Smart Digital Signage" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Ultra HD Displays</h5>
+                            <p class="text-content">Ultra HD flat panel displays deliver exceptional image clarity with 4K or higher resolution. These
+                                 displays are suited for control rooms, boardrooms, luxury retail, and brand-focused environments where detailed visuals,
+                                  sharp text, and premium presentation quality are critical.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="image-container position-relative">
+                        <img src="{{ asset('frontend/Images/home/digital-standee-1.webp') }}"
+                            alt="Vertical Digital Standees" class="w-100 h-100">
+                        <div class="overlay">
+                            <h5 class="text-title">Interactive Video Walls</h5>
+                            <p class="text-content">Built for engagement, these video walls combine touch or gesture-based interactivity with large-format 
+                                visuals. Ideal for showrooms, museums, and experiential marketing spaces, they let users explore content, interact with 
+                                applications, and immerse themselves in brand storytelling.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <section class="solutions-tailored-section">
             <div class="container">
-                <div class="row text-center text-white">
-                    <div class="col-12 col-md-4 mb-4 mb-md-0">
-                        <h2 class="new_custom-stats-number">12+</h2>
-                        <p class="new_custom-stats-label">Years of Innovation</p>
+                <h2 class="solutions-heading">Industry-Specific Flat Panel<br>Display Solutions</h2>
+
+                <!-- Tab Navigation -->
+                <div class="solutions-tabs">
+                    <button class="solution-tab active" data-tab="shopping-mall">Retail & Shopping Malls</button>
+                    <button class="solution-tab" data-tab="enterprise">Corporate & Enterprises</button>
+                    <button class="solution-tab" data-tab="classroom">Hospitality & Hotels</button>
+                    <button class="solution-tab" data-tab="command-center">Events & Exhibitions</button>
+                </div>
+
+                <!-- Tab Content -->
+                <div class="solutions-content">
+                    <!-- Shopping Mall Tab -->
+                    <div class="solution-panel active" id="shopping-mall">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/home/standee-1.webp') }}"
+                                alt="Shopiing Mall and Retail Shop Digital Standee Solution" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    Flat panel displays in retail environments deliver sharp, high-brightness visuals for promotions, product
+                                     highlights, and in-store communication. Installed as wall-mounted or freestanding units, they help brands attract
+                                      attention, update offers instantly, and maintain consistent messaging across multiple store locations.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-4 mb-md-0 position-relative">
-                        <div class="new_custom-divider-left d-none d-md-block"></div>
-                        <h2 class="new_custom-stats-number">15,000+</h2>
-                        <p class="new_custom-stats-label">Screens Deployed</p>
-                        <div class="new_custom-divider-right d-none d-md-block"></div>
+
+                    <!-- Enterprise Tab -->
+                    <div class="solution-panel" id="enterprise">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/home/standee-3.webp') }}"
+                                alt="Enterprise Display Solution" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    For corporate offices, flat panel displays support professional communication through digital dashboards, internal 
+                                    announcements, meeting room displays, and brand presentations. Designed for continuous use, they enhance workplace 
+                                    communication while maintaining a clean, modern office aesthetic.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <h2 class="new_custom-stats-number">500+</h2>
-                        <p class="new_custom-stats-label">Enterprise Clients</p>
+
+                    <!-- Classroom Hub Tab -->
+                    <div class="solution-panel" id="classroom">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/home/standee-2.webp') }}"
+                                alt="Hotel and Restaurant Digital Standee Solution" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    Flat panel displays in hotels and hospitality spaces improve guest experience by showcasing welcome messages, 
+                                    wayfinding information, service details, and promotional content. Their slim design and premium finish integrate
+                                     seamlessly into lobbies, corridors, conference areas, and guest-facing zones.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Command Center Tab -->
+                    <div class="solution-panel" id="command-center">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/home/standee-4.webp') }}"
+                                alt="Digital Standee for Events and Exhibitions" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    At events and exhibitions, flat panel displays provide flexible visual communication for brand messaging, product
+                                     information, and real-time updates. Easy to install and reposition, they are ideal for temporary setups where clarity, 
+                                     reliability, and visual impact are essential.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-80">
-            <div class="container">
-                <div class="text-center mb-5">
-                    <h2 class="display-5 why-text-heading">High-Fidelity Commercial Displays</h2>
-                    <p class="lead text-muted max-w-800 mx-auto">
-                        Transform your space with vibrant, ultra-high-definition displays designed for commercial
-                        environments.
-                        Built with industrial-grade panels that offer superior brightness and 24/7 reliability.
-                    </p>
-                </div>
-
-                <div class="col-lg-12">
-                    <div class="row g-4">
-                        <div class="col-lg-4">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/commercial-display.webp') }}"
-                                    alt="4K UHD Commercial Monitor" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Ultra HD Commercial Monitors</h5>
-                                    <p class="text-content">Crystal clear 4K resolution with 350-700 nits brightness.
-                                        Perfect
-                                        for boardroom presentations, retail branding, and menu boards that require precision
-                                        and
-                                        vibrant colors.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/video-walls.webp') }}" alt="Ultra-Slim Video Walls"
-                                    class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Seamless Video Walls</h5>
-                                    <p class="text-content">Create massive visual impact with near-invisible bezels. Our
-                                        video
-                                        wall solutions are ideal for control rooms, grand lobbies, and flagship retail
-                                        stores.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/outdoor-sign.webp') }}"
-                                    alt="High Brightness Window Displays" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Outdoor & Window Displays</h5>
-                                    <p class="text-content">Ultra-high brightness panels (up to 3000 nits) designed to look
-                                        clear even in direct sunlight. Perfect for street-facing storefronts and digital
-                                        billboards.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/flat-panel-display.webp') }}"
-                                    alt="Interactive Touch Panels" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Interactive Collaborative Panels</h5>
-                                    <p class="text-content">Enable multi-touch collaboration for classrooms and meeting
-                                        rooms.
-                                        Features 20-point touch, wireless sharing, and integrated whiteboarding tools.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-5">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/corporate-digital-signage.webp') }}"
-                                    alt="Smart Digital Signage" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">SOC Integrated Smart Displays</h5>
-                                    <p class="text-content">Screens with inbuilt System-on-Chip (SOC) and Android/WebOS.
-                                        Manage
-                                        content remotely without external media players, reducing hardware clutter and cost.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3">
-                            <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/digital-signage2.webp') }}"
-                                    alt="Vertical Digital Standees" class="w-100 h-100">
-                                <div class="overlay">
-                                    <h5 class="text-title">Sleek Digital Standees</h5>
-                                    <p class="text-content">Floor-standing vertical displays for malls and lobbies.
-                                        Lightweight,
-                                        mobile-friendly, and perfect for real-time promotional updates in high-footfall
-                                        areas.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Key Benefits Section -->
         <section class="py-80 bg-light">
             <div class="container">
-                <h2 class="text-center display-5 fw-bold mb-5">Engineering Excellence in Every Panel</h2>
+                <h2 class="text-center hero-title mb-5">Engineering Precision in Every <br>Flat Panel Displays</h2>
                 <div class="row g-4">
                     <div class="col-md-3">
                         <div class="benefit-card">
                             <h4>24/7 Stability</h4>
-                            <p>Designed for continuous operation with advanced cooling systems to prevent screen burn-in and
-                                overheating.</p>
+                            <p>Built for continuous operation, our flat panel displays feature industrial-grade components and advanced thermal management
+                                 to prevent overheating and ensure consistent performance in high-traffic environments.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="benefit-card">
-                            <h4>Ultra HD Brilliance</h4>
-                            <p>Leverage 4K IPS panels with wide viewing angles, ensuring your content looks great from any
-                                position.</p>
+                            <h4>Ultra HD Impact</h4>
+                            <p>With responsive multi-touch screens and high-resolution IPS panels, these kiosks deliver vibrant, sharp visuals from every angle.
+                                 Users can navigate menus, explore products, or access information smoothly, creating an interactive experience.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="benefit-card">
                             <h4>Centralized Control</h4>
-                            <p>Update content across your entire network from a single dashboard using our cloud-based CMS
-                                software.</p>
+                            <p>Easily manage and update content across multiple kiosks through a single cloud-based dashboard. Schedule campaigns, push real-time
+                                 updates, and maintain consistency of interactive applications and information across locations.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="benefit-card">
-                            <h4>Smart Connectivity</h4>
-                            <p>Supports HDMI, DisplayPort, Wi-Fi, and LAN for seamless integration with any media source or
-                                IT
-                                environment.</p>
+                            <h4>Smart & Flexible Connectivity</h4>
+                            <p>Equipped with HDMI, DisplayPort, Wi-Fi, and LAN, our video wall displays integrate seamlessly with software platforms, networks, and IT infrastructures,
+                                 making deployment and maintenance hassle-free while supporting dynamic interactive content.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Industries Served -->
         <section class="py-80">
             <div class="container">
                 <div class="text-center mb-5">
-                    <h2 class="display-5 fw-bold">Built for Every Vertical</h2>
-                    <p class="text-muted">Our commercial displays are optimized for specific industry needs.</p>
+                    <h2 class="text-center hero-title mb-5">We are a Trusted<br>Digital Signage Manufacturers</h2>
+                    <p class="text-muted">Brand Signages offers advanced digital standee solutions that combine sleek design with high-impact visuals. Perfect for 
+                        retail spaces, events, and corporate environments, our digital standees display dynamic content, promotions, and announcements in real time.</p>
                 </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6">
                         <div class="industry-card">
-                            <h5 class="fw-bold text-orange">Retail & QSR</h5>
-                            <p>Digital menu boards and window signage to drive footfall and impulse purchases.</p>
+                            <div class="industry-icon">
+                                <i class="fa-solid fa-anchor"></i>
+                            </div>
+                            <h5 class="fw-bold text-orange">Trusted Manufacturers</h5>
+                            <p>As one of the top commercial display brands, we deliver reliable, high-quality display solutions trusted by businesses across industries.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="industry-card">
-                            <h5 class="fw-bold text-orange">Corporate & BFSI</h5>
-                            <p>Lobby branding, meeting room schedulers, and real-time financial data dashboards.</p>
+                            <div class="industry-icon">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <h5 class="fw-bold text-orange">Display Technology Experts</h5>
+                            <p>Our team specializes in professional display solutions, offering innovative enterprise display systems tailored to enhance operational efficiency.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="industry-card">
-                            <h5 class="fw-bold text-orange">Healthcare</h5>
-                            <p>Wayfinding kiosks and informative displays to improve patient experience and flow.</p>
+                            <div class="industry-icon">
+                                <i class="fa-solid fa-handshake"></i>
+                            </div>
+                            <h5 class="fw-bold text-orange">Industry-Leading Solutions</h5>
+                            <p>Recognized as a global display supplier and display industry leader, we provide cutting-edge technology and support for seamless business interactions.</p>
                         </div>
                     </div>
                 </div>
@@ -224,41 +291,35 @@
             </div>
         </section>
 
-        <section class="other-cities-section py-80">
+        <section class="other-cities-section py-5">
             <div class="container">
-                <h2 class="mb-5 why-text-heading">Serving Digital Signs Across India</h2>
-                <div class="other-cities-wrapper d-flex gap-4 justify-content-between flex-wrap">
-                    <div class="other-cities-card flex-fill">
-                        <a href="https://brandsignages.com/stainless-steel-sign-board-manufacturer-mumbai"
-                            class="text-decoration-none">
-                            <div class="other-cities-img">
-                                <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}"
-                                    alt="Commercial Displays Mumbai">
-                                <div class="other-cities-overlay"></div>
-                                <p class="other-cities-title">Mumbai</p>
-                            </div>
+                <h2 class="my-5">Serving PAN India Location</h2>
+                <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
+                    <div class="other-cities-card">
+                        <a href="https://brandsignages.com/digital-signages-manufacturer-in-mumbai" style="text-decoration: none;">
+                        <div class="other-cities-img">
+                            <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="Sign Boards in Mumbai">
+                            <div class="other-cities-overlay"></div>
+                            <p class="other-cities-title">Mumbai</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="other-cities-card">
+                        <a href="https://brandsignages.com/leading-digital-signage-in-chennai" style="text-decoration: none;">
+                        <div class="other-cities-img">
+                            <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="Sign Boards in Chennai">
+                            <div class="other-cities-overlay"></div>
+                            <p class="other-cities-title">Chennai</p>
+                        </div>
                         </a>
                     </div>
-                    <div class="other-cities-card flex-fill">
-                        <a href="https://brandsignages.com/metal-and-stainless-steel-sign-boards-in-chennai"
-                            class="text-decoration-none">
-                            <div class="other-cities-img">
-                                <img src="{{ asset('frontend/Images/new/Chennai.webp') }}"
-                                    alt="Commercial Displays Chennai">
-                                <div class="other-cities-overlay"></div>
-                                <p class="other-cities-title">Chennai</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="other-cities-card flex-fill">
-                        <a href="https://brandsignages.com/steel-signage-manufacturer-bangalore"
-                            class="text-decoration-none">
-                            <div class="other-cities-img">
-                                <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}"
-                                    alt="Commercial Displays Bangalore">
-                                <div class="other-cities-overlay"></div>
-                                <p class="other-cities-title">Bangalore</p>
-                            </div>
+                    <div class="other-cities-card">
+                        <a href="https://brandsignages.com/digital-signage-company-bangalore" style="text-decoration: none;">
+                        <div class="other-cities-img">
+                            <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="Sign Boards in Bangalore">
+                            <div class="other-cities-overlay"></div>
+                            <p class="other-cities-title">Bangalore</p>
+                        </div>
                         </a>
                     </div>
                 </div>
@@ -271,61 +332,94 @@
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        What makes a Commercial Display different from a standard TV?
+                        What is the difference between a flat panel display and a regular TV?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Commercial displays are engineered for long-duration use (16/7 or 24/7), feature higher
-                            brightness
-                            (350-3000 nits), and contain industrial-grade cooling systems. Unlike standard TVs, they also
-                            come
-                            with landscape/portrait flexibility and lack distracting "smart TV" broadcast tuners, focusing
-                            on
-                            professional connectivity.</p>
+                        <p>Flat panel displays are built for commercial use, offering higher brightness, longer operating hours, and
+                             better heat management than standard TVs. They are designed to run continuously in business environments 
+                             without performance degradation.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        Can I manage my screens remotely from a different city?
+                        Where can flat panel displays be used effectively?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Yes. Our commercial displays come with integrated CMS (Content Management System) compatibility.
-                            You
-                            can login to our web-based dashboard from anywhere and push images, videos, or real-time ticker
-                            data
-                            to one or thousands of screens instantly.</p>
+                        <p>Flat panel displays are suitable for retail stores, corporate offices, hotels, events, exhibitions, and public
+                             spaces. Their slim design and flexible mounting options make them ideal for both permanent installations
+                              and temporary setups.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        Are these displays sunlight-readable?
+                        Can flat panel displays operate for long hours daily?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>For window-facing or outdoor displays, we provide "Ultra-High Brightness" models with 2000 to
-                            3000
-                            nits. These are specifically designed to remain visible even under direct sunlight, featuring
-                            anti-reflective glass and thermal management.</p>
+                        <p>Yes, commercial flat panel displays are engineered for extended usage, often supporting 16/7 or 24/7 operation. 
+                            This makes them reliable for environments that require uninterrupted visual communication.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <button class="faq-question">
-                        Do you provide installation and on-site support?
+                        Do flat panel displays support centralized content management?
                         <i class="faq-icon fa-solid fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Absolutely. We offer PAN-India installation services. Our team handles everything from
-                            wall-mounting
-                            and structure fabrication to cabling and CMS software training. We also provide on-site warranty
-                            support.</p>
+                        <p>Flat panel displays can be integrated with content management systems that allow businesses to update and control
+                             content remotely across single or multiple locations, ensuring consistent and timely messaging.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Are installation and on-site support available?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. Flat panel display solutions typically include professional installation, calibration, and on-site 
+                            support to ensure optimal performance, proper mounting, and long-term reliability.</p>
                     </div>
                 </div>
 
             </div>
         </section>
     </div>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.solution-tab');
+            const panels = document.querySelectorAll('.solution-panel');
+
+            if (tabs.length === 0) return;
+
+            tabs.forEach((tab, index) => {
+                tab.addEventListener('click', function() {
+                    // Update tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+
+                    // Update panels
+                    panels.forEach(p => p.classList.remove('active'));
+
+                    const targetId = this.getAttribute('data-tab');
+                    const targetPanel = document.getElementById(targetId);
+
+                    if (targetPanel) {
+                        // Small timeout to trigger CSS animations if any
+                        setTimeout(() => {
+                            targetPanel.classList.add('active');
+                        }, 50);
+                    }
+                });
+            });
+        });
+    </script>
 @endsection

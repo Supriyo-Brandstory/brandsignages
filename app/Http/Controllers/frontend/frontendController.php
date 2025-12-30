@@ -794,13 +794,6 @@ class frontendController extends Controller
         return view('frontend.signages.display-video-wall', compact('seo'));
     }
 
-    public function outdoor_signage_display()
-    {
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        return view('frontend.signages.outdoor-signage-display', compact('seo'));
-    }
-
     public function flat_panel_display()
     {
         $currentRoute = Route::current()->uri();

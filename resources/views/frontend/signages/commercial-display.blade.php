@@ -171,7 +171,7 @@
                 <div class="solutions-tabs">
                     <button class="solution-tab active" data-tab="shopping-mall">Retail Shops</button>
                     <button class="solution-tab" data-tab="enterprise">Enterprises</button>
-                    <button class="solution-tab" data-tab="classroom">Calssrooms</button>
+                    <button class="solution-tab" data-tab="classroom">Classrooms</button>
                     <button class="solution-tab" data-tab="command-center">Healthcare</button>
                 </div>
 
@@ -328,12 +328,12 @@
             </div>
         </section>
 
-       <section class="other-cities-section py-5">
+<section class="other-cities-section py-5">
     <div class="container">
         <h2 class="my-5">Serving PAN India Location</h2>
         <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
             <div class="other-cities-card">
-                <a href="https://brandsignages.com/leading-signage-company-in-mumbai" style="text-decoration: none;">
+                <a href="https://brandsignages.com/digital-signages-manufacturer-in-mumbai" style="text-decoration: none;">
                 <div class="other-cities-img">
                     <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="Sign Boards in Mumbai">
                     <div class="other-cities-overlay"></div>

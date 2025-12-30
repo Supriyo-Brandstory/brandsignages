@@ -38,9 +38,6 @@
             <a href="/display-video-wall" class="seo-marquee-item">Video Wall Display</a>
             <span class="seo-marquee-sep">*</span>
 
-            <a href="/outdoor-signage-display" class="seo-marquee-item">Outdoor Signage Display</a>
-            <span class="seo-marquee-sep">*</span>
-
             <a href="/flat-panel-display" class="seo-marquee-item">Flat Panel Display</a>
             <span class="seo-marquee-sep">*</span>
 
@@ -55,9 +52,6 @@
             <span class="seo-marquee-sep">*</span>
 
             <a href="/display-video-wall" class="seo-marquee-item">Video Wall Display</a>
-            <span class="seo-marquee-sep">*</span>
-
-            <a href="/outdoor-signage-display" class="seo-marquee-item">Outdoor Signage Display</a>
             <span class="seo-marquee-sep">*</span>
 
             <a href="/flat-panel-display" class="seo-marquee-item">Flat Panel Display</a>
@@ -140,21 +134,6 @@
                             </div>
                         </div>
 
-                        <div class="swiper-slide">
-                            <div class="card We-Elevate-Brands-card ">
-                                <a href="{{ route('outdoor_signage_display') }}">
-                                    <img src="{{ asset('frontend/Images/home/outdoor-sign.webp') }}"
-                                        class="card-img-center" alt="Outdoor Signage Display">
-                                </a>
-                                <div class="card-body pt-0">
-                                    <h5 class="We-Elevate-Brands-title"><a href="/outdoor-signage-display">Outdoor Signage Display</a></h5>
-                                    <p class="We-Elevate-Brands-text">Experience durable, all-weather signage built for
-                                        maximum visibility and impact. We provide premium outdoor and indoor display boards,
-                                        including
-                                        digital notice boards, successfully deployed across India’s major cities. </p>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">

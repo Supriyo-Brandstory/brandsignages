@@ -1,518 +1,420 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-    <style>
-        .hero-bannerr {
-            background-size: cover;
-            background-position: center;
-            padding: 120px 0;
-            color: white;
-            position: relative;
-        }
-
-        .py-80 {
-            padding: 80px 0;
-        }
-
-        .py-120 {
-            padding: 120px 0;
-        }
-
-        @media (max-width: 768px) {
-            .py-80 {
-                padding: 40px 0;
-            }
-
-            .py-120 {
-                padding: 60px 0;
-            }
-
-            .hero-bannerr_title {
-                font-size: 2.2rem !important;
-            }
-        }
-
-        .hero-bannerr::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            z-index: 1;
-        }
-
-        .hero-bannerr .container {
-            position: relative;
-            z-index: 2;
-        }
-
-        .hero-bannerr_title {
-            font-size: 3.5rem;
-            font-weight: 800;
-            line-height: 1.2;
-            margin-bottom: 25px;
-        }
-
-        .contact-btn {
-            background-color: #ff5e14;
-            color: white;
-            padding: 15px 40px;
-            border: none;
-            border-radius: 5px;
-            font-weight: 700;
-            text-transform: uppercase;
-            transition: 0.3s;
-        }
-
-        .contact-btn:hover {
-            background-color: #e44d00;
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(255, 94, 20, 0.4);
-        }
-
-        .new_custom-stats-section {
-            background: #222;
-            padding: 50px 0;
-            margin-top: -50px;
-            position: relative;
-            z-index: 10;
-        }
-
-        .new_custom-stats-number {
-            font-size: 2.5rem;
-            font-weight: 800;
-            color: #ff5e14;
-        }
-
-        .new_custom-stats-label {
-            font-size: 1rem;
-            color: #ccc;
-            margin-bottom: 0;
-        }
-
-        .image-container {
-            overflow: hidden;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            height: 300px;
-        }
-
-        .image-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: 0.5s;
-        }
-
-        .image-container:hover img {
-            transform: scale(1.1);
-        }
-
-        .overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            padding: 20px;
-            background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
-            color: white;
-            opacity: 0;
-            transition: 0.3s;
-        }
-
-        .image-container:hover .overlay {
-            opacity: 1;
-        }
-
-        .text-title {
-            font-weight: 700;
-            margin-bottom: 5px;
-        }
-
-        .text-content {
-            font-size: 0.85rem;
-            line-height: 1.4;
-            margin-bottom: 0;
-        }
-
-        .benefit-card {
-            background: #fff;
-            padding: 40px 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-            height: 100%;
-            transition: 0.3s;
-            border: 1px solid #f0f0f0;
-        }
-
-        .benefit-card:hover {
-            transform: translateY(-10px);
-            border-color: #ff5e14;
-        }
-
-        .benefit-card h4 {
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: #111;
-        }
-
-        .benefit-card p {
-            color: #666;
-            margin-bottom: 0;
-        }
-
-        .industry-card {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            text-align: center;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-            height: 100%;
-            border-bottom: 3px solid transparent;
-            transition: 0.3s;
-        }
-
-        .industry-card:hover {
-            border-bottom-color: #ff5e14;
-            transform: scale(1.03);
-        }
-
-        .faq-section {
-            background: #fdfdfd;
-            padding: 80px 0;
-        }
-
-        .faq-container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .faq-title {
-            text-align: center;
-            font-size: 2.5rem;
-            font-weight: 800;
-            margin-bottom: 50px;
-        }
-
-        .faq-item {
-            background: white;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
-            overflow: hidden;
-        }
-
-        .faq-question {
-            width: 100%;
-            padding: 20px 25px;
-            text-align: left;
-            background: none;
-            border: none;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-weight: 600;
-            font-size: 1.1rem;
-            cursor: pointer;
-        }
-
-        .faq-answer {
-            padding: 0 25px 20px;
-            color: #555;
-            display: none;
-        }
-
-        .faq-item.active .faq-answer {
-            display: block;
-        }
-
-        .faq-item.active .faq-icon {
-            transform: rotate(180deg);
-        }
-
-        .why-text-heading {
-            font-weight: 800;
-            color: #111;
-        }
-
-        .bg-primary-custom {
-            background: linear-gradient(135deg, #ff5e14, #ff8c00);
-            padding: 80px 0;
-        }
-
-        .other-cities-section {
-            background: #fff;
-        }
-
-        .other-cities-img {
-            position: relative;
-            border-radius: 12px;
-            overflow: hidden;
-            height: 200px;
-        }
-
-        .other-cities-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .other-cities-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.4);
-        }
-
-        .other-cities-title {
-            position: absolute;
-            bottom: 15px;
-            left: 20px;
-            color: white;
-            font-weight: 700;
-            margin: 0;
-            font-size: 1.2rem;
-        }
-
-        .text-orange {
-            color: #ff5e14;
-        }
-    </style>
-
-    <section class="hero-bannerr"
-        style="background-image: url('{{ asset('frontend/Images/digital-signages-banner.webp') }}');">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10">
-                    <h1 class="hero-bannerr_title">Interactive Touch Screen <br>Kiosks for Seamless Service</h1>
-                    <p class="fs-5 mb-4">Empower your customers with self-service excellence. Our premium kiosks combine <br>
-                        intuitive touch technology with industrial-grade durability for 24/7 engagement.</p>
-                    <a href="https://brandsignages.com/contact-us">
-                        <button class="contact-btn">Explore Kiosk Models</button>
-                    </a>
+    <div class="commercial-display">
+        <section class="hero-banner "
+            style="background-image: url('{{ asset('frontend/Images/digital-signages-banner.webp') }}');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h1 class="hero-banner_title">Touch Screen Kiosks for <br>Smarter User Engagement</h1>
+                        <p class="fs-5 mb-4">Brand Signages designs and manufactures advanced touch screen kiosks that enable self-service, guided navigation, and real-time 
+                            interaction. Unlike passive display systems, our kiosks are built to respond, assist, and engage users instantly.
+                        </p>
+                        <a href="https://brandsignages.com/contact-us">
+                            <button class="contact-btn">Get a Free Quote</button>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="new_custom-stats-section">
-        <div class="container">
-            <div class="row text-center text-white">
-                <div class="col-12 col-md-4 mb-4 mb-md-0">
-                    <h2 class="new_custom-stats-number">10+</h2>
-                    <p class="new_custom-stats-label">Kiosk Variants</p>
-                </div>
-                <div class="col-12 col-md-4 mb-4 mb-md-0 position-relative">
-                    <div class="new_custom-divider-left d-none d-md-block"></div>
-                    <h2 class="new_custom-stats-number">8,000+</h2>
-                    <p class="new_custom-stats-label">Kiosks Installed</p>
-                    <div class="new_custom-divider-right d-none d-md-block"></div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <h2 class="new_custom-stats-number">10ms</h2>
-                    <p class="new_custom-stats-label">Ultra-Low Touch Latency</p>
+        <section class="seo-marquee">
+            <div class="seo-marquee-wrapper">
+                <div class="seo-marquee-track">
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Self Service Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Interactive Touch Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Digital Touch Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Information Display Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Wayfinding Touch Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Commercial Touch Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <!-- duplicate for seamless loop -->
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Self Service Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Interactive Touch Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Digital Touch Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Information Display Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Wayfinding Touch Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
+                    <a href="/touch-screen-kiosk" class="seo-marquee-item">Commercial Touch Kiosk</a>
+                    <span class="seo-marquee-sep">*</span>
+
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="py-80">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 why-text-heading">Types of Interactive Kiosks</h2>
-                <p class="lead text-muted max-w-800 mx-auto">
-                    From wayfinding to self-checkout, our kiosks are engineered to enhance operational efficiency.
-                </p>
+
+        <section class="py-80">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 why-text-heading">Intelligent Touch Screen Kiosks for <br>Seamless Self-Service</h2>
+                    <p class="lead text-muted max-w-800 mx-auto">
+                        Empower customers and visitors with touch screen kiosks designed to simplify interactions and automate information access.
+                         Built for continuous operation, these kiosks combine responsive touch technology, durable hardware, and intuitive interfaces
+                          to support self-service, navigation, registrations, and digital assistance across retail, corporate, healthcare, and public
+                           environments.
+                    </p>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="image-container position-relative">
+                                <img src="{{ asset('frontend/Images/home/digital-standee-1.webp') }}"
+                                    alt="Interactive Touch Panels" class="w-100 h-100">
+                                <div class="overlay">
+                                    <h5 class="text-title">Self-Service Kiosks</h5>
+                                    <p class="text-content">Designed to automate customer interactions, these kiosks enable users to check in, place orders,
+                        make payments, or book appointments independently. They help reduce queues, improve efficiency,
+                        and minimise manual intervention in high-traffic environments.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="image-container position-relative">
+                                <img src="{{ asset('frontend/Images/home/digital-standee-4.webp') }}"
+                                    alt="Smart Digital Signage" class="w-100 h-100">
+                                <div class="overlay">
+                                    <h5 class="text-title">Information Wayfinding Kiosks</h5>
+                                    <p class="text-content">These touch-enabled kiosks provide interactive directories, maps, and on-demand information to
+                        guide visitors efficiently. Commonly used in malls, hospitals, campuses, and corporate offices,
+                        they enhance navigation and improve overall visitor experience.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="image-container position-relative">
+                                <img src="{{ asset('frontend/Images/home/digital-standee-3.webp') }}"
+                                    alt="Vertical Digital Standees" class="w-100 h-100">
+                                <div class="overlay">
+                                    <h5 class="text-title">Interactive Engagement Kiosks</h5>
+                                    <p class="text-content">Built for immersive digital experiences, these kiosks support product exploration, brand
+                        storytelling, feedback collection, and event engagement—making them ideal for showrooms,
+                        exhibitions, museums, and experience centres.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="col-lg-12">
-                <div class="row g-4">
-                    <div class="col-lg-4">
-                        <div class="image-container position-relative">
-                            <img src="{{ asset('frontend/Images/home/corporate-digital-signage.webp') }}"
-                                alt="Self-Service Information Kiosk" class="w-100 h-100">
-                            <div class="overlay">
-                                <h5 class="text-title">Self-Service Info Kiosks</h5>
-                                <p class="text-content">Ideally suited for libraries, museums, and corporate lobbies to
-                                    provide visitors with instant access to information, registration, or check-in flows.
+        <section class="solutions-tailored-section">
+            <div class="container">
+                <h2 class="solutions-heading">Industry-Specific Touch Screen Kiosk Solutions</h2>
+
+                <!-- Tab Navigation -->
+                <div class="solutions-tabs">
+                    <button class="solution-tab active" data-tab="shopping-mall">Retail & Shopping Malls</button>
+                    <button class="solution-tab" data-tab="enterprise">Corporate & Enterprises</button>
+                    <button class="solution-tab" data-tab="classroom">Hospitality & Hotels</button>
+                    <button class="solution-tab" data-tab="command-center">Events & Exhibitions</button>
+                </div>
+
+                <!-- Tab Content -->
+                <div class="solutions-content">
+                    <!-- Shopping Mall Tab -->
+                    <div class="solution-panel active" id="shopping-mall">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/home/standee-1.webp') }}"
+                                alt="Shopiing Mall and Retail Shop Digital Standee Solution" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    Our touch screen kiosks for retail stores and shopping malls are designed to engage customers in high-traffic areas. With
+                                     interactive displays and intuitive navigation, they help shoppers browse products, explore offers, and access store 
+                                     information seamlessly.
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
-                        <div class="image-container position-relative">
-                            <img src="{{ asset('frontend/Images/home/digital-signage-hospital.webp') }}"
-                                alt="Hospital Wayfinding Kiosk" class="w-100 h-100">
-                            <div class="overlay">
-                                <h5 class="text-title">Wayfinding & Directory Kiosks</h5>
-                                <p class="text-content">Equipped with 3D map software to guide patients and visitors through
-                                    complex facilities like hospitals, malls, and tech parks.</p>
+                    <!-- Enterprise Tab -->
+                    <div class="solution-panel" id="enterprise">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/home/standee-3.webp') }}"
+                                alt="Enterprise Display Solution" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    Touch screen kiosks for corporate offices and enterprises streamline visitor management and internal communication. 
+                                    They provide interactive directories, meeting room bookings, and information access, enhancing efficiency and professionalism.
+                                </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
-                        <div class="image-container position-relative">
-                            <img src="{{ asset('frontend/Images/home/digital-display-for-bank.webp') }}"
-                                alt="Transactional Banking Kiosk" class="w-100 h-100">
-                            <div class="overlay">
-                                <h5 class="text-title">Banking & Payment Kiosks</h5>
-                                <p class="text-content">Secure, rugged kiosks designed for cash/card transactions, statement
-                                    printing, and account inquiries in financial institutions.</p>
+                    <!-- Classroom Hub Tab -->
+                    <div class="solution-panel" id="classroom">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/home/standee-2.webp') }}"
+                                alt="Hotel and Restaurant Digital Standee Solution" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    Touch screen kiosks for healthcare facilities simplify patient interactions in waiting areas and lobbies. They enable self check-ins,
+                                     appointment scheduling, and easy access to facility information, improving patient experience and reducing staff workload.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Command Center Tab -->
+                    <div class="solution-panel" id="command-center">
+                        <div class="solution-card">
+                            <img src="{{ asset('frontend/Images/home/standee-4.webp') }}"
+                                alt="Digital Standee for Events and Exhibitions" class="solution-img">
+                            <div class="solution-overlay">
+                                <p class="solution-description">
+                                    Touch screen kiosks for events and exhibitions offer interactive brand experiences and visitor engagement. They support wayfinding, feedback
+                                     collection, product exploration, and immersive digital storytelling to leave a lasting impression.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="py-80 bg-light">
-        <div class="container">
-            <h2 class="text-center display-5 fw-bold mb-5">Why Choose Our Kiosk Solutions?</h2>
-            <div class="row g-4">
-                <div class="col-md-3">
-                    <div class="benefit-card">
-                        <h4>Capacitive Touch</h4>
-                        <p>10-point PCAP touch technology provides a smartphone-like smooth experience with high precision.
-                        </p>
+
+        <!-- Key Benefits Section -->
+        <section class="py-80 bg-light">
+            <div class="container">
+                <h2 class="text-center hero-title mb-5">Engineering Precision in Every <br>Touch Screen Kiosk</h2>
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="benefit-card">
+                            <h4>24/7 Stability</h4>
+                            <p>Built for continuous operation, our touch screen kiosks feature industrial-grade components and advanced thermal management
+                                 to prevent overheating and ensure consistent performance in high-traffic environments.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="benefit-card">
-                        <h4>Rugged Build</h4>
-                        <p>Heavy-duty cold-rolled steel enclosures with powder coating for scratch and impact resistance.
-                        </p>
+                    <div class="col-md-3">
+                        <div class="benefit-card">
+                            <h4>Ultra HD Impact</h4>
+                            <p>With responsive multi-touch screens and high-resolution IPS panels, these kiosks deliver vibrant, sharp visuals from every angle.
+                                 Users can navigate menus, explore products, or access information smoothly, creating an interactive experience.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="benefit-card">
-                        <h4>Remote Monitoring</h4>
-                        <p>Track kiosk health, reboot systems, and update applications remotely from a central cloud server.
-                        </p>
+                    <div class="col-md-3">
+                        <div class="benefit-card">
+                            <h4>Centralized Control</h4>
+                            <p>Easily manage and update content across multiple kiosks through a single cloud-based dashboard. Schedule campaigns, push real-time
+                                 updates, and maintain consistency of interactive applications and information across locations.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="benefit-card">
-                        <h4>Component Ready</h4>
-                        <p>Integrated slots for scanners, thermal printers, cameras, and card readers as per requirement.
-                        </p>
+                    <div class="col-md-3">
+                        <div class="benefit-card">
+                            <h4>Smart & Flexible Connectivity</h4>
+                            <p>Equipped with HDMI, DisplayPort, Wi-Fi, and LAN, our kiosks integrate seamlessly with software platforms, networks, and IT infrastructures,
+                                 making deployment and maintenance hassle-free while supporting dynamic interactive content.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Industries Served -->
-    <section class="py-80">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold">Built for Every Vertical</h2>
-                <p class="text-muted">Our touch kiosks are optimized for specific industry needs.</p>
+        <section class="py-80">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="text-center hero-title mb-5">We are a Trusted<br>Digital Standee Manufacturers</h2>
+                    <p class="text-muted">Brand Signages offers advanced digital standee solutions that combine sleek design with high-impact visuals. Perfect for 
+                        retail spaces, events, and corporate environments, our digital standees display dynamic content, promotions, and announcements in real time.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="industry-card">
+                            <div class="industry-icon">
+                                <i class="fa-solid fa-anchor"></i>
+                            </div>
+                            <h5 class="fw-bold text-orange">Trusted Manufacturers</h5>
+                            <p>As one of the top commercial display brands, we deliver reliable, high-quality display solutions trusted by businesses across industries.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="industry-card">
+                            <div class="industry-icon">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <h5 class="fw-bold text-orange">Display Technology Experts</h5>
+                            <p>Our team specializes in professional display solutions, offering innovative enterprise display systems tailored to enhance operational efficiency.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="industry-card">
+                            <div class="industry-icon">
+                                <i class="fa-solid fa-handshake"></i>
+                            </div>
+                            <h5 class="fw-bold text-orange">Industry-Leading Solutions</h5>
+                            <p>Recognized as a global display supplier and display industry leader, we provide cutting-edge technology and support for seamless business interactions.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="industry-card">
-                        <h5 class="fw-bold text-orange">Retail & QSR</h5>
-                        <p>Self-ordering systems and loyalty registration to improve customer flow and upsell.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="industry-card">
-                        <h5 class="fw-bold text-orange">Healthcare</h5>
-                        <p>Self-check-in to reduce hospital desk congestion and automate patient registration.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="industry-card">
-                        <h5 class="fw-bold text-orange">Tech Parks & Corporate</h5>
-                        <p>Interactive wayfinding and visitor management systems for large corporate campuses.</p>
-                    </div>
-                </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="bg-primary-custom text-white">
+            <div class="container text-center">
+                <h2 class="display-5 fw-bold mb-4">Ready to Modernize Your Communication?</h2>
+                <p class="lead mb-5 max-w-800 mx-auto text-white">Join 500+ brands that trust Brand Signages for premium
+                    display
+                    technology. Request a site survey or a virtual demo today.</p>
+                <a href="https://brandsignages.com/contact-us">
+                    <button class="btn btn-light btn-lg px-5 py-3 fw-bold text-orange">Request a Quote</button>
+                </a>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="bg-primary-custom text-white">
-        <div class="container text-center">
-            <h2 class="display-5 fw-bold mb-4">Transform Your Customer Journey</h2>
-            <p class="lead mb-5 max-w-800 mx-auto">Looking for a custom kiosk design? Talk to our product engineers today.
-            </p>
-            <a href="https://brandsignages.com/contact-us">
-                <button class="btn btn-light btn-lg px-5 py-3 fw-bold text-orange">Get Custom Quote</button>
-            </a>
-        </div>
-    </section>
-
-    <section class="other-cities-section py-80">
-        <div class="container">
-            <h2 class="mb-5 why-text-heading">Serving Digital Signs Across India</h2>
-            <div class="other-cities-wrapper d-flex gap-4 justify-content-between flex-wrap">
-                <div class="other-cities-card flex-fill">
-                    <a href="https://brandsignages.com/stainless-steel-sign-board-manufacturer-mumbai"
-                        class="text-decoration-none">
+        <section class="other-cities-section py-5">
+            <div class="container">
+                <h2 class="my-5">Serving PAN India Location</h2>
+                <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
+                    <div class="other-cities-card">
+                        <a href="https://brandsignages.com/digital-signages-manufacturer-in-mumbai" style="text-decoration: none;">
                         <div class="other-cities-img">
-                            <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="Commercial Displays Mumbai">
+                            <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="Sign Boards in Mumbai">
                             <div class="other-cities-overlay"></div>
                             <p class="other-cities-title">Mumbai</p>
                         </div>
                     </a>
-                </div>
-                <div class="other-cities-card flex-fill">
-                    <a href="https://brandsignages.com/metal-and-stainless-steel-sign-boards-in-chennai"
-                        class="text-decoration-none">
+                    </div>
+                    <div class="other-cities-card">
+                        <a href="https://brandsignages.com/leading-digital-signage-in-chennai" style="text-decoration: none;">
                         <div class="other-cities-img">
-                            <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="Commercial Displays Chennai">
+                            <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="Sign Boards in Chennai">
                             <div class="other-cities-overlay"></div>
                             <p class="other-cities-title">Chennai</p>
                         </div>
-                    </a>
-                </div>
-                <div class="other-cities-card flex-fill">
-                    <a href="https://brandsignages.com/steel-signage-manufacturer-bangalore" class="text-decoration-none">
+                        </a>
+                    </div>
+                    <div class="other-cities-card">
+                        <a href="https://brandsignages.com/digital-signage-company-bangalore" style="text-decoration: none;">
                         <div class="other-cities-img">
-                            <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}"
-                                alt="Commercial Displays Bangalore">
+                            <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="Sign Boards in Bangalore">
                             <div class="other-cities-overlay"></div>
                             <p class="other-cities-title">Bangalore</p>
                         </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="faq-section">
-        <div class="faq-container">
-            <h2 class="faq-title">Kiosk FAQs</h2>
-            <div class="faq-item">
-                <button class="faq-question">What screen sizes are available for kiosks? <i
-                        class="faq-icon fa-solid fa-chevron-down"></i></button>
-                <div class="faq-answer">
-                    <p>We offer kiosks in standard sizes of 19”, 21.5”, 32”, 43”, and 55”. Custom sizes can be manufactured
-                        for specific projects.</p>
+        <section class="faq-section">
+            <div class="faq-container">
+                <h2 class="faq-title">Frequently Asked Questions</h2>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What industries can benefit from touch screen kiosks?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Touch screen kiosks are ideal for retail stores, shopping malls, corporate offices, healthcare facilities, hotels,
+                             events, and exhibitions. They streamline interactions, provide self-service options, and enhance user engagement
+                              across high-traffic environments.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-question">Can the kiosk run our existing web application? <i
-                        class="faq-icon fa-solid fa-chevron-down"></i></button>
-                <div class="faq-answer">
-                    <p>Yes, our kiosks support Windows, Android, and Linux. Most web applications can be run in "Kiosk Mode"
-                        to restrict user access to other system functions.</p>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can these kiosks operate 24/7?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, our touch screen kiosks are built with industrial-grade components and advanced thermal management, ensuring reliable performance 
+                            even during continuous, round-the-clock operation in busy locations.</p>
+                    </div>
                 </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How is content managed across multiple kiosks?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Content is managed via a cloud-based CMS dashboard, allowing you to update, schedule, and push content to multiple kiosks remotely.
+                             This ensures consistency, efficiency, and real-time updates across all locations.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Are these kiosks durable for public spaces?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely, our kiosks are constructed with robust enclosures and high-quality touch panels, making them resistant to frequent use
+                             and suitable for public spaces like malls, airports, hospitals, and corporate lobbies.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What connectivity options do the kiosks support?
+                        <i class="faq-icon fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>They support HDMI, DisplayPort, Wi-Fi, and LAN connectivity, allowing seamless integration with existing networks, media players,
+                             and software platforms for smooth deployment and interactive experiences.</p>
+                    </div>
+                </div>
+
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
+
+
 
     <script>
-        document.querySelectorAll('.faq-question').forEach(button => {
-            button.addEventListener('click', () => {
-                const faqItem = button.parentElement;
-                faqItem.classList.toggle('active');
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.solution-tab');
+            const panels = document.querySelectorAll('.solution-panel');
+
+            if (tabs.length === 0) return;
+
+            tabs.forEach((tab, index) => {
+                tab.addEventListener('click', function() {
+                    // Update tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+
+                    // Update panels
+                    panels.forEach(p => p.classList.remove('active'));
+
+                    const targetId = this.getAttribute('data-tab');
+                    const targetPanel = document.getElementById(targetId);
+
+                    if (targetPanel) {
+                        // Small timeout to trigger CSS animations if any
+                        setTimeout(() => {
+                            targetPanel.classList.add('active');
+                        }, 50);
+                    }
+                });
             });
         });
     </script>
