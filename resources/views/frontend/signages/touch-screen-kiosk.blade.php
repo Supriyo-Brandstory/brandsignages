@@ -2,7 +2,7 @@
 @section('content')
     <div class="commercial-display">
         <section class="hero-banner "
-            style="background-image: url('{{ asset('frontend/Images/digital-signages-banner.webp') }}');">
+            style="background-image: url('{{ asset('frontend/Images/home/touch-screen-kiosk-1.webp') }}');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10">
@@ -81,7 +81,7 @@
                     <div class="row g-4">
                         <div class="col-lg-4">
                             <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/digital-standee-1.webp') }}"
+                                <img src="{{ asset('frontend/Images/home/touch-screen-kiosk-2.webp') }}"
                                     alt="Interactive Touch Panels" class="w-100 h-100">
                                 <div class="overlay">
                                     <h5 class="text-title">Self-Service Kiosks</h5>
@@ -94,7 +94,7 @@
 
                         <div class="col-lg-4">
                             <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/digital-standee-4.webp') }}"
+                                <img src="{{ asset('frontend/Images/home/touch-screen-kiosk-3.webp') }}"
                                     alt="Smart Digital Signage" class="w-100 h-100">
                                 <div class="overlay">
                                     <h5 class="text-title">Information Wayfinding Kiosks</h5>
@@ -108,7 +108,7 @@
 
                         <div class="col-lg-4">
                             <div class="image-container position-relative">
-                                <img src="{{ asset('frontend/Images/home/digital-standee-3.webp') }}"
+                                <img src="{{ asset('frontend/Images/home/touch-screen-kiosk-4.webp') }}"
                                     alt="Vertical Digital Standees" class="w-100 h-100">
                                 <div class="overlay">
                                     <h5 class="text-title">Interactive Engagement Kiosks</h5>
@@ -141,7 +141,7 @@
                     <!-- Shopping Mall Tab -->
                     <div class="solution-panel active" id="shopping-mall">
                         <div class="solution-card">
-                            <img src="{{ asset('frontend/Images/home/standee-1.webp') }}"
+                            <img src="{{ asset('frontend/Images/home/touch-screen-kiosk-5.webp') }}"
                                 alt="Shopiing Mall and Retail Shop Digital Standee Solution" class="solution-img">
                             <div class="solution-overlay">
                                 <p class="solution-description">
@@ -156,7 +156,7 @@
                     <!-- Enterprise Tab -->
                     <div class="solution-panel" id="enterprise">
                         <div class="solution-card">
-                            <img src="{{ asset('frontend/Images/home/standee-3.webp') }}"
+                            <img src="{{ asset('frontend/Images/home/touch-screen-kiosk-6.webp') }}"
                                 alt="Enterprise Display Solution" class="solution-img">
                             <div class="solution-overlay">
                                 <p class="solution-description">
@@ -170,7 +170,7 @@
                     <!-- Classroom Hub Tab -->
                     <div class="solution-panel" id="classroom">
                         <div class="solution-card">
-                            <img src="{{ asset('frontend/Images/home/standee-2.webp') }}"
+                            <img src="{{ asset('frontend/Images/home/touch-screen-kiosk-7.webp') }}"
                                 alt="Hotel and Restaurant Digital Standee Solution" class="solution-img">
                             <div class="solution-overlay">
                                 <p class="solution-description">
@@ -184,7 +184,7 @@
                     <!-- Command Center Tab -->
                     <div class="solution-panel" id="command-center">
                         <div class="solution-card">
-                            <img src="{{ asset('frontend/Images/home/standee-4.webp') }}"
+                            <img src="{{ asset('frontend/Images/home/touch-screen-kiosk-8.webp') }}"
                                 alt="Digital Standee for Events and Exhibitions" class="solution-img">
                             <div class="solution-overlay">
                                 <p class="solution-description">
