@@ -38,7 +38,7 @@
                             <img src="{{ asset('frontend/Images/acrylic-signagess.webp') }}" alt="Acrylic LED Sign Board"
                                 class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Acrylic LED Sign</h5>
+                                <h5 class="text-title"><a href="/arcylic-signages" style="text-decoration: none; color: #EFB11D;">Acrylic LED Sign</a></h5>
                                 <p class="text-content">Acrylic LED signage combines high-gloss acrylic with clean LED illumination to create a sleek, 
                                     modern brand display. It delivers sharp visibility and a refined finish, making it ideal for premium indoor
                                      and outdoor environments.</p>
@@ -51,7 +51,7 @@
                             <img src="{{ asset('frontend/Images/neon-signagess.webp') }}" alt="Neon LED Signage"
                                 class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Neon LED Signage</h5>
+                                <h5 class="text-title"><a href="/neon-signages" style="text-decoration: none; color: #EFB11D;">Neon LED Signage</a></h5>
                                 <p class="text-content">Neon LED signs delivers bold, vibrant illumination inspired by classic neon aesthetics while 
                                     using modern, energy-efficient LED technology. It adds character, color, and visual energy to spaces, making it ideal 
                                     for creating memorable brand moments without the maintenance demands of traditional neon.</p>
@@ -64,7 +64,7 @@
                             <img src="{{ asset('frontend/Images/metal-signagess.webp') }}" alt="Metal Signage"
                                 class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Metal Signage</h5>
+                                <h5 class="text-title"><a href="/metal-signages" style="text-decoration: none; color: #EFB11D;">Metal Signage</a></h5>
                                 <p class="text-content">Metal signage offers a bold, refined presence through precision-crafted aluminum and metal finishes. 
                                     Built to withstand weather and environmental exposure, it delivers a clean, sophisticated look ideal for contemporary 
                                     facades and long-term outdoor branding.</p>
@@ -77,7 +77,7 @@
                             <img src="{{ asset('frontend/Images/digital-signagess.webp') }}"
                                 alt="Digital Signage" class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Digital Signage</h5>
+                                <h5 class="text-title"><a href="/digital-signages" style="text-decoration: none; color: #EFB11D;">Digital Signage</a></h5>
                                 <p class="text-content">Digital signage delivers dynamic, high-resolution visuals designed to capture attention and communicate
                                      in real time. Ideal for high-traffic environments, it enables flexible content updates, enhanced engagement, and a modern 
                                      brand presence across indoor and commercial spaces.</p>
@@ -90,7 +90,7 @@
                             <img src="{{ asset('frontend/Images/office-signagess.webp') }}" alt="Office Name Board"
                                 class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Office Name Board</h5>
+                                <h5 class="text-title"><a href="/name-board-design-for-office-bangalore" style="text-decoration: none; color: #EFB11D;">Office Name Board</a></h5>
                                 <p class="text-content">Office name boards present your business identity with clarity and professionalism at first glance. Designed
                                      with clean layouts and premium finishes, they create a polished impression while ensuring easy recognition for visitors 
                                      and staff.</p>
@@ -103,7 +103,7 @@
                             <img src="{{ asset('frontend/Images/safety-signss.webp') }}" alt="Safety Signage"
                                 class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Safety Signage</h5>
+                                <h5 class="text-title"><a href="/fire-safety-signages" style="text-decoration: none; color: #EFB11D;">Safety Signage</a></h5>
                                 <p class="text-content">Safety signage provides clear, compliant visual communication designed to promote awareness and
                                      prevent risks in workplaces and public environments. Built for high visibility and durability, it ensures critical 
                                      instructions, warnings, and directions are easily understood and consistently maintained.</p>
@@ -1107,67 +1107,68 @@
 
     <section class="faq-section">
         <div class="faq-container">
-            <h1 class="faq-title">FAQS</h1>
+            <h1 class="faq-title">Sign Board FAQs</h1>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Why are safety signs important on construction sites?
+                    What makes sign boards so important for my business?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Safety signs are crucial on construction sites to communicate vital information about hazards,
-                        guide safe navigation, and ensure compliance with regulations. Their presence minimizes
-                        accidents, enhances worker awareness, and promotes a culture of safety among all personnel.</p>
+                    <p>Brand signage is often the first visual touchpoint for customers, it communicates your identity,
+                         builds recognition, and drives foot traffic. High-quality, illuminated signage can increase brand
+                          recall by up to 80% and make your location stand out day and night, especially in competitive areas
+                           like retail streets or corporate parks.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What are the different types of safety signs used in construction?
+                    Which type of signage is best for modern corporate offices?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Construction sites use various safety signs, including mandatory signs (blue), prohibition signs
-                        (red), warning signs (yellow), emergency information signs (green), and fire safety signs (red).
-                        Each type communicates essential information to prevent accidents and ensure worker safety.</p>
+                    <p>For offices, backlit acrylic logos and reception signs with subtle halo or edge lighting create a sleek, 
+                        professional look. They offer elegant illumination without being overpowering.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    How can safety signs be customized for specific construction projects?
+                    What’s the difference between front-lit, backlit, and halo-lit brand signage?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Construction site signs are made to address safety issues of different or specific sites.
-                        However, they can also incorporate branding, corporate identity, and multilingual options. These
-                        signs are meant to follow regulatory compliance and offer tailored instructional content.</p>
+                    <ul>
+                    <li><strong>Front-lit:</strong> Light shines forward through the face, delivering a bright and bold appearance.</li>
+                    <li><strong>Backlit:</strong> Creates a soft, diffused glow from behind, ideal for reception areas.</li>
+                    <li><strong>Halo-lit:</strong> Light spills around the edges, producing a premium floating effect suited for luxury storefronts.</li>
+                    </ul>
+
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What regulations govern the use of safety signs on construction sites?
+                    Are outdoor brand signs durable enough for Indian weather conditions?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Safety signs in construction are governed by workplace safety and health regulations, issued by
-                        concerned authorities. We design, develop, and place this construction signage to comply with
-                        safety and hazard regulations, and convey the same. Our team knows these regulations and how to
-                        make the best of them.</p>
+                    <p>Absolutely. Our outdoor brand signage (like LED acrylic, glow boards, and channel letters) uses UV-resistant, waterproof materials
+                         with IP65+ ratings. They withstand rain, heat, dust, and direct sunlight while maintaining vibrant colors and brightness
+                          for years.</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    How often should construction safety signs be inspected or replaced?
+                    How long does it take to get custom signage installed, and is installation included?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>We suggest our clients check construction safety signs once a month or two to see if they are
-                        visible and relevant to people. Although our signs are high-quality, we encourage them to check
-                        for significant changes, like weather exposure, erosion, and fading. Also, you can tell us if
-                        you want any changes in the sign boards after the inspection.</p>
+                    <p>For most projects, production takes 5–12 working days after design approval (faster for urgent needs). 
+                        Professional installation and pan-India delivery are completely free, our experts handle everything from 
+                        site survey to final fixing for a flawless finish..</p>
                 </div>
             </div>
 
