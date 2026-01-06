@@ -125,7 +125,7 @@
                         <a class="nav-link active" aria-current="page" href="{{route('about_us')}}">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{route('services')}}">Services</a>
+                        <a class="nav-link active" aria-current="page" href="{{route('sign_board')}}">Services</a>
                     </li>
 
                     <li class="nav-item dropdown position-static">
