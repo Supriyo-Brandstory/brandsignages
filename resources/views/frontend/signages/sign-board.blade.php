@@ -4,9 +4,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Unmatched Sign Board Design<br> Solutions for Every Industry</h1>
-                    <p>Brand Signages is a trusted B2B partner and a premium signage board manufacturer<br>
-                        in Bangalore, India.
+                    <h1 class="hero-banner_title">Signature-Quality Custom Signs<br> Your Brand Deserves the Best</h1>
+                    <p>Make a powerful first impression with crafted custom sign boards for <br>offices, luxury retail
+                         spaces, high-end showrooms, and commercial <br>properties.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Know More</button>
@@ -19,99 +19,94 @@
         <div class="row g-4 d-flex flex-wrap justify-content-center">
 
             <div class="text-center ">
-                <h2 class="display-4 mb-3 why-text-heading">Types of Metal Signages We Make</h2>
-                <p class="card-text testimonial-card-text">At Brand Signages, we are the best metal and steel signage boards
-                    manufacturer in India.
-                    <br> Our premium quality and durable signage solutions create a professional, impactful statement for
-                    your brand. Our metal signboards
-                    <br>include options such as:
+                <h2 class="hero-title  mb-4">Premium-grade Signages Built for Visibility<br> and Longevity</h2>
+                <p class=" brand-description text-center mb-5">At <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Brand Signages</a>, we create sign boards that are designed to get you noticed and remembered. We create premium 
+                    <a href="/indoor-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">indoor signage</a> and <a href="/outdoor-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">outdoor signages</a> to strengthen your brand presence, guide audiences, and elevate branding. With a fully <b>in-house team of designers</b>, 
+                    <b>fabricators</b>, and <b>installation specialists</b>, we manage the entire signage lifecycle with precision, from concept development and material selection to 
+                    <b>execution and on-site installation</b>. Every detail is handled with intent, ensuring consistency, quality, and long-term performance.
                 </p>
+                <p class=" brand-description text-center mb-5">
+                    Our expertise includes a refined range of signature signage solutions: <a href="/arcylic-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">acrylic signage</a>, <a href="/led-acrylic-3d-glow-sign-board" style="text-decoration: unset;color:#E43D12; font-weight: bold;">LED sign boards</a>, <a href="/acrylic-letters" style="text-decoration: unset;color:#E43D12; font-weight: bold;">3D lettering</a>, <a href="/digital-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">digital signage</a>, <a href="/neon-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">neon glow signs</a>,
+                     and much more. We work with a diverse range of industries delivering signage solutions for <a href="/office-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">corporate offices</a>, <b>IT hubs</b>, <a href="/hospital-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">hospitals and healthcare facilities</a>, 
+                     <b>banks and financial institutions</b>, <b>airports</b>, <a href="/restaurant-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">restaurants</a>, <a href="/name-board-designs-for-shops-bangalore" style="text-decoration: unset;color:#E43D12; font-weight: bold;">retail shops</a>, <b>real estate developments</b>, <b>educational institutions</b>, and <b>large commercial spaces</b>.</p>
             </div>
 
             <div class="col-lg-12">
                 <div class="row g-4">
                     <div class="col-lg-4">
                         <div class="image-container position-relative">
-                            <img src="{{ asset('frontend/Images/metal-signage8.webp') }}" alt="Reverse Glow Signs"
+                            <img src="{{ asset('frontend/Images/acrylic-signagess.webp') }}" alt="Acrylic LED Sign Board"
                                 class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Reverse Glow Signs</h5>
-                                <p class="text-content">Reverse glow signs enhance the sign's visibility in low-light
-                                    conditions but also add a modern touch to any environment. Ideal for businesses
-                                    looking to make a statement at night, reverse glow signs are ideal for storefronts,
-                                    restaurants, and event venues, ensuring your brand stands out after dark.</p>
+                                <h5 class="text-title">Acrylic LED Sign</h5>
+                                <p class="text-content">Acrylic LED signage combines high-gloss acrylic with clean LED illumination to create a sleek, 
+                                    modern brand display. It delivers sharp visibility and a refined finish, making it ideal for premium indoor
+                                     and outdoor environments.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
                         <div class="image-container position-relative">
-                            <img src="{{ asset('frontend/Images/metal-signage9.webp') }}" alt="Metal Backlit"
+                            <img src="{{ asset('frontend/Images/neon-signagess.webp') }}" alt="Neon LED Signage"
                                 class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Metal Backlit</h5>
-                                <p class="text-content">Metal backlit signs feature a light source behind the face,
-                                    highlighting the graphics and text, making them pop. These are particularly
-                                    effective in high-traffic areas and can be customized in various shapes and sizes.
-                                    Whether used for outdoor advertising, these signs create an inviting atmosphere that
-                                    draws customers in.</p>
+                                <h5 class="text-title">Neon LED Signage</h5>
+                                <p class="text-content">Neon LED signs delivers bold, vibrant illumination inspired by classic neon aesthetics while 
+                                    using modern, energy-efficient LED technology. It adds character, color, and visual energy to spaces, making it ideal 
+                                    for creating memorable brand moments without the maintenance demands of traditional neon.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
                         <div class="image-container position-relative">
-                            <img src="{{ asset('frontend/Images/metal-signage10.webp') }}" alt="Reflective Metal Signs"
+                            <img src="{{ asset('frontend/Images/metal-signagess.webp') }}" alt="Metal Signage"
                                 class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Reflective Metal Signs</h5>
-                                <p class="text-content">Reflective metal signage ensures high visibility even in dim
-                                    lighting or nighttime conditions. These signs are essential for safety applications,
-                                    such as traffic signs or emergency exit indicators, where visibility is critical.
-                                    They can also be used creatively in promotional settings to enhance visibility
-                                    during events or exhibitions.</p>
+                                <h5 class="text-title">Metal Signage</h5>
+                                <p class="text-content">Metal signage offers a bold, refined presence through precision-crafted aluminum and metal finishes. 
+                                    Built to withstand weather and environmental exposure, it delivers a clean, sophisticated look ideal for contemporary 
+                                    facades and long-term outdoor branding.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
                         <div class="image-container position-relative">
-                            <img src="{{ asset('frontend/Images/metal-signage11.webp') }}"
-                                alt="Premium Metal Letters and Signage" class="w-100 h-100">
+                            <img src="{{ asset('frontend/Images/digital-signagess.webp') }}"
+                                alt="Digital Signage" class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Premium Metal Letters and Signage</h5>
-                                <p class="text-content">Our premium steel signage board can provide a sophisticated and
-                                    upscale appearance. You can show the message with letters in various fonts, sizes,
-                                    and finishes. Whether mounted on walls or used as standalones, they add a touch of
-                                    elegance to your branding.</p>
+                                <h5 class="text-title">Digital Signage</h5>
+                                <p class="text-content">Digital signage delivers dynamic, high-resolution visuals designed to capture attention and communicate
+                                     in real time. Ideal for high-traffic environments, it enables flexible content updates, enhanced engagement, and a modern 
+                                     brand presence across indoor and commercial spaces.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-5">
                         <div class="image-container position-relative">
-                            <img src="{{ asset('frontend/Images/metal-signage12.webp') }}" alt="Stainless Steel Signs"
+                            <img src="{{ asset('frontend/Images/office-signagess.webp') }}" alt="Office Name Board"
                                 class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Stainless Steel Signs</h5>
-                                <p class="text-content">Stainless steel sign boards are best for internal and external
-                                    usage, as they offer extensive versatility. Sign boards with a glossy finish can be
-                                    used indoors, but large boards are best for outdoor visibility. Some sectors that
-                                    might benefit like corporations, showrooms, buildings, hotels, hospitals, schools,
-                                    and colleges.</p>
+                                <h5 class="text-title">Office Name Board</h5>
+                                <p class="text-content">Office name boards present your business identity with clarity and professionalism at first glance. Designed
+                                     with clean layouts and premium finishes, they create a polished impression while ensuring easy recognition for visitors 
+                                     and staff.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3">
                         <div class="image-container position-relative">
-                            <img src="{{ asset('frontend/Images/metal-signage13.webp') }}" alt="Aluminium Sign Boards"
+                            <img src="{{ asset('frontend/Images/safety-signss.webp') }}" alt="Safety Signage"
                                 class="w-100 h-100">
                             <div class="overlay">
-                                <h5 class="text-title">Aluminium Sign Boards</h5>
-                                <p class="text-content">Aluminum sign boards are resistant to rust and corrosion and can
-                                    be easily customized with graphics, and logos. These are mainly used for directional
-                                    signs to promotional displays and can provide versatility and longevity.</p>
+                                <h5 class="text-title">Safety Signage</h5>
+                                <p class="text-content">Safety signage provides clear, compliant visual communication designed to promote awareness and
+                                     prevent risks in workplaces and public environments. Built for high visibility and durability, it ensures critical 
+                                     instructions, warnings, and directions are easily understood and consistently maintained.</p>
                             </div>
                         </div>
                     </div>
@@ -123,11 +118,11 @@
 
 
     <section class="signage-journey">
-        <h2 class="display-4 why-text-heading text-white my-4">Your Signage Journey, Perfected from Start to Finish
+        <h2 class="display-4 why-text-heading text-white my-4">End-to-End Signage Solutions for Your Business
         </h2>
         <p class="fs-20 text-white text-center pb-4">
-            At ARC India we bring you the best opportunities for your business, handle every step with care and bring you
-            stunning results in terms of custom signages.
+            At Brand Signages, we manage every stage of your signage journey with precision and expertise delivering thoughtfully crafted, 
+            custom signage solutions that create lasting visual impact for your business.
         </p>
 
         <div class="journey-steps">
@@ -136,12 +131,12 @@
             <div class="step-card ">
                 <div class="step-1">
                     <span class="icon">📍</span>
-                    <h3>Site Survey & Permitting</h3>
+                    <h3>Site Assessment & Approval</h3>
                 </div>
                 <div class="step-2">
                     <span class="icon">�</span>
-                    <h3>Site Survey & Permitting</h3>
-                    <p>Site checks and permits ensure project readiness and compliance with all set requirements.</p>
+                    <h3>Site Assessment & Approval</h3>
+                    <p>Site evaluations and approval ensure full compliance with requirements.</p>
                 </div>
             </div>
 
@@ -149,12 +144,12 @@
             <div class="step-card">
                 <div class="step-1">
                     <span class="icon">🎨</span>
-                    <h3>Design Finalization</h3>
+                    <h3>Design Approval</h3>
                 </div>
                 <div class="step-2">
                     <span class="icon">🎨</span>
-                    <h3>Design Finalization</h3>
-                    <p>Translating your ideas into precision-perfect technical designs for production.</p>
+                    <h3>Design Approval</h3>
+                    <p>Turning your ideas into precise, production-ready technical designs.</p>
                 </div>
             </div>
 
@@ -167,7 +162,7 @@
                 <div class="step-2">
                     <span class="icon">�</span>
                     <h3>Permissions & Approvals</h3>
-                    <p>Managing all necessary regulatory approvals and legal formalities for you.</p>
+                    <p>Managing all necessary regulatory approvals and legal formalities needed.</p>
                 </div>
             </div>
 
@@ -175,12 +170,12 @@
             <div class="step-card">
                 <div class="step-1">
                     <span class="icon">⚙️</span>
-                    <h3>Fabrication & Installation</h3>
+                    <h3>Manufacturing & Installation</h3>
                 </div>
                 <div class="step-2">
                     <span class="icon">⚙️</span>
-                    <h3>Fabrication & Installation</h3>
-                    <p>Custom fabrication and installation of the sign to ensure it is ready for use.</p>
+                    <h3>Manufacturing & Installation</h3>
+                    <p>Custom manufacturing and installation of the sign boards and make ready for use.</p>
                 </div>
             </div>
 
@@ -199,6 +194,64 @@
 
         </div>
     </section>
+
+      <section class="instant-pricing">
+            <div class="container">
+                <h2>Best Signage Board Makers with 24 Hour <br>Production Line</h2>
+                <p>We are the best <b>Signage Board</b> Manufacturers with 24-hours active production capability and expertise.</p>
+                <div class="scroll-loop-wrapper">
+                    <div class="scroll-loop-track">
+                        @for ($i = 0; $i < 3; $i++)
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/panting.webp') }}" alt="Painting">
+                                <p>Painting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/MetalEtching.webp') }}" alt="Metal Etching">
+                                <p>Metal Etching</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/MetalLaserCutting.webp') }}" alt="Metal Laser Cutting">
+                                <p>Metal Laser Cutting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/AcrylicLaser.webp') }}" alt="Acrylic Laser">
+                                <p>Acrylic Laser</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/latex-printing.webp') }}" alt="Latex Printing">
+                                <p>Latex Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/uv-flat-print.webp') }}" alt="UV Flat Printing">
+                                <p>UV Flat Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/plotting.webp') }}" alt="Plotting">
+                                <p>Plotting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/channel-letter.webp') }}" alt="Channel Letters">
+                                <p>Channel Letters</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/epoxy-letter.webp') }}" alt="Epoxy Letters">
+                                <p>Channel Letters</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/3d-printing.webp') }}" alt="3D printing">
+                                <p>3D Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/led-letters.webp') }}" alt="LED Letters">
+                                <p>LED Letters</p>
+                            </div>
+                        @endfor
+                    </div>
+                </div>
+            </div>
+    </section>
+
     <section class="new-recent-works">
         <div class="container">
             <h2 class="hero-title  mb-6">Our Recent LED Sign Board <br>Installation Projects</h2>
@@ -281,7 +334,7 @@
     </section>
     <section class="other-cities-section mt-5">
         <div class="container">
-            <h2 class="my-5">Sign Board in Other Cities</h2>
+            <h2 class="my-5">We Serve Across All Major Locations<br> in India</h2>
             <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
                 <div class="other-cities-card">
                     <a href="https://brandsignages.com/leading-signage-company-in-mumbai" style="text-decoration: none;">
@@ -313,48 +366,112 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
 
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{ asset('frontend/Images/indoor-signage7.webp') }}" alt="Indoor Signs"
-                            class="img-fluid">
+        <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="We-Elevate-Brands-heading fw-bold">We Create Custom Signage Solutions for<br> Every Industry</h2>
+        </div>
+
+        <div class="position-relative">
+            <div class="swiper We-Elevate-Brands-swiper pt-60">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/healthcare-signss.webp')}}" class="card-img-center"
+                                alt="Healthcare Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="/hospital-signages">Healthcare Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Healthcare signage is essential for clear communication and safety. We design custom healthcare
+                                     signs for hospitals, clinics, and medical centers, tailored in size and style to suit every facility.</p>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/hotel-restaurant-signs.webp')}}" class="card-img-center"
+                                alt="Hotel & Restaurant Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="/restaurant-signages">Hotel & Restaurant</a></h5>
+                                <p class="We-Elevate-Brands-text">Make your hotel or restaurant stand out with elegant, custom signage. We create tailored signs 
+                                    that match your brand’s style and leave a lasting impression on your guests.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/corporate-office-signs.webp')}}" class="card-img-center"
+                                alt="Corporate Office Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="/office-signages">Corporate Office</a></h5>
+                                <p class="We-Elevate-Brands-text">Professional corporate office signage that reflects your brand identity. We design custom signs 
+                                    that enhance your workspace, impress clients, and create a cohesive office environment. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/retail-shop-sign.webp')}}" class="card-img-center"
+                                alt="Retail Shop & Malls Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="/name-board-designs-for-shops-bangalore">Retail Shop & Malls</a></h5>
+                                <p class="We-Elevate-Brands-text">Eye-catching retail signage designed to attract customers and boost sales. We create custom
+                                     signs that perfectly showcase your store’s brand and style.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/real-estate-signs.webp')}}" class="card-img-center"
+                                alt="Real Estate Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/">Real Estate</a></h5>
+                                <p class="We-Elevate-Brands-text">Custom real estate signage that highlights your properties and brand. We design durable, 
+                                    professional signs to attract buyers and make a lasting impression.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/bank-signage.webp')}}" class="card-img-center"
+                                alt="Banking and Finance Signages">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/">Banks & Finance</a></h5>
+                                <p class="We-Elevate-Brands-text">Signage solutions that reflect stability and professionalism for banks and financial 
+                                    institutions. We create custom signs that strengthen your brand and inspire client confidence.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Arrows -->
+                <div class="We-Elevate-Brands-nav ">
+                    <!-- Swap order: prev on left, next on right -->
+                    <div class="We-Elevate-Brands-button-prev"></div>
+                    <div class="We-Elevate-Brands-button-next"></div>
                 </div>
 
-                <div class="col-lg-6">
-                    <h2 class="brand-title">Directional Indoor Signages</h2>
-                    <p class="brand-description">
-                        We design custom directional and navigational indoor signages for offices, retail stores, buildings,
-                        and hospitals. </p>
-                    <p class="brand-description">
-                        Whether it’s room number, floor directories, or path arrows, our indoor signages are designed to be
-                        visually appealing. They are made with durable materials with a sleek design to be visible in
-                        high-traffic areas.</p>
-                    <h2 class="brand-title">Branding Interior Signages</h2>
-                    <p class="brand-description">
-                        Indoor signages like acrylic boards, neon lights, and digital displays are also used as a branding
-                        tool in various industries. Whether it is a company logo, reception, or conference room, we design
-                        custom signages to match your brand’s vision.
-                    </p>
-                    <p class="brand-description">
-                        We strategically choose color, fonts, and typography to reinforce company ethos and brand image.
-                        Whether it is metal base signage or acrylic signage, our custom indoor office signages will resonate
-                        with brand value and identity.
-                    </p>
-                </div>
             </div>
         </div>
+
+        <div class="text-center mt-4">
+            <a href="/contact-us" class="btn-we-elevate">Start You Project</a>
+        </div>
+        </div>
     </section>
+
+   
     <section class="we-deliver mb-0 pb-0 mb-md-5" style="background: unset">
         <div class="container">
-            <h2 class="brand-title text-center mb-5 text-black">Why Choose Us for Digital Signages</h2>
+            <h2 class="brand-title text-center mb-5 text-black">Why Businesses Across India Trust <br>Brand Signages</h2>
 
             <div class="row">
                 <div class="col-md-5 col-12">
-                    <img src="https://www.e-arc.in/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/04/Custom-Sign-Board-1.png.webp"
+                    <img src="{{ asset('frontend/Images/why-brand-signages.webp') }}"
                         alt="" class="img-fluid w-100 h-100 rounded-3" />
                 </div>
                 <div class="col-md-7 col-12">
@@ -364,10 +481,8 @@
                                 <img src="{{ asset('frontend/Images/In-House-Experts.png') }}" alt="In-House Experts"
                                     class="img-fluid">
                                 <h3>In-House Manufacturing</h3>
-                                <p class="text-black">
-                                    With full in-house manufacturing, every digital signage system is produced, tested, and
-                                    quality-checked by our expert team, ensuring unmatched durability, finish, and long-term
-                                    performance.
+                                <p class="text-black">From concept to production, every signage is designed, manufactured, and quality-checked by our 
+                                     skilled in-house team, ensuring superior durability, finish, and long-lasting performance.
                                 </p>
                             </div>
                         </div>
@@ -375,11 +490,9 @@
                             <div class="deliver-box">
                                 <img src="{{ asset('frontend/Images/Industry-Grade-Products.png') }}"
                                     alt="Industry Grade Products" class="img-fluid">
-                                <h3>Advanced Signage Platform</h3>
-                                <p class="text-black">Our advanced cloud-based software lets you publish, schedule, and
-                                    monitor content in real
-                                    time, ensuring seamless display management across multiple locations without downtime or
-                                    technical frustration.
+                                <h3>Premium Materials</h3>
+                                <p class="text-black">We use high-quality, industry-grade materials and the latest technology to craft 
+                                    signs that are not only visually striking but also built to withstand for a long time and any environment.
                                 </p>
                             </div>
                         </div>
@@ -389,11 +502,9 @@
                             <div class="deliver-box">
                                 <img src="{{ asset('frontend/Images/10-Years-of-Expertise.png') }}"
                                     alt="10 Years of Expertise" class="img-fluid">
-                                <h3>Expert Technical Team</h3>
-                                <p class="text-black">Our trained digital signage engineers provide proactive support,
-                                    quick issue resolution,
-                                    and reliable maintenance, ensuring your digital signage network stays stable and
-                                    responsive.
+                                <h3>10+ Years of Experience</h3>
+                                <p class="text-black">With over a decade in the signage industry, our expert team delivers professional 
+                                    guidance, timely execution, and dependable support for every project.
                                 </p>
                             </div>
                         </div>
@@ -401,7 +512,7 @@
                             <div class="deliver-box">
                                 <img src="{{ asset('frontend/Images/Network-and-Customer-Support.png') }}"
                                     alt="Network and Customer Support" class="img-fluid">
-                                <h3>Designed for Performance</h3>
+                                <h3>Custom Designs & Support</h3>
                                 <p class="text-black">Every screen, kiosk, and signage solution is custom-designed digital
                                     signage to match
                                     your branding, environment, viewing distance, and content goals creating a fully
@@ -428,6 +539,107 @@
             </div>
         </div>
     </section>
+
+    <section>
+        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+            
+            <h2 class="hero-title">Clear, Bold & Effective: Brand Signages</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{ asset('frontend/Images/signage-projects.webp') }}"
+                            alt="Signage Projects" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    
+                    <p class="brand-description">
+                        Brand Signages delivers premium sign board solutions across diverse industries, including 
+                        <a href="/office-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">corporate offices</a>, healthcare, education, <a href="/name-board-designs-for-shops-bangalore" style="text-decoration: unset;color:#E43D12; font-weight: bold;">retail shops</a>, hospitality, and real estate. Our expertly 
+                        designed directional, safety, <a href="/indoor-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">indoor</a>, outdoor, and <a href="/led-acrylic-3d-glow-sign-board" style="text-decoration: unset;color:#E43D12; font-weight: bold;">LED sign boards</a> enhance navigation, improve safety, and 
+                        strengthen brand presence with clarity and visual impact.</p>
+                    <h4 class="mb-3">Case Studies</h4>
+                  <a href="/case-studies/prestidge-group-sign-board" style="text-decoration: unset;color:#E43D12; font-weight: bold;">
+                    <p class="fs-20 d-flex justify-content-between w-100 border-bottom pb-2 mb-0">
+                        <span>Prestige Group Office</span>
+                        <span>↗️</span>
+                    </p>
+                    </a>
+
+                    <a href="/case-studies/tanishq-sign-board" style="text-decoration: unset;color:#E43D12; font-weight: bold;">
+                    <p class="fs-20 d-flex justify-content-between w-60 border-bottom pb-2 mb-0">
+                        <span>Tanishq Showroom</span>
+                        <span>↗️</span>
+                    </p>
+                    </a>
+
+                   <a href="/case-studies/fortis-hospital-sign-board" style="text-decoration: unset;color:#E43D12; font-weight: bold;">
+                     <p class="fs-20 d-flex justify-content-between w-100 border-bottom pb-2 mb-0">
+                        <span>Fortis Hospital</span>
+                        <span>↗️</span>
+                    </p>
+                    </a>
+
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
+            <h2 class="hero-title">Custom Signage for Indoor and <br>Outdoor Impact</h2>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{ asset('frontend/Images/indoor-signagess.webp') }}"
+                            alt="Construction Safety Signs" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="brand-title"><b>Purpose-Driven Indoor Signages</b></h2>
+                    <p class="brand-description">
+                        Brand Signages creates indoor signage that enhances spaces, guides visitors, and reinforces brand presence. 
+                        From illuminated <a href="/led-acrylic-3d-glow-sign-board" style="text-decoration: unset;color:#E43D12; font-weight: bold;">LED sign boards</a> to wall-mounted graphics and <a href="/arcylic-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">acrylic signages</a>, our solutions are designed to 
+                        complement your interiors while delivering clear communication.</p>
+                    <p class="brand-description">
+                        Every indoor sign is carefully crafted to suit your layout, audience movement, and brand tone. Built with quality
+                         materials and precise execution, <a href="/" style="text-decoration: unset;color:#E43D12; font-weight: bold;">our signage</a> performs consistently in high-traffic environments and leaves a 
+                         lasting visual impression. Our end-to-end approach covers concept development, design, fabrication, and installation,
+                          ensuring consistency at every stage.</p>
+                        <a href="/indoor-signages">
+                    <button class="contact-btn">Know More</button>
+                </a>
+                </div>
+            </div>
+
+            <div class="row align-items-center py-5">
+
+
+                <div class="col-lg-6">
+                    <h2 class="brand-title">Outdoor Signages That Command Attention</h2>
+                    <p class="brand-description">
+                        Brand Signages designs and manufactures outdoor signage built to perform in demanding environments. From high-visibility LED signboards to premium acrylic and <a href="/metal-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">metal signage</a>, our solutions are created 
+                        to deliver clarity, impact, and durability across streets, campuses, and commercial spaces.</p>
+                    <p class="brand-description">
+                        Every project begins with understanding your brand goals and location requirements. Our team transforms ideas into visually striking signage using advanced fabrication techniques and weather-resistant
+                         materials, ensuring long-lasting performance in all conditions, whether installed in high-traffic urban areas, corporate complexes, or <a href="/name-board-designs-for-shops-bangalore" style="text-decoration: unset;color:#E43D12; font-weight: bold;">retail exteriors</a>.</p>
+                        <a href="/outdoor-signages">
+                    <button class="contact-btn">Know More</button>
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{ asset('frontend/Images/outdoor-signagess.webp') }}"
+                            alt="Construction Safety Signs" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="new_client_section container">
         <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
         <div class="row">
@@ -604,102 +816,8 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">Features of Effective Safety Signs</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{ asset('frontend/Images/construction-safety-4.webp') }}"
-                            alt="Construction Safety Signs" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <h2>Features of Effective Safety Signs</h2>
-                    <p class="brand-description">
-                        Clarity and visibility are one of the primary features of construction signage. Usually, these
-                        signboards are designed in yellow, red, and green to indicate hazardous, moderately hazardous,
-                        emphasize simple, easy-to-understand language and signs.</p>
-                    <h4 class="mb-3">Case Study</h4>
-                    <a href="#" class="brand-title d-flex justify-content-between w-100 border-bottom pb-2"
-                        style="text-decoration: none;">
-                        <span>case studies 1</span>
-                        <span>↗️</span>
-                    </a>
-                    <a href="#" class="brand-title d-flex justify-content-between w-100 border-bottom pb-2"
-                        style="text-decoration: none;">
-                        <span>case studies 1</span>
-                        <span>↗️</span>
-                    </a>
-                    <a href="#" class="brand-title d-flex justify-content-between w-100 border-bottom pb-2"
-                        style="text-decoration: none;">
-                        <span>case studies 1</span>
-                        <span>↗️</span>
-                    </a>
-                </div>
-            </div>
-    </section>
-    <section>
-        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">Features of Effective Safety Signs</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{ asset('frontend/Images/construction-safety-4.webp') }}"
-                            alt="Construction Safety Signs" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <h2 class="brand-title">Clarity and Visibility</h2>
-                    <p class="brand-description">
-                        Clarity and visibility are one of the primary features of construction signage. Usually, these
-                        signboards are designed in yellow, red, and green to indicate hazardous, moderately hazardous,
-                        and safe zones/ materials. These boards should be appropriately sized to ensure they are visible
-                        and legible even from a distance. What else should be included in these signs? We would
-                        emphasize simple, easy-to-understand language and signs.</p>
-                    <p class="brand-description">
-                        We ensure that the signs are written in a high-contrast background to make the message visible
-                        in clear print. This ensures minimal confusion among people, workers, and visitors alike. People
-                        don’t have to read long texts to understand issues and problems related to working on these
-                        sites. Also, these should be put in positions near hazards and similar places. As a
-                        manufacturer, we know how to create these signs on construction sites and populate them with
-                        personalized messages.</p>
-
-                </div>
-            </div>
-            <div class="row align-items-center">
-
-
-                <div class="col-lg-6">
-                    <h2 class="brand-title">Clarity and Visibility</h2>
-                    <p class="brand-description">
-                        Clarity and visibility are one of the primary features of construction signage. Usually, these
-                        signboards are designed in yellow, red, and green to indicate hazardous, moderately hazardous,
-                        and safe zones/ materials. These boards should be appropriately sized to ensure they are visible
-                        and legible even from a distance. What else should be included in these signs? We would
-                        emphasize simple, easy-to-understand language and signs.</p>
-                    <p class="brand-description">
-                        We ensure that the signs are written in a high-contrast background to make the message visible
-                        in clear print. This ensures minimal confusion among people, workers, and visitors alike. People
-                        don’t have to read long texts to understand issues and problems related to working on these
-                        sites. Also, these should be put in positions near hazards and similar places. As a
-                        manufacturer, we know how to create these signs on construction sites and populate them with
-                        personalized messages.</p>
-
-                </div>
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{ asset('frontend/Images/construction-safety-4.webp') }}"
-                            alt="Construction Safety Signs" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
+    
     <section class="testimonial section ">
         <div class="container">
             <div class="text-center mb-5">
