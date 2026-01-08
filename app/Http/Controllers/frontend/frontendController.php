@@ -666,12 +666,14 @@ class frontendController extends Controller
             if ($seo && !empty($seo->script)) {
                 preg_match('/<title>(.*?)<\/title>/', $seo->script, $titleMatch);
                 preg_match('/<meta name="description" content="(.*?)"/', $seo->script, $descriptionMatch);
+                preg_match('/<style>.*?<\/style>/is', $seo->script, $styleMatch);
 
                 $blogSeoData = [
                     'title' => $titleMatch[1] ?? null,
                     'meta_description' => $descriptionMatch[1] ?? null,
                     'canonical_url' => isset($seo->page_url) ? url($seo->page_url) : null,
                     'image' => $blog->image ?? null,
+                    'style' => $styleMatch[0] ?? null,
                 ];
             }
 
