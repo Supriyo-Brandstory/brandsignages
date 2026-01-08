@@ -102,6 +102,8 @@
         .ctaa-hov:hover {
             background-color: #E43D12;
             color: #ffffff;
+            border: 2px solid #ffffff;
+
         }
 
         @media (max-width: 767px) {
@@ -210,7 +212,7 @@
                 link.addEventListener("click", function(e) {
                     e.preventDefault();
                     const targetId = this.getAttribute("href").substring(
-                    1); // Get the ID from the href
+                        1); // Get the ID from the href
                     const targetElement = document.getElementById(targetId);
 
                     if (targetElement) {
