@@ -1,7 +1,6 @@
 @extends('admin.layout.main')
 @section('title', 'Create Blog | ')
 @section('content')
-<link href="https://cdn.quilljs.com/1.3.7/quill.snow.css" rel="stylesheet">
     <section class="section dashboard">
         <div class="row">
             <div class="col-lg-12">
@@ -44,8 +43,7 @@
                             <div class="row mb-3">
                                 <label for="content" class="col-sm-2 col-form-label">Content</label>
                                 <div class="col-sm-10">
-                                    <div id="editor" class="form-control" style="height: 200px;"></div>
-                                    <input type="hidden" name="content" id="content">
+                                    <textarea name="content" class="form-control rich-text-editor" style="height: 400px;"></textarea>
                                     @error('content')
                                         <span class="text-danger" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -93,7 +91,8 @@
                             <div class="row mb-3">
                                 <div class="col-sm-12">
                                     <button type="submit" class="btn btn-sm btn-primary float-end m-2">Submit Form</button>
-                                    <a href="{{ route('blogs.index') }}" class="btn btn-sm btn-danger float-end m-2">Cancel</a>
+                                    <a href="{{ route('blogs.index') }}"
+                                        class="btn btn-sm btn-danger float-end m-2">Cancel</a>
                                 </div>
                             </div>
                         </form>
@@ -102,27 +101,20 @@
             </div>
         </div>
     </section>
-    <script src="https://cdn.quilljs.com/1.3.7/quill.min.js"></script>
+@endsection
 
-<script>
-    // Initialize Quill editor
-    var quill = new Quill('#editor', {
-        theme: 'snow',
-        placeholder: 'Enter content here...',
-        modules: {
-            toolbar: [
-                [{ header: [1, 2, 3, 4, 5, 6, false] }],
-                ['bold', 'italic', 'underline'],
-                [{ list: 'ordered' }, { list: 'bullet' }],
-                ['link', 'image', 'code-block']
-
-            ]
+@section('script')
+    <script>
+        if (typeof tinymce !== 'undefined') {
+            tinymce.init({
+                selector: 'textarea.rich-text-editor',
+                height: 400,
+                plugins: 'preview importcss searchreplace autolink autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap pagebreak nonbreaking anchor insertdatetime advlist lists wordcount help charmap quickbars emoticons',
+                toolbar: 'undo redo | bold italic underline strikethrough | fontfamily fontsize blocks | alignleft aligncenter alignright alignjustify | outdent indent |  numlist bullist | forecolor backcolor removeformat | pagebreak | charmap emoticons | fullscreen  preview save print | insertfile image media template link anchor codesample | ltr rtl | code',
+                toolbar_sticky: true,
+                image_advtab: true,
+                content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:16px }'
+            });
         }
-    });
-
-    // Sync Quill content to hidden input on form submit
-    document.querySelector('form').onsubmit = function () {
-        document.querySelector('#content').value = quill.root.innerHTML;
-    };
-</script>
+    </script>
 @endsection

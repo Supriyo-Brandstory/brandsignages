@@ -37,23 +37,26 @@
 
                             <div class="mb-3">
                                 <label for="category_description" class="form-label">Category Description</label>
-                                <textarea class="form-control" id="category_description" name="category_description">{{ old('category_description', $category->description) }}</textarea>
+                                <textarea class="form-control rich-text-editor" id="category_description" name="category_description"
+                                    style="height: 300px;">{{ old('category_description', $category->description) }}</textarea>
                             </div>
 
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="is_subcategory" name="is_subcategory" onclick="return false;"
+                                <input type="checkbox" class="form-check-input" id="is_subcategory" name="is_subcategory"
+                                    onclick="return false;"
                                     {{ old('is_subcategory', $category->blog_category_id ? true : false) ? 'checked' : '' }}>
                                 <label class="form-check-label" for="is_subcategory">Is this a Subcategory?</label>
                             </div>
-                        
 
-                            <div id="parent_category_div" class="mb-3" style="display: {{ old('is_subcategory', $category->blog_category_id ? true : false) ? 'block' : 'none' }};">
+
+                            <div id="parent_category_div" class="mb-3"
+                                style="display: {{ old('is_subcategory', $category->blog_category_id ? true : false) ? 'block' : 'none' }};">
                                 <label for="parent_category_id" class="form-label">Select Parent Category</label>
-                                <select class="form-control" id="parent_category_id" name="parent_category_id" 
+                                <select class="form-control" id="parent_category_id" name="parent_category_id"
                                     {{ old('is_subcategory', $category->blog_category_id ? true : false) ? 'required' : '' }}>
                                     <option value="">Select a Parent Category</option>
                                     @foreach ($categories as $parentCategory)
-                                        <option value="{{ $parentCategory->id }}" 
+                                        <option value="{{ $parentCategory->id }}"
                                             {{ old('parent_category_id', $category->blog_category_id) == $parentCategory->id ? 'selected' : '' }}>
                                             {{ $parentCategory->name }}
                                         </option>
@@ -69,10 +72,12 @@
             </div>
         </div>
     </section>
+@endsection
 
+@section('script')
     <script>
         // Show/Hide Parent Category field based on the "Is Subcategory" checkbox
-        document.getElementById('is_subcategory').addEventListener('change', function () {
+        document.getElementById('is_subcategory').addEventListener('change', function() {
             var parentCategoryDiv = document.getElementById('parent_category_div');
             var parentCategorySelect = document.getElementById('parent_category_id');
             if (this.checked) {
@@ -83,5 +88,17 @@
                 parentCategorySelect.removeAttribute('required');
             }
         });
+
+        if (typeof tinymce !== 'undefined') {
+            tinymce.init({
+                selector: 'textarea.rich-text-editor',
+                height: 300,
+                plugins: 'preview importcss searchreplace autolink autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap pagebreak nonbreaking anchor insertdatetime advlist lists wordcount help charmap quickbars emoticons',
+                toolbar: 'undo redo | bold italic underline strikethrough | fontfamily fontsize blocks | alignleft aligncenter alignright alignjustify | outdent indent |  numlist bullist | forecolor backcolor removeformat | pagebreak | charmap emoticons | fullscreen  preview save print | insertfile image media template link anchor codesample | ltr rtl | code',
+                toolbar_sticky: true,
+                image_advtab: true,
+                content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:16px }'
+            });
+        }
     </script>
 @endsection
