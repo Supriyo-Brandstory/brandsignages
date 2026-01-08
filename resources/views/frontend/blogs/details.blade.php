@@ -95,7 +95,7 @@ span.divider {
     }
 }
 section.blog-section {
-    padding: 35px 41px;
+    padding: 35px 20px;
 }
 h1.hero-title.mb-1 {
     margin-top: 15px;
