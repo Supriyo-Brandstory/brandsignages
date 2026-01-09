@@ -84,90 +84,88 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // JQUERY NAVBAR DROPDOWNS
-    document.addEventListener('DOMContentLoaded', function () {
-        // Function to reset all dropdowns and arrows
-        function resetDropdowns() {
-            const dropdownMenus = document.querySelectorAll('.dropdown-menu');
-            dropdownMenus.forEach(menu => {
-                menu.style.display = 'none';
-                menu.classList.remove('show');
-            });
-
-            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-            dropdownToggles.forEach(toggle => toggle.classList.remove('show'));
-
-            const navLinks = document.querySelectorAll('.nav-link');
-            navLinks.forEach(link => link.classList.remove('active'));
-        }
-
-        // Function to handle screen size changes
-        function handleScreenChange() {
-            resetDropdowns();
-            const navbarCollapse = document.querySelector('.navbar-collapse');
-            if (navbarCollapse) {
-                navbarCollapse.classList.remove('show');
-            }
-        }
-
-        // Handle dropdown toggle
-        const navItems = document.querySelectorAll('.nav-item.dropdown .nav-link');
-        navItems.forEach(link => {
-            link.addEventListener('click', function (e) {
-                e.preventDefault();
-                e.stopPropagation();
-
-                const parentDropdown = this.closest('.dropdown');
-                const dropdownMenu = parentDropdown.querySelector('.dropdown-menu');
-                const isOpen = dropdownMenu.classList.contains('show');
-
-                // First, reset all dropdowns
-                resetDropdowns();
-
-                // Then toggle current dropdown if it wasn't open
-                if (!isOpen) {
-                    dropdownMenu.style.display = 'block';
-                    dropdownMenu.classList.add('show');
-                    this.classList.add('show', 'active');
-                }
-            });
+    // Function to reset all dropdowns and arrows
+    function resetDropdowns() {
+        const dropdownMenus = document.querySelectorAll('.dropdown-menu');
+        dropdownMenus.forEach(menu => {
+            menu.style.display = 'none';
+            menu.classList.remove('show');
         });
 
-        // Close dropdowns when clicking outside
-        document.addEventListener('click', function (e) {
-            if (!e.target.closest('.dropdown')) {
-                resetDropdowns();
-            }
-        });
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        dropdownToggles.forEach(toggle => toggle.classList.remove('show'));
 
-        // Handle window resize with debounce
-        let resizeTimer;
-        window.addEventListener('resize', function () {
-            clearTimeout(resizeTimer);
-            resizeTimer = setTimeout(handleScreenChange, 250);
-        });
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => link.classList.remove('active'));
+    }
 
-        // Handle navbar toggler click
-        const navbarToggler = document.querySelector('.navbar-toggler');
-        if (navbarToggler) {
-            navbarToggler.addEventListener('click', resetDropdowns);
-        }
-
-        // Handle navbar collapse shown/hidden
+    // Function to handle screen size changes
+    function handleScreenChange() {
+        resetDropdowns();
         const navbarCollapse = document.querySelector('.navbar-collapse');
         if (navbarCollapse) {
-            navbarCollapse.addEventListener('shown.bs.collapse', resetDropdowns);
-            navbarCollapse.addEventListener('hidden.bs.collapse', resetDropdowns);
+            navbarCollapse.classList.remove('show');
         }
+    }
 
-        // Add active class to nav items when clicked
-        const nonDropdownNavLinks = document.querySelectorAll('.nav-item:not(.dropdown) .nav-link');
-        nonDropdownNavLinks.forEach(link => {
-            link.addEventListener('click', function () {
-                document.querySelectorAll('.nav-link').forEach(navLink => {
-                    navLink.classList.remove('active');
-                });
-                this.classList.add('active');
+    // Handle dropdown toggle
+    const navItems = document.querySelectorAll('.nav-item.dropdown .nav-link');
+    navItems.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const parentDropdown = this.closest('.dropdown');
+            const dropdownMenu = parentDropdown.querySelector('.dropdown-menu');
+            const isOpen = dropdownMenu.classList.contains('show');
+
+            // First, reset all dropdowns
+            resetDropdowns();
+
+            // Then toggle current dropdown if it wasn't open
+            if (!isOpen) {
+                dropdownMenu.style.display = 'block';
+                dropdownMenu.classList.add('show');
+                this.classList.add('show', 'active');
+            }
+        });
+    });
+
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', function (e) {
+        if (!e.target.closest('.dropdown')) {
+            resetDropdowns();
+        }
+    });
+
+    // Handle window resize with debounce
+    let resizeTimer;
+    window.addEventListener('resize', function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(handleScreenChange, 250);
+    });
+
+    // Handle navbar toggler click
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    if (navbarToggler) {
+        navbarToggler.addEventListener('click', resetDropdowns);
+    }
+
+    // Handle navbar collapse shown/hidden
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+    if (navbarCollapse) {
+        navbarCollapse.addEventListener('shown.bs.collapse', resetDropdowns);
+        navbarCollapse.addEventListener('hidden.bs.collapse', resetDropdowns);
+    }
+
+    // Add active class to nav items when clicked
+    const nonDropdownNavLinks = document.querySelectorAll('.nav-item:not(.dropdown) .nav-link');
+    nonDropdownNavLinks.forEach(link => {
+        link.addEventListener('click', function () {
+            document.querySelectorAll('.nav-link').forEach(navLink => {
+                navLink.classList.remove('active');
             });
+            this.classList.add('active');
         });
     });
 
@@ -193,108 +191,129 @@ document.addEventListener('DOMContentLoaded', () => {
         updateButtonsNew(); // Initialize button states
     }
 
-    const swiper = new Swiper('.bgrowth-swiper', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'fraction',
-        },
-        breakpoints: {
-            768: {
-                slidesPerView: 2,
+    if (document.querySelector('.bgrowth-swiper')) {
+        const swiper = new Swiper('.bgrowth-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'fraction',
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                }
             }
-        }
-    });
+        });
+    }
 
-     const swiper3 = new Swiper('.bgrowth-swiper-2', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'fraction',
-        },
-        breakpoints: {
-            768: {
-                slidesPerView: 1,
+    if (document.querySelector('.bgrowth-swiper-2')) {
+        const swiper3 = new Swiper('.bgrowth-swiper-2', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'fraction',
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 1,
+                }
             }
-        }
-    });
+        });
+    }
 
     // Fixing testimonial swiper
-    const swiper2 = new Swiper('.new_testimonial-swiper', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        navigation: {
-            nextEl: '.new_testimonial-button-next',
-            prevEl: '.new_testimonial-button-prev',
-        },
-    });
+    if (document.querySelector('.new_testimonial-swiper')) {
+        const swiper2 = new Swiper('.new_testimonial-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            navigation: {
+                nextEl: '.new_testimonial-button-next',
+                prevEl: '.new_testimonial-button-prev',
+            },
+        });
+    }
     // Fixing maximum impact swiper
-    var maximumImpactSwiper = new Swiper('.Maximum-Impact-swiper', {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "3",
-        coverflowEffect: {
-            rotate: 2,
-            stretch: 0,
-            depth: 206,
-            modifier: 2,
-            slideShadows: true,
-        },
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        loop: true,
+    if (document.querySelector('.Maximum-Impact-swiper')) {
+        var maximumImpactSwiper = new Swiper('.Maximum-Impact-swiper', {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "3",
+            coverflowEffect: {
+                rotate: 2,
+                stretch: 0,
+                depth: 206,
+                modifier: 2,
+                slideShadows: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            loop: true,
 
-        // Responsive breakpoints
-        breakpoints: {
-            // when window width is >= 320px
-            320: {
-                slidesPerView: 2,
-            },
-            // when window width is >= 576px
-            576: {
-                slidesPerView: 2,
-            },
-            // when window width is >= 768px
-            768: {
-                slidesPerView: 3,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 2,
+                },
+                // when window width is >= 576px
+                576: {
+                    slidesPerView: 2,
+                },
+                // when window width is >= 768px
+                768: {
+                    slidesPerView: 3,
+                }
             }
-        }
-    });
+        });
+    }
 
-    const weElevate = new Swiper(".We-Elevate-Brands-swiper", {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    //   loop: true,
-      grabCursor: true,
-      navigation: {
-        nextEl: ".We-Elevate-Brands-button-next",
-        prevEl: ".We-Elevate-Brands-button-prev",
-      },
-      breakpoints: {
-        768: { slidesPerView: 2 },
-        992: { slidesPerView: 3 },
-      }
-    });
+    if (document.querySelector('.We-Elevate-Brands-swiper')) {
+        const weElevate = new Swiper(".We-Elevate-Brands-swiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            //   loop: true,
+            grabCursor: true,
+            navigation: {
+                nextEl: ".We-Elevate-Brands-button-next",
+                prevEl: ".We-Elevate-Brands-button-prev",
+            },
+            breakpoints: {
+                768: { slidesPerView: 2 },
+                992: { slidesPerView: 3 },
+            }
+        });
+    }
 
-
-
-
+    // Doctor Swiper for Office Name Board page
+    if (document.querySelector('.doctor-swiper')) {
+        const doctorSwiper = new Swiper('.doctor-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.doctor-swiper .swiper-button-next',
+                prevEl: '.doctor-swiper .swiper-button-prev',
+            },
+        });
+    }
 });
-
-

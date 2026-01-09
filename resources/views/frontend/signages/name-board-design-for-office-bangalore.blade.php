@@ -1,21 +1,21 @@
 @extends('frontend.layout.appLayout')
 @section('content')
     <!--<section class="hero-banner"
-                                                                                    style="background-image: url('{{ asset('/frontend/Images/name-boards/name-board-design-for-office-1.webp') }}'); ">
-                                                                                    <div class="container">
-                                                                                        <div class="row">
-                                                                                            <div class="col-md-12">
-                                                                                                <h1 class="hero-banner_title">Name Board Design for <br>Office- Crafted to Impress</h1>
-                                                                                                <p>Looking for a standout name board design for your office? Brand Signages <br>is trusted expert in crafting fine-quality,
-                                                                                                 professional office name boards <br>to showcase your brand with clarity and style.
-                                                                                                </p>
-                                                                                                <a href="https://brandsignages.com/contact-us">
-                                                                                                    <button class="contact-btn">Start Your Project</button>
-                                                                                                </a>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </section>-->
+                                                                                                                style="background-image: url('{{ asset('/frontend/Images/name-boards/name-board-design-for-office-1.webp') }}'); ">
+                                                                                                                <div class="container">
+                                                                                                                    <div class="row">
+                                                                                                                        <div class="col-md-12">
+                                                                                                                            <h1 class="hero-banner_title">Name Board Design for <br>Office- Crafted to Impress</h1>
+                                                                                                                            <p>Looking for a standout name board design for your office? Brand Signages <br>is trusted expert in crafting fine-quality,
+                                                                                                                             professional office name boards <br>to showcase your brand with clarity and style.
+                                                                                                                            </p>
+                                                                                                                            <a href="https://brandsignages.com/contact-us">
+                                                                                                                                <button class="contact-btn">Start Your Project</button>
+                                                                                                                            </a>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </section>-->
     <div class="newly-bannersection">
         <div class="bar">
             <h1 class="hero-banner_title">Office Name Board</h1>
@@ -363,9 +363,27 @@
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{ asset('frontend/Images/indoor-signagess.webp') }}" alt="Construction Safety Signs"
-                            class="img-fluid">
+                    <div class="doctor-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="{{ asset('frontend/Images/name-boards/doctor-name-1.webp') }}"
+                                    alt="Doctor Name Plate Design 1" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('frontend/Images/name-boards/doctor-name-2.webp') }}"
+                                    alt="Doctor Name Plate Design 2" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('frontend/Images/name-boards/doctor-name-3.webp') }}"
+                                    alt="Doctor Name Plate Design 3" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('frontend/Images/name-boards/doctor-name-4.webp') }}"
+                                    alt="Doctor Name Plate Design 4" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
 
@@ -492,6 +510,53 @@
     </section>
 
     <style>
+        .doctor-swiper {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .doctor-swiper .swiper-slide img {
+            width: 100%;
+            height: 360px;
+            object-fit: cover;
+        }
+
+        .doctor-swiper .swiper-button-next,
+        .doctor-swiper .swiper-button-prev {
+            background: rgba(255, 255, 255, 0.8);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .doctor-swiper .swiper-button-next::after,
+        .doctor-swiper .swiper-button-prev::after {
+            font-size: 20px;
+            font-weight: bold;
+            color: #E43D12;
+        }
+
+        .doctor-swiper .swiper-button-next:hover,
+        .doctor-swiper .swiper-button-prev:hover {
+            background: #E43D12;
+            transform: scale(1.1);
+        }
+
+        .doctor-swiper .swiper-button-next:hover::after,
+        .doctor-swiper .swiper-button-prev:hover::after {
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .doctor-swiper .swiper-slide img {
+                height: 280px;
+            }
+        }
+
         /* Artistic Canvas Styles - NEW SECTION */
         .artistic-canvas {
             background: #FCECE7;
@@ -1121,54 +1186,54 @@
 
 
     <!--<section class="we-deliver">
-                                                                                            <div class="container">
-                                                                                                <div class="row">
-                                                                                                    <div class="col-md-4 col-12">
-                                                                                                        <h2>Choose Brand Signages for Best Office Name Board Design</h2>
-                                                                                                    </div>
-                                                                                                    <div class="col-md-8 col-12">
+                                                                                                                        <div class="container">
+                                                                                                                            <div class="row">
+                                                                                                                                <div class="col-md-4 col-12">
+                                                                                                                                    <h2>Choose Brand Signages for Best Office Name Board Design</h2>
+                                                                                                                                </div>
+                                                                                                                                <div class="col-md-8 col-12">
 
-                                                                                                        <div class="row">
-                                                                                                            <div class="col-md-6 col-12">
-                                                                                                                <div class="deliver-box">
-                                                                                                                    <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Transparent pricing"
-                                                                                                                        class="img-fluid">
-                                                                                                                    <h3>Transparent Pricing</h3>
-                                                                                                                    <p>At <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com"><strong>Brand Signages</strong></a>, we combine unmatched craftsmanship with fair pricing to provide exceptional office name boards. Our approach focuses on delivering superior design value while ensuring every investment enhances your brand.
-                                                                                                                    </p>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="col-md-6 col-12">
-                                                                                                                <div class="deliver-box">
-                                                                                                                    <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="Wide Range of Product and Designs"
-                                                                                                                        class="img-fluid">
-                                                                                                                    <h3>Wide Design Collections</h3>
-                                                                                                                    <p>A curated range of distinctive office name board design categlogue, featuring contemporary, classic, and avant-garde styles. Each design can be tailored in form, finish, and color to create a signature look & corporate identity.
-                                                                                                                    </p>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="col-md-6 col-12">
-                                                                                                                <div class="deliver-box">
-                                                                                                                    <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Environment Friendly Name Boards"
-                                                                                                                        class="img-fluid">
-                                                                                                                    <h3>Eco-Conscious Production</h3>
-                                                                                                                    <p>Sustainability drives every step of our manufacturing process. We employ environmentally responsible techniques, minimizing material wastage and using resources efficiently to craft office name boards that and planet-friendly.
-                                                                                                                    </p>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                             <div class="col-md-6 col-12">
-                                                                                                                <div class="deliver-box">
-                                                                                                                    <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Quality Assurance Guarantee"
-                                                                                                                        class="img-fluid">
-                                                                                                                    <h3>Quality Assurance</h3>
-                                                                                                                    <p>Every office name board design we produce undergoes rigorous quality checks and adheres to top industry standards. From material integrity to design precision, our boards are crafted to deliver flawless performance and reliability.
-                                                                                                                    </p>
-                                                                                                                </div>
-                                                                                                            </div>
+                                                                                                                                    <div class="row">
+                                                                                                                                        <div class="col-md-6 col-12">
+                                                                                                                                            <div class="deliver-box">
+                                                                                                                                                <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Transparent pricing"
+                                                                                                                                                    class="img-fluid">
+                                                                                                                                                <h3>Transparent Pricing</h3>
+                                                                                                                                                <p>At <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com"><strong>Brand Signages</strong></a>, we combine unmatched craftsmanship with fair pricing to provide exceptional office name boards. Our approach focuses on delivering superior design value while ensuring every investment enhances your brand.
+                                                                                                                                                </p>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="col-md-6 col-12">
+                                                                                                                                            <div class="deliver-box">
+                                                                                                                                                <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="Wide Range of Product and Designs"
+                                                                                                                                                    class="img-fluid">
+                                                                                                                                                <h3>Wide Design Collections</h3>
+                                                                                                                                                <p>A curated range of distinctive office name board design categlogue, featuring contemporary, classic, and avant-garde styles. Each design can be tailored in form, finish, and color to create a signature look & corporate identity.
+                                                                                                                                                </p>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="col-md-6 col-12">
+                                                                                                                                            <div class="deliver-box">
+                                                                                                                                                <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Environment Friendly Name Boards"
+                                                                                                                                                    class="img-fluid">
+                                                                                                                                                <h3>Eco-Conscious Production</h3>
+                                                                                                                                                <p>Sustainability drives every step of our manufacturing process. We employ environmentally responsible techniques, minimizing material wastage and using resources efficiently to craft office name boards that and planet-friendly.
+                                                                                                                                                </p>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                         <div class="col-md-6 col-12">
+                                                                                                                                            <div class="deliver-box">
+                                                                                                                                                <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Quality Assurance Guarantee"
+                                                                                                                                                    class="img-fluid">
+                                                                                                                                                <h3>Quality Assurance</h3>
+                                                                                                                                                <p>Every office name board design we produce undergoes rigorous quality checks and adheres to top industry standards. From material integrity to design precision, our boards are crafted to deliver flawless performance and reliability.
+                                                                                                                                                </p>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
 
 
-                                                                                                        </div>
-                                                                                        </section>-->
+                                                                                                                                    </div>
+                                                                                                                    </section>-->
 
 
     <section class="new_client_section container pb-5">
