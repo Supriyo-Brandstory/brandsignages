@@ -316,4 +316,21 @@ document.addEventListener('DOMContentLoaded', () => {
             },
         });
     }
+
+    // CA & Advocate Swiper for Office Name Board page
+    if (document.querySelector('.ca-advocate-swiper')) {
+        const caAdvocateSwiper = new Swiper('.ca-advocate-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.ca-advocate-swiper .swiper-button-next',
+                prevEl: '.ca-advocate-swiper .swiper-button-prev',
+            },
+        });
+    }
 });
