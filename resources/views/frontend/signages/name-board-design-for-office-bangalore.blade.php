@@ -1,21 +1,6 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-    <!--<section class="hero-banner"
-                                                                                                                                            style="background-image: url('{{ asset('/frontend/Images/name-boards/name-board-design-for-office-1.webp') }}'); ">
-                                                                                                                                            <div class="container">
-                                                                                                                                                <div class="row">
-                                                                                                                                                    <div class="col-md-12">
-                                                                                                                                                        <h1 class="hero-banner_title">Name Board Design for <br>Office- Crafted to Impress</h1>
-                                                                                                                                                        <p>Looking for a standout name board design for your office? Brand Signages <br>is trusted expert in crafting fine-quality,
-                                                                                                                                                         professional office name boards <br>to showcase your brand with clarity and style.
-                                                                                                                                                        </p>
-                                                                                                                                                        <a href="https://brandsignages.com/contact-us">
-                                                                                                                                                            <button class="contact-btn">Start Your Project</button>
-                                                                                                                                                        </a>
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                        </section>-->
+
     <div class="newly-bannersection">
         <div class="bar">
             <h1 class="hero-banner_title">Office Name Board</h1>
@@ -357,7 +342,7 @@
 
     </section>
 
-    <section>
+    <section id="designs">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
             <h2 class="hero-title">Personalized Office Name Plate Designs <br>for Professionals</h2>
 
@@ -410,7 +395,7 @@
                     </ul>
 
                     <a href="/contact-us">
-                        <button class="contact-btn">Place Order</button>
+                        <button class="contact-btn">Place Order Now</button>
                     </a>
                 </div>
             </div>
@@ -433,7 +418,7 @@
                         <li>Suitable for indoor office environments</li>
                     </ul>
                     <a href="/contact-us">
-                        <button class="contact-btn">Place Order</button>
+                        <button class="contact-btn">Place Order Now</button>
                     </a>
                 </div>
                 <div class="col-lg-6 mb-4 mb-lg-0 order-1 order-lg-2">
@@ -506,7 +491,7 @@
                     </ul>
 
                     <a href="/contact-us">
-                        <button class="contact-btn">Place Order</button>
+                        <button class="contact-btn">Place Order Now</button>
                     </a>
                 </div>
             </div>
@@ -531,7 +516,7 @@
                     </ul>
 
                     <a href="/contact-us">
-                        <button class="contact-btn">Place Order</button>
+                        <button class="contact-btn">Place Order Now</button>
                     </a>
                 </div>
                 <div class="col-lg-6 mb-4 mb-lg-0 order-1 order-lg-2">
@@ -563,187 +548,7 @@
         </div>
     </section>
 
-    <style>
-        .doctor-swiper,
-        .ca-advocate-swiper {
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-        }
-
-        .doctor-swiper .swiper-slide img,
-        .ca-advocate-swiper .swiper-slide img {
-            width: 100%;
-            height: 360px;
-            object-fit: cover;
-        }
-
-        .doctor-swiper .swiper-button-next,
-        .doctor-swiper .swiper-button-prev,
-        .ca-advocate-swiper .swiper-button-next,
-        .ca-advocate-swiper .swiper-button-prev {
-            background: rgba(255, 255, 255, 0.8);
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-        }
-
-        .doctor-swiper .swiper-button-next::after,
-        .doctor-swiper .swiper-button-prev::after,
-        .ca-advocate-swiper .swiper-button-next::after,
-        .ca-advocate-swiper .swiper-button-prev::after {
-            font-size: 20px;
-            font-weight: bold;
-            color: #E43D12;
-        }
-
-        .doctor-swiper .swiper-button-next:hover,
-        .doctor-swiper .swiper-button-prev:hover,
-        .ca-advocate-swiper .swiper-button-next:hover,
-        .ca-advocate-swiper .swiper-button-prev:hover {
-            background: #E43D12;
-            transform: scale(1.1);
-        }
-
-        .doctor-swiper .swiper-button-next:hover::after,
-        .doctor-swiper .swiper-button-prev:hover::after,
-        .ca-advocate-swiper .swiper-button-next:hover::after,
-        .ca-advocate-swiper .swiper-button-prev:hover::after {
-            color: white;
-        }
-
-        @media (max-width: 768px) {
-
-            .doctor-swiper .swiper-slide img,
-            .ca-advocate-swiper .swiper-slide img {
-                height: 280px;
-            }
-        }
-
-        /* Artistic Canvas Styles - NEW SECTION */
-        .artistic-canvas {
-            background: #FCECE7;
-            color: #333;
-            padding: 80px 0;
-        }
-
-        .canvas-grid {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-gap: 30px;
-        }
-
-        .canvas-item {
-            position: relative;
-            background: #ffffff;
-            border-radius: 25px;
-            padding: 30px;
-            transition: transform 0.4s ease;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
-            border: 1px solid rgba(0, 0, 0, 0.03);
-        }
-
-        .canvas-item:hover {
-            transform: translateY(-10px);
-            background: #fdfdfd;
-        }
-
-        .item-large {
-            grid-column: 1 / 9;
-            grid-row: 1 / 3;
-        }
-
-        .item-side {
-            grid-column: 9 / 13;
-            grid-row: 1 / 2;
-        }
-
-        .item-bottom-left {
-            grid-column: 1 / 5;
-            grid-row: 3 / 4;
-        }
-
-        .item-bottom-mid {
-            grid-column: 5 / 9;
-            grid-row: 3 / 4;
-        }
-
-        .item-bottom-right {
-            grid-column: 9 / 13;
-            grid-row: 2 / 4;
-        }
-
-        .canvas-img-box {
-            border-radius: 15px;
-            overflow: hidden;
-            margin-bottom: 20px;
-        }
-
-        .canvas-img-box img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .item-large .canvas-img-box img {
-            height: 400px;
-        }
-
-        .item-bottom-right .canvas-img-box img {
-            height: 350px;
-        }
-
-        .tag-accent-new {
-            color: #E43D12;
-            font-weight: 800;
-            font-size: 12px;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        /* Customization & Multilingual */
-        .custom-card {
-            border: none;
-            border-top: 5px solid #E43D12;
-            transition: 0.3s;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-        }
-
-        .custom-card:hover {
-            transform: scale(1.05);
-        }
-
-        @media (max-width: 991px) {
-            .canvas-grid {
-                grid-template-columns: 1fr;
-                grid-gap: 20px;
-            }
-
-            .item-large,
-            .item-side,
-            .item-bottom-left,
-            .item-bottom-mid,
-            .item-bottom-right {
-                grid-column: span 12 !important;
-                grid-row: auto !important;
-            }
-
-            .item-large .canvas-img-box img,
-            .item-bottom-right .canvas-img-box img,
-            .canvas-img-box img {
-                height: 250px !important;
-            }
-
-            .artistic-canvas {
-                padding: 60px 0;
-            }
-        }
-    </style>
+   
 
     <!-- Artistic Canvas Section -->
     <section class="artistic-canvas">
@@ -755,7 +560,7 @@
             <div class="canvas-grid">
                 <div class="canvas-item item-large">
                     <div class="canvas-img-box">
-                        <img src="{{ asset('frontend/Images/name-boards/office-name-11.webp') }}"
+                        <img src="{{ asset('frontend/Images/name-boards/hand-crafted-1.webp') }}"
                             alt="Handcrafted Masterpiece">
                     </div>
                     <span class="tag-accent-new">The Artisan's Touch</span>
@@ -804,9 +609,9 @@
                     <h2 class="h4 text-dark">Thematic Name Boards</h2>
                     <p class="text-muted">We build thematic landmarks. Our thematic boards integrate your company's core
                         values into the physical design, using shapes and materials that represent your industry.</p>
-                    <a href="/contact-us" class=" fw-bold text-decoration-none mt-3 d-inline-block"
+                    <a href="/contact-us" class=" fw-bold fs-5 text-decoration-none mt-3 d-inline-block"
                         style="color: #E43D12">Explore
-                        Concepts →</a>
+                        Concepts</a>
                 </div>
             </div>
         </div>
@@ -845,126 +650,7 @@
         </div>
     </section>
 
-    <style>
-        .script-symphony {
-            position: relative;
-            padding: 10px 0 90px;
-            background: #ffffff;
-            overflow: hidden;
-        }
 
-        .glyph-bg {
-            position: absolute;
-            font-size: 300px;
-            font-weight: 900;
-            color: rgba(228, 61, 18, 0.03);
-            line-height: 1;
-            z-index: 0;
-            pointer-events: none;
-        }
-
-        .glyph-kannada {
-            top: -50px;
-            left: -50px;
-        }
-
-        .glyph-hindi {
-            bottom: -50px;
-            right: -50px;
-        }
-
-        .symphony-composition {
-            position: relative;
-            z-index: 1;
-        }
-
-        .featured-script-img {
-            position: relative;
-            border-radius: 30px;
-            overflow: hidden;
-            box-shadow: 0 50px 100px rgba(0, 0, 0, 0.1);
-            transform: perspective(1000px) rotateY(-5deg);
-            transition: 0.5s;
-        }
-
-        .featured-script-img:hover {
-            transform: perspective(1000px) rotateY(0deg);
-        }
-
-        .script-badge-float {
-            position: absolute;
-            background: white;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-            bottom: -30px;
-            right: -30px;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            border-left: 5px solid #E43D12;
-        }
-
-        .sym-content {
-            padding-left: 40px;
-        }
-
-        @media (max-width: 991px) {
-            .glyph-bg {
-                font-size: 120px;
-                opacity: 0.05;
-            }
-
-            .glyph-kannada {
-                top: 10px;
-                left: 10px;
-            }
-
-            .glyph-hindi {
-                bottom: 10px;
-                right: 10px;
-            }
-
-            .sym-content {
-                padding-left: 10px;
-                margin-top: 30px;
-                text-align: center;
-            }
-
-            .sym-content h2 {
-                text-align: center !important;
-                font-size: 28px !important;
-            }
-
-            .featured-script-img {
-                transform: none !important;
-                border-radius: 20px;
-            }
-
-            .script-badge-float {
-                position: relative;
-                right: auto;
-                bottom: auto;
-                width: 100%;
-                margin: 20px 0 0;
-                left: auto;
-                padding: 15px;
-                border: 1px solid rgba(0, 0, 0, 0.05);
-                border-left: 5px solid #E43D12;
-            }
-
-            .script-symphony {
-                padding: 0 0 50px;
-            }
-
-            .sym-content .d-flex {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-                gap: 10px !important;
-            }
-        }
-    </style>
 
     <section class="script-symphony">
         <div class="glyph-bg glyph-kannada">ಅ</div>
@@ -996,7 +682,7 @@
                         Scripts: Multilingual Identity</h2>
                     <p class="brand-description mt-3">In a diverse global landscape, your office name board should speak
                         every language of your success. We bridge the gap between tradition and corporate modernism,
-                        crafting identities in Kannada, Hindi, Tamil, Telugu, and more with absolute linguistic precision.
+                        crafting identities in <a style="color: #E43D12;text-decoration: none;"href="blogs/elevate-your-business-with-expert-kannada-sign-boards-in-bangalore"><strong>Kannada</strong></a>, Hindi, Tamil, Telugu, and more with absolute linguistic precision.
                     </p>
 
                     <div class="row mt-4">
@@ -1247,59 +933,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-    <!--<section class="we-deliver">
-                                                                                                                                                    <div class="container">
-                                                                                                                                                        <div class="row">
-                                                                                                                                                            <div class="col-md-4 col-12">
-                                                                                                                                                                <h2>Choose Brand Signages for Best Office Name Board Design</h2>
-                                                                                                                                                            </div>
-                                                                                                                                                            <div class="col-md-8 col-12">
-
-                                                                                                                                                                <div class="row">
-                                                                                                                                                                    <div class="col-md-6 col-12">
-                                                                                                                                                                        <div class="deliver-box">
-                                                                                                                                                                            <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Transparent pricing"
-                                                                                                                                                                                class="img-fluid">
-                                                                                                                                                                            <h3>Transparent Pricing</h3>
-                                                                                                                                                                            <p>At <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com"><strong>Brand Signages</strong></a>, we combine unmatched craftsmanship with fair pricing to provide exceptional office name boards. Our approach focuses on delivering superior design value while ensuring every investment enhances your brand.
-                                                                                                                                                                            </p>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                    <div class="col-md-6 col-12">
-                                                                                                                                                                        <div class="deliver-box">
-                                                                                                                                                                            <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="Wide Range of Product and Designs"
-                                                                                                                                                                                class="img-fluid">
-                                                                                                                                                                            <h3>Wide Design Collections</h3>
-                                                                                                                                                                            <p>A curated range of distinctive office name board design categlogue, featuring contemporary, classic, and avant-garde styles. Each design can be tailored in form, finish, and color to create a signature look & corporate identity.
-                                                                                                                                                                            </p>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                    <div class="col-md-6 col-12">
-                                                                                                                                                                        <div class="deliver-box">
-                                                                                                                                                                            <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Environment Friendly Name Boards"
-                                                                                                                                                                                class="img-fluid">
-                                                                                                                                                                            <h3>Eco-Conscious Production</h3>
-                                                                                                                                                                            <p>Sustainability drives every step of our manufacturing process. We employ environmentally responsible techniques, minimizing material wastage and using resources efficiently to craft office name boards that and planet-friendly.
-                                                                                                                                                                            </p>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-                                                                                                                                                                     <div class="col-md-6 col-12">
-                                                                                                                                                                        <div class="deliver-box">
-                                                                                                                                                                            <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Quality Assurance Guarantee"
-                                                                                                                                                                                class="img-fluid">
-                                                                                                                                                                            <h3>Quality Assurance</h3>
-                                                                                                                                                                            <p>Every office name board design we produce undergoes rigorous quality checks and adheres to top industry standards. From material integrity to design precision, our boards are crafted to deliver flawless performance and reliability.
-                                                                                                                                                                            </p>
-                                                                                                                                                                        </div>
-                                                                                                                                                                    </div>
-
-
-                                                                                                                                                                </div>
-                                                                                                                                                </section>-->
 
 
     <section class="new_client_section container pb-5">
