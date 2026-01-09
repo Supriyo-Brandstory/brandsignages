@@ -67,7 +67,7 @@
                     alt="Corporate Office Outdoor Name Board Design Sample" class="thumb" data-index="6">
                 <img src="/frontend/Images/name-boards/office-name-board-design-1.jpg"
                     alt="Corporate Office Outdoor Name Board Design Sample" class="thumb" data-index="7">
-                <img src="/frontend/Images/name-boards/office-name-board-design-6jpg"
+                <img src="/frontend/Images/name-boards/office-name-board-design-6.jpg"
                     alt="Corporate Office Outdoor Name Board Design Sample" class="thumb" data-index="7">
             </div>
         </div>
