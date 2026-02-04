@@ -802,4 +802,24 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.flat-panel-display', compact('seo'));
     }
+    public function bank_sign_board()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.bank-sign-board', compact('seo'));
+    }
+
+    public function hotel_sign_board()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.hotel-sign-board', compact('seo'));
+    }
+
+    public function real_estate_signage()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.real-estate-signage', compact('seo'));
+    }
 }

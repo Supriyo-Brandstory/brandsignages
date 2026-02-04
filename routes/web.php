@@ -105,6 +105,9 @@ Route::get('/acrylic-letters', [frontendController::class, 'acrylic_letters'])->
 Route::get('/sign-board', [frontendController::class, 'sign_board'])->name('sign_board');
 
 Route::get('/commercial-display', [frontendController::class, 'commercial_display'])->name('commercial_display');
+Route::get('/bank-sign-board', [frontendController::class, 'bank_sign_board'])->name('bank_sign_board');
+Route::get('/hotel-sign-board', [frontendController::class, 'hotel_sign_board'])->name('hotel_sign_board');
+Route::get('/real-estate-signage', [frontendController::class, 'real_estate_signage'])->name('real_estate_signage');
 Route::get('/touch-screen-kiosk', [frontendController::class, 'touch_screen_kiosk'])->name('touch_screen_kiosk');
 Route::get('/digital-standee-display', [frontendController::class, 'digital_standee_display'])->name('digital_standee_display');
 Route::get('/display-video-wall', [frontendController::class, 'display_video_wall'])->name('display_video_wall');

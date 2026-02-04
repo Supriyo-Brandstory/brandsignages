@@ -1,16 +1,16 @@
 @extends('frontend.layout.appLayout')
 @section('content')
     <style>
-        .hospital-hero {
+        .estate-hero {
             position: relative;
-            background: url('{{ asset('frontend/Images/generated/hospital_hero.png') }}') no-repeat center center/cover;
+            background: url('{{ asset('frontend/Images/generated/real_estate_hero.png') }}') no-repeat center center/cover;
             min-height: 600px;
             display: flex;
             align-items: center;
             color: white;
         }
 
-        .hospital-hero::before {
+        .estate-hero::before {
             content: "";
             position: absolute;
             top: 0;
@@ -151,7 +151,7 @@
 
         /* Mobile View Fixes */
         @media (max-width: 768px) {
-            .hospital-hero {
+            .estate-hero {
                 min-height: 450px;
                 text-align: center;
             }
@@ -203,19 +203,19 @@
         }
     </style>
 
-    <section class="hospital-hero">
+    <section class="estate-hero">
         <div class="container hero-content">
             <div class="row">
-                <div class="col-lg-7">
-                    <span class="badge mb-3 px-3 py-2 text-uppercase fw-bold bg-brand-red">Healthcare Specialist</span>
-                    <h1 class="">Smarter Wayfinding <br>For Modern Hospitals</h1>
+                <div class="col-lg-8">
+                    <span class="badge mb-3 px-3 py-2 text-uppercase fw-bold bg-brand-red">Real Estate Specialists</span>
+                    <h1 class="">Selling Lifestyles <br>Not Just Buildings</h1>
                     <p class="fs-20">
-                        Enhance patient experience and clinical efficiency with our professional medical signage systems.
-                        Designed for clarity, durability, and compliance.
+                        Maximize your property value with immersive signage and branding solutions.
+                        From site hoardings to luxury marketing galleries, we create impressions that convert.
                     </p>
                     <div class="d-flex gap-3">
                         <a href="{{ route('contact_us') }}"
-                            class="btn btn-lg btn-brand-red fw-bold px-5 py-3 rounded-pill">Get Free Audit</a>
+                            class="btn btn-lg btn-brand-red fw-bold px-5 py-3 rounded-pill">Start Your Project</a>
                         <a href="#solutions" class="btn btn-lg btn-outline-light fw-bold px-5 py-3 rounded-pill">View
                             Solutions</a>
                     </div>
@@ -228,26 +228,25 @@
         <div class="container py-lg-5">
             <div class="row align-items-center">
                 <div class="col-lg-6 order-2 order-lg-1">
-                    <img src="{{ asset('frontend/Images/generated/hospital_internal.png') }}" alt="Hospital Wayfinding"
+                    <img src="{{ asset('frontend/Images/generated/real_estate_internal.png') }}" alt="Sales Gallery"
                         class="img-fluid rounded-4 shadow-lg">
                 </div>
                 <div class="col-lg-6 ps-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
-                    <h2 class="display-5 fw-bold mb-4 text-dark">Navigating the Path to Healing</h2>
-                    <p class="text-muted mb-4 fs-5">In a high-stress medical environment, clear signage is a calming force.
-                        We specialize in interior and exterior hospital signage that directs patients intuitively, reducing
-                        anxiety and staff interruptions.</p>
+                    <h2 class="display-5 fw-bold mb-4 text-dark">Immersive Property Marketing</h2>
+                    <p class="text-muted mb-4 fs-5">Real estate branding is about establishing authority before the first
+                        brick is laid. We provide large-format and precision-engineered signage for developers.</p>
                     <ul class="list-unstyled">
                         <li class="mb-3 d-flex align-items-center">
                             <i class="fas fa-check-circle text-brand-red me-3 fa-lg"></i>
-                            <span class="fw-semibold">Antimicrobial & Hygienic Materials</span>
+                            <span class="fw-semibold">High-Fidelity Site Hoardings (UV-Protected)</span>
                         </li>
                         <li class="mb-3 d-flex align-items-center">
                             <i class="fas fa-check-circle text-brand-red me-3 fa-lg"></i>
-                            <span class="fw-semibold">ADA & Braille Compliant Modules</span>
+                            <span class="fw-semibold">Bespoke Sales Gallery & Sample Flat Branding</span>
                         </li>
                         <li class="mb-3 d-flex align-items-center">
                             <i class="fas fa-check-circle text-brand-red me-3 fa-lg"></i>
-                            <span class="fw-semibold">Digital Self-Service Wayfinding</span>
+                            <span class="fw-semibold">Integrated Project Wayfinding & Amenities Signage</span>
                         </li>
                     </ul>
                 </div>
@@ -260,26 +259,26 @@
             <div class="row text-center g-4">
                 <div class="col-md-3 col-6">
                     <div class="stat-item">
-                        <h3>250+</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Clinics Branded</p>
+                        <h3>500+</h3>
+                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Projects Branded</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="stat-item">
-                        <h3>12k+</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Signages Installed</p>
+                        <h3>1M+</h3>
+                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Sq.ft Hoardings</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="stat-item">
-                        <h3>100%</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Quality Assured</p>
+                        <h3>98%</h3>
+                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">On-Time Delivery</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="stat-item">
-                        <h3>24h</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Design Turnaround</p>
+                        <h3>15+</h3>
+                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">City Presence</p>
                     </div>
                 </div>
             </div>
@@ -289,34 +288,34 @@
     <section class="py-5 bg-light">
         <div class="container py-lg-5">
             <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold">Signage for Every Ward</h2>
+                <h2 class="display-5 fw-bold">End-to-End Estate Solutions</h2>
                 <div class="mx-auto" style="width: 80px; height: 4px; background: #E43D12;"></div>
             </div>
 
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="feature-box">
-                        <div class="icon-box"><i class="fas fa-directions fa-2x"></i></div>
-                        <h4 class="fw-bold">Directional Systems</h4>
-                        <p class="text-muted">Overhead and wall-mounted signs that guide visitors from the main entrance to
-                            sub-waiting areas and diagnostics.</p>
+                        <div class="icon-box"><i class="fas fa-image fa-2x"></i></div>
+                        <h4 class="fw-bold">Site Hoardings</h4>
+                        <p class="text-muted">Turn your construction perimeter into a massive marketing asset with vibrant
+                            graphics and robust structural frames.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-box" style="border-top-color: #000;">
-                        <div class="icon-box" style="background: #000; color: #fff;"><i class="fas fa-door-open fa-2x"></i>
+                        <div class="icon-box" style="background: #000; color: #fff;"><i class="fas fa-gem fa-2x"></i>
                         </div>
-                        <h4 class="fw-bold">Room Identifiers</h4>
-                        <p class="text-muted">Modular room signs with clinician name sliders, room numbers, and tactile
-                            Braille for full accessibility.</p>
+                        <h4 class="fw-bold">Experience Centers</h4>
+                        <p class="text-muted">Luxury interior branding that reflects your project's prestige, from backlit
+                            floor plans to elegant reception logos.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="feature-box">
-                        <div class="icon-box"><i class="fas fa-info-circle fa-2x"></i></div>
-                        <h4 class="fw-bold">Digital Informational</h4>
-                        <p class="text-muted">Dynamic floor directories and lobby kiosks that provide real-time updates on
-                            clinician availability and clinic hours.</p>
+                        <div class="icon-box"><i class="fas fa-map-signs fa-2x"></i></div>
+                        <h4 class="fw-bold">Project Wayfinding</h4>
+                        <p class="text-muted">Seamless navigation systems for sample flats and completed campuses,
+                            maintaining brand consistency throughout.</p>
                     </div>
                 </div>
             </div>
@@ -329,32 +328,31 @@
                 <div class="col-lg-5">
                     <h2 class="display-5 fw-bold mb-4">The Implementation Masterplan</h2>
                     <div class="process-step">
-                        <h5>Site Assessment</h5>
-                        <p class="text-muted">Detailed audit of the patient journey and identifying high-confusion zones.
-                        </p>
+                        <h5>Site Analysis</h5>
+                        <p class="text-muted">Detailed survey of project visibility zones and key traffic flow areas.</p>
                     </div>
                     <div class="process-step">
-                        <h5>Wayfinding Strategy</h5>
-                        <p class="text-muted">Creating a systematic logic for nomenclature and color-coding by department.
-                        </p>
+                        <h5>Creative Strategy</h5>
+                        <p class="text-muted">Developing a visual identity that aligns with your property's USP and buyer
+                            persona.</p>
                     </div>
                     <div class="process-step">
-                        <h5>Precision Fabrication</h5>
-                        <p class="text-muted">Manufacturing using non-porous, medical-grade materials that resist bacteria.
-                        </p>
+                        <h5>Industrial Fabrication</h5>
+                        <p class="text-muted">Manufacturing using UV-resistant inks and high-grade structures for maximum
+                            longevity.</p>
                     </div>
                     <div class="process-step">
-                        <h5>Planned Installation</h5>
-                        <p class="text-muted">Execution during off-peak hours to ensure zero disruption to medical services.
-                        </p>
+                        <h5>Precision Installation</h5>
+                        <p class="text-muted">Rapid deployment of site-wide branding using our specialized project
+                            management teams.</p>
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="sticky-column">
                         <div class="row g-3">
                             <div class="col-12">
-                                <img src="{{ asset('frontend/Images/generated/hospital_hero.png') }}" class="gallery-img"
-                                    alt="Hospital 1" style="height: auto; max-height: 80vh;">
+                                <img src="{{ asset('frontend/Images/generated/real_estate_hero.png') }}" class="gallery-img"
+                                    alt="Project Site" style="height: auto; max-height: 80vh;">
                             </div>
                         </div>
                     </div>
@@ -363,46 +361,47 @@
         </div>
     </section>
 
-    <!-- Hospital Experience Section (Info Boxes) -->
+    <!-- Real Estate Experience Section -->
     <section class="py-5 bg-white">
         <div class="container py-lg-5">
             <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold text-dark">Patient-First <span class="text-brand-red">Experience</span></h2>
-                <p class="text-black fw-bold">Strategic touchpoints that matter in healthcare.</p>
+                <h2 class="display-5 fw-bold text-dark">Developer-Centric <span class="text-brand-red">Excellence</span>
+                </h2>
+                <p class="text-black fw-bold">Built to survive tough site conditions while looking premium.</p>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="p-4 border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                        <div class="mb-4 text-brand-red"><i class="fas fa-wheelchair fa-3x"></i></div>
-                        <h4 class="fw-bold text-black">Accessibility Focus</h4>
-                        <p class="text-black">ADA, Braille, and height-conscious placement ensuring every patient can
-                            navigate without assistance.</p>
+                        <div class="mb-4 text-brand-red"><i class="fas fa-sun fa-3x"></i></div>
+                        <h4 class="fw-bold text-black">UV Stability</h4>
+                        <p class="text-black">Graphics that don't fade under extreme tropical sun, ensuring your site looks
+                            new for months.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="p-4 border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                        <div class="mb-4 text-brand-red"><i class="fas fa-language fa-3x"></i></div>
-                        <h4 class="fw-bold text-black">Multilingual Clarity</h4>
-                        <p class="text-black">Visual icons and multi-language support for diverse patient demographics in
-                            urban healthcare centers.</p>
+                        <div class="mb-4 text-brand-red"><i class="fas fa-wind fa-3x"></i></div>
+                        <h4 class="fw-bold text-black">Wind Resistance</h4>
+                        <p class="text-black">Structural MS frames engineered to withstand high wind loads for safe
+                            large-format hoarding.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="p-4 border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                        <div class="mb-4 text-brand-red"><i class="fas fa-microscope fa-3x"></i></div>
-                        <h4 class="fw-bold text-black">Clinical Grade</h4>
-                        <p class="text-black">Signage fabricated using non-porous materials that withstand aggressive daily
-                            chemical sanitization.</p>
+                        <div class="mb-4 text-brand-red"><i class="fas fa-shipping-fast fa-3x"></i></div>
+                        <h4 class="fw-bold text-black">Rapid Rollout</h4>
+                        <p class="text-black">Modular production systems allowing us to brand 500+ running feet of site
+                            perimeter in days.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Project Gallery Section (Enhanced Healthcare Excellence) -->
+    <!-- Project Gallery Section (Enhanced Real Estate Excellence) -->
     <section class="py-5 bg-light" id="projects">
         <style>
-            .project-card-hospital {
+            .project-card-estate {
                 position: relative;
                 overflow: hidden;
                 border-radius: 20px;
@@ -410,15 +409,15 @@
                 cursor: pointer;
             }
 
-            .project-card-hospital img {
+            .project-card-estate img {
                 transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
             }
 
-            .project-card-hospital:hover img {
+            .project-card-estate:hover img {
                 transform: scale(1.1);
             }
 
-            .project-overlay-hospital {
+            .project-overlay-estate {
                 position: absolute;
                 inset: 0;
                 background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%);
@@ -430,7 +429,7 @@
                 transition: opacity 0.3s;
             }
 
-            .plus-icon-hospital {
+            .plus-icon-estate {
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -447,46 +446,47 @@
                 transition: 0.4s;
             }
 
-            .project-card-hospital:hover .plus-icon-hospital {
+            .project-card-estate:hover .plus-icon-estate {
                 opacity: 1;
                 transform: translate(-50%, -50%) scale(1);
             }
         </style>
         <div class="container py-lg-5">
             <div class="text-center mb-5">
-                <h2 class="display-4 fw-bold text-dark">Healthcare <span class="text-brand-red">Excellence</span></h2>
-                <p class="text-muted">Delivering world-class wayfinding to India's premier healthcare chains.</p>
+                <h2 class="display-4 fw-bold text-dark">Real Estate <span class="text-brand-red">Excellence</span></h2>
+                <p class="text-muted">Marketing the most prestigious addresses in the country.</p>
             </div>
             <div class="row g-4">
                 <div class="col-lg-8">
-                    <div class="project-card-hospital shadow-lg" style="height: 500px;">
-                        <img src="{{ asset('frontend/Images/generated/hospital_hero.png') }}"
-                            class="w-100 h-100 object-fit-cover" alt="Large Hospital">
-                        <div class="plus-icon-hospital"><i class="fas fa-plus fa-lg"></i></div>
-                        <div class="project-overlay-hospital">
-                            <span class="badge bg-brand-red mb-2 align-self-start">Full Campus Rollout</span>
-                            <h3 class="fw-bold text-white mb-1">Apollo Hospitals Multispeciality</h3>
-                            <p class="text-white-50 small mb-0">1,200+ Signage units installed across 15 floors.</p>
+                    <div class="project-card-estate shadow-lg" style="height: 500px;">
+                        <img src="{{ asset('frontend/Images/generated/real_estate_hero.png') }}"
+                            class="w-100 h-100 object-fit-cover" alt="Large Development">
+                        <div class="plus-icon-estate"><i class="fas fa-plus fa-lg"></i></div>
+                        <div class="project-overlay-estate">
+                            <span class="badge bg-brand-red mb-2 align-self-start">Ultra-Luxury</span>
+                            <h3 class="fw-bold text-white mb-1">Skyline Residences</h3>
+                            <p class="text-white-50 small mb-0">Total branding rollout across 30 acres of site perimeter.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="row g-4 h-100">
                         <div class="col-12" style="height: 240px;">
-                            <div class="project-card-hospital shadow">
-                                <img src="{{ asset('frontend/Images/generated/hospital_internal.png') }}"
-                                    class="w-100 h-100 object-fit-cover" alt="Clinic">
-                                <div class="project-overlay-hospital">
-                                    <h5 class="fw-bold text-white mb-0">Max Healthcare</h5>
+                            <div class="project-card-estate shadow">
+                                <img src="{{ asset('frontend/Images/generated/real_estate_internal.png') }}"
+                                    class="w-100 h-100 object-fit-cover" alt="Sales Gallery">
+                                <div class="project-overlay-estate">
+                                    <h5 class="fw-bold text-white mb-0">The Crest Marketing Gallery</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12" style="height: 240px;">
-                            <div class="project-card-hospital shadow">
-                                <img src="{{ asset('frontend/Images/generated/hospital_hero.png') }}"
-                                    class="w-100 h-100 object-fit-cover" alt="Fortis">
-                                <div class="project-overlay-hospital">
-                                    <h5 class="fw-bold text-white mb-0">Fortis Hospital</h5>
+                            <div class="project-card-estate shadow">
+                                <img src="{{ asset('frontend/Images/generated/real_estate_hero.png') }}"
+                                    class="w-100 h-100 object-fit-cover" alt="Hoarding">
+                                <div class="project-overlay-estate">
+                                    <h5 class="fw-bold text-white mb-0">Eco-City Phase 1</h5>
                                 </div>
                             </div>
                         </div>
@@ -496,49 +496,49 @@
         </div>
     </section>
 
-    <!-- NEW SECTION: Hygiene Standards -->
+    <!-- NEW SECTION: Structural Standards -->
     <section class="py-5 bg-white">
         <div class="container py-lg-5">
             <div class="row align-items-center g-5">
                 <div class="col-lg-6">
-                    <h2 class="display-5 fw-bold text-black">Uncompromising <span class="text-brand-red">Hygiene
+                    <h2 class="display-5 fw-bold text-black">Uncompromising <span class="text-brand-red">Engineering
                             Standards</span></h2>
-                    <p class="text-black fs-5 mb-4 fw-medium">In a sterile environment, even your signs must contribute to
-                        patient safety. Our healthcare signage is built to outperform standard commercial products.</p>
+                    <p class="text-black fs-5 mb-4 fw-medium">Real estate signage must be as resilient as the buildings
+                        they market. We use structural-grade fabrication methods.</p>
                     <div class="row g-4">
                         <div class="col-md-6">
                             <div class="p-3 border-start border-4 border-brand-red bg-light">
-                                <h6 class="fw-bold text-black mb-1">Anti-Bacterial Surface</h6>
-                                <p class="small text-black mb-0">Specially treated acrylics that discourage bacterial
-                                    growth.</p>
+                                <h6 class="fw-bold text-black mb-1">MS Structural Frames</h6>
+                                <p class="small text-black mb-0">Industrial-grade steel structures for high-stability
+                                    hoarding.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="p-3 border-start border-4 border-dark bg-light">
-                                <h6 class="fw-bold text-black mb-1">UV Print Stability</h6>
-                                <p class="small text-black mb-0">Graphics that don't fade under constant UV-C disinfection
-                                    cycles.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border-start border-4 border-dark bg-light">
-                                <h6 class="fw-bold text-black mb-1">Chem-Shield Coating</h6>
-                                <p class="small text-black mb-0">Resistant to high-concentration IPA and bleach sanitizers.
+                                <h6 class="fw-bold text-black mb-1">Night-Glow Illumination</h6>
+                                <p class="small text-black mb-0">Uniform LED lighting for maximum 24/7 project visibility.
                                 </p>
                             </div>
                         </div>
                         <div class="col-md-6">
+                            <div class="p-3 border-start border-4 border-dark bg-light">
+                                <h6 class="fw-bold text-black mb-1">Weather-Shield Vinyl</h6>
+                                <p class="small text-black mb-0">High-grade cast vinyl with matte lamination to prevent
+                                    glare.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
                             <div class="p-3 border-start border-4 border-brand-red bg-light">
-                                <h6 class="fw-bold text-black mb-1">Gapless Joinery</h6>
-                                <p class="small text-black mb-0">Precision fabrication that leaves no crevices for dust
-                                    accumulation.</p>
+                                <h6 class="fw-bold text-black mb-1">Rapid Re-skinning</h6>
+                                <p class="small text-black mb-0">Modular systems that allow for fast graphic updates as
+                                    project phases evolve.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="position-relative">
-                        <img src="{{ asset('frontend/Images/generated/hospital_internal.png') }}"
+                        <img src="{{ asset('frontend/Images/generated/real_estate_internal.png') }}"
                             class="img-fluid rounded-4 shadow-lg" alt="Precision">
                     </div>
                 </div>
@@ -556,9 +556,9 @@
                         <span class="badge bg-brand-red mb-4 px-3 py-2 text-uppercase tracking-wider">Certified
                             Solutions</span>
                         <h2 class="display-4 fw-bold text-black mb-4 line-height-1">Built for <br><span
-                                class="text-brand-red">Strict Compliance</span></h2>
-                        <p class="text-black fs-5 mb-5 fw-medium">We ensure your medical facility meets all international
-                            and local safety standards without compromise, combining aesthetic appeal with regulatory rigor.
+                                class="text-brand-red">Strict Safety</span></h2>
+                        <p class="text-black fs-5 mb-5 fw-medium">We ensure your project site meets all RERA and safety
+                            regulations, combining marketing flair with industrial compliance.
                         </p>
 
                         <div class="d-flex align-items-center gap-4 mb-4">
@@ -566,8 +566,9 @@
                                 <i class="fas fa-shield-alt text-brand-red fa-2x"></i>
                             </div>
                             <div>
-                                <h5 class="text-black fw-bold mb-0">99.9% Audit Pass Rate</h5>
-                                <p class="text-black small mb-0">Trusted for NABH & JCI inspections.</p>
+                                <h5 class="text-black fw-bold mb-0">100% RERA Compliance</h5>
+                                <p class="text-black small mb-0">Ensuring all mandatory disclosures are clearly displayed.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -578,44 +579,44 @@
                             <div
                                 class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
                                 <div class="mb-3">
-                                    <i class="fas fa-fire-extinguisher text-brand-red fa-2x"></i>
+                                    <i class="fas fa-file-contract text-brand-red fa-2x"></i>
                                 </div>
-                                <h4 class="fw-bold text-black mb-3">Fire Rating</h4>
-                                <p class="text-black small mb-0">All materials used are UL94 or equivalent fire-rated to
-                                    ensure zero toxic fumes and maximum safety during emergencies.</p>
+                                <h4 class="fw-bold text-black mb-3">RERA Displays</h4>
+                                <p class="text-black small mb-0">Mandatory project disclosure boards as per latest RERA
+                                    guidelines.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div
                                 class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
                                 <div class="mb-3">
-                                    <i class="fas fa-braille text-brand-red fa-2x"></i>
+                                    <i class="fas fa-hard-hat text-brand-red fa-2x"></i>
                                 </div>
-                                <h4 class="fw-bold text-black mb-3">Tactile/Braille</h4>
-                                <p class="text-black small mb-0">Full compliance with global ADA standards, featuring
-                                    precision-machined Grade 2 Braille and tactile characters.</p>
+                                <h4 class="fw-bold text-black mb-3">Safety Signage</h4>
+                                <p class="text-black small mb-0">OSHA-compliant construction site safety and hazard
+                                    warnings.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div
                                 class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
                                 <div class="mb-3">
-                                    <i class="fas fa-certificate text-brand-red fa-2x"></i>
+                                    <i class="fas fa-road text-brand-red fa-2x"></i>
                                 </div>
-                                <h4 class="fw-bold text-black mb-3">NABH Norms</h4>
-                                <p class="text-black small mb-0">Signage layout and nomenclature designed strictly to meet
-                                    NABH and JCI accreditation requirements for patient safety.</p>
+                                <h4 class="fw-bold text-black mb-3">Public Safety</h4>
+                                <p class="text-black small mb-0">Clear public boundary markers and heavy vehicle entry
+                                    warnings.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div
                                 class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
                                 <div class="mb-3">
-                                    <i class="fas fa-bolt text-brand-red fa-2x"></i>
+                                    <i class="fas fa-exclamation-triangle text-brand-red fa-2x"></i>
                                 </div>
-                                <h4 class="fw-bold text-black mb-3">Photo-luminescent</h4>
-                                <p class="text-black small mb-0">Life-saving emergency exit signs that provide 8+ hours of
-                                    independent visibility during complete power failure.</p>
+                                <h4 class="fw-bold text-black mb-3">Site Hoarding Safety</h4>
+                                <p class="text-black small mb-0">Structurally certified hoarding installations with
+                                    engineering stability reports.</p>
                             </div>
                         </div>
                     </div>
@@ -624,15 +625,14 @@
         </div>
     </section>
 
-    <!-- Testimonials Section (Fixed Slider) -->
+    <!-- Testimonials Section -->
     <section class="py-5 bg-white">
         <div class="container py-lg-5">
             <div class="row align-items-center g-5">
                 <div class="col-lg-4 text-center text-lg-start">
-                    <h2 class="display-5 fw-bold text-dark">Trusted by <br><span class="text-brand-red">Healthcare
+                    <h2 class="display-5 fw-bold text-dark">Trusted by <br><span class="text-brand-red">Developer
                             Leaders</span></h2>
-                    <p class="text-dark fs-5 mt-4">Hear what facility managers and hospital directors say about our
-                        delivery.</p>
+                    <p class="text-dark fs-5 mt-4">See how we've helped the country's top builders sell their vision.</p>
                     <div class="mt-4 mt-lg-5 d-flex gap-3 justify-content-end justify-content-lg-start mb-4 mb-lg-0">
                         <button class="testimonial-nav-btn btn-dark shadow-sm" type="button"
                             data-bs-target="#testimonialCarousel" data-bs-slide="prev">
@@ -657,11 +657,11 @@
                                                     class="fas fa-star"></i><i class="fas fa-star"></i><i
                                                     class="fas fa-star"></i>
                                             </div>
-                                            <p class="fs-5 text-dark mb-4">"The wayfinding logic implemented by Brand
-                                                Signages reduced visitor confusion by 40%. The team is exceptionally
-                                                professional."</p>
-                                            <h6 class="fw-bold mb-0">Dr. Rajesh Kumar</h6>
-                                            <p class="small text-muted mb-0">Director of Operations, Apollo</p>
+                                            <p class="fs-5 text-dark mb-4">"The site hoarding rollout for our township
+                                                project was incredibly fast. The quality of graphics really helped set a
+                                                premium tone."</p>
+                                            <h6 class="fw-bold mb-0 text-black">VP Marketing</h6>
+                                            <p class="small text-muted mb-0">Tier-1 National Developer</p>
                                         </div>
                                     </div>
                                     <div class="col-md-6 d-none d-md-block">
@@ -671,41 +671,11 @@
                                                     class="fas fa-star"></i><i class="fas fa-star"></i><i
                                                     class="fas fa-star"></i>
                                             </div>
-                                            <p class="fs-5 mb-4">"High-quality medical grade materials and professional
-                                                installation. They are our go-to partner for chain branding needs."</p>
-                                            <h6 class="fw-bold mb-0">Ms. Anita Sharma</h6>
-                                            <p class="small text-white-50 mb-0">Facility Manager, Max Health</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row g-4">
-                                    <div class="col-md-6">
-                                        <div
-                                            class="p-5 bg-light rounded-4 border-start border-5 border-brand-red shadow-sm h-100">
-                                            <div class="mb-4 text-warning">
-                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i>
-                                            </div>
-                                            <p class="fs-5 text-dark mb-4">"Installation was silent and didn't disrupt
-                                                patient care. The Braille accuracy is perfect according to standards."</p>
-                                            <h6 class="fw-bold mb-0">Mr. Vinay Gupta</h6>
-                                            <p class="small text-muted mb-0">Operations Head, Fortis</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 d-none d-md-block">
-                                        <div class="p-5 bg-dark text-white rounded-4 shadow-sm h-100">
-                                            <div class="mb-4 text-brand-red">
-                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i>
-                                            </div>
-                                            <p class="fs-5 mb-4">"Exceptional turn-around time on custom clinic signs.
-                                                Their color matching with our brand identity was spot on."</p>
-                                            <h6 class="fw-bold mb-0">Dr. S. Mukherjee</h6>
-                                            <p class="small text-white-50 mb-0">Founder, City Clinics</p>
+                                            <p class="fs-5 mb-4 text-white">"Professional installation and strong
+                                                structural engineering. Their signage withstands the monsoon season
+                                                perfectly."</p>
+                                            <h6 class="fw-bold mb-0 text-white">Head of Construction</h6>
+                                            <p class="small text-white-50 mb-0">Luxury Residential Builder</p>
                                         </div>
                                     </div>
                                 </div>
@@ -721,67 +691,38 @@
     <section class="py-5 bg-light">
         <div class="container py-lg-5">
             <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold text-dark">Healthcare Signage <span class="text-brand-red">FAQs</span></h2>
+                <h2 class="display-5 fw-bold text-dark">Real Estate Signage <span class="text-brand-red">FAQs</span></h2>
                 <div class="mx-auto bg-brand-red mt-3" style="width: 60px; height: 3px;"></div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="accordion accordion-flush shadow-sm rounded-4 overflow-hidden" id="hospitalFaq">
+                    <div class="accordion accordion-flush shadow-sm rounded-4 overflow-hidden" id="estateFaq">
                         <div class="accordion-item border-bottom">
                             <h2 class="accordion-header">
                                 <button class="accordion-button fw-bold py-4 px-4" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hf1">
-                                    Are your materials resistant to hospital-grade disinfectants?
+                                    data-bs-toggle="collapse" data-bs-target="#ef1">
+                                    How long do the outdoor hoardings last in extreme weather?
                                 </button>
                             </h2>
-                            <div id="hf1" class="accordion-collapse collapse show" data-bs-parent="#hospitalFaq">
+                            <div id="ef1" class="accordion-collapse collapse show" data-bs-parent="#estateFaq">
                                 <div class="accordion-body p-4 text-muted">
-                                    Yes, we use sub-surface graphics and non-porous medical-grade acrylics and metals that
-                                    can be sanitized daily with aggressive chemical cleaners without fading or
-                                    deteriorating.
+                                    Our hoardings use UV-stable inks and structural frames designed for 2+ years of
+                                    exposure. They are engineered to withstand high wind loads and monsoon conditions
+                                    without fading or buckling.
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item border-bottom">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed fw-bold py-4 px-4" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hf2">
-                                    Do you provide ADA and Braille compliant signage?
+                                    data-bs-toggle="collapse" data-bs-target="#ef2">
+                                    Do you provide mandatory RERA disclosure boards?
                                 </button>
                             </h2>
-                            <div id="hf2" class="accordion-collapse collapse" data-bs-parent="#hospitalFaq">
+                            <div id="ef2" class="accordion-collapse collapse" data-bs-parent="#estateFaq">
                                 <div class="accordion-body p-4 text-muted">
-                                    Absolutely. All our room identifiers and public area signs are manufactured to meet ADA
-                                    standards, including tactile letters and Grade 2 Braille for full accessibility.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item border-bottom">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold py-4 px-4" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hf3">
-                                    Can we update clinician names on room signs easily?
-                                </button>
-                            </h2>
-                            <div id="hf3" class="accordion-collapse collapse" data-bs-parent="#hospitalFaq">
-                                <div class="accordion-body p-4 text-muted">
-                                    Yes, we offer modular slider systems or insert-based signs that allow your staff to
-                                    update names or room functions in seconds without needing tools or professional help.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold py-4 px-4" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hf4">
-                                    Do you install signage in functioning hospitals?
-                                </button>
-                            </h2>
-                            <div id="hf4" class="accordion-collapse collapse" data-bs-parent="#hospitalFaq">
-                                <div class="accordion-body p-4 text-muted">
-                                    Yes, we specialize in "silent installations." Our teams work during off-peak hours
-                                    (usually night shifts) with noiseless equipment to ensure zero disruption to patient
-                                    care and surgeries.
+                                    Yes, we provide standard-compliant RERA disclosure boards and safety signage that meet
+                                    all local regulatory requirements for construction sites.
                                 </div>
                             </div>
                         </div>
@@ -793,14 +734,14 @@
 
     <section class="py-5 text-white shadow-lg" style="background-color: #000;">
         <div class="container py-4 text-center">
-            <h2 class="display-5 fw-bold mb-4">Standardize Your Facility's Signage Today</h2>
-            <p class="mb-5 opacity-75 fs-5 mx-auto" style="max-width: 700px;">Join 500+ healthcare institutions that trust
-                Brand Signages for their branding needs. Let's make your facility patient-friendly.</p>
+            <h2 class="display-5 fw-bold mb-4">Launch Your Project with Impact</h2>
+            <p class="mb-5 opacity-75 fs-5 mx-auto" style="max-width: 700px;">Join the elite list of developers who trust
+                Brand Signages for visual excellence. Let's make your site a landmark.</p>
             <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="{{ route('contact_us') }}" class="btn btn-lg btn-brand-red fw-bold rounded-pill px-5 py-3">Get a
-                    Site Audit</a>
-                <a href="tel:+919900000000" class="btn btn-lg btn-outline-light fw-bold rounded-pill px-5 py-3">Call Our
-                    Consultant</a>
+                <a href="{{ route('contact_us') }}"
+                    class="btn btn-lg btn-brand-red fw-bold rounded-pill px-5 py-3">Request Site Audit</a>
+                <a href="tel:+919000000000" class="btn btn-lg btn-outline-light fw-bold rounded-pill px-5 py-3">Speak to
+                    Specialist</a>
             </div>
         </div>
     </section>

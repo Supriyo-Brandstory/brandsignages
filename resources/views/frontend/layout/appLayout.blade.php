@@ -171,8 +171,16 @@
                                         <h6 class="dropdown-header">Signages by Industry</h6>
                                         <a class="dropdown-item" href="{{ route('hospital_signages') }}">Healthcare
                                             Sign</a>
-                                        <a class="dropdown-item" href="{{ route('restaurant_signages') }}">Hotels and
-                                            Restaurants Sign</a>
+                                        <a class="dropdown-item" href="{{ route('bank_sign_board') }}">Bank & Finance
+                                            Sign</a>
+                                        <a class="dropdown-item" href="{{ route('hotel_sign_board') }}">Hotel
+                                            Sign Board</a>
+                                        <a class="dropdown-item" href="{{ route('real_estate_signage') }}">Real
+                                            Estate
+                                            Signage</a>
+                                        <a class="dropdown-item"
+                                            href="{{ route('restaurant_signages') }}">Restaurants
+                                            Sign</a>
                                         <a class="dropdown-item"
                                             href="{{ route('construction_safety_signages') }}">Construction Safety
                                             Sign</a>
