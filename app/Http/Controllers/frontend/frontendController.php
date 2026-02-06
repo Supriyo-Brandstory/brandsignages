@@ -802,6 +802,30 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.flat-panel-display', compact('seo'));
     }
+
+
+    public function lollipop_pylon_signage()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.lollipop-pylon-signage', compact('seo'));
+    }
+    public function directional_signages()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.directional-signages', compact('seo'));
+    }
+    public function safety_signages()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.safety-signages', compact('seo'));
+    }
+
+
+
+
     public function bank_sign_board()
     {
         $currentRoute = Route::current()->uri();

@@ -113,8 +113,9 @@ Route::get('/digital-standee-display', [frontendController::class, 'digital_stan
 Route::get('/display-video-wall', [frontendController::class, 'display_video_wall'])->name('display_video_wall');
 Route::get('/flat-panel-display', [frontendController::class, 'flat_panel_display'])->name('flat_panel_display');
 
-
-
+Route::get('/lollipop-pylon-signage', [frontendController::class, 'lollipop_pylon_signage'])->name('lollipop_pylon_signage');
+Route::get('/directional-signages', [frontendController::class, 'directional_signages'])->name('directional_signages');
+Route::get('/safety-signages', [frontendController::class, 'safety_signages'])->name('safety_signages');
 
 
 

@@ -148,6 +148,81 @@
             transform: scale(1.1);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
         }
+        .process-card {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.process-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.process-number {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: rgba(228, 61, 18, 0.1);
+    color: #E43D12;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.assurance-card {
+    background: #fff;
+    padding: 32px 24px;
+    border-radius: 16px;
+    height: 100%;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.assurance-card i {
+    font-size: 28px;
+    color: #E43D12;
+    margin-bottom: 16px;
+}
+
+.assurance-card h6 {
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.assurance-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .assurance-card {
+        padding: 24px 20px;
+    }
+
+    .assurance-card h6 {
+        font-size: 15px;
+    }
+
+    .assurance-card p {
+        font-size: 13px;
+    }
+}
+
+
+
 
         /* Mobile View Fixes */
         @media (max-width: 768px) {
@@ -685,6 +760,91 @@
         </div>
     </section>
 
+    <section class="py-5 bg-white">
+    <div class="container py-lg-5">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold text-dark">Process in <span class="text-brand-red">3 Simple Steps</span></h2>
+            <div class="mx-auto bg-brand-red mt-3" style="width: 60px; height: 3px;"></div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="process-card text-center">
+                    <div class="process-number">01</div>
+                    <h5 class="fw-bold mt-3">Design</h5>
+                    <p class="text-muted small mb-0">Requirement mapping and compliance-ready concepts.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="process-card text-center">
+                    <div class="process-number">02</div>
+                    <h5 class="fw-bold mt-3">Manufacture</h5>
+                    <p class="text-muted small mb-0">Precision fabrication using certified materials.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="process-card text-center">
+                    <div class="process-number">03</div>
+                    <h5 class="fw-bold mt-3">Install</h5>
+                    <p class="text-muted small mb-0">On-site execution with minimal operational downtime.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-6 fw-bold text-dark">
+                Our <span class="text-brand-red">Key Assurances</span>
+            </h2>
+            <p class="text-muted mt-2">
+                Built to meet the expectations of regulated financial institutions.
+            </p>
+            <div class="mx-auto bg-brand-red mt-3" style="width: 60px; height: 3px;"></div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-3 col-sm-6">
+                <div class="assurance-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h6>Brand Consistency</h6>
+                    <p>Uniform execution across all branches and regions.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="assurance-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h6>Regulatory Compliance</h6>
+                    <p>Aligned with RBI and global banking safety norms.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="assurance-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h6>PAN-India Execution</h6>
+                    <p>Consistent delivery across urban and remote locations.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="assurance-card">
+                    <i class="fas fa-user-tie"></i>
+                    <h6>Dedicated Ownership</h6>
+                    <p>Single point of contact for end-to-end coordination.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
     <!-- FAQ Section -->
     <section class="py-5 bg-light">
         <div class="container py-lg-5">
@@ -735,7 +895,7 @@
             <h2 class="display-5 fw-bold mb-4">Elevate Your Institutional Branding</h2>
             <p class="mb-5 opacity-75 fs-5 mx-auto" style="max-width: 700px;">Join the elite list of financial
                 institutions that trust Brand Signages for their visual excellence. Let's start your rollout today.</p>
-            <div class="d-flex flex-wrap justify-content-center gap-3">
+            <div cl ass="d-flex flex-wrap justify-content-center gap-3">
                 <a href="{{ route('contact_us') }}" class="btn btn-lg btn-brand-red fw-bold rounded-pill px-5 py-3">Get a
                     Quote</a>
                 <a href="tel:+919000000000" class="btn btn-lg btn-outline-light fw-bold rounded-pill px-5 py-3">Call
