@@ -88,7 +88,7 @@
                 </div>
                 <div class="signage-item short">
                     <img src="frontend/Images/new/safety-sign-7.webp" alt="">
-                    <div class="card-label">Emergency Exit Signage</div>
+                    <div class="card-label">Emergency Exit Signages</div>
                 </div>
             </div>
         </div>
