@@ -13,20 +13,19 @@
 
                 <div class="col-lg-6 visible-mobile">
                     <div class="hero-image">
-                        <img src="https://picsum.photos/800/600?random=1" class="img-fluid" alt="Safety Signage">
+                        <img src="frontend/Images/new/safety-sign-1.webp" class="img-fluid" alt="Safety Signage">
                         <div class="hero-float-card">
-                            <strong>Site Safety Ready</strong>
+                            <strong>Indus. Safety Signages</strong>
                             <span>Mandatory PPE • Clear Warnings • Compliance</span>
                         </div>
                     </div>
                 </div>
 
-                <h1>Safety Signages That <br>Turn Hazards into Awareness</h1>
+                <h1>Safety Signages- <br>Turn Hazards into Awareness</h1>
 
                 <p class="mt-3">
-                    From construction sites to industrial facilities, our safety signages
-                    help reduce risks, improve compliance, and protect lives with clarity
-                    and durability.
+                    Make your workspace and shared environments safer for everyone with safety signages designed to make people stop, 
+                    notice, and act. Our thoughtfully crafted safety signages go beyond basic warning signs.
                 </p>
 
                 <div class="hero-cta mt-4 d-flex gap-3 flex-wrap">
@@ -37,10 +36,10 @@
 
             <div class="col-lg-6 hidden-mobile">
                 <div class="hero-image">
-                    <img src="https://picsum.photos/800/600?random=1" class="img-fluid" alt="Safety Signage">
+                    <img src="frontend/Images/new/safety-sign-1.webp" class="img-fluid" alt="Safety Signage">
                     <div class="hero-float-card">
-                        <strong>Site Safety Ready</strong>
-                        <span>Mandatory PPE • Clear Warnings • Compliance</span>
+                        <strong>Indus. Safety Signages</strong>
+                        <span>Mandatory PPE • Warning Signs • Compliance</span>
                     </div>
                 </div>
             </div>
@@ -52,40 +51,44 @@
     <div class="container">
         <div class="signage-layout">
             <div class="signage-left">
-                <h2>Hazardous to Harmless:<br><span>Safety Signage</span><br>Keeps You Protected</h2>
+                <h2>Turn Safety Risks into <br>Clear Visual Awareness</h2>
                 <p>
-                    Establish visual communication with people and inform them of hazards
-                    using safety signages. ARC India delivers high-quality road safety,
-                    fire safety, and work safety signage that enhances protection,
-                    compliance, and brand value.
+                    Safety signages play a critical role in guiding people, controlling behavior, and minimizing workplace and 
+                    public safety risks. Well-designed safety signs ensure hazards are clearly communicated, emergency instructions
+                     are easily understood, and safety protocols are followed without hesitation.
+                </p>
+                <p>
+                    <a href="/" style="color:#E43D12; text-decoration:none;"><strong>Brand Signages</strong></a> provides reliable safety signage solutions for roads, <a href="/" style="color:#E43D12; text-decoration:none;"><strong>fire safety</strong></a>, and industrial workplaces.
+                     Crafted for long-term performance and maximum visibility, our safety signages help improve compliance, reduce
+                      accidents, and create safer environments- while reflecting professionalism and trust.
                 </p>
                 <a href="#" class="btn btn-brand-red">Start Your Project →</a>
             </div>
 
             <div class="signage-right">
                 <div class="signage-item tall">
-                    <img src="https://picsum.photos/600/800?random=1" alt="">
-                    <div class="card-label">Safety Signages</div>
+                    <img src="frontend/Images/new/safety-sign-2.webp" alt="">
+                    <div class="card-label">A Frame Signages</div>
                 </div>
                 <div class="signage-item short">
-                    <img src="https://picsum.photos/600/600?random=2" alt="">
-                    <div class="card-label">Custom Safety Signages</div>
+                    <img src="frontend/Images/new/safety-sign-3.webp" alt="">
+                    <div class="card-label">Under Construction Signages</div>
                 </div>
                 <div class="signage-item short">
-                    <img src="https://picsum.photos/600/600?random=3" alt="">
-                    <div class="card-label">Office Safety Signages</div>
+                    <img src="frontend/Images/new/safety-sign-4.webp" alt="">
+                    <div class="card-label">Exit Signages</div>
                 </div>
                 <div class="signage-item tall">
-                    <img src="https://picsum.photos/600/800?random=4" alt="">
-                    <div class="card-label">Customized Safety Signages</div>
+                    <img src="frontend/Images/new/safety-sign-5.webp" alt="">
+                    <div class="card-label">Warning Safety Signages</div>
                 </div>
                 <div class="signage-item tall">
-                    <img src="https://picsum.photos/600/800?random=5" alt="">
-                    <div class="card-label">Eco-Friendly Safety Signages</div>
+                    <img src="frontend/Images/new/safety-sign-6.webp" alt="">
+                    <div class="card-label">Do Not Enter Signages</div>
                 </div>
                 <div class="signage-item short">
-                    <img src="https://picsum.photos/600/600?random=6" alt="">
-                    <div class="card-label">Safety Signage Design Service hello</div>
+                    <img src="frontend/Images/new/safety-sign-7.webp" alt="">
+                    <div class="card-label">Emergency Exit Signage</div>
                 </div>
             </div>
         </div>
@@ -96,19 +99,20 @@
     <div class="container">
         <div class="layout">
             <div class="safety-image">
-                <img src="https://picsum.photos/900/500?random=21" alt="Safety Signage Example">
+                <img src="frontend/Images/new/safety-sign-8.webp" alt="Safety Signage Example">
             </div>
             <div>
-                <h3>Safety Signage for <span>Critical Times</span>:<br>Mastering Safety Communication</h3>
+                <h3>Smarter Safety Signage <br>for Safer Workspaces</h3>
                 <p>
-                    Custom construction signage is a simple, cost-effective approach
-                    to ensure that your safety and instructional messages are clearly
-                    communicated to employees, visitors, and subcontractors.
+                    Custom safety signages play a vital role in reducing risks and maintaining order across 
+                    construction sites, industrial facilities, and commercial spaces. When safety instructions 
+                    are clear and visible, people respond faster and make safer decisions.
                 </p>
                 <p>
-                    From work safety signage and exit signs to fire safety and elevator
-                    signage, our <strong>printing solutions</strong> help protect people
-                    while enhancing navigation and brand presence across your organization.
+                    Our comprehensive range of industrial safety signages includes work safety signs, fire safety 
+                    signs, exit signage, elevator signs, and wayfinding solutions. Designed to meet safety standards
+                     and built to last, our signage solutions improve navigation, ensure compliance, and reinforce your
+                      commitment to safety and quality.
                 </p>
                 <a href="#" class="btn btn-brand-red">Get a Quote</a>
             </div>
@@ -121,42 +125,43 @@
         <div class="row align-items-start">
             <div class="col-lg-7">
                 <div class="editorial-copy">
-                    <h3>Safety Signages<br>That Govern<br><span>Human Behaviour</span></h3>
+                    <h3>Safety Signages That Build <br>Awareness Before Risk Appears</h3>
                     <p>
-                        Safety signages are not decorations. They are silent
-                        instructions that influence movement, decisions, and
-                        reactions during critical moments.
+                        Safety signages are silent guardians of any environment. They work in the background guiding 
+                        movement, setting boundaries, and creating a shared understanding of how a space should be used 
+                        safely. In fast-moving workplaces and public areas, these visual cues help people make the right 
+                        decisions instinctively, without hesitation or confusion.
                     </p>
                     <p>
-                        Designed with high-contrast colors, standardized symbols,
-                        and precise messaging, they reduce ambiguity, ensure
-                        compliance, and protect lives across industrial and
-                        public environments.
+                        By placing the right <a href="/safety-signages" style="color:#E43D12; text-decoration:none;"><strong>safety signages</strong></a> and <a href="/prohibitory-signages" style="color:#E43D12; text-decoration:none;"><strong>prohibitory signages</strong></a> at the right points, organizations create smoother workflows,
+                         better preparedness, and a culture where safety becomes second nature. Beyond protection, well-planned
+                          safety signage also supports regulatory readiness and reflects a responsible, well-managed operation that
+                           values people as much as productivity.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4">
                 <div class="case-stack">
-                    <a href="#" class="case-row">
+                    <a href="/case-studies" class="case-row">
                         <div class="case-line"></div>
                         <div class="case-content">
-                            <span class="case-title">Sandisk India <span class="case-arrow">↗</span></span>
-                            <span class="case-meta">Industrial Safety Rollout</span>
+                            <span class="case-title">Titan Showroom <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">Retail Signage With Impact</span>
                         </div>
                     </a>
-                    <a href="#" class="case-row">
+                    <a href="/case-studies" class="case-row">
                         <div class="case-line"></div>
                         <div class="case-content">
-                            <span class="case-title">Sagility Health <span class="case-arrow">↗</span></span>
-                            <span class="case-meta">Healthcare Compliance</span>
+                            <span class="case-title">Fortis Hospital <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">Healthcare Signage With Clarity</span>
                         </div>
                     </a>
-                    <a href="#" class="case-row">
+                    <a href="/case-studies" class="case-row">
                         <div class="case-line"></div>
                         <div class="case-content">
-                            <span class="case-title">GE Vernova <span class="case-arrow">↗</span></span>
-                            <span class="case-meta">High-Risk Facility Signage</span>
+                            <span class="case-title">Prestige Group <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">Office Signage Made Clear</span>
                         </div>
                     </a>
                 </div>
@@ -168,10 +173,14 @@
 <section class="safety-flow">
     <div class="container flow-wrapper">
         <header class="flow-header">
-            <h2>Safety That’s <span>Engineered to Be Understood</span></h2>
+            <h2>Safety Communication That Works When It Matters Most</h2>
             <p>
-                Safety signage is not decoration or compliance.
-                It’s a visual language that prevents mistakes before they happen.
+                Safety isn’t about putting up signs- it’s about making sure people understand what to do without stopping to think.
+                 The right safety signage creates instant awareness, reduces hesitation, and guides action in real-world situations 
+                 where clarity can prevent serious incidents.
+            </p>
+            <p>
+                We are the largest safety sign board makers in India offering competitive prices, customization, and on-time delivery. 
             </p>
         </header>
 
@@ -179,10 +188,10 @@
             <div class="flow-item left">
                 <span class="flow-no">01</span>
                 <div class="flow-content">
-                    <h4>End-to-End Safety Signage</h4>
+                    <h4>Purpose-Driven Safety Signages</h4>
                     <p>
-                        From standard warnings to complex emergency systems,
-                        we design safety signage as a complete, coherent ecosystem.
+                        We don’t create isolated signs. We build safety signage systems that work together guiding 
+                        movement, highlighting risk zones, and supporting quick decision-making across the entire space.
                     </p>
                 </div>
             </div>
@@ -190,10 +199,10 @@
             <div class="flow-item right">
                 <span class="flow-no">02</span>
                 <div class="flow-content">
-                    <h4>Advanced Materials & Technology</h4>
+                    <h4>Built for Visibility & Longevity</h4>
                     <p>
-                        High-visibility inks, industrial substrates, and weather-resistant
-                        finishes ensure clarity in the harshest conditions.
+                        Our safety signages are crafted using durable materials, bold visual contrast, and long-lasting 
+                        finishes to remain clear and readable in demanding industrial and outdoor environments.
                     </p>
                 </div>
             </div>
@@ -201,10 +210,10 @@
             <div class="flow-item left">
                 <span class="flow-no">03</span>
                 <div class="flow-content">
-                    <h4>Industry-Specific Customization</h4>
+                    <h4>Designed Around Real Environments</h4>
                     <p>
-                        Every environment behaves differently.
-                        Our signage adapts to real workflows, regulations, and human behavior.
+                        No two workplaces function the same. Our safety signage solutions are customized to match actual 
+                        site conditions, operational flow, and compliance requirements, ensuring messages are seen, understood, and followed.
                     </p>
                 </div>
             </div>
@@ -269,20 +278,181 @@
     </div>
 </section>
 
-<section class="faq-section">
-    <div class="container">
-        <h1 class="faq-title">FAQs</h1>
+    <section class="new_testimonial-swiper-section">
+        <div class="container">
+            <h2 class="text-center mb-md-5 mb-3">Feedback from Our Valuable Clients</h2>
 
-        <div class="faq-item">
-            <button class="faq-question">What is Signage?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
-            <div class="faq-answer">
-                <p>Signages are visual communication tools like boards, symbols, graphics, or digital displays- created
-                    to convey messages, identify a place, promote a brand, or guide people. They include everything from 
-                    <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name boards</strong></a> 
-                    and <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED sign boards</strong></a> to safety signs and directional signs used in public and commercial 
-                    spaces.</p>  
+            <div class="position-relative">
+
+                <!-- Navigation Arrows (placed OUTSIDE swiper container) -->
+                <div class="new_testimonial-button-prev">
+                    <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40" height="40">
+                </div>
+                <div class="new_testimonial-button-next">
+                    <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40" height="40">
+                </div>
+
+                <!-- Swiper -->
+                <div class="swiper new_testimonial-swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide Item -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    Our tech startup needed a signage solution that matched our innovative spirit. The
+                                    design team didn't just create a sign; they captured our company's entire essence.
+                                    The LED-powered brand display has become a conversation starter for clients and
+                                    employees alike.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/sneha-reddy.webp') }}" alt="Sneha Reddy- Our Client"
+                                        class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sneha Reddy</h6>
+                                        <small class="text-muted">Marketing Head – Urban Retail Co.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Duplicate Slide -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    We needed stunning, durable, and regulation-compliant signage for our hospital,
+                                    and Brand Signages delivered exactly what we asked for. Their attention to detail
+                                    is excellent, which helped us enhance the patient experience.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/seema.webp') }}" alt="Seema - Our Client"
+                                        class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Seema Nayak</h6>
+                                        <small class="text-muted">Operations Manager– Horizon Hospitals</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    From initial conceptualization to execution, they executed our café signage project
+                                    seamlessly. They perfectly captured the aesthetics of our brand with vibrant acrylic
+                                    signs and a neon board that has quickly become an Instagram favorite among local people.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/sandeep-gupta.webp') }}"
+                                        alt="Sandeep Gupta - Our Client" class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sandeep Gupta</h6>
+                                        <small class="text-muted">Founder – Café Bloom</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    We needed elegant indoor and outdoor corporate signage that matched our branding.
+                                    Brand Signages impressed us with their quick turnaround, premium finish, and seamless
+                                    coordination throughout the signage project.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/vikram-sharma.webp') }}"
+                                        alt="Sandeep Gupta - Our Client" class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sandeep Gupta</h6>
+                                        <small class="text-muted">Director– Nova Consulting Group</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
+
+<section class="faq-section">
+    <div class="container">
+        <h1 class="faq-title">Safety Signage FAQs</h1>
+
+<div class="faq-item">
+    <button class="faq-question">What are Safety Signages?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Safety signages are visual communication tools designed to warn, guide, and inform people about potential hazards, safety instructions, and emergency procedures. They are commonly used in workplaces, construction sites, public areas, and industrial environments to reduce risks and prevent accidents.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">Why are Safety Signages important in workplaces?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Safety signages help create awareness, guide behavior, and ensure people follow safety protocols. Clear and visible safety signs reduce confusion, improve response during emergencies, and play a key role in protecting employees, visitors, and assets.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">Where should Safety Signages be installed?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Safety signages should be installed at high-risk zones, entry and exit points, machinery areas, fire-prone locations, staircases, elevators, and emergency routes. Proper placement ensures safety messages are seen and understood at the right moment.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">What types of Safety Signages are commonly used?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Common safety signages include warning signs, mandatory instruction signs, prohibition signs, emergency exit signs, fire safety signs, and informational safety signs. Each type serves a specific purpose in maintaining a safe environment.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">Are Safety Signages mandatory for compliance?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Yes, safety signages are often required to meet workplace safety regulations and industry standards. Proper signage helps organizations comply with safety norms while demonstrating responsibility toward employee and public safety.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">Can Safety Signages be customized for specific industries?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Yes, safety signages can be customized based on industry requirements, site conditions, workflows, and regulatory guidelines. Custom safety signs ensure better relevance, visibility, and effectiveness in real-world environments.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">What materials are used for Safety Signages?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Safety signages are made using durable materials such as aluminum, acrylic, PVC, reflective sheets, and weather-resistant substrates. These materials ensure long-lasting visibility, even in harsh indoor and outdoor conditions.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">How do Safety Signages help during emergencies?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>During emergencies, safety signages provide clear directions for evacuation, highlight emergency exits, and guide people toward safety equipment. They reduce panic and enable faster, safer decision-making.</p>
+    </div>
+</div>
+
 
         <!-- remaining FAQ items unchanged – keeping only structure here for brevity -->
         <!-- you can paste the rest of the FAQ items as they were -->
@@ -290,16 +460,5 @@
     </div>
 </section>
 
-<section class="py-5 text-white shadow-lg" style="background: linear-gradient(135deg, #0f2027, #203a43, #468ead);">
-    <div class="container py-4 text-center">
-        <h2 class="display-5 fw-bold mb-4">Elevate Your Institutional Branding</h2>
-        <p class="mb-5 opacity-75 fs-5 mx-auto" style="max-width: 700px;">Join the elite list of financial
-            institutions that trust Brand Signages for their visual excellence. Let's start your rollout today.</p>
-        <div class="d-flex flex-wrap justify-content-center gap-3">
-            <a href="{{ route('contact_us') }}" class="btn btn-lg btn-brand-red fw-bold rounded-pill px-5 py-3">Get a Quote</a>
-            <a href="tel:+919000000000" class="btn btn-lg btn-outline-light fw-bold rounded-pill px-5 py-3">Call Now</a>
-        </div>
-    </div>
-</section>
 
 @endsection
