@@ -6,6 +6,22 @@ h1, h2, h3, h4 {
     font-family: 'Lora', serif;
 }
 
+.text-brand-red{
+    color: #E43D12;
+    font-family: 'Lora', serif;
+}
+
+@media (max-width: 786px) {
+    h1{
+        font-size: 32px;        
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 23px;
+    }
+}
 @media (max-width: 767px) {
     .why-card-body {
         padding: 1rem;
@@ -4772,18 +4788,17 @@ ul.brand-list {
 
 
     .safety-hero h1 {
-        font-size: 48px;
-        font-weight: 700;
+        /* font-size: 48px;
+        font-weight: 700; */
         line-height: 1.15;
     }
 
-    .signage-left h2,
-    .flow-header h2,
+    /* .flow-header h2,
     .editorial-copy h3 {
         font-size: 40px;
         font-weight: 700;
         line-height: 1.15;
-    }
+    } */
 
     .safety-hero {
         background: linear-gradient(135deg, #0f2027, #203a43, #468ead);

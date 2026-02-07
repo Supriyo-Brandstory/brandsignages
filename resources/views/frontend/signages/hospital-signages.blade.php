@@ -1,6 +1,10 @@
 @extends('frontend.layout.appLayout')
 @section('content')
     <style>
+
+        h2 span{
+            font-family: 'lora', sans-serif;
+        }
         .hospital-hero {
             position: relative;
             background: url('{{ asset('frontend/Images/generated/hospital_hero.png') }}') no-repeat center center/cover;
@@ -80,6 +84,10 @@
             padding-left: 30px;
             margin-bottom: 30px;
             position: relative;
+        }
+
+        .stage-shadow{
+            box-shadow: 0 100px 80px -60px rgba(0, 0, 0, 0.5);
         }
 
         .process-step::before {
@@ -228,11 +236,11 @@
         <div class="container py-lg-5">
             <div class="row align-items-center">
                 <div class="col-lg-6 order-2 order-lg-1">
-                    <img src="{{ asset('frontend/Images/generated/hospital_internal.png') }}" alt="Hospital Wayfinding"
-                        class="img-fluid rounded-4 shadow-lg">
+                    <img src="https://archello.s3.eu-central-1.amazonaws.com/images/2024/09/27/prashant-parmar-architect-modern-hospital-interior-at-ratnanjali-solitaire-hospitals-archello.1727437060.3087.jpg" alt="Hospital Wayfinding"
+                        class="stage-shadow img-fluid rounded-4">
                 </div>
                 <div class="col-lg-6 ps-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
-                    <h2 class="display-5 fw-bold mb-4 text-dark">Navigating the Path to Healing</h2>
+                    <h2 class="display-5 fw-bold mb-4 text-dark">Navigating the <span class="text-brand-red">Path to Healing</span></h2>
                     <p class="text-muted mb-4 fs-5">In a high-stress medical environment, clear signage is a calming force.
                         We specialize in interior and exterior hospital signage that directs patients intuitively, reducing
                         anxiety and staff interruptions.</p>
@@ -255,36 +263,101 @@
         </div>
     </section>
 
+<style>
+    .stat-section {
+        background: linear-gradient(135deg, #0f2027, #203a43, #468ead);
+        padding: 5.5rem 0;
+        color: #fff;
+    }
+
+    .stat-col {
+        border-right: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .stat-col:last-child {
+        border-right: none;
+    }
+
+    .stat-item {
+        padding: 2.5rem 1rem;
+    }
+
+    .stat-item h3 {
+        font-size: 3.2rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+        color: #ffffff;
+    }
+
+    .stat-item p {
+        margin: 0;
+        font-size: 13px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.75);
+        font-weight: 700;
+    }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+        .stat-section {
+            padding: 3.5rem 0;
+        }
+
+        .stat-col {
+            border-right: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .stat-col:nth-child(3),
+        .stat-col:nth-child(4) {
+            border-bottom: none;
+        }
+
+        .stat-item h3 {
+            font-size: 2.2rem;
+        }
+    }
+
+</style>
+
     <section class="stat-section">
-        <div class="container">
-            <div class="row text-center g-4">
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>250+</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Clinics Branded</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>12k+</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Signages Installed</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>100%</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Quality Assured</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>24h</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Design Turnaround</p>
-                    </div>
+    <div class="container">
+        <div class="row text-center align-items-center g-0">
+
+            <div class="col-md-3 col-6 stat-col">
+                <div class="stat-item">
+                    <h3>250+</h3>
+                    <p>Clinics Branded</p>
                 </div>
             </div>
+
+            <div class="col-md-3 col-6 stat-col">
+                <div class="stat-item">
+                    <h3>12k+</h3>
+                    <p>Signages Installed</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6 stat-col">
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Quality Assured</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6 stat-col">
+                <div class="stat-item">
+                    <h3>24h</h3>
+                    <p>Design Turnaround</p>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
+
 
     <section class="py-5 bg-light">
         <div class="container py-lg-5">

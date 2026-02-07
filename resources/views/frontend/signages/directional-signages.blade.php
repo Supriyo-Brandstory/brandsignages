@@ -268,10 +268,6 @@
                     spaces.</p>  
             </div>
         </div>
-
-        <!-- remaining FAQ items unchanged – keeping only structure here for brevity -->
-        <!-- you can paste the rest of the FAQ items as they were -->
-
     </div>
 </section>
 
