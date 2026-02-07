@@ -7,25 +7,24 @@
             <div class="col-lg-6">
                 <div class="hero-badges">
                     <div class="hero-badge">ISO Compliant</div>
-                    <div class="hero-badge">Wayfinding Excellence</div>
-                    <div class="hero-badge">Custom Directional</div>
+                    <div class="hero-badge">High Visibility</div>
+                    <div class="hero-badge">Custom Branding</div>
                 </div>
 
                 <div class="col-lg-6 visible-mobile">
                     <div class="hero-image">
-                        <img src="https://picsum.photos/800/600?random=1" class="img-fluid" alt="Directional Signage">
+                        <img src="https://picsum.photos/800/600?random=1" class="img-fluid" alt="Pylon Signage">
                         <div class="hero-float-card">
-                            <strong>Navigation Ready</strong>
-                            <span>Clear Arrows • Intuitive Guidance • Seamless Flow</span>
+                            <strong>Brand Ready from Afar</strong>
+                            <span>Tall Structure • LED Illumination • Maximum Reach</span>
                         </div>
                     </div>
                 </div>
 
-                <h1>Directional Signages That <br>Guide with Clarity & Confidence</h1>
+                <h1>Pylon & Lollipop Signs That<br>Dominate From a Distance</h1>
 
                 <p class="mt-3">
-                    From offices and hospitals to campuses and public spaces, our directional signages
-                    ensure effortless wayfinding, reduce confusion, and enhance user experience with sleek, readable designs.
+                    Tall, striking, and built to be seen—our pylon and lollipop signage solutions give your brand commanding roadside, mall, or highway presence with premium design and durable construction.
                 </p>
 
                 <div class="hero-cta mt-4 d-flex gap-3 flex-wrap">
@@ -36,10 +35,10 @@
 
             <div class="col-lg-6 hidden-mobile">
                 <div class="hero-image">
-                    <img src="https://picsum.photos/800/600?random=1" class="img-fluid" alt="Directional Signage">
+                    <img src="https://picsum.photos/800/600?random=1" class="img-fluid" alt="Pylon Signage">
                     <div class="hero-float-card">
-                        <strong>Navigation Ready</strong>
-                        <span>Clear Arrows • Intuitive Guidance • Seamless Flow</span>
+                        <strong>Brand Ready from Afar</strong>
+                        <span>Tall Structure • LED Illumination • Maximum Reach</span>
                     </div>
                 </div>
             </div>
@@ -51,9 +50,9 @@
     <div class="container">
         <div class="signage-layout">
             <div class="signage-left">
-                <h2>Confusing to Clear:<br><span>Directional Signage</span><br>Leads the Way</h2>
+                <h2>From Invisible to Iconic:<br><span>Pylon & Lollipop Signage</span><br>Makes Your Brand Stand Tall</h2>
                 <p>
-                    Provide intuitive visual guidance with directional and wayfinding signages. ARC India delivers high-quality indoor and outdoor directional signs, arrows, yard signs, and custom solutions that streamline navigation, reduce stress, and elevate the visitor experience across any space.
+                    Create powerful first impressions with tall pylon signs, elegant lollipop boards, and modern totem/monolith designs. ARC India delivers high-visibility, custom outdoor signage that boosts brand recall, drives footfall, and owns the skyline—day and night.
                 </p>
                 <a href="#" class="btn btn-brand-red">Start Your Project →</a>
             </div>
@@ -61,27 +60,27 @@
             <div class="signage-right">
                 <div class="signage-item tall">
                     <img src="https://picsum.photos/600/800?random=1" alt="">
-                    <div class="card-label">Directional Signages</div>
+                    <div class="card-label">Pylon Signage</div>
                 </div>
                 <div class="signage-item short">
                     <img src="https://picsum.photos/600/600?random=2" alt="">
-                    <div class="card-label">Custom Wayfinding Signs</div>
+                    <div class="card-label">Custom Lollipop Signs</div>
                 </div>
                 <div class="signage-item short">
                     <img src="https://picsum.photos/600/600?random=3" alt="">
-                    <div class="card-label">Indoor Directional Signs</div>
+                    <div class="card-label">Totem & Monolith Signs</div>
                 </div>
                 <div class="signage-item tall">
                     <img src="https://picsum.photos/600/800?random=4" alt="">
-                    <div class="card-label">Outdoor Directional Signs</div>
+                    <div class="card-label">LED Illuminated Pylons</div>
                 </div>
                 <div class="signage-item tall">
                     <img src="https://picsum.photos/600/800?random=5" alt="">
-                    <div class="card-label">Yard & Pylon Signage</div>
+                    <div class="card-label">Weatherproof Outdoor Signs</div>
                 </div>
                 <div class="signage-item short">
                     <img src="https://picsum.photos/600/600?random=6" alt="">
-                    <div class="card-label">Directional Signage Design Service</div>
+                    <div class="card-label">Highway & Mall Branding hello</div>
                 </div>
             </div>
         </div>
@@ -92,15 +91,15 @@
     <div class="container">
         <div class="layout">
             <div class="safety-image">
-                <img src="https://picsum.photos/900/500?random=21" alt="Directional Signage Example">
+                <img src="https://picsum.photos/900/500?random=21" alt="Pylon Signage Example">
             </div>
             <div>
-                <h3>Directional Signage for <span>Every Journey</span>:<br>Mastering Wayfinding Communication</h3>
+                <h3>Pylon & Lollipop Signs for <span>Maximum Impact</span>:<br>Own the Roadside</h3>
                 <p>
-                    Custom directional signage is a simple, cost-effective way to guide visitors, employees, and customers effortlessly through any space—whether it's finding reception, parking, conference rooms, or exits.
+                    Tall pylon and lollipop signage is a powerful, cost-effective way to ensure your brand message reaches thousands of passing vehicles and visitors every day.
                 </p>
                 <p>
-                    From arrows and traffic signs to indoor wayfinding systems and outdoor yard signs, our <strong>printing solutions</strong> deliver clarity, reduce frustration, and support seamless navigation while reinforcing brand consistency.
+                    From roadside pylons and illuminated lollipops to full totem/monolith structures, our <strong>signage solutions</strong> deliver 24/7 visibility, guide customers straight to you, and strengthen brand presence at malls, petrol stations, restaurants, hospitals, and commercial complexes.
                 </p>
                 <a href="#" class="btn btn-brand-red">Get a Quote</a>
             </div>
@@ -113,12 +112,12 @@
         <div class="row align-items-start">
             <div class="col-lg-7">
                 <div class="editorial-copy">
-                    <h3>Directional Signages<br>That Shape<br><span>Human Movement</span></h3>
+                    <h3>Pylon & Lollipop Signs<br>That Shape<br><span>Brand Perception</span></h3>
                     <p>
-                        Directional signages are more than markers. They are silent guides that direct flow, eliminate confusion, and create intuitive journeys in complex environments.
+                        These aren't just signs—they're landmarks. Tall structures that cut through visual noise, guide attention, and create instant recognition from hundreds of meters away.
                     </p>
                     <p>
-                        Crafted with high-contrast visuals, clear arrows, standardized icons, and precise messaging, they ensure quick understanding, effortless wayfinding, and enhanced experiences in offices, hospitals, colleges, malls, and public areas.
+                        Built with high-contrast graphics, vibrant LED lighting, premium materials, and bold messaging, they deliver clarity, durability, and unmatched roadside impact for commercial environments.
                     </p>
                 </div>
             </div>
@@ -129,21 +128,21 @@
                         <div class="case-line"></div>
                         <div class="case-content">
                             <span class="case-title">Sandisk India <span class="case-arrow">↗</span></span>
-                            <span class="case-meta">Wayfinding Rollout</span>
+                            <span class="case-meta">Campus Pylon Rollout</span>
                         </div>
                     </a>
                     <a href="#" class="case-row">
                         <div class="case-line"></div>
                         <div class="case-content">
                             <span class="case-title">Sagility Health <span class="case-arrow">↗</span></span>
-                            <span class="case-meta">Hospital Navigation</span>
+                            <span class="case-meta">Hospital Wayfinding & Branding</span>
                         </div>
                     </a>
                     <a href="#" class="case-row">
                         <div class="case-line"></div>
                         <div class="case-content">
                             <span class="case-title">GE Vernova <span class="case-arrow">↗</span></span>
-                            <span class="case-meta">Campus Directional System</span>
+                            <span class="case-meta">Industrial Totem & Pylon</span>
                         </div>
                     </a>
                 </div>
@@ -155,10 +154,9 @@
 <section class="safety-flow">
     <div class="container flow-wrapper">
         <header class="flow-header">
-            <h2>Wayfinding That’s <span>Engineered to Guide</span></h2>
+            <h2>Visibility That’s <span>Engineered to Stand Out</span></h2>
             <p>
-                Directional signage is not decoration or afterthought.
-                It’s a visual system that prevents disorientation and creates smooth journeys from arrival to destination.
+                Pylon and lollipop signage isn't decoration—it's strategic architecture that captures eyes before customers even reach your entrance.
             </p>
         </header>
 
@@ -166,9 +164,9 @@
             <div class="flow-item left">
                 <span class="flow-no">01</span>
                 <div class="flow-content">
-                    <h4>End-to-End Directional Solutions</h4>
+                    <h4>End-to-End Pylon & Lollipop Solutions</h4>
                     <p>
-                        From simple arrows to comprehensive wayfinding ecosystems, we design directional signage as a unified, intuitive network for any indoor or outdoor space.
+                        From concept and 3D design to fabrication, LED integration, civil foundation, and professional installation—we deliver complete, turnkey signage systems.
                     </p>
                 </div>
             </div>
@@ -176,9 +174,9 @@
             <div class="flow-item right">
                 <span class="flow-no">02</span>
                 <div class="flow-content">
-                    <h4>Advanced Materials & Printing</h4>
+                    <h4>Premium Materials & LED Technology</h4>
                     <p>
-                        High-visibility prints, durable substrates, and weather-resistant finishes keep signs clear and legible in all conditions—indoors and outdoors.
+                        Aluminum/steel frames, high-grade acrylic, weatherproof finishes, and energy-efficient LED modules keep your brand bright and sharp in any condition.
                     </p>
                 </div>
             </div>
@@ -186,16 +184,15 @@
             <div class="flow-item left">
                 <span class="flow-no">03</span>
                 <div class="flow-content">
-                    <h4>Customized for Every Environment</h4>
+                    <h4>Brand-Specific Customization</h4>
                     <p>
-                        Every space has unique flows and needs. Our signage adapts to real-world navigation patterns, regulations, and branding for maximum effectiveness.
+                        Every location and brand is unique. We tailor height, shape, lighting, colors, and messaging to match your identity and dominate your surroundings.
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 
 <section class="new_client_section container">
     <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
