@@ -13,7 +13,7 @@
 
                 <div class="col-lg-6 visible-mobile">
                     <div class="hero-image">
-                        <img src="https://picsum.photos/800/600?random=1" class="img-fluid" alt="Directional Signage">
+                        <img src="frontend/Images/new/direction-sign-1.webp" class="img-fluid" alt="Directional Signage">
                         <div class="hero-float-card">
                             <strong>Navigation Ready</strong>
                             <span>Clear Arrows • Intuitive Guidance • Seamless Flow</span>
@@ -37,7 +37,7 @@
 
             <div class="col-lg-6 hidden-mobile">
                 <div class="hero-image">
-                    <img src="https://picsum.photos/800/600?random=1" class="img-fluid" alt="Directional Signage">
+                    <img src="frontend/Images/new/direction-sign-1.webp" class="img-fluid" alt="Directional Signage">
                     <div class="hero-float-card">
                         <strong>Navigation Ready</strong>
                         <span>Clear Arrows • Intuitive Guidance • Seamless Flow</span>
@@ -68,28 +68,28 @@
 
             <div class="signage-right">
                 <div class="signage-item tall">
-                    <img src="https://picsum.photos/600/800?random=1" alt="">
+                    <img src="frontend/Images/new/direction-sign-2.webp" alt="Directional Signage">
                     <div class="card-label">Directional Signages</div>
                 </div>
                 <div class="signage-item short">
-                    <img src="https://picsum.photos/600/600?random=2" alt="">
+                    <img src="frontend/Images/new/direction-sign-7.webp" alt="Custom Wayfinding Signs">
                     <div class="card-label">Custom Wayfinding Signs</div>
                 </div>
                 <div class="signage-item short">
-                    <img src="https://picsum.photos/600/600?random=3" alt="">
+                    <img src="frontend/Images/new/direction-sign-5.webp" alt="Custom Wayfinding Signs">
                     <div class="card-label">Indoor Directional Signs</div>
                 </div>
                 <div class="signage-item tall">
-                    <img src="https://picsum.photos/600/800?random=4" alt="">
+                    <img src="frontend/Images/new/direction-4.webp" alt="Directional Signage">
                     <div class="card-label">Outdoor Directional Signs</div>
                 </div>
                 <div class="signage-item tall">
-                    <img src="https://picsum.photos/600/800?random=5" alt="">
-                    <div class="card-label">Yard & Pylon Signage</div>
+                    <img src="frontend/Images/new/direction-sign-3.webp" alt="Outdoor Directional Signs">
+                    <div class="card-label">Outdoor Direction Signs</div>
                 </div>
                 <div class="signage-item short">
-                    <img src="https://picsum.photos/600/600?random=6" alt="">
-                    <div class="card-label">Directional Signage Design Service</div>
+                    <img src="frontend/Images/new/direction-sign-6.webp" alt="">
+                    <div class="card-label">Directional Signage Design</div>
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@
     <div class="container">
         <div class="layout">
             <div class="safety-image">
-                <img src="https://picsum.photos/900/500?random=21" alt="Directional Signage Example">
+                <img src="frontend/Images/new/direction-sign-8.webp" alt="Directional Signage Example">
             </div>
             <div>
                 <h3>Wayfinding Signages- Guide Every Visitor with Ease</h3>
@@ -213,7 +213,7 @@
     <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
     <div class="row">
         <div class="col-md-5 new_client_section-image col-12">
-            <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
+            <img src="{{ asset('frontend/Images/new/direction-sign-9.webp') }}" alt="Direction Signage">
         </div>
         <div class="col-md-7 new_client_section-scrolling col-12">
             <div class="new_client_section-wrapper">
