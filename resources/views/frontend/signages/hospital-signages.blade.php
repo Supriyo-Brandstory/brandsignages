@@ -1,6 +1,10 @@
 @extends('frontend.layout.appLayout')
 @section('content')
     <style>
+
+        h2 span{
+            font-family: 'lora', sans-serif;
+        }
         .hospital-hero {
             position: relative;
             background: url('{{ asset('frontend/Images/generated/hospital_hero.png') }}') no-repeat center center/cover;
@@ -80,6 +84,10 @@
             padding-left: 30px;
             margin-bottom: 30px;
             position: relative;
+        }
+
+        .stage-shadow{
+            box-shadow: 0 100px 80px -60px rgba(0, 0, 0, 0.5);
         }
 
         .process-step::before {
@@ -228,11 +236,11 @@
         <div class="container py-lg-5">
             <div class="row align-items-center">
                 <div class="col-lg-6 order-2 order-lg-1">
-                    <img src="{{ asset('frontend/Images/generated/hospital_internal.png') }}" alt="Hospital Wayfinding"
-                        class="img-fluid rounded-4 shadow-lg">
+                    <img src="https://archello.s3.eu-central-1.amazonaws.com/images/2024/09/27/prashant-parmar-architect-modern-hospital-interior-at-ratnanjali-solitaire-hospitals-archello.1727437060.3087.jpg" alt="Hospital Wayfinding"
+                        class="stage-shadow img-fluid rounded-4">
                 </div>
                 <div class="col-lg-6 ps-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
-                    <h2 class="display-5 fw-bold mb-4 text-dark">Navigating the Path to Healing</h2>
+                    <h2 class="display-5 fw-bold mb-4 text-dark">Navigating the <span class="text-brand-red">Path to Healing</span></h2>
                     <p class="text-muted mb-4 fs-5">In a high-stress medical environment, clear signage is a calming force.
                         We specialize in interior and exterior hospital signage that directs patients intuitively, reducing
                         anxiety and staff interruptions.</p>
@@ -255,73 +263,237 @@
         </div>
     </section>
 
+<style>
+    .stat-section {
+        background: linear-gradient(135deg, #0f2027, #203a43, #468ead);
+        padding: 5.5rem 0;
+        color: #fff;
+    }
+
+    .stat-col {
+        border-right: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .stat-col:last-child {
+        border-right: none;
+    }
+
+    .stat-item {
+        padding: 2.5rem 1rem;
+    }
+
+    .stat-item h3 {
+        font-size: 3.2rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+        color: #ffffff;
+    }
+
+    .stat-item p {
+        margin: 0;
+        font-size: 13px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.75);
+        font-weight: 700;
+    }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+        .stat-section {
+            padding: 3.5rem 0;
+        }
+
+        .stat-col {
+            border-right: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .stat-col:nth-child(3),
+        .stat-col:nth-child(4) {
+            border-bottom: none;
+        }
+
+        .stat-item h3 {
+            font-size: 2.2rem;
+        }
+    }
+
+</style>
+
     <section class="stat-section">
-        <div class="container">
-            <div class="row text-center g-4">
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>250+</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Clinics Branded</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>12k+</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Signages Installed</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>100%</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Quality Assured</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>24h</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Design Turnaround</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="container">
+        <div class="row text-center align-items-center g-0">
 
-    <section class="py-5 bg-light">
-        <div class="container py-lg-5">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold">Signage for Every Ward</h2>
-                <div class="mx-auto" style="width: 80px; height: 4px; background: #E43D12;"></div>
+            <div class="col-md-3 col-6 stat-col">
+                <div class="stat-item">
+                    <h3>250+</h3>
+                    <p>Clinics Branded</p>
+                </div>
             </div>
 
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <div class="icon-box"><i class="fas fa-directions fa-2x"></i></div>
-                        <h4 class="fw-bold">Directional Systems</h4>
-                        <p class="text-muted">Overhead and wall-mounted signs that guide visitors from the main entrance to
-                            sub-waiting areas and diagnostics.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box" style="border-top-color: #000;">
-                        <div class="icon-box" style="background: #000; color: #fff;"><i class="fas fa-door-open fa-2x"></i>
-                        </div>
-                        <h4 class="fw-bold">Room Identifiers</h4>
-                        <p class="text-muted">Modular room signs with clinician name sliders, room numbers, and tactile
-                            Braille for full accessibility.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <div class="icon-box"><i class="fas fa-info-circle fa-2x"></i></div>
-                        <h4 class="fw-bold">Digital Informational</h4>
-                        <p class="text-muted">Dynamic floor directories and lobby kiosks that provide real-time updates on
-                            clinician availability and clinic hours.</p>
-                    </div>
+            <div class="col-md-3 col-6 stat-col">
+                <div class="stat-item">
+                    <h3>12k+</h3>
+                    <p>Signages Installed</p>
                 </div>
             </div>
+
+            <div class="col-md-3 col-6 stat-col">
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Quality Assured</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6 stat-col">
+                <div class="stat-item">
+                    <h3>24h</h3>
+                    <p>Design Turnaround</p>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
+
+
+<style>
+    /* ===============================
+   SIGNAGE SYSTEM – ROBUST
+=============================== */
+
+.system-eyebrow {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E43D12;
+}
+
+/* SYSTEM WRAPPER */
+.signage-system {
+    border-top: 1px solid rgba(0,0,0,0.12);
+}
+
+/* ROW */
+.system-row {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 40px;
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    align-items: flex-start;
+}
+
+/* INDEX */
+.system-index {
+    font-size: 28px;
+    font-weight: 900;
+    color: #E43D12;
+    line-height: 1;
+}
+
+/* CONTENT */
+.system-content h4 {
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.system-content p {
+    margin: 0;
+    color: #444;
+    line-height: 1.7;
+    max-width: 640px;
+}
+
+/* SUBTLE HOVER (DESKTOP ONLY) */
+@media (hover: hover) {
+    .system-row {
+        transition: background-color 0.35s ease;
+    }
+
+    .system-row:hover {
+        background: rgba(0,0,0,0.03);
+    }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .system-row {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .system-index {
+        font-size: 22px;
+    }
+}
+
+</style>
+
+<section class="py-5 bg-light" id="wards">
+    <div class="container py-lg-5">
+
+        <div class="row mb-5 align-items-end">
+            <div class="col-lg-5">
+                <span class="system-eyebrow">Hospital Signage System</span>
+                <h2 class="display-5 fw-bold text-black mt-3">
+                    Signage for <span class="text-brand-red">Every Ward</span>
+                </h2>
+            </div>
+            <div class="col-lg-7">
+                <p class="fs-5 text-muted mb-0">
+                    A unified signage language deployed consistently across
+                    diagnostics, OPD, emergency, and inpatient facilities.
+                </p>
+            </div>
+        </div>
+
+        <!-- SYSTEM LIST -->
+        <div class="signage-system">
+
+            <div class="system-row">
+                <div class="system-index">01</div>
+                <div class="system-content">
+                    <h4>Directional Wayfinding</h4>
+                    <p>
+                        Ceiling-hung and wall-mounted signs guiding patients
+                        from entry points to departments, diagnostics, and wards
+                        with zero ambiguity.
+                    </p>
+                </div>
+            </div>
+
+            <div class="system-row">
+                <div class="system-index">02</div>
+                <div class="system-content">
+                    <h4>Room & Ward Identification</h4>
+                    <p>
+                        Modular room identifiers with tactile lettering,
+                        Braille compliance, and clinician name interchangeability.
+                    </p>
+                </div>
+            </div>
+
+            <div class="system-row">
+                <div class="system-index">03</div>
+                <div class="system-content">
+                    <h4>Digital Information Displays</h4>
+                    <p>
+                        Electronic directories and kiosks displaying live
+                        department status, clinician availability, and wayfinding.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
 
     <section class="py-5">
         <div class="container py-lg-5">
@@ -365,39 +537,121 @@
 
     <!-- Hospital Experience Section (Info Boxes) -->
     <section class="py-5 bg-white">
-        <div class="container py-lg-5">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold text-dark">Patient-First <span class="text-brand-red">Experience</span></h2>
-                <p class="text-black fw-bold">Strategic touchpoints that matter in healthcare.</p>
+    <div class="container py-lg-5">
+
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <h2 class="display-5 fw-bold text-black">
+                    Patient-First <span class="text-brand-red">Experience</span>
+                </h2>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-4 border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                        <div class="mb-4 text-brand-red"><i class="fas fa-wheelchair fa-3x"></i></div>
-                        <h4 class="fw-bold text-black">Accessibility Focus</h4>
-                        <p class="text-black">ADA, Braille, and height-conscious placement ensuring every patient can
-                            navigate without assistance.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-4 border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                        <div class="mb-4 text-brand-red"><i class="fas fa-language fa-3x"></i></div>
-                        <h4 class="fw-bold text-black">Multilingual Clarity</h4>
-                        <p class="text-black">Visual icons and multi-language support for diverse patient demographics in
-                            urban healthcare centers.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-4 border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                        <div class="mb-4 text-brand-red"><i class="fas fa-microscope fa-3x"></i></div>
-                        <h4 class="fw-bold text-black">Clinical Grade</h4>
-                        <p class="text-black">Signage fabricated using non-porous materials that withstand aggressive daily
-                            chemical sanitization.</p>
-                    </div>
-                </div>
+            <div class="col-lg-6">
+                <p class="fs-5 text-muted mb-0">
+                    Experience principles embedded into every signage decision,
+                    ensuring clarity, dignity, and accessibility at scale.
+                </p>
             </div>
         </div>
-    </section>
+
+        <div class="principle-list">
+
+            <div class="principle-item">
+                <h4>Universal Accessibility</h4>
+                <p>
+                    ADA-compliant layouts, Braille integration, and height-aware
+                    placement ensuring navigation without assistance.
+                </p>
+            </div>
+
+            <div class="principle-item">
+                <h4>Multilingual Wayfinding</h4>
+                <p>
+                    Clear iconography and language adaptability designed for
+                    diverse patient demographics in high-footfall facilities.
+                </p>
+            </div>
+
+            <div class="principle-item">
+                <h4>Clinical-Grade Materials</h4>
+                <p>
+                    Non-porous, disinfectant-resistant substrates engineered
+                    to withstand daily sanitization protocols.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+ 
+    <style>
+        /* ===============================
+   PRINCIPLE / EXPERIENCE LIST
+=============================== */
+
+.principle-list {
+    display: grid;
+    gap: 36px;
+    max-width: 900px;
+}
+
+/* ITEM */
+.principle-item {
+    position: relative;
+    padding-left: 28px;
+}
+
+/* LEFT ACCENT RULE */
+.principle-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 4px;
+    height: 100%;
+    background: #E43D12;
+}
+
+/* TITLE */
+.principle-item h4 {
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+/* BODY */
+.principle-item p {
+    margin: 0;
+    color: #444;
+    line-height: 1.75;
+    max-width: 720px;
+}
+
+/* SUBTLE INTERACTION (DESKTOP ONLY) */
+@media (hover: hover) {
+    .principle-item {
+        transition: transform 0.3s ease;
+    }
+
+    .principle-item:hover {
+        transform: translateX(4px);
+    }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .principle-list {
+        gap: 28px;
+    }
+
+    .principle-item {
+        padding-left: 22px;
+    }
+}
+
+    </style>
+
+</section>
 
     <!-- Project Gallery Section (Enhanced Healthcare Excellence) -->
     <section class="py-5 bg-light" id="projects">
