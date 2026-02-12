@@ -352,7 +352,24 @@ body.no-scroll {
 
 /* Desktop Width - Hover Only */
 @media (min-width: 992px) {
-    .dropdown-mega:hover .mega-menu-container {
+
+    /* Create a hover bridge so moving mouse from link to menu doesn't break hover */
+    .dropdown-mega>.nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        width: 100%;
+        height: 15px;
+        display: block;
+        z-index: 10;
+        background: transparent;
+    }
+
+    /* Use both :hover and .show class for stability */
+    .dropdown-mega:hover .mega-menu-container,
+    .dropdown-mega.show .mega-menu-container,
+    .mega-menu-container.show {
         display: block !important;
         pointer-events: auto;
         opacity: 1;

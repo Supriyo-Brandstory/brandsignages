@@ -112,12 +112,14 @@ document.addEventListener('DOMContentLoaded', () => {
     function setupStandardDropdownHover() {
         const dropdowns = document.querySelectorAll('.nav-item.dropdown');
         dropdowns.forEach(dropdown => {
-            const toggle = dropdown.querySelector('.dropdown-toggle');
+            const toggle = dropdown.querySelector('.dropdown-toggle, .custom-dropdown-toggle');
             const menu = dropdown.querySelector('.dropdown-menu');
+            let timeout;
 
             if (toggle && menu) {
                 dropdown.addEventListener('mouseenter', () => {
                     if (window.innerWidth >= 992) {
+                        clearTimeout(timeout);
                         toggle.classList.add('show');
                         menu.classList.add('show');
                         toggle.setAttribute('aria-expanded', 'true');
@@ -126,9 +128,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 dropdown.addEventListener('mouseleave', () => {
                     if (window.innerWidth >= 992) {
-                        toggle.classList.remove('show');
-                        menu.classList.remove('show');
-                        toggle.setAttribute('aria-expanded', 'false');
+                        timeout = setTimeout(() => {
+                            toggle.classList.remove('show');
+                            menu.classList.remove('show');
+                            toggle.setAttribute('aria-expanded', 'false');
+                        }, 200); // 200ms delay to allow crossing gaps
                     }
                 });
             }
