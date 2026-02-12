@@ -9,6 +9,27 @@ h4 {
     font-family: 'Lora', serif;
 }
 
+.text-brand-red{
+    color: #E43D12;
+    font-family: 'Lora', serif;
+}
+
+h3 span{
+    color: blue;
+    font-family: "Lora", serif !important;
+}
+
+@media (max-width: 786px) {
+    h1{
+        font-size: 32px;        
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 23px;
+    }
+}
 @media (max-width: 767px) {
     .why-card-body {
         padding: 1rem;
@@ -4628,6 +4649,7 @@ ul.brand-list {
     transform: scale(1.05);
 }
 
+<<<<<<< HEAD
 @media (max-width: 991px) {
     .canvas-grid {
         grid-template-columns: 1fr;
@@ -4642,6 +4664,168 @@ ul.brand-list {
         grid-column: span 12 !important;
         grid-row: auto !important;
     }
+=======
+        @media (max-width: 991px) {
+            .canvas-grid {
+                grid-template-columns: 1fr;
+                grid-gap: 20px;
+            }
+
+            .item-large,
+            .item-side,
+            .item-bottom-left,
+            .item-bottom-mid,
+            .item-bottom-right {
+                grid-column: span 12 !important;
+                grid-row: auto !important;
+            }
+
+            .item-large .canvas-img-box img,
+            .item-bottom-right .canvas-img-box img,
+            .canvas-img-box img {
+                height: 250px !important;
+            }
+
+            .artistic-canvas {
+                padding: 60px 0;
+            }
+        }
+
+
+        .script-symphony {
+            position: relative;
+            padding: 10px 0 90px;
+            background: #ffffff;
+            overflow: hidden;
+        }
+
+        .glyph-bg {
+            position: absolute;
+            font-size: 300px;
+            font-weight: 900;
+            color: rgba(228, 61, 18, 0.03);
+            line-height: 1;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .glyph-kannada {
+            top: -50px;
+            left: -50px;
+        }
+
+        .glyph-hindi {
+            bottom: -50px;
+            right: -50px;
+        }
+
+        .symphony-composition {
+            position: relative;
+            z-index: 1;
+        }
+
+        .featured-script-img {
+            position: relative;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 50px 100px rgba(0, 0, 0, 0.1);
+            transform: perspective(1000px) rotateY(-5deg);
+            transition: 0.5s;
+        }
+
+        .featured-script-img:hover {
+            transform: perspective(1000px) rotateY(0deg);
+        }
+
+        .script-badge-float {
+            position: absolute;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            bottom: -30px;
+            right: -30px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-left: 5px solid #E43D12;
+        }
+
+        .sym-content {
+            padding-left: 40px;
+        }
+
+        @media (max-width: 991px) {
+            .glyph-bg {
+                font-size: 120px;
+                opacity: 0.05;
+            }
+
+            .glyph-kannada {
+                top: 10px;
+                left: 10px;
+            }
+
+            .glyph-hindi {
+                bottom: 10px;
+                right: 10px;
+            }
+
+            .sym-content {
+                padding-left: 10px;
+                margin-top: 30px;
+                text-align: center;
+            }
+
+            .sym-content h2 {
+                text-align: center !important;
+                font-size: 28px !important;
+            }
+
+            .featured-script-img {
+                transform: none !important;
+                border-radius: 20px;
+            }
+
+            .script-badge-float {
+                position: relative;
+                right: auto;
+                bottom: auto;
+                width: 100%;
+                margin: 20px 0 0;
+                left: auto;
+                padding: 15px;
+                border: 1px solid rgba(0, 0, 0, 0.05);
+                border-left: 5px solid #E43D12;
+            }
+
+            .script-symphony {
+                padding: 0 0 50px;
+            }
+
+            .sym-content .d-flex {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 10px !important;
+            }
+        }
+
+
+
+    .safety-hero h1 {
+        /* font-size: 48px;
+        font-weight: 700; */
+        line-height: 1.15;
+    }
+
+    /* .flow-header h2,
+    .editorial-copy h3 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.15;
+    } */
+>>>>>>> master
 
     .item-large .canvas-img-box img,
     .item-bottom-right .canvas-img-box img,

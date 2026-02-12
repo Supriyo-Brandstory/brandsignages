@@ -8,7 +8,7 @@
                 <div class="hero-badges">
                     <div class="hero-badge">ISO Compliant</div>
                     <div class="hero-badge">Wayfinding Excellence</div>
-                    <div class="hero-badge">Custom Directional</div>
+                    <div class="hero-badge">Custom Signages</div>
                 </div>
 
                 <div class="col-lg-6 visible-mobile">
@@ -21,11 +21,12 @@
                     </div>
                 </div>
 
-                <h1>Directional Signages That <br>Guide with Clarity & Confidence</h1>
+                <h1>Directional Signage Designed for Effortless Wayfinding</h1>
 
                 <p class="mt-3">
-                    From offices and hospitals to campuses and public spaces, our directional signages
-                    ensure effortless wayfinding, reduce confusion, and enhance user experience with sleek, readable designs.
+                    At Brand Signages, we create sleek, easy-to-read directional and wayfinding signages that guide 
+                    visitors effortlessly through offices, hospitals, campuses, and public spaces, enhancing their 
+                    experience with clear, intuitive navigation.
                 </p>
 
                 <div class="hero-cta mt-4 d-flex gap-3 flex-wrap">
@@ -51,9 +52,16 @@
     <div class="container">
         <div class="signage-layout">
             <div class="signage-left">
-                <h2>Confusing to Clear:<br><span>Directional Signage</span><br>Leads the Way</h2>
+                <h2>Directional Yard Signs: Simplifying Navigation</h2>
                 <p>
-                    Provide intuitive visual guidance with directional and wayfinding signages. ARC India delivers high-quality indoor and outdoor directional signs, arrows, yard signs, and custom solutions that streamline navigation, reduce stress, and elevate the visitor experience across any space.
+                When navigating a new office, hospital, campus, or public space, clear signage makes all the difference. 
+                Well-designed directional signs guide visitors effortlessly, helping them find the right path quickly 
+                while reducing confusion and stress. 
+                </p>
+                <p>
+                We offer a comprehensive range of wayfinding solutions, including directional yard signs, <a href="/indoor-signages" style="color:#E43D12; text-decoration:none;"><strong>indoor signs</strong></a> and outdoor
+                 directional signs, <a href="/safety-signages" style="color:#E43D12; text-decoration:none;"><strong>exit signs</strong></a>, and more. Each signage is crafted with precision and clarity, combining sleek
+                  design with easy readability.  
                 </p>
                 <a href="#" class="btn btn-brand-red">Start Your Project →</a>
             </div>
@@ -95,12 +103,12 @@
                 <img src="https://picsum.photos/900/500?random=21" alt="Directional Signage Example">
             </div>
             <div>
-                <h3>Directional Signage for <span>Every Journey</span>:<br>Mastering Wayfinding Communication</h3>
+                <h3>Wayfinding Signages- Guide Every Visitor with Ease</h3>
                 <p>
-                    Custom directional signage is a simple, cost-effective way to guide visitors, employees, and customers effortlessly through any space—whether it's finding reception, parking, conference rooms, or exits.
+                    Directional and wayfinding signages play a vital role in helping people navigate spaces confidently. From offices, hospitals, and campuses to public parks and retail areas, these signages do more than just point the way- they provide clear, actionable information that ensures smooth movement.
                 </p>
                 <p>
-                    From arrows and traffic signs to indoor wayfinding systems and outdoor yard signs, our <strong>printing solutions</strong> deliver clarity, reduce frustration, and support seamless navigation while reinforcing brand consistency.
+                    At <a href="/" style="color:#E43D12; text-decoration:none;"><strong>Brand Signages</strong></a>, we create high-quality directional signages that are both functional and visually striking. Using precise printing and modern design techniques, our indoor and outdoor wayfinding signs including yard signs, arrows, and exit signs are built for clarity and readability. Whether guiding a student to a classroom, a patient to a clinic, or a customer to a store, our signages help every visitor find their way effortlessly.
                 </p>
                 <a href="#" class="btn btn-brand-red">Get a Quote</a>
             </div>
@@ -113,37 +121,37 @@
         <div class="row align-items-start">
             <div class="col-lg-7">
                 <div class="editorial-copy">
-                    <h3>Directional Signages<br>That Shape<br><span>Human Movement</span></h3>
+                    <h3>Guide Visitors Effortlessly <br>with Brand Signages</span></h3>
                     <p>
-                        Directional signages are more than markers. They are silent guides that direct flow, eliminate confusion, and create intuitive journeys in complex environments.
+                        Lost visitors mean lost opportunities. Brand Signages eliminates confusion with smart directional signages that get people where they need to go. Our <a href="/directional-signages" style="color:#E43D12; text-decoration:none;"><strong>directional signage</strong></a> speaks clearly through strategic color coding, universally recognized symbols, and placement that anticipates traffic flow.
                     </p>
                     <p>
-                        Crafted with high-contrast visuals, clear arrows, standardized icons, and precise messaging, they ensure quick understanding, effortless wayfinding, and enhanced experiences in offices, hospitals, colleges, malls, and public areas.
+                        We don't just point directions; we create confidence. Whether guiding patients through medical facilities, shoppers through retail centers, or employees across corporate campuses, our <a href="/directional-signages" style="color:#E43D12; text-decoration:none;"><strong>wayfinding solutions</strong></a> reduce stress and save time for everyone on the move. We use clear arrows, readable text, and smart signage placement to guide people across indoor and outdoor areas without confusion helping places function better every day.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-4">
                 <div class="case-stack">
-                    <a href="#" class="case-row">
+                    <a href="/case-studies" class="case-row">
                         <div class="case-line"></div>
                         <div class="case-content">
-                            <span class="case-title">Sandisk India <span class="case-arrow">↗</span></span>
-                            <span class="case-meta">Wayfinding Rollout</span>
+                            <span class="case-title">Titan Showroom <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">Retail Signage With Impact</span>
                         </div>
                     </a>
-                    <a href="#" class="case-row">
+                    <a href="/case-studies" class="case-row">
                         <div class="case-line"></div>
                         <div class="case-content">
-                            <span class="case-title">Sagility Health <span class="case-arrow">↗</span></span>
-                            <span class="case-meta">Hospital Navigation</span>
+                            <span class="case-title">Fortis Hospital <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">Healthcare Signage With Clarity</span>
                         </div>
                     </a>
-                    <a href="#" class="case-row">
+                    <a href="/case-studies" class="case-row">
                         <div class="case-line"></div>
                         <div class="case-content">
-                            <span class="case-title">GE Vernova <span class="case-arrow">↗</span></span>
-                            <span class="case-meta">Campus Directional System</span>
+                            <span class="case-title">Prestige Group <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">Office Signage Made Clear</span>
                         </div>
                     </a>
                 </div>
@@ -155,10 +163,11 @@
 <section class="safety-flow">
     <div class="container flow-wrapper">
         <header class="flow-header">
-            <h2>Wayfinding That’s <span>Engineered to Guide</span></h2>
+            <h2>Why Every Business Needs Directional Signages</h2>
             <p>
-                Directional signage is not decoration or afterthought.
-                It’s a visual system that prevents disorientation and creates smooth journeys from arrival to destination.
+                First impressions matter. When visitors enter your space and immediately know where to go, you've already won
+                 half the battle. Directional signages eliminate frustration, reduce inquiries to your staff, and create a 
+                 professional atmosphere that reflects well on your brand.
             </p>
         </header>
 
@@ -166,9 +175,10 @@
             <div class="flow-item left">
                 <span class="flow-no">01</span>
                 <div class="flow-content">
-                    <h4>End-to-End Directional Solutions</h4>
+                    <h4>Built to Last</h4>
                     <p>
-                        From simple arrows to comprehensive wayfinding ecosystems, we design directional signage as a unified, intuitive network for any indoor or outdoor space.
+                        Our directional solutions withstand daily wear and harsh conditions without fading or deteriorating. 
+                        Whether mounted indoors or exposed to the elements, they maintain their appearance year after year.
                     </p>
                 </div>
             </div>
@@ -176,9 +186,10 @@
             <div class="flow-item right">
                 <span class="flow-no">02</span>
                 <div class="flow-content">
-                    <h4>Advanced Materials & Printing</h4>
+                    <h4>Crystal-Clear Visibility</h4>
                     <p>
-                        High-visibility prints, durable substrates, and weather-resistant finishes keep signs clear and legible in all conditions—indoors and outdoors.
+                        Brand Signages uses cutting-edge materials and production techniques to ensure every sign is
+                         sharp, legible, and impossible to miss even from a distance or in low-light conditions.
                     </p>
                 </div>
             </div>
@@ -186,9 +197,10 @@
             <div class="flow-item left">
                 <span class="flow-no">03</span>
                 <div class="flow-content">
-                    <h4>Customized for Every Environment</h4>
+                    <h4>Seamless Setup</h4>
                     <p>
-                        Every space has unique flows and needs. Our signage adapts to real-world navigation patterns, regulations, and branding for maximum effectiveness.
+                        Getting your signage installed shouldn't be a headache. Our team handles the entire process 
+                        efficiently, minimizing disruption to your operations while ensuring perfect placement for maximum impact.
                     </p>
                 </div>
             </div>
@@ -254,37 +266,186 @@
     </div>
 </section>
 
-<section class="faq-section">
-    <div class="container">
-        <h1 class="faq-title">FAQs</h1>
+<section class="new_testimonial-swiper-section">
+        <div class="container">
+            <h2 class="text-center mb-md-5 mb-3">Feedback from Our Valuable Clients</h2>
 
-        <div class="faq-item">
-            <button class="faq-question">What is Signage?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
-            <div class="faq-answer">
-                <p>Signages are visual communication tools like boards, symbols, graphics, or digital displays- created
-                    to convey messages, identify a place, promote a brand, or guide people. They include everything from 
-                    <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name boards</strong></a> 
-                    and <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED sign boards</strong></a> to safety signs and directional signs used in public and commercial 
-                    spaces.</p>  
+            <div class="position-relative">
+
+                <!-- Navigation Arrows (placed OUTSIDE swiper container) -->
+                <div class="new_testimonial-button-prev">
+                    <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40" height="40">
+                </div>
+                <div class="new_testimonial-button-next">
+                    <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40" height="40">
+                </div>
+
+                <!-- Swiper -->
+                <div class="swiper new_testimonial-swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide Item -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    Our tech startup needed a signage solution that matched our innovative spirit. The
+                                    design team didn't just create a sign; they captured our company's entire essence.
+                                    The LED-powered brand display has become a conversation starter for clients and
+                                    employees alike.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/sneha-reddy.webp') }}" alt="Sneha Reddy- Our Client"
+                                        class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sneha Reddy</h6>
+                                        <small class="text-muted">Marketing Head – Urban Retail Co.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Duplicate Slide -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    We needed stunning, durable, and regulation-compliant signage for our hospital,
+                                    and Brand Signages delivered exactly what we asked for. Their attention to detail
+                                    is excellent, which helped us enhance the patient experience.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/seema.webp') }}" alt="Seema - Our Client"
+                                        class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Seema Nayak</h6>
+                                        <small class="text-muted">Operations Manager– Horizon Hospitals</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    From initial conceptualization to execution, they executed our café signage project
+                                    seamlessly. They perfectly captured the aesthetics of our brand with vibrant acrylic
+                                    signs and a neon board that has quickly become an Instagram favorite among local people.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/sandeep-gupta.webp') }}"
+                                        alt="Sandeep Gupta - Our Client" class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sandeep Gupta</h6>
+                                        <small class="text-muted">Founder – Café Bloom</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    We needed elegant indoor and outdoor corporate signage that matched our branding.
+                                    Brand Signages impressed us with their quick turnaround, premium finish, and seamless
+                                    coordination throughout the signage project.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/vikram-sharma.webp') }}"
+                                        alt="Sandeep Gupta - Our Client" class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sandeep Gupta</h6>
+                                        <small class="text-muted">Director– Nova Consulting Group</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <!-- remaining FAQ items unchanged – keeping only structure here for brevity -->
-        <!-- you can paste the rest of the FAQ items as they were -->
+<section class="faq-section">
+    <div class="container">
+        <h1 class="faq-title">Directional Signage FAQs</h1>
+
+<div class="faq-item">
+    <button class="faq-question">What are directional or wayfinding signages?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Directional or wayfinding signages are visual signs designed to guide people from one point to another within a space. They use arrows, text, and symbols to help visitors navigate buildings, campuses, and public areas easily.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">Where are directional signages commonly used?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Directional signages are commonly used in offices, hospitals, educational institutions, shopping malls, parking areas, apartment complexes, airports, and other public or commercial spaces.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">Why are wayfinding signages important?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Wayfinding signages reduce confusion, save time, and help people move confidently through unfamiliar environments. They also minimize the need for verbal directions and improve overall space efficiency.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">What types of directional signages are available?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Directional signages include arrow signs, directional yard signs, floor-mounted signs, wall-mounted signs, hanging signs, exit signs, and indoor and outdoor wayfinding boards.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">Can directional signages be customized?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Yes, directional signages can be customized based on layout, branding, language, size, materials, and placement requirements to suit the specific needs of a space.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">Are directional signages suitable for both indoor and outdoor use?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Directional signages are designed for both indoor and outdoor environments. Outdoor signs are made using weather-resistant materials, while indoor signs focus on visibility and aesthetics.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">What makes a good directional signage design?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>A good directional signage design uses clear text, simple symbols, readable fonts, proper contrast, and strategic placement to ensure directions are understood quickly.</p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <button class="faq-question">How do directional signages improve user experience?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+    <div class="faq-answer">
+        <p>Directional signages help users find their destination without stress or delay, creating a smoother and more organized navigation experience across the space.</p>
+    </div>
+</div>
+
+
 
     </div>
 </section>
 
-<section class="py-5 text-white shadow-lg" style="background: linear-gradient(135deg, #0f2027, #203a43, #468ead);">
-    <div class="container py-4 text-center">
-        <h2 class="display-5 fw-bold mb-4">Elevate Your Institutional Branding</h2>
-        <p class="mb-5 opacity-75 fs-5 mx-auto" style="max-width: 700px;">Join the elite list of financial
-            institutions that trust Brand Signages for their visual excellence. Let's start your rollout today.</p>
-        <div class="d-flex flex-wrap justify-content-center gap-3">
-            <a href="{{ route('contact_us') }}" class="btn btn-lg btn-brand-red fw-bold rounded-pill px-5 py-3">Get a Quote</a>
-            <a href="tel:+919000000000" class="btn btn-lg btn-outline-light fw-bold rounded-pill px-5 py-3">Call Now</a>
-        </div>
-    </div>
-</section>
+
 
 @endsection
