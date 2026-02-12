@@ -83,57 +83,30 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // JQUERY NAVBAR DROPDOWNS
-    // Function to reset all dropdowns and arrows
+    // NAVBAR & DROPDOWNS
     function resetDropdowns() {
-        const dropdownMenus = document.querySelectorAll('.dropdown-menu');
-        dropdownMenus.forEach(menu => {
+        document.querySelectorAll('.mega-menu-container').forEach(menu => {
             menu.classList.remove('show');
-            menu.style.display = ''; // Remove inline display override
         });
-
-        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-        dropdownToggles.forEach(toggle => {
+        document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
             toggle.classList.remove('show');
-            toggle.setAttribute('aria-expanded', 'false');
         });
-
-        const navLinks = document.querySelectorAll('.nav-link');
-        navLinks.forEach(link => link.classList.remove('active'));
     }
 
-    // Function to handle screen size changes
     function handleScreenChange() {
-        const navbarCollapse = document.querySelector('.navbar-collapse');
-        if (navbarCollapse && navbarCollapse.classList.contains('show')) {
-            // Close the mobile menu on resize/orientation change
-            const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
-            if (bsCollapse) bsCollapse.hide();
+        if (window.innerWidth >= 992) {
+            closeMobileMenu();
         }
-        resetDropdowns();
     }
 
-    // Handle window resize with debounce
     let resizeTimer;
     window.addEventListener('resize', function () {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(handleScreenChange, 250);
     });
 
-    // Handle navbar toggler click
     const navbarToggler = document.querySelector('.navbar-toggler');
-    if (navbarToggler) {
-        navbarToggler.addEventListener('click', () => {
-            // Optional: close all dropdowns when opening/closing mobile menu
-            resetDropdowns();
-        });
-    }
-
-    // Handle navbar collapse shown/hidden
     const navbarCollapse = document.querySelector('.navbar-collapse');
-    if (navbarCollapse) {
-        navbarCollapse.addEventListener('hidden.bs.collapse', resetDropdowns);
-    }
 
     // Add active class to nav items when clicked (only for non-dropdown links)
     const nonDropdownNavLinks = document.querySelectorAll('.nav-item:not(.dropdown) .nav-link');
@@ -310,4 +283,148 @@ document.addEventListener('DOMContentLoaded', () => {
             },
         });
     }
+
+    // MEGA MENU INTERACTION (Desktop hover only)
+    function setupMegaInteraction(selectors) {
+        const triggers = document.querySelectorAll(selectors.trigger);
+        const panes = document.querySelectorAll(selectors.pane);
+
+        triggers.forEach(trigger => {
+            // Hover for desktop only
+            trigger.addEventListener('mouseenter', function () {
+                if (window.innerWidth >= 992) {
+                    const targetId = this.getAttribute('data-target');
+                    if (!targetId) return;
+
+                    triggers.forEach(t => t.classList.remove('active'));
+                    panes.forEach(p => p.classList.remove('active'));
+
+                    this.classList.add('active');
+                    const targetPane = document.getElementById(targetId);
+                    if (targetPane) targetPane.classList.add('active');
+                }
+            });
+        });
+    }
+
+    // Level 1 -> Level 2 internal navigation (desktop only)
+    setupMegaInteraction({
+        trigger: '.mega-item-entry',
+        pane: '.specialties-pane'
+    });
+
+    // Flyout submenus on Mobile (e.g., Acrylic Signages -> LED Acrylic Glow Sign)
+    document.querySelectorAll('.specialty-item-wrapper.has-flyout').forEach(wrapper => {
+        const link = wrapper.querySelector('.specialty-link');
+        if (link) {
+            link.addEventListener('click', function (e) {
+                if (window.innerWidth < 992) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    wrapper.classList.toggle('active');
+                }
+            });
+        }
+    });
+
+    // MOBILE MEGA MENU TOGGLE
+    document.querySelectorAll('.dropdown-mega > .nav-link').forEach(link => {
+        link.addEventListener('click', function (e) {
+            if (window.innerWidth < 992) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                const parent = this.parentElement;
+                const menu = parent.querySelector('.mega-menu-container');
+
+                if (menu) {
+                    const isVisible = menu.classList.contains('show');
+
+                    // Close all other mega menus
+                    document.querySelectorAll('.mega-menu-container').forEach(m => {
+                        m.classList.remove('show');
+                        m.parentElement.querySelector('.nav-link').classList.remove('show');
+                    });
+
+                    // Toggle current
+                    if (!isVisible) {
+                        menu.classList.add('show');
+                        this.classList.add('show');
+                    } else {
+                        menu.classList.remove('show');
+                        this.classList.remove('show');
+                    }
+                }
+            }
+        });
+    });
+
+    // MOBILE MENU SLIDE (LEFT TO RIGHT) - NO OVERLAY
+    let closeBtn = document.querySelector('.mobile-menu-close');
+    if (!closeBtn && navbarCollapse) {
+        closeBtn = document.createElement('button');
+        closeBtn.className = 'mobile-menu-close';
+        closeBtn.innerHTML = '&times;';
+        closeBtn.setAttribute('aria-label', 'Close menu');
+        navbarCollapse.insertBefore(closeBtn, navbarCollapse.firstChild);
+    }
+
+    function openMobileMenu() {
+        if (navbarCollapse) {
+            navbarCollapse.classList.add('show');
+        }
+    }
+
+    function closeMobileMenu() {
+        if (navbarCollapse) {
+            navbarCollapse.classList.remove('show');
+            // Close all dropdowns
+            document.querySelectorAll('.mega-menu-container').forEach(m => {
+                m.classList.remove('show');
+            });
+        }
+    }
+
+    if (navbarToggler) {
+        // Clone and replace to kill all original Bootstrap listeners
+        const newToggler = navbarToggler.cloneNode(true);
+        navbarToggler.parentNode.replaceChild(newToggler, navbarToggler);
+
+        newToggler.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (navbarCollapse.classList.contains('show')) {
+                closeMobileMenu();
+            } else {
+                openMobileMenu();
+            }
+        });
+    }
+
+    if (closeBtn) {
+        closeBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            closeMobileMenu();
+        });
+    }
+
+    // Close menu on navigation
+    document.querySelectorAll('.navbar-collapse .nav-link:not(.dropdown-toggle)').forEach(link => {
+        link.addEventListener('click', function () {
+            if (window.innerWidth < 992) closeMobileMenu();
+        });
+    });
+
+    // Mobile Mega Menu Sub-category Toggle
+    document.querySelectorAll('.mobile-cat-toggle').forEach(toggle => {
+        toggle.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const parent = this.closest('.mobile-mega-section-header');
+            if (parent) {
+                parent.classList.toggle('active');
+            }
+        });
+    });
 });

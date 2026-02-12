@@ -105,6 +105,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('frontend/styles.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/services.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/megamenu.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/css/lightgallery.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
@@ -125,226 +126,143 @@
                     alt="BrandSignages" width="175">
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-center">
+                    @foreach ($headerMenus as $menu)
+                        @php
+                            $menuUrl = str_starts_with($menu->url, 'javascript') ? $menu->url : url($menu->url);
+                        @endphp
+                        @if ($menu->menu_type == 'standard')
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is(trim($menu->url, '/')) ? 'active' : '' }}"
+                                    aria-current="page" href="{{ $menuUrl }}">{{ $menu->title }}</a>
+                            </li>
+                        @elseif($menu->menu_type == 'mega-parent')
+                            <li class="nav-item dropdown dropdown-mega position-static">
+                                <a class="nav-link dropdown-toggle" href="{{ $menuUrl }}"
+                                    id="{{ $menu->target_id }}" role="button">
+                                    {{ $menu->title }} <i class="fas fa-chevron-down dropdown__arrow"
+                                        style="font-size: 12px;margin-left: 4px; margin-bottom: 3px;"></i>
+                                </a>
+                                <div class="dropdown-menu mega-menu-container {{ $menu->title == 'Our Locations' ? 'location-mega-wrapper' : '' }} border-0 p-0"
+                                    aria-labelledby="{{ $menu->target_id }}">
+                                    <div class="mega-split-container">
+                                        <!-- Column 1: Categories (Left) -->
+                                        <div class="mega-col mega-col-1">
+                                            <div class="mega-col-header">
+                                                <span
+                                                    class="mega-col-label">{{ $menu->title == 'Signages' ? 'Explore Catalog' : 'Choose Your City' }}</span>
+                                            </div>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('about_us') }}">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('sign_board') }}">Services</a>
-                    </li>
+                                            <div class="mega-category-items">
+                                                @foreach ($menu->children as $category)
+                                                    <a href="{{ str_starts_with($category->url, 'javascript') ? $category->url : url($category->url) }}"
+                                                        class="mega-item-entry {{ $loop->first ? 'active' : '' }}"
+                                                        data-target="{{ $category->target_id }}">
+                                                        @if ($category->tag)
+                                                            <span class="entry-tag">{{ $category->tag }}</span>
+                                                        @endif
+                                                        <span class="entry-title">{{ $category->title }}</span>
+                                                        @if ($category->description)
+                                                            <span
+                                                                class="entry-desc">{{ $category->description }}</span>
+                                                        @endif
+                                                    </a>
+                                                @endforeach
+                                            </div>
+                                        </div>
 
-                    <li class="nav-item dropdown position-static">
-                        <a class="nav-link dropdown-toggle" href="#" id="signagesDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Signages <i class="fas fa-chevron-down dropdown__arrow"
-                                style="font-size: 12px;margin-left: 4px; margin-bottom: 3px;"></i>
-                        </a>
-                        <div class="dropdown-menu w-100 p-4" aria-labelledby="signagesDropdown">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6">
-                                        <h6 class="dropdown-header">Signages by Type</h6>
-                                        <a class="dropdown-item" href="{{ route('arcylic_signages') }}">Acrylic
-                                            Signage</a>
-                                        <a class="dropdown-item" href="{{ route('metal_signages') }}">Metal
-                                            Signages</a>
-                                        <a class="dropdown-item" href="{{ route('digital_signages') }}">Digital
-                                            Signage</a>
-                                        <a class="dropdown-item" href="{{ route('outdoor_signages') }}">Outdoor
-                                            Signages</a>
-                                        <a class="dropdown-item" href="{{ route('acrylic_letters') }}">Acrylic
-                                            Letters
-                                        </a>
-                                        <a class="dropdown-item" href="{{ route('neon_signages') }}">Neon Glow
-                                            Sign</a>
-                                        <a class="dropdown-item" href="{{ route('led_acrylic_glow_sign') }}">LED Sign
-                                            Board</a>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6">
-                                        <h6 class="dropdown-header">Signages by Industry</h6>
-                                        <a class="dropdown-item" href="{{ route('hospital_signages') }}">Healthcare
-                                            Sign</a>
-                                        <a class="dropdown-item" href="{{ route('bank_sign_board') }}">Bank & Finance
-                                            Sign</a>
-                                        <a class="dropdown-item" href="{{ route('hotel_sign_board') }}">Hotel
-                                            Sign Board</a>
-                                        <a class="dropdown-item" href="{{ route('real_estate_signage') }}">Real
-                                            Estate
-                                            Signage</a>
-                                        <a class="dropdown-item"
-                                            href="{{ route('restaurant_signages') }}">Restaurants
-                                            Sign</a>
-                                        <a class="dropdown-item"
-                                            href="{{ route('construction_safety_signages') }}">Construction Safety
-                                            Sign</a>
-                                        <a class="dropdown-item" href="{{ route('office_signages') }}">Office
-                                            Signage</a>
-                                        <a class="dropdown-item"
-                                            href="{{ route('name_board_office_bangalore') }}">Office Name Board</a>
-                                        <a class="dropdown-item" href="{{ route('shop_name_board_bangalore') }}">Shop
-                                            Name Boards</a>
-                                        <a class="dropdown-item" href="{{ route('indoor_signages') }}">Interior
-                                            Signages</a>
+                                        <!-- Column 2: Items (Right) -->
+                                        <div class="mega-col mega-col-2">
+                                            <div class="mega-col-header">
+                                                <span
+                                                    class="mega-col-label">{{ $menu->title == 'Signages' ? 'Specialties' : 'Localized Services' }}</span>
+                                            </div>
 
-                                    </div>
-                                    <div class="col-lg-4 col-md-6">
-                                        <h6 class="dropdown-header">Signage by Use Type</h6>
-                                        <a class="dropdown-item" href="{{ route('fire_safety_signages') }}">Fire
-                                            Safety
-                                            Sign</a>
-                                        <a class="dropdown-item" href="{{ route('door_signages') }}">Door Signs</a>
-                                        <a class="dropdown-item" href="{{ route('house_number_signages') }}">House
-                                            Number
-                                            Signs</a>
-                                        <a class="dropdown-item" href="{{ route('nameplate_signages') }}">Custom
-                                            Nameplates</a>
-                                        <a class="dropdown-item" href="{{ route('restroom_signages') }}">Restroom
-                                            Signs</a>
-                                        <a class="dropdown-item"
-                                            href="{{ route('prohibitory_signages') }}">Prohibitory
-                                            Signs</a>
-                                        {{-- <a class="dropdown-item" href="#">Office Desk Sign</a>
-                                        <a class="dropdown-item" href="#">Floor Sign</a> --}}
-                                        <a class="dropdown-item" href="{{ route('room_name_plates') }}">Room Number
-                                            Sign</a>
+                                            @foreach ($menu->children as $category)
+                                                <div class="specialties-pane {{ $loop->first ? 'active' : '' }}"
+                                                    id="{{ $category->target_id }}">
+
+                                                    <!-- Category title for mobile -->
+                                                    <div class="mobile-mega-section-header d-lg-none">
+                                                        <a href="{{ str_starts_with($category->url, 'javascript') ? 'javascript:void(0)' : url($category->url) }}"
+                                                            class="mobile-cat-title">
+                                                            {{ $category->title }}
+                                                        </a>
+                                                        <div class="mobile-cat-toggle">
+                                                            <i class="fas fa-chevron-down"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="mobile-mega-collapsible">
+                                                        @if ($menu->title == 'Our Locations')
+                                                            <div class="specialty-grid-links"
+                                                                style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
+                                                                @foreach ($category->children as $locItem)
+                                                                    <a href="{{ str_starts_with($locItem->url, 'javascript') ? $locItem->url : url($locItem->url) }}"
+                                                                        class="specialty-link">{{ $locItem->title }}</a>
+                                                                @endforeach
+                                                            </div>
+                                                        @else
+                                                            <div class="specialty-list">
+                                                                @foreach ($category->children as $item)
+                                                                    @if ($item->children->count() > 0)
+                                                                        <div class="specialty-item-wrapper has-flyout">
+                                                                            <a href="{{ str_starts_with($item->url, 'javascript') ? $item->url : url($item->url) }}"
+                                                                                class="specialty-link">
+                                                                                <div class="specialty-icon-box"><i
+                                                                                        class="{{ $item->icon }}"></i>
+                                                                                </div>
+                                                                                <div class="specialty-content">
+                                                                                    <span
+                                                                                        class="specialty-title">{{ $item->title }}</span>
+                                                                                    <span
+                                                                                        class="specialty-desc">{{ $item->description }}</span>
+                                                                                </div>
+                                                                                <i
+                                                                                    class="fas fa-chevron-right flyout-indicator"></i>
+                                                                            </a>
+                                                                            <div class="mega-flyout-menu">
+                                                                                <ul class="flyout-list">
+                                                                                    @foreach ($item->children as $subItem)
+                                                                                        <li><a
+                                                                                                href="{{ str_starts_with($subItem->url, 'javascript') ? $subItem->url : url($subItem->url) }}">{{ $subItem->title }}</a>
+                                                                                        </li>
+                                                                                    @endforeach
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    @else
+                                                                        <a href="{{ str_starts_with($item->url, 'javascript') ? $item->url : url($item->url) }}"
+                                                                            class="specialty-link">
+                                                                            <div class="specialty-icon-box"><i
+                                                                                    class="{{ $item->icon }}"></i>
+                                                                            </div>
+                                                                            <div class="specialty-content">
+                                                                                <span
+                                                                                    class="specialty-title">{{ $item->title }}</span>
+                                                                                <span
+                                                                                    class="specialty-desc">{{ $item->description }}</span>
+                                                                            </div>
+                                                                        </a>
+                                                                    @endif
+                                                                @endforeach
+                                                            </div>
+                                                        @endif
+                                                    </div> <!-- End mobile-mega-collapsible -->
+                                                </div>
+                                            @endforeach
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="nav-item dropdown position-relative">
-                        <a class="nav-link dropdown-toggle" href="#" id="regionDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Our Locations<i class="fas fa-chevron-down dropdown__arrow"
-                                style="font-size: 12px; margin-left: 4px; margin-bottom: 3px;"></i>
-                        </a>
-                        <div class="dropdown-menu" style="width:max-content;" aria-labelledby="regionDropdown">
-                            <div class="container">
-                                <a class="dropdown-item" href="{{ route('index') }}">➤ Signages in
-                                    Bangalore</a>
-                                <a class="dropdown-item" href="{{ route('leading_signage_company_in_mumbai') }}">➤
-                                    Signages
-                                    in Mumbai</a>
-                                <a class="dropdown-item" href="{{ route('signage_company_in_chennai') }}">➤ Signages
-                                    in Chennai</a>
-                            </div>
-                            {{-- <div class="container">
-                               
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6">
-                                        <h6 class="dropdown-header">Bangalore</h6>
-                                        <a class="dropdown-item" href="{{route('signage_in_bangalore')}}">Signages in
-                            Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('acrylic_signage_manufacturer_bangalore')}}">Acrylic Signages
-                                in Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('steel_signage_manufacturer_bangalore')}}">Steel Signs in
-                                Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('digital_signage_company_bangalore')}}">Digital Signage in
-                                Bangalore</a>
-                            <a class="dropdown-item" href="{{route('neon_sign_board_bangalore')}}">Neon Sign
-                                Board in Bangalore</a>
-                            <a class="dropdown-item" href="{{route('led_sign_board_in_bangalore')}}">LED
-                                Sign Board in Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('hospital_signages_in_bangalore')}}">Hospital Signages in
-                                Bangalore</a>
-                            <a class="dropdown-item" href="{{route('safety_signages_in_bangalore')}}">Safety
-                                Signages in Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('name_plate_signages_in_bangalore')}}">Name Plate Signages in
-                                Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('restroom_signs_in_bangalore')}}">Restroom Signs in
-                                Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('office_desk_signs_in_bangalore')}}">Office Desk Signs in
-                                Bangalore</a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <h6 class="dropdown-header">Mumbai</h6>
-                            <a class="dropdown-item"
-                                href="{{route('leading_signage_company_in_mumbai')}}">Signages in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('premium_acrylic_sign_boards_in_mumbai')}}">Acrylic Signages
-                                in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('digital_signages_manufacturer_in_mumbai')}}">Digital Signages
-                                in Mumbai</a>
-                            <a class="dropdown-item" href="{{route('led_display_board_in_mumbai')}}">LED
-                                Display Boards in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('hospital_and_medical_signages_in_mumbai')}}">Hospital and
-                                Medical in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('construction_fire_safety_signages_in_mumbai')}}">Fire Safety
-                                Signage in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('name_plate_signs_manufacturer_mumbai')}}">Name Plate Signages
-                                in Mumbai</a>
-                            <a class="dropdown-item" href="{{route('office_signages_in_mumbai')}}">Office
-                                Signages in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('stainless_steel_sign_board_manufacturer_mumbai')}}">Stainless
-                                Steel Sign Board in Mumbai</a>
-                            <a class="dropdown-item" href="{{route('neon_sign_board_in_mumbai')}}">Neon Sign
-                                Board in Mumbai</a>
-                            <a class="dropdown-item" href="{{route('restroom_signs_in_mumbai')}}">Restroom
-                                Signs in Mumbai</a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <h6 class="dropdown-header">Chennai</h6>
-                            <a class="dropdown-item" href="{{route('signage_company_in_chennai')}}">Signages
-                                in Chennai</a>
-                            <a class="dropdown-item" href="{{route('acrylic_signages_in_chennai')}}">Acrylic
-                                Signages in Chennai</a>
-                            <a class="dropdown-item" href="{{route('metal_sign_in_chennai')}}">Metal
-                                Signages in Chennai</a>
-                            <a class="dropdown-item"
-                                href="{{route('leading_digital_signages_manufacturer_in_chennai')}}">
-                                Digital Signage in Chennai</a>
-                            <a class="dropdown-item"
-                                href="{{route('custom_neon_sign_board_in_chennai')}}">Custom Neon Signage in
-                                Chennai</a>
-                            <a class="dropdown-item" href="{{route('led_display_board_in_chennai')}}">LED
-                                Display Board in Chennai</a>
-                            <a class="dropdown-item"
-                                href="{{route('hospital_medical_signages_chennai')}}">Hospital & Medical
-                                Signages Chennai</a>
-                            <a class="dropdown-item"
-                                href="{{route('high_quality_safety_signages_in_chennai')}}">Safety Signages
-                                in Chennai</a>
-                            <a class="dropdown-item"
-                                href="{{route('high_quality_restroom_signs_in_chennai')}}"> Restroom Signs
-                                in Chennai</a>
-
-
-                        </div>
-
-
-            </div>
-            </div> --}}
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('case_study') }}">Case Studies</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('blogs') }}">Blog</a>
-                    </li>
-
+                            </li>
+                        @endif
+                    @endforeach
                     <li class="nav-item ms-3">
                         <a href="{{ route('contact_us') }}">
                             <button class="contact-btn">Contact Us</button>
@@ -421,56 +339,19 @@
                     </div>
                 </div>
 
-                <!-- Service Locations -->
-                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                    <h5 class="fw-bold">Service Locations</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="{{ route('signage_in_bangalore') }}" class="text-decoration-none">Signages in
-                                Bangalore</a></li>
-                        <li><a href="{{ route('leading_signage_company_in_mumbai') }}"
-                                class="text-decoration-none">Signages in Mumbai</a></li>
-                        <li><a href="{{ route('signage_company_in_chennai') }}" class="text-decoration-none">Signages
-                                in
-                                Chennai</a></li>
-                    </ul>
-                </div>
-
-                <!-- Services -->
-                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                    <h5 class="fw-bold">Products</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="{{ route('led_acrylic_glow_sign') }}" class="text-decoration-none">LED Sign
-                                Board</a></li>
-                        <li><a href="{{ route('digital_signages') }}" class="text-decoration-none">Digital
-                                Signage</a>
-                        </li>
-                        <li><a href="{{ route('arcylic_signages') }}" class="text-decoration-none">Acrylic
-                                Signage</a>
-                        <li><a href="{{ route('acrylic_letters') }}" class="text-decoration-none">Acrylic Letter</a>
-                        </li>
-                        </li>
-                        <li><a href="{{ route('neon_signages') }}" class="text-decoration-none">Neon Sign</a></li>
-                        <li><a href="{{ route('metal_signages') }}" class="text-decoration-none">Metal Signage</a>
-                        </li>
-                        <li><a href="{{ route('indoor_signages') }}" class="text-decoration-none">Indoor Signage</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Quick Links -->
-                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                    <h5 class="fw-bold">Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="/" class="text-decoration-none">Home</a></li>
-                        <li><a href="/about-us" class="text-decoration-none">About Us</a></li>
-                        <li><a href="/contact-us" class="text-decoration-none">Contact Us</a></li>
-                        <li><a href="/case-studies" class="text-decoration-none">Recent Projects</a></li>
-                        <li><a href="href={{ asset('/frontend/Brand Signages Brochure-.pdf') }}"
-                                class="text-decoration-none">Download Brochure</a></li>
-                        <li><a href="/terms-and-conditions" class="text-decoration-none">Terms & Conditions</a></li>
-                        <li><a href="/privacy-policy" class="text-decoration-none">Privacy Policy</a></li>
-                    </ul>
-                </div>
+                @foreach ($footerMenus as $footerMenu)
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <h5 class="fw-bold">{{ $footerMenu->title }}</h5>
+                        <ul class="list-unstyled">
+                            @foreach ($footerMenu->children as $child)
+                                <li>
+                                    <a href="{{ str_starts_with($child->url, 'http') ? $child->url : url($child->url) }}"
+                                        class="text-decoration-none">{{ $child->title }}</a>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endforeach
             </div>
 
             <div class="row justify-content-center justify-content-md-between text-start text-md-start">
