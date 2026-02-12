@@ -101,7 +101,7 @@
                 <img src="frontend/Images/new/lolipop-4.webp" alt="Pylon Signage Example">
             </div>
             <div>
-                <h3>Pylon & Lollipop Signs: That Shape Brand Perception</h3>
+                <h3>Pylon & Lollipop Signs: That <span class="text-brand-red">Shape Brand Perception</span></h3>
                 <p>
                     At Brand Signages, pylon signage is planned with one clear goal: maximum visibility with long-term reliability. Our process starts by understanding the site conditions, viewing distance, traffic flow, mounting location, and local regulations so the signage performs effectively in real-world environments. Every pylon sign is designed to balance brand visibility, structural strength, and clean aesthetics, ensuring it remains impactful day and night.
                 </p>
