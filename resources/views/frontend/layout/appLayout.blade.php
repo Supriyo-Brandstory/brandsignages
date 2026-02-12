@@ -145,12 +145,12 @@
                         @elseif($menu->menu_type == 'mega-parent')
                             <li class="nav-item dropdown dropdown-mega position-static">
                                 <a class="nav-link dropdown-toggle" href="{{ $menuUrl }}"
-                                    id="{{ $menu->target_id }}" role="button">
+                                    id="menu-target-{{ $menu->id }}" role="button">
                                     {{ $menu->title }} <i class="fas fa-chevron-down dropdown__arrow"
                                         style="font-size: 12px;margin-left: 4px; margin-bottom: 3px;"></i>
                                 </a>
                                 <div class="dropdown-menu mega-menu-container {{ $menu->title == 'Our Locations' ? 'location-mega-wrapper' : '' }} border-0 p-0"
-                                    aria-labelledby="{{ $menu->target_id }}">
+                                    aria-labelledby="menu-target-{{ $menu->id }}">
                                     <div class="mega-split-container">
                                         <!-- Column 1: Categories (Left) -->
                                         <div class="mega-col mega-col-1">
@@ -163,7 +163,7 @@
                                                 @foreach ($menu->children as $category)
                                                     <a href="{{ str_starts_with($category->url, 'javascript') ? $category->url : url($category->url) }}"
                                                         class="mega-item-entry {{ $loop->first ? 'active' : '' }}"
-                                                        data-target="{{ $category->target_id }}">
+                                                        data-target="menu-target-{{ $category->id }}">
                                                         @if ($category->tag)
                                                             <span class="entry-tag">{{ $category->tag }}</span>
                                                         @endif
@@ -186,7 +186,7 @@
 
                                             @foreach ($menu->children as $category)
                                                 <div class="specialties-pane {{ $loop->first ? 'active' : '' }}"
-                                                    id="{{ $category->target_id }}">
+                                                    id="menu-target-{{ $category->id }}">
 
                                                     <!-- Category title for mobile -->
                                                     <div class="mobile-mega-section-header d-lg-none">

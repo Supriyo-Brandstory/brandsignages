@@ -25,19 +25,7 @@
                                         use full URL/path.</small>
                                 </div>
                             </div>
-                            <div class="row mb-3">
-                                <label for="parent_id" class="col-sm-2 col-form-label">Parent</label>
-                                <div class="col-sm-10">
-                                    <select name="parent_id" class="form-control">
-                                        <option value="">None (Top Level)</option>
-                                        @foreach ($parents as $parent)
-                                            <option value="{{ $parent->id }}"
-                                                {{ $menu->parent_id == $parent->id ? 'selected' : '' }}>{{ $parent->title }}
-                                            </option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                            </div>
+
                             <div class="row mb-3">
                                 <label for="menu_type" class="col-sm-2 col-form-label">Menu Type</label>
                                 <div class="col-sm-10">
@@ -69,25 +57,14 @@
                                     <input type="text" name="tag" class="form-control" value="{{ $menu->tag }}">
                                 </div>
                             </div>
-                            <div class="row mb-3">
-                                <label for="target_id" class="col-sm-2 col-form-label">Target ID (Pane Switch)</label>
-                                <div class="col-sm-10">
-                                    <input type="text" name="target_id" class="form-control"
-                                        value="{{ $menu->target_id }}">
-                                </div>
-                            </div>
+
                             <div class="row mb-3">
                                 <label for="description" class="col-sm-2 col-form-label">Description</label>
                                 <div class="col-sm-10">
                                     <textarea name="description" class="form-control">{{ $menu->description }}</textarea>
                                 </div>
                             </div>
-                            <div class="row mb-3">
-                                <label for="order" class="col-sm-2 col-form-label">Order</label>
-                                <div class="col-sm-10">
-                                    <input type="number" name="order" class="form-control" value="{{ $menu->order }}">
-                                </div>
-                            </div>
+
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary">Update</button>
                                 <a href="{{ route('menus.index') }}" class="btn btn-secondary">Cancel</a>
