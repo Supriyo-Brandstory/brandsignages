@@ -53,7 +53,7 @@ body.no-scroll {
 
 /* Sidebar Column (Left) */
 .mega-col-1 {
-    width: 340px;
+    width: max-content;
     background: #ffffff;
     border-right: 1px solid #f0f0f0;
     /* Match parent rounding */
