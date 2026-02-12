@@ -108,6 +108,70 @@ document.addEventListener('DOMContentLoaded', () => {
     const navbarToggler = document.querySelector('.navbar-toggler');
     const navbarCollapse = document.querySelector('.navbar-collapse');
 
+    // STANDARD DROPDOWNS HOVER (Desktop)
+    function setupStandardDropdownHover() {
+        const dropdowns = document.querySelectorAll('.nav-item.dropdown');
+        dropdowns.forEach(dropdown => {
+            const toggle = dropdown.querySelector('.dropdown-toggle');
+            const menu = dropdown.querySelector('.dropdown-menu');
+
+            if (toggle && menu) {
+                dropdown.addEventListener('mouseenter', () => {
+                    if (window.innerWidth >= 992) {
+                        toggle.classList.add('show');
+                        menu.classList.add('show');
+                        toggle.setAttribute('aria-expanded', 'true');
+                    }
+                });
+
+                dropdown.addEventListener('mouseleave', () => {
+                    if (window.innerWidth >= 992) {
+                        toggle.classList.remove('show');
+                        menu.classList.remove('show');
+                        toggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            }
+        });
+    }
+    setupStandardDropdownHover();
+
+    // MOBILE STANDARD DROPDOWN TOGGLE (ARROW ONLY)
+    document.querySelectorAll('.js-mobile-toggle').forEach(arrow => {
+        arrow.addEventListener('click', function (e) {
+            if (window.innerWidth < 992) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                const dropdown = this.closest('.nav-item.dropdown');
+                const toggle = dropdown.querySelector('.dropdown-toggle');
+                const menu = dropdown.querySelector('.dropdown-menu');
+
+                if (menu && toggle) {
+                    const isVisible = menu.classList.contains('show');
+
+                    // Close others
+                    document.querySelectorAll('.nav-item.dropdown .dropdown-menu.show').forEach(m => {
+                        if (m !== menu) m.classList.remove('show');
+                    });
+                    document.querySelectorAll('.nav-item.dropdown .dropdown-toggle.show').forEach(t => {
+                        if (t !== toggle) t.classList.remove('show');
+                    });
+
+                    if (!isVisible) {
+                        menu.classList.add('show');
+                        toggle.classList.add('show');
+                        toggle.setAttribute('aria-expanded', 'true');
+                    } else {
+                        menu.classList.remove('show');
+                        toggle.classList.remove('show');
+                        toggle.setAttribute('aria-expanded', 'false');
+                    }
+                }
+            }
+        });
+    });
+
     // Add active class to nav items when clicked (only for non-dropdown links)
     const nonDropdownNavLinks = document.querySelectorAll('.nav-item:not(.dropdown) .nav-link');
     nonDropdownNavLinks.forEach(link => {

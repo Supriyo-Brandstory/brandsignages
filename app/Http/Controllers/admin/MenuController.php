@@ -39,7 +39,8 @@ class MenuController extends Controller
 
     public function create()
     {
-        return view('admin.menus.create');
+        $menus = Menu::whereNull('parent_id')->with('children')->orderBy('order')->get();
+        return view('admin.menus.create', compact('menus'));
     }
 
     public function store(Request $request)
@@ -47,6 +48,7 @@ class MenuController extends Controller
         $request->validate([
             'title' => 'required|string|max:255',
             'url' => 'nullable|string|max:255',
+            'parent_id' => 'nullable|exists:menus,id',
         ]);
 
         Menu::create($request->all());
@@ -56,7 +58,8 @@ class MenuController extends Controller
 
     public function edit(Menu $menu)
     {
-        return view('admin.menus.edit', compact('menu'));
+        $menus = Menu::whereNull('parent_id')->with('children')->orderBy('order')->get();
+        return view('admin.menus.edit', compact('menu', 'menus'));
     }
 
     public function update(Request $request, Menu $menu)
@@ -64,6 +67,7 @@ class MenuController extends Controller
         $request->validate([
             'title' => 'required|string|max:255',
             'url' => 'nullable|string|max:255',
+            'parent_id' => 'nullable|exists:menus,id',
         ]);
 
         $menu->update($request->all());

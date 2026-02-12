@@ -34,7 +34,7 @@ body.no-scroll {
 
 .mega-split-container {
     display: flex;
-    min-height: 420px;
+    min-height: fit-content;
     /* Reduced from 500px */
     height: auto;
     overflow: visible;
@@ -407,7 +407,7 @@ body.no-scroll {
         position: fixed !important;
         top: 0 !important;
         left: -300px !important;
-        width: 280px !important;
+        width: 300px !important;
         max-width: 85vw !important;
         height: 100vh !important;
         background: #2a2118 !important;
@@ -436,7 +436,7 @@ body.no-scroll {
     }
 
     .navbar-collapse .nav-item {
-        width: 100% !important;
+        width: 90% !important;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
     }
 
@@ -679,7 +679,7 @@ body.no-scroll {
         color: #fff !important;
         font-size: 15px !important;
         font-weight: 300 !important;
-        border-bottom: none !important;
+        border: none !important;
         opacity: 0.85;
         text-decoration: none !important;
         background: transparent !important;
@@ -697,5 +697,61 @@ body.no-scroll {
 
     .specialty-grid-links {
         display: block !important;
+    }
+
+    .specialty-grid-links .specialty-link:hover {
+        /* background: #fff; */
+        border-color: none;
+        color: #E43D12;
+        transform: unset;
+        box-shadow: unset;
+    }
+
+    /* Fix for standard dropdowns (About Us) in mobile menu */
+    .dropdown-menu {
+        background: transparent !important;
+        border: none !important;
+        padding-left: 20px !important;
+        box-shadow: none !important;
+        margin-top: 0 !important;
+        position: static !important;
+        float: none !important;
+        width: 100% !important;
+        transform: none !important;
+        display: none;
+    }
+
+    .dropdown-menu.show {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .dropdown-item {
+        color: #fff !important;
+        padding: 10px 15px !important;
+        background: transparent !important;
+        font-weight: 400;
+        white-space: normal;
+        font-size: 17px !important;
+        margin: 0;
+        /* Handle long text */
+    }
+
+    .dropdown-item:hover,
+    .dropdown-item:active {
+        color: #E43D12 !important;
+        background: transparent !important;
+    }
+
+}
+
+/* Desktop cleanup */
+@media (min-width: 992px) {
+
+    /* Hide default Bootstrap caret */
+    .nav-item.dropdown .dropdown-toggle::after,
+    .nav-item.dropdown .custom-dropdown-toggle::after {
+        display: none !important;
     }
 }

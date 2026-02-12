@@ -25,13 +25,33 @@
                                         use full URL/path.</small>
                                 </div>
                             </div>
+                            <div class="row mb-3">
+                                <label for="parent_id" class="col-sm-2 col-form-label">Parent (Optional)</label>
+                                <div class="col-sm-10">
+                                    <select name="parent_id" class="form-control">
+                                        <option value="">None (Top Level)</option>
+                                        @foreach ($menus as $menu_item)
+                                            <option value="{{ $menu_item->id }}"
+                                                {{ $menu->parent_id == $menu_item->id ? 'selected' : '' }}
+                                                {{ $menu->id == $menu_item->id ? 'disabled' : '' }}>{{ $menu_item->title }}
+                                            </option>
+                                            @if ($menu_item->children)
+                                                @include('admin.menus.option_item', [
+                                                    'menus' => $menu_item->children,
+                                                    'depth' => 1,
+                                                ])
+                                            @endif
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
 
                             <div class="row mb-3">
                                 <label for="menu_type" class="col-sm-2 col-form-label">Menu Type</label>
                                 <div class="col-sm-10">
                                     <select name="menu_type" class="form-control">
                                         <option value="standard" {{ $menu->menu_type == 'standard' ? 'selected' : '' }}>
-                                            Standard</option>
+                                            Standard (Link or Dropdown)</option>
                                         <option value="mega-parent"
                                             {{ $menu->menu_type == 'mega-parent' ? 'selected' : '' }}>Mega Parent</option>
                                         <option value="mega-category"

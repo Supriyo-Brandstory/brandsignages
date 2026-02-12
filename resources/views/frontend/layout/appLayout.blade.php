@@ -138,10 +138,29 @@
                             $menuUrl = str_starts_with($menu->url, 'javascript') ? $menu->url : url($menu->url);
                         @endphp
                         @if ($menu->menu_type == 'standard')
-                            <li class="nav-item">
-                                <a class="nav-link {{ Request::is(trim($menu->url, '/')) ? 'active' : '' }}"
-                                    aria-current="page" href="{{ $menuUrl }}">{{ $menu->title }}</a>
-                            </li>
+                            @if ($menu->children->count() > 0)
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle {{ Request::is(trim($menu->url, '/')) ||$menu->children->contains(function ($child) {return Request::is(trim($child->url, '/'));})? 'active': '' }}"
+                                        href="{{ $menuUrl }}" id="navbarDropdown-{{ $menu->id }}"
+                                        role="button" aria-expanded="false">
+                                        {{ $menu->title }} <i
+                                            class="fas fa-chevron-down dropdown__arrow js-mobile-toggle"
+                                            style="font-size: 12px;margin-left: 4px; margin-bottom: 3px; cursor: pointer;"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-{{ $menu->id }}">
+                                        @foreach ($menu->children as $child)
+                                            <li><a class="dropdown-item {{ Request::is(trim($child->url, '/')) ? 'active' : '' }}"
+                                                    href="{{ str_starts_with($child->url, 'javascript') ? $child->url : url($child->url) }}">{{ $child->title }}</a>
+                                            </li>
+                                        @endforeach
+                                    </ul>
+                                </li>
+                            @else
+                                <li class="nav-item">
+                                    <a class="nav-link {{ Request::is(trim($menu->url, '/')) ? 'active' : '' }}"
+                                        aria-current="page" href="{{ $menuUrl }}">{{ $menu->title }}</a>
+                                </li>
+                            @endif
                         @elseif($menu->menu_type == 'mega-parent')
                             <li class="nav-item dropdown dropdown-mega position-static">
                                 <a class="nav-link dropdown-toggle" href="{{ $menuUrl }}"
