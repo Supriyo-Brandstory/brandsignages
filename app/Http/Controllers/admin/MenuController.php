@@ -10,8 +10,31 @@ class MenuController extends Controller
 {
     public function index()
     {
-        $menus = Menu::with('parent')->orderBy('order')->paginate(20);
+        $menus = Menu::whereNull('parent_id')->with('children')->orderBy('order')->get();
         return view('admin.menus.index', compact('menus'));
+    }
+
+    public function updateOrder(Request $request)
+    {
+        $menuTree = $request->input('menu');
+        $this->updateMenuStructure($menuTree);
+        return response()->json(['success' => true]);
+    }
+
+    private function updateMenuStructure($menus, $parentId = null)
+    {
+        foreach ($menus as $index => $menuItem) {
+            $menu = Menu::find($menuItem['id']);
+            if ($menu) {
+                $menu->order = $index + 1;
+                $menu->parent_id = $parentId;
+                $menu->save();
+
+                if (isset($menuItem['children'])) {
+                    $this->updateMenuStructure($menuItem['children'], $menu->id);
+                }
+            }
+        }
     }
 
     public function create()

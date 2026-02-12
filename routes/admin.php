@@ -23,6 +23,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::resource('/sitemap', SitemapController::class);
     route::resource('categories', CategoryController::class);
     Route::resource('menus', MenuController::class);
+    Route::post('/menus/update-order', [MenuController::class, 'updateOrder'])->name('menus.updateOrder');
     Route::post('/categories/update-order', [CategoryController::class, 'updateOrder'])->name('mcategories.updateOrder');
     Route::get('categories/{id}/edit/{type}', [CategoryController::class, 'edit'])->name('mcategories.edit');
     Route::delete('subcategories/{id}', [CategoryController::class, 'subcategorydestroy'])->name('subcategories.destroy');
