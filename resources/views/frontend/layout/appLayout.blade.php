@@ -641,7 +641,7 @@
 
                     setTimeout(function() {
                         myModal.show();
-                    }, 99999);
+                    }, 3000);
                 }
 
                 // AJAX Submission for Global Popup
