@@ -14,6 +14,10 @@
                 <div class="col-lg-6 visible-mobile">
                     <div class="hero-image">
                         <img src="frontend/Images/new/direction-sign-1.webp" class="img-fluid" alt="Directional Signage">
+                        <div class="hero-float-card">
+                            <strong>Navigation Ready</strong>
+                            <span>Clear Arrows • Intuitive Guidance • Seamless Flow</span>
+                        </div>
                     </div>
                 </div>
 
@@ -99,7 +103,7 @@
                 <img src="frontend/Images/new/direction-sign-8.webp" alt="Directional Signage Example">
             </div>
             <div>
-                <h2>Wayfinding Signages- Guide Every Visitor with Ease</h2>
+                <h3>Wayfinding Signages- Guide Every Visitor with Ease</h3>
                 <p>
                     Directional and wayfinding signages play a vital role in helping people navigate spaces confidently. From offices, hospitals, and campuses to public parks and retail areas, these signages do more than just point the way- they provide clear, actionable information that ensures smooth movement.
                 </p>
@@ -293,7 +297,7 @@
                                     The LED-powered brand display has become a conversation starter for clients and
                                     employees alike.
                                 </p>
-                                <div class="d-flex mt-4">
+                                <div class="d-flex align-items-center mt-4">
                                     <img src="{{ asset('frontend/Images/sneha-reddy.webp') }}" alt="Sneha Reddy- Our Client"
                                         class="rounded-circle me-3" width="50" height="50">
                                     <div>
