@@ -21,7 +21,7 @@ h3 span {
 
 @media (max-width: 786px) {
     h1 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     h2 {
@@ -383,10 +383,10 @@ h1.hero-banner_title {
         text-align: center;
     }
 
-    h1.hero-banner_title {
+    /* h1.hero-banner_title {
         font-size: 28px;
         line-height: 1.4;
-    }
+    } */
 
     .hero-banner p {
         font-size: 16px;
@@ -1638,6 +1638,7 @@ h1.hero-banner_title {
     .new_testimonial-swiper .description {
         font-size: 16px;
         line-height: 140%;
+        padding: 0 10px;
     }
 
     .new_testimonial-swiper .name {
@@ -1646,11 +1647,13 @@ h1.hero-banner_title {
 
     .new_testimonial-swiper .degignation {
         font-size: 14px;
+        /* margin-bottom: 8px; */
     }
 
     .new_testimonial-swiper img {
         width: 48px;
         height: 48px;
+        /* margin-left: 10px; */
     }
 
     .swiper-slide>div {
@@ -4365,6 +4368,7 @@ ul.brand-list {
 
         .faq-title {
             font-size: 2rem;
+            margin-top: 50px !important;
         }
 
         .benefit-card,
@@ -4802,9 +4806,9 @@ ul.brand-list {
     }
 }
 
-.safety-hero h1 {
+/* .safety-hero h1 {
     line-height: 1.15;
-}
+} */
 
 
 .script-symphony {
@@ -4928,19 +4932,19 @@ ul.brand-list {
 
 
 
-.safety-hero h1 {
+/* .safety-hero h1 {
     font-size: 48px;
     font-weight: 700;
     line-height: 1.15;
-}
+} */
 
-.signage-left h2,
+/* .signage-left h2,
 .flow-header h2,
 .editorial-copy h3 {
     font-size: 40px;
     font-weight: 700;
     line-height: 1.15;
-}
+} */
 
 .safety-hero {
     background: linear-gradient(135deg, #0f2027, #203a43, #468ead);
@@ -5018,6 +5022,12 @@ ul.brand-list {
     padding: 120px 0;
 }
 
+@media (max-width: 786px){
+    .signage-editorial{
+        padding: 60px 0;
+    }
+}
+
 .signage-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -5092,16 +5102,7 @@ ul.brand-list {
     align-items: center;
 }
 
-.safety-communication h3 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    line-height: 1.25;
-    margin-bottom: 18px;
-    color: #111;
-}
-
 .safety-communication p {
-    font-size: 1rem;
     line-height: 1.8;
     color: #555;
     max-width: 520px;
@@ -5396,9 +5397,6 @@ ul.brand-list {
         padding: 80px 0;
     }
 
-    .safety-communication h3 {
-        font-size: 1.9rem;
-    }
 }
 
 @media (max-width: 767px) {

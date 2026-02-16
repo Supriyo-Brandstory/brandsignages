@@ -853,6 +853,8 @@ button.faq-question.active {
 @media (max-width: 768px) {
     .faq-title {
         font-size: 2rem;
+        margin-top: 50px;
+        padding-bottom: 20px;
     }
 
     .faq-question {
