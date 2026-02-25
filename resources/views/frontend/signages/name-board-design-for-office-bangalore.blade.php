@@ -1113,11 +1113,11 @@
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Which Company Provides Complete Office Name Board Solutions?
+                    Which Local Vendor Provides Office Name Board Branding Solutions?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Brand Signages offers complete office name board solutions- from concept to design and material selection to manufacturing and installation. We cater to corporate offices, advocate firms, construction companies, IT parks, consultancies, clinics, and institutional spaces with tailored design options.
+                    <p>Brand Signages is one of the leading <strong>office name board manufacturers in India</strong> offering complete office name board design solutions- from design to installation. We create customized boards for advocate, corporate, lawyer, construction offices with options in acrylic, LED, metal finishes, etc.
                     </p>
                 </div>
             </div>
