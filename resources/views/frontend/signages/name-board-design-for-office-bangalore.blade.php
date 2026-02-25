@@ -101,8 +101,8 @@
 
     <section class="instant-pricing">
         <div class="container pt-5">
-            <h2>Explore Exclusive Office Name Board Designs</h2>
-            <p>Brand Signages brings you the <strong>largest ever collection</strong> of premium office name board design & <a href="/office-signages" style="color:#E43D12; text-decoration:none;"><strong>office signages</strong></a> 
+            <h2>Explore Exclusive Office Name Plate Designs</h2>
+            <p>Brand Signages brings you the <strong>largest ever collection</strong> of premium office name plate designs & <a href="/office-signages" style="color:#E43D12; text-decoration:none;"><strong>office signages</strong></a> 
                 customized for modern workplaces. We provide high-quality office name boards across India with fast turnaround time 
                 and expert installation support. Our office name boards are <strong>fully customised</strong>, come with <strong>4 years warranty</strong>, and <strong>transparent pricing</strong>.
             </p>
@@ -151,7 +151,7 @@
                     </p>
                     <ul class="brand-list">
                         <li class="mb-3">
-                            <strong>First Impressions Matter:</strong> Your office name board is often the first visual element 
+                            <strong>First Impressions Matter:</strong> Your office name plate is often the first visual element 
                             people notice when they enter your workspace. It sets expectations and instantly communicates the 
                             standard and culture of your organisation.
                         </li>
@@ -392,9 +392,9 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h4><b>#1 Rated Office Name Board Designs</b></h4>
+                    <h4><b>#1 Rated Office Name Plate Designs</b></h4>
                     <p class="brand-description">
-                        Discover the widest range of office name board designs crafted to suit diverse workplace interiors and architectural styles. Whether 
+                        Discover the widest range of office name plate designs crafted to suit diverse workplace interiors and architectural styles. Whether 
                         you prefer sleek <a href="/metal-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">metallic signage</a>, 
                         <a href="/arcylic-signages" style="text-decoration: unset;color:#E43D12; font-weight: bold;">premium acrylic surfaces</a>, elegant acrylic
                          glass panels, or textured wooden name board, we offer options that align seamlessly with your branding and office design concept.
