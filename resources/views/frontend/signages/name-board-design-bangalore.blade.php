@@ -1304,7 +1304,7 @@
         <i class="faq-icon fa-solid fa-chevron-down"></i>
     </button>
     <div class="faq-answer">
-        <p>Common materials used include acrylic, stainless steel, ACP sheets, wood, and LED components. The choice depends on durability requirements, location, and the visual appeal you want to achieve.</p>
+        <p>We provide name boards in a wide range of premium materials: Acrylic Signage, Stainless Steel (SS), Aluminium Composite Panel (ACP), Wood Finish Boards, LED & Backlit Letters, Neon Signage. Material selection depends on the installation location (indoor or semi-outdoor) and your interior theme.</p>
     </div>
 </div>
 
@@ -1314,7 +1314,18 @@
         <i class="faq-icon fa-solid fa-chevron-down"></i>
     </button>
     <div class="faq-answer">
-        <p>Yes, LED name boards are ideal for outdoor settings when made with weather-resistant materials. They provide excellent nighttime visibility, consume less energy, and offer long-lasting performance.</p>
+        <p>Yes, LED name boards are highly suitable for outdoor installation when manufactured using weather-resistant and durable materials. These materials ensure protection against rain, dust, sunlight, and humidity.</p>
+        
+        <p>Common materials used for outdoor LED name boards include:</p>
+        <ul>
+            <li>Acrylic panels with waterproof LED modules</li>
+            <li>Stainless Steel (304/316 grade) fabricated letters</li>
+            <li>ACP (Aluminium Composite Panel) backing sheets</li>
+            <li>Powder-coated metal frames for rust resistance</li>
+            <li>IP65-rated LED lighting components for outdoor durability</li>
+        </ul>
+
+        <p>When built with these materials, LED name boards offer excellent nighttime visibility, energy efficiency, and long-lasting performance even in challenging outdoor conditions.</p>
     </div>
 </div>
 
