@@ -344,7 +344,7 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.name-board-design-for-office-bangalore', compact('seo'));
     }
-    public function name_board_design_bangalore()
+    public function board_design_bangalore()
     {
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
