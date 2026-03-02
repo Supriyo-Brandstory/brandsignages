@@ -56,6 +56,8 @@ Route::get('/office-desk-signs-in-bangalore', [frontendController::class, 'offic
 Route::get('/name-board-designs-for-shops-bangalore', [frontendController::class, 'shop_name_board_bangalore'])->name('shop_name_board_bangalore');
 Route::get('/name-board-design-for-office-bangalore', [frontendController::class, 'name_board_office_bangalore'])->name('name_board_office_bangalore');
 Route::get('/name-board-design-bangalore', [frontendController::class, 'board_design_bangalore'])->name('board_design_bangalore');
+Route::get('/led-name-board-design', [frontendController::class, 'led_name_board_design'])->name('led_name_board_design');
+Route::get('/led-name-board-for-shop', [frontendController::class, 'led_name_board_for_shop'])->name('led_name_board_for_shop');
 //chennai
 Route::get('/signage-in-chennai', [frontendController::class, 'signage_company_in_chennai'])->name('signage_company_in_chennai');
 Route::get('/acrylic-signages-in-chennai', [frontendController::class, 'acrylic_signages_in_chennai'])->name('acrylic_signages_in_chennai');

@@ -350,6 +350,18 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.name-board-design-bangalore', compact('seo'));
     }
+    public function led_name_board_design()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.led-name-board-design', compact('seo'));
+    }
+    public function led_name_board_for_shop()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.led-name-board-for-shop', compact('seo'));
+    }
     //chennai
     public function signage_company_in_chennai()
     {
