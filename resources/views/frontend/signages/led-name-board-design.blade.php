@@ -3,7 +3,7 @@
 
 <div class="container py-5">
     <div class="bread-cum-menu">
-        <p><a href="{{ route('index') }}">Home</a> / Acrylic Letters</p>
+        <p><a href="{{ route('index') }}">Home</a> / LED Name Board</p>
     </div>
     <div class="row g-4">
 
