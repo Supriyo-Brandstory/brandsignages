@@ -11,7 +11,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-24.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Home- Khanna Bhawan">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Name Board for Home</h5>
 
@@ -30,7 +30,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-25.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Home- Ahuja's Residence">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Nameplate for Home</h5>
 
@@ -49,7 +49,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-26.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Home- Chandaranas Advocate Office">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Name Board for Door</h5>
 
@@ -68,7 +68,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-27.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Home- Mukund Villa">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Name Board for Door</h5>
 
@@ -87,7 +87,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-30.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Home- Round Shaped Board">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Nameplate for Home</h5>
 
@@ -106,7 +106,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-31.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Office- Smith California">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Nameplate for Door</h5>
 
@@ -125,7 +125,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-32.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Office- Royal Property">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Name Board for Office</h5>
 
@@ -144,7 +144,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-33.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Shop- NIMA Salon">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Shop Name Board</h5>
 
@@ -163,7 +163,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-22.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Shop- Byron Humburgers Store">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Shop Nameplate</h5>
 
@@ -182,7 +182,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-21.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Shop- Barnda Store">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Name Board for Shop</h5>
 
@@ -200,7 +200,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-23.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Shop- Sam's Coffee Shop">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Shop Name Board</h5>
 
@@ -218,7 +218,7 @@
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
                     <img src="{{ asset('/frontend/Images/name-boards/led-name-102.webp') }}" class="card-img-topx"
-                        alt="Acrylic LED Letter">
+                        alt="Acrylic LED Name Board for Office- Celine">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Office Nameplate</h5>
 
@@ -324,7 +324,7 @@
 
     <section class="instant-pricing">
         <div class="container pt-5">
-            <h2>Explore LED Name Board for Home, Office, Shops</h2>
+            <h2>Best LED Name Boards for Home, Office, Shops</h2>
             <p>Brand Signages offers a wide range of <a href="/led-name-board-for-shop"
                     style="color:#E43D12; text-decoration:none;"><strong>LED name boards for shop</strong></a>, offices,
                 home, and commercial spaces.
