@@ -639,9 +639,11 @@
                         keyboard: false
                     });
 
-                    setTimeout(function() {
-                        myModal.show();
-                    }, 3000);
+                    @if (!isset($disableAutoPopup) || !$disableAutoPopup)
+                        setTimeout(function() {
+                            myModal.show();
+                        }, 3000);
+                    @endif
                 }
 
                 // AJAX Submission for Global Popup
