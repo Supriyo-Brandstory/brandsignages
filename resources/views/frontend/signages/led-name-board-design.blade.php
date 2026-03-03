@@ -1,13 +1,248 @@
 @extends('frontend.layout.appLayout')
 @section('content')
 
+<div class="container py-5">
+    <div class="bread-cum-menu">
+        <p><a href="{{ route('index') }}">Home</a> / Acrylic Letters</p>
+    </div>
+    <div class="row g-4">
 
-    <div class="newly-bannersection">
+        <!-- Card 1 -->
+        <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/name-boards/led-name-24.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Name Board for Home</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹3,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <a href="/contact-us">
+                        <button class="contact-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/name-boards/led-name-25.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Nameplate for Home</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹2,000 (15% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <a href="/contact-us">
+                        <button class="contact-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/name-boards/led-name-26.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Name Board for Door</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹8,000 – ₹2,500 (18% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <a href="/contact-us">
+                        <button class="contact-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/name-boards/led-name-27.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Name Board for Door</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹3,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <a href="/contact-us">
+                        <button class="contact-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+                <!-- Card 5 -->
+        <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/name-boards/led-name-30.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Nameplate for Home</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹3,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <a href="/contact-us">
+                        <button class="contact-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+                <!-- Card 6 -->
+        <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/name-boards/led-name-31.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Nameplate for Door</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹900 – ₹2,500 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <a href="/contact-us">
+                        <button class="contact-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+                <!-- Card 7 -->
+        <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/name-boards/led-name-32.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Name Board for Office</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹3,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <a href="/contact-us">
+                        <button class="contact-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+                <!-- Card 8 -->
+        <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/name-boards/led-name-33.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Shop Name Board</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹800 – ₹2,500 (18% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <a href="/contact-us">
+                        <button class="contact-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/name-boards/led-name-22.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Shop Nameplate</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹2,500 (18% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <a href="/contact-us">
+                        <button class="contact-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/name-boards/led-name-21.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Name Board for Shop</h5>
+
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹2,000 (15% Off)</p>
+                    </div>
+                <div class="text-center">
+                  <a href="/contact-us">
+                    <button class="contact-btn">Buy Now</button>
+                  </a>
+                </div>
+
+                </div>
+        </div>
+
+                <!-- Card 7 -->
+                <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card h-100 shadow-sm border-0 pb-5">
+                            <img src="{{ asset('/frontend/Images/name-boards/led-name-23.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Acrylic LED Shop Name Board</h5>
+
+                                <p class="mb-1 fw-bold text-black">₹1,000 – ₹2,000 (15% Off)</p>
+                            </div>
+                        <div class="text-center">
+                        <a href="/contact-us">
+                            <button class="contact-btn">Buy Now</button>
+                        </a>
+                        </div>
+
+                        </div>
+                </div>
+
+                        <!-- Card 8 -->
+                <div class="col-lg-3 col-md-6 col-12">
+                        <div class="card h-100 shadow-sm border-0 pb-5">
+                            <img src="{{ asset('/frontend/Images/name-boards/led-name-102.webp') }}" class="card-img-topx" alt="Acrylic LED Letter">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Acrylic LED Office Nameplate</h5>
+
+                                <p class="mb-1 fw-bold text-black">₹1,000 – ₹2,000 (15% Off)</p>
+                            </div>
+                        <div class="text-center">
+                        <a href="/contact-us">
+                            <button class="contact-btn">Buy Now</button>
+                        </a>
+                        </div>
+
+                        </div>
+                </div>
+
+    </div>
+
+</div>
+
+
+    <!--<div class="newly-bannersection">
         <div class="bar">
             <h1 class="hero-banner_title">Led Light Name Board</h1>
 
         </div>
-        <!-- Slider -->
+        
         <div class="slider-wrapper">
 
             <div class="main-slider">
@@ -41,7 +276,7 @@
               
             </div>
 
-            <!-- Navigation should be OUTSIDE -->
+            
             <div class="nav-arrow prev">&#8249;</div>
             <div class="nav-arrow next">&#8250;</div>
         
@@ -60,7 +295,7 @@
             </div>
         </div>
 
-        <!-- Content -->
+      
         <div class="content">
             <h1 class="hero-banner_title">LED Name Board</h1>
             <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 + GST</b></p>
@@ -83,7 +318,7 @@
                 <a href="{{ route('contact_us') }}" class="btn">Place Order</a>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <!-- About Section -->
 
