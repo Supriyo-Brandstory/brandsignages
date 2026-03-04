@@ -107,7 +107,7 @@
                 and expert installation support. Our office name boards are <strong>fully customised</strong>, come with <strong>4 years warranty</strong>, and <strong>transparent pricing</strong>.
             </p>
             <p>
-            Available in versatile size formats, best colour finishes, and lighting options, our office name board designs are created to reflect your company’s identity with clarity and confidence. From 
+            Available in versatile size formats, best colour finishes, and lighting options, our <a href="name-board-design-bangalore" style="color:#E43D12; text-decoration:none;"><strong>name board designs</strong></a> are created to reflect your company’s identity with clarity and confidence. From 
             <a href="/blogs/ultimate-guide-to-office-reception-signage-make-the-right-first-impression" style="color:#E43D12; text-decoration:none;"><strong>reception signage</strong></a>, 
             cabin doors, <a href="/blogs/name-board-for-office-table-designs-materials-pricing-buyers-guide" style="color:#E43D12; text-decoration:none;"><strong>office tables</strong></a>, corporate entrances,
              or IT parks, each office name board is crafted for sharp visibility, premium appeal, and lasting durability. Each name board is crafted using premium materials

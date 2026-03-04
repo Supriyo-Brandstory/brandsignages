@@ -598,7 +598,7 @@
 
                 <div class="col-lg-6">
                     <p class="fs-20">
-                        The cost of an LED name board depends on the material, overall size, lettering style, type of LED
+                        The cost of an <a href="led-name-board-design" style="color:#E43D12; text-decoration:none;"><strong>LED name board</strong></a> depends on the material, overall size, lettering style, type of LED
                         illumination,
                         and installation requirements. Whether it is for a shop entrance, office reception, or exterior
                         wall, accurate
@@ -631,13 +631,12 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="hero-title">Discover The Best LED Name Boards <br>for Every Space</h2>
-                <p class="fs-20">An illuminated identity makes a difference. Our <strong>LED name board</strong>
+                <p class="fs-20">An illuminated identity makes a difference and we bing you the best <a href="name-board-design-bangalore" style="color:#E43D12; text-decoration:none;"><strong>name board designs</strong></a> in India. Our <strong>LED name board</strong>
                     collection is built for homes, offices,
                     retail outlets, and commercial buildings that require strong visibility with a refined finish. From
                     subtle entrance
                     plates to bold exterior installations, every LED light name board is crafted to enhance readability,
-                    improve night-time
-                    presence, and deliver a clean, modern appearance. We focus on <strong>precision fabrication</strong>,
+                     and deliver a clean, modern appearance. We focus on <strong>precision fabrication</strong>,
                     <strong>balanced lighting</strong>, and <strong>durable materials</strong> to ensure your name remains
                     clear and impressive for years.
                 </p>

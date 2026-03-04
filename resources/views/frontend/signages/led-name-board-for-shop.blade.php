@@ -89,13 +89,16 @@
 
     <section class="instant-pricing">
         <div class="container pt-5">
-            <h2>Explore The Best LED Name Boards for Shop</h2>
-            <p>Brand Signages manufactures high-visibility LED <a href="/name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>name boards for retail shops</strong></a> and commercial outlets. Our shop LED boards are
-                 engineered to attract attention, improve brand recognition, and ensure clear readability, weather resistance, and long-term
-                  performance.
+            <h2>High-Impact LED Name Boards for Retail <br>& Commercial Spaces</h2>
+            <p>Brand Signages manufactures high-visibility <a href="led-name-board-design" style="color:#E43D12; text-decoration:none;"><strong>LED name board</strong></a> solutions designed 
+            to make every <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>shop name board</strong></a> 
+                stand out in busy commercial areas. Our illuminated boards are crafted to attract attention instantly, improve 
+                brand recall, and ensure crystal-clear readability both during the day and at night. Whether you need a bold <strong>front-lit LED</strong> name board, 
+                elegant <strong>halo-lit letters</strong>, or a fully <strong>illuminated name board</strong>, our designs are tailored to your shop frontage, brand theme, and viewing distance.
             </p>
-            <p>We offer customized illuminated shop name boards in acrylic, metal, ACP, and 3D channel letter formats, designed according to your shop frontage and viewing distance. Whether you require a bold front-lit board, halo-lit letters, or a complete
-                 illuminated fascia panel, we ensure precise fabrication and professional installation support.</p>
+            <p>A professionally crafted <a href="name-board-design-bangalore" style="color:#E43D12; text-decoration:none;"><strong>name board design</strong></a> plays a crucial role in building trust and drawing walk-in customers. That’s why our LED 
+                name board options are engineered with premium materials, advanced lighting technology, and weather-resistant finishes to deliver
+                 <strong>long-term durability</strong> and consistent brightness.</p>
             <img src="/frontend/Images/name-boards/largest-ever-signage-board-collection.webp" alt="Exclusive Shop Name Board Design by Brand Signages" class="shop-image">
 
            <!-- <div class="scroll-loop-wrapper">
