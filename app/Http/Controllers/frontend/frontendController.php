@@ -12,6 +12,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\SEO;
 use App\Models\Sitemap;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Validator;
 
@@ -616,6 +617,79 @@ class frontendController extends Controller
         }
 
         Contact::create($request->except('captcha', '_token'));
+
+
+
+
+        // Use isset() as requested
+        $first_name = isset($request->first_name) ? $request->first_name : '';
+        $last_name  = isset($request->last_name) ? $request->last_name : '';
+        $email      = isset($request->email) ? $request->email : '';
+        $phone      = isset($request->phone_number) ? $request->phone_number : '';
+        $message    = isset($request->message) ? $request->message : '';
+
+        $itemName = $first_name . ' ' . $last_name;
+
+        $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjUzNzg1NzMzOCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNS0wNy0xMVQwNToxOToyNi4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.FSjnTYiHpeGN_XquSk386d-ZdZ2u1pcMvKGXV3y-rzM';
+
+        $columnValues = [
+            "email_mm0rwtqa" => ["email" => $email, "text" => $email],
+            "lead_phone" => ["phone" => $phone],
+            "text_mm0rryke"       => $first_name,
+            "text_mm0rwxvf"       => $last_name,
+            "phone_mm0ry4vs"       => $phone,
+            "long_text_mm0r8jx2"       => $message,
+
+        ];
+
+        $boardId = '5026737339';
+        $groupId = 'topics';
+
+        $columnValuesJson = json_encode($columnValues, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+        $escapedColumnValues = addslashes($columnValuesJson);
+
+        $query = 'mutation {
+        create_item (
+            board_id: ' . $boardId . ',
+            group_id: "' . $groupId . '",
+            item_name: "' . $itemName . '",
+            column_values: "' . $escapedColumnValues . '"
+        ) {
+            id
+        }
+    }';
+
+        $postData = json_encode(['query' => $query]);
+
+        $ch = curl_init('https://api.monday.com/v2');
+
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Content-Type: application/json',
+            'Authorization: ' . $apiToken
+        ]);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);
+
+        $response = curl_exec($ch);
+
+        if (curl_errno($ch)) {
+            Log::error('Curl Error: ' . curl_error($ch));
+        } else {
+            $result = json_decode($response, true);
+
+            if (isset($phone) && $phone == "9876543210") {
+                echo "<pre>";
+                print_r($result);
+                die;
+            }
+            if (isset($result['errors'])) {
+                Log::error('Monday Error: ' . print_r($result['errors'], true));
+            }
+        }
+
+        curl_close($ch);
+
 
         if ($request->ajax()) {
             return response()->json(['success' => true, 'message' => 'Your message has been sent successfully!']);
