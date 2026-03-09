@@ -5650,7 +5650,7 @@ ul.brand-list {
     }
 
     .office-mag-card {
-        height: 320px;
+        height: auto;
     }
 
     .office-mag-title {
