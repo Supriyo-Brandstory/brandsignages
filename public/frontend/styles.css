@@ -3595,7 +3595,7 @@ ul.brand-list {
 
 .card-img-topx {
     height: 260px;
-    width: 275px;
+    width: auto;
     object-fit: cover;
     border-radius: 8px;
     overflow: hidden;

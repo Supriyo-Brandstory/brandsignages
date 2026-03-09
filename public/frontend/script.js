@@ -495,4 +495,24 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Specialized Solutions Swiper
+    if (document.querySelector('.specialized-solutions-swiper')) {
+        const specializedSwiper = new Swiper('.specialized-solutions-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            loopAdditionalSlides: 4,
+            grabCursor: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false
+            },
+            breakpoints: {
+                576: { slidesPerView: 2 },
+                992: { slidesPerView: 3 },
+                1200: { slidesPerView: 4 },
+            }
+        });
+    }
 });

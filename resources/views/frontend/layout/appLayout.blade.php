@@ -380,6 +380,174 @@
             </div>
         </div>
     </section> --}}
+
+    <section class="specialized-solutions-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-center new_custom-heading">Our Specialized Solutions</h2>
+            </div>
+
+            <div class="swiper specialized-solutions-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Card 1: Large Graphics -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-design-bangalore') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/name-boards.webp') }}" alt="Large Graphics"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Name Board </h4>
+                                <p class="text-white">Exclusive name boards for home, office, shop</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 2: Digital/Offset Printing -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-designs-for-shops-bangalore') }}"
+                            class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/shop-name-boards.webp') }}"
+                                alt="Digital and Offset printing" class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Shop Name Board</h4>
+                                <p class="text-white">Shop name boards with modern designs</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 3: Signages -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-design-for-office-bangalore') }}"
+                            class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/office-name-boards.webp') }}" alt="Signages"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Office Name Board</h4>
+                                <p class="text-white">Premium office name board largest collection</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 4: Corporate Gifting -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/led-name-board-design') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/led-name-boards.webp') }}" alt="Corporate Gifting"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">LED Name Board</h4>
+                                <p class="text-white">Advanced 2nd gen LED name boards available</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 5: 3D Printing -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/led-name-board-for-shop') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/led-shop-name-board.webp') }}" alt="3D Printing"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">LED Shop Name Board</h4>
+                                <p class="text-white">Premium range of LED name boards for shops</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 1: Large Graphics -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-design-bangalore') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/name-boards.webp') }}" alt="Large Graphics"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Name Board </h4>
+                                <p class="text-white">Exclusive name boards for home, office, shop</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 2: Digital/Offset Printing -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-designs-for-shops-bangalore') }}"
+                            class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/shop-name-boards.webp') }}"
+                                alt="Digital and Offset printing" class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Shop Name Board</h4>
+                                <p class="text-white">Shop name boards with modern designs</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 3: Signages -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-design-for-office-bangalore') }}"
+                            class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/office-name-boards.webp') }}" alt="Signages"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Office Name Board</h4>
+                                <p class="text-white">Premium office name board largest collection</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 4: Corporate Gifting -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/led-name-board-design') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/led-name-boards.webp') }}" alt="Corporate Gifting"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">LED Name Board</h4>
+                                <p class="text-white">Advanced 2nd gen LED name boards available</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 5: 3D Printing -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/led-name-board-for-shop') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/led-shop-name-board.webp') }}" alt="3D Printing"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">LED Shop Name Board</h4>
+                                <p class="text-white">Premium range of LED name boards for shops</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
     <section class="footer pb-2">
         <div class="container">
             <div class="row align-items-start text-start justify-content-between">
@@ -516,6 +684,34 @@
     <style>
         .footer a {
             color: #E43D12;
+        }
+
+        .specialized-solutions-section {
+            background: #fff !important;
+        }
+
+        .specialized-solutions-swiper {
+            padding: 30px 0 !important;
+        }
+
+        .specialized-card {
+            height: 260px !important;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .specialized-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .specialized-card .office-mag-cta {
+            border-radius: 10px;
+        }
+
+        .specialized-card .office-mag-bg {
+            height: 100% !important;
+            object-fit: cover;
         }
 
         .call-btn {
