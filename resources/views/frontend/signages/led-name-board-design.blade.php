@@ -15,7 +15,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Name Board for Home</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹3,000 (20% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
 
                     </div>
 
@@ -34,7 +34,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Nameplate for Home</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹2,000 (15% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (15% Off)</p>
 
                     </div>
 
@@ -53,7 +53,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Name Board for Door</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹8,000 – ₹2,500 (18% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹8,000 – ₹4,500 (18% Off)</p>
 
                     </div>
 
@@ -72,7 +72,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Name Board for Door</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹3,000 (20% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
 
                     </div>
 
@@ -91,7 +91,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Nameplate for Home</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹3,000 (20% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹5,000 (20% Off)</p>
 
                     </div>
 
@@ -110,7 +110,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Nameplate for Door</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹900 – ₹2,500 (20% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹900 – ₹4,500 (20% Off)</p>
 
                     </div>
 
@@ -129,7 +129,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Name Board for Office</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹3,000 (20% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
 
                     </div>
 
@@ -148,7 +148,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Shop Name Board</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹800 – ₹2,500 (18% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹800 – ₹3,500 (18% Off)</p>
 
                     </div>
 
@@ -167,7 +167,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Shop Nameplate</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹2,500 (18% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,500 (18% Off)</p>
 
                     </div>
 
@@ -186,7 +186,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Name Board for Shop</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹2,000 (15% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (15% Off)</p>
                     </div>
                     <div class="text-center">
                         <button class="contact-btn buy-now-btn"
@@ -204,7 +204,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Shop Name Board</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹2,000 (15% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (15% Off)</p>
                     </div>
                     <div class="text-center">
                         <button class="contact-btn buy-now-btn"
@@ -222,7 +222,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic LED Office Nameplate</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹2,000 (15% Off)</p>
+                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (15% Off)</p>
                     </div>
                     <div class="text-center">
                         <button class="contact-btn buy-now-btn"
@@ -616,11 +616,9 @@
                     </ul>
 
                     <p class="fs-20">
-                        Our LED name board options include front-lit, backlit (halo), edge-lit, and RGB LED light name board
-                        styles, along with warm
-                        or cool white lighting choices. Each board is built with energy-efficient LED modules and
-                        weather-resistant materials for
-                        long-lasting performance.
+                        Our LED name boards are built with IP65-rated LED modules for full weather resistance, delivering 
+                        5,000 to 8,000 nits of brightness for outdoor visibility. With a rated lifespan of 50,000+ hours, 
+                        roughly 12 to 15 years at standard usage, they deliver consistent performance year-round.
                     </p>
 
                     <button class="contact-btn buy-now-btn" data-product="LED Name Board (Price: ₹1,000 - ₹30,000)">Book
@@ -654,11 +652,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/name-board-design-for-home-trends-styles-ideas-for-2026"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/CXgjjm792bm771k2Dup0XK0CPTiFSPkjP6sx0QA3.webp"
-                            alt="Name Board Design for Home" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/led-name-board-for-home.webp"
+                            alt="LED Name Board Design for Home" class="office-mag-bg">
                         <div class="office-mag-chip">House Name Board</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Name Board Design for Home: Trends, Styles & Ideas for 2026</h4>
+                            <h4 class="office-mag-title">LED Name Board Design for Home: Trends & Ideas for 2026</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -667,11 +665,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/house-name-plate-design-30-stunning-ideas-for-homes-2026"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/Bs3ERW4ugJPPtc8LHJjpnyGGmqGuhfhS9Vgvq9d5.webp"
-                            alt="House Name Plate Design" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/led-name-plate-house.webp"
+                            alt="LED House Name Plate Design" class="office-mag-bg">
                         <div class="office-mag-chip">Name Plate Design</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">House Name Plate Design: 30+ Stunning Ideas for Homes 2026</h4>
+                            <h4 class="office-mag-title">LED House Name Plate Design: 30+ Ideas for Homes 2026</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -700,11 +698,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/hardware-shop-name-board-designs-styles-branding-ideas"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/KZUz5AdxHY3etfmnnVofNmDbvMCsEnajXQNgqxGN.jpg"
-                            alt="Hardware Shop Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/hardware-shop-led-name-board.jpeg"
+                            alt="LED Hardware Shop Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Hardware Shop</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Hardware Shop Name Board: Designs, Styles & Branding Ideas</h4>
+                            <h4 class="office-mag-title">LED Hardware Shop Board: Designs, Styles & Branding Ideas</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -713,11 +711,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/electrical-shop-name-board-design-ideas-trends-branding"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/czZlKe3qxGW7OjbfyzHpqi5XIOF0m2Rx8UXtXg80.jpg"
-                            alt="Electrical Shop Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/electrical-shop-led-name-board.jpeg"
+                            alt="LED Electrical Shop Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Electrical Shop</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Electrical Shop Name Board Design: Ideas, Trends & Branding</h4>
+                            <h4 class="office-mag-title">Electrical Shop LED Name Board: Ideas, Trends & Branding</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -726,11 +724,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/stationery-shop-name-board-designs-for-2025-creative-functional-signage"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/M3JSag0ffZlQY0hpxHLYnbg3th2jCmwI3iH3dONC.jpg"
-                            alt="Stationery Shop Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/stationary-shop-led-name-board.jpeg"
+                            alt="LED Stationery Shop Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Stationery Shop</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Stationery Shop Name Board Designs for 2025: Creative & Functional
+                            <h4 class="office-mag-title">Stationery Shop LED Name Board Designs: Creative & Functional
                             </h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
@@ -740,11 +738,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/juice-shop-name-board-design-fresh-eye-catching-ideas-for-modern-juice-bars"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/jqHQ3GpleIVRKQOokMDqXJTItm4tnWe7UEJmubbs.jpg"
-                            alt="Juice Shop Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/juice-shop-led-name-board.jpeg"
+                            alt="Juice Shop LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Juice Shop</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Juice Shop Name Board Design: Fresh & Eye-Catching Ideas</h4>
+                            <h4 class="office-mag-title">Juice Shop LED Name Board Design: Eye-Catching Ideas</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -753,11 +751,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/YLlD9KPySbesKpFmHVbQNbJMSJs6pPuESFXh1UWz.jpg"
-                            alt="Jewellery Shop Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/jewellery-shop-led-name-board.jpeg"
+                            alt="Jewellery Shop LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Jewellery Shop</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Jewellery Shop Name Board Design: Stunning Ideas to Elevate Your
+                            <h4 class="office-mag-title">Jewellery Shop LED Name Board Design: Ideas to Elevate Your
                                 Storefront</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
@@ -767,11 +765,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/furniture-shop-name-board-designs-ideas-trends-for-storefronts"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/lU7J8x6Xaw3PFA96HpSnw83469lv1UZKz8UMiJnG.jpg"
-                            alt="Furniture Shop Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/furniture-shop-led-name-board.jpeg"
+                            alt="Furniture Shop LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Furniture Shop</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Furniture Shop Name Board: Designs, Ideas & Trends for Storefronts
+                            <h4 class="office-mag-title">Furniture Shop Name Board: Designs, Ideas & Trends
                             </h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
@@ -781,11 +779,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/footwear-shop-name-board-designs-modern-ideas-styles-trends"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/cnzodI522kb6tbIIPog1iaEnIBYVHdqKSDaYzMZD.jpg"
-                            alt="Footwear Shop Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/footwear-shop-led-name-board.jpeg"
+                            alt="Footwear Shop LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Footwear Shop</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Footwear Shop Name Board Designs: Modern Ideas, Styles & Trends
+                            <h4 class="office-mag-title">Footwear Shop LED Name Board Designs: Modern Ideas & Trends
                             </h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
@@ -795,8 +793,8 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/medical-shop-name-board-design-modern-styles-trends-best-practices"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/I2GGnNeqzJ8qwyjNNo9ugxvYECkBNPkPV9jyOHd0.jpg"
-                            alt="Medical Shop Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/medical-shop-name-board.jpeg"
+                            alt="Medical Shop LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Medical Shop</div>
                         <div class="office-mag-content">
                             <h4 class="office-mag-title">Medical Shop Name Board Design: Modern Styles, Trends & Best
@@ -809,11 +807,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/xerox-shop-name-board-designs-a-complete-guide-with-modern-ideas"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/bIBl9w7DWlATxF3Al89DcsfZcgBgcaREKdtNCi36.jpg"
-                            alt="Xerox Shop Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/xerox-shop-led-name-board.jpeg"
+                            alt="Xerox Shop LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Xerox Shop</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Xerox Shop Name Board Designs: A Complete Guide with Modern Ideas
+                            <h4 class="office-mag-title">Xerox Shop LED Name Board Designs: Guide with Modern Ideas
                             </h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
@@ -823,11 +821,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/8EoUieeF7xynHtzKAGKLckAuFX6VywWoRxYsy5Ek.jpg"
-                            alt="Cloth & Saree Shop Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/sharee-shop-name-board.jpeg"
+                            alt="Cloth & Saree Shop LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Cloth Shop</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Cloth & Saree Shop Name Board Design Trends for 2025</h4>
+                            <h4 class="office-mag-title">Cloth & Saree Shop LED Name Board Design Trends</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -837,10 +835,10 @@
                     <a href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"
                         class="office-mag-card">
                         <img src="https://brandsignages.com/storage/blogs/M7AJuSSHinwNNbRQOBSpB5OBxWvsVN5E7nQrvsNZ.jpg"
-                            alt="Tailoring Shop Name Board" class="office-mag-bg">
+                            alt="Tailoring Shop LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Tailor Shop</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Creative Tailoring Shop Name Board Design Ideas to Elevate Your
+                            <h4 class="office-mag-title">Creative Tailoring Shop LED Name Board Design Ideas to Elevate Your
                                 Brand</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
@@ -850,11 +848,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/oEU2NPTGhVJeQigszQFXz2tr0Bb4Dmu6bmizmFav.jpg"
-                            alt="Mobile Shop Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/mobile-shop-name-board.jpeg"
+                            alt="Mobile Shop LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Mobile Shop</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Top Mobile Shop Name Board Design Trends to Attract More Customers
+                            <h4 class="office-mag-title">Mobile Shop LED Name Board Design Trends to Attract Customers
                             </h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
@@ -879,11 +877,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/office-name-board-design-trends-for-2026-a-detailed-guide"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/l255RB71MFD9eTn4bSqRhiCuKXsi8Dn6Ik1pSexq.jpg"
+                        <img src="frontend/Images/name-boards/office-led-name-board.jpeg"
                             alt="Office Name Board Design Trends 2026" class="office-mag-bg">
                         <div class="office-mag-chip">Trends 2026</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Office Name Board Design Trends for 2026</h4>
+                            <h4 class="office-mag-title">Office LED Name Board Design Trends for 2026</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -892,11 +890,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/corporate-office-name-board-a-guide-to-design-materials-branding"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/EsV2OTzrEUUAGjrpOXzsCa6sBs1CPae4g0O5hWja.jpg"
-                            alt="Corporate Office Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/corporate-office-led-name-board.jpg"
+                            alt="Corporate Office LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Corporate</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Corporate Office Name Board: Design, Materials & Branding</h4>
+                            <h4 class="office-mag-title">Corporate Office LED Name Board: Design, Materials & Branding</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -905,11 +903,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/architect-office-name-board-style-purpose-and-design-inspiration"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/46IixlgPvKVGIEvL1ChMVL6sqJj7tRARQVryKvoj.jpg"
-                            alt="Architect Office Name Board" class="office-mag-bg">
-                        <div class="office-mag-chip">Architectural</div>
+                        <img src="frontend/Images/name-boards/architect-office-led-name-board.jpeg"
+                            alt="Architect Office LED Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Architect</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Architect Office Name Board: Style, Purpose & Design</h4>
+                            <h4 class="office-mag-title">Architect Office LED Name Board: Style, Purpose & Design</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -918,11 +916,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/construction-office-name-board-materials-design-best-practices"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/mqJg5KUos0Cforc8V53lCsXb2DRu6Q8N9aRyQWt8.jpg"
-                            alt="Construction Office Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/construction-company-name-board.jpg"
+                            alt="Construction Office LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Industrial</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Construction Office Name Board: Materials, Design & Best Practices
+                            <h4 class="office-mag-title">Construction Office LED Name Board: Materials, Design & Best Practices
                             </h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
@@ -932,12 +930,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/advocate-office-name-board-design-elements-for-professional-identity"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/0JkmK0VAmreB2vOgbjL5wVkz98ObfFbFkVQpauYj.jpg"
-                            alt="Advocate Office Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/advocate-office-led-name-board.jpg"
+                            alt="Advocate Office LED Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Professional</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Advocate Office Name Board: Design Elements for Professional
-                                Identity</h4>
+                            <h4 class="office-mag-title">Advocate Office LED Name Board: Design Elements for Identity</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -946,11 +943,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/acrylic-name-board-for-office-modern-workspace-branding-essential"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/ndCP4QNacZLWFXX24t18HCjgPVEkTsek1zsZMgKT.jpg"
-                            alt="Acrylic Name Board for Office" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/acrylic-office-led-name-board.jpg"
+                            alt="Acrylic LED Name Board for Office" class="office-mag-bg">
                         <div class="office-mag-chip">Acrylic</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Acrylic Name Board for Office: Modern Workspace Branding Essential
+                            <h4 class="office-mag-title">Acrylic LED Name Board for Office: Modern Workspace Branding
                             </h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
@@ -960,11 +957,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/glass-name-board-for-office-stylish-and-professional-branding"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/wXN0JgRl1EJSXleQL7pPnA053DqrAeuou6rNuGN7.jpg"
-                            alt="Glass Name Board for Office" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/glass-office-name-board.jpeg"
+                            alt="Glass LED Name Board for Office" class="office-mag-bg">
                         <div class="office-mag-chip">Glass</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Glass Name Board for Office: Stylish & Professional Branding</h4>
+                            <h4 class="office-mag-title">Glass LED Name Board for Office: Style & Branding</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -973,11 +970,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/ultimate-guide-to-office-reception-signage-make-the-right-first-impression"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/FLAAtgEPuON6RRCIHNI3ECWvChlzu9z5mC9sy2sD.jpg"
-                            alt="Office Reception Signage" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/office-reception-led-name-board.jpeg"
+                            alt="Office LED Reception Signage" class="office-mag-bg">
                         <div class="office-mag-chip">Reception</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Office Reception Signage: First Impressions That Last</h4>
+                            <h4 class="office-mag-title">Office LED Reception Signage: First Impressions That Last</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>
@@ -986,11 +983,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/office-name-board-design-ideas-modern-inspiration-for-workplace"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/128OGM4WHmoCSgngsw8ZeEfzQ4FPfQDOnNPGWgFt.jpg"
-                            alt="Office Name Board Design Ideas" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/office-led-name-board-design.jpeg"
+                            alt="Office LED Name Board Design Ideas" class="office-mag-bg">
                         <div class="office-mag-chip">Inspiration</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Office Name Board Design Ideas: Modern Inspiration for Workplaces
+                            <h4 class="office-mag-title">Office LED Name Board Design Ideas: Modern Inspiration for Workplaces
                             </h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
@@ -1000,11 +997,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/name-board-for-office-table-designs-materials-pricing-buyers-guide"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/qAUgJK6EM4OPF9K9uFY40E2EpxhoVBeNYa4BGmkb.jpg"
-                            alt="Office Table Name Board" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/office-table-led-name-board.jpeg"
+                            alt="Office LED Table Name Board" class="office-mag-bg">
                         <div class="office-mag-chip">Table / Desk</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Name Board for Office Table: Designs, Materials & Buyers Guide
+                            <h4 class="office-mag-title">LED Name Board for Office Table: Designs and Buyers Guide
                             </h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
@@ -1015,7 +1012,7 @@
                     <a href="https://brandsignages.com/blogs/5-must-have-indoor-office-signs-for-a-functional-workspace"
                         class="office-mag-card">
                         <img src="https://brandsignages.com/storage/blogs/svt9mVEW6sVkDQNCINeyUZXL7iPdR34MKZxQPFPk.webp"
-                            alt="Indoor Office Signs" class="office-mag-bg">
+                            alt="Indoor Office LED Signs" class="office-mag-bg">
                         <div class="office-mag-chip">Indoor Signs</div>
                         <div class="office-mag-content">
                             <h4 class="office-mag-title">5 Must-Have Indoor Office Signs for a Functional Workspace</h4>
@@ -1027,11 +1024,11 @@
                 <div class="col-lg-4 col-md-6">
                     <a href="https://brandsignages.com/blogs/hospital-sign-board-design-trends-for-2026-a-detailed-guide"
                         class="office-mag-card">
-                        <img src="https://brandsignages.com/storage/blogs/fuVyiWyGSy2QcmiXWnzb8dHPEChuMBTbAKiU92Ro.jpg"
-                            alt="Hospital Sign Board Trends" class="office-mag-bg">
+                        <img src="frontend/Images/name-boards/hospital-name-board.webp"
+                            alt="Hospital LED Sign Board Trends" class="office-mag-bg">
                         <div class="office-mag-chip">Healthcare</div>
                         <div class="office-mag-content">
-                            <h4 class="office-mag-title">Hospital Sign Board Design Trends for 2026: A Detailed Guide</h4>
+                            <h4 class="office-mag-title">Hospital LED Sign Board Design Trends for 2026: A Detailed Guide</h4>
                             <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
                     </a>

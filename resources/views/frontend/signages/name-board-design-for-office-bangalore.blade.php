@@ -342,7 +342,7 @@
 
     </section>
 
-    <section id="designs">
+    <!--<section id="designs">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
             <h2 class="hero-title">Corporate Office Name Boards That <br>Reflects Professionalism</h2>
 
@@ -450,14 +450,14 @@
             </div>
 
         </div>
-    </section>
+    </section>-->
 
 
     <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="hero-title">Largest Collection of Office Name <br>Board Designs in India</h2>
-                <p class="fs-20">Choose the right <strong>office name board designs</strong> for your workspace- whether
+                <p class="fs-20">Choose the right <strong>office name board designs</strong> & <a href="/led-name-board-design" style="text-decoration: unset;color:#E43D12; font-weight: bold;">LED name board</a> for your workspace- whether
                     it’s an advocate office, construction company, consultancy firm,
                     startup, or large corporate office. We offer design options that match the type of your business and the
                     tone of your space. From design selection and
