@@ -328,9 +328,9 @@
     </ul>
 
     <p class="fs-20">
-        Our LED name board options include front-lit, backlit (halo), edge-lit, and RGB LED light name board styles, along with warm
-         or cool white lighting choices. Each board is built with energy-efficient LED modules and weather-resistant materials for
-          long-lasting performance.
+        Our LED name boards are built with IP65-rated LED modules for full weather resistance, delivering 5,000 to 8,000 nits of 
+        brightness for outdoor visibility. With a rated lifespan of 50,000+ hours, roughly 12 to 15 years at standard usage, they
+         deliver consistent performance year-round.
     </p>
 
    <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
@@ -354,189 +354,174 @@
 
             <div class="row con-fix2">
  
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/hardware-shop-name-board-designs-styles-branding-ideas" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/KZUz5AdxHY3etfmnnVofNmDbvMCsEnajXQNgqxGN.jpg" alt="Hardware Shop Name Board: Designs, Styles &amp; Branding Ideas">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Hardware Shop LED Name Board</span>
-                            <span class="time">100+ Exclusive Designs</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/electrical-shop-name-board-design-ideas-trends-branding" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/czZlKe3qxGW7OjbfyzHpqi5XIOF0m2Rx8UXtXg80.jpg" alt="Electrical Shop Name Board Design: Ideas, Trends &amp; Branding">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Electrical Shop LED Name Board</span>
-                            <span class="time">100+ Exclusive Designs</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/stationery-shop-name-board-designs-for-2025-creative-functional-signage" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/M3JSag0ffZlQY0hpxHLYnbg3th2jCmwI3iH3dONC.jpg" alt="Stationery Shop Name Board Designs for 2025: Creative &amp; Functional Signage">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Stationery Shop LED Name Board</span>
-                            <span class="time">100+Exclusive Designs</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/juice-shop-name-board-design-fresh-eye-catching-ideas-for-modern-juice-bars" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/jqHQ3GpleIVRKQOokMDqXJTItm4tnWe7UEJmubbs.jpg" alt="Juice Shop Name Board Design: Fresh &amp; Eye-Catching Ideas for Modern Juice Bars">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Juice Shop LED Name Board</span>
-                            <span class="time">Exclusive Designs</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/YLlD9KPySbesKpFmHVbQNbJMSJs6pPuESFXh1UWz.jpg" alt="Jewellery Shop Name Board Design: Stunning Ideas to Elevate Your Storefront">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Jewellery Shop LED Name Board</span>
-                            <span class="time">Exclusive Designs</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/furniture-shop-name-board-designs-ideas-trends-for-storefronts" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/lU7J8x6Xaw3PFA96HpSnw83469lv1UZKz8UMiJnG.jpg" alt="Furniture Shop Name Board: Designs, Ideas &amp; Trends for Storefronts">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Furniture Shop LED Name Board</span>
-                            <span class="time">100+ Exclusive Designs</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/footwear-shop-name-board-designs-modern-ideas-styles-trends" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/cnzodI522kb6tbIIPog1iaEnIBYVHdqKSDaYzMZD.jpg" alt="Footwear Shop Name Board Designs: Modern Ideas, Styles &amp; Trends">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Footwear Shop LED Name Board</span>
-                            <span class="time">Exclusive Designs</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/medical-shop-name-board-design-modern-styles-trends-best-practices" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/I2GGnNeqzJ8qwyjNNo9ugxvYECkBNPkPV9jyOHd0.jpg" alt="Medical Shop Name Board Design:  Modern Styles, Trends &amp; Best Practices">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Medical Shop LED Name Board</span>
-                            <span class="time">100+ Exclusive Designs</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/xerox-shop-name-board-designs-a-complete-guide-with-modern-ideas" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/bIBl9w7DWlATxF3Al89DcsfZcgBgcaREKdtNCi36.jpg" alt="Xerox Shop Name Board Designs: A Complete Guide with Modern Ideas">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Xerox Shop LED Name Board</span>
-                            <span class="time">Exclusive Designs</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/8EoUieeF7xynHtzKAGKLckAuFX6VywWoRxYsy5Ek.jpg" alt="Cloth &amp; Saree Shop Name Board Design Trends for 2025: A Detailed Guide">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Cloth Shop LED Name Board</span>
-                            <span class="time">Exclusive Designs</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/M7AJuSSHinwNNbRQOBSpB5OBxWvsVN5E7nQrvsNZ.jpg" alt="Creative Tailoring Shop Name Board Design Ideas to Elevate Your Brand in 2025">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Tailor Shop LED Name Board</span>
-                            <span class="time">Exclusive Designs</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
+            <div class="row g-4 office-mag-grid mt-2">
 
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-            <a href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers" style="text-decoration: none;">
-                <div class="blog-card">
-                    <div class="blog-card-img">
-                        <img src="https://brandsignages.com/storage/blogs/oEU2NPTGhVJeQigszQFXz2tr0Bb4Dmu6bmizmFav.jpg" alt="Mobile Shop Name Board Design Ideas in 2025: Attract More Customers">
-                    </div>
-                    <div class="blog-card-body">
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">Mobile Shop LED Name Board</span>
-                            <span class="time">Exclusive Designs</span>
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/hardware-shop-name-board-designs-styles-branding-ideas"
+                        class="office-mag-card">
+                        <img src="frontend/Images/name-boards/hardware-shop-led-name-board.jpeg"
+                            alt="Hardware Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Hardware Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Hardware Shop Name Board: Designs, Styles & Branding Ideas</h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
                         </div>
-                    </div>
+                    </a>
                 </div>
-            </a>
-        </div>
 
-    </div>
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/electrical-shop-name-board-design-ideas-trends-branding"
+                        class="office-mag-card">
+                        <img src="frontend/Images/name-boards/electrical-shop-led-name-board.jpeg"
+                            alt="Electrical Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Electrical Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Electrical Shop Name Board Design: Ideas, Trends & Branding</h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/stationery-shop-name-board-designs-for-2025-creative-functional-signage"
+                        class="office-mag-card">
+                        <img src="frontend/Images/name-boards/stationary-shop-led-name-board.jpeg"
+                            alt="Stationery Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Stationery Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Stationery Shop Name Board Designs for 2025: Creative & Functional
+                            </h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/juice-shop-name-board-design-fresh-eye-catching-ideas-for-modern-juice-bars"
+                        class="office-mag-card">
+                        <img src="frontend/Images/name-boards/juice-shop-led-name-board.jpeg"
+                            alt="Juice Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Juice Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Juice Shop Name Board Design: Fresh & Eye-Catching Ideas</h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront"
+                        class="office-mag-card">
+                        <img src="frontend/Images/name-boards/jewellery-shop-led-name-board.jpeg"
+                            alt="Jewellery Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Jewellery Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Jewellery Shop Name Board Design: Stunning Ideas to Elevate Your
+                                Storefront</h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/furniture-shop-name-board-designs-ideas-trends-for-storefronts"
+                        class="office-mag-card">
+                        <img src="frontend/Images/name-boards/furniture-shop-led-name-board.jpeg"
+                            alt="Furniture Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Furniture Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Furniture Shop Name Board: Designs, Ideas & Trends for Storefronts
+                            </h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/footwear-shop-name-board-designs-modern-ideas-styles-trends"
+                        class="office-mag-card">
+                        <img src="frontend/Images/name-boards/footwear-shop-led-name-board.jpeg"
+                            alt="Footwear Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Footwear Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Footwear Shop Name Board Designs: Modern Ideas, Styles & Trends
+                            </h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/medical-shop-name-board-design-modern-styles-trends-best-practices"
+                        class="office-mag-card">
+                        <img src="frontend/Images/name-boards/medical-shop-name-board.jpeg"
+                            alt="Medical Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Medical Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Medical Shop Name Board Design: Modern Styles, Trends & Best
+                                Practices</h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/xerox-shop-name-board-designs-a-complete-guide-with-modern-ideas"
+                        class="office-mag-card">
+                        <img src="frontend/Images/name-boards/xerox-shop-led-name-board.jpeg"
+                            alt="Xerox Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Xerox Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Xerox Shop Name Board Designs: A Complete Guide with Modern Ideas
+                            </h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"
+                        class="office-mag-card">
+                        <img src="frontend/Images/name-boards/sharee-shop-name-board.jpeg"
+                            alt="Cloth & Saree Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Cloth Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Cloth & Saree Shop Name Board Design Trends for 2025</h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"
+                        class="office-mag-card">
+                        <img src="https://brandsignages.com/storage/blogs/M7AJuSSHinwNNbRQOBSpB5OBxWvsVN5E7nQrvsNZ.jpg"
+                            alt="Tailoring Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Tailor Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Creative Tailoring Shop Name Board Design Ideas to Elevate Your
+                                Brand</h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"
+                        class="office-mag-card">
+                        <img src="frontend/Images/name-boards/mobile-shop-name-board.jpeg"
+                            alt="Mobile Shop Name Board" class="office-mag-bg">
+                        <div class="office-mag-chip">Mobile Shop</div>
+                        <div class="office-mag-content">
+                            <h4 class="office-mag-title">Top Mobile Shop Name Board Design Trends to Attract More Customers
+                            </h4>
+                            <span class="office-mag-cta">Read More &#8594;</span>
+                        </div>
+                    </a>
+                </div>
+                <br>
+
+
 <div class="text-center">
                 <a href="/name-board-designs-for-shops-bangalore">
                     <button class="contact-btn">Shop Name Boards</button>
