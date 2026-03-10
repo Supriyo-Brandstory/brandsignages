@@ -4,72 +4,31 @@
         @php
             $slides = [
                 [
-                    'img' => '10',
+                    'img' => 'led-banner-1',
                     'title' => 'Custom LED Sign Boards for Businesses',
                     'desc' =>
                         'Energy-efficient, bright, and durable LED sign boards tailored for retail stores, offices, and commercial spaces.',
                 ],
                 [
-                    'img' => '1',
+                    'img' => 'led-banner-2',
                     'title' => 'Sleek Indoor LED Board Solutions',
                     'desc' =>
                         'Elevate your interiors with smooth, energy-efficient illumination tailored for modern retail and office spaces.',
                 ],
                 [
-                    'img' => '12',
+                    'img' => 'led-banner-3',
                     'title' => 'Professional LED Office Name Boards',
                     'desc' =>
                         'Precision-crafted identity for corporate headquarters, clinics, and professional workspaces across India.',
                 ],
-                [
-                    'img' => '3',
-                    'title' => 'Dynamic Acrylic Glow Sign Boards',
-                    'desc' =>
-                        'Capture attention 24/7 with high-lumen acrylic face-lit signs engineered for maximum visibility.',
-                ],
-                [
-                    'img' => '4',
-                    'title' => 'Premium LED Business Name Boards',
-                    'desc' =>
-                        'Custom signage developed with lumen-optimized lighting and weather-resistant construction for long-term value.',
-                ],
-                [
-                    'img' => '5',
-                    'title' => 'High-Impact 3D Acrylic Letters',
-                    'desc' =>
-                        'Expertly manufactured 3D letters with backlight glow to ensure your brand is noticed and never overlooked.',
-                ],
-                [
-                    'img' => '6',
-                    'title' => 'Modern Backlit Sign Board Designs',
-                    'desc' =>
-                        'Sophisticated halo-lit signs for brands requiring architectural integration and premium visual presence.',
-                ],
-                [
-                    'img' => '7',
-                    'title' => 'Largest Collection of LED Designs',
-                    'desc' =>
-                        'Explore our variety of crystal LED, programmable LED, and most in-demand signage options in 2025.',
-                ],
-                [
-                    'img' => '8',
-                    'title' => 'Custom Neon LED Signs for Shops',
-                    'desc' =>
-                        'Vibrant, trendy, and energy-efficient neon options perfect for restaurants, cafes, and boutique outlets.',
-                ],
-                [
-                    'img' => '9',
-                    'title' => 'Luminous Commercial Signage',
-                    'desc' =>
-                        'Reliable and high-performance LED display boards tailored for high-footfall commercial zones and malls.',
-                ],
+
             ];
         @endphp
 
         <div class="hero-slides-wrapper" id="heroSlider">
             @foreach ($slides as $slide)
                 <div class="impact-slide {{ $loop->first ? 'active' : '' }}">
-                    <img src="/frontend/Images/led-sign-board/led-sign-boards-{{ $slide['img'] }}.webp"
+                    <img src="/frontend/Images/led-sign-board/{{ $slide['img'] }}.webp"
                         alt="{{ $slide['title'] }}">
 
                     <div class="hero-dark-overlay">
@@ -119,33 +78,13 @@
                 service support, and long-term operational value. If your priority is standing out, being instantly
                 recognisable, and creating a lasting visual presence, a precision-crafted <b>LED sign
                     board</b> ensures your brand is noticed- not overlooked.</p>
-            <!--<img src="/frontend/Images/name-boards/largest-ever-signage-board-collection.webp" alt="Exclusive LED Name Board Design by Brand Signages" class="shop-image">-->
-            <div class="video-image-container">
-                <img src="/frontend/Images/name-boards/largest-ever-signage-board-collection.webp"
-                    alt="Exclusive LED Name Board Design by Brand Signages" class="shop-image">
-
-                <!-- Modern Play Button -->
-                <div class="play-overlay" onclick="openVideo()">
-                    <svg width="50" height="50" viewBox="0 0 24 24" fill="white"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 5v14l11-7z" />
-                    </svg>
-                </div>
-            </div>
-
-            <!-- Popup Modal -->
-            <div id="ytPopup" class="yt-popup">
-                <div class="yt-wrapper">
-                    <span class="close-btn" onclick="closeVideo()">×</span>
-                    <iframe id="ytFrame" frameborder="0" allowfullscreen allow="autoplay"></iframe>
-                </div>
-            </div>
+  
 
 
 
             <div class="text-center">
-                <a href="#designs">
-                    <button class="contact-btn">See How It Works</button>
+                <a href="#pricing">
+                    <button class="contact-btn">Check Pricing</button>
                 </a>
             </div>
 
@@ -2132,15 +2071,5 @@
         });
     </script>
 
-    <script>
-        function openVideo() {
-            document.getElementById("ytPopup").style.display = "flex";
-            document.getElementById("ytFrame").src = "https://www.youtube.com/embed/RnnPGGb_iJI?autoplay=1";
-        }
 
-        function closeVideo() {
-            document.getElementById("ytPopup").style.display = "none";
-            document.getElementById("ytFrame").src = "";
-        }
-    </script>
 @endsection
