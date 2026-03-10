@@ -4,22 +4,22 @@
         @php
             $slides = [
                 [
-                    'img' => 'led-banner-1',
-                    'title' => 'Custom LED Sign Boards for Businesses',
-                    'desc' =>
-                        'Energy-efficient, bright, and durable LED sign boards tailored for retail stores, offices, and commercial spaces.',
-                ],
-                [
-                    'img' => 'led-banner-2',
-                    'title' => 'Sleek Indoor LED Board Solutions',
-                    'desc' =>
-                        'Elevate your interiors with smooth, energy-efficient illumination tailored for modern retail and office spaces.',
-                ],
-                [
                     'img' => 'led-banner-3',
-                    'title' => 'Professional LED Office Name Boards',
+                    'title' => 'LED Sign Boards- Make Your Brand Stand Out',
                     'desc' =>
-                        'Precision-crafted identity for corporate headquarters, clinics, and professional workspaces across India.',
+                        'Designed to create a strong first impression, our LED name boards highlight your brand and attract attention from a distance.',
+                ],
+                [
+                    'img' => 'led-banner-n',
+                    'title' => 'High-Visibility LED Sign Boards for Businesses',
+                    'desc' =>
+                        'Our LED sign boards deliver sharp brightness and lettering, making them perfect for shops, offices, clinics, and commercial spaces.',
+                ],
+                [
+                    'img' => 'led-banner-n2',
+                    'title' => 'Custom LED Sign Boards with Premium Finishes',
+                    'desc' =>
+                        'Made with high-quality materials and precision lighting, our LED sign boards provide long-lasting performance and a professional look.',
                 ],
 
             ];
@@ -61,32 +61,24 @@
 
     <section class="instant-pricing">
         <div class="container py-5">
-            <h2>LED Sign Boards for Brand Visibility<br> and Commercial Impact</h2>
-            <p>The demand for <b>custom LED sign boards</b> has grown as businesses shift toward high-visibility branding
-                solutions that perform across lighting conditions
-                and environments. Brand Signages manufactures LED signage engineered for clarity and consistent
-                illumination, making them suitable for <b>retail chains</b>,
-                <b>hospitality brands</b>, <b>healthcare facilities</b>, <b>corporate spaces</b>, and <b>high-footfall
-                    commercial zones</b>. Unlike generic signage, our LED solutions are
-                developed with lumen-optimized lighting, weather-resistant construction, and installation compatibility for
-                indoor and outdoor.
+            <h2>Stand Out with Powerful LED Sign Boards <br>by Brand Signages</h2>
+            <p>In a busy commercial environment, your sign board is often the first thing people notice about your business. LED 
+                sign boards offer a powerful way to make that first impression count. With bright illumination and sharp visibility,
+                 they help your brand remain clearly noticeable both during the day and after dark, ensuring your business never 
+                 blends into the background. As businesses continue to adopt modern branding solutions, LED signage has become a preferred choice for creating a professional and memorable storefront presence. 
             </p>
-            <p>Our product range includes precision-built <b>LED name boards</b>, <b>acrylic face-lit sign</b>, <b>metal
-                    channel letters</b> with backlit glow, high-brightness <b>LED display boards</b>,
-                and hybrid material options for brands requiring architectural integration. Businesses choose Brand Signages
-                not just for manufacturing, but for reliability,
-                service support, and long-term operational value. If your priority is standing out, being instantly
-                recognisable, and creating a lasting visual presence, a precision-crafted <b>LED sign
-                    board</b> ensures your brand is noticed- not overlooked.</p>
+            <p>LED sign boards are designed to capture attention instantly. Their vibrant lighting and modern appearance make them highly 
+                effective for shops, showrooms, restaurants, clinics, and offices that want to attract more walk-in customers. At Brand Signages, our product 
+                range includes expertly crafted <a href="led-name-board-design"
+                            style="color:#E43D12; text-decoration:none;"><b>LED name boards</b></a>, <a href="arcylic-signages"
+                            style="color:#E43D12; text-decoration:none;"><b>acrylic face-lit sign</b></a>, <a href="metal-led-letters"
+                            style="color:#E43D12; text-decoration:none;"><b>metal channel letters</b></a> with backlit glow, high-brightness <b>LED modules</b>,
+                and hybrid material options designed for businesses that want distinctive and high-impact signage.</p>
   
 
 
 
-            <div class="text-center">
-                <a href="#pricing">
-                    <button class="contact-btn">Check Pricing</button>
-                </a>
-            </div>
+
 
             <!-- Product Impact Gallery Grid -->
             <div class="impact-gallery-grid mt-5">
@@ -122,7 +114,13 @@
                     </div>
                 @endforeach
             </div>
+           
         </div>
+         <div class="text-center">
+                <a href="#pricing">
+                    <button class="contact-btn">Check Pricing</button>
+                </a>
+            </div>
     </section>
 
 
@@ -144,11 +142,11 @@
                         LED sign boards is the most powerful branding elements for modern businesses delivering high
                         visibility, energy efficiency, and premium appeal. Over the years, LED signage has evolved into a
                         must-have identity
-                        element for <a href="name-board-designs-for-shops-bangalore"
+                        element for <a href="led-name-board-for-shop"
                             style="color:#E43D12; text-decoration:none;"><strong>retail stores</strong></a>, <a
                             href="name-board-designs-for-shops-bangalore"
                             style="color:#E43D12; text-decoration:none;"><strong>restaurants</strong></a>, <a
-                            href="name-board-designs-for-shops-bangalore"
+                            href="name-board-design-for-office-bangalore"
                             style="color:#E43D12; text-decoration:none;"><strong>corporate offices</strong></a>, <a
                             href="name-board-designs-for-shops-bangalore"
                             style="color:#E43D12; text-decoration:none;"><strong>jewellery shops</strong></a>, <a
@@ -367,11 +365,10 @@
                     </ul>
 
                     <p class="fs-20">
-                        Each sign board is crafted with <b>high-quality materials</b>, <b>premium LEDs</b>, and
-                        weather-resistant finishes.
-                        You can choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB
-                            color-changing LEDs</b>,
-                        to match your brand’s identity.
+                        Our LED name boards are built with <strong>IP65-rated LED modules</strong> for full weather resistance,
+                         delivering 5,000 to 8,000 nits of brightness for outdoor visibility. With a rated lifespan
+                          of <strong>50,000+ hours</strong>, 12 to 15 years at standard usage, they deliver performance
+                           year-round.
                     </p>
 
                     <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
