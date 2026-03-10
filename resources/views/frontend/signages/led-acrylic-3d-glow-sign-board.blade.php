@@ -530,51 +530,51 @@
 
 
     <!--<section class="customization-bg-and-main-color-section">
-                                                                                <div class="container">
-                                                                                    <h2 class="text-center hero-title mb-5">Customize Your LED Sign</h2>
+                                                                                                                <div class="container">
+                                                                                                                    <h2 class="text-center hero-title mb-5">Customize Your LED Sign</h2>
 
-                                                                                    <div class="row g-4 align-items-start">
+                                                                                                                    <div class="row g-4 align-items-start">
 
-                                                                                        <div class="col-md-4 order-2 order-md-1">
-                                                                                            <div class="thumb-card">
-                                                                                                <h5>Choose Background</h5>
-                                                                                                <div class="customization-thumbs bg-thumbs">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-1.webp') }}" onclick="changeBg(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-2.webp') }}" onclick="changeBg(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-3.webp') }}" onclick="changeBg(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-4.webp') }}" onclick="changeBg(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-5.webp') }}" onclick="changeBg(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-6.webp') }}" onclick="changeBg(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-7.webp') }}" onclick="changeBg(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-8.webp') }}" onclick="changeBg(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-9.webp') }}" onclick="changeBg(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-10.webp') }}" onclick="changeBg(this)">
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="thumb-card mt-4">
-                                                                                                <h5>Choose Sign Style</h5>
-                                                                                                <div class="customization-thumbs sign-thumbs">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-1.webp') }}" onclick="changeSign(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-2.webp') }}" onclick="changeSign(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-3.webp') }}" onclick="changeSign(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-4.png') }}" onclick="changeSign(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-5.webp') }}" onclick="changeSign(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-6.webp') }}" onclick="changeSign(this)">
-                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-7.png') }}" onclick="changeSign(this)">
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
+                                                                                                                        <div class="col-md-4 order-2 order-md-1">
+                                                                                                                            <div class="thumb-card">
+                                                                                                                                <h5>Choose Background</h5>
+                                                                                                                                <div class="customization-thumbs bg-thumbs">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-1.webp') }}" onclick="changeBg(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-2.webp') }}" onclick="changeBg(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-3.webp') }}" onclick="changeBg(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-4.webp') }}" onclick="changeBg(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-5.webp') }}" onclick="changeBg(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-6.webp') }}" onclick="changeBg(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-7.webp') }}" onclick="changeBg(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-8.webp') }}" onclick="changeBg(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-9.webp') }}" onclick="changeBg(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-10.webp') }}" onclick="changeBg(this)">
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div class="thumb-card mt-4">
+                                                                                                                                <h5>Choose Sign Style</h5>
+                                                                                                                                <div class="customization-thumbs sign-thumbs">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-1.webp') }}" onclick="changeSign(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-2.webp') }}" onclick="changeSign(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-3.webp') }}" onclick="changeSign(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-4.png') }}" onclick="changeSign(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-5.webp') }}" onclick="changeSign(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-6.webp') }}" onclick="changeSign(this)">
+                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-7.png') }}" onclick="changeSign(this)">
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
 
-                                                                                        
-                                                                                        <div class="col-md-8 order-1 order-md-2">
-                                                                                            <div class="customization-preview">
-                                                                                                <img id="bgPreview" src="{{ asset('frontend/Images/customization/background/background-1.webp') }}">
-                                                                                                <img id="signPreview" src="{{ asset('frontend/Images/customization/front/sign-1.webp') }}">
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </section>-->
+                                                                                                                        
+                                                                                                                        <div class="col-md-8 order-1 order-md-2">
+                                                                                                                            <div class="customization-preview">
+                                                                                                                                <img id="bgPreview" src="{{ asset('frontend/Images/customization/background/background-1.webp') }}">
+                                                                                                                                <img id="signPreview" src="{{ asset('frontend/Images/customization/front/sign-1.webp') }}">
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </section>-->
 
     <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
         <div class="container">
@@ -915,70 +915,70 @@
 
 
     <!--<section>
-                                                                                    <div class="container py-5">
-                                                                                        <h2 class="hero-title">From Query to Concept and Reality<br> Our Quote Process</h2>
+                                                                                                                    <div class="container py-5">
+                                                                                                                        <h2 class="hero-title">From Query to Concept and Reality<br> Our Quote Process</h2>
 
-                                                                                                        <div class="row align-items-center">
-                                                                                                            <div class="col-lg-6 mb-4 mb-lg-0">
-                                                                                                                <div class="showcase-image">
-                                                                                                                    <img src="{{ asset('frontend/Images/home/our-quote-process.jpg') }}" alt="Digital Signage installed in retail space by Brand Signages"
-                                                                                                                        class="img-fluid">
-                                                                                                                </div>
-                                                                                                            </div>
+                                                                                                                                        <div class="row align-items-center">
+                                                                                                                                            <div class="col-lg-6 mb-4 mb-lg-0">
+                                                                                                                                                <div class="showcase-image">
+                                                                                                                                                    <img src="{{ asset('frontend/Images/home/our-quote-process.jpg') }}" alt="Digital Signage installed in retail space by Brand Signages"
+                                                                                                                                                        class="img-fluid">
+                                                                                                                                                </div>
+                                                                                                                                            </div>
 
-                                                                                                        <div class="col-lg-6">
+                                                                                                                                        <div class="col-lg-6">
 
-                                                                                                <p class="fs-20">
-                                                                                                    At <strong>Brand Signages</strong>, we make getting a signage quote simple and transparent:
-                                                                                                </p>
+                                                                                                                                <p class="fs-20">
+                                                                                                                                    At <strong>Brand Signages</strong>, we make getting a signage quote simple and transparent:
+                                                                                                                                </p>
 
-                                                                                                <ol class="fs-20">
-                                                                                                    <li><strong>Site Check:</strong> We visit your location to confirm measurements and assess installation feasibility.</li>
-                                                                                                    <li><strong>Design & Artwork:</strong> Whether you have a ready design or just a logo, we create a layout that highlights your brand name, tagline, and identity.</li>
-                                                                                                    <li><strong>Material Selection:</strong> Choose from our wide range of acrylic, ACP, and LED options with samples to guide your decision.</li>
-                                                                                                    <li><strong>3D Preview:</strong> We provide a 3D render showing dimensions, materials, and lighting, so you know exactly how your sign will look.</li>
-                                                                                                    <li><strong>Clear Quoting:</strong> With specifications and visuals in hand, you can compare options confidently and avoid surprises at installation.</li>
-                                                                                                </ol>
+                                                                                                                                <ol class="fs-20">
+                                                                                                                                    <li><strong>Site Check:</strong> We visit your location to confirm measurements and assess installation feasibility.</li>
+                                                                                                                                    <li><strong>Design & Artwork:</strong> Whether you have a ready design or just a logo, we create a layout that highlights your brand name, tagline, and identity.</li>
+                                                                                                                                    <li><strong>Material Selection:</strong> Choose from our wide range of acrylic, ACP, and LED options with samples to guide your decision.</li>
+                                                                                                                                    <li><strong>3D Preview:</strong> We provide a 3D render showing dimensions, materials, and lighting, so you know exactly how your sign will look.</li>
+                                                                                                                                    <li><strong>Clear Quoting:</strong> With specifications and visuals in hand, you can compare options confidently and avoid surprises at installation.</li>
+                                                                                                                                </ol>
 
-                                                                                                <p class="fs-20">
-                                                                                                    At <strong>Brand Signages</strong>, we combine clarity, quality, and design to deliver signage that perfectly represents your brand.
-                                                                                                </p>
+                                                                                                                                <p class="fs-20">
+                                                                                                                                    At <strong>Brand Signages</strong>, we combine clarity, quality, and design to deliver signage that perfectly represents your brand.
+                                                                                                                                </p>
 
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </section>-->
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </section>-->
 
 
     <!--<section id="exploredesigns">
-                                                                                    <div class="container pt-5" id="">
-                                                                                        <h2 class="hero-title  mb-4">Best LED Sign Board Product Range <br>for Your Business</h2>
-                                                                                                <p class="text-center fs-20">
-                                                                                                    The right LED sign board can set the tone for your brand. At Brand Signages, you can choose from a variety of <b>acrylic
-                                                                                                    glow sign boards</b>, <b>crystal LED</b>, <b>programmable LED</b>, and other most in-demand LED sign board options. We present the
-                                                                                                        briliant designs and custom LED sign board design options to help you choose what fits your needs. Browse
-                                                                                                        <b>the largest collection of LED sign board</b> at Brand Signages, consult with our experts, and customize
-                                                                                                        LED sign boards at your conveninece. We provide <b>PAN India delivery</b> and <b>installation</b>. </p>
+                                                                                                                    <div class="container pt-5" id="">
+                                                                                                                        <h2 class="hero-title  mb-4">Best LED Sign Board Product Range <br>for Your Business</h2>
+                                                                                                                                <p class="text-center fs-20">
+                                                                                                                                    The right LED sign board can set the tone for your brand. At Brand Signages, you can choose from a variety of <b>acrylic
+                                                                                                                                    glow sign boards</b>, <b>crystal LED</b>, <b>programmable LED</b>, and other most in-demand LED sign board options. We present the
+                                                                                                                                        briliant designs and custom LED sign board design options to help you choose what fits your needs. Browse
+                                                                                                                                        <b>the largest collection of LED sign board</b> at Brand Signages, consult with our experts, and customize
+                                                                                                                                        LED sign boards at your conveninece. We provide <b>PAN India delivery</b> and <b>installation</b>. </p>
 
-                                                                                                          <div class="image-grid">
-                                                                                                                    <div class="image-item">
-                                                                                                                        <img src="/frontend/Images/led-sign-board/3d-acrylic-led-letters.webp"
-                                                                                                                            alt="Flexible LED Sign Board by Brand Signages">
-                                                                                                                            <p>Acrylic LED Letter Sign</p>
-                                                                                                              
-                                                                                                                    </div>
-                                                                                                                    <div class="image-item">
-                                                                                                                        <img src="/frontend/Images/led-sign-board/led-sign-board-showcase.webp"
-                                                                                                                            alt="Modern LED Sign Board- programmable Flexible LED Sign Board">
-                                                                                                                             <p>Programmable LED Sign Board</p>
-                                                                                                                    
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                </div>
-                                                                                                    
+                                                                                                                                          <div class="image-grid">
+                                                                                                                                                    <div class="image-item">
+                                                                                                                                                        <img src="/frontend/Images/led-sign-board/3d-acrylic-led-letters.webp"
+                                                                                                                                                            alt="Flexible LED Sign Board by Brand Signages">
+                                                                                                                                                            <p>Acrylic LED Letter Sign</p>
+                                                                                                                                              
+                                                                                                                                                    </div>
+                                                                                                                                                    <div class="image-item">
+                                                                                                                                                        <img src="/frontend/Images/led-sign-board/led-sign-board-showcase.webp"
+                                                                                                                                                            alt="Modern LED Sign Board- programmable Flexible LED Sign Board">
+                                                                                                                                                             <p>Programmable LED Sign Board</p>
+                                                                                                                                                    
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                                </div>
+                                                                                                                                    
 
-                                                                                    </div>
-                                                                                </section>-->
+                                                                                                                    </div>
+                                                                                                                </section>-->
 
 
 
@@ -1598,428 +1598,7 @@
         </div>
     </section>
 
-    <style>
-        /* Minimalist Dark Hero Theme (Koel Venture Style) */
-        .simple-impact-hero {
-            position: relative;
-            background: #000;
-            height: 600px;
-            /* Precise height like the image */
-            width: 100%;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-        }
 
-        .hero-slides-wrapper {
-            position: absolute;
-            inset: 0;
-            z-index: 1;
-        }
-
-        .impact-slide {
-            position: absolute;
-            inset: 0;
-            opacity: 0;
-            transition: opacity 1s ease-in-out;
-            z-index: 1;
-        }
-
-        .impact-slide.active {
-            opacity: 1;
-            z-index: 2;
-        }
-
-        .impact-slide img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .hero-dark-overlay {
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(to right, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.7) 40%, transparent 100%);
-            z-index: 5;
-            display: flex;
-            align-items: center;
-        }
-
-        .container-large {
-            max-width: 1400px;
-            margin: 0 auto;
-            width: 100%;
-            padding: 0 5%;
-        }
-
-        .hero-content-final {
-            max-width: 650px;
-            color: #fff;
-            animation: slideUpImpact 0.8s ease-out;
-        }
-
-        @keyframes slideUpImpact {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .hero-msg-title {
-            font-weight: 700;
-            line-height: 1.1;
-            margin-bottom: 25px;
-            color: #fff;
-        }
-
-        .hero-msg-desc {
-            font-size: 20px;
-            line-height: 1.5;
-            color: #efefef;
-            margin-bottom: 40px;
-            max-width: 550px;
-        }
-
-        .hero-msg-actions {
-            display: flex;
-            gap: 20px;
-            align-items: center;
-        }
-
-        .btn-impact {
-            padding: 14px 28px;
-            border-radius: 6px;
-            font-size: 16px;
-            font-weight: 700;
-            text-decoration: none !important;
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
-            transition: all 0.3s ease;
-        }
-
-        .btn-impact.primary {
-            background: #e43d12;
-            /* Refined branding red from image */
-            color: #fff;
-        }
-
-        .btn-impact.primary:hover {
-            background: #e43d12;
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(178, 30, 30, 0.3);
-        }
-
-        .btn-impact.secondary {
-            background: #fff;
-            color: #1a1a1a;
-        }
-
-        .btn-impact.secondary:hover {
-            background: #f0f0f0;
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .hero-pagination-dots {
-            position: absolute;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            gap: 12px;
-            z-index: 10;
-        }
-
-        .dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.3);
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        .dot.active {
-            background: #fff;
-            transform: scale(1.3);
-        }
-
-        @media (max-width: 1024px) {
-
-
-            .hero-msg-desc {
-                font-size: 16px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .simple-impact-hero {
-                height: 500px;
-            }
-
-            .hero-dark-overlay {
-                background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
-                text-align: center;
-            }
-
-            .hero-content-final {
-                margin: 0 auto;
-                padding-top: 50px;
-            }
-
-            .hero-msg-actions {
-                flex-direction: column;
-                width: 100%;
-                gap: 15px;
-            }
-
-            .btn-impact {
-                width: 100%;
-                justify-content: center;
-            }
-        }
-
-        /* Product Impact Gallery Grid */
-        .impact-gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 20px;
-        }
-
-        .impact-card {
-            background: #fff;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            transition: transform 0.3s ease;
-        }
-
-        .impact-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        }
-
-        .impact-card-inner {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-
-        .impact-image {
-            width: 100%;
-            aspect-ratio: 1;
-            /* Match the screenshot square look */
-            object-fit: cover;
-        }
-
-        .impact-title-box {
-            padding: 20px 15px;
-            text-align: center;
-            background: #fff;
-            flex-grow: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .impact-title-box span {
-            font-size: 16px;
-            font-weight: 600;
-            color: #333;
-            line-height: 1.2;
-        }
-
-        .impact-title-box span.red-title {
-            color: #e43d12;
-        }
-
-        @media (max-width: 1200px) {
-            .impact-gallery-grid {
-                grid-template-columns: repeat(4, 1fr);
-            }
-        }
-
-        @media (max-width: 991px) {
-            .impact-gallery-grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        @media (max-width: 768px) {
-            .impact-gallery-grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 15px;
-            }
-
-            .impact-title-box {
-                padding: 15px 10px;
-            }
-
-            .impact-title-box span {
-                font-size: 15px;
-            }
-        }
-
-
-
-        @media (max-width: 1200px) {
-            .bold-title {
-                font-size: 52px;
-            }
-
-            .grid-pillar {
-                padding: 40px 20px;
-            }
-        }
-
-        @media (max-width: 991px) {
-            .grid-layout {
-                grid-template-columns: 1fr;
-            }
-
-            .grid-pillar {
-                border-right: none;
-                border-bottom: 1px solid #eee;
-                padding: 60px 20px;
-                text-align: center;
-            }
-
-            .brand-divider {
-                margin: 0 auto 30px;
-            }
-
-            .branding-pillar .pillar-inner {
-                max-width: 600px;
-                margin: 0 auto;
-            }
-
-            .display-pillar {
-                order: -1;
-                min-height: 500px;
-            }
-
-            .specs-pillar {
-                padding: 40px 20px;
-            }
-
-            .specs-list {
-                max-width: 400px;
-                margin: 0 auto;
-            }
-
-            .vertical-tag {
-                display: none;
-            }
-        }
-
-        @media (max-width: 576px) {
-            .bold-title {
-                font-size: 42px;
-            }
-
-            .price-badge-industrial .val {
-                font-size: 28px;
-            }
-        }
-
-        .customization-bg-and-main-color-section {
-            padding: 70px 0;
-        }
-
-        /* Card wrapper */
-        .thumb-card {
-            background: #fff;
-            padding: 20px;
-            border-radius: 14px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-        }
-
-        .thumb-card h5 {
-            font-size: 18px;
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-
-        /* Thumbnails */
-        .customization-thumbs {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 14px;
-        }
-
-        .sign-thumbs {
-            grid-template-columns: repeat(4, 1fr);
-        }
-
-        .customization-thumbs img {
-            width: 100%;
-            cursor: pointer;
-            border-radius: 10px;
-            border: 2px solid transparent;
-            transition: all 0.35s ease;
-            background: #f5f5f5;
-        }
-
-        /* Hover */
-        .customization-thumbs img:hover {
-            transform: translateY(-4px) scale(1.04);
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
-        }
-
-        /* Active */
-        .customization-thumbs img.active {
-            border-color: #ff4a17;
-            box-shadow: 0 0 0 3px rgba(255, 74, 23, 0.25);
-        }
-
-        /* Preview box */
-        .customization-preview {
-            position: relative;
-            width: 100%;
-            aspect-ratio: 2 / 1.12;
-            border-radius: 18px;
-            overflow: hidden;
-            background: #000;
-            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
-        }
-
-        .customization-preview img {
-            position: absolute;
-            inset: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        /* Sign overlay */
-        #signPreview {
-            z-index: 2;
-            pointer-events: none;
-            object-fit: contain;
-        }
-    </style>
-    <script>
-        function setActive(el) {
-            el.parentElement.querySelectorAll('img').forEach(img => img.classList.remove('active'));
-            el.classList.add('active');
-        }
-
-        function changeBg(el) {
-            document.getElementById('bgPreview').src = el.src;
-            setActive(el);
-        }
-
-        function changeSign(el) {
-            document.getElementById('signPreview').src = el.src;
-            setActive(el);
-        }
-    </script>
 
 
 
@@ -2057,19 +1636,6 @@
         });
     </script>
 
-    <script>
-        document.querySelectorAll('.product-gallery').forEach(gallery => {
-            const mainImg = gallery.querySelector('.main-preview img');
-            const thumbs = gallery.querySelectorAll('.thumbnail-row img');
-
-            thumbs.forEach(thumb => {
-                thumb.addEventListener('click', () => {
-                    mainImg.src = thumb.src;
-                    mainImg.alt = thumb.alt;
-                });
-            });
-        });
-    </script>
 
 
 @endsection
