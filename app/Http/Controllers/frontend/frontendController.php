@@ -357,6 +357,34 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.led-name-board-design', compact('seo'));
     }
+
+    public function doctor_name_board_design()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.doctor-name-board-design', compact('seo'));
+    }
+
+    public function acrylic_name_board()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.acrylic-name-board', compact('seo'));
+    }
+
+    public function company_name_board()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.company-name-board', compact('seo'));
+    }
+
+    public function house_name_board_design()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.house-name-board-design', compact('seo'));
+    }
     public function led_name_board_for_shop()
     {
         $currentRoute = Route::current()->uri();
