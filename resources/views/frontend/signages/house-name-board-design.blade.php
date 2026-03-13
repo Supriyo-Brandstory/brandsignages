@@ -10,39 +10,37 @@
 
             <div class="main-slider">
                 <div class="slide active">
-                    <img src="/frontend/Images/name-boards/shop-name-boards--3.webp"
-                        alt="Acrylic LED Shop Name Boards- Venn Hussen, USPA Shop Sign Board Design Sample">
+                    <img src="/frontend/Images/name-boards/house-name-1.webp" alt="Acrylic House name Board Latest Designs Available">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/shop-name-logo-design.webp"
-                        alt="Acrylic LED Glow Shop Name Board - GI Shop Sign Logo Board Design Sample">
+                    <img src="/frontend/Images/name-boards/house-name-2.webp" alt="Acrylic House name Board Latest Designs Available">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/shop-name-board-8.webp"
-                        alt="Acrylic LED Glow Sign - Sufflolk Shop Name Board">
+                    <img src="/frontend/Images/name-boards/house-name-3.webp" alt="Wooden House name Board Latest Designs Available">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/office-name-b1.webp" alt="Office Name Board - Brand Signages">
+                    <img src="/frontend/Images/name-boards/house-name-4.webp" alt="Wooden House name Board Latest Designs Available">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/office-name-board-design-1.jpg"
-                        alt="Office Name Board - Brand Signages">
+                    <img src="/frontend/Images/name-boards/house-name-5.webp" alt="Wooden House name Board Latest Designs Available">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/office-name-b4.webp" alt="Office Name Board - Brand Signages">
+                    <img src="/frontend/Images/name-boards/house-name-6.webp" alt="Acrylic House name Board Latest Designs Available">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/name-board-office-1.webp"
-                        alt="Acrylic Sign Board- Corporate Office">
+                    <img src="/frontend/Images/name-boards/house-name-7.webp" alt="Acrylic House name Board Latest Designs Available">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/house-name-board-1.webp" alt="House Name Board Design">
+                    <img src="/frontend/Images/name-boards/house-name-8.webp" alt="Wooden House name Board Latest Designs Available">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/house-name-board-2.webp" alt="House Name Board Design">
+                    <img src="/frontend/Images/name-boards/house-name-9.webp" alt="Wooden House name Board Latest Designs Available">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/house-name-board-3.webp" alt="House Name Board Design">
+                    <img src="/frontend/Images/name-boards/house-name-10.webp" alt="Acrylic LED House name Board Latest Designs Available">
+                </div>
+                <div class="slide">
+                    <img src="/frontend/Images/name-boards/house-name-11.webp" alt="Acrylic LED House name Board Latest Designs Available">
                 </div>
 
             </div>
@@ -53,51 +51,71 @@
 
 
 
-            <div class="thumbnails">
-                <img src="/frontend/Images/name-boards/shop-name-boards--3.webp"
-                    alt="Acrylic LED Shop Name Boards- Venn Hussen, USPA Shop Sign Board Design Sample" class="thumb active"
-                    data-index="0">
-                <img src="/frontend/Images/name-boards/shop-name-logo-design.webp"
-                    alt="Acrylic LED Glow Shop Name Board - GI Shop Sign Logo Board Design Sample" class="thumb"
-                    data-index="1">
-                <img src="/frontend/Images/name-boards/shop-name-board-8.webp"
-                    alt="Acrylic LED Glow Sign - Sufflolk Shop Name Board" class="thumb" data-index="2">
-                <img src="/frontend/Images/name-boards/office-name-b1.webp" alt="Office Name Board - Brand Signages"
+           <div class="thumbnails">
+
+                <img src="/frontend/Images/name-boards/house-name-1.webp"
+                    alt="Acrylic House name Board Latest Designs Available"
+                    class="thumb active" data-index="0">
+
+                <img src="/frontend/Images/name-boards/house-name-2.webp"
+                    alt="Acrylic House name Board Latest Designs Available"
+                    class="thumb" data-index="1">
+
+                <img src="/frontend/Images/name-boards/house-name-3.webp"
+                    alt="Wooden House name Board Latest Designs Available"
+                    class="thumb" data-index="2">
+
+                <img src="/frontend/Images/name-boards/house-name-4.webp"
+                    alt="Wooden House name Board Latest Designs Available"
                     class="thumb" data-index="3">
-                <img src="/frontend/Images/name-boards/office-name-board-design-1.jpg"
-                    alt="Office Name Board - Brand Signages" class="thumb" data-index="4">
-                <img src="/frontend/Images/name-boards/office-name-b4.webp" alt="Office Name Board - Brand Signages"
+
+                <img src="/frontend/Images/name-boards/house-name-5.webp"
+                    alt="Wooden House name Board Latest Designs Available"
+                    class="thumb" data-index="4">
+
+                <img src="/frontend/Images/name-boards/house-name-6.webp"
+                    alt="Acrylic House name Board Latest Designs Available"
                     class="thumb" data-index="5">
-                <img src="/frontend/Images/name-boards/name-board-office-1.webp" alt="Acrylic Sign Board- Corporate Office"
+
+                <img src="/frontend/Images/name-boards/house-name-7.webp"
+                    alt="Acrylic House name Board Latest Designs Available"
                     class="thumb" data-index="6">
-                <img src="/frontend/Images/name-boards/house-name-board-1.webp" alt="House Name Board Design" class="thumb"
-                    data-index="7">
-                <img src="/frontend/Images/name-boards/house-name-board-2.webp" alt="House Name Board Design" class="thumb"
-                    data-index="8">
-                <img src="/frontend/Images/name-boards/house-name-board-3.webp" alt="House Name Board Design" class="thumb"
-                    data-index="9">
+
+                <img src="/frontend/Images/name-boards/house-name-8.webp"
+                    alt="Wooden House name Board Latest Designs Available"
+                    class="thumb" data-index="7">
+
+                <img src="/frontend/Images/name-boards/house-name-9.webp"
+                    alt="Wooden House name Board Latest Designs Available"
+                    class="thumb" data-index="8">
+
+                <img src="/frontend/Images/name-boards/house-name-10.webp"
+                    alt="Acrylic LED House name Board Latest Designs Available"
+                    class="thumb" data-index="9">
+
+                <img src="/frontend/Images/name-boards/house-name-11.webp"
+                    alt="Acrylic LED House name Board Latest Designs Available"
+                    class="thumb" data-index="10">
+
             </div>
         </div>
 
         <!-- Content -->
         <div class="content">
-            <h1 class="hero-banner_title">200+ House Name Board Designs</h1>
+            <h1 class="hero-banner_title">200+ House Name Boards</h1>
             <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 + GST</b></p>
 
             <div class="divider"></div>
-            <p class="fs-16">A well-crafted name board design defines your identity. Whether for a shop, office, or home,
-                it should align
-                with your brand personality, be clear to read, visually striking, durable, and suited to your space. Modern
-                name board designs
-                for 2026 range from minimalist acrylic and LED-lit styles to traditional wood and stainless steel, often
-                enhanced with 3D lettering
-                or subtle cultural motifs.</p>
+            <p class="fs-16">Brand Signages offers India's largest collection of house name board designs for villas, apartments,
+                 bungalows, and independent homes. We create fully customized boards using premium materials, ensuring weather-resistant 
+                 durability, clear visibility, and a lasting impression at your entrance. Our house name board designs for 2026 range from 
+                 minimalist acrylic and LED-lit styles to classic wood and stainless steel, enhanced with 3D lettering or decorative motifs.</p>
             <ul class="features">
                 <li>200+ House Name Board Designs (Largest Collection in India)</li>
                 <li>Crafted with quality material- Acrylic, LEDs, Neon, & ACP</li>
-                <li>3D LED letters to highlight your name, brand, or logo</li>
-                <li>Customized based on space and visibility requirements</li>
-                <li>PAN India service including design & installation</li>
+                <li>3D letters to highlight name, house number, and address</li>
+                <li>Customized based on entrance size, lighting, and style</li>
+                <li>PAN India service including design, fabrication & installation</li>
             </ul>
 
             <div class="buttons">
@@ -112,45 +130,18 @@
     <section class="instant-pricing">
         <div class="container pt-5">
             <h2>Explore Endless House Name Board Design Options</h2>
-            <p>Brand Signages brings you one of the largest collections of name board design options for <a
-                    href="blogs/name-board-design-for-home-trends-styles-ideas-for-2026"
-                    style="color:#E43D12; text-decoration:none;"><strong>house name boards</strong></a>,
-                <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>shop
-                        name board</strong></a>,
-                <a href="/name-board-design-for-office-bangalore"
-                    style="color:#E43D12; text-decoration:none;"><strong>office name plates</strong></a>, and commercial
-                spaces.
-                We offer affordable, customized name board solutions across India with quick delivery times and professional
-                installation services.
-                Every name board is crafted with precision, comes with transparent pricing, and includes up to 4 years
-                warranty for long-term reliability.
+            <p>Brand Signages offer the most affordable, fully customized <b>house name board designs</b> with quick turnaround 
+                times and professional installation services. Every house name board is crafted with precision, comes with 
+                transparent pricing, and includes up to <b>4 years warranty</b> for long-term durability. If you are looking for 
+                house name board design options for <b>villas</b>, <b>apartments</b>, <b>bungalows</b>, and <b>independent homes</b>, we have the best solutions for you. 
             </p>
-            <p>Choose from multiple size formats, elegant color combinations, and <strong>advanced lighting styles</strong>,
-                our name board designs ensure a strong and lasting visual
-                impression. From modern acrylic LED and flexible LED boards to neon LED, wood, metal, and vinyl options, we
-                create name board designs that perfectly
-                match your style, durability requirements, and budget- while enhancing your identity with clarity and
-                sophistication.</p>
-            <img src="/frontend/Images/name-boards/sign-board.webp"
-                alt="Exclusive Shop House Name Board Design by Brand Signages" class="shop-image">
-
-            <!-- <div class="scroll-loop-wrapper">
-                                    <div class="gridbox">
-                                       
-                                            <div class="scroll-card">
-                                                <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-1.webp') }}"
-                                                   alt="Premium Shop Name Boards for Outdoor Advertising">
-                                            </div>
-                                               <div class="scroll-card">
-                                                <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-7.webp') }}"
-                                                   alt="Premium Shop Name Boards for Outdoor Advertising">
-                                            </div>
-                                               <div class="scroll-card">
-                                                <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-9.webp') }}"
-                                                   alt="Premium Shop Name Boards for Outdoor Advertising">
-                                            </div>
-                                        
-                                    </div>-->
+            <p>Choose from multiple size formats, elegant color combinations, and advanced lighting styles- our house 
+                name board designs ensure a strong and lasting visual impression at your entrance. From modern <b>acrylic LED</b> 
+                and backlit panels to <b>neon LED</b>, wood, <b>stainless steel</b>, and <b>ACP options</b>, we create house name board designs
+                 that perfectly match your style, durability requirements, and budget- while enhancing your home's identity 
+                 with clarity and a premium finish.</p>
+            <img src="/frontend/Images/name-boards/house-name-12.webp"
+                alt="Exclusive House Name Board Design by Brand Signages" class="shop-image">
 
 
             <div class="text-center">
@@ -177,32 +168,26 @@
                 <div class="col-lg-6">
                     <h2 class="hero-title text-start">Why You Deserve a Perfect House Name Board Design</h2>
                     <p class="brand-description">
-                        Every street, residential block, and commercial area is filled with properties competing for
-                        attention.
-                        Your name board design is not just a display- it is the first visual interaction people have with
-                        your home,
-                        office, or shop. A thoughtfully designed name board goes beyond showing a name or logo- it sets
-                        expectations
-                        and reflects brand identity instantly.
+                        Your home deserves to be recognized the moment someone arrives. A house name board design is not 
+                        just a display- it is the first visual interaction visitors, guests, and neighbors have with your home.
+                         A thoughtfully designed house name board goes beyond showing a name or number, it reflects your personal
+                          style and makes your home instantly recognizable from the street.
                     </p>
                     <ul class="brand-list">
                         <li class="mb-3">
-                            <strong>First Impressions Matter:</strong> Your name board design is often the first detail
-                            people
-                            notice. It sets the tone and creates an immediate perception of your style, professionalism,
-                            and overall quality.
+                            <strong>First Impressions Matter:</strong> Your house name board design is often the first detail 
+                            people notice about your home. It sets the tone and creates an immediate perception of your taste,
+                             personality, and overall attention to detail.
                         </li>
                         <li class="mb-3">
-                            <strong>Silent Identity Statement:</strong> A well-crafted name board design works around the
-                            clock,
-                            consistently representing your identity whether for a home, office, or business- even when
-                            no one is present.
+                            <strong>Silent Identity Statement:</strong> A well-crafted house name board design works around 
+                            the clock, consistently representing your home's identity- welcoming guests and guiding visitors
+                             even when you are not there.
                         </li>
                         <li>
-                            <strong>Builds Trust & Credibility:</strong> A clean, premium, and professionally finished name
-                            board
-                            design signals reliability and attention to detail- qualities that leave a positive and lasting
-                            impression.
+                            <strong>Visibility and Recognition:</strong> A clean and premium-looking house 
+                            name board design elevates your entrance, adds aesthetic value to your property, and leaves a
+                             positive lasting impression on everyone who passes by.
                         </li>
                         <div class="mt-4">
                             <a href="#designs" class="custom-btn">Start Your Project</a>
@@ -227,78 +212,50 @@
                         <!-- Slide 1 -->
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
-                                <img src="{{ asset('frontend/Images/home/uhouse.webp') }}" class="card-img-center"
+                                <img src="{{ asset('frontend/Images/name-boards/metal-house-name.webp') }}" class="card-img-center"
                                     alt="Metal Signage">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
                                             href="https://brandsignages.com/metal-signages">Metal Name Boards</a></h5>
-                                    <p class="We-Elevate-Brands-text">Metal name boards are among the most durable and
-                                        long-lasting options for homes, offices,
-                                        and commercial spaces. Stainless steel name boards offer a sleek, modern finish
-                                        while maintaining strength and weather resistance.</p>
+                                    <p class="We-Elevate-Brands-text">Metal house name boards are among the most durable and long-lasting options for villas, apartments, and homes. Stainless steel house name board designs offer a sleek, modern finish, strength and weather resistance for years of outdoor performance.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
-                                <img src="{{ asset('frontend/Images/home/led-sign.webp') }}" class="card-img-center"
+                                <img src="{{ asset('frontend/Images/name-boards/led-house-name.webp') }}" class="card-img-center"
                                     alt="Metal Signage">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
-                                            href="https://brandsignages.com/led-acrylic-3d-glow-sign-board">Acrylic LED
+                                            href="https://brandsignages.com/led-acrylic-3d-glow-sign-board">LED
                                             Name Boards</a></h5>
-                                    <p class="We-Elevate-Brands-text">Acrylic LED name boards are a modern and versatile
-                                        choice for creating a strong
-                                        visual impression. We craft high-quality LED name board designs that enhance
-                                        visibility and add a refined glow
-                                        to your space.</p>
+                                    <p class="We-Elevate-Brands-text">LED house name boards are a modern and versatile choice for creating a strong visual impression at your entrance. We craft high-quality LED house name board designs that enhance visibility and add a refined illuminated finish to your home's exterior.</p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
-                                <img src="{{ asset('frontend/Images/home/digital-signage2.webp') }}"
-                                    class="card-img-center" alt="Metal Signage">
-                                <div class="card-body pt-0">
-                                    <h5 class="We-Elevate-Brands-title"><a
-                                            href="https://brandsignages.com/digital-signages">Digital Name Boards</a></h5>
-                                    <p class="We-Elevate-Brands-text">Digital signage solutions are ideal for commercial,
-                                        offices, malls, and corporate
-                                        environments where modern presentation matter. Digital name displays
-                                        allow you to showcase changing information & visuals. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card We-Elevate-Brands-card ">
-                                <img src="{{ asset('frontend/Images/home/acrylic-sign.webp') }}" class="card-img-center"
+                                <img src="{{ asset('frontend/Images/name-boards/acrylic-house-name.webp') }}" class="card-img-center"
                                     alt="Metal Signage">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
                                             href="https://brandsignages.com/led-acrylic-3d-glow-sign-board">Acrylic Name
                                             Boards</a></h5>
-                                    <p class="We-Elevate-Brands-text">Acrylic name boards are a popular choice for their
-                                        sleek appearance and versatile
-                                        design options. We design acrylic name boards for homes, offices, apartments, and
-                                        commercial spaces
-                                        in custom sizes, colors, and styles.</p>
+                                    <p class="We-Elevate-Brands-text">Acrylic house name boards are a popular choice for their sleek appearance and versatile design options. We design acrylic house name board designs for villas, apartments, bungalows, and independent homes in custom sizes, colors, and styles.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
-                                <img src="{{ asset('frontend/Images/home/neon-sign2.webp') }}" class="card-img-center"
+                                <img src="{{ asset('frontend/Images/name-boards/neon-house-name.webp') }}" class="card-img-center"
                                     alt="Metal Signage">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
                                             href="https://brandsignages.com/neon-signages">Neon Name Boards</a></h5>
-                                    <p class="We-Elevate-Brands-text">Neon name boards bring a vibrant and eye-catching
-                                        appeal to modern spaces. Perfect
-                                        for boutiques, cafés, home décor, and creative workspaces, neon designs create a
-                                        bold visual statement with clarity
-                                        and style.</p>
+                                    <p class="We-Elevate-Brands-text">Neon house name boards bring a vibrant and eye-catching appeal to modern home entrances. Perfect for villas, bungalows, and residences, neon house name board designs create a bold visual statement with a warm, personalized glow.</p>
                                 </div>
                             </div>
                         </div>
@@ -319,22 +276,21 @@
 
     <section id="pricing">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3 pb-5">
-            <h2 class="hero-title">House Name Board Design Pricing & Size Options</h2>
+            <h2 class="hero-title">House Name Board Design <br>Pricing & Size Options</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{ asset('frontend/Images/name-boards/name-board-design.webp') }}"
-                            alt="Rivetoile LED House Name Board Design" class="img-fluid">
+                        <img src="{{ asset('frontend/Images/name-boards/house-name-007.webp') }}"
+                            alt="Kusum House Name Board Design" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
                     <p class="fs-20">
-                        The cost of a name board design depends on the material, size, lettering style, lighting, and
-                        installation requirements.
-                        Since every space is different, whether for a home, office, or building exterior- accurate
-                        measurement is essential.
+                        The cost of a house name board design depends on the material, size, lettering style, lighting, 
+                        and installation requirements. Since every home entrance is different- whether a villa gate, apartment door,
+                         or bungalow exterior, accurate measurement is essential for the right fit and finish.
                     </p>
 
                     <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
@@ -346,11 +302,9 @@
                     </ul>
 
                     <p class="fs-20">
-                        Each name board is crafted with <b>high-quality materials</b>, <b>exclusive design</b>, and
-                        weather-resistant finishes.
-                        You can choose from different lighting styles, including <b>front-lit, backlit, edge-lit, or RGB
-                            color-changing LEDs</b>,
-                        to match your brand’s identity.
+                        Each house name board design is crafted with high-quality materials, personalized layouts, and 
+                        weather-resistant materials. You can choose from different lighting styles- including front-lit, 
+                        backlit, edge-lit, or RGB color-changing LEDs to match your home's exterior and personal style.
                     </p>
 
                     <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
@@ -363,18 +317,12 @@
     <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="hero-title">Explore The Largest Collection of House Name <br>Board Designs in India</h2>
-                <p class="fs-20">Your search for the <strong>perfect name board design</strong> ends with us We bring you
-                    one of the
-                    largest collections of <strong>name board designs in India</strong>, crafted for homes, offices, shops,
-                    and commercial spaces. We are Brand Signages, specialists in crafting impactful name board designs that
-                    leave a lasting impression.
-                    Our name boards go beyond simple identification- they reflect personality, <strong>enhance
-                        visibility</strong>, and elevate the overall
-                    appearance of your space.</p>
+                <h2 class="hero-title">Find Your Perfect House Name Board Design <br>Only at Brand Signages</h2>
+                <p class="fs-20">Brand Signages is India's trusted destination for premium house name board designs. From 
+                    minimalist acrylic panels to illuminated 3D LED boards, we offer hundreds of customized options for 
+                    villas, apartments, bungalows, and independent homes- all backed by professional design, manufacturing,
+                     installation and transparent pricing.</p>
             </div>
-
-            <h3 class="hero-title">House Name Board Designs</h3>
 
             <div class="row con-fix2">
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
@@ -387,8 +335,8 @@
                             </div>
                             <div class="blog-card-body">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">HOUSE NAME BOARD</span>
-                                    <span class="time">4 mins 🕘</span>
+                                    <span class="badge">House Name Board</span>
+                                    <span class="time">Exclusive Designs</span>
                                 </div>
                                 <h5 class="blog-card-title">House Name Board Design for Home: Trends, Styles &amp; Ideas
                                     for 2026
@@ -408,8 +356,8 @@
                             </div>
                             <div class="blog-card-body">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">HOUSE NAME BOARD</span>
-                                    <span class="time">4 mins 🕘</span>
+                                    <span class="badge">House Name Board</span>
+                                    <span class="time">Exclusive Designs</span>
                                 </div>
                                 <h5 class="blog-card-title">House Name Plate Design Trends for 2026: 50+ Stunning Ideas for
                                     Homes</h5>
@@ -427,8 +375,8 @@
                             </div>
                             <div class="blog-card-body">
                                 <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">SIGN BOARD DESIGN</span>
-                                    <span class="time">3 mins 🕘</span>
+                                    <span class="badge">Sign Board Design</span>
+                                    <span class="time">Exclusive Designs</span>
                                 </div>
                                 <h5 class="blog-card-title">Guide to Signage Board Design: Inspiring Sign Board Design
                                     Ideas</h5>
@@ -438,468 +386,6 @@
                 </div>
 
             </div>
-
-
-
-            <h3 class="hero-title pt-5">Best Shop House Name Board Designs</h3>
-
-            <div class="row con-fix2">
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/hardware-shop-name-board-designs-styles-branding-ideas"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/KZUz5AdxHY3etfmnnVofNmDbvMCsEnajXQNgqxGN.jpg"
-                                    alt="Hardware Shop Name Board: Designs, Styles &amp; Branding Ideas">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">HARDWARE SHOP BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Hardware Shop Name Board: Designs, Styles & Branding</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/electrical-shop-name-board-design-ideas-trends-branding"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/czZlKe3qxGW7OjbfyzHpqi5XIOF0m2Rx8UXtXg80.jpg"
-                                    alt="Electrical Shop House Name Board Design: Ideas, Trends &amp; Branding">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">ELECTRICAL SHOP NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Electrical Shop House Name Board Design: Ideas, Trends &
-                                    Branding
-                                </h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/stationery-shop-name-board-designs-for-2025-creative-functional-signage"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/M3JSag0ffZlQY0hpxHLYnbg3th2jCmwI3iH3dONC.jpg"
-                                    alt="Stationery Shop House Name Board Designs for 2025: Creative &amp; Functional Signage">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">STATIONARY SHOP BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Stationery Shop Name Board: Creative Signage Options</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/juice-shop-name-board-design-fresh-eye-catching-ideas-for-modern-juice-bars"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/jqHQ3GpleIVRKQOokMDqXJTItm4tnWe7UEJmubbs.jpg"
-                                    alt="Juice Shop House Name Board Design: Fresh &amp; Eye-Catching Ideas for Modern Juice Bars">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">JUICE SHOP NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Juice Shop Name Board: Fresh & Eye-Catching Designs</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/jewellery-shop-name-board-design-stunning-ideas-to-elevate-your-storefront"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/YLlD9KPySbesKpFmHVbQNbJMSJs6pPuESFXh1UWz.jpg"
-                                    alt="Jewellery Shop House Name Board Design: Stunning Ideas to Elevate Your Storefront">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">JEWELLERY SHOP BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Jewellery Shop Name Board: Explore Stunning Designs</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/furniture-shop-name-board-designs-ideas-trends-for-storefronts"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/lU7J8x6Xaw3PFA96HpSnw83469lv1UZKz8UMiJnG.jpg"
-                                    alt="Furniture Shop Name Board: Designs, Ideas &amp; Trends for Storefronts">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">FURNITURE SHOP NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Furniture Shop Name Board: Explore Designs for Storefronts</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/footwear-shop-name-board-designs-modern-ideas-styles-trends"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/cnzodI522kb6tbIIPog1iaEnIBYVHdqKSDaYzMZD.jpg"
-                                    alt="Footwear Shop House Name Board Designs: Modern Ideas, Styles &amp; Trends">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">SHOE SHOP NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Footwear Shop Name Board: Modern Designs & Trends</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/medical-shop-name-board-design-modern-styles-trends-best-practices"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/I2GGnNeqzJ8qwyjNNo9ugxvYECkBNPkPV9jyOHd0.jpg"
-                                    alt="Medical Shop House Name Board Design:  Modern Styles, Trends &amp; Best Practices">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">MEDICAL SHOP NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Medical Shop Name Board: Explore Modern Styles and Trends</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/xerox-shop-name-board-designs-a-complete-guide-with-modern-ideas"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/bIBl9w7DWlATxF3Al89DcsfZcgBgcaREKdtNCi36.jpg"
-                                    alt="Xerox Shop House Name Board Designs: A Complete Guide with Modern Ideas">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">XEROX SHOP NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Xerox Shop Name Board: Discover Exclusive Modern Designs</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/cloth-saree-shop-name-board-design-trends-for-2025-a-detailed-guide"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/8EoUieeF7xynHtzKAGKLckAuFX6VywWoRxYsy5Ek.jpg"
-                                    alt="Cloth &amp; Saree Shop House Name Board Design Trends for 2025: A Detailed Guide">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">CLOTH SHOP NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Cloth & Saree Shop Name Board: Trending Designs for 2025</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/creative-tailoring-shop-name-board-design-ideas-to-elevate-your-brand-in-2025"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/M7AJuSSHinwNNbRQOBSpB5OBxWvsVN5E7nQrvsNZ.jpg"
-                                    alt="Creative Tailoring Shop House Name Board Design Ideas to Elevate Your Brand in 2025">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">TAILOR SHOP NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Creative Tailoring Shop Name Board: Find Out Trending Designs
-                                </h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/top-mobile-shop-name-board-design-trends-to-attract-more-customers"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/oEU2NPTGhVJeQigszQFXz2tr0Bb4Dmu6bmizmFav.jpg"
-                                    alt="Mobile Shop House Name Board Design Ideas in 2025: Attract More Customers">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">MOBILE SHOP BOARDS</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Mobile Shop House Name Board Design: Attract More Customers
-                                </h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-
-            <h3 class="hero-title pt-5">Best Office House Name Board Designs <br>for Modern Workspaces</h3>
-
-            <div class="row con-fix2">
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/office-name-board-design-trends-for-2026-a-detailed-guide"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/l255RB71MFD9eTn4bSqRhiCuKXsi8Dn6Ik1pSexq.jpg"
-                                    alt="Office House Name Board Design Trends for 2026: A Detailed Guide">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">OFFICE NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Office House Name Board Design Trends for 2026: A Detailed
-                                    Guide</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/corporate-office-name-board-a-guide-to-design-materials-branding"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/EsV2OTzrEUUAGjrpOXzsCa6sBs1CPae4g0O5hWja.jpg"
-                                    alt="Corporate Office Name Board: A Guide to Design, Materials &amp; Branding">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">OFFICE NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Corporate Office Name Board: A Guide to Design, Materials &amp;
-                                    Branding</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/architect-office-name-board-style-purpose-and-design-inspiration"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/46IixlgPvKVGIEvL1ChMVL6sqJj7tRARQVryKvoj.jpg"
-                                    alt="Architect Office Name Board: Style, Purpose, and Design Inspiration">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">ARCHITECT NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Architect Office Name Board: Style, Purpose, and Design
-                                    Inspiration</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/construction-office-name-board-materials-design-best-practices"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/mqJg5KUos0Cforc8V53lCsXb2DRu6Q8N9aRyQWt8.jpg"
-                                    alt="Construction Office Name Board: Materials, Design &amp; Best Practices">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">CONSTRUCTION COMPANY BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Construction Office Name Board: Materials, Design &amp; Best
-                                    Practices</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/advocate-office-name-board-design-elements-for-professional-identity"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/0JkmK0VAmreB2vOgbjL5wVkz98ObfFbFkVQpauYj.jpg"
-                                    alt="Advocate Office Name Board: Design Elements for Professional Identity">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">ADVOCATE NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Advocate Office Name Board: Design Elements for Professional
-                                    Identity</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/acrylic-name-board-for-office-modern-workspace-branding-essential"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/ndCP4QNacZLWFXX24t18HCjgPVEkTsek1zsZMgKT.jpg"
-                                    alt="Acrylic Name Board for Office: Modern Workspace Branding Essential">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">ACRYLIC OFFICE SIGNAGE</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Acrylic Name Board for Office: Modern Workspace Branding
-                                    Essential</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/glass-name-board-for-office-stylish-and-professional-branding"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/wXN0JgRl1EJSXleQL7pPnA053DqrAeuou6rNuGN7.jpg"
-                                    alt="Glass Name Board for Office: Stylish and Professional Branding">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">GLASS NAME BOARDS</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Glass Name Board for Office: Stylish and Professional Branding
-                                </h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/ultimate-guide-to-office-reception-signage-make-the-right-first-impression"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/FLAAtgEPuON6RRCIHNI3ECWvChlzu9z5mC9sy2sD.jpg"
-                                    alt="Office Reception Signage: Why It Matters and How It Shapes Your Brand">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">RECEPTION SIGNAGE</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Office Reception Signage: Why It Matters and How It Shapes Your
-                                    Brand</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/office-name-board-design-ideas-modern-inspiration-for-workplace"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/128OGM4WHmoCSgngsw8ZeEfzQ4FPfQDOnNPGWgFt.jpg"
-                                    alt="Office House Name Board Design Ideas: Modern Inspiration for Workplace">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">OFFICE NAME BOARD</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Office House Name Board Design Ideas: Modern Inspiration for
-                                    Workplace</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/name-board-for-office-table-designs-materials-pricing-buyers-guide"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/qAUgJK6EM4OPF9K9uFY40E2EpxhoVBeNYa4BGmkb.jpg"
-                                    alt="Name Board for Office Table: Designs, Materials, Pricing &amp; Buyer's Guide">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">NAME PLATE FOR OFFICE TABLE</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">Name Board for Office Table: Designs, Materials, Pricing &amp;
-                                    Buyer's Guide</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/5-must-have-indoor-office-signs-for-a-functional-workspace"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/svt9mVEW6sVkDQNCINeyUZXL7iPdR34MKZxQPFPk.webp"
-                                    alt="5 Must-Have Indoor Office Signs for a Functional Workspace">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">OFFICE SIGNAGES</span>
-                                    <span class="time">Exclusive Designs</span>
-                                </div>
-                                <h5 class="blog-card-title">5 Must-Have Indoor Office Signs for a Functional Workspace</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                    <a href="https://brandsignages.com/blogs/hospital-sign-board-design-trends-for-2026-a-detailed-guide"
-                        style="text-decoration: none;">
-                        <div class="blog-card">
-                            <div class="blog-card-img">
-                                <img src="https://brandsignages.com/storage/blogs/fuVyiWyGSy2QcmiXWnzb8dHPEChuMBTbAKiU92Ro.jpg"
-                                    alt="Hospital Sign Board Design Trends for 2026: A Detailed Guide">
-                            </div>
-                            <div class="blog-card-body">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <span class="badge">HOSPITAL SIGNAGE DESIGN</span>
-                                    <span class="time">3 mins 🕘</span>
-                                </div>
-                                <h5 class="blog-card-title">Hospital Sign Board Design Trends for 2026: A Detailed Guide
-                                </h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
 
 
         </div>
@@ -1406,7 +892,7 @@
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Yes, every shop board design we craft is made from premium, weather-resistant materials that
+                    <p>Yes, every house board design we craft is made from premium, weather-resistant materials that
                         withstand changing climate, be it rain, heat, or humidity- while maintaining long-term color
                         brilliance and structure.</p>
                     </p>
@@ -1464,52 +950,16 @@
 
             <div class="faq-item">
                 <button class="faq-question">
-                    Are House Name Board Designs Suitable for Outdoor Use?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes, House Name Board Designs are highly suitable for outdoor installation when manufactured using
-                        weather-resistant and durable materials. These materials ensure protection against rain, dust,
-                        sunlight, and humidity.</p>
-
-                    <p>Common materials used for outdoor House Name Board Designs include:</p>
-                    <ul>
-                        <li>Acrylic panels with waterproof LED modules</li>
-                        <li>Stainless Steel (304/316 grade) fabricated letters</li>
-                        <li>ACP (Aluminium Composite Panel) backing sheets</li>
-                        <li>Powder-coated metal frames for rust resistance</li>
-                        <li>IP65-rated LED lighting components for outdoor durability</li>
-                    </ul>
-
-                    <p>When built with these materials, House Name Board Designs offer excellent nighttime visibility,
-                        energy
-                        efficiency, and long-lasting performance even in challenging outdoor conditions.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
                     Can House Name Board Designs Be Fully Customized?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
                     <p>Yes, customization is available for size, font style, material, finish, lighting, and color
-                        combinations. A customized name board ensures it aligns perfectly with your brand identity or
-                        personal style.</p>
+                        combinations. A customized name board ensures it aligns perfectly with your personal style.</p>
                 </div>
             </div>
 
-            <div class="faq-item">
-                <button class="faq-question">
-                    How Do I Choose the Right House Name Board Design?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Consider the installation location, viewing distance, lighting needs, brand personality, and
-                        available space. A professional assessment helps determine the most suitable design for maximum
-                        impact.</p>
-                </div>
-            </div>
+
 
             <div class="faq-item">
                 <button class="faq-question">
@@ -1541,17 +991,6 @@
                 <div class="faq-answer">
                     <p>The size depends on the facade width, viewing distance, and placement area. Proper measurement
                         ensures the name board is proportionate and easily readable from a distance.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    Can Logos Be Included in House Name Board Designs?
-                    <i class="faq-icon fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Yes, logos, icons, and brand elements can be integrated into the design. Adding a logo enhances brand
-                        recognition and creates a stronger visual identity.</p>
                 </div>
             </div>
 
