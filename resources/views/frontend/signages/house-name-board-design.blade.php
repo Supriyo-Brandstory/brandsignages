@@ -130,8 +130,8 @@
     <section class="instant-pricing">
         <div class="container pt-5">
             <h2>Explore Endless House Name Board Design Options</h2>
-            <p>Brand Signages offer the most affordable, fully customized <b>house name board designs</b> with quick turnaround 
-                times and professional installation services. Every house name board is crafted with precision, comes with 
+            <p>Brand Signages manufactures the most affordable, fully customized <b>house name board designs</b> with quick turnaround 
+                times and professional installation services. Every <a href="/name-board-design-bangalore" style="color:#E43D12; text-decoration:none;"><strong>name board design</strong></a> is crafted with precision, comes with 
                 transparent pricing, and includes up to <b>4 years warranty</b> for long-term durability. If you are looking for 
                 house name board design options for <b>villas</b>, <b>apartments</b>, <b>bungalows</b>, and <b>independent homes</b>, we have the best solutions for you. 
             </p>

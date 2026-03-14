@@ -94,9 +94,9 @@
     <section class="instant-pricing">
         <div class="container pt-5">
             <h2>Explore Endless Name Board Design Options</h2>
-            <p>Brand Signages brings you one of the largest collections of name board design options for <a href="blogs/name-board-design-for-home-trends-styles-ideas-for-2026" style="color:#E43D12; text-decoration:none;"><strong>house name boards</strong></a>, 
-            <a href="name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>shop name board</strong></a>, 
-            <a href="/name-board-design-for-office-bangalore" style="color:#E43D12; text-decoration:none;"><strong>office name plates</strong></a>, and commercial spaces.
+            <p>Brand Signages brings you one of the largest collections of <strong>1,000+</strong> name board designs- including <a href="/house-name-board-design" style="color:#E43D12; text-decoration:none;"><strong>house name boards</strong></a>, 
+            <a href="/name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>shop name board</strong></a>, 
+            <a href="/name-board-design-for-office-bangalore" style="color:#E43D12; text-decoration:none;"><strong>office name plates</strong></a>, <a href="/led-name-board-design" style="color:#E43D12; text-decoration:none;"><strong>LED name board</strong></a>, <a href="/doctor-name-board-design" style="color:#E43D12; text-decoration:none;"><strong>doctor name board</strong></a>, and much more.
                  We offer affordable, customized name board solutions across India with quick delivery times and professional installation services.
                   Every name board is crafted with precision, comes with transparent pricing, and includes up to 4 years warranty for long-term reliability.
             </p>
@@ -330,7 +330,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">HOUSE NAME BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Name Board Design for Home: Trends, Styles &amp; Ideas for 2026</h5>
                     </div>
@@ -347,7 +347,7 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">HOUSE NAME BOARD</span>
-                            <span class="time">4 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">House Name Plate Design Trends for 2026: 50+ Stunning Ideas for Homes</h5>
                     </div>
@@ -363,13 +363,19 @@
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span class="badge">SIGN BOARD DESIGN</span>
-                            <span class="time">3 mins 🕘</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Guide to Signage Board Design: Inspiring Sign Board Design Ideas</h5>
                     </div>
                 </div>
             </a>
         </div>
+
+        <div class="text-center">
+                <a href="/house-name-board-design">
+                    <button class="contact-btn">House Name Boards</button>
+                </a>
+            </div>
 
         </div>
 
@@ -571,6 +577,11 @@
                 </div>
             </a>
         </div>
+        <div class="text-center">
+                <a href="/name-board-designs-for-shops-bangalore">
+                    <button class="contact-btn">Shop Name Boards</button>
+                </a>
+            </div>
 
     </div>
 
@@ -585,7 +596,7 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">OFFICE NAME BOARD</span>
+                            <span class="badge">Office Name Board</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Office Name Board Design Trends for 2026: A Detailed Guide</h5>
@@ -601,7 +612,7 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">OFFICE NAME BOARD</span>
+                            <span class="badge">Office Name Board</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Corporate Office Name Board: A Guide to Design, Materials &amp; Branding</h5>
@@ -617,7 +628,7 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">ARCHITECT NAME BOARD</span>
+                            <span class="badge">Architect Name Board</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Architect Office Name Board: Style, Purpose, and Design Inspiration</h5>
@@ -633,7 +644,7 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">CONSTRUCTION COMPANY BOARD</span>
+                            <span class="badge">Construction Office Board</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Construction Office Name Board: Materials, Design &amp; Best Practices</h5>
@@ -649,7 +660,7 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">ADVOCATE NAME BOARD</span>
+                            <span class="badge">Advocate Name Board</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Advocate Office Name Board: Design Elements for Professional Identity</h5>
@@ -665,7 +676,7 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">ACRYLIC OFFICE SIGNAGE</span>
+                            <span class="badge">Acrylic Name Boards</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Acrylic Name Board for Office: Modern Workspace Branding Essential</h5>
@@ -681,7 +692,7 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">GLASS NAME BOARDS</span>
+                            <span class="badge">Glass Name Boards</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Glass Name Board for Office: Stylish and Professional Branding</h5>
@@ -697,7 +708,7 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">RECEPTION SIGNAGE</span>
+                            <span class="badge">Office Reception Signage</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Office Reception Signage: Why It Matters and How It Shapes Your Brand</h5>
@@ -713,7 +724,7 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">OFFICE NAME BOARD</span>
+                            <span class="badge">Office Name Board</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Office Name Board Design Ideas: Modern Inspiration for Workplace</h5>
@@ -729,7 +740,7 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">NAME PLATE FOR OFFICE TABLE</span>
+                            <span class="badge">Name Board for Office</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Name Board for Office Table: Designs, Materials, Pricing &amp; Buyer's Guide</h5>
@@ -745,7 +756,7 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">OFFICE SIGNAGES</span>
+                            <span class="badge">Office Name Board</span>
                             <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">5 Must-Have Indoor Office Signs for a Functional Workspace</h5>
@@ -761,14 +772,19 @@
                     </div>
                     <div class="blog-card-body">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge">HOSPITAL SIGNAGE DESIGN</span>
-                            <span class="time">3 mins 🕘</span>
+                            <span class="badge">Hospital Name Board</span>
+                            <span class="time">Exclusive Designs</span>
                         </div>
                         <h5 class="blog-card-title">Hospital Sign Board Design Trends for 2026: A Detailed Guide</h5>
                     </div>
                 </div>
             </a>
         </div>
+        <div class="text-center">
+                <a href="/name-board-design-for-office-bangalore">
+                    <button class="contact-btn">Office Name Boards</button>
+                </a>
+            </div>
         </div>
         
 
