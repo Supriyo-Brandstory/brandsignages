@@ -2,7 +2,7 @@
 @section('content')
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">Office Name Boards</h1>
+            <h1 class="hero-banner_title">Office Name Board- 200+ Custom Design</h1>
 
         </div>
 
@@ -189,6 +189,99 @@
                         </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+     <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="We-Elevate-Brands-heading fw-bold">Office Name Board for<br> Reception, Desk, Door, Cabin, and More</h2>
+            </div>
+
+            <div class="position-relative">
+                <div class="swiper We-Elevate-Brands-swiper pt-60">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/office-sign-board/office-reception-signage.jpg')}}" class="card-img-center"
+                                    alt="Office Reception Signage Boards">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="blogs/ultimate-guide-to-office-reception-signage-make-the-right-first-impression">Reception Name Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">At Brand Signages, we specialize in office reception name boards 
+                                        that reflect your brand’s identity and create a professional, welcoming first impression on employees, clients, and visitors.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/office-sign-board/desk-table-name-plate.jpg')}}" class="card-img-center"
+                                    alt="Office Desk and Table Name Plates">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="/name-board-design-for-office-bangalore">Desk & Table Name Plates</a></h5>
+                                    <p class="We-Elevate-Brands-text">Our name boards for office tables are designed to clearly display employee names, designations, and departments. 
+                                        Crafted from premium materials like wood, acrylic, glass , or metal (lit and non-lit options).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/office-sign-board/doop-cabin-name-board.jpg')}}" class="card-img-center"
+                                    alt="Door and Cabin Name Boards for Office">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="/name-board-design-for-office-bangalore">Door & Cabin Name Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">Our door and cabin name boards help clearly identify rooms, employee roles, and departments while maintaining a cohesive 
+                                        office branding. Premium materials such as wood, acrylic, or metal, these boards offer durability, readability, and style.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/office-sign-board/wall-directory-graphics.jpg')}}" class="card-img-center"
+                                    alt="Office Wall and Directory Boards">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="/name-board-design-for-office-bangalore">Wall & Directory Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">Wall and directory boards serve as the central guide for your office, making navigation simple for employees and visitors. 
+                                        Strategically placed, they highlight departments, floors, and key areas, while enhancing professional appearance.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card We-Elevate-Brands-card ">
+                                <img src="{{asset('frontend/Images/office-sign-board/floor-name-boards.jpg')}}" class="card-img-center"
+                                    alt="Office Floor Name Boards">
+                                <div class="card-body pt-0">
+                                    <h5 class="We-Elevate-Brands-title"><a
+                                            href="/name-board-design-for-office-bangalore">Dept. & Floor Name Boards</a></h5>
+                                    <p class="We-Elevate-Brands-text">Department and floor name boards are designed to showcase your office’s structure and hierarchy with style. Highlight each team, 
+                                        floor, or functional area while maintaining a cohesive brand identity. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Navigation Arrows -->
+                    <div class="We-Elevate-Brands-nav ">
+                        <!-- Swap order: prev on left, next on right -->
+                        <div class="We-Elevate-Brands-button-prev"></div>
+                        <div class="We-Elevate-Brands-button-next"></div>
+                    </div>
+
+                </div>
+            </div>
+
+                    <div class="text-center" style="padding: 20px 0;">
+            <a href="/contact-us">
+                <button class="contact-btn">Ask for Quote</button>
+            </a>
+        </div>
+
         </div>
     </section>
 
