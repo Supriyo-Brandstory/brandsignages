@@ -2,7 +2,7 @@
 @section('content')
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">Office Name Board- 200+ Custom Design</h1>
+            <h1 class="hero-banner_title">Office Name Board</h1>
 
         </div>
 
