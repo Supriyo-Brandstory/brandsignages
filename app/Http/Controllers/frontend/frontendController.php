@@ -966,4 +966,34 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.real-estate-signage', compact('seo'));
     }
+
+    public function queue_manager()
+    {
+        return view('frontend.signages.queue-manager');
+    }
+
+    public function wall_graphics()
+    {
+        return view('frontend.signages.wall-graphics');
+    }
+
+    public function indoor_graphics()
+    {
+        return view('frontend.signages.indoor-graphics');
+    }
+
+    public function outdoor_graphics()
+    {
+        return view('frontend.signages.outdoor-graphics');
+    }
+
+    public function hoarding_boards()
+    {
+        return view('frontend.signages.hoarding-boards');
+    }
+
+    public function banner_printing()
+    {
+        return view('frontend.signages.banner-printing');
+    }
 }

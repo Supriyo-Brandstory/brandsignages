@@ -126,6 +126,13 @@ Route::get('/safety-signages', [frontendController::class, 'safety_signages'])->
 
 
 
+Route::get('/queue-manager', [frontendController::class, 'queue_manager'])->name('queue_manager');
+Route::get('/wall-graphics', [frontendController::class, 'wall_graphics'])->name('wall_graphics');
+Route::get('/indoor-graphics', [frontendController::class, 'indoor_graphics'])->name('indoor_graphics');
+Route::get('/outdoor-graphics', [frontendController::class, 'outdoor_graphics'])->name('outdoor_graphics');
+Route::get('/hoarding-boards', [frontendController::class, 'hoarding_boards'])->name('hoarding_boards');
+Route::get('/banner-printing', [frontendController::class, 'banner_printing'])->name('banner_printing');
+
 Auth::routes();
 Route::get('/services', [frontendController::class, 'services'])->name('services');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
