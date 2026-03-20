@@ -1,906 +1,378 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-    <style>
-        .bank-hero {
-            position: relative;
-            background: url('{{ asset('frontend/Images/generated/bank_hero.png') }}') no-repeat center center/cover;
-            min-height: 600px;
-            display: flex;
-            align-items: center;
-            color: white;
-        }
 
-        .bank-hero::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-            text-align: left;
-
-            h1 {
-                font-family: 'Lora', serif;
-                font-size: 40px;
-            }
-
-            p {
-                margin: 20px 0;
-            }
-        }
-
-        .feature-box {
-            background: #fff;
-            padding: 2.5rem;
-            height: 100%;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-            border-radius: 12px;
-            border-top: 5px solid #E43D12;
-            transition: all 0.4s ease;
-        }
-
-        .feature-box:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
-        }
-
-        .icon-box {
-            width: 60px;
-            height: 60px;
-            background: #fff0ed;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #E43D12;
-            margin-bottom: 20px;
-        }
-
-        .stat-section {
-            background: #000;
-            padding: 5rem 0;
-            color: white;
-        }
-
-        .stat-item h3 {
-            font-size: 3rem;
-            color: #E43D12;
-            font-weight: 800;
-            margin-bottom: 5px;
-        }
-
-        .process-step {
-            border-left: 3px dashed #E43D12;
-            padding-left: 30px;
-            margin-bottom: 30px;
-            position: relative;
-        }
-
-        .process-step::before {
-            content: "";
-            width: 14px;
-            height: 14px;
-            background: #E43D12;
-            border: 3px solid #fff;
-            border-radius: 50%;
-            position: absolute;
-            left: -10px;
-            top: 5px;
-            box-shadow: 0 0 0 4px rgba(228, 61, 18, 0.2);
-        }
-
-        .gallery-img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .sticky-column {
-            position: sticky;
-            top: 100px;
-            height: fit-content;
-        }
-
-        .fs-20 {
-            font-size: 20px;
-        }
-
-        .btn-brand-red {
-            background-color: #E43D12;
-            color: white;
-            transition: all 0.3s ease;
-        }
-
-        .btn-brand-red:hover {
-            background-color: #000;
-            color: white;
-        }
-
-        .text-brand-red {
-            color: #E43D12;
-        }
-
-        .bg-brand-red {
-            background-color: #E43D12;
-        }
-
-        .testimonial-nav-btn {
-            width: 54px !important;
-            height: 54px !important;
-            display: inline-flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-            border-radius: 50% !important;
-            padding: 0 !important;
-            transition: all 0.3s ease !important;
-            border: none !important;
-        }
-
-        .testimonial-nav-btn:hover {
-            transform: scale(1.1);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
-        }
-        .process-card {
-    background: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    border-radius: 16px;
-    padding: 2.5rem 2rem;
-    height: 100%;
-    transition: all 0.3s ease;
-}
-
-.process-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-}
-
-.process-number {
-    width: 64px;
-    height: 64px;
-    margin: 0 auto;
-    border-radius: 50%;
-    background: rgba(228, 61, 18, 0.1);
-    color: #E43D12;
-    font-weight: 800;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-.assurance-card {
-    background: #fff;
-    padding: 32px 24px;
-    border-radius: 16px;
-    height: 100%;
-    text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-}
-
-.assurance-card i {
-    font-size: 28px;
-    color: #E43D12;
-    margin-bottom: 16px;
-}
-
-.assurance-card h6 {
-    font-weight: 700;
-    margin-bottom: 8px;
-    color: #000;
-}
-
-.assurance-card p {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 0;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-    .assurance-card {
-        padding: 24px 20px;
-    }
-
-    .assurance-card h6 {
-        font-size: 15px;
-    }
-
-    .assurance-card p {
-        font-size: 13px;
-    }
-}
-
-
-
-
-        /* Mobile View Fixes */
-        @media (max-width: 768px) {
-            .bank-hero {
-                min-height: 450px;
-                text-align: center;
-            }
-
-            .hero-content {
-                text-align: center;
-            }
-
-            .hero-content h1 {
-                font-size: 32px !important;
-            }
-
-            .hero-content p {
-                font-size: 16px !important;
-            }
-
-            .hero-content .d-flex {
-                flex-direction: column;
-                gap: 10px !important;
-                align-items: center;
-            }
-
-            .hero-content .btn {
-                padding: 12px 20px !important;
-                width: 100%;
-            }
-
-            .stat-section {
-                padding: 3rem 0;
-            }
-
-            .stat-item h3 {
-                font-size: 2rem;
-            }
-
-            .sticky-column {
-                position: relative;
-                top: 0;
-                margin-top: 20px;
-            }
-
-            .feature-box {
-                padding: 1.5rem;
-            }
-
-            .display-5 {
-                font-size: 28px;
-            }
-        }
-    </style>
-
-    <section class="bank-hero">
-        <div class="container hero-content">
-            <div class="row">
-                <div class="col-lg-8">
-                    <span class="badge mb-3 px-3 py-2 text-uppercase fw-bold bg-brand-red">Banking Specialist</span>
-                    <h1 class="">Premium Signage <br>For Financial Institutions</h1>
-                    <p class="fs-20">
-                        Define trust and security with our high-end banking signage systems.
-                        Engineered for institutional scale, brand consistency, and regulatory compliance.
-                    </p>
-                    <div class="d-flex gap-3">
-                        <a href="{{ route('contact_us') }}"
-                            class="btn btn-lg btn-brand-red fw-bold px-5 py-3 rounded-pill">Request Consultation</a>
-                        <a href="#solutions" class="btn btn-lg btn-outline-light fw-bold px-5 py-3 rounded-pill">View
-                            Solutions</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5 bg-white" id="solutions">
-        <div class="container py-lg-5">
-            <div class="row align-items-center">
-                <div class="col-lg-6 order-2 order-lg-1">
-                    <img src="{{ asset('frontend/Images/generated/bank_internal.png') }}" alt="Bank Interior"
-                        class="img-fluid rounded-4 shadow-lg">
-                </div>
-                <div class="col-lg-6 ps-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
-                    <h2 class="display-5 fw-bold mb-4 text-dark">Earning Trust at Every Touchpoint</h2>
-                    <p class="text-muted mb-4 fs-5">In the banking sector, signage is more than just identification—it's a
-                        symbol of stability and professionalism. We provide end-to-end branding solutions for branch
-                        rollouts and corporate offices.</p>
-                    <ul class="list-unstyled">
-                        <li class="mb-3 d-flex align-items-center">
-                            <i class="fas fa-check-circle text-brand-red me-3 fa-lg"></i>
-                            <span class="fw-semibold">Premium Architectural Metals & Finishes</span>
-                        </li>
-                        <li class="mb-3 d-flex align-items-center">
-                            <i class="fas fa-check-circle text-brand-red me-3 fa-lg"></i>
-                            <span class="fw-semibold">Atm Enclosures & Security Graphics</span>
-                        </li>
-                        <li class="mb-3 d-flex align-items-center">
-                            <i class="fas fa-check-circle text-brand-red me-3 fa-lg"></i>
-                            <span class="fw-semibold">Digital Rate Boards & Interactive Kiosks</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="stat-section">
-        <div class="container">
-            <div class="row text-center g-4">
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>1,200+</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Branches Branded</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>15+</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Years of Trust</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>100%</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Brand Accuracy</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="stat-item">
-                        <h3>24/7</h3>
-                        <p class="text-white-50 text-uppercase tracking-wider small fw-bold">Global Support</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5 bg-light">
-        <div class="container py-lg-5">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold">Comprehensive Banking Solutions</h2>
-                <div class="mx-auto" style="width: 80px; height: 4px; background: #E43D12;"></div>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <div class="icon-box"><i class="fas fa-building fa-2x"></i></div>
-                        <h4 class="fw-bold">External Facades</h4>
-                        <p class="text-muted">High-impact architectural channel letters and pylon signs that establish a
-                            dominant street presence for your branches.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box" style="border-top-color: #000;">
-                        <div class="icon-box" style="background: #000; color: #fff;"><i
-                                class="fas fa-credit-card fa-2x"></i>
-                        </div>
-                        <h4 class="fw-bold">ATM Branding</h4>
-                        <p class="text-muted">Custom illuminated surrounds and security graphics that increase visibility
-                            and brand recall for off-site ATM networks.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <div class="icon-box"><i class="fas fa-desktop fa-2x"></i></div>
-                        <h4 class="fw-bold">Digital Signage</h4>
-                        <p class="text-muted">Centralized networks for real-time interest rate displays, exchange rates, and
-                            interactive customer engagement boards.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5">
-        <div class="container py-lg-5">
-            <div class="row">
-                <div class="col-lg-5">
-                    <h2 class="display-5 fw-bold mb-4">The Implementation Masterplan</h2>
-                    <div class="process-step">
-                        <h5>Institutional Audit</h5>
-                        <p class="text-muted">Review of existing brand assets and spatial requirements across branch
-                            networks.</p>
-                    </div>
-                    <div class="process-step">
-                        <h5>Technical Design</h5>
-                        <p class="text-muted">Engineering blueprints that adhere to global brand standards and safety
-                            protocols.</p>
-                    </div>
-                    <div class="process-step">
-                        <h5>Precision Fabrication</h5>
-                        <p class="text-muted">Manufacturing using high-grade metals and energy-efficient LED modules.</p>
-                    </div>
-                    <div class="process-step">
-                        <h5>Synchronized Rollout</h5>
-                        <p class="text-muted">Coordinated installation across multiple regions to ensure zero deviation in
-                            brand rollout.</p>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="sticky-column">
-                        <div class="row g-3">
-                            <div class="col-12">
-                                <img src="{{ asset('frontend/Images/generated/bank_hero.png') }}" class="gallery-img"
-                                    alt="Bank Building" style="height: auto; max-height: 80vh;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Bank Experience Section -->
-    <section class="py-5 bg-white">
-        <div class="container py-lg-5">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold text-dark">Institutional <span class="text-brand-red">Excellence</span></h2>
-                <p class="text-black fw-bold">Delivering premium branding to the financial world.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-4 border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                        <div class="mb-4 text-brand-red"><i class="fas fa-shield-alt fa-3x"></i></div>
-                        <h4 class="fw-bold text-black">High Security</h4>
-                        <p class="text-black">Durable, tamper-proof materials designed for high-traffic financial
-                            environments.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-4 border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                        <div class="mb-4 text-brand-red"><i class="fas fa-pen-nib fa-3x"></i></div>
-                        <h4 class="fw-bold text-black">Aesthetic Luxury</h4>
-                        <p class="text-black">Premium finishes like brushed titanium and tempered glass for executive
-                            zones.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-4 border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                        <div class="mb-4 text-brand-red"><i class="fas fa-server fa-3x"></i></div>
-                        <h4 class="fw-bold text-black">Unified Logistics</h4>
-                        <p class="text-black">Strategic logistics management for seamless multi-branch signage rollouts.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Project Gallery Section (Enhanced Banking Excellence) -->
-    <section class="py-5 bg-light" id="projects">
-        <style>
-            .project-card-bank {
-                position: relative;
-                overflow: hidden;
-                border-radius: 20px;
-                height: 100%;
-                cursor: pointer;
-            }
-
-            .project-card-bank img {
-                transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            }
-
-            .project-card-bank:hover img {
-                transform: scale(1.1);
-            }
-
-            .project-overlay-bank {
-                position: absolute;
-                inset: 0;
-                background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%);
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                padding: 2rem;
-                opacity: 0.9;
-                transition: opacity 0.3s;
-            }
-
-            .plus-icon-bank {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%) scale(0.5);
-                width: 60px;
-                height: 60px;
-                background: rgba(228, 61, 18, 0.9);
-                border-radius: 50%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: white;
-                opacity: 0;
-                transition: 0.4s;
-            }
-
-            .project-card-bank:hover .plus-icon-bank {
-                opacity: 1;
-                transform: translate(-50%, -50%) scale(1);
-            }
-        </style>
-        <div class="container py-lg-5">
-            <div class="text-center mb-5">
-                <h2 class="display-4 fw-bold text-dark">Banking <span class="text-brand-red">Portfolios</span></h2>
-                <p class="text-muted">Crafting visual identities for the world's most trusted banks.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-8">
-                    <div class="project-card-bank shadow-lg" style="height: 500px;">
-                        <img src="{{ asset('frontend/Images/generated/bank_hero.png') }}"
-                            class="w-100 h-100 object-fit-cover" alt="Large Bank Building">
-                        <div class="plus-icon-bank"><i class="fas fa-plus fa-lg"></i></div>
-                        <div class="project-overlay-bank">
-                            <span class="badge bg-brand-red mb-2 align-self-start">National Rollout</span>
-                            <h3 class="fw-bold text-white mb-1">State Bank Authority</h3>
-                            <p class="text-white-50 small mb-0">500+ Branches branded with unified signage systems.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="row g-4 h-100">
-                        <div class="col-12" style="height: 240px;">
-                            <div class="project-card-bank shadow">
-                                <img src="{{ asset('frontend/Images/generated/bank_internal.png') }}"
-                                    class="w-100 h-100 object-fit-cover" alt="Inside Bank">
-                                <div class="project-overlay-bank">
-                                    <h5 class="fw-bold text-white mb-0">HDFC Bank Executive</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12" style="height: 240px;">
-                            <div class="project-card-bank shadow">
-                                <img src="{{ asset('frontend/Images/generated/bank_hero.png') }}"
-                                    class="w-100 h-100 object-fit-cover" alt="ICICI Bank">
-                                <div class="project-overlay-bank">
-                                    <h5 class="fw-bold text-white mb-0">ICICI Regional Hub</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- NEW SECTION: Engineering Standards -->
-    <section class="py-5 bg-white">
-        <div class="container py-lg-5">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-6">
-                    <h2 class="display-5 fw-bold text-black">Uncompromising <span class="text-brand-red">Engineering
-                            Standards</span></h2>
-                    <p class="text-black fs-5 mb-4 fw-medium">Precision and consistency are the cornerstones of banking
-                        signage. We use industrial-grade methods to ensure long-term brand integrity.</p>
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="p-3 border-start border-4 border-brand-red bg-light">
-                                <h6 class="fw-bold text-black mb-1">Laser Accuracy</h6>
-                                <p class="small text-black mb-0">Micro-precision cutting for seamless brand logos and
-                                    lettering.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border-start border-4 border-dark bg-light">
-                                <h6 class="fw-bold text-black mb-1">Smart Illumination</h6>
-                                <p class="small text-black mb-0">High-efficiency LED systems with automated brightness
-                                    control.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border-start border-4 border-dark bg-light">
-                                <h6 class="fw-bold text-black mb-1">Weather Protection</h6>
-                                <p class="small text-black mb-0">Specialized coatings resistant to extreme UV and humidity.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border-start border-4 border-brand-red bg-light">
-                                <h6 class="fw-bold text-black mb-1">Safety Glazing</h6>
-                                <p class="small text-black mb-0">Impact-resistant materials for ATM and counter signage.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="position-relative">
-                        <img src="{{ asset('frontend/Images/generated/bank_internal.png') }}"
-                            class="img-fluid rounded-4 shadow-lg" alt="Engineering">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- REDESIGNED SECTION: Compliance Corner (White Theme) -->
-    <section class="py-5 bg-white" style="position: relative; overflow: hidden; border-top: 1px solid #eee;">
-        <div class="container h-100 py-lg-5">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-5">
-                    <div class="p-lg-5 p-4 rounded-5"
-                        style="background: #f8f9fa; border: 1px solid rgba(228, 61, 18, 0.2);">
-                        <span class="badge bg-brand-red mb-4 px-3 py-2 text-uppercase tracking-wider">Certified
-                            Solutions</span>
-                        <h2 class="display-4 fw-bold text-black mb-4 line-height-1">Built for <br><span
-                                class="text-brand-red">Strict Compliance</span></h2>
-                        <p class="text-black fs-5 mb-5 fw-medium">We ensure your financial facility meets all international
-                            and local safety standards, combining security with regulatory transparency.
-                        </p>
-
-                        <div class="d-flex align-items-center gap-4 mb-4">
-                            <div class="p-3 bg-white shadow-sm rounded-circle">
-                                <i class="fas fa-shield-alt text-brand-red fa-2x"></i>
-                            </div>
-                            <div>
-                                <h5 class="text-black fw-bold mb-0">100% Brand Compliance</h5>
-                                <p class="text-black small mb-0">Adhering to strict RBI and Global banking norms.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div
-                                class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                                <div class="mb-3">
-                                    <i class="fas fa-eye text-brand-red fa-2x"></i>
-                                </div>
-                                <h4 class="fw-bold text-black mb-3">ATM Visibility</h4>
-                                <p class="text-black small mb-0">Compliance with safety lighting standards to ensure
-                                    customer security in ATM zones at night.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div
-                                class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                                <div class="mb-3">
-                                    <i class="fas fa-universal-access text-brand-red fa-2x"></i>
-                                </div>
-                                <h4 class="fw-bold text-black mb-3">Accessibility</h4>
-                                <p class="text-black small mb-0">Tactile and Braille integration for differently-abled
-                                    customers at counters and ATMs.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div
-                                class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                                <div class="mb-3">
-                                    <i class="fas fa-lock text-brand-red fa-2x"></i>
-                                </div>
-                                <h4 class="fw-bold text-black mb-3">Security Standards</h4>
-                                <p class="text-black small mb-0">Tamper-proof signage mounting for high-exposure public
-                                    areas and branch windows.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div
-                                class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                                <div class="mb-3">
-                                    <i class="fas fa-info text-brand-red fa-2x"></i>
-                                </div>
-                                <h4 class="fw-bold text-black mb-3">Mandatory Disclosures</h4>
-                                <p class="text-black small mb-0">Integrated displays for mandatory regulatory information
-                                    and interest rate disclosures.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="py-5 bg-white">
-        <div class="container py-lg-5">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-4 text-center text-lg-start">
-                    <h2 class="display-5 fw-bold text-dark">Trusted by <br><span class="text-brand-red">Banking
-                            Leaders</span></h2>
-                    <p class="text-dark fs-5 mt-4">See why top financial institutions choose us for their branding
-                        logistics.</p>
-                    <div class="mt-4 mt-lg-5 d-flex gap-3 justify-content-end justify-content-lg-start mb-4 mb-lg-0">
-                        <button class="testimonial-nav-btn btn-dark shadow-sm" type="button"
-                            data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                            <i class="fas fa-chevron-left"></i>
-                        </button>
-                        <button class="testimonial-nav-btn btn-brand-red shadow-sm text-white" type="button"
-                            data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                            <i class="fas fa-chevron-right"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-lg-8 mt-0">
-                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row g-4">
-                                    <div class="col-md-6">
-                                        <div
-                                            class="p-5 bg-light rounded-4 border-start border-5 border-brand-red shadow-sm h-100">
-                                            <div class="mb-4 text-warning">
-                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i>
-                                            </div>
-                                            <p class="fs-5 text-dark mb-4">"Brand Signages managed our 200-branch
-                                                rebranding seamlessly. The consistency across regions was impeccable."</p>
-                                            <h6 class="fw-bold mb-0 text-black">Operations Head</h6>
-                                            <p class="small text-muted mb-0">Leading Private Sector Bank</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 d-none d-md-block">
-                                        <div class="p-5 bg-dark text-white rounded-4 shadow-sm h-100">
-                                            <div class="mb-4 text-brand-red">
-                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i>
-                                            </div>
-                                            <p class="fs-5 mb-4 text-white">"Their ATM surrounds significantly improved our
-                                                brand visibility in high-traffic urban areas. Highly professional team."</p>
-                                            <h6 class="fw-bold mb-0 text-white">Marketing Director</h6>
-                                            <p class="small text-white-50 mb-0">Global Banking Corporation</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5 bg-white">
-    <div class="container py-lg-5">
-        <div class="text-center mb-5">
-            <h2 class="display-5 fw-bold text-dark">Process in <span class="text-brand-red">3 Simple Steps</span></h2>
-            <div class="mx-auto bg-brand-red mt-3" style="width: 60px; height: 3px;"></div>
-        </div>
-
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="process-card text-center">
-                    <div class="process-number">01</div>
-                    <h5 class="fw-bold mt-3">Design</h5>
-                    <p class="text-muted small mb-0">Requirement mapping and compliance-ready concepts.</p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="process-card text-center">
-                    <div class="process-number">02</div>
-                    <h5 class="fw-bold mt-3">Manufacture</h5>
-                    <p class="text-muted small mb-0">Precision fabrication using certified materials.</p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="process-card text-center">
-                    <div class="process-number">03</div>
-                    <h5 class="fw-bold mt-3">Install</h5>
-                    <p class="text-muted small mb-0">On-site execution with minimal operational downtime.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="py-5 bg-light">
+<section class="safety-hero">
     <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-6 fw-bold text-dark">
-                Our <span class="text-brand-red">Key Assurances</span>
-            </h2>
-            <p class="text-muted mt-2">
-                Built to meet the expectations of regulated financial institutions.
-            </p>
-            <div class="mx-auto bg-brand-red mt-3" style="width: 60px; height: 3px;"></div>
-        </div>
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <div class="hero-badges">
+                    <div class="hero-badge">RBI Compliant</div>
+                    <div class="hero-badge">Multi-Branch Rollout</div>
+                    <div class="hero-badge">Premium Finishes</div>
+                </div>
 
-        <div class="row g-4">
-            <div class="col-md-3 col-sm-6">
-                <div class="assurance-card">
-                    <i class="fas fa-check-circle"></i>
-                    <h6>Brand Consistency</h6>
-                    <p>Uniform execution across all branches and regions.</p>
+                <div class="col-lg-6 visible-mobile">
+                    <div class="hero-image">
+                        <img src="{{ asset('frontend/Images/generated/bank_hero.png') }}" class="img-fluid" alt="Bank Signage">
+                        <div class="hero-float-card">
+                            <strong>Banking Signages</strong>
+                            <span>Facades • ATM • Digital Boards • Interiors</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h1>Bank Signages- <br>Define Trust at Every Branch</h1>
+
+                <p class="mt-3">
+                    In the banking sector, signage is more than identification — it's a symbol of stability,
+                    professionalism, and trust. Our premium banking signage solutions are engineered for
+                    institutional scale, brand consistency, and strict regulatory compliance across every touchpoint.
+                </p>
+
+                <div class="hero-cta mt-4 d-flex gap-3 flex-wrap">
+                    <a href="{{ route('contact_us') }}" class="btn btn-brand-red">Request Consultation</a>
+                    <a href="#solutions" class="btn btn-outline-light">View Solutions</a>
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6">
-                <div class="assurance-card">
-                    <i class="fas fa-shield-alt"></i>
-                    <h6>Regulatory Compliance</h6>
-                    <p>Aligned with RBI and global banking safety norms.</p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="assurance-card">
-                    <i class="fas fa-map-marked-alt"></i>
-                    <h6>PAN-India Execution</h6>
-                    <p>Consistent delivery across urban and remote locations.</p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="assurance-card">
-                    <i class="fas fa-user-tie"></i>
-                    <h6>Dedicated Ownership</h6>
-                    <p>Single point of contact for end-to-end coordination.</p>
+            <div class="col-lg-6 hidden-mobile">
+                <div class="hero-image">
+                    <img src="{{ asset('frontend/Images/generated/bank_hero.png') }}" class="img-fluid" alt="Bank Signage">
+                    <div class="hero-float-card">
+                        <strong>Banking Signages</strong>
+                        <span>1,200+ Branches Branded Across India</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-
-
-    <!-- FAQ Section -->
-    <section class="py-5 bg-light">
-        <div class="container py-lg-5">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold text-dark">Banking Signage <span class="text-brand-red">FAQs</span></h2>
-                <div class="mx-auto bg-brand-red mt-3" style="width: 60px; height: 3px;"></div>
+<section class="signage-editorial" id="solutions">
+    <div class="container">
+        <div class="signage-layout">
+            <div class="signage-left">
+                <h2>Earning Trust at Every <br>Customer Touchpoint</h2>
+                <p>
+                    Banking signage is more than direction — it builds credibility at scale. A unified,
+                    well-executed signage system across all branches reinforces regulatory trust, guides customers
+                    intuitively, and communicates your institution's authority from the first glance.
+                </p>
+                <p>
+                    <a href="/" style="color:#E43D12; text-decoration:none;"><strong>Brand Signages</strong></a> provides
+                    end-to-end banking signage solutions — from high-impact <a href="/" style="color:#E43D12; text-decoration:none;"><strong>external facades</strong></a>
+                    and ATM branding to digital rate boards and interior wayfinding. Trusted by leading banks for
+                    multi-branch rollouts with 100% brand accuracy, on-time delivery, and compliance-ready
+                    fabrication at institutional scale.
+                </p>
+                <a href="{{ route('contact_us') }}" class="btn btn-brand-red">Start Your Project →</a>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="accordion accordion-flush shadow-sm rounded-4 overflow-hidden" id="bankFaq">
-                        <div class="accordion-item border-bottom">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button fw-bold py-4 px-4" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#bf1">
-                                    Can you manage a pan-India branch rebranding rollout?
-                                </button>
-                            </h2>
-                            <div id="bf1" class="accordion-collapse collapse show" data-bs-parent="#bankFaq">
-                                <div class="accordion-body p-4 text-muted">
-                                    Yes, we specialize in high-volume, multi-location rollouts. Our logistics and
-                                    installation teams are equipped to handle 100+ branches simultaneously with strict brand
-                                    adherence.
-                                </div>
+
+            <div class="signage-right">
+                <div class="signage-item tall">
+                    <img src="{{ asset('frontend/Images/generated/bank_hero.png') }}" alt="">
+                    <div class="card-label">External Branch Facades</div>
+                </div>
+                <div class="signage-item short">
+                    <img src="{{ asset('frontend/Images/generated/bank_internal.png') }}" alt="">
+                    <div class="card-label">ATM Branding & Enclosures</div>
+                </div>
+                <div class="signage-item short">
+                    <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=600&q=80" alt="">
+                    <div class="card-label">Digital Rate Boards</div>
+                </div>
+                <div class="signage-item tall">
+                    <img src="https://images.unsplash.com/photo-1541354329998-f4d9a9f9297f?w=600&q=80" alt="">
+                    <div class="card-label">Interior Wayfinding</div>
+                </div>
+                <div class="signage-item tall">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="">
+                    <div class="card-label">Counter & Teller Signage</div>
+                </div>
+                <div class="signage-item short">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=80" alt="">
+                    <div class="card-label">Pylon & Totem Signs</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="safety-communication">
+    <div class="container">
+        <div class="layout">
+            <div class="safety-image">
+                <img src="{{ asset('frontend/Images/generated/bank_internal.png') }}" alt="Bank Interior Signage">
+            </div>
+            <div>
+                <h3>Premium Signage <br>for Financial Institutions</h3>
+                <p>
+                    Bank signage is held to a higher standard. It must communicate authority, inspire confidence,
+                    and function flawlessly across thousands of locations — from flagship city branches to
+                    rural banking centres. Every element, from the pylon sign at the entrance to the counter
+                    identifiers inside, shapes how customers perceive your institution.
+                </p>
+                <p>
+                    Our comprehensive range of banking signage includes architectural channel letters, LED
+                    facades, ATM surrounds, digital kiosks, Braille-compliant service boards, mandatory
+                    disclosure displays, and security graphics. Designed for durability, compliance, and
+                    consistent brand execution across any number of locations, any distance apart.
+                </p>
+                <a href="{{ route('contact_us') }}" class="btn btn-brand-red">Request Consultation</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="safety-editorial-x">
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col-lg-7">
+                <div class="editorial-copy">
+                    <h3>Bank Signages That Communicate <br>Strength Before a Word Is Said</h3>
+                    <p>
+                        Banking institutions operate in a landscape where trust is everything. A consistent,
+                        well-designed signage system reinforces that trust before a customer even steps through
+                        the door. From the channel-letter fascia that dominates the high street to the compliance
+                        board inside the branch — every sign must perform with precision, durability, and brand
+                        fidelity across hundreds or thousands of locations simultaneously.
+                    </p>
+                    <p>
+                        By deploying a unified system of <a href="/bank-signages" style="color:#E43D12; text-decoration:none;"><strong>banking signages</strong></a>
+                        and <a href="/safety-signages" style="color:#E43D12; text-decoration:none;"><strong>safety signages</strong></a>
+                        across every branch, financial institutions create an environment of clarity, compliance,
+                        and confidence. Well-executed bank signage also accelerates regulatory audits, reduces
+                        customer confusion at service counters, and signals a professional, well-managed institution
+                        to every visitor.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="case-stack">
+                    <a href="/case-studies" class="case-row">
+                        <div class="case-line"></div>
+                        <div class="case-content">
+                            <span class="case-title">State Bank Authority <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">500+ Branches National Rollout</span>
+                        </div>
+                    </a>
+                    <a href="/case-studies" class="case-row">
+                        <div class="case-line"></div>
+                        <div class="case-content">
+                            <span class="case-title">HDFC Bank <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">Executive Interior Signage</span>
+                        </div>
+                    </a>
+                    <a href="/case-studies" class="case-row">
+                        <div class="case-line"></div>
+                        <div class="case-content">
+                            <span class="case-title">ICICI Regional Hub <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">ATM & Facade Branding</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="safety-flow">
+    <div class="container flow-wrapper">
+        <header class="flow-header">
+            <h2>Signage That Performs at Institutional Scale</h2>
+            <p>
+                Banking signage must maintain perfect brand consistency whether installed in Mumbai or a
+                remote rural branch. That demands a partner with proven logistics, compliance expertise,
+                and fabrication capability — not just a sign manufacturer. The right signage system
+                protects your brand equity across every location, every day.
+            </p>
+            <p>
+                We are among India's most trusted bank signage manufacturers, delivering multi-branch
+                rollouts with zero brand deviation, competitive pricing, and on-time execution PAN India.
+            </p>
+        </header>
+
+        <div class="flow-list">
+            <div class="flow-item left">
+                <span class="flow-no">01</span>
+                <div class="flow-content">
+                    <h4>Institutional Audit &amp; Technical Design</h4>
+                    <p>
+                        We begin with a detailed review of your existing brand assets, spatial requirements,
+                        and regulatory obligations — then engineer compliance-ready blueprints that adhere
+                        to global brand standards and RBI safety protocols before a single sign is made.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flow-item right">
+                <span class="flow-no">02</span>
+                <div class="flow-content">
+                    <h4>Precision Fabrication with Certified Materials</h4>
+                    <p>
+                        Our bank signages are manufactured using marine-grade stainless steel, high-quality
+                        acrylics, laser-accurate metal lettering, and energy-efficient LED modules — engineered
+                        to look premium and last for decades in high-traffic, high-exposure environments.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flow-item left">
+                <span class="flow-no">03</span>
+                <div class="flow-content">
+                    <h4>Synchronised Multi-Branch Rollout</h4>
+                    <p>
+                        Coordinated installation across multiple regions simultaneously — ensuring zero
+                        deviation in brand execution, consistent quality standards, and minimal operational
+                        downtime at every branch, whether it's 10 locations or 1,000.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="new_client_section container">
+    <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
+    <div class="row">
+        <div class="col-md-5 new_client_section-image col-12">
+            <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
+        </div>
+        <div class="col-md-7 new_client_section-scrolling col-12">
+            <div class="new_client_section-wrapper">
+                <div class="new_client_section-row new_client_section-row-1">
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti"></div>
+                </div>
+                <div class="new_client_section-row new_client_section-row-2">
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara"></div>
+                </div>
+                <div class="new_client_section-row new_client_section-row-3">
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="new_testimonial-swiper-section">
+    <div class="container">
+        <h2 class="text-center mb-md-5 mb-3">Feedback from Our Valuable Clients</h2>
+        <div class="position-relative">
+            <div class="new_testimonial-button-prev">
+                <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40" height="40">
+            </div>
+            <div class="new_testimonial-button-next">
+                <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40" height="40">
+            </div>
+            <div class="swiper new_testimonial-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                            <div class="mb-4"><img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon" width="40" height="40"></div>
+                            <p class="description">Brand Signages managed our 200-branch rebranding seamlessly. The consistency across regions was impeccable — every branch looked identical to the design intent, delivered on time and within budget.</p>
+                            <div class="d-flex align-items-center mt-4">
+                                <img src="{{ asset('frontend/Images/sneha-reddy.webp') }}" alt="Operations Head" class="rounded-circle me-3" width="50" height="50">
+                                <div><h6 class="name">Operations Head</h6><small class="text-muted">Leading Private Sector Bank</small></div>
                             </div>
                         </div>
-                        <div class="accordion-item border-bottom">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold py-4 px-4" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#bf2">
-                                    What materials do you use for premium branch facades?
-                                </button>
-                            </h2>
-                            <div id="bf2" class="accordion-collapse collapse" data-bs-parent="#bankFaq">
-                                <div class="accordion-body p-4 text-muted">
-                                    We use marine-grade stainless steel, high-quality acrylics, and energy-efficient Samsung
-                                    LEDs to ensure the signs look premium and last for decades.
-                                </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                            <div class="mb-4"><img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon" width="40" height="40"></div>
+                            <p class="description">Their ATM surrounds significantly improved our brand visibility in high-traffic urban areas. The quality of materials and professionalism of the installation team was truly exceptional.</p>
+                            <div class="d-flex align-items-center mt-4">
+                                <img src="{{ asset('frontend/Images/seema.webp') }}" alt="Marketing Director" class="rounded-circle me-3" width="50" height="50">
+                                <div><h6 class="name">Marketing Director</h6><small class="text-muted">Global Banking Corporation</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                            <div class="mb-4"><img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon" width="40" height="40"></div>
+                            <p class="description">We needed compliance-ready signage across all 85 new branches with tight timelines. Brand Signages delivered every single sign on schedule, with zero brand deviations. Highly recommended for institutional-scale projects.</p>
+                            <div class="d-flex align-items-center mt-4">
+                                <img src="{{ asset('frontend/Images/vikram-sharma.webp') }}" alt="Branch Expansion Head" class="rounded-circle me-3" width="50" height="50">
+                                <div><h6 class="name">Branch Expansion Head</h6><small class="text-muted">National Co-operative Bank</small></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="py-5 text-white shadow-lg" style="background-color: #000;">
-        <div class="container py-4 text-center">
-            <h2 class="display-5 fw-bold mb-4">Elevate Your Institutional Branding</h2>
-            <p class="mb-5 opacity-75 fs-5 mx-auto" style="max-width: 700px;">Join the elite list of financial
-                institutions that trust Brand Signages for their visual excellence. Let's start your rollout today.</p>
-            <div cl ass="d-flex flex-wrap justify-content-center gap-3">
-                <a href="{{ route('contact_us') }}" class="btn btn-lg btn-brand-red fw-bold rounded-pill px-5 py-3">Get a
-                    Quote</a>
-                <a href="tel:+919000000000" class="btn btn-lg btn-outline-light fw-bold rounded-pill px-5 py-3">Call
-                    Now</a>
-            </div>
+<section class="faq-section">
+    <div class="container">
+        <h1 class="faq-title">Banking Signage FAQs</h1>
+
+        <div class="faq-item">
+            <button class="faq-question">Can you manage a pan-India branch rebranding rollout?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Yes, we specialise in high-volume, multi-location rollouts. Our logistics and installation teams are equipped to handle 100+ branches simultaneously with strict brand adherence and on-time delivery across urban and rural locations.</p></div>
         </div>
-    </section>
+        <div class="faq-item">
+            <button class="faq-question">What materials do you use for premium branch facades?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>We use marine-grade stainless steel, high-quality acrylics, and energy-efficient LED modules to ensure branch signage looks premium and lasts for decades in high-exposure outdoor environments.</p></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Are your banking signages RBI and compliance ready?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Yes. All our banking signage solutions are designed to comply with RBI guidelines and global banking safety standards, including mandatory disclosure displays, accessible service boards, and fire-rated material specifications.</p></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Do you provide Braille and ADA-compliant signage for banks?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Yes. We manufacture tactile and Braille-compliant signage for ATMs, service counters, and public areas — ensuring your branches meet accessibility standards for differently-abled customers.</p></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">How do you ensure brand consistency across hundreds of branches?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>We maintain centralised quality control across all fabrication. Every sign is produced from the same master design files, colour references, and material specifications — ensuring identical output regardless of quantity or geography.</p></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Can you handle ATM branding and enclosure signage?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Yes. We provide custom illuminated ATM surrounds, security graphics, and enclosure branding that increase your ATM's visibility and brand recall — whether on-site or at off-branch locations.</p></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Do you supply digital rate boards and interactive kiosks?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Yes. We provide centralised digital display networks for real-time interest rate updates, exchange rate boards, and interactive customer service kiosks that integrate with your branch's existing systems.</p></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">What is your installation process for functioning bank branches?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><p>Our installation teams work outside banking hours to ensure zero disruption to customer service. We coordinate with branch managers and security personnel for seamless, safe, and clean execution at every location.</p></div>
+        </div>
+    </div>
+</section>
+
 @endsection

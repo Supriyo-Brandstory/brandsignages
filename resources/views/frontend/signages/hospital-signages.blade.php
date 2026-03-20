@@ -1,1061 +1,462 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-    <style>
 
-        h2 span{
-            font-family: 'lora', sans-serif;
-        }
-        .hospital-hero {
-            position: relative;
-            background: url('{{ asset('frontend/Images/generated/hospital_hero.png') }}') no-repeat center center/cover;
-            min-height: 600px;
-            display: flex;
-            align-items: center;
-            color: white;
-        }
-
-        .hospital-hero::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-            text-align: left;
-
-            h1 {
-                font-family: 'Lora', serif;
-                font-size: 40px;
-            }
-
-            p {
-                margin: 20px 0;
-            }
-        }
-
-        .feature-box {
-            background: #fff;
-            padding: 2.5rem;
-            height: 100%;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-            border-radius: 12px;
-            border-top: 5px solid #E43D12;
-            transition: all 0.4s ease;
-        }
-
-        .feature-box:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
-        }
-
-        .icon-box {
-            width: 60px;
-            height: 60px;
-            background: #fff0ed;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #E43D12;
-            margin-bottom: 20px;
-        }
-
-        .stat-section {
-            background: #000;
-            padding: 5rem 0;
-            color: white;
-        }
-
-        .stat-item h3 {
-            font-size: 3rem;
-            color: #E43D12;
-            font-weight: 800;
-            margin-bottom: 5px;
-        }
-
-        .process-step {
-            border-left: 3px dashed #E43D12;
-            padding-left: 30px;
-            margin-bottom: 30px;
-            position: relative;
-        }
-
-        .stage-shadow{
-            box-shadow: 0 100px 80px -60px rgba(0, 0, 0, 0.5);
-        }
-
-        .process-step::before {
-            content: "";
-            width: 14px;
-            height: 14px;
-            background: #E43D12;
-            border: 3px solid #fff;
-            border-radius: 50%;
-            position: absolute;
-            left: -10px;
-            top: 5px;
-            box-shadow: 0 0 0 4px rgba(228, 61, 18, 0.2);
-        }
-
-        .gallery-img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .sticky-column {
-            position: sticky;
-            top: 100px;
-            height: fit-content;
-        }
-
-        .fs-20 {
-            font-size: 20px;
-        }
-
-        .btn-brand-red {
-            background-color: #E43D12;
-            color: white;
-            transition: all 0.3s ease;
-        }
-
-        .btn-brand-red:hover {
-            background-color: #000;
-            color: white;
-        }
-
-        .text-brand-red {
-            color: #E43D12;
-        }
-
-        .bg-brand-red {
-            background-color: #E43D12;
-        }
-
-        .testimonial-nav-btn {
-            width: 54px !important;
-            height: 54px !important;
-            display: inline-flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-            border-radius: 50% !important;
-            padding: 0 !important;
-            transition: all 0.3s ease !important;
-            border: none !important;
-        }
-
-        .testimonial-nav-btn:hover {
-            transform: scale(1.1);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
-        }
-
-        /* Mobile View Fixes */
-        @media (max-width: 768px) {
-            .hospital-hero {
-                min-height: 450px;
-                text-align: center;
-            }
-
-            .hero-content {
-                text-align: center;
-            }
-
-            .hero-content h1 {
-                font-size: 32px !important;
-            }
-
-            .hero-content p {
-                font-size: 16px !important;
-            }
-
-            .hero-content .d-flex {
-                flex-direction: column;
-                gap: 10px !important;
-                align-items: center;
-            }
-
-            .hero-content .btn {
-                padding: 12px 20px !important;
-                width: 100%;
-            }
-
-            .stat-section {
-                padding: 3rem 0;
-            }
-
-            .stat-item h3 {
-                font-size: 2rem;
-            }
-
-            .sticky-column {
-                position: relative;
-                top: 0;
-                margin-top: 20px;
-            }
-
-            .feature-box {
-                padding: 1.5rem;
-            }
-
-            .display-5 {
-                font-size: 28px;
-            }
-        }
-    </style>
-
-    <section class="hospital-hero">
-        <div class="container hero-content">
-            <div class="row">
-                <div class="col-lg-7">
-                    <span class="badge mb-3 px-3 py-2 text-uppercase fw-bold bg-brand-red">Healthcare Specialist</span>
-                    <h1 class="">Smarter Wayfinding <br>For Modern Hospitals</h1>
-                    <p class="fs-20">
-                        Enhance patient experience and clinical efficiency with our professional medical signage systems.
-                        Designed for clarity, durability, and compliance.
-                    </p>
-                    <div class="d-flex gap-3">
-                        <a href="{{ route('contact_us') }}"
-                            class="btn btn-lg btn-brand-red fw-bold px-5 py-3 rounded-pill">Get Free Audit</a>
-                        <a href="#solutions" class="btn btn-lg btn-outline-light fw-bold px-5 py-3 rounded-pill">View
-                            Solutions</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5 bg-white" id="solutions">
-        <div class="container py-lg-5">
-            <div class="row align-items-center">
-                <div class="col-lg-6 order-2 order-lg-1">
-                    <img src="https://archello.s3.eu-central-1.amazonaws.com/images/2024/09/27/prashant-parmar-architect-modern-hospital-interior-at-ratnanjali-solitaire-hospitals-archello.1727437060.3087.jpg" alt="Hospital Wayfinding"
-                        class="stage-shadow img-fluid rounded-4">
-                </div>
-                <div class="col-lg-6 ps-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
-                    <h2 class="display-5 fw-bold mb-4 text-dark">Navigating the <span class="text-brand-red">Path to Healing</span></h2>
-                    <p class="text-muted mb-4 fs-5">In a high-stress medical environment, clear signage is a calming force.
-                        We specialize in interior and exterior hospital signage that directs patients intuitively, reducing
-                        anxiety and staff interruptions.</p>
-                    <ul class="list-unstyled">
-                        <li class="mb-3 d-flex align-items-center">
-                            <i class="fas fa-check-circle text-brand-red me-3 fa-lg"></i>
-                            <span class="fw-semibold">Antimicrobial & Hygienic Materials</span>
-                        </li>
-                        <li class="mb-3 d-flex align-items-center">
-                            <i class="fas fa-check-circle text-brand-red me-3 fa-lg"></i>
-                            <span class="fw-semibold">ADA & Braille Compliant Modules</span>
-                        </li>
-                        <li class="mb-3 d-flex align-items-center">
-                            <i class="fas fa-check-circle text-brand-red me-3 fa-lg"></i>
-                            <span class="fw-semibold">Digital Self-Service Wayfinding</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<style>
-    .stat-section {
-        background: linear-gradient(135deg, #0f2027, #203a43, #468ead);
-        padding: 5.5rem 0;
-        color: #fff;
-    }
-
-    .stat-col {
-        border-right: 1px solid rgba(255, 255, 255, 0.15);
-    }
-
-    .stat-col:last-child {
-        border-right: none;
-    }
-
-    .stat-item {
-        padding: 2.5rem 1rem;
-    }
-
-    .stat-item h3 {
-        font-size: 3.2rem;
-        font-weight: 800;
-        letter-spacing: 1px;
-        margin-bottom: 8px;
-        color: #ffffff;
-    }
-
-    .stat-item p {
-        margin: 0;
-        font-size: 13px;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        color: rgba(255, 255, 255, 0.75);
-        font-weight: 700;
-    }
-
-    /* MOBILE */
-    @media (max-width: 768px) {
-        .stat-section {
-            padding: 3.5rem 0;
-        }
-
-        .stat-col {
-            border-right: none;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-        }
-
-        .stat-col:nth-child(3),
-        .stat-col:nth-child(4) {
-            border-bottom: none;
-        }
-
-        .stat-item h3 {
-            font-size: 2.2rem;
-        }
-    }
-
-</style>
-
-    <section class="stat-section">
+<section class="safety-hero">
     <div class="container">
-        <div class="row text-center align-items-center g-0">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <div class="hero-badges">
+                    <div class="hero-badge">NABH Compliant</div>
+                    <div class="hero-badge">Healthcare Wayfinding</div>
+                    <div class="hero-badge">Custom Fabrication</div>
+                </div>
 
-            <div class="col-md-3 col-6 stat-col">
-                <div class="stat-item">
-                    <h3>250+</h3>
-                    <p>Clinics Branded</p>
+                <div class="col-lg-6 visible-mobile">
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800&q=80" class="img-fluid" alt="Hospital Signage">
+                        <div class="hero-float-card">
+                            <strong>Healthcare Signages</strong>
+                            <span>Wayfinding • Compliance • Patient Safety</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h1>Hospital Signages- <br>Guide Every Step to Care</h1>
+
+                <p class="mt-3">
+                    Make your hospital and healthcare facility easier to navigate for patients, visitors, and staff with
+                    signage systems designed for clarity, compliance, and trust. Our hospital signages go beyond
+                    directional arrows — they build confidence at every turn.
+                </p>
+
+                <div class="hero-cta mt-4 d-flex gap-3 flex-wrap">
+                    <a href="#" class="btn btn-brand-red">Get a Quote</a>
+                    <a href="#" class="btn btn-outline-light">Start Your Project</a>
                 </div>
             </div>
 
-            <div class="col-md-3 col-6 stat-col">
-                <div class="stat-item">
-                    <h3>12k+</h3>
-                    <p>Signages Installed</p>
+            <div class="col-lg-6 hidden-mobile">
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800&q=80" class="img-fluid" alt="Hospital Signage">
+                    <div class="hero-float-card">
+                        <strong>Healthcare Signages</strong>
+                        <span>Wayfinding • Room ID • Emergency Exit</span>
+                    </div>
                 </div>
             </div>
-
-            <div class="col-md-3 col-6 stat-col">
-                <div class="stat-item">
-                    <h3>100%</h3>
-                    <p>Quality Assured</p>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6 stat-col">
-                <div class="stat-item">
-                    <h3>24h</h3>
-                    <p>Design Turnaround</p>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
 
-
-<style>
-    /* ===============================
-   SIGNAGE SYSTEM – ROBUST
-=============================== */
-
-.system-eyebrow {
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #E43D12;
-}
-
-/* SYSTEM WRAPPER */
-.signage-system {
-    border-top: 1px solid rgba(0,0,0,0.12);
-}
-
-/* ROW */
-.system-row {
-    display: grid;
-    grid-template-columns: 80px 1fr;
-    gap: 40px;
-    padding: 32px 0;
-    border-bottom: 1px solid rgba(0,0,0,0.12);
-    align-items: flex-start;
-}
-
-/* INDEX */
-.system-index {
-    font-size: 28px;
-    font-weight: 900;
-    color: #E43D12;
-    line-height: 1;
-}
-
-/* CONTENT */
-.system-content h4 {
-    font-weight: 800;
-    margin-bottom: 8px;
-    color: #000;
-}
-
-.system-content p {
-    margin: 0;
-    color: #444;
-    line-height: 1.7;
-    max-width: 640px;
-}
-
-/* SUBTLE HOVER (DESKTOP ONLY) */
-@media (hover: hover) {
-    .system-row {
-        transition: background-color 0.35s ease;
-    }
-
-    .system-row:hover {
-        background: rgba(0,0,0,0.03);
-    }
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-    .system-row {
-        grid-template-columns: 1fr;
-        gap: 14px;
-    }
-
-    .system-index {
-        font-size: 22px;
-    }
-}
-
-</style>
-
-<section class="py-5 bg-light" id="wards">
-    <div class="container py-lg-5">
-
-        <div class="row mb-5 align-items-end">
-            <div class="col-lg-5">
-                <span class="system-eyebrow">Hospital Signage System</span>
-                <h2 class="display-5 fw-bold text-black mt-3">
-                    Signage for <span class="text-brand-red">Every Ward</span>
-                </h2>
+<section class="signage-editorial">
+    <div class="container">
+        <div class="signage-layout">
+            <div class="signage-left">
+                <h2>Turn Complex Facilities into <br>Clear, Navigable Spaces</h2>
+                <p>
+                    Hospital signages are critical to delivering a calm, confident patient experience. A well-designed
+                    signage system reduces confusion, minimises staff interruptions, and ensures people reach the right
+                    department, ward, or emergency exit without hesitation.
+                </p>
+                <p>
+                    <a href="/" style="color:#E43D12; text-decoration:none;"><strong>Brand Signages</strong></a> provides
+                    end-to-end hospital signage solutions for OPDs, <a href="/" style="color:#E43D12; text-decoration:none;"><strong>emergency units</strong></a>,
+                    diagnostic centres, and multi-speciality hospitals. Built for durability, hygiene, and regulatory
+                    compliance — our healthcare signage systems create safer, more efficient environments that reflect the
+                    professionalism of your institution.
+                </p>
+                <a href="#" class="btn btn-brand-red">Start Your Project →</a>
             </div>
+
+            <div class="signage-right">
+                <div class="signage-item tall">
+                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80" alt="">
+                    <div class="card-label">Directional Wayfinding</div>
+                </div>
+                <div class="signage-item short">
+                    <img src="https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=600&q=80" alt="">
+                    <div class="card-label">Room & Ward ID Signages</div>
+                </div>
+                <div class="signage-item short">
+                    <img src="https://images.unsplash.com/photo-1516549655669-df64a4d3e88f?w=600&q=80" alt="">
+                    <div class="card-label">Emergency Exit Signages</div>
+                </div>
+                <div class="signage-item tall">
+                    <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&q=80" alt="">
+                    <div class="card-label">OPD Directory Boards</div>
+                </div>
+                <div class="signage-item tall">
+                    <img src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600&q=80" alt="">
+                    <div class="card-label">Fire Safety Signages</div>
+                </div>
+                <div class="signage-item short">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80" alt="">
+                    <div class="card-label">Braille & ADA Signages</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="safety-communication">
+    <div class="container">
+        <div class="layout">
+            <div class="safety-image">
+                <img src="https://images.unsplash.com/photo-1578991624414-276ef23a534f?w=800&q=80" alt="Hospital Wayfinding Signage">
+            </div>
+            <div>
+                <h3>Smarter Hospital Signage <br>for Better Patient Journeys</h3>
+                <p>
+                    In a healthcare environment, every second of navigation counts. Whether a patient is heading to
+                    diagnostics, a visitor is finding the ICU, or a nurse needs to reach a critical ward quickly —
+                    clear, well-placed hospital signages eliminate confusion and reduce the time to care.
+                </p>
+                <p>
+                    Our comprehensive range of healthcare signages includes directional wayfinding boards, room and
+                    ward identifiers, fire safety signs, emergency exit signages, digital kiosks, and Braille-compliant
+                    modules. Designed to meet NABH and ADA standards and engineered for clinical-grade hygiene, our
+                    signage systems improve navigation, ensure compliance, and reinforce your commitment to patient
+                    safety and operational excellence.
+                </p>
+                <a href="#" class="btn btn-brand-red">Get a Quote</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="safety-editorial-x">
+    <div class="container">
+        <div class="row align-items-start">
             <div class="col-lg-7">
-                <p class="fs-5 text-muted mb-0">
-                    A unified signage language deployed consistently across
-                    diagnostics, OPD, emergency, and inpatient facilities.
-                </p>
+                <div class="editorial-copy">
+                    <h3>Hospital Signages That <br>Build Trust Before Words Do</h3>
+                    <p>
+                        Hospital signages are silent caregivers of a facility. They work continuously — guiding
+                        patients through unfamiliar corridors, directing relatives to waiting areas, and ensuring
+                        staff respond to emergencies without delay. In a high-footfall healthcare environment, these
+                        visual systems reduce cognitive load and let every person focus on what matters: health and
+                        healing.
+                    </p>
+                    <p>
+                        By deploying a unified system of <a href="/hospital-signages" style="color:#E43D12; text-decoration:none;"><strong>hospital wayfinding signages</strong></a>
+                        and <a href="/safety-signages" style="color:#E43D12; text-decoration:none;"><strong>safety signages</strong></a>
+                        across every touchpoint — from the entrance to the ward — healthcare institutions create
+                        smoother patient flows, reduced staff interruptions, and stronger regulatory readiness.
+                        Beyond compliance, well-planned hospital signage reflects a facility that values every
+                        visitor's time, dignity, and peace of mind.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="case-stack">
+                    <a href="/case-studies" class="case-row">
+                        <div class="case-line"></div>
+                        <div class="case-content">
+                            <span class="case-title">Apollo Hospitals <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">Campus-Wide Wayfinding Rollout</span>
+                        </div>
+                    </a>
+                    <a href="/case-studies" class="case-row">
+                        <div class="case-line"></div>
+                        <div class="case-content">
+                            <span class="case-title">Fortis Hospital <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">Healthcare Signage With Clarity</span>
+                        </div>
+                    </a>
+                    <a href="/case-studies" class="case-row">
+                        <div class="case-line"></div>
+                        <div class="case-content">
+                            <span class="case-title">Max Healthcare <span class="case-arrow">↗</span></span>
+                            <span class="case-meta">Multi-Branch Signage Standardisation</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="safety-flow">
+    <div class="container flow-wrapper">
+        <header class="flow-header">
+            <h2>Signage That Performs When Patient Care Demands It</h2>
+            <p>
+                Hospital signage isn't just about directions — it's about reducing anxiety, improving response times,
+                and building an environment where every person feels guided and cared for from the moment they arrive.
+                The right signage system makes complex facilities feel intuitive.
+            </p>
+            <p>
+                We are among India's leading hospital sign board manufacturers, offering competitive pricing,
+                NABH-compliant designs, full customisation, and on-time installation across functioning facilities.
+            </p>
+        </header>
+
+        <div class="flow-list">
+            <div class="flow-item left">
+                <span class="flow-no">01</span>
+                <div class="flow-content">
+                    <h4>System-Led Hospital Wayfinding</h4>
+                    <p>
+                        We don't create isolated signs. We design cohesive wayfinding systems — from hospital
+                        entrance to every ward and diagnostic floor — ensuring every sign works as part of a
+                        unified, logical navigation language.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flow-item right">
+                <span class="flow-no">02</span>
+                <div class="flow-content">
+                    <h4>Clinical-Grade Materials & Hygiene</h4>
+                    <p>
+                        Our hospital signages are fabricated using non-porous, antimicrobial, and
+                        disinfectant-resistant substrates that withstand daily sanitisation protocols — maintaining
+                        clarity, colour integrity, and surface hygiene in demanding medical environments.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flow-item left">
+                <span class="flow-no">03</span>
+                <div class="flow-content">
+                    <h4>NABH, ADA & Compliance-Ready</h4>
+                    <p>
+                        Every signage solution we deliver is designed around real facility requirements, patient
+                        accessibility needs, and regulatory standards — including NABH, JCI, ADA Braille
+                        compliance, and fire-rated material specifications — ensuring your facility passes audits
+                        with confidence.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="new_client_section container">
+    <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
+    <div class="row">
+        <div class="col-md-5 new_client_section-image col-12">
+            <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
+        </div>
+        <div class="col-md-7 new_client_section-scrolling col-12">
+            <div class="new_client_section-wrapper">
+                <div class="new_client_section-row new_client_section-row-1">
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client"></div>
+                </div>
+
+                <div class="new_client_section-row new_client_section-row-2">
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client"></div>
+                </div>
+
+                <div class="new_client_section-row new_client_section-row-3">
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client"></div>
+                    <div class="new_client_section-client"><img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="new_testimonial-swiper-section">
+    <div class="container">
+        <h2 class="text-center mb-md-5 mb-3">Feedback from Our Valuable Clients</h2>
+
+        <div class="position-relative">
+
+            <div class="new_testimonial-button-prev">
+                <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40" height="40">
+            </div>
+            <div class="new_testimonial-button-next">
+                <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40" height="40">
+            </div>
+
+            <div class="swiper new_testimonial-swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                            <div class="mb-4">
+                                <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon" width="40" height="40">
+                            </div>
+                            <p class="description">
+                                The wayfinding system Brand Signages installed across our hospital has transformed the
+                                patient experience. Staff interruptions for directions have dropped significantly, and
+                                patients consistently comment on how easy the facility is to navigate.
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <img src="{{ asset('frontend/Images/sneha-reddy.webp') }}" alt="Dr. Rajesh Kumar - Our Client"
+                                    class="rounded-circle me-3" width="50" height="50">
+                                <div>
+                                    <h6 class="name">Dr. Rajesh Kumar</h6>
+                                    <small class="text-muted">Director of Operations – Apollo Hospitals</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                            <div class="mb-4">
+                                <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon" width="40" height="40">
+                            </div>
+                            <p class="description">
+                                We needed stunning, durable, and regulation-compliant signage for our hospital, and
+                                Brand Signages delivered exactly what we asked for. Their attention to detail is
+                                excellent, which helped us enhance the patient experience.
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <img src="{{ asset('frontend/Images/seema.webp') }}" alt="Seema Nayak - Our Client"
+                                    class="rounded-circle me-3" width="50" height="50">
+                                <div>
+                                    <h6 class="name">Seema Nayak</h6>
+                                    <small class="text-muted">Operations Manager – Fortis Hospital</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                            <div class="mb-4">
+                                <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon" width="40" height="40">
+                            </div>
+                            <p class="description">
+                                From site assessment to silent night installation, the entire process was managed
+                                professionally. The Braille and ADA-compliant signs met every audit requirement and
+                                the modular room ID system has made clinician name updates effortless for our team.
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <img src="{{ asset('frontend/Images/vikram-sharma.webp') }}" alt="Vinay Gupta - Our Client"
+                                    class="rounded-circle me-3" width="50" height="50">
+                                <div>
+                                    <h6 class="name">Vinay Gupta</h6>
+                                    <small class="text-muted">Facility Head – Max Healthcare</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                            <div class="mb-4">
+                                <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon" width="40" height="40">
+                            </div>
+                            <p class="description">
+                                Exceptional turnaround time on our multi-floor hospital signage project. Their
+                                colour-coding logic for departments was intuitive and our NABH audit team specifically
+                                praised the clarity and compliance of the signage layout.
+                            </p>
+                            <div class="d-flex align-items-center mt-4">
+                                <img src="{{ asset('frontend/Images/sandeep-gupta.webp') }}" alt="Dr. S. Mukherjee - Our Client"
+                                    class="rounded-circle me-3" width="50" height="50">
+                                <div>
+                                    <h6 class="name">Dr. S. Mukherjee</h6>
+                                    <small class="text-muted">Founder – City Clinics Group</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="faq-section">
+    <div class="container">
+        <h1 class="faq-title">Hospital Signage FAQs</h1>
+
+        <div class="faq-item">
+            <button class="faq-question">What are Hospital Signages?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer">
+                <p>Hospital signages are visual communication systems designed to guide patients, visitors, and staff through healthcare facilities. They include directional wayfinding boards, room and ward identifiers, emergency exit signs, fire safety signs, digital kiosks, and Braille-compliant modules — all working together to create a clear, intuitive navigation experience.</p>
             </div>
         </div>
 
-        <!-- SYSTEM LIST -->
-        <div class="signage-system">
-
-            <div class="system-row">
-                <div class="system-index">01</div>
-                <div class="system-content">
-                    <h4>Directional Wayfinding</h4>
-                    <p>
-                        Ceiling-hung and wall-mounted signs guiding patients
-                        from entry points to departments, diagnostics, and wards
-                        with zero ambiguity.
-                    </p>
-                </div>
+        <div class="faq-item">
+            <button class="faq-question">Why are Hospital Signages important?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer">
+                <p>Effective hospital signages reduce patient anxiety, minimise staff interruptions for directions, improve emergency response times, and support regulatory compliance. Clear and consistent signage systems make complex facilities easier to navigate for patients, families, and healthcare workers alike.</p>
             </div>
+        </div>
 
-            <div class="system-row">
-                <div class="system-index">02</div>
-                <div class="system-content">
-                    <h4>Room & Ward Identification</h4>
-                    <p>
-                        Modular room identifiers with tactile lettering,
-                        Braille compliance, and clinician name interchangeability.
-                    </p>
-                </div>
+        <div class="faq-item">
+            <button class="faq-question">Where should Hospital Signages be placed?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer">
+                <p>Hospital signages should be placed at all key decision points — entrances, corridors, lift lobbies, stairwells, ward entries, OPD areas, diagnostic zones, and emergency exits. Strategic placement ensures patients and visitors always know exactly where they are and where to go next.</p>
             </div>
+        </div>
 
-            <div class="system-row">
-                <div class="system-index">03</div>
-                <div class="system-content">
-                    <h4>Digital Information Displays</h4>
-                    <p>
-                        Electronic directories and kiosks displaying live
-                        department status, clinician availability, and wayfinding.
-                    </p>
-                </div>
+        <div class="faq-item">
+            <button class="faq-question">What types of Hospital Signages are commonly used?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer">
+                <p>Common hospital signages include directional wayfinding signs, room and ward name plates, emergency exit and fire safety signs, OPD and department directory boards, digital information kiosks, Braille and tactile signs, and regulatory compliance signs. Each type serves a specific function within the overall navigation system.</p>
             </div>
+        </div>
 
+        <div class="faq-item">
+            <button class="faq-question">Are Hospital Signages NABH and ADA compliant?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer">
+                <p>Yes, all our hospital signages are designed and fabricated to comply with NABH, JCI, and ADA accessibility standards, including Braille integration, tactile characters, colour contrast requirements, and fire-rated material specifications. Our signage systems are trusted by leading hospitals during accreditation audits.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Can Hospital Signages be customised for each facility?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer">
+                <p>Yes, our hospital signage solutions are fully customised to match your facility's layout, brand identity, department nomenclature, patient flow patterns, and compliance requirements. We conduct a detailed site assessment before designing a unified signage system tailored to your specific needs.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What materials are used for Hospital Signages?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer">
+                <p>Hospital signages are fabricated using non-porous, antimicrobial, and disinfectant-resistant materials including medical-grade acrylics, brushed aluminium, stainless steel, and UV-stable substrates. These materials withstand daily sanitisation with aggressive chemical cleaners without fading, cracking, or deteriorating.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Can you install signages in a functioning hospital without disruption?<i class="faq-icon fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer">
+                <p>Yes, we specialise in silent, phased installations. Our teams work during off-peak hours — typically night shifts — using noiseless equipment and a planned floor-by-floor rollout to ensure zero disruption to patient care, surgeries, or daily operations throughout the entire installation process.</p>
+            </div>
         </div>
 
     </div>
 </section>
 
-
-    <section class="py-5">
-        <div class="container py-lg-5">
-            <div class="row">
-                <div class="col-lg-5">
-                    <h2 class="display-5 fw-bold mb-4">The Implementation Masterplan</h2>
-                    <div class="process-step">
-                        <h5>Site Assessment</h5>
-                        <p class="text-muted">Detailed audit of the patient journey and identifying high-confusion zones.
-                        </p>
-                    </div>
-                    <div class="process-step">
-                        <h5>Wayfinding Strategy</h5>
-                        <p class="text-muted">Creating a systematic logic for nomenclature and color-coding by department.
-                        </p>
-                    </div>
-                    <div class="process-step">
-                        <h5>Precision Fabrication</h5>
-                        <p class="text-muted">Manufacturing using non-porous, medical-grade materials that resist bacteria.
-                        </p>
-                    </div>
-                    <div class="process-step">
-                        <h5>Planned Installation</h5>
-                        <p class="text-muted">Execution during off-peak hours to ensure zero disruption to medical services.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="sticky-column">
-                        <div class="row g-3">
-                            <div class="col-12">
-                                <img src="{{ asset('frontend/Images/generated/hospital_hero.png') }}" class="gallery-img"
-                                    alt="Hospital 1" style="height: auto; max-height: 80vh;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Hospital Experience Section (Info Boxes) -->
-    <section class="py-5 bg-white">
-    <div class="container py-lg-5">
-
-        <div class="row mb-5">
-            <div class="col-lg-6">
-                <h2 class="display-5 fw-bold text-black">
-                    Patient-First <span class="text-brand-red">Experience</span>
-                </h2>
-            </div>
-            <div class="col-lg-6">
-                <p class="fs-5 text-muted mb-0">
-                    Experience principles embedded into every signage decision,
-                    ensuring clarity, dignity, and accessibility at scale.
-                </p>
-            </div>
-        </div>
-
-        <div class="principle-list">
-
-            <div class="principle-item">
-                <h4>Universal Accessibility</h4>
-                <p>
-                    ADA-compliant layouts, Braille integration, and height-aware
-                    placement ensuring navigation without assistance.
-                </p>
-            </div>
-
-            <div class="principle-item">
-                <h4>Multilingual Wayfinding</h4>
-                <p>
-                    Clear iconography and language adaptability designed for
-                    diverse patient demographics in high-footfall facilities.
-                </p>
-            </div>
-
-            <div class="principle-item">
-                <h4>Clinical-Grade Materials</h4>
-                <p>
-                    Non-porous, disinfectant-resistant substrates engineered
-                    to withstand daily sanitization protocols.
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-
- 
-    <style>
-        /* ===============================
-   PRINCIPLE / EXPERIENCE LIST
-=============================== */
-
-.principle-list {
-    display: grid;
-    gap: 36px;
-    max-width: 900px;
-}
-
-/* ITEM */
-.principle-item {
-    position: relative;
-    padding-left: 28px;
-}
-
-/* LEFT ACCENT RULE */
-.principle-item::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 4px;
-    width: 4px;
-    height: 100%;
-    background: #E43D12;
-}
-
-/* TITLE */
-.principle-item h4 {
-    font-weight: 800;
-    margin-bottom: 8px;
-    color: #000;
-}
-
-/* BODY */
-.principle-item p {
-    margin: 0;
-    color: #444;
-    line-height: 1.75;
-    max-width: 720px;
-}
-
-/* SUBTLE INTERACTION (DESKTOP ONLY) */
-@media (hover: hover) {
-    .principle-item {
-        transition: transform 0.3s ease;
-    }
-
-    .principle-item:hover {
-        transform: translateX(4px);
-    }
-}
-
-/* MOBILE */
-@media (max-width: 768px) {
-    .principle-list {
-        gap: 28px;
-    }
-
-    .principle-item {
-        padding-left: 22px;
-    }
-}
-
-    </style>
-
-</section>
-
-    <!-- Project Gallery Section (Enhanced Healthcare Excellence) -->
-    <section class="py-5 bg-light" id="projects">
-        <style>
-            .project-card-hospital {
-                position: relative;
-                overflow: hidden;
-                border-radius: 20px;
-                height: 100%;
-                cursor: pointer;
-            }
-
-            .project-card-hospital img {
-                transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            }
-
-            .project-card-hospital:hover img {
-                transform: scale(1.1);
-            }
-
-            .project-overlay-hospital {
-                position: absolute;
-                inset: 0;
-                background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 60%);
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                padding: 2rem;
-                opacity: 0.9;
-                transition: opacity 0.3s;
-            }
-
-            .plus-icon-hospital {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%) scale(0.5);
-                width: 60px;
-                height: 60px;
-                background: rgba(228, 61, 18, 0.9);
-                border-radius: 50%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: white;
-                opacity: 0;
-                transition: 0.4s;
-            }
-
-            .project-card-hospital:hover .plus-icon-hospital {
-                opacity: 1;
-                transform: translate(-50%, -50%) scale(1);
-            }
-        </style>
-        <div class="container py-lg-5">
-            <div class="text-center mb-5">
-                <h2 class="display-4 fw-bold text-dark">Healthcare <span class="text-brand-red">Excellence</span></h2>
-                <p class="text-muted">Delivering world-class wayfinding to India's premier healthcare chains.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-8">
-                    <div class="project-card-hospital shadow-lg" style="height: 500px;">
-                        <img src="{{ asset('frontend/Images/generated/hospital_hero.png') }}"
-                            class="w-100 h-100 object-fit-cover" alt="Large Hospital">
-                        <div class="plus-icon-hospital"><i class="fas fa-plus fa-lg"></i></div>
-                        <div class="project-overlay-hospital">
-                            <span class="badge bg-brand-red mb-2 align-self-start">Full Campus Rollout</span>
-                            <h3 class="fw-bold text-white mb-1">Apollo Hospitals Multispeciality</h3>
-                            <p class="text-white-50 small mb-0">1,200+ Signage units installed across 15 floors.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="row g-4 h-100">
-                        <div class="col-12" style="height: 240px;">
-                            <div class="project-card-hospital shadow">
-                                <img src="{{ asset('frontend/Images/generated/hospital_internal.png') }}"
-                                    class="w-100 h-100 object-fit-cover" alt="Clinic">
-                                <div class="project-overlay-hospital">
-                                    <h5 class="fw-bold text-white mb-0">Max Healthcare</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12" style="height: 240px;">
-                            <div class="project-card-hospital shadow">
-                                <img src="{{ asset('frontend/Images/generated/hospital_hero.png') }}"
-                                    class="w-100 h-100 object-fit-cover" alt="Fortis">
-                                <div class="project-overlay-hospital">
-                                    <h5 class="fw-bold text-white mb-0">Fortis Hospital</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- NEW SECTION: Hygiene Standards -->
-    <section class="py-5 bg-white">
-        <div class="container py-lg-5">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-6">
-                    <h2 class="display-5 fw-bold text-black">Uncompromising <span class="text-brand-red">Hygiene
-                            Standards</span></h2>
-                    <p class="text-black fs-5 mb-4 fw-medium">In a sterile environment, even your signs must contribute to
-                        patient safety. Our healthcare signage is built to outperform standard commercial products.</p>
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="p-3 border-start border-4 border-brand-red bg-light">
-                                <h6 class="fw-bold text-black mb-1">Anti-Bacterial Surface</h6>
-                                <p class="small text-black mb-0">Specially treated acrylics that discourage bacterial
-                                    growth.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border-start border-4 border-dark bg-light">
-                                <h6 class="fw-bold text-black mb-1">UV Print Stability</h6>
-                                <p class="small text-black mb-0">Graphics that don't fade under constant UV-C disinfection
-                                    cycles.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border-start border-4 border-dark bg-light">
-                                <h6 class="fw-bold text-black mb-1">Chem-Shield Coating</h6>
-                                <p class="small text-black mb-0">Resistant to high-concentration IPA and bleach sanitizers.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="p-3 border-start border-4 border-brand-red bg-light">
-                                <h6 class="fw-bold text-black mb-1">Gapless Joinery</h6>
-                                <p class="small text-black mb-0">Precision fabrication that leaves no crevices for dust
-                                    accumulation.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="position-relative">
-                        <img src="{{ asset('frontend/Images/generated/hospital_internal.png') }}"
-                            class="img-fluid rounded-4 shadow-lg" alt="Precision">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- REDESIGNED SECTION: Compliance Corner (White Theme) -->
-    <section class="py-5 bg-white" style="position: relative; overflow: hidden; border-top: 1px solid #eee;">
-        <div class="container h-100 py-lg-5">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-5">
-                    <div class="p-lg-5 p-4 rounded-5"
-                        style="background: #f8f9fa; border: 1px solid rgba(228, 61, 18, 0.2);">
-                        <span class="badge bg-brand-red mb-4 px-3 py-2 text-uppercase tracking-wider">Certified
-                            Solutions</span>
-                        <h2 class="display-4 fw-bold text-black mb-4 line-height-1">Built for <br><span
-                                class="text-brand-red">Strict Compliance</span></h2>
-                        <p class="text-black fs-5 mb-5 fw-medium">We ensure your medical facility meets all international
-                            and local safety standards without compromise, combining aesthetic appeal with regulatory rigor.
-                        </p>
-
-                        <div class="d-flex align-items-center gap-4 mb-4">
-                            <div class="p-3 bg-white shadow-sm rounded-circle">
-                                <i class="fas fa-shield-alt text-brand-red fa-2x"></i>
-                            </div>
-                            <div>
-                                <h5 class="text-black fw-bold mb-0">99.9% Audit Pass Rate</h5>
-                                <p class="text-black small mb-0">Trusted for NABH & JCI inspections.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div
-                                class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                                <div class="mb-3">
-                                    <i class="fas fa-fire-extinguisher text-brand-red fa-2x"></i>
-                                </div>
-                                <h4 class="fw-bold text-black mb-3">Fire Rating</h4>
-                                <p class="text-black small mb-0">All materials used are UL94 or equivalent fire-rated to
-                                    ensure zero toxic fumes and maximum safety during emergencies.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div
-                                class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                                <div class="mb-3">
-                                    <i class="fas fa-braille text-brand-red fa-2x"></i>
-                                </div>
-                                <h4 class="fw-bold text-black mb-3">Tactile/Braille</h4>
-                                <p class="text-black small mb-0">Full compliance with global ADA standards, featuring
-                                    precision-machined Grade 2 Braille and tactile characters.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div
-                                class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                                <div class="mb-3">
-                                    <i class="fas fa-certificate text-brand-red fa-2x"></i>
-                                </div>
-                                <h4 class="fw-bold text-black mb-3">NABH Norms</h4>
-                                <p class="text-black small mb-0">Signage layout and nomenclature designed strictly to meet
-                                    NABH and JCI accreditation requirements for patient safety.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div
-                                class="p-4 bg-light border border-dark border-opacity-10 rounded-4 h-100 transition-hover">
-                                <div class="mb-3">
-                                    <i class="fas fa-bolt text-brand-red fa-2x"></i>
-                                </div>
-                                <h4 class="fw-bold text-black mb-3">Photo-luminescent</h4>
-                                <p class="text-black small mb-0">Life-saving emergency exit signs that provide 8+ hours of
-                                    independent visibility during complete power failure.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section (Fixed Slider) -->
-    <section class="py-5 bg-white">
-        <div class="container py-lg-5">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-4 text-center text-lg-start">
-                    <h2 class="display-5 fw-bold text-dark">Trusted by <br><span class="text-brand-red">Healthcare
-                            Leaders</span></h2>
-                    <p class="text-dark fs-5 mt-4">Hear what facility managers and hospital directors say about our
-                        delivery.</p>
-                    <div class="mt-4 mt-lg-5 d-flex gap-3 justify-content-end justify-content-lg-start mb-4 mb-lg-0">
-                        <button class="testimonial-nav-btn btn-dark shadow-sm" type="button"
-                            data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                            <i class="fas fa-chevron-left"></i>
-                        </button>
-                        <button class="testimonial-nav-btn btn-brand-red shadow-sm text-white" type="button"
-                            data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                            <i class="fas fa-chevron-right"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-lg-8 mt-0">
-                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row g-4">
-                                    <div class="col-md-6">
-                                        <div
-                                            class="p-5 bg-light rounded-4 border-start border-5 border-brand-red shadow-sm h-100">
-                                            <div class="mb-4 text-warning">
-                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i>
-                                            </div>
-                                            <p class="fs-5 text-dark mb-4">"The wayfinding logic implemented by Brand
-                                                Signages reduced visitor confusion by 40%. The team is exceptionally
-                                                professional."</p>
-                                            <h6 class="fw-bold mb-0">Dr. Rajesh Kumar</h6>
-                                            <p class="small text-muted mb-0">Director of Operations, Apollo</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 d-none d-md-block">
-                                        <div class="p-5 bg-dark text-white rounded-4 shadow-sm h-100">
-                                            <div class="mb-4 text-brand-red">
-                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i>
-                                            </div>
-                                            <p class="fs-5 mb-4">"High-quality medical grade materials and professional
-                                                installation. They are our go-to partner for chain branding needs."</p>
-                                            <h6 class="fw-bold mb-0">Ms. Anita Sharma</h6>
-                                            <p class="small text-white-50 mb-0">Facility Manager, Max Health</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row g-4">
-                                    <div class="col-md-6">
-                                        <div
-                                            class="p-5 bg-light rounded-4 border-start border-5 border-brand-red shadow-sm h-100">
-                                            <div class="mb-4 text-warning">
-                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i>
-                                            </div>
-                                            <p class="fs-5 text-dark mb-4">"Installation was silent and didn't disrupt
-                                                patient care. The Braille accuracy is perfect according to standards."</p>
-                                            <h6 class="fw-bold mb-0">Mr. Vinay Gupta</h6>
-                                            <p class="small text-muted mb-0">Operations Head, Fortis</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 d-none d-md-block">
-                                        <div class="p-5 bg-dark text-white rounded-4 shadow-sm h-100">
-                                            <div class="mb-4 text-brand-red">
-                                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                    class="fas fa-star"></i>
-                                            </div>
-                                            <p class="fs-5 mb-4">"Exceptional turn-around time on custom clinic signs.
-                                                Their color matching with our brand identity was spot on."</p>
-                                            <h6 class="fw-bold mb-0">Dr. S. Mukherjee</h6>
-                                            <p class="small text-white-50 mb-0">Founder, City Clinics</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="py-5 bg-light">
-        <div class="container py-lg-5">
-            <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold text-dark">Healthcare Signage <span class="text-brand-red">FAQs</span></h2>
-                <div class="mx-auto bg-brand-red mt-3" style="width: 60px; height: 3px;"></div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="accordion accordion-flush shadow-sm rounded-4 overflow-hidden" id="hospitalFaq">
-                        <div class="accordion-item border-bottom">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button fw-bold py-4 px-4" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hf1">
-                                    Are your materials resistant to hospital-grade disinfectants?
-                                </button>
-                            </h2>
-                            <div id="hf1" class="accordion-collapse collapse show" data-bs-parent="#hospitalFaq">
-                                <div class="accordion-body p-4 text-muted">
-                                    Yes, we use sub-surface graphics and non-porous medical-grade acrylics and metals that
-                                    can be sanitized daily with aggressive chemical cleaners without fading or
-                                    deteriorating.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item border-bottom">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold py-4 px-4" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hf2">
-                                    Do you provide ADA and Braille compliant signage?
-                                </button>
-                            </h2>
-                            <div id="hf2" class="accordion-collapse collapse" data-bs-parent="#hospitalFaq">
-                                <div class="accordion-body p-4 text-muted">
-                                    Absolutely. All our room identifiers and public area signs are manufactured to meet ADA
-                                    standards, including tactile letters and Grade 2 Braille for full accessibility.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item border-bottom">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold py-4 px-4" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hf3">
-                                    Can we update clinician names on room signs easily?
-                                </button>
-                            </h2>
-                            <div id="hf3" class="accordion-collapse collapse" data-bs-parent="#hospitalFaq">
-                                <div class="accordion-body p-4 text-muted">
-                                    Yes, we offer modular slider systems or insert-based signs that allow your staff to
-                                    update names or room functions in seconds without needing tools or professional help.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed fw-bold py-4 px-4" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#hf4">
-                                    Do you install signage in functioning hospitals?
-                                </button>
-                            </h2>
-                            <div id="hf4" class="accordion-collapse collapse" data-bs-parent="#hospitalFaq">
-                                <div class="accordion-body p-4 text-muted">
-                                    Yes, we specialize in "silent installations." Our teams work during off-peak hours
-                                    (usually night shifts) with noiseless equipment to ensure zero disruption to patient
-                                    care and surgeries.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5 text-white shadow-lg" style="background-color: #000;">
-        <div class="container py-4 text-center">
-            <h2 class="display-5 fw-bold mb-4">Standardize Your Facility's Signage Today</h2>
-            <p class="mb-5 opacity-75 fs-5 mx-auto" style="max-width: 700px;">Join 500+ healthcare institutions that trust
-                Brand Signages for their branding needs. Let's make your facility patient-friendly.</p>
-            <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="{{ route('contact_us') }}" class="btn btn-lg btn-brand-red fw-bold rounded-pill px-5 py-3">Get a
-                    Site Audit</a>
-                <a href="tel:+919900000000" class="btn btn-lg btn-outline-light fw-bold rounded-pill px-5 py-3">Call Our
-                    Consultant</a>
-            </div>
-        </div>
-    </section>
 @endsection
