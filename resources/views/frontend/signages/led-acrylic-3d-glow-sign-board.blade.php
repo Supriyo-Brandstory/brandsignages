@@ -21,15 +21,13 @@
                     'desc' =>
                         'Made with high-quality materials and precision lighting, our LED sign boards provide long-lasting performance and a professional look.',
                 ],
-
             ];
         @endphp
 
         <div class="hero-slides-wrapper" id="heroSlider">
             @foreach ($slides as $slide)
                 <div class="impact-slide {{ $loop->first ? 'active' : '' }}">
-                    <img src="/frontend/Images/led-sign-board/{{ $slide['img'] }}.webp"
-                        alt="{{ $slide['title'] }}">
+                    <img src="/frontend/Images/led-sign-board/{{ $slide['img'] }}.webp" alt="{{ $slide['title'] }}">
 
                     <div class="hero-dark-overlay">
                         <div class="container container-large">
@@ -62,19 +60,26 @@
     <section class="instant-pricing">
         <div class="container py-5">
             <h2>Stand Out with Powerful LED Sign Boards <br>by Brand Signages</h2>
-            <p>In a busy commercial environment, your sign board is often the first thing people notice about your business. LED 
-                sign boards offer a powerful way to make that first impression count. With bright illumination and sharp visibility,
-                 they help your brand remain clearly noticeable both during the day and after dark, ensuring your business never 
-                 blends into the background. As businesses continue to adopt modern branding solutions, LED signage has become a preferred choice for creating a professional and memorable storefront presence. 
+            <p>In a busy commercial environment, your sign board is often the first thing people notice about your business.
+                LED
+                sign boards offer a powerful way to make that first impression count. With bright illumination and sharp
+                visibility,
+                they help your brand remain clearly noticeable both during the day and after dark, ensuring your business
+                never
+                blends into the background. As businesses continue to adopt modern branding solutions, LED signage has
+                become a preferred choice for creating a professional and memorable storefront presence.
             </p>
-            <p>LED sign boards are designed to capture attention instantly. Their vibrant lighting and modern appearance make them highly 
-                effective for shops, showrooms, restaurants, clinics, and offices that want to attract more walk-in customers. At Brand Signages, our product 
+            <p>LED sign boards are designed to capture attention instantly. Their vibrant lighting and modern appearance
+                make them highly
+                effective for shops, showrooms, restaurants, clinics, and offices that want to attract more walk-in
+                customers. At Brand Signages, our product
                 range includes expertly crafted <a href="led-name-board-design"
-                            style="color:#E43D12; text-decoration:none;"><b>LED name boards</b></a>, <a href="arcylic-signages"
-                            style="color:#E43D12; text-decoration:none;"><b>acrylic face-lit sign</b></a>, <a href="metal-led-letters"
-                            style="color:#E43D12; text-decoration:none;"><b>metal channel letters</b></a> with backlit glow, high-brightness <b>LED modules</b>,
+                    style="color:#E43D12; text-decoration:none;"><b>LED name boards</b></a>, <a href="arcylic-signages"
+                    style="color:#E43D12; text-decoration:none;"><b>acrylic face-lit sign</b></a>, <a
+                    href="metal-led-letters" style="color:#E43D12; text-decoration:none;"><b>metal channel letters</b></a>
+                with backlit glow, high-brightness <b>LED modules</b>,
                 and hybrid material options designed for businesses that want distinctive and high-impact signage.</p>
-  
+
 
 
 
@@ -86,29 +91,48 @@
                     $galleryItems = [
                         ['img' => 'led-1', 'title' => 'Outdoor LED Sign Board', 'class' => 'red-title'],
                         ['img' => 'led-2', 'title' => 'Outdoor LED Sign Board', 'class' => 'red-title'],
-                        ['img' => 'led-3', 'title' => 'LED Sign Board', 'class' => 'red-title'],
-                        ['img' => 'led-4', 'title' => 'LED Shop Name Board', 'class' => 'red-title'],
-                        ['img' => 'led-5', 'title' => 'LED Office Name Board','class' => 'red-title'],
-                        ['img' => 'led-6', 'title' => 'LED Business Name Board', 'class' => 'red-title'],
-                        ['img' => 'led-7', 'title' => 'Outdoor LED Sign board', 'class' => 'red-title'],
-                        ['img' => 'led-8', 'title' => 'LED Shop Name Board', 'class' => 'red-title'],
-                        ['img' => 'led-9', 'title' => 'LED Sign Board', 'class' => 'red-title'],
-                        ['img' => 'led-10', 'title' => 'LED Glow Sign Board', 'class' => 'red-title'],
-                        ['img' => 'led-11', 'title' => 'Custom LED Sign Board', 'class' => 'red-title'],
-                        ['img' => 'led-12', 'title' => 'Custom LED Sign Board', 'class' => 'red-title'],
-                        ['img' => 'led-13', 'title' => 'LED Display Board', 'class' => 'red-title'],
-                        ['img' => 'led-14', 'title' => 'LED Light Board', 'class' => 'red-title'],
-                        ['img' => 'led-15', 'title' => 'Outdoor LED Board',  'class' => 'red-title'],
-                        ['img' => 'led-16', 'title' => 'LED Light Box Sign', 'class' => 'red-title'],
-                        ['img' => 'led-17', 'title' => 'Crystal LED Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-3', 'title' => 'Outdoor LED Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-4', 'title' => 'LED Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-5', 'title' => 'LED Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-6', 'title' => 'LED Shop Name Board', 'class' => 'red-title'],
+                        ['img' => 'led-7', 'title' => 'LED Shop Name Board', 'class' => 'red-title'],
+                        ['img' => 'led-8', 'title' => 'LED Office Name Board', 'class' => 'red-title'],
+                        ['img' => 'led-9', 'title' => 'LED Office Name Board', 'class' => 'red-title'],
+                        ['img' => 'led-10', 'title' => 'LED Business Name Board', 'class' => 'red-title'],
+                        ['img' => 'led-11', 'title' => 'LED Business Name Board', 'class' => 'red-title'],
+                        ['img' => 'led-12', 'title' => 'Outdoor LED Sign board', 'class' => 'red-title'],
+                        ['img' => 'led-13', 'title' => 'Outdoor LED Sign board', 'class' => 'red-title'],
+                        ['img' => 'led-14', 'title' => 'LED Shop Name Board', 'class' => 'red-title'],
+                        ['img' => 'led-15', 'title' => 'LED Shop Name Board', 'class' => 'red-title'],
+                        ['img' => 'led-16', 'title' => 'LED Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-17', 'title' => 'LED Sign Board', 'class' => 'red-title'],
                         ['img' => 'led-18', 'title' => 'LED Glow Sign Board', 'class' => 'red-title'],
-                        ['img' => 'led-19', 'title' => 'LED Light Box Sign', 'class' => 'red-title'],
-                        ['img' => 'led-20', 'title' => 'LED Dot Matrix', 'class' => 'red-title'],
+                        ['img' => 'led-19', 'title' => 'LED Glow Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-20', 'title' => 'Custom LED Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-1', 'title' => 'Custom LED Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-2', 'title' => 'Custom LED Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-3', 'title' => 'Custom LED Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-4', 'title' => 'LED Display Board', 'class' => 'red-title'],
+                        ['img' => 'led-5', 'title' => 'LED Display Board', 'class' => 'red-title'],
+                        ['img' => 'led-6', 'title' => 'LED Light Board', 'class' => 'red-title'],
+                        ['img' => 'led-7', 'title' => 'LED Light Board', 'class' => 'red-title'],
+                        ['img' => 'led-8', 'title' => 'Outdoor LED Board', 'class' => 'red-title'],
+                        ['img' => 'led-9', 'title' => 'Outdoor LED Board', 'class' => 'red-title'],
+                        ['img' => 'led-10', 'title' => 'LED Light Box Sign', 'class' => 'red-title'],
+                        ['img' => 'led-11', 'title' => 'LED Light Box Sign', 'class' => 'red-title'],
+                        ['img' => 'led-12', 'title' => 'Crystal LED Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-13', 'title' => 'Crystal LED Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-14', 'title' => 'LED Glow Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-15', 'title' => 'LED Glow Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-16', 'title' => 'LED Light Box Sign', 'class' => 'red-title'],
+                        ['img' => 'led-17', 'title' => 'LED Light Box Sign', 'class' => 'red-title'],
+                        ['img' => 'led-18', 'title' => 'LED Dot Matrix', 'class' => 'red-title'],
+                        ['img' => 'led-19', 'title' => 'LED Dot Matrix', 'class' => 'red-title'],
                     ];
                 @endphp
 
                 @foreach ($galleryItems as $item)
-                    <div class="impact-card">
+                    <div class="impact-card buy-now-btn" data-product="{{ $item['title'] }}" style="cursor: pointer;">
                         <div class="impact-card-inner">
                             <img src="/frontend/Images/led/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}"
                                 class="impact-image">
@@ -119,13 +143,13 @@
                     </div>
                 @endforeach
             </div>
-           
+
         </div>
-         <div class="text-center">
-                <a href="#pricing">
-                    <button class="contact-btn">Check Pricing</button>
-                </a>
-            </div>
+        <div class="text-center">
+            <a href="#pricing">
+                <button class="contact-btn">Check Pricing</button>
+            </a>
+        </div>
     </section>
 
 
@@ -217,8 +241,8 @@
                                     <img src="{{ asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp') }}"
                                         class="card-img-center" alt="Aluminum LED Channel Letters">
                                     <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a
-                                                href="led-aluminum-channel-letters">Aluminum LED Letters</a></h5>
+                                        <h5 class="We-Elevate-Brands-title"><a href="led-aluminum-channel-letters">Aluminum
+                                                LED Letters</a></h5>
                                         <p class="We-Elevate-Brands-text">Aluminum channel letters offer a sleek, 3D design
                                             with front-facing LED illumination. Customizable in black, gold, silver, or
                                             multi-colour, they create premium, high-visibility signage for retail and
@@ -370,10 +394,11 @@
                     </ul>
 
                     <p class="fs-20">
-                        Our LED name boards are built with <strong>IP65-rated LED modules</strong> for full weather resistance,
-                         delivering 5,000 to 8,000 nits of brightness for outdoor visibility. With a rated lifespan
-                          of <strong>50,000+ hours</strong>, 12 to 15 years at standard usage, they deliver performance
-                           year-round.
+                        Our LED name boards are built with <strong>IP65-rated LED modules</strong> for full weather
+                        resistance,
+                        delivering 5,000 to 8,000 nits of brightness for outdoor visibility. With a rated lifespan
+                        of <strong>50,000+ hours</strong>, 12 to 15 years at standard usage, they deliver performance
+                        year-round.
                     </p>
 
                     <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
@@ -532,51 +557,51 @@
 
 
     <!--<section class="customization-bg-and-main-color-section">
-                                                                                                                <div class="container">
-                                                                                                                    <h2 class="text-center hero-title mb-5">Customize Your LED Sign</h2>
+                                                                                                                        <div class="container">
+                                                                                                                            <h2 class="text-center hero-title mb-5">Customize Your LED Sign</h2>
 
-                                                                                                                    <div class="row g-4 align-items-start">
+                                                                                                                            <div class="row g-4 align-items-start">
 
-                                                                                                                        <div class="col-md-4 order-2 order-md-1">
-                                                                                                                            <div class="thumb-card">
-                                                                                                                                <h5>Choose Background</h5>
-                                                                                                                                <div class="customization-thumbs bg-thumbs">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-1.webp') }}" onclick="changeBg(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-2.webp') }}" onclick="changeBg(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-3.webp') }}" onclick="changeBg(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-4.webp') }}" onclick="changeBg(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-5.webp') }}" onclick="changeBg(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-6.webp') }}" onclick="changeBg(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-7.webp') }}" onclick="changeBg(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-8.webp') }}" onclick="changeBg(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-9.webp') }}" onclick="changeBg(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/background/background-10.webp') }}" onclick="changeBg(this)">
+                                                                                                                                <div class="col-md-4 order-2 order-md-1">
+                                                                                                                                    <div class="thumb-card">
+                                                                                                                                        <h5>Choose Background</h5>
+                                                                                                                                        <div class="customization-thumbs bg-thumbs">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/background/background-1.webp') }}" onclick="changeBg(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/background/background-2.webp') }}" onclick="changeBg(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/background/background-3.webp') }}" onclick="changeBg(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/background/background-4.webp') }}" onclick="changeBg(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/background/background-5.webp') }}" onclick="changeBg(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/background/background-6.webp') }}" onclick="changeBg(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/background/background-7.webp') }}" onclick="changeBg(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/background/background-8.webp') }}" onclick="changeBg(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/background/background-9.webp') }}" onclick="changeBg(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/background/background-10.webp') }}" onclick="changeBg(this)">
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="thumb-card mt-4">
+                                                                                                                                        <h5>Choose Sign Style</h5>
+                                                                                                                                        <div class="customization-thumbs sign-thumbs">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/front/sign-1.webp') }}" onclick="changeSign(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/front/sign-2.webp') }}" onclick="changeSign(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/front/sign-3.webp') }}" onclick="changeSign(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/front/sign-4.png') }}" onclick="changeSign(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/front/sign-5.webp') }}" onclick="changeSign(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/front/sign-6.webp') }}" onclick="changeSign(this)">
+                                                                                                                                            <img src="{{ asset('frontend/Images/customization/front/sign-7.png') }}" onclick="changeSign(this)">
+                                                                                                                                        </div>
+                                                                                                                                    </div>
                                                                                                                                 </div>
-                                                                                                                            </div>
-                                                                                                                            <div class="thumb-card mt-4">
-                                                                                                                                <h5>Choose Sign Style</h5>
-                                                                                                                                <div class="customization-thumbs sign-thumbs">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-1.webp') }}" onclick="changeSign(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-2.webp') }}" onclick="changeSign(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-3.webp') }}" onclick="changeSign(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-4.png') }}" onclick="changeSign(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-5.webp') }}" onclick="changeSign(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-6.webp') }}" onclick="changeSign(this)">
-                                                                                                                                    <img src="{{ asset('frontend/Images/customization/front/sign-7.png') }}" onclick="changeSign(this)">
+
+                                                                                                                                
+                                                                                                                                <div class="col-md-8 order-1 order-md-2">
+                                                                                                                                    <div class="customization-preview">
+                                                                                                                                        <img id="bgPreview" src="{{ asset('frontend/Images/customization/background/background-1.webp') }}">
+                                                                                                                                        <img id="signPreview" src="{{ asset('frontend/Images/customization/front/sign-1.webp') }}">
+                                                                                                                                    </div>
                                                                                                                                 </div>
                                                                                                                             </div>
                                                                                                                         </div>
-
-                                                                                                                        
-                                                                                                                        <div class="col-md-8 order-1 order-md-2">
-                                                                                                                            <div class="customization-preview">
-                                                                                                                                <img id="bgPreview" src="{{ asset('frontend/Images/customization/background/background-1.webp') }}">
-                                                                                                                                <img id="signPreview" src="{{ asset('frontend/Images/customization/front/sign-1.webp') }}">
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </section>-->
+                                                                                                                    </section>-->
 
     <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
         <div class="container">
@@ -917,70 +942,70 @@
 
 
     <!--<section>
-                                                                                                                    <div class="container py-5">
-                                                                                                                        <h2 class="hero-title">From Query to Concept and Reality<br> Our Quote Process</h2>
+                                                                                                                            <div class="container py-5">
+                                                                                                                                <h2 class="hero-title">From Query to Concept and Reality<br> Our Quote Process</h2>
 
-                                                                                                                                        <div class="row align-items-center">
-                                                                                                                                            <div class="col-lg-6 mb-4 mb-lg-0">
-                                                                                                                                                <div class="showcase-image">
-                                                                                                                                                    <img src="{{ asset('frontend/Images/home/our-quote-process.jpg') }}" alt="Digital Signage installed in retail space by Brand Signages"
-                                                                                                                                                        class="img-fluid">
-                                                                                                                                                </div>
-                                                                                                                                            </div>
+                                                                                                                                                <div class="row align-items-center">
+                                                                                                                                                    <div class="col-lg-6 mb-4 mb-lg-0">
+                                                                                                                                                        <div class="showcase-image">
+                                                                                                                                                            <img src="{{ asset('frontend/Images/home/our-quote-process.jpg') }}" alt="Digital Signage installed in retail space by Brand Signages"
+                                                                                                                                                                class="img-fluid">
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
 
-                                                                                                                                        <div class="col-lg-6">
+                                                                                                                                                <div class="col-lg-6">
 
-                                                                                                                                <p class="fs-20">
-                                                                                                                                    At <strong>Brand Signages</strong>, we make getting a signage quote simple and transparent:
-                                                                                                                                </p>
+                                                                                                                                        <p class="fs-20">
+                                                                                                                                            At <strong>Brand Signages</strong>, we make getting a signage quote simple and transparent:
+                                                                                                                                        </p>
 
-                                                                                                                                <ol class="fs-20">
-                                                                                                                                    <li><strong>Site Check:</strong> We visit your location to confirm measurements and assess installation feasibility.</li>
-                                                                                                                                    <li><strong>Design & Artwork:</strong> Whether you have a ready design or just a logo, we create a layout that highlights your brand name, tagline, and identity.</li>
-                                                                                                                                    <li><strong>Material Selection:</strong> Choose from our wide range of acrylic, ACP, and LED options with samples to guide your decision.</li>
-                                                                                                                                    <li><strong>3D Preview:</strong> We provide a 3D render showing dimensions, materials, and lighting, so you know exactly how your sign will look.</li>
-                                                                                                                                    <li><strong>Clear Quoting:</strong> With specifications and visuals in hand, you can compare options confidently and avoid surprises at installation.</li>
-                                                                                                                                </ol>
+                                                                                                                                        <ol class="fs-20">
+                                                                                                                                            <li><strong>Site Check:</strong> We visit your location to confirm measurements and assess installation feasibility.</li>
+                                                                                                                                            <li><strong>Design & Artwork:</strong> Whether you have a ready design or just a logo, we create a layout that highlights your brand name, tagline, and identity.</li>
+                                                                                                                                            <li><strong>Material Selection:</strong> Choose from our wide range of acrylic, ACP, and LED options with samples to guide your decision.</li>
+                                                                                                                                            <li><strong>3D Preview:</strong> We provide a 3D render showing dimensions, materials, and lighting, so you know exactly how your sign will look.</li>
+                                                                                                                                            <li><strong>Clear Quoting:</strong> With specifications and visuals in hand, you can compare options confidently and avoid surprises at installation.</li>
+                                                                                                                                        </ol>
 
-                                                                                                                                <p class="fs-20">
-                                                                                                                                    At <strong>Brand Signages</strong>, we combine clarity, quality, and design to deliver signage that perfectly represents your brand.
-                                                                                                                                </p>
+                                                                                                                                        <p class="fs-20">
+                                                                                                                                            At <strong>Brand Signages</strong>, we combine clarity, quality, and design to deliver signage that perfectly represents your brand.
+                                                                                                                                        </p>
 
+                                                                                                                                    </div>
+                                                                                                                                </div>
                                                                                                                             </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </section>-->
+                                                                                                                        </section>-->
 
 
     <!--<section id="exploredesigns">
-                                                                                                                    <div class="container pt-5" id="">
-                                                                                                                        <h2 class="hero-title  mb-4">Best LED Sign Board Product Range <br>for Your Business</h2>
-                                                                                                                                <p class="text-center fs-20">
-                                                                                                                                    The right LED sign board can set the tone for your brand. At Brand Signages, you can choose from a variety of <b>acrylic
-                                                                                                                                    glow sign boards</b>, <b>crystal LED</b>, <b>programmable LED</b>, and other most in-demand LED sign board options. We present the
-                                                                                                                                        briliant designs and custom LED sign board design options to help you choose what fits your needs. Browse
-                                                                                                                                        <b>the largest collection of LED sign board</b> at Brand Signages, consult with our experts, and customize
-                                                                                                                                        LED sign boards at your conveninece. We provide <b>PAN India delivery</b> and <b>installation</b>. </p>
+                                                                                                                            <div class="container pt-5" id="">
+                                                                                                                                <h2 class="hero-title  mb-4">Best LED Sign Board Product Range <br>for Your Business</h2>
+                                                                                                                                        <p class="text-center fs-20">
+                                                                                                                                            The right LED sign board can set the tone for your brand. At Brand Signages, you can choose from a variety of <b>acrylic
+                                                                                                                                            glow sign boards</b>, <b>crystal LED</b>, <b>programmable LED</b>, and other most in-demand LED sign board options. We present the
+                                                                                                                                                briliant designs and custom LED sign board design options to help you choose what fits your needs. Browse
+                                                                                                                                                <b>the largest collection of LED sign board</b> at Brand Signages, consult with our experts, and customize
+                                                                                                                                                LED sign boards at your conveninece. We provide <b>PAN India delivery</b> and <b>installation</b>. </p>
 
-                                                                                                                                          <div class="image-grid">
-                                                                                                                                                    <div class="image-item">
-                                                                                                                                                        <img src="/frontend/Images/led-sign-board/3d-acrylic-led-letters.webp"
-                                                                                                                                                            alt="Flexible LED Sign Board by Brand Signages">
-                                                                                                                                                            <p>Acrylic LED Letter Sign</p>
-                                                                                                                                              
-                                                                                                                                                    </div>
-                                                                                                                                                    <div class="image-item">
-                                                                                                                                                        <img src="/frontend/Images/led-sign-board/led-sign-board-showcase.webp"
-                                                                                                                                                            alt="Modern LED Sign Board- programmable Flexible LED Sign Board">
-                                                                                                                                                             <p>Programmable LED Sign Board</p>
-                                                                                                                                                    
-                                                                                                                                                    </div>
-                                                                                                                                                </div>
-                                                                                                                                                </div>
-                                                                                                                                    
+                                                                                                                                                  <div class="image-grid">
+                                                                                                                                                            <div class="image-item">
+                                                                                                                                                                <img src="/frontend/Images/led-sign-board/3d-acrylic-led-letters.webp"
+                                                                                                                                                                    alt="Flexible LED Sign Board by Brand Signages">
+                                                                                                                                                                    <p>Acrylic LED Letter Sign</p>
+                                                                                                                                                      
+                                                                                                                                                            </div>
+                                                                                                                                                            <div class="image-item">
+                                                                                                                                                                <img src="/frontend/Images/led-sign-board/led-sign-board-showcase.webp"
+                                                                                                                                                                    alt="Modern LED Sign Board- programmable Flexible LED Sign Board">
+                                                                                                                                                                     <p>Programmable LED Sign Board</p>
+                                                                                                                                                            
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                        </div>
+                                                                                                                                            
 
-                                                                                                                    </div>
-                                                                                                                </section>-->
+                                                                                                                            </div>
+                                                                                                                        </section>-->
 
 
 
@@ -1639,5 +1664,25 @@
     </script>
 
 
+    <script>
+        document.addEventListener('click', function(e) {
+            var button = e.target.closest('.buy-now-btn');
+            if (button) {
+                e.preventDefault();
+                var productInfo = button.getAttribute('data-product');
 
+                var modalEl = document.getElementById('globalContactPopup');
+                if (modalEl && typeof bootstrap !== 'undefined') {
+                    var myModal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl);
+                    var messageField = document.querySelector(
+                        '#globalPopupForm textarea[name="message"]');
+                    if (messageField) {
+                        messageField.value = 'I am interested in ' + productInfo +
+                            '. Please provide more details.';
+                    }
+                    myModal.show();
+                }
+            }
+        });
+    </script>
 @endsection

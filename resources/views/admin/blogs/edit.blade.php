@@ -69,7 +69,7 @@
                             </div>
 
                             <div class="row mb-3">
-                                <label for="image" class="col-sm-2 col-form-label">Upload Image</label>
+                                <label for="image" class="col-sm-2 col-form-label">Upload Featured Image</label>
                                 <div class="col-sm-10">
                                     <input class="form-control" name="image" type="file" id="formFile">
                                     @if ($blog->image)
@@ -77,6 +77,35 @@
                                             width="50px" class="mt-2">
                                     @endif
                                     @error('image')
+                                        <span class="text-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label for="gallery_images" class="col-sm-2 col-form-label">Upload Gallery Images
+                                    (Optional)</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" name="gallery_images[]" type="file" id="gallery_images"
+                                        multiple>
+                                    @if ($blog->gallery_images)
+                                        <div class="mt-2 d-flex flex-wrap gap-2">
+                                            @foreach ($blog->gallery_images as $index => $img)
+                                                <div class="gallery-image-wrapper position-relative"
+                                                    id="gallery-image-{{ $index }}">
+                                                    <img src="{{ asset('storage/' . $img) }}" alt="Gallery Image"
+                                                        height="80px" width="80px" class="rounded border">
+                                                    <button type="button"
+                                                        class="btn btn-danger btn-sm position-absolute top-0 end-0 delete-gallery-img"
+                                                        data-id="{{ $blog->id }}" data-index="{{ $index }}"
+                                                        style="padding: 0px 5px; line-height: 1.2; font-size: 14px; border-radius: 0 4px 0 4px;">&times;</button>
+                                                </div>
+                                            @endforeach
+                                        </div>
+                                    @endif
+                                    @error('gallery_images.*')
                                         <span class="text-danger" role="alert">
                                             <strong>{{ $message }}</strong>
                                         </span>
@@ -112,7 +141,8 @@
 
                             <div class="row mb-3">
                                 <div class="col-sm-12">
-                                    <button type="submit" class="btn btn-sm btn-primary float-end m-2">Update Blog</button>
+                                    <button type="submit" class="btn btn-sm btn-primary float-end m-2">Update
+                                        Blog</button>
                                     <a href="{{ route('blogs.index') }}"
                                         class="btn btn-sm btn-danger float-end m-2">Cancel</a>
                                 </div>
@@ -138,5 +168,33 @@
                 content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:16px }'
             });
         }
+
+        document.querySelectorAll('.delete-gallery-img').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                if (!confirm('Are you sure you want to delete this image?')) return;
+
+                const id = this.getAttribute('data-id');
+                const index = this.getAttribute('data-index');
+                const wrapper = document.getElementById(`gallery-image-${index}`);
+
+                fetch(`/admin/blogs/${id}/gallery/${index}`, {
+                        method: 'DELETE',
+                        headers: {
+                            'X-CSRF-TOKEN': '{{ csrf_token() }}',
+                            'Accept': 'application/json',
+                        }
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            wrapper.remove();
+                        } else {
+                            alert('Could not delete image: ' + (data.message || 'Unknown error'));
+                        }
+                    })
+                    .catch(error => console.error('Error:', error));
+            });
+        });
     </script>
 @endsection
