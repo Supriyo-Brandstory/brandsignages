@@ -977,6 +977,21 @@ class frontendController extends Controller
         return view('frontend.signages.wall-graphics');
     }
 
+    public function wall_decals()
+    {
+        return view('frontend.signages.wall-decals');
+    }
+
+    public function wall_stickers()
+    {
+        return view('frontend.signages.wall-stickers');
+    }
+
+    public function wall_murals()
+    {
+        return view('frontend.signages.wall-murals');
+    }
+    
     public function indoor_graphics()
     {
         return view('frontend.signages.indoor-graphics');

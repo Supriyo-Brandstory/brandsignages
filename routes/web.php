@@ -132,6 +132,9 @@ Route::get('/indoor-graphics', [frontendController::class, 'indoor_graphics'])->
 Route::get('/outdoor-graphics', [frontendController::class, 'outdoor_graphics'])->name('outdoor_graphics');
 Route::get('/hoarding-boards', [frontendController::class, 'hoarding_boards'])->name('hoarding_boards');
 Route::get('/banner-printing', [frontendController::class, 'banner_printing'])->name('banner_printing');
+Route::get('/wall-decals', [frontendController::class, 'wall_decals'])->name('wall_decals');
+Route::get('/wall-stickers', [frontendController::class, 'wall_stickers'])->name('wall_stickers');
+Route::get('/wall-murals', [frontendController::class, 'wall_murals'])->name('wall_murals');
 
 Auth::routes();
 Route::get('/services', [frontendController::class, 'services'])->name('services');
