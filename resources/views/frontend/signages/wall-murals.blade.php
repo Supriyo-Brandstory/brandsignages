@@ -73,17 +73,17 @@
         <div class="impact-gallery-grid mt-5">
             @php
                 $galleryItems = [
-                    ['img' => 'led-1', 'title' => 'Corporate Office Brand Murals', 'class' => 'red-title'],
-                    ['img' => 'led-2', 'title' => 'Hospitality & Hotel Wall Murals', 'class' => 'red-title'],
-                    ['img' => 'led-3', 'title' => 'Scenic Photographic Murals', 'class' => 'red-title'],
-                    ['img' => 'led-4', 'title' => 'Retail Immersive Story Murals', 'class' => 'red-title'],
-                    ['img' => 'led-5', 'title' => 'Healthcare & Wellness Murals', 'class' => 'red-title'],
+                    ['img' => '1', 'title' => 'Corporate Office Brand Murals', 'class' => 'red-title'],
+                    ['img' => '2', 'title' => 'Hospitality & Hotel Wall Murals', 'class' => 'red-title'],
+                    ['img' => '3', 'title' => 'Scenic Photographic Murals', 'class' => 'red-title'],
+                    ['img' => '4', 'title' => 'Retail Immersive Story Murals', 'class' => 'red-title'],
+                    ['img' => '5', 'title' => 'Healthcare & Wellness Murals', 'class' => 'red-title'],
                 ];
             @endphp
             @foreach ($galleryItems as $item)
                 <div class="impact-card">
                     <div class="impact-card-inner">
-                        <img src="/frontend/Images/led/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
+                        <img src="/frontend/Images/large-graphics/wm-{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
                         <div class="impact-title-box">
                             <span class="{{ $item['class'] ?? '' }}">{{ $item['title'] }}</span>
                         </div>
@@ -103,7 +103,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-imagex">
-                    <img src="{{ asset('frontend/Images/home/led-sign-bg.webp') }}" alt="Wall Murals by Brand Signages" class="img-fluid">
+                    <img src="{{ asset('frontend/Images/large-graphics/wm-6.webp') }}" alt="Wall Murals by Brand Signages" class="img-fluid rounded-3">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -150,7 +150,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp') }}" class="card-img-center" alt="Brand Identity Murals">
+                            <img src="{{ asset('frontend/Images/large-graphics/wm-7.webp') }}" class="card-img-center" alt="Brand Identity Murals">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Brand Identity Murals</h5>
                                 <p class="We-Elevate-Brands-text">Large-scale murals that bring your brand story, values, and visual identity to life across entire feature walls in lobbies, boardrooms, and open office areas.</p>
@@ -160,7 +160,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp') }}" class="card-img-center" alt="Scenic Photomurals">
+                            <img src="{{ asset('frontend/Images/large-graphics/wm-8.webp') }}" class="card-img-center" alt="Scenic Photomurals">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Scenic Photo Murals</h5>
                                 <p class="We-Elevate-Brands-text">Breathtaking high-resolution photographic murals featuring landscapes, cityscapes, nature scenes, and abstract imagery that create a sense of depth and space.</p>
@@ -170,7 +170,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp') }}" class="card-img-center" alt="Custom Illustrated Murals">
+                            <img src="{{ asset('frontend/Images/large-graphics/wm-9.webp') }}" class="card-img-center" alt="Custom Illustrated Murals">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Custom Illustrated Murals</h5>
                                 <p class="We-Elevate-Brands-text">Bespoke hand-drawn or digitally illustrated mural designs created exclusively for your brand — unique, ownable, and impossible to replicate.</p>
@@ -180,7 +180,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-6.webp') }}" class="card-img-center" alt="Abstract Pattern Murals">
+                            <img src="{{ asset('frontend/Images/large-graphics/wm-10.webp') }}" class="card-img-center" alt="Abstract Pattern Murals">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Abstract & Pattern Murals</h5>
                                 <p class="We-Elevate-Brands-text">Geometric, organic, and gradient pattern murals that add visual rhythm and contemporary sophistication to corporate and hospitality interiors.</p>
@@ -190,7 +190,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp') }}" class="card-img-center" alt="Ceiling & Floor Murals">
+                            <img src="{{ asset('frontend/Images/large-graphics/wm-11.webp') }}" class="card-img-center" alt="Ceiling & Floor Murals">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Ceiling & Floor Murals</h5>
                                 <p class="We-Elevate-Brands-text">360-degree mural installations extending beyond walls to ceilings and floors — creating fully immersive branded environments for premium retail and hospitality spaces.</p>
@@ -213,7 +213,7 @@
         <div class="row g-4">
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Indoor Wall Murals">
+                    <img src="{{ asset('frontend/Images/large-graphics/wm-12.webp') }}" class="img-fluid mb-4 rounded-4" alt="Indoor Wall Murals">
                     <h4 class="fw-semibold mb-3">Indoor Wall Murals</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">
@@ -232,7 +232,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Outdoor Wall Murals">
+                    <img src="{{ asset('frontend/Images/large-graphics/wm-13.webp') }}" class="img-fluid mb-4 rounded-4" alt="Outdoor Wall Murals">
                     <h4 class="fw-semibold mb-3">Outdoor Wall Murals</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">
@@ -254,7 +254,7 @@
 </section>
 
 <section class="position-relative text-white">
-    <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1600" class="w-100" style="height:450px; object-fit:cover;" alt="Wall Murals CTA">
+    <img src="{{ asset('frontend/Images/large-graphics/wm-14.webp') }}" class="w-100" style="height:450px; object-fit:cover;" alt="Wall Murals CTA">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
     <div class="position-absolute top-50 start-50 translate-middle text-center px-3" style="max-width:900px;">
         <h2 class="fw-bold mb-3">Wall Murals: The Most Powerful Way to Define Your Brand Environment</h2>

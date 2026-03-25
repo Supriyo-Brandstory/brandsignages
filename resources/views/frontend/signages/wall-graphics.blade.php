@@ -72,17 +72,17 @@
         <div class="impact-gallery-grid mt-5">
             @php
                 $galleryItems = [
-                    ['img' => 'led-1', 'title' => 'Corporate Office Wall Murals', 'class' => 'red-title'],
-                    ['img' => 'led-2', 'title' => 'Retail Brand Feature Walls', 'class' => 'red-title'],
-                    ['img' => 'led-3', 'title' => 'Full Vinyl Wall Wraps', 'class' => 'red-title'],
-                    ['img' => 'led-4', 'title' => 'Custom Printed Wall Decals', 'class' => 'red-title'],
-                    ['img' => 'led-5', 'title' => 'Textured & 3D Wall Graphics', 'class' => 'red-title'],
+                    ['img' => '1', 'title' => 'Corporate Office Wall Murals', 'class' => 'red-title'],
+                    ['img' => '2', 'title' => 'Retail Brand Feature Walls', 'class' => 'red-title'],
+                    ['img' => '3', 'title' => 'Full Vinyl Wall Wraps', 'class' => 'red-title'],
+                    ['img' => '4', 'title' => 'Custom Printed Wall Decals', 'class' => 'red-title'],
+                    ['img' => '5', 'title' => 'Textured & 3D Wall Graphics', 'class' => 'red-title'],
                 ];
             @endphp
             @foreach ($galleryItems as $item)
                 <div class="impact-card">
                     <div class="impact-card-inner">
-                        <img src="/frontend/Images/led/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
+                        <img src="/frontend/Images/large-graphics/wg-{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
                         <div class="impact-title-box">
                             <span class="{{ $item['class'] ?? '' }}">{{ $item['title'] }}</span>
                         </div>
@@ -102,7 +102,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-imagex">
-                    <img src="{{ asset('frontend/Images/home/led-sign-bg.webp') }}" alt="Wall Graphics by Brand Signages" class="img-fluid">
+                    <img src="{{ asset('frontend/Images/large-graphics/wg-6.webp') }}" alt="Wall Graphics by Brand Signages" class="img-fluid rounded-3">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -150,7 +150,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp') }}" class="card-img-center" alt="Full Wall Murals">
+                            <img src="{{ asset('frontend/Images/large-graphics/wg-7.webp') }}" class="card-img-center" alt="Full Wall Murals">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Full-Wall Murals</h5>
                                 <p class="We-Elevate-Brands-text">Large-format, high-resolution murals printed on premium cast vinyl that create immersive visual environments for any interior space.</p>
@@ -160,7 +160,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp') }}" class="card-img-center" alt="Brand Feature Walls">
+                            <img src="{{ asset('frontend/Images/large-graphics/wg-8.webp') }}" class="card-img-center" alt="Brand Feature Walls">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Brand Feature Walls</h5>
                                 <p class="We-Elevate-Brands-text">Strategically designed branded walls that reinforce corporate identity in lobbies, boardrooms, and reception areas with bold precision.</p>
@@ -170,7 +170,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp') }}" class="card-img-center" alt="Removable Wall Decals">
+                            <img src="{{ asset('frontend/Images/large-graphics/wg-9.webp') }}" class="card-img-center" alt="Removable Wall Decals">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Removable Wall Decals</h5>
                                 <p class="We-Elevate-Brands-text">Flexible, residue-free decals perfect for temporary campaigns, seasonal promotions, and spaces requiring periodic creative refreshes.</p>
@@ -180,7 +180,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-6.webp') }}" class="card-img-center" alt="Textured Wall Finishes">
+                            <img src="{{ asset('frontend/Images/large-graphics/wg-10.webp') }}" class="card-img-center" alt="Textured Wall Finishes">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Textured Wall Finishes</h5>
                                 <p class="We-Elevate-Brands-text">Premium textured vinyl and 3D lenticular finishes that add depth, dimension, and a luxury feel to any interior wall surface.</p>
@@ -190,7 +190,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp') }}" class="card-img-center" alt="Frosted Decorative Films">
+                            <img src="{{ asset('frontend/Images/large-graphics/wg-11.webp') }}" class="card-img-center" alt="Frosted Decorative Films">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Frosted & Decorative Films</h5>
                                 <p class="We-Elevate-Brands-text">Elegant frosted, etched, and patterned films that transform glass partitions and smooth walls into sophisticated brand elements.</p>
@@ -213,7 +213,7 @@
         <div class="row g-4">
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Indoor Wall Graphic">
+                    <img src="{{ asset('frontend/Images/large-graphics/wm-12.webp') }}" class="img-fluid mb-4 rounded-4" alt="Indoor Wall Graphic">
                     <h4 class="fw-semibold mb-3">Indoor Wall Graphics</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">
@@ -232,7 +232,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Outdoor Wall Graphic">
+                    <img src="{{ asset('frontend/Images/large-graphics/wm-13.webp') }}" class="img-fluid mb-4 rounded-4" alt="Outdoor Wall Graphic">
                     <h4 class="fw-semibold mb-3">Outdoor Wall Graphics</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">

@@ -72,17 +72,18 @@
         <div class="impact-gallery-grid mt-5">
             @php
                 $galleryItems = [
-                    ['img' => 'led-1', 'title' => 'Branded Office Wall Stickers', 'class' => 'red-title'],
-                    ['img' => 'led-2', 'title' => 'Retail Window & Wall Stickers', 'class' => 'red-title'],
-                    ['img' => 'led-3', 'title' => 'Illustrated Decorative Stickers', 'class' => 'red-title'],
-                    ['img' => 'led-4', 'title' => 'Cut-Out Shape Wall Stickers', 'class' => 'red-title'],
-                    ['img' => 'led-5', 'title' => 'Large Format Wall Sticker Panels', 'class' => 'red-title'],
+                    ['img' => '1', 'title' => 'Branded Office Wall Stickers', 'class' => 'red-title'],
+                    ['img' => '2', 'title' => 'Retail Window & Wall Stickers', 'class' => 'red-title'],
+                    ['img' => '3', 'title' => 'Illustrated Decorative Stickers', 'class' => 'red-title'],
+                    ['img' => '4', 'title' => 'Cut-Out Shape Wall Stickers', 'class' => 'red-title'],
+                    ['img' => '5', 'title' => 'Large Format Wall Sticker Panels', 'class' => 'red-title'],
                 ];
             @endphp
             @foreach ($galleryItems as $item)
                 <div class="impact-card">
                     <div class="impact-card-inner">
-                        <img src="/frontend/Images/led/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
+                        <!-- <img src="/frontend/Images/led/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image"> -->
+                        <img src="/frontend/Images/large-graphics/ws-{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
                         <div class="impact-title-box">
                             <span class="{{ $item['class'] ?? '' }}">{{ $item['title'] }}</span>
                         </div>
@@ -102,7 +103,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-imagex">
-                    <img src="{{ asset('frontend/Images/home/led-sign-bg.webp') }}" alt="Wall Stickers by Brand Signages" class="img-fluid">
+                    <img src="{{ asset('frontend/Images/large-graphics/ws-6.webp') }}" alt="Wall Stickers by Brand Signages" class="img-fluid rounded-3">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -149,7 +150,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp') }}" class="card-img-center" alt="Printed Wall Stickers">
+                            <img src="{{ asset('frontend/Images/large-graphics/ws-7.webp') }}" class="card-img-center" alt="Printed Wall Stickers">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Full-Colour Printed Stickers</h5>
                                 <p class="We-Elevate-Brands-text">High-resolution digitally printed stickers in any size, shape, or colour — perfect for brand imagery, illustrations, and decorative wall panels.</p>
@@ -159,7 +160,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp') }}" class="card-img-center" alt="Cut-Out Shape Stickers">
+                            <img src="{{ asset('frontend/Images/large-graphics/ws-8.webp') }}" class="card-img-center" alt="Cut-Out Shape Stickers">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Die-Cut Shape Stickers</h5>
                                 <p class="We-Elevate-Brands-text">Custom contour-cut stickers that follow the exact shape of your logo, icon, or design — no background, no borders, just clean precision.</p>
@@ -169,7 +170,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp') }}" class="card-img-center" alt="Wallpaper Sticker Panels">
+                            <img src="{{ asset('frontend/Images/large-graphics/ws-9.webp') }}" class="card-img-center" alt="Wallpaper Sticker Panels">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Wallpaper Sticker Panels</h5>
                                 <p class="We-Elevate-Brands-text">Large-format sticker panels that cover entire wall sections with seamless patterns, scenic imagery, or brand illustrations — applied like wallpaper.</p>
@@ -179,7 +180,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-6.webp') }}" class="card-img-center" alt="Transparent Stickers">
+                            <img src="{{ asset('frontend/Images/large-graphics/ws-10.webp') }}" class="card-img-center" alt="Transparent Stickers">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Clear & Transparent Stickers</h5>
                                 <p class="We-Elevate-Brands-text">Printed on transparent vinyl for a floating, no-background look — ideal for glass surfaces, mirrors, and light-coloured walls where subtlety matters.</p>
@@ -189,7 +190,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp') }}" class="card-img-center" alt="Metallic Foil Stickers">
+                            <img src="{{ asset('frontend/Images/large-graphics/ws-11.webp') }}" class="card-img-center" alt="Metallic Foil Stickers">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Metallic & Specialty Stickers</h5>
                                 <p class="We-Elevate-Brands-text">Premium metallic gold, silver, and chrome finish stickers that add a luxury, high-end aesthetic to reception areas, boardrooms, and retail environments.</p>
@@ -212,7 +213,7 @@
         <div class="row g-4">
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Indoor Wall Stickers">
+                    <img src="{{ asset('frontend/Images/large-graphics/ws-12.webp') }}" class="img-fluid mb-4 rounded-4" alt="Indoor Wall Stickers">
                     <h4 class="fw-semibold mb-3">Indoor Wall Stickers</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">
@@ -231,7 +232,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Outdoor Wall Stickers">
+                    <img src="{{ asset('frontend/Images/large-graphics/ws-13.webp') }}" class="img-fluid mb-4 rounded-4" alt="Outdoor Wall Stickers">
                     <h4 class="fw-semibold mb-3">Outdoor Wall Stickers</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">
@@ -272,21 +273,17 @@
 
     
 @media (max-width: 768px) {
-    @media (max-width: 786px) {
-    /* 1. Allow the section height to expand based on content */
     section.position-relative {
         height: auto !important;
         display: flex;
         flex-direction: column;
     }
 
-    /* 2. Change image from fixed height to fluid or taller aspect ratio */
     section.position-relative img {
         height: 600px !important; /* Increased height for mobile room */
         object-position: center;
     }
 
-    /* 3. Reset the absolute positioning to ensure text fits */
     section.position-relative .translate-middle {
         position: absolute !important;
         top: 50% !important;
@@ -296,7 +293,6 @@
         padding: 0 15px;
     }
 
-    /* 4. Shrink typography so it doesn't overflow */
     section.position-relative h2 {
         font-size: 1.5rem !important;
         line-height: 1.3;
@@ -307,7 +303,6 @@
         margin-bottom: 1.5rem !important;
     }
 
-    /* 5. Stack buttons vertically for better tap targets */
     section.position-relative .d-flex {
         flex-direction: column !important;
         gap: 10px !important;
@@ -318,7 +313,6 @@
         padding: 12px !important;
         font-size: 0.95rem !important;
     }
-}
 }
 
 </style>
