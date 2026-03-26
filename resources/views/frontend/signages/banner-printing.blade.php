@@ -72,17 +72,17 @@
         <div class="impact-gallery-grid mt-5">
             @php
                 $galleryItems = [
-                    ['img' => 'led-1', 'title' => 'Outdoor Flex Banners', 'class' => 'red-title'],
-                    ['img' => 'led-2', 'title' => 'Pull-Up & Roll-Up Stands', 'class' => 'red-title'],
-                    ['img' => 'led-3', 'title' => 'Fabric & Textile Banners', 'class' => 'red-title'],
-                    ['img' => 'led-4', 'title' => 'Event Backdrop Banners', 'class' => 'red-title'],
-                    ['img' => 'led-5', 'title' => 'Mesh & Perforated Banners', 'class' => 'red-title'],
+                    ['img' => 'bp-1', 'title' => 'Outdoor Flex Banners', 'class' => 'red-title'],
+                    ['img' => 'bp-2', 'title' => 'Pull-Up & Roll-Up Stands', 'class' => 'red-title'],
+                    ['img' => 'bp-3', 'title' => 'Fabric & Textile Banners', 'class' => 'red-title'],
+                    ['img' => 'bp-4', 'title' => 'Event Backdrop Banners', 'class' => 'red-title'],
+                    ['img' => 'bp-5', 'title' => 'Mesh & Perforated Banners', 'class' => 'red-title'],
                 ];
             @endphp
             @foreach ($galleryItems as $item)
                 <div class="impact-card">
                     <div class="impact-card-inner">
-                        <img src="/frontend/Images/led/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
+                        <img src="/frontend/Images/large-graphics/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
                         <div class="impact-title-box">
                             <span class="{{ $item['class'] ?? '' }}">{{ $item['title'] }}</span>
                         </div>
@@ -101,7 +101,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-imagex">
-                    <img src="{{ asset('frontend/Images/home/led-sign-bg.webp') }}" alt="Banner Printing by Brand Signages" class="img-fluid">
+                    <img src="{{ asset('frontend/Images/large-graphics/bp-6.webp') }}" alt="Banner Printing by Brand Signages" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -150,7 +150,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp') }}" class="card-img-center" alt="Outdoor Flex Banners">
+                            <img src="{{ asset('frontend/Images/large-graphics/bp-7.webp') }}" class="card-img-center" alt="Outdoor Flex Banners">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Outdoor Flex & Vinyl Banners</h5>
                                 <p class="We-Elevate-Brands-text">Durable, weatherproof banners ideal for storefronts, hoardings, events, and outdoor promotional displays requiring long-term visibility.</p>
@@ -160,7 +160,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp') }}" class="card-img-center" alt="Pull-Up Banner Stands">
+                            <img src="{{ asset('frontend/Images/large-graphics/bp-8.webp') }}" class="card-img-center" alt="Pull-Up Banner Stands">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Pull-Up Roll Banner Stands</h5>
                                 <p class="We-Elevate-Brands-text">Portable, professional roll-up banners perfect for exhibitions, trade shows, conferences, and retail activations with instant setup.</p>
@@ -170,7 +170,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp') }}" class="card-img-center" alt="Event Backdrop Banners">
+                            <img src="{{ asset('frontend/Images/large-graphics/bp-9.webp') }}" class="card-img-center" alt="Event Backdrop Banners">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Custom Event Backdrops</h5>
                                 <p class="We-Elevate-Brands-text">Large-format branded backdrops for press events, product launches, award nights, and corporate functions that demand a polished finish.</p>
@@ -180,7 +180,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-6.webp') }}" class="card-img-center" alt="Fabric Banners">
+                            <img src="{{ asset('frontend/Images/large-graphics/bp-10.webp') }}" class="card-img-center" alt="Fabric Banners">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Fabric & Textile Banners</h5>
                                 <p class="We-Elevate-Brands-text">Premium dye-sublimation fabric banners offering a high-end, wrinkle-resistant finish ideal for retail interiors, exhibitions, and corporate displays.</p>
@@ -190,7 +190,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp') }}" class="card-img-center" alt="Mesh Banners">
+                            <img src="{{ asset('frontend/Images/large-graphics/bp-11.webp') }}" class="card-img-center" alt="Mesh Banners">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Mesh & Perforated Banners</h5>
                                 <p class="We-Elevate-Brands-text">Wind-resistant, lightweight mesh banners designed for scaffolding, fences, and outdoor structures where airflow management is essential.</p>
@@ -213,7 +213,7 @@
         <div class="row g-4">
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Indoor Banner Printing">
+                    <img src="{{ asset('frontend/Images/large-graphics/bp-12.webp') }}" class="img-fluid mb-4 rounded-4" alt="Indoor Banner Printing">
                     <h4 class="fw-semibold mb-3">Indoor Banner Printing</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">
@@ -232,7 +232,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Outdoor Banner Printing">
+                    <img src="{{ asset('frontend/Images/large-graphics/bp-13.webp') }}" class="img-fluid mb-4 rounded-4" alt="Outdoor Banner Printing">
                     <h4 class="fw-semibold mb-3">Outdoor Banner Printing</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">
@@ -254,7 +254,7 @@
 </section>
 
 <section class="position-relative text-white">
-    <img src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?q=80&w=1600" class="w-100" style="height:450px; object-fit:cover;" alt="Banner Printing CTA">
+    <img src="{{ asset('frontend/Images/large-graphics/bp-14.webp') }}" class="w-100" style="height:450px; object-fit:cover;" alt="Banner Printing CTA">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
     <div class="position-absolute top-50 start-50 translate-middle text-center px-3" style="max-width:900px;">
         <h2 class="fw-bold mb-3">Banner Printing: The Most Versatile Promotional Tool Your Brand Can Deploy</h2>
@@ -270,7 +270,7 @@
     <h2 class="new_client_section-title">We Serve Clients Across <br>All Industries</h2>
     <div class="row">
         <div class="col-md-5 new_client_section-image col-12">
-            <img src="{{ asset('frontend/Images/led-sign-board/irani-cafe-led-sign-board.webp') }}" alt="Banner Printing Client - Brand Signages">
+            <img src="{{ asset('frontend/Images/large-graphics/bp-15.webp') }}" alt="Banner Printing Client - Brand Signages">
         </div>
         <div class="col-md-7 new_client_section-scrolling col-12">
             <div class="new_client_section-wrapper">

@@ -75,18 +75,18 @@
         <div class="impact-gallery-grid mt-5">
             @php
                 $galleryItems = [
-                    ['img' => 'led-1', 'title' => 'Elite Stainless Steel Barriers', 'class' => 'red-title'],
-                    ['img' => 'led-2', 'title' => 'Retail Floor Queue Systems', 'class' => 'red-title'],
-                    ['img' => 'led-3', 'title' => 'Retractable Belt Barriers', 'class' => 'red-title'],
-                    ['img' => 'led-4', 'title' => 'Custom Branded Stanchions', 'class' => 'red-title'],
-                    ['img' => 'led-5', 'title' => 'Heavy-Duty Crowd Control Systems', 'class' => 'red-title'],
+                    ['img' => 'qm-1', 'title' => 'Elite Stainless Steel Barriers', 'class' => 'red-title'],
+                    ['img' => 'qm-2', 'title' => 'Retail Floor Queue Systems', 'class' => 'red-title'],
+                    ['img' => 'qm-3', 'title' => 'Retractable Belt Barriers', 'class' => 'red-title'],
+                    ['img' => 'qm-4', 'title' => 'Custom Branded Stanchions', 'class' => 'red-title'],
+                    ['img' => 'qm-5', 'title' => 'Heavy-Duty Crowd Control Systems', 'class' => 'red-title'],
                 ];
             @endphp
 
             @foreach ($galleryItems as $item)
                 <div class="impact-card">
                     <div class="impact-card-inner">
-                        <img src="/frontend/Images/led/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}"
+                        <img src="/frontend/Images/large-graphics/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}"
                             class="impact-image">
                         <div class="impact-title-box">
                             <span class="{{ $item['class'] ?? '' }}">{{ $item['title'] }}</span>
@@ -109,7 +109,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-imagex">
-                    <img src="{{ asset('frontend/Images/home/led-sign-bg.webp') }}"
+                    <img src="{{ asset('frontend/Images/large-graphics/qm-6.webp') }}"
                         alt="Queue Manager by Brand Signages" class="img-fluid">
                 </div>
             </div>
@@ -167,7 +167,7 @@
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
                             <a href="retractable-belt-stanchions" style="text-decoration:none; color:inherit;">
-                                <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp') }}"
+                                <img src="{{ asset('frontend/Images/large-graphics/qm-7.webp') }}"
                                     class="card-img-center" alt="Classic Retractable Stanchions">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a href="retractable-belt-stanchions">Classic Retractable Stanchions</a></h5>
@@ -182,7 +182,7 @@
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
                             <a href="executive-stainless-stanchions" style="text-decoration:none; color:inherit;">
-                                <img src="{{ asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp') }}"
+                                <img src="{{ asset('frontend/Images/large-graphics/qm-8.webp') }}"
                                     class="card-img-center" alt="Executive Stainless Collection">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a href="executive-stainless-stanchions">Executive Stainless Collection</a></h5>
@@ -197,7 +197,7 @@
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
                             <a href="wall-mounted-barriers" style="text-decoration:none; color:inherit;">
-                                <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp') }}"
+                                <img src="{{ asset('frontend/Images/large-graphics/qm-9.webp') }}"
                                     class="card-img-center" alt="Wall-Mounted Barrier Units">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a href="wall-mounted-barriers">Wall-Mounted Barrier Units</a></h5>
@@ -212,7 +212,7 @@
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
                             <a href="branded-belt-stanchions" style="text-decoration:none; color:inherit;">
-                                <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-6.webp') }}"
+                                <img src="{{ asset('frontend/Images/large-graphics/qm-10.webp') }}"
                                     class="card-img-center" alt="Branded Belt Stanchions">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a href="branded-belt-stanchions">Custom Branded Belt Stanchions</a></h5>
@@ -227,7 +227,7 @@
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
                             <a href="outdoor-crowd-control" style="text-decoration:none; color:inherit;">
-                                <img src="{{ asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp') }}"
+                                <img src="{{ asset('frontend/Images/large-graphics/qm-11.webp') }}"
                                     class="card-img-center" alt="Outdoor Crowd Control Systems">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a href="outdoor-crowd-control">Outdoor Crowd Control Systems</a></h5>
@@ -242,7 +242,7 @@
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
                             <a href="rope-barrier-stanchions" style="text-decoration:none; color:inherit;">
-                                <img src="{{ asset('frontend/Images/led-sign-board/open-dot-led-sign-1.webp') }}"
+                                <img src="{{ asset('frontend/Images/large-graphics/qm-12.webp') }}"
                                     class="card-img-center" alt="Rope Barrier Stanchions">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a href="rope-barrier-stanchions">Rope Barrier Stanchions</a></h5>
@@ -257,7 +257,7 @@
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
                             <a href="signage-top-stanchions" style="text-decoration:none; color:inherit;">
-                                <img src="{{ asset('frontend/Images/led-sign-board/flexibile-led-1.webp') }}"
+                                <img src="{{ asset('frontend/Images/large-graphics/qm-13.webp') }}"
                                     class="card-img-center" alt="Signage Top Stanchions">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a href="signage-top-stanchions">Signage Top Stanchions</a></h5>
@@ -272,7 +272,7 @@
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
                             <a href="post-and-chain-barriers" style="text-decoration:none; color:inherit;">
-                                <img src="{{ asset('frontend/Images/led-sign-board/neon-sign-board-4.webp') }}"
+                                <img src="{{ asset('frontend/Images/large-graphics/qm-14.webp') }}"
                                     class="card-img-center" alt="Post and Chain Barriers">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a href="post-and-chain-barriers">Post & Chain Barriers</a></h5>
@@ -300,7 +300,7 @@
 
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?q=80&w=900"
+                    <img src="{{ asset('frontend/Images/large-graphics/qm-15.webp') }}"
                         class="img-fluid mb-4 rounded-4" alt="47 Inch Queue Manager">
                     <h4 class="fw-semibold mb-3">47" Queue Managers</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
@@ -321,7 +321,7 @@
 
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?q=80&w=900"
+                    <img src="{{ asset('frontend/Images/large-graphics/qm-16.webp') }}"
                         class="img-fluid mb-4 rounded-4" alt="57 Inch Queue Manager">
                     <h4 class="fw-semibold mb-3">57" Queue Managers</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
@@ -345,7 +345,7 @@
 </section>
 
 <section class="position-relative text-white">
-    <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?q=80&w=1600"
+    <img src="{{ asset('frontend/Images/large-graphics/qm-17.webp') }}"
         class="w-100" style="height:450px; object-fit:cover;" alt="Queue Manager Background">
     <div class="position-absolute top-0 start-0 w-100 h-100"
         style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
@@ -371,7 +371,7 @@
     <h2 class="new_client_section-title">We Serve Clients Across <br>All Industries</h2>
     <div class="row">
         <div class="col-md-5 new_client_section-image col-12">
-            <img src="{{ asset('frontend/Images/led-sign-board/irani-cafe-led-sign-board.webp') }}"
+            <img src="{{ asset('frontend/Images/large-graphics/qm-18.webp') }}"
                 alt="Queue Manager Installed by Brand Signages">
         </div>
         <div class="col-md-7 new_client_section-scrolling col-12">

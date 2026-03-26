@@ -71,17 +71,17 @@
         <div class="impact-gallery-grid mt-5">
             @php
                 $galleryItems = [
-                    ['img' => 'led-1', 'title' => 'Building Facade Wraps', 'class' => 'red-title'],
-                    ['img' => 'led-2', 'title' => 'Vehicle & Fleet Graphics', 'class' => 'red-title'],
-                    ['img' => 'led-3', 'title' => 'Mesh & Perforated Banners', 'class' => 'red-title'],
-                    ['img' => 'led-4', 'title' => 'Outdoor Flex Printing', 'class' => 'red-title'],
-                    ['img' => 'led-5', 'title' => 'Construction Site Graphics', 'class' => 'red-title'],
+                    ['img' => 'og-1', 'title' => 'Building Facade Wraps', 'class' => 'red-title'],
+                    ['img' => 'og-2', 'title' => 'Vehicle & Fleet Graphics', 'class' => 'red-title'],
+                    ['img' => 'og-3', 'title' => 'Mesh & Perforated Banners', 'class' => 'red-title'],
+                    ['img' => 'og-4', 'title' => 'Outdoor Flex Printing', 'class' => 'red-title'],
+                    ['img' => 'og-5', 'title' => 'Construction Site Graphics', 'class' => 'red-title'],
                 ];
             @endphp
             @foreach ($galleryItems as $item)
                 <div class="impact-card">
                     <div class="impact-card-inner">
-                        <img src="/frontend/Images/led/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
+                        <img src="/frontend/Images/large-graphics/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
                         <div class="impact-title-box">
                             <span class="{{ $item['class'] ?? '' }}">{{ $item['title'] }}</span>
                         </div>
@@ -100,7 +100,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-imagex">
-                    <img src="{{ asset('frontend/Images/home/led-sign-bg.webp') }}" alt="Outdoor Graphics by Brand Signages" class="img-fluid">
+                    <img src="{{ asset('frontend/Images/large-graphics/og-6.webp') }}" alt="Outdoor Graphics by Brand Signages" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -149,7 +149,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp') }}" class="card-img-center" alt="Building Facade Wraps">
+                            <img src="{{ asset('frontend/Images/large-graphics/og-7.webp') }}" class="card-img-center" alt="Building Facade Wraps">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Building & Facade Wraps</h5>
                                 <p class="We-Elevate-Brands-text">Transform entire building exteriors into massive brand billboards that attract attention from significant distances with vivid, weather-resistant prints.</p>
@@ -159,7 +159,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp') }}" class="card-img-center" alt="Vehicle Fleet Wraps">
+                            <img src="{{ asset('frontend/Images/large-graphics/og-8.webp') }}" class="card-img-center" alt="Vehicle Fleet Wraps">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Vehicle Fleet Wraps</h5>
                                 <p class="We-Elevate-Brands-text">Turn your vehicles into mobile advertising units with full or partial wraps that carry your brand message across every road and route.</p>
@@ -169,7 +169,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp') }}" class="card-img-center" alt="Outdoor Mesh Banners">
+                            <img src="{{ asset('frontend/Images/large-graphics/og-9.webp') }}" class="card-img-center" alt="Outdoor Mesh Banners">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Outdoor Mesh Banners</h5>
                                 <p class="We-Elevate-Brands-text">Wind-resistant, perforated mesh banners ideal for scaffolding, fences, construction boundaries, and open outdoor structures.</p>
@@ -179,7 +179,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-6.webp') }}" class="card-img-center" alt="Outdoor Flex Printing">
+                            <img src="{{ asset('frontend/Images/large-graphics/og-10.webp') }}" class="card-img-center" alt="Outdoor Flex Printing">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Outdoor Flex Printing</h5>
                                 <p class="We-Elevate-Brands-text">High-brightness, UV-resistant flex prints for hoardings, billboards, and outdoor advertising frames at any size and scale.</p>
@@ -189,7 +189,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp') }}" class="card-img-center" alt="Outdoor Vinyl Graphics">
+                            <img src="{{ asset('frontend/Images/large-graphics/og-11.webp') }}" class="card-img-center" alt="Outdoor Vinyl Graphics">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Weatherproof Vinyl Graphics</h5>
                                 <p class="We-Elevate-Brands-text">Cast vinyl outdoor graphics engineered for Indian climatic conditions, offering 5–7 year lifespan with no fading or delamination.</p>
@@ -212,7 +212,7 @@
         <div class="row g-4">
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Building Wrap">
+                    <img src="{{ asset('frontend/Images/large-graphics/og-12.webp') }}" class="img-fluid mb-4 rounded-4" alt="Building Wrap">
                     <h4 class="fw-semibold mb-3">Static Outdoor Graphics</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">
@@ -231,7 +231,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Vehicle Wrap">
+                    <img src="{{ asset('frontend/Images/large-graphics/og-13.webp') }}" class="img-fluid mb-4 rounded-4" alt="Vehicle Wrap">
                     <h4 class="fw-semibold mb-3">Mobile Outdoor Graphics</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">
@@ -253,7 +253,7 @@
 </section>
 
 <section class="position-relative text-white">
-    <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?q=80&w=1600" class="w-100" style="height:450px; object-fit:cover;" alt="Outdoor Graphics CTA">
+    <img src="{{ asset('frontend/Images/large-graphics/og-14.webp') }}" class="w-100" style="height:450px; object-fit:cover;" alt="Outdoor Graphics CTA">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
     <div class="position-absolute top-50 start-50 translate-middle text-center px-3" style="max-width:900px;">
         <h2 class="fw-bold mb-3">Outdoor Graphics: Your Brand's Biggest Stage Is Right Outside</h2>
@@ -269,7 +269,7 @@
     <h2 class="new_client_section-title">We Serve Clients Across <br>All Industries</h2>
     <div class="row">
         <div class="col-md-5 new_client_section-image col-12">
-            <img src="{{ asset('frontend/Images/led-sign-board/irani-cafe-led-sign-board.webp') }}" alt="Outdoor Graphics Client - Brand Signages">
+            <img src="{{ asset('frontend/Images/large-graphics/og-15.webp') }}" alt="Outdoor Graphics Client - Brand Signages">
         </div>
         <div class="col-md-7 new_client_section-scrolling col-12">
             <div class="new_client_section-wrapper">

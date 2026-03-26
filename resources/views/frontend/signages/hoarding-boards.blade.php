@@ -72,17 +72,17 @@
         <div class="impact-gallery-grid mt-5">
             @php
                 $galleryItems = [
-                    ['img' => 'led-1', 'title' => 'Construction Site Hoardings', 'class' => 'red-title'],
-                    ['img' => 'led-2', 'title' => 'Real Estate Project Boards', 'class' => 'red-title'],
-                    ['img' => 'led-3', 'title' => 'Retail Launch Hoardings', 'class' => 'red-title'],
-                    ['img' => 'led-4', 'title' => 'ACP Panel Hoarding Systems', 'class' => 'red-title'],
-                    ['img' => 'led-5', 'title' => 'Backlit & Illuminated Hoardings', 'class' => 'red-title'],
+                    ['img' => 'hb-1', 'title' => 'Construction Site Hoardings', 'class' => 'red-title'],
+                    ['img' => 'hb-2', 'title' => 'Real Estate Project Boards', 'class' => 'red-title'],
+                    ['img' => 'hb-3', 'title' => 'Retail Launch Hoardings', 'class' => 'red-title'],
+                    ['img' => 'hb-4', 'title' => 'ACP Panel Hoarding Systems', 'class' => 'red-title'],
+                    ['img' => 'hb-5', 'title' => 'Backlit & Illuminated Hoardings', 'class' => 'red-title'],
                 ];
             @endphp
             @foreach ($galleryItems as $item)
                 <div class="impact-card">
                     <div class="impact-card-inner">
-                        <img src="/frontend/Images/led/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
+                        <img src="/frontend/Images/large-graphics/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}" class="impact-image">
                         <div class="impact-title-box">
                             <span class="{{ $item['class'] ?? '' }}">{{ $item['title'] }}</span>
                         </div>
@@ -101,7 +101,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="showcase-imagex">
-                    <img src="{{ asset('frontend/Images/home/led-sign-bg.webp') }}" alt="Hoarding Boards by Brand Signages" class="img-fluid">
+                    <img src="{{ asset('frontend/Images/large-graphics/hb-6.webp') }}" alt="Hoarding Boards by Brand Signages" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -150,7 +150,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp') }}" class="card-img-center" alt="MS Frame Flex Hoardings">
+                            <img src="{{ asset('frontend/Images/large-graphics/hb-7.webp') }}" class="card-img-center" alt="MS Frame Flex Hoardings">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">MS Frame Flex Hoardings</h5>
                                 <p class="We-Elevate-Brands-text">Cost-effective, sturdy mild steel frame hoardings with large-format flex printing for maximum site coverage and brand visibility.</p>
@@ -160,7 +160,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp') }}" class="card-img-center" alt="ACP Panel Hoardings">
+                            <img src="{{ asset('frontend/Images/large-graphics/hb-8.webp') }}" class="card-img-center" alt="ACP Panel Hoardings">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">ACP Panel Hoardings</h5>
                                 <p class="We-Elevate-Brands-text">Premium aluminium composite panel hoardings offering superior finish, rigidity, and long-term weather resistance for high-end projects.</p>
@@ -170,7 +170,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp') }}" class="card-img-center" alt="Illuminated Night Hoardings">
+                            <img src="{{ asset('frontend/Images/large-graphics/hb-9.webp') }}" class="card-img-center" alt="Illuminated Night Hoardings">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Illuminated Night Hoardings</h5>
                                 <p class="We-Elevate-Brands-text">Backlit and frontlit hoarding systems that keep your brand messaging visible and impactful day and night, around the clock.</p>
@@ -180,7 +180,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-6.webp') }}" class="card-img-center" alt="Plywood Base Hoardings">
+                            <img src="{{ asset('frontend/Images/large-graphics/hb-10.webp') }}" class="card-img-center" alt="Plywood Base Hoardings">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Plywood Base Hoardings</h5>
                                 <p class="We-Elevate-Brands-text">Durable, cost-efficient plywood panel hoardings ideal for mid-term construction projects requiring a strong and reliable boundary solution.</p>
@@ -190,7 +190,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card">
-                            <img src="{{ asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp') }}" class="card-img-center" alt="Modular Reusable Hoardings">
+                            <img src="{{ asset('frontend/Images/large-graphics/hb-11.webp') }}" class="card-img-center" alt="Modular Reusable Hoardings">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title">Modular Reusable Systems</h5>
                                 <p class="We-Elevate-Brands-text">Engineered modular hoarding systems designed for disassembly and reuse across multiple project sites, maximizing your investment value.</p>
@@ -213,7 +213,7 @@
         <div class="row g-4">
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Standard Hoarding Board">
+                    <img src="{{ asset('frontend/Images/large-graphics/hb-12.webp') }}" class="img-fluid mb-4 rounded-4" alt="Standard Hoarding Board">
                     <h4 class="fw-semibold mb-3">Standard Hoarding Boards</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">
@@ -232,7 +232,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?q=80&w=900" class="img-fluid mb-4 rounded-4" alt="Illuminated Hoarding Board">
+                    <img src="{{ asset('frontend/Images/large-graphics/hb-13.webp') }}" class="img-fluid mb-4 rounded-4" alt="Illuminated Hoarding Board">
                     <h4 class="fw-semibold mb-3">Illuminated Hoarding Boards</h4>
                     <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
                     <div class="mb-4">
@@ -254,7 +254,7 @@
 </section>
 
 <section class="position-relative text-white">
-    <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?q=80&w=1600" class="w-100" style="height:450px; object-fit:cover;" alt="Hoarding Boards CTA">
+    <img src="{{ asset('frontend/Images/large-graphics/hb-14.webp') }}" class="w-100" style="height:450px; object-fit:cover;" alt="Hoarding Boards CTA">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
     <div class="position-absolute top-50 start-50 translate-middle text-center px-3" style="max-width:900px;">
         <h2 class="fw-bold mb-3">Hoarding Boards: The Most Captive Advertising Space Your Project Can Own</h2>
@@ -270,7 +270,7 @@
     <h2 class="new_client_section-title">We Serve Clients Across <br>All Industries</h2>
     <div class="row">
         <div class="col-md-5 new_client_section-image col-12">
-            <img src="{{ asset('frontend/Images/led-sign-board/irani-cafe-led-sign-board.webp') }}" alt="Hoarding Boards Client - Brand Signages">
+            <img src="{{ asset('frontend/Images/large-graphics/hb-15.webp') }}" alt="Hoarding Boards Client - Brand Signages">
         </div>
         <div class="col-md-7 new_client_section-scrolling col-12">
             <div class="new_client_section-wrapper">
