@@ -5367,8 +5367,9 @@ ul.brand-list {
     }
 
     .flow-header {
-        max-width: 90%;
+        max-width: 100%;
         margin-bottom: 70px;
+        padding: 0 10px 0 10px;
     }
 
     .flow-item,
@@ -5399,6 +5400,9 @@ ul.brand-list {
 
     .safety-communication h3 {
         font-size: 1.9rem;
+    }
+    .signage-editorial,.safety-communication,.safety-editorial-x,.safety-flow{
+        padding: 50px 0;
     }
 }
 
