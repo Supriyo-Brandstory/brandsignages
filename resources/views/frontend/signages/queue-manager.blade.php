@@ -294,75 +294,70 @@
     </div>
 </section>
 
-<section class="py-5" style="background:#f3f4f6;">
-    <div class="container">
-        <div class="row g-4">
-
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/qm-15.webp') }}"
-                        class="img-fluid mb-4 rounded-4" alt="47 Inch Queue Manager">
-                    <h4 class="fw-semibold mb-3">47" Queue Managers</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-weight-hanging fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Weight: 5.9 kg</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-arrows-alt-v fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Full Height: 31.5 Inches</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-arrows-alt-h fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Full Width: 51.2 Inches</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/qm-16.webp') }}"
-                        class="img-fluid mb-4 rounded-4" alt="57 Inch Queue Manager">
-                    <h4 class="fw-semibold mb-3">57" Queue Managers</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-weight-hanging fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Weight: 6.83 kg</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-arrows-alt-v fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Full Height: 31.5 Inches</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-arrows-alt-h fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Full Width: 61.4 Inches</p>
-                    </div>
-                </div>
-            </div>
-
+<section class="bs-sgn-section">
+  <div class="bs-sgn-container">
+    <div class="bs-sgn-grid">
+      <div class="bs-sgn-card bs-sgn-card--retail">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/qm-15.webp') }}" alt="47 Inch Queue Manager"/>
         </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">Compact Control</p>
+          <h3 class="bs-sgn-card__title">47" Queue Managers</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-weight-hanging"></i></span>
+              <span class="bs-sgn-feat__text">Weight: 5.9 kg</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-arrows-alt-v"></i></span>
+              <span class="bs-sgn-feat__text">Full Height: 31.5 Inches</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-arrows-alt-h"></i></span>
+              <span class="bs-sgn-feat__text">Full Width: 51.2 Inches</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bs-sgn-card bs-sgn-card--corp">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/qm-16.webp') }}" alt="57 Inch Queue Manager"/>
+        </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">Wide Coverage</p>
+          <h3 class="bs-sgn-card__title">57" Queue Managers</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-weight-hanging"></i></span>
+              <span class="bs-sgn-feat__text">Weight: 6.83 kg</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-arrows-alt-v"></i></span>
+              <span class="bs-sgn-feat__text">Full Height: 31.5 Inches</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-arrows-alt-h"></i></span>
+              <span class="bs-sgn-feat__text">Full Width: 61.4 Inches</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<section class="position-relative text-white">
-    <img src="{{ asset('frontend/Images/large-graphics/qm-17.webp') }}"
-        class="w-100" style="height:450px; object-fit:cover;" alt="Queue Manager Background">
-    <div class="position-absolute top-0 start-0 w-100 h-100"
-        style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
+<section class="bs-sgn-cta-section position-relative text-white">
+    <img src="{{ asset('frontend/Images/large-graphics/qm-17.webp') }}" class="w-100" style="height:450px; object-fit:cover;" alt="Queue Manager CTA">
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
     <div class="position-absolute top-50 start-50 translate-middle text-center px-3" style="max-width:900px;">
-        <h2 class="fw-bold mb-3">
-            Queue Managers: The Most Captive Ad Space Your Brand Can Own
-        </h2>
-        <p class="text-light mb-4">
-            Say goodbye to plain ribbons and outdated crowd control methods. Introduce the latest medium of in-queue
-            advertising with our branded queue managers. Showcase your promotional messages, product highlights, and
-            brand visuals directly at the point where customers are most attentive — the queue line.
-        </p>
+        <h2 class="fw-bold mb-3">Queue Managers: The Most Captive Ad Space Your Brand Can Own</h2>
+        <p class="text-light mb-4">Say goodbye to plain ribbons and outdated crowd control methods. Introduce the latest medium of in-queue advertising with our branded queue managers. Showcase your promotional messages, product highlights, and brand visuals directly at the point where customers are most attentive — the queue line.</p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="{{ route('contact_us') }}" class="btn text-white fw-semibold px-5 py-3"
-                style="background:#e6390a; border-radius:12px;">I am Interested</a>
-            <a href="{{ route('contact_us') }}" class="btn fw-semibold px-5 py-3"
-                style="background:#e9e9e9; color:#222; border-radius:12px;">Get a Quote</a>
+            <a href="{{ route('contact_us') }}" class="btn text-white fw-semibold px-5 py-3" style="background:#e6390a; border-radius:12px;">I am Interested</a>
+            <a href="{{ route('contact_us') }}" class="btn fw-semibold px-5 py-3" style="background:#e9e9e9; color:#222; border-radius:12px;">Get a Quote</a>
         </div>
     </div>
 </section>

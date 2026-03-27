@@ -208,56 +208,62 @@
     </div>
 </section>
 
-<section class="py-5" style="background:#f3f4f6;">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/ws-12.webp') }}" class="img-fluid mb-4 rounded-4" alt="Indoor Wall Stickers">
-                    <h4 class="fw-semibold mb-3">Indoor Wall Stickers</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-fill-drip fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Full-Colour CMYK Printing</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-layer-group fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Gloss, Matte & Satin Finishes</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-cut fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Custom Sizes & Die-Cut Shapes</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/ws-13.webp') }}" class="img-fluid mb-4 rounded-4" alt="Outdoor Wall Stickers">
-                    <h4 class="fw-semibold mb-3">Outdoor Wall Stickers</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-sun fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">UV-Resistant Outdoor Vinyl</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-tint-slash fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Waterproof & Weatherproof</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-calendar-check fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">2–5 Year Outdoor Lifespan</p>
-                    </div>
-                </div>
-            </div>
+<section class="bs-sgn-section">
+  <div class="bs-sgn-container">
+    <div class="bs-sgn-grid">
+      <div class="bs-sgn-card bs-sgn-card--retail">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/ws-12.webp') }}" alt="Indoor Wall Stickers"/>
         </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">Quick Interiors</p>
+          <h3 class="bs-sgn-card__title">Indoor Wall Stickers</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-fill-drip"></i></span>
+              <span class="bs-sgn-feat__text">Full-Colour CMYK Printing</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-layer-group"></i></span>
+              <span class="bs-sgn-feat__text">Gloss, Matte & Satin Finishes</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-cut"></i></span>
+              <span class="bs-sgn-feat__text">Custom Sizes & Die-Cut Shapes</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bs-sgn-card bs-sgn-card--corp">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/ws-13.webp') }}" alt="Outdoor Wall Stickers"/>
+        </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">Weatherproof Decals</p>
+          <h3 class="bs-sgn-card__title">Outdoor Wall Stickers</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-sun"></i></span>
+              <span class="bs-sgn-feat__text">UV-Resistant Outdoor Vinyl</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-tint-slash"></i></span>
+              <span class="bs-sgn-feat__text">Waterproof & Weatherproof</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-calendar-check"></i></span>
+              <span class="bs-sgn-feat__text">2–5 Year Outdoor Lifespan</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<style>
-    
-</style>
-
-<section class="position-relative text-white">
+<section class="bs-sgn-cta-section position-relative text-white">
     <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1600" class="w-100" style="height:450px; object-fit:cover;" alt="Wall Stickers CTA">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
     <div class="position-absolute top-50 start-50 translate-middle text-center px-3" style="max-width:900px;">
@@ -269,53 +275,7 @@
         </div>
     </div>
 </section>
-<style>
 
-    
-@media (max-width: 768px) {
-    section.position-relative {
-        height: auto !important;
-        display: flex;
-        flex-direction: column;
-    }
-
-    section.position-relative img {
-        height: 600px !important; /* Increased height for mobile room */
-        object-position: center;
-    }
-
-    section.position-relative .translate-middle {
-        position: absolute !important;
-        top: 50% !important;
-        left: 50% !important;
-        transform: translate(-50%, -50%) !important;
-        width: 90% !important;
-        padding: 0 15px;
-    }
-
-    section.position-relative h2 {
-        font-size: 1.5rem !important;
-        line-height: 1.3;
-    }
-
-    section.position-relative p {
-        font-size: 0.9rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    section.position-relative .d-flex {
-        flex-direction: column !important;
-        gap: 10px !important;
-    }
-
-    section.position-relative .btn {
-        width: 100% !important;
-        padding: 12px !important;
-        font-size: 0.95rem !important;
-    }
-}
-
-</style>
 <section class="new_client_section container">
     <h2 class="new_client_section-title">We Serve Clients Across <br>All Industries</h2>
     <div class="row">

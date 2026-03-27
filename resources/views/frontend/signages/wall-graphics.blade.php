@@ -208,52 +208,62 @@
     </div>
 </section>
 
-<section class="py-5" style="background:#f3f4f6;">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/wm-12.webp') }}" class="img-fluid mb-4 rounded-4" alt="Indoor Wall Graphic">
-                    <h4 class="fw-semibold mb-3">Indoor Wall Graphics</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-ruler-combined fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Custom Sizes Available</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-palette fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Full-Colour CMYK Printing</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-layer-group fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Matte, Gloss & Satin Finishes</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/wm-13.webp') }}" class="img-fluid mb-4 rounded-4" alt="Outdoor Wall Graphic">
-                    <h4 class="fw-semibold mb-3">Outdoor Wall Graphics</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-sun fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">UV-Resistant Outdoor Vinyl</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-cloud-rain fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Weatherproof & Waterproof</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-calendar-check fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">3–7 Year Outdoor Lifespan</p>
-                    </div>
-                </div>
-            </div>
+<section class="bs-sgn-section">
+  <div class="bs-sgn-container">
+    <div class="bs-sgn-grid">
+      <div class="bs-sgn-card bs-sgn-card--retail">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/wm-12.webp') }}" alt="Indoor Wall Graphic"/>
         </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">Interior Transformation</p>
+          <h3 class="bs-sgn-card__title">Indoor Wall Graphics</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-ruler-combined"></i></span>
+              <span class="bs-sgn-feat__text">Custom Sizes Available</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-palette"></i></span>
+              <span class="bs-sgn-feat__text">Full-Colour CMYK Printing</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-layer-group"></i></span>
+              <span class="bs-sgn-feat__text">Matte, Gloss & Satin Finishes</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bs-sgn-card bs-sgn-card--corp">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/wm-13.webp') }}" alt="Outdoor Wall Graphic"/>
+        </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">Exterior Branding</p>
+          <h3 class="bs-sgn-card__title">Outdoor Wall Graphics</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-sun"></i></span>
+              <span class="bs-sgn-feat__text">UV-Resistant Outdoor Vinyl</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-cloud-rain"></i></span>
+              <span class="bs-sgn-feat__text">Weatherproof & Waterproof</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-calendar-check"></i></span>
+              <span class="bs-sgn-feat__text">3–7 Year Outdoor Lifespan</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<section class="position-relative text-white">
+<section class="bs-sgn-cta-section position-relative text-white">
     <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1600" class="w-100" style="height:450px; object-fit:cover;" alt="Wall Graphics CTA">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
     <div class="position-absolute top-50 start-50 translate-middle text-center px-3" style="max-width:900px;">

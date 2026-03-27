@@ -207,52 +207,62 @@
     </div>
 </section>
 
-<section class="py-5" style="background:#f3f4f6;">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/og-12.webp') }}" class="img-fluid mb-4 rounded-4" alt="Building Wrap">
-                    <h4 class="fw-semibold mb-3">Static Outdoor Graphics</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-building fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Building Wraps & Facade Graphics</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-sun fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">UV-Resistant, Weatherproof Vinyl</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-calendar-check fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">5–7 Year Outdoor Lifespan</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/og-13.webp') }}" class="img-fluid mb-4 rounded-4" alt="Vehicle Wrap">
-                    <h4 class="fw-semibold mb-3">Mobile Outdoor Graphics</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-truck fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Vehicle & Fleet Wraps</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-ruler-combined fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Full & Partial Wrap Options</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-palette fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Full-Colour High-Resolution Print</p>
-                    </div>
-                </div>
-            </div>
+<section class="bs-sgn-section">
+  <div class="bs-sgn-container">
+    <div class="bs-sgn-grid">
+      <div class="bs-sgn-card bs-sgn-card--retail">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/og-12.webp') }}" alt="Building Wrap"/>
         </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">Static Displays</p>
+          <h3 class="bs-sgn-card__title">Static Outdoor Graphics</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-building"></i></span>
+              <span class="bs-sgn-feat__text">Building Wraps & Facade Graphics</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-sun"></i></span>
+              <span class="bs-sgn-feat__text">UV-Resistant, Weatherproof Vinyl</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-calendar-check"></i></span>
+              <span class="bs-sgn-feat__text">5–7 Year Outdoor Lifespan</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bs-sgn-card bs-sgn-card--corp">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/og-13.webp') }}" alt="Vehicle Wrap"/>
+        </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">Mobile Branding</p>
+          <h3 class="bs-sgn-card__title">Mobile Outdoor Graphics</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-truck"></i></span>
+              <span class="bs-sgn-feat__text">Vehicle & Fleet Wraps</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-ruler-combined"></i></span>
+              <span class="bs-sgn-feat__text">Full & Partial Wrap Options</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-palette"></i></span>
+              <span class="bs-sgn-feat__text">Full-Colour High-Resolution Print</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<section class="position-relative text-white">
+<section class="bs-sgn-cta-section position-relative text-white">
     <img src="{{ asset('frontend/Images/large-graphics/og-14.webp') }}" class="w-100" style="height:450px; object-fit:cover;" alt="Outdoor Graphics CTA">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
     <div class="position-absolute top-50 start-50 translate-middle text-center px-3" style="max-width:900px;">

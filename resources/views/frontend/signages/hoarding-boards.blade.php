@@ -208,52 +208,62 @@
     </div>
 </section>
 
-<section class="py-5" style="background:#f3f4f6;">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/hb-12.webp') }}" class="img-fluid mb-4 rounded-4" alt="Standard Hoarding Board">
-                    <h4 class="fw-semibold mb-3">Standard Hoarding Boards</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-ruler-combined fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Custom Height & Width Available</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-tools fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">MS Frame with Flex / ACP Cladding</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-cloud-rain fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Weatherproof for Outdoor Use</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/hb-13.webp') }}" class="img-fluid mb-4 rounded-4" alt="Illuminated Hoarding Board">
-                    <h4 class="fw-semibold mb-3">Illuminated Hoarding Boards</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-lightbulb fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Frontlit & Backlit LED Options</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-moon fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">24/7 Day & Night Visibility</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-layer-group fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">ACP Panel or Flex Face Options</p>
-                    </div>
-                </div>
-            </div>
+<section class="bs-sgn-section">
+  <div class="bs-sgn-container">
+    <div class="bs-sgn-grid">
+      <div class="bs-sgn-card bs-sgn-card--retail">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/hb-12.webp') }}" alt="Standard Hoarding Board"/>
         </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">Construction Perimeters</p>
+          <h3 class="bs-sgn-card__title">Standard Hoarding Boards</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-ruler-combined"></i></span>
+              <span class="bs-sgn-feat__text">Custom Height & Width Available</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-tools"></i></span>
+              <span class="bs-sgn-feat__text">MS Frame with Flex / ACP Cladding</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-cloud-rain"></i></span>
+              <span class="bs-sgn-feat__text">Weatherproof for Outdoor Use</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bs-sgn-card bs-sgn-card--corp">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/hb-13.webp') }}" alt="Illuminated Hoarding Board"/>
+        </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">High-Visibility Display</p>
+          <h3 class="bs-sgn-card__title">Illuminated Hoarding Boards</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-lightbulb"></i></span>
+              <span class="bs-sgn-feat__text">Frontlit & Backlit LED Options</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-moon"></i></span>
+              <span class="bs-sgn-feat__text">24/7 Day & Night Visibility</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-layer-group"></i></span>
+              <span class="bs-sgn-feat__text">ACP Panel or Flex Face Options</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<section class="position-relative text-white">
+<section class="bs-sgn-cta-section position-relative text-white">
     <img src="{{ asset('frontend/Images/large-graphics/hb-14.webp') }}" class="w-100" style="height:450px; object-fit:cover;" alt="Hoarding Boards CTA">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
     <div class="position-absolute top-50 start-50 translate-middle text-center px-3" style="max-width:900px;">

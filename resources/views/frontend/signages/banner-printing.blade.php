@@ -208,52 +208,62 @@
     </div>
 </section>
 
-<section class="py-5" style="background:#f3f4f6;">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/bp-12.webp') }}" class="img-fluid mb-4 rounded-4" alt="Indoor Banner Printing">
-                    <h4 class="fw-semibold mb-3">Indoor Banner Printing</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-print fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Fabric, Vinyl & Backlit Options</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-palette fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Photo-Realistic CMYK Printing</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-ruler-combined fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Custom Sizes from A3 to 20ft+</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-center p-5 rounded-4" style="background:#f8f9fb;">
-                    <img src="{{ asset('frontend/Images/large-graphics/bp-13.webp') }}" class="img-fluid mb-4 rounded-4" alt="Outdoor Banner Printing">
-                    <h4 class="fw-semibold mb-3">Outdoor Banner Printing</h4>
-                    <div class="mx-auto mb-4" style="width:60%; height:1px; background:#ddd;"></div>
-                    <div class="mb-4">
-                        <i class="fas fa-sun fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">UV-Resistant, Weatherproof Flex</p>
-                    </div>
-                    <div class="mb-4">
-                        <i class="fas fa-cloud-rain fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Waterproof & Wind-Resistant</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-shipping-fast fs-5 mb-2"></i>
-                        <p class="mb-0 text-muted">Pan-India Delivery in 2–4 Days</p>
-                    </div>
-                </div>
-            </div>
+<section class="bs-sgn-section">
+  <div class="bs-sgn-container">
+    <div class="bs-sgn-grid">
+      <div class="bs-sgn-card bs-sgn-card--retail">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/bp-12.webp') }}" alt="Indoor Banner Printing"/>
         </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">Indoor Banners</p>
+          <h3 class="bs-sgn-card__title">Indoor Banner Printing</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-print"></i></span>
+              <span class="bs-sgn-feat__text">Fabric, Vinyl & Backlit Options</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-palette"></i></span>
+              <span class="bs-sgn-feat__text">Photo-Realistic CMYK Printing</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-ruler-combined"></i></span>
+              <span class="bs-sgn-feat__text">Custom Sizes from A3 to 20ft+</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bs-sgn-card bs-sgn-card--corp">
+        <div class="bs-sgn-card__img-wrap">
+          <img src="{{ asset('frontend/Images/large-graphics/bp-13.webp') }}" alt="Outdoor Banner Printing"/>
+        </div>
+        <div class="bs-sgn-card__strip"></div>
+        <div class="bs-sgn-card__body">
+          <p class="bs-sgn-card__label">Outdoor Banners</p>
+          <h3 class="bs-sgn-card__title">Outdoor Banner Printing</h3>
+          <ul class="bs-sgn-features">
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-sun"></i></span>
+              <span class="bs-sgn-feat__text">UV-Resistant, Weatherproof Flex</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-cloud-rain"></i></span>
+              <span class="bs-sgn-feat__text">Waterproof & Wind-Resistant</span>
+            </li>
+            <li>
+              <span class="bs-sgn-feat__icon"><i class="fas fa-shipping-fast"></i></span>
+              <span class="bs-sgn-feat__text">Pan-India Delivery in 2–4 Days</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<section class="position-relative text-white">
+<section class="bs-sgn-cta-section position-relative text-white">
     <img src="{{ asset('frontend/Images/large-graphics/bp-14.webp') }}" class="w-100" style="height:450px; object-fit:cover;" alt="Banner Printing CTA">
     <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.3));"></div>
     <div class="position-absolute top-50 start-50 translate-middle text-center px-3" style="max-width:900px;">
