@@ -46,7 +46,28 @@
         </div>
     </div>
 </section>
-
+<style>
+    @media (max-width: 768px) {
+        .hero-float-card{
+            display: none;
+        }
+         .safety-hero h1{
+            font-size: 32px;
+        } 
+        .signage-editorial h2{ 
+            font-size: 28px;
+        } 
+        .safety-editorial-x h3{
+            font-size: 28px;
+        }
+        h3{
+            font-size: 28px;
+        }
+        h2{
+            font-size: 28px !important;
+        }
+    }
+</style>
 <section class="signage-editorial">
     <div class="container">
         <div class="signage-layout">
