@@ -9,9 +9,10 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+
 class BlogController extends Controller
 {
-     /**
+    /**
      * Display a listing of the resource.
      */
     public function index()
@@ -39,6 +40,7 @@ class BlogController extends Controller
             'title' => 'required|string|max:255',
             'content' => 'required',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
+            'gallery_images.*' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
             'topic' => 'required|string|max:255',
             'reding_time' => 'required|integer',
         ]);
@@ -48,11 +50,19 @@ class BlogController extends Controller
             $imagePath = $request->file('image')->store('blogs', 'public');
         }
 
+        $galleryImages = [];
+        if ($request->hasFile('gallery_images')) {
+            foreach ($request->file('gallery_images') as $file) {
+                $galleryImages[] = $file->store('blogs/gallery', 'public');
+            }
+        }
+
         Blog::create([
             'blog_sub_category_id' => $request->blog_sub_category_id,
             'title' => $request->title,
             'content' => $request->content,
             'image' => $imagePath,
+            'gallery_images' => $galleryImages,
             'topic' => $request->topic,
             'reding_time' => $request->reding_time,
         ]);
@@ -88,22 +98,30 @@ class BlogController extends Controller
             'title' => 'required|string|max:255',
             'content' => 'required',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
+            'gallery_images.*' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
             'topic' => 'required|string|max:255',
             'reding_time' => 'required|integer',
             'slug' => 'required|string|max:255|unique:blogs,slug,' . $blog->id,
         ]);
-    
+
         if ($request->hasFile('image')) {
             // Delete the old image if it exists
             if ($blog->image && Storage::disk('public')->exists($blog->image)) {
                 Storage::disk('public')->delete($blog->image);
             }
-    
+
             // Store the new image
             $imagePath = $request->file('image')->store('blogs', 'public');
             $blog->image = $imagePath;
         }
-    
+
+        $galleryImages = $blog->gallery_images ?? [];
+        if ($request->hasFile('gallery_images')) {
+            foreach ($request->file('gallery_images') as $file) {
+                $galleryImages[] = $file->store('blogs/gallery', 'public');
+            }
+        }
+
         $blog->update([
             'blog_sub_category_id' => $request->blog_sub_category_id,
             'title' => $request->title,
@@ -111,9 +129,10 @@ class BlogController extends Controller
             'slug' => $request->slug,
             'topic' => $request->topic,
             'reding_time' => $request->reding_time,
-            'image' => $blog->image ?? null,
+            'image' => $blog->image,
+            'gallery_images' => $galleryImages,
         ]);
-    
+
         Session::flash('msg', 'Blog updated successfully!');
         return redirect()->route('blogs.index');
     }
@@ -126,9 +145,30 @@ class BlogController extends Controller
         if ($blog->image) {
             Storage::disk('public')->delete($blog->image);
         }
+        if ($blog->gallery_images) {
+            foreach ($blog->gallery_images as $image) {
+                Storage::disk('public')->delete($image);
+            }
+        }
         $blog->delete();
 
         Session::flash('msg', 'Blog deleted successfully!');
         return redirect()->route('blogs.index');
+    }
+
+    public function deleteGalleryImage($id, $index)
+    {
+        $blog = Blog::findOrFail($id);
+        $galleryImages = $blog->gallery_images;
+
+        if (isset($galleryImages[$index])) {
+            Storage::disk('public')->delete($galleryImages[$index]);
+            unset($galleryImages[$index]);
+            $blog->gallery_images = array_values($galleryImages);
+            $blog->save();
+            return response()->json(['success' => true]);
+        }
+
+        return response()->json(['success' => false, 'message' => 'Image not found.']);
     }
 }

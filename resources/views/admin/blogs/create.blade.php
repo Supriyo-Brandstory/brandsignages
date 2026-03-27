@@ -53,10 +53,24 @@
                             </div>
 
                             <div class="row mb-3">
-                                <label for="image" class="col-sm-2 col-form-label">Upload Image</label>
+                                <label for="image" class="col-sm-2 col-form-label">Upload Featured Image</label>
                                 <div class="col-sm-10">
                                     <input class="form-control" name="image" type="file" id="formFile" required>
                                     @error('image')
+                                        <span class="text-danger" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label for="gallery_images" class="col-sm-2 col-form-label">Upload Gallery Images
+                                    (Optional)</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" name="gallery_images[]" type="file" id="gallery_images"
+                                        multiple>
+                                    @error('gallery_images.*')
                                         <span class="text-danger" role="alert">
                                             <strong>{{ $message }}</strong>
                                         </span>
