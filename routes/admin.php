@@ -28,6 +28,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::get('categories/{id}/edit/{type}', [CategoryController::class, 'edit'])->name('mcategories.edit');
     Route::delete('subcategories/{id}', [CategoryController::class, 'subcategorydestroy'])->name('subcategories.destroy');
     route::resource('blogs', BlogController::class);
+    Route::delete('blogs/{id}/gallery/{index}', [BlogController::class, 'deleteGalleryImage'])->name('blogs.deleteGalleryImage');
     route::resource('contacts', contactController::class);
     route::resource('custom-inquiries', coustomQuery::class);
 
