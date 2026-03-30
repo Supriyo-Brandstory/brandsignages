@@ -136,6 +136,8 @@ Route::get('/wall-decals', [frontendController::class, 'wall_decals'])->name('wa
 Route::get('/wall-stickers', [frontendController::class, 'wall_stickers'])->name('wall_stickers');
 Route::get('/wall-murals', [frontendController::class, 'wall_murals'])->name('wall_murals');
 
+Route::get('/our-clients', [frontendController::class, 'our_clients'])->name('our_clients');
+Route::get('/products', [frontendController::class, 'products'])->name('products');
 Auth::routes();
 Route::get('/services', [frontendController::class, 'services'])->name('services');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

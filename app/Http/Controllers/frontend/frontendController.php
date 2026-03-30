@@ -45,6 +45,20 @@ class frontendController extends Controller
         return view('frontend.service', compact('seo'));
     }
 
+    public function our_clients()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.our-clients', compact('seo'));
+    }
+
+    public function products()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.products', compact('seo'));
+    }
+
     //Signages
     public function arcylic_signages()
     {
