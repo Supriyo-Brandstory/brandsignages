@@ -983,46 +983,64 @@ class frontendController extends Controller
 
     public function queue_manager()
     {
-        return view('frontend.signages.queue-manager');
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.queue-manager', compact('seo'));
     }
 
     public function wall_graphics()
     {
-        return view('frontend.signages.wall-graphics');
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.wall-graphics', compact('seo'));
     }
 
     public function wall_decals()
     {
-        return view('frontend.signages.wall-decals');
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.wall-decals', compact('seo'));
     }
 
     public function wall_stickers()
     {
-        return view('frontend.signages.wall-stickers');
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.wall-stickers', compact('seo'));
     }
 
     public function wall_murals()
     {
-        return view('frontend.signages.wall-murals');
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.wall-murals', compact('seo'));
     }
-    
+
     public function indoor_graphics()
     {
-        return view('frontend.signages.indoor-graphics');
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.indoor-graphics', compact('seo'));
     }
 
     public function outdoor_graphics()
     {
-        return view('frontend.signages.outdoor-graphics');
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.outdoor-graphics', compact('seo'));
     }
 
     public function hoarding_boards()
     {
-        return view('frontend.signages.hoarding-boards');
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.hoarding-boards', compact('seo'));
     }
 
     public function banner_printing()
     {
-        return view('frontend.signages.banner-printing');
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.banner-printing', compact('seo'));
     }
 }
