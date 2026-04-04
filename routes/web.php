@@ -85,6 +85,19 @@ Route::get('/stainless-steel-sign-board-manufacturer-mumbai', [frontendControlle
 Route::get('/neon-sign-board-in-mumbai', [frontendController::class, 'neon_sign_board_in_mumbai'])->name('neon_sign_board_in_mumbai');
 Route::get('/restroom-signs-in-mumbai', [frontendController::class, 'restroom_signs_in_mumbai'])->name('restroom_signs_in_mumbai');
 
+//hyderabad
+Route::get('/leading-signage-company-in-hyderabad', [frontendController::class, 'leading_signage_company_in_hyderabad'])->name('leading_signage_company_in_hyderabad');
+Route::get('/premium-acrylic-sign-boards-in-hyderabad', [frontendController::class, 'premium_acrylic_sign_boards_in_hyderabad'])->name('premium_acrylic_sign_boards_in_hyderabad');
+Route::get('/digital-signages-manufacturer-in-hyderabad', [frontendController::class, 'digital_signages_manufacturer_in_hyderabad'])->name('digital_signages_manufacturer_in_hyderabad');
+Route::get('/led-display-board-in-hyderabad', [frontendController::class, 'led_display_board_in_hyderabad'])->name('led_display_board_in_hyderabad');
+Route::get('/hospital-and-medical-signages-in-hyderabad', [frontendController::class, 'hospital_and_medical_signages_in_hyderabad'])->name('hospital_and_medical_signages_in_hyderabad');
+Route::get('/construction-fire-safety-signages-in-hyderabad', [frontendController::class, 'construction_fire_safety_signages_in_hyderabad'])->name('construction_fire_safety_signages_in_hyderabad');
+Route::get('/name-plate-signs-manufacturer-hyderabad', [frontendController::class, 'name_plate_signs_manufacturer_hyderabad'])->name('name_plate_signs_manufacturer_hyderabad');
+Route::get('/office-signages-in-hyderabad', [frontendController::class, 'office_signages_in_hyderabad'])->name('office_signages_in_hyderabad');
+Route::get('/stainless-steel-sign-board-manufacturer-hyderabad', [frontendController::class, 'stainless_steel_sign_board_manufacturer_hyderabad'])->name('stainless_steel_sign_board_manufacturer_hyderabad');
+Route::get('/neon-sign-board-in-hyderabad', [frontendController::class, 'neon_sign_board_in_hyderabad'])->name('neon_sign_board_in_hyderabad');
+Route::get('/restroom-signs-in-hyderabad', [frontendController::class, 'restroom_signs_in_hyderabad'])->name('restroom_signs_in_hyderabad');
+
 Route::get('/case-studies', [frontendController::class, 'case_study'])->name('case_study');
 Route::get('/case-studies/titan-showroom-sign-board', [frontendController::class, 'titan_case_study'])->name('titan_case_study');
 Route::get('/case-studies/fortis-hospital-sign-board', [frontendController::class, 'fortis_hospital_case_study'])->name('fortis_hospital_case_study');

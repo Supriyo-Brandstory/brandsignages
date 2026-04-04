@@ -534,6 +534,76 @@ class frontendController extends Controller
         return view('frontend.signagesResion.restroom-signs-in-mumbai', compact('seo'));
     }
 
+//hyderabad
+
+    public function leading_signage_company_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 7)->take(3)->get();
+        return view('frontend.signagesResion.leading-signage-company-in-hyderabad', compact('seo', 'blogs'));
+    }
+    public function premium_acrylic_sign_boards_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.premium-acrylic-sign-boards-in-hyderabad', compact('seo'));
+    }
+    public function digital_signages_manufacturer_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.digital-signages-manufacturer-in-hyderabad', compact('seo'));
+    }
+    public function led_display_board_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.led-display-board-in-hyderabad', compact('seo'));
+    }
+    public function hospital_and_medical_signages_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.hospital-and-medical-signages-in-hyderabad', compact('seo'));
+    }
+    public function construction_fire_safety_signages_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.construction-fire-safety-signages-in-hyderabad', compact('seo'));
+    }
+    public function name_plate_signs_manufacturer_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.name-plate-signs-manufacturer-hyderabad', compact('seo'));
+    }
+    public function office_signages_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.office-signages-in-hyderabad', compact('seo'));
+    }
+    public function stainless_steel_sign_board_manufacturer_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.stainless-steel-sign-board-manufacturer-hyderabad', compact('seo'));
+    }
+    public function neon_sign_board_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.neon-sign-board-in-hyderabad', compact('seo'));
+    }
+    public function restroom_signs_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.restroom-signs-in-hyderabad', compact('seo'));
+    }
+
     public function contact_us()
     {
         $currentRoute = Route::current()->uri();
