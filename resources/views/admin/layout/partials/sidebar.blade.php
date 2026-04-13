@@ -59,6 +59,12 @@
                 <span>Custom Inquiries</span>
             </a>
         </li>
+        <li class="nav-item {{ Route::is('custom-pages*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('custom-pages.index') }}">
+                <i class="bi bi-file-earmark-text"></i>
+                <span>Custom Pages</span>
+            </a>
+        </li>
 
 
 

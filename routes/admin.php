@@ -10,6 +10,7 @@ use App\Http\Controllers\admin\Blog\CategoryController;
 use App\Http\Controllers\admin\DatabaseController;
 use App\Http\Controllers\admin\query\contactController;
 use App\Http\Controllers\admin\MenuController;
+use App\Http\Controllers\admin\CustomPageController;
 use App\Models\Contact;
 use Illuminate\Support\Facades\Route;
 
@@ -31,6 +32,13 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::delete('blogs/{id}/gallery/{index}', [BlogController::class, 'deleteGalleryImage'])->name('blogs.deleteGalleryImage');
     route::resource('contacts', contactController::class);
     route::resource('custom-inquiries', coustomQuery::class);
+
+    Route::resource('custom-pages', CustomPageController::class);
+    Route::get('/manage-css', [CustomPageController::class, 'manageCss'])->name('custom-pages.manage-css');
+    Route::post('/manage-css', [CustomPageController::class, 'createCss'])->name('custom-pages.create-css');
+    Route::get('/manage-css/{filename}/edit', [CustomPageController::class, 'editCss'])->name('custom-pages.edit-css');
+    Route::post('/manage-css/{filename}/edit', [CustomPageController::class, 'updateCss'])->name('custom-pages.update-css');
+    Route::delete('/manage-css/{filename}', [CustomPageController::class, 'destroyCss'])->name('custom-pages.destroy-css');
 
     // Route to show the export page
     Route::get('/export-database', [DatabaseController::class, 'showExportPage'])->name('show.export.page');

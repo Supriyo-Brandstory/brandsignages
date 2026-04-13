@@ -19,6 +19,14 @@ use Illuminate\Support\Facades\Validator;
 class frontendController extends Controller
 
 {
+    public function customPage($slug)
+    {
+        $page = \App\Models\CustomPage::where('slug', $slug)->firstOrFail();
+        $currentRoute = $slug;
+        $seo = SEO::where('page_url', 'like', '%' . $slug . '%')->first(); 
+        return view('frontend.custom_page', compact('page', 'seo'));
+    }
+
 
     public function sitemap()
     {

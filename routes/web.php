@@ -154,4 +154,7 @@ Route::get('/products', [frontendController::class, 'products'])->name('products
 Auth::routes();
 Route::get('/services', [frontendController::class, 'services'])->name('services');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 require __DIR__ . '/admin.php';
+
+Route::get('/{slug}', [frontendController::class, 'customPage'])->name('custom_page.show')->where('slug', '.*');
