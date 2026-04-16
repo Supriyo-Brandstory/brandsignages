@@ -10,6 +10,7 @@ use App\Http\Controllers\admin\Blog\CategoryController;
 use App\Http\Controllers\admin\DatabaseController;
 use App\Http\Controllers\admin\query\contactController;
 use App\Http\Controllers\admin\MenuController;
+use App\Http\Controllers\admin\MediaController;
 use App\Http\Controllers\admin\CustomPageController;
 use App\Models\Contact;
 use Illuminate\Support\Facades\Route;
@@ -19,6 +20,12 @@ Route::post('admin/login', [AuthController::class, 'login'])->name('admin.login'
 
 Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('admin.dashboard');
+
+    // Media Manager
+    Route::get('/media', [MediaController::class, 'index'])->name('admin.media.index');
+    Route::post('/media/upload', [MediaController::class, 'upload'])->name('admin.media.upload');
+    Route::post('/media/folder', [MediaController::class, 'createFolder'])->name('admin.media.folder');
+    Route::delete('/media/delete', [MediaController::class, 'delete'])->name('admin.media.delete');
 
     Route::resource('/seo', SEOController::class);
     Route::resource('/sitemap', SitemapController::class);
@@ -34,6 +41,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     route::resource('custom-inquiries', coustomQuery::class);
 
     Route::resource('custom-pages', CustomPageController::class);
+    Route::post('/custom-pages/visual-editor', [CustomPageController::class, 'visualEditorPreview'])->name('custom-pages.visual-editor');
     Route::get('/manage-css', [CustomPageController::class, 'manageCss'])->name('custom-pages.manage-css');
     Route::post('/manage-css', [CustomPageController::class, 'createCss'])->name('custom-pages.create-css');
     Route::get('/manage-css/{filename}/edit', [CustomPageController::class, 'editCss'])->name('custom-pages.edit-css');

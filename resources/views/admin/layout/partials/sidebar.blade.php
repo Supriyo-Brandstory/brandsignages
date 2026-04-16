@@ -65,6 +65,12 @@
                 <span>Custom Pages</span>
             </a>
         </li>
+        <li class="nav-item {{ Route::is('admin.media.index*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('admin.media.index') }}">
+                <i class="bi bi-images"></i>
+                <span>Media Manager</span>
+            </a>
+        </li>
 
 
 

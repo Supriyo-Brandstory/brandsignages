@@ -22,7 +22,8 @@
                                     </div>
                                     <div class="mb-3">
                                         <label for="content" class="form-label">CSS Content</label>
-                                        <textarea name="content" id="content" class="form-control" rows="5" placeholder="body { ... }"></textarea>
+                                        <div id="css-editor" style="height: 300px; width: 100%; border: 1px solid #ced4da; border-radius: 0.375rem; font-size: 14px;"></div>
+                                        <textarea name="content" id="content" class="form-control" style="display:none;" placeholder="body { ... }"></textarea>
                                     </div>
                                     <button type="submit" class="btn btn-success btn-sm">Create CSS</button>
                                 </form>
@@ -59,4 +60,28 @@
             </div>
         </div>
     </section>
+@section('script')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.32.2/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.32.2/ext-language_tools.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        ace.require("ace/ext/language_tools");
+        const editor = ace.edit("css-editor");
+        editor.setTheme("ace/theme/monokai");
+        editor.session.setMode("ace/mode/css");
+        
+        editor.setOptions({
+            enableBasicAutocompletion: true,
+            enableSnippets: true,
+            enableLiveAutocompletion: true,
+            showPrintMargin: false,
+            fontSize: "14px"
+        });
+
+        const contentTextarea = document.getElementById('content');
+        editor.getSession().on('change', function() {
+            contentTextarea.value = editor.getValue();
+        });
+    });
+</script>
 @endsection

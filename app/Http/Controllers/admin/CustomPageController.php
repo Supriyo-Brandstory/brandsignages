@@ -50,6 +50,16 @@ class CustomPageController extends Controller
     }
 
     /**
+     * Display visual editor with frontend layout wrapper.
+     */
+    public function visualEditorPreview(Request $request)
+    {
+        $content = $request->input('content');
+        $custom_css = $request->input('custom_css');
+        return view('admin.custom_pages.visual_editor', compact('content', 'custom_css'));
+    }
+
+    /**
      * Show the form for editing the specified resource.
      */
     public function edit(string $id)
