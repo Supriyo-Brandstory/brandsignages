@@ -59,35 +59,45 @@ class BackupController extends Controller
                 foreach ($tables as $table) {
                     $tableName = $table->$tableKey;
                     
-                    // Drop table statement (use TRUNCATE for sessions to avoid mid-request crashes)
+                    gzwrite($gz, "-- Table: $tableName\n");
+                    
                     if ($tableName === 'sessions') {
-                        gzwrite($gz, "-- Skipping DROP for sessions\n");
                         gzwrite($gz, "TRUNCATE TABLE `$tableName`;\n");
                     } else {
                         gzwrite($gz, "DROP TABLE IF EXISTS `$tableName`;\n");
+                        
+                        // Create table statement
+                        $createTableResult = DB::select("SHOW CREATE TABLE `$tableName`")[0];
+                        $createProperty = 'Create Table';
+                        gzwrite($gz, $createTableResult->$createProperty . ";\n\n");
                     }
                     
-                    // Create table statement
-                    $createTableResult = DB::select("SHOW CREATE TABLE `$tableName`")[0];
-                    $createProperty = 'Create Table';
-                    gzwrite($gz, $createTableResult->$createProperty . ";\n\n");
-                    
-                    // Insert data in chunks to save memory
+                    // Insert data in chunks (batching for performance)
                     DB::table($tableName)->orderBy(DB::raw('1'))->chunk(100, function($rows) use ($gz, $tableName) {
-                        foreach ($rows as $row) {
-                            $row = (array)$row;
-                            $columns = array_keys($row);
-                            $values = array_values($row);
+                        if ($rows->count() > 0) {
+                            $valuesList = [];
+                            $columns = null;
                             
-                            $escapedValues = array_map(function($value) {
-                                if ($value === null) return 'NULL';
-                                return DB::getPdo()->quote($value);
-                            }, $values);
+                            foreach ($rows as $row) {
+                                $row = (array)$row;
+                                if (!$columns) {
+                                    $columns = array_keys($row);
+                                }
+                                
+                                $escapedValues = array_map(function($value) {
+                                    if ($value === null) return 'NULL';
+                                    return DB::getPdo()->quote($value);
+                                }, array_values($row));
+                                
+                                $valuesList[] = "(" . implode(", ", $escapedValues) . ")";
+                            }
                             
-                            gzwrite($gz, "INSERT INTO `$tableName` (`" . implode("`, `", $columns) . "`) VALUES (" . implode(", ", $escapedValues) . ");\n");
+                            $sql = "INSERT INTO `$tableName` (`" . implode("`, `", $columns) . "`) VALUES " . implode(", ", $valuesList) . ";\n";
+                            gzwrite($gz, $sql);
                         }
                     });
-                    gzwrite($gz, "\n");
+                    
+                    gzwrite($gz, "-- End of Table: $tableName\n\n");
                 }
                 
                 gzwrite($gz, "SET FOREIGN_KEY_CHECKS=1;");
