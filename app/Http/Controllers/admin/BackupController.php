@@ -40,13 +40,13 @@ class BackupController extends Controller
             $zip = new ZipArchive();
 
             if ($zip->open($zipPath, ZipArchive::CREATE) === TRUE) {
-                // 1. Export Database using PHP (File-based approach to save memory)
-                $tempSqlGz = tempnam(sys_get_temp_dir(), 'backup_sql') . '.gz';
-                $gz = gzopen($tempSqlGz, 'w9');
+                // 1. Export Database using PHP (Plain SQL as requested)
+                $tempSql = tempnam(sys_get_temp_dir(), 'backup_sql') . '.sql';
+                $handle = fopen($tempSql, 'w');
 
-                gzwrite($gz, "-- Database Backup\n");
-                gzwrite($gz, "-- Date: " . now()->toDateTimeString() . "\n\n");
-                gzwrite($gz, "SET FOREIGN_KEY_CHECKS=0;\n\n");
+                fwrite($handle, "-- Database Backup\n");
+                fwrite($handle, "-- Date: " . now()->toDateTimeString() . "\n\n");
+                fwrite($handle, "SET FOREIGN_KEY_CHECKS=0;\n\n");
                 
                 $tables = DB::select('SHOW TABLES');
                 if (empty($tables)) {
@@ -59,21 +59,21 @@ class BackupController extends Controller
                 foreach ($tables as $table) {
                     $tableName = $table->$tableKey;
                     
-                    gzwrite($gz, "-- Table: $tableName\n");
+                    fwrite($handle, "-- Table: $tableName\n");
                     
                     if ($tableName === 'sessions') {
-                        gzwrite($gz, "TRUNCATE TABLE `$tableName`;\n");
+                        fwrite($handle, "TRUNCATE TABLE `$tableName`;\n");
                     } else {
-                        gzwrite($gz, "DROP TABLE IF EXISTS `$tableName`;\n");
+                        fwrite($handle, "DROP TABLE IF EXISTS `$tableName`;\n");
                         
                         // Create table statement
                         $createTableResult = DB::select("SHOW CREATE TABLE `$tableName`")[0];
                         $createProperty = 'Create Table';
-                        gzwrite($gz, $createTableResult->$createProperty . ";\n\n");
+                        fwrite($handle, $createTableResult->$createProperty . ";\n\n");
                     }
                     
-                    // Insert data in chunks (batching for performance)
-                    DB::table($tableName)->orderBy(DB::raw('1'))->chunk(100, function($rows) use ($gz, $tableName) {
+                    // Insert data in chunks
+                    DB::table($tableName)->orderBy(DB::raw('1'))->chunk(100, function($rows) use ($handle, $tableName) {
                         if ($rows->count() > 0) {
                             $valuesList = [];
                             $columns = null;
@@ -93,17 +93,17 @@ class BackupController extends Controller
                             }
                             
                             $sql = "INSERT INTO `$tableName` (`" . implode("`, `", $columns) . "`) VALUES " . implode(", ", $valuesList) . ";\n";
-                            gzwrite($gz, $sql);
+                            fwrite($handle, $sql);
                         }
                     });
                     
-                    gzwrite($gz, "-- End of Table: $tableName\n\n");
+                    fwrite($handle, "-- End of Table: $tableName\n\n");
                 }
                 
-                gzwrite($gz, "SET FOREIGN_KEY_CHECKS=1;");
-                gzclose($gz);
+                fwrite($handle, "SET FOREIGN_KEY_CHECKS=1;");
+                fclose($handle);
 
-                $zip->addFile($tempSqlGz, 'database.sql.gz');
+                $zip->addFile($tempSql, 'database.sql');
 
                 // 2. Export Storage
                 $storagePath = storage_path('app/public');
@@ -124,9 +124,8 @@ class BackupController extends Controller
 
                 $zip->close();
                 
-                // Clean up temp file
-                if (File::exists($tempSqlGz)) {
-                    File::delete($tempSqlGz);
+                if (File::exists($tempSql)) {
+                    File::delete($tempSql);
                 }
 
                 Backup::create([
@@ -135,7 +134,7 @@ class BackupController extends Controller
                     'status' => 'success'
                 ]);
 
-                return redirect()->back()->with('success', 'Backup created successfully.');
+                return redirect()->back()->with('success', 'Backup created successfully (Plain SQL inside).');
             } else {
                 return redirect()->back()->with('error', 'Could not create zip file.');
             }
@@ -227,7 +226,7 @@ class BackupController extends Controller
                 $zip->extractTo($extractPath);
                 $zip->close();
 
-                // 1. Restore Database (Replace using streaming to save memory)
+                // 1. Restore Database
                 $sqlFile = $extractPath . '/database.sql';
                 $sqlFileGz = $extractPath . '/database.sql.gz';
                 
@@ -236,8 +235,7 @@ class BackupController extends Controller
                     
                     // Get all current tables and drop them
                     $currentTables = DB::select('SHOW TABLES');
-                    $dbName = config('database.connections.mysql.database');
-                    $tableKey = 'Tables_in_' . $dbName;
+                    $tableKey = !empty($currentTables) ? array_keys((array)$currentTables[0])[0] : null;
                     
                     foreach ($currentTables as $table) {
                         $tableName = $table->$tableKey;
@@ -248,7 +246,7 @@ class BackupController extends Controller
                         }
                     }
                     
-                    // Import SQL using streaming
+                    // Import SQL
                     $handle = File::exists($sqlFileGz) ? gzopen($sqlFileGz, 'rb') : fopen($sqlFile, 'r');
                     $query = '';
                     
@@ -269,14 +267,11 @@ class BackupController extends Controller
                     
                     File::exists($sqlFileGz) ? gzclose($handle) : fclose($handle);
 
-                    // Run migrations to ensure all defined tables exist
+                    // Recreate core tables as fallback
                     try {
                         \Illuminate\Support\Facades\Artisan::call('migrate', ['--force' => true]);
-                    } catch (\Exception $e) {
-                        // Skip errors if tables exist but are not in migration registry
-                    }
+                    } catch (\Exception $e) {}
 
-                    // Recreate sessions table if still missed or migration failed
                     if (!Schema::hasTable('sessions') && config('session.driver') == 'database') {
                         Schema::create('sessions', function ($table) {
                             $table->string('id')->primary();
@@ -290,25 +285,22 @@ class BackupController extends Controller
 
                     DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
-                    // Clear cache and config to avoid issues with changed APP_KEY or session data
                     \Illuminate\Support\Facades\Artisan::call('cache:clear');
                     \Illuminate\Support\Facades\Artisan::call('config:clear');
                     \Illuminate\Support\Facades\Artisan::call('view:clear');
                 }
 
-                // 2. Restore Storage (Replace)
+                // 2. Restore Storage
                 $storageDir = $extractPath . '/storage';
                 if (File::exists($storageDir)) {
                     $targetStorage = storage_path('app/public');
-                    // Delete existing storage contents to ensure a clean replace
                     File::cleanDirectory($targetStorage);
-                    // Copy new contents
                     File::copyDirectory($storageDir, $targetStorage);
                 }
 
                 File::deleteDirectory($extractPath);
 
-                return redirect()->back()->with('success', 'Backup imported and data replaced successfully.');
+                return redirect()->back()->with('success', 'Backup imported successfully (Replaced everything).');
             } else {
                 return redirect()->back()->with('error', 'Could not open zip file.');
             }
