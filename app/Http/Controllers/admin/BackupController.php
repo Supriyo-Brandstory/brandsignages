@@ -49,8 +49,12 @@ class BackupController extends Controller
                 gzwrite($gz, "SET FOREIGN_KEY_CHECKS=0;\n\n");
                 
                 $tables = DB::select('SHOW TABLES');
-                $dbName = config('database.connections.mysql.database');
-                $tableKey = 'Tables_in_' . $dbName;
+                if (empty($tables)) {
+                    throw new \Exception("Database is empty or could not be accessed.");
+                }
+                
+                $firstTable = (array)$tables[0];
+                $tableKey = array_keys($firstTable)[0];
 
                 foreach ($tables as $table) {
                     $tableName = $table->$tableKey;
@@ -255,7 +259,14 @@ class BackupController extends Controller
                     
                     File::exists($sqlFileGz) ? gzclose($handle) : fclose($handle);
 
-                    // Recreate sessions table if it was missed in the backup (common issue)
+                    // Run migrations to ensure all defined tables exist
+                    try {
+                        \Illuminate\Support\Facades\Artisan::call('migrate', ['--force' => true]);
+                    } catch (\Exception $e) {
+                        // Skip errors if tables exist but are not in migration registry
+                    }
+
+                    // Recreate sessions table if still missed or migration failed
                     if (!Schema::hasTable('sessions') && config('session.driver') == 'database') {
                         Schema::create('sessions', function ($table) {
                             $table->string('id')->primary();
