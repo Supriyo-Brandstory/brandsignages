@@ -25,7 +25,8 @@ class BackupController extends Controller
 
     public function create()
     {
-        ini_set('max_execution_time', 300);
+        ini_set('max_execution_time', 600);
+        ini_set('memory_limit', '512M');
         try {
             $timestamp = now()->format('Y-m-d_H-i-s');
             $filename = "backup_{$timestamp}.zip";
@@ -39,10 +40,13 @@ class BackupController extends Controller
             $zip = new ZipArchive();
 
             if ($zip->open($zipPath, ZipArchive::CREATE) === TRUE) {
-                // 1. Export Database using PHP (Portable approach)
-                $sqlContent = "-- Database Backup\n";
-                $sqlContent .= "-- Date: " . now()->toDateTimeString() . "\n\n";
-                $sqlContent .= "SET FOREIGN_KEY_CHECKS=0;\n\n";
+                // 1. Export Database using PHP (File-based approach to save memory)
+                $tempSqlGz = tempnam(sys_get_temp_dir(), 'backup_sql') . '.gz';
+                $gz = gzopen($tempSqlGz, 'w9');
+
+                gzwrite($gz, "-- Database Backup\n");
+                gzwrite($gz, "-- Date: " . now()->toDateTimeString() . "\n\n");
+                gzwrite($gz, "SET FOREIGN_KEY_CHECKS=0;\n\n");
                 
                 $tables = DB::select('SHOW TABLES');
                 $dbName = config('database.connections.mysql.database');
@@ -51,33 +55,41 @@ class BackupController extends Controller
                 foreach ($tables as $table) {
                     $tableName = $table->$tableKey;
                     
-                    // Drop table statement
-                    $sqlContent .= "DROP TABLE IF EXISTS `$tableName`;\n";
+                    // Drop table statement (use TRUNCATE for sessions to avoid mid-request crashes)
+                    if ($tableName === 'sessions') {
+                        gzwrite($gz, "-- Skipping DROP for sessions\n");
+                        gzwrite($gz, "TRUNCATE TABLE `$tableName`;\n");
+                    } else {
+                        gzwrite($gz, "DROP TABLE IF EXISTS `$tableName`;\n");
+                    }
                     
                     // Create table statement
                     $createTableResult = DB::select("SHOW CREATE TABLE `$tableName`")[0];
                     $createProperty = 'Create Table';
-                    $sqlContent .= $createTableResult->$createProperty . ";\n\n";
+                    gzwrite($gz, $createTableResult->$createProperty . ";\n\n");
                     
-                    // Insert data
-                    $rows = DB::table($tableName)->get();
-                    foreach ($rows as $row) {
-                        $row = (array)$row;
-                        $columns = array_keys($row);
-                        $values = array_values($row);
-                        
-                        $escapedValues = array_map(function($value) {
-                            if ($value === null) return 'NULL';
-                            return DB::getPdo()->quote($value);
-                        }, $values);
-                        
-                        $sqlContent .= "INSERT INTO `$tableName` (`" . implode("`, `", $columns) . "`) VALUES (" . implode(", ", $escapedValues) . ");\n";
-                    }
-                    $sqlContent .= "\n";
+                    // Insert data in chunks to save memory
+                    DB::table($tableName)->orderBy(DB::raw('1'))->chunk(100, function($rows) use ($gz, $tableName) {
+                        foreach ($rows as $row) {
+                            $row = (array)$row;
+                            $columns = array_keys($row);
+                            $values = array_values($row);
+                            
+                            $escapedValues = array_map(function($value) {
+                                if ($value === null) return 'NULL';
+                                return DB::getPdo()->quote($value);
+                            }, $values);
+                            
+                            gzwrite($gz, "INSERT INTO `$tableName` (`" . implode("`, `", $columns) . "`) VALUES (" . implode(", ", $escapedValues) . ");\n");
+                        }
+                    });
+                    gzwrite($gz, "\n");
                 }
                 
-                $sqlContent .= "SET FOREIGN_KEY_CHECKS=1;";
-                $zip->addFromString('database.sql', $sqlContent);
+                gzwrite($gz, "SET FOREIGN_KEY_CHECKS=1;");
+                gzclose($gz);
+
+                $zip->addFile($tempSqlGz, 'database.sql.gz');
 
                 // 2. Export Storage
                 $storagePath = storage_path('app/public');
@@ -97,6 +109,11 @@ class BackupController extends Controller
                 }
 
                 $zip->close();
+                
+                // Clean up temp file
+                if (File::exists($tempSqlGz)) {
+                    File::delete($tempSqlGz);
+                }
 
                 Backup::create([
                     'filename' => $filename,
@@ -177,6 +194,7 @@ class BackupController extends Controller
     public function import(Request $request)
     {
         ini_set('max_execution_time', 600);
+        ini_set('memory_limit', '512M');
         $request->validate([
             'backup_file' => 'required|file|mimes:zip'
         ]);
@@ -195,9 +213,11 @@ class BackupController extends Controller
                 $zip->extractTo($extractPath);
                 $zip->close();
 
-                // 1. Restore Database (Replace)
+                // 1. Restore Database (Replace using streaming to save memory)
                 $sqlFile = $extractPath . '/database.sql';
-                if (File::exists($sqlFile)) {
+                $sqlFileGz = $extractPath . '/database.sql.gz';
+                
+                if (File::exists($sqlFileGz) || File::exists($sqlFile)) {
                     DB::statement('SET FOREIGN_KEY_CHECKS=0;');
                     
                     // Get all current tables and drop them
@@ -206,14 +226,53 @@ class BackupController extends Controller
                     $tableKey = 'Tables_in_' . $dbName;
                     
                     foreach ($currentTables as $table) {
-                        Schema::dropIfExists($table->$tableKey);
+                        $tableName = $table->$tableKey;
+                        if ($tableName !== 'sessions') {
+                            Schema::dropIfExists($tableName);
+                        } else {
+                            DB::table($tableName)->truncate();
+                        }
                     }
                     
-                    // Import SQL
-                    $sql = File::get($sqlFile);
-                    DB::unprepared($sql);
+                    // Import SQL using streaming
+                    $handle = File::exists($sqlFileGz) ? gzopen($sqlFileGz, 'rb') : fopen($sqlFile, 'r');
+                    $query = '';
                     
+                    while ($handle && (File::exists($sqlFileGz) ? !gzeof($handle) : !feof($handle))) {
+                        $line = File::exists($sqlFileGz) ? gzgets($handle, 4096) : fgets($handle, 4096);
+                        
+                        if (trim($line) == '' || strpos(trim($line), '--') === 0 || strpos(trim($line), '/*') === 0) {
+                            continue;
+                        }
+                        
+                        $query .= $line;
+                        
+                        if (substr(trim($line), -1) == ';') {
+                            DB::unprepared($query);
+                            $query = '';
+                        }
+                    }
+                    
+                    File::exists($sqlFileGz) ? gzclose($handle) : fclose($handle);
+
+                    // Recreate sessions table if it was missed in the backup (common issue)
+                    if (!Schema::hasTable('sessions') && config('session.driver') == 'database') {
+                        Schema::create('sessions', function ($table) {
+                            $table->string('id')->primary();
+                            $table->foreignId('user_id')->nullable()->index();
+                            $table->string('ip_address', 45)->nullable();
+                            $table->text('user_agent')->nullable();
+                            $table->longText('payload');
+                            $table->integer('last_activity')->index();
+                        });
+                    }
+
                     DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+
+                    // Clear cache and config to avoid issues with changed APP_KEY or session data
+                    \Illuminate\Support\Facades\Artisan::call('cache:clear');
+                    \Illuminate\Support\Facades\Artisan::call('config:clear');
+                    \Illuminate\Support\Facades\Artisan::call('view:clear');
                 }
 
                 // 2. Restore Storage (Replace)
