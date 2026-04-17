@@ -2,7 +2,7 @@
 @section('content')
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">Office Name Board- 200+ Custom Design</h1>
+            <h1 class="hero-banner_title">Office Name Board</h1>
 
         </div>
 
@@ -78,14 +78,13 @@
 
             <div class="divider"></div>
             <p class="fs-16">Office name boards play a key role in redefining your workplace
-                identity. Your office name board should feel aligned with your branding,
-                is clear to read, and customised to suit your workspace. When the
-                design, materials, and lighting elements blend seamlessly, an office
-                name board stands out effortlessly- creating a strong professional impression for
-                clients & visitors.</p>
+                 identity. Your office needs a name board that aligns with your branding, is clear 
+                 to read, and customised to suit your workspace. When the design, materials, and lighting
+                  elements blend seamlessly, an office name board stands out effortlessly- creating a strong 
+                  professional impression for clients & visitors.</p>
             <ul class="features">
                 <li>Complete office name boards solutions (Corporates and IT Parks)</li>
-                <li>Name board designs for reception, cabin doors, rooms, and entrance</li>
+                <li>Name board designs for reception, doors, rooms, and entrance</li>
                 <li>Crafted with quality materials- acrylic, metal, LEDs, Neon, & ACP</li>
                 <li>3D Acrylic LED letters highlight your office name, logo, & branding</li>
                 <li>PAN India service including custom design & installation</li>
@@ -153,9 +152,7 @@
                 <div class="col-lg-6">
                     <h2 class="hero-title text-start">Why Your Office Deserves a Professional Name Board</h2>
                     <p class="brand-description">
-                        IIn today’s competitive business environment, your office name board is more than just a display-
-                        it’s
-                        the first impression clients, partners, and visitors think about your company. A well-designed
+                        In today’s competitive business environment, your office name board design is more than just a display- it’s the first impression clients, partners, and visitors have of your company. A well-designed
                         office
                         name board design doesn’t simply present your company name and logo, it reflects your
                         professionalism,
@@ -1130,10 +1127,9 @@
                 <div class="col-lg-6">
 
                     <p class="fs-20">
-                        Designing an office name board requires correct sizing, proportion, material selection, and precise
-                        installation. Brand Signages ensure accuracy in measurements, clean finishing, and proper alignment.
-                        Our process is streamlined, deadline-driven, and detail-oriented, making us a reliable choice for
-                        office name board projects of any scale.
+                        Designing an office name board requires accurate sizing, proper proportions, the right material
+                         selection, and precise installation. Brand Signages ensures accuracy in measurements, clean finishing,
+                          and proper alignment. Our process is streamlined, deadline-driven, and detail-oriented.
                     <div class="faq-item active">
                         <button class="faq-question active">
                             Clean & Professional Designs
