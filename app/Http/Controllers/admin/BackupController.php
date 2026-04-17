@@ -131,6 +131,7 @@ class BackupController extends Controller
 
     public function download($id)
     {
+        ini_set('memory_limit', '512M');
         $backup = Backup::findOrFail($id);
         $path = storage_path('app/' . $backup->path);
         if (File::exists($path)) return response()->download($path);
@@ -154,6 +155,7 @@ class BackupController extends Controller
 
     public function sendEmail($id)
     {
+        ini_set('memory_limit', '512M');
         $backup = Backup::findOrFail($id);
         $path = storage_path('app/' . $backup->path);
         $emailSetting = Setting::where('key', 'backup_emails')->first();
