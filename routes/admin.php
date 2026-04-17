@@ -12,6 +12,7 @@ use App\Http\Controllers\admin\query\contactController;
 use App\Http\Controllers\admin\MenuController;
 use App\Http\Controllers\admin\MediaController;
 use App\Http\Controllers\admin\CustomPageController;
+use App\Http\Controllers\admin\BackupController;
 use App\Models\Contact;
 use Illuminate\Support\Facades\Route;
 
@@ -56,6 +57,15 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::get('/export-database/csv', [DatabaseController::class, 'exportCsvAll'])->name('export.csv');
     Route::get('/export-database/csv-all', [DatabaseController::class, 'exportAllInOneCSV'])->name('export.csv.all');
     Route::get('/export-database/mysql-all', [DatabaseController::class, 'exportAllInOneMySQL'])->name('export.mysql.all');
+
+    // Backup Routes
+    Route::get('/backups', [BackupController::class, 'index'])->name('admin.backups.index');
+    Route::get('/backups/create', [BackupController::class, 'create'])->name('admin.backups.create');
+    Route::get('/backups/{id}/download', [BackupController::class, 'download'])->name('admin.backups.download');
+    Route::get('/backups/{id}/email', [BackupController::class, 'sendEmail'])->name('admin.backups.email');
+    Route::delete('/backups/{id}', [BackupController::class, 'destroy'])->name('admin.backups.destroy');
+    Route::post('/backups/settings', [BackupController::class, 'updateSettings'])->name('admin.backups.settings');
+    Route::post('/backups/import', [BackupController::class, 'import'])->name('admin.backups.import');
 
 
     Route::get('log-out', [AuthController::class, 'adminLogout'])->name('admin.logout');

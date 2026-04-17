@@ -41,12 +41,12 @@
                 <span>Sitemap</span>
             </a>
         </li>
-        {{-- <li class="nav-item {{ Route::is('show.export.page') ? 'active' : ''}}">
-            <a class="nav-link " href="{{route('show.export.page')}}">
-                <i class="bi bi-grid"></i>
-                <span>Export Database</span>
+        <li class="nav-item {{ Route::is('admin.backups.index*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('admin.backups.index') }}">
+                <i class="bi bi-cloud-arrow-up"></i>
+                <span>Backups</span>
             </a>
-        </li> --}}
+        </li>
         <li class="nav-item {{ Route::is('contacts*') ? 'active' : '' }}">
             <a class="nav-link " href="{{ route('contacts.index') }}">
                 <i class="bi bi-grid"></i>
