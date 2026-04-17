@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Schema;
 use ZipArchive;
 
 class BackupController extends Controller
@@ -25,6 +25,7 @@ class BackupController extends Controller
 
     public function create()
     {
+        ini_set('max_execution_time', 300);
         try {
             $timestamp = now()->format('Y-m-d_H-i-s');
             $filename = "backup_{$timestamp}.zip";
@@ -38,27 +39,45 @@ class BackupController extends Controller
             $zip = new ZipArchive();
 
             if ($zip->open($zipPath, ZipArchive::CREATE) === TRUE) {
-                // 1. Export Database
+                // 1. Export Database using PHP (Portable approach)
+                $sqlContent = "-- Database Backup\n";
+                $sqlContent .= "-- Date: " . now()->toDateTimeString() . "\n\n";
+                $sqlContent .= "SET FOREIGN_KEY_CHECKS=0;\n\n";
+                
+                $tables = DB::select('SHOW TABLES');
                 $dbName = config('database.connections.mysql.database');
-                $dbUser = config('database.connections.mysql.username');
-                $dbPass = config('database.connections.mysql.password');
-                $dbHost = config('database.connections.mysql.host');
-                $sqlFile = $backupPath . "/db_dump_{$timestamp}.sql";
+                $tableKey = 'Tables_in_' . $dbName;
 
-                $command = sprintf(
-                    'mysqldump --user=%s --password=%s --host=%s %s > %s',
-                    escapeshellarg($dbUser),
-                    escapeshellarg($dbPass),
-                    escapeshellarg($dbHost),
-                    escapeshellarg($dbName),
-                    escapeshellarg($sqlFile)
-                );
-
-                shell_exec($command);
-
-                if (File::exists($sqlFile)) {
-                    $zip->addFile($sqlFile, 'database.sql');
+                foreach ($tables as $table) {
+                    $tableName = $table->$tableKey;
+                    
+                    // Drop table statement
+                    $sqlContent .= "DROP TABLE IF EXISTS `$tableName`;\n";
+                    
+                    // Create table statement
+                    $createTableResult = DB::select("SHOW CREATE TABLE `$tableName`")[0];
+                    $createProperty = 'Create Table';
+                    $sqlContent .= $createTableResult->$createProperty . ";\n\n";
+                    
+                    // Insert data
+                    $rows = DB::table($tableName)->get();
+                    foreach ($rows as $row) {
+                        $row = (array)$row;
+                        $columns = array_keys($row);
+                        $values = array_values($row);
+                        
+                        $escapedValues = array_map(function($value) {
+                            if ($value === null) return 'NULL';
+                            return DB::getPdo()->quote($value);
+                        }, $values);
+                        
+                        $sqlContent .= "INSERT INTO `$tableName` (`" . implode("`, `", $columns) . "`) VALUES (" . implode(", ", $escapedValues) . ");\n";
+                    }
+                    $sqlContent .= "\n";
                 }
+                
+                $sqlContent .= "SET FOREIGN_KEY_CHECKS=1;";
+                $zip->addFromString('database.sql', $sqlContent);
 
                 // 2. Export Storage
                 $storagePath = storage_path('app/public');
@@ -78,11 +97,6 @@ class BackupController extends Controller
                 }
 
                 $zip->close();
-
-                // Clean up SQL file
-                if (File::exists($sqlFile)) {
-                    File::delete($sqlFile);
-                }
 
                 Backup::create([
                     'filename' => $filename,
@@ -162,6 +176,7 @@ class BackupController extends Controller
 
     public function import(Request $request)
     {
+        ini_set('max_execution_time', 600);
         $request->validate([
             'backup_file' => 'required|file|mimes:zip'
         ]);
@@ -180,36 +195,40 @@ class BackupController extends Controller
                 $zip->extractTo($extractPath);
                 $zip->close();
 
-                // 1. Restore Database
+                // 1. Restore Database (Replace)
                 $sqlFile = $extractPath . '/database.sql';
                 if (File::exists($sqlFile)) {
+                    DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+                    
+                    // Get all current tables and drop them
+                    $currentTables = DB::select('SHOW TABLES');
                     $dbName = config('database.connections.mysql.database');
-                    $dbUser = config('database.connections.mysql.username');
-                    $dbPass = config('database.connections.mysql.password');
-                    $dbHost = config('database.connections.mysql.host');
-
-                    $command = sprintf(
-                        'mysql --user=%s --password=%s --host=%s %s < %s',
-                        escapeshellarg($dbUser),
-                        escapeshellarg($dbPass),
-                        escapeshellarg($dbHost),
-                        escapeshellarg($dbName),
-                        escapeshellarg($sqlFile)
-                    );
-
-                    shell_exec($command);
+                    $tableKey = 'Tables_in_' . $dbName;
+                    
+                    foreach ($currentTables as $table) {
+                        Schema::dropIfExists($table->$tableKey);
+                    }
+                    
+                    // Import SQL
+                    $sql = File::get($sqlFile);
+                    DB::unprepared($sql);
+                    
+                    DB::statement('SET FOREIGN_KEY_CHECKS=1;');
                 }
 
-                // 2. Restore Storage
+                // 2. Restore Storage (Replace)
                 $storageDir = $extractPath . '/storage';
                 if (File::exists($storageDir)) {
                     $targetStorage = storage_path('app/public');
+                    // Delete existing storage contents to ensure a clean replace
+                    File::cleanDirectory($targetStorage);
+                    // Copy new contents
                     File::copyDirectory($storageDir, $targetStorage);
                 }
 
                 File::deleteDirectory($extractPath);
 
-                return redirect()->back()->with('success', 'Backup imported successfully.');
+                return redirect()->back()->with('success', 'Backup imported and data replaced successfully.');
             } else {
                 return redirect()->back()->with('error', 'Could not open zip file.');
             }
