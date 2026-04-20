@@ -54,8 +54,23 @@ class CustomPageController extends Controller
      */
     public function visualEditorPreview(Request $request)
     {
-        $content = $request->input('content');
+        $rawContent = $request->input('content');
         $custom_css = $request->input('custom_css');
+
+        // Fetch blogs so @foreach ($blogs as $blog) works in the preview too
+        $blogs = \App\Models\Blog::orderBy('id', 'desc')->take(3)->get();
+
+        // Compile Blade directives ({{ asset() }}, @foreach, <x-component />, etc.)
+        try {
+            $content = \Illuminate\Support\Facades\Blade::render(
+                $rawContent ?? '',
+                ['blogs' => $blogs]
+            );
+        } catch (\Throwable $e) {
+            // If there's a Blade syntax error, fall back to raw content so the editor still opens
+            $content = $rawContent ?? '';
+        }
+
         return view('admin.custom_pages.visual_editor', compact('content', 'custom_css'));
     }
 
