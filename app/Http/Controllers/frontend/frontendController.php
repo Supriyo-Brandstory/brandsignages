@@ -23,8 +23,19 @@ class frontendController extends Controller
     {
         $page = \App\Models\CustomPage::where('slug', $slug)->firstOrFail();
         $currentRoute = $slug;
-        $seo = SEO::where('page_url', 'like', '%' . $slug . '%')->first(); 
-        return view('frontend.custom_page', compact('page', 'seo'));
+        $seo = SEO::where('page_url', 'like', '%' . $slug . '%')->first();
+
+        // Fetch blogs so @foreach ($blogs as $blog) works inside custom page content
+        $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
+
+        // Compile the stored HTML content as a Blade template so that
+        // {{ asset() }}, @foreach, <x-component />, etc. all work.
+        $renderedContent = \Illuminate\Support\Facades\Blade::render(
+            $page->content ?? '',
+            ['blogs' => $blogs]
+        );
+
+        return view('frontend.custom_page', compact('page', 'seo', 'blogs', 'renderedContent'));
     }
 
 

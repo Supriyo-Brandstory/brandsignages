@@ -6,6 +6,6 @@
     @endif
 
     <div class="custom-page-content">
-        {!! $page->content !!}
+        {!! $renderedContent !!}
     </div>
 @endsection
