@@ -12,12 +12,32 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\SEO;
 use App\Models\Sitemap;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Validator;
 
 class frontendController extends Controller
 
 {
+    public function customPage($slug)
+    {
+        $page = \App\Models\CustomPage::where('slug', $slug)->firstOrFail();
+        $currentRoute = $slug;
+        $seo = SEO::where('page_url', 'like', '%' . $slug . '%')->first();
+
+        // Fetch blogs so @foreach ($blogs as $blog) works inside custom page content
+        $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
+
+        // Compile the stored HTML content as a Blade template so that
+        // {{ asset() }}, @foreach, <x-component />, etc. all work.
+        $renderedContent = \Illuminate\Support\Facades\Blade::render(
+            $page->content ?? '',
+            ['blogs' => $blogs]
+        );
+
+        return view('frontend.custom_page', compact('page', 'seo', 'blogs', 'renderedContent'));
+    }
+
 
     public function sitemap()
     {
@@ -42,6 +62,20 @@ class frontendController extends Controller
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.service', compact('seo'));
+    }
+
+    public function our_clients()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.our-clients', compact('seo'));
+    }
+
+    public function products()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.products', compact('seo'));
     }
 
     //Signages
@@ -344,6 +378,52 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.name-board-design-for-office-bangalore', compact('seo'));
     }
+    public function board_design_bangalore()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.name-board-design-bangalore', compact('seo'));
+    }
+    public function led_name_board_design()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.led-name-board-design', compact('seo'));
+    }
+
+    public function doctor_name_board_design()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.doctor-name-board-design', compact('seo'));
+    }
+
+    public function acrylic_name_board()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.acrylic-name-board', compact('seo'));
+    }
+
+    public function company_name_board()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.company-name-board', compact('seo'));
+    }
+
+    public function house_name_board_design()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.house-name-board-design', compact('seo'));
+    }
+    public function led_name_board_for_shop()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.led-name-board-for-shop', compact('seo'));
+    }
     //chennai
     public function signage_company_in_chennai()
     {
@@ -473,6 +553,76 @@ class frontendController extends Controller
         return view('frontend.signagesResion.restroom-signs-in-mumbai', compact('seo'));
     }
 
+//hyderabad
+
+    public function leading_signage_company_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 7)->take(3)->get();
+        return view('frontend.signagesResion.leading-signage-company-in-hyderabad', compact('seo', 'blogs'));
+    }
+    public function premium_acrylic_sign_boards_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.premium-acrylic-sign-boards-in-hyderabad', compact('seo'));
+    }
+    public function digital_signages_manufacturer_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.digital-signages-manufacturer-in-hyderabad', compact('seo'));
+    }
+    public function led_display_board_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.led-display-board-in-hyderabad', compact('seo'));
+    }
+    public function hospital_and_medical_signages_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.hospital-and-medical-signages-in-hyderabad', compact('seo'));
+    }
+    public function construction_fire_safety_signages_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.construction-fire-safety-signages-in-hyderabad', compact('seo'));
+    }
+    public function name_plate_signs_manufacturer_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.name-plate-signs-manufacturer-hyderabad', compact('seo'));
+    }
+    public function office_signages_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.office-signages-in-hyderabad', compact('seo'));
+    }
+    public function stainless_steel_sign_board_manufacturer_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.stainless-steel-sign-board-manufacturer-hyderabad', compact('seo'));
+    }
+    public function neon_sign_board_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.neon-sign-board-in-hyderabad', compact('seo'));
+    }
+    public function restroom_signs_in_hyderabad()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signagesResion.restroom-signs-in-hyderabad', compact('seo'));
+    }
+
     public function contact_us()
     {
         $currentRoute = Route::current()->uri();
@@ -598,6 +748,79 @@ class frontendController extends Controller
         }
 
         Contact::create($request->except('captcha', '_token'));
+
+
+
+
+        // Use isset() as requested
+        $first_name = isset($request->first_name) ? $request->first_name : '';
+        $last_name  = isset($request->last_name) ? $request->last_name : '';
+        $email      = isset($request->email) ? $request->email : '';
+        $phone      = isset($request->phone_number) ? $request->phone_number : '';
+        $message    = isset($request->message) ? $request->message : '';
+
+        $itemName = $first_name . ' ' . $last_name;
+
+        $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjUzNzg1NzMzOCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNS0wNy0xMVQwNToxOToyNi4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.FSjnTYiHpeGN_XquSk386d-ZdZ2u1pcMvKGXV3y-rzM';
+
+        $columnValues = [
+            "email_mm0rwtqa" => ["email" => $email, "text" => $email],
+            "lead_phone" => ["phone" => $phone],
+            "text_mm0rryke"       => $first_name,
+            "text_mm0rwxvf"       => $last_name,
+            "phone_mm0ry4vs"       => $phone,
+            "long_text_mm0r8jx2"       => $message,
+
+        ];
+
+        $boardId = '5026737339';
+        $groupId = 'topics';
+
+        $columnValuesJson = json_encode($columnValues, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+        $escapedColumnValues = addslashes($columnValuesJson);
+
+        $query = 'mutation {
+        create_item (
+            board_id: ' . $boardId . ',
+            group_id: "' . $groupId . '",
+            item_name: "' . $itemName . '",
+            column_values: "' . $escapedColumnValues . '"
+        ) {
+            id
+        }
+    }';
+
+        $postData = json_encode(['query' => $query]);
+
+        $ch = curl_init('https://api.monday.com/v2');
+
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Content-Type: application/json',
+            'Authorization: ' . $apiToken
+        ]);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);
+
+        $response = curl_exec($ch);
+
+        if (curl_errno($ch)) {
+            Log::error('Curl Error: ' . curl_error($ch));
+        } else {
+            $result = json_decode($response, true);
+
+            if (isset($phone) && $phone == "9876543210") {
+                echo "<pre>";
+                print_r($result);
+                die;
+            }
+            if (isset($result['errors'])) {
+                Log::error('Monday Error: ' . print_r($result['errors'], true));
+            }
+        }
+
+        curl_close($ch);
+
 
         if ($request->ajax()) {
             return response()->json(['success' => true, 'message' => 'Your message has been sent successfully!']);
@@ -845,5 +1068,68 @@ class frontendController extends Controller
         $currentRoute = Route::current()->uri();
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.real-estate-signage', compact('seo'));
+    }
+
+    public function queue_manager()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.queue-manager', compact('seo'));
+    }
+
+    public function wall_graphics()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.wall-graphics', compact('seo'));
+    }
+
+    public function wall_decals()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.wall-decals', compact('seo'));
+    }
+
+    public function wall_stickers()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.wall-stickers', compact('seo'));
+    }
+
+    public function wall_murals()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.wall-murals', compact('seo'));
+    }
+
+    public function indoor_graphics()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.indoor-graphics', compact('seo'));
+    }
+
+    public function outdoor_graphics()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.outdoor-graphics', compact('seo'));
+    }
+
+    public function hoarding_boards()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.hoarding-boards', compact('seo'));
+    }
+
+    public function banner_printing()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.banner-printing', compact('seo'));
     }
 }

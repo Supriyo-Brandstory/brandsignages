@@ -4,7 +4,7 @@
 
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">Office Signage</h1>
+            <h1 class="hero-banner_title">Office Sign Board</h1>
 
         </div>
         <!-- Slider -->

@@ -96,7 +96,7 @@
             <h2>Explore Endless Shop Name Board Design Options</h2>
             <p>Brand Signages brings you the <b>largest ever collection</b> of shop sign board options for your storefront. We are 
                 providing the most affordable <b>shop name boards</b> & <a href="name-board-design-for-office-bangalore" style="color:#E43D12; text-decoration:none;"><strong>office name boards</strong></a> all over India with quick turnaround and expert installation 
-                services. Our shop name boards come with <b>custom design</b>, <b>4-5 years warranty</b>, and transparent pricing options. 
+                services. Our <a href="led-name-board-for-shop" style="color:#E43D12; text-decoration:none;"><strong>LED shop name boards</strong></a> come with <b>custom design</b>, <b>4-5 years warranty</b>, and transparent pricing options. 
             </p>
             <p>Featuring various <b>size formats</b>, <b>dynamic colour options</b>, and <b>superior lighting</b>, our shop name boards offer a standout visual 
                 presence and make your business impossible to overlook. With a wide range of materials, including <b>acrylic LED, 
@@ -206,7 +206,7 @@
                                     alt="Metal Signage">
                                 <div class="card-body pt-0">
                                     <h5 class="We-Elevate-Brands-title"><a
-                                            href="https://brandsignages.com/led-acrylic-3d-glow-sign-board">Acrylic LED Name Boards</a></h5>
+                                            href="https://brandsignages.com/led-name-board-design">Acrylic LED Name Boards</a></h5>
                                     <p class="We-Elevate-Brands-text">LED shop boards are a modern and versatile choice for
                                         impactful branding. We craft high-quality
                                         LED name boards that make your business shine bright, day and night. </p>

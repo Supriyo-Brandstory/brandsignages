@@ -13,14 +13,14 @@ use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
-   
+
     public function dashboard(Request $request)
 
     {
-        $seo = SEO::get()->count();
-        $blog= Blog::get()->count();
-        $enquery  = Contact::get()->count();
-       
-        return view('admin.dashboard.dashboard', compact('seo','blog','enquery'));
+        $seo = SEO::count();
+        $blog = Blog::count();
+        $enquery  = Contact::count();
+
+        return view('admin.dashboard.dashboard', compact('seo', 'blog', 'enquery'));
     }
 }

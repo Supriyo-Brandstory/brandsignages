@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Unmatched Sign Boards in<br> Bangalore for Every Industry</h1>
+                    <h1 class="hero-banner_title">Sign Boards Makers in<br> Bangalore for Every Industry</h1>
                     <p>Brand Signages is a trusted B2B partner and a premium signage board manufacturer<br> 
                         in Bangalore, India.
                     </p>
@@ -75,89 +75,6 @@
         </div>
     </section>
 
-         <section id="recent_projects" class="new-recent-works">
-        <div class="container mb-5">
-            <h2 class="hero-title  mb-6">Our Recent Signage and Branding<br> Design Projects</h2>
-
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
-                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Titan Showroom</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
-                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Fortis Hospital</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Café Mocha</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/tanishq.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Tanishq Showroom</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Prestige Group</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>MedPlus Pharmacy</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <a href="/contact-us">
-                    <button class="contact-btn">Start Your Project</button>
-                </a>
-            </div>
-
-
-        </div>
-    </section>
- 
-
     <section class="led-signs-manufacturing">
         <div class="container pt-5">
 
@@ -170,7 +87,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="hero-title text-start">Top-rated Signage Manufacturer with a Decade of Expertise </h2>
+                    <h2 class="hero-title text-start">Top-rated Signage Manufacturer in Bangalore, India </h2>
                     <p class="brand-description">
                         Brand Signages was established in 2014 with a vision to empower brands with signage solutions that
                         are unmatched in quality and design. We are meeting the deadlines in 2025 as the best-rated signage
@@ -198,27 +115,6 @@
         </div>
     </section>
 
-    
-    <section class="new_custom-stats-section">
-        <div class="container">
-            <div class="row text-center text-white">
-                <div class="col-12 col-md-4 mb-4 mb-md-0">
-                    <h2 class="new_custom-stats-number">10+</h2>
-                    <p class="new_custom-stats-label">Years In Signage Design</p>
-                </div>
-                <div class="col-12 col-md-4 mb-4 mb-md-0 position-relative">
-                    <div class="new_custom-divider-left d-none d-md-block"></div>
-                    <h2 class="new_custom-stats-number">12,000+</h2>
-                    <p class="new_custom-stats-label">Deliveries Done</p>
-                    <div class="new_custom-divider-right d-none d-md-block"></div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <h2 class="new_custom-stats-number">2,500+</h2>
-                    <p class="new_custom-stats-label">Client Base</p>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="We-Elevate-Brands-section py-5">
         <div class="container">
         <div class="text-center mb-4">
@@ -327,6 +223,111 @@
         </div>
         </div>
     </section>
+
+             <section id="recent_projects" class="new-recent-works">
+        <div class="container mb-5">
+            <h2 class="hero-title  mb-6">Our Recent Signage and Branding<br> Design Projects</h2>
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
+                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Titan Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
+                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Fortis Hospital</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Café Mocha</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/tanishq.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Tanishq Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Prestige Group</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>MedPlus Pharmacy</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="/contact-us">
+                    <button class="contact-btn">Start Your Project</button>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+    
+    <section class="new_custom-stats-section">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <h2 class="new_custom-stats-number">10+</h2>
+                    <p class="new_custom-stats-label">Years In Signage Design</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0 position-relative">
+                    <div class="new_custom-divider-left d-none d-md-block"></div>
+                    <h2 class="new_custom-stats-number">12,000+</h2>
+                    <p class="new_custom-stats-label">Deliveries Done</p>
+                    <div class="new_custom-divider-right d-none d-md-block"></div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h2 class="new_custom-stats-number">2,500+</h2>
+                    <p class="new_custom-stats-label">Client Base</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
 
     <section class="new_custom-why-choose">

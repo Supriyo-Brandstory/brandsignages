@@ -55,6 +55,13 @@ Route::get('/restroom-signs-in-bangalore', [frontendController::class, 'restroom
 Route::get('/office-desk-signs-in-bangalore', [frontendController::class, 'office_desk_signs_in_bangalore'])->name('office_desk_signs_in_bangalore');
 Route::get('/name-board-designs-for-shops-bangalore', [frontendController::class, 'shop_name_board_bangalore'])->name('shop_name_board_bangalore');
 Route::get('/name-board-design-for-office-bangalore', [frontendController::class, 'name_board_office_bangalore'])->name('name_board_office_bangalore');
+Route::get('/name-board-design-bangalore', [frontendController::class, 'board_design_bangalore'])->name('board_design_bangalore');
+Route::get('/led-name-board-design', [frontendController::class, 'led_name_board_design'])->name('led_name_board_design');
+Route::get('/doctor-name-board-design', [frontendController::class, 'doctor_name_board_design'])->name('doctor_name_board_design');
+Route::get('/acrylic-name-board', [frontendController::class, 'acrylic_name_board'])->name('acrylic_name_board');
+Route::get('/company-name-board', [frontendController::class, 'company_name_board'])->name('company_name_board');
+Route::get('/house-name-board-design', [frontendController::class, 'house_name_board_design'])->name('house_name_board_design');
+Route::get('/led-name-board-for-shop', [frontendController::class, 'led_name_board_for_shop'])->name('led_name_board_for_shop');
 //chennai
 Route::get('/signage-in-chennai', [frontendController::class, 'signage_company_in_chennai'])->name('signage_company_in_chennai');
 Route::get('/acrylic-signages-in-chennai', [frontendController::class, 'acrylic_signages_in_chennai'])->name('acrylic_signages_in_chennai');
@@ -77,6 +84,19 @@ Route::get('/office-signages-in-mumbai', [frontendController::class, 'office_sig
 Route::get('/stainless-steel-sign-board-manufacturer-mumbai', [frontendController::class, 'stainless_steel_sign_board_manufacturer_mumbai'])->name('stainless_steel_sign_board_manufacturer_mumbai');
 Route::get('/neon-sign-board-in-mumbai', [frontendController::class, 'neon_sign_board_in_mumbai'])->name('neon_sign_board_in_mumbai');
 Route::get('/restroom-signs-in-mumbai', [frontendController::class, 'restroom_signs_in_mumbai'])->name('restroom_signs_in_mumbai');
+
+//hyderabad
+Route::get('/leading-signage-company-in-hyderabad', [frontendController::class, 'leading_signage_company_in_hyderabad'])->name('leading_signage_company_in_hyderabad');
+Route::get('/premium-acrylic-sign-boards-in-hyderabad', [frontendController::class, 'premium_acrylic_sign_boards_in_hyderabad'])->name('premium_acrylic_sign_boards_in_hyderabad');
+Route::get('/digital-signages-manufacturer-in-hyderabad', [frontendController::class, 'digital_signages_manufacturer_in_hyderabad'])->name('digital_signages_manufacturer_in_hyderabad');
+Route::get('/led-display-board-in-hyderabad', [frontendController::class, 'led_display_board_in_hyderabad'])->name('led_display_board_in_hyderabad');
+Route::get('/hospital-and-medical-signages-in-hyderabad', [frontendController::class, 'hospital_and_medical_signages_in_hyderabad'])->name('hospital_and_medical_signages_in_hyderabad');
+Route::get('/construction-fire-safety-signages-in-hyderabad', [frontendController::class, 'construction_fire_safety_signages_in_hyderabad'])->name('construction_fire_safety_signages_in_hyderabad');
+Route::get('/name-plate-signs-manufacturer-hyderabad', [frontendController::class, 'name_plate_signs_manufacturer_hyderabad'])->name('name_plate_signs_manufacturer_hyderabad');
+Route::get('/office-signages-in-hyderabad', [frontendController::class, 'office_signages_in_hyderabad'])->name('office_signages_in_hyderabad');
+Route::get('/stainless-steel-sign-board-manufacturer-hyderabad', [frontendController::class, 'stainless_steel_sign_board_manufacturer_hyderabad'])->name('stainless_steel_sign_board_manufacturer_hyderabad');
+Route::get('/neon-sign-board-in-hyderabad', [frontendController::class, 'neon_sign_board_in_hyderabad'])->name('neon_sign_board_in_hyderabad');
+Route::get('/restroom-signs-in-hyderabad', [frontendController::class, 'restroom_signs_in_hyderabad'])->name('restroom_signs_in_hyderabad');
 
 Route::get('/case-studies', [frontendController::class, 'case_study'])->name('case_study');
 Route::get('/case-studies/titan-showroom-sign-board', [frontendController::class, 'titan_case_study'])->name('titan_case_study');
@@ -119,7 +139,22 @@ Route::get('/safety-signages', [frontendController::class, 'safety_signages'])->
 
 
 
+Route::get('/queue-manager', [frontendController::class, 'queue_manager'])->name('queue_manager');
+Route::get('/wall-graphics', [frontendController::class, 'wall_graphics'])->name('wall_graphics');
+Route::get('/indoor-graphics', [frontendController::class, 'indoor_graphics'])->name('indoor_graphics');
+Route::get('/outdoor-graphics', [frontendController::class, 'outdoor_graphics'])->name('outdoor_graphics');
+Route::get('/hoarding-boards', [frontendController::class, 'hoarding_boards'])->name('hoarding_boards');
+Route::get('/banner-printing', [frontendController::class, 'banner_printing'])->name('banner_printing');
+Route::get('/wall-decals', [frontendController::class, 'wall_decals'])->name('wall_decals');
+Route::get('/wall-stickers', [frontendController::class, 'wall_stickers'])->name('wall_stickers');
+Route::get('/wall-murals', [frontendController::class, 'wall_murals'])->name('wall_murals');
+
+Route::get('/our-clients', [frontendController::class, 'our_clients'])->name('our_clients');
+Route::get('/products', [frontendController::class, 'products'])->name('products');
 Auth::routes();
 Route::get('/services', [frontendController::class, 'services'])->name('services');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 require __DIR__ . '/admin.php';
+
+Route::get('/{slug}', [frontendController::class, 'customPage'])->name('custom_page.show')->where('slug', '.*');

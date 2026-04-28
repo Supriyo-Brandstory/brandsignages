@@ -2,61 +2,80 @@
 
     <ul class="sidebar-nav" id="sidebar-nav">
 
-        <li class="nav-item {{ Route::is('admin.dashboard') ? 'active' : ''}}">
-            <a class="nav-link " href="{{route('admin.dashboard')}}">
+        <li class="nav-item {{ Route::is('admin.dashboard') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('admin.dashboard') }}">
                 <i class="bi bi-grid"></i>
                 <span>Dashboard</span>
             </a>
         </li>
-        <li class="nav-item {{ Route::is('categories*') ? 'active' : ''}}">
-            <a class="nav-link " href="{{route('categories.index')}}">
+        <li class="nav-item {{ Route::is('categories*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('categories.index') }}">
                 <i class="bi bi-grid"></i>
                 <span>Category</span>
             </a>
         </li>
-        
-        <li class="nav-item {{ Route::is('blogs*') ? 'active' : ''}}">
-            <a class="nav-link " href="{{route('blogs.index')}}">
+
+        <li class="nav-item {{ Route::is('menus*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('menus.index') }}">
+                <i class="bi bi-list"></i>
+                <span>Menus</span>
+            </a>
+        </li>
+
+        <li class="nav-item {{ Route::is('blogs*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('blogs.index') }}">
                 <i class="bi bi-grid"></i>
                 <span>Blogs</span>
             </a>
         </li>
-        
-        <li class="nav-item {{ Route::is('seo*') ? 'active' : ''}}">
-            <a class="nav-link " href="{{route('seo.index')}}">
+
+        <li class="nav-item {{ Route::is('seo*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('seo.index') }}">
                 <i class="bi bi-grid"></i>
                 <span>Seo</span>
             </a>
         </li>
-        <li class="nav-item {{ Route::is('sitemap*') ? 'active' : ''}}">
-            <a class="nav-link " href="{{route('sitemap.index')}}">
+        <li class="nav-item {{ Route::is('sitemap*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('sitemap.index') }}">
                 <i class="bi bi-grid"></i>
                 <span>Sitemap</span>
             </a>
         </li>
-        {{-- <li class="nav-item {{ Route::is('show.export.page') ? 'active' : ''}}">
-            <a class="nav-link " href="{{route('show.export.page')}}">
-                <i class="bi bi-grid"></i>
-                <span>Export Database</span>
+        <li class="nav-item {{ Route::is('admin.backups.index*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('admin.backups.index') }}">
+                <i class="bi bi-cloud-arrow-up"></i>
+                <span>Backups</span>
             </a>
-        </li> --}}
-        <li class="nav-item {{ Route::is('contacts*') ? 'active' : ''}}">
-            <a class="nav-link " href="{{route('contacts.index')}}">
+        </li>
+        <li class="nav-item {{ Route::is('contacts*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('contacts.index') }}">
                 <i class="bi bi-grid"></i>
                 <span>Contacts</span>
             </a>
         </li>
-        <li class="nav-item {{ Route::is('custom-inquiries*') ? 'active' : ''}}">
-            <a class="nav-link " href="{{route('custom-inquiries.index')}}">
+        <li class="nav-item {{ Route::is('custom-inquiries*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('custom-inquiries.index') }}">
                 <i class="bi bi-grid"></i>
                 <span>Custom Inquiries</span>
             </a>
         </li>
+        <li class="nav-item {{ Route::is('custom-pages*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('custom-pages.index') }}">
+                <i class="bi bi-file-earmark-text"></i>
+                <span>Custom Pages</span>
+            </a>
+        </li>
+        <li class="nav-item {{ Route::is('admin.media.index*') ? 'active' : '' }}">
+            <a class="nav-link " href="{{ route('admin.media.index') }}">
+                <i class="bi bi-images"></i>
+                <span>Media Manager</span>
+            </a>
+        </li>
 
-        
 
-       
-        
+
+
+
 
     </ul>
 

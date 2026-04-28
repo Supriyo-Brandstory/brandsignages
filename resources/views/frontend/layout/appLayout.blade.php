@@ -105,6 +105,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('frontend/styles.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/services.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/megamenu.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.3.0-beta.4/css/lightgallery.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
@@ -125,226 +126,162 @@
                     alt="BrandSignages" width="175">
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-center">
+                    @foreach ($headerMenus as $menu)
+                        @php
+                            $menuUrl = str_starts_with($menu->url, 'javascript') ? $menu->url : url($menu->url);
+                        @endphp
+                        @if ($menu->menu_type == 'standard')
+                            @if ($menu->children->count() > 0)
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle {{ Request::is(trim($menu->url, '/')) ||$menu->children->contains(function ($child) {return Request::is(trim($child->url, '/'));})? 'active': '' }}"
+                                        href="{{ $menuUrl }}" id="navbarDropdown-{{ $menu->id }}"
+                                        role="button" aria-expanded="false">
+                                        {{ $menu->title }} <i
+                                            class="fas fa-chevron-down dropdown__arrow js-mobile-toggle"
+                                            style="font-size: 12px;margin-left: 4px; margin-bottom: 3px; cursor: pointer;"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown-{{ $menu->id }}">
+                                        @foreach ($menu->children as $child)
+                                            <li><a class="dropdown-item {{ Request::is(trim($child->url, '/')) ? 'active' : '' }}"
+                                                    href="{{ str_starts_with($child->url, 'javascript') ? $child->url : url($child->url) }}">{{ $child->title }}</a>
+                                            </li>
+                                        @endforeach
+                                    </ul>
+                                </li>
+                            @else
+                                <li class="nav-item">
+                                    <a class="nav-link {{ Request::is(trim($menu->url, '/')) ? 'active' : '' }}"
+                                        aria-current="page" href="{{ $menuUrl }}">{{ $menu->title }}</a>
+                                </li>
+                            @endif
+                        @elseif($menu->menu_type == 'mega-parent')
+                            <li class="nav-item dropdown dropdown-mega position-static">
+                                <a class="nav-link dropdown-toggle" href="{{ $menuUrl }}"
+                                    id="menu-target-{{ $menu->id }}" role="button">
+                                    {{ $menu->title }} <i class="fas fa-chevron-down dropdown__arrow"
+                                        style="font-size: 12px;margin-left: 4px; margin-bottom: 3px;"></i>
+                                </a>
+                                <div class="dropdown-menu mega-menu-container {{ $menu->title == 'Our Locations' ? 'location-mega-wrapper' : '' }} border-0 p-0"
+                                    aria-labelledby="menu-target-{{ $menu->id }}">
+                                    <div class="mega-split-container">
+                                        <!-- Column 1: Categories (Left) -->
+                                        <div class="mega-col mega-col-1">
+                                            <div class="mega-col-header">
+                                                <span
+                                                    class="mega-col-label">{{ $menu->title == 'Signages' ? 'Explore Catalog' : 'Choose Your City' }}</span>
+                                            </div>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('about_us') }}">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('sign_board') }}">Services</a>
-                    </li>
+                                            <div class="mega-category-items">
+                                                @foreach ($menu->children as $category)
+                                                    <a href="{{ str_starts_with($category->url, 'javascript') ? $category->url : url($category->url) }}"
+                                                        class="mega-item-entry {{ $loop->first ? 'active' : '' }}"
+                                                        data-target="menu-target-{{ $category->id }}">
+                                                        @if ($category->tag)
+                                                            <span class="entry-tag">{{ $category->tag }}</span>
+                                                        @endif
+                                                        <span class="entry-title">{{ $category->title }}</span>
+                                                        @if ($category->description)
+                                                            <span
+                                                                class="entry-desc">{{ $category->description }}</span>
+                                                        @endif
+                                                    </a>
+                                                @endforeach
+                                            </div>
+                                        </div>
 
-                    <li class="nav-item dropdown position-static">
-                        <a class="nav-link dropdown-toggle" href="#" id="signagesDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Signages <i class="fas fa-chevron-down dropdown__arrow"
-                                style="font-size: 12px;margin-left: 4px; margin-bottom: 3px;"></i>
-                        </a>
-                        <div class="dropdown-menu w-100 p-4" aria-labelledby="signagesDropdown">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6">
-                                        <h6 class="dropdown-header">Signages by Type</h6>
-                                        <a class="dropdown-item" href="{{ route('arcylic_signages') }}">Acrylic
-                                            Signage</a>
-                                        <a class="dropdown-item" href="{{ route('metal_signages') }}">Metal
-                                            Signages</a>
-                                        <a class="dropdown-item" href="{{ route('digital_signages') }}">Digital
-                                            Signage</a>
-                                        <a class="dropdown-item" href="{{ route('outdoor_signages') }}">Outdoor
-                                            Signages</a>
-                                        <a class="dropdown-item" href="{{ route('acrylic_letters') }}">Acrylic
-                                            Letters
-                                        </a>
-                                        <a class="dropdown-item" href="{{ route('neon_signages') }}">Neon Glow
-                                            Sign</a>
-                                        <a class="dropdown-item" href="{{ route('led_acrylic_glow_sign') }}">LED Sign
-                                            Board</a>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6">
-                                        <h6 class="dropdown-header">Signages by Industry</h6>
-                                        <a class="dropdown-item" href="{{ route('hospital_signages') }}">Healthcare
-                                            Sign</a>
-                                        <a class="dropdown-item" href="{{ route('bank_sign_board') }}">Bank & Finance
-                                            Sign</a>
-                                        <a class="dropdown-item" href="{{ route('hotel_sign_board') }}">Hotel
-                                            Sign Board</a>
-                                        <a class="dropdown-item" href="{{ route('real_estate_signage') }}">Real
-                                            Estate
-                                            Signage</a>
-                                        <a class="dropdown-item"
-                                            href="{{ route('restaurant_signages') }}">Restaurants
-                                            Sign</a>
-                                        <a class="dropdown-item"
-                                            href="{{ route('construction_safety_signages') }}">Construction Safety
-                                            Sign</a>
-                                        <a class="dropdown-item" href="{{ route('office_signages') }}">Office
-                                            Signage</a>
-                                        <a class="dropdown-item"
-                                            href="{{ route('name_board_office_bangalore') }}">Office Name Board</a>
-                                        <a class="dropdown-item" href="{{ route('shop_name_board_bangalore') }}">Shop
-                                            Name Boards</a>
-                                        <a class="dropdown-item" href="{{ route('indoor_signages') }}">Interior
-                                            Signages</a>
+                                        <!-- Column 2: Items (Right) -->
+                                        <div class="mega-col mega-col-2">
+                                            <div class="mega-col-header">
+                                                <span
+                                                    class="mega-col-label">{{ $menu->title == 'Signages' ? 'Specialties' : 'Localized Services' }}</span>
+                                            </div>
 
-                                    </div>
-                                    <div class="col-lg-4 col-md-6">
-                                        <h6 class="dropdown-header">Signage by Use Type</h6>
-                                        <a class="dropdown-item" href="{{ route('fire_safety_signages') }}">Fire
-                                            Safety
-                                            Sign</a>
-                                        <a class="dropdown-item" href="{{ route('door_signages') }}">Door Signs</a>
-                                        <a class="dropdown-item" href="{{ route('house_number_signages') }}">House
-                                            Number
-                                            Signs</a>
-                                        <a class="dropdown-item" href="{{ route('nameplate_signages') }}">Custom
-                                            Nameplates</a>
-                                        <a class="dropdown-item" href="{{ route('restroom_signages') }}">Restroom
-                                            Signs</a>
-                                        <a class="dropdown-item"
-                                            href="{{ route('prohibitory_signages') }}">Prohibitory
-                                            Signs</a>
-                                        {{-- <a class="dropdown-item" href="#">Office Desk Sign</a>
-                                        <a class="dropdown-item" href="#">Floor Sign</a> --}}
-                                        <a class="dropdown-item" href="{{ route('room_name_plates') }}">Room Number
-                                            Sign</a>
+                                            @foreach ($menu->children as $category)
+                                                <div class="specialties-pane {{ $loop->first ? 'active' : '' }}"
+                                                    id="menu-target-{{ $category->id }}">
+
+                                                    <!-- Category title for mobile -->
+                                                    <div class="mobile-mega-section-header d-lg-none">
+                                                        <a href="{{ str_starts_with($category->url, 'javascript') ? 'javascript:void(0)' : url($category->url) }}"
+                                                            class="mobile-cat-title">
+                                                            {{ $category->title }}
+                                                        </a>
+                                                        <div class="mobile-cat-toggle">
+                                                            <i class="fas fa-chevron-down"></i>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="mobile-mega-collapsible">
+                                                        @if ($menu->title == 'Our Locations')
+                                                            <div class="specialty-grid-links"
+                                                                style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
+                                                                @foreach ($category->children as $locItem)
+                                                                    <a href="{{ str_starts_with($locItem->url, 'javascript') ? $locItem->url : url($locItem->url) }}"
+                                                                        class="specialty-link">{{ $locItem->title }}</a>
+                                                                @endforeach
+                                                            </div>
+                                                        @else
+                                                            <div class="specialty-list">
+                                                                @foreach ($category->children as $item)
+                                                                    @if ($item->children->count() > 0)
+                                                                        <div class="specialty-item-wrapper has-flyout">
+                                                                            <a href="{{ str_starts_with($item->url, 'javascript') ? $item->url : url($item->url) }}"
+                                                                                class="specialty-link">
+                                                                                <div class="specialty-icon-box"><i
+                                                                                        class="{{ $item->icon }}"></i>
+                                                                                </div>
+                                                                                <div class="specialty-content">
+                                                                                    <span
+                                                                                        class="specialty-title">{{ $item->title }}</span>
+                                                                                    <span
+                                                                                        class="specialty-desc">{{ $item->description }}</span>
+                                                                                </div>
+                                                                                <i
+                                                                                    class="fas fa-chevron-right flyout-indicator"></i>
+                                                                            </a>
+                                                                            <div class="mega-flyout-menu">
+                                                                                <ul class="flyout-list">
+                                                                                    @foreach ($item->children as $subItem)
+                                                                                        <li><a
+                                                                                                href="{{ str_starts_with($subItem->url, 'javascript') ? $subItem->url : url($subItem->url) }}">{{ $subItem->title }}</a>
+                                                                                        </li>
+                                                                                    @endforeach
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    @else
+                                                                        <a href="{{ str_starts_with($item->url, 'javascript') ? $item->url : url($item->url) }}"
+                                                                            class="specialty-link">
+                                                                            <div class="specialty-icon-box"><i
+                                                                                    class="{{ $item->icon }}"></i>
+                                                                            </div>
+                                                                            <div class="specialty-content">
+                                                                                <span
+                                                                                    class="specialty-title">{{ $item->title }}</span>
+                                                                                <span
+                                                                                    class="specialty-desc">{{ $item->description }}</span>
+                                                                            </div>
+                                                                        </a>
+                                                                    @endif
+                                                                @endforeach
+                                                            </div>
+                                                        @endif
+                                                    </div> <!-- End mobile-mega-collapsible -->
+                                                </div>
+                                            @endforeach
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="nav-item dropdown position-relative">
-                        <a class="nav-link dropdown-toggle" href="#" id="regionDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Our Locations<i class="fas fa-chevron-down dropdown__arrow"
-                                style="font-size: 12px; margin-left: 4px; margin-bottom: 3px;"></i>
-                        </a>
-                        <div class="dropdown-menu" style="width:max-content;" aria-labelledby="regionDropdown">
-                            <div class="container">
-                                <a class="dropdown-item" href="{{ route('index') }}">➤ Signages in
-                                    Bangalore</a>
-                                <a class="dropdown-item" href="{{ route('leading_signage_company_in_mumbai') }}">➤
-                                    Signages
-                                    in Mumbai</a>
-                                <a class="dropdown-item" href="{{ route('signage_company_in_chennai') }}">➤ Signages
-                                    in Chennai</a>
-                            </div>
-                            {{-- <div class="container">
-                               
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6">
-                                        <h6 class="dropdown-header">Bangalore</h6>
-                                        <a class="dropdown-item" href="{{route('signage_in_bangalore')}}">Signages in
-                            Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('acrylic_signage_manufacturer_bangalore')}}">Acrylic Signages
-                                in Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('steel_signage_manufacturer_bangalore')}}">Steel Signs in
-                                Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('digital_signage_company_bangalore')}}">Digital Signage in
-                                Bangalore</a>
-                            <a class="dropdown-item" href="{{route('neon_sign_board_bangalore')}}">Neon Sign
-                                Board in Bangalore</a>
-                            <a class="dropdown-item" href="{{route('led_sign_board_in_bangalore')}}">LED
-                                Sign Board in Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('hospital_signages_in_bangalore')}}">Hospital Signages in
-                                Bangalore</a>
-                            <a class="dropdown-item" href="{{route('safety_signages_in_bangalore')}}">Safety
-                                Signages in Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('name_plate_signages_in_bangalore')}}">Name Plate Signages in
-                                Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('restroom_signs_in_bangalore')}}">Restroom Signs in
-                                Bangalore</a>
-                            <a class="dropdown-item"
-                                href="{{route('office_desk_signs_in_bangalore')}}">Office Desk Signs in
-                                Bangalore</a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <h6 class="dropdown-header">Mumbai</h6>
-                            <a class="dropdown-item"
-                                href="{{route('leading_signage_company_in_mumbai')}}">Signages in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('premium_acrylic_sign_boards_in_mumbai')}}">Acrylic Signages
-                                in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('digital_signages_manufacturer_in_mumbai')}}">Digital Signages
-                                in Mumbai</a>
-                            <a class="dropdown-item" href="{{route('led_display_board_in_mumbai')}}">LED
-                                Display Boards in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('hospital_and_medical_signages_in_mumbai')}}">Hospital and
-                                Medical in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('construction_fire_safety_signages_in_mumbai')}}">Fire Safety
-                                Signage in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('name_plate_signs_manufacturer_mumbai')}}">Name Plate Signages
-                                in Mumbai</a>
-                            <a class="dropdown-item" href="{{route('office_signages_in_mumbai')}}">Office
-                                Signages in Mumbai</a>
-                            <a class="dropdown-item"
-                                href="{{route('stainless_steel_sign_board_manufacturer_mumbai')}}">Stainless
-                                Steel Sign Board in Mumbai</a>
-                            <a class="dropdown-item" href="{{route('neon_sign_board_in_mumbai')}}">Neon Sign
-                                Board in Mumbai</a>
-                            <a class="dropdown-item" href="{{route('restroom_signs_in_mumbai')}}">Restroom
-                                Signs in Mumbai</a>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <h6 class="dropdown-header">Chennai</h6>
-                            <a class="dropdown-item" href="{{route('signage_company_in_chennai')}}">Signages
-                                in Chennai</a>
-                            <a class="dropdown-item" href="{{route('acrylic_signages_in_chennai')}}">Acrylic
-                                Signages in Chennai</a>
-                            <a class="dropdown-item" href="{{route('metal_sign_in_chennai')}}">Metal
-                                Signages in Chennai</a>
-                            <a class="dropdown-item"
-                                href="{{route('leading_digital_signages_manufacturer_in_chennai')}}">
-                                Digital Signage in Chennai</a>
-                            <a class="dropdown-item"
-                                href="{{route('custom_neon_sign_board_in_chennai')}}">Custom Neon Signage in
-                                Chennai</a>
-                            <a class="dropdown-item" href="{{route('led_display_board_in_chennai')}}">LED
-                                Display Board in Chennai</a>
-                            <a class="dropdown-item"
-                                href="{{route('hospital_medical_signages_chennai')}}">Hospital & Medical
-                                Signages Chennai</a>
-                            <a class="dropdown-item"
-                                href="{{route('high_quality_safety_signages_in_chennai')}}">Safety Signages
-                                in Chennai</a>
-                            <a class="dropdown-item"
-                                href="{{route('high_quality_restroom_signs_in_chennai')}}"> Restroom Signs
-                                in Chennai</a>
-
-
-                        </div>
-
-
-            </div>
-            </div> --}}
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('case_study') }}">Case Studies</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('blogs') }}">Blog</a>
-                    </li>
-
+                            </li>
+                        @endif
+                    @endforeach
                     <li class="nav-item ms-3">
                         <a href="{{ route('contact_us') }}">
                             <button class="contact-btn">Contact Us</button>
@@ -358,6 +295,258 @@
     @yield('content')
 
 
+
+    {{-- <section class="footer pb-2">
+        <div class="container">
+            <div class="row align-items-start text-start justify-content-between">
+
+                <!-- Logo -->
+                <div class="col-12 col-md-4 mb-5 mb-md-0 d-flex justify-content-center justify-content-md-start">
+                    <a href="{{ route('index') }}">
+                        <img src="{{ asset('frontend/Images/Brand-Signages-logo.png') }}" alt="Brand Signages Logo"
+                            class="img-fluid" style="max-width: 200px;">
+                    </a>
+                </div>
+
+                <!-- Contact Info + Address -->
+                <div
+                    class="col-12 col-md-8 d-flex flex-column flex-md-row gap-4 align-items-start justify-content-md-center text-start">
+
+                    <!-- Contact Info -->
+                    <div>
+                        <a href="tel:+918006606080" class="mb-1" style="color: #E43D12; text-decoration: none;">
+                            <i class="fas fa-mobile-screen-button icon" style="color: #E43D12; font-size: 20px;"></i>
+                            <strong>Call :</strong> +918006606080
+                        </a><br>
+                        <a href="mailto:sales@brandsignages.com" class="mb-0"
+                            style="color: #E43D12; text-decoration: none;">
+                            <i class="fas fa-envelope icon" style="color: #E43D12; font-size: 20px;"></i>
+                            <strong>Email :</strong> sales@brandsignages.com
+                        </a>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="d-flex gap-2 align-items-start text-start">
+                        <i class="fas fa-map-marker-alt icon fa-2x mt-1" style="color: #E43D12; font-size: 20px;"></i>
+                        <a href="https://www.google.com/maps/dir//Brand+Signages-+Sign+Board+Manufacturers+in+Bangalore+%7C+LED+Sign+Board+Makers,+5th+Floor,+Brand+Signages,+BrandStory+Ventures,+Surya+Chambers,+34,+K.R.Colony,+Domlur+I+Stage,+Amarjyoti+Layout,+Domlur,+Bengaluru,+Karnataka+560071"
+                            class="mb-0" style="color: #E43D12; text-decoration: none;">
+                            Brand Signages, 5th Floor, BrandStory Ventures, Surya Chambers,<br>
+                            34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, <br>Karnataka 560071
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="color: #E43D12;" class="my-4">
+
+            <div class="row mb-4 text-start">
+                <!-- About Section -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <h5 class="fw-bold">Brand Signages</h5>
+                    <p>
+                        Brand Signages is a premier signage manufacturing company serving
+                        clients across Bangalore and India for 10+ years. We have a vast
+                        portfolio and client base across different industries.
+                    </p>
+                    <div class='d-flex justify-content-left' style="gap: 10px;">
+                        <a href="https://www.youtube.com/@BrandSignages" target="_blank"><i
+                                class="fab fa-youtube fa-2x" style="color: red;"></i></a>
+                        <a href="https://www.facebook.com/BrandSignagesIndia/" target="_blank"><i
+                                class="fab fa-facebook fa-2x" style="color: #1216e4ff;"></i></a>
+                        <a href="https://in.pinterest.com/brandsignages/" target="_blank"><i
+                                class="fab fa-pinterest fa-2x" style="color: #E43D12;"></i></a>
+                    </div>
+                </div>
+
+                @foreach ($footerMenus as $footerMenu)
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <h5 class="fw-bold">{{ $footerMenu->title }}</h5>
+                        <ul class="list-unstyled">
+                            @foreach ($footerMenu->children as $child)
+                                <li>
+                                    <a href="{{ str_starts_with($child->url, 'http') ? $child->url : url($child->url) }}"
+                                        class="text-decoration-none">{{ $child->title }}</a>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endforeach
+            </div>
+
+            <div class="row justify-content-center justify-content-md-between text-start text-md-start">
+                <div class="col-12 text-center">
+                    <span>© 2024 Brand Signages. All Rights Reserved.</span>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+
+    <section class="specialized-solutions-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-center new_custom-heading">Our Specialized Solutions</h2>
+            </div>
+
+            <div class="swiper specialized-solutions-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Card 1: Large Graphics -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-design-bangalore') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/name-boards.webp') }}" alt="Large Graphics"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Name Board </h4>
+                                <p class="text-white">Exclusive name boards for home, office, shop</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 2: Digital/Offset Printing -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-designs-for-shops-bangalore') }}"
+                            class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/shop-name-boards.webp') }}"
+                                alt="Digital and Offset printing" class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Shop Name Board</h4>
+                                <p class="text-white">Shop name boards with modern designs</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 3: Signages -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-design-for-office-bangalore') }}"
+                            class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/office-name-boards.webp') }}" alt="Signages"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Office Name Board</h4>
+                                <p class="text-white">Premium office name board largest collection</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 4: Corporate Gifting -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/led-name-board-design') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/led-name-boards.webp') }}" alt="Corporate Gifting"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">LED Name Board</h4>
+                                <p class="text-white">Advanced 2nd gen LED name boards available</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 5: 3D Printing -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/led-name-board-for-shop') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/led-shop-name-board.webp') }}" alt="3D Printing"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">LED Shop Name Board</h4>
+                                <p class="text-white">Premium range of LED name boards for shops</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 1: Large Graphics -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-design-bangalore') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/name-boards.webp') }}" alt="Large Graphics"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Name Board </h4>
+                                <p class="text-white">Exclusive name boards for home, office, shop</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 2: Digital/Offset Printing -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-designs-for-shops-bangalore') }}"
+                            class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/shop-name-boards.webp') }}"
+                                alt="Digital and Offset printing" class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Shop Name Board</h4>
+                                <p class="text-white">Shop name boards with modern designs</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 3: Signages -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/name-board-design-for-office-bangalore') }}"
+                            class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/office-name-boards.webp') }}" alt="Signages"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Office Name Board</h4>
+                                <p class="text-white">Premium office name board largest collection</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 4: Corporate Gifting -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/led-name-board-design') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/led-name-boards.webp') }}" alt="Corporate Gifting"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">LED Name Board</h4>
+                                <p class="text-white">Advanced 2nd gen LED name boards available</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Card 5: 3D Printing -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/led-name-board-for-shop') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/led-shop-name-board.webp') }}" alt="3D Printing"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">LED Shop Name Board</h4>
+                                <p class="text-white">Premium range of LED name boards for shops</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
 
     <section class="footer pb-2">
         <div class="container">
@@ -487,9 +676,42 @@
 
     <a href="tel:+918006606080" class="call-btn"><i class="fas fa-phone"></i></a>
 
+
+
+
+
+
     <style>
         .footer a {
             color: #E43D12;
+        }
+
+        .specialized-solutions-section {
+            background: #fff !important;
+        }
+
+        .specialized-solutions-swiper {
+            padding: 30px 0 !important;
+        }
+
+        .specialized-card {
+            height: 260px !important;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .specialized-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .specialized-card .office-mag-cta {
+            border-radius: 10px;
+        }
+
+        .specialized-card .office-mag-bg {
+            height: 100% !important;
+            object-fit: cover;
         }
 
         .call-btn {
@@ -613,9 +835,11 @@
                         keyboard: false
                     });
 
-                    setTimeout(function() {
-                        myModal.show();
-                    }, 9999999);
+                    @if (!isset($disableAutoPopup) || !$disableAutoPopup)
+                        setTimeout(function() {
+                            myModal.show();
+                        }, 3000);
+                    @endif
                 }
 
                 // AJAX Submission for Global Popup
