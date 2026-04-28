@@ -1,6 +1,5 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-
 <style>
     .process-list li::before {
     content: "";
@@ -10,41 +9,16 @@
 }
     </style>
 
-<section class="carousel-section">
-    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            
-        </div>
-
-
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/Banner.webp')}}" alt="Signage Manufacturing Company in Chennai">
-                <div class="carousel-caption-custom">
-                    <h1>Best Sign Board Manufacturers in Chennai- Brand Signages</h1>
-                     <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
-                        </div>
-                </div>
-            </div>    
-
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/signage-in-chennai-1.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai">
-                <div class="carousel-caption-custom">
-                    <h1>Trusted Signage Company in Chennai- Brand Signages</h1>
-                     <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
-                        </div>
-                </div>
+<section class="hero-banner" style="background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url('{{ asset('/frontend/Images/new/signage-in-chennai-1.webp') }}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="hero-banner_title">Best Sign Board Manufacturers<br> in Chennai- Brand Signages</h1>
+                <p>Trusted Signage Company in Chennai- Brand Signages</p>
+                <a href="{{route('contact_us')}}">
+                    <button class="contact-btn">Get a Quote</button>
+                </a>
             </div>
-
-
-            
         </div>
     </div>
 </section>
@@ -92,7 +66,158 @@
         </div>
     </div>
 </section>
+
+<section class="container my-5 achievements-section">
+            <h2 class="text-center">Milestones That Define Us</h2>
+            <div class="row g-3">
+
+                <!-- Large Image Left -->
+                <div class="col-lg-6 col-md-6">
+                    <div class="achievement-box height-582">
+                        <img src="{{ asset('frontend/Images/home/single-brandex.webp') }}" class="img-fluid" alt="Signage Design">
+                    </div>
+                </div>
+
+                <!-- Top Right: 10+ Years -->
+                <div class="col-lg-6 col-md-6">
+                    <div class="row">
+                        <div class="col-12 mb-3">
+                            <div
+                                class="achievement-box years height-270 text-center p-4 d-flex flex-column justify-content-center">
+                                <h3>10+</h3>
+                                <p class="mb-0">Years In Signage Design</p>
+                            </div>
+                        </div>
+                        <!-- Top Right: 12,000+ Deliveries -->
+                        <div class="col-lg-6 col-md-6">
+                            <div
+                                class="achievement-box  Deliveries text-center p-4 d-flex flex-column justify-content-center">
+                                <h3 class="fs-2 fw-bold">12,000+</h3>
+                                <p class="mb-0">Deliveries Done</p>
+                            </div>
+                        </div>
+
+                        <!-- Top Right: Neon Quote -->
+                        <div class="col-lg-6 col-md-6 pb-0">
+                            <div class="achievement-box h-100">
+                                <img src="{{ asset('frontend/Images/home/fortune-blue.webp') }}"
+                                    class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Signage Design">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Bottom Left: Fashion Week -->
+                <div class="col-lg-8 col-md-12">
+                    <div class="achievement-box h-100">
+                        <img src="{{ asset('frontend/Images/home/fashion-week.webp') }}"
+                            class="img-fluid rounded-3 h-100 w-100 object-cover" alt="Fashion Week Signage">
+                    </div>
+                </div>
+
+                <!-- Bottom Right: Client Base -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="achievement-box client-base text-dark p-4  d-flex flex-column justify-content-center">
+                        <h3 class="fs-2 fw-bold">2,500+</h3>
+                        <p class="mb-0">Client Base</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+ <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="We-Elevate-Brands-heading fw-bold">We Elevate Brands with Quality Signages <br>That Makes a Lasting Impression  </h2>
+        </div>
+
+        <div class="position-relative">
+            <div class="swiper We-Elevate-Brands-swiper pt-60">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/metal-and-stainless-steel-sign-boards-in-chennai">Metal & Steel Signages</a></h5>
+                                <p class="We-Elevate-Brands-text">Stainless steel signage is one of the most affordable and
+                                    durable signage. We design stainless steel signage for organizations with custom sizes
+                                    and designs.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/led-display-board-in-chennai">LED Sign Board</a></h5>
+                                <p class="We-Elevate-Brands-text">LED sign boards are the most versatile option for modern branding. 
+                                    We are proven experts in LED sign board manufacturing to help you create the best LED nameboards. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/digital-signage2.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/leading-digital-signage-in-chennai">Digital Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Digital displays are a dynamic and attention-grabbing transformation for 
+                                    retail spaces. We design modern digital signage and digital displays for every industry. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/acrylic-sign.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/acrylic-signages-in-chennai">Acrylic Signage</a></h5>
+                                <p class="We-Elevate-Brands-text">Acrylic signage is a preferred choice among industries for its glossy finish and durability. 
+                                    We design acrylic signage with unmatched durability and precision. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
+                                alt="Metal Signage">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/custom-neon-sign-boards-in-chennai">Neon Sign Board</a></h5>
+                                <p class="We-Elevate-Brands-text">Neon signs are a go-to option for retail and restaurant businesses for all-around visibility. 
+                                    We employ our precious experts to design the best neon signage designs in the city. </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- Navigation Arrows -->
+                <div class="We-Elevate-Brands-nav ">
+                    <!-- Swap order: prev on left, next on right -->
+                    <div class="We-Elevate-Brands-button-prev"></div>
+                    <div class="We-Elevate-Brands-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="https://brandsignages.com/services" class="btn-we-elevate">View All Services</a>
+        </div>
+        </div>
+    </section>
 <x-coustom-inquiry-form />
+
 
 <section class="process-section">
         <div class="container">
@@ -132,73 +257,6 @@
             </div>
         </div>
     </section>
-
-    <section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">We are The Leading <br>Signage Manufacturers in Chennai</h2>
-        <p class="card-text text-center">As one of the leading signboard manufacturers in Chennai, we offer signage solutions creatively crafted to meet the diverse needs of all businesses. From advanced LED sign boards to elegant acrylic signage, each type serves a unique purpose and adds value to your brand. Here are the kinds of sign boards in Chennai you can opt from:</p>
-
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-in-chennai-10.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <h2 class="brand-title">LED Sign Boards</h2>
-                <p class="brand-description">
-                    LED Sign boards are widely recognized for its observability and energy-efficiency. LED signs are perfect for storefronts, restaurants, and commercial places. Our LED signage boards are visually remarkable and simple to maintain.
-                <a href="{{route('led_display_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-                <h2 class="brand-title">Acrylic Sign Boards </h2>
-                <p class="brand-description">
-                    Our acrylic signage is ideal for indoor as well as outdoor usage. Lightweight and persistent, these sign boards can be tailored with your brand's logo and message. Acrylic led letters can also be attached for an illuminating outcome. 
-                    <a href="{{route('acrylic_signages_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-                <h2 class="brand-title">Metal Sign Boards</h2>
-                <p class="brand-description">
-                    Strong and durable, metal sign boards built from stainless steel or aluminum. They are perfect for Corporate office signs, building signs, wayfinder signage, and architectural landmarks. 
-                   <br> <a href="{{route('metal_sign_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-
-        <div class="row align-items-center">
-
-            <div class="col-lg-6 order-2 order-lg-1">
-                <h2 class="brand-title">Digital Sign Boards</h2>
-                <p class="brand-description">
-                If you require vibrant and communicative signage, our digital signage solutions are the ideal preference. These compose of LED displays, LED signage boards, and other high-tech solutions to retain your audience engrossed. 
-                    <a href="{{route('leading_digital_signages_manufacturer_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-                <h2 class="brand-title">Custom Sign Boards </h2>
-                <p class="brand-description">
-                    Customized to your branding requirements, custom signage solutions can be made using ACP sign boards wood, or metal. These boards can be outlined to mirror your brand’s exceptional recognition, guaranteeing a permanent impact. 
-                    <a href="{{route('custom_neon_sign_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-                <h2 class="brand-title">Neon Glow Signs </h2>
-                <p class="brand-description">
-                    Ideal for organizations seeking to make a striking remark, neon signage, and neon signs are vibrant, colorful, and spectacular. They are mostly used in cafes, bars, and entertainment zones, creating a lively ambiance. 
-                    <a href="{{route('custom_neon_sign_board_in_chennai')}}" style="text-decoration:unset;color:#e43d12"> >> Know More </a>
-                </p>
-            </div>
-
-            <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/signage-in-chennai-11.webp')}}" alt="Top-rated Sign Board Manufacturers in Chennai" class="img-fluid">
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
 <section class="why-bg-light-pink py-5">
     <div class="container">
         <div class="text-center mb-5">
@@ -747,6 +805,146 @@
     </div>
 </section>
 
+
+<section class="new_client_section container">
+            <h2 class="new_client_section-title">Our Valuable Clients Across India</h2>
+            <div class="row">
+                <div class="col-md-5 new_client_section-image col-12">
+                    <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
+                </div>
+                <div class="col-md-7 new_client_section-scrolling col-12">
+
+                    <div class="new_client_section-wrapper">
+                        <!-- Row 1 (Left to Right) -->
+                        <div class="new_client_section-row new_client_section-row-1">
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client">
+                            </div>
+
+                            <!-- Duplicates for seamless loop -->
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}" alt="White Gold - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}" alt="Manthan - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}" alt="Sobha - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}" alt="Societe Generale - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}" alt="HashedIn - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}" alt="Innoviti - Our Signage Client">
+                            </div>
+
+                        </div>
+
+                        <!-- Row 2 (Right to Left) -->
+                        <div class="new_client_section-row new_client_section-row-2">
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client">
+                            </div>
+
+                            <!-- Duplicates for seamless loop -->
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}" alt="Puravankara - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}" alt="Flipkart - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}" alt="VYMO - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}" alt="Indusface - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}" alt="Chargebee - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}" alt="Puravankara - Our Signage Client">
+                            </div>
+                        </div>
+
+                        <!-- Row 3 (Left to Right) -->
+                        <div class="new_client_section-row new_client_section-row-3">
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client">
+                            </div>
+                            <!-- Duplicates for seamless loop -->
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}" alt="Natural - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}" alt="Vakil Search - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}" alt="Bhive Workspace - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}" alt="Apollo Hospitals - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}" alt="Adarsh Developers - Our Signage Client">
+                            </div>
+                            <div class="new_client_section-client">
+                                <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}" alt="New Horizon Educational Institution - Our Signage Client">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 <section class="testimonial section ">
     <div class="container">
         <div class="text-center mb-5">
@@ -997,7 +1195,40 @@
     </div>
 </section>
 
-
+ <section class="other-cities-section mt-5">
+    <div class="container">
+        <h2 class="my-5">Sign Board in Other Cities</h2>
+        <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/leading-signage-company-in-mumbai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="Sign Boards in Mumbai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Mumbai</p>
+                </div>
+            </a>
+            </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/signage-in-chennai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="Sign Boards in Chennai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Chennai</p>
+                </div>
+                </a>
+            </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="Sign Boards in Bangalore">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Bangalore</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="faq-section">
     <div class="faq-container">
