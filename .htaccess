@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 1. Block access to critical Laravel folders that should NEVER be public
+    RewriteRule ^(app|bootstrap|config|database|node_modules|resources|routes|tests)($|/) - [F,L]
+
+    # 2. Redirect all requests to the public directory
+    # This maps 'vendor/' to 'public/vendor/' and 'storage/' to 'public/storage/'
+    # Since 'public/vendor' doesn't exist, it will 404.
+    # Since 'public/storage' is a symlink, it will allow legitimate asset access but block indexing.
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# 3. Disable directory indexing globally
+Options -Indexes
+
+# 4. Block access to sensitive system files and send noindex header
+<FilesMatch "^\.env|composer\.(json|lock)|package(-lock)?\.json|phpunit\.xml|vignette\.json">
+    <IfModule mod_headers.c>
+        Header set X-Robots-Tag "noindex, nofollow"
+    </IfModule>
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# 5. Prevent access to hidden files (dotfiles)
+RewriteRule "(^|/)\.(?!well-known)" - [F,L]

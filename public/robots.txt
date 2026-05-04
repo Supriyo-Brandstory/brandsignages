@@ -1,15 +1,21 @@
 
 User-agent: *
-Disallow: /brandsignages/vendor/
-Disallow: /brandsignages/resources/
-Disallow: /brandsignages/storage/
-Disallow: /brandsignages/brandsignages/
+Disallow: /vendor/
+Disallow: /storage/
+Disallow: /resources/
+Disallow: /app/
+Disallow: /bootstrap/
+Disallow: /config/
+Disallow: /database/
+Disallow: /routes/
+Disallow: /tests/
+Disallow: /.env
+Disallow: /composer.json
+Disallow: /composer.lock
+Disallow: /package.json
+Disallow: /package-lock.json
 
 Sitemap: https://brandsignages.com/sitemap.xml
 
 User-agent: Barkrowler
 Disallow: /
-
-
-
-
