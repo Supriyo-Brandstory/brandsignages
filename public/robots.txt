@@ -1,28 +1,15 @@
-# robots.txt for BrandSignages.com
 
-# Allow all bots to access the site
 User-agent: *
-Disallow:
+Disallow: /brandsignages/vendor/
+Disallow: /brandsignages/resources/
+Disallow: /brandsignages/storage/
+Disallow: /brandsignages/brandsignages/
 
-# Block Babbar's crawler
+Sitemap: https://brandsignages.com/sitemap.xml
+
 User-agent: Barkrowler
 Disallow: /
 
-# Sitemap location
-Sitemap: https://www.brandsignages.com/sitemap.xml
 
 
 
-
-# Block entire vendor directory
-Disallow: /brandsignages/vendor/
-
-# Block resources/views folders
-Disallow: /brandsignages/resources/
-
-# Block specific files if needed
-Disallow: /brandsignages/resources/views/vendor/
-Disallow: /brandsignages/resources/views/vendor/pagination/
-
-# Block duplicated /brandsignages/ folder path if required
-Disallow: /brandsignages/brandsignages/
