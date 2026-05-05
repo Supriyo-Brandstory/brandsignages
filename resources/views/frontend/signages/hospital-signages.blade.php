@@ -1,52 +1,285 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-
-<section class="safety-hero">
-    <div class="container">
-        <div class="row align-items-center g-5">
-            <div class="col-lg-6">
-                <div class="hero-badges">
-                    <div class="hero-badge">NABH Compliant</div>
-                    <div class="hero-badge">Healthcare Wayfinding</div>
-                    <div class="hero-badge">Custom Fabrication</div>
-                </div>
-
-                <div class="col-lg-6 visible-mobile">
-                    <div class="hero-image">
-                        <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800&q=80" class="img-fluid" alt="Hospital Signage">
-                        <div class="hero-float-card">
-                            <strong>Healthcare Signages</strong>
-                            <span>Wayfinding • Compliance • Patient Safety</span>
-                        </div>
-                    </div>
-                </div>
-
-                <h1>Hospital Signages- <br>Guide Every Step to Care</h1>
-
-                <p class="mt-3">
-                    Make your hospital and healthcare facility easier to navigate for patients, visitors, and staff with
-                    signage systems designed for clarity, compliance, and trust. Our hospital signages go beyond
-                    directional arrows — they build confidence at every turn.
-                </p>
-
-                <div class="hero-cta mt-4 d-flex gap-3 flex-wrap">
-                    <a href="#" class="btn btn-brand-red">Get a Quote</a>
-                    <a href="#" class="btn btn-outline-light">Start Your Project</a>
+    <section class="hero-banner"
+        style="background-image: url('{{ asset('frontend/Images/hs-banner.webp') }}'); ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="hero-banner_title">Medical Signage Solutions <br/> for Hospitals & Clinics</h1>
+                    <p>Brand Signages is a premier digital signage manufacturer with 12+ years <br>of experience.
+                        We create digital displays, interactive kiosk for all industries. With <br>in-house manufacturing
+                        setup
+                        in Bangalore, we deliver PAN India services.
+                    </p>
+                    <a href="https://brandsignages.com/contact-us">
+                        <button class="contact-btn">Book a Demo Call</button>
+                    </a>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="col-lg-6 hidden-mobile">
-                <div class="hero-image">
-                    <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800&q=80" class="img-fluid" alt="Hospital Signage">
-                    <div class="hero-float-card">
-                        <strong>Healthcare Signages</strong>
-                        <span>Wayfinding • Room ID • Emergency Exit</span>
-                    </div>
-                </div>
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold" style="font-family: 'Playfair Display', serif; color: #333;">Healthcare & Hospital Signages for<br>Modern Industry Needs</h2>
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <img src="{{ asset('frontend/Images/hs-1.webp') }}" alt="Modern Hospital Signage" class="img-fluid rounded-4 shadow">
+            </div>
+            <div class="col-lg-6">
+                <p>Our medical signages are designed to meet the requirements of patient care and operational efficiency within healthcare institutions. These are designed to guide patients through large, complex facilities and deliver real-time appointments and updates. If you combine modern technologies, you have hospital signage that attracts attention and creates a long-lasting impression.</p>
+                <p>Digital displays, interactive wayfinding systems, and mobile applications are transforming static signs into dynamic communication tools that can be updated in real time. Whether you need them for external or internal usage, we got you covered. We have a creative team that will align with your vision and will take care of the entire process till installation. This shift not only enhances patient navigation but also fosters a more engaging environment by providing timely updates on wait times, health tips, and hospital news.</p>
+                <p>So how can you create a cohesive identity as a healthcare institution? You can do it by investing in modern signage solutions to instill trust and support among patients. These boards offer both informative and aesthetic appeal and boost the overall patient experience.</p>
             </div>
         </div>
     </div>
 </section>
+
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold" style="font-family: 'Playfair Display', serif; color: #333;">Benefits of Using Signages<br>in Hospital/ Healthcare</h2>
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6 order-2 order-lg-1">
+                <p>The healthcare sector is complicated and is more confusing during rush hours. It can be daunting for people who have visited hospitals before, never mind those who just moved into the locality. But they can feel at ease by looking at the signage of the hospital, rather than going over different counters, kiosks, and desks.</p>
+                <p>How can you use digital signage for your healthcare institution? You can share information about healthcare services, such as available packages, doctors available, and procedures done in the organization. If you want, you can also share additional information to help patients learn about the hospital or facts about healthcare. These boards can be used for navigation and help patients without creating too much hassle.</p>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <img src="{{ asset('frontend/Images/hs-2.webp') }}" alt="Benefits of Hospital Signage" class="img-fluid rounded-4 shadow">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="why-bg-light-pink py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3 why-text-heading">Hospital/Medical Signages by Use Type</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/hs-crsl-1.webp')}}" class="why-card-img-top"
+                        alt="Directional and Wayfinding Signages">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Directional and Wayfinding Signages</h3>
+                        <p class="card-text">Directional and wayfinding signages are essential in hospitals to help patients and visitors navigate complex environments efficiently. Signage in your hospital space reduces confusion and anxiety, ensuring that individuals can find their way to appointments, departments, and services without unnecessary stress.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/hs-crsl-2.webp')}}" class="why-card-img-top"
+                        alt="Informational and Educational Signage">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Informational and Educational Signage</h3>
+                        <p class="card-text">Informational and educational medical signages play a crucial role in enhancing patient understanding of hospital services and health-related topics. These signs provide essential details about policies, procedures, available services, and health awareness initiatives that can empower patients.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/hs-crsl-3.webp')}}" class="why-card-img-top"
+                        alt="Safety and Compliance Signages">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Safety and Compliance Signages</h3>
+                        <p class="card-text">Safety signages are vital in a hospital space for ensuring the well-being of patients, visitors, and staff. These healthcare signages communicate critical information regarding emergency exits, safety protocols, and regulatory guidelines that must be adhered to within the healthcare environment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/hs-crsl-4.webp')}}" class="why-card-img-top"
+                        alt="Safety and Compliance Signages">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Safety and Compliance Signages</h3>
+                        <p class="card-text">Safety signages are vital in a hospital space for ensuring the well-being of patients, visitors, and staff. These healthcare signages communicate critical information regarding emergency exits, safety protocols, and regulatory guidelines that must be adhered to.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/hs-crsl-5.webp')}}" class="why-card-img-top"
+                        alt="Digital Signages">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Digital Signages</h3>
+                        <p class="card-text">Digital signage within hospitals provides interactive and dynamic displays to be updated in real-time. These screens serve important hospital news and schedules for outpatient services or educational content about health topics. Additionally, these can engage patients with entertaining content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="why-card card">
+                    <img src="{{asset('frontend/Images/hs-crsl-6.webp')}}" class="why-card-img-top"
+                        alt="Branding Signages">
+                    <div class="card-body why-card-body px-0">
+                        <h3 class="why-text-red mb-3">Branding Signages</h3>
+                        <p class="card-text">Branding signages play a significant role in establishing a hospital's identity while providing essential information about departments and services. These signs typically feature the clinic's logo prominently along with department names and room labels that help create a cohesive brand experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/hs-crsl-1.webp')}}" class="why-card-img-top"
+                                    alt="Directional and Wayfinding Signages">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Directional and Wayfinding Signages</h3>
+                                    <p class="card-text">Directional and wayfinding signages are essential in hospitals to help patients and visitors navigate complex environments efficiently. Signage in your hospital space reduces confusion and anxiety, ensuring that individuals can find their way to appointments.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/hs-crsl-2.webp')}}" class="why-card-img-top"
+                                    alt="Informational and Educational Signage">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Informational and Educational Signage</h3>
+                                    <p class="card-text">Informational and educational medical signages play a crucial role in enhancing patient understanding of hospital services and health-related topics. These signs provide essential details about policies, procedures, available services, and health awareness initiatives.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/hs-crsl-3.webp')}}" class="why-card-img-top"
+                                    alt="Safety and Compliance Signages">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Safety and Compliance Signages</h3>
+                                    <p class="card-text">Safety signages are vital in a hospital space for ensuring the well-being of patients, visitors, and staff. These healthcare signages communicate critical information regarding emergency exits, safety protocols, and regulatory guidelines that must be adhered to.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/hs-crsl-4.webp')}}" class="why-card-img-top"
+                                    alt="Safety and Compliance Signages">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Safety and Compliance Signages</h3>
+                                    <p class="card-text">Safety signages are vital in a hospital space for ensuring the well-being of patients, visitors, and staff. These healthcare signages communicate critical information regarding emergency exits, safety protocols, and regulatory guidelines that must be adhered to.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/hs-crsl-5.webp')}}" class="why-card-img-top"
+                                    alt="Digital Signages">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Digital Signages</h3>
+                                    <p class="card-text">Digital signage within hospitals provides interactive and dynamic displays to be updated in real-time. These screens serve important hospital news and schedules for outpatient services or educational content about health topics.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="why-card card">
+                                <img src="{{asset('frontend/Images/hs-crsl-6.webp')}}" class="why-card-img-top"
+                                    alt="Branding Signages">
+                                <div class="card-body why-card-body px-0">
+                                    <h3 class="why-text-red mb-3">Branding Signages</h3>
+                                    <p class="card-text">Branding signages play a significant role in establishing a hospital's identity while providing essential information about departments and services. These signs typically feature the clinic's logo prominently along with department names and room labels.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="why-carousel-controls">
+                <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                    data-bs-slide="prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
+                    data-bs-slide="next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="carousel-indicators why-carousel-indicators">
+                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="container py-5">
+    <div class="row g-4 d-flex flex-wrap justify-content-center">
+
+        <div class="text-center ">
+            <h2 class="display-4 mb-3 why-text-heading">Where to Use Signages in Hospital</h2>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="image-container position-relative">
+                <img src="{{asset('frontend/Images/hs-3.webp')}}" alt="Hospital Digital LED screens" class="w-100 h-100">
+                <div class="overlay">
+                    <h5 class="text-title" style="color: #ffb400;">Hospital Digital LED screens</h5>
+                    <p class="text-content">Digital signage of the hospital instantly captures attention and is selected for advertisements and informative presentations. These screens are eye-catching and versatile, unlike traditional hospital signs. These can be used to display wait times, health tips, and entertainment, reducing their anxiety.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="image-container position-relative">
+                <img src="{{asset('frontend/Images/hs-4.webp')}}" alt="Dental clinic signboard" class="">
+                <div class="overlay">
+                    <h5 class="text-title" style="color: #ffb400;">Dental clinic signboard</h5>
+                    <p class="text-content">A well-designed dental clinic signboard will tell people what to expect, the specialties, and the services. These should be placed outside the clinic where it is easily visible, of course, the text should be presented in big, bold letters. You can use them to share infographics on dental health to encourage patients to seek treatment, especially through rotating messages and special promotions.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="image-container position-relative">
+                <img src="{{asset('frontend/Images/hs-5.webp')}}" alt="Touchscreens" class="w-100 h-100">
+                <div class="overlay">
+                    <h5 class="text-title" style="color: #ffb400;">Touchscreens</h5>
+                    <p class="text-content">Nowadays, people don't like reading from signboards, they need something interactive. Touchscreens offer that outlet to people, as they can access data with their fingertips. People will engage more, and create an overall positive experience. If you place them around lobbies, waiting areas, and other areas to elevate wayfinding.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="image-container position-relative">
+                <img src="{{asset('frontend/Images/hs-6.webp')}}" alt="Video Walls" class="w-100 h-100">
+                <div class="overlay">
+                    <h5 class="text-title" style="color: #ffb400;">Video Walls</h5>
+                    <p class="text-content">Video walls are an innovative medical signage solution for displaying large-scale visual content in hospitals. They are particularly useful in high-traffic areas such as lobbies or waiting rooms where they can showcase important information or promotional content related to hospital services. The versatility of video walls allows hospitals to display a variety of content simultaneously.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold" style="font-family: 'Playfair Display', serif; color: #333;">Interior & Exterior Hospital Signages</h2>
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <img src="{{ asset('frontend/Images/hs-8.webp') }}" alt="Modern Hospital Signage" class="img-fluid rounded-4 shadow">
+            </div>
+            <div class="col-lg-6">
+                <p>An interior hospital signage helps patients find their way through the hospital without being uncomfortable. If these boards are well-designed,  they can be used for entertainment and educational purposes. Patient families can look at these signs and learn something new or pass the time. These include nameplates, departments, rooms, floor identifiers, and kiosks. These help patients reach the doctor or the room on time, instead of going in circles. They can also add a touch of color and warmth to the environment without compromising quality and professionalism. </p><br>
+                <p>A hospital's digital signage can play a vital role in creating a first impression, right from where patients enter the building. These can also help in directing people to specific wings, saving time and money. If positioned strategically, these can help, instead of distracting and irritating. These are used in the entry arches, parking lots, elevators, and staircases. Healthcare institutes can use lighting and other systems to make it more welcoming to patients and improve overall patient experience. </p><br>
+                <p>You can ask for customization of these signages to fit your brand’s perspective, and create a holistic environment.  </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 
 
 <section class="signage-editorial">
     <div class="container">
@@ -288,7 +521,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="new_testimonial-swiper-section">
     <div class="container">
