@@ -1,8 +1,6 @@
 
 User-agent: *
 Disallow: /vendor/
-Disallow: /storage/
-Disallow: /resources/
 Disallow: /app/
 Disallow: /bootstrap/
 Disallow: /config/
