@@ -85,7 +85,7 @@
         <div class="row align-items-center min-abt-main-row">
             <div class="col-lg-6">
                 <div class="min-abt-img-box">
-                    <img src="{{asset('frontend/Images/neon-1.webp')}}" alt="Neon Sign Board Bangalore" class="img-fluid">
+                    <img src="{{asset('frontend/Images/nl-1.webp')}}" alt="Neon Sign Board Bangalore" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -98,17 +98,17 @@
         <div class="row min-abt-gallery-row">
             <div class="col-lg-4 col-md-4 col-12 mb-4">
                 <div class="min-abt-sub-img">
-                     <img src="{{asset('frontend/Images/neon-2.webp')}}" alt="Neon Design" class="img-fluid">
+                     <img src="{{asset('frontend/Images/nl-2.webp')}}" alt="Neon Design" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4">
                 <div class="min-abt-sub-img">
-                     <img src="{{asset('frontend/Images/neon-3.webp')}}" alt="Neon Design" class="img-fluid">
+                     <img src="{{asset('frontend/Images/nl-3.webp')}}" alt="Neon Design" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-12 mb-4">
                 <div class="min-abt-sub-img">
-                     <img src="{{asset('frontend/Images/neon-4.webp')}}" alt="Neon Design" class="img-fluid">
+                     <img src="{{asset('frontend/Images/nl-4.webp')}}" alt="Neon Design" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -476,14 +476,14 @@
 <section class="neon-space-section py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="why-text-heading">We Design Neon Signs for Every Space</h2>
+            <h2 class="why-text-heading mb-3">We Design Neon Signs for Every Space</h2>
             <p>We produce high-class neon lights in Bangalore for all setups. Redesign your place with glow signage shaped just for you!</p>
         </div>
 
         <div class="neon-space-wrapper">
             <!-- Neon Signs for Bar -->
             <div class="neon-space-item active">
-                <img src="{{asset('frontend/Images/neonsign-bangalore6.webp')}}" alt="Neon Signs for Bar">
+                <img src="{{asset('frontend/Images/nl-5.webp')}}" alt="Neon Signs for Bar">
                 <div class="neon-item-content">
                     <div class="vertical-title-box">
                         <h3 class="vertical-title">Neon Signs for Bar</h3>
@@ -497,7 +497,7 @@
 
             <!-- Neon Lights for Restaurants -->
             <div class="neon-space-item">
-                <img src="{{asset('frontend/Images/neonsign-bangalore7.webp')}}" alt="Neon Lights for Restaurants">
+                <img src="{{asset('frontend/Images/nl-6.webp')}}" alt="Neon Lights for Restaurants">
                 <div class="neon-item-content">
                     <div class="vertical-title-box">
                         <h3 class="vertical-title">Neon Lights for Restaurants</h3>
@@ -511,7 +511,7 @@
 
             <!-- Neon Sign Logo -->
             <div class="neon-space-item">
-                <img src="{{asset('frontend/Images/neonsign-bangalore8.webp')}}" alt="Neon Sign Logo">
+                <img src="{{asset('frontend/Images/nl-7.webp')}}" alt="Neon Sign Logo">
                 <div class="neon-item-content">
                     <div class="vertical-title-box">
                         <h3 class="vertical-title">Neon Sign Logo</h3>
@@ -525,21 +525,21 @@
 
             <!-- Neon Sign Party Decor -->
             <div class="neon-space-item">
-                <img src="{{asset('frontend/Images/neonsign-bangalore9.webp')}}" alt="Neon Sign Party Decor">
+                <img src="{{asset('frontend/Images/nl-8.webp')}}" alt="Neon Sign Party Decor">
                 <div class="neon-item-content">
                     <div class="vertical-title-box">
                         <h3 class="vertical-title">Neon Sign Party Decor</h3>
                     </div>
                     <div class="horizontal-content">
                         <h3 class="neon-orange-title">Neon Sign Party Decor</h3>
-                        <p>Spice up your parties with innovative neon LED signs. From birthdays to weddings, our custom neon signs make for memorable party decor that brightens up your festivities.</p>
+                        <p>Stand aloof with a customized neon sign logo for your brand. Whether for a corporate office or a retail shop, sign boards implant life in your logo in a shining, unforgettable manner.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Neon Signs for Home -->
             <div class="neon-space-item">
-                <img src="{{asset('frontend/Images/neonsign-bangalore10.webp')}}" alt="Neon Signs for Home">
+                <img src="{{asset('frontend/Images/nl-9.webp')}}" alt="Neon Signs for Home">
                 <div class="neon-item-content">
                     <div class="vertical-title-box">
                         <h3 class="vertical-title">Neon Signs for Home</h3>
@@ -570,9 +570,16 @@
         transition: all 0.7s cubic-bezier(0.25, 1, 0.5, 1);
         cursor: pointer;
     }
-    .neon-space-item.active,
-    .neon-space-item:hover {
+    .neon-space-item.active {
         flex: 4;
+    }
+    /* When the wrapper is hovered, shrink the default active item */
+    .neon-space-wrapper:hover .neon-space-item.active {
+        flex: 1;
+    }
+    /* Expand the hovered item and ensure it stays expanded even if it was active */
+    .neon-space-wrapper .neon-space-item:hover {
+        flex: 4 !important;
     }
     .neon-space-item img {
         width: 100%;
@@ -597,9 +604,10 @@
         color: #fff;
     }
     .neon-orange-title {
-        color: #E43D12;
+        color: #fff;
         margin-bottom: 10px;
         font-weight: 700;
+        text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
     }
     .vertical-title-box {
         position: absolute;
@@ -626,15 +634,30 @@
         transition: all 0.5s ease 0.2s;
         visibility: hidden;
     }
-    .neon-space-item.active .vertical-title-box,
-    .neon-space-item:hover .vertical-title-box {
+    .neon-space-item.active .vertical-title-box {
         opacity: 0;
     }
-    .neon-space-item.active .horizontal-content,
-    .neon-space-item:hover .horizontal-content {
+    .neon-space-wrapper:hover .neon-space-item.active .vertical-title-box {
+        opacity: 1;
+    }
+    .neon-space-item:hover .vertical-title-box {
+        opacity: 0 !important;
+    }
+
+    .neon-space-item.active .horizontal-content {
         opacity: 1;
         transform: translateY(0);
         visibility: visible;
+    }
+    .neon-space-wrapper:hover .neon-space-item.active .horizontal-content {
+        opacity: 0;
+        transform: translateY(30px);
+        visibility: hidden;
+    }
+    .neon-space-item:hover .horizontal-content {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+        visibility: visible !important;
     }
     .horizontal-content p {
         margin-bottom: 0;
@@ -665,6 +688,59 @@
     }
 </style>
 
+
+    <section class="we-deliver"
+        style="background: url('{{ asset('frontend/Images/nl-10.webp') }}') no-repeat center center; background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <h2>Bring Your Vision to Light with Brand Signages’ Neon Signs in Bangalore</h2>
+                </div>
+                <div class="col-md-8 col-12">
+                    <p>
+                        Brand Signages offers state-of-the-art custom neon signboards. Here are the reasons why we are a promising name in neon sign manufacturing:
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/person-ico.webp') }}" alt="In-House Experts"
+                                    class="img-fluid">
+                                <h3>Expert-led Customization</h3>
+                                <p>
+                                    Brand Signages works with seasoned signage experts who design every piece of signage with creativity. You bring your vision to life with remarkable neon signboards in Bangalore. Our experts listen to your needs and create unique neon light designs with unmatched craftsmanship.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/settings-ico.webp') }}"
+                                    alt="Industry Grade Products" class="img-fluid">
+                                <h3>Latest Technology</h3>
+                                <p>We leverage the latest technology to create neon lights in Bangalore and serve all types of businesses across the city. We deliver top-of-the-line, innovative neon sign solutions backed by the latest industry trends and technological advancements.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/trusted-ico.webp') }}"
+                                    alt="10 Years of Expertise" class="img-fluid">
+                                <h3>Durable Solutions</h3>
+                                <p>We work with pinpoint precision while designing neon signboards. Our neon lights are designed to last for a long time, are energy efficient, and reduce the cost of maintenance. When it comes to neon lights in Bangalore, Brand Signages is best for custom-made neon lights.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/speed-ico.webp') }}"
+                                    alt="Network and Customer Support" class="img-fluid">
+                                <h3>Timely Delivery & Support</h3>
+                                <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee project completion without compromising quality or design integrity. We provide 24*7 support services from design to installation and maintenance.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+    </section>
 
 
 
@@ -989,7 +1065,6 @@
         <div class="text-center mb-5">
             <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
             <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our articles.</p>
-
         </div>
 
         <div class="row">
