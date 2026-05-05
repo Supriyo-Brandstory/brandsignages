@@ -195,6 +195,7 @@ class MenuSeeder extends Seeder
             ['title' => 'Name Plate Signs', 'url' => 'name-plate-signages-in-bangalore'],
             ['title' => 'Restroom Signs', 'url' => 'restroom-signs-in-bangalore'],
             ['title' => 'Office Desk Signs', 'url' => 'office-desk-signs-in-bangalore'],
+            ['title' => 'Sign Board Design', 'url' => 'sign-board-design-bangalore'],
         ];
 
         foreach ($bangaloreLinks as $index => $link) {
