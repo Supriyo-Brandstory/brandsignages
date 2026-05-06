@@ -120,7 +120,7 @@
 @endonce
 
 <section class="trust-features-section">
-    <h2>Exceptional Features</h2>
+    <h2 class="faq-title">Exceptional Features</h2>
     <div class="container">
         <div class="row align-items-center">
             <!-- Left Side: 8 Icons Grid -->
