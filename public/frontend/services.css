@@ -691,13 +691,13 @@ section.footer {
 
 .image-container img {
     width: 100%;
-    height: auto;
+    height: 296px !important;
     display: block;
 }
 
 .overlay {
     position: absolute;
-    bottom: 0;
+    bottom: 7px;
     left: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);

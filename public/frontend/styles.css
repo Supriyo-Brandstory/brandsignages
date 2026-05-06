@@ -404,40 +404,40 @@ h1.hero-banner_title {
 
 /* achievements-section  */
 
-.home-page .showcase-image img {
+.showcase-image img {
     height: 385px !important;
 }
 
-.home-page .achievement-box {
+.achievement-box {
 
     border-radius: 16px;
     overflow: hidden;
 }
 
-.home-page .achievement-box.years {
+.achievement-box.years {
     background: #E43D12;
     color: #fff;
 }
 
-.home-page .achievement-box.height-270 {
+.achievement-box.height-270 {
     height: 270px;
 }
 
-.home-page .achievement-box.height-582 {
+.achievement-box.height-582 {
     height: 582px;
 }
 
-.home-page .achievement-box.Deliveries {
+.achievement-box.Deliveries {
     background: #FDF7E8;
     height: 296px;
 }
 
-.home-page .achievement-box.client-base {
+.achievement-box.client-base {
     background: #FCECE7;
     height: 296px;
 }
 
-.home-page .achievement-box h3 {
+.achievement-box h3 {
     font-family: 'Lora';
     font-weight: 600;
     font-size: 64px;
@@ -446,7 +446,7 @@ h1.hero-banner_title {
     text-align: center;
 }
 
-.home-page .achievement-box p {
+.achievement-box p {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
@@ -455,7 +455,7 @@ h1.hero-banner_title {
     text-align: center;
 }
 
-.home-page .pointing {
+.pointing {
     background: url('/frontend/Images/home/point.webp');
     background-size: cover;
     background-position: top center;
@@ -473,20 +473,20 @@ h1.hero-banner_title {
 }
 
 @media (max-width: 576px) {
-    .home-page .achievement-box.height-270 {
+    .achievement-box.height-270 {
         height: 160px;
     }
 
-    .home-page .achievement-box.Deliveries {
+    .achievement-box.Deliveries {
         height: 160px;
         margin-bottom: 18px;
     }
 
-    .home-page .achievement-box.client-base {
+    .achievement-box.client-base {
         height: 160px;
     }
 
-    .home-page .achievement-box.height-582 {
+    .achievement-box.height-582 {
         height: 450px;
     }
 
@@ -498,7 +498,7 @@ h1.hero-banner_title {
 
 
 /* point  */
-.home-page .point {
+.point {
     height: 704px;
 }
 
@@ -638,14 +638,14 @@ h1.hero-banner_title {
 }
 
 @media (max-width: 576px) {
-    .home-page .pointing {
+    .pointing {
         background: url('/frontend/Images/home/point.webp');
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
     }
 
-    .home-page .point {
+    .point {
         height: 500px;
     }
 

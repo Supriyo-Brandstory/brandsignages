@@ -1,615 +1,789 @@
 @extends('frontend.layout.appLayout')
 @section('content')
+    <section class="hero-banner"
+        style="background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url('{{ asset('/frontend/Images/new/led-display-board-in-chennai-1.webp') }}');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="hero-banner_title">High-Impact LED Display Boards <br>in Chennai | 7X Energy Efficient</h1>
+                    <p>Brand Signages is a trusted B2B premium LED display board manufacturer<br> in Chennai, India. Shine brighter in the city with high-impact LED display boards.
+                    </p>
+                    <a href="https://brandsignages.com/contact-us">
+                        <button class="contact-btn">Get Free Quote</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section>
+        <div class="container py-5">
+            <h2 class="hero-title">Stand Out in Chennai’s Cityscape with<br> High-Impact LED Display Boards</h2>
 
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-2.webp')}}" alt="LED Display Board Design"
+                            class="img-fluid">
+                    </div>
+                </div>
 
-
-<section class="carousel-section">
- 
-
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-1.webp')}}" alt="Custom Neon Sign Boards in Chennai">
-                <div class="carousel-caption-custom">
-                    <h1>Leading LED Signage Manufacturers in Chennai                    </h1>
-                     <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                <div class="col-lg-6">
+                    <h2 class="brand-title">#1 LED Display Board Manufacturers in Chennai</h2>
+                    <p class="brand-description">
+                       In a world full of visual noise, your business must make an impact offline to stand out from competitors. 
+                       Sign boards act as the first point of interaction, and LED display boards are the talk of the town, boosting 
+                       brand visibility and capturing attention instantly.
+                    </p>
+                       <p class="brand-description">
+                       Brand Signages is a leading LED sign board manufacturers in Chennai, serving B2B customers with 7X energy-efficient striking visual displays. We provide a wide range of comprehensive <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED sign boards</strong></a> for our customers at affordable prices. As a trusted provider of LED signboards in Chennai, we deliver solutions tailored to make an impact.
+                    </p>
+                    <p class="brand-description">
+                       Being a prominent leader in <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>signage services</strong></a>, we have become trusted name in LED sign board manufacturing. We value our core principles, serve each customer with utmost priority, and bring your brand to life with captivating graphics and impactful visual storytelling. 
+                    </p>
+                    <div class="mt-4">
+                            <a href="{{route('about_us')}}" class="custom-btn">Know About Us</a>
                         </div>
                 </div>
             </div>
+        </div>
+    </section>
 
+  
+        <section class="We-Elevate-Brands-section py-5">
+        <div class="container">
+        <div class="text-center mb-4">
+            <h2 class="We-Elevate-Brands-heading fw-bold">Leaders in Premium LED Sign <br>Board Manufacturing</h2>
+        </div>
+
+        <div class="position-relative">
+            <div class="swiper We-Elevate-Brands-swiper pt-60">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp')}}" class="card-img-center"
+                                alt="Acrylic LED Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="3d-led-acrylic-letters">3D Acrylic LED Letters</a></h5>
+                                <p class="We-Elevate-Brands-text">Our acrylic LED letter sign boards combine bright illumination, clean edges, and long-lasting durability. 
+                                    Ideal for high-impact business name boards, they deliver excellent visibility with a modern, professional finish.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp')}}" class="card-img-center"
+                                alt="Aluminum LED Channel Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="led-aluminum-channel-letters">Aluminum LED Letters</a></h5>
+                                <p class="We-Elevate-Brands-text">Our aluminium channel letter sign boards feature a premium 3D profile with front-lit LED illumination.
+                                     Available in black, gold, silver, or multi-colour finishes, they are perfect for retail and boutique branding.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp')}}" class="card-img-center"
+                                alt="2D Stencil Cut Sign Boards">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="2d-stencil-cut-acrylic-led-letters">2D Stencil Cut Sign Board</a></h5>
+                                <p class="We-Elevate-Brands-text">2D stencil cut LED sign boards offer flush-mounted designs with concealed LED lighting. Cost-effective
+                                     and elegant, they are well-suited for minimalist branding and fine typography.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/crystal-led-6.webp')}}" class="card-img-center"
+                                alt="3D Crystal LED Letters">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="3d-crystal-led-letters">3D Crystal LED Letters</a></h5>
+                                <p class="We-Elevate-Brands-text">3D crystal LED letter sign boards feature crystal-infused acrylic faces with layered depth and backlit 
+                                    LEDs. Designed for luxury brands, they deliver a refined, high-visibility signage experience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp')}}" class="card-img-center"
+                                alt="Sky LED Sign Boards">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="sky-sign-boards">Sky LED Sign Boards</a></h5>
+                                <p class="We-Elevate-Brands-text">Our sky LED sign boards are large-format rooftop installations built with weather-resistant materials
+                                     and high-intensity LEDs. Engineered for long-distance visibility, they strengthen corporate brand presence.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/open-dot-led-sign-1.webp')}}" class="card-img-center"
+                                alt="LED Dot Matrix Displays">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="led-dot-matrix-display">LED Dot Matrix Displays</a></h5>
+                                <p class="We-Elevate-Brands-text">Our LED dot matrix display boards use exposed high-brightness LEDs with programmable
+                                     RGB effects. They are ideal for dynamic messaging in commercial and retail environments.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/flexibile-led-1.webp')}}" class="card-img-center"
+                                alt="Outdoor Business Signages">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="flexible-led-display-boards">Flexible LED Displays</a></h5>
+                                <p class="We-Elevate-Brands-text">Flexible LED display boards support curved installations and real-time 
+                                    content updates. Available in RGB or single-colour options, they suit both indoor and outdoor branding needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="card We-Elevate-Brands-card ">
+                            <img src="{{asset('frontend/Images/led-sign-board/neon-sign-board-4.webp')}}" class="card-img-center"
+                                alt="Neon LED Signs">
+                            <div class="card-body pt-0">
+                                <h5 class="We-Elevate-Brands-title"><a href="neon-signages">Neon LED Signs</a></h5>
+                                <p class="We-Elevate-Brands-text">LED neon sign boards use durable, shatter-resistant LED tubing to deliver vibrant neon-style
+                                     illumination. Energy-efficient and long-lasting, they offer a modern alternative to traditional neon signage.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Arrows -->
+                <div class="We-Elevate-Brands-nav ">
+                    <!-- Swap order: prev on left, next on right -->
+                    <div class="We-Elevate-Brands-button-prev"></div>
+                    <div class="We-Elevate-Brands-button-next"></div>
+                </div>
+
+            </div>
+        </div>
+                <div class="text-center mt-4">
+            <a href="contact-us" class="btn-we-elevate">Start Your Project</a>
+        </div>
        
-
-            
         </div>
-    </div>
-</section>
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Transform Your Brand with LED Display Boards in Chennai  </h2>
-       
+    </section>
 
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-2.webp')}}" alt="Prohibitory Signages" class="img-fluid">
-                </div>
-            </div>
 
-            <div class="col-lg-6">
-                <h2 class="brand-title">#1 LED Signage Manufacturers in Chennai               </h2>
-                <p class="brand-description">
-                    LED signage is the prominent option to enhance your brand’s observability and recognition. Whether you require an LED sign board for your storefront or custom LED signs to improve recognition, these signages provide unparalleled influence. Organizations in Chennai are welcoming LED signage for its universality and high-tech charm, making it mandatory for promotions. If you’re seeking signage or a message display solution for your enterprise, LED digital displays provide lively visuals and energy-saving performance.  
+          <section class="Maximum-Impact-section">
+        <div class="container">
+            <div class="swiper Maximum-Impact-swiper">
 
-                </p>
-                <p class="brand-description">
-                    Brand Signages is a premier <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED sign board manufacturers</strong></a> and makers in Chennai serving for more than 10 years. Be it wall-mounted LED signage, outdoor displays for publicity, or industrial LED signs for factories, we offer high-class LED signs customized to your requirements. With alternatives like custom LED signs and digital LED signage, your brand can be distinct in the combative Chennai market with Brand Signages.
-
-                </p>
-                <p class="brand-description">We are ready to push boundaries to showcase your brand with brand-new LED sign boards. Choose Brand Signage for innovative LED display boards in Chennai to illuminate your organization and leave a permanent impact!</p>
-                </div>
-        </div>
-    </div>
-</section>
-
-<section class="why-bg-light-pink py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Why Choose Brand Signages for LED Light Signboards?            </h2>
-            <p class="card-text text-center">Our LED signages are crafted to satisfy your exceptional business requirements while guaranteeing top-class standards, innovative technology, and dependable services. Here’s why we are unique:
-            </p>
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none">
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-3.webp')}}" class="why-card-img-top"
-                        alt="Expertise You Can Trust">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Expertise You Can Trust</h3>
-                        <p class="card-text">We bring many years of experience in generating inventive LED display boards in Chennai. Our team has an intense understanding of LED sign boards, confirming faultless installation and outcome. We comprehend multiple industries, from retail to industrial, providing personalized digital signage solutions for enterprises of all sizes. </p>
+                <h2>LED Display Boards That Create <br>Maximum Impact </h2>
+                <p>Trusted by clients across Chennai and India, we’ve worked on 100+ LED sign board projects with
+                    excellence.
+                    We are a proven leader in the B2B led sign board manufacturing with 10+ years of excellence. We design
+                    modern tech-savvy LED sign boards that consume 7x less energy, backed with premium quality materials and
+                    range of options.</p>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Display Board designed by Brand Signages">
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-4.webp')}}" class="why-card-img-top"
-                        alt="Premium-Quality LED Boards  ">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Premium-Quality LED Boards  </h3>
-                        <p class="card-text">Our LED display boards are designed with innovative technology for premium glow and longevity. Be it an outdoor LED display or an industrial LED display, we ensure superior substances that bear rough situations. Anticipate lively visuals, whether it’s a video wall, digital board, or message display, making sure that your content is distinct.</p>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="LED Display Board designed by Brand Signages">
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                    <div class="why-card card">
-                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-5.webp')}}" class="why-card-img-top"
-                            alt="Customized Design and Flexibility">
-                        <div class="card-body why-card-body px-0">
-                            <h3 class="why-text-red mb-3">Customized Design and Flexibility</h3>
-                            <p class="card-text">We focus on custom LED signs to depict your brand recognition. Whether you require an outdoor display, an LED video wall, or an exceptional LED digital solution, we produce designs that pull attention. Adjustable alternatives to fit any place, from compact display signs to huge industrial LED displays customized for influence.</p>
-                        </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="LED Display Board designed by Brand Signages">
                     </div>
-            </div>
-           
-          
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-7.webp')}}" class="why-card-img-top"
-                        alt="End-to-End Services">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">End-to-End Services</h3>
-                        <p class="card-text">We manage all from visualization to installation of your LED sign boards. Our extensive services ensure an effortless combination of digital display solutions in your business atmosphere.  From LED signage for organizations to display sign boards for occurrences, we provide trouble-free project implementation. </p>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Display Board designed by Brand Signages">
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="why-card card">
-                    <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-8.webp')}}" class="why-card-img-top"
-                        alt="Reliable Post-Installation Support">
-                    <div class="card-body why-card-body px-0">
-                        <h3 class="why-text-red mb-3">Reliable Post-Installation Support</h3>
-                        <p class="card-text">Enjoy mental peace with our devoted guidance for all LED display signs.We provide periodic upkeep, upgrades, and redressing for your LED boards and digital signage.Have faith in us for durable performance and unique service for your outdoor LED and industrial LED displays. </p>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="LED Display Board designed by Brand Signages">
                     </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Display Board designed by Brand Signages">
+                    </div>
+
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-4.webp') }}" alt="LED Display Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-3.webp') }}" alt="LED Display Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Display Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-1.webp') }}" alt="LED Display Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-5.webp') }}" alt="LED Display Board designed by Brand Signages">
+                    </div>
+                    <div class="swiper-slide Maximum-Impact-swiper-slide">
+                        <img src="{{ asset('frontend/Images/home/led-sign-2.webp') }}" alt="LED Display Board designed by Brand Signages">
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
+    </section>
+    
+    <section class="new-recent-works">
+        <div class="container">
+            <h2 class="hero-title  mb-6">Our Recent LED Display Board <br>Projects in Chennai</h2>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-12.webp')}}"
+                            alt="LED Display Board Project in Chennai" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Retail Signage</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
 
-        <div id="signageCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-3.webp')}}" class="why-card-img-top"
-                                    alt="Expertise You Can Trust">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Expertise You Can Trust</h3>
-                                    <p class="card-text">We bring many years of experience in generating inventive LED display boards in Chennai. Our team has an intense understanding of LED sign boards, confirming faultless installation and outcome. We comprehend multiple industries, from retail to industrial, providing personalized digital signage solutions for enterprises of all sizes. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-4.webp')}}" class="why-card-img-top"
-                                    alt="Premium-Quality LED Boards  ">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Premium-Quality LED Boards  </h3>
-                                    <p class="card-text">Our LED display boards are designed with innovative technology for premium glow and longevity. Be it an outdoor LED display or an industrial LED display, we ensure superior substances that bear rough situations. Anticipate lively visuals, whether it’s a video wall, digital board, or message display, making sure that your content is distinct.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-5.webp')}}" class="why-card-img-top"
-                                    alt="Customized Design and Flexibility">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Customized Design and Flexibility</h3>
-                                    <p class="card-text">
-                                        We focus on custom LED signs to depict your brand recognition. Whether you require an outdoor display, an LED video wall, or an exceptional LED digital solution, we produce designs that pull attention. Adjustable alternatives to fit any place, from compact display signs to huge industrial LED displays customized for influence.
-
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-5.webp')}}" class="why-card-img-top"
-                                    alt="Customized Design and Flexibility">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Customized Design and Flexibility</h3>
-                                    <p class="card-text">We focus on custom LED signs to depict your brand recognition. Whether you require an outdoor display, an LED video wall, or an exceptional LED digital solution, we produce designs that pull attention. Adjustable alternatives to fit any place, from compact display signs to huge industrial LED displays customized for influence.
-                                    </p>
-                                </div>
-                            </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-13.webp')}}"
+                            alt="LED Display Board Project in Chennai" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Corporate Branding</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
                         </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-7.webp')}}" class="why-card-img-top"
-                                    alt="End-to-End Services">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">End-to-End Services</h3>
-                                    <p class="card-text">We manage all from visualization to installation of your LED sign boards. Our extensive services ensure an effortless combination of digital display solutions in your business atmosphere.  From LED signage for organizations to display sign boards for occurrences, we provide trouble-free project implementation.  </p>
-                                </div>
-                            </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-14.webp')}}"
+                            alt="LED Display Board Project in Chennai" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Outdoor LED Display</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
                         </div>
-                        <div class="col-md-4">
-                            <div class="why-card card">
-                                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-8.webp')}}" class="why-card-img-top"
-                                    alt="Reliable Post-Installation Support">
-                                <div class="card-body why-card-body px-0">
-                                    <h3 class="why-text-red mb-3">Reliable Post-Installation Support</h3>
-                                    <p class="card-text">Enjoy mental peace with our devoted guidance for all LED display signs.We provide periodic upkeep, upgrades, and redressing for your LED boards and digital signage.Have faith in us for durable performance and unique service for your outdoor LED and industrial LED displays.     </p>
-                                </div>
-                            </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-15.webp')}}"
+                            alt="LED Display Board Project in Chennai" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Hospital Signage</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
                         </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-16.webp')}}"
+                            alt="LED Display Board Project in Chennai" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Restaurant Display</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-17.webp')}}"
+                            alt="LED Display Board Project in Chennai" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Boutique LED Sign</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
                     </div>
                 </div>
             </div>
-
-            <div class="why-carousel-controls">
-                <button id="prevButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
-                    data-bs-slide="prev">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button id="nextButton" class="why-carousel-control" type="button" data-bs-target="#signageCarousel"
-                    data-bs-slide="next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
+            <div class="text-center">
+                <a href="/contact-us">
+                    <button class="contact-btn">Start Your Project</button>
+                </a>
             </div>
 
-            <div class="carousel-indicators why-carousel-indicators">
-                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="0" class="active"
-                    aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#signageCarousel" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            </div>
+
         </div>
-    </div>
-</section>
+    </section>
 
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Industries We Serve as an LED Signage Manufacturer           </h2>
-        <p class="card-text text-center">Our creative LED display boards serve a range of industries, providing unique solutions personalized to satisfy their exceptional requirements. From promoting customer experiences to fostering brand observability, our LED sign boards and custom LED signs are outlined to make an influence with unparalleled standards and visual appeal:
-        </p>
 
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-9.webp')}}" alt="Prohibitory Signages" class="img-fluid">
-                </div>
-            </div>
+            <section class="container py-5">
+            <div class="new-contacts-section">
+                <div class="new-contacts-section-overlay">
+                    <p class="new-contacts-section-text">
+                        We don’t just create LED display boards, we craft illuminated designs that command attention. As leading LED sign board makers in Chennai, we 
+                        combine innovative lighting, precise detailing, and modern aesthetics to deliver LED sign boards that elevate your brand visibility day and
+                         night.
+                    </p>
 
-            <div class="col-lg-6">
-                <h2 class="brand-title">Retail and Shopping Malls</h2>
-                <p class="brand-description">
-                    <ul>
-                        <li>Glowy and extensive LED display boards produce an engrossing shopping experience for clients.  </li>
-                        <li>Exhibit promotions, discounts, and proclamations with lively digital signage and video walls.  </li>
-                        <li>Our outdoor LED displays are ideal for appealing awareness to your outlet from remote, even in congested sectors.  </li>
-                    </ul>
-                </p>
-                <h2 class="brand-title">Restaurants and Cafes</h2>
-                <p class="brand-description">
-                   
-                    <ul>
-                        <li>Modify your menu boards with polished LED digital displays that seize diners and emphasize specials.   </li>
-                        <li>Utilize custom LED signs to formulate an exceptional ambiance and promote your brand’s recognition.  </li>
-                        <li>Showcase signs and LED boards for promotional offers, events, and occasional specialties make a perpetual influence.</li>
-                    </ul>
-                </p>
-               
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-
-        <div class="row align-items-center">
-
-            <div class="col-lg-6 order-2 order-lg-1">
-                <h2 class="brand-title">Hospitals and Clinics</h2>
-                <p class="brand-description">
                     
-                    <ul>
-                        <li>Interact with crucial information efficiently with digital boards and LED signage in waiting zones and corridors.   </li>
-                        <li>Support patients with display boards exhibiting directions, services, and proclamations for an effortless experience.  </li>
-                        <li>Long-lasting industrial LED displays guarantee 24/7 dependability, even in challenging healthcare surroundings.</li>
-                    </ul>
-                </p>
-                <h2 class="brand-title">Corporate Offices</h2>
-                <p class="brand-description">
-                  
-                    <ul>
-                        <li>Promote meetings, presentations, and training sessions with high-definition LED video walls in boardrooms.  </li>
-                        <li>Utilize message displays for worker communication, guest greetings, and immediate updates.  </li>
-                    </ul>
-                    Install sophisticated LED sign boards at reception zones to mirror professionalism, creativity, and modernity.
-                
-                </p>
-            </div>
 
-            <div class="col-lg-6 mb-4 mb-lg-0  order-1 order-lg-2">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-10.webp')}}" alt="Prohibitory Signages" class="img-fluid">
                 </div>
             </div>
+        </section>
 
+
+         <div class="inquery-from-section">
+        <x-coustom-inquiry-form />
         </div>
-    </div>
-</section>
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-       
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-11.webp')}}" alt="Prohibitory Signages" class="img-fluid">
+                <section class="we-deliver">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <h2>Why Choose Brand Signages for LED Light Sign Boards</h2>
+                    </div>
+                    <div class="col-md-8 col-12">
+                    
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <div class="deliver-box">
+                                    <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
+                                        class="img-fluid">
+                                    <h3>Customized Designs</h3>
+                                    <p>Every LED light name board is thoughtfully designed to match your brand identity, ensuring the layout, lighting, and overall look align with your business image.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="deliver-box">
+                                    <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Timely Deliver"
+                                        class="img-fluid">
+                                    <h3>High Visibility Attention</h3>
+                                    <p>Chennai's vibrant commercial landscape, with its industrial hubs and bustling streets, makes our LED signboards a perfect choice for businesses seeking high visibility.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="deliver-box">
+                                    <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
+                                        class="img-fluid">
+                                    <h3>Long-Lasting Durability </h3>
+                                    <p>Our LED sign boards are designed with energy-efficient LED technology to ensure low electricity consumption and extended lifespan.
+                                    </p>
+                                </div>
+                            </div>
+                             <div class="col-md-6 col-12">
+                                <div class="deliver-box">
+                                    <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Direct Purchase"
+                                        class="img-fluid">
+                                    <h3>Installation & Maintenance </h3>
+                                    <p>We ensure quick production and smooth installation, while our LED signage boards require very little upkeep compared to traditional sign boards.
+                                    </p>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+        </section>
+
+
+            <section class="instant-pricing">
+            <div class="container">
+                <h2>LED Display Board Manufacturers in Chennai- 24 Hour Production Line</h2>
+                <p>We are the best LED Display Board Manufacturers in Chennai, backed by 24-hour production capability and proven expertise. Our in-house team ensures fast turnaround, 
+                    consistent quality, and <b>high-impact LED signage</b> solutions tailored to meet diverse business requirements.</p>
+                <div class="scroll-loop-wrapper">
+                    <div class="scroll-loop-track">
+                        @for ($i = 0; $i < 3; $i++)
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/panting.webp') }}" alt="Painting">
+                                <p>Painting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/MetalEtching.webp') }}" alt="Metal Etching">
+                                <p>Metal Etching</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/MetalLaserCutting.webp') }}" alt="Metal Laser Cutting">
+                                <p>Metal Laser Cutting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/AcrylicLaser.webp') }}" alt="Acrylic Laser">
+                                <p>Acrylic Laser</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/latex-printing.webp') }}" alt="Latex Printing">
+                                <p>Latex Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/uv-flat-print.webp') }}" alt="UV Flat Printing">
+                                <p>UV Flat Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/plotting.webp') }}" alt="Plotting">
+                                <p>Plotting</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/channel-letter.webp') }}" alt="Channel Letters">
+                                <p>Channel Letters</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/epoxy-letter.webp') }}" alt="Epoxy Letters">
+                                <p>Channel Letters</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/3d-printing.webp') }}" alt="3D printing">
+                                <p>3D Printing</p>
+                            </div>
+                            <div class="scroll-card">
+                                <img src="{{ asset('frontend/Images/home/led-letters.webp') }}" alt="LED Letters">
+                                <p>LED Letters</p>
+                            </div>
+                        @endfor
+                    </div>
                 </div>
             </div>
+    </section>
 
-            <div class="col-lg-6">
-                <h2 class="brand-title">Educational Institutions</h2>
-                <p class="brand-description">
-                    <ul>
-                        <li>Boost communicative learning with LED digital boards and video walls in classrooms and auditoriums.  </li>
-                        <li>Declare events, outcomes, planners, and achievements utilizing outdoor LED displays and display signs.    </li>
-                        <li>Energy-saving LED display boards guarantee affordable, long-run solutions for schools, colleges, and universities.  </li>
-                    </ul>
-                </p>
-              
-               
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="mt-lg-5">
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3" id="gallery-container">
-        <h2 class="hero-title">Catalogue</h2>
-        
-        <!-- First Row -->
+         <section class="new_client_section container">
+        <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-display-board-in-chennai-12.webp')}}" data-lightbox="catalogue" data-title="Image 1">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-12.webp')}}" class="img-fluid" alt="Catalogue" style="width: 100%;">
-                </a>
+            <div class="col-md-5 new_client_section-image col-12">
+                <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-display-board-in-chennai-13.webp')}}" data-lightbox="catalogue" data-title="Image 2">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-13.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-display-board-in-chennai-14.webp')}}" data-lightbox="catalogue" data-title="Image 3">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-14.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-display-board-in-chennai-15.webp')}}" data-lightbox="catalogue" data-title="Image 4">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-15.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
+            <div class="col-md-7 new_client_section-scrolling col-12">
+
+                <div class="new_client_section-wrapper">
+                    <!-- Row 1 (Left to Right) -->
+                    <div class="new_client_section-row new_client_section-row-1">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
+                                alt="White Gold - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
+                                alt="Manthan - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
+                                alt="Sobha - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
+                                alt="Societe Generale - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
+                                alt="HashedIn - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
+                                alt="Innoviti - Our Signage Client">
+                        </div>
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
+                                alt="White Gold - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
+                                alt="Manthan - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
+                                alt="Sobha - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
+                                alt="Societe Generale - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
+                                alt="HashedIn - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
+                                alt="Innoviti - Our Signage Client">
+                        </div>
+
+                    </div>
+
+                    <!-- Row 2 (Right to Left) -->
+                    <div class="new_client_section-row new_client_section-row-2">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
+                                alt="Flipkart - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
+                                alt="VYMO - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
+                                alt="Indusface - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
+                                alt="Chargebee - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
+                                alt="Flipkart - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
+                                alt="VYMO - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
+                                alt="Indusface - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
+                                alt="Chargebee - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                    </div>
+
+                    <!-- Row 3 (Left to Right) -->
+                    <div class="new_client_section-row new_client_section-row-3">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
+                                alt="Natural - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
+                                alt="Vakil Search - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
+                                alt="Bhive Workspace - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
+                                alt="Apollo Hospitals - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
+                                alt="Adarsh Developers - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
+                                alt="New Horizon Educational Institution - Our Signage Client">
+                        </div>
+
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
+                                alt="Natural - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
+                                alt="Vakil Search - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
+                                alt="Bhive Workspace - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
+                                alt="Apollo Hospitals - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
+                                alt="Adarsh Developers - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
+                                alt="New Horizon Educational Institution - Our Signage Client">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <!-- Second Row -->
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-display-board-in-chennai-16.webp')}}" data-lightbox="catalogue" data-title="Image 5">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-16.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-display-board-in-chennai-17.webp')}}" data-lightbox="catalogue" data-title="Image 6">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-17.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-display-board-in-chennai-18.webp')}}" data-lightbox="catalogue" data-title="Image 7">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-18.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <a href="{{asset('frontend/Images/new/led-display-board-in-chennai-19.webp')}}" data-lightbox="catalogue" data-title="Image 8">
-                <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-19.webp')}}" class="img-fluid" alt="Catalogue"  style="width: 100%;">
-                </a>
-            </div>
-        </div>
+    </section>
 
-    </div>
-</section>
+          <!-- testimonial Feedback Section -->
+        <section class="new_testimonial-swiper-section">
+            <div class="container">
+                <h2 class="text-center mb-md-5 mb-3">What Our Clients Say About Us</h2>
 
+                <div class="position-relative">
 
-<section class="testimonial section ">
+                    <!-- Navigation Arrows (placed OUTSIDE swiper container) -->
+                    <div class="new_testimonial-button-prev">
+                        <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40"
+                            height="40">
+                    </div>
+                    <div class="new_testimonial-button-next">
+                        <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40"
+                            height="40">
+                    </div>
+
+                    <!-- Swiper -->
+                    <div class="swiper new_testimonial-swiper">
+                        <div class="swiper-wrapper">
+
+                            <!-- Slide Item 1 -->
+                            <div class="swiper-slide">
+                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                    <div class="mb-4">
+                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                            width="40" height="40">
+                                    </div>
+                                    <p class="description">
+                                        The LED display board in Chennai that we bought from this company has modified our outlet. The lively digital signage allures more customers each day!
+                                    </p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <img src="{{ asset('frontend/Images/new/led-display-board-in-chennai-20.webp') }}" alt="Ravi Kumar"
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="name">Ravi Kumar</h6>
+                                            <small class="text-muted">Business Owner</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide Item 2 -->
+                            <div class="swiper-slide">
+                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                    <div class="mb-4">
+                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                            width="40" height="40">
+                                    </div>
+                                    <p class="description">
+                                        We needed an extraordinary neon sign board for our boutique, and this company rendered far ahead of our expectations. The LED neon and rope light consequences gave an ideal touch to our branding.
+                                    </p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <img src="{{ asset('frontend/Images/new/led-display-board-in-chennai-20.webp') }}" alt="Anita Sharma"
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="name">Anita Sharma</h6>
+                                            <small class="text-muted">Boutique Owner</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide Item 3 -->
+                            <div class="swiper-slide">
+                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                    <div class="mb-4">
+                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                            width="40" height="40">
+                                    </div>
+                                    <p class="description">
+                                        I was intrigued by their information and service. The industrial LED display installed at our factory is long-lasting, dependable, and performs faultlessly.
+                                    </p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <img src="{{ asset('frontend/Images/new/led-display-board-in-chennai-20.webp') }}" alt="Suresh Patel"
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="name">Suresh Patel</h6>
+                                            <small class="text-muted">Factory Manager</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide Item 4 -->
+                            <div class="swiper-slide">
+                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                    <div class="mb-4">
+                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                            width="40" height="40">
+                                    </div>
+                                    <p class="description">
+                                        Their LED video walls are excellent! We’ve utilized them in our events, and they always leave a permanent impact on our audience.
+                                    </p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <img src="{{ asset('frontend/Images/new/led-display-board-in-chennai-21.webp') }}" alt="Meera Singh"
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="name">Meera Singh</h6>
+                                            <small class="text-muted">Event Planner</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!-- Slide Item 5 -->
+                             <div class="swiper-slide">
+                                <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                    <div class="mb-4">
+                                        <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                            width="40" height="40">
+                                    </div>
+                                    <p class="description">
+                                        The outdoor LED display for our corporate office appears competent and advanced. The LED signboard at the entrance genuinely improves our brand reputation.
+                                    </p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <img src="{{ asset('frontend/Images/new/led-display-board-in-chennai-22.webp') }}" alt="Arun Joshi"
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="name">Arun Joshi</h6>
+                                            <small class="text-muted">Corporate Executive</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+    <section class="other-cities-section mt-5">
     <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Customer Testimonial</h2>
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none ">
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">The LED display board in Chennai that we bought from this company has modified our outlet. The lively digital signage allures more customers each day!</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-20.webp')}}" alt="Ravi Kumar" class="client-img">
-                            <div>
-                                <div class="client-name">Ravi Kumar</div>
-                                
-                            </div>
-                        </div>
-                    </div>
+        <h2 class="my-5">Led Sign Board in Other Cities</h2>
+        <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/led-display-board-in-mumbai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="LED Sign Boards Mumbai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Mumbai</p>
                 </div>
+            </a>
             </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">We needed an extraordinary neon sign board for our boutique, and this company rendered far ahead of our expectations. The LED neon and rope light consequences gave an ideal touch to our branding.</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-20.webp')}}" alt="Anita Sharma" class="client-img">
-                            <div>
-                                <div class="client-name">Anita Sharma</div>
-                               
-                            </div>
-                        </div>
-                    </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/led-display-board-in-chennai" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="LED Sign Boards Chennai">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Chennai</p>
                 </div>
+                </a>
             </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">“I was intrigued by their information and service. The industrial LED display installed at our factory is long-lasting, dependable, and performs faultlessly.</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-20.webp')}}" alt="Suresh Patel" class="client-img">
-                            <div>
-                                <div class="client-name">Suresh Patel</div>
-                               
-                            </div>
-                        </div>
-                    </div>
+            <div class="other-cities-card">
+                <a href="https://brandsignages.com/led-sign-board-in-bangalore" style="text-decoration: none;">
+                <div class="other-cities-img">
+                    <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="LED Sign Boards Bangalore">
+                    <div class="other-cities-overlay"></div>
+                    <p class="other-cities-title">Bangalore</p>
                 </div>
-            </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">Their LED video walls are excellent! We’ve utilized them in our events, and they always leave a permanent impact on our audience.</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-21.webp')}}" alt="Meera Singh" class="client-img">
-                            <div>
-                                <div class="client-name">Meera Singh</div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">The outdoor LED display for our corporate office appears competent and advanced. The LED signboard at the entrance genuinely improves our brand reputation.</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-22.webp')}}" alt="Arun Joshi" class="client-img">
-                            <div>
-                                <div class="client-name">Arun Joshi</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="testimonialCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The LED display board in Chennai that we bought from this company has modified our outlet. The lively digital signage allures more customers each day!</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-20.webp')}}" alt="Ravi Kumar" class="client-img">
-                                        <div>
-                                            <div class="client-name">Ravi Kumar</div>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">Our restaurant's ambiance is improved with their custom LED signs. The LED digital boards make our menu and promotions distinctively attractive!</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-20.webp')}}" alt="Anita Sharma" class="client-img">
-                                        <div>
-                                            <div class="client-name">Anita Sharma</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">“I was intrigued by their information and service. The industrial LED display installed at our factory is long-lasting, dependable, and performs faultlessly.</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-20.webp')}}" alt="Suresh Patel" class="client-img">
-                                        <div>
-                                            <div class="client-name">Suresh Patel</div>
-                                          
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">“I was intrigued by their information and service. The industrial LED display installed at our factory is long-lasting, dependable, and performs faultlessly. </p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-20.webp')}}" alt="Suresh Patel" class="client-img">
-                                        <div>
-                                            <div class="client-name">Suresh Patel</div>
-                                        </div>
-                                    </div>
-                                </div>              
-                        </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">Their LED video walls are excellent! We’ve utilized them in our events, and they always leave a permanent impact on our audience.</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-21.webp')}}" alt="Meera Singh" class="client-img">
-                                        <div>
-                                            <div class="client-name">Meera Singh</div>
-                                         
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The outdoor LED display for our corporate office appears competent and advanced. The LED signboard at the entrance genuinely improves our brand reputation.</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/new/led-display-board-in-chennai-22.webp')}}" alt="Arun Joshi" class="client-img">
-                                        <div>
-                                            <div class="client-name">Arun Joshi</div>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="testimonial-carousel-controls">
-                <button id="prevButton" class="testimonial-carousel-control" type="button"
-                    data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button id="nextButton" class="testimonial-carousel-control" type="button"
-                    data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
-
-            <div class="carousel-indicators testimonial-carousel-indicators">
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
-                    aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
+                </a>
             </div>
         </div>
     </div>
 </section>
-
-
 
 <section class="faq-section">
-    <div class="faq-container">
-        <h1 class="faq-title">FAQS</h1>
+    <div class="container">
+        <h1 class="faq-title">LED Display Board FAQs</h1>
 
         <div class="faq-item">
             <button class="faq-question">
@@ -617,7 +791,7 @@
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>We offer a huge range of solutions, comprising LED display boards in Chennai, custom LED signs, digital boards, video walls, and outdoor LED displays to satisfy multiple requirements. </p>
+                <p>We offer a huge range of solutions, comprising LED display boards in Chennai, custom LED signs, digital boards, video walls, and outdoor LED displays to satisfy multiple requirements. </p>
             </div>
         </div>
 
