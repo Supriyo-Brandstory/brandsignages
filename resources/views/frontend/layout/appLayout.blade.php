@@ -390,6 +390,20 @@
 
             <div class="swiper specialized-solutions-swiper">
                 <div class="swiper-wrapper">
+                    <!-- Card 0: Sign Board Design -->
+                    <div class="swiper-slide">
+                        <a href="{{ url('/sign-board-design-bangalore') }}" class="office-mag-card specialized-card">
+                            <img src="{{ asset('frontend/Images/name-boards.webp') }}" alt="Sign Board Design"
+                                class="office-mag-bg">
+                            <div class="office-mag-content">
+                                <h4 class="office-mag-title">Sign Board Design</h4>
+                                <p class="text-white">Professional sign board designs for all needs</p>
+                                <div class="office-mag-cta">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                     <!-- Card 1: Large Graphics -->
                     <div class="swiper-slide">
                         <a href="{{ url('/name-board-design-bangalore') }}" class="office-mag-card specialized-card">
