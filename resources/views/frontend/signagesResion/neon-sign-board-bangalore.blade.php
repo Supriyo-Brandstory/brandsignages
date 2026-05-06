@@ -1,7 +1,11 @@
 @extends('frontend.layout.appLayout')
 @section('content')
 
+@push('styles')
+    <link rel="stylesheet" href="xx.css" />
+@endpush
 
+    
     <section class="hero-banner"
         style="background-image: url('{{ asset('frontend/Images/neo-led-banner.webp') }}'); ">
         <div class="container">
