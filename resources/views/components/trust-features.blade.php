@@ -84,7 +84,12 @@
 
     @media (max-width: 991px) {
         .trust-features-section {
-            padding: 60px 0;
+            padding: 0px 0;
+            h2{
+                text-align: start;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
         }
         .feature-item {
             gap: 15px;
@@ -97,7 +102,7 @@
             font-size: 18px;
         }
         .buyer-protection-card {
-            margin-top: 60px;
+            margin-top: 10px;
             padding: 40px 30px;
         }
         .protection-title {
@@ -115,7 +120,7 @@
 @endonce
 
 <section class="trust-features-section">
-    <h1 class="faq-title">Exceptional Features</h1>
+    <h2>Exceptional Features</h2>
     <div class="container">
         <div class="row align-items-center">
             <!-- Left Side: 8 Icons Grid -->

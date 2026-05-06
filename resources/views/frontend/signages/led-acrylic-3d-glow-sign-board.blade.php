@@ -57,7 +57,7 @@
         </div>
     </section>
 
-    <section class="instant-pricing">
+    <section class="instant-pricing ">
         <div class="container py-5">
             <h2>Energy-Efficient Led Sign Boards <br>by Brand Signages</h2>
             <p>In a busy commercial environment, your sign board is often the first thing people notice about your business.
@@ -363,7 +363,7 @@
     </section>
 
 
-    <section id="pricing">
+    <section id="pricing" class="pb-5">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
             <h2 class="hero-title">Led Sign Board Size & Pricing <br>Explore Options</h2>
 

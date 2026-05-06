@@ -269,6 +269,9 @@
 }
 
 @media (max-width: 768px) {
+    .showcase-image img {
+        height: auto !important;
+    }
 
     .hero-title,
     .card-heading,
