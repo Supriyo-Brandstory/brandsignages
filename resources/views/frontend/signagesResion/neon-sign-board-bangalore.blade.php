@@ -5,28 +5,25 @@
     <link rel="stylesheet" href="{{ asset('frontend/styles.css') }}" />
 @endpush
 
-    
-    <section class="hero-banner"
-        style="background-image: url('{{ asset('frontend/Images/neo-led-banner.webp') }}'); ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="hero-banner_title">Best Neon Signage Boards in<br>Bangalore- Signs That Speak Loud</h1>
-                    <p>Brand Signages is a premier digital signage manufacturer with 12+ years <br>of experience.
-                        We create digital displays, interactive kiosk for all industries. With <br>in-house manufacturing
-                        setup
-                        in Bangalore, we deliver PAN India services.
-                    </p>
-                    <a href="https://brandsignages.com/contact-us">
-                        <button class="contact-btn">Book a Demo Call</button>
-                    </a>
+<section class="carousel-section">
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Slide 1">
+                <div class="carousel-caption-custom">
+                    <h1>Best Neon Signage Boards in Bangalore- Signs That Speak Loud</h1>
+                     <div class="mt-4">
+                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
+                        </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 <section>
     <div class="container py-5" id="gallery-container">
-        <h2 class="hero-title  mb-4">Premium Neon Signboards Bangalore- <br> Bold, Brilliant, and Unforgettable</h2>
+        <h2 class="hero-title  mb-4">Premium Neon Sign Boards Bangalore- <br> Bold, Brilliant, and Unforgettable</h2>
         <p class=" text-center mb-5">Add a fresh touch to your space and create a lasting impression with luminous neon lights that bring your branding to life.
             Brand Signages is the premier neon signage board manufacturer in Bangalore. We offer custom neon signboards in Bangalore for businesses with striking visuals and exceptional build quality. 
                 From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. We design spectacular neon signs perfect for businesses looking for eye-catching, 
@@ -83,94 +80,6 @@
     </div>
 </section>
 
-<section class="min-abt-section">
-    <div class="container">
-        <h2 class="min-abt-title text-center">Premium Neon Signboards Bangalore- <br> Bold, Brilliant, and Unforgettable</h2>
-        <div class="row align-items-center min-abt-main-row">
-            <div class="col-lg-6">
-                <div class="min-abt-img-box">
-                    <img src="{{asset('frontend/Images/nl-1.webp')}}" alt="Neon Sign Board Bangalore" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="min-abt-content">
-                    <p>Add a fresh touch to your space and create a lasting impression with luminous neon lights that bring your branding to life. Brand Signages is the premier neon signage board manufacturer in Bangalore. We offer custom neon signboards in Bangalore for businesses with striking visuals and exceptional build quality. From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. We design spectacular neon signs perfect for businesses looking for eye-catching, stylish, and durable signage. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards.</p>
-                    <p>Stand out from the crowd with expertly crafted neon signboards from <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">Brand Signages</a>. Our neon sign boards are lightweight, affordable, and energy-efficient compared to others. We deliver the most iconic and technologically advanced neon signs with unmatched quality and standards.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row min-abt-gallery-row">
-            <div class="col-lg-4 col-md-4 col-12 mb-4">
-                <div class="min-abt-sub-img">
-                     <img src="{{asset('frontend/Images/nl-2.webp')}}" alt="Neon Design" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-12 mb-4">
-                <div class="min-abt-sub-img">
-                     <img src="{{asset('frontend/Images/nl-3.webp')}}" alt="Neon Design" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-12 mb-4">
-                <div class="min-abt-sub-img">
-                     <img src="{{asset('frontend/Images/nl-4.webp')}}" alt="Neon Design" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<style>
-    .min-abt-section {
-        padding: 60px 0;
-    }
-    .min-abt-title {
-        font-size: 36px;
-        font-weight: 700;
-        margin-bottom: 40px;
-        color: #222;
-        line-height: 1.3;
-    }
-    .min-abt-main-row {
-        margin-bottom: 30px;
-    }
-    .min-abt-img-box img {
-        width: 100%;
-        border-radius: 20px;
-        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-        object-fit: cover;
-    }
-    .min-abt-content p {
-        font-size: 18px;
-        line-height: 1.7;
-        color: #444;
-        margin-bottom: 25px;
-        text-align: justify;
-    }
-    .min-abt-sub-img img {
-        width: 100%;
-        border-radius: 15px;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.07);
-        transition: all 0.3s ease;
-        aspect-ratio: 4/3;
-        object-fit: cover;
-    }
-    .min-abt-sub-img img:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 15px 30px rgba(0,0,0,0.12);
-    }
-    @media (max-width: 991px) {
-        .min-abt-title {
-            font-size: 28px;
-        }
-        .min-abt-img-box {
-            margin-bottom: 30px;
-        }
-        .min-abt-content p {
-            font-size: 16px;
-            text-align: left;
-        }
-    }
-</style>
 
 
 <div class="container d-block d-lg-flex justify-content-between align-items-start mt-0 mt-lg-5 mb-0 mb-lg-5">

@@ -1,30 +1,16 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-<!--<section class="carousel-section">
-    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{asset('frontend/Images/neon-image.webp')}}" alt="Slide 1">
-                <div class="carousel-caption-custom">
-                    <h1>Best Neon Sign Boards : Creative & Bright Neons</h1>
-                     <div class="mt-4">
-                        <a href="{{route('contact_us')}}" class="custom-btn">Get a Quote</a>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>-->
-
-    <section class="hero-banner" style="background-image: url('{{ asset('frontend/Images/neon-image.webp') }}');">
+    
+    <section class="hero-banner"
+        style="background-image: url('{{ asset('frontend/Images/neo-led-banner.webp') }}'); ">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Best Neon Sign Boards:<br> Creative & Bright Neons</h1>
-                    <p>Create a refined elegance with Brand Signages's <br>LED neon sign boards, designed to illuminate your space, <br>complementing your brand style.
+                    <h1 class="hero-banner_title">Best Neon Sign Boards:<br> Illuminating Bright Neons</h1>
+                    <p>Brand Signages offer premium neon signs crafted using advanced 2nd-gen <br>LED technology on high-quality 6 mm transparent acrylic. They are <br>energy-efficient, durable, and easy to install.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
-                        <button class="contact-btn">Know More</button>
+                        <button class="contact-btn">Book a Demo Call</button>
                     </a>
                 </div>
             </div>
@@ -33,7 +19,7 @@
 
     <section>
     <div class="container py-5" id="gallery-container">
-        <h2 class="hero-title  mb-4">Premium Neon Signboards – Bold, Brilliant, and Unforgettable</h2>
+        <h2 class="hero-title  mb-4">Premium Neon Sign Boards</h2>
         <p class=" brand-description text-center mb-5">At <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Brand Signages</a>, we bring your brand to life with vibrant, custom-designed neon signboards that captivate and communicate. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards- each tailored to reflect your unique brand identity. 
 
             <br>Whether you're a budding startup, retail business, restaurant, seasoned brand, or looking for neon signs for a special event or home, our neon solutions offer the perfect fusion of artistic flair and functional brilliance. Every sign is meticulously crafted to ensure visual appeal and durability, turning ordinary spaces into glowing experiences.
@@ -86,6 +72,93 @@
         </div>
     </div>
 </section>
+
+<section class="min-abt-section">
+    <div class="container">
+        <h2 class="min-abt-title text-center">2nd Gen LED Neon Signs– Brighter <br>Performance and Durability</h2>
+        <div class="row align-items-center min-abt-main-row">
+            <div class="col-lg-6">
+                <div class="min-abt-img-box">
+                    <img src="{{asset('frontend/Images/nl-1.webp')}}" alt="Neon Sign Board Bangalore" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="min-abt-content">
+                    <p class="fs-20">Step into the spotlight with Brand Signages- where timeless neon signs meets cutting-edge LED innovation. 
+                Our custom <a href="{{route('neon_sign_board_bangalore')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">neon sign boards</a>, elegantly mounted on crystal-clear acrylic bases, deliver a floating, ethereal glow 
+                that transforms any space into a captivating masterpiece. Perfect for bold business logos, inspiring quotes, or
+                 intricate designs, these signs command attention and etch your brand into memory.</p>
+                    <p class="fs-20">Built with transparent acrylic backing, our neon signs create a clean halo effect that improves brightness and visibility. Powered by 2nd gen LED neon, they are energy-efficient, long-lasting, and suitable for indoor and outdoor use. The lightweight, shatter-resistant build ensures durability, while clear visibility is maintained in both day and night conditions. Available in multiple colors, fonts, and designs, these signs can be customized to match your business requirements.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row min-abt-gallery-row">
+            <div class="col-lg-4 col-md-4 col-12 mb-4">
+                <div class="min-abt-sub-img">
+                     <img src="{{asset('frontend/Images/nl-2.webp')}}" alt="Neon Design" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mb-4">
+                <div class="min-abt-sub-img">
+                     <img src="{{asset('frontend/Images/nl-3.webp')}}" alt="Neon Design" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mb-4">
+                <div class="min-abt-sub-img">
+                     <img src="{{asset('frontend/Images/nl-4.webp')}}" alt="Neon Design" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .min-abt-section {
+        padding: 60px 0;
+    }
+    .min-abt-title {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 40px;
+        color: #222;
+        line-height: 1.3;
+    }
+    .min-abt-main-row {
+        margin-bottom: 30px;
+    }
+    .min-abt-img-box img {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        object-fit: cover;
+    }
+
+    .min-abt-sub-img img {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+        transition: all 0.3s ease;
+        aspect-ratio: 4/3;
+        object-fit: cover;
+    }
+    .min-abt-sub-img img:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+    }
+    @media (max-width: 991px) {
+        .min-abt-title {
+            font-size: 28px;
+        }
+        .min-abt-img-box {
+            margin-bottom: 30px;
+        }
+        .min-abt-content p {
+            font-size: 18px;
+            text-align: left;
+        }
+    }
+</style>
+
 
     <section id="pricing">
         <div class="container py-sm-2 py-3 pb-5">
