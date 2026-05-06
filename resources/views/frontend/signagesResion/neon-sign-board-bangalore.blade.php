@@ -1,9 +1,6 @@
 @extends('frontend.layout.appLayout')
 @section('content')
 
-@push('styles')
-    <link rel="stylesheet" href="{{ asset('frontend/styles.css') }}" />
-@endpush
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('frontend/neon-sign-board-bangalore.css') }}" />
