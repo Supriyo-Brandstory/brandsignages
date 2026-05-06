@@ -24,7 +24,7 @@
 <section>
     <div class="container py-5" id="gallery-container">
         <h2 class="hero-title  mb-4">Premium Neon Sign Boards Bangalore- <br> Bold, Brilliant, and Unforgettable</h2>
-        <p class=" text-center mb-5">Add a fresh touch to your space and create a lasting impression with luminous neon lights that bring your branding to life.
+        <p class="text-center mb-5 fs-20">Add a fresh touch to your space and create a lasting impression with luminous neon lights that bring your branding to life.
             Brand Signages is the premier neon signage board manufacturer in Bangalore. We offer custom neon signboards in Bangalore for businesses with striking visuals and exceptional build quality. 
                 From outdoor neon signs to sleek acrylic neon boards, our solutions enhance both branding and decor. We design spectacular neon signs perfect for businesses looking for eye-catching, 
                 stylish, and durable signage. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards.
@@ -79,125 +79,6 @@
         </div>
     </div>
 </section>
-
-
-
-<div class="container d-block d-lg-flex justify-content-between align-items-start mt-0 mt-lg-5 mb-0 mb-lg-5">
-    <div class="info">
-    <div class="d-flex gap-3">
-    <i class="fas fa-map-marker-alt fa-2x icon"></i>
-    <div>
-      <h3>Corporate Office</h3>
-      <p>Brand Signages, 5th Floor, BrandStoryVentures, Surya Chambers, 34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, Karnataka 560071</p>
-    </div>
-    </div>
-    <div class="d-flex gap-3">
-        <i class="fas fa-map-marker-alt fa-2x icon"></i>
-        <div>
-          <h3>Manufacturing Facility</h3>
-          <p>34, Domlur I Stage, Amarjyoti Layout, Domlur, Bengaluru, Karnataka 560071</p>
-        </div>
-        </div>
-        <div class="d-flex gap-3">
-            <i class="fas fa-clock fa-2x icon"></i>
-            <div>
-                <h3>Timing</h3>
-                <p>Monday – Saturday: 9.30 AM – 8:00 PM</p>
-            </div>
-            </div>
-
-<div class="contact-details">
-        <div class="contact-item">
-        <i class="fas fa-phone fa-2x icon"></i> <span>‪<a href="tel:+918006606080" style="text-decoration: unset;color:#E43D12;font-weight: bold;">+91 8006606080</a>‬</span>
-        </div>
-        <div class="contact-item">
-        <i class="fas fa-envelope fa-2x icon"></i> <span><a href="mailto:sales@brandsignages.com" style="text-decoration: unset;color:#E43D12;font-weight: bold;">sales@brandsignages.com</a></span>
-        </div>
-      </div>
-    </div>
-
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2458941156506!2d77.63487547484105!3d12.956111187357873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae154e854bc24d%3A0xca67160f8dc712fc!2sBrand%20Signages-%20Sign%20Board%20Manufacturers%20in%20Bangalore%20%7C%20LED%20%26%20Digital%20Signage%20Makers!5e0!3m2!1sen!2sin!4v1744381933145!5m2!1sen!2sin" width="600" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-
-  <style>
-
-
-    .info, .map {
-      flex: 1 1 100%;
-      padding: 20px;
-    }
- .info h3 {
-      margin-bottom: 10px;
-      color: #111;
-      font-size: 22px;
-    }
-
-    .info p {
-      margin: 5px 0 15px;
-      line-height: 1.6;
-    }
-    .info .icon {
-    font-size: 20px;
-    padding: 7px;
-    color: #E43D12;
-    }
-
-    .highlight {
-      font-weight: bold;
-    }
-
-    .contact-details {
-    display: flex;
-    gap: 20px;
-    margin: 20px 0 0;
-}
- .contact-item {
-        display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    border: solid 1px #8080804a;
-    border-radius: 5px;
-    padding: 20px 15px;
-    width: 100%;
-    }
-
-    .contact-item span {
-      margin-left: 10px;
-      color: #E43D12;
-    }
-
-    .map iframe {
-      width: 100%;
-      height: 370px;
-      border: none;
-    }
-
-    @media (min-width: 768px) {
-      .container {
-        flex-wrap: nowrap;
-      }
-      .info {
-        flex: 1;
-      }
-.map {
-        flex: 1;
-      }
-
-    }
-@media(max-width: 768px) {    
-      .contact-details {
-        display: block;
-      }
-      .info, .map {
-    flex: 1 1 100%;
-    padding: 0px;
-}
-    }
-  </style>
-
-
 
 <section class="contact-loc-section">
     <div class="container">
@@ -348,49 +229,13 @@
     }
 </style>
 
-<section>
-    <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-        <h2 class="hero-title">Bring Your Vision to Light with <br>Brand Signages’ Neon Signs in Bangalore</h2>
-
-        <div class="row align-items-center">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <div class="showcase-image">
-                    <img src="{{asset('frontend/Images/neon-image2.webp')}}" alt="Neon Light Sign Boards in Bangalore" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <p class="brand-description">
-                    Brand Signages offers state-of-the-art <a href="{{route('neon_signages')}}" style="text-decoration: unset;color:#E43D12;font-weight: bold;">custom neon signboards</a>. Here are the reasons why we are a promising name in neon sign manufacturing:
-                </p> 
-                <h2 class="brand-title">Expert-led Customization</h2>
-                <p class="brand-description">
-                Brand Signages works with seasoned signage experts who design every piece of signage with creativity. You bring your vision to life with remarkable <b>neon signboards in Bangalore</b>. Our experts listen to your needs and create unique neon light designs with unmatched craftsmanship. 
-                </p>
-                <h2 class="brand-title">Latest Technology</h2>
-                <p class="brand-description">
-                We leverage the latest technology to create neon lights in Bangalore and serve all types of businesses across the city. We deliver top-of-the-line, innovative neon sign solutions backed by the latest industry trends and technological advancements.    
-                </p>
-                <h2 class="brand-title">Durable Solutions</h2>
-                <p class="brand-description">
-                We work with pinpoint precision while designing neon signboards. Our neon <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name board designs</strong></a> are designed to last for a long time, are energy efficient, and reduce the cost of maintenance. When it comes to neon lights in Bangalore, Brand Signages is best for custom-made neon lights. 
-                </p>
-                <h2 class="brand-title">Timely Delivery & Support</h2>
-                <p class="brand-description">
-                We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee project completion without compromising quality or design integrity. We provide 24*7 support services from design to installation and maintenance. 
-                </p>
-
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <section class="neon-space-section py-5">
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="why-text-heading mb-3">We Design Neon Signs for Every Space</h2>
-            <p>We produce high-class neon lights in Bangalore for all setups. Redesign your place with glow signage shaped just for you!</p>
+            <p class="fs-20">We produce high-class neon lights in Bangalore for all setups. Redesign your place with glow signage shaped just for you!</p>
         </div>
 
         <div class="neon-space-wrapper">
@@ -607,12 +452,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-12">
-                    <h2>Bring Your Vision to Light with Brand Signages’ Neon Signs in Bangalore</h2>
+                    <h2>Bring Your Vision to Light with Brand Signages</h2>
                 </div>
                 <div class="col-md-8 col-12">
-                    <p>
-                        Brand Signages offers state-of-the-art custom neon signboards. Here are the reasons why we are a promising name in neon sign manufacturing:
-                    </p>
+
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <div class="deliver-box">
@@ -657,234 +500,296 @@
 
 
 
-<section class="testimonial section ">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Customer Testimonial</h2>
-        </div>
+    <section class="new_client_section container">
+        <h2 class="new_client_section-title">We Serve B2B Clients Across <br>All Industries</h2>
+        <div class="row">
+            <div class="col-md-5 new_client_section-image col-12">
+                <img src="{{ asset('frontend/Images/home/client-bg.webp') }}" alt="Our Clients">
+            </div>
+            <div class="col-md-7 new_client_section-scrolling col-12">
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-md-none ">
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">The custom neon signs in Bangalore we purchased from Brand Signages entirely changed our bar’s ambiance. The lively colors and class are unparalleled, inserting an exceptional and high-spirited environment that fascinates more customers! </p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore11.webp')}}" alt="Ravi S" class="client-img">
-                            <div>
-                                <div class="client-name">Ravi S</div>
-                            </div>
+                <div class="new_client_section-wrapper">
+                    <!-- Row 1 (Left to Right) -->
+                    <div class="new_client_section-row new_client_section-row-1">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
+                                alt="White Gold - Our Signage Client">
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">I required a neon signboard in Bangalore for my restaurant, got it delivered and it was far ahead of my expectations. The shine and simplicity are mind-blowing, and the sign has become a predominant aspect of our establishment!</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore12.webp')}}" alt="Madhuri" class="client-img">
-                            <div>
-                                <div class="client-name">Madhuri</div>
-                            </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
+                                alt="Manthan - Our Signage Client">
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">The neon lights in Bangalore we installed at our corporate office appear to be polished and competent. They’re energy-saving and exactly fit our branding requirements, rendering an advanced, luxurious feel to our office place.</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore13.webp')}}" alt="Arjun K" class="client-img">
-                            <div>
-                                <div class="client-name">Arjun K</div>
-                            </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
+                                alt="Sobha - Our Signage Client">
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">Our wedding decor was improved by eye-catching custom neon signs. The team delivered immense support and were on time, making our auspicious day even more remarkable with customized, shining designs!</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore14.webp')}}" alt="Megha P" class="client-img">
-                            <div>
-                                <div class="client-name">Megha P</div>
-                            </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
+                                alt="Societe Generale - Our Signage Client">
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col testimonial-small-div">
-                <div class="testimonial-card card">
-                    <div class="yellow-circle">
-                        <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                    </div>
-                    <div class="card-body px-0">
-                        <p class="card-text testimonial-card-text">I bought a glow signage board for my house, and it’s the main attraction of my living space. The contemporary design and alluring shine create the ideal ambiance. Thank you!</p>
-                        <hr class="yellow-line">
-                        <div class="client-info">
-                            <img src="{{asset('frontend/Images/neonsign-bangalore15.webp')}}" alt="Nikhil T" class="client-img">
-                            <div>
-                                <div class="client-name">Nikhil T</div>
-                            </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
+                                alt="HashedIn - Our Signage Client">
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
+                                alt="Innoviti - Our Signage Client">
+                        </div>
 
-        <div id="testimonialCarousel" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The custom neon signs in Bangalore we purchased from Brand Signages entirely changed our bar’s ambiance. The lively colors and class are unparalleled, inserting an exceptional and high-spirited environment that fascinates more customers! </p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore11.webp')}}" alt="Ravi S" class="client-img">
-                                        <div>
-                                            <div class="client-name">Ravi S</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client1.webp') }}"
+                                alt="White Gold - Our Signage Client">
                         </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">I required a neon signboard in Bangalore for my restaurant, got it delivered and it was far ahead of my expectations. The shine and simplicity are mind-blowing, and the sign has become a predominant aspect of our establishment!</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore12.webp')}}" alt="Madhuri" class="client-img">
-                                        <div>
-                                            <div class="client-name">Madhuri</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client2.webp') }}"
+                                alt="Manthan - Our Signage Client">
                         </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The neon lights in Bangalore we installed at our corporate office appear to be polished and competent. They’re energy-saving and exactly fit our branding requirements, rendering an advanced, luxurious feel to our office place.</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore13.webp')}}" alt="Arjun K" class="client-img">
-                                        <div>
-                                            <div class="client-name">Arjun K</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client3.webp') }}"
+                                alt="Sobha - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client4.webp') }}"
+                                alt="Societe Generale - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client5.webp') }}"
+                                alt="HashedIn - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client6.webp') }}"
+                                alt="Innoviti - Our Signage Client">
+                        </div>
+
+                    </div>
+
+                    <!-- Row 2 (Right to Left) -->
+                    <div class="new_client_section-row new_client_section-row-2">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
+                                alt="Flipkart - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
+                                alt="VYMO - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
+                                alt="Indusface - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
+                                alt="Chargebee - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client7.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client8.webp') }}"
+                                alt="Flipkart - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client9.webp') }}"
+                                alt="VYMO - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client10.webp') }}"
+                                alt="Indusface - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client11.webp') }}"
+                                alt="Chargebee - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client12.webp') }}"
+                                alt="Puravankara - Our Signage Client">
+                        </div>
+                    </div>
+
+                    <!-- Row 3 (Left to Right) -->
+                    <div class="new_client_section-row new_client_section-row-3">
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
+                                alt="Natural - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
+                                alt="Vakil Search - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
+                                alt="Bhive Workspace - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
+                                alt="Apollo Hospitals - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
+                                alt="Adarsh Developers - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
+                                alt="New Horizon Educational Institution - Our Signage Client">
+                        </div>
+
+
+                        <!-- Duplicates for seamless loop -->
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client13.webp') }}"
+                                alt="Natural - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client14.webp') }}"
+                                alt="Vakil Search - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client15.webp') }}"
+                                alt="Bhive Workspace - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client16.webp') }}"
+                                alt="Apollo Hospitals - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client17.webp') }}"
+                                alt="Adarsh Developers - Our Signage Client">
+                        </div>
+                        <div class="new_client_section-client">
+                            <img src="{{ asset('frontend/Images/client-logo/client18.webp') }}"
+                                alt="New Horizon Educational Institution - Our Signage Client">
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">The neon lights in Bangalore we installed at our corporate office appear to be polished and competent. They’re energy-saving and exactly fit our branding requirements, rendering an advanced, luxurious feel to our office place. <br> <br> </p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore13.webp')}}" alt="Arjun K" class="client-img">
-                                        <div>
-                                            <div class="client-name">Arjun K</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">Our wedding decor was improved by eye-catching custom neon signs. The team delivered immense support and were on time, making our auspicious day even more remarkable with customized, shining designs!</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore14.webp')}}" alt="Megha P" class="client-img">
-                                        <div>
-                                            <div class="client-name">Megha P</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial-card card">
-                                <div class="yellow-circle">
-                                    <img src="{{asset('frontend/Images/comment-icon.webp')}}" alt="Comment" class="comment-img">
-                                </div>
-                                <div class="card-body px-0">
-                                    <p class="card-text testimonial-card-text">I bought a glow signage board for my house, and it’s the main attraction of my living space. The contemporary design and alluring shine create the ideal ambiance. Thank you!</p>
-                                    <hr class="yellow-line">
-                                    <div class="client-info">
-                                        <img src="{{asset('frontend/Images/neonsign-bangalore15.webp')}}" alt="Nikhil T" class="client-img">
-                                        <div>
-                                            <div class="client-name">Nikhil T</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="testimonial-carousel-controls">
-                <button id="prevButton" class="testimonial-carousel-control" type="button"
-                    data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button id="nextButton" class="testimonial-carousel-control" type="button"
-                    data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
-
-            <div class="carousel-indicators testimonial-carousel-indicators">
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
-                    aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+    <section class="new_testimonial-swiper-section">
+        <div class="container">
+            <h2 class="text-center mb-md-5 mb-3">Feedback from Our Valuable Clients</h2>
+
+            <div class="position-relative">
+
+                <!-- Navigation Arrows (placed OUTSIDE swiper container) -->
+                <div class="new_testimonial-button-prev">
+                    <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40" height="40">
+                </div>
+                <div class="new_testimonial-button-next">
+                    <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40" height="40">
+                </div>
+
+                <!-- Swiper -->
+                <div class="swiper new_testimonial-swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide Item -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    Our tech startup needed a signage solution that matched our innovative spirit. The
+                                    design team didn't just create a sign; they captured our company's entire essence.
+                                    The LED-powered brand display has become a conversation starter for clients and
+                                    employees alike.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/sneha-reddy.webp') }}" alt="Sneha Reddy- Our Client"
+                                        class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sneha Reddy</h6>
+                                        <small class="text-muted">Marketing Head – Urban Retail Co.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Duplicate Slide -->
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    We needed stunning, durable, and regulation-compliant signage for our hospital,
+                                    and Brand Signages delivered exactly what we asked for. Their attention to detail
+                                    is excellent, which helped us enhance the patient experience.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/seema.webp') }}" alt="Seema - Our Client"
+                                        class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Seema Nayak</h6>
+                                        <small class="text-muted">Operations Manager– Horizon Hospitals</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    From initial conceptualization to execution, they executed our café signage project
+                                    seamlessly. They perfectly captured the aesthetics of our brand with vibrant acrylic
+                                    signs and a neon board that has quickly become an Instagram favorite among local people.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/sandeep-gupta.webp') }}"
+                                        alt="Sandeep Gupta - Our Client" class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sandeep Gupta</h6>
+                                        <small class="text-muted">Founder – Café Bloom</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
+                                <div class="mb-4">
+                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
+                                        width="40" height="40">
+                                </div>
+                                <p class="description">
+                                    We needed elegant indoor and outdoor corporate signage that matched our branding.
+                                    Brand Signages impressed us with their quick turnaround, premium finish, and seamless
+                                    coordination throughout the signage project.
+                                </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <img src="{{ asset('frontend/Images/vikram-sharma.webp') }}"
+                                        alt="Sandeep Gupta - Our Client" class="rounded-circle me-3" width="50" height="50">
+                                    <div>
+                                        <h6 class="name">Sandeep Gupta</h6>
+                                        <small class="text-muted">Director– Nova Consulting Group</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 <section class="faq-section">
@@ -973,8 +878,6 @@
 
     </div>
 </section>
-
-<x-trust-features />
 
 <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
     <div class="container">
