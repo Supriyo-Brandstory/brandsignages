@@ -5,25 +5,29 @@
     <link rel="stylesheet" href="{{ asset('frontend/styles.css') }}" />
 @endpush
 
-    
-    <section class="hero-banner"
-        style="background-image: url('{{ asset('frontend/Images/neo-led-banner.webp') }}'); ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="hero-banner_title">Best Neon Signage Boards in<br>Bangalore- Signs That Speak Loud</h1>
-                    <p>Brand Signages is a premier digital signage manufacturer with 12+ years <br>of experience.
-                        We create digital displays, interactive kiosk for all industries. With <br>in-house manufacturing
-                        setup
-                        in Bangalore, we deliver PAN India services.
-                    </p>
-                    <a href="https://brandsignages.com/contact-us">
-                        <button class="contact-btn">Book a Demo Call</button>
-                    </a>
-                </div>
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('frontend/neon-sign-board-bangalore.css') }}" />
+@endpush
+
+<section class="hero-banner"
+    style="background-image: url('{{ asset('frontend/Images/neo-led-banner.webp') }}'); ">
+    <div class="container">
+        <div class="row"> 
+            <div class="col-md-12">
+                <h1 class="hero-banner_title">Best Neon Signage Boards in<br>Bangalore- Signs That Speak Loud</h1>
+                <p>Brand Signages is a premier digital signage manufacturer with 12+ years <br>of experience.
+                    We create digital displays, interactive kiosk for all industries. With <br>in-house manufacturing
+                    setup
+                    in Bangalore, we deliver PAN India services.
+                </p>
+                <a href="https://brandsignages.com/contact-us">
+                    <button class="contact-btn">Book a Demo Call</button>
+                </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 <section>
     <div class="container py-5" id="gallery-container">
         <h2 class="hero-title  mb-4">Premium Neon Signboards Bangalore- <br> Bold, Brilliant, and Unforgettable</h2>
@@ -119,58 +123,6 @@
     </div>
 </section>
 
-<style>
-    .min-abt-section {
-        padding: 60px 0;
-    }
-    .min-abt-title {
-        font-size: 36px;
-        font-weight: 700;
-        margin-bottom: 40px;
-        color: #222;
-        line-height: 1.3;
-    }
-    .min-abt-main-row {
-        margin-bottom: 30px;
-    }
-    .min-abt-img-box img {
-        width: 100%;
-        border-radius: 20px;
-        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-        object-fit: cover;
-    }
-    .min-abt-content p {
-        font-size: 18px;
-        line-height: 1.7;
-        color: #444;
-        margin-bottom: 25px;
-        text-align: justify;
-    }
-    .min-abt-sub-img img {
-        width: 100%;
-        border-radius: 15px;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.07);
-        transition: all 0.3s ease;
-        aspect-ratio: 4/3;
-        object-fit: cover;
-    }
-    .min-abt-sub-img img:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 15px 30px rgba(0,0,0,0.12);
-    }
-    @media (max-width: 991px) {
-        .min-abt-title {
-            font-size: 28px;
-        }
-        .min-abt-img-box {
-            margin-bottom: 30px;
-        }
-        .min-abt-content p {
-            font-size: 16px;
-            text-align: left;
-        }
-    }
-</style>
 
 
 <div class="container d-block d-lg-flex justify-content-between align-items-start mt-0 mt-lg-5 mb-0 mb-lg-5">
@@ -212,81 +164,7 @@
     </div>
   </div>
 
-  <style>
 
-
-    .info, .map {
-      flex: 1 1 100%;
-      padding: 20px;
-    }
- .info h3 {
-      margin-bottom: 10px;
-      color: #111;
-      font-size: 22px;
-    }
-
-    .info p {
-      margin: 5px 0 15px;
-      line-height: 1.6;
-    }
-    .info .icon {
-    font-size: 20px;
-    padding: 7px;
-    color: #E43D12;
-    }
-
-    .highlight {
-      font-weight: bold;
-    }
-
-    .contact-details {
-    display: flex;
-    gap: 20px;
-    margin: 20px 0 0;
-}
- .contact-item {
-        display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    border: solid 1px #8080804a;
-    border-radius: 5px;
-    padding: 20px 15px;
-    width: 100%;
-    }
-
-    .contact-item span {
-      margin-left: 10px;
-      color: #E43D12;
-    }
-
-    .map iframe {
-      width: 100%;
-      height: 370px;
-      border: none;
-    }
-
-    @media (min-width: 768px) {
-      .container {
-        flex-wrap: nowrap;
-      }
-      .info {
-        flex: 1;
-      }
-.map {
-        flex: 1;
-      }
-
-    }
-@media(max-width: 768px) {    
-      .contact-details {
-        display: block;
-      }
-      .info, .map {
-    flex: 1 1 100%;
-    padding: 0px;
-}
-    }
-  </style>
 
 
 
@@ -339,105 +217,6 @@
     </div>
 </section>
 
-<style>
-    .contact-loc-section {
-        padding: 40px 0 60px;
-    }
-    .contact-loc-map-container {
-        width: 100%;
-        border-radius: 25px;
-        overflow: hidden;
-        margin-bottom: 30px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    }
-    .contact-loc-map-container iframe {
-        width: 100%;
-        height: 450px;
-        border: none;
-        display: block;
-    }
-    .contact-loc-box {
-        background : #E53C12;
-        /* background-image: url('{{ asset('frontend/Images/checked-orange-bg.webp') }}'); */
-        background-size: cover;
-        background-position: center;
-        border-radius: 25px;
-        padding: 45px 40px;
-        color: #fff;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .checked-bg{
-        background-image: url('{{ asset('frontend/Images/checked-orange-bg.webp') }}') !important;
-    }
-    .contact-loc-item {
-        display: flex;
-        align-items: flex-start;
-        gap: 20px;
-        margin-bottom: 35px;
-    }
-    .contact-loc-item:last-child {
-        margin-bottom: 0;
-    }
-    .contact-loc-icon {
-        font-size: 26px;
-        min-width: 30px;
-        margin-top: 5px;
-    }
-    .contact-loc-info h3 {
-        font-size: 24px;
-        font-weight: 700;
-        margin-bottom: 10px;
-        color: #fff;
-    }
-    .contact-loc-info p {
-        font-size: 17px;
-        line-height: 1.5;
-        margin-bottom: 0;
-        opacity: 0.95;
-    }
-    .contact-loc-details-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-        margin-top: 60px;
-    }
-    .contact-loc-detail {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-    }
-    .contact-loc-detail a {
-        color: #fff;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 22px;
-    }
-    @media (max-width: 991px) {
-        .contact-loc-box {
-            padding: 30px;
-            margin-bottom: 20px;
-        }
-        .contact-loc-map-container iframe {
-            height: 350px;
-        }
-        .contact-loc-info h3 {
-            font-size: 20px;
-        }
-        .contact-loc-info p {
-            font-size: 15px;
-        }
-        .contact-loc-details-row {
-            margin-top: 30px;
-            gap: 20px;
-        }
-        .contact-loc-detail a {
-            font-size: 18px;
-        }
-    }
-</style>
 
 <section>
     <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
@@ -558,139 +337,6 @@
     </div>
 </section>
 
-<style>
-    .neon-space-wrapper {
-        display: flex;
-        gap: 15px;
-        height: 550px;
-        width: 100%;
-        margin-top: 40px;
-    }
-    .neon-space-item {
-        position: relative;
-        flex: 1;
-        overflow: hidden;
-        border-radius: 25px;
-        transition: all 0.7s cubic-bezier(0.25, 1, 0.5, 1);
-        cursor: pointer;
-    }
-    .neon-space-item.active {
-        flex: 4;
-    }
-    /* When the wrapper is hovered, shrink the default active item */
-    .neon-space-wrapper:hover .neon-space-item.active {
-        flex: 1;
-    }
-    /* Expand the hovered item and ensure it stays expanded even if it was active */
-    .neon-space-wrapper .neon-space-item:hover {
-        flex: 4 !important;
-    }
-    .neon-space-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.7s ease;
-    }
-    .neon-space-item:hover img {
-        transform: scale(1.08);
-    }
-    .neon-item-content {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, transparent 100%);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        padding: 25px;
-        color: #fff;
-    }
-    .neon-orange-title {
-        color: #fff;
-        margin-bottom: 10px;
-        font-weight: 700;
-        text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
-    }
-    .vertical-title-box {
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-        transition: opacity 0.4s ease;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        pointer-events: none;
-    }
-    .vertical-title {
-        writing-mode: vertical-rl;
-        transform: rotate(180deg);
-        white-space: nowrap;
-        margin: 0;
-        font-weight: 700;
-        text-shadow: 0 2px 10px rgba(0,0,0,0.5);
-    }
-    .horizontal-content {
-        opacity: 0;
-        transform: translateY(30px);
-        transition: all 0.5s ease 0.2s;
-        visibility: hidden;
-    }
-    .neon-space-item.active .vertical-title-box {
-        opacity: 0;
-    }
-    .neon-space-wrapper:hover .neon-space-item.active .vertical-title-box {
-        opacity: 1;
-    }
-    .neon-space-item:hover .vertical-title-box {
-        opacity: 0 !important;
-    }
-
-    .neon-space-item.active .horizontal-content {
-        opacity: 1;
-        transform: translateY(0);
-        visibility: visible;
-    }
-    .neon-space-wrapper:hover .neon-space-item.active .horizontal-content {
-        opacity: 0;
-        transform: translateY(30px);
-        visibility: hidden;
-    }
-    .neon-space-item:hover .horizontal-content {
-        opacity: 1 !important;
-        transform: translateY(0) !important;
-        visibility: visible !important;
-    }
-    .horizontal-content p {
-        margin-bottom: 0;
-        line-height: 1.6;
-        font-weight: 400;
-    }
-    @media (max-width: 991px) {
-        .neon-space-wrapper {
-            flex-direction: column;
-            height: auto;
-            gap: 20px;
-        }
-        .neon-space-item {
-            height: 350px;
-            flex: none !important;
-        }
-        .vertical-title-box {
-            display: none;
-        }
-        .horizontal-content {
-            opacity: 1 !important;
-            transform: none !important;
-            visibility: visible !important;
-        }
-        .neon-item-content {
-            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
-        }
-    }
-</style>
 
 
     <section class="we-deliver"
