@@ -2,7 +2,7 @@
 @section('content')
 
 @push('styles')
-    <link rel="stylesheet" href="xx.css" />
+    <link rel="stylesheet" href="{{ asset('frontend/styles.css') }}" />
 @endpush
 
     
