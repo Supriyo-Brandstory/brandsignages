@@ -275,12 +275,6 @@
                 </div>
             </div>
 
-                    <div class="text-center" style="padding: 20px 0;">
-            <a href="/contact-us">
-                <button class="contact-btn">Ask for Quote</button>
-            </a>
-        </div>
-
         </div>
     </section>
 

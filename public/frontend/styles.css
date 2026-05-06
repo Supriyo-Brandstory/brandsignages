@@ -394,7 +394,7 @@ h1.hero-banner_title {
 /* achievements-section  */
 
 .showcase-image img {
-    height: 385px !important;
+    height: 385px;
 }
 
 .achievement-box {
