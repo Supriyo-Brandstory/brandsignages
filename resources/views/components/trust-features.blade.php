@@ -94,7 +94,7 @@
             height: 35px;
         }
         .feature-label {
-            font-size: 16px;
+            font-size: 18px;
         }
         .buyer-protection-card {
             margin-top: 60px;
@@ -115,7 +115,7 @@
 @endonce
 
 <section class="trust-features-section">
-    <h1 class="faq-title">Why Choose Neon Sign Shop?</h1>
+    <h1 class="faq-title">Exceptional Features</h1>
     <div class="container">
         <div class="row align-items-center">
             <!-- Left Side: 8 Icons Grid -->
@@ -124,66 +124,66 @@
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="feature-item">
                             <div class="feature-icon">
-                               <img src="{{ asset('frontend/Images/icon-1.svg') }}" alt=""/>
+                               <img src="{{ asset('frontend/Images/icon-1.svg') }}" alt="1000+ Unique Custom Design Options"/>
 
                             </div>
-                            <h5 class="feature-label">UV Shield Coating</h5>
+                            <h5 class="feature-label">1,000+ Unique Designs</h5>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="#4299e1" xmlns="http://www.w3.org/2000/svg"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                <img src="{{ asset('frontend/Images/icon-2.png') }}" alt="UV Protection Shield"/>
                             </div>
-                            <h5 class="feature-label">50k Hour Glow</h5>
+                            <h5 class="feature-label">UV Protection Shield</h5>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="#e53e3e" xmlns="http://www.w3.org/2000/svg"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                <img src="{{ asset('frontend/Images/icon-3.png') }}" alt="Heavy-Duty Build Quality"/>
                             </div>
-                            <h5 class="feature-label">Heavy-Duty Build</h5>
+                            <h5 class="feature-label">Heavy-Duty Build Quality</h5>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="#3182ce" xmlns="http://www.w3.org/2000/svg"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                <img src="{{ asset('frontend/Images/icon-4.png') }}" alt="48-Hour Express Delivery"/>
                             </div>
-                            <h5 class="feature-label">Instant Plug Setup</h5>
+                            <h5 class="feature-label">48-Hour Express Delivery</h5>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="#ed8936" xmlns="http://www.w3.org/2000/svg"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            </div>
-                            <h5 class="feature-label">Made in Bangalore</h5>
+                                <img src="{{ asset('frontend/Images/icon-5.png') }}" alt="5 Times Energy Efficient"/>
+                        </div>
+                            <h5 class="feature-label">5 Times Energy Efficient</h5>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="#48bb78" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            </div>
-                            <h5 class="feature-label">Fully Transit Insured</h5>
+                                <img src="{{ asset('frontend/Images/icon-6.png') }}" alt="100% Transit Insurance"/>
+                        </div>
+                            <h5 class="feature-label">100% Transit Insurance</h5>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="#ed8936" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                <img src="{{ asset('frontend/Images/icon-7.png') }}" alt="Secure Payments Online"/>
                             </div>
-                            <h5 class="feature-label">Secure Online Pay</h5>
+                            <h5 class="feature-label">Secure Payments Online</h5>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="#e53e3e" xmlns="http://www.w3.org/2000/svg"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            </div>
-                            <h5 class="feature-label">Express Delivery</h5>
+                                <img src="{{ asset('frontend/Images/icon-8.png') }}" alt="5X Brighter LED Glow"/>
+                        </div>
+                            <h5 class="feature-label">5X Brighter LED Glow</h5>
                         </div>
                     </div>
                 </div>
@@ -196,12 +196,12 @@
                         <div class="protection-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" ><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round"/></svg>
                         </div>
-                        <h3 class="protection-title mb-0 ms-2" >Buyer protection</h3>
+                        <h3 class="protection-title mb-0 ms-2" ><b>Buyer Protection</b></h3>
                     </div>
                     <ul class="protection-list">
-                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Full exchange 30 days</li>
-                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> 24-Month warranty</li>
-                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> 14-Day money back</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> 14-Day Risk-Free Return</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> 24-Month Warranty</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Strict Quality Checks</li>
                     </ul>
                 </div>
             </div>

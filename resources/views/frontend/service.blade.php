@@ -11,7 +11,7 @@
         <div class="container text-left">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Signage Design & Manufacturing Services</h1>
+                    <h1 class="hero-banner_title">Signage Design & Manufacturing</h1>
                     <p class="text-white mt-3" style="font-size: 1.2rem; max-width: 700px;">
                         From conceptual design to expert manufacturing and installation, we provide end-to-end signage solutions that elevate your brand and engage your audience.
                     </p>
@@ -27,11 +27,14 @@
         <div class="contact-container">
             <div class="text-center">
             <h2 class="card-heading">
-                Sign Boards In Bangalore
+                Sign Board Manufacturer- PAN India Services
             </h2>
-            <p style="text-align: left">
-                Sign Boards Maker is the manufacturer and industry leader for signage in Bangalore. We have been catering to a wide range of clients for over 2 decades. Attractive signages are the best way to increase the walk-ins and enhance the identity of your company. We ensure that any products and services we offer are best in class and long lasting. We provide LED sign boards, 3D Boards, 2D Boards, Acrylic, SS Letter, High Rise, Pylon, signages for Store, Yard And Real Estate Signs, Backlit Signage and many more. Read More
-            </p><br>
+            <p class="fs-20" style="text-align: left">
+                Brand Signages is a leading signage manufacturer, delivering high-quality and visually impactful signage solutions for businesses
+                 across India. With years of expertise, we have successfully worked with a wide range of industries, helping brands improve visibility
+                  and attract more customers. Our offerings include LED sign boards, 3D signage, 2D boards, acrylic signage, stainless steel (SS)
+                   letters, high-rise signage, pylon signs, retail store signage, real estate signage, backlit signage, and more- each crafted with
+                    precision and premium materials to ensure long-lasting performance.</p><br>
 
             </div>
             <div class="row">
@@ -43,11 +46,11 @@
                         your brand to life!</p>
                         <div class="process-card">
                             <h3>Contact Info</h3>
-                            <p> <a href="mailto:sales@brandsignages.com" class="ainfo"><i class="fa fa-envelope"
-                            aria-hidden="true"></i> sales@brandsignages.com </a></p>
-                            <p> <a href="tel:+91 8006606080" class="ainfo"><i class="fa fa-phone" aria-hidden="true"></i> +91
-                            8006606080 </a></p>
-                            <p> <a href="https://g.co/kgs/6RzVfm1" class="ainfo">
+                            <p class="fs-20"> <a href="mailto:sales@brandsignages.com" class="ainfo"><i class="fa fa-envelope"
+                            aria-hidden="true"></i> <b>sales@brandsignages.com</b></a></p>
+                            <p class="fs-20"> <a href="tel:+91 8006606080" class="ainfo"><i class="fa fa-phone" aria-hidden="true"></i> <b>+91
+                            8006606080</b> </a></p>
+                            <p class="fs-20"> <a href="https://g.co/kgs/6RzVfm1" class="ainfo">
                                 
                                 <span>
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -167,7 +170,7 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-4 fw-bold">Comprehensive Signage Solutions</h2>
-                <p class="lead text-muted">Explore our wide range of premium signage products designed for every business need.</p>
+                <p class="fs-20">Explore our wide range of premium signage products designed for every business need.</p>
             </div>
 
             @php
@@ -247,43 +250,35 @@
         </div>
     </section>
 
-
-    <section class="min-service-section">
-  <div class="min-service-container">
-    <div class="min-service-row">
-
-      <!-- LEFT CONTENT -->
-      <div class="min-service-left">
-        <h2 class="min-service-title">
-          One Stop Solution For All Your Signage Requirement In Bangalore
-        </h2>
-
-        <p class="min-service-text">
-          We, at Sign Boards Maker ensure that any signage products and services we offer are best in class and long lasting. 
-          The process assures smooth execution and implementation of the project we undertake. We have executed projects for 
-          Airport, Tech Parks, Banks, Government Organizations and many more. Some of the products and services we provide 
-          are LED sign boards, 3D Boards, 2D Boards, Acrylic, SS Letter, High Rise, Pylon, signage for Stores, Yard And Real 
-          Estate, Backlit Signage and many more.
-        </p>
-
-        <button class="min-service-btn">KNOW MORE</button>
-      </div>
-
-      <!-- RIGHT IMAGES -->
-      <div class="min-service-right">
-        <div class="min-service-top-images">
-          <img src="https://www.signboardsmaker.com/wp-content/uploads/2021/12/sign4-2.jpg" alt="">
-          <img src="https://www.signboardsmaker.com/wp-content/uploads/2026/01/curtain-based-indoor-signage.webp" alt="">
+        <!-- Why Choose Us -->
+    <section class="new_custom-why-choose py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages?</h2>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-4">
+                    <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between h-100">
+                        <p>We craft signage designs that speak volumes and attract your audience from a distance, ensuring your brand stands out in any environment.</p>
+                        <h4 class="new_custom-title">Industry Expertise</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="new_custom-box new_custom-image-box" style="background-image: url('{{ asset('frontend/Images/home/why-choose-2.webp') }}'); height: 300px; background-size: cover; background-position: center;">
+                        <div class="new_custom-overlay">
+                            <h4 class="new_custom-title text-white">Proven Experience</h4>
+                            <p class="text-white small">10 years of experience partnering with major brands across India in various industries and verticals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between h-100">
+                        <h4 class="new_custom-title">Unmatched Excellence</h4>
+                        <p>Our commitment to quality and innovation makes us an unmatched competitor in sign board design and manufacturing.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="min-service-bottom-image">
-          <img src="https://www.signboardsmaker.com/wp-content/uploads/2021/12/sign6-1.jpg" alt="">
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
 
     <!-- Manufacturing Capabilities -->
     <section class="instant-pricing">
@@ -341,34 +336,7 @@
         </div>
     </section>
 
-    <!-- Why Choose Us -->
-    <section class="new_custom-why-choose py-5">
-        <div class="container">
-            <h2 class="text-center mb-5 new_custom-heading">Why Choose Brand Signages?</h2>
-            <div class="row justify-content-center g-4">
-                <div class="col-md-4">
-                    <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between h-100">
-                        <p>We craft signage designs that speak volumes and attract your audience from a distance, ensuring your brand stands out in any environment.</p>
-                        <h4 class="new_custom-title">Industry Expertise</h4>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="new_custom-box new_custom-image-box" style="background-image: url('{{ asset('frontend/Images/home/why-choose-2.webp') }}'); height: 300px; background-size: cover; background-position: center;">
-                        <div class="new_custom-overlay">
-                            <h4 class="new_custom-title text-white">Proven Experience</h4>
-                            <p class="text-white small">10 years of experience partnering with major brands across India in various industries and verticals.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="new_custom-box new_custom-light-box-3 d-flex flex-column justify-content-between h-100">
-                        <h4 class="new_custom-title">Unmatched Excellence</h4>
-                        <p>Our commitment to quality and innovation makes us an unmatched competitor in sign board design and manufacturing.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- Client Logo Loop -->
     <section class="new_client_section container py-5">
