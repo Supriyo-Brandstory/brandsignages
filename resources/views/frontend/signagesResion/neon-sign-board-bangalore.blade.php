@@ -615,6 +615,7 @@
     </div>
 </section>
 
+<x-trust-features />
 
 <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
     <div class="container">
