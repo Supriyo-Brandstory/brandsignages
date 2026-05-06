@@ -154,9 +154,9 @@
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <img src="{{ asset('frontend/Images/icon-4.png') }}" alt="48-Hour Express Delivery"/>
-                            </div>
-                            <h5 class="feature-label">48-Hour Express Delivery</h5>
+                                <img src="{{ asset('frontend/Images/icon-8.png') }}" alt="5X Brighter LED Glow"/>
+                        </div>
+                            <h5 class="feature-label">Brighter LED Glow Effects</h5>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 mb-4">
@@ -186,9 +186,9 @@
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <img src="{{ asset('frontend/Images/icon-8.png') }}" alt="5X Brighter LED Glow"/>
-                        </div>
-                            <h5 class="feature-label">5X Brighter LED Glow</h5>
+                                <img src="{{ asset('frontend/Images/icon-4.png') }}" alt="48-Hour Express Delivery"/>
+                            </div>
+                            <h5 class="feature-label">48-Hour Express Delivery</h5>
                         </div>
                     </div>
                 </div>
