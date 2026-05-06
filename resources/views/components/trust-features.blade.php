@@ -115,6 +115,7 @@
 @endonce
 
 <section class="trust-features-section">
+    <h1 class="faq-title">Why Choose Neon Sign Shop?</h1>
     <div class="container">
         <div class="row align-items-center">
             <!-- Left Side: 8 Icons Grid -->
