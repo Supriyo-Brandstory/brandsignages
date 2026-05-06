@@ -1,5 +1,9 @@
 @extends('frontend.layout.appLayout')
 @section('content')
+
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('frontend/neon-sign-board-bangalore.css') }}" />
+@endpush
     
     <section class="hero-banner"
         style="background-image: url('{{ asset('frontend/Images/neo-led-banner.webp') }}'); ">
@@ -112,52 +116,6 @@
     </div>
 </section>
 
-<style>
-    .min-abt-section {
-        padding: 60px 0;
-    }
-    .min-abt-title {
-        font-size: 36px;
-        font-weight: 700;
-        margin-bottom: 40px;
-        color: #222;
-        line-height: 1.3;
-    }
-    .min-abt-main-row {
-        margin-bottom: 30px;
-    }
-    .min-abt-img-box img {
-        width: 100%;
-        border-radius: 20px;
-        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-        object-fit: cover;
-    }
-
-    .min-abt-sub-img img {
-        width: 100%;
-        border-radius: 15px;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.07);
-        transition: all 0.3s ease;
-        aspect-ratio: 4/3;
-        object-fit: cover;
-    }
-    .min-abt-sub-img img:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 15px 30px rgba(0,0,0,0.12);
-    }
-    @media (max-width: 991px) {
-        .min-abt-title {
-            font-size: 28px;
-        }
-        .min-abt-img-box {
-            margin-bottom: 30px;
-        }
-        .min-abt-content p {
-            font-size: 18px;
-            text-align: left;
-        }
-    }
-</style>
 
 
   <section class="neon-space-section py-5">
@@ -241,139 +199,6 @@
     </div>
 </section>
 
-<style>
-    .neon-space-wrapper {
-        display: flex;
-        gap: 15px;
-        height: 550px;
-        width: 100%;
-        margin-top: 40px;
-    }
-    .neon-space-item {
-        position: relative;
-        flex: 1;
-        overflow: hidden;
-        border-radius: 25px;
-        transition: all 0.7s cubic-bezier(0.25, 1, 0.5, 1);
-        cursor: pointer;
-    }
-    .neon-space-item.active {
-        flex: 4;
-    }
-    /* When the wrapper is hovered, shrink the default active item */
-    .neon-space-wrapper:hover .neon-space-item.active {
-        flex: 1;
-    }
-    /* Expand the hovered item and ensure it stays expanded even if it was active */
-    .neon-space-wrapper .neon-space-item:hover {
-        flex: 4 !important;
-    }
-    .neon-space-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.7s ease;
-    }
-    .neon-space-item:hover img {
-        transform: scale(1.08);
-    }
-    .neon-item-content {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, transparent 100%);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        padding: 25px;
-        color: #fff;
-    }
-    .neon-orange-title {
-        color: #fff;
-        margin-bottom: 10px;
-        font-weight: 700;
-        text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
-    }
-    .vertical-title-box {
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-        transition: opacity 0.4s ease;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        pointer-events: none;
-    }
-    .vertical-title {
-        writing-mode: vertical-rl;
-        transform: rotate(180deg);
-        white-space: nowrap;
-        margin: 0;
-        font-weight: 700;
-        text-shadow: 0 2px 10px rgba(0,0,0,0.5);
-    }
-    .horizontal-content {
-        opacity: 0;
-        transform: translateY(30px);
-        transition: all 0.5s ease 0.2s;
-        visibility: hidden;
-    }
-    .neon-space-item.active .vertical-title-box {
-        opacity: 0;
-    }
-    .neon-space-wrapper:hover .neon-space-item.active .vertical-title-box {
-        opacity: 1;
-    }
-    .neon-space-item:hover .vertical-title-box {
-        opacity: 0 !important;
-    }
-
-    .neon-space-item.active .horizontal-content {
-        opacity: 1;
-        transform: translateY(0);
-        visibility: visible;
-    }
-    .neon-space-wrapper:hover .neon-space-item.active .horizontal-content {
-        opacity: 0;
-        transform: translateY(30px);
-        visibility: hidden;
-    }
-    .neon-space-item:hover .horizontal-content {
-        opacity: 1 !important;
-        transform: translateY(0) !important;
-        visibility: visible !important;
-    }
-    .horizontal-content p {
-        margin-bottom: 0;
-        line-height: 1.6;
-        font-weight: 400;
-    }
-    @media (max-width: 991px) {
-        .neon-space-wrapper {
-            flex-direction: column;
-            height: auto;
-            gap: 20px;
-        }
-        .neon-space-item {
-            height: 350px;
-            flex: none !important;
-        }
-        .vertical-title-box {
-            display: none;
-        }
-        .horizontal-content {
-            opacity: 1 !important;
-            transform: none !important;
-            visibility: visible !important;
-        }
-        .neon-item-content {
-            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
-        }
-    }
-</style>
 
 
     <section class="we-deliver"

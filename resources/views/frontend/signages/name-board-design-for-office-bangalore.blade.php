@@ -10,35 +10,35 @@
 
             <div class="main-slider">
                 <div class="slide active">
-                    <img src="/frontend/Images/name-boards/office-name-b1.webp" alt="Office Name Board Design Sample">
+                    <img src="/frontend/Images/name-boards/office-name-b1.webp" alt="Acrylic Office Name Board Design">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/office-name-b2.webp" alt="Office Name Board Design Sample">
+                    <img src="/frontend/Images/name-boards/office-name-b2.webp" alt="Acrylic Office Name Board Design">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/office-name-b3.webp" alt="Office Name Board Design Sample">
+                    <img src="/frontend/Images/name-boards/office-name-b3.webp" alt="Acrylic Office Name Board Design">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/office-name-b4.webp" alt="Office Name Board Design Sample">
+                    <img src="/frontend/Images/name-boards/office-name-b4.webp" alt="Acrylic Office Name Board Design">
                 </div>
                 <div class="slide">
-                    <img src="/frontend/Images/name-boards/office-name-b5.webp" alt="Office Name Board Design Sample">
+                    <img src="/frontend/Images/name-boards/office-name-b5.webp" alt="Acrylic Office Name Board Design">
                 </div>
                 <div class="slide">
                     <img src="/frontend/Images/name-boards/office-name-board-design-3.jpg"
-                        alt="Office Name Board Design Sample">
+                        alt="Acrylic Office Name Board Design">
                 </div>
                 <div class="slide">
                     <img src="/frontend/Images/name-boards/office-name-board-design-4.jpg"
-                        alt="Office Name Board Design Sample">
+                        alt="Acrylic Office Name Board Design">
                 </div>
                 <div class="slide">
                     <img src="/frontend/Images/name-boards/office-name-board-design-1.jpg"
-                        alt="Office Name Board Design Sample">
+                        alt="Acrylic Office Name Board Design">
                 </div>
                 <div class="slide">
                     <img src="/frontend/Images/name-boards/office-name-board-design-6.jpg"
-                        alt="Office Name Board Design Sample">
+                        alt="Acrylic Office Name Board Design">
                 </div>
 
             </div>
@@ -50,41 +50,41 @@
 
 
             <div class="thumbnails">
-                <img src="/frontend/Images/name-boards/office-name-b1.webp" alt="Office Name Board Design Sample"
+                <img src="/frontend/Images/name-boards/office-name-b1.webp" alt="Acrylic Office Name Board Design"
                     class="thumb active" data-index="0">
-                <img src="/frontend/Images/name-boards/office-name-b2.webp" alt="Office Name Board Design Sample"
+                <img src="/frontend/Images/name-boards/office-name-b2.webp" alt="Acrylic Office Name Board Design"
                     class="thumb" data-index="1">
-                <img src="/frontend/Images/name-boards/office-name-b3.webp" alt="Office Name Board Design Sample"
+                <img src="/frontend/Images/name-boards/office-name-b3.webp" alt="Acrylic Office Name Board Design"
                     class="thumb" data-index="2">
-                <img src="/frontend/Images/name-boards/office-name-b4.webp" alt="Office Name Board Design Sample"
+                <img src="/frontend/Images/name-boards/office-name-b4.webp" alt="Acrylic Office Name Board Design"
                     class="thumb" data-index="3">
-                <img src="/frontend/Images/name-boards/office-name-b5.webp" alt="Office Name Board Design Sample"
+                <img src="/frontend/Images/name-boards/office-name-b5.webp" alt="Acrylic Office Name Board Design"
                     class="thumb" data-index="4">
-                <img src="/frontend/Images/name-boards/office-name-board-design-3.jpg" alt="Office Name Board Design Sample"
+                <img src="/frontend/Images/name-boards/office-name-board-design-3.jpg" alt="Acrylic Office Name Board Design"
                     class="thumb" data-index="5">
                 <img src="/frontend/Images/name-boards/office-name-board-design-4.jpg"
-                    alt="Corporate Office Outdoor Name Board Design Sample" class="thumb" data-index="6">
+                    alt="Acrylic Office Name Board Design" class="thumb" data-index="6">
                 <img src="/frontend/Images/name-boards/office-name-board-design-1.jpg"
-                    alt="Corporate Office Outdoor Name Board Design Sample" class="thumb" data-index="7">
+                    alt="Acrylic Office Name Board Design" class="thumb" data-index="7">
                 <img src="/frontend/Images/name-boards/office-name-board-design-6.jpg"
-                    alt="Corporate Office Outdoor Name Board Design Sample" class="thumb" data-index="7">
+                    alt="Acrylic Office Name Board Design" class="thumb" data-index="7">
             </div>
         </div>
 
 
         <div class="content">
-            <h1 class="hero-banner_title">Office Name Board Designs</h1>
+            <h1 class="hero-banner_title">Office Name Board Design</h1>
             <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 + GST</b></p>
 
             <div class="divider"></div>
-            <p class="fs-16">Office name boards play a key role in redefining your workplace
+            <p class="fs-16">Office name board play a key role in redefining your workplace
                  identity. Your office needs a name board that aligns with your branding, is clear 
                  to read, and customised to suit your workspace. When the design, materials, and lighting
                   elements blend seamlessly, an office name board stands out effortlessly- creating a strong 
                   professional impression for clients & visitors.</p>
             <ul class="features">
-                <li>Complete office name boards solutions (Corporates and IT Parks)</li>
-                <li>Name board designs for reception, doors, rooms, and entrance</li>
+                <li>Complete office name board solutions (Corporates and IT Parks)</li>
+                <li>Name board design for reception, doors, rooms, and entrance</li>
                 <li>Crafted with quality materials- acrylic, metal, LEDs, Neon, & ACP</li>
                 <li>3D Acrylic LED letters highlight your office name, logo, & branding</li>
                 <li>PAN India service including custom design & installation</li>
@@ -99,8 +99,8 @@
 
     <section class="instant-pricing">
         <div class="container pt-5">
-            <h2>Explore Exclusive Office Name Plate Designs</h2>
-            <p>Brand Signages brings you the <strong>largest ever collection</strong> of premium office name plate designs &
+            <h2>Explore Exclusive Office Name Plate Design</h2>
+            <p>Brand Signages brings you the <strong>largest ever collection</strong> of premium office name plate design &
                 <a href="/office-signages" style="color:#E43D12; text-decoration:none;"><strong>office signages</strong></a>
                 customized for modern workplaces. We provide high-quality office name boards across India with fast
                 turnaround time
@@ -188,6 +188,8 @@
             </div>
         </div>
     </section>
+
+    <x-trust-features />
 
      <section class="We-Elevate-Brands-section py-5">
         <div class="container">
