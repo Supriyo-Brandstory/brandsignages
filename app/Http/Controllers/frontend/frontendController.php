@@ -644,6 +644,13 @@ class frontendController extends Controller
         return view('frontend.about-us', compact('seo'));
     }
 
+    public function faq()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.faq', compact('seo'));
+    }
+
     public function titan_case_study()
     {
         $currentRoute = Route::current()->uri();

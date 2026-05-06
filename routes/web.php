@@ -115,6 +115,7 @@ Route::get('/terms-and-conditions', [frontendController::class, 'termsAndConditi
 Route::get('/author-manoj-kaliyannan', [frontendController::class, 'bala_kumaranan'])->name('bala_kumaranan');
 Route::get('/about-us', [frontendController::class, 'about_us'])->name('about_us');
 Route::get('/contact-us', [frontendController::class, 'contact_us'])->name('contact_us');
+Route::get('/faq', [frontendController::class, 'faq'])->name('faq');
 Route::post('/contact-us', [frontendController::class, 'store'])->name('contact.store');
 Route::get('sitemap.xml', [frontendController::class, 'sitemap'])->name('sitemap');
 Route::post('/custom-inquiry', [frontendController::class, 'coustomInquiryStore'])->name('custom-inquiry.store');
