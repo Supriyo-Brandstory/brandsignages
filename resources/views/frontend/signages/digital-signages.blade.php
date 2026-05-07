@@ -9,11 +9,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Digital Signage Manufacturers<br> for High-Impact Displays</h1>
-                    <p>Brand Signages is a premier digital signage manufacturer with 12+ years <br>of experience.
-                        We create digital displays, interactive kiosk for all industries. With <br>in-house manufacturing
-                        setup
-                        in Bangalore, we deliver PAN India services.
+                    <h1 class="hero-banner_title">High-Impact Digital Signage <br>Displays- Electronic Signage</h1>
+                    <p>Brand Signages is a leading provider of digital signage and electronic <br>signage solutions. We design and deliver commercial displays, interactive <br>kiosks, and smart screens for all industries- PAN India delivery.
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Book a Demo Call</button>
@@ -176,7 +173,7 @@
                 </div>
                 <div class="col-md-8 col-12 right-col">
                     <h2>The Home of Premium Digital Signage- Excellence Beyond Expectations</h2>
-                    <p>Brand Signages is a premier <b>digital signage brand</b> with 12+ years of expertise. With a
+                    <p>Brand Signages is a premier <b>digital signage provider</b> with 12+ years of expertise. With a
                         long-standing foundation,
                         we have manufacturing excellence for digital displays, interactive kiosks, commercial displays, and
                         more. We are committed to deliver products with
@@ -991,7 +988,16 @@
                     <p>We offer comprehensive solutions including hardware (displays, screens),
                         software (content management), custom content creation, installation, technical support,
                         strategy consulting, and industry-specific digital communication solutions tailored to enhance
-                        brand visibility and audience engagement across multiple platforms and environments</p>
+                        brand visibility and audience engagement across multiple platforms and environments.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    What is Electronic Signage?
+                    <i class="faq-icon fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Electronic signage refers to any display system using LED or LCD screens to show information, advertising, or dynamic content. It is often used interchangeably with digital signage. At Brand Signages, our electronic signage solutions include commercial displays, video walls, digital standees, and interactive kiosks- all built for 24/7 business use across retail, hospitals, corporate offices, and more.</p>
                 </div>
             </div>
 
