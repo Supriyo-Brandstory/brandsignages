@@ -5,19 +5,19 @@
             $slides = [
                 [
                     'img' => 'led-banner-3',
-                    'title' => 'Custom LED Sign Board- High Visibility Name Boards',
+                    'title' => 'Led Sign Board- Make Your Brand Stand Out',
                     'desc' =>
                         'Designed to create a strong first impression, our Led name board highlight your brand and attract attention from a distance.',
                 ],
                 [
                     'img' => 'led-banner-n',
-                    'title' => 'LED Sign Boards for Shops, Offices & Commercial Spaces',
+                    'title' => 'LED Sign Board for Shops, Offices & Commercial Spaces',
                     'desc' =>
                         'Our Led sign board deliver sharp brightness and lettering, making them perfect for shops, offices, clinics, and commercial spaces.',
                 ],
                 [
                     'img' => 'led-banner-n2',
-                    'title' => 'Premium LED Name Board That Shines Day & Night',
+                    'title' => 'Premium LED Sign Board That Shines Day & Night',
                     'desc' =>
                         'Made with high-quality materials and precision lighting, our Led sign board provide long-lasting performance and a professional look.',
                 ],
