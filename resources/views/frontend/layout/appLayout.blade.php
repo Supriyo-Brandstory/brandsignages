@@ -453,12 +453,12 @@
 
                     <!-- Card 4: Corporate Gifting -->
                     <div class="swiper-slide">
-                        <a href="{{ url('/led-name-board-design') }}" class="office-mag-card specialized-card">
+                        <a href="{{ url('/led-acrylic-3d-glow-sign-board') }}" class="office-mag-card specialized-card">
                             <img src="{{ asset('frontend/Images/led-name-boards.webp') }}" alt="Corporate Gifting"
                                 class="office-mag-bg">
                             <div class="office-mag-content">
-                                <h4 class="office-mag-title">LED Name Board</h4>
-                                <p class="text-white">Advanced 2nd gen LED name boards available</p>
+                                <h4 class="office-mag-title">LED Sign Board</h4>
+                                <p class="text-white">Advanced 2nd gen LED sign board (2-Year Warranty)</p>
                                 <div class="office-mag-cta">
                                     Read More <i class="fas fa-arrow-right"></i>
                                 </div>
