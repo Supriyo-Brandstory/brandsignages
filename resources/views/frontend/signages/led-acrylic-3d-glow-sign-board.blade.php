@@ -5,13 +5,13 @@
             $slides = [
                 [
                     'img' => 'led-banner-3',
-                    'title' => 'Led Sign Board- Make Your Brand Stand Out',
+                    'title' => 'Led Sign Board- Shine Brighter Than the Rest',
                     'desc' =>
                         'Designed to create a strong first impression, our Led name board highlight your brand and attract attention from a distance.',
                 ],
                 [
                     'img' => 'led-banner-n',
-                    'title' => 'LED Sign Board for Shops, Offices & Commercial Spaces',
+                    'title' => 'LED Name Board for Shops, Offices & Commercial Spaces',
                     'desc' =>
                         'Our Led sign board deliver sharp brightness and lettering, making them perfect for shops, offices, clinics, and commercial spaces.',
                 ],
