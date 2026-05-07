@@ -5,21 +5,21 @@
             $slides = [
                 [
                     'img' => 'led-banner-3',
-                    'title' => 'Led Sign Board- Make Your Brand Stand Out',
+                    'title' => 'Custom LED Sign Board- High Visibility Name Boards',
                     'desc' =>
-                        'Designed to create a strong first impression, our Led name boards highlight your brand and attract attention from a distance.',
+                        'Designed to create a strong first impression, our Led name board highlight your brand and attract attention from a distance.',
                 ],
                 [
                     'img' => 'led-banner-n',
-                    'title' => 'High-Visibility LED Sign Board for Businesses',
+                    'title' => 'LED Sign Boards for Shops, Offices & Commercial Spaces',
                     'desc' =>
-                        'Our Led sign boards deliver sharp brightness and lettering, making them perfect for shops, offices, clinics, and commercial spaces.',
+                        'Our Led sign board deliver sharp brightness and lettering, making them perfect for shops, offices, clinics, and commercial spaces.',
                 ],
                 [
                     'img' => 'led-banner-n2',
-                    'title' => 'Custom Led Sign Board with Premium Finishes',
+                    'title' => 'Premium LED Name Board That Shines Day & Night',
                     'desc' =>
-                        'Made with high-quality materials and precision lighting, our Led sign boards provide long-lasting performance and a professional look.',
+                        'Made with high-quality materials and precision lighting, our Led sign board provide long-lasting performance and a professional look.',
                 ],
             ];
         @endphp
