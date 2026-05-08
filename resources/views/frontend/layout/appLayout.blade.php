@@ -377,7 +377,7 @@
 
             <div class="row justify-content-center justify-content-md-between text-start text-md-start">
                 <div class="col-12 text-center">
-                    <span>© 2024 Brand Signages. All Rights Reserved.</span>
+                    <span>© 2026 Brand Signages. All Rights Reserved.</span>
                 </div>
             </div>
         </div>
@@ -394,11 +394,11 @@
                     <!-- Card 0: Sign Board Design -->
                     <div class="swiper-slide">
                         <a href="{{ url('/sign-board-design-bangalore') }}" class="office-mag-card specialized-card">
-                            <img src="{{ asset('frontend/Images/name-boards.webp') }}" alt="Sign Board Design"
+                            <img src="{{ asset('frontend/Images/signage-board-23.webp') }}" alt="Sign Board Design"
                                 class="office-mag-bg">
                             <div class="office-mag-content">
                                 <h4 class="office-mag-title">Sign Board Design</h4>
-                                <p class="text-white">Professional sign board designs for all needs</p>
+                                <p class="text-white">Professional sign board designs for all industries</p>
                                 <div class="office-mag-cta">
                                     Read More <i class="fas fa-arrow-right"></i>
                                 </div>
@@ -613,7 +613,7 @@
                     <h5 class="fw-bold">Brand Signages</h5>
                     <p>
                         Brand Signages is a premier signage manufacturing company serving
-                        clients across Bangalore and India for 10+ years. We have a vast
+                        clients across Bangalore and India for 12+ years. We have a vast
                         portfolio and client base across different industries.
                     </p>
                     <div class='d-flex justify-content-left' style="gap: 10px;">
@@ -630,7 +630,7 @@
                 <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
                     <h5 class="fw-bold">Service Locations</h5>
                     <ul class="list-unstyled">
-                        <li><a href="{{ route('signage_in_bangalore') }}" class="text-decoration-none">Signages in
+                        <li><a href="{{ route('index') }}" class="text-decoration-none">Signages in
                                 Bangalore</a></li>
                         <li><a href="{{ route('leading_signage_company_in_mumbai') }}"
                                 class="text-decoration-none">Signages in Mumbai</a></li>
@@ -669,10 +669,9 @@
                         <li><a href="/" class="text-decoration-none">Home</a></li>
                         <li><a href="/about-us" class="text-decoration-none">About Us</a></li>
                         <li><a href="/contact-us" class="text-decoration-none">Contact Us</a></li>
+                        <li><a href="/services" class="text-decoration-none">Our Services</a></li>
                         <li><a href="/case-studies" class="text-decoration-none">Recent Projects</a></li>
-                        <li><a href="/faq" class="text-decoration-none">FAQ</a></li>
-                        <li><a href="href={{ asset('/frontend/Brand Signages Brochure-.pdf') }}"
-                                class="text-decoration-none">Download Brochure</a></li>
+                        <li><a href="/faq" class="text-decoration-none">Questions & Answers</a></li>
                         <li><a href="/terms-and-conditions" class="text-decoration-none">Terms & Conditions</a></li>
                         <li><a href="/privacy-policy" class="text-decoration-none">Privacy Policy</a></li>
                     </ul>
@@ -681,7 +680,7 @@
 
             <div class="row justify-content-center justify-content-md-between text-start text-md-start">
                 <div class="col-12 text-center">
-                    <span>© 2024 Brand Signages. All Rights Reserved.</span>
+                    <span>© 2026 Brand Signages. All Rights Reserved.</span>
                 </div>
             </div>
         </div>
