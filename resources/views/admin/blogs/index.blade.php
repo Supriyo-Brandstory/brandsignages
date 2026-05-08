@@ -10,7 +10,20 @@
                         @if (Session::has('msg'))
                             <p id="flash-message" class="alert alert-info">{{ Session::get('msg') }}</p>
                         @endif
-                        <a class="btn btn-sm btn-outline-success float-end" href="{{ route('blogs.create') }}">Add Blog</a>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <form action="{{ route('blogs.index') }}" method="GET" class="d-flex">
+                                    <input type="text" name="search" class="form-control form-control-sm me-2" placeholder="Search blogs..." value="{{ request('search') }}">
+                                    <button type="submit" class="btn btn-sm btn-primary">Search</button>
+                                    @if(request('search'))
+                                        <a href="{{ route('blogs.index') }}" class="btn btn-sm btn-secondary ms-2">Clear</a>
+                                    @endif
+                                </form>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <a class="btn btn-sm btn-outline-success" href="{{ route('blogs.create') }}">Add Blog</a>
+                            </div>
+                        </div>
                         <table class="table">
                             <thead>
                                 <tr>
@@ -53,7 +66,7 @@
                                 @endforeach
                             </tbody>
                         </table>
-                        {{ $blogs->links() }}
+                        {{ $blogs->appends(['search' => request('search')])->links() }}
                     </div>
                 </div>
             </div>
