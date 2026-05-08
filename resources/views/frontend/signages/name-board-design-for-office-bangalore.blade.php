@@ -428,115 +428,6 @@
 
     </section>
 
-    <!--<section id="designs">
-        <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">Corporate Office Name Boards That <br>Reflects Professionalism</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="doctor-swiper swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/doctor-name-1.webp') }}"
-                                    alt="Doctor Name Plate Design 1" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/doctor-name-2.webp') }}"
-                                    alt="Doctor Name Plate Design 2" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/doctor-name-3.webp') }}"
-                                    alt="Doctor Name Plate Design 3" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/doctor-name-4.webp') }}"
-                                    alt="Doctor Name Plate Design 4" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/advocate-name-1.webp') }}"
-                                    alt="CA Name Board Design 1" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/advocate-2.webp') }}"
-                                    alt="Advocate Name Board Design 2" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/ca-name-1.webp') }}"
-                                    alt="CA Name Board Design 3" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/ca-name-2.webp') }}"
-                                    alt="Advocate Name Board Design 4" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/construction-1.webp') }}"
-                                    alt="CA Name Board Design 1" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/construction-2.webp') }}"
-                                    alt="Advocate Name Board Design 2" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/construction-3.webp') }}"
-                                    alt="CA Name Board Design 3" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/construction-4.webp') }}"
-                                    alt="Advocate Name Board Design 4" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/office-name-plate-1.webp') }}"
-                                    alt="CA Name Board Design 1" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/office-name-plate-2.webp') }}"
-                                    alt="Advocate Name Board Design 2" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/office-name-plate-3.webp') }}"
-                                    alt="CA Name Board Design 3" class="img-fluid">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{ asset('frontend/Images/name-boards/office-name-plate-4.webp') }}"
-                                    alt="Advocate Name Board Design 4" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h4><b>#1 Rated Office Name Plate Designs</b></h4>
-                    <p class="brand-description">
-                        Discover the widest range of office name plate designs crafted to suit diverse workplace interiors
-                        and architectural styles. Whether
-                        you prefer sleek <a href="/metal-signages"
-                            style="text-decoration: unset;color:#E43D12; font-weight: bold;">metallic signage</a>,
-                        <a href="/arcylic-signages"
-                            style="text-decoration: unset;color:#E43D12; font-weight: bold;">premium acrylic surfaces</a>,
-                        elegant acrylic
-                        glass panels, or textured wooden name board, we offer options that align seamlessly with your
-                        branding and office design concept.
-                    </p>
-
-                    <p class="brand-description">
-                        From <a href="/led-acrylic-3d-glow-sign-board"
-                            style="text-decoration: unset;color:#E43D12; font-weight: bold;">illuminated LED name
-                            boards</a>
-                        to refined non-lit executive cabin boards, each office name board is crafted with precision and
-                        installed with attention to detail. Our solutions
-                        are designed to fit your space accurately, delivered within committed timelines, and built to
-                        maintain quality, durability, and a polished
-                        appearance in every office setting.
-                    </p>
-                    <a href="/contact-us">
-                        <button class="contact-btn">Place Order Now</button>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </section>-->
 
 
     <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
@@ -1018,6 +909,11 @@
                             </div>
             </div>
 
+        </div>
+        <div class="text-center" style="padding: 20px 0;">
+            <a href="/blogs/office-name-board-designs">
+                <button class="contact-btn">Explore All Designs</button>
+            </a>
         </div>
 
         </div>

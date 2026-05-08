@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-md-8 col-12 right-col">
                     <h2>Welcome to Brand Signages - Your Go-to Choice for Premium-quality Sign Boards</h2>
-                    <p>We are among the exclusive <b>signage board</b> manufacturers in India with a long-standing foundation in
+                    <p>We are among the exclusive <a href="/sign-board-design-bangalore" style="text-decoration: unset;color:#ffff; font-weight: bold;">signage board</a> manufacturers in India with a long-standing foundation in
                         Bangalore. We design custom sign boards to meet the exact needs of customers with no compromise in
                         quality and delivery time. Our core principle lies in 4 strong pillars that make us the #1 sign
                         board company in the region.  </p>
@@ -338,7 +338,7 @@
                 <!-- Expertise -->
                 <div class="col-md-4 justify-content-between d-flex flex-column">
                     <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
-                        <p>We are among the best when it comes to <b>signage board</b> manufacturing. We craft signage designs that speak
+                        <p>We are among the best when it comes to <a href="/sign-board-design-bangalore" style="text-decoration: unset;color:#E43D12; font-weight: bold;">signage board</a> manufacturing. We craft signage designs that speak
                             volumes and attract audience from a distance.</p>
                         <h4 class="new_custom-title">Expertise</h4>
                     </div>
