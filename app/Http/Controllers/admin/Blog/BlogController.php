@@ -15,9 +15,16 @@ class BlogController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $blogs = Blog::paginate(10); // Adjust pagination as needed
+        $query = Blog::query();
+        if ($request->has('search')) {
+            $search = $request->input('search');
+            $query->where('title', 'LIKE', "%{$search}%")
+                  ->orWhere('topic', 'LIKE', "%{$search}%")
+                  ->orWhere('content', 'LIKE', "%{$search}%");
+        }
+        $blogs = $query->paginate(10);
         return view('admin.blogs.index', compact('blogs'));
     }
 

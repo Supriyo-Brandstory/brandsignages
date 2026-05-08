@@ -11,9 +11,15 @@ class SEOController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $seos = SEO::paginate(10); // Get SEO entries with pagination
+        $query = SEO::query();
+        if ($request->has('search')) {
+            $search = $request->input('search');
+            $query->where('page_url', 'LIKE', "%{$search}%")
+                  ->orWhere('script', 'LIKE', "%{$search}%");
+        }
+        $seos = $query->paginate(10);
         return view('admin.seo.index', compact('seos'));
     }
 
