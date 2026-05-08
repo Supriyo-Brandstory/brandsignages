@@ -130,7 +130,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-imagex">
-                        <img src="{{ asset('frontend/Images/signage-board.jpeg') }}"
+                        <img src="{{ asset('frontend/Images/signage-board-22.webp') }}"
                             alt="Shop Signage Board designed by Brand Signages" class="img-fluid">
                     </div>
                 </div>
