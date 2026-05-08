@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="facebook-domain-verification" content="9jgbtmdbnbnkf3atsnd1oiornuwjrt" />
     <link rel="icon" href="https://brandsignages.com/favicon-32x32.ico" sizes="32x32" type="image/x-icon" />
     <link rel="icon" href="https://brandsignages.com/favicon.ico" sizes="48x48" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="https://brandsignages.com/favicon-180x180.ico">
