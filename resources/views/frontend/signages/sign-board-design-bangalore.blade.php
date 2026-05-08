@@ -344,8 +344,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{ asset('frontend/Images/led-sign-board/led-name-board-design-1.webp') }}"
-                            alt="Rivetoile Office LED Name Board Design" class="img-fluid">
+                        <img src="{{ asset('frontend/Images/signage-board.webp') }}"
+                            alt="LED Signage Board for Airport - designed by Brand Signages" class="img-fluid">
                     </div>
                 </div>
 
