@@ -124,7 +124,6 @@ Route::get('/captcha/refresh', function () {
 })->name('captcha.refresh');
 
 Route::get('/acrylic-letters', [frontendController::class, 'acrylic_letters'])->name('acrylic_letters');
-Route::get('/sign-board', [frontendController::class, 'sign_board'])->name('sign_board');
 
 Route::get('/commercial-display', [frontendController::class, 'commercial_display'])->name('commercial_display');
 Route::get('/bank-sign-board', [frontendController::class, 'bank_sign_board'])->name('bank_sign_board');
