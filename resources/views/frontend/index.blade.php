@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-md-8 col-12 right-col">
                     <h2>Welcome to Brand Signages - Your Go-to Choice for Premium-quality Sign Boards</h2>
-                    <p>We are among the exclusive <a href="/sign-board-design-bangalore" style="text-decoration: unset;color:#ffff; font-weight: bold;">signage board</a> manufacturers in India with a long-standing foundation in
+                    <p>We are among the exclusive <a href="/sign-board-design-bangalore" style="text-decoration: unset;color:#ffff; font-weight: bold;">signage board designer</a> & manufacturers in India with a long-standing foundation in
                         Bangalore. We design custom sign boards to meet the exact needs of customers with no compromise in
                         quality and delivery time. Our core principle lies in 4 strong pillars that make us the #1 sign
                         board company in the region.  </p>
@@ -87,10 +87,10 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="hero-title text-start">Top-rated Signage Manufacturer in Bangalore, India </h2>
+                    <h2 class="hero-title text-start">Best Signage Board Manufacturer in Bangalore, India </h2>
                     <p class="brand-description">
                         Brand Signages was established in 2014 with a vision to empower brands with signage solutions that
-                        are unmatched in quality and design. We are meeting the deadlines in 2025 as the best-rated signage
+                        are unmatched in quality and design. We are meeting the deadlines in 2026 as the best-rated signage
                         manufacturer, working with the top brands across India. Our hustle is going on, and we work
                         tirelessly to hold the title and remain a signage superpower. 
                     </p>
@@ -118,7 +118,7 @@
     <section class="We-Elevate-Brands-section py-5">
         <div class="container">
         <div class="text-center mb-4">
-            <h2 class="We-Elevate-Brands-heading fw-bold">We Elevate Brands with Quality Signages <br>That Makes a Lasting Impression  </h2>
+            <h2 class="We-Elevate-Brands-heading fw-bold">We Elevate Brands with Quality Signage Board <br>That Makes a Lasting Impression  </h2>
         </div>
 
         <div class="position-relative">
@@ -338,7 +338,7 @@
                 <!-- Expertise -->
                 <div class="col-md-4 justify-content-between d-flex flex-column">
                     <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
-                        <p>We are among the best when it comes to <a href="/sign-board-design-bangalore" style="text-decoration: unset;color:#E43D12; font-weight: bold;">signage board</a> manufacturing. We craft signage designs that speak
+                        <p>We are among the best when it comes to <a href="/sign-board-design-bangalore" style="text-decoration: unset;color:#E43D12; font-weight: bold;">signage board design</a> and manufacturing. We craft signage designs that speak
                             volumes and attract audience from a distance.</p>
                         <h4 class="new_custom-title">Expertise</h4>
                     </div>
@@ -817,19 +817,21 @@
 </section>
 <section class="faq-section">
         <div class="container">
-            <h1 class="faq-title">FAQs</h1>
+            <h1 class="faq-title">Frequently Asked Questions</h1>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What is Signage?
+                    What is Signage Board?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Signages are visual communication tools like boards, symbols, graphics, or digital displays- created
-                         to convey messages, identify a place, promote a brand, or guide people. They include everything from 
-                         <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name boards</strong></a> 
-                         and <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED sign boards</strong></a> to safety signs and directional signs used in public and commercial 
-                         spaces.</p>  
+                    <p>Signage board is a visual display board used to communicate information, promote a brand, identify
+                         a business, or guide people in a particular location. Signage boards are commonly used for shop 
+                         name boards, office branding, advertising, directional guidance, safety instructions, and promotional 
+                         displays. They can be made using materials like acrylic, metal, LED, vinyl, or digital screens depending
+                          on the purpose and environment. From storefront sign boards and LED sign boards to safety and wayfinding
+                           signs, signage boards play a major role in improving visibility, brand recognition, and customer 
+                           engagement.</p>  
                 </div>
             </div>
 
