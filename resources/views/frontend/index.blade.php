@@ -119,70 +119,7 @@
         <div class="container">
             <h2 class="We-Elevate-Brands-heading fw-bold">Custom Signage, Sign Boards and<br> Marketing Materials</h2><br>
             <div class="row g-4">
-                <!-- Card 1 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="manufacturer-card">
-                        <div class="card-img-wrapper">
-                            <a href="/name-board-design-for-office-bangalore">
-                            <img src="{{ asset('frontend/Images/name-boards/metal-office-name-board.webp') }}" alt="Office Signage Board">
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <a href="/name-board-design-for-office-bangalore" style="text-decoration: none;">
-                            <h3>Office Signage Board</h3>
-                            </a>
-                            <p>Office sign boards are the symbol of elegance and brand identity. We provide requirement-specific signage board designs for receptions, entrances, cabins, and corporate spaces, they are durable, visually striking, and energy-efficient.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 2 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="manufacturer-card">
-                        <div class="card-img-wrapper">
-                            <a href="/indoor-signages">
-                            <img src="{{ asset('frontend/Images/office-sign-2.webp') }}" alt="Indoor Signage Board">
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <a href="/indoor-signages" style="text-decoration: none;">
-                            <h3>Indoor Signage Board</h3>
-                            </a>
-                            <p>Indoor signage boards improve branding, navigation, and customer experience across offices, retail stores, malls, restaurants, and hospitals. Designed for clear visibility and premium aesthetics, our indoor signages are durable and stylish. </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 3 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="manufacturer-card">
-                        <div class="card-img-wrapper">
-                            <a href="/name-board-designs-for-shops-bangalore">
-                            <img src="{{ asset('frontend/Images/case-studies/cafe-mocha-name-board-4.webp') }}" alt="Storefront Signage">
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <a href="/name-board-designs-for-shops-bangalore" style="text-decoration: none;">
-                            <h3>Storefront Signage</h3>
-                            </a>
-                            <p>We are named among top-tier sign board manufacturers for shop signage boards in India. Our signage board transforms storefronts into powerful visual displays, attracting customers with eye-catching designs and strong brand visibility.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 4 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="manufacturer-card">
-                        <div class="card-img-wrapper">
-                            <a href="/outdoor-signages">
-                            <img src="{{ asset('frontend/Images/outdoor-signage-board.webp') }}" alt="Window Graphics- Outdoor Signage Board">
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <a href="/outdoor-signages" style="text-decoration: none;">
-                            <h3>Outdoor Signage Board</h3>
-                            </a>
-                            <p>As top-level signage board experts, we create outdoor signages that turn business spaces into brand landmarks. Our outdoor signage boards are designed for visibility, combining durability and impactful branding to engage customers.</p>
-                        </div>
-                    </div>
-                </div>
+
                 <!-- Card 5 -->
                 <div class="col-lg-3 col-md-6">
                     <div class="manufacturer-card">
@@ -244,6 +181,71 @@
                             <h3>Acrylic Signage Board</h3>
                             </a>
                             <p>Our acrylic signages combine modern aesthetics with premium brand presentation. Designed with precision and clarity, these signboards create sleek, visually appealing displays that enhance brand visibility and deliver a sophisticated impression.</p>
+                        </div>
+                    </div>
+                </div>
+
+                                <!-- Card 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/name-board-design-for-office-bangalore">
+                            <img src="{{ asset('frontend/Images/name-boards/metal-office-name-board.webp') }}" alt="Office Signage Board">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/name-board-design-for-office-bangalore" style="text-decoration: none;">
+                            <h3>Office Signage Board</h3>
+                            </a>
+                            <p>Office sign boards are the symbol of elegance and brand identity. We provide requirement-specific signage board designs for receptions, entrances, cabins, and corporate spaces, they are durable, visually striking, and energy-efficient.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/indoor-signages">
+                            <img src="{{ asset('frontend/Images/office-sign-2.webp') }}" alt="Indoor Signage Board">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/indoor-signages" style="text-decoration: none;">
+                            <h3>Indoor Signage Board</h3>
+                            </a>
+                            <p>Indoor signage boards improve branding, navigation, and customer experience across offices, retail stores, malls, restaurants, and hospitals. Designed for clear visibility and premium aesthetics, our indoor signages are durable and stylish. </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/name-board-designs-for-shops-bangalore">
+                            <img src="{{ asset('frontend/Images/case-studies/cafe-mocha-name-board-4.webp') }}" alt="Storefront Signage">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/name-board-designs-for-shops-bangalore" style="text-decoration: none;">
+                            <h3>Storefront Signage</h3>
+                            </a>
+                            <p>We are named among top-tier sign board manufacturers for shop signage boards in India. Our signage board transforms storefronts into powerful visual displays, attracting customers with eye-catching designs and strong brand visibility.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/outdoor-signages">
+                            <img src="{{ asset('frontend/Images/outdoor-signage-board.webp') }}" alt="Window Graphics- Outdoor Signage Board">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/outdoor-signages" style="text-decoration: none;">
+                            <h3>Outdoor Signage Board</h3>
+                            </a>
+                            <p>As top-level signage board experts, we create outdoor signages that turn business spaces into brand landmarks. Our outdoor signage boards are designed for visibility, combining durability and impactful branding to engage customers.</p>
                         </div>
                     </div>
                 </div>
