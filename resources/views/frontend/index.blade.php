@@ -284,8 +284,8 @@
                 <!-- Contact Box -->
                 <div class="col-lg-6 col-md-12">
                     <div class="contact-cta-box text-center">
-                        <p class="cta-text">We design exclusive signage board with high-quality print to keep your sign board sharp, vibrant, and visually impactful for years. Our custom signage boards are crafted to deliver clear brand communication with premium finishes and vibrant colours. </p>
-                        <a href="{{ route('contact_us') }}" class="contact-btn-red">Contact Us</a>
+                        <p class="cta-text">We design custom signage board using premium-quality materials and precision craftsmanship to keep your signage sharp, vibrant, and visually impactful for years.</p>
+                        <a href="/sign-board-design-bangalore" class="contact-btn-red">Explore More</a>
                     </div>
                 </div>
             </div>
