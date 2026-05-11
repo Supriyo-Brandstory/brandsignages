@@ -284,7 +284,7 @@
                 <!-- Contact Box -->
                 <div class="col-lg-6 col-md-12">
                     <div class="contact-cta-box text-center">
-                        <p class="cta-text">We design custom signage board using premium-quality materials and precision craftsmanship to keep your signage sharp, vibrant, and visually impactful for years.</p>
+                        <p class="cta-text">We design custom signage board using premium-quality materials to keep your signage sharp, vibrant, and visually impactful for years. Brand Signages is setting new benchmarks in signage board in India with 1000+ design options.</p>
                         <a href="/sign-board-design-bangalore" class="contact-btn-red">Explore More</a>
                     </div>
                 </div>
