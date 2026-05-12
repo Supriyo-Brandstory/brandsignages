@@ -284,7 +284,7 @@
                 <!-- Contact Box -->
                 <div class="col-lg-6 col-md-12">
                     <div class="contact-cta-box text-center">
-                        <p class="cta-text">We design custom signage board using premium-quality materials to keep your signage sharp, vibrant, and visually impactful for years. Brand Signages is setting new benchmarks in signage board in India with 1000+ design options.</p>
+                        <p class="cta-text">Your signage board creates the first impression of your brand. With 1000+ signage board design options for retail stores, offices, showrooms, and commercial spaces, Brand Signages is setting new benchmarks in signage board design in India. Our signages feature premium materials and vibrant visuals that help your brand stand out.</p>
                         <a href="/sign-board-design-bangalore" class="contact-btn-red">Explore More</a>
                     </div>
                 </div>
