@@ -91,6 +91,16 @@
                         ['img' => 'hospital-signages-13', 'title' => 'Hospital Sign Board', 'class' => 'red-title'],
                         ['img' => 'hospital-signages-14', 'title' => 'Hospital Signage', 'class' => 'red-title'],
                         ['img' => 'hospital-signage-15', 'title' => 'Restroom Signage', 'class' => 'red-title'],
+                        ['img' => 'hospital-signages-30', 'title' => 'Hospital Indoor Signage', 'class' => 'red-title'],
+                        ['img' => 'hospital-signages-17', 'title' => 'Hospital Indoor Signage', 'class' => 'red-title'],
+                        ['img' => 'hospital-signages-18', 'title' => 'Hospital Digital Signage', 'class' => 'red-title'],
+                        ['img' => 'hospital-signages-19', 'title' => 'Hospital Name Board', 'class' => 'red-title'],
+                        ['img' => 'hospital-signages-20', 'title' => 'Hospital Siganges', 'class' => 'red-title'],
+                        ['img' => 'hospital-signages-22', 'title' => 'Hospital Sign Board', 'class' => 'red-title'],
+                        ['img' => 'hospital-signages-23', 'title' => 'Hospital Information Board', 'class' => 'red-title'],
+                        ['img' => 'hospital-signages-24', 'title' => 'Hospital Digital Signage', 'class' => 'red-title'],
+                        ['img' => 'hospital-signages-25', 'title' => 'Hospital Indoor Signage', 'class' => 'red-title'],
+                        ['img' => 'hospital-signages-27', 'title' => 'Hospital Outdoor Signage', 'class' => 'red-title'],
                     ];
                 @endphp
 
