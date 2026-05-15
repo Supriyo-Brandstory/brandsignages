@@ -180,7 +180,7 @@
                             <div class="col-lg-5">
                                 <div class="product-visuals">
                                     <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/retail-signages.webp') }}" alt="Office Signage Board" class="img-fluid rounded">
+                                        <img src="{{ asset('frontend/Images/name-boards/metal-office-name-board.webp') }}" alt="Office Signage Board" class="img-fluid rounded">
                                     </div>
                                    
                                     <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal" data-bs-target="#globalContactPopup">
@@ -222,7 +222,7 @@
                             <div class="col-lg-5">
                                 <div class="product-visuals">
                                     <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/rectangular-signages.webp') }}" alt="Indoor Signage Board" class="img-fluid rounded">
+                                        <img src="{{ asset('frontend/Images//office-sign-2.webp') }}" alt="Indoor Signage Board" class="img-fluid rounded">
                                     </div>
                                  
                                     <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal" data-bs-target="#globalContactPopup">
@@ -264,7 +264,7 @@
                             <div class="col-lg-5">
                                 <div class="product-visuals">
                                     <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/storefront-signages.webp') }}" alt="Storefront Signage" class="img-fluid rounded">
+                                        <img src="{{ asset('frontend/Images/case-studies/cafe-mocha-name-board-4.webp') }}" alt="Storefront Signage" class="img-fluid rounded">
                                     </div>
                                 
                                     <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal" data-bs-target="#globalContactPopup">
@@ -306,7 +306,7 @@
                             <div class="col-lg-5">
                                 <div class="product-visuals">
                                     <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/window-graphics.webp') }}" alt="Outdoor Signage" class="img-fluid rounded">
+                                        <img src="{{ asset('frontend/Images/outdoor-signage-board.webp') }}" alt="Outdoor Signage" class="img-fluid rounded">
                                     </div>
                                    
                                     <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal" data-bs-target="#globalContactPopup">
@@ -348,7 +348,7 @@
                             <div class="col-lg-5">
                                 <div class="product-visuals">
                                     <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/indoor-outdoor-banner.webp') }}" alt="LED Sign Board" class="img-fluid rounded">
+                                        <img src="{{ asset('frontend/Images/home/led-sign.webp') }}" alt="LED Sign Board" class="img-fluid rounded">
                                     </div>
                                 
                                     <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal" data-bs-target="#globalContactPopup">
@@ -390,7 +390,7 @@
                             <div class="col-lg-5">
                                 <div class="product-visuals">
                                     <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/pop-displays.webp') }}" alt="Neon Sign Board" class="img-fluid rounded">
+                                        <img src="{{ asset('frontend/Images/home/neon-sign2.webp') }}" alt="Neon Sign Board" class="img-fluid rounded">
                                     </div>
                                     
                                     <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal" data-bs-target="#globalContactPopup">
@@ -432,7 +432,7 @@
                             <div class="col-lg-5">
                                 <div class="product-visuals">
                                     <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/reflective-signs.webp') }}" alt="Metal Signage Board" class="img-fluid rounded">
+                                        <img src="{{ asset('frontend/Images/home/uhouse.webp') }}" alt="Metal Signage Board" class="img-fluid rounded">
                                     </div>
                                     
                                     <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal" data-bs-target="#globalContactPopup">
@@ -474,7 +474,7 @@
                             <div class="col-lg-5">
                                 <div class="product-visuals">
                                     <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/tradeshow-signage.webp') }}" alt="Acrylic Signage Board" class="img-fluid rounded">
+                                        <img src="{{ asset('frontend/Images/home/acrylic-sign.webp') }}" alt="Acrylic Signage Board" class="img-fluid rounded">
                                     </div>
                                     
                                     <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal" data-bs-target="#globalContactPopup">
@@ -516,7 +516,7 @@
                             <div class="col-lg-5">
                                 <div class="product-visuals">
                                     <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/retractable-banners.webp') }}" alt="Promotional Banners" class="img-fluid rounded">
+                                        <img src="{{ asset('frontend/Images/large-graphics/bp-13.webp') }}" alt="Promotional Banners" class="img-fluid rounded">
                                     </div>
                                    
                                     <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal" data-bs-target="#globalContactPopup">
@@ -2014,11 +2014,6 @@ thumbs.forEach((t, i) => (t.onclick = () => show(i)));
             overflow: hidden;
             border-radius: 4px;
         }
-        .product-main-img-box img {
-            max-width: 95%;
-            max-height: 95%;
-            object-fit: contain;
-        }
         .product-gallery-thumbs {
             display: flex;
             margin-top: 20px;
@@ -2056,7 +2051,7 @@ thumbs.forEach((t, i) => (t.onclick = () => show(i)));
             transition: all 0.3s ease;
         }
         .get-quote-btn:hover {
-            background: #157a47;
+            background: #e43d12;
             transform: translateY(-2px);
         }
         .price-tag-line {
