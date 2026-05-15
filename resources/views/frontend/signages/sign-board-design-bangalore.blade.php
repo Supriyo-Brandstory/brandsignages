@@ -206,13 +206,14 @@
         </div>
     </section>
 
-    <section class="premium-catalog-section py-5">
+
+    <!--<section class="premium-catalog-section py-5">
         <div class="container">
             <h2 class="We-Elevate-Brands-heading fw-bold mb-5 text-center">Custom Signage, Sign Boards and<br> Marketing
                 Materials</h2>
 
             <div class="catalog-list">
-                <!-- Item 1: Office Signage Board -->
+               
                 <div class="signage-product-box mb-5 shadow-sm">
                     <div class="product-header-bar">
                         <h3>Office Signage Board</h3>
@@ -230,8 +231,8 @@
                                             alt="Office Signage Board" class="img-fluid">
                                     </div>
 
-                                    <a href="#" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
+                                    <a href="/name-board-design-for-office-bangalore" class="get-quote-btn mt-4 w-100">
+                                        <i class="fas fa-circle-info me-2"></i>Office Sign Board
                                     </a>
                                 </div>
                             </div>
@@ -274,7 +275,6 @@
                     </div>
                 </div>
 
-                <!-- Item 2: Indoor Signage Board (Reverse Layout) -->
                 <div class="signage-product-box mb-5 shadow-sm">
                     <div class="product-header-bar">
                         <h3>Indoor Signage Board</h3>
@@ -292,8 +292,8 @@
                                             alt="Indoor Signage Board" class="img-fluid">
                                     </div>
 
-                                    <a href="#" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
+                                    <a href="https://brandsignages.com/indoor-signages" class="get-quote-btn mt-4 w-100">
+                                        <i class="fas fa-circle-info me-2"></i> Indoor Sign Board
                                     </a>
                                 </div>
                             </div>
@@ -336,10 +336,10 @@
                     </div>
                 </div>
 
-                <!-- Item 3: Storefront Signage -->
+               
                 <div class="signage-product-box mb-5 shadow-sm">
                     <div class="product-header-bar">
-                        <h3>Storefront Signage</h3>
+                        <h3>Shop Sign Board</h3>
                         <a href="#" class="callback-btn" data-bs-toggle="modal"
                             data-bs-target="#globalContactPopup">
                             <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
@@ -354,8 +354,8 @@
                                             alt="Storefront Signage" class="img-fluid">
                                     </div>
 
-                                    <a href="#" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
+                                    <a href="/name-board-designs-for-shops-bangalore" class="get-quote-btn mt-4 w-100">
+                                        <i class="fas fa-circle-info me-2"></i> Shop Sign Board
                                     </a>
                                 </div>
                             </div>
@@ -369,20 +369,20 @@
                                 </div>
                                 <table class="table table-bordered specifications-table p-3">
                                     <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Category</td>
-                                        <td class=p-2>Top-tier Shop Signage Boards</td>
+                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                        <td class="p-2">Retail shops & showrooms</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Impact</td>
-                                        <td class=p-2>Transforming storefronts into visual displays</td>
+                                        <td class="bg-light fw-bold p-1">Material</td>
+                                        <td class="p-2">Acrylic, Stainless Steel, LED, ACP</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Strategy</td>
-                                        <td class=p-2>Attracting customers with eye-catching designs</td>
+                                        <td class="bg-light fw-bold p-1">Feature</td>
+                                        <td class="p-2">3D LED letters, Durable, Efficient</td>
                                     </tr>
                                     <tr>
                                         <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class=p-2>Strong brand recognition across India</td>
+                                        <td class="p-2">Day & night visibility, premium finish</td>
                                     </tr>
                                 </table>
                                 <p class="product-short-description text-muted">We are named among top-tier sign board
@@ -398,7 +398,7 @@
                     </div>
                 </div>
 
-                <!-- Item 4: Outdoor Signage Board (Reverse Layout) -->
+               
                 <div class="signage-product-box mb-5 shadow-sm">
                     <div class="product-header-bar">
                         <h3>Outdoor Signage Board</h3>
@@ -416,8 +416,8 @@
                                             alt="Outdoor Signage" class="img-fluid">
                                     </div>
 
-                                    <a href="#" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
+                                    <a href="/outdoor-signages" class="get-quote-btn mt-4 w-100">
+                                        <i class="fas fa-circle-info me-2"></i> Outdoor Sign Board
                                     </a>
                                 </div>
                             </div>
@@ -431,20 +431,20 @@
                                 </div>
                                 <table class="table table-bordered specifications-table p-3">
                                     <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Expertise</td>
-                                        <td class=p-2>Top-level signage board specialists</td>
+                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                        <td class="p-2">Building, storefronts, outdoor branding</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Impact</td>
-                                        <td class=p-2>Turn business spaces into brand landmarks</td>
+                                        <td class="bg-light fw-bold p-1">Material</td>
+                                        <td class="p-2">ACP, MS frame, acrylic, LED</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Durability</td>
-                                        <td class=p-2>Weather-resistant and robust materials</td>
+                                        <td class="bg-light fw-bold p-1">Features</td>
+                                        <td class="p-2">Weatherproof, illuminated, durable</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Engagement</td>
-                                        <td class=p-2>Designed for maximum customer engagement</td>
+                                        <td class="bg-light fw-bold p-1">Visibility</td>
+                                        <td class="p-2">Long-distance outdoor visibility</td>
                                     </tr>
                                 </table>
                                 <p class="product-short-description text-muted">As top-level signage board experts, we
@@ -460,7 +460,7 @@
                     </div>
                 </div>
 
-                <!-- Item 5: LED Sign Board -->
+               
                 <div class="signage-product-box mb-5 shadow-sm">
                     <div class="product-header-bar">
                         <h3>LED Sign Board</h3>
@@ -478,8 +478,8 @@
                                             class="img-fluid">
                                     </div>
 
-                                    <a href="#" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
+                                    <a href="/led-acrylic-3d-glow-sign-board" class="get-quote-btn mt-4 w-100">
+                                        <i class="fas fa-circle-info me-2"></i> LED Sign Board
                                     </a>
                                 </div>
                             </div>
@@ -493,20 +493,20 @@
                                 </div>
                                 <table class="table table-bordered specifications-table p-3">
                                     <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Performance</td>
-                                        <td class=p-2>High-impact brand visibility</td>
+                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                        <td class="p-2">Retail stores, malls, restaurants, showrooms</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Efficiency</td>
-                                        <td class=p-2>Vibrant displays & Low power consumption</td>
+                                        <td class="bg-light fw-bold p-1">Material</td>
+                                        <td class="p-2">2nd Gen LED, acrylic, ACP, SS</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Technology</td>
-                                        <td class=p-2>Advanced 2nd Gen LED (2-Year Warranty)</td>
+                                        <td class="bg-light fw-bold p-1">Features</td>
+                                        <td class="p-2">Bright illumination, energy-efficient, durable</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Communication</td>
-                                        <td class=p-2>Powerful visual brand communication</td>
+                                        <td class="bg-light fw-bold p-1">Visibility</td>
+                                        <td class="p-2">High visibility day & night</td>
                                     </tr>
                                 </table>
                                 <p class="product-short-description text-muted">Our LED sign board delivers more than just
@@ -522,7 +522,7 @@
                     </div>
                 </div>
 
-                <!-- Item 6: Neon Sign Board (Reverse Layout) -->
+                
                 <div class="signage-product-box mb-5 shadow-sm">
                     <div class="product-header-bar">
                         <h3>Neon Sign Board</h3>
@@ -540,8 +540,8 @@
                                             alt="Neon Sign Board" class="img-fluid">
                                     </div>
 
-                                    <a href="#" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
+                                    <a href="/neon-signages" class="get-quote-btn mt-4 w-100">
+                                        <i class="fas fa-circle-info me-2"></i> Neon Sign Board
                                     </a>
                                 </div>
                             </div>
@@ -555,20 +555,20 @@
                                 </div>
                                 <table class="table table-bordered specifications-table p-3">
                                     <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Aesthetics</td>
-                                        <td class=p-2>Vibrant illumination & Creative branding</td>
+                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                        <td class="p-2">Cafes, salons, bars, retail interiors</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Style</td>
-                                        <td class=p-2>Modern, stylish, and energetic appeal</td>
+                                        <td class="bg-light fw-bold p-1">Material</td>
+                                        <td class="p-2">LED neon flex, acrylic, PVC</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Usage</td>
-                                        <td class=p-2>Restaurants, Bars, Creative workspaces</td>
+                                        <td class="bg-light fw-bold p-1">Features</td>
+                                        <td class="p-2">Glow effect, custom shapes, energy-efficient</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Impact</td>
-                                        <td class=p-2>Captures attention instantly</td>
+                                        <td class="bg-light fw-bold p-1">Visibility</td>
+                                        <td class="p-2">Vibrant indoor & outdoor visibility</td>
                                     </tr>
                                 </table>
                                 <p class="product-short-description text-muted">Our neon sign boards combine vibrant
@@ -584,7 +584,7 @@
                     </div>
                 </div>
 
-                <!-- Item 7: Metal Signage Board -->
+              
                 <div class="signage-product-box mb-5 shadow-sm">
                     <div class="product-header-bar">
                         <h3>Metal Signage Board</h3>
@@ -602,8 +602,8 @@
                                             alt="Metal Signage Board" class="img-fluid">
                                     </div>
 
-                                    <a href="#" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
+                                    <a href="/metal-signages" class="get-quote-btn mt-4 w-100">
+                                        <i class="fas fa-circle-info me-2"></i> Metal Sign Board
                                     </a>
                                 </div>
                             </div>
@@ -617,20 +617,20 @@
                                 </div>
                                 <table class="table table-bordered specifications-table p-3">
                                     <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Craftsmanship</td>
-                                        <td class=p-2>Strength, Elegance, Premium finish</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Durability</td>
-                                        <td class=p-2>Rust-resistant & High visual impact</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Appearance</td>
-                                        <td class=p-2>Sleek professional appearance</td>
+                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                        <td class="p-2">Offices, buildings, storefronts</td>
                                     </tr>
                                     <tr>
                                         <td class="bg-light fw-bold p-1">Material</td>
-                                        <td class=p-2>Stainless Steel, Brass, Titanium finish</td>
+                                        <td class="p-2">Stainless steel, brass, aluminum, ACP</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-light fw-bold p-1">Features</td>
+                                        <td class="p-2">Rust-resistant, durable, premium finish</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-light fw-bold p-1">Visibility</td>
+                                        <td class="p-2">Professional & high-end appearance</td>
                                     </tr>
                                 </table>
                                 <p class="product-short-description text-muted">Our metal signage boards feature strength,
@@ -646,7 +646,7 @@
                     </div>
                 </div>
 
-                <!-- Item 8: Acrylic Signage Board (Reverse Layout) -->
+               
                 <div class="signage-product-box mb-5 shadow-sm">
                     <div class="product-header-bar">
                         <h3>Acrylic Signage Board</h3>
@@ -664,8 +664,8 @@
                                             alt="Acrylic Signage Board" class="img-fluid">
                                     </div>
 
-                                    <a href="#" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
+                                    <a href="/arcylic-signages" class="get-quote-btn mt-4 w-100">
+                                        <i class="fas fa-circle-info me-2"></i> Acrylic Signage
                                     </a>
                                 </div>
                             </div>
@@ -679,20 +679,20 @@
                                 </div>
                                 <table class="table table-bordered specifications-table p-3">
                                     <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Style</td>
-                                        <td class=p-2>Modern aesthetics & Premium presentation</td>
+                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                        <td class="p-2">Retail stores, offices, indoor branding</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Precision</td>
-                                        <td class=p-2>Laser-cut precision and clarity</td>
+                                        <td class="bg-light fw-bold p-1">Material</td>
+                                        <td class="p-2">Acrylic, LED, vinyl, ACP</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Impression</td>
-                                        <td class=p-2>Sleek, visually appealing, sophisticated</td>
+                                        <td class="bg-light fw-bold p-1">Features</td>
+                                        <td class="p-2">Glossy finish, lightweight, custom designs</td>
                                     </tr>
                                     <tr>
                                         <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class=p-2>Enhanced brand visibility and sleek design</td>
+                                        <td class="p-2">Elegant & high-clarity branding</td>
                                     </tr>
                                 </table>
                                 <p class="product-short-description text-muted">Our acrylic signages combine modern
@@ -708,7 +708,7 @@
                     </div>
                 </div>
 
-                <!-- Item 9: Promotional Banners -->
+              
                 <div class="signage-product-box mb-5 shadow-sm">
                     <div class="product-header-bar">
                         <h3>Promotional Banners</h3>
@@ -726,8 +726,8 @@
                                             alt="Promotional Banners" class="img-fluid">
                                     </div>
 
-                                    <a href="#" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
+                                    <a href="/banner-printing" class="get-quote-btn mt-4 w-100">
+                                        <i class="fas fa-circle-info me-2"></i> Banner Printing
                                     </a>
                                 </div>
                             </div>
@@ -741,20 +741,20 @@
                                 </div>
                                 <table class="table table-bordered specifications-table p-3">
                                     <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Portability</td>
-                                        <td class=p-2>Compact, portable, and easy to carry</td>
+                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                        <td class="p-2">Events, promotions, outdoor advertising</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Graphics</td>
-                                        <td class=p-2>High-quality sharp and vibrant prints</td>
+                                        <td class="bg-light fw-bold p-1">Material</td>
+                                        <td class="p-2">Flex, vinyl, fabric, PVC</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Marketing</td>
-                                        <td class=p-2>Powerful marketing & communication tool</td>
+                                        <td class="bg-light fw-bold p-1">Features</td>
+                                        <td class="p-2">High-resolution printing, weather-resistant</td>
                                     </tr>
                                     <tr>
-                                        <td class="bg-light fw-bold p-1">Durability</td>
-                                        <td class=p-2>Long-lasting graphics for multiple events</td>
+                                        <td class="bg-light fw-bold p-1">Visibility</td>
+                                        <td class="p-2">Large-format high-impact visibility</td>
                                     </tr>
                                 </table>
                                 <p class="product-short-description text-muted">Are you looking for compact, portable, and
@@ -770,7 +770,7 @@
                     </div>
                 </div>
 
-                <!-- Item 10: Safety Signage Board (Reverse Layout) -->
+            
                 <div class="signage-product-box mb-5 shadow-sm">
                     <div class="product-header-bar">
                         <h3>Safety Signage Board</h3>
@@ -788,8 +788,8 @@
                                             alt="Safety Signage Board" class="img-fluid">
                                     </div>
 
-                                    <a href="#" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
+                                    <a href="/banner-printing" class="get-quote-btn mt-4 w-100">
+                                        <i class="fas fa-envelope me-2"></i> Safety Sign Board
                                     </a>
                                 </div>
                             </div>
@@ -803,20 +803,20 @@
                                 </div>
                                 <table class="table table-bordered specifications-table p-3">
                                     <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Purpose</td>
-                                        <td class=p-2>Ensure safety, awareness, and compliance</td>
+                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                        <td class="p-2">Factories, construction sites, workplaces</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-light fw-bold p-1">Material</td>
+                                        <td class="p-2">ACP, reflective vinyl, acrylic, PVC</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-light fw-bold p-1">Features</td>
+                                        <td class="p-2">Reflective, durable, weatherproof</td>
                                     </tr>
                                     <tr>
                                         <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class=p-2>Highly visible instructions and warnings</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Function</td>
-                                        <td class=p-2>Protect individuals and improve navigation</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Durability</td>
-                                        <td class=p-2>Suitable for industrial environments</td>
+                                        <td class="p-2">Clear safety communication day & night</td>
                                     </tr>
                                 </table>
                                 <p class="product-short-description text-muted">These signage boards are designed to ensure
@@ -833,7 +833,7 @@
                 </div>
             </div>
 
-            <!-- Contact CTA Box Below List -->
+        
             <div class="row mt-5">
                 <div class="col-12">
                     <div class="contact-cta-box text-center p-5"
@@ -853,51 +853,7 @@
                 </div>
             </div>
         </div>
-    </section>
-
-
-
-
-    <section id="pricing">
-        <div class="container py-lg-5 py-md-3 py-sm-2 py-3 pb-5">
-            <h2 class="hero-title">Signage Board Size and Pricing Options</h2>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="showcase-image">
-                        <img src="{{ asset('frontend/Images/signage-board.webp') }}"
-                            alt="LED Signage Board for Airport - designed by Brand Signages" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <p class="fs-20">
-                        The cost of a signage board varies based on factors such as material, size, design complexity,
-                        lighting options, and installation requirements. For larger signage board applications like office
-                        branding or outdoor displays, a site visit helps ensure accurate pricing.
-                    </p>
-
-                    <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
-                    <ul class="fs-20" style="padding-left: 18px;">
-                        <li><b>Small Signage Boards:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹1,000 – ₹10,000)</li>
-                        <li><b>Medium Signage Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹12,000 – ₹20,000)</li>
-                        <li><b>Large Signage Boards:</b> 4 ft x 8 ft (₹20,000 – ₹30,000)</li>
-                        <li><b>Custom Dimension:</b> Depends on your material & design</li>
-                    </ul>
-
-                    <p class="fs-20">
-                        Each signage board we craft using premium materials, precision design, and durable finishes suitable
-                        for indoor and outdoor applications. You can also choose from various lighting styles such as LED
-                        illuminated, front-lit, backlit, edge-lit, or non-lit options.
-                    </p>
-
-                    <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
-                        <button class="contact-btn">Book Order Now</button>
-                    </a>
-                </div>
-
-    </section>
-
+    </section>-->
 
 
     <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
@@ -1569,6 +1525,7 @@
         </div>
     </section>
 
+
     <section id="recent_projects" class="new-recent-works">
         <div class="container pt-5">
             <h2 class="hero-title  mb-6">Our Recent Signage Board Design<br> Projects across India</h2>
@@ -1651,6 +1608,43 @@
         </div>
     </section>
 
+            <section id="pricing">
+        <div class="container py-lg-5 py-md-3 py-sm-2 py-3 pb-5">
+            <h2 class="hero-title">Signage Board Size and Pricing Options</h2>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="showcase-image">
+                        <img src="{{ asset('frontend/Images/signage-board.webp') }}"
+                            alt="LED Signage Board for Airport - designed by Brand Signages" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <p class="fs-20">
+                        The cost of a signage board varies based on factors such as material, size, design complexity,
+                        lighting options, and installation requirements. For larger signage board applications like office
+                        branding or outdoor displays, a site visit helps ensure accurate pricing.
+                    </p>
+
+                    <p class="fs-20"><strong>Popular Size Options Include:</strong></p>
+                    <ul class="fs-20" style="padding-left: 18px;">
+                        <li><b>Small Signage Boards:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹1,000 – ₹10,000)</li>
+                        <li><b>Medium Signage Boards:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹12,000 – ₹20,000)</li>
+                        <li><b>Large Signage Boards:</b> 4 ft x 8 ft (₹20,000 – ₹30,000)</li>
+                        <li><b>Custom Dimension:</b> Depends on your material & design</li>
+                    </ul>
+
+                    <p class="fs-20">
+                        Each signage board we craft using premium materials, precision design, and durable finishes suitable
+                        for indoor and outdoor applications. You can also choose from various lighting styles such as LED
+                        illuminated, front-lit, backlit, edge-lit, or non-lit options.
+                    </p>
+
+                    <a href="https://brandsignages.com/contact-us" bis_skin_checked="1">
+                        <button class="contact-btn">Book Order Now</button>
+                    </a>
+                </div>
 
     </section>
 
@@ -2266,338 +2260,4 @@
     </script>
 
 
-
-    <style>
-        .manufacturer-title {
-            font-family: 'Lora', serif;
-            font-weight: 700;
-            color: #333;
-            font-size: 38px;
-        }
-
-        .manufacturer-card {
-            border: 1px solid #ffccbc;
-            border-radius: 12px;
-            overflow: hidden;
-            height: 100%;
-            transition: all 0.3s ease;
-            background: #fff;
-        }
-
-        .manufacturer-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 15px 30px rgba(228, 61, 18, 0.1);
-            border-color: #E43D12;
-        }
-
-        .card-img-wrapper {
-            height: 220px;
-            overflow: hidden;
-            padding: 12px;
-        }
-
-        .card-img-wrapper img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 8px;
-        }
-
-        .manufacturer-card .card-body {
-            padding: 15px 20px 25px;
-        }
-
-        .manufacturer-card h3 {
-            font-size: 20px;
-            color: #E43D12;
-            font-weight: 700;
-            margin-bottom: 12px;
-        }
-
-        .manufacturer-card p {
-            font-size: 16px;
-            color: #555;
-            line-height: 1.6;
-            margin-bottom: 0;
-        }
-
-        .contact-cta-box {
-            background-color: #fcfcfc;
-            border-radius: 12px;
-            height: 100%;
-            border: 1px solid #eee;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 40px;
-        }
-
-        .cta-text {
-            font-size: 24px;
-            font-family: 'Lora', serif;
-            color: #333;
-            margin-bottom: 30px;
-            font-weight: 600;
-            line-height: 1.4;
-        }
-
-        .contact-btn {
-            background-color: #E43D12;
-            color: #fff !important;
-            padding: 10px 25px;
-            border-radius: 6px;
-            font-weight: 700;
-            border: none;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .contact-btn:hover {
-            background-color: #bf3310;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(228, 61, 18, 0.2);
-        }
-
-        /* New Premium Catalog CSS */
-        .premium-catalog-section {
-            background-color: #fcfcfc;
-        }
-
-        .signage-product-box {
-            background: #fff;
-            border: 1px solid #e0e0e0;
-            border-radius: 6px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            overflow: hidden;
-            transition: all 0.3s ease;
-        }
-
-        .signage-product-box:hover {
-            box-shadow: 0 10px 25px rgba(228, 61, 18, 0.08);
-            border-color: #ffccbc;
-        }
-
-        .product-header-bar {
-            padding: 15px 25px;
-            background: #fff;
-            border-bottom: 1px solid #f1f1f1;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .product-header-bar h3 {
-            font-size: 22px;
-            font-weight: 700;
-            margin: 0;
-            color: #333;
-            font-family: 'Lora', serif;
-        }
-
-        .callback-btn {
-            border: 2px solid #e43d12;
-            color: #e43d12 !important;
-            padding: 8px 20px;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 13px;
-            text-transform: uppercase;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .callback-btn:hover {
-            background: #1a9a5a;
-            color: #fff !important;
-        }
-
-        .product-body-content {
-            padding: 30px;
-        }
-
-        .product-main-img-box {
-            border: 1px solid #eee;
-            background: #444;
-            /* Dark thematic background from reference */
-            height: 320px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            border-radius: 10px;
-        }
-
-        .product-gallery-thumbs {
-            display: flex;
-            margin-top: 20px;
-            gap: 15px;
-        }
-
-        .gallery-thumb-item {
-            flex: 1;
-            text-align: center;
-        }
-
-        .gallery-thumb-item img {
-            width: 100%;
-            height: 100px;
-            object-fit: cover;
-            border: 1px solid #eee;
-            border-radius: 4px;
-        }
-
-        .gallery-thumb-item span {
-            font-size: 12px;
-            display: block;
-            margin-top: 8px;
-            text-decoration: underline;
-            font-style: italic;
-            color: #777;
-        }
-
-        .get-quote-btn {
-            background: #000000;
-            color: #fff !important;
-            border: none;
-            width: 100%;
-            padding: 14px;
-            font-weight: 700;
-            font-size: 18px;
-            border-radius: 6px;
-            text-transform: uppercase;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            display: inline-block;
-            text-align: center;
-        }
-
-        .get-quote-btn:hover {
-            background: #e43d12;
-            transform: translateY(-2px);
-        }
-
-        .price-tag-line {
-            border-bottom: 1px solid #f1f1f1;
-            padding-bottom: 20px;
-            margin-bottom: 25px;
-        }
-
-        .current-price {
-            font-size: 32px;
-            font-weight: 700;
-            color: #333;
-        }
-
-        .current-price small {
-            font-size: 18px;
-            color: #666;
-            font-weight: 400;
-        }
-
-        .price-on-request-link {
-            color: #1a9a5a !important;
-            font-weight: 700;
-            text-decoration: underline;
-            margin-left: 20px;
-            font-size: 15px;
-        }
-
-        .moq-info {
-            font-size: 14px;
-            color: #888;
-            margin-top: 10px;
-            font-weight: 500;
-        }
-
-        .specifications-table {
-            width: 100%;
-            margin-bottom: 25px;
-        }
-
-        .specifications-table tr td {
-            padding: 12px 0;
-            border-bottom: 1px solid #f9f9f9;
-            font-size: 15px;
-        }
-
-        .specifications-table tr td:first-child {
-            color: #888;
-            width: 40%;
-        }
-
-        .specifications-table tr td:last-child {
-            color: #333;
-            font-weight: 600;
-        }
-
-        .product-short-description {
-            font-size: 15px;
-            color: #666;
-            line-height: 1.7;
-            border-top: 1px solid #f1f1f1;
-            padding-top: 20px;
-        }
-
-        .interest-cta-btn {
-            background: #fff;
-            color: #1a9a5a;
-            border: 2.5px solid #1a9a5a;
-            width: 100%;
-            max-width: 350px;
-            padding: 14px;
-            font-weight: 800;
-            font-size: 19px;
-            border-radius: 6px;
-            margin-top: 25px;
-            text-transform: uppercase;
-            transition: all 0.3s ease;
-        }
-
-        .interest-cta-btn:hover {
-            background: #1a9a5a;
-            color: #fff;
-        }
-
-        @media (max-width: 768px) {
-            .product-header-bar {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 15px;
-            }
-
-            .product-main-img-box {
-                height: 250px;
-            }
-
-            .interest-cta-btn {
-                max-width: 100%;
-            }
-
-            .current-price {
-                font-size: 26px;
-            }
-
-            .get-quote-btn {
-                margin-bottom: 10px;
-
-            }
-
-            .price-tag-line {
-
-                padding-bottom: 0px;
-            }
-
-            .contact-btn {
-                display: none;
-            }
-
-            .catalog-list {
-                display: flex;
-                flex-direction: column;
-                gap: 0px;
-            }
-        }
-    </style>
 @endsection
