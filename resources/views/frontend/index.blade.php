@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-md-8 col-12 right-col">
                     <h2>Welcome to Brand Signages - Your Go-to Choice for Premium-quality Sign Boards</h2>
-                    <p>We are among the exclusive <a href="/sign-board-design-bangalore" style="text-decoration: unset;color:#ffff; font-weight: bold;">signage board</a> manufacturers in India with a long-standing foundation in
+                    <p>We are among the exclusive <a href="/sign-board-design-bangalore" style="text-decoration: unset;color:#ffff; font-weight: bold;">signage board designer</a> & manufacturers in India with a long-standing foundation in
                         Bangalore. We design custom sign boards to meet the exact needs of customers with no compromise in
                         quality and delivery time. Our core principle lies in 4 strong pillars that make us the #1 sign
                         board company in the region.  </p>
@@ -87,10 +87,10 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="hero-title text-start">Top-rated Signage Manufacturer in Bangalore, India </h2>
+                    <h2 class="hero-title text-start">Best Signage Board Manufacturer in Bangalore, India </h2>
                     <p class="brand-description">
                         Brand Signages was established in 2014 with a vision to empower brands with signage solutions that
-                        are unmatched in quality and design. We are meeting the deadlines in 2025 as the best-rated signage
+                        are unmatched in quality and design. We are meeting the deadlines in 2026 as the best-rated signage
                         manufacturer, working with the top brands across India. Our hustle is going on, and we work
                         tirelessly to hold the title and remain a signage superpower. 
                     </p>
@@ -115,16 +115,192 @@
         </div>
     </section>
 
-    <section class="We-Elevate-Brands-section py-5">
+        <section class="signage-manufacturer-section py-5">
+        <div class="container">
+            <h2 class="We-Elevate-Brands-heading fw-bold">Custom Signage, Sign Boards and<br> Marketing Materials</h2><br>
+            <div class="row g-4">
+
+                <!-- Card 5 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/led-acrylic-3d-glow-sign-board">
+                            <img src="{{ asset('frontend/Images/home/led-sign.webp') }}" alt="LED Sign Board">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/led-acrylic-3d-glow-sign-board" style="text-decoration: none;">
+                            <h3>LED Sign Board</h3>
+                            </a>
+                            <p>Our LED sign board delivers more than just illumination- they create high-impact brand visibility. Designed for lasting performance, these signages feature with vibrant displays, energy efficiency, and powerful visual communication.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/neon-signages">
+                            <img src="{{ asset('frontend/Images/home/neon-sign2.webp') }}" alt="Neon Signage Board">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/neon-signages" style="text-decoration: none;">
+                            <h3>Neon Sign Board</h3>
+                            </a>
+                            <p>Our neon sign boards combine vibrant illumination with creative branding to create visually striking business displays. Designed to capture attention instantly, these signages add a modern, stylish, and energetic appeal while enhancing engagement.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 7 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/metal-signages">
+                            <img src="{{ asset('/frontend/Images/home/uhouse.webp') }}" alt="Metal Signage Board- Brand Signages">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/metal-signages" style="text-decoration: none;">
+                            <h3>Metal Signage Board</h3>
+                            </a>
+                            <p>Our metal signage boards feature strength, elegance, and premium craftsmanship to create a lasting brand presence. Designed for durability and high visual impact, these signages deliver a sleek professional appearance with clear brand communication. </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 8 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                                <a href="/arcylic-signages">
+                            <img src="{{ asset('frontend/Images/home/acrylic-sign.webp') }}" alt="Event Signage- Acrylic Signage Board">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/arcylic-signages" style="text-decoration: none;">
+                            <h3>Acrylic Signage Board</h3>
+                            </a>
+                            <p>Our acrylic signages combine modern aesthetics with premium brand presentation. Designed with precision and clarity, these signboards create sleek, visually appealing displays that enhance brand visibility and deliver a sophisticated impression.</p>
+                        </div>
+                    </div>
+                </div>
+
+                                <!-- Card 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/name-board-design-for-office-bangalore">
+                            <img src="{{ asset('frontend/Images/name-boards/metal-office-name-board.webp') }}" alt="Office Signage Board">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/name-board-design-for-office-bangalore" style="text-decoration: none;">
+                            <h3>Office Signage Board</h3>
+                            </a>
+                            <p>Office sign boards are the symbol of elegance and brand identity. We provide requirement-specific signage board designs for receptions, entrances, cabins, and corporate spaces, they are durable, visually striking, and energy-efficient.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/indoor-signages">
+                            <img src="{{ asset('frontend/Images/office-sign-2.webp') }}" alt="Indoor Signage Board">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/indoor-signages" style="text-decoration: none;">
+                            <h3>Indoor Signage Board</h3>
+                            </a>
+                            <p>Indoor signage boards improve branding, navigation, and customer experience across offices, retail stores, malls, restaurants, and hospitals. Designed for clear visibility and premium aesthetics, our indoor signages are durable and stylish. </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/name-board-designs-for-shops-bangalore">
+                            <img src="{{ asset('frontend/Images/case-studies/cafe-mocha-name-board-4.webp') }}" alt="Storefront Signage">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/name-board-designs-for-shops-bangalore" style="text-decoration: none;">
+                            <h3>Storefront Signage</h3>
+                            </a>
+                            <p>We are named among top-tier sign board manufacturers for shop signage boards in India. Our signage board transforms storefronts into powerful visual displays, attracting customers with eye-catching designs and strong brand visibility.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/outdoor-signages">
+                            <img src="{{ asset('frontend/Images/outdoor-signage-board.webp') }}" alt="Window Graphics- Outdoor Signage Board">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/outdoor-signages" style="text-decoration: none;">
+                            <h3>Outdoor Signage Board</h3>
+                            </a>
+                            <p>As top-level signage board experts, we create outdoor signages that turn business spaces into brand landmarks. Our outdoor signage boards are designed for visibility, combining durability and impactful branding to engage customers.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 9 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/banner-printing">
+                            <img src="{{ asset('frontend/Images/large-graphics/bp-13.webp') }}" alt="Retractable Banners">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/banner-printing" style="text-decoration: none;">
+                            <h3>Promotional Banners</h3>
+                            </a>
+                            <p>Are you looking for compact, portable, and promotional banners? We provide high-quality graphics and durable designs that offer seamless portability without compromising visual impact, brand visibility, or powerful marketing communication.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 10 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="manufacturer-card">
+                        <div class="card-img-wrapper">
+                            <a href="/safety-signages">
+                            <img src="{{ asset('frontend/Images/safety-signage.webp') }}" alt="Safety Signage">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="/safety-signages" style="text-decoration: none;">
+                            <h3>Safety Signage Board</h3>
+                            </a>
+                            <p>These signage boards are designed to ensure safety, awareness, and compliance across various environments. Safety signages provide clear, highly visible instructions and warning signs to protect individuals, and improve navigation. </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Box -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="contact-cta-box text-center">
+                        <p class="cta-text">Your signage board creates the first impression of your brand. With 1000+ signage board design options for retail stores, offices, showrooms, and commercial spaces, Brand Signages is setting new benchmarks in signage board design in India. Our signages feature premium materials and vibrant visuals that help your brand stand out.</p>
+                        <a href="/sign-board-design-bangalore" class="contact-btn-red">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<section class="We-Elevate-Brands-section py-5">
         <div class="container">
         <div class="text-center mb-4">
-            <h2 class="We-Elevate-Brands-heading fw-bold">We Elevate Brands with Quality Signages <br>That Makes a Lasting Impression  </h2>
+            <h2 class="We-Elevate-Brands-heading fw-bold">We Elevate Brands with Quality Signage Board <br>That Makes a Lasting Impression  </h2>
         </div>
 
         <div class="position-relative">
             <div class="swiper We-Elevate-Brands-swiper pt-60">
                 <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
                             <img src="{{asset('frontend/Images/home/uhouse.webp')}}" class="card-img-center"
@@ -140,8 +316,8 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/led-sign.webp')}}" class="card-img-center"
-                                alt="Metal Signage">
+                            <img src="{{asset('/frontend/Images/home/led-sign.webp')}}" class="card-img-center"
+                                alt="Led Sign Board- Brand Signages">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/led-acrylic-3d-glow-sign-board">LED Sign Board</a></h5>
                                 <p class="We-Elevate-Brands-text">LED sign boards are the most versatile option for modern branding. 
@@ -162,8 +338,8 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/acrylic-sign.webp')}}" class="card-img-center"
-                                alt="Metal Signage">
+                            <img src="{{asset('/frontend/Images/home/acrylic-sign.webp')}}" class="card-img-center"
+                                alt="Acrylic Signage Board- Brand Signages">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/arcylic-signages">Acrylic Signage</a></h5>
                                 <p class="We-Elevate-Brands-text">Acrylic signage is a preferred choice among industries for its glossy finish and durability. 
@@ -174,8 +350,8 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
-                                alt="Metal Signage">
+                            <img src="{{asset('/frontend/Images/home/neon-sign2.webp')}}" class="card-img-center"
+                                alt="Neon Sign Board- Brand Signages">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/neon-signages">Neon Sign Board</a></h5>
                                 <p class="We-Elevate-Brands-text">Neon signs are a go-to option for retail and restaurant businesses for all-around visibility. 
@@ -186,7 +362,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/retail-sign.webp')}}" class="card-img-center"
+                            <img src="{{asset('/frontend/Images/home/retail-sign.webp')}}" class="card-img-center"
                                 alt="Shop Name Boards">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/name-board-designs-for-shops-bangalore">Shop Name Boards</a></h5>
@@ -197,7 +373,7 @@
 
                     <div class="swiper-slide">
                         <div class="card We-Elevate-Brands-card ">
-                            <img src="{{asset('frontend/Images/home/outdoor-sign.webp')}}" class="card-img-center"
+                            <img src="{{asset('/frontend/Images/home/outdoor-sign.webp')}}" class="card-img-center"
                                 alt="Outdoor Business Signages">
                             <div class="card-body pt-0">
                                 <h5 class="We-Elevate-Brands-title"><a href="https://brandsignages.com/outdoor-signages">Outdoor Signage</a></h5>
@@ -208,9 +384,7 @@
                     </div>
 
                 </div>
-                <!-- Navigation Arrows -->
                 <div class="We-Elevate-Brands-nav ">
-                    <!-- Swap order: prev on left, next on right -->
                     <div class="We-Elevate-Brands-button-prev"></div>
                     <div class="We-Elevate-Brands-button-next"></div>
                 </div>
@@ -222,7 +396,7 @@
             <a href="https://brandsignages.com/services" class="btn-we-elevate">View All Services</a>
         </div>
         </div>
-    </section>
+    </section>-->
 
              <section id="recent_projects" class="new-recent-works">
         <div class="container mb-5">
@@ -338,7 +512,7 @@
                 <!-- Expertise -->
                 <div class="col-md-4 justify-content-between d-flex flex-column">
                     <div class="new_custom-box new_custom-light-box d-flex flex-column justify-content-between ">
-                        <p>We are among the best when it comes to <a href="/sign-board-design-bangalore" style="text-decoration: unset;color:#E43D12; font-weight: bold;">signage board</a> manufacturing. We craft signage designs that speak
+                        <p>We are among the best when it comes to <a href="/sign-board-design-bangalore" style="text-decoration: unset;color:#E43D12; font-weight: bold;">signage board design</a> and manufacturing. We craft signage designs that speak
                             volumes and attract audience from a distance.</p>
                         <h4 class="new_custom-title">Expertise</h4>
                     </div>
@@ -817,19 +991,21 @@
 </section>
 <section class="faq-section">
         <div class="container">
-            <h1 class="faq-title">FAQs</h1>
+            <h1 class="faq-title">Frequently Asked Questions</h1>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    What is Signage?
+                    What is Signage Board?
                     <i class="faq-icon fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Signages are visual communication tools like boards, symbols, graphics, or digital displays- created
-                         to convey messages, identify a place, promote a brand, or guide people. They include everything from 
-                         <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/name-board-designs-for-shops-bangalore"><strong>shop name boards</strong></a> 
-                         and <a style="color: #E43D12;text-decoration: none;" href="https://brandsignages.com/led-acrylic-3d-glow-sign-board"><strong>LED sign boards</strong></a> to safety signs and directional signs used in public and commercial 
-                         spaces.</p>  
+                    <p>Signage board is a visual display board used to communicate information, promote a brand, identify
+                         a business, or guide people in a particular location. Signage boards are commonly used for shop 
+                         name boards, office branding, advertising, directional guidance, safety instructions, and promotional 
+                         displays. They can be made using materials like acrylic, metal, LED, vinyl, or digital screens depending
+                          on the purpose and environment. From storefront sign boards and LED sign boards to safety and wayfinding
+                           signs, signage boards play a major role in improving visibility, brand recognition, and customer 
+                           engagement.</p>  
                 </div>
             </div>
 
@@ -1068,4 +1244,8 @@
             </div>
         </div>
 </section>
+
+
+
+
 @endsection

@@ -163,7 +163,7 @@
                             clock, communicating your brand identity even when your shop is closed. 
                         </li>
                         <li>
-                            <strong>Creates Trust:</strong> A premium, well-crafted shop sign board design signals
+                            <strong>Creates Trust:</strong> A premium, well-crafted shop <a href="/sign-board-design-bangalore" style="color:#E43D12; text-decoration:none;"><strong>sign board design</strong></a> signals
                             reliability and quality, two things every customer looks for before stepping inside.
                         </li>
                         <div class="mt-4">
@@ -636,7 +636,7 @@
                                         <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Highly Durable Name Boards"
                                             class="img-fluid">
                                         <h3>High Durability</h3>
-                                        <p>We use premium, durable, weather-resistant materials that ensure your shop sign board stays vibrant and long-lasting, even in challenging outdoor conditions. 
+                                        <p>We use premium, durable, weather-resistant materials that ensure your shop <a style="color: #ffff;text-decoration: underline;" href="/"><strong>signage board</strong></a> stays vibrant and long-lasting, even in challenging outdoor conditions. 
                                         </p>
                                     </div>
                                 </div>

@@ -4,7 +4,7 @@
 
     <div class="newly-bannersection">
         <div class="bar">
-            <h1 class="hero-banner_title">Signage Board</h1>
+            <h1 class="hero-banner_title">Signage Board Design</h1>
 
         </div>
         <!-- Slider -->
@@ -96,7 +96,7 @@
         <div class="container pt-5">
             <h2>Exclusive & Trending Signage Board Designs</h2>
             <p>
-                 Signage board is often the first thing people notice about your business. A well-designed <a href="/" style="color:#E43D12; text-decoration:none;"><strong>signage</strong></a> does more
+                 Signage board is often the first thing people notice about your business. A well-designed <a href="/" style="color:#E43D12; text-decoration:none;"><strong>signage board</strong></a> does more
                  than display your name- it creates a strong first impression, builds trust, and improves brand visibility. From modern
                   <a href="/name-board-design-for-office-bangalore" style="color:#E43D12; text-decoration:none;"><strong>office signages</strong></a> and <a href="/name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>storefront displays</strong></a> to illuminated <a href="/name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>LED name board</strong></a> and reception signs, the right signage design helps your 
                   business stand out in a competitive market.
@@ -138,7 +138,7 @@
                 <div class="col-lg-6">
                     <h2 class="hero-title text-start">Why Your Business Needs a Professional Signage Board</h2>
                     <p class="brand-description">
-                        In today’s high-competitive market, a <a href="/indoor-signages" style="color:#E43D12; text-decoration:none;"><strong>signage</strong></a> board is more than just a display board- it is a powerful
+                        In today’s high-competitive market, a <a href="/indoor-signages" style="color:#E43D12; text-decoration:none;"><strong>signage board</strong></a> board is more than just a display board- it is a powerful
                          branding tool that shapes how customers perceive your business. A professionally designed signage board 
                          improves visibility, strengthens brand recognition, and creates a lasting first impression for everyone who 
                          interacts with your brand.

@@ -398,7 +398,7 @@
 
                 <div class="col-lg-6">
                     <p class="fs-20">
-                        The cost of office name board design varies based on the material, size, design details, and
+                        The cost of office <a style="color: #000000;text-decoration: underline;" href="/"><strong>signage board</strong></a> varies based on the material, size, design details, and
                         installation
                         needs. For office signages such as reception boards, cabin boards, and large wall-mounted name
                         boards, a
