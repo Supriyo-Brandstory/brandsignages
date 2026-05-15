@@ -230,10 +230,9 @@
                                             alt="Office Signage Board" class="img-fluid">
                                     </div>
 
-                                    <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">
+                                    <a href="#" class="get-quote-btn mt-4 w-100">
                                         <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-7">
@@ -293,10 +292,9 @@
                                             alt="Indoor Signage Board" class="img-fluid">
                                     </div>
 
-                                    <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">
+                                    <a href="#" class="get-quote-btn mt-4 w-100">
                                         <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-7">
@@ -356,10 +354,9 @@
                                             alt="Storefront Signage" class="img-fluid">
                                     </div>
 
-                                    <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">
+                                    <a href="#" class="get-quote-btn mt-4 w-100">
                                         <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-7">
@@ -419,10 +416,9 @@
                                             alt="Outdoor Signage" class="img-fluid">
                                     </div>
 
-                                    <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">
+                                    <a href="#" class="get-quote-btn mt-4 w-100">
                                         <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-7">
@@ -482,10 +478,9 @@
                                             class="img-fluid">
                                     </div>
 
-                                    <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">
+                                    <a href="#" class="get-quote-btn mt-4 w-100">
                                         <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-7">
@@ -545,10 +540,9 @@
                                             alt="Neon Sign Board" class="img-fluid">
                                     </div>
 
-                                    <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">
+                                    <a href="#" class="get-quote-btn mt-4 w-100">
                                         <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-7">
@@ -608,10 +602,9 @@
                                             alt="Metal Signage Board" class="img-fluid">
                                     </div>
 
-                                    <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">
+                                    <a href="#" class="get-quote-btn mt-4 w-100">
                                         <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-7">
@@ -671,10 +664,9 @@
                                             alt="Acrylic Signage Board" class="img-fluid">
                                     </div>
 
-                                    <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">
+                                    <a href="#" class="get-quote-btn mt-4 w-100">
                                         <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-7">
@@ -734,10 +726,9 @@
                                             alt="Promotional Banners" class="img-fluid">
                                     </div>
 
-                                    <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">
+                                    <a href="#" class="get-quote-btn mt-4 w-100">
                                         <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-7">
@@ -797,10 +788,9 @@
                                             alt="Safety Signage Board" class="img-fluid">
                                     </div>
 
-                                    <button class="get-quote-btn mt-4 w-100" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">
+                                    <a href="#" class="get-quote-btn mt-4 w-100">
                                         <i class="fas fa-envelope me-2"></i> GET BEST QUOTE
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-lg-7">
@@ -2469,7 +2459,7 @@
 
         .get-quote-btn {
             background: #000000;
-            color: #fff;
+            color: #fff !important;
             border: none;
             width: 100%;
             padding: 14px;
@@ -2478,6 +2468,9 @@
             border-radius: 6px;
             text-transform: uppercase;
             transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
         }
 
         .get-quote-btn:hover {
