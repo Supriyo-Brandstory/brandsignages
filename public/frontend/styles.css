@@ -6580,3 +6580,339 @@ ul.brand-list {
         }
 
         /* ── New Product Card Section ────────────────── */
+
+
+        /* ── New Homepage Product Card Section ────────────────── */
+        
+        .manufacturer-title {
+            font-family: 'Lora', serif;
+            font-weight: 700;
+            color: #333;
+            font-size: 38px;
+        }
+
+        .manufacturer-card {
+            border: 1px solid #ffccbc;
+            border-radius: 12px;
+            overflow: hidden;
+            height: 100%;
+            transition: all 0.3s ease;
+            background: #fff;
+        }
+
+        .manufacturer-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(228, 61, 18, 0.1);
+            border-color: #E43D12;
+        }
+
+        .card-img-wrapper {
+            height: 220px;
+            overflow: hidden;
+            padding: 12px;
+        }
+
+        .card-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .manufacturer-card .card-body {
+            padding: 15px 20px 25px;
+        }
+
+        .manufacturer-card h3 {
+            font-size: 20px;
+            color: #E43D12;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .manufacturer-card p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        .contact-cta-box {
+            background-color: #fcfcfc;
+            border-radius: 12px;
+            height: 100%;
+            border: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .cta-text {
+            font-size: 24px;
+            font-family: 'Lora', serif;
+            color: #333;
+            margin-bottom: 30px;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .contact-btn {
+            background-color: #E43D12;
+            color: #fff !important;
+            padding: 10px 25px;
+            border-radius: 6px;
+            font-weight: 700;
+            border: none;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .contact-btn:hover {
+            background-color: #bf3310;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(228, 61, 18, 0.2);
+        }
+
+        /* New Premium Catalog CSS */
+        .premium-catalog-section {
+            background-color: #fff;
+        }
+
+        .signage-product-box {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .signage-product-box:hover {
+            box-shadow: 0 10px 25px rgba(228, 61, 18, 0.08);
+            border-color: #ffccbc;
+        }
+
+        .product-header-bar {
+            padding: 15px 25px;
+            background: #fff;
+            border-bottom: 1px solid #f1f1f1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .product-header-bar h3 {
+            font-size: 22px;
+            font-weight: 700;
+            margin: 0;
+            color: #333;
+            font-family: 'Lora', serif;
+        }
+
+        .callback-btn {
+            border: 2px solid #e43d12;
+            color: #e43d12 !important;
+            padding: 8px 20px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 13px;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .callback-btn:hover {
+            background: #1a9a5a;
+            color: #fff !important;
+        }
+
+        .product-body-content {
+            padding: 30px;
+        }
+
+        .product-main-img-box {
+            border: 1px solid #eee;
+            background: #444;
+            /* Dark thematic background from reference */
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .product-gallery-thumbs {
+            display: flex;
+            margin-top: 20px;
+            gap: 15px;
+        }
+
+        .gallery-thumb-item {
+            flex: 1;
+            text-align: center;
+        }
+
+        .gallery-thumb-item img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            border: 1px solid #eee;
+            border-radius: 4px;
+        }
+
+        .gallery-thumb-item span {
+            font-size: 12px;
+            display: block;
+            margin-top: 8px;
+            text-decoration: underline;
+            font-style: italic;
+            color: #777;
+        }
+
+        .get-quote-btn {
+            background: #000000;
+            color: #fff !important;
+            border: none;
+            width: 100%;
+            padding: 14px;
+            font-weight: 700;
+            font-size: 18px;
+            border-radius: 6px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .get-quote-btn:hover {
+            background: #e43d12;
+            transform: translateY(-2px);
+        }
+
+        .price-tag-line {
+            border-bottom: 1px solid #f1f1f1;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .current-price {
+            font-size: 32px;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .current-price small {
+            font-size: 18px;
+            color: #666;
+            font-weight: 400;
+        }
+
+        .price-on-request-link {
+            color: #1a9a5a !important;
+            font-weight: 700;
+            text-decoration: underline;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        .moq-info {
+            font-size: 14px;
+            color: #888;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .specifications-table {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+        .specifications-table tr td {
+            padding: 12px 0;
+            border-bottom: 1px solid #f9f9f9;
+            font-size: 15px;
+        }
+
+        .specifications-table tr td:first-child {
+            color: #888;
+            width: 40%;
+        }
+
+        .specifications-table tr td:last-child {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .product-short-description {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.7;
+            border-top: 1px solid #f1f1f1;
+            padding-top: 20px;
+        }
+
+        .interest-cta-btn {
+            background: #fff;
+            color: #1a9a5a;
+            border: 2.5px solid #1a9a5a;
+            width: 100%;
+            max-width: 350px;
+            padding: 14px;
+            font-weight: 800;
+            font-size: 19px;
+            border-radius: 6px;
+            margin-top: 25px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .interest-cta-btn:hover {
+            background: #1a9a5a;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .product-header-bar {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            .product-main-img-box {
+                height: 250px;
+            }
+
+            .interest-cta-btn {
+                max-width: 100%;
+            }
+
+            .current-price {
+                font-size: 26px;
+            }
+
+            .get-quote-btn {
+                margin-bottom: 10px;
+
+            }
+
+            .price-tag-line {
+
+                padding-bottom: 0px;
+            }
+
+            .contact-btn {
+                display: none;
+            }
+
+            .catalog-list {
+                display: flex;
+                flex-direction: column;
+                gap: 0px;
+            }
+        }
+    
