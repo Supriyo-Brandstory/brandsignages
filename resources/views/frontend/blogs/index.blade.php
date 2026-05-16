@@ -70,10 +70,6 @@
             border: none;
         }
 
-        .carousel-caption-custom {
-            position: relative;
-        }
-
         .carousel-section.blog {
             background-image: url('{{ asset('frontend/Images/categorybanner.jpg') }}');
             background-size: cover;
@@ -107,9 +103,8 @@
             }
 
             .carousel-section.blog {
-                display: flex;
-                align-items: center;
-                min-height: 50vh;
+
+                min-height: 40vh;
             }
 
             .carousel-caption-custom {
