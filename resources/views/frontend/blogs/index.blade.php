@@ -75,7 +75,7 @@
             background-size: cover;
             background-position: center;
             position: relative;
-            height: 70vh;
+            min-height: 70vh;
         }
 
         @media (min-width: 992px) {
