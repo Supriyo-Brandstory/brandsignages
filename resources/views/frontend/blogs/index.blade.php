@@ -104,7 +104,7 @@
 
             .carousel-section.blog {
 
-                min-height: 40vh;
+                min-height: 45vh;
             }
 
             .carousel-caption-custom {
@@ -121,7 +121,7 @@
         @media (max-width: 576px) {
             .carousel-caption-custom.xx {
                 padding: 15px;
-                bottom: 10%;
+                bottom: 8%;
 
             }
 
