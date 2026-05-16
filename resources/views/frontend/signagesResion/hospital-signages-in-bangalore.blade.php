@@ -60,7 +60,7 @@
 
     <section class="instant-pricing ">
         <div class="container py-5">
-            <h2>Hospital Signage Solutions for Better <br>Patient Navigation</h2>
+            <h2>Full-Scale Hospital Signages for <br>Indoor & Outdoor Use</h2>
             <p>Hospitals are busy environments where clear communication significantly improves patient comfort and overall
                  operational efficiency. Well-designed hospital signages help patients, visitors, and staff find departments,
                   emergency areas, waiting zones, and critical care units without confusion or delay. At Brand Signages, we create custom hospital signage solutions that combine functionality, visibility, and 
@@ -737,59 +737,117 @@
         </div>
     </section>
 
-
-
 <section class="faq-section">
     <div class="faq-container">
         <h1 class="faq-title">Frequently Asked Questions</h1>
 
         <div class="faq-item">
             <button class="faq-question">
-                What kinds of hospital signages do you provide?
+                What types of hospital signage does Brand Signages offer?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>We provide an extensive array of hospital signage solutions across India, comprising hospital wayfinding signage for lucid steerage, hospital digital signage for immediate interaction, and traditional hospital signage boards customized to improve your facility's organization and patient experience.</p>
+                <p>Brand Signages provides a comprehensive range of hospital signage solutions including wayfinding and directional signs, department identification boards, emergency and ICU signage, OPD and ward name plates, patient room signs, reception and lobby signs, safety and regulatory signage, floor directory boards, and illuminated outdoor hospital name signs. Whether you need a single sign or a complete hospital signage system, we cover it all.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                Why is hospital wayfinding signage important?
+                Why is professional hospital signage important for healthcare facilities?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Hospital wayfinding signages help patients, visitors, and staff easily navigate through different departments and hospital areas. Clear directional sign boards reduce confusion, save time, and make it easier for people to find consultation rooms, emergency wards, pharmacies, and other important locations within the facility.</p>
+                <p>Professional hospital signage is critical for patient safety, smooth navigation, and overall hospital efficiency. Clear, well-placed signs reduce confusion for patients and visitors, minimize staff disruption, speed up emergency response by guiding people to critical areas instantly, and reinforce the hospital's brand identity. Poorly signed hospitals create anxiety, especially for first-time patients. Investing in a well-planned hospital signage system directly improves the overall patient experience.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                Do you provide digital signage for hospitals?
+                Can Brand Signages design custom hospital signage that matches our brand identity?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Yes, our hospital digital signage solutions showcase prompt updates, proclamations, and directions. These digital signage boards promote interaction, match operations, and create a contemporary, effective landscape for workers, patients, and guests alike.</p>
+                <p>Absolutely. Every healthcare facility has its own identity, and your signage should reflect that. Our design team works closely with your hospital's branding guidelines, incorporating your logo, colour palette, typography, and tone, to create a cohesive signage system that looks professional and feels consistent throughout the facility, from the entrance gate to the last corridor.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                Do you provide custom hospital signage boards?
+                What materials are used for hospital signage, and how durable are they?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Yes, we design and manufacture customized hospital signage boards tailored to your specific requirements. From hospital name boards and department signs to wayfinding, safety, and informational signages, our solutions are designed to match your hospital branding while improving navigation and communication.</p>
+                <p>We use high-grade materials selected specifically for healthcare environments, including acrylic, aluminium composite panels (ACP), stainless steel, PVC foam boards, and backlit LED modules. These materials are chosen for their durability, ease of cleaning, resistance to humidity, and long-term colour retention, all essential in a hospital environment where hygiene and longevity matter most.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <button class="faq-question">
-                What Makes Brand Signages’ hospital sign boards different?
+                Do you provide both indoor and outdoor hospital signage?
                 <i class="faq-icon fa-solid fa-chevron-down"></i>
             </button>
             <div class="faq-answer">
-                <p>Our hospital sign boards are designed with a strong focus on visibility, durability, and functionality for modern healthcare environments. At Brand Signages, we use high-quality materials, clear typography, and customized designs to create signages that improve navigation, communication, and overall patient experience.</p>
+                <p>Yes. Brand Signages handles the full spectrum of hospital signage. For indoor spaces, we provide departmental nameplates, wayfinding sign systems, floor directories, room number signs, corridor directionals, and safety and compliance boards. For outdoor spaces, we offer illuminated building name signs, entrance and parking signs, totem and pylon signs, emergency bay markers, and boundary wall signage. All outdoor signs are weather-resistant and built to maintain visibility and structural integrity over the long term.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is the role of wayfinding signage in a hospital?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Wayfinding signage is the backbone of patient navigation inside a hospital. It guides patients, attendants, and visitors from the moment they enter the premises, through reception, to the correct department, floor, ward, or room, without needing to ask for directions. A well-designed wayfinding system reduces foot traffic congestion, eases patient anxiety, improves staff productivity, and contributes significantly to a positive patient experience and better NABH compliance.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Does Brand Signages handle complete hospital signage projects from design to installation?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes, we offer end-to-end hospital signage services. Our process includes site survey and space audit, signage strategy and layout planning, custom design and client approval, manufacturing, logistics, and professional installation, followed by post-installation support. You don't need to coordinate multiple vendors as we handle everything under one roof.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Do you offer bulk hospital signage orders, and are there any discounts?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Yes. We regularly handle large-scale and bulk hospital signage requirements, from new hospital launches to complete refurbishment projects. Bulk orders are priced competitively, and our production capacity ensures consistent quality across every unit. Reach out to our team to discuss your project scale and get a tailored quote.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Can Brand Signages execute multi-location hospital signage projects?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Absolutely. If your hospital group operates across multiple locations, we can deliver uniform, brand-consistent signage across all sites. We manage centralized design and production with location-specific installation teams, ensuring the same quality and visual language is maintained across every branch.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                How long does it take to deliver and install hospital signage?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Timelines depend on project scope, but for standard hospital signage orders, production and delivery typically takes 7 to 15 working days from design approval. Large-scale or complex wayfinding systems may require a phased installation timeline, which we plan in detail with your facility management team to cause minimal disruption to hospital operations. Installation is carried out by our trained team at no additional charge.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What makes Brand Signages the right partner for hospital signage?
+                <i class="faq-icon fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+                <p>Brand Signages combines design expertise, material quality, and project management capability to deliver hospital signage systems that are functional, durable, and brand-aligned. We understand the unique requirements of healthcare environments, including the need for clarity, hygiene-compatible materials, and compliance-ready formats. Our clients trust us because we don't just manufacture signs, we create navigation experiences that make hospitals easier and safer to move through.</p>
             </div>
         </div>
 
