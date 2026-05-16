@@ -70,6 +70,14 @@
             border: none;
         }
 
+        .carousel-section.blog {
+            background-image: url('{{ asset('frontend/Images/categorybanner.jpg') }}');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            height: 70vh;
+        }
+
         @media (min-width: 992px) {
             .navbar-expand-lg .navbar-nav {
                 flex-direction: row;
@@ -88,12 +96,22 @@
                 max-width: 100%;
                 margin-bottom: 15px;
             }
+
+            .carousel-section.blog {
+
+                min-height: 24vh;
+            }
+
+            .carousel-caption-custom {
+                max-width: 90%;
+            }
+
         }
 
         @media (max-width: 576px) {
             .carousel-caption-custom.xx {
                 padding: 15px;
-                bottom: 60%;
+                bottom: 70%;
 
             }
 
@@ -130,11 +148,7 @@
             </div>
         </section>
     @else
-        <section class="carousel-section"
-            style="background-image: url('{{ asset('frontend/Images/categorybanner.jpg') }}');
-background-size: cover;
-background-position: center;
-height: 400px;">
+        <section class="carousel-section blog">
             <div class="carousel-caption-custom xx">
                 @if (request('search'))
                     <h2 style="text-transform: uppercase;">Search Results</h2>
