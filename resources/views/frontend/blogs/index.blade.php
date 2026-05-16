@@ -78,6 +78,11 @@
             min-height: 70vh;
         }
 
+        .btn {
+            padding: 5px 20px;
+
+        }
+
         @media (min-width: 992px) {
             .navbar-expand-lg .navbar-nav {
                 flex-direction: row;
@@ -99,11 +104,16 @@
 
             .carousel-section.blog {
 
-                min-height: 24vh;
+                min-height: 40vh;
             }
 
             .carousel-caption-custom {
                 max-width: 90%;
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 115px;
             }
 
         }
@@ -111,7 +121,7 @@
         @media (max-width: 576px) {
             .carousel-caption-custom.xx {
                 padding: 15px;
-                bottom: 70%;
+                bottom: 10%;
 
             }
 
