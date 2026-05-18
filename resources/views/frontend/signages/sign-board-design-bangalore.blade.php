@@ -208,562 +208,625 @@
 
 
     <!--<section class="premium-catalog-section py-5">
-        <div class="container">
-            <h2 class="We-Elevate-Brands-heading fw-bold mb-5 text-center">Custom Signage, Sign Boards and<br> Marketing
-                Materials</h2>
+            <div class="container">
+                <h2 class="We-Elevate-Brands-heading fw-bold mb-5 text-center">Custom Signage, Sign Boards and<br> Marketing
+                    Materials</h2>
 
-            <div class="catalog-list">
-               
-                <div class="signage-product-box mb-5 shadow-sm">
-                    <div class="product-header-bar">
-                        <h3>Office Signage Board</h3>
-                        <a href="#" class="callback-btn" data-bs-toggle="modal"
-                            data-bs-target="#globalContactPopup">
-                            <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
-                        </a>
-                    </div>
-                    <div class="product-body-content p-4">
-                        <div class="row align-items-start">
-                            <div class="col-lg-5">
-                                <div class="product-visuals">
-                                    <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/name-boards/metal-office-name-board.webp') }}"
-                                            alt="Office Signage Board" class="img-fluid">
+                <div class="catalog-list">
+                   
+                    <div class="signage-product-box mb-5 shadow-sm">
+                        <div class="product-header-bar">
+                            <h3>Office Signage Board</h3>
+                            <a href="#" class="callback-btn" data-bs-toggle="modal"
+                                data-bs-target="#globalContactPopup">
+                                <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
+                            </a>
+                        </div>
+                        <div class="product-body-content p-4">
+                            <div class="row align-items-start">
+                                <div class="col-lg-5">
+                                    <div class="product-visuals">
+                                        <div class="product-main-img-box">
+                                            <img src="{{ asset('frontend/Images/name-boards/metal-office-name-board.webp') }}"
+                                                alt="Office Signage Board" class="img-fluid">
+                                        </div>
+
+                                        <a href="/name-board-design-for-office-bangalore" class="get-quote-btn mt-4 w-100">
+                                            <i class="fas fa-circle-info me-2"></i>Office Sign Board
+                                        </a>
                                     </div>
-
-                                    <a href="/name-board-design-for-office-bangalore" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-circle-info me-2"></i>Office Sign Board
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="price-tag-line mb-3">
-                                    <span class="current-price fs-4 fw-bold text-danger">Price: ₹1,500 <small
-                                            class="text-muted fs-6">/ Sqft</small></span>
-                                    <a href="#" class="ms-3 text-primary text-decoration-none"
-                                        data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
-                                    <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 10 Sqft</p>
-                                </div>
-                                <table class="table table-bordered specifications-table p-3">
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
-                                        <td class=p-2>Receptions, Entrances, Cabins, Corporate spaces</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Material</td>
-                                        <td class=p-2>Acrylic, Stainless Steel, LED, ACP</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Features</td>
-                                        <td class=p-2>3D LED letters, Durable, Energy-efficient</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class=p-2>High-impact brand recognition</td>
-                                    </tr>
-                                </table>
-                                <p class="product-short-description text-muted">Office sign boards are the symbol of
-                                    elegance and brand identity. We provide requirement-specific signage board designs for
-                                    receptions, entrances, cabins, and corporate spaces, they are durable, visually
-                                    striking, and energy-efficient.</p>
-                                <div class="text-end">
-                                    <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                <div class="col-lg-7">
+                                    <div class="price-tag-line mb-3">
+                                        <span class="current-price fs-4 fw-bold text-danger">Price: ₹1,500 <small
+                                                class="text-muted fs-6">/ Sqft</small></span>
+                                        <a href="#" class="ms-3 text-primary text-decoration-none"
+                                            data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
+                                        <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 10 Sqft</p>
+                                    </div>
+                                    <table class="table table-bordered specifications-table p-3">
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                            <td class=p-2>Receptions, Entrances, Cabins, Corporate spaces</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Material</td>
+                                            <td class=p-2>Acrylic, Stainless Steel, LED, ACP</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Features</td>
+                                            <td class=p-2>3D LED letters, Durable, Energy-efficient</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Visibility</td>
+                                            <td class=p-2>High-impact brand recognition</td>
+                                        </tr>
+                                    </table>
+                                    <p class="product-short-description text-muted">Office sign boards are the symbol of
+                                        elegance and brand identity. We provide requirement-specific signage board designs for
+                                        receptions, entrances, cabins, and corporate spaces, they are durable, visually
+                                        striking, and energy-efficient.</p>
+                                    <div class="text-end">
+                                        <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
+                                            data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="signage-product-box mb-5 shadow-sm">
-                    <div class="product-header-bar">
-                        <h3>Indoor Signage Board</h3>
-                        <a href="#" class="callback-btn" data-bs-toggle="modal"
-                            data-bs-target="#globalContactPopup">
-                            <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
-                        </a>
-                    </div>
-                    <div class="product-body-content p-4">
-                        <div class="row align-items-start">
-                            <div class="col-lg-5">
-                                <div class="product-visuals">
-                                    <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images//office-sign-2.webp') }}"
-                                            alt="Indoor Signage Board" class="img-fluid">
+                    <div class="signage-product-box mb-5 shadow-sm">
+                        <div class="product-header-bar">
+                            <h3>Indoor Signage Board</h3>
+                            <a href="#" class="callback-btn" data-bs-toggle="modal"
+                                data-bs-target="#globalContactPopup">
+                                <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
+                            </a>
+                        </div>
+                        <div class="product-body-content p-4">
+                            <div class="row align-items-start">
+                                <div class="col-lg-5">
+                                    <div class="product-visuals">
+                                        <div class="product-main-img-box">
+                                            <img src="{{ asset('frontend/Images//office-sign-2.webp') }}"
+                                                alt="Indoor Signage Board" class="img-fluid">
+                                        </div>
+
+                                        <a href="https://brandsignages.com/indoor-signages" class="get-quote-btn mt-4 w-100">
+                                            <i class="fas fa-circle-info me-2"></i> Indoor Sign Board
+                                        </a>
                                     </div>
-
-                                    <a href="https://brandsignages.com/indoor-signages" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-circle-info me-2"></i> Indoor Sign Board
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="price-tag-line mb-3">
-                                    <span class="current-price fs-4 fw-bold text-danger">Price: ₹800 <small
-                                            class="text-muted fs-6">/ Sqft</small></span>
-                                    <a href="#" class="ms-3 text-primary text-decoration-none"
-                                        data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
-                                    <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 5 Sqft</p>
-                                </div>
-                                <table class="table table-bordered specifications-table p-3">
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
-                                        <td class=p-2>Offices, Retail, Malls, Restaurants, Hospitals</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Aesthetics</td>
-                                        <td class=p-2>Premium, Stylish, Durable</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Function</td>
-                                        <td class=p-2>Branding, Navigation, Customer Experience</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class=p-2>Clear visibility and premium finishing</td>
-                                    </tr>
-                                </table>
-                                <p class="product-short-description text-muted">Indoor signage boards improve branding,
-                                    navigation, and customer experience across offices, retail stores, malls, restaurants,
-                                    and hospitals. Designed for clear visibility and premium aesthetics, our indoor signages
-                                    are durable and stylish.</p>
-                                <div class="text-end">
-                                    <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                <div class="col-lg-7">
+                                    <div class="price-tag-line mb-3">
+                                        <span class="current-price fs-4 fw-bold text-danger">Price: ₹800 <small
+                                                class="text-muted fs-6">/ Sqft</small></span>
+                                        <a href="#" class="ms-3 text-primary text-decoration-none"
+                                            data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
+                                        <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 5 Sqft</p>
+                                    </div>
+                                    <table class="table table-bordered specifications-table p-3">
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                            <td class=p-2>Offices, Retail, Malls, Restaurants, Hospitals</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Aesthetics</td>
+                                            <td class=p-2>Premium, Stylish, Durable</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Function</td>
+                                            <td class=p-2>Branding, Navigation, Customer Experience</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Visibility</td>
+                                            <td class=p-2>Clear visibility and premium finishing</td>
+                                        </tr>
+                                    </table>
+                                    <p class="product-short-description text-muted">Indoor signage boards improve branding,
+                                        navigation, and customer experience across offices, retail stores, malls, restaurants,
+                                        and hospitals. Designed for clear visibility and premium aesthetics, our indoor signages
+                                        are durable and stylish.</p>
+                                    <div class="text-end">
+                                        <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
+                                            data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-               
-                <div class="signage-product-box mb-5 shadow-sm">
-                    <div class="product-header-bar">
-                        <h3>Shop Sign Board</h3>
-                        <a href="#" class="callback-btn" data-bs-toggle="modal"
-                            data-bs-target="#globalContactPopup">
-                            <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
-                        </a>
-                    </div>
-                    <div class="product-body-content p-4">
-                        <div class="row align-items-start">
-                            <div class="col-lg-5">
-                                <div class="product-visuals">
-                                    <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/case-studies/cafe-mocha-name-board-4.webp') }}"
-                                            alt="Storefront Signage" class="img-fluid">
+                   
+                    <div class="signage-product-box mb-5 shadow-sm">
+                        <div class="product-header-bar">
+                            <h3>Shop Sign Board</h3>
+                            <a href="#" class="callback-btn" data-bs-toggle="modal"
+                                data-bs-target="#globalContactPopup">
+                                <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
+                            </a>
+                        </div>
+                        <div class="product-body-content p-4">
+                            <div class="row align-items-start">
+                                <div class="col-lg-5">
+                                    <div class="product-visuals">
+                                        <div class="product-main-img-box">
+                                            <img src="{{ asset('frontend/Images/case-studies/cafe-mocha-name-board-4.webp') }}"
+                                                alt="Storefront Signage" class="img-fluid">
+                                        </div>
+
+                                        <a href="/name-board-designs-for-shops-bangalore" class="get-quote-btn mt-4 w-100">
+                                            <i class="fas fa-circle-info me-2"></i> Shop Sign Board
+                                        </a>
                                     </div>
-
-                                    <a href="/name-board-designs-for-shops-bangalore" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-circle-info me-2"></i> Shop Sign Board
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="price-tag-line mb-3">
-                                    <span class="current-price fs-4 fw-bold text-danger">Price: ₹2,500 <small
-                                            class="text-muted fs-6">/ Sqft</small></span>
-                                    <a href="#" class="ms-3 text-primary text-decoration-none"
-                                        data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
-                                    <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 10 Sqft</p>
-                                </div>
-                                <table class="table table-bordered specifications-table p-3">
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
-                                        <td class="p-2">Retail shops & showrooms</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Material</td>
-                                        <td class="p-2">Acrylic, Stainless Steel, LED, ACP</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Feature</td>
-                                        <td class="p-2">3D LED letters, Durable, Efficient</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class="p-2">Day & night visibility, premium finish</td>
-                                    </tr>
-                                </table>
-                                <p class="product-short-description text-muted">We are named among top-tier sign board
-                                    manufacturers for shop signage boards in India. Our signage board transforms storefronts
-                                    into powerful visual displays, attracting customers with eye-catching designs and strong
-                                    brand visibility.</p>
-                                <div class="text-end">
-                                    <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                <div class="col-lg-7">
+                                    <div class="price-tag-line mb-3">
+                                        <span class="current-price fs-4 fw-bold text-danger">Price: ₹2,500 <small
+                                                class="text-muted fs-6">/ Sqft</small></span>
+                                        <a href="#" class="ms-3 text-primary text-decoration-none"
+                                            data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
+                                        <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 10 Sqft</p>
+                                    </div>
+                                    <table class="table table-bordered specifications-table p-3">
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                            <td class="p-2">Retail shops & showrooms</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Material</td>
+                                            <td class="p-2">Acrylic, Stainless Steel, LED, ACP</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Feature</td>
+                                            <td class="p-2">3D LED letters, Durable, Efficient</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Visibility</td>
+                                            <td class="p-2">Day & night visibility, premium finish</td>
+                                        </tr>
+                                    </table>
+                                    <p class="product-short-description text-muted">We are named among top-tier sign board
+                                        manufacturers for shop signage boards in India. Our signage board transforms storefronts
+                                        into powerful visual displays, attracting customers with eye-catching designs and strong
+                                        brand visibility.</p>
+                                    <div class="text-end">
+                                        <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
+                                            data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-               
-                <div class="signage-product-box mb-5 shadow-sm">
-                    <div class="product-header-bar">
-                        <h3>Outdoor Signage Board</h3>
-                        <a href="#" class="callback-btn" data-bs-toggle="modal"
-                            data-bs-target="#globalContactPopup">
-                            <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
-                        </a>
-                    </div>
-                    <div class="product-body-content p-4">
-                        <div class="row align-items-start">
-                            <div class="col-lg-5">
-                                <div class="product-visuals">
-                                    <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/outdoor-signage-board.webp') }}"
-                                            alt="Outdoor Signage" class="img-fluid">
+                   
+                    <div class="signage-product-box mb-5 shadow-sm">
+                        <div class="product-header-bar">
+                            <h3>Outdoor Signage Board</h3>
+                            <a href="#" class="callback-btn" data-bs-toggle="modal"
+                                data-bs-target="#globalContactPopup">
+                                <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
+                            </a>
+                        </div>
+                        <div class="product-body-content p-4">
+                            <div class="row align-items-start">
+                                <div class="col-lg-5">
+                                    <div class="product-visuals">
+                                        <div class="product-main-img-box">
+                                            <img src="{{ asset('frontend/Images/outdoor-signage-board.webp') }}"
+                                                alt="Outdoor Signage" class="img-fluid">
+                                        </div>
+
+                                        <a href="/outdoor-signages" class="get-quote-btn mt-4 w-100">
+                                            <i class="fas fa-circle-info me-2"></i> Outdoor Sign Board
+                                        </a>
                                     </div>
-
-                                    <a href="/outdoor-signages" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-circle-info me-2"></i> Outdoor Sign Board
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="price-tag-line mb-3">
-                                    <span class="current-price fs-4 fw-bold text-danger">Price: ₹2,200 <small
-                                            class="text-muted fs-6">/ Sqft</small></span>
-                                    <a href="#" class="ms-3 text-primary text-decoration-none"
-                                        data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
-                                    <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 15 Sqft</p>
-                                </div>
-                                <table class="table table-bordered specifications-table p-3">
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
-                                        <td class="p-2">Building, storefronts, outdoor branding</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Material</td>
-                                        <td class="p-2">ACP, MS frame, acrylic, LED</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Features</td>
-                                        <td class="p-2">Weatherproof, illuminated, durable</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class="p-2">Long-distance outdoor visibility</td>
-                                    </tr>
-                                </table>
-                                <p class="product-short-description text-muted">As top-level signage board experts, we
-                                    create outdoor signages that turn business spaces into brand landmarks. Our outdoor
-                                    signage boards are designed for visibility, combining durability and impactful branding
-                                    to engage customers.</p>
-                                <div class="text-end">
-                                    <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                <div class="col-lg-7">
+                                    <div class="price-tag-line mb-3">
+                                        <span class="current-price fs-4 fw-bold text-danger">Price: ₹2,200 <small
+                                                class="text-muted fs-6">/ Sqft</small></span>
+                                        <a href="#" class="ms-3 text-primary text-decoration-none"
+                                            data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
+                                        <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 15 Sqft</p>
+                                    </div>
+                                    <table class="table table-bordered specifications-table p-3">
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                            <td class="p-2">Building, storefronts, outdoor branding</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Material</td>
+                                            <td class="p-2">ACP, MS frame, acrylic, LED</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Features</td>
+                                            <td class="p-2">Weatherproof, illuminated, durable</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Visibility</td>
+                                            <td class="p-2">Long-distance outdoor visibility</td>
+                                        </tr>
+                                    </table>
+                                    <p class="product-short-description text-muted">As top-level signage board experts, we
+                                        create outdoor signages that turn business spaces into brand landmarks. Our outdoor
+                                        signage boards are designed for visibility, combining durability and impactful branding
+                                        to engage customers.</p>
+                                    <div class="text-end">
+                                        <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
+                                            data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-               
-                <div class="signage-product-box mb-5 shadow-sm">
-                    <div class="product-header-bar">
-                        <h3>LED Sign Board</h3>
-                        <a href="#" class="callback-btn" data-bs-toggle="modal"
-                            data-bs-target="#globalContactPopup">
-                            <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
-                        </a>
-                    </div>
-                    <div class="product-body-content p-4">
-                        <div class="row align-items-start">
-                            <div class="col-lg-5">
-                                <div class="product-visuals">
-                                    <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/home/led-sign.webp') }}" alt="LED Sign Board"
-                                            class="img-fluid">
+                   
+                    <div class="signage-product-box mb-5 shadow-sm">
+                        <div class="product-header-bar">
+                            <h3>LED Sign Board</h3>
+                            <a href="#" class="callback-btn" data-bs-toggle="modal"
+                                data-bs-target="#globalContactPopup">
+                                <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
+                            </a>
+                        </div>
+                        <div class="product-body-content p-4">
+                            <div class="row align-items-start">
+                                <div class="col-lg-5">
+                                    <div class="product-visuals">
+                                        <div class="product-main-img-box">
+                                            <img src="{{ asset('frontend/Images/home/led-sign.webp') }}" alt="LED Sign Board"
+                                                class="img-fluid">
+                                        </div>
+
+                                        <a href="/led-acrylic-3d-glow-sign-board" class="get-quote-btn mt-4 w-100">
+                                            <i class="fas fa-circle-info me-2"></i> LED Sign Board
+                                        </a>
                                     </div>
-
-                                    <a href="/led-acrylic-3d-glow-sign-board" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-circle-info me-2"></i> LED Sign Board
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="price-tag-line mb-3">
-                                    <span class="current-price fs-4 fw-bold text-danger">Price: ₹3,500 <small
-                                            class="text-muted fs-6">/ Sqft</small></span>
-                                    <a href="#" class="ms-3 text-primary text-decoration-none"
-                                        data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
-                                    <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 10 Sqft</p>
-                                </div>
-                                <table class="table table-bordered specifications-table p-3">
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
-                                        <td class="p-2">Retail stores, malls, restaurants, showrooms</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Material</td>
-                                        <td class="p-2">2nd Gen LED, acrylic, ACP, SS</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Features</td>
-                                        <td class="p-2">Bright illumination, energy-efficient, durable</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class="p-2">High visibility day & night</td>
-                                    </tr>
-                                </table>
-                                <p class="product-short-description text-muted">Our LED sign board delivers more than just
-                                    illumination- they create high-impact brand visibility. Designed for lasting
-                                    performance, these signages feature with vibrant displays, energy efficiency, and
-                                    powerful visual communication.</p>
-                                <div class="text-end">
-                                    <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                <div class="col-lg-7">
+                                    <div class="price-tag-line mb-3">
+                                        <span class="current-price fs-4 fw-bold text-danger">Price: ₹3,500 <small
+                                                class="text-muted fs-6">/ Sqft</small></span>
+                                        <a href="#" class="ms-3 text-primary text-decoration-none"
+                                            data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
+                                        <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 10 Sqft</p>
+                                    </div>
+                                    <table class="table table-bordered specifications-table p-3">
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                            <td class="p-2">Retail stores, malls, restaurants, showrooms</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Material</td>
+                                            <td class="p-2">2nd Gen LED, acrylic, ACP, SS</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Features</td>
+                                            <td class="p-2">Bright illumination, energy-efficient, durable</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Visibility</td>
+                                            <td class="p-2">High visibility day & night</td>
+                                        </tr>
+                                    </table>
+                                    <p class="product-short-description text-muted">Our LED sign board delivers more than just
+                                        illumination- they create high-impact brand visibility. Designed for lasting
+                                        performance, these signages feature with vibrant displays, energy efficiency, and
+                                        powerful visual communication.</p>
+                                    <div class="text-end">
+                                        <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
+                                            data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+
+                    
+                    <div class="signage-product-box mb-5 shadow-sm">
+                        <div class="product-header-bar">
+                            <h3>Neon Sign Board</h3>
+                            <a href="#" class="callback-btn" data-bs-toggle="modal"
+                                data-bs-target="#globalContactPopup">
+                                <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
+                            </a>
+                        </div>
+                        <div class="product-body-content p-4">
+                            <div class="row align-items-start">
+                                <div class="col-lg-5">
+                                    <div class="product-visuals">
+                                        <div class="product-main-img-box">
+                                            <img src="{{ asset('frontend/Images/home/neon-sign2.webp') }}"
+                                                alt="Neon Sign Board" class="img-fluid">
+                                        </div>
+
+                                        <a href="/neon-signages" class="get-quote-btn mt-4 w-100">
+                                            <i class="fas fa-circle-info me-2"></i> Neon Sign Board
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="price-tag-line mb-3">
+                                        <span class="current-price fs-4 fw-bold text-danger">Price: ₹4,000 <small
+                                                class="text-muted fs-6">/ Piece</small></span>
+                                        <a href="#" class="ms-3 text-primary text-decoration-none"
+                                            data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
+                                        <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 1 Piece</p>
+                                    </div>
+                                    <table class="table table-bordered specifications-table p-3">
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                            <td class="p-2">Cafes, salons, bars, retail interiors</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Material</td>
+                                            <td class="p-2">LED neon flex, acrylic, PVC</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Features</td>
+                                            <td class="p-2">Glow effect, custom shapes, energy-efficient</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Visibility</td>
+                                            <td class="p-2">Vibrant indoor & outdoor visibility</td>
+                                        </tr>
+                                    </table>
+                                    <p class="product-short-description text-muted">Our neon sign boards combine vibrant
+                                        illumination with creative branding to create visually striking business displays.
+                                        Designed to capture attention instantly, these signages add a modern, stylish, and
+                                        energetic appeal while enhancing engagement.</p>
+                                    <div class="text-end">
+                                        <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
+                                            data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+                    <div class="signage-product-box mb-5 shadow-sm">
+                        <div class="product-header-bar">
+                            <h3>Metal Signage Board</h3>
+                            <a href="#" class="callback-btn" data-bs-toggle="modal"
+                                data-bs-target="#globalContactPopup">
+                                <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
+                            </a>
+                        </div>
+                        <div class="product-body-content p-4">
+                            <div class="row align-items-start">
+                                <div class="col-lg-5">
+                                    <div class="product-visuals">
+                                        <div class="product-main-img-box">
+                                            <img src="{{ asset('frontend/Images/home/uhouse.webp') }}"
+                                                alt="Metal Signage Board" class="img-fluid">
+                                        </div>
+
+                                        <a href="/metal-signages" class="get-quote-btn mt-4 w-100">
+                                            <i class="fas fa-circle-info me-2"></i> Metal Sign Board
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="price-tag-line mb-3">
+                                        <span class="current-price fs-4 fw-bold text-danger">Price: ₹2,800 <small
+                                                class="text-muted fs-6">/ Sqft</small></span>
+                                        <a href="#" class="ms-3 text-primary text-decoration-none"
+                                            data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
+                                        <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 10 Sqft</p>
+                                    </div>
+                                    <table class="table table-bordered specifications-table p-3">
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                            <td class="p-2">Offices, buildings, storefronts</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Material</td>
+                                            <td class="p-2">Stainless steel, brass, aluminum, ACP</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Features</td>
+                                            <td class="p-2">Rust-resistant, durable, premium finish</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Visibility</td>
+                                            <td class="p-2">Professional & high-end appearance</td>
+                                        </tr>
+                                    </table>
+                                    <p class="product-short-description text-muted">Our metal signage boards feature strength,
+                                        elegance, and premium craftsmanship to create a lasting brand presence. Designed for
+                                        durability and high visual impact, these signages deliver a sleek professional
+                                        appearance with clear brand communication.</p>
+                                    <div class="text-end">
+                                        <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
+                                            data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+                    <div class="signage-product-box mb-5 shadow-sm">
+                        <div class="product-header-bar">
+                            <h3>Acrylic Signage Board</h3>
+                            <a href="#" class="callback-btn" data-bs-toggle="modal"
+                                data-bs-target="#globalContactPopup">
+                                <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
+                            </a>
+                        </div>
+                        <div class="product-body-content p-4">
+                            <div class="row align-items-start">
+                                <div class="col-lg-5">
+                                    <div class="product-visuals">
+                                        <div class="product-main-img-box">
+                                            <img src="{{ asset('frontend/Images/home/acrylic-sign.webp') }}"
+                                                alt="Acrylic Signage Board" class="img-fluid">
+                                        </div>
+
+                                        <a href="/arcylic-signages" class="get-quote-btn mt-4 w-100">
+                                            <i class="fas fa-circle-info me-2"></i> Acrylic Signage
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="price-tag-line mb-3">
+                                        <span class="current-price fs-4 fw-bold text-danger">Price: ₹1,200 <small
+                                                class="text-muted fs-6">/ Sqft</small></span>
+                                        <a href="#" class="ms-3 text-primary text-decoration-none"
+                                            data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
+                                        <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 5 Sqft</p>
+                                    </div>
+                                    <table class="table table-bordered specifications-table p-3">
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                            <td class="p-2">Retail stores, offices, indoor branding</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Material</td>
+                                            <td class="p-2">Acrylic, LED, vinyl, ACP</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Features</td>
+                                            <td class="p-2">Glossy finish, lightweight, custom designs</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Visibility</td>
+                                            <td class="p-2">Elegant & high-clarity branding</td>
+                                        </tr>
+                                    </table>
+                                    <p class="product-short-description text-muted">Our acrylic signages combine modern
+                                        aesthetics with premium brand presentation. Designed with precision and clarity, these
+                                        signboards create sleek, visually appealing displays that enhance brand visibility and
+                                        deliver a sophisticated impression.</p>
+                                    <div class="text-end">
+                                        <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
+                                            data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+                    <div class="signage-product-box mb-5 shadow-sm">
+                        <div class="product-header-bar">
+                            <h3>Promotional Banners</h3>
+                            <a href="#" class="callback-btn" data-bs-toggle="modal"
+                                data-bs-target="#globalContactPopup">
+                                <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
+                            </a>
+                        </div>
+                        <div class="product-body-content p-4">
+                            <div class="row align-items-start">
+                                <div class="col-lg-5">
+                                    <div class="product-visuals">
+                                        <div class="product-main-img-box">
+                                            <img src="{{ asset('frontend/Images/large-graphics/bp-13.webp') }}"
+                                                alt="Promotional Banners" class="img-fluid">
+                                        </div>
+
+                                        <a href="/banner-printing" class="get-quote-btn mt-4 w-100">
+                                            <i class="fas fa-circle-info me-2"></i> Banner Printing
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="price-tag-line mb-3">
+                                        <span class="current-price fs-4 fw-bold text-danger">Price: ₹100 <small
+                                                class="text-muted fs-6">/ Sqft</small></span>
+                                        <a href="#" class="ms-3 text-primary text-decoration-none"
+                                            data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
+                                        <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 50 Sqft</p>
+                                    </div>
+                                    <table class="table table-bordered specifications-table p-3">
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                            <td class="p-2">Events, promotions, outdoor advertising</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Material</td>
+                                            <td class="p-2">Flex, vinyl, fabric, PVC</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Features</td>
+                                            <td class="p-2">High-resolution printing, weather-resistant</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Visibility</td>
+                                            <td class="p-2">Large-format high-impact visibility</td>
+                                        </tr>
+                                    </table>
+                                    <p class="product-short-description text-muted">Are you looking for compact, portable, and
+                                        promotional banners? We provide high-quality graphics and durable designs that offer
+                                        seamless portability without compromising visual impact, brand visibility, or powerful
+                                        marketing communication.</p>
+                                    <div class="text-end">
+                                        <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
+                                            data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 
-                <div class="signage-product-box mb-5 shadow-sm">
-                    <div class="product-header-bar">
-                        <h3>Neon Sign Board</h3>
-                        <a href="#" class="callback-btn" data-bs-toggle="modal"
-                            data-bs-target="#globalContactPopup">
-                            <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
-                        </a>
-                    </div>
-                    <div class="product-body-content p-4">
-                        <div class="row align-items-start">
-                            <div class="col-lg-5">
-                                <div class="product-visuals">
-                                    <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/home/neon-sign2.webp') }}"
-                                            alt="Neon Sign Board" class="img-fluid">
-                                    </div>
-
-                                    <a href="/neon-signages" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-circle-info me-2"></i> Neon Sign Board
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="price-tag-line mb-3">
-                                    <span class="current-price fs-4 fw-bold text-danger">Price: ₹4,000 <small
-                                            class="text-muted fs-6">/ Piece</small></span>
-                                    <a href="#" class="ms-3 text-primary text-decoration-none"
-                                        data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
-                                    <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 1 Piece</p>
-                                </div>
-                                <table class="table table-bordered specifications-table p-3">
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
-                                        <td class="p-2">Cafes, salons, bars, retail interiors</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Material</td>
-                                        <td class="p-2">LED neon flex, acrylic, PVC</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Features</td>
-                                        <td class="p-2">Glow effect, custom shapes, energy-efficient</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class="p-2">Vibrant indoor & outdoor visibility</td>
-                                    </tr>
-                                </table>
-                                <p class="product-short-description text-muted">Our neon sign boards combine vibrant
-                                    illumination with creative branding to create visually striking business displays.
-                                    Designed to capture attention instantly, these signages add a modern, stylish, and
-                                    energetic appeal while enhancing engagement.</p>
-                                <div class="text-end">
-                                    <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
-                                </div>
-                            </div>
+                    <div class="signage-product-box mb-5 shadow-sm">
+                        <div class="product-header-bar">
+                            <h3>Safety Signage Board</h3>
+                            <a href="#" class="callback-btn" data-bs-toggle="modal"
+                                data-bs-target="#globalContactPopup">
+                                <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
+                            </a>
                         </div>
-                    </div>
-                </div>
+                        <div class="product-body-content p-4">
+                            <div class="row align-items-start">
+                                <div class="col-lg-5">
+                                    <div class="product-visuals">
+                                        <div class="product-main-img-box">
+                                            <img src="{{ asset('frontend/Images/safety-signage.webp') }}"
+                                                alt="Safety Signage Board" class="img-fluid">
+                                        </div>
 
-              
-                <div class="signage-product-box mb-5 shadow-sm">
-                    <div class="product-header-bar">
-                        <h3>Metal Signage Board</h3>
-                        <a href="#" class="callback-btn" data-bs-toggle="modal"
-                            data-bs-target="#globalContactPopup">
-                            <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
-                        </a>
-                    </div>
-                    <div class="product-body-content p-4">
-                        <div class="row align-items-start">
-                            <div class="col-lg-5">
-                                <div class="product-visuals">
-                                    <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/home/uhouse.webp') }}"
-                                            alt="Metal Signage Board" class="img-fluid">
+                                        <a href="/banner-printing" class="get-quote-btn mt-4 w-100">
+                                            <i class="fas fa-envelope me-2"></i> Safety Sign Board
+                                        </a>
                                     </div>
-
-                                    <a href="/metal-signages" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-circle-info me-2"></i> Metal Sign Board
-                                    </a>
                                 </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="price-tag-line mb-3">
-                                    <span class="current-price fs-4 fw-bold text-danger">Price: ₹2,800 <small
-                                            class="text-muted fs-6">/ Sqft</small></span>
-                                    <a href="#" class="ms-3 text-primary text-decoration-none"
-                                        data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
-                                    <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 10 Sqft</p>
-                                </div>
-                                <table class="table table-bordered specifications-table p-3">
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
-                                        <td class="p-2">Offices, buildings, storefronts</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Material</td>
-                                        <td class="p-2">Stainless steel, brass, aluminum, ACP</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Features</td>
-                                        <td class="p-2">Rust-resistant, durable, premium finish</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class="p-2">Professional & high-end appearance</td>
-                                    </tr>
-                                </table>
-                                <p class="product-short-description text-muted">Our metal signage boards feature strength,
-                                    elegance, and premium craftsmanship to create a lasting brand presence. Designed for
-                                    durability and high visual impact, these signages deliver a sleek professional
-                                    appearance with clear brand communication.</p>
-                                <div class="text-end">
-                                    <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-               
-                <div class="signage-product-box mb-5 shadow-sm">
-                    <div class="product-header-bar">
-                        <h3>Acrylic Signage Board</h3>
-                        <a href="#" class="callback-btn" data-bs-toggle="modal"
-                            data-bs-target="#globalContactPopup">
-                            <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
-                        </a>
-                    </div>
-                    <div class="product-body-content p-4">
-                        <div class="row align-items-start">
-                            <div class="col-lg-5">
-                                <div class="product-visuals">
-                                    <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/home/acrylic-sign.webp') }}"
-                                            alt="Acrylic Signage Board" class="img-fluid">
+                                <div class="col-lg-7">
+                                    <div class="price-tag-line mb-3">
+                                        <span class="current-price fs-4 fw-bold text-danger">Price: ₹500 <small
+                                                class="text-muted fs-6">/ Sqft</small></span>
+                                        <a href="#" class="ms-3 text-primary text-decoration-none"
+                                            data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
+                                        <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 20 Sqft</p>
                                     </div>
-
-                                    <a href="/arcylic-signages" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-circle-info me-2"></i> Acrylic Signage
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="price-tag-line mb-3">
-                                    <span class="current-price fs-4 fw-bold text-danger">Price: ₹1,200 <small
-                                            class="text-muted fs-6">/ Sqft</small></span>
-                                    <a href="#" class="ms-3 text-primary text-decoration-none"
-                                        data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
-                                    <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 5 Sqft</p>
-                                </div>
-                                <table class="table table-bordered specifications-table p-3">
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
-                                        <td class="p-2">Retail stores, offices, indoor branding</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Material</td>
-                                        <td class="p-2">Acrylic, LED, vinyl, ACP</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Features</td>
-                                        <td class="p-2">Glossy finish, lightweight, custom designs</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class="p-2">Elegant & high-clarity branding</td>
-                                    </tr>
-                                </table>
-                                <p class="product-short-description text-muted">Our acrylic signages combine modern
-                                    aesthetics with premium brand presentation. Designed with precision and clarity, these
-                                    signboards create sleek, visually appealing displays that enhance brand visibility and
-                                    deliver a sophisticated impression.</p>
-                                <div class="text-end">
-                                    <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-              
-                <div class="signage-product-box mb-5 shadow-sm">
-                    <div class="product-header-bar">
-                        <h3>Promotional Banners</h3>
-                        <a href="#" class="callback-btn" data-bs-toggle="modal"
-                            data-bs-target="#globalContactPopup">
-                            <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
-                        </a>
-                    </div>
-                    <div class="product-body-content p-4">
-                        <div class="row align-items-start">
-                            <div class="col-lg-5">
-                                <div class="product-visuals">
-                                    <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/large-graphics/bp-13.webp') }}"
-                                            alt="Promotional Banners" class="img-fluid">
+                                    <table class="table table-bordered specifications-table p-3">
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
+                                            <td class="p-2">Factories, construction sites, workplaces</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Material</td>
+                                            <td class="p-2">ACP, reflective vinyl, acrylic, PVC</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Features</td>
+                                            <td class="p-2">Reflective, durable, weatherproof</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="bg-light fw-bold p-1">Visibility</td>
+                                            <td class="p-2">Clear safety communication day & night</td>
+                                        </tr>
+                                    </table>
+                                    <p class="product-short-description text-muted">These signage boards are designed to ensure
+                                        safety, awareness, and compliance across various environments. Safety signages provide
+                                        clear, highly visible instructions and warning signs to protect individuals, and improve
+                                        navigation.</p>
+                                    <div class="text-end">
+                                        <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
+                                            data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
                                     </div>
-
-                                    <a href="/banner-printing" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-circle-info me-2"></i> Banner Printing
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="price-tag-line mb-3">
-                                    <span class="current-price fs-4 fw-bold text-danger">Price: ₹100 <small
-                                            class="text-muted fs-6">/ Sqft</small></span>
-                                    <a href="#" class="ms-3 text-primary text-decoration-none"
-                                        data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
-                                    <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 50 Sqft</p>
-                                </div>
-                                <table class="table table-bordered specifications-table p-3">
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
-                                        <td class="p-2">Events, promotions, outdoor advertising</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Material</td>
-                                        <td class="p-2">Flex, vinyl, fabric, PVC</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Features</td>
-                                        <td class="p-2">High-resolution printing, weather-resistant</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class="p-2">Large-format high-impact visibility</td>
-                                    </tr>
-                                </table>
-                                <p class="product-short-description text-muted">Are you looking for compact, portable, and
-                                    promotional banners? We provide high-quality graphics and durable designs that offer
-                                    seamless portability without compromising visual impact, brand visibility, or powerful
-                                    marketing communication.</p>
-                                <div class="text-end">
-                                    <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
                                 </div>
                             </div>
                         </div>
@@ -771,89 +834,26 @@
                 </div>
 
             
-                <div class="signage-product-box mb-5 shadow-sm">
-                    <div class="product-header-bar">
-                        <h3>Safety Signage Board</h3>
-                        <a href="#" class="callback-btn" data-bs-toggle="modal"
-                            data-bs-target="#globalContactPopup">
-                            <i class="fas fa-phone-alt me-2"></i> REQUEST A CALL BACK
-                        </a>
-                    </div>
-                    <div class="product-body-content p-4">
-                        <div class="row align-items-start">
-                            <div class="col-lg-5">
-                                <div class="product-visuals">
-                                    <div class="product-main-img-box">
-                                        <img src="{{ asset('frontend/Images/safety-signage.webp') }}"
-                                            alt="Safety Signage Board" class="img-fluid">
-                                    </div>
-
-                                    <a href="/banner-printing" class="get-quote-btn mt-4 w-100">
-                                        <i class="fas fa-envelope me-2"></i> Safety Sign Board
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="price-tag-line mb-3">
-                                    <span class="current-price fs-4 fw-bold text-danger">Price: ₹500 <small
-                                            class="text-muted fs-6">/ Sqft</small></span>
-                                    <a href="#" class="ms-3 text-primary text-decoration-none"
-                                        data-bs-toggle="modal" data-bs-target="#globalContactPopup">Price on Request</a>
-                                    <p class="moq-info text-muted mt-1 small">Minimum Order Quantity: 20 Sqft</p>
-                                </div>
-                                <table class="table table-bordered specifications-table p-3">
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1" style="width: 30%;">Usage</td>
-                                        <td class="p-2">Factories, construction sites, workplaces</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Material</td>
-                                        <td class="p-2">ACP, reflective vinyl, acrylic, PVC</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Features</td>
-                                        <td class="p-2">Reflective, durable, weatherproof</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bg-light fw-bold p-1">Visibility</td>
-                                        <td class="p-2">Clear safety communication day & night</td>
-                                    </tr>
-                                </table>
-                                <p class="product-short-description text-muted">These signage boards are designed to ensure
-                                    safety, awareness, and compliance across various environments. Safety signages provide
-                                    clear, highly visible instructions and warning signs to protect individuals, and improve
-                                    navigation.</p>
-                                <div class="text-end">
-                                    <button class="contact-btn px-4 py-2 mt-2 fw-bold" data-bs-toggle="modal"
-                                        data-bs-target="#globalContactPopup">YES! I AM INTERESTED</button>
-                                </div>
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <div class="contact-cta-box text-center p-5"
+                            style="background-color: #fff; border: 1px solid #e0e0e0; border-radius: 6px;">
+                            <p class="cta-text mb-4" style="font-size: 20px; color: #555;">We design signage board with
+                                high-quality print to keep your graphics sharp, vibrant, and visually impactful for years. Our
+                                custom signage boards are crafted to deliver clear brand communication with premium finishes.
+                            </p>
+                            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                                <a href="{{ route('contact_us') }}" class="contact-btn px-4 py-2"
+                                    style="border-radius: 8px; font-weight: 700; background-color: #E43D12; border: none;">Contact
+                                    Us Now</a>
+                                <a href="tel:+918006606080" class="btn btn-outline-dark px-4 py-2"
+                                    style="border-radius: 8px; font-weight: 700;">Call: +91 8006606080</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        
-            <div class="row mt-5">
-                <div class="col-12">
-                    <div class="contact-cta-box text-center p-5"
-                        style="background-color: #fff; border: 1px solid #e0e0e0; border-radius: 6px;">
-                        <p class="cta-text mb-4" style="font-size: 20px; color: #555;">We design signage board with
-                            high-quality print to keep your graphics sharp, vibrant, and visually impactful for years. Our
-                            custom signage boards are crafted to deliver clear brand communication with premium finishes.
-                        </p>
-                        <div class="d-flex justify-content-center gap-3 flex-wrap">
-                            <a href="{{ route('contact_us') }}" class="contact-btn px-4 py-2"
-                                style="border-radius: 8px; font-weight: 700; background-color: #E43D12; border: none;">Contact
-                                Us Now</a>
-                            <a href="tel:+918006606080" class="btn btn-outline-dark px-4 py-2"
-                                style="border-radius: 8px; font-weight: 700;">Call: +91 8006606080</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
+        </section>-->
 
 
     <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
@@ -1608,7 +1608,7 @@
         </div>
     </section>
 
-            <section id="pricing">
+    <section id="pricing">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3 pb-5">
             <h2 class="hero-title">Signage Board Size and Pricing Options</h2>
 
@@ -2238,6 +2238,509 @@
         </div>
     </section>
 
+    <!-- Ratings & Reviews Section -->
+    <section class="ratings-reviews-section">
+        <div class="container">
+            <h2 class="text-center section-title">Ratings & Reviews</h2>
+
+            <div class="row rating-summary-row align-items-center mb-5">
+                <!-- Left Card: Overall Score -->
+                <div class="col-lg-3 col-md-4 text-center rating-score-card mb-4 mb-md-0">
+                    <div class="score-display">
+                        <span class="score-num">4.6</span><span class="score-max">/5</span>
+                    </div>
+                    <div class="star-rating mb-2">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="review-count">Reviewed by 25 Users</p>
+                </div>
+
+                <!-- Middle Card: Star Breakdown -->
+                <div class="col-lg-5 col-md-8 rating-bars-card mb-4 mb-lg-0">
+                    <!-- 5 Star -->
+                    <div class="rating-bar-row">
+                        <span class="star-label">5★</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 64%;" aria-valuenow="64"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="percentage-label">64%</span>
+                    </div>
+                    <!-- 4 Star -->
+                    <div class="rating-bar-row">
+                        <span class="star-label">4★</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="20"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="percentage-label">20%</span>
+                    </div>
+                    <!-- 3 Star -->
+                    <div class="rating-bar-row">
+                        <span class="star-label">3★</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 12%;" aria-valuenow="12"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="percentage-label">12%</span>
+                    </div>
+                    <!-- 2 Star -->
+                    <div class="rating-bar-row">
+                        <span class="star-label">2★</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="percentage-label">0%</span>
+                    </div>
+                    <!-- 1 Star -->
+                    <div class="rating-bar-row">
+                        <span class="star-label">1★</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 4%;" aria-valuenow="4"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="percentage-label">4%</span>
+                    </div>
+                </div>
+
+                <!-- Vertical Divider (only visible on large screens) -->
+                <div class="col-lg-1 d-none d-lg-block text-center">
+                    <div class="vertical-divider"></div>
+                </div>
+
+                <!-- Right Card: User Satisfaction -->
+                <div class="col-lg-3 col-md-12 satisfaction-card mt-3 mt-lg-0">
+                    <div class="satisfaction-header mb-3">
+                        <i class="fa-solid fa-thumbs-up satisfaction-icon"></i>
+                        <h3 class="satisfaction-title mb-0">User Satisfaction</h3>
+                    </div>
+                    <!-- Response -->
+                    <div class="satisfaction-row">
+                        <span class="sat-label">Response</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="percentage-label">100%</span>
+                    </div>
+                    <!-- Quality -->
+                    <div class="satisfaction-row">
+                        <span class="sat-label">Quality</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="percentage-label">100%</span>
+                    </div>
+                    <!-- Delivery -->
+                    <div class="satisfaction-row">
+                        <span class="sat-label">Delivery</span>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="percentage-label">75%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Most Relevant Reviews Header -->
+            <h3 class="reviews-header mb-4">Most Relevant Reviews</h3>
+
+            <!-- Individual Reviews Grid -->
+            <div class="row reviews-grid mb-5">
+                <!-- Review 1 -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="review-card h-100">
+                        <div class="review-card-header mb-3">
+                            <div class="avatar-circle">K</div>
+                            <div class="reviewer-meta">
+                                <div class="stars-date">
+                                    <span class="stars-gold">★★★★★</span>
+                                    <span class="review-date">10-March-26</span>
+                                </div>
+                                <h4 class="reviewer-name">Krishne Gowda Lavanya</h4>
+                                <p class="reviewer-location">Bengaluru, Karnataka</p>
+                            </div>
+                        </div>
+                        <div class="review-card-body">
+                            <p class="product-tag mb-0"><strong>Product Name :</strong> Banner Stand</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="review-card h-100">
+                        <div class="review-card-header mb-3">
+                            <div class="avatar-circle">V</div>
+                            <div class="reviewer-meta">
+                                <div class="stars-date">
+                                    <span class="stars-gold">★★★★★</span>
+                                    <span class="review-date">02-October-25</span>
+                                </div>
+                                <h4 class="reviewer-name">Vijay Kumar</h4>
+                                <p class="reviewer-location">Bengaluru, Karnataka</p>
+                            </div>
+                        </div>
+                        <div class="review-card-body">
+                            <p class="product-tag mb-0"><strong>Product Name :</strong> Whiteboard Stand</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="review-card h-100">
+                        <div class="review-card-header mb-3">
+                            <div class="avatar-circle">S</div>
+                            <div class="reviewer-meta">
+                                <div class="stars-date">
+                                    <span class="stars-gold">★★★★<span class="star-grey">★</span></span>
+                                    <span class="review-date">13-June-25</span>
+                                </div>
+                                <h4 class="reviewer-name">Sudheer</h4>
+                                <p class="reviewer-location">Bengaluru, Karnataka</p>
+                            </div>
+                        </div>
+                        <div class="review-card-body">
+                            <p class="product-tag mb-2"><strong>Product Name :</strong> Stainless Steel Nameplate</p>
+                            <div class="review-badge-row">
+                                <span class="review-sub-badge"><i class="fa-solid fa-thumbs-up"></i> Response</span>
+                                <span class="review-sub-badge"><i class="fa-solid fa-thumbs-up"></i> Quality</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View More Reviews Button -->
+            <div class="text-center">
+                <a href="https://share.google/XAiKaiNNVNKgNJWRG" target="_blank" class="view-more-btn">View More
+                    Reviews</a>
+            </div>
+        </div>
+    </section>
+
+    @once
+        <style>
+            .ratings-reviews-section {
+                background-color: #FDFDFC;
+                padding: 80px 0;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .ratings-reviews-section .section-title {
+                font-family: 'Lora', serif;
+                font-size: 36px;
+                font-weight: 700;
+                color: #212121;
+                margin-bottom: 50px;
+                position: relative;
+                display: inline-block;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .ratings-reviews-section .section-title::after {
+                content: '';
+                position: absolute;
+                bottom: -10px;
+                left: 40%;
+                width: 20%;
+                height: 3px;
+                background-color: #EFB11D;
+                border-radius: 2px;
+            }
+
+            .rating-score-card {
+                padding: 20px;
+            }
+
+            .score-display {
+                line-height: 1.1;
+                margin-bottom: 10px;
+            }
+
+            .score-num {
+                font-family: 'Lora', serif;
+                font-size: 64px;
+                font-weight: 700;
+                color: #212121;
+            }
+
+            .score-max {
+                font-family: 'Lora', serif;
+                font-size: 24px;
+                font-weight: 500;
+                color: #888;
+            }
+
+            .star-rating {
+                font-size: 24px;
+                color: #EFB11D;
+            }
+
+            .review-count {
+                font-size: 14px;
+                color: #666;
+                margin: 0;
+            }
+
+            .rating-bars-card {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .rating-bar-row {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .star-label {
+                font-size: 16px;
+                font-weight: 500;
+                color: #212121;
+                min-width: 25px;
+            }
+
+            .rating-bar-row .progress {
+                flex-grow: 1;
+                height: 10px;
+                background-color: #EAEAEA;
+                border-radius: 5px;
+                overflow: hidden;
+                border: none;
+                box-shadow: none;
+            }
+
+            .rating-bar-row .progress-bar {
+                background-color: #E43D12;
+                border-radius: 5px;
+            }
+
+            .percentage-label {
+                font-size: 14px;
+                color: #555;
+                min-width: 40px;
+                text-align: right;
+            }
+
+            .vertical-divider {
+                width: 1px;
+                height: 140px;
+                background-color: #E0E0E0;
+                margin: 0 auto;
+            }
+
+            .satisfaction-card {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .satisfaction-header {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .satisfaction-icon {
+                font-size: 20px;
+                color: #E43D12;
+            }
+
+            .satisfaction-title {
+                font-family: 'Lora', serif;
+                font-size: 20px;
+                font-weight: 600;
+                color: #212121;
+            }
+
+            .satisfaction-row {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .sat-label {
+                font-size: 15px;
+                font-weight: 500;
+                color: #212121;
+                min-width: 80px;
+            }
+
+            .satisfaction-row .progress {
+                flex-grow: 1;
+                height: 10px;
+                background-color: #EAEAEA;
+                border-radius: 5px;
+                overflow: hidden;
+                border: none;
+                box-shadow: none;
+            }
+
+            .satisfaction-row .progress-bar {
+                background-color: #E43D12;
+                border-radius: 5px;
+            }
+
+            .reviews-header {
+                font-family: 'Lora', serif;
+                font-size: 24px;
+                font-weight: 700;
+                color: #212121;
+                border-bottom: 2px solid #EAEAEA;
+                padding-bottom: 12px;
+                margin-top: 50px;
+            }
+
+            .review-card {
+                background-color: #FFFFFF;
+                border: 1px solid #EAEAEA;
+                border-radius: 12px;
+                padding: 24px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            .review-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 24px rgba(228, 61, 18, 0.08);
+            }
+
+            .review-card-header {
+                display: flex;
+                gap: 15px;
+                align-items: flex-start;
+            }
+
+            .avatar-circle {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                background-color: #F0F0F0;
+                color: #444;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                font-weight: 600;
+                flex-shrink: 0;
+                border: 1px solid #DDD;
+            }
+
+            .reviewer-meta {
+                flex-grow: 1;
+            }
+
+            .stars-date {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 4px;
+            }
+
+            .stars-gold {
+                color: #EFB11D;
+                font-size: 14px;
+                letter-spacing: 1px;
+            }
+
+            .star-grey {
+                color: #E0E0E0;
+            }
+
+            .review-date {
+                font-size: 12px;
+                color: #888;
+            }
+
+            .reviewer-name {
+                font-family: 'Lora', serif;
+                font-size: 16px;
+                font-weight: 700;
+                color: #212121;
+                margin: 0 0 2px 0;
+            }
+
+            .reviewer-location {
+                font-size: 13px;
+                color: #666;
+                margin: 0;
+            }
+
+            .review-card-body .product-tag {
+                font-size: 14px;
+                color: #444;
+            }
+
+            .review-badge-row {
+                display: flex;
+                gap: 10px;
+                margin-top: 8px;
+            }
+
+            .review-sub-badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 5px;
+                font-size: 12px;
+                color: #E43D12;
+                background-color: #FCECE7;
+                padding: 4px 10px;
+                border-radius: 20px;
+                font-weight: 500;
+            }
+
+            .review-sub-badge i {
+                font-size: 10px;
+            }
+
+            .view-more-btn {
+                display: inline-block;
+                padding: 12px 35px;
+                border: 2px solid #E43D12;
+                border-radius: 8px;
+                color: #E43D12;
+                font-weight: 600;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                font-family: 'Roboto', sans-serif;
+                background-color: transparent;
+            }
+
+            .view-more-btn:hover {
+                background-color: #E43D12;
+                color: #FFFFFF !important;
+                box-shadow: 0 4px 12px rgba(228, 61, 18, 0.2);
+                text-decoration: none;
+            }
+
+            @media (max-width: 991px) {
+                .vertical-divider {
+                    display: none;
+                }
+
+                .ratings-reviews-section {
+                    padding: 50px 20px;
+                }
+
+                .ratings-reviews-section .section-title {
+                    font-size: 28px;
+                    margin-bottom: 30px;
+                }
+            }
+        </style>
+    @endonce
+
 
     <script>
         let current = 0;
@@ -2258,6 +2761,4 @@
 
         thumbs.forEach((t, i) => (t.onclick = () => show(i)));
     </script>
-
-
 @endsection

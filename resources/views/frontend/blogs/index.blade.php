@@ -96,6 +96,15 @@
                 font-size: 14px;
             }
 
+            .pagination {
+                justify-content: center !important;
+                margin-top: 15px;
+            }
+
+            a.page-link {
+                margin-top: 0;
+            }
+
             .col-4 {
                 flex: 0 0 100%;
                 max-width: 100%;
@@ -103,8 +112,14 @@
             }
 
             .carousel-section.blog {
+                min-height: auto;
+                position: relative;
+                padding: 20px 0 20px;
+            }
 
-                min-height: 45vh;
+            .carousel-caption-custom {
+                position: relative;
+
             }
 
             .carousel-caption-custom {
@@ -114,6 +129,11 @@
             .btn {
                 width: 100%;
                 max-width: 115px;
+            }
+
+            .input-group {
+                width: 95%;
+                margin: 0 auto;
             }
 
         }
@@ -253,9 +273,9 @@
                     </div>
                 @endforeach
             </div>
-
-            {{ $allBlogs->links() }}
-
+            <div class="container">
+                {{ $allBlogs->links() }}
+            </div>
         </section>
     @endif
 
