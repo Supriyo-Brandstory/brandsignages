@@ -22,42 +22,44 @@
 
         /* Hero Banner Section */
         .testimonials-hero {
-            background: linear-gradient(135deg, #111111 0%, #291510 100%);
-            padding: 80px 0;
-            text-align: center;
-            color: #ffffff;
+            background: url('{{ asset('frontend/Images/categorybanner.jpg') }}') no-repeat center center/cover;
+            padding: 100px 0;
             position: relative;
             overflow: hidden;
+            min-height: 380px;
+            display: flex;
+            align-items: center;
         }
 
-        .testimonials-hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(circle at 70% 30%, rgba(228, 61, 18, 0.15) 0%, transparent 60%);
-            pointer-events: none;
+        .testimonials-hero .hero-card {
+            background-color: rgba(253, 247, 232, 0.95);
+            padding: 48px 40px;
+            max-width: 620px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            text-align: left;
         }
 
         .testimonials-hero .hero-title {
             font-family: 'Lora', serif;
-            font-size: 48px;
-            font-weight: 700;
-            letter-spacing: -0.5px;
-            margin-bottom: 20px;
-            background: linear-gradient(120deg, #ffffff, #ffd8cc);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            font-size: 40px;
+            font-weight: 500;
+            color: #212121;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            line-height: 1.2;
+            background: none;
+            -webkit-text-fill-color: initial;
+            -webkit-background-clip: initial;
+            text-align: left;
         }
 
         .testimonials-hero .hero-subtitle {
-            font-size: 18px;
-            max-width: 700px;
-            margin: 0 auto;
-            color: #d1d1d1;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            color: #474747;
             line-height: 1.6;
+            margin: 0;
         }
 
         /* Ratings Summary Card Section */
@@ -458,12 +460,22 @@
         }
 
         @media (max-width: 767px) {
-            .testimonials-hero .hero-title {
-                font-size: 36px;
+            .testimonials-hero {
+                padding: 40px 0;
+                min-height: auto;
             }
 
-            .testimonials-hero {
-                padding: 60px 0;
+            .testimonials-hero .hero-card {
+                padding: 24px;
+                margin: 0 15px;
+            }
+
+            .testimonials-hero .hero-title {
+                font-size: 28px;
+            }
+
+            .testimonials-hero .hero-subtitle {
+                font-size: 14px;
             }
 
             .summary-card-container {
@@ -484,10 +496,17 @@
 
         <!-- Hero Header -->
         <section class="testimonials-hero">
-            <div class="container">
-                <h1 class="hero-title">Client Stories & Feedback</h1>
-                <p class="hero-subtitle">At Brand Signages, we take pride in delivering exceptional visual experiences. Read
-                    the stories and testimonials of businesses across India who trust us to elevate their brands.</p>
+            <div class="container text-left">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 col-12">
+                        <div class="hero-card">
+                            <h1 class="hero-title">Client Stories & Feedback</h1>
+                            <p class="hero-subtitle">At Brand Signages, we take pride in delivering exceptional visual
+                                experiences. Read the stories and testimonials of businesses across India who trust us to
+                                elevate their brands.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
