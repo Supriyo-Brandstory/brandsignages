@@ -5,9 +5,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="hero-banner_title">Sign Boards Makers in<br> Bangalore for Every Industry</h1>
-                    <p>Brand Signages is a trusted B2B partner and a premium signage board manufacturer<br> 
-                        in Bangalore, India.
+                    <h1 class="hero-banner_title">Signage Board Makers in<br> Bangalore for Every Industry</h1>
+                    <p>India's most Trusted B2B signage board manufacturer in Bangalore- LED, <br>Acrylic, Neon, Metal & Digital Signage (12,000+ Deliveries PAN India).
                     </p>
                     <a href="https://brandsignages.com/contact-us">
                         <button class="contact-btn">Know More</button>
