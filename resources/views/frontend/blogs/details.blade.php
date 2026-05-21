@@ -125,8 +125,37 @@
                 </div>
             </div>
 
-
         </div>
+
+        @if (isset($relatedBlogs) && count($relatedBlogs) > 0)
+            <div class="related-blogs-wrapper mt-5 pt-4" style="border-top: 1px solid #eee;">
+                <h2 class="mb-4 new_custom-heading text-start">
+                    Related Articles
+                    <span
+                        style="display: block; width: 60px; height: 3px; background-color: #E43D12; margin-top: 8px;"></span>
+                </h2>
+                <div class="row">
+                    @foreach ($relatedBlogs as $item)
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <a href="{{ route('blogsVaritaion', $item->slug) }}" style="text-decoration: none;">
+                                <div class="blog-card h-100">
+                                    <div class="blog-card-img">
+                                        <img src="{{ asset('storage/' . $item->image) }}" alt="{{ $item->title }}">
+                                    </div>
+                                    <div class="blog-card-body">
+                                        <div class="d-flex justify-content-between align-items-center mb-2">
+                                            <span class="badge">{{ strtoupper($item->topic) }}</span>
+                                            <span class="time">{{ $item->reding_time }} mins 🕘</span>
+                                        </div>
+                                        <h5 class="blog-card-title">{{ $item->title }}</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        @endif
     </section>
 
     <script>

@@ -920,7 +920,24 @@ class frontendController extends Controller
                 ];
             }
 
-            return view('frontend.blogs.details', compact('blog', 'blogSeoData'));
+            // Fetch related blogs from the same subcategory, excluding the current blog
+            $relatedBlogs = Blog::where('blog_sub_category_id', $blog->blog_sub_category_id)
+                ->where('id', '!=', $blog->id)
+                ->orderBy('id', 'desc')
+                ->take(3)
+                ->get();
+
+            // If there are fewer than 3 related blogs, fetch other latest blogs to make it 3
+            if ($relatedBlogs->count() < 3) {
+                $additionalBlogs = Blog::where('id', '!=', $blog->id)
+                    ->whereNotIn('id', $relatedBlogs->pluck('id'))
+                    ->orderBy('id', 'desc')
+                    ->take(3 - $relatedBlogs->count())
+                    ->get();
+                $relatedBlogs = $relatedBlogs->merge($additionalBlogs);
+            }
+
+            return view('frontend.blogs.details', compact('blog', 'blogSeoData', 'relatedBlogs'));
         }
 
 
