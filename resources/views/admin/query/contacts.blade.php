@@ -19,6 +19,7 @@
                                     <th scope="col">Name</th>
                                     <th scope="col">Email</th>
                                     <th scope="col">Phone</th>
+                                    <th scope="col">Location</th>
                                     <th scope="col">Message</th>
                                     <th scope="col">Received At</th>
                                     <th scope="col">Action</th>
@@ -34,6 +35,7 @@
                                         <td>{{ $contact->first_name }} {{ $contact->last_name }}</td>
                                         <td>{{ $contact->email }}</td>
                                         <td>{{ $contact->phone_number }}</td>
+                                        <td>{{ $contact->location }}</td>
                                         <td>{{ Str::limit($contact->message, 50) }}</td>
                                         <td>{{ \Carbon\Carbon::parse($contact->created_at)->isoFormat('Do MMMM YYYY, h:mm A') }}</td>
                                         <td>
