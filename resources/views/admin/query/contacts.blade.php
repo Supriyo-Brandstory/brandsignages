@@ -19,7 +19,6 @@
                                     <th scope="col">Name</th>
                                     <th scope="col">Email</th>
                                     <th scope="col">Phone</th>
-                                    <th scope="col">Location</th>
                                     <th scope="col">Message</th>
                                     <th scope="col">Received At</th>
                                     <th scope="col">Action</th>
@@ -35,7 +34,6 @@
                                         <td>{{ $contact->first_name }} {{ $contact->last_name }}</td>
                                         <td>{{ $contact->email }}</td>
                                         <td>{{ $contact->phone_number }}</td>
-                                        <td>{{ $contact->location }}</td>
                                         <td>{{ Str::limit($contact->message, 50) }}</td>
                                         <td>{{ \Carbon\Carbon::parse($contact->created_at)->isoFormat('Do MMMM YYYY, h:mm A') }}</td>
                                         <td>
@@ -83,6 +81,7 @@
                     <p><strong>Name:</strong> <span id="contact-name"></span></p>
                     <p><strong>Email:</strong> <span id="contact-email"></span></p>
                     <p><strong>Phone:</strong> <span id="contact-phone"></span></p>
+                    <p><strong>Location:</strong> <span id="contact-location"></span></p>
                     <p><strong>Message:</strong> <span id="contact-message"></span></p>
                     <p><strong>Received At:</strong> <span id="contact-received"></span></p>
                 </div>
@@ -102,12 +101,14 @@
                 let name = $(this).data("name");
                 let email = $(this).data("email");
                 let phone = $(this).data("phone");
+                let location = $(this).data("location");
                 let message = $(this).data("message");
                 let received = $(this).data("received");
 
                 $("#contact-name").text(name);
                 $("#contact-email").text(email);
                 $("#contact-phone").text(phone);
+                $("#contact-location").text(location);
                 $("#contact-message").text(message);
                 $("#contact-received").text(received);
             });
