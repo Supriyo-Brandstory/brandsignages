@@ -42,6 +42,7 @@
                                             data-name="{{ $contact->first_name }} {{ $contact->last_name }}"
                                             data-email="{{ $contact->email }}"
                                             data-phone="{{ $contact->phone_number }}"
+                                            data-location="{{ $contact->location }}"
                                             data-message="{{ $contact->message }}"
                                             data-received="{{ \Carbon\Carbon::parse($contact->created_at)->isoFormat('Do MMMM YYYY, h:mm A') }}"
                                             data-bs-toggle="modal" 
