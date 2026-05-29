@@ -790,12 +790,13 @@
                                 <form id="globalPopupForm" action="{{ route('contact.store') }}" method="POST">
                                     @csrf
                                     <div class="mb-3">
-                                        <input type="text" class="form-control" name="first_name"
-                                            placeholder="Full Name*" required>
+                                        <input type="text" class="form-control" name="first_name" placeholder="Full Name*" required>
                                     </div>
                                     <div class="mb-3">
-                                        <input type="tel" class="form-control" name="phone_number"
-                                            placeholder="Phone Number*" required>
+                                        <input type="tel" class="form-control" name="phone_number" placeholder="Phone Number*" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" name="location" placeholder="City*" required>
                                     </div>
                                     <div class="mb-3">
                                         <textarea class="form-control" name="message" rows="3" placeholder="Your Requirements..." required></textarea>

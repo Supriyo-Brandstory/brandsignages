@@ -755,6 +755,7 @@ class frontendController extends Controller
             'email' => 'email',
             'phone_number' => 'required|string|max:20',
             'message' => 'nullable|string|max:5000',
+            'location' => 'required|string|max:255',
             'captcha' => 'required|captcha',
         ]);
 
