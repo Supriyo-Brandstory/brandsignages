@@ -358,6 +358,57 @@
         </div>
     </section>
 
+<section class="we-deliver pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <h2>Premium Acrylic Sign Board Solutions</h2>
+                        </div>
+                        <div class="col-md-8 col-12">
+
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
+                                            class="img-fluid">
+                                        <h3>Tailored Designs</h3>
+                                        <p>We are Brand Signages, specialists in designing and manufacturing premium acrylic sign boards that create a powerful visual impact. Our acrylic signage solutions combine elegance, durability, and modern aesthetics to help businesses enhance their brand presence. 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}" alt="Custom Craftmanship"
+                                            class="img-fluid">
+                                        <h3>Custom Craftsmanship</h3>
+                                        <p>Every business has a unique identity, and our custom acrylic sign boards are crafted to reflect it. From clear acrylic displays and frosted finishes to 3D acrylic lettering and illuminated designs, we customize every sign to match your brand image and requirements.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}" alt="Highly Durable Name Boards"
+                                            class="img-fluid">
+                                        <h3>Lasting Durability</h3>
+                                        <p>Our acrylic sign boards are manufactured using high-quality, weather-resistant materials that maintain their clarity, color, and finish over time. Designed for both indoor and outdoor applications, they deliver exceptional durability in all environments.
+                                        </p>
+                                    </div>
+                                </div>
+                                 <div class="col-md-6 col-12">
+                                    <div class="deliver-box">
+                                        <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}" alt="Perfect Illumination"
+                                            class="img-fluid">
+                                        <h3>Brilliant Visibility</h3>
+                                        <p>Enhance your brand visibility with LED acrylic sign boards that shine brightly day and night. Our illuminated acrylic signage solutions are engineered for maximum impact, ensuring your business stands out with a professional and eye-catching appearance.
+                                    </div>
+                                </div>
+
+
+                            </div>
+            </section>
+
+
+
 
 <section class="other-cities-section py-5">
     <div class="container">
