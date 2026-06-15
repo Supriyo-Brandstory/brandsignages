@@ -117,8 +117,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-imagex">
-                        <img src="{{ asset('frontend/Images/home/led-sign-bg.webp') }}"
-                            alt="Starbucks LED Sign board designed by Brand Signages" class="img-fluid">
+                        <img src="{{ asset('frontend/Images/acrylic-sign/acrylic-led.webp') }}"
+                            alt="Rolex Acrylic LED Sign board designed by Brand Signages" class="img-fluid">
                     </div>
                 </div>
 
