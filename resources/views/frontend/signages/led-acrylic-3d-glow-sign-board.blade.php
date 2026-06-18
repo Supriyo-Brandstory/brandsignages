@@ -80,7 +80,7 @@
                 with backlit glow, high-brightness <b>Led modules</b>,
                 and hybrid material options designed for businesses that want distinctive and high-impact signage.</p>
             <!-- Product Impact Gallery Grid -->
-            <div class="impact-gallery-grid mt-5">
+            <!--<div class="impact-gallery-grid mt-5">
                 @php
                     $galleryItems = [
                         ['img' => 'led-1', 'title' => 'Outdoor Led Sign Board', 'class' => 'red-title'],
@@ -117,17 +117,406 @@
                         </div>
                     </div>
                 @endforeach
+            </div>-->
+           <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-1.webp') }}" class="card-img-topx"
+                        alt="Outdoor Led Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Outdoor Led Sign</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹9,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Outdoor LED Sign Board (Price: ₹1,000 – ₹9,000)">Place Order</button>
+                    </div>
+                </div>
             </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-2.webp') }}" class="card-img-topx"
+                        alt="Outdoor Led Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Outdoor Name Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹12,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Outdoor LED Name Board (Price: ₹4,000 – ₹12,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-3.webp') }}" class="card-img-topx"
+                        alt="Outdoor Led Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Outdoor LED Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹5,000 – ₹15,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Outdoor LED Board (Price: ₹5,000 – ₹15,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-4.webp') }}" class="card-img-topx"
+                        alt="Outdoor Lolipop LED Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Lolipop LED Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Lolipop LED Sign Board (Price: ₹1,000 – ₹4,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-5.webp') }}" class="card-img-topx"
+                        alt="Metal LED Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">LED Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹3,000 – ₹11,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Metal LED Sign Board (Price: ₹3,000 – ₹11,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-6.webp') }}" class="card-img-topx"
+                        alt="Led Shop Name Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Led Shop Name Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹4,000 – ₹13,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Led Shop Name Board (Price: ₹4,000 – ₹13,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-7.webp') }}" class="card-img-topx"
+                        alt="Led Shop Name Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Led Shop Name Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹2,000 – ₹8,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Led Shop Name Board (Price: ₹2,000 – ₹8,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-8.webp') }}" class="card-img-topx"
+                        alt="Led Shop Name Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Led Shop Name Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹5,000 – ₹14,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Led Shop Name Board (Price: ₹5,000 – ₹14,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-9.webp') }}" class="card-img-topx"
+                        alt="Led Shop Name Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Led Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹5,000 – ₹18,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Led Sign Board (Price: ₹5,000 – ₹18,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 10 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-10.webp') }}" class="card-img-topx"
+                        alt="Led Shop Name Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Led Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹2,000 – ₹7,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Led Sign Board (Price: ₹2,000 – ₹7,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 11 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-11.webp') }}" class="card-img-topx"
+                        alt="Led Shop Name Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Business Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹9,000 – ₹25,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Business Sign Board (Price: ₹9,000 – ₹25,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 12 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-12.webp') }}" class="card-img-topx"
+                        alt="Led Shop Name Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">LED Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹6,000 – ₹18,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="LED Sign Board (Price: ₹6,000 – ₹18,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Card 13 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-13.webp') }}" class="card-img-topx"
+                        alt="Double-sided Led Shop Name Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">LED Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹6,000 – ₹18,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="LED Sign Board (Price: ₹6,000 – ₹18,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 14 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-14.webp') }}" class="card-img-topx"
+                        alt="Double-sided Led Office Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">LED Office Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹5,000 – ₹16,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="LED Office Sign Board (Price: ₹5,000 – ₹16,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Card 15 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-15.webp') }}" class="card-img-topx"
+                        alt="Real Estate LED Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Real Estate Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹9,000 – ₹38,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Real Estate Sign Board (Price: ₹9,000 – ₹38,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 16 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-16.webp') }}" class="card-img-topx"
+                        alt="Lolipop LED Shop Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Lolipop LED Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹3,000 – ₹7,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Lolipop LED Sign Board (Price: ₹3,000 – ₹7,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <!-- Card 17 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-17.webp') }}" class="card-img-topx"
+                        alt="Crystal LED Shop Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Crystal LED Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹9,000 – ₹50,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Crystal LED Sign Board (Price: ₹9,000 – ₹50,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 18 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-18.webp') }}" class="card-img-topx"
+                        alt="Acrylic LED Shop Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹7,000 – ₹18,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Acrylic LED Sign Board (Price: ₹7,000 – ₹18,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 19 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-19.webp') }}" class="card-img-topx"
+                        alt="Acrylic LED Shop Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Acrylic LED Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹3,000 – ₹9,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="Acrylic LED Sign Board (Price: ₹3,000 – ₹9,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Card 20 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="card h-100 shadow-sm border-0 pb-5">
+                    <img src="{{ asset('/frontend/Images/led/led-20.webp') }}" class="card-img-topx"
+                        alt="LED Shop Sign Board">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">LED Sign Board</h5>
+
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹7,000 – ₹24,000 (20% Off)</p>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="contact-btn buy-now-btn"
+                            data-product="LED Sign Board (Price: ₹7,000 – ₹24,000)">Place Order</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
 
         </div>
         <div class="text-center">
             <a href="#pricing">
-                <button class="contact-btn">Check Pricing</button>
+                <button class="contact-btn">Size Specific Pricing</button>
             </a>
         </div>
     </section>
-
-
 
     <section class="led-signs-manufacturing">
         <div class="container pt-5">
@@ -199,14 +588,14 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="3d-led-acrylic-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-led-name-board.webp') }}"
                                         class="card-img-center" alt="Acrylic LED Letters">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a href="3d-led-acrylic-letters">3D Acrylic
-                                                Led Letters</a></h5>
-                                        <p class="We-Elevate-Brands-text">Acrylic Led letters are a versatile choice for
-                                            Led sign board, offering bright illumination, sleek design, and durability.
-                                            Perfect for creating high-impact, attention-grabbing name board for any
+                                                LED Letters</a></h5>
+                                        <p class="We-Elevate-Brands-text">Acrylic LED letters are a versatile choice for
+                                            LED name boards, offering bright illumination, sleek design, and durability.
+                                            Perfect for creating high-impact, attention-grabbing name boards for any
                                             business.</p>
                                     </div>
                             </div>
@@ -215,15 +604,15 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="led-aluminum-channel-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/aluminum-led-name-board.webp') }}"
                                         class="card-img-center" alt="Aluminum LED Channel Letters">
                                     <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="led-aluminum-channel-letters">Aluminum
-                                                Led Letters</a></h5>
+                                        <h5 class="We-Elevate-Brands-title"><a
+                                                href="led-aluminum-channel-letters">Aluminum LED Letters</a></h5>
                                         <p class="We-Elevate-Brands-text">Aluminum channel letters offer a sleek, 3D design
-                                            with front-facing Led illumination. Customizable in black, gold, silver, or
-                                            multi-colour, they create premium, high-visibility signage for retail and
-                                            boutique businesses. </p>
+                                            with front-facing LED illumination. Customizable in black, gold, silver, or
+                                            multi-colour, they create premium, high-visibility name boards for retail
+                                            businesses. </p>
                                     </div>
                             </div>
                         </div>
@@ -231,13 +620,13 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="2d-stencil-cut-acrylic-led-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-led-name-board.webp') }}"
                                         class="card-img-center" alt="2D Stencil Cut Sign Boards">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a
                                                 href="2d-stencil-cut-acrylic-led-letters">2D Stencil Cut Sign Board</a>
                                         </h5>
-                                        <p class="We-Elevate-Brands-text">2D stencil cut sign boards offer sleek, flush
+                                        <p class="We-Elevate-Brands-text">2D stencil cut name boards offer sleek, flush
                                             designs with hidden LED illumination, providing a cost-effective, professional,
                                             and
                                             customizable signage solution ideal for delicate fonts and minimalist branding.
@@ -249,15 +638,15 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="3d-crystal-led-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-6.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-name-board.webp') }}"
                                         class="card-img-center" alt="3D Crystal LED Letters">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a href="3d-crystal-led-letters">3D Crystal
-                                                Led Letters</a></h5>
-                                        <p class="We-Elevate-Brands-text">3D Crystal Led Letters feature crystal-embedded
-                                            acrylic faces with backlit Led, deep 3D layering, and luxurious metallic
+                                                LED Letters</a></h5>
+                                        <p class="We-Elevate-Brands-text">3D Crystal LED Letters feature crystal-embedded
+                                            acrylic faces with backlit LEDs, deep 3D layering, and luxurious metallic
                                             finishes,
-                                            creating dazzling, high-visibility sign boards perfect for premium retail and
+                                            creating dazzling, high-visibility name boards perfect for premium retail and
                                             luxury brands.</p>
                                     </div>
                             </div>
@@ -269,10 +658,10 @@
                                     <img src="{{ asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp') }}"
                                         class="card-img-center" alt="Sky LED Sign Boards">
                                     <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="sky-sign-boards">Sky Led Sign
+                                        <h5 class="We-Elevate-Brands-title"><a href="sky-sign-boards">Sky LED Sign
                                                 Boards</a></h5>
-                                        <p class="We-Elevate-Brands-text">Sky Led sign boards are large-format rooftop
-                                            signs with weather-resistant construction, IP67-rated Leds, and premium
+                                        <p class="We-Elevate-Brands-text">Sky LED sign boards are large-format rooftop
+                                            signs with weather-resistant construction, IP67-rated LEDs, and premium
                                             illumination. Designed for high-rise branding, they ensure long-distance
                                             visibility and strong corporate identity impact.</p>
                                     </div>
@@ -282,13 +671,13 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="led-dot-matrix-display" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/open-dot-led-sign-1.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/led-dot-matrix-display.webp') }}"
                                         class="card-img-center" alt="LED Dot Matrix Displays">
                                     <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="led-dot-matrix-display">Led Dot
+                                        <h5 class="We-Elevate-Brands-title"><a href="led-dot-matrix-display">LED Dot
                                                 Matrix Displays</a></h5>
-                                        <p class="We-Elevate-Brands-text">Led Dot Matrix Displays feature exposed,
-                                            high-intensity Leds for maximum brightness and contrast. With programmable RGB
+                                        <p class="We-Elevate-Brands-text">LED Dot Matrix Displays feature exposed,
+                                            high-intensity LEDs for maximum brightness and contrast. With programmable RGB
                                             effects and energy-efficient design, they deliver dynamic, attention-grabbing
                                             signage for commercial and retail spaces.</p>
                                     </div>
@@ -302,8 +691,8 @@
                                         class="card-img-center" alt="Outdoor Business Signages">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a href="flexible-led-display-boards">Flexible
-                                                Led Displays</a></h5>
-                                        <p class="We-Elevate-Brands-text">Flexible Led Displays offer dynamic, programmable
+                                                LED Displays</a></h5>
+                                        <p class="We-Elevate-Brands-text">Flexible LED Displays offer dynamic, programmable
                                             messaging with high brightness and curved installation capability. Available
                                             in RGB or single-color, they allow real-time updates for indoor and outdoor
                                             branding applications.</p>
@@ -314,13 +703,13 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="neon-signages" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/neon-sign-board-4.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/led-neon-name-board.webp') }}"
                                         class="card-img-center" alt="Neon LED Signs">
                                     <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="neon-signages">Neon Led Signs</a>
+                                        <h5 class="We-Elevate-Brands-title"><a href="neon-signages">Neon LED Signs</a>
                                         </h5>
-                                        <p class="We-Elevate-Brands-text">Led Neon Sign Boards deliver vibrant, durable
-                                            signage with shatter-resistant Led ropes. Offering low power consumption and
+                                        <p class="We-Elevate-Brands-text">LED Neon Name Boards deliver vibrant, durable
+                                            name boards with shatter-resistant LED ropes. Offering low power consumption and
                                             vivid
                                             fluorescent colors, they provide a retro neon effect with modern efficiency and
                                             longevity.</p>
@@ -346,7 +735,7 @@
 
     <section id="pricing" class="pb-5">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">Led Sign Board Size & Pricing <br>Explore Options</h2>
+            <h2 class="hero-title">Led Sign Board Pricing Based on <br>Size and Features</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">

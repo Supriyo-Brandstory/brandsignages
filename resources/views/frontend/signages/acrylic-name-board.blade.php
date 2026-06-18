@@ -1,10 +1,75 @@
 @extends('frontend.layout.appLayout')
 @php $disableAutoPopup = true; @endphp
 @section('content')
-    <div class="container py-5">
-        <div class="bread-cum-menu">
-            <p><a href="{{ route('index') }}">Home</a> / Acrylic Name Board</p>
+
+
+ <section class="simple-impact-hero">
+        @php
+            $slides = [
+                [
+                    'img' => 'acrylic-name-board-111',
+                    'title' => 'Acrylic Name Board, Engineered for Timeless Elegance',
+                    'desc' =>
+                        'Crafted with high-quality acrylic, our name boards combine crystal-clear sophistication with durability, ensuring refined brand identity.',
+                ],
+                [
+                    'img' => 'acrylic-name-board-112',
+                    'title' => 'Acrylic Name Board, Designed to Reflect Your Standards',
+                    'desc' =>
+                        'Crafted to mirror your business and commitment to quality, our acrylic name board projects credibility and style, helping you build instant recognition.',
+                ],
+                [
+                    'img' => 'acrylic-name-board-113',
+                    'title' => 'Acrylic Name Board, Tailored for Every Business Front Door',
+                    'desc' =>
+                        'Designed to adapt seamlessly to your unique identity, our acrylic name boards deliver high-end appearance and reinforces your presence with timeless appeal.',
+                ],
+            ];
+        @endphp
+
+        <div class="hero-slides-wrapper" id="heroSlider">
+            @foreach ($slides as $slide)
+                <div class="impact-slide {{ $loop->first ? 'active' : '' }}">
+                    <img src="/frontend/Images/name-boards/{{ $slide['img'] }}.webp" alt="{{ $slide['title'] }}">
+
+                    <div class="hero-dark-overlay">
+                        <div class="container container-large">
+                            <div class="hero-content-final">
+                                <h1 class="hero-msg-title">{{ $slide['title'] }}</h1>
+                                <p class="hero-msg-desc">{{ $slide['desc'] }}</p>
+
+                                <div class="hero-msg-actions">
+                                    <a href="{{ route('contact_us') }}" class="btn-impact primary">
+                                        I am Interested <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                    <a href="{{ route('contact_us') }}" class="btn-impact secondary">
+                                        Get a Quote <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
         </div>
+
+        <div class="hero-pagination-dots">
+            @foreach ($slides as $index => $slide)
+                <div class="dot {{ $index === 0 ? 'active' : '' }}" onclick="goToSlide({{ $index }})"></div>
+            @endforeach
+        </div>
+    </section>
+
+    <section class="instant-pricing">
+        <div class="container pt-5">
+            <h2>Best Acrylic Name Boards for <br>Home, Office, Shops</h2>
+            <p>At Brand Signages, we make the best acrylic <a href="/name-board-design-for-office-bangalore" style="color:#E43D12; text-decoration:none;"><strong>name boards for office</strong></a>, 
+            shops, and home designed to make your brand shine. Whether you need a professional office name board or a bold <a href="/name-board-designs-for-shops-bangalore" style="color:#E43D12; text-decoration:none;"><strong>shop name board</strong></a> 
+            that commands attention, we deliver the most precision-engineered acrylic boards. Every cut from premium-grade acrylic, finished with weather-resistant durability, and tailored to reflect your unique brand personality.
+            </p>
+            <p>Our acrylic name boards blend modern aesthetics with lasting performance, ensuring your signage looks impeccable indoors and stands strong outdoor. With customizable fonts, colors, sizes, and mounting options,
+                 Brand Signages makes it effortless to create a statement piece that elevates your space. From minimalist home entrances to high-impact retail storefronts, trust us to transform your name into a visual landmark.</p>
+
         <div class="row g-4">
 
             <!-- Card 1 -->
@@ -15,7 +80,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic Name Board for Home</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
 
                     </div>
 
@@ -34,7 +99,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic Name Board for Home</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (15% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹4,000 (15% Off)</p>
 
                     </div>
 
@@ -53,7 +118,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic Name Board for Door</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹8,000 – ₹4,500 (18% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹8,000 – ₹4,500 (18% Off)</p>
 
                     </div>
 
@@ -72,7 +137,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic Name Board for Door</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
 
                     </div>
 
@@ -91,7 +156,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic Name Board for Home</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹5,000 (20% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹5,000 (20% Off)</p>
 
                     </div>
 
@@ -110,7 +175,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic Name Board for Door</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹900 – ₹4,500 (20% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹900 – ₹4,500 (20% Off)</p>
 
                     </div>
 
@@ -129,7 +194,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic Name Board for Office</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
 
                     </div>
 
@@ -148,7 +213,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic Shop Name Board</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹800 – ₹3,500 (18% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹800 – ₹3,500 (18% Off)</p>
 
                     </div>
 
@@ -162,18 +227,18 @@
             <!-- Card 5 -->
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-22.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Shop- Byron Humburgers Store">
+                    <img src="{{ asset('/frontend/Images/name-boards/acrylic-name-1.webp') }}" class="card-img-topx"
+                        alt="Acrylic Name Board for Shop- Stella Salon">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic Shop Nameplate</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,500 (18% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹4,500 (18% Off)</p>
 
                     </div>
 
                     <div class="text-center">
                         <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Shop Nameplate (Price: ₹1,000 – ₹2,500)">Buy Now</button>
+                            data-product="Acrylic Shop Nameplate (Price: ₹2,000 – ₹7,500)">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -181,16 +246,16 @@
             <!-- Card 6 -->
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-21.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Shop- Barnda Store">
+                    <img src="{{ asset('/frontend/Images/name-boards/acrylic-name-4.webp') }}" class="card-img-topx"
+                        alt="Acrylic Name Board for Office">
                     <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Name Board for Shop</h5>
+                        <h5 class="card-title fw-bold">Acrylic Name Board</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (15% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹3,000 – ₹12,000 (15% Off)</p>
                     </div>
                     <div class="text-center">
                         <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Name Board for Shop (Price: ₹1,000 – ₹2,000)">Buy Now</button>
+                            data-product="Acrylic Name Board for Office (Price: ₹3,000 – ₹12,000)">Buy Now</button>
                     </div>
 
                 </div>
@@ -199,16 +264,16 @@
             <!-- Card 7 -->
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-23.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Shop- Sam's Coffee Shop">
+                    <img src="{{ asset('/frontend/Images/name-boards/acrylic-name-5.webp') }}" class="card-img-topx"
+                        alt="Acrylic Name Board for Shop- DS Makeup Studio">
                     <div class="card-body text-center">
                         <h5 class="card-title fw-bold">Acrylic Shop Name Board</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (15% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹4,000 – ₹15,000 (15% Off)</p>
                     </div>
                     <div class="text-center">
                         <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Shop Name Board (Price: ₹1,000 – ₹2,000)">Buy Now</button>
+                            data-product="Acrylic Shop Name Board (Price: ₹4,000 – ₹15,000)">Buy Now</button>
                     </div>
 
                 </div>
@@ -217,163 +282,31 @@
             <!-- Card 8 -->
             <div class="col-lg-3 col-md-6 col-12">
                 <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-102.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Office- Celine">
+                    <img src="{{ asset('/frontend/Images/name-boards/acrylic-name-6.webp') }}" class="card-img-topx"
+                        alt="Acrylic Name Board for Office- Goyal Group">
                     <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic LED Office Nameplate</h5>
+                        <h5 class="card-title fw-bold">Acrylic Office Nameplate</h5>
 
-                        <p class="mb-1 fw-bold text-black">₹1,000 – ₹4,000 (15% Off)</p>
+                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹3,000 – ₹12,000 (15% Off)</p>
                     </div>
                     <div class="text-center">
                         <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic LED Office Nameplate (Price: ₹1,000 – ₹2,000)">Buy Now</button>
+                            data-product="Acrylic Office Nameplate (Price: ₹3,000 – ₹12,000)">Buy Now</button>
                     </div>
 
                 </div>
             </div>
 
-        </div>
+        </div> <!-- row -->
+    </div> <!-- container --><br><br>
 
+    <div class="text-center">
+        <a href="/contact-us">
+            <button class="contact-btn">Explore 1,000+ Designs</button>
+        </a>
     </div>
+</section>
 
-
-    <!--<div class="newly-bannersection">
-                                                                                                                                                                <div class="bar">
-                                                                                                                                                                    <h1 class="hero-banner_title">Led Light Name Board</h1>
-
-                                                                                                                                                                </div>
-                                                                                                                                                                
-                                                                                                                                                                <div class="slider-wrapper">
-
-                                                                                                                                                                    <div class="main-slider">
-                                                                                                                                                                        <div class="slide active">
-                                                                                                                                                                            <img src="/frontend/Images/name-boards/led-name-1.webp" alt="Acrylic Name Board Design for Shop- Raifa Store">
-                                                                                                                                                                        </div>
-                                                                                                                                                                        <div class="slide">
-                                                                                                                                                                            <img src="/frontend/Images/name-boards/led-name-2.webp" alt="Acrylic Name Board Design for Shop- Barnda Store">
-                                                                                                                                                                        </div>
-                                                                                                                                                                        <div class="slide">
-                                                                                                                                                                            <img src="/frontend/Images/name-boards/led-name-3.webp" alt="Acrylic Name Board Design for Shop- Byron Humburgers Store">
-                                                                                                                                                                        </div>
-                                                                                                                                                                        <div class="slide">
-                                                                                                                                                                            <img src="/frontend/Images/name-boards/led-name-4.webp" alt="Acrylic Name Board Design for Home- Khanna Bhawan">
-                                                                                                                                                                        </div>
-                                                                                                                                                                        <div class="slide">
-                                                                                                                                                                            <img src="/frontend/Images/name-boards/led-name-12.webp" alt="Acrylic Name Board Design for Multi-Story Bulding- Direction Sign">
-                                                                                                                                                                        </div>
-                                                                                                                                                                        <div class="slide">
-                                                                                                                                                                            <img src="/frontend/Images/name-boards/led-name-5.webp" alt="Acrylic Name Board Design for Home- Ahujas Residence">
-                                                                                                                                                                        </div>
-                                                                                                                                                                        <div class="slide">
-                                                                                                                                                                            <img src="/frontend/Images/name-boards/led-name-6.webp" alt="Acrylic Name Board Design for Office- Apples">
-                                                                                                                                                                        </div>
-                                                                                                                                                                        <div class="slide">
-                                                                                                                                                                            <img src="/frontend/Images/name-boards/led-name-7.webp" alt="Acrylic Name Board Design for Advocate Office- Chandaranas">
-                                                                                                                                                                        </div>
-                                                                                                                                                                        <div class="slide">
-                                                                                                                                                                            <img src="/frontend/Images/name-boards/led-name-8.webp" alt="Acrylic Name Board Design">
-                                                                                                                                                                        </div>
-                                                                                                                                                                      
-                                                                                                                                                                    </div>
-
-                                                                                                                                                                    
-                                                                                                                                                                    <div class="nav-arrow prev">&#8249;</div>
-                                                                                                                                                                    <div class="nav-arrow next">&#8250;</div>
-                                                                                                                                                                
-
-
-                                                                                                                                                                    <div class="thumbnails">
-                                                                                                                                                                        <img src="/frontend/Images/name-boards/led-name-1.webp" alt="Acrylic Name Board Design for Shop- Raifa Store" class="thumb active" data-index="0">
-                                                                                                                                                                        <img src="/frontend/Images/name-boards/led-name-2.webp" alt="Acrylic Name Board Design for Shop- Barnda Store" class="thumb" data-index="1">
-                                                                                                                                                                        <img src="/frontend/Images/name-boards/led-name-3.webp" alt="Acrylic Name Board Design for Shop- Byron Humburgers Store" class="thumb" data-index="2">
-                                                                                                                                                                        <img src="/frontend/Images/name-boards/led-name-4.webp" alt="Acrylic Name Board Design for Home- Khanna Bhawan" class="thumb" data-index="3">
-                                                                                                                                                                        <img src="/frontend/Images/name-boards/led-name-12.webp" alt="Acrylic Name Board Design for Multi-Story Bulding- Direction Sign" class="thumb" data-index="4">
-                                                                                                                                                                        <img src="/frontend/Images/name-boards/led-name-5.webp" alt="Acrylic Name Board Design for Home- Ahujas Residence" class="thumb" data-index="5">
-                                                                                                                                                                        <img src="/frontend/Images/name-boards/led-name-6.webp" alt="Acrylic Name Board Design for Office- Apples" class="thumb" data-index="6">
-                                                                                                                                                                        <img src="/frontend/Images/name-boards/led-name-7.webp" alt="Acrylic LED Sign Board - Corporate Office" class="thumb" data-index="7">
-                                                                                                                                                                        <img src="/frontend/Images/name-boards/led-name-8.webp" alt="House Acrylic Name Board Design" class="thumb" data-index="8">
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-
-                                                                                                                                                              
-                                                                                                                                                                <div class="content">
-                                                                                                                                                                    <h1 class="hero-banner_title">Acrylic Name Board</h1>
-                                                                                                                                                                    <p class="subtitle"><b>Price: ₹1,000 - ₹30,000.00 + GST</b></p>
-
-                                                                                                                                                                    <div class="divider"></div>
-                                                                                                                                                                    <p class="fs-16">LED name boards are a modern and energy-efficient way to showcase your brand. Compared to traditional signage,
-                                                                                                                                                                        LED name boards consume less power, require minimal maintenance, and offer brighter, long-lasting illumination. We create premium
-                                                                                                                                                                         LED name boards using high-quality LED modules, designed in acrylic, metal, wooden, and custom material formats with front-lit,
-                                                                                                                                                                         backlit, and halo illumination options.</p>
-                                                                                                                                                                    <ul class="features">
-                                                                                                                                                                        <li>LED name board for house, office, shop, etc.</li>
-                                                                                                                                                                        <li>3D Letters highlight your name, brand, or logo</li>
-                                                                                                                                                                        <li>Customized based on space and visibility needs</li>
-                                                                                                                                                                        <li>Energy-efficient illumination with minimal maintenance</li>
-                                                                                                                                                                        <li>PAN India service including design & installation</li>
-                                                                                                                                                                    </ul>
-
-                                                                                                                                                                    <div class="buttons">
-                                                                                                                                                                        <a href="#pricing" class="btn">Explore Pricing</a>
-                                                                                                                                                                        <a href="{{ route('contact_us') }}" class="btn">Place Order</a>
-                                                                                                                                                                    </div>
-                                                                                                                                                                </div>
-                                                                                                                                                            </div>-->
-
-    <!-- About Section -->
-
-    <section class="instant-pricing">
-        <div class="container pt-5">
-            <h2>Best Acrylic Name Boards for Home, Office, Shops</h2>
-            <p>Brand Signages offers a wide range of <a href="/led-name-board-for-shop"
-                    style="color:#E43D12; text-decoration:none;"><strong>LED name boards for shop</strong></a>, offices,
-                home, and commercial spaces.
-                We create customized boards with high-quality LED modules to ensure bright visibility, energy efficiency,
-                and
-                long-lasting performance.
-            </p>
-            <p>Our collection includes acrylic, metal, wooden, and backlit formats tailored to different space requirements.
-                Whether
-                you need a compact LED light <a href="/blogs/name-board-design-for-home-trends-styles-ideas-for-2026"
-                    style="color:#E43D12; text-decoration:none;"><strong>name board for home</strong></a> entrance, larger
-                illuminated <a href="name-board-designs-for-shops-bangalore"
-                    style="color:#E43D12; text-decoration:none;"><strong>shop name board</strong></a>, or exclusive <a
-                    href="/name-board-design-for-office-bangalore"
-                    style="color:#E43D12; text-decoration:none;"><strong>name board for office</strong></a>, we
-                provide precise fabrication and professional installation support. Each <strong>LED name board</strong> is
-                crafted for durability,
-                clear readability, and a premium illuminated finish for proper day and nighttime visibility.</p>
-            <img src="/frontend/Images/name-boards/led-name-9.webp"
-                alt="Exclusive Shop Name Board Design by Brand Signages" class="shop-image">
-
-            <!-- <div class="scroll-loop-wrapper">
-                                                                                                                                                                        <div class="gridbox">
-                                                                                                                                                                           
-                                                                                                                                                                                <div class="scroll-card">
-                                                                                                                                                                                    <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-1.webp') }}"
-                                                                                                                                                                                       alt="Premium Shop Name Boards for Outdoor Advertising">
-                                                                                                                                                                                </div>
-                                                                                                                                                                                   <div class="scroll-card">
-                                                                                                                                                                                    <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-7.webp') }}"
-                                                                                                                                                                                       alt="Premium Shop Name Boards for Outdoor Advertising">
-                                                                                                                                                                                </div>
-                                                                                                                                                                                   <div class="scroll-card">
-                                                                                                                                                                                    <img src="{{ asset('frontend/Images/name-boards/shop-name-boards-9.webp') }}"
-                                                                                                                                                                                       alt="Premium Shop Name Boards for Outdoor Advertising">
-                                                                                                                                                                                </div>
-                                                                                                                                                                            
-                                                                                                                                                                        </div>-->
-
-
-            <div class="text-center">
-                <a href="#designs">
-                    <button class="contact-btn">Browse Latest Designs</button>
-                </a>
-            </div>
-
-        </div>
-        </div>
-    </section>
 
     <section class="led-signs-manufacturing">
         <div class="container pt-5">
@@ -381,42 +314,33 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-imagex">
-                        <img src="{{ asset('frontend/Images/name-boards/name-boards.webp') }}"
+                        <img src="{{ asset('/frontend/Images/acrylic-sign/acrylic-led.webp') }}"
                             alt="Name Board designed by Brand Signages" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="hero-title text-start">The Importance of Choosing the Right Acrylic Name Board</h2>
+                    <h2 class="hero-title text-start">Importance of Choosing the Right Acrylic Name Board</h2>
                     <p class="brand-description">
-                        In today’s competitive surroundings, LED name boards do more than display a name- it creates
-                        recognition and strengthens
-                        your presence instantly. An LED name board ensures your home or business stands out clearly, both in
-                        daylight and at
-                        night. It does more than display a name, it creates recognition and strengthens your presence
-                        instantly.
+                        Every entrance tells a story before anyone steps inside. An acrylic name board ensures yours speaks of quality- 
+                        adding depth, LED light, and a contemporary edge that makes any doorway feel more welcoming and professionally 
+                        complete. And we deliver the most premium-grade options when it comes a signage. 
                     </p>
                     <ul class="brand-list">
                         <li class="mb-3">
-                            <strong>Enhances Visibility Instantly:</strong> Unlike traditional boards, an illuminated name
-                            board improves readability
-                            from a distance. A well-crafted LED light name board ensures your name remains bright, sharp,
-                            and easy to
-                            identify at all times.
+                            <strong>Enhances Visibility Instantly:</strong> Unlike traditional boards, a polished acrylic name board improves
+                             readability with its crystal-clear glossy finish. A well-crafted acrylic name board ensures your business remains
+                              sharp, vibrant, and easy to identify.
                         </li>
                         <li class="mb-3">
-                            <strong>Reflects Quality & Professionalism:</strong> The finish, lighting style, and material of
-                            your LED name board
-                            communicate attention to detail. A premium illuminated board naturally creates confidence among
-                            visitors,
-                            clients, and guests.
+                            <strong>Reflects Professionalism:</strong> The finish, thickness, and design of your acrylic name board communicate 
+                            attention to detail. A premium acrylic board naturally creates confidence among visitors, clients, and guests with
+                             its sleek, sophisticated appearance.
                         </li>
                         <li>
-                            <strong>Long-Term Value:</strong> A high-quality LED name board is energy-efficient, durable,
-                            and built for consistent
-                            performance. With minimal maintenance and strong illumination, it delivers both functional and
-                            aesthetic
-                            benefits for years.
+                            <strong>Long-Term Value:</strong> Long-Term Value: A high-quality acrylic name board is weather-resistant, durable,
+                             and built for consistent performance. With minimal maintenance and timeless aesthetic appeal, it delivers both 
+                             functional and visual benefits for years.
                         </li>
                         <div class="mt-4">
                             <a href="#designs" class="custom-btn">Start Your Project</a>
@@ -426,11 +350,12 @@
         </div>
     </section>
 
+    <x-trust-features />
 
     <section class="We-Elevate-Brands-section py-5">
         <div class="container">
             <div class="text-center mb-4">
-                <h2 class="We-Elevate-Brands-heading fw-bold">Acrylic Name Board Materials <br>and Finish Options</h2>
+                <h2 class="We-Elevate-Brands-heading fw-bold">Explore Our Premium Acrylic Name <br>Board Options</h2>
             </div>
 
             <div class="position-relative">
@@ -440,14 +365,14 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="3d-led-acrylic-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-led-name-board.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp') }}"
                                         class="card-img-center" alt="Acrylic LED Letters">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a href="3d-led-acrylic-letters">3D Acrylic
-                                                LED Letters</a></h5>
-                                        <p class="We-Elevate-Brands-text">Acrylic LED letters are a versatile choice for
-                                            LED name boards, offering bright illumination, sleek design, and durability.
-                                            Perfect for creating high-impact, attention-grabbing name boards for any
+                                                Led Letters</a></h5>
+                                        <p class="We-Elevate-Brands-text">Acrylic Led letters are a versatile choice for
+                                            Led sign board, offering bright illumination, sleek design, and durability.
+                                            Perfect for creating high-impact, attention-grabbing name board for any
                                             business.</p>
                                     </div>
                             </div>
@@ -456,15 +381,15 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="led-aluminum-channel-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/aluminum-led-name-board.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp') }}"
                                         class="card-img-center" alt="Aluminum LED Channel Letters">
                                     <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a
-                                                href="led-aluminum-channel-letters">Aluminum LED Letters</a></h5>
+                                        <h5 class="We-Elevate-Brands-title"><a href="3d-acp-letter-acrylic">ACP
+                                                Acrylic Letters</a></h5>
                                         <p class="We-Elevate-Brands-text">Aluminum channel letters offer a sleek, 3D design
-                                            with front-facing LED illumination. Customizable in black, gold, silver, or
-                                            multi-colour, they create premium, high-visibility name boards for retail
-                                            businesses. </p>
+                                            with front-facing Led illumination. Customizable in black, gold, silver, or
+                                            multi-colour, they create premium, high-visibility signage for retail and
+                                            boutique businesses. </p>
                                     </div>
                             </div>
                         </div>
@@ -472,13 +397,13 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="2d-stencil-cut-acrylic-led-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-led-name-board.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp') }}"
                                         class="card-img-center" alt="2D Stencil Cut Sign Boards">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a
-                                                href="2d-stencil-cut-acrylic-led-letters">2D Stencil Cut Sign Board</a>
+                                                href="2d-stencil-cut-acrylic-led-letters">2D Stencil Cut Acrylic Board</a>
                                         </h5>
-                                        <p class="We-Elevate-Brands-text">2D stencil cut name boards offer sleek, flush
+                                        <p class="We-Elevate-Brands-text">2D stencil cut sign boards offer sleek, flush
                                             designs with hidden LED illumination, providing a cost-effective, professional,
                                             and
                                             customizable signage solution ideal for delicate fonts and minimalist branding.
@@ -490,85 +415,17 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="3d-crystal-led-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-name-board.webp') }}"
-                                        class="card-img-center" alt="3D Crystal LED Letters">
+                                    <img src="{{ asset('frontend/Images/acrylic-sign/3d-acrylic-1.webp') }}"
+                                        class="card-img-center" alt="3D Acrylic Letters">
                                     <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="3d-crystal-led-letters">3D Crystal
-                                                LED Letters</a></h5>
-                                        <p class="We-Elevate-Brands-text">3D Crystal LED Letters feature crystal-embedded
-                                            acrylic faces with backlit LEDs, deep 3D layering, and luxurious metallic
-                                            finishes,
-                                            creating dazzling, high-visibility name boards perfect for premium retail and
-                                            luxury brands.</p>
+                                        <h5 class="We-Elevate-Brands-title"><a href="acrylic-letters">3D Acrylic Letters</a></h5>
+
+                                        <p class="We-Elevate-Brands-text">3D Acrylic Letters feature precision-cut acrylic faces, dimensional raised profiles, and smooth polished finishes, creating bold, professional signage with exceptional visibility and a premium appearance, ideal for retail stores, corporate offices, showrooms.</p>
                                     </div>
                             </div>
                         </div>
 
-                        <div class="swiper-slide">
-                            <div class="card We-Elevate-Brands-card ">
-                                <a href="sky-sign-boards" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp') }}"
-                                        class="card-img-center" alt="Sky LED Sign Boards">
-                                    <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="sky-sign-boards">Sky LED Sign
-                                                Boards</a></h5>
-                                        <p class="We-Elevate-Brands-text">Sky LED sign boards are large-format rooftop
-                                            signs with weather-resistant construction, IP67-rated LEDs, and premium
-                                            illumination. Designed for high-rise branding, they ensure long-distance
-                                            visibility and strong corporate identity impact.</p>
-                                    </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="card We-Elevate-Brands-card ">
-                                <a href="led-dot-matrix-display" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/led-dot-matrix-display.webp') }}"
-                                        class="card-img-center" alt="LED Dot Matrix Displays">
-                                    <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="led-dot-matrix-display">LED Dot
-                                                Matrix Displays</a></h5>
-                                        <p class="We-Elevate-Brands-text">LED Dot Matrix Displays feature exposed,
-                                            high-intensity LEDs for maximum brightness and contrast. With programmable RGB
-                                            effects and energy-efficient design, they deliver dynamic, attention-grabbing
-                                            signage for commercial and retail spaces.</p>
-                                    </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="card We-Elevate-Brands-card ">
-                                <a href="flexible-led-display-boards" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/flexibile-led-1.webp') }}"
-                                        class="card-img-center" alt="Outdoor Business Signages">
-                                    <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="flexible-led-display-boards">Flexible
-                                                LED Displays</a></h5>
-                                        <p class="We-Elevate-Brands-text">Flexible LED Displays offer dynamic, programmable
-                                            messaging with high brightness and curved installation capability. Available
-                                            in RGB or single-color, they allow real-time updates for indoor and outdoor
-                                            branding applications.</p>
-                                    </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="card We-Elevate-Brands-card ">
-                                <a href="neon-signages" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/led-neon-name-board.webp') }}"
-                                        class="card-img-center" alt="Neon LED Signs">
-                                    <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="neon-signages">Neon LED Signs</a>
-                                        </h5>
-                                        <p class="We-Elevate-Brands-text">LED Neon Name Boards deliver vibrant, durable
-                                            name boards with shatter-resistant LED ropes. Offering low power consumption and
-                                            vivid
-                                            fluorescent colors, they provide a retro neon effect with modern efficiency and
-                                            longevity.</p>
-                                    </div>
-                            </div>
-                        </div>
-
+                        
 
                     </div>
                     <!-- Navigation Arrows -->
@@ -581,44 +438,41 @@
                 </div>
             </div>
 
+
         </div>
     </section>
 
     <section id="pricing">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3 pb-5">
-            <h2 class="hero-title">Acrylic Name Board Design Latest <br>Pricing & Size Options</h2>
+            <h2 class="hero-title">Acrylic Name Board Pricing Options <br>Based on Size</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="showcase-image">
-                        <img src="{{ asset('frontend/Images/name-boards/led-name-101.webp') }}"
-                            alt="Rivetoile Acrylic Name Board Design" class="img-fluid">
+                        <img src="{{ asset('frontend/Images/name-boards/acrylic-name-board-12.webp') }}"
+                            alt="Louis Vuitton Acrylic Name Board Design" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-6">
                     <p class="fs-20">
-                        The cost of an <a href="led-name-board-design"
-                            style="color:#E43D12; text-decoration:none;"><strong>LED name board</strong></a> depends on the
-                        material, overall size, lettering style, type of LED
-                        illumination,
-                        and installation requirements. Whether it is for a shop entrance, office reception, or exterior
-                        wall, accurate
-                        measurement ensures proper visibility and finish.
+                        The cost of an acrylic name board depends on the material thickness, overall size, lettering
+                         style, finish type, and installation requirements. Whether it is for a shop entrance, office 
+                         reception, or exterior wall, accurate measurement ensures proper visibility and a polished finish.
                     </p>
 
-                    <p class="fs-20"><strong>Acrylic Name Board Sizes Include:</strong></p>
                     <ul class="fs-20" style="padding-left: 18px;">
-                        <li><b>Small Name Board:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹1,000 – ₹11,000)</li>
+                        <li><b>Small Name Board:</b> 1 ft x 2 ft, 1 ft x 3 ft (₹1,000 – ₹10,000)</li>
                         <li><b>Medium Name Board:</b> 2 ft x 4 ft, 3 ft x 5 ft (₹12,000 – ₹21,000)</li>
-                        <li><b>Large Name Board:</b> 4 ft x 8 ft (₹21,000 – ₹30,000)</li>
+                        <li><b>Large Name Board:</b> 4 ft x 8 ft (₹21,000 – ₹40,000)</li>
                         <li><b>Custom Dimension:</b> Based on size, material, and design</li>
                     </ul>
 
                     <p class="fs-20">
-                        Our LED name boards are built with IP65-rated LED modules for full weather resistance, delivering
-                        5,000 to 8,000 nits of brightness for outdoor visibility. With a rated lifespan of 50,000+ hours,
-                        roughly 12 to 15 years at standard usage, they deliver consistent performance year-round.
+                        Our acrylic name boards are crafted from premium-grade cast acrylic with UV-resistant coating for full 
+                        weather protection, maintaining crystal-clear transparency and color in all conditions. With a 
+                        material thickness ranging from 3mm to 10mm and precision laser-cut edges, they deliver a flawless
+                         glass-like finish that lasts 10 to 15 years.
                     </p>
 
                     <button class="contact-btn buy-now-btn"
@@ -628,25 +482,154 @@
 
     </section>
 
+
+    <section id="recent_projects" class="new-recent-works">
+        <div class="container pt-5">
+            <h2 class="hero-title  mb-6">Our Recent Name Board <br>Design Projects</h2>
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
+                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Titan Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
+                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Fortis Hospital</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Café Mocha</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/tanishq.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Tanishq Showroom</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>Prestige Group</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="box">
+                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
+                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
+                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
+                            <h4>MedPlus Pharmacy</h4>
+                            <a href="/case-studies"><b>Explore Project</b></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="/contact-us">
+                    <button class="contact-btn">Start Your Project</button>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+        <div class="inquery-from-section">
+        <x-coustom-inquiry-form />
+    </div>
+
+    <section class="we-deliver">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <h2>Best Acrylic Name Board Solutions</h2>
+                </div>
+                <div class="col-md-8 col-12">
+
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
+                                    class="img-fluid">
+                                <h3>Crystal Transparency</h3>
+                                <p>We are Brand Signages, specialists in crafting impactful acrylic name boards that leave 
+                                    a lasting impression. Our acrylic boards go beyond simple identification- they reflect 
+                                    personality, enhance visibility, and elevate the overall appearance.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}"
+                                    alt="Custom Craftmanship" class="img-fluid">
+                                <h3>Custom Craftsmanship</h3>
+                                <p>Every space has its own identity, and our designs reflect that. From minimalist frosted finishes 
+                                    to bold glossy lettering, we customize every <a style="color: #ffff;text-decoration: underline;" href="https://brandsignages.com/arcylic-signages"><strong>acrylic sign board</strong></a> 
+                                    and name board to match your style, purpose, and visual appeal.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}"
+                                    alt="Highly Durable Name Boards" class="img-fluid">
+                                <h3>Highly Durable</h3>
+                                <p>We use premium-quality, UV-resistant, and weatherproof acrylic materials to ensure your name board remains strong,
+                                     vibrant, and long-lasting, even in demanding outdoor conditions, without yellowing or cracking over time.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="deliver-box">
+                                <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}"
+                                    alt="Perfect Illumination" class="img-fluid">
+                                <h3>Flawless Finish</h3>
+                                <p>Add dimension to your brand with our precision-cut acrylic name boards, designed to catch light and draw eyes
+                                     effortlessly. Each design is engineered for maximum clarity, ensuring your name stands out with a polished,
+                                      glass-like brilliance.
+                            </div>
+                        </div>
+
+
+                    </div>
+    </section>
+
     <section id="designs" class="why-bg-light-pink pt-5" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="hero-title">Discover The Best Acrylic Name Boards <br>for Every Space</h2>
-                <p class="fs-20">An illuminated identity makes a difference and we bing you the best <a
-                        href="name-board-design-bangalore" style="color:#E43D12; text-decoration:none;"><strong>name board
-                            designs</strong></a> in India. Our <strong>LED name board</strong>
-                    collection is built for homes, offices,
-                    retail outlets, and commercial buildings that require strong visibility with a refined finish. From
-                    subtle entrance
-                    plates to bold exterior installations, every LED light name board is crafted to enhance readability,
-                    and deliver a clean, modern appearance. We focus on <strong>precision fabrication</strong>,
-                    <strong>balanced lighting</strong>, and <strong>durable materials</strong> to ensure your name remains
-                    clear and impressive for years.
-                </p>
-
-            </div>
-
-            <h3 class="hero-title">Explore Acrylic Name Board for Home</h3>
 
             <div class="row g-4 office-mag-grid mt-2">
 
@@ -1046,159 +1029,6 @@
         </div>
         </div>
     </section>
-
-
-
-
-
-
-    <section id="recent_projects" class="new-recent-works">
-        <div class="container pt-5">
-            <h2 class="hero-title  mb-6">Our Recent Name Board <br>Design Projects</h2>
-
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/titan-store-sign-5.webp"
-                            alt="LED Sign Board for Titan Watch- Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Titan Showroom</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/fortis-hospital-name-board-5.webp"
-                            alt="LED Sign Board for Fortis Hospital- Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Fortis Hospital</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/cafe-mocha-name-board-4.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Café Mocha</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/tanishq.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Tanishq Showroom</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/prestidge-group-sign-board-5.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>Prestige Group</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <img src="/frontend/Images/case-studies/medplus-shop-name-board-design.webp"
-                            alt="LED Sign Board for Cafe Mocha - Brand Signages" class="img-fluid">
-                        <div class="w-100 d-flex align-items-center justify-content-between px-4 mt-2">
-                            <h4>MedPlus Pharmacy</h4>
-                            <a href="/case-studies"><b>Explore Project</b></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="text-center">
-                <a href="/contact-us">
-                    <button class="contact-btn">Start Your Project</button>
-                </a>
-            </div>
-
-
-        </div>
-    </section>
-
-
-    </section>
-
-    <section class="we-deliver">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-12">
-                    <h2>Premium Name Board Design Solutions</h2>
-                </div>
-                <div class="col-md-8 col-12">
-
-                    <div class="row">
-                        <div class="col-md-6 col-12">
-                            <div class="deliver-box">
-                                <img src="{{ asset('frontend/Images/home/on-demand.png') }}" alt="On-demand Design"
-                                    class="img-fluid">
-                                <h3>Striking Designs</h3>
-                                <p>We are <a style="color: #ffff;text-decoration: underline;"
-                                        href="https://brandsignages.com"><strong>Brand Signages</strong></a>, specialists
-                                    in crafting impactful name board designs that leave a lasting impression. Our name
-                                    boards go beyond simple identification- they reflect personality, enhance visibility,
-                                    and elevate the overall appearance.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12">
-                            <div class="deliver-box">
-                                <img src="{{ asset('frontend/Images/home/direct-purchase.png') }}"
-                                    alt="Custom Craftmanship" class="img-fluid">
-                                <h3>Custom Craftsmanship</h3>
-                                <p>Every space has its own identity, and our designs reflect that. From modern <a
-                                        style="color: #ffff;text-decoration: underline;"
-                                        href="https://brandsignages.com/arcylic-signages"><strong>acrylic name
-                                            boards</strong></a> to timeless metal finishes, we customize every name board
-                                    design to match your style, purpose, and visual appeal.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12">
-                            <div class="deliver-box">
-                                <img src="{{ asset('frontend/Images/home/timely-deliver.png') }}"
-                                    alt="Highly Durable Name Boards" class="img-fluid">
-                                <h3>High Durability</h3>
-                                <p>We use premium, weather-resistant and premium materials to ensure your name board remains
-                                    strong, vibrant, and long-lasting day and night even in demanding outdoor conditions.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12">
-                            <div class="deliver-box">
-                                <img src="{{ asset('frontend/Images/home/perfect-illu.webp') }}"
-                                    alt="Perfect Illumination" class="img-fluid">
-                                <h3>Perfect Illumination</h3>
-                                <p> Add brilliance to your brand with our LED-lit and neon store name boards, designed to
-                                    shine bright day and night. Each design is engineered for maximum visibility, ensuring
-                                    your brand stands out.
-                            </div>
-                        </div>
-
-
-                    </div>
-    </section>
-
-
-
 
 
     <section class="new_client_section container">
@@ -1824,6 +1654,40 @@
                     }
                 }
             });
+        });
+    </script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slides = document.querySelectorAll('.impact-slide');
+            const dots = document.querySelectorAll('.dot');
+            let current = 0;
+            let slideInterval;
+
+            function showImpactSlide(n) {
+                slides[current].classList.remove('active');
+                dots[current].classList.remove('active');
+                current = (n + slides.length) % slides.length;
+                slides[current].classList.add('active');
+                dots[current].classList.add('active');
+            }
+
+            window.goToSlide = function(n) {
+                showImpactSlide(n);
+                resetInterval();
+            }
+
+            function nextImpactSlide() {
+                showImpactSlide(current + 1);
+            }
+
+            function resetInterval() {
+                clearInterval(slideInterval);
+                slideInterval = setInterval(nextImpactSlide, 5000);
+            }
+
+            resetInterval();
         });
     </script>
 @endsection
