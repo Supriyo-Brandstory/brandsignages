@@ -1,0 +1,1313 @@
+/* Digital Signage-2 Dedicated Custom Styling */
+
+:root {
+    --ds2-brand-primary: #E43D12;
+    --ds2-brand-primary-hover: #f54a1e;
+    --ds2-bg-dark: #050508;
+    --ds2-bg-light: #f8f9fa;
+    --ds2-bg-card: #111116;
+    --ds2-bg-card-hover: #181822;
+    --ds2-text-light: #ffffff;
+    --ds2-text-dark: #1a1a1e;
+    --ds2-text-muted: rgba(255, 255, 255, 0.75);
+    --ds2-pill-bg: rgba(35, 16, 12, 0.85);
+    --ds2-pill-border: rgba(255, 255, 255, 0.16);
+    --ds2-font-heading: 'Playfair Display', Georgia, serif;
+    --ds2-font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --ds2-transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.ds2-page-wrapper {
+    background-color: #ffffff;
+    color: var(--ds2-text-dark);
+    font-family: var(--ds2-font-body);
+    overflow-x: hidden;
+}
+
+.ds2-main-title,
+.ds2-premium-title,
+.ds2-industry-title,
+.ds2-empower-title,
+.ds2-why-choose-title,
+.ds2-testimonial-title,
+.ds2-cities-title,
+.new_client_section-title,
+.why-text-heading,
+.faq-title {
+    font-family: var(--ds2-font-heading);
+    font-size: 38px;
+    font-weight: 600;
+}
+
+/* 1. Hero Carousel Banner Section */
+.ds2-hero-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 88vh;
+    background-color: var(--ds2-bg-dark);
+    overflow: hidden;
+}
+
+.ds2-hero-carousel,
+.ds2-hero-swiper {
+    width: 100%;
+    height: 100%;
+    min-height: 88vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.ds2-hero-carousel .carousel-inner,
+.ds2-hero-carousel .carousel-item,
+.ds2-hero-swiper .swiper-wrapper,
+.ds2-hero-swiper .swiper-slide {
+    min-height: 88vh;
+    height: 100%;
+}
+
+.ds2-slide-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    z-index: 1;
+    transform: scale(1.03);
+    transition: transform 6s ease;
+}
+
+.carousel-item.active .ds2-slide-bg,
+.swiper-slide-active .ds2-slide-bg {
+    transform: scale(1);
+}
+
+/* Dark Gradient Mask overlay from Left to Right as in screenshots */
+.ds2-slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            #050508 0%,
+            rgba(5, 5, 8, 0.95) 32%,
+            rgba(5, 5, 8, 0.75) 58%,
+            rgba(5, 5, 8, 0.25) 85%,
+            rgba(5, 5, 8, 0.1) 100%);
+    z-index: 2;
+}
+
+.ds2-hero-content-container {
+    position: relative;
+    z-index: 3;
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    padding: 100px 0 160px;
+}
+
+.ds2-hero-textbox {
+    max-width: 57%;
+    animation: ds2FadeIn 0.8s ease forwards;
+}
+
+.ds2-hero-title {
+    font-family: var(--ds2-font-heading);
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.18;
+    color: #ffffff;
+    margin-bottom: 22px;
+    letter-spacing: -0.5px;
+}
+
+.ds2-hero-description {
+    font-size: 20px;
+    line-height: 1.65;
+    color: var(--ds2-text-light);
+    margin-bottom: 36px;
+    font-weight: 400;
+}
+
+/* CTA Button Styling */
+.ds2-btn-primary {
+    background-color: var(--ds2-brand-primary);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 14px 34px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    border: none;
+    text-decoration: none;
+    transition: var(--ds2-transition);
+    box-shadow: 0 8px 24px rgba(228, 61, 18, 0.35);
+}
+
+.ds2-btn-primary:hover {
+    background-color: var(--ds2-brand-primary-hover);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(228, 61, 18, 0.5);
+}
+
+.ds2-btn-primary i {
+    font-size: 15px;
+    transition: transform 0.3s ease;
+}
+
+.ds2-btn-primary:hover i {
+    transform: translateX(4px);
+}
+
+/* 3-Slider Explicit Dots / Indicators */
+.ds2-slider-dots {
+    position: absolute !important;
+    left: auto !important;
+    right: 40px !important;
+    top: 50% !important;
+    bottom: auto !important;
+    transform: translateY(-50%) !important;
+    z-index: 10 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.ds2-dot-btn {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: var(--ds2-transition);
+    padding: 0;
+}
+
+.ds2-dot-btn.active {
+    background: var(--ds2-brand-primary);
+    border-color: #ffffff;
+    transform: scale(1.35);
+    box-shadow: 0 0 14px rgba(228, 61, 18, 0.8);
+}
+
+/* Carousel Control Arrow Indicators */
+.ds2-carousel-controls {
+    position: absolute;
+    right: 40px;
+    bottom: 140px;
+    z-index: 10;
+    display: flex;
+    gap: 12px;
+}
+
+.ds2-control-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--ds2-transition);
+}
+
+.ds2-control-btn:hover {
+    background: var(--ds2-brand-primary);
+    border-color: var(--ds2-brand-primary);
+    transform: scale(1.08);
+}
+
+/* Infinite Loop Scrolling Marquee Bar for Category Pills */
+.ds2-pills-nav-wrapper {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+}
+
+.ds2-marquee-wrapper {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    user-select: none;
+}
+
+.ds2-marquee-track {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    animation: ds2InfiniteMarquee 35s linear infinite;
+    will-change: transform;
+}
+
+.ds2-marquee-wrapper:hover .ds2-marquee-track {
+    animation-play-state: paused;
+}
+
+@keyframes ds2InfiniteMarquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.ds2-pill-item {
+    background: var(--ds2-pill-bg);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid var(--ds2-pill-border);
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: var(--ds2-transition);
+    display: inline-block;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.ds2-pill-item:hover,
+.ds2-pill-item.active {
+    background: var(--ds2-brand-primary);
+    border-color: var(--ds2-brand-primary);
+    color: #ffffff;
+    box-shadow: 0 8px 22px rgba(228, 61, 18, 0.45);
+    transform: translateY(-2px);
+}
+
+/* 2. Explore Commercial-Grade Digital Signages Section (Card Carousel Slider) */
+.ds2-software-grid-section {
+    padding: 110px 0;
+}
+
+.ds2-main-title {
+    color: var(--ds2-text-dark);
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto 65px;
+    line-height: 1.28;
+    letter-spacing: -0.3px;
+}
+
+.ds2-premium-title {
+    color: #121214;
+    margin-bottom: 24px;
+    line-height: 1.22;
+    letter-spacing: -0.4px;
+}
+
+.ds2-card-slider-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.ds2-feature-card {
+    background: #F9FAFB;
+    border: 1px solid #E1E1E166;
+    border-radius: 15px;
+    /* padding: 38px 34px 26px; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: var(--ds2-transition);
+    overflow: hidden;
+}
+
+
+.ds2-feature-card-title {
+    font-family: var(--ds2-font-heading);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--ds2-brand-primary);
+    margin-bottom: 16px;
+    line-height: 1.25;
+}
+
+.ds2-feature-card-text {
+    font-size: 18px;
+    line-height: 1.65;
+    color: #212121;
+    margin-bottom: 24px;
+    flex-grow: 1;
+}
+
+.ds2-feature-card-link {
+    color: var(--ds2-brand-primary);
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+    transition: var(--ds2-transition);
+}
+
+.ds2-feature-card-link:hover {
+    color: #c02d09;
+    transform: translateX(4px);
+}
+
+.ds2-card-content {
+    padding: 20px 20px 0px 20px;
+}
+
+.ds2-feature-card-img-wrap {
+    width: 100%;
+    overflow: hidden;
+    margin-top: auto;
+}
+
+.ds2-feature-card-img-wrap img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.ds2-feature-card:hover .ds2-feature-card-img-wrap img {
+    transform: scale(1.05);
+}
+
+/* Slider Indicators (Matches Screenshot: -- • Pill + Circle Indicator) */
+.ds2-card-slider-indicators {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 45px;
+}
+
+.ds2-card-indicator-btn {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #cbd0d8;
+    border: none;
+    padding: 0;
+    transition: var(--ds2-transition);
+    cursor: pointer;
+}
+
+.ds2-card-indicator-btn.active {
+    width: 32px;
+    border-radius: 50px;
+    background: var(--ds2-brand-primary);
+    box-shadow: 0 4px 10px rgba(228, 61, 18, 0.4);
+}
+
+/* 3. The Home of Premium Digital Signage Section */
+.ds2-premium-home-section {
+    padding: 110px 0;
+    background-color: #ffffff;
+}
+
+
+.ds2-premium-desc {
+    font-size: 20px;
+    line-height: 1.68;
+    color: #212121;
+    margin-bottom: 36px;
+}
+
+.ds2-premium-img-wrap {
+    width: 100%;
+    height: 100%;
+    min-height: 380px;
+    border-radius: 28px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.ds2-premium-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.ds2-why-card {
+    background-color: #f8f9fa;
+    border: 1px solid #f0f0f5;
+    border-radius: 20px;
+    padding: 32px 36px;
+    height: 100%;
+    transition: var(--ds2-transition);
+}
+
+.ds2-why-card:hover {
+    background-color: #ffffff;
+    border-color: rgba(228, 61, 18, 0.3);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+.ds2-why-card-title {
+    font-family: var(--ds2-font-heading);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--ds2-brand-primary);
+    margin-bottom: 12px;
+}
+
+.ds2-why-card-text {
+    font-size: 18px;
+    line-height: 1.65;
+    color: #212121;
+    margin-bottom: 0;
+}
+
+/* 4. Smart and Impactful Digital Signage Solutions for Every Industry Section */
+.ds2-industry-section {
+    padding: 110px 0;
+    background-color: #141418;
+    color: #ffffff;
+}
+
+.ds2-industry-title {
+    color: #ffffff;
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto 50px;
+    line-height: 1.25;
+}
+
+.ds2-industry-tabs-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 16px;
+    margin-bottom: 55px;
+}
+
+.ds2-industry-tab-btn {
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px 0;
+    cursor: pointer;
+    position: relative;
+    transition: var(--ds2-transition);
+}
+
+.ds2-industry-tab-btn:hover {
+    color: #ffffff;
+}
+
+.ds2-industry-tab-btn.active {
+    color: #ffffff;
+}
+
+.ds2-industry-tab-btn.active::after {
+    content: '';
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--ds2-brand-primary);
+    border-radius: 2px;
+}
+
+.ds2-industry-pane {
+    display: none;
+    animation: ds2FadeIn 0.5s ease forwards;
+}
+
+.ds2-industry-pane.active {
+    display: flex;
+}
+
+.ds2-industry-pane-img-wrap {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.ds2-industry-pane-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.ds2-industry-pane-title {
+    font-family: var(--ds2-font-heading);
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.ds2-industry-pane-desc {
+    font-size: 18px;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 24px;
+}
+
+.ds2-industry-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 34px;
+}
+
+.ds2-industry-list li {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.ds2-industry-list li::before {
+    content: '•';
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* 5. Digital Signage that Empowers You Section */
+.ds2-empower-section {
+    padding: 110px 0;
+    background-color: #ffffff;
+}
+
+.ds2-empower-title {
+    color: var(--ds2-text-dark);
+    text-align: center;
+    margin-bottom: 16px;
+    line-height: 1.22;
+}
+
+.ds2-empower-subtitle {
+    font-size: 20px;
+    line-height: 1.65;
+    color: #212121;
+    text-align: center;
+    margin: 0 auto 65px;
+}
+
+.ds2-empower-card {
+    background-color: #f8f9fa;
+    border: 1px solid #e5e7eb;
+    border-radius: 28px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: var(--ds2-transition);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.ds2-empower-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(228, 61, 18, 0.35);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+.ds2-empower-card-body {
+    padding: 38px 36px 24px;
+}
+
+.ds2-empower-card-title {
+    font-family: var(--ds2-font-heading);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--ds2-brand-primary);
+    margin-bottom: 16px;
+    line-height: 1.25;
+}
+
+.ds2-empower-card-text {
+    font-size: 20px;
+    line-height: 1.65;
+    color: #212121;
+    margin-bottom: 24px;
+}
+
+.ds2-empower-card-link {
+    color: var(--ds2-brand-primary);
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--ds2-transition);
+}
+
+.ds2-empower-card-link:hover {
+    color: #c02d09;
+    transform: translateX(4px);
+}
+
+.ds2-empower-card-img-wrap {
+    width: 100%;
+    height: 290px;
+    overflow: hidden;
+    margin-top: auto;
+}
+
+.ds2-empower-card-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.ds2-empower-card:hover .ds2-empower-card-img-wrap img {
+    transform: scale(1.05);
+}
+
+/* 6. Why Choose Us for Digital Signages Section */
+.ds2-why-choose-section {
+    padding: 110px 0;
+    background-color: #fff;
+}
+
+.ds2-why-choose-title {
+    color: var(--ds2-text-dark);
+    text-align: center;
+    margin-bottom: 65px;
+    line-height: 1.22;
+}
+
+.ds2-why-choose-box {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 34px 30px;
+    margin-bottom: 24px;
+    transition: var(--ds2-transition);
+}
+
+.ds2-why-choose-box:last-child {
+    margin-bottom: 0;
+}
+
+.ds2-why-choose-box:hover {
+    border-color: rgba(228, 61, 18, 0.35);
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+}
+
+.ds2-why-choose-icon {
+    font-size: 32px;
+    color: var(--ds2-brand-primary);
+    margin-bottom: 18px;
+}
+
+.ds2-why-choose-box-title {
+    font-family: var(--ds2-font-heading);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--ds2-brand-primary);
+    margin-bottom: 12px;
+}
+
+.ds2-why-choose-box-text {
+    font-size: 18px;
+    line-height: 1.65;
+    color: #212121;
+    margin-bottom: 0;
+}
+
+.ds2-why-choose-center-img-wrap {
+    width: 100%;
+    height: 100%;
+    min-height: 520px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.ds2-why-choose-center-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* 7. What Our Clients Say (Testimonials) Section */
+.ds2-testimonial-section {
+    padding: 110px 0 130px;
+    background-color: #141418;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.ds2-testimonial-bg-text {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--ds2-font-heading);
+    font-size: 160px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.03);
+    white-space: nowrap;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.ds2-testimonial-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.ds2-testimonial-title {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.ds2-testimonial-controls {
+    display: flex;
+    gap: 12px;
+}
+
+.ds2-testimonial-control-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--ds2-transition);
+}
+
+.ds2-testimonial-control-btn:hover {
+    background: var(--ds2-brand-primary);
+    border-color: var(--ds2-brand-primary);
+}
+
+.ds2-testimonial-card {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 42px 38px 34px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    transition: var(--ds2-transition);
+    min-height: 324px;
+}
+
+.ds2-card-swiper .swiper-slide,
+.ds2-testimonial-swiper .swiper-slide {
+    height: auto;
+    display: flex;
+}
+
+.ds2-card-swiper .ds2-feature-card,
+.ds2-testimonial-swiper .ds2-testimonial-card {
+    width: 100%;
+}
+
+
+
+.ds2-testimonial-quote-icon {
+    font-size: 40px;
+    color: #d0d4dc;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.ds2-testimonial-text {
+    font-size: 16px;
+    line-height: 1.68;
+    color: #2b2b36;
+    margin-bottom: 30px;
+    flex-grow: 1;
+}
+
+.ds2-testimonial-author-name {
+    font-family: var(--ds2-font-heading);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--ds2-brand-primary);
+    margin-bottom: 4px;
+}
+
+.ds2-testimonial-author-title {
+    font-size: 14px;
+    color: #787885;
+    margin-bottom: 0;
+}
+
+/* 8. Digital Signages in Other Cities Section */
+.ds2-cities-section {
+    padding: 100px 0 110px;
+    background-color: #ffffff;
+}
+
+.ds2-cities-title {
+    color: var(--ds2-text-dark);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.ds2-city-card {
+    background-color: #ffffff;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    padding: 40px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transition: var(--ds2-transition);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.03);
+}
+
+.ds2-city-card-svg {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+    transition: var(--ds2-transition);
+}
+
+.ds2-city-card-svg svg {
+    max-height: 140px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    transition: var(--ds2-transition);
+}
+
+.ds2-city-card-svg svg path {
+    transition: fill 0.35s ease;
+}
+
+.ds2-city-name {
+    font-family: var(--ds2-font-heading);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--ds2-brand-primary);
+    margin-bottom: 0;
+    transition: var(--ds2-transition);
+}
+
+/* Hover State matching User Screenshot 2 */
+.ds2-city-card:hover {
+    background-color: var(--ds2-brand-primary);
+    border-color: var(--ds2-brand-primary);
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(228, 61, 18, 0.35);
+}
+
+.ds2-city-card:hover .ds2-city-name {
+    color: #ffffff;
+}
+
+.ds2-city-card:hover .ds2-city-card-svg svg path[fill="#11100E"],
+.ds2-city-card:hover .ds2-city-card-svg svg path[fill="#0E0D0A"],
+.ds2-city-card:hover .ds2-city-card-svg svg path[fill="#000000"],
+.ds2-city-card:hover .ds2-city-card-svg svg path:not([fill="white"]):not([fill="#ffffff"]) {
+    fill: #ffffff;
+}
+
+.ds2-city-card:hover .ds2-city-card-svg svg path[fill="white"],
+.ds2-city-card:hover .ds2-city-card-svg svg path[fill="#ffffff"] {
+    fill: var(--ds2-brand-primary);
+}
+
+@keyframes ds2FadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 7. Our Recent Signage and Branding Design Projects Section */
+.ds2-projects-section {
+    padding: 110px 0;
+    background-color: #ffffff;
+}
+
+.ds2-project-card {
+    background: #ffffff;
+    border: 1px solid #E1E1E1;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: var(--ds2-transition);
+}
+
+.ds2-project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+    border-color: rgba(228, 61, 18, 0.25);
+}
+
+.ds2-project-card-content {
+    padding: 30px 24px 22px;
+}
+
+.ds2-project-card-title {
+    font-family: var(--ds2-font-heading);
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--ds2-brand-primary);
+    margin-bottom: 12px;
+}
+
+.ds2-project-card-link {
+    color: var(--ds2-brand-primary);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--ds2-transition);
+}
+
+.ds2-project-card-link:hover {
+    color: var(--ds2-brand-primary-hover);
+}
+
+.ds2-project-card-link i {
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+.ds2-project-card-link:hover i {
+    transform: translateX(4px);
+}
+
+.ds2-project-card-img-wrap {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    margin-top: auto;
+}
+
+.ds2-project-card-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.ds2-project-card:hover .ds2-project-card-img-wrap img {
+    transform: scale(1.04);
+}
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+
+    /* Compress margins & paddings globally on tablets */
+    .ds2-software-grid-section,
+    .ds2-premium-home-section,
+    .ds2-industry-section,
+    .ds2-empower-section,
+    .ds2-why-choose-section,
+    .ds2-projects-section,
+    .ds2-cities-section {
+        padding: 80px 20px !important;
+    }
+
+    .ds2-hero-title {
+        font-size: 38px;
+    }
+
+    .ds2-main-title,
+    .ds2-industry-title,
+    .ds2-empower-title,
+    .ds2-why-choose-title,
+    .ds2-testimonial-title,
+    .ds2-cities-title,
+    .ds2-premium-title,
+    .new_client_section-title,
+    .why-text-heading,
+    .faq-title {
+        font-size: 32px !important;
+        margin-bottom: 40px !important;
+        text-align: left !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .ds2-hero-textbox {
+        max-width: 100% !important;
+        text-align: left !important;
+    }
+
+    .ds2-hero-description {
+        font-size: 18px;
+        margin-bottom: 28px;
+    }
+
+    .ds2-hero-content-container {
+        padding: 40px 0 120px !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+
+    .ds2-carousel-controls,
+    .ds2-slider-dots {
+        display: none !important;
+    }
+
+    .ds2-premium-img-wrap {
+        min-height: 280px;
+        margin-top: 35px;
+    }
+
+    .ds2-premium-title,
+    .ds2-premium-desc {
+        text-align: left !important;
+    }
+
+    .ds2-industry-tabs-nav {
+        gap: 16px;
+        margin-bottom: 40px;
+    }
+
+    .ds2-industry-tab-btn {
+        font-size: 16px;
+    }
+
+    .ds2-industry-pane-img-wrap img {
+        height: 320px;
+        margin-bottom: 30px;
+    }
+
+    .ds2-empower-card-img-wrap {
+        height: 230px;
+    }
+
+    .ds2-why-choose-center-img-wrap {
+        min-height: 320px;
+        margin: 30px 0;
+    }
+
+    .ds2-testimonial-bg-text {
+        font-size: 80px;
+        bottom: -10px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    /* Horizontal Swiping Navigation Pills for Industries on Mobile */
+    .ds2-industry-tabs-nav {
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 12px !important;
+        gap: 20px !important;
+        margin-bottom: 35px !important;
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .ds2-industry-tabs-nav::-webkit-scrollbar {
+        display: none;
+        /* Chrome, Safari, Opera */
+    }
+
+    .ds2-industry-tab-btn {
+        white-space: nowrap !important;
+        font-size: 16px !important;
+    }
+
+    /* Make center image in why choose us stand out or size down */
+    .ds2-why-choose-center-img-wrap {
+        min-height: 260px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    /* Compress paddings on mobile screens */
+    .ds2-software-grid-section,
+    .ds2-premium-home-section,
+    .ds2-industry-section,
+    .ds2-empower-section,
+    .ds2-why-choose-section,
+    .ds2-projects-section,
+    .ds2-cities-section {
+        padding: 55px 10px !important;
+    }
+
+    .ds2-hero-title {
+        font-size: 28px;
+        line-height: 1.25;
+    }
+
+    .ds2-main-title,
+    .ds2-industry-title,
+    .ds2-empower-title,
+    .ds2-why-choose-title,
+    .ds2-testimonial-title,
+    .ds2-cities-title,
+    .ds2-premium-title,
+    .new_client_section-title,
+    .why-text-heading,
+    .faq-title {
+        font-size: 24px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .ds2-hero-description {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 24px;
+    }
+
+    .ds2-hero-wrapper,
+    .ds2-hero-carousel,
+    .ds2-hero-swiper,
+    .ds2-hero-swiper .swiper-wrapper,
+    .ds2-hero-swiper .swiper-slide {
+        min-height: 450px !important;
+        height: auto !important;
+    }
+
+    .ds2-hero-content-container {
+        padding: 60px 0 95px !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        min-height: 450px !important;
+    }
+
+    .ds2-btn-primary {
+        padding: 12px 24px;
+        font-size: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .ds2-pill-item {
+        padding: 8px 18px;
+        font-size: 13px;
+    }
+
+    .ds2-feature-card,
+    .ds2-empower-card-body,
+    .ds2-testimonial-card,
+    .ds2-city-card {
+        padding: 24px 20px 18px;
+    }
+
+    .ds2-project-card-content {
+        padding: 22px 18px 16px;
+    }
+
+    .ds2-why-card,
+    .ds2-why-choose-box {
+        padding: 20px 18px;
+    }
+
+    .ds2-industry-pane-img-wrap img {
+        height: 240px;
+        margin-bottom: 20px;
+    }
+
+    .ds2-industry-pane-title {
+        font-size: 22px;
+    }
+
+    .ds2-industry-pane-desc,
+    .ds2-industry-list li {
+        font-size: 16px;
+    }
+
+    .ds2-empower-card-img-wrap {
+        height: 180px;
+    }
+
+    .ds2-project-card-img-wrap {
+        height: 210px;
+    }
+
+    .ds2-why-choose-center-img-wrap {
+        min-height: 220px;
+        margin: 20px 0;
+    }
+
+    .ds2-testimonial-bg-text {
+        font-size: 55px;
+        bottom: -5px;
+    }
+
+    .ds2-city-card-svg {
+        margin-bottom: 20px;
+    }
+
+
+
+    .swiper-slide .ds2-testimonial-card {
+        padding: 20px !important;
+    }
+
+    .ds2-empower-subtitle {
+        text-align: left;
+    }
+
+
+}

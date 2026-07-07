@@ -10,6 +10,7 @@ Route::get('/', [frontendController::class, 'index'])->name('index');
 Route::get('/arcylic-signages', [frontendController::class, 'arcylic_signages'])->name('arcylic_signages');
 Route::get('/metal-signages', [frontendController::class, 'metal_signages'])->name('metal_signages');
 Route::get('/digital-signages', [frontendController::class, 'digital_signages'])->name('digital_signages');
+Route::get('/digital-signages-2', [frontendController::class, 'digital_signages_2'])->name('digital_signages_2');
 Route::get('/outdoor-signages', [frontendController::class, 'outdoor_signages'])->name('outdoor_signages');
 Route::get('/indoor-signages', [frontendController::class, 'indoor_signages'])->name('indoor_signages');
 Route::get('/neon-signages', [frontendController::class, 'neon_signages'])->name('neon_signages');
