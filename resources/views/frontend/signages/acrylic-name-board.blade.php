@@ -70,235 +70,34 @@
             <p>Our acrylic name boards blend modern aesthetics with lasting performance, ensuring your signage looks impeccable indoors and stands strong outdoor. With customizable fonts, colors, sizes, and mounting options,
                  Brand Signages makes it effortless to create a statement piece that elevates your space. From minimalist home entrances to high-impact retail storefronts, trust us to transform your name into a visual landmark.</p>
 
-        <div class="row g-4">
+       <div class="impact-gallery-grid mt-5">
+                @php
+                    $galleryItems = [
+                        ['img' => 'led-name-24', 'title' => 'Acrylic Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-name-27', 'title' => 'Acrylic Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-name-30', 'title' => 'Acrylic Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-name-31', 'title' => 'Led Acrylic Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-name-32', 'title' => 'Led Acrylic Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-name-33', 'title' => 'Led Acrylic Sign Board', 'class' => 'red-title'],
+                        ['img' => 'acrylic-name-1', 'title' => 'Led Acrylic Sign Board', 'class' => 'red-title'],
+                        ['img' => 'acrylic-name-4', 'title' => 'Led Acrylic Sign Board', 'class' => 'red-title'],
+                        ['img' => 'acrylic-name-5', 'title' => 'Led Acrylic Sign Board', 'class' => 'red-title'],
+                        ['img' => 'acrylic-name-6', 'title' => 'Led Acrylic Sign Board', 'class' => 'red-title'],
+                    ];
+                @endphp
 
-            <!-- Card 1 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-24.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Home- Khanna Bhawan">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Name Board for Home</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
-
+                @foreach ($galleryItems as $item)
+                    <div class="impact-card buy-now-btn" data-product="{{ $item['title'] }}" style="cursor: pointer;">
+                        <div class="impact-card-inner">
+                            <img src="/frontend/Images/name-boards/{{ $item['img'] }}.webp" alt="{{ $item['title'] }}"
+                                class="impact-image">
+                            <div class="impact-title-box">
+                                <span class="{{ $item['class'] ?? '' }}">{{ $item['title'] }}</span>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Name Board for Home (Price: ₹1,000 – ₹3,000)">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-25.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Home- Ahuja's Residence">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Name Board for Home</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹4,000 (15% Off)</p>
-
-                    </div>
-
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Name Board for Home (Price: ₹1,000 – ₹2,000)">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-26.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Home- Chandaranas Advocate Office">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Name Board for Door</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹8,000 – ₹4,500 (18% Off)</p>
-
-                    </div>
-
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Name Board for Door (Price: ₹8,000 – ₹2,500)">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-27.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Home- Mukund Villa">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Name Board for Door</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
-
-                    </div>
-
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Name Board for Door (Price: ₹1,000 – ₹3,000)">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 5 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-30.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Home- Round Shaped Board">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Name Board for Home</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹5,000 (20% Off)</p>
-
-                    </div>
-
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Name Board for Home (Price: ₹1,000 – ₹3,000)">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 6 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-31.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Office- Smith California">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Name Board for Door</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹900 – ₹4,500 (20% Off)</p>
-
-                    </div>
-
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Name Board for Door (Price: ₹900 – ₹2,500)">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 7 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-32.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Office- Royal Property">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Name Board for Office</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹4,000 (20% Off)</p>
-
-                    </div>
-
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Name Board for Office (Price: ₹1,000 – ₹3,000)">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 8 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/led-name-33.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Shop- NIMA Salon">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Shop Name Board</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹800 – ₹3,500 (18% Off)</p>
-
-                    </div>
-
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Shop Name Board (Price: ₹800 – ₹2,500)">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 5 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/acrylic-name-1.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Shop- Stella Salon">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Shop Nameplate</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹1,000 – ₹4,500 (18% Off)</p>
-
-                    </div>
-
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Shop Nameplate (Price: ₹2,000 – ₹7,500)">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 6 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/acrylic-name-4.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Office">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Name Board</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹3,000 – ₹12,000 (15% Off)</p>
-                    </div>
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Name Board for Office (Price: ₹3,000 – ₹12,000)">Buy Now</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Card 7 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/acrylic-name-5.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Shop- DS Makeup Studio">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Shop Name Board</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹4,000 – ₹15,000 (15% Off)</p>
-                    </div>
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Shop Name Board (Price: ₹4,000 – ₹15,000)">Buy Now</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Card 8 -->
-            <div class="col-lg-3 col-md-6 col-12">
-                <div class="card h-100 shadow-sm border-0 pb-5">
-                    <img src="{{ asset('/frontend/Images/name-boards/acrylic-name-6.webp') }}" class="card-img-topx"
-                        alt="Acrylic Name Board for Office- Goyal Group">
-                    <div class="card-body text-center">
-                        <h5 class="card-title fw-bold">Acrylic Office Nameplate</h5>
-
-                        <p class="mb-1 mt-0 fs-18 fw-bold text-black">₹3,000 – ₹12,000 (15% Off)</p>
-                    </div>
-                    <div class="text-center">
-                        <button class="contact-btn buy-now-btn"
-                            data-product="Acrylic Office Nameplate (Price: ₹3,000 – ₹12,000)">Buy Now</button>
-                    </div>
-
-                </div>
-            </div>
-
-        </div> <!-- row -->
-    </div> <!-- container --><br><br>
+                @endforeach
+            </div><br><br>
 
     <div class="text-center">
         <a href="/contact-us">
