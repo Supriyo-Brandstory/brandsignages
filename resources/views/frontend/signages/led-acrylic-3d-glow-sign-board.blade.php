@@ -79,8 +79,8 @@
                     href="metal-led-letters" style="color:#E43D12; text-decoration:none;"><b>metal channel letters</b></a>
                 with backlit glow, high-brightness <b>Led modules</b>,
                 and hybrid material options designed for businesses that want distinctive and high-impact signage.</p>
-            <!-- Product Impact Gallery Grid -->
-            <div class="impact-gallery-grid mt-5">
+            
+                <div class="impact-gallery-grid mt-5">
                 @php
                     $galleryItems = [
                         ['img' => 'led-1', 'title' => 'Outdoor Led Sign Board', 'class' => 'red-title'],
@@ -117,17 +117,14 @@
                         </div>
                     </div>
                 @endforeach
-            </div>
-
-        </div>
+            </div><br></br>
+           
         <div class="text-center">
             <a href="#pricing">
-                <button class="contact-btn">Check Pricing</button>
+                <button class="contact-btn">Size Specific Pricing</button>
             </a>
         </div>
     </section>
-
-
 
     <section class="led-signs-manufacturing">
         <div class="container pt-5">
@@ -199,14 +196,14 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="3d-led-acrylic-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-letters-mounted-on-acp-base-frame-2.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/3d-acrylic-led-name-board.webp') }}"
                                         class="card-img-center" alt="Acrylic LED Letters">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a href="3d-led-acrylic-letters">3D Acrylic
-                                                Led Letters</a></h5>
-                                        <p class="We-Elevate-Brands-text">Acrylic Led letters are a versatile choice for
-                                            Led sign board, offering bright illumination, sleek design, and durability.
-                                            Perfect for creating high-impact, attention-grabbing name board for any
+                                                LED Letters</a></h5>
+                                        <p class="We-Elevate-Brands-text">Acrylic LED letters are a versatile choice for
+                                            LED name boards, offering bright illumination, sleek design, and durability.
+                                            Perfect for creating high-impact, attention-grabbing name boards for any
                                             business.</p>
                                     </div>
                             </div>
@@ -215,15 +212,15 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="led-aluminum-channel-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/aluminum-channel-letters-acp-2.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/aluminum-led-name-board.webp') }}"
                                         class="card-img-center" alt="Aluminum LED Channel Letters">
                                     <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="led-aluminum-channel-letters">Aluminum
-                                                Led Letters</a></h5>
+                                        <h5 class="We-Elevate-Brands-title"><a
+                                                href="led-aluminum-channel-letters">Aluminum LED Letters</a></h5>
                                         <p class="We-Elevate-Brands-text">Aluminum channel letters offer a sleek, 3D design
-                                            with front-facing Led illumination. Customizable in black, gold, silver, or
-                                            multi-colour, they create premium, high-visibility signage for retail and
-                                            boutique businesses. </p>
+                                            with front-facing LED illumination. Customizable in black, gold, silver, or
+                                            multi-colour, they create premium, high-visibility name boards for retail
+                                            businesses. </p>
                                     </div>
                             </div>
                         </div>
@@ -231,13 +228,13 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="2d-stencil-cut-acrylic-led-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-letters-2.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/2d-stencil-cut-led-name-board.webp') }}"
                                         class="card-img-center" alt="2D Stencil Cut Sign Boards">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a
                                                 href="2d-stencil-cut-acrylic-led-letters">2D Stencil Cut Sign Board</a>
                                         </h5>
-                                        <p class="We-Elevate-Brands-text">2D stencil cut sign boards offer sleek, flush
+                                        <p class="We-Elevate-Brands-text">2D stencil cut name boards offer sleek, flush
                                             designs with hidden LED illumination, providing a cost-effective, professional,
                                             and
                                             customizable signage solution ideal for delicate fonts and minimalist branding.
@@ -249,15 +246,15 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="3d-crystal-led-letters" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-6.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/crystal-led-name-board.webp') }}"
                                         class="card-img-center" alt="3D Crystal LED Letters">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a href="3d-crystal-led-letters">3D Crystal
-                                                Led Letters</a></h5>
-                                        <p class="We-Elevate-Brands-text">3D Crystal Led Letters feature crystal-embedded
-                                            acrylic faces with backlit Led, deep 3D layering, and luxurious metallic
+                                                LED Letters</a></h5>
+                                        <p class="We-Elevate-Brands-text">3D Crystal LED Letters feature crystal-embedded
+                                            acrylic faces with backlit LEDs, deep 3D layering, and luxurious metallic
                                             finishes,
-                                            creating dazzling, high-visibility sign boards perfect for premium retail and
+                                            creating dazzling, high-visibility name boards perfect for premium retail and
                                             luxury brands.</p>
                                     </div>
                             </div>
@@ -269,10 +266,10 @@
                                     <img src="{{ asset('frontend/Images/led-sign-board/sky-sgn-board-2.webp') }}"
                                         class="card-img-center" alt="Sky LED Sign Boards">
                                     <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="sky-sign-boards">Sky Led Sign
+                                        <h5 class="We-Elevate-Brands-title"><a href="sky-sign-boards">Sky LED Sign
                                                 Boards</a></h5>
-                                        <p class="We-Elevate-Brands-text">Sky Led sign boards are large-format rooftop
-                                            signs with weather-resistant construction, IP67-rated Leds, and premium
+                                        <p class="We-Elevate-Brands-text">Sky LED sign boards are large-format rooftop
+                                            signs with weather-resistant construction, IP67-rated LEDs, and premium
                                             illumination. Designed for high-rise branding, they ensure long-distance
                                             visibility and strong corporate identity impact.</p>
                                     </div>
@@ -282,13 +279,13 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="led-dot-matrix-display" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/open-dot-led-sign-1.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/led-dot-matrix-display.webp') }}"
                                         class="card-img-center" alt="LED Dot Matrix Displays">
                                     <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="led-dot-matrix-display">Led Dot
+                                        <h5 class="We-Elevate-Brands-title"><a href="led-dot-matrix-display">LED Dot
                                                 Matrix Displays</a></h5>
-                                        <p class="We-Elevate-Brands-text">Led Dot Matrix Displays feature exposed,
-                                            high-intensity Leds for maximum brightness and contrast. With programmable RGB
+                                        <p class="We-Elevate-Brands-text">LED Dot Matrix Displays feature exposed,
+                                            high-intensity LEDs for maximum brightness and contrast. With programmable RGB
                                             effects and energy-efficient design, they deliver dynamic, attention-grabbing
                                             signage for commercial and retail spaces.</p>
                                     </div>
@@ -302,8 +299,8 @@
                                         class="card-img-center" alt="Outdoor Business Signages">
                                     <div class="card-body pt-0">
                                         <h5 class="We-Elevate-Brands-title"><a href="flexible-led-display-boards">Flexible
-                                                Led Displays</a></h5>
-                                        <p class="We-Elevate-Brands-text">Flexible Led Displays offer dynamic, programmable
+                                                LED Displays</a></h5>
+                                        <p class="We-Elevate-Brands-text">Flexible LED Displays offer dynamic, programmable
                                             messaging with high brightness and curved installation capability. Available
                                             in RGB or single-color, they allow real-time updates for indoor and outdoor
                                             branding applications.</p>
@@ -314,13 +311,13 @@
                         <div class="swiper-slide">
                             <div class="card We-Elevate-Brands-card ">
                                 <a href="neon-signages" style="text-decoration:none; color:inherit;">
-                                    <img src="{{ asset('frontend/Images/led-sign-board/neon-sign-board-4.webp') }}"
+                                    <img src="{{ asset('frontend/Images/led-sign-board/led-neon-name-board.webp') }}"
                                         class="card-img-center" alt="Neon LED Signs">
                                     <div class="card-body pt-0">
-                                        <h5 class="We-Elevate-Brands-title"><a href="neon-signages">Neon Led Signs</a>
+                                        <h5 class="We-Elevate-Brands-title"><a href="neon-signages">Neon LED Signs</a>
                                         </h5>
-                                        <p class="We-Elevate-Brands-text">Led Neon Sign Boards deliver vibrant, durable
-                                            signage with shatter-resistant Led ropes. Offering low power consumption and
+                                        <p class="We-Elevate-Brands-text">LED Neon Name Boards deliver vibrant, durable
+                                            name boards with shatter-resistant LED ropes. Offering low power consumption and
                                             vivid
                                             fluorescent colors, they provide a retro neon effect with modern efficiency and
                                             longevity.</p>
@@ -346,7 +343,7 @@
 
     <section id="pricing" class="pb-5">
         <div class="container py-lg-5 py-md-3 py-sm-2 py-3">
-            <h2 class="hero-title">Led Sign Board Size & Pricing <br>Explore Options</h2>
+            <h2 class="hero-title">Led Sign Board Pricing Based on <br>Size and Features</h2>
 
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">

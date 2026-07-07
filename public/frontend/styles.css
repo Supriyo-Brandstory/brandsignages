@@ -6915,4 +6915,7 @@ ul.brand-list {
                 gap: 0px;
             }
         }
-    
+        
+        .fs-18 {
+            font-size: 18px !important;
+        }

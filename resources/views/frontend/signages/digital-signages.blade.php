@@ -1,62 +1,61 @@
 @extends('frontend.layout.appLayout')
 @section('content')
-    <style>
-        
-    </style>
+    <section class="simple-impact-hero">
+        @php
+            $slides = [
+                [
+                    'img' => 'digital-signage-1',
+                    'title' => 'Digital Signages Designed for Brands That Demand Attention',
+                    'desc' =>
+                        'Built to outperform traditional displays, our digital signage systems deliver your message fresh and impossible to ignore.',
+                ],
+                [
+                    'img' => 'digital-signage-2',
+                    'title' => 'Digital Signage Engineered for Maximum Engagement',
+                    'desc' =>
+                        'Designed to captivate audiences, our digital signage solutions deliver dynamic content that drives real-time customer action.',
+                ],
+                [
+                    'img' => 'digital-signage-1',
+                    'title' => 'Smart Digital Display Boards Crafted for Real-Time Impact',
+                    'desc' =>
+                        'Designed with advanced motion and intelligence, our cloud-based digital signage captures attention at first glance.',
+                ],
+            ];
+        @endphp
 
-    <section class="hero-banner"
-        style="background-image: url('{{ asset('frontend/Images/digital-signages-banner.webp') }}'); ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="hero-banner_title">High-Impact Digital Signage <br>Displays- Electronic Signage</h1>
-                    <p>Brand Signages is a leading provider of digital signage and electronic <br>signage solutions. We design and deliver commercial displays, interactive <br>kiosks, and smart screens for all industries- PAN India delivery.
-                    </p>
-                    <a href="https://brandsignages.com/contact-us">
-                        <button class="contact-btn">Book a Demo Call</button>
-                    </a>
+        <div class="hero-slides-wrapper" id="heroSlider">
+            @foreach ($slides as $slide)
+                <div class="impact-slide {{ $loop->first ? 'active' : '' }}">
+                    <img src="/frontend/Images/digital-signage/{{ $slide['img'] }}.webp" alt="{{ $slide['title'] }}">
+
+                    <div class="hero-dark-overlay">
+                        <div class="container container-large">
+                            <div class="hero-content-final">
+                                <h1 class="hero-msg-title">{{ $slide['title'] }}</h1>
+                                <p class="hero-msg-desc">{{ $slide['desc'] }}</p>
+
+                                <div class="hero-msg-actions">
+                                    <a href="{{ route('contact_us') }}" class="btn-impact primary">
+                                        I am Interested <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                    <a href="{{ route('contact_us') }}" class="btn-impact secondary">
+                                        Get a Quote <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            @endforeach
+        </div>
+
+        <div class="hero-pagination-dots">
+            @foreach ($slides as $index => $slide)
+                <div class="dot {{ $index === 0 ? 'active' : '' }}" onclick="goToSlide({{ $index }})"></div>
+            @endforeach
         </div>
     </section>
-<section class="seo-marquee">
-    <div class="seo-marquee-wrapper">
-        <div class="seo-marquee-track">
-
-            <a href="/commercial-display" class="seo-marquee-item">Commercial Display</a>
-            <span class="seo-marquee-sep">*</span>
-
-            <a href="/touch-screen-kiosk" class="seo-marquee-item">Touch Screen Kiosk</a>
-            <span class="seo-marquee-sep">*</span>
-
-            <a href="/digital-standee-display" class="seo-marquee-item">Digital Standee</a>
-            <span class="seo-marquee-sep">*</span>
-
-            <a href="/display-video-wall" class="seo-marquee-item">Video Wall Display</a>
-            <span class="seo-marquee-sep">*</span>
-
-            <a href="/flat-panel-display" class="seo-marquee-item">Flat Panel Display</a>
-            <span class="seo-marquee-sep">*</span>
-
-            <!-- duplicate for seamless loop -->
-            <a href="/commercial-display" class="seo-marquee-item">Commercial Display</a>
-            <span class="seo-marquee-sep">*</span>
-
-            <a href="/touch-screen-kiosk" class="seo-marquee-item">Touch Screen Kiosk</a>
-            <span class="seo-marquee-sep">*</span>
-
-            <a href="/digital-standee-display" class="seo-marquee-item">Digital Standee</a>
-            <span class="seo-marquee-sep">*</span>
-
-            <a href="/display-video-wall" class="seo-marquee-item">Video Wall Display</a>
-            <span class="seo-marquee-sep">*</span>
-
-            <a href="/flat-panel-display" class="seo-marquee-item">Flat Panel Display</a>
-            <span class="seo-marquee-sep">*</span>
-
-        </div>
-    </div>
-</section>
 
 
     <section class="We-Elevate-Brands-section py-5">
@@ -1247,6 +1246,62 @@
                 },
                 speed: 600,
             });
+        });
+    </script>
+
+        <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slides = document.querySelectorAll('.impact-slide');
+            const dots = document.querySelectorAll('.dot');
+            let current = 0;
+            let slideInterval;
+
+            function showImpactSlide(n) {
+                slides[current].classList.remove('active');
+                dots[current].classList.remove('active');
+                current = (n + slides.length) % slides.length;
+                slides[current].classList.add('active');
+                dots[current].classList.add('active');
+            }
+
+            window.goToSlide = function(n) {
+                showImpactSlide(n);
+                resetInterval();
+            }
+
+            function nextImpactSlide() {
+                showImpactSlide(current + 1);
+            }
+
+            function resetInterval() {
+                clearInterval(slideInterval);
+                slideInterval = setInterval(nextImpactSlide, 5000);
+            }
+
+            resetInterval();
+        });
+    </script>
+
+
+    <script>
+        document.addEventListener('click', function(e) {
+            var button = e.target.closest('.buy-now-btn');
+            if (button) {
+                e.preventDefault();
+                var productInfo = button.getAttribute('data-product');
+
+                var modalEl = document.getElementById('globalContactPopup');
+                if (modalEl && typeof bootstrap !== 'undefined') {
+                    var myModal = bootstrap.Modal.getInstance(modalEl) || new bootstrap.Modal(modalEl);
+                    var messageField = document.querySelector(
+                        '#globalPopupForm textarea[name="message"]');
+                    if (messageField) {
+                        messageField.value = 'I am interested in ' + productInfo +
+                            '. Please provide more details.';
+                    }
+                    myModal.show();
+                }
+            }
         });
     </script>
 
