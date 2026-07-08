@@ -712,7 +712,7 @@
     background-color: #ffffff;
     border: 1px solid #e5e7eb;
     border-radius: 20px;
-    padding: 34px 30px;
+    padding: 20px 30px;
     margin-bottom: 24px;
     transition: var(--ds2-transition);
 }
@@ -749,15 +749,19 @@
 }
 
 .ds2-why-choose-center-img-wrap {
+    position: relative;
     width: 100%;
     height: 100%;
-    min-height: 520px;
-    border-radius: 24px;
+    min-height: 624px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
 }
 
 .ds2-why-choose-center-img-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -1112,7 +1116,7 @@
     }
 
     .ds2-premium-img-wrap {
-        min-height: 280px;
+        min-height: auto;
         margin-top: 35px;
     }
 
@@ -1247,12 +1251,6 @@
         font-size: 13px;
     }
 
-    .ds2-feature-card,
-    .ds2-empower-card-body,
-    .ds2-testimonial-card,
-    .ds2-city-card {
-        padding: 24px 20px 18px;
-    }
 
     .ds2-project-card-content {
         padding: 22px 18px 16px;
@@ -1309,5 +1307,36 @@
         text-align: left;
     }
 
+    .faq-section {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
 
+    .specialized-solutions-section {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .new_custom-heading {
+        text-align: left !important;
+    }
+
+    .ds2-software-grid-section.d {
+        .swiper-slide>div {
+            padding: unset !important;
+        }
+    }
+
+    .ds2-empower-card-title {
+        font-size: 20px;
+    }
+
+    .ds2-empower-card-text {
+        font-size: 18px;
+
+    }
+
+    .ds2-empower-card-body {
+        padding: 20px;
+    }
 }

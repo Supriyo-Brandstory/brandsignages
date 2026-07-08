@@ -20,7 +20,8 @@
                 
                 <!-- SLIDE 1 (Image: ds-1.webp) -->
                 <div class="swiper-slide">
-                    <div class="ds2-slide-bg" style="background-image: url('{{ asset('frontend/Images/ds-1.webp') }}');"></div>
+                    <div class="ds2-slide-bg d-none d-md-block" style="background-image: url('{{ asset('frontend/Images/ds-1.webp') }}');"></div>
+                    <div class="ds2-slide-bg d-block d-md-none" style="background-image: url('{{ asset('frontend/Images/ds-m-01.webp') }}');"></div>
                     <div class="ds2-slide-overlay"></div>
                     <div class="container ds2-hero-content-container">
                         <div class="ds2-hero-textbox">
@@ -39,7 +40,8 @@
 
                 <!-- SLIDE 2 (Image: ds-2.webp) -->
                 <div class="swiper-slide">
-                    <div class="ds2-slide-bg" style="background-image: url('{{ asset('frontend/Images/ds-2.webp') }}');"></div>
+                    <div class="ds2-slide-bg d-none d-md-block" style="background-image: url('{{ asset('frontend/Images/ds-2.webp') }}');"></div>
+                    <div class="ds2-slide-bg d-block d-md-none" style="background-image: url('{{ asset('frontend/Images/ds-m-02.webp') }}');"></div>
                     <div class="ds2-slide-overlay"></div>
                     <div class="container ds2-hero-content-container">
                         <div class="ds2-hero-textbox">
@@ -56,25 +58,7 @@
                     </div>
                 </div>
 
-                <!-- SLIDE 3 (Image: ds-3.webp) -->
-                <div class="swiper-slide">
-                    <div class="ds2-slide-bg" style="background-image: url('{{ asset('frontend/Images/ds-3.webp') }}');"></div>
-                    <div class="ds2-slide-overlay"></div>
-                    <div class="container ds2-hero-content-container">
-                        <div class="ds2-hero-textbox">
-                            <h1 class="ds2-hero-title">High-Impact Digital Signage Displays- Electronic Signage</h1>
-                            <p class="ds2-hero-description">
-                                Brand Signages is a leading provider of digital signage and electronic signage solutions. We design and deliver commercial displays, interactive kiosks, and smart screens for all industries- PAN India delivery.
-                            </p>
-                            <div>
-                                <a href="{{ route('contact_us') }}" class="ds2-btn-primary">
-                                    Book A Demo Call <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              
             </div>
 
             <!-- Carousel Arrow Controls -->
@@ -125,7 +109,7 @@
     </section>
 
     <!-- 2. Explore Commercial-Grade Digital Signages with Inbuilt Smart Software (3-Card Carousel Slider) -->
-    <section class="ds2-software-grid-section">
+    <section class="ds2-software-grid-section d">
         <div class="container">
             <h2 class="ds2-main-title">Explore Commercial-Grade Digital Signages with Inbuilt Smart Software</h2>
 
@@ -568,7 +552,8 @@
                 <!-- Center Column: ds-13.webp -->
                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                     <div class="ds2-why-choose-center-img-wrap">
-                        <img src="{{ asset('frontend/Images/ds-13.webp') }}" alt="Why Choose Us for Digital Signages">
+                        <img src="{{ asset('frontend/Images/ds-13.webp') }}" alt="Why Choose Us for Digital Signages" class="d-none d-md-block">
+                        <img src="{{ asset('frontend/Images/ds-m-13.webp') }}" alt="Why Choose Us for Digital Signages" class="d-block d-md-none">
                     </div>
                 </div>
 
@@ -1023,11 +1008,11 @@
             </div>
         </div>
     </section>
-    <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
+    <section class="why-bg-light-pink py-5 px-3" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Digital Signage</h2>
-                <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the digital
+                <p class="card-text text-start text-md-center ">Explore the latest trends, tips, and expert insights in the digital
                     signage
                     through our articles.</p>
 
