@@ -1218,7 +1218,7 @@
     }
 
     .ds2-hero-description {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 1.6;
         margin-bottom: 24px;
     }
@@ -1331,7 +1331,9 @@
         font-size: 20px;
     }
 
-    .ds2-empower-card-text {
+    .ds2-empower-card-text,
+    .ds2-premium-desc,
+    .ds2-empower-subtitle {
         font-size: 18px;
 
     }
