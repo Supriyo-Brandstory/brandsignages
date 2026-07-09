@@ -11,9 +11,9 @@
                 ],
                 [
                     'img' => 'led-banner-n',
-                    'title' => 'Led Name Board for Shops, Offices & Commercial Spaces',
+                    'title' => 'Led Light Board for Shops, Offices & Commercial Spaces',
                     'desc' =>
-                        'Our Led sign board deliver sharp brightness and lettering, making them perfect for shops, offices, clinics, and commercial spaces.',
+                        'Our Led light board deliver sharp brightness and lettering, making them perfect for shops, offices, clinics, and commercial spaces.',
                 ],
                 [
                     'img' => 'led-banner-n2',
@@ -84,7 +84,7 @@
                 @php
                     $galleryItems = [
                         ['img' => 'led-1', 'title' => 'Outdoor Led Sign Board', 'class' => 'red-title'],
-                        ['img' => 'led-2', 'title' => 'Outdoor Led Sign Board', 'class' => 'red-title'],
+                        ['img' => 'led-2', 'title' => 'Led Light Board', 'class' => 'red-title'],
                         ['img' => 'led-3', 'title' => 'Outdoor Led Sign Board', 'class' => 'red-title'],
                         ['img' => 'led-4', 'title' => 'Led Sign Board', 'class' => 'red-title'],
                         ['img' => 'led-5', 'title' => 'Led Sign Board', 'class' => 'red-title'],
@@ -96,7 +96,7 @@
                         ['img' => 'led-11', 'title' => 'Led Business Name Board', 'class' => 'red-title'],
                         ['img' => 'led-12', 'title' => 'Outdoor Led Sign board', 'class' => 'red-title'],
                         ['img' => 'led-13', 'title' => 'Outdoor Led Sign board', 'class' => 'red-title'],
-                        ['img' => 'led-14', 'title' => 'Led Shop Name Board', 'class' => 'red-title'],
+                        ['img' => 'led-14', 'title' => 'Led Light Board', 'class' => 'red-title'],
                         ['img' => 'led-15', 'title' => 'Led Shop Name Board', 'class' => 'red-title'],
                         ['img' => 'led-16', 'title' => 'Led Sign Board', 'class' => 'red-title'],
                         ['img' => 'led-17', 'title' => 'Led Sign Board', 'class' => 'red-title'],
@@ -138,7 +138,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <h2 class="hero-title text-start">Custom Led Sign Board: Built for Premium Impact & Style</h2>
+                    <h2 class="hero-title text-start">Custom Led Light Board: Built for Premium Impact & Style</h2>
                     <p class="brand-description">
                         Led sign board is the most powerful branding element for modern businesses delivering high
                         visibility, energy efficiency, and premium appeal. Over the years, Led signage has evolved into a
@@ -154,7 +154,7 @@
                             href="name-board-designs-for-shops-bangalore"
                             style="color:#E43D12; text-decoration:none;"><strong>clinics</strong></a>, and franchise chains
                         across India.
-                        Today in 2025, Led sign board continue to redefine how businesses stand out offering customization
+                        Today in 2025, Led board continue to redefine how businesses stand out offering customization
                         and tech-driven illumination.
                     </p>
                     <ul class="brand-list">
@@ -186,7 +186,7 @@
     <section class="We-Elevate-Brands-section py-5">
         <div class="container">
             <div class="text-center mb-4">
-                <h2 class="We-Elevate-Brands-heading fw-bold">Material Options for<br>Exclusive Led Sign Board</h2>
+                <h2 class="We-Elevate-Brands-heading fw-bold">Material Options for<br>Exclusive Led Boards</h2>
             </div>
 
             <div class="position-relative">
