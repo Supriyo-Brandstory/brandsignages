@@ -138,6 +138,12 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.hospital-signages', compact('seo'));
     }
+    public function hospital_signages_2()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.hospital-signages-2', compact('seo'));
+    }
     public function restaurant_signages()
     {
         $currentRoute = Route::current()->uri();
