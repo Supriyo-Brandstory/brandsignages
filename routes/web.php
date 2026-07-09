@@ -58,7 +58,6 @@ Route::get('/name-board-designs-for-shops-bangalore', [frontendController::class
 Route::get('/name-board-design-for-office-bangalore', [frontendController::class, 'name_board_office_bangalore'])->name('name_board_office_bangalore');
 Route::get('/name-board-design-bangalore', [frontendController::class, 'board_design_bangalore'])->name('board_design_bangalore');
 Route::get('/sign-board-design-bangalore', [frontendController::class, 'sign_board_design_bangalore'])->name('sign_board_design_bangalore');
-Route::get('/led-name-board-design', [frontendController::class, 'led_name_board_design'])->name('led_name_board_design');
 Route::get('/doctor-name-board-design', [frontendController::class, 'doctor_name_board_design'])->name('doctor_name_board_design');
 Route::get('/acrylic-name-board', [frontendController::class, 'acrylic_name_board'])->name('acrylic_name_board');
 Route::get('/company-name-board', [frontendController::class, 'company_name_board'])->name('company_name_board');
