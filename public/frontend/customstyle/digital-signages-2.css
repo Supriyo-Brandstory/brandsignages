@@ -1228,14 +1228,14 @@
     .ds2-hero-swiper,
     .ds2-hero-swiper .swiper-wrapper,
     .ds2-hero-swiper .swiper-slide {
-        min-height: 450px !important;
+        min-height: 500px !important;
         height: auto !important;
     }
 
     .ds2-hero-content-container {
         padding: 60px 0 95px !important;
         justify-content: flex-start !important;
-        align-items: flex-start !important;
+        align-items: center !important;
         min-height: 450px !important;
     }
 
@@ -1308,8 +1308,8 @@
     }
 
     .faq-section {
-        padding-left: 30px !important;
-        padding-right: 30px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 
     .specialized-solutions-section {
@@ -1340,5 +1340,90 @@
 
     .ds2-empower-card-body {
         padding: 20px;
+    }
+
+    .ds2-testimonial-section {
+        padding: 70px 5px 70px;
+
+    }
+}
+
+
+.hs2-body-text-block {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #212121;
+    font-family: var(--ds2-font-body);
+}
+
+.hs2-img-container {
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    height: 100%;
+    min-height: 380px;
+}
+
+.hs2-img-fit {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.hs2-use-slider {
+    padding-bottom: 50px !important;
+}
+
+.hs2-use-card {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    max-height: max-content;
+}
+
+.hs2-use-card-text {
+    margin-bottom: 10px;
+}
+
+.hs2-use-card-title {
+    color: var(--ds2-brand-primary);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+
+.hs2-use-img-wrap {
+    border-radius: 16px;
+    overflow: hidden;
+    max-height: 380px;
+}
+
+.cardcontent {
+    position: relative;
+    padding: 30px 30px 0px 30px;
+}
+
+.ds2-page-wrapper.hs-2wrapper {
+
+    .ds2-hero-wrapper,
+    .ds2-hero-carousel,
+    .ds2-hero-swiper,
+    .ds2-hero-swiper .swiper-wrapper,
+    .ds2-hero-swiper .swiper-slide {
+        min-height: 460px !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width:768px) {
+    .hs2-body-text-block {
+        font-size: 18px;
+    }
+
+    .hs2-img-container {
+        min-height: auto;
     }
 }

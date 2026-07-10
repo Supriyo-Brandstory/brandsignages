@@ -16,7 +16,7 @@ Route::get('/indoor-signages', [frontendController::class, 'indoor_signages'])->
 Route::get('/neon-signages', [frontendController::class, 'neon_signages'])->name('neon_signages');
 Route::get('/led-light-signages', [frontendController::class, 'led_signages'])->name('led_signages');
 Route::get('/hospital-signages', [frontendController::class, 'hospital_signages'])->name('hospital_signages');
-Route::get('/hospital-signages-2', [frontendController::class, 'hospital_signages_2'])->name('hospital_signages_2');
+// Route::get('/hospital-signages-2', [frontendController::class, 'hospital_signages_2'])->name('hospital_signages_2');
 Route::get('/restaurant-signages', [frontendController::class, 'restaurant_signages'])->name('restaurant_signages');
 Route::get('/construction-safety-signages', [frontendController::class, 'construction_safety_signages'])->name('construction_safety_signages');
 Route::get('/office-signages', [frontendController::class, 'office_signages'])->name('office_signages');

@@ -1008,7 +1008,7 @@
             </div>
         </div>
     </section>
-    <section class="why-bg-light-pink py-5 px-3" style="background-color: #ffffff;">
+    <section class="why-bg-light-pink py-5 px-2" style="background-color: #ffffff;">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Digital Signage</h2>
