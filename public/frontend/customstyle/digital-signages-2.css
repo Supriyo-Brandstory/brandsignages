@@ -12,8 +12,8 @@
     --ds2-text-muted: rgba(255, 255, 255, 0.75);
     --ds2-pill-bg: rgba(35, 16, 12, 0.85);
     --ds2-pill-border: rgba(255, 255, 255, 0.16);
-    --ds2-font-heading: 'Playfair Display', Georgia, serif;
-    --ds2-font-body: 'Inter', system-ui, -apple-system, sans-serif;
+    --ds2-font-heading: 'Lora', Georgia, serif;
+    --ds2-font-body: 'Roboto', system-ui, -apple-system, sans-serif;
     --ds2-transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -116,8 +116,8 @@
 
 .ds2-hero-title {
     font-family: var(--ds2-font-heading);
-    font-size: 52px;
-    font-weight: 600;
+    font-size: 47px;
+    font-weight: 700;
     line-height: 1.18;
     color: #ffffff;
     margin-bottom: 22px;
