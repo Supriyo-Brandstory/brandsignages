@@ -1,0 +1,1272 @@
+/* ================================================================
+   NEON SIGN CONFIGURATOR — neon-signages-2.css
+   Namespace: ncfg-
+   All fonts loaded via Google Fonts in the blade template
+   ================================================================ */
+
+/* ----------------------------------------------------------------
+   SECTION WRAPPER
+   ---------------------------------------------------------------- */
+.ncfg-section {
+    background: #0a0a0a;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-bottom: 1px solid #e2e8f0;
+
+}
+
+.ncfg-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* ----------------------------------------------------------------
+   LAYOUT: LEFT preview | RIGHT configurator
+   ---------------------------------------------------------------- */
+.ncfg-layout {
+    display: flex;
+    min-height: 620px;
+}
+
+/* ----------------------------------------------------------------
+   LEFT — Preview Panel
+   ---------------------------------------------------------------- */
+.ncfg-preview-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    position: sticky;
+    top: 80px;
+    /* Offset to keep below header if any */
+    align-self: flex-start;
+    height: calc(100vh - 80px);
+}
+
+.ncfg-preview-box {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ncfg-preview-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.32) saturate(0.6);
+}
+
+.ncfg-preview-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.55) 100%);
+    z-index: 1;
+}
+
+.ncfg-neon-text-wrap {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+.ncfg-neon-text {
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(36px, 6vw, 72px);
+    color: #ffffff;
+    text-shadow:
+        0 0 3px rgba(255, 255, 255, 1),
+        0 0 8px rgba(255, 255, 255, 0.7),
+        0 0 15px rgba(255, 255, 255, 0.4);
+    line-height: 1.25;
+    transition: color 0.35s ease, text-shadow 0.35s ease, font-family 0.15s ease;
+    word-break: break-word;
+    max-width: 90%;
+    display: block;
+}
+
+/* Preview label below the image */
+.ncfg-preview-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    background: #111;
+    border-top: 1px solid #222;
+}
+
+.ncfg-preview-tag {
+    font-size: 13px;
+    font-weight: 600;
+    color: #E43D12;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.ncfg-preview-note {
+    font-size: 11px;
+    color: #555;
+}
+
+/* ----------------------------------------------------------------
+   RIGHT — Configurator Panel
+   ---------------------------------------------------------------- */
+.ncfg-config-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    background: #fff;
+    overflow-y: auto;
+}
+
+.ncfg-config-inner {
+    padding: 36px 40px 48px;
+}
+
+/* Header */
+.ncfg-config-header {
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.ncfg-config-title {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 47px;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 10px;
+    line-height: 1.25;
+}
+
+.ncfg-rating-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ncfg-stars {
+    color: #f59e0b;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.ncfg-review-count {
+    font-size: 14px;
+    color: #555;
+    font-weight: 500;
+}
+
+/* ----------------------------------------------------------------
+   FIELD GROUPS
+   ---------------------------------------------------------------- */
+.ncfg-field-group {
+    margin-bottom: 24px;
+}
+
+.ncfg-label {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Text input */
+.ncfg-text-input {
+    width: 100%;
+    padding: 13px 16px;
+    font-size: 16px;
+    font-family: 'Outfit', system-ui, sans-serif;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fafafa;
+    color: #111;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.ncfg-text-input:focus {
+    border-color: #E43D12;
+    box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.12);
+    background: #fff;
+}
+
+/* ----------------------------------------------------------------
+   FONT GRID — 27 fonts, 3 columns, scrollable
+   ---------------------------------------------------------------- */
+.ncfg-font-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+    max-height: 280px;
+    overflow-y: auto;
+    padding-right: 4px;
+    scrollbar-width: thin;
+    scrollbar-color: #c4b5fd #f8f8ff;
+}
+
+.ncfg-font-grid::-webkit-scrollbar {
+    width: 5px;
+}
+
+.ncfg-font-grid::-webkit-scrollbar-track {
+    background: #f8f8ff;
+    border-radius: 10px;
+}
+
+.ncfg-font-grid::-webkit-scrollbar-thumb {
+    background: #c4b5fd;
+    border-radius: 10px;
+}
+
+.ncfg-font-btn {
+    padding: 9px 6px;
+    background: #fff;
+    border: 1.5px solid #e5e5e5;
+    border-radius: 7px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.18s ease;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.3;
+    min-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ncfg-font-btn:hover {
+    border-color: #E43D12;
+    background: #f5f0ff;
+    color: #E43D12;
+    transform: translateY(-1px);
+}
+
+.ncfg-font-btn.active {
+    background: #E43D12;
+    border-color: #E43D12;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.30);
+}
+
+/* ----------------------------------------------------------------
+   COLOUR ROW
+   ---------------------------------------------------------------- */
+.ncfg-colour-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.ncfg-colour-btn {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2.5px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 0;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+}
+
+.ncfg-colour-btn:hover {
+    transform: scale(1.15);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.28);
+}
+
+.ncfg-colour-btn.active {
+    border-color: #111;
+    transform: scale(1.22);
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12), 0 4px 16px rgba(0, 0, 0, 0.28);
+}
+
+.ncfg-colour-btn[data-colour="#ffffff"] {
+    border-color: #ccc;
+}
+
+.ncfg-colour-btn[data-colour="#ffffff"].active {
+    border-color: #555;
+}
+
+/* ----------------------------------------------------------------
+   SIZE GRID
+   ---------------------------------------------------------------- */
+.ncfg-size-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.ncfg-size-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 8px;
+    background: #fff;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    gap: 2px;
+    text-align: center;
+}
+
+.ncfg-size-btn:hover {
+    border-color: #E43D12;
+    background: #f5f0ff;
+}
+
+.ncfg-size-btn.active {
+    background: #E43D12;
+    border-color: #E43D12;
+    box-shadow: 0 2px 12px rgba(124, 58, 237, 0.30);
+}
+
+.ncfg-size-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #222;
+    font-family: 'Outfit', sans-serif;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.ncfg-size-btn.active .ncfg-size-name {
+    color: #fff;
+}
+
+.ncfg-size-dim {
+    font-size: 12px;
+    color: #777;
+    display: block;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.4;
+}
+
+.ncfg-size-btn.active .ncfg-size-dim {
+    color: rgba(255, 255, 255, 0.82);
+}
+
+/* ----------------------------------------------------------------
+   ADD-ONS GRID
+   ---------------------------------------------------------------- */
+.ncfg-addons-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.ncfg-addon-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 14px 16px;
+    background: #fafafa;
+    border: 1.5px solid #e5e5e5;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.ncfg-addon-item:hover {
+    border-color: #E43D12;
+    background: #f5f0ff;
+}
+
+.ncfg-addon-item.selected {
+    background: #f0ebff;
+    border-color: #E43D12;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.18);
+}
+
+.ncfg-addon-check {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+}
+
+.ncfg-addon-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.ncfg-addon-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    background: #ede9fe;
+    color: #E43D12;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+    transition: background 0.2s, color 0.2s;
+}
+
+.ncfg-addon-item.selected .ncfg-addon-icon {
+    background: #E43D12;
+    color: #fff;
+}
+
+.ncfg-addon-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.3;
+}
+
+.ncfg-addon-item.selected .ncfg-addon-name {
+    color: #E43D12;
+}
+
+.ncfg-addon-tick {
+    font-size: 18px;
+    color: #ccc;
+    flex-shrink: 0;
+    transition: color 0.2s;
+}
+
+.ncfg-addon-item.selected .ncfg-addon-tick {
+    color: #E43D12;
+}
+
+/* ----------------------------------------------------------------
+   DIVIDER + SUMMARY
+   ---------------------------------------------------------------- */
+.ncfg-divider {
+    border: none;
+    border-top: 1px solid #f0f0f0;
+    margin: 20px 0;
+}
+
+.ncfg-summary-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    background: #f8f8ff;
+    border-radius: 8px;
+    border: 1px solid #ede9fe;
+}
+
+.ncfg-summary-label {
+    font-size: 16px;
+    font-weight: 700;
+    color: #E43D12;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-top: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ncfg-summary-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------------------------------------------------------------
+   CTA BUTTONS
+   ---------------------------------------------------------------- */
+.ncfg-cta-wrap {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+}
+
+.ncfg-btn-quote {
+    flex: 1;
+    min-width: 180px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 15px 24px;
+    background: #E43D12;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    letter-spacing: 0.3px;
+    border: none;
+}
+
+.ncfg-btn-quote:hover {
+    background: #ec3e13;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px #e43c1278;
+}
+
+.ncfg-btn-whatsapp {
+    flex: 1;
+    min-width: 180px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 15px 24px;
+    background: #25d366;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    letter-spacing: 0.3px;
+}
+
+.ncfg-btn-whatsapp:hover {
+    background: #128c4a;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(37, 211, 102, 0.40);
+}
+
+/* Own logo note */
+.ncfg-own-logo-note {
+    font-size: 13px;
+    color: #777;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 12px 16px;
+    background: #fafafa;
+}
+
+.ncfg-own-logo-note i {
+    color: #E43D12;
+}
+
+.ncfg-own-logo-link {
+    font-weight: 700;
+    color: #25d366;
+    text-decoration: none;
+}
+
+.ncfg-own-logo-link:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------------------------
+   RESPONSIVE
+   ---------------------------------------------------------------- */
+@media (max-width: 991.98px) {
+    .ncfg-layout {
+        flex-direction: column;
+    }
+
+    .ncfg-preview-col {
+        flex: none;
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+
+    .ncfg-preview-box {
+        min-height: 300px;
+    }
+
+    .ncfg-config-col {
+        flex: none;
+        max-width: 100%;
+        width: 100%;
+        overflow-y: visible;
+    }
+
+    .ncfg-config-inner {
+        padding: 28px 24px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .ncfg-preview-box {
+        min-height: 240px;
+    }
+
+    .ncfg-neon-text {
+        font-size: 50px;
+    }
+
+    .ncfg-config-inner {
+        padding: 20px 16px;
+    }
+
+    .ncfg-config-title {
+        font-size: 22px;
+    }
+
+    .ncfg-font-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-height: 240px;
+    }
+
+    .ncfg-addons-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ncfg-cta-wrap {
+        flex-direction: column;
+    }
+
+    .ncfg-btn-quote,
+    .ncfg-btn-whatsapp {
+        min-width: unset;
+        width: 100%;
+    }
+}
+
+
+/* ================================================================
+   NEON REVIEWS SECTION (nr-) — Light Masonry / Grid Style
+   ================================================================ */
+.nr-section {
+    background: #ffffff;
+    color: #1a1a1a;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Header summary panel */
+.nr-header-panel {
+    background: #fafafa;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.nr-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.nr-stars-main {
+    color: #E43D12;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.nr-based-on {
+    color: #64748b;
+    font-size: 16px;
+}
+
+/* Statistics list (bars) */
+.nr-stats-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nr-stat-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.nr-stars-mini {
+    color: #E43D12;
+    font-size: 11px;
+    width: 75px;
+    display: flex;
+    gap: 1px;
+}
+
+.nr-bar-wrap {
+    flex: 1;
+    height: 8px;
+    background: #e2e8f0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.nr-bar-fill {
+    height: 100%;
+    background: #fbbf24;
+    border-radius: 4px;
+}
+
+.nr-stat-percent {
+    width: 32px;
+    text-align: right;
+    color: #475569;
+}
+
+.nr-stat-count {
+    width: 36px;
+    color: #94a3b8;
+}
+
+/* Photo attach grid */
+.nr-photos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.nr-photo-item {
+    width: 52px;
+    height: 52px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+}
+
+.nr-photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nr-photo-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f5f9;
+    color: #E43D12;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px dashed #94a3b8;
+}
+
+/* Filter / sorting */
+.nr-filter-row {
+    border-top: 1px solid #e2e8f0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nr-sort-btn {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.nr-sort-btn:hover {
+    background: #f8fafc;
+    border-color: #94a3b8;
+}
+
+/* Masonry grid cards */
+.nr-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.nr-card:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+}
+
+.nr-card-media {
+    margin: -24px -24px 20px -24px;
+    overflow: hidden;
+}
+
+.nr-card-media img {
+    width: 100%;
+    display: block;
+    height: auto;
+    object-fit: cover;
+    max-height: 480px;
+}
+
+.nr-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.nr-username {
+    font-weight: 600;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+
+.nr-stars-card {
+    color: #E43D12;
+    font-size: 12px;
+    display: flex;
+    gap: 1px;
+}
+
+.nr-review-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 10px 0;
+}
+
+.nr-review-desc {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #475569;
+    margin-bottom: 12px;
+}
+
+.nr-readmore {
+    font-size: 16px;
+    color: #64748b;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nr-readmore:hover {
+    color: #E43D12;
+}
+
+/* Load more button */
+.nr-loadmore-btn {
+    background: transparent;
+    border: 1px solid #cbd5e1;
+    color: #1a1a1a;
+    padding: 12px 32px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.nr-loadmore-btn:hover {
+    background: #f8fafc;
+    border-color: #94a3b8;
+}
+
+@media (max-width: 767.98px) {
+    .nr-header-panel {
+        padding: 24px;
+    }
+
+    .nr-photos-grid {
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+}
+
+/* Lightbox Modal */
+.nr-modal {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.92);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nr-modal-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 100000;
+    transition: color 0.2s;
+}
+
+.nr-modal-close:hover {
+    color: #E43D12;
+}
+
+.nr-modal-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 20px;
+    z-index: 100000;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.nr-modal-btn:hover {
+    color: #E43D12;
+    transform: scale(1.1);
+}
+
+.nr-modal-content-wrap {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.nr-modal-img {
+    max-width: 100%;
+    max-height: 85vh;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    object-fit: contain;
+}
+
+@media (max-width: 575.98px) {
+    .nr-modal-btn {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .nr-modal-content-wrap {
+        max-width: 90%;
+    }
+}
+
+/* ================================================================
+   NEON PRODUCT DETAILS & INCLUSIONS SECTION (npd-) — White Theme
+   ================================================================ */
+.npd-section.npd-white-theme {
+    background-color: #ffffff;
+    color: #1a1a1a;
+
+}
+
+/* 1. Navigation Tab Bar */
+.npd-white-theme .npd-nav-wrapper {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.npd-white-theme .npd-nav-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    gap: 12px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.npd-white-theme .npd-nav-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.npd-white-theme .npd-tab-btn {
+    background: transparent;
+    border: 1px solid #e2e8f0;
+    color: #64748b;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.npd-white-theme .npd-tab-btn:hover {
+    color: #E43D12;
+    border-color: #E43D12;
+    background-color: #fff5f2;
+}
+
+.npd-white-theme .npd-tab-btn.active {
+    background-color: #E43D12;
+    color: #ffffff !important;
+    border-color: #E43D12;
+    box-shadow: 0 4px 14px rgba(228, 61, 18, 0.3);
+}
+
+/* 2. Tab Panes Switching */
+.npd-tab-pane {
+    display: none;
+}
+
+.npd-tab-pane.active {
+    display: block;
+    animation: npdFadeIn 0.35s ease-in-out;
+}
+
+@keyframes npdFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 3. Text Styles & Divider */
+.npd-white-theme .npd-green-title {
+    color: #1a1a1a;
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-family: 'Lora', Georgia, serif;
+    line-height: 1.3;
+}
+
+.npd-white-theme .npd-sub-text {
+    color: #475569;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.65;
+    max-width: 960px;
+}
+
+/* 4. Card Box (Meet 2nd Gen LED Neon) */
+.npd-white-theme .npd-card-box {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+    padding: 36px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.npd-white-theme .npd-led-strip-wrap {
+    background: radial-gradient(circle at center, rgba(228, 61, 18, 0.12) 0%, transparent 70%);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.npd-white-theme .npd-card-title {
+    color: #0f172a;
+    font-family: 'Lora', Georgia, serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    line-height: 1.35;
+}
+
+.npd-white-theme .npd-card-desc {
+    color: #475569;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+.npd-white-theme .npd-card-desc.highlight {
+    color: #E43D12;
+    font-weight: 500;
+}
+
+/* 5. The Box Contains (Image Container) */
+.npd-box-image-wrap {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.npd-box-img {
+    width: 100%;
+    max-width: 70%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 16px;
+    /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12); */
+}
+
+/* 6. Installation Step Cards */
+.npd-install-step-card {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 28px 24px;
+    height: 100%;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.npd-install-step-card:hover {
+    transform: translateY(-4px);
+    border-color: #E43D12;
+}
+
+.npd-install-step-card .step-num {
+    font-size: 32px;
+    font-weight: 800;
+    color: #E43D12;
+    margin-bottom: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.npd-install-step-card h4 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.npd-install-step-card p {
+    color: #64748b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Buttons in Customise Tab */
+.npd-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 28px;
+    background-color: #E43D12;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.npd-btn-primary:hover {
+    background-color: #c8320b;
+    color: #ffffff;
+}
+
+.npd-btn-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 28px;
+    background-color: #25d366;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.npd-btn-whatsapp:hover {
+    background-color: #1eb757;
+    color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+    .npd-diagram-wrapper {
+        min-height: auto;
+    }
+
+    .npd-callout {
+        position: static;
+        margin-bottom: 12px;
+    }
+
+    .callout-line {
+        display: none;
+    }
+
+    .npd-diagram-accessories {
+        position: static;
+        margin-top: 30px;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .npd-diagram-bottom-row {
+        padding-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .npd-wire-line {
+        display: none;
+    }
+
+    .npd-white-theme .npd-card-box {
+        padding: 24px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .npd-white-theme .npd-tab-btn {
+        font-size: 13px;
+        padding: 8px 16px;
+    }
+
+    .npd-white-theme .npd-green-title {
+        font-size: 18px;
+    }
+
+    .npd-white-theme .npd-card-title {
+        font-size: 18px;
+    }
+
+    .npd-white-theme .npd-led-strip-wrap {
+        padding: 0;
+    }
+}
