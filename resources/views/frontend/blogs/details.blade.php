@@ -295,10 +295,8 @@
             border-collapse: collapse !important;
             margin: 28px 0 !important;
             background-color: #ffffff !important;
-            border: 1.5px solid #94a3b8 !important;
-            border-radius: 8px !important;
-            overflow: hidden !important;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06) !important;
+            border: 1px solid #000000 !important;
+            box-shadow: none !important;
         }
 
         .blog-content table th,
@@ -306,9 +304,9 @@
             padding: 14px 18px !important;
             text-align: left !important;
             font-size: 16px !important;
-            color: #1e293b !important;
+            color: #000000 !important;
             line-height: 1.6 !important;
-            border: 1px solid #cbd5e1 !important;
+            border: 1px solid #000000 !important;
             vertical-align: middle !important;
         }
 
