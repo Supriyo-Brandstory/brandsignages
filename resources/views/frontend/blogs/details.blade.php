@@ -292,10 +292,13 @@
         .blog-content table {
             width: 100% !important;
             max-width: 100% !important;
-            border-collapse: collapse !important;
+            border-collapse: separate !important;
+            border-spacing: 0 !important;
             margin: 28px 0 !important;
             background-color: #ffffff !important;
             border: 1px solid #000000 !important;
+            border-radius: 12px !important;
+            overflow: hidden !important;
             box-shadow: none !important;
         }
 
@@ -306,8 +309,19 @@
             font-size: 16px !important;
             color: #000000 !important;
             line-height: 1.6 !important;
-            border: 1px solid #000000 !important;
+            border-bottom: 1px solid #000000 !important;
+            border-right: 1px solid #000000 !important;
             vertical-align: middle !important;
+        }
+
+        .blog-content table tr:last-child td,
+        .blog-content table tr:last-child th {
+            border-bottom: none !important;
+        }
+
+        .blog-content table th:last-child,
+        .blog-content table td:last-child {
+            border-right: none !important;
         }
 
         .blog-content table th,
