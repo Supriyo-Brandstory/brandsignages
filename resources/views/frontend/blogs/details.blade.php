@@ -225,13 +225,18 @@
                         t.classList.toggle('active', i === swiperMainMobile.activeIndex);
             }
 
-            // Ensure all tables in blog content are full-width
+            // Ensure all tables in blog content are responsive with table-only horizontal scroll
             document.querySelectorAll('.blog-content table').forEach(function(table) {
                 table.removeAttribute('width');
-                table.style.width = '100%';
                 table.querySelectorAll('td, th').forEach(function(cell) {
                     cell.removeAttribute('width');
                 });
+                if (!table.parentElement.classList.contains('blog-table-responsive')) {
+                    var wrapper = document.createElement('div');
+                    wrapper.className = 'blog-table-responsive';
+                    table.parentNode.insertBefore(wrapper, table);
+                    wrapper.appendChild(table);
+                }
             });
         });
     </script>
@@ -284,17 +289,24 @@
 
         article.blog-content {
             margin-top: 10px;
-            padding: 10PX;
-            overflow-x: auto;
+            padding: 10px;
+        }
+
+        /* Responsive Scroll Container FOR TABLES ONLY */
+        .blog-table-responsive {
+            width: 100% !important;
+            overflow-x: auto !important;
+            -webkit-overflow-scrolling: touch !important;
+            margin: 24px 0 !important;
         }
 
         /* Full Width & Modern Styling for Blog Content Tables */
         .blog-content table {
             width: 100% !important;
-            max-width: 100% !important;
+            min-width: 580px !important;
             border-collapse: separate !important;
             border-spacing: 0 !important;
-            margin: 28px 0 !important;
+            margin: 0 !important;
             background-color: #ffffff !important;
             border: 1px solid #000000 !important;
             border-radius: 12px !important;
