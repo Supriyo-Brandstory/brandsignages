@@ -223,9 +223,16 @@
                 swiperMainMobile.on('slideChange', function() {
                     document.querySelectorAll('.gallery-thumb').forEach((t, i) => {
                         t.classList.toggle('active', i === swiperMainMobile.activeIndex);
-                    });
-                });
             }
+
+            // Ensure all tables in blog content are full-width
+            document.querySelectorAll('.blog-content table').forEach(function(table) {
+                table.removeAttribute('width');
+                table.style.width = '100%';
+                table.querySelectorAll('td, th').forEach(function(cell) {
+                    cell.removeAttribute('width');
+                });
+            });
         });
     </script>
     <style>
@@ -278,6 +285,49 @@
         article.blog-content {
             margin-top: 10px;
             padding: 10PX;
+            overflow-x: auto;
+        }
+
+        /* Full Width & Modern Styling for Blog Content Tables */
+        .blog-content table {
+            width: 100% !important;
+            max-width: 100% !important;
+            border-collapse: collapse !important;
+            margin: 28px 0 !important;
+            background-color: #ffffff !important;
+            border: 1px solid #e2e8f0 !important;
+            border-radius: 8px !important;
+            overflow: hidden !important;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+        }
+
+        .blog-content table th,
+        .blog-content table td {
+            padding: 14px 18px !important;
+            text-align: left !important;
+            font-size: 16px !important;
+            color: #334155 !important;
+            line-height: 1.6 !important;
+            border: 1px solid #e2e8f0 !important;
+            vertical-align: middle !important;
+        }
+
+        .blog-content table th,
+        .blog-content table tr:first-child th,
+        .blog-content table tr:first-child td {
+            background-color: #f8fafc !important;
+            font-weight: 700 !important;
+            color: #0f172a !important;
+            font-size: 16px !important;
+        }
+
+        .blog-content table tr:nth-child(even) td {
+            background-color: #fdfdfd !important;
+        }
+
+        .blog-content table tr:hover td {
+            background-color: #f1f5f9 !important;
+            transition: background-color 0.2s ease !important;
         }
 
         span.divider {
