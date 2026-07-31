@@ -327,9 +327,9 @@
 
             {{-- TAB 1: Product Details --}}
             <div class="npd-tab-pane active" id="npd-tab-details">
-                <div class="text-center mb-5">
-                    <h3 class="npd-green-title text-center">About Your Neon Sign:</h3>
-                    <p class="npd-sub-text mx-auto">
+                <div class="text-start mb-4">
+                    <h3 class="npd-green-title text-start">About Your Neon Sign:</h3>
+                    <p class="npd-sub-text text-start ms-0">
                         Neon Attack’s neon signs are handcrafted with advanced 2nd gen LED on high-quality 6MM transparent acrylic. Energy-efficient, durable, and easy to install–perfect for any space!
                     </p>
                 </div>
@@ -348,25 +348,25 @@
             </div>
 
             {{-- TAB 2: What's in the box? --}}
-            <div class="npd-tab-pane text-center" id="npd-tab-box">
-                <h3 class="npd-green-title text-center">The Box Contains:</h3>
-                <p class="npd-sub-text mx-auto mb-2 text-center">
+            <div class="npd-tab-pane text-start" id="npd-tab-box">
+                <h3 class="npd-green-title text-start">The Box Contains:</h3>
+                <p class="npd-sub-text text-start ms-0 mb-2">
                     Our neon lights are ready to shine straight from the box!
                 </p>
-                <p class="npd-sub-text mx-auto mb-5 text-center">
+                <p class="npd-sub-text text-start ms-0 mb-5">
                     Each sign is mounted on clear acrylic for support and comes with pre-drilled holes. Stainless steel mounting screws are included, making wall installation quick and easy.
                 </p>
 
                 {{-- Diagram Container Image --}}
-                <div class="npd-box-image-wrap text-center mt-4">
+                <div class="npd-box-image-wrap text-start mt-4">
                     <img src="{{ asset('frontend/Images/neon-sign.webp') }}" alt="What's in the box - Neon Sign Diagram" class="img-fluid rounded-4 npd-box-img">
                 </div>
             </div>
 
             {{-- TAB 3: How to Install? --}}
-            <div class="npd-tab-pane text-center" id="npd-tab-install">
-                <h3 class="npd-green-title text-center">Here's how you can install our neon signs on your wall:</h3>
-                <p class="npd-sub-text mx-auto mb-4 text-center">
+            <div class="npd-tab-pane text-start" id="npd-tab-install">
+                <h3 class="npd-green-title text-start">Here's how you can install our neon signs on your wall:</h3>
+                <p class="npd-sub-text text-start ms-0 mb-4">
                     Simply line up the sign on your desired wall, mark the pre-drilled holes, insert the wall anchors and stainless steel stand-off screws, then plug it in and turn on the glow!
                 </p>
                 <div class="row g-4 mt-2">
@@ -503,7 +503,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
     </div>
 
-    <div class="container">
+    <div class="container bhd">
         {{-- Bottom Row: 3 Image Layout & Description with CTAs --}}
         <div class="row g-4 align-items-center">
             {{-- Col 1: Tall Music Image --}}
@@ -549,11 +549,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  <section class="neon-space-section py-5">
+  <section class="neon-space-section">
     <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="why-text-heading mb-3">We Design Neon Signs for Every Space</h2>
-            <p>We produce high-class neon lights in Bangalore for all setups. Redesign your place with glow signage shaped just for you!</p>
+        <div class="text-start mb-4">
+            <h2 class="why-text-heading mb-3 text-start">We Design Neon Signs for Every Space</h2>
+            <p class="text-start">We produce high-class neon lights in Bangalore for all setups. Redesign your place with glow signage shaped just for you!</p>
         </div>
 
         <div class="neon-space-wrapper">
@@ -637,7 +637,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-12">
-                    <h2>Bring Your Vision to Light with Brand Signages</h2>
+                    <h2 class="text-start">Bring Your Vision to Light with Brand Signages</h2>
                 </div>
                 <div class="col-md-8 col-12">
 
@@ -1091,32 +1091,56 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
 
         {{-- End Detailed Information Section --}}
-        <div class="nr-info-wrapper mt-5 pt-4 border-top">
-            <p class="nr-info-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est. Nunc purus tellus ipsum dictum viverra amet pharetra vel amet. Consequat donec facilisis et tellus ut amet non. Libero odio lorem felis pellentesque id at bibendum auctor. Dui purus et vel quam. Tempus praesent condimentum sollicitudin rutrum at sed enim amet.</p>
+        <div class="nr-info-card-wrapper mt-5 mb-4">
+            <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est. Nunc purus tellus ipsum dictum viverra amet pharetra vel amet. Consequat donec facilisis et tellus ut amet non. Libero odio lorem felis pellentesque id at bibendum auctor. Dui purus et vel quam. Tempus praesent condimentum sollicitudin rutrum at sed enim amet.</p>
 
-            <h3 class="nr-info-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
-            <p class="nr-info-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
+            <h3 class="nr-info-card-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
+            <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
 
-            <h3 class="nr-info-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
-            <p class="nr-info-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
-            <p class="nr-info-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est. Nunc purus tellus ipsum dictum viverra amet pharetra vel amet. Consequat donec facilisis et tellus ut amet non. Libero odio lorem felis pellentesque id at bibendum auctor. Dui purus et vel quam. Tempus praesent condimentum sollicitudin rutrum at sed enim amet.</p>
+            <div class="nr-info-collapse-content collapse" id="nrInfoMoreContent">
+                <h3 class="nr-info-card-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
+                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
+                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est. Nunc purus tellus ipsum dictum viverra amet pharetra vel amet. Consequat donec facilisis et tellus ut amet non. Libero odio lorem felis pellentesque id at bibendum auctor. Dui purus et vel quam. Tempus praesent condimentum sollicitudin rutrum at sed enim amet.</p>
 
-            <h3 class="nr-info-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
-            <p class="nr-info-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
+                <h3 class="nr-info-card-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
+                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
 
-            <h3 class="nr-info-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
-            <p class="nr-info-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
-            <p class="nr-info-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est. Nunc purus tellus ipsum dictum viverra amet pharetra vel amet. Consequat donec facilisis et tellus ut amet non. Libero odio lorem felis pellentesque id at bibendum auctor. Dui purus et vel quam. Tempus praesent condimentum sollicitudin rutrum at sed enim amet.</p>
-            <p class="nr-info-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
+                <h3 class="nr-info-card-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
+                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
+                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est. Nunc purus tellus ipsum dictum viverra amet pharetra vel amet. Consequat donec facilisis et tellus ut amet non. Libero odio lorem felis pellentesque id at bibendum auctor. Dui purus et vel quam. Tempus praesent condimentum sollicitudin rutrum at sed enim amet.</p>
+                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
 
-            <h3 class="nr-info-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
-            <p class="nr-info-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
+                <h3 class="nr-info-card-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
+                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
+            </div>
+
+            <a class="nr-info-readmore-link my-2 d-inline-block" data-bs-toggle="collapse" href="#nrInfoMoreContent" role="button" aria-expanded="false" aria-controls="nrInfoMoreContent" onclick="toggleReadMoreText(this)">
+                ➤ Read More
+            </a>
+
+            <div class="mt-3">
+                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#globalContactPopup" class="nr-info-touch-btn">
+                    Get In Touch <span class="touch-arrow"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 10.5L10.5 3.5M10.5 3.5H4.66667M10.5 3.5V9.33333" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+            </div>
         </div>
+
+        <script>
+        function toggleReadMoreText(btn) {
+            setTimeout(function() {
+                if (btn.getAttribute('aria-expanded') === 'true') {
+                    btn.innerHTML = '➤ Read Less';
+                } else {
+                    btn.innerHTML = '➤ Read More';
+                }
+            }, 150);
+        }
+        </script>
 
     </div>
 </section>
 
-   <section class="ds2-cities-section">
+   <section class="ds2-cities-section pt-0">
         <div class="container">
             <h2 class="ds2-cities-title">Digital Signages in Other Cities</h2>
             <div class="row g-4 justify-content-center">
@@ -1560,4 +1584,22 @@ document.addEventListener("DOMContentLoaded", function () {
     refreshImagesList();
 });
 </script>
+<style>
+    @media (max-width: 768px) {
+
+
+    .ds2-cities-section {
+        padding: 0 20px !important;
+    }
+    section#npd-faqs {
+    padding: 32px !important;
+}
+section.why-bg-light-pink.py-5 {
+    padding: 0 24px;
+    p{
+        text-align: left !important;
+    }
+}
+    }
+</style>
 @endsection

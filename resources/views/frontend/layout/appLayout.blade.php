@@ -734,7 +734,6 @@
         .call-btn {
             position: fixed;
             bottom: 80px;
-            /* moved higher */
             right: 20px;
             width: 67px;
             height: 67px;
@@ -746,7 +745,7 @@
             justify-content: center;
             font-size: 28px;
             text-decoration: none;
-            z-index: 9999;
+            z-index: 999;
         }
 
         .call-btn:hover {
@@ -755,11 +754,164 @@
             text-decoration: none;
         }
 
-
         @media (max-width:768px) {
             .call-btn {
                 bottom: 100px;
                 right: 15px;
+            }
+        }
+
+        /* Compact Mobile Popup Modal */
+        #globalContactPopup .modal-dialog {
+            max-width: 480px;
+            margin: 1.25rem auto;
+        }
+
+        #globalContactPopup .modal-content {
+            border-radius: 16px;
+            border: none;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+        }
+
+        #globalContactPopup .modal-header {
+            position: absolute;
+            right: 12px;
+            top: 12px;
+            z-index: 10;
+            padding: 0;
+        }
+
+        #globalContactPopup .popup-card-inner {
+            padding: 24px 24px 28px;
+        }
+
+        #globalContactPopup h3.popup-title {
+            font-family: 'Lora', serif;
+            color: #E43D12;
+            font-size: 22px;
+            margin-bottom: 4px !important;
+            font-weight: 700;
+        }
+
+        #globalContactPopup p.popup-subtitle {
+            font-size: 13.5px;
+            color: #4b5563;
+            margin-bottom: 14px !important;
+            line-height: 1.45;
+        }
+
+        #globalContactPopup .form-control {
+            height: 40px !important;
+            min-height: 40px !important;
+            font-size: 13.5px !important;
+            padding: 6px 12px !important;
+            border-radius: 8px !important;
+            border: 1px solid #d1d5db !important;
+        }
+
+        #globalContactPopup textarea.form-control {
+            height: 60px !important;
+            min-height: 60px !important;
+            resize: none !important;
+        }
+
+        #globalContactPopup .mb-3 {
+            margin-bottom: 10px !important;
+        }
+
+        #globalContactPopup #popup-captcha-image {
+            height: 40px !important;
+            width: calc(78% - 4px) !important;
+            flex: 0 0 calc(78% - 4px) !important;
+            max-width: none !important;
+            object-fit: fill !important;
+            border-radius: 8px;
+            background: #ffffff;
+            border: 1px solid #d1d5db;
+        }
+
+        #globalContactPopup .btn-refresh-captcha {
+            height: 40px !important;
+            width: calc(22% - 4px) !important;
+            flex: 0 0 calc(22% - 4px) !important;
+            min-width: unset !important;
+            padding: 0 !important;
+            border-radius: 8px !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+
+        #globalContactPopup .btn-submit-popup {
+            background-color: #E43D12;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 15px;
+            padding: 10px 24px;
+            border-radius: 8px;
+            border: none;
+            width: 100%;
+            max-width: 240px;
+            transition: background 0.2s ease;
+        }
+
+        #globalContactPopup .btn-submit-popup:hover {
+            background-color: #c8320b;
+        }
+
+        @media (max-width: 576px) {
+            #globalContactPopup .modal-dialog {
+                margin: 10px auto;
+                max-width: 94%;
+            }
+
+            #globalContactPopup .popup-card-inner {
+                padding: 16px 14px 20px !important;
+            }
+
+            #globalContactPopup h3.popup-title {
+                font-size: 19px;
+            }
+
+            #globalContactPopup p.popup-subtitle {
+                font-size: 12.5px;
+                margin-bottom: 10px !important;
+            }
+
+            #globalContactPopup .form-control {
+                height: 36px !important;
+                min-height: 36px !important;
+                font-size: 13px !important;
+                padding: 4px 10px !important;
+            }
+
+            #globalContactPopup textarea.form-control {
+                height: 52px !important;
+                min-height: 52px !important;
+            }
+
+            #globalContactPopup .mb-3 {
+                margin-bottom: 8px !important;
+            }
+
+            #globalContactPopup #popup-captcha-image {
+                height: 48px !important;
+                width: calc(78% - 4px) !important;
+                flex: 0 0 calc(78% - 4px) !important;
+            }
+
+            #globalContactPopup .btn-refresh-captcha {
+                height: 48px !important;
+                width: calc(22% - 4px) !important;
+                flex: 0 0 calc(22% - 4px) !important;
+                min-width: unset !important;
+            }
+
+            #globalContactPopup .btn-submit-popup {
+                font-size: 14px;
+                padding: 8px 18px;
+                max-width: 100%;
             }
         }
     </style>
@@ -783,10 +935,9 @@
                     </div>
                     <div class="modal-body p-0">
                         <div class="row g-0 ">
-                            <div class="col-md-12 p-4">
-                                <h3 class="mb-3" style="font-family: 'Lora', serif; color: #E43D12;">Request a Quote
-                                </h3>
-                                <p class="mb-4">Need More Info? Please Contact Us and We'll Do Our Best to Help.</p>
+                            <div class="col-md-12 popup-card-inner">
+                                <h3 class="popup-title">Request a Quote</h3>
+                                <p class="popup-subtitle">Need More Info? Please Contact Us and We'll Do Our Best to Help.</p>
 
                                 <form id="globalPopupForm" action="{{ route('contact.store') }}" method="POST">
                                     @csrf
@@ -800,34 +951,30 @@
                                         <input type="text" class="form-control" name="location" placeholder="City*" required>
                                     </div>
                                     <div class="mb-3">
-                                        <textarea class="form-control" name="message" rows="3" placeholder="Your Requirements..." required></textarea>
+                                        <textarea class="form-control" name="message" rows="2" placeholder="Your Requirements..." required></textarea>
                                     </div>
 
                                     <!-- CAPTCHA for Popup -->
                                     <div class="mb-3">
-                                        <div class="d-block d-md-flex align-items-center mb-2 gap-2">
-                                            <div class="d-flex gap-2 align-items-center mb-3 mb-md-0 w-100">
-                                                <img src="{{ captcha_src('flat') }}" id="popup-captcha-image"
-                                                    class="img-thumbnail" style="cursor: pointer; height: 60px;"
-                                                    onclick="refreshPopupCaptcha()">
-                                                <button type="button" class="btn btn-sm btn-outline-secondary"
-                                                    onclick="refreshPopupCaptcha()">
-                                                    <i class="fas fa-sync-alt"></i>
-                                                </button>
-                                            </div>
-                                            <input type="text" class="form-control mb-0" name="captcha"
-                                                placeholder="Enter CAPTCHA" required>
-
+                                        <div class="d-flex align-items-center justify-content-between mb-2 w-100" style="gap: 8px;">
+                                            <img src="{{ captcha_src('flat') }}" id="popup-captcha-image"
+                                                alt="CAPTCHA Code" style="cursor: pointer;"
+                                                onclick="refreshPopupCaptcha()" title="Click to refresh CAPTCHA">
+                                            <button type="button" class="btn btn-outline-secondary btn-refresh-captcha"
+                                                onclick="refreshPopupCaptcha()" title="Refresh CAPTCHA">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </button>
                                         </div>
+                                        <input type="text" class="form-control mb-0" name="captcha"
+                                            placeholder="Enter CAPTCHA" required>
                                     </div>
 
-                                    <div id="popup-msg" class="alert alert-success d-none">Thank you! Your message has
+                                    <div id="popup-msg" class="alert alert-success d-none py-2 px-3 small">Thank you! Your message has
                                         been sent.</div>
-                                    <div id="popup-err" class="alert alert-danger d-none">Something went wrong. Please
+                                    <div id="popup-err" class="alert alert-danger d-none py-2 px-3 small">Something went wrong. Please
                                         try again.</div>
-                                    <div class="text-center">
-                                        <button type="submit" class="btn w-50 text-white"
-                                            style="background-color: #E43D12;">Get in Touch</button>
+                                    <div class="text-center mt-2">
+                                        <button type="submit" class="btn btn-submit-popup">Get in Touch</button>
                                     </div>
                                 </form>
                             </div>
