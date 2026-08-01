@@ -1,4 +1,9 @@
 @extends('frontend.layout.appLayout')
+
+@push('styles')
+<link rel="stylesheet" href="{{ asset('frontend/customstyle/neon-signages-2.css') }}">
+@endpush
+
 @section('content')
     <section class="simple-impact-hero">
         @php
@@ -790,41 +795,6 @@
         </div>
     </section>
 
-    <section class="other-cities-section py-5">
-        <div class="container">
-            <h2 class="hero-title">We Deliver LED Sign Boards <br> Across India</h2>
-            <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
-                <div class="other-cities-card">
-                    <a href="/led-display-board-in-mumbai" style="text-decoration: none;">
-                        <div class="other-cities-img">
-                            <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="LED Sign Boards Mumbai">
-                            <div class="other-cities-overlay"></div>
-                            <p class="other-cities-title">Mumbai</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="other-cities-card">
-                    <a href="/led-display-board-in-chennai" style="text-decoration: none;">
-                        <div class="other-cities-img">
-                            <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="LED Sign Boards Chennai">
-                            <div class="other-cities-overlay"></div>
-                            <p class="other-cities-title">Chennai</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="other-cities-card">
-                    <a href="/led-sign-board-in-bangalore" style="text-decoration: none;">
-                        <div class="other-cities-img">
-                            <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="LED Sign Boards Bangalore">
-                            <div class="other-cities-overlay"></div>
-                            <p class="other-cities-title">Bangalore</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="new_client_section container">
         <h2 class="new_client_section-title">We Serve Clients Across <br>All Industries</h2>
         <div class="row">
@@ -1002,121 +972,326 @@
             </div>
         </div>
     </section>
-    <section class="new_testimonial-swiper-section">
-        <div class="container">
-            <h2 class="text-center mb-md-5 mb-3">Feedback from Our Valuable Clients</h2>
+{{-- ====================================================
+     NEON CUSTOMER REVIEWS SECTION (nr-section)
+     ==================================================== --}}
+<section class="nr-section py-5">
+    <div class="container">
+        <div class="row g-4">
+            
+            {{-- Left Sidebar Column --}}
+            <div class="col-lg-4 col-md-4 nr-sidebar-col">
+                <div class="nr-sidebar-box pe-lg-3">
+                    <div class="d-flex align-items-center gap-2 mb-1">
+                        <i class="fa-solid fa-star text-warning fs-4"></i>
+                        <span class="fs-2 fw-bold text-dark">4.8</span>
+                    </div>
+                    <h3 class="nr-sidebar-title">Our Client Reviews</h3>
+                    <p class="text-muted small mb-3">
+                        400 total &bull; <a href="#" class="text-primary text-decoration-underline">Write a Review</a>
+                    </p>
 
-            <div class="position-relative">
+                    {{-- Progress Bars Card --}}
+                    <div class="nr-progress-card p-3 rounded-3 border mb-4 bg-white">
+                        <div class="nr-stat-row d-flex align-items-center gap-2 mb-2">
+                            <span class="small text-muted" style="width: 45px;">5-star</span>
+                            <div class="progress flex-grow-1" style="height: 6px;">
+                                <div class="progress-bar" style="width: 98%; background-color: #e43d12;"></div>
+                            </div>
+                            <span class="small text-muted" style="width: 35px; text-align: right;">98%</span>
+                        </div>
+                        <div class="nr-stat-row d-flex align-items-center gap-2 mb-2">
+                            <span class="small text-muted" style="width: 45px;">4-star</span>
+                            <div class="progress flex-grow-1" style="height: 6px;">
+                                <div class="progress-bar" style="width: 4%; background-color: #e43d12;"></div>
+                            </div>
+                            <span class="small text-muted" style="width: 35px; text-align: right;">4%</span>
+                        </div>
+                        <div class="nr-stat-row d-flex align-items-center gap-2 mb-2">
+                            <span class="small text-muted" style="width: 45px;">3-star</span>
+                            <div class="progress flex-grow-1" style="height: 6px;">
+                                <div class="progress-bar bg-secondary" style="width: 0.5%;"></div>
+                            </div>
+                            <span class="small text-muted" style="width: 35px; text-align: right;">&lt;1%</span>
+                        </div>
+                        <div class="nr-stat-row d-flex align-items-center gap-2 mb-2">
+                            <span class="small text-muted" style="width: 45px;">2-star</span>
+                            <div class="progress flex-grow-1" style="height: 6px;">
+                                <div class="progress-bar bg-secondary" style="width: 0.5%;"></div>
+                            </div>
+                            <span class="small text-muted" style="width: 35px; text-align: right;">&lt;1%</span>
+                        </div>
+                        <div class="nr-stat-row d-flex align-items-center gap-2 mb-0">
+                            <span class="small text-muted" style="width: 45px;">1-star</span>
+                            <div class="progress flex-grow-1" style="height: 6px;">
+                                <div class="progress-bar bg-secondary" style="width: 0.5%;"></div>
+                            </div>
+                            <span class="small text-muted" style="width: 35px; text-align: right;">&lt;1%</span>
+                        </div>
+                    </div>
 
-                <!-- Navigation Arrows (placed OUTSIDE swiper container) -->
-                <div class="new_testimonial-button-prev">
-                    <img src="{{ asset('frontend/Images/home/arrow-left.png') }}" alt="Arrow Left" width="40"
-                        height="40">
+                    {{-- Customer Photos Thumbnail Row --}}
+                    <div class="d-flex align-items-center gap-2 flex-wrap">
+                        <img src="{{ asset('frontend/Images/led-review-1.webp') }}" class="rounded-2" style="width: 44px; height: 44px; object-fit: cover;" alt="Review thumbnail">
+                        <img src="{{ asset('frontend/Images/led-review-2.webp') }}" class="rounded-2" style="width: 44px; height: 44px; object-fit: cover;" alt="Review thumbnail">
+                        <img src="{{ asset('frontend/Images/led-review-3.webp') }}" class="rounded-2" style="width: 44px; height: 44px; object-fit: cover;" alt="Review thumbnail">
+                        <img src="{{ asset('frontend/Images/led-review-4.webp') }}" class="rounded-2" style="width: 44px; height: 44px; object-fit: cover;" alt="Review thumbnail">
+                        <div class="rounded-2 bg-light d-flex align-items-center justify-content-center border" style="width: 44px; height: 44px;">
+                            <i class="fa-solid fa-camera text-danger"></i>
+                        </div>
+                    </div>
                 </div>
-                <div class="new_testimonial-button-next">
-                    <img src="{{ asset('frontend/Images/home/arrow-right.png') }}" alt="Arrow Right" width="40"
-                        height="40">
-                </div>
+            </div>
 
-                <!-- Swiper -->
-                <div class="swiper new_testimonial-swiper">
-                    <div class="swiper-wrapper">
-
-                        <!-- Slide Item -->
-                        <div class="swiper-slide">
-                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                <div class="mb-4">
-                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                        width="40" height="40">
-                                </div>
-                                <p class="description">
-                                    Our tech startup needed a signage solution that matched our innovative spirit. The
-                                    design team didn't just create a sign; they captured our company's entire essence.
-                                    The LED-powered brand display has become a conversation starter for clients and
-                                    employees alike.
-                                </p>
-                                <div class="d-flex align-items-center mt-4">
-                                    <img src="{{ asset('frontend/Images/sneha-reddy.webp') }}"
-                                        alt="Sneha Reddy- Our Client" class="rounded-circle me-3" width="50"
-                                        height="50">
-                                    <div>
-                                        <h6 class="name">Sneha Reddy</h6>
-                                        <small class="text-muted">Marketing Head – Urban Retail Co.</small>
-                                    </div>
-                                </div>
+            {{-- Right Cards Grid (2 Columns) --}}
+            <div class="col-lg-8 col-md-8">
+                <div class="row g-4">
+                    
+                    {{-- Column 1 --}}
+                    <div class="col-md-6 d-flex flex-column gap-4">
+                        
+                        {{-- Card 1: Smitha soni (Text Only) --}}
+                        <div class="nr-card p-3 border rounded-3 bg-white">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="nr-username">Priya Malhotra</span>
+                                <span class="text-danger small">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
                             </div>
+                            <h4 class="nr-review-title">LED Name Board</h4>
+                            <p class="nr-review-desc">Ordered a custom LED sign board for my café's entrance and it's been the best upgrade this year. Bright even in daylight, and installation took under 30 minutes with the included mounting kit.</p>
+                            <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
-                        <!-- Duplicate Slide -->
-                        <div class="swiper-slide">
-                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                <div class="mb-4">
-                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                        width="40" height="40">
-                                </div>
-                                <p class="description">
-                                    We needed stunning, durable, and regulation-compliant signage for our hospital,
-                                    and Brand Signages delivered exactly what we asked for. Their attention to detail
-                                    is excellent, which helped us enhance the patient experience.
-                                </p>
-                                <div class="d-flex align-items-center mt-4">
-                                    <img src="{{ asset('frontend/Images/seema.webp') }}" alt="Seema - Our Client"
-                                        class="rounded-circle me-3" width="50" height="50">
-                                    <div>
-                                        <h6 class="name">Seema Nayak</h6>
-                                        <small class="text-muted">Operations Manager– Horizon Hospitals</small>
-                                    </div>
-                                </div>
+                        {{-- Card 2: A.G. (With Image review-ag.webp) --}}
+                        <div class="nr-card p-3 border rounded-3 bg-white">
+                            <div class="mb-3">
+                                <img src="{{ asset('frontend/Images/led-review-1.webp') }}" alt="Shop LED Sign Board" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
                             </div>
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="nr-username">Rohan Sen</span>
+                                <span class="text-danger small">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p class="nr-review-desc">Got a waterproof LED sign board for my shop and it's held up through two months of monsoon without any issue. Brightness is still as good as day one.</p>
+                            <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
-                        <div class="swiper-slide">
-                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                <div class="mb-4">
-                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                        width="40" height="40">
-                                </div>
-                                <p class="description">
-                                    From initial conceptualization to execution, they executed our café signage project
-                                    seamlessly. They perfectly captured the aesthetics of our brand with vibrant acrylic
-                                    signs and a neon board that has quickly become an Instagram favorite among local people.
-                                </p>
-                                <div class="d-flex align-items-center mt-4">
-                                    <img src="{{ asset('frontend/Images/sandeep-gupta.webp') }}"
-                                        alt="Sandeep Gupta - Our Client" class="rounded-circle me-3" width="50"
-                                        height="50">
-                                    <div>
-                                        <h6 class="name">Sandeep Gupta</h6>
-                                        <small class="text-muted">Founder – Café Bloom</small>
-                                    </div>
-                                </div>
+                        {{-- Card 3: Customer (With Image review-customer.webp) --}}
+                        <div class="nr-card p-3 border rounded-3 bg-white">
+                            <div class="mb-3">
+                                <img src="{{ asset('frontend/Images/led-review-2.webp') }}" alt="Office LED Sign Board" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
                             </div>
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="nr-username">Ananya Kumari</span>
+                                <span class="text-danger small">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p class="nr-review-desc">Great quality sign for my office. Took about 8 days to arrive after finalizing the design, right in line with the quote. Only wish there were a couple more font options.</p>
+                            <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
-                        <div class="swiper-slide">
-                            <div class="bg-white p-4 p-md-5 rounded-4 position-relative shadow-sm">
-                                <div class="mb-4">
-                                    <img src="{{ asset('frontend/Images/home/quote-icon.png') }}" alt="Quote Icon"
-                                        width="40" height="40">
-                                </div>
-                                <p class="description">
-                                    We needed elegant indoor and outdoor corporate signage that matched our branding.
-                                    Brand Signages impressed us with their quick turnaround, premium finish, and seamless
-                                    coordination throughout the signage project.
-                                </p>
-                                <div class="d-flex align-items-center mt-4">
-                                    <img src="{{ asset('frontend/Images/vikram-sharma.webp') }}"
-                                        alt="Sandeep Gupta - Our Client" class="rounded-circle me-3" width="50"
-                                        height="50">
-                                    <div>
-                                        <h6 class="name">Sandeep Gupta</h6>
-                                        <small class="text-muted">Director– Nova Consulting Group</small>
-                                    </div>
-                                </div>
+                        {{-- Card 4: Anjali Rana (Text Only) --}}
+                        <div class="nr-card p-3 border rounded-3 bg-white">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="nr-username">Vikram T.</span>
+                                <span class="text-danger small">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
                             </div>
+                            <h4 class="nr-review-title">Good work</h4>
+                            <p class="nr-review-desc">Needed a branded LED sign board for our retail store and the team nailed the logo replication perfectly. Barely noticed a change in our electricity bill after installing it.</p>
+                            <a href="#" class="nr-readmore">Read more</a>
+                        </div>
+
+                        {{-- Card 5: R.K. (With Image review-r.k.webp) --}}
+                        <div class="nr-card p-3 border rounded-3 bg-white">
+                            <div class="mb-3">
+                                <img src="{{ asset('frontend/Images/led-review-3.webp') }}" alt="Retail LED Sign Board" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="nr-username">Sneha Reddy</span>
+                                <span class="text-danger small">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p class="nr-review-desc">Solid product, good brightness control, and the multicolor option is a nice touch. Delivery took slightly longer than expected but the sign was worth the wait.</p>
+                            <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
                     </div>
+
+                    {{-- Column 2 --}}
+                    <div class="col-md-6 d-flex flex-column gap-4">
+                        
+                        {{-- Card 1: C. (With Image review-c.webp) --}}
+                        <div class="nr-card p-3 border rounded-3 bg-white">
+                            <div class="mb-3">
+                                <img src="{{ asset('frontend/Images/led-review-4.webp') }}" alt="LED Shop Name Board" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="nr-username">Karan Viswakarma</span>
+                                <span class="text-danger small">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p class="nr-review-desc">Ordered an outdoor LED sign board for our restaurant's patio. IP rating held up exactly as promised through a heavy downpour last month.</p>
+                            <a href="#" class="nr-readmore">Read more</a>
+                        </div>
+
+                        {{-- Card 2: Vamshi (Text Only) --}}
+                        <div class="nr-card p-3 border rounded-3 bg-white">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="nr-username">Divya Nair</span>
+                                <span class="text-danger small">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p class="nr-review-desc">Good experience overall. Sign looks premium and the color is exactly what I asked for. Packaging was solid too, arrived without a scratch.</p>
+                            <a href="#" class="nr-readmore">Read more</a>
+                        </div>
+
+                        {{-- Card 3: V. (With Image review-v.webp) --}}
+                        <div class="nr-card p-3 border rounded-3 bg-white">
+                            <div class="mb-3">
+                                <img src="{{ asset('frontend/Images/led-review-5.webp') }}" alt="Game Shop LED Sign Board" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="nr-username">Aditya Patel</span>
+                                <span class="text-danger small">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p class="nr-review-desc">Best decision for my gaming shop setup. Adjustable brightness is genuinely useful, dims down nicely for late-night sessions without being too harsh.</p>
+                            <a href="#" class="nr-readmore">Read more</a>
+                        </div>
+
+                        {{-- Card 4: Mayur Sharma (With Image review-Mayur-Sharma.webp) --}}
+                        <div class="nr-card p-3 border rounded-3 bg-white">
+                            <div class="mb-3">
+                                <img src="{{ asset('frontend/Images/led-review-6.webp') }}" alt="Cake Shop LED Sign Board" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="nr-username">Neha Singh</span>
+                                <span class="text-danger small">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p class="nr-review-desc">Put an LED sign board up in my bakery window and footfall genuinely picked up after that. People stop to take photos outside, which is great free promotion.</p>
+                            <a href="#" class="nr-readmore">Read more</a>
+                        </div>
+
+                        {{-- Card 5: Anika Mehta (With Image review-Anika-Mehta.webp) --}}
+                        <div class="nr-card p-3 border rounded-3 bg-white">
+                            <div class="mb-3">
+                                <img src="{{ asset('frontend/Images/led-review-7.webp') }}" alt="Gym LED Sign Board" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <span class="nr-username">Siddharth R.</span>
+                                <span class="text-danger small">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p class="nr-review-desc">Ordered one for my commercial gym as a bit of a fun addition. Build quality is solid, and the remote for brightness/color control is simple to use. Would've liked a slightly longer power cable, but no real complaints.</p>
+                            <a href="#" class="nr-readmore">Read more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        {{-- End Detailed Information Section --}}
+            <div class="nr-info-card-wrapper mt-5 mb-4">
+                <p class="nr-info-card-desc">A well-built LED sign board does more than display a name—it pulls foot traffic toward your door and anchors your brand in a customer's memory. At Brand Signages, every LED sign board is engineered for clarity, durability, and visual impact, whether it is a compact LED name board above a reception desk or a large outdoor LED sign board commanding attention from the street.</p>
+
+                <h3 class="nr-info-card-heading">Types of LED Sign Boards and How They Work</h3>
+                <p class="nr-info-card-desc">Not every LED sign board functions the same way, and choosing the right illumination style changes how your brand is perceived. Front-lit LED sign boards cast light directly through acrylic or polycarbonate faces, producing bold, readable lettering even under direct sunlight. Backlit LED sign boards create a halo glow around metal or acrylic letters, adding depth and a premium feel to storefronts and office lobbies. Edge-lit LED sign boards use light-guide panels for an ultra-slim profile that works beautifully in modern interiors with limited mounting depth.</p>
+                <p class="nr-info-card-desc">For businesses that want dimension and shadow, 3D acrylic LED sign boards combine routed lettering with internal LED modules to produce a sculpted, glowing effect. Understanding these types helps you match the board to your space, viewing distance, and budget rather than settling for a generic solution.</p>
+
+                <div class="nr-info-collapse-content collapse" id="nrInfoMoreContent">
+                    <h3 class="nr-info-card-heading">Materials That Define Durability and Finish</h3>
+                    <p class="nr-info-card-desc">The skeleton of a long-lasting LED sign board is hidden in its materials. High-grade acrylic remains the most popular face material because it diffuses LED light evenly without yellowing under UV exposure. For outdoor LED sign boards, aluminum composite panels and galvanized metal frames resist rust, warping, and temperature swings. Polycarbonate overlays add impact resistance for boards installed in high-traffic or storm-prone areas.</p>
+                    <p class="nr-info-card-desc">At Brand Signages, we pair these substrates with energy-efficient LED modules rated for fifty thousand hours of continuous use. That combination means your LED light board stays bright and structurally sound for years, not months, even when mounted outdoors in harsh weather.</p>
+
+                    <h3 class="nr-info-card-heading">Outdoor LED Sign Boards vs. Indoor LED Light Boards</h3>
+                    <p class="nr-info-card-desc">The gap between an outdoor LED sign board and an indoor LED light board is wider than most buyers expect. Outdoor units require sealed driver housings, waterproof cable glands, and UV-stable inks to prevent fading. They also need higher-lumen LED strips to compete with ambient daylight. Indoor LED sign boards can use lower-lumen, warmer LEDs because they operate in controlled lighting and do not face rain, dust, or direct sun.</p>
+                    <p class="nr-info-card-desc">If you are installing a LED name board on an exposed façade, balcony, or rooftop, always confirm the IP rating and the sealing method. An under-spec board may look perfect on day one and fail after the first monsoon. Brand Signages builds outdoor-rated LED sign boards with proper gasketing and drainage channels so moisture never pools inside the frame.</p>
+
+                    <h3 class="nr-info-card-heading">Customization: Size, Color, Font, and Mounting</h3>
+                    <p class="nr-info-card-desc">Every business has a different wall, a different brand color, and a different viewing angle. That is why rigid, off-the-shelf LED sign boards rarely deliver the impact a custom build can. Brand Signages offers full customization: you choose the exact dimensions, the Pantone-matched LED color temperature, the typeface, and the mounting hardware—wall brackets, raceways, hanging rods, or flush studs.</p>
+                    <p class="nr-info-card-desc">Whether you need a sleek LED name board in warm white for a law office or a vivid RGB LED light board that cycles colors for a nightclub entrance, the sign is fabricated to your specifications rather than pulled from a warehouse shelf.</p>
+
+                    <h3 class="nr-info-card-heading">Installation, Maintenance, and Lifespan</h3>
+                    <p class="nr-info-card-desc">A professional LED sign board installation starts with a site survey. Technicians check wall material, electrical access, viewing angles, and local signage bylaws before a single bracket is drilled. Once mounted, LED sign boards require minimal maintenance—occasional dusting of the face and an annual inspection of the driver and connections are usually enough.</p>
+                    <p class="nr-info-card-desc">Because LEDs run cool and draw a fraction of the power that neon or fluorescent tubes demand, your operating costs stay low and the risk of fire or ballast failure disappears. Most Brand Signages LED light boards operate for five to seven years before any component needs replacement, making them one of the most cost-effective long-term investments in physical branding.</p>
+
+                    <h3 class="nr-info-card-heading">Why Businesses Upgrade to LED Signage</h3>
+                    <p class="nr-info-card-desc">Traditional flex boards and painted signs go dark after sunset. Neon tubes flicker, break, and consume heavy power. An LED sign board solves all of those problems in a single upgrade. The light is steady, the colors are saturated, and the energy draw is a fraction of older technologies. For retail stores, restaurants, clinics, and corporate offices, that translates into round-the-clock visibility and a sharper professional image.</p>
+                    <p class="nr-info-card-desc">Brand Signages designs each LED sign board, LED name board, and LED light board to turn passers-by into paying customers. If your current signage is fading, flickering, or simply invisible at night, a custom LED solution is the most direct way to fix it.</p>
+                </div>
+            </div>
+        
+            <a class="nr-info-readmore-link my-2 d-inline-block" data-bs-toggle="collapse" href="#nrInfoMoreContent" role="button" aria-expanded="false" aria-controls="nrInfoMoreContent" onclick="toggleReadMoreText(this)">
+                ➤ Read More
+            </a>
+
+            <div class="mt-3">
+                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#globalContactPopup" class="nr-info-touch-btn">
+                    Get In Touch <span class="touch-arrow"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 10.5L10.5 3.5M10.5 3.5H4.66667M10.5 3.5V9.33333" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+            </div>
+        </div>
+
+        <script>
+        function toggleReadMoreText(btn) {
+            setTimeout(function() {
+                if (btn.getAttribute('aria-expanded') === 'true') {
+                    btn.innerHTML = '➤ Read Less';
+                } else {
+                    btn.innerHTML = '➤ Read More';
+                }
+            }, 150);
+        }
+        </script>
+
+    </div>
+</section>
+
+    <section class="other-cities-section py-5">
+        <div class="container">
+            <h2 class="hero-title">We Deliver LED Sign Boards <br> Across India</h2>
+            <div class="other-cities-wrapper d-flex gap-3 justify-content-between flex-wrap">
+                <div class="other-cities-card">
+                    <a href="/led-display-board-in-mumbai" style="text-decoration: none;">
+                        <div class="other-cities-img">
+                            <img src="{{ asset('frontend/Images/new/Mumbai.webp') }}" alt="LED Sign Boards Mumbai">
+                            <div class="other-cities-overlay"></div>
+                            <p class="other-cities-title">Mumbai</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="other-cities-card">
+                    <a href="/led-display-board-in-chennai" style="text-decoration: none;">
+                        <div class="other-cities-img">
+                            <img src="{{ asset('frontend/Images/new/Chennai.webp') }}" alt="LED Sign Boards Chennai">
+                            <div class="other-cities-overlay"></div>
+                            <p class="other-cities-title">Chennai</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="other-cities-card">
+                    <a href="/led-sign-board-in-bangalore" style="text-decoration: none;">
+                        <div class="other-cities-img">
+                            <img src="{{ asset('frontend/Images/new/Bangalore.webp') }}" alt="LED Sign Boards Bangalore">
+                            <div class="other-cities-overlay"></div>
+                            <p class="other-cities-title">Bangalore</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

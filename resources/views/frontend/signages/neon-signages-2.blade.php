@@ -876,9 +876,9 @@ document.addEventListener("DOMContentLoaded", function () {
                         <i class="fa-solid fa-star text-warning fs-4"></i>
                         <span class="fs-2 fw-bold text-dark">4.8</span>
                     </div>
-                    <h3 class="nr-sidebar-title">All reviews</h3>
+                    <h3 class="nr-sidebar-title">Our Client Reviews</h3>
                     <p class="text-muted small mb-3">
-                        400 total &bull; <a href="#" class="text-primary text-decoration-underline">Write a review</a>
+                        430 total &bull; <a href="#" class="text-primary text-decoration-underline">Write a Review</a>
                     </p>
 
                     {{-- Progress Bars Card --}}
