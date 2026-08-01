@@ -125,13 +125,13 @@ class frontendController extends Controller
         $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 8)->take(3)->get();
         return view('frontend.signages.neon-signages', compact('seo', 'blogs'));
     }
-    public function neon_signages_2()
-    {
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 8)->take(3)->get();
-        return view('frontend.signages.neon-signages-2', compact('seo', 'blogs'));
-    }
+    // public function neon_signages_2()
+    // {
+    //     $currentRoute = Route::current()->uri();
+    //     $seo = SEO::where('page_url', $currentRoute)->first();
+    //     $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 8)->take(3)->get();
+    //     return view('frontend.signages.neon-signages-2', compact('seo', 'blogs'));
+    // }
     public function led_signages()
     {
         $currentRoute = Route::current()->uri();

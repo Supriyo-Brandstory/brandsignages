@@ -987,8 +987,8 @@
                         <span class="fs-2 fw-bold text-dark">4.8</span>
                     </div>
                     <h3 class="nr-sidebar-title">Our Client Reviews</h3>
-                    <p class="text-muted small mb-3">
-                        400 total &bull; <a href="#" class="text-primary text-decoration-underline">Write a Review</a>
+                    <p class="text-muted  mb-3">
+                        400 total &bull; <a href="https://g.page/r/CfwSx40PFmfKEAI/review" class="text-primary text-decoration-underline">Write a Review</a>
                     </p>
 
                     {{-- Progress Bars Card --}}
@@ -1234,9 +1234,7 @@
                     <p class="nr-info-card-desc">Traditional flex boards and painted signs go dark after sunset. Neon tubes flicker, break, and consume heavy power. An LED sign board solves all of those problems in a single upgrade. The light is steady, the colors are saturated, and the energy draw is a fraction of older technologies. For retail stores, restaurants, clinics, and corporate offices, that translates into round-the-clock visibility and a sharper professional image.</p>
                     <p class="nr-info-card-desc">Brand Signages designs each LED sign board, LED name board, and LED light board to turn passers-by into paying customers. If your current signage is fading, flickering, or simply invisible at night, a custom LED solution is the most direct way to fix it.</p>
                 </div>
-            </div>
-        
-            <a class="nr-info-readmore-link my-2 d-inline-block" data-bs-toggle="collapse" href="#nrInfoMoreContent" role="button" aria-expanded="false" aria-controls="nrInfoMoreContent" onclick="toggleReadMoreText(this)">
+                 <a class="nr-info-readmore-link my-2 d-inline-block" data-bs-toggle="collapse" href="#nrInfoMoreContent" role="button" aria-expanded="false" aria-controls="nrInfoMoreContent" onclick="toggleReadMoreText(this)">
                 ➤ Read More
             </a>
 
@@ -1245,7 +1243,9 @@
                     Get In Touch <span class="touch-arrow"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 10.5L10.5 3.5M10.5 3.5H4.66667M10.5 3.5V9.33333" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
                 </a>
             </div>
-        </div>
+            </div>
+        
+     
 
         <script>
         function toggleReadMoreText(btn) {
@@ -1637,6 +1637,141 @@
                     myModal.show();
                 }
             }
+        });
+    </script>
+
+    {{-- ====================================================
+         LIGHTBOX MODAL FOR GALLERY & REVIEW IMAGES
+         ==================================================== --}}
+    <div class="nr-modal" id="nrImageModal">
+        <span class="nr-modal-close" id="nrModalClose">&times;</span>
+        <button class="nr-modal-btn nr-modal-prev" id="nrModalPrev"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="nr-modal-content-wrap">
+            <img class="nr-modal-img" id="nrModalImg" src="" alt="Zoomed Review Image">
+        </div>
+        <button class="nr-modal-btn nr-modal-next" id="nrModalNext"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var modal = document.getElementById("nrImageModal");
+            var modalImg = document.getElementById("nrModalImg");
+            var closeBtn = document.getElementById("nrModalClose");
+            var prevBtn = document.getElementById("nrModalPrev");
+            var nextBtn = document.getElementById("nrModalNext");
+
+            var imagesList = [];
+            var activeIndex = -1;
+
+            function refreshImagesList() {
+                imagesList = [];
+                var selectors = [
+                    ".nr-sidebar-box img",
+                    ".nr-card img"
+                ];
+                document.querySelectorAll(selectors.join(",")).forEach(function (el) {
+                    if (imagesList.indexOf(el.src) === -1) {
+                        imagesList.push(el.src);
+                    }
+                    el.style.cursor = "pointer";
+                    el.addEventListener("click", function (e) {
+                        e.stopPropagation();
+                        var src = e.target.src;
+                        activeIndex = imagesList.indexOf(src);
+                        openModal(src);
+                    });
+                });
+
+                // Camera icon box click
+                var cameraBox = document.querySelector(".nr-sidebar-box .fa-camera");
+                if (cameraBox) {
+                    var boxContainer = cameraBox.closest("div");
+                    if (boxContainer) {
+                        boxContainer.style.cursor = "pointer";
+                        boxContainer.addEventListener("click", function (e) {
+                            e.stopPropagation();
+                            if (imagesList.length > 0) {
+                                activeIndex = 0;
+                                openModal(imagesList[0]);
+                            }
+                        });
+                    }
+                }
+
+                // Attach Read More click handlers
+                document.querySelectorAll(".nr-readmore").forEach(function (btn) {
+                    btn.style.cursor = "pointer";
+                    btn.addEventListener("click", function (e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        var card = this.closest(".nr-card");
+                        if (card) {
+                            var desc = card.querySelector(".nr-review-desc");
+                            if (desc) {
+                                desc.classList.toggle("expanded");
+                                if (desc.classList.contains("expanded")) {
+                                    this.textContent = "Show less";
+                                } else {
+                                    this.textContent = "Read more";
+                                }
+                            }
+                        }
+                    });
+                });
+            }
+
+            function openModal(src) {
+                if (!modal || !modalImg) return;
+                modal.style.display = "flex";
+                modalImg.src = src;
+                document.body.style.overflow = "hidden";
+            }
+
+            function closeModal() {
+                if (!modal) return;
+                modal.style.display = "none";
+                document.body.style.overflow = "";
+            }
+
+            function showPrev() {
+                if (imagesList.length === 0) return;
+                activeIndex = (activeIndex - 1 + imagesList.length) % imagesList.length;
+                modalImg.src = imagesList[activeIndex];
+            }
+
+            function showNext() {
+                if (imagesList.length === 0) return;
+                activeIndex = (activeIndex + 1) % imagesList.length;
+                modalImg.src = imagesList[activeIndex];
+            }
+
+            if (closeBtn) closeBtn.addEventListener("click", closeModal);
+            if (prevBtn) prevBtn.addEventListener("click", function(e) {
+                e.stopPropagation();
+                showPrev();
+            });
+            if (nextBtn) nextBtn.addEventListener("click", function(e) {
+                e.stopPropagation();
+                showNext();
+            });
+
+            if (modal) {
+                modal.addEventListener("click", function (e) {
+                    if (e.target === modal || e.target === document.querySelector('.nr-modal-content-wrap')) {
+                        closeModal();
+                    }
+                });
+            }
+
+            document.addEventListener("keydown", function (e) {
+                if (modal && modal.style.display === "flex") {
+                    if (e.key === "Escape") closeModal();
+                    if (e.key === "ArrowLeft") showPrev();
+                    if (e.key === "ArrowRight") showNext();
+                }
+            });
+
+            refreshImagesList();
         });
     </script>
 @endsection
