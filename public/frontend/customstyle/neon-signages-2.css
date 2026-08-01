@@ -617,8 +617,9 @@
     }
 
     .ncfg-font-grid {
-        max-height: none !important;
-        overflow-y: visible !important;
+        max-height: 240px !important;
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch;
     }
 }
 
@@ -662,9 +663,11 @@
 
     .ncfg-font-grid {
         grid-template-columns: repeat(2, 1fr);
-        max-height: none !important;
-        overflow-y: visible !important;
+        max-height: 138px !important;
+        overflow-y: auto !important;
         gap: 6px !important;
+        padding-right: 4px !important;
+        -webkit-overflow-scrolling: touch;
     }
 
     .ncfg-font-btn {
@@ -1209,7 +1212,7 @@
 
 .npd-box-img {
     width: 100%;
-    max-width: 70%;
+    max-width: 80%;
     height: auto;
     object-fit: cover;
     border-radius: 16px;
@@ -1603,7 +1606,7 @@
    ---------------------------------------------------------------- */
 .nr-sidebar-title {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     font-size: 26px !important;
     line-height: 130% !important;
     letter-spacing: 0 !important;
@@ -1884,4 +1887,15 @@
         height: 32px;
         font-size: 12px;
     }
+
+    .npd-box-img {
+        max-width: 100%;
+    }
+
+
+}
+
+.deliver-box {
+    backdrop-filter: blur(45px);
+    background: #e43c121f;
 }

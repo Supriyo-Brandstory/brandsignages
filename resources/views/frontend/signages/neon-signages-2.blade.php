@@ -358,7 +358,7 @@
                 </p>
 
                 {{-- Diagram Container Image --}}
-                <div class="npd-box-image-wrap text-start mt-4">
+                <div class="npd-box-image-wrap text-center mt-4">
                     <img src="{{ asset('frontend/Images/neon-sign.webp') }}" alt="What's in the box - Neon Sign Diagram" class="img-fluid rounded-4 npd-box-img">
                 </div>
             </div>
@@ -877,8 +877,8 @@ document.addEventListener("DOMContentLoaded", function () {
                         <span class="fs-2 fw-bold text-dark">4.8</span>
                     </div>
                     <h3 class="nr-sidebar-title">Our Client Reviews</h3>
-                    <p class="text-muted small mb-3">
-                        430 total &bull; <a href="#" class="text-primary text-decoration-underline">Write a Review</a>
+                    <p class="text-muted mb-3">
+                        430 total &bull; <a href="https://g.page/r/CfwSx40PFmfKEAI/review" class="text-primary text-decoration-underline">Write a Review</a>
                     </p>
 
                     {{-- Progress Bars Card --}}
