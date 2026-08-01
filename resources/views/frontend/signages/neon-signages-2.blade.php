@@ -36,26 +36,26 @@
 
                     {{-- Title + Rating --}}
                     <div class="ncfg-config-header">
-                        <h2 class="ncfg-config-title">Customise Neon Sign</h2>
+                        <h2 class="ncfg-config-title">Custom Neon Signs</h2>
                         <div class="ncfg-rating-row">
                             <span class="ncfg-stars">
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                             </span>
-                            <span class="ncfg-review-count">363 reviews</span>
+                            <span class="ncfg-review-count">400+ reviews</span>
                         </div>
                     </div>
 
                     {{-- Step 1: Type Text --}}
                     <div class="ncfg-field-group">
-                        <label class="ncfg-label" for="ncfgTextInput">Type Your Text</label>
+                        <label class="ncfg-label" for="ncfgTextInput">Write Your Text</label>
                         <input type="text" id="ncfgTextInput" class="ncfg-text-input" placeholder="e.g. Hello World" maxlength="30" value="Brand">
                     </div>
 
                     {{-- Step 2: Pick Font --}}
                     <div class="ncfg-field-group">
-                        <label class="ncfg-label">Pick Your Font</label>
+                        <label class="ncfg-label">Choose Your Font</label>
                         <div class="ncfg-font-grid" id="ncfgFontGrid">
                             <button class="ncfg-font-btn" data-font="'Great Vibes',cursive" data-label="Passionate" style="font-family:'Great Vibes',cursive">Passionate</button>
                             <button class="ncfg-font-btn active" data-font="'Dancing Script',cursive" data-label="Dreamy" style="font-family:'Dancing Script',cursive">Dreamy</button>
@@ -90,7 +90,7 @@
 
                     {{-- Step 3: Colour --}}
                     <div class="ncfg-field-group">
-                        <label class="ncfg-label">Select Your Colour</label>
+                        <label class="ncfg-label">Choose Your Colour</label>
                         <div class="ncfg-colour-row" id="ncfgColourRow">
                             <button class="ncfg-colour-btn" data-colour="#ffffff" data-glow="255,255,255" title="Ice White" style="background:#ffffff;"></button>
                             <button class="ncfg-colour-btn active" data-colour="#ff2d78" data-glow="255,45,120" title="Hot Pink" style="background:#ff2d78;"></button>
@@ -106,7 +106,7 @@
 
                     {{-- Step 4: Size --}}
                     <div class="ncfg-field-group">
-                        <label class="ncfg-label">Select Size</label>
+                        <label class="ncfg-label">Choose Size</label>
                         <div class="ncfg-size-grid" id="ncfgSizeGrid">
                             <button class="ncfg-size-btn active" data-size="Regular">
                                 <span class="ncfg-size-name">Regular</span>
@@ -125,7 +125,7 @@
 
                     {{-- Step 5: Add-Ons --}}
                     <div class="ncfg-field-group">
-                        <label class="ncfg-label">Adds Ons</label>
+                        <label class="ncfg-label">Choose Add-Ons</label>
                         <div class="ncfg-addons-grid">
                             <label class="ncfg-addon-item selected" for="addonWaterproof">
                                 <input type="checkbox" class="ncfg-addon-check" id="addonWaterproof" value="Waterproof IP67 Rated" checked>
@@ -314,8 +314,8 @@
         <div class="container">
             <div class="npd-nav-tabs">
                 <button type="button" class="npd-tab-btn active" data-target="#npd-tab-details">Product Details</button>
-                <button type="button" class="npd-tab-btn" data-target="#npd-tab-box">What’s in the box?</button>
-                <button type="button" class="npd-tab-btn" data-target="#npd-tab-install">How to install?</button>
+                <button type="button" class="npd-tab-btn" data-target="#npd-tab-box">What You'll Receive</button>
+                <button type="button" class="npd-tab-btn" data-target="#npd-tab-install">How to Install?</button>
                 <a href="#neon-customizer-section" class="npd-tab-btn npd-scroll-link">Customise</a>
                 <a href="#npd-faqs" class="npd-tab-btn npd-scroll-link">FAQs</a>
             </div>
@@ -328,20 +328,20 @@
             {{-- TAB 1: Product Details --}}
             <div class="npd-tab-pane active" id="npd-tab-details">
                 <div class="text-start mb-4">
-                    <h3 class="npd-green-title text-start">About Your Neon Sign:</h3>
+                    <h3 class="npd-green-title text-start">About Neon Signs:</h3>
                     <p class="npd-sub-text text-start ms-0">
-                        Neon Attack’s neon signs are handcrafted with advanced 2nd gen LED on high-quality 6MM transparent acrylic. Energy-efficient, durable, and easy to install–perfect for any space!
+                        At Brand Signages, every neon sign is handcrafted using advanced 2nd Gen LED technology on premium 6MM transparent acrylic. Our neon sign boards are energy-efficient, long-lasting, and simple to install, making them a perfect fit for homes, offices, shops, and events of any size.
                     </p>
                 </div>
 
                 <div class="npd-feature-banner" style="background-image: url('{{ asset('frontend/Images/product-details-bg.webp') }}');">
                     <div class="npd-glass-card">
-                        <h4 class="npd-glass-title">Meet 2nd Gen LED Neon - 2X Brighter &amp; Built to Last!</h4>
+                        <h4 class="npd-glass-title">2nd Gen LED Neon- 3X Brighter, Built to Outlast</h4>
                         <p class="npd-glass-desc">
-                            Our revolutionary 2nd Gen LED Neon is twice as bright, 80% more energy-efficient, and built to outlast the rest. Plus, with adjustable brightness controls, and the option for waterproof durability, this is the ultimate neon upgrade you’ve been waiting for!
+                            We use advanced 2nd Gen LED neon signs are 3X as bright, 75% more energy-efficient, and designed to outperform traditional neon sign boards. With adjustable brightness and waterproof build, this is the ultimate upgrade for anyone looking to make a bold, lasting impression.
                         </p>
                         <p class="npd-glass-highlight">
-                            Say goodbye to dull, outdated neon—this is the future!
+                            Brand Signages brings you the future of neon signs!
                         </p>
                     </div>
                 </div>
@@ -349,12 +349,12 @@
 
             {{-- TAB 2: What's in the box? --}}
             <div class="npd-tab-pane text-start" id="npd-tab-box">
-                <h3 class="npd-green-title text-start">The Box Contains:</h3>
+                <h3 class="npd-green-title text-start">Unbox & Install in Minutes:</h3>
                 <p class="npd-sub-text text-start ms-0 mb-2">
-                    Our neon lights are ready to shine straight from the box!
+                    Your custom neon signs are delivered ready for hassle-free installation!
                 </p>
                 <p class="npd-sub-text text-start ms-0 mb-5">
-                    Each sign is mounted on clear acrylic for support and comes with pre-drilled holes. Stainless steel mounting screws are included, making wall installation quick and easy.
+                    Each neon sign is mounted on a premium clear acrylic backing with pre-drilled mounting holes for stability. The box includes stainless steel mounting screws and installation hardware, 10-feet cable, allowing for quick and secure wall mounting. Simply unpack, install, and switch it on to brighten your space with vibrant illumination.
                 </p>
 
                 {{-- Diagram Container Image --}}
@@ -365,40 +365,41 @@
 
             {{-- TAB 3: How to Install? --}}
             <div class="npd-tab-pane text-start" id="npd-tab-install">
-                <h3 class="npd-green-title text-start">Here's how you can install our neon signs on your wall:</h3>
+                <h3 class="npd-green-title text-start">Here's How to Install Your Neon Sign:</h3>
                 <p class="npd-sub-text text-start ms-0 mb-4">
-                    Simply line up the sign on your desired wall, mark the pre-drilled holes, insert the wall anchors and stainless steel stand-off screws, then plug it in and turn on the glow!
+                    Installing your custom neon sign is quick and easy. Follow these simple steps to securely mount your sign and enjoy its vibrant glow.
                 </p>
                 <div class="row g-4 mt-2">
                     <div class="col-md-4">
                         <div class="npd-install-step-card">
                             <div class="step-num">01</div>
-                            <h4>Position &amp; Mark</h4>
-                            <p>Hold your neon sign against the wall at the desired height and mark the pre-drilled acrylic holes with a pencil.</p>
+                            <h4>Mark The Position</h4>
+                            <p>Place your neon sign against the wall at your preferred location and use a pencil to mark the positions of the pre-drilled holes on the acrylic backing.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="npd-install-step-card">
                             <div class="step-num">02</div>
-                            <h4>Mount Screws</h4>
-                            <p>Drill holes on marks, insert wall anchors, and mount the stainless steel stand-off barrel screws securely.</p>
+                            <h4>Place the Sign</h4>
+                            <p>Drill holes at the marked points, insert the appropriate wall plugs or anchors, and fasten the sign using the supplied stainless steel mounting screws.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="npd-install-step-card">
                             <div class="step-num">03</div>
-                            <h4>Plug &amp; Glow!</h4>
-                            <p>Connect the sign cable to the dimmer controller &amp; power adapter, plug into outlet, and turn on your neon sign!</p>
+                            <h4>Connect & Sign Bright</h4>
+                            <p>Connect the sign to the power adapter and controller, plug it into a power outlet, and switch it on to enjoy your custom LED neon sign.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             {{-- TAB 4: Customise --}}
-            <div class="npd-tab-pane" id="npd-tab-customise">
-                <h3 class="npd-green-title">Customise Your Dream Neon Sign:</h3>
-                <p class="npd-sub-text mb-4">
-                    Use our live interactive 3D configurator at the top of the page to choose your font, text, color, and size! Have a custom logo design? Click the button below to send your logo to our design experts.
+            <div class="npd-tab-pane text-start" id="npd-tab-customise">
+                <h3 class="npd-green-title text-start">Personalise Your Neon Sign:</h3>
+                <p class="npd-sub-text text-start mb-4">
+                    Design your custom LED neon sign with ease using our online customization tool. Choose your preferred text, font style, colour, size, and backing option to create a neon sign that perfectly matches your space, brand, or event.<br><br>
+                    Need a logo or artwork instead of text? Simply send your logo, design, or concept, and the Brand Signages team will create a high-quality custom logo neon sign tailored to your exact requirements. We'll work with you to ensure the final design delivers maximum visual impact.
                 </p>
                 <div class="text-start">
                     <a href="#ncfgTextInput" class="npd-btn-primary">Go to Customizer</a>
@@ -438,13 +439,15 @@ document.addEventListener("DOMContentLoaded", function () {
             {{-- Left Side: Text Content --}}
             <div class="col-lg-6">
                 <div class="np-hero-text-content">
-                    <h2 class="hero-title text-start mb-4">Premium Neon Sign Boards</h2>
+                    <h2 class="hero-title text-start mb-4">Premium LED Neon Sign Boards for Every Business</h2>
                     <p class="brand-description mb-4">
-                        At <a href="{{route('index')}}" style="text-decoration: unset;color:#E43D12; font-weight: bold;">Brand Signages</a>, we bring your brand to life with vibrant, custom-designed neon signboards that captivate and communicate. Our expertise spans stunning open-face neon signs, retro-style neon lights, and modern LED-neon hybrid boards—each tailored to reflect your unique brand identity.
+                        Make your brand impossible to ignore. At Brand Signages, we design and manufacture premium LED neon signs that deliver vibrant illumination, energy efficiency, and lasting durability- tailored to your exact vision.
                     </p>
                     <p class="brand-description mb-0">
-                        Whether you're a budding startup, retail business, restaurant, seasoned brand, or looking for neon signs for a special event or home, our neon solutions offer the perfect fusion of artistic flair and functional brilliance. Every sign is meticulously crafted to ensure visual appeal and durability, turning ordinary spaces into glowing experiences.
+                        Whether you're branding a retail store, restaurant, café, salon, office, showroom, or exhibition space, we match your logo, colours, and design requirements with precision. Our neon signs are built from high-quality materials for exceptional brightness and long-term performance.
                     </p>
+                    <p class="brand-description mb-0 mt-3">
+                        From indoor branding and storefront displays to event signage and decorative installations, we provide end-to-end customization, fast production, and professional installation support. Let your brand shine with a custom LED neon sign from Brand Signages.
                 </div>
             </div>
 
@@ -495,10 +498,12 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="min-abt-banner mb-5" style="background-image: url('{{ asset('frontend/Images/neon-2nd-Gen.webp') }}');">
         <div class="container">
             <div class="min-abt-glass-card">
-                <h2 class="min-abt-glass-title">2nd Gen LED Neon Signs– Brighter Performance and Durability</h2>
+                <h2 class="min-abt-glass-title">Turn Your Logo Into a Neon Masterpiece</h2>
                 <p class="min-abt-glass-desc">
-                    Step into the spotlight with Brand Signages- where timeless neon signs meets cutting-edge LED innovation. Our custom <a href="{{route('neon_sign_board_bangalore')}}" style="color:#ffffff; font-weight: bold; text-decoration: underline;">neon sign boards</a>, elegantly mounted on crystal-clear acrylic bases, deliver a floating, ethereal glow that transforms any space into a captivating masterpiece. Perfect for bold business logos, inspiring quotes, or intricate designs, these signs command attention and etch your brand into memory.
-                </p>
+                    We turn your brand logo into a head-turning neon sign with sharp detail and bold character. Built with next-gen LED neon, high-res UV printing, and rugged waterproofing for outdoor use. Your brand stays bright around the clock- no matter the weather.
+                </p><br>
+                <p class="min-abt-glass-desc">
+                    We build the most premium neon signs with flawless finishing, serving brands across India. 100% custom IP44 rated neon signs- just share your vision, we'll make it happen.
             </div>
         </div>
     </div>
@@ -529,7 +534,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="col-lg-5 col-md-12">
                 <div class="min-abt-info-content">
                     <p class="min-abt-info-text mb-4">
-                        Built with transparent acrylic backing, our neon signs create a clean halo effect that improves brightness and visibility. Powered by 2nd gen LED neon, they are energy-efficient, long-lasting, and suitable for indoor and outdoor use. The lightweight, shatter-resistant build ensures durability, while clear visibility is maintained in both day and night conditions. Available in multiple colors, fonts, and designs, these signs can be customized to match your business requirements.
+                        We create custom neon signs that bring your words, captions, and brand to life in wide range of colors. Each piece is handcrafted in your chosen font and color to match your unique style and vision.<br><br>Fully personalized and made to order, our neon signs transform your creative ideas into a stunning, one-of-a-kind glow for any space. We have the largest supply chain with PAN India delivery network. 
                     </p>
                     
                     <div class="ncfg-cta-wrap">
@@ -552,12 +557,12 @@ document.addEventListener("DOMContentLoaded", function () {
   <section class="neon-space-section">
     <div class="container">
         <div class="text-start mb-4">
-            <h2 class="why-text-heading mb-3 text-start">We Design Neon Signs for Every Space</h2>
-            <p class="text-start">We produce high-class neon lights in Bangalore for all setups. Redesign your place with glow signage shaped just for you!</p>
+            <h2 class="why-text-heading mb-3 text-start">Custom Neon Signs for Every Space & Occasion</h2>
+            <p class="text-start">We craft premium LED neon signs to your exact specifications. Transform any wall, window, or storefront into a bold, illuminated statement built around your brand and style.</p>
         </div>
 
         <div class="neon-space-wrapper">
-            <!-- Neon Signs for Bar -->
+        <!-- Neon Signs for Bar -->
             <div class="neon-space-item active">
                 <img src="{{asset('frontend/Images/nl-5.webp')}}" alt="Neon Signs for Bar">
                 <div class="neon-item-content">
@@ -566,7 +571,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                     <div class="horizontal-content">
                         <h3 class="neon-orange-title">Neon Signs for Bar</h3>
-                        <p>Add vibrant energy to your bar with stylish neon signs. Create an inviting atmosphere with custom neon sign boards featuring bold colors and eye-catching designs.</p>
+                        <p>Add instant energy to your bar with bold, custom neon signs. From classic cocktail quotes to your bar's name in lights, our signage creates an inviting atmosphere that keeps customers coming back.</p>
                     </div>
                 </div>
             </div>
@@ -580,7 +585,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                     <div class="horizontal-content">
                         <h3 class="neon-orange-title">Neon Lights for Restaurants</h3>
-                        <p>Elevate your restaurant’s atmosphere with bold, custom neon lights that seamlessly blend style and function. With their sleek, modern appeal, neon lights bring a fresh energy to any restaurant setting.</p>
+                        <p>Set the perfect mood for your diners with custom neon lighting. Whether it's your logo behind the counter or ambient accent pieces, our LED signs add warmth and character to any restaurant interior.</p>
                     </div>
                 </div>
             </div>
@@ -594,7 +599,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                     <div class="horizontal-content">
                         <h3 class="neon-orange-title">Neon Sign Logo</h3>
-                        <p>Stand aloof with a customized neon sign logo for your brand. Whether for a corporate office or a retail shop, sign boards implant life in your logo in a shining, unforgettable manner.</p>
+                        <p>Make your brand impossible to miss with a custom neon logo sign. Perfect for corporate offices, retail stores, and reception areas, we transform your logo into a vivid, illuminated statement piece.</p>
                     </div>
                 </div>
             </div>
@@ -608,7 +613,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                     <div class="horizontal-content">
                         <h3 class="neon-orange-title">Neon Sign Party Decor</h3>
-                        <p>Stand aloof with a customized neon sign logo for your brand. Whether for a corporate office or a retail shop, sign boards implant life in your logo in a shining, unforgettable manner.</p>
+                        <p>Make every celebration unforgettable with custom neon party decor. From birthdays and weddings to corporate events, our glowing signs create stunning photo backdrops and set the perfect festive mood.</p>
                     </div>
                 </div>
             </div>
@@ -622,7 +627,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                     <div class="horizontal-content">
                         <h3 class="neon-orange-title">Neon Signs for Home</h3>
-                        <p>Give individuality to your living area with tailored neon sign boards. Whether for a comfort zone or your entertainment zone, these LED signage pieces are ideal for home decor.</p>
+                        <p>Add personality to any room with a custom neon sign for your home. Whether it's a favorite quote in the living room or ambient lighting in your bedroom, our signs bring warmth and style to your personal space.</p>
                     </div>
                 </div>
             </div>
@@ -646,9 +651,9 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="deliver-box">
                                 <img src="{{ asset('frontend/Images/person-ico.webp') }}" alt="In-House Experts"
                                     class="img-fluid">
-                                <h3>Expert-led Customization</h3>
+                                <h3>Crafted Around You</h3>
                                 <p>
-                                    Brand Signages works with seasoned signage experts who design every piece of signage with creativity. You bring your vision to life with remarkable neon signboards in Bangalore. Our experts listen to your needs and create unique neon light designs with unmatched craftsmanship.
+                                    Our in-house team of neon specialists works directly with you to design every piece. Share your idea- whether it's a logo, quote, or original concept and we'll shape it into a striking custom neon sign.
                                 </p>
                             </div>
                         </div>
@@ -656,8 +661,8 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="deliver-box">
                                 <img src="{{ asset('frontend/Images/settings-ico.webp') }}"
                                     alt="Industry Grade Products" class="img-fluid">
-                                <h3>Latest Technology</h3>
-                                <p>We leverage the 2nd-gen LED neon technology to create neon lights and serve all types of businesses across the city. We deliver top-of-the-line, innovative neon sign solutions backed by the latest industry trends and technological advancements.
+                                <h3>Advanced LED Neons</h3>
+                                <p>We build every sign using next-gen LED neon technology. The result is vivid, consistent illumination that runs cooler, lasts longer, and consumes significantly less energy than traditional glass neon.
                                 </p>
                             </div>
                         </div>
@@ -665,8 +670,8 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="deliver-box">
                                 <img src="{{ asset('frontend/Images/trusted-ico.webp') }}"
                                     alt="10 Years of Expertise" class="img-fluid">
-                                <h3>Durable Solutions</h3>
-                                <p>We work with pinpoint precision while designing neon signboards. Our neon lights are designed to last for a long time, are energy efficient, and reduce the cost of maintenance. When it comes to neon lights in Bangalore, Brand Signages is best for custom-made neon lights.
+                                <h3>Built to Last</h3>
+                                <p>Every sign is assembled with meticulous attention to detail using premium-grade materials. Our LED neon signs are shock-resistant, low-maintenance, and designed to perform flawlessly for years.
                                 </p>
                             </div>
                         </div>
@@ -674,8 +679,8 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="deliver-box">
                                 <img src="{{ asset('frontend/Images/speed-ico.webp') }}"
                                     alt="Network and Customer Support" class="img-fluid">
-                                <h3>Timely Delivery & Support</h3>
-                                <p>We optimize workflows, maintain stringent timelines, and coordinate logistics to guarantee project completion without compromising quality or design integrity. We provide 24*7 support services from design to installation and maintenance.
+                                <h3>Full-Cycle Support</h3>
+                                <p>We manage design, production, and support under one roof, with streamlined workflows that hit your deadline without cutting corners. Need help after install? Our support team is available 24/7.
                                 </p>
                             </div>
                         </div>
@@ -869,11 +874,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="nr-sidebar-box pe-lg-3">
                     <div class="d-flex align-items-center gap-2 mb-1">
                         <i class="fa-solid fa-star text-warning fs-4"></i>
-                        <span class="fs-2 fw-bold text-dark">4.0</span>
+                        <span class="fs-2 fw-bold text-dark">4.8</span>
                     </div>
                     <h3 class="nr-sidebar-title">All reviews</h3>
                     <p class="text-muted small mb-3">
-                        1,500 total &bull; <a href="#" class="text-primary text-decoration-underline">Write a review</a>
+                        400 total &bull; <a href="#" class="text-primary text-decoration-underline">Write a review</a>
                     </p>
 
                     {{-- Progress Bars Card --}}
@@ -938,13 +943,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         {{-- Card 1: Smitha soni (Text Only) --}}
                         <div class="nr-card p-3 border rounded-3 bg-white">
                             <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="nr-username">Smitha soni</span>
+                                <span class="nr-username">Neha Kapoor</span>
                                 <span class="text-danger small">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </span>
                             </div>
-                            <h4 class="nr-review-title">Charismatic artpiece</h4>
-                            <p class="nr-review-desc">I ordered a custom neon sign for our studio, and it turned out even better than I imagined! The color brightness is unbelievable and the craftsmanship on the transparent acrylic base is super clean. Thank you, Neon Attack, for making my space glow with perfection!</p>
+                            <h4 class="nr-review-title">Shop Neon Board</h4>
+                            <p class="nr-review-desc">I ordered a custom neon sign for our studio, and it turned out even better than I imagined! The colour brightness is unbelievable, the transparent acrylic base is super clean. Thank you, Brand Signages, for making my space glow!</p>
                             <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
@@ -954,12 +959,12 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img src="{{ asset('frontend/Images/review-ag.webp') }}" alt="Cappuccino Neon Sign" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="nr-username">A.G.</span>
+                                <span class="nr-username">Arjun Goyal</span>
                                 <span class="text-danger small">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </span>
                             </div>
-                            <p class="nr-review-desc">Effortlessly stylish and simply superb. Customer Service was so supportive throughout the design process, got my order delivered very quickly, and the packaging was ultra-secure with zero damage. Highly recommended for custom neon sign boards!</p>
+                            <p class="nr-review-desc">Effortlessly stylish and simply superb. The customer service team was incredibly supportive throughout the process, my order arrived within 7 days, and the packaging was secure zero damage.</p>
                             <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
@@ -969,12 +974,12 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img src="{{ asset('frontend/Images/review-customer.webp') }}" alt="Be Nice Share Fries Neon Sign" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="nr-username">Customer</span>
+                                <span class="nr-username">Rahul Mehta</span>
                                 <span class="text-danger small">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </span>
                             </div>
-                            <p class="nr-review-desc">The neon sign which I ordered is bright, beautiful, and vibrant. Amazing packaging and great quality; just simply superb and worth every rupee! The dimming controller lets me set the exact ambiance for my cafe.</p>
+                            <p class="nr-review-desc">The neon sign I ordered for my café is bright and beautiful. Amazing packaging and great quality- simply superb and worth every rupee! The dimming controller is working fine too.</p>
                             <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
@@ -986,8 +991,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </span>
                             </div>
-                            <h4 class="nr-review-title">Loveddd your workk</h4>
-                            <p class="nr-review-desc">What a great way to transform our wall ambiance! Loved the precision of the letters and the overall finish. Very unique design, lightweight structure, and extremely fast setup. Exceptional work by the team!</p>
+                            <h4 class="nr-review-title">Loved Your Work</h4>
+                            <p class="nr-review-desc">The neon sign delivered to me is superb. The design is truly unique, the product is lightweight, and the setup was easy too. Thank you Brand Signages!</p>
                             <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
@@ -997,12 +1002,12 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img src="{{ asset('frontend/Images/review-r.k.webp') }}" alt="Fine Wine Cold Beer Neon Sign" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="nr-username">R.K.</span>
+                                <span class="nr-username">Bonny Reddy</span>
                                 <span class="text-danger small">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </span>
                             </div>
-                            <p class="nr-review-desc">The perfect finishing touch for our commercial entrance! It gives wings to my brand identity and catches everyone's eye immediately. Great work and seamless support from Team Neon Attack.</p>
+                            <p class="nr-review-desc">The perfect finishing touch for our bar entrance! It completely elevates our brand vibe and catches every customer's eye the moment they walk in. Great work and seamless support from Team Brand Signages.</p>
                             <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
@@ -1017,24 +1022,24 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img src="{{ asset('frontend/Images/review-c.webp') }}" alt="Embassy Neon Sign" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="nr-username">C.</span>
+                                <span class="nr-username">Chaitanya Reddy</span>
                                 <span class="text-danger small">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </span>
                             </div>
-                            <p class="nr-review-desc">Superb craftsmanship, great quality build, effortless installation with pre-drilled acrylic holes, and worth every single penny. Outstanding customer support from start to finish!</p>
+                            <p class="nr-review-desc">Perfect design and brightness, solid build, and zero-hassle installation with pre-drilled holes on the acrylic base. Completely worth the investment.</p>
                             <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
                         {{-- Card 2: Vamshi (Text Only) --}}
                         <div class="nr-card p-3 border rounded-3 bg-white">
                             <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="nr-username">Vamshi</span>
+                                <span class="nr-username">Vamshi Iyer</span>
                                 <span class="text-danger small">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </span>
                             </div>
-                            <p class="nr-review-desc">I am so happy with the custom neon sign that I received. The font curvature is stunning, the illumination is 2X brighter as promised, and the sign arrived in perfect condition. The overall experience was top-notch!</p>
+                            <p class="nr-review-desc">I couldn't be happier with my custom neon sign. The font curvature is stunning, the illumination is bright, and the sign arrived in perfect condition.</p>
                             <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
@@ -1044,12 +1049,12 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img src="{{ asset('frontend/Images/review-v.webp') }}" alt="Steakhaus Neon Sign" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="nr-username">V.</span>
+                                <span class="nr-username">Vikram Khanna</span>
                                 <span class="text-danger small">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </span>
                             </div>
-                            <p class="nr-review-desc">My neon sign that I received is simply amazing. The way it is designed with 2nd gen LED neon strip and crystal-clear acrylic is impressive. The quality and brightness controls are best in class.</p>
+                            <p class="nr-review-desc">My neon sign is simply amazing. The second-generation LED neon strip and crystal-clear acrylic design are seriously impressive. The build quality and brightness controls are truly best-in-class.</p>
                             <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
@@ -1059,12 +1064,12 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img src="{{ asset('frontend/Images/review-Mayur-Sharma.webp') }}" alt="Grand Opening Neon Sign" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="nr-username">Mayur Sharma</span>
+                                <span class="nr-username">Mayur Singa</span>
                                 <span class="text-danger small">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </span>
                             </div>
-                            <p class="nr-review-desc">Thrilled with the quality and craftsmanship of my neon sign purchase! Installed it in our office reception and it's a striking focal point that never fails to impress every client who walks in.</p>
+                            <p class="nr-review-desc">Got this installed at our reception desk and it completely changed the energy of the space. The build quality is solid, the illumination is spot-on, and our clients always notice it. Best branding investment we've made this year.</p>
                             <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
@@ -1074,12 +1079,12 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img src="{{ asset('frontend/Images/review-Anika-Mehta.webp') }}" alt="Today is a good day Neon Sign" class="img-fluid rounded-3 w-100" style="max-height: 240px; object-fit: cover;">
                             </div>
                             <div class="d-flex align-items-center justify-content-between mb-2">
-                                <span class="nr-username">Anika Mehta</span>
+                                <span class="nr-username">Anika Murthy</span>
                                 <span class="text-danger small">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </span>
                             </div>
-                            <p class="nr-review-desc">The neon sign that I ordered is of exceptional quality and flawless design. The ordering process was smooth, communication was clear, and delivery was super fast. Will definitely order again for my next outlet!</p>
+                            <p class="nr-review-desc">Running a food business, first impressions matter. This neon sign nailed it. Clean design, bright colours, and the team was responsive throughout. Delivered ahead of schedule too.</p>
                             <a href="#" class="nr-readmore">Read more</a>
                         </div>
 
@@ -1091,29 +1096,31 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
 
         {{-- End Detailed Information Section --}}
-        <div class="nr-info-card-wrapper mt-5 mb-4">
-            <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est. Nunc purus tellus ipsum dictum viverra amet pharetra vel amet. Consequat donec facilisis et tellus ut amet non. Libero odio lorem felis pellentesque id at bibendum auctor. Dui purus et vel quam. Tempus praesent condimentum sollicitudin rutrum at sed enim amet.</p>
+            <div class="nr-info-card-wrapper mt-5 mb-4">
+            <p class="nr-info-card-desc">Brand Signages' custom neon lights and neon signs bring instant color and character to any space. Every design is made to order, so no two signs look exactly alike. From bedrooms and living rooms to shops and event spaces, a well-made neon sign board turns an ordinary wall into the focal point of the room.</p>
 
-            <h3 class="nr-info-card-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
-            <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
+            <h3 class="nr-info-card-heading">Waterproof Neon Signs vs. Regular Neon Signs</h3>
+            <p class="nr-info-card-desc">Not all neon signs are built for the same environment, and that difference matters more than most buyers realize. A regular neon sign is designed for indoor use only, a stray splash, humid weather, or a light drizzle can damage the wiring over time. A waterproof neon sign, on the other hand, is built with sealed components specifically to handle moisture, making it the right choice for patios, poolside setups, balconies, or any outdoor event space.</p>
 
             <div class="nr-info-collapse-content collapse" id="nrInfoMoreContent">
-                <h3 class="nr-info-card-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
-                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
-                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est. Nunc purus tellus ipsum dictum viverra amet pharetra vel amet. Consequat donec facilisis et tellus ut amet non. Libero odio lorem felis pellentesque id at bibendum auctor. Dui purus et vel quam. Tempus praesent condimentum sollicitudin rutrum at sed enim amet.</p>
+                <h3 class="nr-info-card-heading">Understanding IP Ratings on Neon Signs</h3>
+                <p class="nr-info-card-desc">You've probably seen a code like "IP44" listed next to a neon sign and wondered what it actually means. The IP rating tells you how well a sign resists dust and water. For a waterproof or outdoor-rated neon sign board, look for an IP rating of at least IP44, which means the sign can handle water splashing from any direction. This makes it a reliable choice for pool parties, festival setups, or unpredictable weather. Higher IP ratings offer even stronger protection for more extreme outdoor conditions.</p>
+                <p class="nr-info-card-desc">Checking the IP rating before you order isn't optional if your sign is going outdoors. It's the single detail that determines whether your neon sign board lasts through a season of outdoor use or needs replacing after the first heavy rain.</p>
 
-                <h3 class="nr-info-card-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
-                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
+                <h3 class="nr-info-card-heading">Why Waterproof LED Neon Signs Are Worth It</h3>
+                <p class="nr-info-card-desc">Beyond just handling water, waterproof LED neon signs from Brand Signages come with practical advantages over traditional neon. They run more energy-efficiently, which means lower electricity costs over time. They're lighter in weight, so mounting and repositioning is easier. And because they're built on modern LED technology, they come in a far wider range of colors, fonts, and custom shapes than old-style neon tubing ever could.</p>
+                <p class="nr-info-card-desc">Whether it's for a home patio, a storefront, or an event space, a waterproof LED neon sign board delivers the same bold glow as classic neon, with none of the fragility.</p>
 
-                <h3 class="nr-info-card-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
-                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
-                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est. Nunc purus tellus ipsum dictum viverra amet pharetra vel amet. Consequat donec facilisis et tellus ut amet non. Libero odio lorem felis pellentesque id at bibendum auctor. Dui purus et vel quam. Tempus praesent condimentum sollicitudin rutrum at sed enim amet.</p>
-                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
+                <h3 class="nr-info-card-heading">Multicolor Neon Signs for Every Space</h3>
+                <p class="nr-info-card-desc">A neon sign doesn't have to stick to one color. Brand Signages' multicolor and color-changing neon signs let you set the mood for any room or event, calm blues and purples for a relaxed evening, or vibrant pinks and greens when you want the space to feel alive. These are a world apart from the flickering single-tone neon signs of the past; modern LED neon signs are brighter, steadier, and give you full control over the glow.</p>
 
-                <h3 class="nr-info-card-heading">Lorem ipsum dolor sit amet consectetur. Tristique.</h3>
-                <p class="nr-info-card-desc">Lorem ipsum dolor sit amet consectetur. Semper vel cursus convallis erat etiam lorem praesent urna vel. Non nunc tempor ut risus. Sed vulputate neque porta donec in mauris hendrerit. Sem consequat tincidunt ut enim etiam vel velit est.</p>
+                <h3 class="nr-info-card-heading">Fully Customized to Your Design</h3>
+                <p class="nr-info-card-desc">Every neon sign board from Brand Signages can be built around your own idea, whether that's your name in lights, a favorite quote, your business logo, or a custom shape and font combination. You choose the colors, the sizing, and the layout, and our team brings it to life in a sign that's genuinely one of a kind, not picked off a shelf.</p>
+
+                <h3 class="nr-info-card-heading">A Sign Built to Match Your Style</h3>
+                <p class="nr-info-card-desc">A neon sign is more than decor, it's a statement piece. Whether you're upgrading a bedroom, a home office, or a storefront, Brand Signages' custom and waterproof neon sign boards are built to bring color, personality, and durability to any space, indoors or out.</p>
             </div>
-
+        
             <a class="nr-info-readmore-link my-2 d-inline-block" data-bs-toggle="collapse" href="#nrInfoMoreContent" role="button" aria-expanded="false" aria-controls="nrInfoMoreContent" onclick="toggleReadMoreText(this)">
                 ➤ Read More
             </a>
@@ -1298,18 +1305,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <section class="faq-section" id="npd-faqs">
     <div class="faq-container">
-      <h1 class="faq-title">FAQs</h1>
+      <h1 class="faq-title">Frequently Asked Questions</h1>
       
       <div class="faq-item">
         <button class="faq-question">
-            What are Neon Light Signs Made of?
+            What are Neon Sign Boards Made of?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>Neon light signs are manufactured from glass tubes filled with inert gases like neon, mercury vapor, and argon. 
-            When an electric current goes through the gases, they ionize and emit light. Different gases create different colors, 
-            with neon gas producing the classic red-orange glow. We also provide modern alternatives like LED technology for better 
-            energy efficiency and durability.</p>
+          <p>Brand Signages' neon sign boards are made using 2nd Gen LED neon flex mounted on 6mm transparent acrylic. Unlike older glass-tube neon, which relies on gas-filled tubes and high voltage, LED neon uses flexible, low-voltage LED strips that are brighter, safer, and far more durable. This is why LED neon has replaced traditional glass tube neon as the standard for custom signage.</p>
         </div>
       </div>
   
@@ -1319,148 +1323,99 @@ document.addEventListener("DOMContentLoaded", function () {
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>The delivery timing for neon sign boards  generally is between 7-10 business days, based on the personalization and order size.</p>
+          <p>The delivery timing for neon sign boards generally is between 7-10 business days, based on the personalization and order size.</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question">
-            How Long Do Neon Light Signs Typically Last?
+            How Long Do Neon Sign Boards Typically Last?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>Neon light signs generally have a lifespan of approximately 15,000 to 30,000 hours, depending on several factors such as usage, 
-            environment, and the materials used. Proper maintenance & care can extend the lifespan, ensuring the sign remains vibrant and 
-            functional for years. It's worth noting that LED neon signs, which are energy-efficient alternatives, can last significantly longer, 
-            often reaching up to 50,000 hours or more.</p>
+          <p>Brand Signages' LED neon sign boards are built to last up to 50,000 hours or more with proper care. That's significantly longer than older glass-tube neon signs, which typically need gas refills and tube replacements over time. Regular cleaning and avoiding harsh chemicals will help your sign stay bright for years.</p>
         </div>
       </div>
   
       <div class="faq-item">
         <button class="faq-question">
-            Can Neon Light Signs be Used Outdoors?
+            Can Neon Sign Boards be Used Outdoors?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>Yes, neon light signs can be used outdoors if they are specifically designed with durable, weather-resistant materials and waterproof features. Whether it is a garden party or an open-air rooftop dinner, neon lights can illuminate the space with their bright charm.</p>
+          <p>Yes. Brand Signages offers waterproof neon sign boards with an IP44 rating or higher, built specifically to handle rain, humidity, and outdoor conditions. Whether it's a storefront, patio, or rooftop event space, our outdoor-rated signs are designed to hold up without compromising brightness.</p>
            </div>
       </div>
   
       <div class="faq-item">
         <button class="faq-question">
-            Are Neon Light Signs Energy-efficient?
+            Are LED Neon Sign Boards Energy-efficient?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>Neon light signs are energy-efficient compared to incandescent lighting. They consume less power due to the use of inert gases and low voltage. However, modern alternatives like LED neon signs are even more energy-efficient, offering lower power consumption and longer lifespans while maintaining vibrant illumination.</p>
+          <p>Yes, LED neon sign boards are significantly more energy-efficient than traditional glass-tube neon or incandescent lighting. They run on low voltage, consume less power, and generate less heat, which means lower electricity costs without sacrificing brightness.</p>
         </div>
       </div>
   
       <div class="faq-item">
         <button class="faq-question">
-            How Much Do Custom Neon Signs Cost?
+            How Much Do Custom Neon Sign Boards Cost?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-            <p>The cost of custom neon signs is influenced by several key factors:</p>
+            <p>The cost of a custom neon sign board depends on a few key factors:</p>
             <ul>
-                <li>Larger signs require more materials and time to manufacture, resulting in higher costs.</li>
-                <li>Detailed, intricate designs with multiple colors or graphics typically increase the price.</li>
-                <li>The choice of materials, such as premium LEDs or high-quality silicone tubing, can impact the cost.</li>
-                <li>Fully custom signs tailored to specific branding or design preferences often come at a higher price</li>
-                <li>Optional features, such as adjustable brightness or motion effects, can also lead to a higher cost</li>
-                <li>Transparent pricing breakdown</li>
-                <li>Delivery and installation</li>
+                <li>Larger signs require more materials and production time, which increases cost.</li>
+                <li>Detailed designs with multiple colors or intricate graphics typically cost more.</li>
+                <li>Premium LED components and high-quality acrylic can impact the final price.</li>
+                <li>Fully custom signs built to specific branding or design requirements often carry a higher price.</li>
+                <li>Optional features like adjustable brightness or motion effects can also add to the cost.</li>
+                <li>All quotes include a transparent pricing breakdown.</li>
+                <li>Delivery and installation are factored into the final cost.</li>
             </ul>
-            <p>On average, custom neon signs can range from ₹4,000 to ₹50,000 or more, depending on these factors. For a precise quote, 
-                it's advisable to contact the manufacturer directly to discuss your specific design requirements.</p>
+            <p>On average, custom neon sign boards range from ₹4,000 to ₹50,000 or more, depending on these factors. For an exact quote, it's best to contact Brand Signages directly with your design requirements.</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question">
-            What is The Installation Process for Neon Light Signs?
+            What is The Installation Process for Neon Sign Boards?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>Neon signs are usually mounted on a wall, hung from ceilings, or placed on supports. The installation process involves securing 
-            the sign, connecting the power supply, and ensuring proper wiring. Traditional neon signs require an expert installation due to the 
-            glass tube and high voltage requirements. LED neon signs are easier to install, frequently using easy wall supports or adhesive backing. 
-            For outdoor usage, proactive coating is necessary. It is essential to follow safety guidelines and work with experts for safe installation 
-            and lasting durability.</p>
+          <p>Every Brand Signages neon sign board comes with pre-drilled holes and stainless steel mounting screws, making wall installation simple and quick, no glass tubing or complex high-voltage wiring involved. Most signs can be mounted in minutes using standard wall supports. For outdoor installations, we recommend confirming the sign's IP rating and following basic safety guidelines to ensure long-term durability.</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question">
-            What Maintenance is Required for Neon Light Signs?
+            What Maintenance is Required for Neon Sign Boards?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
-          <p>Neon light signs require cleaning to remove dust, keeping them bright and visible. Use a smooth fabric or a dry brush to clean the tubes gently. 
-            Avoid using strong water jets or harsh chemicals, mainly in conventional neon signs. Periodically, check the power supply and connections to ensure 
-            proper functioning. LED neon signs require minimal preservation as compared to conventional neon, which may require gas refills over time. With 
-            proper care, neon signs can last for years at the same time as retaining their brightness and effectiveness.</p>
+          <p>LED neon sign boards require very little maintenance. Wipe the acrylic surface gently with a soft, dry cloth to remove dust, and avoid harsh chemicals or high-pressure water jets, especially on non-waterproof signs. Unlike traditional neon, there's no need for gas refills or tube replacements. Periodically checking the power connection is enough to keep your sign running reliably for years.</p>
         </div>
       </div>
 
       <div class="faq-item">
         <button class="faq-question">
-            What are The Benefits of Using Neon Light Signs for Branding?
+            What are The Benefits of Using Neon Sign Boards for Branding?
           <i class="faq-icon fa-solid fa-chevron-down"></i>
         </button>
         <div class="faq-answer">
             <ul>
-                <li>Neon light signs attract attention with their vivid and colorful brightness, helping businesses stand out.</li>
-                <li>They add an exceptional and elegant element, improving the brand's identity.</li>
-                <li>Neon signs work well for both interior and external use, attracting customers day and night.</li>
-                <li>They can be personalized to match the colors of the brand or logos.</li>
-                <li>Neon LED signs are efficient in energy and durable, offering an affordable branding solution.</li>
+                <li>Neon sign boards attract attention with vivid, eye-catching brightness that helps businesses stand out.</li>
+                <li>They add a modern, premium touch that strengthens brand identity.</li>
+                <li>LED neon signs work well both indoors and outdoors, drawing customers in day and night.</li>
+                <li>Signs can be fully customized to match your brand colors, fonts, and logo.</li>
+                <li>LED neon is energy-efficient and durable, making it a cost-effective long-term branding solution.</li>
             </ul>
-            <p>Whether for a restaurant, retail store, bar, or event, neon signage companies create unforgettable impressions and boost visibility.</p>
+            <p>Whether for a restaurant, retail store, office, or event space, custom neon sign boards from Brand Signages create a lasting impression and boost visibility.</p>
         </div>
       </div>
 
     </div>
   </section>
-
-  <section class="why-bg-light-pink py-5" style="background-color: #ffffff;">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 mb-3 why-text-heading">Latest Articles on Signage & Branding</h2>
-            <p class="card-text text-center">Explore the latest trends, tips, and expert insights in the signage designs through our articles.</p>
-
-        </div>
-
-        <div class="row">
-            @foreach ($blogs as $blog)
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                <a href="{{ route('blogsVaritaion', $blog->slug) }}" style="text-decoration: none;">
-                    <div class="blog-card">
-                        <div class="blog-card-img">
-                            <img src="{{ asset('storage/' . $blog->image) }}" alt="{{ $blog->title }}">
-                        </div>
-                        <div class="blog-card-body">
-                            <div class="d-flex justify-content-between align-items-center mb-2">
-                                <span class="badge">{{ strtoupper($blog->topic) }}</span>
-                                <span class="time">{{ $blog->reding_time }} mins 🕘</span>
-                            </div>
-                            <h5 class="blog-card-title">{{ $blog->title }}</h5>
-                            <p class="card-text">{{ \Illuminate\Support\Str::limit(strip_tags($blog->content), 100, '...') }}
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            @endforeach
-            <div class="text-center">
-            <a href="{{ route('blogs') }}">
-                <button class="contact-btn">See All Blogs</button>
-            </a>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 
