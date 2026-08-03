@@ -17,11 +17,11 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="hero-banner_title">Signage Board Makers in<br> Bangalore for Every Industry</h1>
-                                <p>India's most Trusted B2B signage board manufacturer in Bangalore- LED, <br>Acrylic, Neon, Metal & Digital Signage (12,000+ Deliveries PAN India).
+                                <h1 class="hero-banner_title">Sign Board Makers in<br> Bangalore for Every Industry</h1>
+                                <p>India's most Trusted B2B sign board manufacturer in Bangalore- LED, <br>Acrylic, Neon, Metal & Digital Signage (12,000+ Deliveries PAN India).
                                 </p>
                                 <a href="https://brandsignages.com/contact-us">
-                                    <button class="contact-btn">Know More</button>
+                                    <button class="contact-btn">Explore More</button>
                                 </a>
                             </div>
                         </div>
@@ -35,10 +35,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="hero-banner_title">Unmatched LED Sign Board<br> Solutions for Every Industry</h1>
-                                <p>Brand Signages is a trusted B2B partner for premium signage solutions in Bangalore<br> and PAN India.</p>
-                                <a href="https://brandsignages.com/contact-us">
-                                    <button class="contact-btn">Know More</button>
+                                <h1 class="hero-banner_title">Custom Signage Design <br>& Printing Services (PAN India)</h1>
+                                <p>Explore our custom sign board design solutions, from LED acrylic, neon signs, <br>digital signages, name boards, safety signs and much more.</p>
+                                <a href="https://brandsignages.com/sign-board-design-bangalore">
+                                    <button class="contact-btn">Explore More</button>
                                 </a>
                             </div>
                         </div>
@@ -52,10 +52,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="hero-banner_title">Unmatched LED Sign Board<br> Solutions for Every Industry</h1>
-                                <p>Brand Signages is a trusted B2B partner for premium signage solutions in Bangalore<br> and PAN India.</p>
+                                <h1 class="hero-banner_title">Best LED Name Board and <br>Banner Boards for Businesses</h1>
+                                <p>Explore eye-catching LED sign board and name board options for effective branding <br>and clear messaging at Brand Signages with 200+ design options.</p>
                                 <a href="https://brandsignages.com/contact-us">
-                                    <button class="contact-btn">Know More</button>
+                                    <button class="contact-btn">Explore More</button>
                                 </a>
                             </div>
                         </div>
@@ -221,7 +221,7 @@
                                     <i class="fas fa-phone-alt me-2"></i> Request a Call Back
                                 </button>
                                 <a href="/name-board-design-for-office-bangalore" class="btn-catalog-secondary">
-                                    Know More
+                                    Explore More
                                 </a>
                             </div>
                         </div>
@@ -270,7 +270,7 @@
                                     <i class="fas fa-phone-alt me-2"></i> Request a Call Back
                                 </button>
                                 <a href="https://brandsignages.com/indoor-signages" class="btn-catalog-secondary">
-                                    Know More
+                                    Explore More
                                 </a>
                             </div>
                         </div>
@@ -319,7 +319,7 @@
                                     <i class="fas fa-phone-alt me-2"></i> Request a Call Back
                                 </button>
                                 <a href="/name-board-designs-for-shops-bangalore" class="btn-catalog-secondary">
-                                    Know More
+                                    Explore More
                                 </a>
                             </div>
                         </div>
@@ -368,7 +368,7 @@
                                     <i class="fas fa-phone-alt me-2"></i> Request a Call Back
                                 </button>
                                 <a href="/outdoor-signages" class="btn-catalog-secondary">
-                                    Know More
+                                    Explore More
                                 </a>
                             </div>
                         </div>
@@ -417,7 +417,7 @@
                                     <i class="fas fa-phone-alt me-2"></i> Request a Call Back
                                 </button>
                                 <a href="/led-acrylic-3d-glow-sign-board" class="btn-catalog-secondary">
-                                    Know More
+                                    Explore More
                                 </a>
                             </div>
                         </div>
@@ -466,7 +466,7 @@
                                     <i class="fas fa-phone-alt me-2"></i> Request a Call Back
                                 </button>
                                 <a href="/neon-signages" class="btn-catalog-secondary">
-                                    Know More
+                                    Explore More
                                 </a>
                             </div>
                         </div>
@@ -515,7 +515,7 @@
                                     <i class="fas fa-phone-alt me-2"></i> Request a Call Back
                                 </button>
                                 <a href="/metal-signages" class="btn-catalog-secondary">
-                                    Know More
+                                    Explore More
                                 </a>
                             </div>
                         </div>
@@ -564,7 +564,7 @@
                                     <i class="fas fa-phone-alt me-2"></i> Request a Call Back
                                 </button>
                                 <a href="/arcylic-signages" class="btn-catalog-secondary">
-                                    Know More
+                                    Explore More
                                 </a>
                             </div>
                         </div>
@@ -613,7 +613,7 @@
                                     <i class="fas fa-phone-alt me-2"></i> Request a Call Back
                                 </button>
                                 <a href="/banner-printing" class="btn-catalog-secondary">
-                                    Know More
+                                    Explore More
                                 </a>
                             </div>
                         </div>
@@ -662,7 +662,7 @@
                                     <i class="fas fa-phone-alt me-2"></i> Request a Call Back
                                 </button>
                                 <a href="/banner-printing" class="btn-catalog-secondary">
-                                    Know More
+                                    Explore More
                                 </a>
                             </div>
                         </div>
