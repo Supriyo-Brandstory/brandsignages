@@ -140,6 +140,7 @@ Route::get('/flat-panel-display', [frontendController::class, 'flat_panel_displa
 Route::get('/lollipop-pylon-signage', [frontendController::class, 'lollipop_pylon_signage'])->name('lollipop_pylon_signage');
 Route::get('/directional-signages', [frontendController::class, 'directional_signages'])->name('directional_signages');
 Route::get('/safety-signages', [frontendController::class, 'safety_signages'])->name('safety_signages');
+Route::get('/safety-signages-2', [frontendController::class, 'safety_signages_2'])->name('safety_signages_2');
 
 
 

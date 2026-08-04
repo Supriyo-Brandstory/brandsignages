@@ -1,0 +1,681 @@
+/* ====================================================
+   SAFETY SIGNAGES 2 — CUSTOM STYLESHEET
+   ==================================================== */
+
+.ss2-hero-banner {
+    position: relative;
+    width: 100%;
+    min-height: 560px;
+    padding: 110px 0;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.15) 85%, rgba(0, 0, 0, 0) 100%), url('../Images/sefty-banner.webp');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.ss2-hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.ss2-hero-badges {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.ss2-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 8px 10px;
+    border-radius: 1000px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0;
+    box-sizing: border-box;
+}
+
+.ss2-hero-title {
+    font-family: 'Lora', serif;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #ffffff;
+    margin-bottom: 22px;
+    letter-spacing: 0;
+}
+
+.ss2-hero-desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 620px;
+    margin-bottom: 34px;
+    letter-spacing: 0;
+}
+
+.ss2-hero-ctas {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.ss2-btn-primary {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: center;
+    background: #f03e1a;
+    color: #ffffff !important;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #f03e1a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(240, 62, 26, 0.35);
+}
+
+.ss2-btn-primary:hover {
+    background: #d83311;
+    border-color: #d83311;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(240, 62, 26, 0.5);
+}
+
+.ss2-btn-secondary {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: center;
+    background: transparent;
+    color: #ffffff !important;
+    padding: 12px 28px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ss2-btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #ffffff;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .ss2-hero-banner {
+        padding: 80px 0;
+        min-height: 480px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.75) 100%), url('../Images/sefty-banner.webp');
+    }
+
+    .ss2-hero-title {
+        font-size: 38px;
+    }
+
+    .ss2-hero-desc {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .ss2-hero-banner {
+        padding: 60px 20px;
+        min-height: auto;
+    }
+
+    .ss2-hero-title {
+        font-size: 31px;
+        line-height: 1.28;
+    }
+
+    .ss2-hero-badges {
+        gap: 8px;
+    }
+
+    .ss2-badge {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .ss2-hero-ctas {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .ss2-btn-primary,
+    .ss2-btn-secondary {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/* ====================================================
+   SPECS & GALLERY SECTION
+   ==================================================== */
+
+.ss2-specs-gallery-section {
+    background-color: #ffffff;
+    padding: 70px 0;
+}
+
+.ss2-main-img-box {
+    width: 610px;
+    max-width: 100%;
+    height: 410px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.ss2-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    border-radius: 15px;
+    transition: opacity 0.25s ease;
+}
+
+.ss2-thumbs-strip {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+.ss2-thumb-item {
+    width: 112px;
+    height: 120px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    opacity: 1;
+    background-color: #f1f3f5;
+}
+
+.ss2-thumb-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.ss2-thumb-item.active,
+.ss2-thumb-item:hover {
+    border-color: #0d6efd;
+    border-width: 2px;
+    opacity: 1;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.25);
+}
+
+/* Specs Table */
+.ss2-specs-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    min-height: 546px;
+}
+
+.ss2-spec-row {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    flex: 1;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.ss2-spec-row:last-child {
+    border-bottom: none;
+}
+
+.ss2-spec-label {
+    width: 160px;
+    flex-shrink: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: #E43D12;
+}
+
+.ss2-spec-value {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+/* Bottom Description */
+.ss2-desc-title {
+    font-family: 'Lora', serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: #212121;
+}
+
+.ss2-desc-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0;
+    color: #4a4a4a;
+    margin-bottom: 18px;
+}
+
+/* Click to Expand Container */
+.ss2-expandable-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+    opacity: 0;
+}
+
+.ss2-expandable-text.expanded {
+    max-height: 1200px;
+    opacity: 1;
+}
+
+.ss2-read-more-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: center;
+    color: #E43D12;
+    background: transparent;
+    border: none;
+    padding: 0;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.ss2-read-more-link:hover {
+    color: #c0310c;
+    gap: 12px;
+}
+
+@media (max-width: 991px) {
+    .ss2-specs-table {
+        min-height: auto;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ss2-specs-gallery-section {
+        padding: 40px 20px;
+    }
+
+    .ss2-spec-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        padding: 14px 0;
+    }
+
+    .ss2-spec-label {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .ss2-spec-value {
+        font-size: 15px;
+    }
+
+    .ss2-thumb-item {
+        width: 60px;
+        height: 50px;
+    }
+
+    .ss2-desc-title {
+        font-size: 26px;
+    }
+}
+
+.np-card-badge {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffffff;
+    color: #e43d12;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13.5px;
+    font-weight: 500;
+    padding: 6px 16px;
+    border-radius: 1000px;
+    white-space: nowrap;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    max-width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    z-index: 5;
+}
+
+/* ====================================================
+   BUTTON VARIANTS & REUSABLE UTILITIES
+   ==================================================== */
+
+.ss2-btn-orange {
+    color: #e43d12 !important;
+    border-color: #e43d12 !important;
+}
+
+.ss2-btn-orange:hover {
+    background: #e43d12 !important;
+    color: #ffffff !important;
+    border-color: #e43d12 !important;
+}
+
+.ss2-text-link {
+    color: #212121;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.ss2-text-link:hover {
+    color: #e43d12;
+}
+
+/* ====================================================
+   SMARTER SAFETY SIGNAGE WORKSPACE SECTION
+   ==================================================== */
+
+.ss2-workspace-section {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.7) 45%, rgba(0, 0, 0, 0.9) 100%), url('../Images/safety-12.webp');
+    background-size: cover;
+    background-position: center;
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.ss2-workspace-title {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #ffffff;
+    letter-spacing: 0;
+}
+
+.ss2-workspace-desc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #f0f0f0;
+    letter-spacing: 0;
+}
+
+.ss2-workspace-btn {
+    background-color: #e43d12;
+    color: #ffffff !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 12px 28px;
+    border-radius: 6px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.ss2-workspace-btn:hover {
+    background-color: #c0310c;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(228, 61, 18, 0.35);
+}
+
+/* Section Container Overflow Shields */
+.ss2-hero-banner,
+.ss2-specs-gallery-section,
+.np-hero-section,
+.ss2-workspace-section,
+.ss2-awareness-risk-section,
+.ss2-communication-section {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.ss2-communication-section,
+.npd-section.npd-white-theme,
+.np-hero-section,
+.ss2-awareness-risk-section {
+    padding: 0 20px 50px !important;
+
+}
+
+/* ====================================================
+   AWARENESS & COMMUNICATION GENERAL SECTIONS
+   ==================================================== */
+
+.ss2-section-title {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    color: #212121;
+    letter-spacing: 0;
+}
+
+.ss2-section-desc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #333333;
+    letter-spacing: 0;
+}
+
+.ss2-awareness-risk-img-wrap {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.ss2-awareness-risk-img {
+    border-radius: 20px;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}
+
+/* Feature Cards */
+.ss2-feature-card {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 14px;
+    padding: 28px 24px;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ss2-feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.ss2-feature-card-title {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+    color: #e43d12;
+    margin-bottom: 12px;
+}
+
+.ss2-feature-card-desc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4a4a4a;
+    margin-bottom: 0;
+}
+
+/* ====================================================
+   MOBILE & RESPONSIVE MEDIA QUERIES
+   ==================================================== */
+
+@media (max-width: 991px) {
+    .ss2-workspace-section {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.88) 100%), url('../Images/safety-12.webp');
+        padding: 60px 0;
+        min-height: auto;
+    }
+
+    .ss2-workspace-title,
+    .ss2-section-title {
+        font-size: 30px;
+    }
+
+    .ss2-workspace-desc {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .ss2-section-desc {
+        font-size: 16.5px;
+    }
+
+    .ss2-feature-card-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ss2-main-img-box {
+        width: 100%;
+        height: 270px;
+    }
+
+    .ss2-thumbs-strip {
+        gap: 8px;
+        justify-content: space-between;
+        margin-top: 12px;
+    }
+
+    .ss2-thumb-item {
+        width: calc(20% - 7px);
+        height: 65px;
+        border-radius: 6px;
+    }
+
+    .ss2-thumb-item img {
+        border-radius: 4px;
+    }
+
+    .ss2-communication-section .text-center,
+    .ss2-communication-section .row {
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .ss2-workspace-section {
+        padding: 50px 20px;
+    }
+
+    .ss2-main-img-box {
+        height: 220px;
+    }
+
+    .ss2-thumb-item {
+        height: 52px;
+    }
+
+    .ss2-workspace-title,
+    .ss2-section-title {
+        font-size: 24px;
+        line-height: 1.25;
+    }
+
+    .ss2-workspace-desc {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .ss2-workspace-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 20px;
+    }
+
+    .ss2-section-desc {
+        font-size: 14.5px;
+        line-height: 1.5;
+    }
+
+    .ss2-feature-card {
+        padding: 18px;
+    }
+
+    .ss2-feature-card-title {
+        font-size: 18px;
+    }
+
+    .ss2-feature-card-desc {
+        font-size: 14px;
+    }
+}
