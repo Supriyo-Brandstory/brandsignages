@@ -506,6 +506,11 @@
 
 }
 
+.brand-description,
+.ss2-desc-p {
+    font-size: 16px;
+}
+
 /* ====================================================
    AWARENESS & COMMUNICATION GENERAL SECTIONS
    ==================================================== */
