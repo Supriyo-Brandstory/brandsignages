@@ -3,7 +3,7 @@
    ==================================================== */
 
 .ss2-hero-banner {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.15) 85%, rgba(0, 0, 0, 0) 100%), url('../Images/restroom-banner.webp');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.65) 45%, rgba(0, 0, 0, 0.15) 85%, rgba(0, 0, 0, 0) 100%), url('../Images/restroom-banner.webp') !important;
 }
 
 /* ====================================================

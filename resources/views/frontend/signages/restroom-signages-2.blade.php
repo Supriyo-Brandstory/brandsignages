@@ -2,11 +2,11 @@
 
 @push('styles')
 <link rel="stylesheet" href="{{ asset('frontend/customstyle/safety-signages-2.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/customstyle/restroom-signages-2.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/customstyle/directional-signages-2.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/customstyle/neon-signages-2.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/neon-sign-board-bangalore.css') }}" />
 <link rel="stylesheet" href="{{ asset('frontend/customstyle/digital-signages-2.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/customstyle/restroom-signages-2.css') }}">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
         <div class="row">
             <div class="col-lg-7 col-xl-6">
                 <div class="ss2-hero-content">
-                    <h1 class="ss2-hero-title">Buy Restroom Signages in <br>India</h1>
+                    <h1 class="ss2-hero-title">Buy Restroom Signages in India</h1>
 
                     <div class="ss2-hero-ctas">
                         <button type="button" class="ss2-btn-primary" data-bs-toggle="modal" data-bs-target="#globalContactPopup">
