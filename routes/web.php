@@ -26,6 +26,7 @@ Route::get('/door-signages', [frontendController::class, 'door_signages'])->name
 Route::get('/house-number-signages', [frontendController::class, 'house_number_signages'])->name('house_number_signages');
 Route::get('/nameplate-signages', [frontendController::class, 'nameplate_signages'])->name('nameplate_signages');
 Route::get('/restroom-signages', [frontendController::class, 'restroom_signages'])->name('restroom_signages');
+Route::get('/restroom-signages-2', [frontendController::class, 'restroom_signages_2'])->name('restroom_signages_2');
 Route::get('/prohibitory-signages', [frontendController::class, 'prohibitory_signages'])->name('prohibitory_signages');
 Route::get('/office-desk-signages', [frontendController::class, 'office_desk_signages'])->name('office_desk_signages');
 Route::get('/floor-signages', [frontendController::class, 'floor_signages'])->name('floor_signages');
@@ -139,6 +140,7 @@ Route::get('/flat-panel-display', [frontendController::class, 'flat_panel_displa
 
 Route::get('/lollipop-pylon-signage', [frontendController::class, 'lollipop_pylon_signage'])->name('lollipop_pylon_signage');
 Route::get('/directional-signages', [frontendController::class, 'directional_signages'])->name('directional_signages');
+Route::get('/directional-signages-2', [frontendController::class, 'directional_signages_2'])->name('directional_signages_2');
 Route::get('/safety-signages', [frontendController::class, 'safety_signages'])->name('safety_signages');
 Route::get('/safety-signages-2', [frontendController::class, 'safety_signages_2'])->name('safety_signages_2');
 

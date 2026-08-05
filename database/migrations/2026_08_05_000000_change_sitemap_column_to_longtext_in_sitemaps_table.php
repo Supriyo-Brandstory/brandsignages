@@ -11,10 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('sitemaps', function (Blueprint $table) {
-            $table->id();
-            $table->longText('sitemap')->nullable();
-            $table->timestamps();
+        Schema::table('sitemaps', function (Blueprint $table) {
+            $table->longText('sitemap')->nullable()->change();
         });
     }
 
@@ -23,6 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('sitemaps');
+        Schema::table('sitemaps', function (Blueprint $table) {
+            $table->text('sitemap')->nullable()->change();
+        });
     }
 };
