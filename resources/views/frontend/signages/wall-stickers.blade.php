@@ -97,7 +97,7 @@
         </div>
 
         <div class="text-center">
-            <a href="#pricing"><button class="contact-btn">Check Pricing</button></a>
+            <a href="#pricing" class="contact-btn text-decoration-none d-inline-block">Check Pricing</a>
         </div>
     </section>
 

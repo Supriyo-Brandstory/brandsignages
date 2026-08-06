@@ -286,16 +286,16 @@
                         @endif
                     @endforeach
                     <li class="nav-item ms-3">
-                        <a href="{{ route('contact_us') }}">
-                            <button class="contact-btn">Contact Us</button>
-                        </a>
+                        <a href="{{ route('contact_us') }}" class="contact-btn text-decoration-none d-inline-block">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    @yield('content')
+    <main id="main-content">
+        @yield('content')
+    </main>
 
 
 
@@ -618,12 +618,12 @@
                         portfolio and client base across different industries.
                     </p>
                     <div class='d-flex justify-content-left' style="gap: 10px;">
-                        <a href="https://www.youtube.com/@BrandSignages" target="_blank"><i
-                                class="fab fa-youtube fa-2x" style="color: red;"></i></a>
-                        <a href="https://www.facebook.com/BrandSignagesIndia/" target="_blank"><i
-                                class="fab fa-facebook fa-2x" style="color: #1216e4ff;"></i></a>
-                        <a href="https://in.pinterest.com/brandsignages/" target="_blank"><i
-                                class="fab fa-pinterest fa-2x" style="color: #E43D12;"></i></a>
+                        <a href="https://www.youtube.com/@BrandSignages" target="_blank" aria-label="Brand Signages YouTube Channel"><i
+                                class="fab fa-youtube fa-2x" style="color: red;" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/BrandSignagesIndia/" target="_blank" aria-label="Brand Signages Facebook Page"><i
+                                class="fab fa-facebook fa-2x" style="color: #1216e4ff;" aria-hidden="true"></i></a>
+                        <a href="https://in.pinterest.com/brandsignages/" target="_blank" aria-label="Brand Signages Pinterest Page"><i
+                                class="fab fa-pinterest fa-2x" style="color: #E43D12;" aria-hidden="true"></i></a>
                     </div>
                 </div>
 
@@ -651,9 +651,8 @@
                                 Signage</a>
                         </li>
                         <li><a href="{{ route('arcylic_signages') }}" class="text-decoration-none">Acrylic
-                                Signage</a>
+                                Signage</a></li>
                         <li><a href="{{ route('acrylic_letters') }}" class="text-decoration-none">Acrylic Letter</a>
-                        </li>
                         </li>
                         <li><a href="{{ route('neon_signages') }}" class="text-decoration-none">Neon Sign</a></li>
                         <li><a href="{{ route('metal_signages') }}" class="text-decoration-none">Metal Signage</a>
@@ -691,7 +690,7 @@
 
 
 
-    <a href="tel:+918006606080" class="call-btn"><i class="fas fa-phone"></i></a>
+    <a href="tel:+918006606080" class="call-btn" aria-label="Call Brand Signages"><i class="fas fa-phone" aria-hidden="true"></i></a>
 
 
 

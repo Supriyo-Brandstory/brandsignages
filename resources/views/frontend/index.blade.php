@@ -20,9 +20,7 @@
                                 <h1 class="hero-banner_title">Sign Board Makers in<br> Bangalore for Every Industry</h1>
                                 <p>India's most Trusted B2B sign board manufacturer in Bangalore- LED, <br>Acrylic, Neon, Metal & Digital Signage (12,000+ Deliveries PAN India).
                                 </p>
-                                <a href="https://brandsignages.com/contact-us">
-                                    <button class="contact-btn">Explore More</button>
-                                </a>
+                                <a href="https://brandsignages.com/contact-us" class="contact-btn text-decoration-none d-inline-block">Explore More</a>
                             </div>
                         </div>
                     </div>
@@ -35,11 +33,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="hero-banner_title">Custom Signage Design <br>& Printing Services (PAN India)</h1>
+                                <h2 class="hero-banner_title">Custom Signage Design <br>& Printing Services (PAN India)</h2>
                                 <p>Explore our custom sign board design solutions, from LED acrylic, neon signs, <br>digital signages, name boards, safety signs and much more.</p>
-                                <a href="https://brandsignages.com/sign-board-design-bangalore">
-                                    <button class="contact-btn">Explore More</button>
-                                </a>
+                                <a href="https://brandsignages.com/sign-board-design-bangalore" class="contact-btn text-decoration-none d-inline-block">Explore More</a>
                             </div>
                         </div>
                     </div>
@@ -52,11 +48,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="hero-banner_title">Best LED Name Board and <br>Banner Boards for Businesses</h1>
+                                <h2 class="hero-banner_title">Best LED Name Board and <br>Banner Boards for Businesses</h2>
                                 <p>Explore eye-catching LED sign board and name board options for effective branding <br>and clear messaging at Brand Signages with 200+ design options.</p>
-                                <a href="https://brandsignages.com/led-acrylic-3d-glow-sign-board">
-                                    <button class="contact-btn">Explore More</button>
-                                </a>
+                                <a href="https://brandsignages.com/led-acrylic-3d-glow-sign-board" class="contact-btn text-decoration-none d-inline-block">Explore More</a>
                             </div>
                         </div>
                     </div>
@@ -1048,9 +1042,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <a href="/contact-us">
-                    <button class="contact-btn">Start Your Project</button>
-                </a>
+                <a href="/contact-us" class="contact-btn text-decoration-none d-inline-block">Start Your Project</a>
             </div>
 
 
@@ -1559,16 +1551,14 @@
                     </div>
                 @endforeach
                 <div class="text-center">
-                    <a href="{{ route('blogs') }}">
-                        <button class="contact-btn">See All Blogs</button>
-                    </a>
+                    <a href="{{ route('blogs') }}" class="contact-btn text-decoration-none d-inline-block">See All Blogs</a>
                 </div>
             </div>
         </div>
 </section>
 <section class="faq-section">
         <div class="container">
-            <h1 class="faq-title">Frequently Asked Questions</h1>
+            <h2 class="faq-title">Frequently Asked Questions</h2>
 
             <div class="faq-item">
                 <button class="faq-question">
