@@ -925,7 +925,7 @@
             !Request::is('blogs*'))
         <!-- Popup Modal -->
         <div class="modal fade" id="globalContactPopup" tabindex="-1" aria-labelledby="globalContactPopupLabel"
-            aria-hidden="true">
+            aria-label="Request a Quote" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <div class="modal-header border-0">
@@ -935,7 +935,7 @@
                     <div class="modal-body p-0">
                         <div class="row g-0 ">
                             <div class="col-md-12 popup-card-inner">
-                                <h3 class="popup-title">Request a Quote</h3>
+                                <h3 class="popup-title" id="globalContactPopupLabel">Request a Quote</h3>
                                 <p class="popup-subtitle">Need More Info? Please Contact Us and We'll Do Our Best to Help.</p>
 
                                 <form id="globalPopupForm" action="{{ route('contact.store') }}" method="POST">
