@@ -142,7 +142,7 @@ Route::get('/lollipop-pylon-signage', [frontendController::class, 'lollipop_pylo
 Route::get('/directional-signages', [frontendController::class, 'directional_signages'])->name('directional_signages');
 Route::get('/directional-signages-2', [frontendController::class, 'directional_signages_2'])->name('directional_signages_2');
 Route::get('/safety-signages', [frontendController::class, 'safety_signages'])->name('safety_signages');
-Route::get('/safety-signages-2', [frontendController::class, 'safety_signages_2'])->name('safety_signages_2');
+
 
 
 

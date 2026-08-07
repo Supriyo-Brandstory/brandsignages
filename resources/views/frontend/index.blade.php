@@ -33,7 +33,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2 class="hero-banner_title">Custom Signage Design <br>& Printing Services (PAN India)</h2>
+                                <h1 class="hero-banner_title">Custom Signage Design <br>& Printing Services (PAN India)</h2>
                                 <p>Explore our custom sign board design solutions, from LED acrylic, neon signs, <br>digital signages, name boards, safety signs and much more.</p>
                                 <a href="https://brandsignages.com/sign-board-design-bangalore" class="contact-btn text-decoration-none d-inline-block">Explore More</a>
                             </div>
@@ -48,7 +48,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2 class="hero-banner_title">Best LED Name Board and <br>Banner Boards for Businesses</h2>
+                                <h1 class="hero-banner_title">Best LED Name Board and <br>Banner Boards for Businesses</h2>
                                 <p>Explore eye-catching LED sign board and name board options for effective branding <br>and clear messaging at Brand Signages with 200+ design options.</p>
                                 <a href="https://brandsignages.com/led-acrylic-3d-glow-sign-board" class="contact-btn text-decoration-none d-inline-block">Explore More</a>
                             </div>

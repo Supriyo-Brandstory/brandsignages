@@ -1105,13 +1105,7 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.safety-signages', compact('seo'));
     }
-    public function safety_signages_2()
-    {
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
-        return view('frontend.signages.safety-signages-2', compact('seo', 'blogs'));
-    }
+
 
 
 
