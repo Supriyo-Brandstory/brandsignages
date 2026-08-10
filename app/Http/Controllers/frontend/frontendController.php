@@ -399,6 +399,13 @@ class frontendController extends Controller
         $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 11)->take(3)->get();
         return view('frontend.signages.name-board-designs-for-shops-bangalore', compact('seo', 'blogs'));
     }
+    public function led_light_board_design()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 11)->take(3)->get();
+        return view('frontend.signages.light-board-design', compact('seo', 'blogs'));
+    }
     public function name_board_office_bangalore()
     {
         $currentRoute = Route::current()->uri();
