@@ -45,6 +45,7 @@ Route::get('/3d-crystal-led-letters', [frontendController::class, 'crystal_led_l
 Route::get('/sky-sign-boards', [frontendController::class, 'sky_signs'])->name('sky_signs');
 Route::get('/led-dot-matrix-display', [frontendController::class, 'led_dot_matrix'])->name('led_dot_matrix');
 Route::get('/flexible-led-display-boards', [frontendController::class, 'flexible_led_display'])->name('flexible_led_display');
+Route::get('/sign-board-manufacturers', [frontendController::class, 'sign_board_manufacturers'])->name('sign_board_manufacturers');
 //bengalore
 Route::get('/acrylic-signage-manufacturer-bangalore', [frontendController::class, 'acrylic_signage_manufacturer_bangalore'])->name('acrylic_signage_manufacturer_bangalore');
 Route::get('/steel-signage-manufacturer-bangalore', [frontendController::class, 'steel_signage_manufacturer_bangalore'])->name('steel_signage_manufacturer_bangalore');
