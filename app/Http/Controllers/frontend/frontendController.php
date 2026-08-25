@@ -399,6 +399,13 @@ class frontendController extends Controller
         $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 11)->take(3)->get();
         return view('frontend.signages.name-board-designs-for-shops-bangalore', compact('seo', 'blogs'));
     }
+    public function led_light_board_design()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        $blogs = Blog::orderBy('id', 'desc')->where('blog_sub_category_id', 11)->take(3)->get();
+        return view('frontend.signages.light-board-design', compact('seo', 'blogs'));
+    }
     public function name_board_office_bangalore()
     {
         $currentRoute = Route::current()->uri();
@@ -451,6 +458,13 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.led-name-board-for-shop', compact('seo'));
     }
+    public function sign_board_manufacturers()
+    {
+        $currentRoute = Route::current()->uri();
+        $seo = SEO::where('page_url', $currentRoute)->first();
+        return view('frontend.signages.sign-board-manufacturers', compact('seo'));
+    }
+
     //chennai
     public function signage_company_in_chennai()
     {
@@ -1105,13 +1119,7 @@ class frontendController extends Controller
         $seo = SEO::where('page_url', $currentRoute)->first();
         return view('frontend.signages.safety-signages', compact('seo'));
     }
-    public function safety_signages_2()
-    {
-        $currentRoute = Route::current()->uri();
-        $seo = SEO::where('page_url', $currentRoute)->first();
-        $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
-        return view('frontend.signages.safety-signages-2', compact('seo', 'blogs'));
-    }
+
 
 
 
