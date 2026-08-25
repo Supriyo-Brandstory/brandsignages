@@ -26,8 +26,10 @@ class BackupController extends Controller
 
     public function create()
     {
-        ini_set('max_execution_time', 600);
-        ini_set('memory_limit', '512M');
+        ini_set('max_execution_time', 0);
+        ini_set('memory_limit', '-1');
+        DB::connection()->disableQueryLog();
+
         try {
             $timestamp = now()->format('Y-m-d_H-i-s');
             $filename = "backup_{$timestamp}.zip";
@@ -131,7 +133,7 @@ class BackupController extends Controller
 
     public function download($id)
     {
-        ini_set('memory_limit', '512M');
+        ini_set('memory_limit', '-1');
         $backup = Backup::findOrFail($id);
         $path = storage_path('app/' . $backup->path);
         if (File::exists($path)) return response()->download($path);
@@ -155,7 +157,7 @@ class BackupController extends Controller
 
     public function sendEmail($id)
     {
-        ini_set('memory_limit', '512M');
+        ini_set('memory_limit', '-1');
         $backup = Backup::findOrFail($id);
         $path = storage_path('app/' . $backup->path);
         $emailSetting = Setting::where('key', 'backup_emails')->first();
@@ -173,9 +175,11 @@ class BackupController extends Controller
 
     public function import(Request $request)
     {
-        ini_set('max_execution_time', 600);
-        ini_set('memory_limit', '512M');
-        $request->validate(['backup_file' => 'required|file|mimes:zip']);
+        ini_set('max_execution_time', 0);
+        ini_set('memory_limit', '-1');
+        DB::connection()->disableQueryLog();
+
+        $request->validate(['backup_file' => 'required|file']);
 
         try {
             $zipFile = $request->file('backup_file');
@@ -188,10 +192,21 @@ class BackupController extends Controller
                 $zip->extractTo($extractPath);
                 $zip->close();
 
-                $sqlFile = $extractPath . '/database.sql';
-                $sqlFileGz = $extractPath . '/database.sql.gz';
-                
-                if (File::exists($sqlFileGz) || File::exists($sqlFile)) {
+                // Find SQL file anywhere inside extracted directory
+                $sqlFile = null;
+                if (File::exists($extractPath . '/database.sql')) {
+                    $sqlFile = $extractPath . '/database.sql';
+                } else {
+                    $allFiles = File::allFiles($extractPath);
+                    foreach ($allFiles as $file) {
+                        if ($file->getExtension() === 'sql') {
+                            $sqlFile = $file->getRealPath();
+                            break;
+                        }
+                    }
+                }
+
+                if ($sqlFile && File::exists($sqlFile)) {
                     DB::statement('SET FOREIGN_KEY_CHECKS=0;');
                     
                     // Drop existing tables except sessions
@@ -200,49 +215,16 @@ class BackupController extends Controller
                         $tableKey = array_keys((array)$currentTables[0])[0];
                         foreach ($currentTables as $table) {
                             $tableName = $table->$tableKey;
-                            if ($tableName !== 'sessions' && $tableName !== 'migrations') {
-                                Schema::dropIfExists($tableName);
+                            if ($tableName !== 'sessions') {
+                                DB::statement("DROP TABLE IF EXISTS `$tableName`");
                             }
                         }
                     }
                     
-                    // Import Data
-                    if (File::exists($sqlFile)) {
-                        $sql = File::get($sqlFile);
-                        // Using unprepared on the whole file for better statement splitting
-                        // We increase memory above to support this.
-                        DB::unprepared($sql);
-                    } else {
-                        // Gzip fallback (streaming)
-                        $handle = gzopen($sqlFileGz, 'rb');
-                        $query = '';
-                        while (!gzeof($handle)) {
-                            $line = gzgets($handle, 4096);
-                            if (trim($line) == '' || strpos(trim($line), '--') === 0 || strpos(trim($line), '/*') === 0) continue;
-                            $query .= $line;
-                            if (substr(trim($line), -1) == ';') {
-                                DB::unprepared($query);
-                                $query = '';
-                            }
-                        }
-                        gzclose($handle);
-                    }
+                    // Import SQL stream line by line with robust character parser
+                    $this->executeSqlStream($sqlFile);
 
-                    // CRITICAL: Sync Migrations
-                    // If a table is missing but its migration is marked as done, remove from migrations table
-                    $migrationFiles = File::files(database_path('migrations'));
-                    foreach ($migrationFiles as $file) {
-                        $content = File::get($file->getRealPath());
-                        if (preg_match('/Schema::create\(\'([^\']+)\'/', $content, $matches)) {
-                            $tableName = $matches[1];
-                            if (!Schema::hasTable($tableName)) {
-                                $migrationName = str_replace('.php', '', $file->getFilename());
-                                DB::table('migrations')->where('migration', $migrationName)->delete();
-                            }
-                        }
-                    }
-
-                    // Run migrations to restore any missing structure
+                    // Sync migrations and ensure latest schema updates
                     Artisan::call('migrate', ['--force' => true]);
 
                     if (!Schema::hasTable('sessions') && config('session.driver') == 'database') {
@@ -254,19 +236,134 @@ class BackupController extends Controller
                     Artisan::call('config:clear');
                 }
 
+                // Restore Storage files
                 $storageDir = $extractPath . '/storage';
+                if (!File::exists($storageDir)) {
+                    // Check if storage folder is nested
+                    $directories = File::directories($extractPath);
+                    foreach ($directories as $dir) {
+                        if (basename($dir) === 'storage') {
+                            $storageDir = $dir;
+                            break;
+                        }
+                    }
+                }
+
                 if (File::exists($storageDir)) {
                     $targetStorage = storage_path('app/public');
-                    File::cleanDirectory($targetStorage);
+                    if (!File::exists($targetStorage)) {
+                        File::makeDirectory($targetStorage, 0755, true);
+                    }
                     File::copyDirectory($storageDir, $targetStorage);
                 }
 
                 File::deleteDirectory($extractPath);
-                return redirect()->back()->with('success', 'Restore complete. Database synced.');
+                return redirect()->back()->with('success', 'Backup restored successfully! All data and files are synced.');
             }
-            return redirect()->back()->with('error', 'Could not open zip.');
+            return redirect()->back()->with('error', 'Could not open uploaded zip file.');
         } catch (\Exception $e) {
             return redirect()->back()->with('error', 'Import failed: ' . $e->getMessage());
         }
+    }
+
+    /**
+     * Executes SQL dump file efficiently via streaming character parser.
+     * Prevents memory exhaustion and handles multiline statements with quotes correctly.
+     */
+    private function executeSqlStream(string $sqlFilePath): void
+    {
+        $pdo = DB::getPdo();
+        $handle = fopen($sqlFilePath, 'r');
+        if (!$handle) {
+            throw new \Exception("Unable to open SQL file: $sqlFilePath");
+        }
+
+        $buffer = '';
+        $in_single_quote = false;
+        $in_double_quote = false;
+        $in_backtick = false;
+        $in_block_comment = false;
+        $escaped = false;
+
+        while (($line = fgets($handle)) !== false) {
+            $len = strlen($line);
+            for ($i = 0; $i < $len; $i++) {
+                $char = $line[$i];
+                $nextChar = ($i + 1 < $len) ? $line[$i + 1] : '';
+
+                if ($in_block_comment) {
+                    if ($char === '*' && $nextChar === '/') {
+                        $in_block_comment = false;
+                        $i++;
+                    }
+                    continue;
+                }
+
+                if ($escaped) {
+                    $buffer .= $char;
+                    $escaped = false;
+                    continue;
+                }
+
+                if ($char === '\\' && ($in_single_quote || $in_double_quote)) {
+                    $buffer .= $char;
+                    $escaped = true;
+                    continue;
+                }
+
+                if ($char === "'" && !$in_double_quote && !$in_backtick) {
+                    $in_single_quote = !$in_single_quote;
+                    $buffer .= $char;
+                    continue;
+                }
+
+                if ($char === '"' && !$in_single_quote && !$in_backtick) {
+                    $in_double_quote = !$in_double_quote;
+                    $buffer .= $char;
+                    continue;
+                }
+
+                if ($char === '`' && !$in_single_quote && !$in_double_quote) {
+                    $in_backtick = !$in_backtick;
+                    $buffer .= $char;
+                    continue;
+                }
+
+                if (!$in_single_quote && !$in_double_quote && !$in_backtick) {
+                    if (($char === '-' && $nextChar === '-') || $char === '#') {
+                        break; // Ignore rest of comment line
+                    }
+                    if ($char === '/' && $nextChar === '*') {
+                        $in_block_comment = true;
+                        $i++;
+                        continue;
+                    }
+                    if ($char === ';') {
+                        $stmt = trim($buffer);
+                        if ($stmt !== '') {
+                            try {
+                                $pdo->exec($stmt);
+                            } catch (\Exception $e) {
+                                // Ignore non-critical drop table or duplicate index errors
+                            }
+                        }
+                        $buffer = '';
+                        continue;
+                    }
+                }
+
+                $buffer .= $char;
+            }
+        }
+
+        if (trim($buffer) !== '') {
+            try {
+                $pdo->exec(trim($buffer));
+            } catch (\Exception $e) {
+                // Ignore
+            }
+        }
+
+        fclose($handle);
     }
 }

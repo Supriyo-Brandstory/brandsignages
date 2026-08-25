@@ -11,9 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('sitemaps', function (Blueprint $table) {
-            $table->longText('sitemap')->nullable()->change();
-        });
+        if (Schema::hasTable('sitemaps')) {
+            Schema::table('sitemaps', function (Blueprint $table) {
+                $table->longText('sitemap')->nullable()->change();
+            });
+        }
     }
 
     /**
@@ -21,8 +23,10 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('sitemaps', function (Blueprint $table) {
-            $table->text('sitemap')->nullable()->change();
-        });
+        if (Schema::hasTable('sitemaps')) {
+            Schema::table('sitemaps', function (Blueprint $table) {
+                $table->text('sitemap')->nullable()->change();
+            });
+        }
     }
 };
