@@ -1079,7 +1079,7 @@
             max-width: 100%;
             height: auto;
             border-radius: 14px;
-            margin: 1.8rem 0;
+            margin: 1.4rem 0 0;
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
             border: 1px solid #f1f5f9;
         }
@@ -1499,5 +1499,11 @@
         .related-blog-card:hover .card-read-more-link {
             transform: translateX(4px);
         }
+
+@media (max-width: 991px) {
+    .align-items-center {
+        align-items: center !important;
+    }
+}
     </style>
 @endsection
