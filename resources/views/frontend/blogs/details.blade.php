@@ -1078,8 +1078,8 @@
         .bs-blog-article img {
             max-width: 100%;
             height: auto;
-            border-radius: 14px;
-            margin: 1.4rem 0 0;
+            border-radius: 6px;
+            margin: 0rem 0 0;
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
             border: 1px solid #f1f5f9;
         }
