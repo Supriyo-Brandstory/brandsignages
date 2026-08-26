@@ -18,8 +18,8 @@
     <main class="blog-details-wrapper">
         <div class="container-fluid px-3 px-md-4 px-lg-5 py-4">
 
-            <!-- Breadcrumbs Header -->
-            <nav aria-label="breadcrumb" class="mb-3">
+            <!-- Breadcrumbs Header (Desktop only) -->
+            <nav aria-label="breadcrumb" class="mb-3 d-none d-md-block">
                 <ol class="bs-breadcrumb">
                     <li class="breadcrumb-item">
                         <a href="{{ route('index') }}"><i class="fa-solid fa-house me-1"></i>Home</a>
@@ -52,61 +52,68 @@
                 <h1 class="blog-main-title">{{ $blog->title }}</h1>
 
                 <!-- Meta row: Author, Date, Read Time, Share -->
-                <div class="blog-meta-bar d-flex flex-wrap justify-content-between align-items-center gap-3 py-3 border-top border-bottom my-3">
-                    <div class="d-flex flex-wrap align-items-center gap-3">
-                        <div class="author-snippet d-flex align-items-center">
-                            <div class="author-avatar-circle me-2">
+                <div class="blog-meta-bar py-3 border-top border-bottom my-3">
+                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+                        <!-- Author + Date + Read Time -->
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="author-avatar-circle">
                                 <i class="fa-solid fa-user-tie"></i>
                             </div>
-                            <div class="author-info">
-                                <span class="text-muted d-block small">Written by</span>
-                                <a href="{{ route('bala_kumaranan') }}" class="author-name fw-bold">Manoj Kaliyannan</a>
+                            <div class="author-meta-info">
+                                <div class="author-line">
+                                    <span class="text-muted small">Written by</span>
+                                    <a href="{{ route('bala_kumaranan') }}" class="author-name fw-bold ms-1">Manoj Kaliyannan</a>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 text-muted small mt-1">
+                                    <span class="d-inline-flex align-items-center">
+                                        <i class="fa-regular fa-calendar me-1 text-brand"></i>{{ $publishDate }}
+                                    </span>
+                                    <span class="meta-dot text-secondary">•</span>
+                                    <span class="d-inline-flex align-items-center">
+                                        <i class="fa-regular fa-clock me-1 text-brand"></i>{{ $readingTime }} min read
+                                    </span>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="meta-divider d-none d-sm-block"></div>
-
-                        <div class="meta-item text-muted small d-flex align-items-center">
-                            <i class="fa-regular fa-calendar me-1 text-brand"></i>
-                            <span>{{ $publishDate }}</span>
+                        <!-- Quick Share Icons -->
+                        <div class="blog-share-actions d-flex align-items-center justify-content-between justify-content-md-end gap-2">
+                            <span class="text-muted small fw-semibold">Share:</span>
+                            <div class="d-flex align-items-center gap-2">
+                                <a href="https://api.whatsapp.com/send?text={{ $shareTitle }}%20{{ urlencode($shareUrl) }}"
+                                   target="_blank" rel="noopener noreferrer" class="share-btn share-whatsapp" title="Share on WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ urlencode($shareUrl) }}"
+                                   target="_blank" rel="noopener noreferrer" class="share-btn share-linkedin" title="Share on LinkedIn">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://twitter.com/intent/tweet?text={{ $shareTitle }}&url={{ urlencode($shareUrl) }}"
+                                   target="_blank" rel="noopener noreferrer" class="share-btn share-twitter" title="Share on X">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode($shareUrl) }}"
+                                   target="_blank" rel="noopener noreferrer" class="share-btn share-facebook" title="Share on Facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="javascript:void(0)" role="button" class="share-btn share-copy js-copy-link" title="Copy Link" data-url="{{ $shareUrl }}">
+                                    <i class="fa-solid fa-link"></i>
+                                    <span class="copy-tooltip">Copied!</span>
+                                </a>
+                            </div>
                         </div>
-
-                        <div class="meta-divider d-none d-sm-block"></div>
-
-                        <div class="meta-item text-muted small d-flex align-items-center">
-                            <i class="fa-regular fa-clock me-1 text-brand"></i>
-                            <span>{{ $readingTime }} min read</span>
-                        </div>
-                    </div>
-
-                    <!-- Quick Share Icons -->
-                    <div class="blog-share-actions d-flex align-items-center gap-2">
-                        <span class="text-muted small fw-semibold d-none d-md-inline">Share:</span>
-                        <a href="https://api.whatsapp.com/send?text={{ $shareTitle }}%20{{ urlencode($shareUrl) }}"
-                           target="_blank" rel="noopener noreferrer" class="share-btn share-whatsapp" title="Share on WhatsApp">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ urlencode($shareUrl) }}"
-                           target="_blank" rel="noopener noreferrer" class="share-btn share-linkedin" title="Share on LinkedIn">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://twitter.com/intent/tweet?text={{ $shareTitle }}&url={{ urlencode($shareUrl) }}"
-                           target="_blank" rel="noopener noreferrer" class="share-btn share-twitter" title="Share on X">
-                            <i class="fa-brands fa-x-twitter"></i>
-                        </a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode($shareUrl) }}"
-                           target="_blank" rel="noopener noreferrer" class="share-btn share-facebook" title="Share on Facebook">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <button type="button" class="share-btn share-copy js-copy-link" title="Copy Link" data-url="{{ $shareUrl }}">
-                            <i class="fa-solid fa-link"></i>
-                            <span class="copy-tooltip">Copied!</span>
-                        </button>
                     </div>
                 </div>
             </header>
 
-            <!-- Featured Media / Gallery Section -->
+        
+
+            <!-- Main Content + Sticky Sidebar Layout -->
+            <div class="row g-4 g-xl-5">
+
+                <!-- Left: Article Content Body -->
+                <div class="col-lg-8">
+                    <!-- Featured Media / Gallery Section -->
             <div class="blog-hero-media mb-4">
                 @if ($blog->gallery_images && count($blog->gallery_images) > 0)
                     <!-- Desktop & Mobile Swiper Gallery -->
@@ -152,12 +159,6 @@
                     </div>
                 @endif
             </div>
-
-            <!-- Main Content + Sticky Sidebar Layout -->
-            <div class="row g-4 g-xl-5">
-
-                <!-- Left: Article Content Body -->
-                <div class="col-lg-8 order-last order-lg-first">
                     <article class="bs-blog-article">
                         @php
                             // Format headings to add slugs for TOC
@@ -207,9 +208,9 @@
                                        target="_blank" rel="noopener noreferrer" class="share-btn share-twitter sm" title="X">
                                         <i class="fa-brands fa-x-twitter"></i>
                                     </a>
-                                    <button type="button" class="share-btn share-copy sm js-copy-link" title="Copy link" data-url="{{ $shareUrl }}">
+                                    <a href="javascript:void(0)" role="button" class="share-btn share-copy sm js-copy-link" title="Copy link" data-url="{{ $shareUrl }}">
                                         <i class="fa-solid fa-link"></i>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -316,8 +317,8 @@
 
                 </div>
 
-                <!-- Right: Modern Sticky Sidebar (Desktop) -->
-                <div class="col-lg-4 order-first order-lg-last">
+                <!-- Right: Modern Sticky Sidebar (Desktop only) -->
+                <div class="col-lg-4 d-none d-lg-block">
                     <aside class="blog-sidebar-sticky">
 
                         <!-- Table of Contents Card -->
@@ -770,6 +771,30 @@
             color: var(--bs-brand-primary);
         }
 
+        .author-meta-info {
+            line-height: 1.35;
+        }
+
+        .meta-dot {
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 767.98px) {
+            .blog-share-actions {
+                border-top: 1px dashed #e2e8f0;
+                padding-top: 10px;
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .blog-share-actions {
+                border-top: none;
+                padding-top: 0;
+            }
+        }
+
         .meta-divider {
             width: 1px;
             height: 24px;
@@ -780,6 +805,7 @@
         .share-btn {
             width: 36px;
             height: 36px;
+            min-width: 36px;
             border-radius: 50%;
             display: inline-flex;
             align-items: center;
@@ -788,6 +814,14 @@
             text-decoration: none;
             font-size: 0.9rem;
             border: none;
+            outline: none;
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+            cursor: pointer;
+            vertical-align: middle;
+            flex-shrink: 0;
+            box-sizing: border-box;
             transition: all 0.25s ease;
             position: relative;
         }
@@ -801,6 +835,7 @@
         .share-btn.sm {
             width: 32px;
             height: 32px;
+            min-width: 32px;
             font-size: 0.8rem;
         }
 
@@ -925,7 +960,6 @@
            ARTICLE CONTENT STYLING (Modern Editorial)
            ========================================================================== */
         .bs-blog-article {
-            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
             font-size: 1.1rem;
             line-height: 1.85;
             color: #334155;
@@ -951,14 +985,32 @@
             margin-bottom: 0;
         }
 
-        /* Headings Inside Article */
+        /* Headings Inside Article & Titles */
+        .blog-main-title,
+        .blog-main-title *,
+        .bs-blog-article h1,
+        .bs-blog-article h2,
+        .bs-blog-article h3,
+        .bs-blog-article h4,
+        .bs-blog-article h5,
+        .bs-blog-article h6,
+        .bs-blog-article h1 *,
+        .bs-blog-article h2 *,
+        .bs-blog-article h3 *,
+        .bs-blog-article h4 *,
+        .bs-blog-article h5 *,
+        .bs-blog-article h6 *,
+        .blog-heading,
+        .blog-heading * {
+            font-family: 'Lora', Georgia, serif !important;
+            color: #0f172a;
+            font-weight: 600;
+        }
+
         .bs-blog-article h1,
         .bs-blog-article h2,
         .bs-blog-article h3,
         .bs-blog-article h4 {
-            font-family: 'Lora', Georgia, serif;
-            color: #0f172a;
-            font-weight: 700;
             margin-top: 2.4rem;
             margin-bottom: 1.1rem;
             scroll-margin-top: 100px;
@@ -967,7 +1019,6 @@
         }
 
         .bs-blog-article h2 {
-            font-size: 1.85rem;
             padding-left: 14px;
             border-left: 4px solid var(--bs-brand-primary);
         }
