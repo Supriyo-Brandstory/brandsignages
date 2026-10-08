@@ -515,4 +515,111 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // Marketing Platforms Tabs Interactivity
+    const mpsTabs = document.querySelectorAll('.mps-tab-item');
+    if (mpsTabs.length > 0) {
+        mpsTabs.forEach(tab => {
+            tab.addEventListener('click', function () {
+                const isMobile = window.innerWidth < 992;
+                const targetId = this.getAttribute('data-target');
+                const targetPanel = document.getElementById(targetId);
+                const mobileTargetPanel = document.getElementById('mobile-' + targetId);
+                const isCurrentlyActive = this.classList.contains('active');
+
+                // On mobile (< 992px): if user taps already active tab, allow toggle collapse
+                if (isMobile && isCurrentlyActive) {
+                    this.classList.remove('active');
+                    this.setAttribute('aria-selected', 'false');
+                    if (mobileTargetPanel) mobileTargetPanel.classList.remove('active');
+                    return;
+                }
+
+                // Deactivate all tabs, desktop panels, and mobile panels
+                mpsTabs.forEach(t => {
+                    t.classList.remove('active');
+                    t.setAttribute('aria-selected', 'false');
+                });
+                document.querySelectorAll('.mps-panel').forEach(p => {
+                    p.classList.remove('active');
+                });
+                document.querySelectorAll('.mps-mobile-content').forEach(p => {
+                    p.classList.remove('active');
+                });
+
+                // Activate clicked tab
+                this.classList.add('active');
+                this.setAttribute('aria-selected', 'true');
+
+                // Activate desktop target panel
+                if (targetPanel) {
+                    targetPanel.classList.add('active');
+                }
+
+                // Activate mobile target panel
+                if (mobileTargetPanel) {
+                    mobileTargetPanel.classList.add('active');
+                }
+
+                // On mobile: smoothly align clicked tab right below sticky header so it doesn't shoot up
+                if (isMobile) {
+                    const alignTab = () => {
+                        const siteHeader = document.querySelector('.custom-header');
+                        const headerHeight = siteHeader ? siteHeader.offsetHeight : 75;
+                        const tabRect = tab.getBoundingClientRect();
+                        const targetScrollTop = window.pageYOffset + tabRect.top - headerHeight - 12;
+
+                        window.scrollTo({
+                            top: Math.max(0, targetScrollTop),
+                            behavior: 'smooth'
+                        });
+                    };
+
+                    requestAnimationFrame(alignTab);
+                    setTimeout(alignTab, 50);
+                }
+            });
+        });
+    }
+
+    // Real Estate Investment Accordion (Single-open mode: opening one closes others)
+    const reiItems = document.querySelectorAll('.rei-accordion-item');
+    if (reiItems.length > 0) {
+        reiItems.forEach(item => {
+            const header = item.querySelector('.rei-accordion-header');
+            if (header) {
+                header.addEventListener('click', function () {
+                    const isCurrentlyActive = item.classList.contains('active');
+
+                    // Close all items
+                    reiItems.forEach(otherItem => {
+                        otherItem.classList.remove('active');
+                        const otherHeader = otherItem.querySelector('.rei-accordion-header');
+                        if (otherHeader) {
+                            otherHeader.setAttribute('aria-expanded', 'false');
+                        }
+                    });
+
+                    // If it was not active before, open this item
+                    if (!isCurrentlyActive) {
+                        item.classList.add('active');
+                        this.setAttribute('aria-expanded', 'true');
+
+                        // Keep header clearly visible below sticky navbar
+                        setTimeout(() => {
+                            const siteHeader = document.querySelector('.custom-header');
+                            const hHeight = siteHeader ? siteHeader.offsetHeight : 75;
+                            const itemRect = item.getBoundingClientRect();
+                            if (itemRect.top < hHeight) {
+                                window.scrollTo({
+                                    top: Math.max(0, window.pageYOffset + itemRect.top - hHeight - 12),
+                                    behavior: 'smooth'
+                                });
+                            }
+                        }, 50);
+                    }
+                });
+            }
+        });
+    }
 });
