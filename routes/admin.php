@@ -29,6 +29,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::delete('/media/delete', [MediaController::class, 'delete'])->name('admin.media.delete');
 
     Route::resource('/seo', SEOController::class);
+    Route::post('/sitemap/sync', [SitemapController::class, 'sync'])->name('sitemap.sync');
     Route::resource('/sitemap', SitemapController::class);
     route::resource('categories', CategoryController::class);
     Route::resource('menus', MenuController::class);

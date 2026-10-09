@@ -26,6 +26,9 @@ class AppServiceProvider extends ServiceProvider
             URL::forceScheme('https');
         }
 
+        \App\Models\Blog::observe(\App\Observers\BlogObserver::class);
+        \App\Models\CustomPage::observe(\App\Observers\CustomPageObserver::class);
+
         view()->composer('frontend.layout.appLayout', function ($view) {
             $headerMenus = \App\Models\Menu::with(['children' => function ($q) {
                 $q->with(['children' => function ($sq) {
