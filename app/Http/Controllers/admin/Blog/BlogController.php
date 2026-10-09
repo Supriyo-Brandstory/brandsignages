@@ -64,7 +64,7 @@ class BlogController extends Controller
             }
         }
 
-        Blog::create([
+        $blog = Blog::create([
             'blog_sub_category_id' => $request->blog_sub_category_id,
             'title' => $request->title,
             'content' => $request->content,
@@ -73,6 +73,16 @@ class BlogController extends Controller
             'topic' => $request->topic,
             'reding_time' => $request->reding_time,
         ]);
+
+        // Explicitly sync to sitemap immediately
+        try {
+            if (!empty($blog->slug)) {
+                $domain = \App\Services\SitemapService::getDomain();
+                \App\Services\SitemapService::addOrUpdateUrl($domain . '/blogs/' . ltrim($blog->slug, '/'));
+            }
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::error('Sitemap blog create sync error: ' . $e->getMessage());
+        }
 
         Session::flash('msg', 'Blog created successfully!');
         return redirect()->route('blogs.index');
@@ -129,6 +139,8 @@ class BlogController extends Controller
             }
         }
 
+        $oldSlug = $blog->slug;
+
         $blog->update([
             'blog_sub_category_id' => $request->blog_sub_category_id,
             'title' => $request->title,
@@ -140,6 +152,16 @@ class BlogController extends Controller
             'gallery_images' => $galleryImages,
         ]);
 
+        // Explicitly update sitemap (replace old URL with new URL)
+        try {
+            $domain = \App\Services\SitemapService::getDomain();
+            $oldUrl = !empty($oldSlug) ? $domain . '/blogs/' . ltrim($oldSlug, '/') : null;
+            $newUrl = $domain . '/blogs/' . ltrim($blog->slug, '/');
+            \App\Services\SitemapService::addOrUpdateUrl($newUrl, $oldUrl);
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::error('Sitemap blog update sync error: ' . $e->getMessage());
+        }
+
         Session::flash('msg', 'Blog updated successfully!');
         return redirect()->route('blogs.index');
     }
@@ -149,6 +171,8 @@ class BlogController extends Controller
      */
     public function destroy(Blog $blog)
     {
+        $deletedSlug = $blog->slug;
+
         if ($blog->image) {
             Storage::disk('public')->delete($blog->image);
         }
@@ -158,6 +182,16 @@ class BlogController extends Controller
             }
         }
         $blog->delete();
+
+        // Explicitly remove from sitemap
+        try {
+            if (!empty($deletedSlug)) {
+                $domain = \App\Services\SitemapService::getDomain();
+                \App\Services\SitemapService::removeUrl($domain . '/blogs/' . ltrim($deletedSlug, '/'));
+            }
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::error('Sitemap blog delete sync error: ' . $e->getMessage());
+        }
 
         Session::flash('msg', 'Blog deleted successfully!');
         return redirect()->route('blogs.index');

@@ -43,7 +43,17 @@ class CustomPageController extends Controller
             'custom_css' => 'nullable|string',
         ]);
 
-        CustomPage::create($request->all());
+        $page = CustomPage::create($request->all());
+
+        // Explicitly sync to sitemap immediately
+        try {
+            if (!empty($page->slug)) {
+                $domain = \App\Services\SitemapService::getDomain();
+                \App\Services\SitemapService::addOrUpdateUrl($domain . '/' . ltrim($page->slug, '/'));
+            }
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::error('Sitemap page create sync error: ' . $e->getMessage());
+        }
 
         Session::flash('msg', 'Custom Page created successfully!');
         return redirect()->route('custom-pages.index');
@@ -97,7 +107,18 @@ class CustomPageController extends Controller
             'custom_css' => 'nullable|string',
         ]);
 
+        $oldSlug = $page->slug;
         $page->update($request->all());
+
+        // Explicitly update sitemap (replace old URL with new URL)
+        try {
+            $domain = \App\Services\SitemapService::getDomain();
+            $oldUrl = !empty($oldSlug) ? $domain . '/' . ltrim($oldSlug, '/') : null;
+            $newUrl = $domain . '/' . ltrim($page->slug, '/');
+            \App\Services\SitemapService::addOrUpdateUrl($newUrl, $oldUrl);
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::error('Sitemap page update sync error: ' . $e->getMessage());
+        }
 
         Session::flash('msg', 'Custom Page updated successfully!');
         return redirect()->route('custom-pages.index');
@@ -109,7 +130,18 @@ class CustomPageController extends Controller
     public function destroy(string $id)
     {
         $page = CustomPage::findOrFail($id);
+        $deletedSlug = $page->slug;
         $page->delete();
+
+        // Explicitly remove from sitemap
+        try {
+            if (!empty($deletedSlug)) {
+                $domain = \App\Services\SitemapService::getDomain();
+                \App\Services\SitemapService::removeUrl($domain . '/' . ltrim($deletedSlug, '/'));
+            }
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::error('Sitemap page delete sync error: ' . $e->getMessage());
+        }
 
         Session::flash('msg', 'Custom Page deleted successfully!');
         return redirect()->route('custom-pages.index');

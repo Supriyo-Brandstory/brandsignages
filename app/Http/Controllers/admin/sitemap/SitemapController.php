@@ -59,6 +59,9 @@ class SitemapController extends Controller
 
     public function sync()
     {
+        @ini_set('memory_limit', '512M');
+        @set_time_limit(300);
+
         $count = \App\Services\SitemapService::syncAll();
 
         return redirect()->route('sitemap.index')->with('success', "Sitemap synced successfully! Added/updated {$count} URLs.");

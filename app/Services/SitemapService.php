@@ -105,8 +105,15 @@ class SitemapService
         $content = $record->sitemap ?? '';
         $addedOrUpdated = 0;
 
-        // 1. Sync all Blogs
-        $blogs = Blog::all();
+        @ini_set('memory_limit', '512M');
+        @set_time_limit(300);
+
+        // 1. Sync all Blogs (only select needed columns to prevent memory exhaustion)
+        $blogs = Blog::select('id', 'slug', 'updated_at')
+            ->whereNotNull('slug')
+            ->where('slug', '!=', '')
+            ->cursor();
+
         foreach ($blogs as $blog) {
             if (empty($blog->slug)) {
                 continue;
@@ -122,8 +129,12 @@ class SitemapService
             }
         }
 
-        // 2. Sync all Custom Pages
-        $pages = CustomPage::all();
+        // 2. Sync all Custom Pages (only select needed columns)
+        $pages = CustomPage::select('id', 'slug', 'updated_at')
+            ->whereNotNull('slug')
+            ->where('slug', '!=', '')
+            ->cursor();
+
         foreach ($pages as $page) {
             if (empty($page->slug)) {
                 continue;
@@ -207,9 +218,11 @@ class SitemapService
                 . $cleaned . "\n"
                 . "</urlset>\n";
 
-            File::put(public_path('sitemap.xml'), $fullXml);
+            $path = public_path('sitemap.xml');
+            File::put($path, $fullXml);
+            @chmod($path, 0666);
         } catch (\Throwable $e) {
-            // Log or ignore file write failure if permissions deny
+            \Illuminate\Support\Facades\Log::warning('Sitemap file write: ' . $e->getMessage());
         }
     }
 
