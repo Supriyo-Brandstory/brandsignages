@@ -24,7 +24,7 @@ class BlogController extends Controller
                   ->orWhere('topic', 'LIKE', "%{$search}%")
                   ->orWhere('content', 'LIKE', "%{$search}%");
         }
-        $blogs = $query->paginate(10);
+        $blogs = $query->orderBy('id', 'desc')->paginate(10);
         return view('admin.blogs.index', compact('blogs'));
     }
 

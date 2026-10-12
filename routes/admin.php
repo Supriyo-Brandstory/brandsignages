@@ -42,6 +42,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     route::resource('contacts', contactController::class);
     route::resource('custom-inquiries', coustomQuery::class);
 
+    Route::post('/custom-pages/bulk-upload', [CustomPageController::class, 'bulkUpload'])->name('custom-pages.bulk-upload');
+    Route::get('/custom-pages/sample-file', [CustomPageController::class, 'downloadSampleFile'])->name('custom-pages.sample-file');
     Route::resource('custom-pages', CustomPageController::class);
     Route::post('/custom-pages/visual-editor', [CustomPageController::class, 'visualEditorPreview'])->name('custom-pages.visual-editor');
     Route::get('/manage-css', [CustomPageController::class, 'manageCss'])->name('custom-pages.manage-css');

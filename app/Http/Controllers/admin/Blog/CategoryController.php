@@ -12,7 +12,7 @@ class CategoryController extends Controller
         // Display the list of categories with their subcategories
         public function index()
         {
-            $categories = BlogCategory::with('subCategories')->paginate(10);
+            $categories = BlogCategory::with('subCategories')->orderBy('id', 'desc')->paginate(10);
             return view('admin.blogs.categories.index', compact('categories'));
         }
     

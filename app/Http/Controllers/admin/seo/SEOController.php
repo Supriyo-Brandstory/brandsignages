@@ -19,7 +19,7 @@ class SEOController extends Controller
             $query->where('page_url', 'LIKE', "%{$search}%")
                   ->orWhere('script', 'LIKE', "%{$search}%");
         }
-        $seos = $query->paginate(10);
+        $seos = $query->orderBy('id', 'desc')->paginate(10);
         return view('admin.seo.index', compact('seos'));
     }
 

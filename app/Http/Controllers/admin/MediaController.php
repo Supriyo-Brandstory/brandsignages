@@ -20,6 +20,12 @@ class MediaController extends Controller
         $directories = Storage::disk($this->disk)->directories($path);
         $files = Storage::disk($this->disk)->files($path);
 
+        // Sort directories and files in descending order (newest first)
+        rsort($directories);
+        usort($files, function ($a, $b) {
+            return Storage::disk($this->disk)->lastModified($b) <=> Storage::disk($this->disk)->lastModified($a);
+        });
+
         $breadcrumb = [];
         $parts = array_filter(explode('/', $path));
         $currentPath = '';
