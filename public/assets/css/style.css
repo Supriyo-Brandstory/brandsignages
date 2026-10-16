@@ -613,7 +613,7 @@ h6 {
     background-color: #fff;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
     .sidebar {
         left: -300px;
     }
@@ -629,20 +629,20 @@ h6 {
     background-color: #aab7cf;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     #main,
     #footer {
         margin-left: 300px;
     }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 991px) {
     .toggle-sidebar .sidebar {
         left: 0;
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     .toggle-sidebar #main,
     .toggle-sidebar #footer {
         margin-left: 0;

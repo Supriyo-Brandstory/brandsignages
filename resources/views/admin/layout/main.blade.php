@@ -14,7 +14,7 @@
     <!-- Add the custom styles here -->
     <style>
         html, body {
-            height: 100%;
+            min-height: 100%;
             margin: 0;
             display: flex;
             flex-direction: column;
@@ -22,6 +22,7 @@
 
         #main {
             flex: 1;
+            transition: all 0.3s ease-in-out;
         }
 
         #footer {
@@ -30,9 +31,46 @@
             padding: 10px;
             position: relative;
             margin-top: auto;
+            transition: all 0.3s ease-in-out;
         }
+
         #sidebar {
-            background-color: #eee5e5
+            background-color: #eee5e5;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Ensure proper sidebar & main spacing on all laptop & desktop screens (>= 992px) */
+        @media (min-width: 992px) {
+            #sidebar {
+                left: 0;
+            }
+            #main,
+            #footer {
+                margin-left: 300px;
+            }
+            body.toggle-sidebar #sidebar {
+                left: -300px;
+            }
+            body.toggle-sidebar #main,
+            body.toggle-sidebar #footer {
+                margin-left: 0;
+            }
+        }
+
+        /* Mobile & small tablet screens (< 992px) */
+        @media (max-width: 991px) {
+            #sidebar {
+                left: -300px;
+                z-index: 9999;
+            }
+            #main,
+            #footer {
+                margin-left: 0;
+            }
+            body.toggle-sidebar #sidebar {
+                left: 0;
+                box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+            }
         }
     </style>
 </head>
