@@ -785,13 +785,13 @@ class frontendController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'first_name' => 'required|string|max:255',
-            'last_name' => 'string|max:255',
-            'email' => 'email',
+            'first_name'   => 'required|string|max:255',
+            'last_name'    => 'nullable|string|max:255',
+            'email'        => 'nullable|email|max:255',
             'phone_number' => 'required|string|max:20',
-            'message' => 'nullable|string|max:5000',
-            'location' => 'required|string|max:255',
-            'captcha' => 'required|captcha',
+            'message'      => 'nullable|string|max:5000',
+            'location'     => 'nullable|string|max:255',
+            'captcha'      => 'required|captcha',
         ]);
 
         if ($validator->fails()) {
@@ -805,48 +805,59 @@ class frontendController extends Controller
 
         Contact::create($request->except('captcha', '_token'));
 
+        $first_name = isset($request->first_name) ? trim($request->first_name) : '';
+        $last_name  = isset($request->last_name) ? trim($request->last_name) : '';
+        $email      = isset($request->email) ? trim($request->email) : '';
+        $phone      = isset($request->phone_number) ? trim($request->phone_number) : '';
+        $message    = isset($request->message) ? trim($request->message) : '';
+        $location   = isset($request->location) ? trim($request->location) : '';
 
+        $itemName = trim($first_name . ' ' . $last_name);
+        if (empty($itemName)) {
+            $itemName = 'New Lead - ' . ($phone ?: 'Website Inquiry');
+        }
 
-
-        // Use isset() as requested
-        $first_name = isset($request->first_name) ? $request->first_name : '';
-        $last_name  = isset($request->last_name) ? $request->last_name : '';
-        $email      = isset($request->email) ? $request->email : '';
-        $phone      = isset($request->phone_number) ? $request->phone_number : '';
-        $message    = isset($request->message) ? $request->message : '';
-
-        $itemName = $first_name . ' ' . $last_name;
+        $fullMessage = $message;
+        if (!empty($location)) {
+            $fullMessage = (!empty($fullMessage) ? $fullMessage . "\nLocation: " : "Location: ") . $location;
+        }
 
         $apiToken = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjcxNjk4ODUyMCwiYWFpIjoxMSwidWlkIjo3ODE2NDU5OCwiaWFkIjoiMjAyNi0xMC0yM1QwNjozMjoxMS4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzAzMTc0NjksInJnbiI6ImFwc2UyIn0.mocTgX7fDQj4B7h_6_HzYj2jS5pvXE3KvWQjhabiS9c';
 
         $columnValues = [
-            "email_mm0rwtqa" => ["email" => $email, "text" => $email],
-            "lead_phone" => ["phone" => $phone],
-            "text_mm0rryke"       => $first_name,
-            "text_mm0rwxvf"       => $last_name,
-            "phone_mm0ry4vs"       => $phone,
-            "long_text_mm0r8jx2"       => $message,
-
+            "text_mm0rryke"      => $first_name,
+            "text_mm0rwxvf"      => $last_name,
+            "phone_mm0ry4vs"     => $phone,
+            "long_text_mm0r8jx2" => $fullMessage,
         ];
+
+        if (!empty($email)) {
+            $columnValues["email_mm0rwtqa"] = ["email" => $email, "text" => $email];
+        }
 
         $boardId = '5026737339';
         $groupId = 'topics';
 
-        $columnValuesJson = json_encode($columnValues, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
-        $escapedColumnValues = addslashes($columnValuesJson);
+        $mutation = 'mutation ($boardId: ID!, $groupId: String!, $itemName: String!, $columnValues: JSON!) {
+            create_item (
+                board_id: $boardId,
+                group_id: $groupId,
+                item_name: $itemName,
+                column_values: $columnValues
+            ) {
+                id
+            }
+        }';
 
-        $query = 'mutation {
-        create_item (
-            board_id: ' . $boardId . ',
-            group_id: "' . $groupId . '",
-            item_name: "' . $itemName . '",
-            column_values: "' . $escapedColumnValues . '"
-        ) {
-            id
-        }
-    }';
-
-        $postData = json_encode(['query' => $query]);
+        $postData = json_encode([
+            'query' => $mutation,
+            'variables' => [
+                'boardId'      => (string) $boardId,
+                'groupId'      => (string) $groupId,
+                'itemName'     => (string) $itemName,
+                'columnValues' => json_encode($columnValues, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE),
+            ]
+        ]);
 
         $ch = curl_init('https://api.monday.com/v2');
 
@@ -864,12 +875,6 @@ class frontendController extends Controller
             Log::error('Curl Error: ' . curl_error($ch));
         } else {
             $result = json_decode($response, true);
-
-            if (isset($phone) && $phone == "9876543210") {
-                echo "<pre>";
-                print_r($result);
-                die;
-            }
             if (isset($result['errors'])) {
                 Log::error('Monday Error: ' . print_r($result['errors'], true));
             }

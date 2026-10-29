@@ -75,12 +75,22 @@
                         </div>
                         @endif
                         
+                        @if ($errors->any())
+                        <div class="alert alert-danger py-2">
+                            <ul class="mb-0 ps-3">
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                        @endif
+                        
                         @csrf
-                        <input type="text" class="form-control mb-3" name="first_name" placeholder="Full Name*" required>
-                        <input type="email" class="form-control mb-3" name="email" placeholder="Email*" required>
-                        <input type="tel" class="form-control mb-3" name="phone_number" placeholder="Phone Number*"
+                        <input type="text" class="form-control mb-3" name="first_name" value="{{ old('first_name') }}" placeholder="Full Name*" required>
+                        <input type="email" class="form-control mb-3" name="email" value="{{ old('email') }}" placeholder="Email*" required>
+                        <input type="tel" class="form-control mb-3" name="phone_number" value="{{ old('phone_number') }}" placeholder="Phone Number*"
                         required>
-                        <textarea class="form-control mb-3" name="message" rows="3" placeholder="Your message..." required></textarea>
+                        <textarea class="form-control mb-3" name="message" rows="3" placeholder="Your message..." required>{{ old('message') }}</textarea>
                         
                         <!-- CAPTCHA Image -->
                         <div class="form-group mt-3">
